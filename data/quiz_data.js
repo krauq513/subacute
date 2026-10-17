@@ -27,7 +27,13 @@ window.QUIZ_DATA = [
       "trap": "ANA, Anti-mitochondria(AMA), Anti-LKM은 Hep-2 세포나 조직 절편을 기질로 사용하여 IIF로 형광 패턴을 전형적으로 검출함.",
       "trigger": "★ 연도별 변형 주의! 26Y는 2개 선택(Anti-cardiolipin & RF), 23Y는 1개 선택(APA)! 조직 슬라이드에 부착할 세포 형태 기질이 없는 가용성 인자/인지질 항체를 선택.",
       "kmle_link": "KMLE 류마티스학 - 자가면역질환 검사법 (ANA 및 자가항체 측정 원리)"
-    }
+    },
+    "is_multiple_choice": true,
+    "required_count": 2,
+    "correct_option_indices": [
+      2,
+      3
+    ]
   },
   {
     "id": "진단검사의학과_26Y_Q02",

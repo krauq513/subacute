@@ -106,6 +106,7 @@
             <span class="qnum-badge" id="card-qnum">Q01</span>
             <span class="category-badge" id="card-category">짤</span>
             <span class="subspecialty-badge" id="card-subspecialty">진단면역학</span>
+            <span class="multi-badge" id="card-multi-badge" style="display: none;">복수 정답 (2개)</span>
           </div>
           <div class="meta-right">
             <span class="filter-counter" id="filter-counter">문항 1 / 211</span>
@@ -131,11 +132,25 @@
         <!-- Question Options (선지 ① ~ ⑤) -->
         <section class="card-options">
           <div class="options-header">
-            <span class="options-label">선지를 클릭하여 정답을 선택하세요</span>
-            <span class="kbd-tip">단축키: 숫자키 1 ~ 5</span>
+            <span class="options-label" id="options-label">선지를 클릭하여 정답을 선택하세요</span>
+            <span class="kbd-tip" id="options-kbd-tip">단축키: 숫자키 1 ~ 5</span>
           </div>
           <div class="options-list" id="options-list">
             <!-- Dynamic Option Buttons -->
+          </div>
+          <!-- Multi-Answer Action Bar -->
+          <div class="multi-action-bar" id="multi-action-bar" style="display: none;">
+            <div class="multi-status">
+              <span class="multi-indicator-dot"></span>
+              <span class="multi-status-text" id="multi-status-text">선택 현황: <strong>0 / 2개</strong></span>
+            </div>
+            <div class="multi-buttons">
+              <button class="btn-multi-reset" id="btn-multi-reset" type="button" title="선택 모두 초기화">선택 초기화</button>
+              <button class="btn-multi-submit" id="btn-multi-submit" type="button" disabled title="선택한 정답 확인">
+                <span class="submit-icon">✓</span>
+                <span id="multi-submit-text">정답 확인 (0/2)</span>
+              </button>
+            </div>
           </div>
         </section>
 
@@ -256,6 +271,7 @@
       <!-- Legend -->
       <div class="grid-legend">
         <span class="legend-item"><span class="legend-dot dot-correct"></span> 맞은 문제</span>
+        <span class="legend-item"><span class="legend-dot dot-partial"></span> 부분 정답</span>
         <span class="legend-item"><span class="legend-dot dot-wrong"></span> 틀린 문제</span>
         <span class="legend-item"><span class="legend-dot dot-unanswered"></span> 아직 안 푼 문제</span>
         <span class="legend-item"><span class="legend-dot dot-bookmark">★</span> 북마크</span>
@@ -306,7 +322,8 @@
     <div class="lightbox-bottom-hint">
       <span>💡 두 번 탭하거나 핀치하여 확대 • 드래그하여 이동</span>
     </div>
-  </div>
+  <!-- Toast notification message -->
+  <div class="toast-message" id="toast-message" style="display: none;"></div>
 
   <!-- Load Quiz Dataset (Embedded for instant local file:// execution without CORS) -->
   <script src="data/quiz_data.js"></script>

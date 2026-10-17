@@ -16,8 +16,9 @@
     allQuestions: [],
     filteredQuestions: [],
     currentIndex: 0,
-    userAnswers: {},   // qId -> { selectedIndex, isCorrect, timestamp }
+    userAnswers: {},   // qId -> { selectedIndices, selectedIndex, correctIndices, isCorrect, isPartial, score, timestamp }
     bookmarks: new Set(),
+    pendingSelections: new Set(), // Set of selected option indices (0-based) for multi-answer questions
     filters: {
       year: 'ALL',
       type: 'ALL',
@@ -48,12 +49,25 @@
     cardQnum: document.getElementById('card-qnum'),
     cardCategory: document.getElementById('card-category'),
     cardSubspecialty: document.getElementById('card-subspecialty'),
+    cardMultiBadge: document.getElementById('card-multi-badge'),
     filterCounter: document.getElementById('filter-counter'),
     btnBookmark: document.getElementById('btn-bookmark'),
     cardStem: document.getElementById('card-stem'),
     cardImagesContainer: document.getElementById('card-images-container'),
     cardImages: document.getElementById('card-images'),
+    optionsLabel: document.getElementById('options-label'),
+    optionsKbdTip: document.getElementById('options-kbd-tip'),
     optionsList: document.getElementById('options-list'),
+
+    // Multi-Answer Action Bar
+    multiActionBar: document.getElementById('multi-action-bar'),
+    multiStatusText: document.getElementById('multi-status-text'),
+    btnMultiReset: document.getElementById('btn-multi-reset'),
+    btnMultiSubmit: document.getElementById('btn-multi-submit'),
+    multiSubmitText: document.getElementById('multi-submit-text'),
+
+    // Toast Message
+    toastMessage: document.getElementById('toast-message'),
 
     // Feedback & Explanation
     feedbackBanner: document.getElementById('feedback-banner'),
@@ -233,6 +247,82 @@
   }
 
   /**
+   * Question Answer Configuration & Multi-Answer Detector Algorithm
+   * Analyzes the question data, stem text, and answer key to determine:
+   * - isMulti: boolean (is this a multi-answer question?)
+   * - requiredCount: number (how many options need to be selected?)
+   * - correctIndices: number[] (0-based indices of all correct options)
+   * - typeLabel: string (e.g., '단일 정답' or '복수 정답 (2개)')
+   */
+  function getQuestionAnswerConfig(q) {
+    if (!q) {
+      return { isMulti: false, requiredCount: 1, correctIndices: [0], typeLabel: '단일 정답' };
+    }
+
+    // 1. Direct explicit configuration in question data (highest priority)
+    if (Array.isArray(q.correct_option_indices) && q.correct_option_indices.length > 0) {
+      const sorted = [...new Set(q.correct_option_indices.map(Number))].sort((a, b) => a - b);
+      const isMulti = sorted.length > 1 || !!q.is_multiple_choice;
+      const req = q.required_count || sorted.length;
+      return {
+        isMulti,
+        requiredCount: req,
+        correctIndices: sorted,
+        typeLabel: isMulti ? `복수 정답 (${req}개)` : '단일 정답'
+      };
+    }
+
+    // 2. Check Stem for explicit count: e.g. (2개), (3개), 2개를 고르시오 (avoiding '2개월')
+    const stem = q.stem || '';
+    const stemMatch = stem.match(/\(([2-5])개\)|\(([2-5])가지\)|(?<!월)(?<![0-9])([2-5])개를\s*고르|(?<!월)(?<![0-9])([2-5])가지를\s*고르/i);
+    const stemCount = stemMatch ? parseInt(stemMatch[1] || stemMatch[2] || stemMatch[3] || stemMatch[4], 10) : null;
+    const stemHasModu = /모두\s*고르/i.test(stem);
+
+    // 3. Parse correct_answer string
+    const ca = String(q.correct_answer || '');
+    // Remove bracketed year tags like [26Y Q01 & 22Y Q50]
+    const caClean = ca.replace(/\[.*?\]/g, ' ');
+    // If separated by | (different years), check the first chunk
+    const firstChunk = caClean.includes('|') ? caClean.split('|')[0] : caClean;
+
+    // Detect circled numbers ① ~ ⑤
+    const circledMap = { '①': 0, '②': 1, '③': 2, '④': 3, '⑤': 4 };
+    const circledSymbols = firstChunk.match(/[①②③④⑤]/g) || [];
+    let detectedIndices = circledSymbols.map(c => circledMap[c]).filter(n => typeof n === 'number');
+    detectedIndices = [...new Set(detectedIndices)].sort((a, b) => a - b);
+
+    // Fallback: if single correct_option_index is present and no circled numbers detected
+    if (detectedIndices.length === 0 && q.correct_option_index !== undefined && q.correct_option_index !== null) {
+      detectedIndices = [Number(q.correct_option_index)];
+    }
+
+    const hasMultiKeyword = /복수\s*정답|정답\s*2개/i.test(caClean);
+    const isMulti = detectedIndices.length > 1 || (stemCount !== null && stemCount > 1) || hasMultiKeyword || stemHasModu;
+    const req = stemCount || (detectedIndices.length > 1 ? detectedIndices.length : (isMulti ? 2 : 1));
+
+    return {
+      isMulti,
+      requiredCount: req,
+      correctIndices: detectedIndices.length > 0 ? detectedIndices : [0],
+      typeLabel: isMulti ? `복수 정답 (${req}개)` : '단일 정답'
+    };
+  }
+
+  /**
+   * Non-intrusive Toast Notification
+   */
+  let toastTimer = null;
+  function showToast(message) {
+    if (!dom.toastMessage) return;
+    dom.toastMessage.textContent = message;
+    dom.toastMessage.style.display = 'block';
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => {
+      if (dom.toastMessage) dom.toastMessage.style.display = 'none';
+    }, 2400);
+  }
+
+  /**
    * Render Current Question
    */
   function renderCurrentQuestion() {
@@ -241,6 +331,7 @@
       dom.cardStem.textContent = '조건에 일치하는 문제가 없습니다. 필터를 초기화해 보세요.';
       dom.cardImagesContainer.style.display = 'none';
       dom.optionsList.innerHTML = '';
+      if (dom.multiActionBar) dom.multiActionBar.style.display = 'none';
       dom.feedbackBanner.style.display = 'none';
       dom.cardExplanation.style.display = 'none';
       dom.filterCounter.textContent = '문항 0 / 0';
@@ -311,13 +402,18 @@
       dom.cardImages.innerHTML = '';
     }
 
-    // Render Options
+    // Reset temporary selections for unanswered question
+    const answerRecord = state.userAnswers[q.id];
+    if (!answerRecord) {
+      state.pendingSelections.clear();
+    }
+
+    // Render Options & Action Bar
     renderOptions(q);
 
     // Check answered state
-    const answerRecord = state.userAnswers[q.id];
     if (answerRecord) {
-      revealAnswerAndExplanation(q, answerRecord.selectedIndex, false);
+      revealAnswerAndExplanation(q, answerRecord, false);
     } else {
       hideAnswerAndExplanation();
     }
@@ -326,13 +422,41 @@
   }
 
   /**
-   * Render Options List
+   * Render Options List and Multi-Submit Action Bar
    */
   function renderOptions(q) {
     dom.optionsList.innerHTML = '';
+    const config = getQuestionAnswerConfig(q);
     const answerRecord = state.userAnswers[q.id];
     const isAnswered = !!answerRecord;
 
+    // Header Badge & Tips
+    if (dom.cardMultiBadge) {
+      if (config.isMulti) {
+        dom.cardMultiBadge.style.display = 'inline-flex';
+        dom.cardMultiBadge.textContent = `복수 정답 (${config.requiredCount}개)`;
+      } else {
+        dom.cardMultiBadge.style.display = 'none';
+      }
+    }
+
+    if (dom.optionsLabel) {
+      if (config.isMulti) {
+        dom.optionsLabel.textContent = `복수 정답 문항입니다. 정답 ${config.requiredCount}개를 모두 선택하세요.`;
+      } else {
+        dom.optionsLabel.textContent = '선지를 클릭하여 정답을 선택하세요';
+      }
+    }
+
+    if (dom.optionsKbdTip) {
+      if (config.isMulti) {
+        dom.optionsKbdTip.textContent = '단축키: 1 ~ 5 (토글), Enter (정답 확인)';
+      } else {
+        dom.optionsKbdTip.textContent = '단축키: 숫자키 1 ~ 5';
+      }
+    }
+
+    // Render Option Buttons
     q.options.forEach((optText, optIdx) => {
       const btn = document.createElement('button');
       btn.className = 'option-btn';
@@ -345,8 +469,23 @@
       const numPrefix = numMatch ? numMatch[0].trim() : `${optIdx + 1}.`;
       const labelText = optText.replace(/^[①②③④⑤⑥⑦⑧\d\.\)\-\s]+/, '').trim() || optText;
 
+      const isPending = !isAnswered && config.isMulti && state.pendingSelections.has(optIdx);
+      if (isPending) {
+        btn.classList.add('is-selected-pending');
+      }
+
+      // Checkbox SVG for multi-choice
+      const checkboxHtml = config.isMulti ? `
+        <span class="option-checkbox" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </span>
+      ` : '';
+
       btn.innerHTML = `
         <div class="option-left">
+          ${checkboxHtml}
           <span class="option-num">${numPrefix}</span>
           <span class="option-label">${labelText}</span>
         </div>
@@ -358,76 +497,198 @@
 
       btn.addEventListener('click', () => {
         if (!state.userAnswers[q.id]) {
-          handleSelectOption(q, optIdx);
+          if (config.isMulti) {
+            togglePendingSelection(q, optIdx, config);
+          } else {
+            handleSelectSingleOption(q, optIdx, config);
+          }
         }
       });
 
       dom.optionsList.appendChild(btn);
     });
+
+    // Update Multi-Answer Action Bar
+    if (dom.multiActionBar) {
+      if (config.isMulti && !isAnswered) {
+        dom.multiActionBar.style.display = 'flex';
+        const selCount = state.pendingSelections.size;
+        const reqCount = config.requiredCount;
+
+        if (dom.multiStatusText) {
+          dom.multiStatusText.innerHTML = `선택 현황: <strong>${selCount} / ${reqCount}개</strong>`;
+        }
+
+        if (dom.btnMultiSubmit) {
+          const isReady = (selCount === reqCount);
+          dom.btnMultiSubmit.disabled = !isReady;
+          if (dom.multiSubmitText) {
+            dom.multiSubmitText.textContent = isReady
+              ? `정답 확인 (${selCount}/${reqCount}) ✓`
+              : `정답 확인 (${selCount}/${reqCount})`;
+          }
+        }
+      } else {
+        dom.multiActionBar.style.display = 'none';
+      }
+    }
   }
 
   /**
-   * Handle Option Selection
+   * Toggle Multi-Choice Option Selection
    */
-  function handleSelectOption(q, selectedIdx) {
-    const isCorrect = (selectedIdx === q.correct_option_index);
-    
+  function togglePendingSelection(q, optIdx, config) {
+    if (state.userAnswers[q.id]) return;
+
+    if (state.pendingSelections.has(optIdx)) {
+      state.pendingSelections.delete(optIdx);
+    } else {
+      if (state.pendingSelections.size >= config.requiredCount) {
+        showToast(`정답은 ${config.requiredCount}개만 선택할 수 있습니다. 변경하려면 기존 선택을 먼저 취소하세요.`);
+        return;
+      }
+      state.pendingSelections.add(optIdx);
+    }
+
+    renderOptions(q);
+  }
+
+  /**
+   * Submit Multi-Choice Answers
+   */
+  function submitMultiSelection(q, config) {
+    if (state.userAnswers[q.id]) return;
+    if (state.pendingSelections.size < config.requiredCount) {
+      showToast(`정답 ${config.requiredCount}개를 모두 선택해주세요. (현재 ${state.pendingSelections.size}개 선택됨)`);
+      return;
+    }
+
+    const selectedIndices = Array.from(state.pendingSelections).sort((a, b) => a - b);
+    evaluateAndSaveAnswer(q, selectedIndices, config);
+  }
+
+  /**
+   * Handle Single-Choice Instant Selection
+   */
+  function handleSelectSingleOption(q, selectedIdx, config) {
+    evaluateAndSaveAnswer(q, [selectedIdx], config);
+  }
+
+  /**
+   * Core Grading & Scoring Algorithm
+   * Compares selectedIndices with correctIndices to evaluate:
+   * - fully correct (100%)
+   * - partially correct (proportional score)
+   * - incorrect (0%)
+   */
+  function evaluateAndSaveAnswer(q, selectedIndices, config) {
+    const correctIndices = config.correctIndices;
+    const selectedSet = new Set(selectedIndices);
+    const correctSet = new Set(correctIndices);
+
+    const correctlySelected = selectedIndices.filter(i => correctSet.has(i));
+    const wronglySelected = selectedIndices.filter(i => !correctSet.has(i));
+    const missedCorrect = correctIndices.filter(i => !selectedSet.has(i));
+
+    const isFullyCorrect = (wronglySelected.length === 0 && missedCorrect.length === 0);
+    const isPartial = (!isFullyCorrect && correctlySelected.length > 0);
+    const score = isFullyCorrect ? 1.0 : (correctlySelected.length / Math.max(1, correctIndices.length));
+
     // Save answer state
     state.userAnswers[q.id] = {
-      selectedIndex: selectedIdx,
-      isCorrect: isCorrect,
+      selectedIndices: selectedIndices,
+      selectedIndex: selectedIndices[0] !== undefined ? selectedIndices[0] : -1,
+      correctIndices: correctIndices,
+      isCorrect: isFullyCorrect,
+      isPartial: isPartial,
+      score: score,
       timestamp: Date.now()
     };
 
     saveStorage();
     updateStats();
-    revealAnswerAndExplanation(q, selectedIdx, true);
+    renderOptions(q);
+    revealAnswerAndExplanation(q, state.userAnswers[q.id], true);
   }
 
   /**
    * Reveal Answer, Grading Highlights, and Clinical Explanation
    */
-  function revealAnswerAndExplanation(q, selectedIdx, animate) {
+  function revealAnswerAndExplanation(q, answerRecord, animate) {
+    const config = getQuestionAnswerConfig(q);
+    const correctSet = new Set(config.correctIndices);
+    const selectedIndices = answerRecord.selectedIndices || [answerRecord.selectedIndex];
+    const selectedSet = new Set(selectedIndices);
+
     const optionButtons = dom.optionsList.querySelectorAll('.option-btn');
-    const isCorrect = (selectedIdx === q.correct_option_index);
 
     optionButtons.forEach((btn, idx) => {
       btn.classList.add('disabled');
+      btn.classList.remove('is-selected-pending');
+      const isSelected = selectedSet.has(idx);
+      const isTargetCorrect = correctSet.has(idx);
       const iconSpan = btn.querySelector('.option-status-icon');
 
-      if (idx === selectedIdx) {
-        if (isCorrect) {
-          btn.classList.add('is-correct');
-          if (iconSpan) iconSpan.textContent = '✓';
-        } else {
-          btn.classList.add('is-wrong');
-          if (iconSpan) iconSpan.textContent = '✗';
-        }
-      }
-
-      // If user selected the wrong answer, highlight the actual correct answer
-      if (!isCorrect && idx === q.correct_option_index) {
-        btn.classList.add('is-actual-correct');
+      if (isSelected && isTargetCorrect) {
+        // Correctly chosen!
+        btn.classList.add('is-correct');
         if (iconSpan) {
           iconSpan.textContent = '✓ 정답';
           iconSpan.style.display = 'inline-block';
         }
+      } else if (isSelected && !isTargetCorrect) {
+        // Wrongly chosen!
+        btn.classList.add('is-wrong');
+        if (iconSpan) {
+          iconSpan.textContent = '✗ 오답';
+          iconSpan.style.display = 'inline-block';
+        }
+      } else if (!isSelected && isTargetCorrect) {
+        // Correct option that user missed!
+        btn.classList.add('is-actual-correct', 'is-missed');
+        if (iconSpan) {
+          iconSpan.textContent = '💡 놓친 정답';
+          iconSpan.style.display = 'inline-block';
+        }
+      } else {
+        // Neutral unselected distractor
+        btn.classList.add('is-neutral');
       }
     });
 
     // Feedback Banner
+    const isCorrect = answerRecord.isCorrect;
+    const isPartial = answerRecord.isPartial;
+
     dom.feedbackBanner.style.display = 'flex';
-    dom.feedbackBanner.className = 'feedback-banner ' + (isCorrect ? 'correct' : 'wrong');
-    dom.feedbackIcon.textContent = isCorrect ? '🎉' : '💡';
-    dom.feedbackStatus.textContent = isCorrect ? '정답입니다!' : '오답입니다!';
-    dom.feedbackDetail.textContent = isCorrect 
-      ? '정확하게 정답을 맞히셨습니다. 아래 해설에서 핵심 임상 포인트를 복습하세요.'
-      : `정답은 ${q.options[q.correct_option_index] || q.correct_answer} 입니다. 아래 해설을 확인하세요.`;
+    dom.feedbackBanner.className = 'feedback-banner ' + (isCorrect ? 'correct' : (isPartial ? 'partial' : 'wrong'));
+    
+    if (isCorrect) {
+      dom.feedbackIcon.textContent = '🎉';
+      dom.feedbackStatus.textContent = config.isMulti 
+        ? `정답입니다! (복수 정답 ${config.requiredCount}개 모두 일치)` 
+        : '정답입니다!';
+      dom.feedbackDetail.textContent = '모든 정답을 완벽하게 맞히셨습니다. 아래 해설에서 핵심 임상 포인트를 복습하세요.';
+    } else if (isPartial) {
+      dom.feedbackIcon.textContent = '⚠️';
+      const rightCount = selectedIndices.filter(i => correctSet.has(i)).length;
+      dom.feedbackStatus.textContent = `부분 정답입니다 (${config.correctIndices.length}개 중 ${rightCount}개 정답)`;
+      const correctLabels = config.correctIndices.map(i => q.options[i]).join(', ');
+      dom.feedbackDetail.textContent = `정답은 [${correctLabels}] 입니다. 아래 상세 해설을 확인하세요.`;
+    } else {
+      dom.feedbackIcon.textContent = '💡';
+      dom.feedbackStatus.textContent = '오답입니다!';
+      const correctLabels = config.correctIndices.map(i => q.options[i]).join(', ');
+      dom.feedbackDetail.textContent = `정답은 [${correctLabels || q.correct_answer}] 입니다. 아래 상세 해설을 확인하세요.`;
+    }
 
     // Clinical Explanation Box
     const exp = q.explanation || {};
     dom.expThemeTitle.textContent = exp.title || q.theme_title || '임상 검사 판독 및 의의';
-    dom.expCorrectAnswer.textContent = q.correct_answer || q.options[q.correct_option_index] || '';
+    
+    const correctSummary = config.correctIndices.map(i => q.options[i]).join(', ') || q.correct_answer || '';
+    dom.expCorrectAnswer.textContent = correctSummary;
+
     dom.expFindings.textContent = exp.findings || '상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.';
     dom.expDifferential.textContent = exp.differential || '선지별 감별 임상 의의 및 관련 질환 감별 포인트를 숙지하십시오.';
     dom.expTrap.textContent = exp.trap || '실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.';
@@ -437,7 +698,6 @@
     dom.cardExplanation.style.display = 'flex';
 
     if (animate) {
-      // Smooth scroll slightly if explanation is tall
       setTimeout(() => {
         dom.feedbackBanner.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       }, 100);
@@ -459,6 +719,7 @@
     const q = getCurrentQuestion();
     if (!q) return;
 
+    state.pendingSelections.clear();
     delete state.userAnswers[q.id];
     saveStorage();
     updateStats();
@@ -474,9 +735,12 @@
     const answeredCount = answeredKeys.length;
 
     let correctCount = 0;
+    let partialCount = 0;
     answeredKeys.forEach(k => {
-      if (state.userAnswers[k] && state.userAnswers[k].isCorrect) {
-        correctCount++;
+      const rec = state.userAnswers[k];
+      if (rec) {
+        if (rec.isCorrect) correctCount++;
+        else if (rec.isPartial) partialCount++;
       }
     });
 
@@ -497,6 +761,27 @@
     dom.btnPrev.addEventListener('click', () => navigate(-1));
     dom.btnNext.addEventListener('click', () => navigate(1));
     dom.btnRandom.addEventListener('click', navigateRandom);
+
+    // Multi-Answer Action Bar
+    if (dom.btnMultiReset) {
+      dom.btnMultiReset.addEventListener('click', () => {
+        const q = getCurrentQuestion();
+        if (q && !state.userAnswers[q.id]) {
+          state.pendingSelections.clear();
+          renderOptions(q);
+        }
+      });
+    }
+
+    if (dom.btnMultiSubmit) {
+      dom.btnMultiSubmit.addEventListener('click', () => {
+        const q = getCurrentQuestion();
+        if (q && !state.userAnswers[q.id]) {
+          const config = getQuestionAnswerConfig(q);
+          submitMultiSelection(q, config);
+        }
+      });
+    }
 
     // Question Retry
     dom.btnRetry.addEventListener('click', resetCurrentQuestion);
@@ -595,13 +880,25 @@
 
     const q = getCurrentQuestion();
 
-    // Option selection keys 1 ~ 5
+    // Option selection keys 1 ~ 5 and Enter for submit
     if (q && !state.userAnswers[q.id]) {
+      const config = getQuestionAnswerConfig(q);
       const keyNum = parseInt(e.key, 10);
       if (keyNum >= 1 && keyNum <= q.options.length) {
         e.preventDefault();
-        handleSelectOption(q, keyNum - 1);
+        if (config.isMulti) {
+          togglePendingSelection(q, keyNum - 1, config);
+        } else {
+          handleSelectSingleOption(q, keyNum - 1, config);
+        }
         return;
+      }
+      if (e.key === 'Enter') {
+        if (config.isMulti && state.pendingSelections.size === config.requiredCount) {
+          e.preventDefault();
+          submitMultiSelection(q, config);
+          return;
+        }
       }
     }
 
@@ -691,7 +988,13 @@
 
       const ans = state.userAnswers[q.id];
       if (ans) {
-        btn.classList.add(ans.isCorrect ? 'state-correct' : 'state-wrong');
+        if (ans.isCorrect) {
+          btn.classList.add('state-correct');
+        } else if (ans.isPartial) {
+          btn.classList.add('state-partial');
+        } else {
+          btn.classList.add('state-wrong');
+        }
       }
 
       btn.textContent = `${idx + 1}`;
