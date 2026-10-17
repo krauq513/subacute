@@ -218,16 +218,16 @@
   }
 
   const SUBJECT_META = {
-    '진단검사의학과': { icon: '🩺', title: '진단검사의학과 기출 마스터', desc: '임상화학·진단면역·임상미생물·진단혈액·수혈의학' },
-    '내과': { icon: '🫀', title: '내과 기출 마스터', desc: '순환기·호흡기·소화기·신장·내분비·감염·류마티스·혈액종양' },
-    '외과': { icon: '🔪', title: '외과 기출 마스터', desc: '위장관·대장항문·간담췌·혈관·유방내분비·외상' },
-    '산부인과': { icon: '🤰', title: '산부인과 기출 마스터', desc: '산과학(모체태아의학) & 부인과학(부인종양·생식내분비)' },
-    '소아청소년과': { icon: '👶', title: '소아청소년과 기출 마스터', desc: '성장발달·신생아·소아감염·소아신경·알레르기호흡기' },
-    '신경과': { icon: '🧠', title: '신경과 기출 마스터', desc: '뇌졸중·뇌전증·이상운동질환·말초신경근육·치매' },
-    '정신건강의학과': { icon: '🧩', title: '정신건강의학과 기출 마스터', desc: '조현병·기분장애·불안장애·물질관련장애·소아청소년/노인' },
-    '정형외과': { icon: '🦴', title: '정형외과 기출 마스터', desc: '상지·하지·척추·골절외상·소아정형' },
-    '영상의학과': { icon: '🩻', title: '영상의학과 기출 마스터', desc: '흉부·복부·신경두경부·근골격·인터벤션 영상 판독' },
-    'ALL': { icon: '🌐', title: '전과목 종합 기출 마스터', desc: '20Y ~ 26Y 9개 임상 분과 통합 CBT' }
+    '진단검사의학과': { icon: '🩺', title: '진단검사의학과 기출 퀴즈', desc: '임상화학·진단면역·임상미생물·진단혈액·수혈의학' },
+    '내과': { icon: '🫀', title: '내과 기출 퀴즈', desc: '순환기·호흡기·소화기·신장·내분비·감염·류마티스·혈액종양' },
+    '외과': { icon: '🔪', title: '외과 기출 퀴즈', desc: '위장관·대장항문·간담췌·혈관·유방내분비·외상' },
+    '산부인과': { icon: '🤰', title: '산부인과 기출 퀴즈', desc: '산과학(모체태아의학) & 부인과학(부인종양·생식내분비)' },
+    '소아청소년과': { icon: '👶', title: '소아청소년과 기출 퀴즈', desc: '성장발달·신생아·소아감염·소아신경·알레르기호흡기' },
+    '신경과': { icon: '🧠', title: '신경과 기출 퀴즈', desc: '뇌졸중·뇌전증·이상운동질환·말초신경근육·치매' },
+    '정신건강의학과': { icon: '🧩', title: '정신건강의학과 기출 퀴즈', desc: '조현병·기분장애·불안장애·물질관련장애·소아청소년/노인' },
+    '정형외과': { icon: '🦴', title: '정형외과 기출 퀴즈', desc: '상지·하지·척추·골절외상·소아정형' },
+    '영상의학과': { icon: '🩻', title: '영상의학과 기출 퀴즈', desc: '흉부·복부·신경두경부·근골격·인터벤션 영상 판독' },
+    'ALL': { icon: '🩺', title: 'subacute (임상의학 기출 퀴즈 마스터)', desc: '20Y ~ 26Y 9개 임상 분과 2,267문항 통합 CBT' }
   };
 
   /**
@@ -236,6 +236,11 @@
   function updateSubjectUI() {
     const curSub = state.filters.subject;
     const meta = SUBJECT_META[curSub] || SUBJECT_META['ALL'];
+
+    // Update Document Title (Browser Tab)
+    document.title = (curSub === 'ALL')
+      ? 'subacute | 임상의학 기출 퀴즈 마스터'
+      : `subacute | ${curSub} 기출 퀴즈`;
 
     // Update active class on subject pills
     if (dom.subjectTabs) {
@@ -251,7 +256,9 @@
 
     // Update Header Brand
     if (dom.brandTitle) {
-      dom.brandTitle.textContent = `${meta.icon} ${meta.title}`;
+      dom.brandTitle.textContent = (curSub === 'ALL')
+        ? 'subacute (임상의학 기출 퀴즈 마스터)'
+        : `subacute · ${meta.icon} ${meta.title}`;
     }
     if (dom.brandSubtitle) {
       dom.brandSubtitle.textContent = `20Y ~ 26Y 실전 기출 완전 정복 • ${subQuestions.length}문항 (${meta.desc})`;

@@ -1,7 +1,7 @@
 {
-  "name": "lab-med-quiz-vercel",
-  "version": "1.0.0",
-  "description": "진단검사의학과 5개년 기출 마스터 인터랙티브 퀴즈 웹앱",
+  "name": "subacute",
+  "version": "2.0.0",
+  "description": "subacute - 임상의학 기출 퀴즈 마스터 (9개 분과 2,267문항 CBT)",
   "main": "index.html",
   "scripts": {
     "start": "npx serve .",
