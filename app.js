@@ -23,6 +23,7 @@
       year: 'ALL',
       type: 'ALL',
       onlyFrequent: false,
+      onlyImages: false,
       onlyIncorrect: false,
       onlyBookmarked: false,
       searchQuery: ''
@@ -42,6 +43,7 @@
     yearTabs: document.getElementById('year-tabs'),
     typeTabs: document.getElementById('type-tabs'),
     filterFrequent: document.getElementById('filter-frequent'),
+    filterImages: document.getElementById('filter-images'),
     filterIncorrect: document.getElementById('filter-incorrect'),
     filterBookmarked: document.getElementById('filter-bookmarked'),
     searchInput: document.getElementById('search-input'),
@@ -204,7 +206,7 @@
    * Filter Questions based on active settings
    */
   function applyFilters() {
-    const { year, type, onlyFrequent, onlyIncorrect, onlyBookmarked, searchQuery } = state.filters;
+    const { year, type, onlyFrequent, onlyImages, onlyIncorrect, onlyBookmarked, searchQuery } = state.filters;
     const query = searchQuery.trim().toLowerCase();
 
     state.filteredQuestions = state.allQuestions.filter(q => {
@@ -213,15 +215,18 @@
         return false;
       }
 
-      // Type filter
-      if (type !== 'ALL') {
-        if (type === '짤' && (!q.images || q.images.length === 0)) return false;
-        if (type === '탈' && q.images && q.images.length > 0) return false;
-        if (type === '반짤' && q.category !== '반짤') return false;
+      // 족보 출제 유형 필터 (짤: 선지까지 완전일치 / 반짤: 변형기출 / 탈: 신규·탈족보)
+      if (type !== 'ALL' && q.category !== type) {
+        return false;
       }
 
       // Frequent only filter (2회 이상 기출된 야마)
       if (onlyFrequent && (q.freq_count || 1) < 2) {
+        return false;
+      }
+
+      // Image only filter (사진/영상/그림 문제만)
+      if (onlyImages && (!q.images || q.images.length === 0)) {
         return false;
       }
 
@@ -415,7 +420,22 @@
     // Top Metadata Badges
     dom.cardYear.textContent = q.year || '기출';
     dom.cardQnum.textContent = `Q${String(q.q_num).padStart(2, '0')}`;
-    dom.cardCategory.textContent = q.category || (q.images && q.images.length > 0 ? '짤' : '탈');
+    // 기출 연계 유형 (짤 / 반짤 / 탈)
+    const cat = q.category || '기출';
+    dom.cardCategory.className = `category-badge cat-${cat}`;
+    if (cat === '짤') {
+      dom.cardCategory.textContent = '⚡ 짤 (완전일치)';
+      dom.cardCategory.title = '기출 발문과 선지가 100% 동일하게 반복 출제된 족보 복붙 문제';
+    } else if (cat === '반짤') {
+      dom.cardCategory.textContent = '🔄 반짤 (변형기출)';
+      dom.cardCategory.title = '문제 유형, 발문 조건, 선지가 살짝 변형되어 출제된 문제';
+    } else if (cat === '탈') {
+      dom.cardCategory.textContent = '✨ 탈 (신규·탈족)';
+      dom.cardCategory.title = '이전 기출에 없던 완전히 새로운 신유형/신규 출제 문제';
+    } else {
+      dom.cardCategory.textContent = cat;
+    }
+
     dom.cardSubspecialty.textContent = q.subspecialty || '진단검사의학';
 
     const countText = `문항 ${state.currentIndex + 1} / ${state.filteredQuestions.length}`;
@@ -488,6 +508,7 @@
                 state.filters.year = 'ALL';
                 state.filters.type = 'ALL';
                 state.filters.onlyFrequent = false;
+                state.filters.onlyImages = false;
                 state.filters.onlyIncorrect = false;
                 state.filters.onlyBookmarked = false;
                 state.filters.searchQuery = '';
@@ -967,6 +988,17 @@
       dom.filterFrequent.addEventListener('click', () => {
         state.filters.onlyFrequent = !state.filters.onlyFrequent;
         dom.filterFrequent.classList.toggle('active', state.filters.onlyFrequent);
+        state.currentIndex = 0;
+        applyFilters();
+        renderCurrentQuestion();
+      });
+    }
+
+    // Special Filter: Images Only (사진/그림 문제만)
+    if (dom.filterImages) {
+      dom.filterImages.addEventListener('click', () => {
+        state.filters.onlyImages = !state.filters.onlyImages;
+        dom.filterImages.classList.toggle('active', state.filters.onlyImages);
         state.currentIndex = 0;
         applyFilters();
         renderCurrentQuestion();
