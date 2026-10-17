@@ -81,6 +81,7 @@
 
       <!-- Quick Mode Switches -->
       <div class="filter-group actions">
+        <button class="pill-tab" id="filter-frequent">🔥 빈출 야마만 (2회+)</button>
         <button class="pill-tab" id="filter-incorrect">❌ 오답만 모아보기</button>
         <button class="pill-tab" id="filter-bookmarked">⭐ 북마크만 모아보기</button>
         <div class="search-box">
@@ -106,6 +107,7 @@
             <span class="qnum-badge" id="card-qnum">Q01</span>
             <span class="category-badge" id="card-category">짤</span>
             <span class="subspecialty-badge" id="card-subspecialty">진단면역학</span>
+            <span class="freq-badge" id="card-freq-badge">★ 빈출 5개년 (83%)</span>
             <span class="multi-badge" id="card-multi-badge" style="display: none;">복수 정답 (2개)</span>
           </div>
           <div class="meta-right">
@@ -117,6 +119,26 @@
             </button>
           </div>
         </div>
+
+        <!-- Exam Intelligence & 출제 테마/기출 이력 브리핑 박스 -->
+        <section class="exam-intel-box" id="exam-intel-box">
+          <div class="intel-header">
+            <div class="intel-title-group">
+              <span class="intel-pill">핵심 출제 테마</span>
+              <h3 class="intel-theme-text" id="card-theme-title">임상 검사 판독 및 의의</h3>
+            </div>
+            <div class="intel-freq-badge" id="card-intel-freq">
+              <span class="intel-freq-icon">🔥</span>
+              <span class="intel-freq-text" id="card-freq-stat-text">6개년 중 5회 출제 (83% 빈출)</span>
+            </div>
+          </div>
+          <div class="intel-history-row" id="card-history-row">
+            <span class="intel-history-label">기출 연계 이력:</span>
+            <div class="intel-history-chips" id="card-history-chips">
+              <!-- Dynamically populated: e.g. [26Y-04 (현재)] [23Y-34] [22Y-02] ... -->
+            </div>
+          </div>
+        </section>
 
         <!-- Question Stem (발문) -->
         <section class="card-stem">

@@ -22,6 +22,7 @@
     filters: {
       year: 'ALL',
       type: 'ALL',
+      onlyFrequent: false,
       onlyIncorrect: false,
       onlyBookmarked: false,
       searchQuery: ''
@@ -40,6 +41,7 @@
     // Filters
     yearTabs: document.getElementById('year-tabs'),
     typeTabs: document.getElementById('type-tabs'),
+    filterFrequent: document.getElementById('filter-frequent'),
     filterIncorrect: document.getElementById('filter-incorrect'),
     filterBookmarked: document.getElementById('filter-bookmarked'),
     searchInput: document.getElementById('search-input'),
@@ -49,9 +51,19 @@
     cardQnum: document.getElementById('card-qnum'),
     cardCategory: document.getElementById('card-category'),
     cardSubspecialty: document.getElementById('card-subspecialty'),
+    cardFreqBadge: document.getElementById('card-freq-badge'),
     cardMultiBadge: document.getElementById('card-multi-badge'),
     filterCounter: document.getElementById('filter-counter'),
     btnBookmark: document.getElementById('btn-bookmark'),
+
+    // Exam Intelligence Box
+    examIntelBox: document.getElementById('exam-intel-box'),
+    cardThemeTitle: document.getElementById('card-theme-title'),
+    cardIntelFreq: document.getElementById('card-intel-freq'),
+    cardFreqStatText: document.getElementById('card-freq-stat-text'),
+    cardHistoryRow: document.getElementById('card-history-row'),
+    cardHistoryChips: document.getElementById('card-history-chips'),
+
     cardStem: document.getElementById('card-stem'),
     cardImagesContainer: document.getElementById('card-images-container'),
     cardImages: document.getElementById('card-images'),
@@ -192,7 +204,7 @@
    * Filter Questions based on active settings
    */
   function applyFilters() {
-    const { year, type, onlyIncorrect, onlyBookmarked, searchQuery } = state.filters;
+    const { year, type, onlyFrequent, onlyIncorrect, onlyBookmarked, searchQuery } = state.filters;
     const query = searchQuery.trim().toLowerCase();
 
     state.filteredQuestions = state.allQuestions.filter(q => {
@@ -206,6 +218,11 @@
         if (type === '짤' && (!q.images || q.images.length === 0)) return false;
         if (type === '탈' && q.images && q.images.length > 0) return false;
         if (type === '반짤' && q.category !== '반짤') return false;
+      }
+
+      // Frequent only filter (2회 이상 기출된 야마)
+      if (onlyFrequent && (q.freq_count || 1) < 2) {
+        return false;
       }
 
       // Incorrect only filter
@@ -323,6 +340,62 @@
   }
 
   /**
+   * Safe Option Prefix & Label Parser
+   * Accurately extracts option number prefix (e.g. '①', '1.') and label text,
+   * without EVER stripping medical content numbers (e.g. '4도', '37℃', '1등급', '0.9%', '10~20mL').
+   */
+  function parseOptionText(optText, optIdx) {
+    if (!optText) return { prefix: `${optIdx + 1}.`, label: '' };
+    const raw = String(optText).trim();
+    
+    // 1. Circle numbers: ①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧
+    const mCircle = raw.match(/^[①②③④⑤⑥⑦⑧⑨⑩]/);
+    if (mCircle) {
+      const prefix = mCircle[0];
+      const label = raw.slice(prefix.length).trim();
+      return { prefix, label };
+    }
+
+    // 2. Bracketed numbers: (1), [1], (A)
+    const mBracket = raw.match(/^[\(\[\{【]\s*[\dA-Za-z]+\s*[\)\]\}】]\s*/);
+    if (mBracket) {
+      const prefix = mBracket[0].trim();
+      const label = raw.slice(mBracket[0].length).trim();
+      return { prefix, label };
+    }
+
+    // 3. Digit with explicit punctuation delimiter: 1. , 1) , 1: , 1-
+    const mDigitDelim = raw.match(/^\d+\s*[\.\)\:\-]\s*/);
+    if (mDigitDelim) {
+      const prefix = mDigitDelim[0].trim();
+      const label = raw.slice(mDigitDelim[0].length).trim();
+      return { prefix, label };
+    }
+
+    // 4. Letter with explicit punctuation delimiter: A. , A) , a.
+    const mLetterDelim = raw.match(/^[A-Za-z]\s*[\.\)\:\-]\s*/);
+    if (mLetterDelim) {
+      const prefix = mLetterDelim[0].trim();
+      const label = raw.slice(mLetterDelim[0].length).trim();
+      return { prefix, label };
+    }
+
+    // 5. Bullets: ⚫, ●, •, -, *
+    const mBullet = raw.match(/^[\⚫\●\•\-\*\◦\▪]\s*/);
+    if (mBullet) {
+      const CIRCLE_MAP = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧'];
+      const prefix = CIRCLE_MAP[optIdx] || `${optIdx + 1}.`;
+      const label = raw.slice(mBullet[0].length).trim();
+      return { prefix, label };
+    }
+
+    // Default fallback: attach circled number prefix, keep whole raw string
+    const CIRCLE_MAP = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧'];
+    const prefix = CIRCLE_MAP[optIdx] || `${optIdx + 1}.`;
+    return { prefix, label: raw };
+  }
+
+  /**
    * Render Current Question
    */
   function renderCurrentQuestion() {
@@ -339,7 +412,7 @@
       return;
     }
 
-    // Top Metadata
+    // Top Metadata Badges
     dom.cardYear.textContent = q.year || '기출';
     dom.cardQnum.textContent = `Q${String(q.q_num).padStart(2, '0')}`;
     dom.cardCategory.textContent = q.category || (q.images && q.images.length > 0 ? '짤' : '탈');
@@ -352,6 +425,84 @@
     // Bookmark Toggle
     const isBookmarked = state.bookmarks.has(q.id);
     dom.btnBookmark.classList.toggle('active', isBookmarked);
+
+    // Exam Intelligence (출제 테마 & 기출 빈도 이력 브리핑)
+    const freqCount = q.freq_count || 1;
+    const rate = q.rate || (freqCount >= 5 ? 100 : Math.round((freqCount / 6) * 100));
+
+    // 1. Meta Bar Frequency Badge
+    if (dom.cardFreqBadge) {
+      if (freqCount >= 4 || rate >= 60) {
+        dom.cardFreqBadge.className = 'freq-badge super';
+        dom.cardFreqBadge.textContent = `★ ${freqCount}개년 빈출 (${rate}% 특급 야마)`;
+      } else if (freqCount >= 2) {
+        dom.cardFreqBadge.className = 'freq-badge high';
+        dom.cardFreqBadge.textContent = `★ ${freqCount}개년 기출 (${rate}%)`;
+      } else {
+        dom.cardFreqBadge.className = 'freq-badge normal';
+        dom.cardFreqBadge.textContent = '단일 기출';
+      }
+    }
+
+    // 2. Exam Intelligence Box Content
+    if (dom.cardThemeTitle) {
+      dom.cardThemeTitle.textContent = q.theme_title || '임상 검사 판독 및 의의';
+    }
+
+    if (dom.cardFreqStatText) {
+      dom.cardFreqStatText.textContent = `6개년 중 ${freqCount}회 출제 (${rate}% 출제율)`;
+    }
+
+    if (dom.cardHistoryChips) {
+      dom.cardHistoryChips.innerHTML = '';
+      const rawList = q.raw_questions && q.raw_questions.length > 0
+        ? q.raw_questions
+        : [`${q.year}-${String(q.q_num).padStart(2, '0')}`];
+
+      rawList.forEach(rawItem => {
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'intel-chip';
+
+        // Check if rawItem refers to current question
+        const isCurrent = rawItem.includes(q.year) && (rawItem.includes(String(q.q_num)) || rawItem.includes(String(q.q_num).padStart(2, '0')));
+        if (isCurrent) {
+          chip.classList.add('current');
+          chip.textContent = `${rawItem} (현재)`;
+        } else {
+          chip.textContent = rawItem;
+          chip.title = `${rawItem} 기출 문제로 즉시 이동`;
+          chip.addEventListener('click', () => {
+            // Find target question in state.allQuestions
+            const target = state.allQuestions.find(cand => {
+              const candRaw = cand.raw_questions || [];
+              if (candRaw.includes(rawItem)) return true;
+              return cand.id.includes(rawItem.replace('-', '_Q'));
+            });
+            if (target) {
+              const targetIdx = state.filteredQuestions.findIndex(fq => fq.id === target.id);
+              if (targetIdx !== -1) {
+                state.currentIndex = targetIdx;
+              } else {
+                // If filtered out, reset filters and jump
+                state.filters.year = 'ALL';
+                state.filters.type = 'ALL';
+                state.filters.onlyFrequent = false;
+                state.filters.onlyIncorrect = false;
+                state.filters.onlyBookmarked = false;
+                state.filters.searchQuery = '';
+                applyFilters();
+                const resetIdx = state.filteredQuestions.findIndex(fq => fq.id === target.id);
+                if (resetIdx !== -1) state.currentIndex = resetIdx;
+              }
+              renderCurrentQuestion();
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }
+          });
+        }
+        dom.cardHistoryChips.appendChild(chip);
+      });
+    }
 
     // Stem Text
     dom.cardStem.textContent = q.stem;
@@ -456,7 +607,7 @@
       }
     }
 
-    // Render Option Buttons
+    // Render Option Buttons with SAFE Prefix & Label Parser
     q.options.forEach((optText, optIdx) => {
       const btn = document.createElement('button');
       btn.className = 'option-btn';
@@ -464,10 +615,8 @@
         btn.classList.add('disabled');
       }
 
-      // Clean prefix if already in optText
-      const numMatch = optText.match(/^[①②③④⑤⑥⑦⑧\d\.\)\-\s]+/);
-      const numPrefix = numMatch ? numMatch[0].trim() : `${optIdx + 1}.`;
-      const labelText = optText.replace(/^[①②③④⑤⑥⑦⑧\d\.\)\-\s]+/, '').trim() || optText;
+      // Safe option text parsing: NEVER strips numbers from labels!
+      const { prefix: numPrefix, label: labelText } = parseOptionText(optText, optIdx);
 
       const isPending = !isAnswered && config.isMulti && state.pendingSelections.has(optIdx);
       if (isPending) {
@@ -812,6 +961,17 @@
       applyFilters();
       renderCurrentQuestion();
     });
+
+    // Special Filter: Frequent Only (2회+ 빈출 야마)
+    if (dom.filterFrequent) {
+      dom.filterFrequent.addEventListener('click', () => {
+        state.filters.onlyFrequent = !state.filters.onlyFrequent;
+        dom.filterFrequent.classList.toggle('active', state.filters.onlyFrequent);
+        state.currentIndex = 0;
+        applyFilters();
+        renderCurrentQuestion();
+      });
+    }
 
     // Special Filter: Incorrect Only
     dom.filterIncorrect.addEventListener('click', () => {
