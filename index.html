@@ -17,8 +17,8 @@
       <div class="brand">
         <div class="brand-badge">KMLE</div>
         <div class="brand-text">
-          <h1 class="brand-title">진단검사의학과 기출 마스터</h1>
-          <span class="brand-subtitle">20Y ~ 26Y 5개년 기출 완전 정복 • 211문항</span>
+          <h1 class="brand-title" id="brand-title">진단검사의학과 기출 마스터</h1>
+          <span class="brand-subtitle" id="brand-subtitle">20Y ~ 26Y 5개년 기출 완전 정복 • 211문항</span>
         </div>
       </div>
       
@@ -55,6 +55,23 @@
   <!-- Filter & Search Toolbar -->
   <nav class="filter-toolbar">
     <div class="toolbar-inner">
+      <!-- Subject Filter Tabs (과목 선택) -->
+      <div class="filter-group subject-group">
+        <span class="filter-label">임상과목:</span>
+        <div class="pill-tabs subject-tabs" id="subject-tabs">
+          <button class="pill-tab subject-pill active" data-subject="진단검사의학과">🩺 진단검사 (211)</button>
+          <button class="pill-tab subject-pill" data-subject="내과">🫀 내과 (308)</button>
+          <button class="pill-tab subject-pill" data-subject="외과">🔪 외과 (124)</button>
+          <button class="pill-tab subject-pill" data-subject="산부인과">🤰 산부인과 (353)</button>
+          <button class="pill-tab subject-pill" data-subject="소아청소년과">👶 소아과 (264)</button>
+          <button class="pill-tab subject-pill" data-subject="신경과">🧠 신경과 (269)</button>
+          <button class="pill-tab subject-pill" data-subject="정신건강의학과">🧩 정신과 (323)</button>
+          <button class="pill-tab subject-pill" data-subject="정형외과">🦴 정형외과 (247)</button>
+          <button class="pill-tab subject-pill" data-subject="영상의학과">🩻 영상의학과 (168)</button>
+          <button class="pill-tab subject-pill" data-subject="ALL">🌐 전과목 통합 (2,267)</button>
+        </div>
+      </div>
+
       <!-- Year Filter Tabs -->
       <div class="filter-group">
         <span class="filter-label">출제연도:</span>
@@ -104,9 +121,10 @@
         <!-- Top Metadata Bar -->
         <div class="card-meta">
           <div class="meta-left">
+            <span class="subject-badge" id="card-subject">진단검사의학과</span>
             <span class="year-badge" id="card-year">26Y</span>
             <span class="qnum-badge" id="card-qnum">Q01</span>
-            <span class="category-badge" id="card-category">짤</span>
+            <span class="category-badge cat-짤" id="card-category">⚡ 짤 (완전일치)</span>
             <span class="subspecialty-badge" id="card-subspecialty">진단면역학</span>
             <span class="freq-badge" id="card-freq-badge">★ 빈출 5개년 (83%)</span>
             <span class="multi-badge" id="card-multi-badge" style="display: none;">복수 정답 (2개)</span>

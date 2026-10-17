@@ -7,9 +7,10 @@
   'use strict';
 
   // Storage Keys
-  const STORAGE_KEY_ANSWERS = 'KMLE_LAB_MED_ANSWERS_V1';
-  const STORAGE_KEY_BOOKMARKS = 'KMLE_LAB_MED_BOOKMARKS_V1';
-  const STORAGE_KEY_LAST_ID = 'KMLE_LAB_MED_LAST_ID_V1';
+  const STORAGE_KEY_ANSWERS = 'KMLE_ALL_SUBJECT_ANSWERS_V2';
+  const STORAGE_KEY_BOOKMARKS = 'KMLE_ALL_SUBJECT_BOOKMARKS_V2';
+  const STORAGE_KEY_LAST_ID = 'KMLE_ALL_SUBJECT_LAST_ID_V2';
+  const STORAGE_KEY_SUBJECT = 'KMLE_ACTIVE_SUBJECT_V2';
 
   // Application State
   const state = {
@@ -20,6 +21,7 @@
     bookmarks: new Set(),
     pendingSelections: new Set(), // Set of selected option indices (0-based) for multi-answer questions
     filters: {
+      subject: localStorage.getItem(STORAGE_KEY_SUBJECT) || '진단검사의학과',
       year: 'ALL',
       type: 'ALL',
       onlyFrequent: false,
@@ -32,6 +34,10 @@
 
   // DOM Elements Cache
   const dom = {
+    // Header & Brand
+    brandTitle: document.getElementById('brand-title'),
+    brandSubtitle: document.getElementById('brand-subtitle'),
+
     // Stats
     statProgress: document.getElementById('stat-progress'),
     statBarFill: document.getElementById('stat-bar-fill'),
@@ -40,6 +46,7 @@
     btnOpenGrid: document.getElementById('btn-open-grid'),
 
     // Filters
+    subjectTabs: document.getElementById('subject-tabs'),
     yearTabs: document.getElementById('year-tabs'),
     typeTabs: document.getElementById('type-tabs'),
     filterFrequent: document.getElementById('filter-frequent'),
@@ -49,6 +56,7 @@
     searchInput: document.getElementById('search-input'),
 
     // Question Card
+    cardSubject: document.getElementById('card-subject'),
     cardYear: document.getElementById('card-year'),
     cardQnum: document.getElementById('card-qnum'),
     cardCategory: document.getElementById('card-category'),
@@ -132,7 +140,7 @@
     loadStorage();
     await loadQuestions();
     setupEventListeners();
-    applyFilters();
+    updateSubjectUI();
     
     // Restore last viewed question if available
     const lastId = localStorage.getItem(STORAGE_KEY_LAST_ID);
@@ -191,14 +199,177 @@
     }
 
     try {
-      const res = await fetch('data/quiz_lab_med.json');
+      const res = await fetch('data/quiz_all_subjects.json');
       if (!res.ok) throw new Error('Network response not ok');
       state.allQuestions = await res.json();
     } catch (err) {
-      console.warn('Fetch fallback to window.QUIZ_DATA or failed:', err);
-      if (window.QUIZ_DATA) {
-        state.allQuestions = window.QUIZ_DATA;
+      console.warn('Fetch fallback to quiz_lab_med.json or window.QUIZ_DATA:', err);
+      try {
+        const fallbackRes = await fetch('data/quiz_lab_med.json');
+        if (fallbackRes.ok) {
+          state.allQuestions = await fallbackRes.json();
+        }
+      } catch (e2) {
+        if (window.QUIZ_DATA) {
+          state.allQuestions = window.QUIZ_DATA;
+        }
       }
+    }
+  }
+
+  const SUBJECT_META = {
+    '진단검사의학과': { icon: '🩺', title: '진단검사의학과 기출 마스터', desc: '임상화학·진단면역·임상미생물·진단혈액·수혈의학' },
+    '내과': { icon: '🫀', title: '내과 기출 마스터', desc: '순환기·호흡기·소화기·신장·내분비·감염·류마티스·혈액종양' },
+    '외과': { icon: '🔪', title: '외과 기출 마스터', desc: '위장관·대장항문·간담췌·혈관·유방내분비·외상' },
+    '산부인과': { icon: '🤰', title: '산부인과 기출 마스터', desc: '산과학(모체태아의학) & 부인과학(부인종양·생식내분비)' },
+    '소아청소년과': { icon: '👶', title: '소아청소년과 기출 마스터', desc: '성장발달·신생아·소아감염·소아신경·알레르기호흡기' },
+    '신경과': { icon: '🧠', title: '신경과 기출 마스터', desc: '뇌졸중·뇌전증·이상운동질환·말초신경근육·치매' },
+    '정신건강의학과': { icon: '🧩', title: '정신건강의학과 기출 마스터', desc: '조현병·기분장애·불안장애·물질관련장애·소아청소년/노인' },
+    '정형외과': { icon: '🦴', title: '정형외과 기출 마스터', desc: '상지·하지·척추·골절외상·소아정형' },
+    '영상의학과': { icon: '🩻', title: '영상의학과 기출 마스터', desc: '흉부·복부·신경두경부·근골격·인터벤션 영상 판독' },
+    'ALL': { icon: '🌐', title: '전과목 종합 기출 마스터', desc: '20Y ~ 26Y 9개 임상 분과 통합 CBT' }
+  };
+
+  /**
+   * Update Subject UI and re-render dynamic toolbars
+   */
+  function updateSubjectUI() {
+    const curSub = state.filters.subject;
+    const meta = SUBJECT_META[curSub] || SUBJECT_META['ALL'];
+
+    // Update active class on subject pills
+    if (dom.subjectTabs) {
+      dom.subjectTabs.querySelectorAll('.subject-pill').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.subject === curSub);
+      });
+    }
+
+    // Questions in current subject scope
+    const subQuestions = (curSub === 'ALL')
+      ? state.allQuestions
+      : state.allQuestions.filter(q => q.subject === curSub);
+
+    // Update Header Brand
+    if (dom.brandTitle) {
+      dom.brandTitle.textContent = `${meta.icon} ${meta.title}`;
+    }
+    if (dom.brandSubtitle) {
+      dom.brandSubtitle.textContent = `20Y ~ 26Y 실전 기출 완전 정복 • ${subQuestions.length}문항 (${meta.desc})`;
+    }
+
+    // Dynamic Year Tabs
+    renderYearTabs(subQuestions);
+
+    // Dynamic Category Tabs
+    renderCategoryTabs(subQuestions);
+
+    // Update Image Filter Button count
+    const imgCount = subQuestions.filter(q => q.images && q.images.length > 0).length;
+    if (dom.filterImages) {
+      dom.filterImages.textContent = `📷 사진 문제만 (${imgCount})`;
+    }
+
+    applyFilters();
+    renderCurrentQuestion();
+    updateStats();
+    renderGrid();
+  }
+
+  /**
+   * Dynamically Render Year Tabs
+   */
+  function renderYearTabs(subQuestions) {
+    if (!dom.yearTabs) return;
+    const yearCounts = {};
+    subQuestions.forEach(q => {
+      if (q.year) {
+        yearCounts[q.year] = (yearCounts[q.year] || 0) + 1;
+      }
+    });
+
+    const years = Object.keys(yearCounts).sort().reverse();
+    dom.yearTabs.innerHTML = '';
+    
+    // ALL button
+    const allBtn = document.createElement('button');
+    allBtn.className = `pill-tab ${state.filters.year === 'ALL' ? 'active' : ''}`;
+    allBtn.dataset.year = 'ALL';
+    allBtn.textContent = `전체 (${subQuestions.length})`;
+    allBtn.addEventListener('click', () => {
+      dom.yearTabs.querySelectorAll('.pill-tab').forEach(b => b.classList.remove('active'));
+      allBtn.classList.add('active');
+      state.filters.year = 'ALL';
+      state.currentIndex = 0;
+      applyFilters();
+      renderCurrentQuestion();
+      renderCategoryTabs(subQuestions);
+    });
+    dom.yearTabs.appendChild(allBtn);
+
+    years.forEach(yr => {
+      const btn = document.createElement('button');
+      btn.className = `pill-tab ${state.filters.year === yr ? 'active' : ''}`;
+      btn.dataset.year = yr;
+      btn.textContent = `${yr} (${yearCounts[yr]})`;
+      btn.addEventListener('click', () => {
+        dom.yearTabs.querySelectorAll('.pill-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        state.filters.year = yr;
+        state.currentIndex = 0;
+        applyFilters();
+        renderCurrentQuestion();
+        renderCategoryTabs(subQuestions);
+      });
+      dom.yearTabs.appendChild(btn);
+    });
+
+    if (state.filters.year !== 'ALL' && !yearCounts[state.filters.year]) {
+      state.filters.year = 'ALL';
+      allBtn.classList.add('active');
+    }
+  }
+
+  /**
+   * Dynamically Render Category Tabs (짤 / 반짤 / 탈 / 기출)
+   */
+  function renderCategoryTabs(subQuestions) {
+    if (!dom.typeTabs) return;
+    const scope = (state.filters.year === 'ALL')
+      ? subQuestions
+      : subQuestions.filter(q => q.year === state.filters.year);
+
+    const catCounts = { '짤': 0, '반짤': 0, '탈': 0, '기출': 0 };
+    scope.forEach(q => {
+      const c = q.category || '기출';
+      catCounts[c] = (catCounts[c] || 0) + 1;
+    });
+
+    dom.typeTabs.innerHTML = '';
+
+    const createTab = (type, label, count, title) => {
+      const btn = document.createElement('button');
+      btn.className = `pill-tab ${state.filters.type === type ? 'active' : ''}`;
+      btn.dataset.type = type;
+      btn.title = title;
+      btn.textContent = `${label} (${count})`;
+      btn.addEventListener('click', () => {
+        dom.typeTabs.querySelectorAll('.pill-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        state.filters.type = type;
+        state.currentIndex = 0;
+        applyFilters();
+        renderCurrentQuestion();
+      });
+      dom.typeTabs.appendChild(btn);
+    };
+
+    createTab('ALL', '전체', scope.length, '모든 기출 유형');
+    createTab('짤', '⚡ 짤', catCounts['짤'], '기출 발문과 선지가 100% 동일하게 반복 출제된 족보 복붙 문제');
+    createTab('반짤', '🔄 반짤', catCounts['반짤'], '발문 조건이나 선지가 살짝 변형되어 출제된 기출 문제');
+    createTab('탈', '✨ 탈', catCounts['탈'], '이전 기출에 없던 완전히 새로운 신유형/신환 출제 문제');
+
+    if (catCounts['기출'] > 0) {
+      createTab('기출', '📜 기출', catCounts['기출'], '단일 연도 기출 기본 문항');
     }
   }
 
@@ -206,16 +377,21 @@
    * Filter Questions based on active settings
    */
   function applyFilters() {
-    const { year, type, onlyFrequent, onlyImages, onlyIncorrect, onlyBookmarked, searchQuery } = state.filters;
+    const { subject, year, type, onlyFrequent, onlyImages, onlyIncorrect, onlyBookmarked, searchQuery } = state.filters;
     const query = searchQuery.trim().toLowerCase();
 
     state.filteredQuestions = state.allQuestions.filter(q => {
+      // Subject filter
+      if (subject !== 'ALL' && q.subject !== subject) {
+        return false;
+      }
+
       // Year filter
       if (year !== 'ALL' && q.year !== year) {
         return false;
       }
 
-      // 족보 출제 유형 필터 (짤: 선지까지 완전일치 / 반짤: 변형기출 / 탈: 신규·탈족보)
+      // 족보 출제 유형 필터 (짤: 선지까지 완전일치 / 반짤: 변형기출 / 탈: 신규·탈족보 / 기출)
       if (type !== 'ALL' && q.category !== type) {
         return false;
       }
@@ -243,10 +419,10 @@
 
       // Search query filter
       if (query) {
-        const matchStem = q.stem.toLowerCase().includes(query);
+        const matchStem = (q.stem || '').toLowerCase().includes(query);
         const matchTitle = (q.theme_title || '').toLowerCase().includes(query);
-        const matchId = q.id.toLowerCase().includes(query);
-        const matchOptions = q.options.some(opt => opt.toLowerCase().includes(query));
+        const matchId = (q.id || '').toLowerCase().includes(query);
+        const matchOptions = (q.options || []).some(opt => opt.toLowerCase().includes(query));
         if (!matchStem && !matchTitle && !matchId && !matchOptions) {
           return false;
         }
@@ -418,9 +594,13 @@
     }
 
     // Top Metadata Badges
+    if (dom.cardSubject) {
+      dom.cardSubject.textContent = q.subject || '임상의학';
+    }
     dom.cardYear.textContent = q.year || '기출';
     dom.cardQnum.textContent = `Q${String(q.q_num).padStart(2, '0')}`;
-    // 기출 연계 유형 (짤 / 반짤 / 탈)
+    
+    // 기출 연계 유형 (짤 / 반짤 / 탈 / 기출)
     const cat = q.category || '기출';
     dom.cardCategory.className = `category-badge cat-${cat}`;
     if (cat === '짤') {
@@ -433,10 +613,11 @@
       dom.cardCategory.textContent = '✨ 탈 (신규·탈족)';
       dom.cardCategory.title = '이전 기출에 없던 완전히 새로운 신유형/신규 출제 문제';
     } else {
-      dom.cardCategory.textContent = cat;
+      dom.cardCategory.textContent = '📜 기출';
+      dom.cardCategory.title = '단일 연도 기출 기본 문항';
     }
 
-    dom.cardSubspecialty.textContent = q.subspecialty || '진단검사의학';
+    dom.cardSubspecialty.textContent = q.subspecialty || (q.subject ? `${q.subject} 일반` : '임상의학');
 
     const countText = `문항 ${state.currentIndex + 1} / ${state.filteredQuestions.length}`;
     dom.filterCounter.textContent = countText;
@@ -897,20 +1078,29 @@
   }
 
   /**
-   * Update Global Stats Header
+   * Update Global Stats Header (Scoped by Current Subject)
    */
   function updateStats() {
-    const total = state.allQuestions.length;
-    const answeredKeys = Object.keys(state.userAnswers);
-    const answeredCount = answeredKeys.length;
+    const curSub = state.filters.subject;
+    const subScope = (curSub === 'ALL')
+      ? state.allQuestions
+      : state.allQuestions.filter(q => q.subject === curSub);
 
+    const total = subScope.length;
+    let answeredCount = 0;
     let correctCount = 0;
     let partialCount = 0;
-    answeredKeys.forEach(k => {
-      const rec = state.userAnswers[k];
+    let bookmarkCount = 0;
+
+    subScope.forEach(q => {
+      const rec = state.userAnswers[q.id];
       if (rec) {
+        answeredCount++;
         if (rec.isCorrect) correctCount++;
         else if (rec.isPartial) partialCount++;
+      }
+      if (state.bookmarks.has(q.id)) {
+        bookmarkCount++;
       }
     });
 
@@ -920,7 +1110,7 @@
     dom.statProgress.textContent = `${answeredCount} / ${total}`;
     dom.statBarFill.style.width = `${progressPct}%`;
     dom.statAccuracy.textContent = `${accuracyPct}%`;
-    dom.statBookmarks.textContent = `${state.bookmarks.size}`;
+    dom.statBookmarks.textContent = `${bookmarkCount}`;
   }
 
   /**
@@ -931,6 +1121,26 @@
     dom.btnPrev.addEventListener('click', () => navigate(-1));
     dom.btnNext.addEventListener('click', () => navigate(1));
     dom.btnRandom.addEventListener('click', navigateRandom);
+
+    // Subject Selection Tabs (과목 전환)
+    if (dom.subjectTabs) {
+      dom.subjectTabs.addEventListener('click', e => {
+        const btn = e.target.closest('.subject-pill');
+        if (!btn) return;
+        const newSub = btn.dataset.subject;
+        state.filters.subject = newSub;
+        localStorage.setItem(STORAGE_KEY_SUBJECT, newSub);
+        state.filters.year = 'ALL';
+        state.filters.type = 'ALL';
+        state.filters.onlyFrequent = false;
+        state.filters.onlyImages = false;
+        if (dom.filterFrequent) dom.filterFrequent.classList.remove('active');
+        if (dom.filterImages) dom.filterImages.classList.remove('active');
+        state.currentIndex = 0;
+        updateSubjectUI();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    }
 
     // Multi-Answer Action Bar
     if (dom.btnMultiReset) {
@@ -959,29 +1169,33 @@
     // Bookmark Toggle
     dom.btnBookmark.addEventListener('click', toggleBookmark);
 
-    // Year Filter Tabs
-    dom.yearTabs.addEventListener('click', e => {
-      const btn = e.target.closest('.pill-tab');
-      if (!btn) return;
-      dom.yearTabs.querySelectorAll('.pill-tab').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      state.filters.year = btn.dataset.year;
-      state.currentIndex = 0;
-      applyFilters();
-      renderCurrentQuestion();
-    });
+    // Year Filter Tabs Delegation (Fallback)
+    if (dom.yearTabs) {
+      dom.yearTabs.addEventListener('click', e => {
+        const btn = e.target.closest('.pill-tab');
+        if (!btn) return;
+        dom.yearTabs.querySelectorAll('.pill-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        state.filters.year = btn.dataset.year;
+        state.currentIndex = 0;
+        applyFilters();
+        renderCurrentQuestion();
+      });
+    }
 
-    // Type Filter Tabs
-    dom.typeTabs.addEventListener('click', e => {
-      const btn = e.target.closest('.pill-tab');
-      if (!btn) return;
-      dom.typeTabs.querySelectorAll('.pill-tab').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      state.filters.type = btn.dataset.type;
-      state.currentIndex = 0;
-      applyFilters();
-      renderCurrentQuestion();
-    });
+    // Type Filter Tabs Delegation (Fallback)
+    if (dom.typeTabs) {
+      dom.typeTabs.addEventListener('click', e => {
+        const btn = e.target.closest('.pill-tab');
+        if (!btn) return;
+        dom.typeTabs.querySelectorAll('.pill-tab').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        state.filters.type = btn.dataset.type;
+        state.currentIndex = 0;
+        applyFilters();
+        renderCurrentQuestion();
+      });
+    }
 
     // Special Filter: Frequent Only (2회+ 빈출 야마)
     if (dom.filterFrequent) {
