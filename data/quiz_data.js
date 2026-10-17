@@ -1,0 +1,6140 @@
+// Laboratory Medicine Quiz Database
+window.QUIZ_DATA = [
+  {
+    "id": "진단검사의학과_26Y_Q01",
+    "index": 1,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 1,
+    "category": "반짤",
+    "theme_title": "간접면역형광법(IIF)으로 검사할 수 없는 자가항체 (연도별 선지/정답 변형)",
+    "subspecialty": "진단면역학",
+    "stem": "면역형광(IIF)로 검사할 수 없는 것은(2개)?",
+    "images": [],
+    "options": [
+      "① Anti-LKM",
+      "② ANA",
+      "③ anti-cardiolipin",
+      "④ RF",
+      "⑤ anti-mitochondria"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "[26Y Q01] ③ anti-cardiolipin & ④ RF (2개 복수 정답)",
+    "explanation": {
+      "title": "간접면역형광법(IIF)으로 검사할 수 없는 자가항체 (연도별 선지/정답 변형)",
+      "findings": "IIF의 원리는 환자 혈청 항체를 조직/세포 기질과 반응 후 형광표지 2차 항체로 관찰하는 것임.",
+      "differential": "• IIF 검출 가능 항체: ANA, Anti-dsDNA, AMA, Anti-LKM, ANCA (조직/세포 절편 기질 필요)\n• IIF 검출 불가 항체: 인지질 항체(Anti-cardiolipin, APA -> ELISA), 가용성 항체(RF -> 비탁법/응집법)",
+      "trap": "ANA, Anti-mitochondria(AMA), Anti-LKM은 Hep-2 세포나 조직 절편을 기질로 사용하여 IIF로 형광 패턴을 전형적으로 검출함.",
+      "trigger": "★ 연도별 변형 주의! 26Y는 2개 선택(Anti-cardiolipin & RF), 23Y는 1개 선택(APA)! 조직 슬라이드에 부착할 세포 형태 기질이 없는 가용성 인자/인지질 항체를 선택.",
+      "kmle_link": "KMLE 류마티스학 - 자가면역질환 검사법 (ANA 및 자가항체 측정 원리)"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q02",
+    "index": 2,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 2,
+    "category": "탈",
+    "theme_title": "급성 전골수구성 백혈병(APL, M3)의 응급 처치: ATRA (All-trans Retinoic Acid)",
+    "subspecialty": "진단혈액학/혈액종양학",
+    "stem": "45세 남성이 3시간 전부터 멈추지 않는 잇몸 출혈을 주소로 응급실에 내원했다. 평소에도 멍이 잘 든다고 하였다. 혈액검사 결과는 다음과 같다. 우선 사용할 치료제는?\n\n- Hb 6, PLT 감소, PT 50, aPTT 24\n- WBC 3,500, PLT 20,000\n- PBS: Auer rod를 포함한 미성숙 과립구 관찰",
+    "images": [],
+    "options": [
+      "① prednisolone",
+      "② imatinib",
+      "③ rituximab",
+      "④ All-trans Retinoic Acid",
+      "⑤ Imipramine"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ All-trans Retinoic Acid (ATRA / Tretinoin)",
+    "explanation": {
+      "title": "급성 전골수구성 백혈병(APL, M3)의 응급 처치: ATRA (All-trans Retinoic Acid)",
+      "findings": "PBS에서 핵이 심하게 함입되고 세포질에 아주르 과립 및 Auer rod 다수 함유된 비정형 전골수구 관찰.",
+      "differential": "급성 림프모구백혈병(ALL, 아우어봉 없음), ITP(아우어봉 없음, 모세포 없음).",
+      "trap": "골수검사 결과를 기다리느라 ATRA 투여를 지체하면 파종혈관내응고(DIC)로 환자가 24~48시간 내에 뇌출혈로 사망할 수 있으므로 PBS 확인 즉시 투여해야 함.",
+      "trigger": "잇몸 출혈, 멍 + 혈소판 감소 + 말초혈액도말(PBS) 상 다발성 아우어 봉(Faggot cells, Multiple Auer rods)을 가진 비정형 전골수구 = 급성 전골수구성 백혈병(APL, t(15;17))! DIC로 인한 뇌출혈 사망을 막기 위해 의심 즉시 투여할 최우선 약제는 ATRA!",
+      "kmle_link": "KMLE 혈액학 - 급성 골수성 백혈병(AML) M3형의 임상상 및 분화 유도 치료"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q03",
+    "index": 3,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 3,
+    "category": "짤",
+    "theme_title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
+    "subspecialty": "진단면역학",
+    "stem": "ANA homogenous pattern 나왔을때 추가로 해야할 검사는?",
+    "images": [],
+    "options": [
+      "① anti-dsDNA",
+      "② anti-ENA",
+      "③ anti-mitochondria",
+      "④ AKA",
+      "⑤ ANCA"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① anti-dsDNA (및 anti-Histone)",
+    "explanation": {
+      "title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
+      "findings": "Hep-2 세포 핵질 전체에 걸쳐 균일한 녹색 형광 신호 관찰.",
+      "differential": "Speckled(점상, ENA 패널 필요), Nucleolar(핵소체, 전신경화증).",
+      "trap": "Rim/Peripheral pattern은 Anti-dsDNA, Speckled pattern은 Anti-Sm/RNP/Ro/La, Nucleolar는 Anti-Scl-70(전신경화증). Homogenous는 Anti-dsDNA 및 Histone.",
+      "trigger": "IIF 상 핵 전체가 균일하게 염색되는 Homogenous / Diffuse pattern = Chromatin, dsDNA, Histone 항체 시사! SLE 확진 및 활성도 평가를 위한 1순위 추가 검사는 Anti-dsDNA!",
+      "kmle_link": "KMLE 류마티스학 - 전신홍반루푸스(SLE)의 혈청학적 진단 기준"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q04",
+    "index": 4,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 4,
+    "category": "짤",
+    "theme_title": "한랭글로불린(Cryoglobulin) 검사를 위한 적절한 채혈 튜브 및 온도 조건",
+    "subspecialty": "임상화학/면역학",
+    "stem": "다음 중 cryoglobulin 검사를 위해 어떤 tube에 혈액을 채취하는 것이 합당한가?",
+    "images": [],
+    "options": [
+      "① 도 plain tube",
+      "② 도 heparinized tube",
+      "③ 도 plain tube",
+      "④ 도 heparinized tue",
+      "⑤ crytube"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 37도 plain tube (사전 보온된 무첨가 튜브)",
+    "explanation": {
+      "title": "한랭글로불린(Cryoglobulin) 검사를 위한 적절한 채혈 튜브 및 온도 조건",
+      "findings": "검체 채취 시 온도 관리가 결과의 성패를 가르는 대표적 특수 면역 검사.",
+      "differential": "EDTA(혈구용), Heparin(가스분석용), 4도 냉각 튜브(암모니아용).",
+      "trap": "얼음물에 담가 운송(Ice packing)하는 검사는 암모니아(Ammonia), ABGA, 젖산(Lactate), 가스트린 등이며, Cryoglobulin에 얼음을 대면 위음성(체외 침전) 초래.",
+      "trigger": "Cryoglobulin은 37℃ 미만 실온에서 즉시 침전되므로, 반드시 37℃로 미리 예열된 튜브(Prewarmed 37°C plain tube)에 채혈하고 37℃를 유지하며 운송 및 원심분리해야 함!",
+      "kmle_link": "KMLE 감염/류마티스 - 한랭글로불린혈증(HCV 연관)의 진단학적 주의사항"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q05",
+    "index": 5,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 5,
+    "category": "짤",
+    "theme_title": "혈액 배양(Blood Culture) 양성률에 가장 결정적인 영향을 미치는 요인",
+    "subspecialty": "임상미생물학",
+    "stem": "혈액 배양 양성률에 있어서 가장 영향을 미치는 것은?",
+    "images": [],
+    "options": [
+      "① 채혈량",
+      "② 피부 소독",
+      "③ 채혈 횟수",
+      "④ 채혈 시기",
+      "⑤ 환자의 기저질환"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 채혈량 (Blood volume)",
+    "explanation": {
+      "title": "혈액 배양(Blood Culture) 양성률에 가장 결정적인 영향을 미치는 요인",
+      "findings": "임상 미생물학 교과서 제1장 혈액배양 총론의 불변의 핵심 명제.",
+      "differential": "피부 소독(오염률에 영향), 채혈 횟수(위양성/위음성 감별용).",
+      "trap": "채혈 시기(오한 직전)나 횟수(2~3쌍)도 중요하지만, 통계적으로 양성률과 직접 비례하는 절대적 제1 인자는 채혈량임.",
+      "trigger": "균혈증(Bacteremia) 진단에서 혈액 배양의 민감도/양성률을 결정하는 단 하나의 가장 중요한 인자 = 채혈량(Blood volume, 성인 세트당 20~30mL)!",
+      "kmle_link": "KMLE 감염학 - 패혈증 및 균혈증의 혈액 배양 원칙"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q06",
+    "index": 6,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 6,
+    "category": "짤",
+    "theme_title": "EDTA 의존성 가성 혈소판 감소증(Pseudothrombocytopenia)과 튜브 선택",
+    "subspecialty": "진단혈액학",
+    "stem": "CBC에 관한 설명 중 틀린 것은?",
+    "images": [],
+    "options": [
+      "① 고지혈증일 때 실제보다 혈색소가 높게 측정이 된다.",
+      "② 적혈구가 응집 시 검체를 가온하면 교정될 수 있다.",
+      "③ Sodium citrate에서 혈소판 응집 시 EDTA 검사를 한다.",
+      "④ nRBC가 있으면 백혈구가 높게 측정된다.",
+      "⑤ 혈액응고가 일어나면 백혈구가 실제보다 낮게 측정된다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ Sodium citrate에서 혈소판 응집 시 EDTA 검사를 한다 (X - 반대로 EDTA 응집 시 Citrate로 재검)",
+    "explanation": {
+      "title": "EDTA 의존성 가성 혈소판 감소증(Pseudothrombocytopenia)과 튜브 선택",
+      "findings": "PBS에서 거대 혈소판 응집 괴(Platelet clumps) 관찰. 자동분석기는 이를 백혈구로 오인하거나 카운트에서 누락.",
+      "differential": "진성 면역혈소판감소증(ITP, PBS 상 단일 거대 혈소판, 응집괴 없음, 출혈 증상).",
+      "trap": "Citrate 튜브는 액체 항응고제로 10% 희석되므로, 측정된 혈소판 수치에 1.1을 곱하여 보정해야 함.",
+      "trigger": "EDTA 항응고제에 반응하여 체외에서 혈소판이 덩어리지는 가성 혈소판 감소증 의심 시 -> Sodium citrate 튜브나 Heparin 튜브로 재채혈하고 말초혈액도말(PBS)로 혈소판 응집 덩어리를 직접 확인해야 함!",
+      "kmle_link": "KMLE 혈액학 - 혈소판 감소증의 접근법 및 가성 혈소판 감소증 배제"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q07",
+    "index": 7,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 7,
+    "category": "짤",
+    "theme_title": "그물적혈구(Reticulocyte) 평가와 다염성(Polychromasia)의 관계",
+    "subspecialty": "진단혈액학",
+    "stem": "그물적혈구에 관한 설명으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "① Immature reticulocyte fraction (IRF)는 megakaryopoiesis를 반영한다.",
+      "② 그물적혈구는 성숙한 적혈구가 되기 전에 핵과 핵산이 남아있는 상태이다.",
+      "③ Peripheral blood smear 검사 시 polychromasia로 그 물적혈구 비율을 추정할 수 있다.",
+      "④ 그물적혈구는 세포 탄성에 대해서 성숙도를 판단할 수 있다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ Peripheral blood smear 검사 시 polychromasia로 그물적혈구 비율을 추정할 수 있다.",
+    "explanation": {
+      "title": "그물적혈구(Reticulocyte) 평가와 다염성(Polychromasia)의 관계",
+      "findings": "PBS 상 대형의 푸른빛 적혈구 관찰. 리보솜 RNA가 염기성 색소에 염색되어 나타남.",
+      "differential": "Howell-Jolly body(DNA 잔유 점상 구조), Basophilic stippling(연중독).",
+      "trap": "그물적혈구는 무핵 세포(RNA 잔유물 함유)이며 핵이 있는 세포(有核赤血球, nRBC)와 엄격히 구분됨.",
+      "trigger": "Wright-Giemsa 염색에서 푸르스름한 회청색을 띠는 다염성 적혈구(Polychromatophilic RBC) = 초생체 염색(New methylene blue)의 그물적혈구(Reticulocyte)와 완벽히 대응!",
+      "kmle_link": "KMLE 혈액학 - 빈혈의 병태생리적 분류 (골수 증식 반응 평가)"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q08",
+    "index": 8,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 8,
+    "category": "짤",
+    "theme_title": "자동혈구분석기(Automated Hematology Analyzer)의 측정 원리",
+    "subspecialty": "진단혈액학",
+    "stem": "자동혈구 분석기에서 이용하지 않는 원리는?",
+    "images": [],
+    "options": [
+      "① 세포점도",
+      "② 전기전도도",
+      "③ 전기저항",
+      "④ 광산란",
+      "⑤ 형광염색"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 세포점도 (Cell viscosity - 이용하지 않음)",
+    "explanation": {
+      "title": "자동혈구분석기(Automated Hematology Analyzer)의 측정 원리",
+      "findings": "혈구 분석기의 물리광학적 계수 원리를 묻는 기본 개념 문제.",
+      "differential": "전기저항(임피던스), 레이저 광산란, 화학 발광.",
+      "trap": "전방 산란광(FSC)은 세포 크기, 측방 산란광(SSC)은 내부 과립도 및 핵 복잡도를 반영함.",
+      "trigger": "자동혈구분석기가 이용하는 3대 원리 = 1) 전기저항법(Coulter principle, 임피던스), 2) 광산란법(전방/측방 산란광), 3) 형광염색법(RNA/DNA 형광)! 세포점도는 결코 측정하지 않음.",
+      "kmle_link": "KMLE 혈액학 - CBC 자동분석 원리 및 스캐터그램 해석"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q09",
+    "index": 9,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 9,
+    "category": "짤",
+    "theme_title": "말초혈액도말 상 적혈구 연전 형성(Rouleaux Formation)과 다발골수종",
+    "subspecialty": "진단혈액학",
+    "stem": "다음 사진이 의미하는 것은?",
+    "images": [
+      "images/26Y_Q09_fig1.png"
+    ],
+    "options": [
+      "① Megaloblastic anemia",
+      "② Multiple myeloma나 단백질이 증가한 상태",
+      "③ Irondeficiency anemia",
+      "④ Sickle cell anemia",
+      "⑤ Microangiopathic hemolytic anemia"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Multiple myeloma나 단백질이 증가한 상태 (연전 형성, Rouleaux formation)",
+    "explanation": {
+      "title": "말초혈액도말 상 적혈구 연전 형성(Rouleaux Formation)과 다발골수종",
+      "findings": "PBS 고배율 시야에서 적혈구들이 일렬로 중첩된 롤케이크/동전 기둥 모양 관찰.",
+      "differential": "자가응집(Autoagglutination, 불규칙 덩어리), 철결핍빈혈(중심 창백 확대, 소구성).",
+      "trap": "한랭응집소병(CAD)의 적혈구 응집(Agglutination)은 포도송이처럼 불규칙하게 뭉치는 것이며, 동전 쌓기 모양의 선상 연전(Rouleaux)과 형태학적으로 엄격히 구별됨.",
+      "trigger": "말초혈액도말(PBS)에서 적혈구들이 동전을 차곡차곡 쌓아 올린 형태로 길게 늘어서 있는 소견 = 연전 형성(Rouleaux formation)! 혈청 감마글로불린(단백질)이 극도로 증가한 다발골수종(Multiple myeloma)의 절대적 시그니처!",
+      "kmle_link": "KMLE 혈액학 - 다발골수종의 진단학적 검사 소견"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q10",
+    "index": 10,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 10,
+    "category": "탈",
+    "theme_title": "세척 적혈구(Washed RBC)의 주요 수혈 적응증: 반복적 심한 알레르기 및 IgA 결손",
+    "subspecialty": "수혈의학",
+    "stem": "WRBC(washed-RBC) 적응증?",
+    "images": [],
+    "options": [
+      "① 만성 신부전 환자의 수혈 치료",
+      "② 수혈 후 반복적으로 발생하는 심한 알레르기",
+      "③ 이식숙주대숙주병예방",
+      "④ TTP"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 수혈 후 반복적으로 발생하는 심한 알레르기 (또는 IgA 결손증 아나필락시스)",
+    "explanation": {
+      "title": "세척 적혈구(Washed RBC)의 주요 수혈 적응증: 반복적 심한 알레르기 및 IgA 결손",
+      "findings": "혈장 단백질에 대한 과민반응 차단 기전 숙지 확인.",
+      "differential": "Irradiated RBC(면역저하자, 직계가족 수혈 시 필수), CMV 음성 혈액.",
+      "trap": "이식편대숙주병(TA-GVHD) 예방에는 방사선 조사 적혈구(Irradiated RBC)를 써야 하며, 세척 적혈구는 백혈구를 완전히 없애지 못하므로 GVHD를 예방할 수 없음 (매우 중요한 함정)!",
+      "trigger": "적혈구 제제를 멸균 생리식염수로 세척하여 혈장 단백질을 99% 이상 제거한 세척 적혈구(Washed RBC)의 적응증 = 항히스타민제로 조절되지 않는 반복적 심한 알레르기 수혈반응 또는 항-IgA 항체를 가진 IgA 결핍 환자!",
+      "kmle_link": "KMLE 수혈의학 - 특수 혈액제제의 종류와 적응증 비교"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q11",
+    "index": 11,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 11,
+    "category": "짤",
+    "theme_title": "범혈구감소증(Pancytopenia)과 재생불량성 빈혈(Aplastic Anemia)",
+    "subspecialty": "진단혈액학",
+    "stem": "85세 여성 빈혈로 내원하였다. 검사 결과 Pancytopenia가 확인되었고, 세포 충실도는 낮으며, 조모세포가 감소되어있다. 진단으로 가장 적절한 것은?",
+    "images": [],
+    "options": [
+      "① Myelodysplastic syndrome",
+      "② Aplastic anemia",
+      "③ Chronic myeloid leukemia",
+      "④ Acute myeloid leukemia",
+      "⑤ Multiple myeloma"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Aplastic anemia (재생불량성 빈혈, AA)",
+    "explanation": {
+      "title": "범혈구감소증(Pancytopenia)과 재생불량성 빈혈(Aplastic Anemia)",
+      "findings": "혈액검사 상 Hb 저하, WBC/ANC 현저 저하, PLT 저하 동반 및 골수 세포충실도 저하 소견.",
+      "differential": "MDS(말초 혈구 이형성), 급성 백혈병(Blast > 20%), 거대적혈모구빈혈(MCV > 115, 과분엽 호중구).",
+      "trap": "골수이형성증후군(MDS)이나 백혈병은 이형성(Dysplasia)이나 모세포(Blast)가 관찰되나, AA는 세포 충실도가 극히 저하된 지방 골수(Fatty marrow)를 보임.",
+      "trigger": "고령 환자의 빈혈 + 백혈구 감소(Neutropenia) + 혈소판 감소(Thrombocytopenia)의 삼계열 동시 저하(Pancytopenia) + 비장종대 없음 = 골수 형성 저하에 의한 재생불량성 빈혈(AA)!",
+      "kmle_link": "KMLE 혈액학 - 범혈구감소증의 감별 진단 및 재생불량성 빈혈"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q12",
+    "index": 12,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 12,
+    "category": "짤",
+    "theme_title": "수혈 전 필수 면역혈액학 검사 항목: 불규칙항체 선별검사",
+    "subspecialty": "수혈의학",
+    "stem": "수혈 전 검사항목으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "① 직접 항글로불린검사",
+      "② 불규칙항체 선별검사",
+      "③ RH(E) 혈액형 검사",
+      "④ ABO 혈액형 유전자형 검사"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 불규칙항체 선별검사 (Antibody screening test)",
+    "explanation": {
+      "title": "수혈 전 필수 면역혈액학 검사 항목: 불규칙항체 선별검사",
+      "findings": "수혈 부작용(용혈성 수혈반응) 예방을 위한 필수 표준 패키지 규정.",
+      "differential": "직접 쿰스 검사(생체 내 적혈구 감작 확인용, 수혈 전 기본 선별 아님).",
+      "trap": "교차시험(Crossmatching)은 적혈구제제 불출 직전에 공혈자 적혈구와 환자 혈청을 반응시키는 것이며, 환자 자체 선별검사항목 1위는 불규칙항체 선별검사임.",
+      "trigger": "수혈 전 환자 검체로 반드시 시행해야 하는 법정 3대 수혈 전 검사 = 1) ABO 혈액형 검사, 2) Rh(D) 혈액형 검사, 3) 비예기항체(불규칙항체) 선별검사(Antibody screen)!",
+      "kmle_link": "KMLE 수혈의학 - 수혈 전 검사의 표준 절차"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q13",
+    "index": 13,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 13,
+    "category": "짤",
+    "theme_title": "급성 대량 출혈 시 긴급 수혈(Emergency Transfusion) 혈액형 선택",
+    "subspecialty": "수혈의학",
+    "stem": "40세 남성이 급성 출혈로 인해서 응급실에 내원하였다. AB, Rh-이며 항체선별검사 수행하였다. 혈액은행에 해당 혈액이 없는 상황에서 주치의로서 해야 하는 적절한 조치는?",
+    "images": [],
+    "options": [
+      "① 불규칙 항체 선별검사와 추가 검사를 더 시행한다.",
+      "② AB, RH- 혈액이 나올 때까지 기다린다.",
+      "③ 혈액은행에 대책을 요구한다.",
+      "④ 혈액은행에 AB, RH+혈액을 요청하여 수혈한다.",
+      "⑤ 보호자에게 대책이 없으며 사망할 것이라고 설명한다."
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ 혈액은행에 AB, RH+혈액을 요청하여 수혈한다. (X - O형 적혈구를 수혈해야 함)",
+    "explanation": {
+      "title": "급성 대량 출혈 시 긴급 수혈(Emergency Transfusion) 혈액형 선택",
+      "findings": "AB형 적혈구를 A, B, O형 환자에게 주면 환자의 자연 항체(Anti-A, Anti-B)에 의해 즉각적인 치명적 급성 혈관내 용혈 발생.",
+      "differential": "O형 RBC(모든 혈액형 투여 가능), AB형 FFP(항체 없으므로 모든 혈액형 투여 가능).",
+      "trap": "적혈구 제제는 O형이 만능 공혈자이고, FFP(신선동결혈장) 및 혈소판은 AB형이 항-A, 항-B 항체가 없어 만능 공혈자임. 적혈구와 혈장을 절대 혼동 말 것!",
+      "trigger": "환자 혈액형을 모르는 초응급 출혈 시 -> 적혈구 제제는 만능 공혈자인 O형(Rh-, 가임기 여성) 또는 O형(Rh+, 남성/고령)을 수혈해야 함! AB형은 혈장 제제의 만능 공혈자이지 적혈구는 절대 금기!",
+      "kmle_link": "KMLE 응급의학/수혈의학 - 중증 외상성 대량 출혈의 소생 수혈 지침"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q14",
+    "index": 14,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 14,
+    "category": "짤",
+    "theme_title": "ABO 혈액형 유전학: 전이효소(Transferase) 코딩과 당사슬 항원 합성",
+    "subspecialty": "수혈의학/진단유전학",
+    "stem": "혈액형에 대한 설명으로 옳은 것을 고르시오.",
+    "images": [],
+    "options": [
+      "① A형과 B형은 염기 1개 차이난다.",
+      "② O형과 A형은 염기 4개 차이난다.",
+      "③ ABO 혈액형을 결정하는 유전자는 1번 염색체에, Rh 혈액형을 결정하는 유전자는 9번 염색체에 존재한다.",
+      "④ ABO 혈액형의 유전자는 성염색체의 상호우성으로 발현이 된다.",
+      "⑤ 혈액형의 유전자는 transferase를 코딩하여 간접적으로 혈액형을 결정한다."
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 혈액형의 유전자는 transferase를 코딩하여 간접적으로 혈액형을 결정한다.",
+    "explanation": {
+      "title": "ABO 혈액형 유전학: 전이효소(Transferase) 코딩과 당사슬 항원 합성",
+      "findings": "선지 ① \"A형과 B형은 염기 1개 차이(X - 4개 차이)\", ② \"O형과 A형은 염기 4개 차이(X - 1개 염기 결실)\", ③ \"1번 염색체(X - ABO는 9번, Rh는 1번)\".",
+      "differential": "Rh 유전자는 1번 염색체에 위치하며 단백질 항원을 직접 코딩함.",
+      "trap": "A 유전자는 N-acetylgalactosaminyltransferase를 코딩하고, B 유전자는 Galactosyltransferase를 코딩함. O 유전자는 단일 염기 결실(Frameshift)로 비활성 단백질 생성.",
+      "trigger": "ABO 유전자는 적혈구 표면 항원 단백질을 직접 만드는 것이 아니라, H 항원에 당을 붙이는 당전이효소(Glycosyltransferase)를 코딩하여 간접적으로 A/B 항원을 합성함!",
+      "kmle_link": "KMLE 수혈의학 - ABO 혈액형의 생화학적 합성 및 분자유전학"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q16",
+    "index": 15,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 16,
+    "category": "짤",
+    "theme_title": "EDTA 유도 가성 혈소판 감소증 환자의 재검용 항응고제 튜브",
+    "subspecialty": "진단혈액학",
+    "stem": "다음 병의 이름은 무엇인가?",
+    "images": [
+      "images/26Y_Q16_fig1.png"
+    ],
+    "options": [
+      "① Sodium citrate (구연산나트륨 튜브 - Light blue cap)",
+      "② EDTA tube (Lavender cap)",
+      "③ Heparin tube (Green cap)",
+      "④ Plain tube (Red cap)",
+      "⑤ ACD tube (Yellow cap)"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Sodium citrate (구연산나트륨 튜브 - Light blue cap)",
+    "explanation": {
+      "title": "EDTA 유도 가성 혈소판 감소증 환자의 재검용 항응고제 튜브",
+      "findings": "Q06과 연계되는 진단혈액학 고전 필수 문제.",
+      "differential": "EDTA(보라색), Sodium citrate(하늘색), Heparin(녹색), Plain/SST(노란/빨간색).",
+      "trap": "Citrate 튜브에서도 드물게 응집하는 경우 Heparin 튜브를 사용하거나, 항응고제 없는 주사기로 즉시 채혈 후 직접 도말/희석 검사 시행.",
+      "trigger": "EDTA 튜브에서 혈소판 응집으로 인한 가성 혈소판 감소증 확인 시 재검용으로 사용하는 제1 표준 튜브 = Sodium citrate 튜브!",
+      "kmle_link": "KMLE 혈액학 - 혈소판 검사 채혈 튜브 및 주의사항"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q17",
+    "index": 16,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 17,
+    "category": "짤",
+    "theme_title": "혈액 응고 검사 판독: aPTT 단독 연장 시 연관 응고 인자 결핍",
+    "subspecialty": "진단혈액학",
+    "stem": "20대 여자가 평소 멍이 잘 들고 출혈경향이 나타나서 내원하였다. 검사 결과 다음과 같을 때 관련된 인자는? Platelet: 250,000 Hb: 13.0 aPTT: 60 PT: 12",
+    "images": [],
+    "options": [
+      "① VIII, IX, XI",
+      "② VIII",
+      "③ V, VII",
+      "④ IV, V, VII",
+      "⑤ VII, IX, XII"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① VIII, IX, XI (내인성 경로 응고 인자)",
+    "explanation": {
+      "title": "혈액 응고 검사 판독: aPTT 단독 연장 시 연관 응고 인자 결핍",
+      "findings": "PT 정상치 범위, aPTT 기준치 2배 이상 지연 확인.",
+      "differential": "Factor VII(PT만 연장), Factor X/V/II(둘 다 연장).",
+      "trap": "PT 단독 연장은 외인성 경로인 제7인자(Factor VII) 결핍/와파린 초기이며, PT와 aPTT가 모두 연장되면 공통 경로(I, II, V, X) 결핍이나 중증 간질환/DIC임.",
+      "trigger": "출혈 경향 환자에서 PT 정상(12초) + aPTT 단독 현저 연장(60초) = 내인성 경로(Intrinsic pathway) 인자인 제8인자(혈우병 A), 제9인자(혈우병 B), 제11인자(혈우병 C) 결핍 또는 vWF 결핍!",
+      "kmle_link": "KMLE 혈액학 - 혈액응고 검사 해석 및 혈우병 진단"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q18",
+    "index": 17,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 18,
+    "category": "짤",
+    "theme_title": "류마티스 인자(Rheumatoid Factor, RF)의 주된 면역글로불린 동형",
+    "subspecialty": "진단면역학",
+    "stem": "RF의 주된 isotype은?",
+    "images": [],
+    "options": [
+      "① IgM-RF",
+      "② IgG-RF",
+      "③ IgA-RF",
+      "④ IgD-RF",
+      "⑤ IgE-RF"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① IgM-RF (IgG의 Fc 부위에 결합하는 IgM 항체)",
+    "explanation": {
+      "title": "류마티스 인자(Rheumatoid Factor, RF)의 주된 면역글로불린 동형",
+      "findings": "면역학적 정의: RF는 \"자가 IgG의 Fc 부위에 대한 자가항체\"이며 주 동형은 IgM.",
+      "differential": "Anti-CCP(Citrullinated peptide 항체, RA 특이도 95% 이상).",
+      "trap": "IgG-RF나 IgA-RF도 존재하나 임상 검사실에서 라텍스 응집법/비탁법으로 통상 검출하는 90% 이상의 주된 형태는 IgM-RF임.",
+      "trigger": "임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체.",
+      "kmle_link": "KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q19",
+    "index": 18,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 19,
+    "category": "짤",
+    "theme_title": "검사실 생물안전등급(Biosafety Level, BSL) 분류 기준 및 지침",
+    "subspecialty": "임상미생물학",
+    "stem": "검사실 생물 안전에 대한 설명으로 틀린 것은?",
+    "images": [],
+    "options": [
+      "① 모든 검체는 잠재적 위험성이 있다고 간주하며 작업시 표준지침을 따른다.",
+      "② 우리나라에서는 결핵균이 많이 검출되므로 생물안전 3등급에서 작업하는 것이 바람직하다.",
+      "③ 생물안전 4등급에서는 class III 생물안전작업대와 양압복과 같은 특수보호장비가 필요하다.",
+      "④ 정상인에게서 감염을 일으키지 않는 세균은 개방된 작업대에서 다뤄도 된다.",
+      "⑤ 임상적으로 흔하게 검출되는 세균은 생물안전 1등급에 해 당되며 생물안전작업대가 필요하다."
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 임상적으로 흔하게 검출되는 세균은 생물안전 1등급에 해당되며 생물안전작업대가 필요하다. (X - 2등급에 해당)",
+    "explanation": {
+      "title": "검사실 생물안전등급(Biosafety Level, BSL) 분류 기준 및 지침",
+      "findings": "선지 ⑤는 흔한 임상 세균을 1등급으로 잘못 기술하여 명백한 오답.",
+      "differential": "BSL-3(결핵균 배양, 음압시설), BSL-4(Class III BSC 또는 에어슈트).",
+      "trap": "결핵균(M. tuberculosis)은 공기 전파 위험으로 BSL-3 음압 구역에서 작업하는 것이 원칙임.",
+      "trigger": "병원 임상검사실에서 흔히 분리되는 병원성 세균(S. aureus, E. coli, Salmonella 등)은 생물안전 2등급(BSL-2)에 해당하며 Class II 생물안전작업대(BSC)에서 다룸! 1등급은 비병원성균(E. coli K12).",
+      "kmle_link": "KMLE 감염학/예방의학 - 병원 감염 관리 및 검사실 생물안전 지침"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q20",
+    "index": 19,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 20,
+    "category": "짤",
+    "theme_title": "임상 안구/유리체 검체 취급 시 요구되는 생물안전 등급 및 작업대",
+    "subspecialty": "임상미생물학",
+    "stem": "백내장 수술 후 시력 저하가 나타난 환자의 유리체에서 검사를 진행해 배양을 하였다. 배양 3일 후 SDA에서 솜털 모양의 집락이 관찰되었다. 생물안전등급으로 옳은 것은?",
+    "images": [
+      "images/26Y_Q20_fig1.png"
+    ],
+    "options": [
+      "① 등급-개방작업대",
+      "② 등급-개방작업대",
+      "③ 등급-생물안전작업대",
+      "④ 등급-음압시설과 양압복",
+      "⑤ 등급-생물안전작업대와 호흡보조장치"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 2등급 - 생물안전작업대 (BSL-2 with BSC Class II)",
+    "explanation": {
+      "title": "임상 안구/유리체 검체 취급 시 요구되는 생물안전 등급 및 작업대",
+      "findings": "환자 유래 감염성 검체의 기본 취급 표준 등급 숙지 여부 확인.",
+      "differential": "1등급(작업대 불필요), 3등급(음압 및 공기여과 특수시설).",
+      "trap": "3등급은 결핵이나 고위험 호흡기 바이러스에 적용되며 일반 세균성 안구 감염 검체는 2등급임.",
+      "trigger": "백내장 수술 후 안내염 환자의 유리체액(Vitreous humor) 등 환자 검체 배양은 일반 임상 검체이므로 생물안전 2등급(BSL-2) 시설 및 생물안전작업대(BSC) 내에서 취급해야 함!",
+      "kmle_link": "KMLE 감염학 - 임상 검체 안전 취급 지침"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q21",
+    "index": 20,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 21,
+    "category": "짤",
+    "theme_title": "인터페론감마 분비검사(IGRA, QuantiFERON) 결과 판정: 판정 불가(Indeterminate)",
+    "subspecialty": "임상미생물학/면역학",
+    "stem": "다음은 IGRA 검사 결과이다. 옳게 해석한 것은?",
+    "images": [
+      "images/26Y_Q21_fig1.png"
+    ],
+    "options": [
+      "① Intermediate",
+      "② Indeterminate",
+      "③ Negative",
+      "④ Borderline",
+      "⑤ Positive"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Indeterminate (판정 불가 / 미결정)",
+    "explanation": {
+      "title": "인터페론감마 분비검사(IGRA, QuantiFERON) 결과 판정: 판정 불가(Indeterminate)",
+      "findings": "제시된 데이터에서 Nil 0.1, TB Ag 0.2, Mitogen 0.3으로 양성 대조군이 무반응 상태.",
+      "differential": "Positive(TB Ag 유의한 상승), Negative(TB Ag 무반응이나 Mitogen 정상 반응).",
+      "trap": "면역저하자, 스테로이드 사용자, 림프구감소증 환자에서 T세포 기능 저하로 Mitogen 반응이 안 나와 Indeterminate가 빈발함.",
+      "trigger": "IGRA 검사에서 양성 대조군(Mitogen)의 IFN-gamma 반응이 기준치 미달(<0.5 IU/mL)로 면역반응이 전혀 없거나, 음성 대조군(Nil) 수치가 비정상적으로 높으면(>8.0 IU/mL) = Indeterminate(판정 불가)!",
+      "kmle_link": "KMLE 호흡기/감염학 - 잠복결핵감염(LTBI)의 진단 및 IGRA 해석"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q22",
+    "index": 21,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 22,
+    "category": "짤",
+    "theme_title": "알코올 젤 손소독제에 저항성을 보이는 아포 형성균(Spore-forming Bacteria)",
+    "subspecialty": "임상미생물학/감염관리",
+    "stem": "다음 중 알코올 젤로 손을 씻어 가장 효과 없을 균은?",
+    "images": [],
+    "options": [
+      "① Bacillus subtilis",
+      "② MERS virus",
+      "③ MRSA",
+      "④ Mycobacterium tuberculosis"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Bacillus subtilis (및 Clostridioides difficile - 아포 형성균)",
+    "explanation": {
+      "title": "알코올 젤 손소독제에 저항성을 보이는 아포 형성균(Spore-forming Bacteria)",
+      "findings": "선지 중 유일한 Bacillus속 아포 형성균주 확인.",
+      "differential": "E. coli, MRSA, VRE, P. aeruginosa (모두 영양세포 상태로 알코올 감수성).",
+      "trap": "일반 그람양성 구균(MRSA, VRE)이나 그람음성 간균(Pseudomonas, Acinetobacter)은 알코올에 매우 취약하여 알코올 젤로 쉽게 사멸됨.",
+      "trigger": "알코올 손소독제(Alcohol gel)로 사멸되지 않아 반드시 물과 비누로 기계적 세척(Soap and water handwashing)을 해야 하는 균 = 아포(Spore) 형성균(Bacillus속, Clostridium속)!",
+      "kmle_link": "KMLE 감염학 - 병원 감염 관리 및 소독/멸균 원칙"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q23",
+    "index": 22,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 23,
+    "category": "짤",
+    "theme_title": "가계도 분석: 유전성 경직성 대마비(HSP)의 상염색체 우성(AD) 유전 패턴",
+    "subspecialty": "진단유전학",
+    "stem": "다음은 Hereditary spastic paraplegia 질환의 가계도이다. 어떤 유전 형태인가?",
+    "images": [
+      "images/26Y_Q23_fig1.png"
+    ],
+    "options": [
+      "① Autosomal dominant",
+      "② Autosomal recessive",
+      "③ X-linked recessive",
+      "④ X-linked dominant",
+      "⑤ Mitochondria 유전"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Autosomal dominant (상염색체 우성 유전)",
+    "explanation": {
+      "title": "가계도 분석: 유전성 경직성 대마비(HSP)의 상염색체 우성(AD) 유전 패턴",
+      "findings": "3세대에 걸친 가계도에서 남성과 여성 모두 고르게 질환을 앓고 있으며 부자간 전달(Male-to-male transmission) 확인.",
+      "differential": "AR(동포 간에만 집중 발생), X-linked(부자간 전달 불가).",
+      "trap": "세대를 건너뛰는(Horizontal) 양상은 상염색체 열성(AR)이고, 모계로만 전달되는 것은 미토콘드리아 유전임.",
+      "trigger": "매 세대마다 연속적으로 환자가 발생(Vertical transmission) + 남녀 성별에 따른 발생률 차이 없음 + 이환된 부모의 자녀에게 50% 전달 = 상염색체 우성(AD) 유전!",
+      "kmle_link": "KMLE 의학유전학 - 단일 유전자 질환의 가계도 판독 원칙"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q24",
+    "index": 23,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 24,
+    "category": "짤",
+    "theme_title": "상염색체 열성(Autosomal Recessive) 가계도와 보인자 부모의 자녀 발병 확률 (25%)",
+    "subspecialty": "진단유전학",
+    "stem": "다음은 Autosomal recessive gene인 EIF2AK4 변이로 인한 pulmonary veno-occlusive disease 환자의 가계도이다. 옳은 것은?",
+    "images": [
+      "images/26Y_Q24_fig1.png"
+    ],
+    "options": [
+      "① II-1, 2에서 유전 질환이 있을 가능성이 25%이므로 유전 자검사(가족검사)를 시행해야 한다.",
+      "② 이 유전질환은 여성보다 남성에서 더 흔하다.",
+      "③ 상염색체 열성질환이므로 해당 환자(II-3)에게는 EIF2AK4 유전자가 한 개 있을 것이다.",
+      "④ 해당 환자(II-3) 자녀에서 딸이 태어난다면 보인자 (carrier)이고, 아들이 태어난다면 정상(wild type)이다.",
+      "⑤ 해당 환자(II-3) 자녀에서 유전 질환을 가질 확률이 50%이므로 반드시 유전자검사(가족검사)를 해야 한다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① II-1, 2에서 유전 질환이 있을 가능성이 25%이므로 유전자검사(가족검사)를 시행해야 한다.",
+    "explanation": {
+      "title": "상염색체 열성(Autosomal Recessive) 가계도와 보인자 부모의 자녀 발병 확률 (25%)",
+      "findings": "EIF2AK3 유전자 변이(Wolcott-Rallison 증후군) 가계도 제시.",
+      "differential": "AD(자녀 발병률 50%), X-linked(남아 발병률 50%).",
+      "trap": "이미 태어난 정상 자녀가 보인자일 확률은 2/3 (66.7%)이나, 임신 시 태아가 환아일 확률은 1/4 (25%)임.",
+      "trigger": "상염색체 열성(AR, EIF2AK3 유전자 등) 질환에서 보인자 부모(Aa x Aa) 사이에서 태어나는 자녀가 질환에 이환될 확률 = 정확히 1/4 (25%)! 보인자 확률은 50%, 정상 확률 25%.",
+      "kmle_link": "KMLE 의학유전학 - 상염색체 열성 유전의 가계도 상담 및 확률 계산"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q25",
+    "index": 24,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 25,
+    "category": "짤",
+    "theme_title": "광범위 베타락탐분해효소(ESBL) 생성균에 유효한 항생제: Cefoxitin과 Carbapenem",
+    "subspecialty": "임상미생물학",
+    "stem": "ESBL이 분해하지 못하는 항생제는?",
+    "images": [],
+    "options": [
+      "① Ampicillin",
+      "② Cefoxitin",
+      "③ Cefotaxime",
+      "④ Ceftazidime",
+      "⑤ Cefepime"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Cefoxitin (세폭시틴 - 세파마이신계 항생제)",
+    "explanation": {
+      "title": "광범위 베타락탐분해효소(ESBL) 생성균에 유효한 항생제: Cefoxitin과 Carbapenem",
+      "findings": "선지 중 Cefotaxime, Ceftazidime, Aztreonam은 ESBL 분해 대상. Cefoxitin은 Cephamycin 구조로 안정.",
+      "differential": "AmpC 과발현균(Cefoxitin 내성, Cefepime 감수성).",
+      "trap": "AmpC 베타락탐분해효소는 Cefoxitin마저 분해하므로, ESBL(Cefoxitin 감수성)과 AmpC(Cefoxitin 내성)를 감별하는 핵심 시약이 Cefoxitin임.",
+      "trigger": "ESBL(Extended-Spectrum Beta-Lactamase)은 3세대 세파, 4세대 세파, 아즈트레오남을 분해하여 내성을 보이나, 세파마이신(Cephamycin, Cefoxitin) 및 카바페넴(Carbapenem)은 분해하지 못함!",
+      "kmle_link": "KMLE 감염학 - 다제내성 그람음성 간균의 항생제 내성 기전과 치료"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q26",
+    "index": 25,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 26,
+    "category": "짤",
+    "theme_title": "세균성 장염의 원인균이 아닌 것: 반코마이신 내성 장구균(VRE)",
+    "subspecialty": "임상미생물학",
+    "stem": "세균성 장염을 흔하게 일으키지 않는 균은?",
+    "images": [],
+    "options": [
+      "① EHEC",
+      "② Campylobacter",
+      "③ Shigella",
+      "④ Salmonella",
+      "⑤ VRE"
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ VRE (Vancomycin-Resistant Enterococci - VRE는 정상 장내 상재균으로 균혈증, 요로감염을 일으키며 독소성 감염성 설사의 원인균이 아님)",
+    "explanation": {
+      "title": "세균성 장염의 원인균이 아닌 것: 반코마이신 내성 장구균(VRE)",
+      "findings": "세균성 위장관염(Infectious gastroenteritis)의 원인균 목록에서 제외되는 항목 선별.",
+      "differential": "Campylobacter(수양성/혈변), Salmonella(발열, 점변), Shigella(이질, 테네스무스).",
+      "trap": "Salmonella, Shigella, Campylobacter, Vibrio, EHEC, C. difficile은 모두 급성 설사성 장염의 대표 원인균임.",
+      "trigger": "VRE(반코마이신 내성 장알균)는 장내 정상 상주세균총의 집락화(Colonization) 및 병원 내 기회감염균(요로감염, 균혈증)이지, 급성 설사/세균성 장염을 일으키는 장내 병원체가 아님!",
+      "kmle_link": "KMLE 소화기/감염학 - 급성 감염성 설사의 원인 미생물 감별"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q27",
+    "index": 26,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 27,
+    "category": "짤",
+    "theme_title": "메티실린 내성 황색포도알균(MRSA) 선별 검사용 대리 항생제",
+    "subspecialty": "임상미생물학",
+    "stem": "다음 중 MRSA 선별검사로 사용되는 항생제는?",
+    "images": [],
+    "options": [
+      "① Methicillin",
+      "② Ampicillin",
+      "③ Penicillin",
+      "④ Cefoxitin",
+      "⑤ Cefotetan"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ Cefoxitin (세폭시틴 디스크 / 선별검사)",
+    "explanation": {
+      "title": "메티실린 내성 황색포도알균(MRSA) 선별 검사용 대리 항생제",
+      "findings": "CLSI 표준 MRSA 감수성 시험 지침의 핵심 족보.",
+      "differential": "Penicillin(Penicillinase 내성 확인용), Vancomycin(MRSA 치료제).",
+      "trap": "과거에는 Oxacillin을 사용했으나, 보관 및 온도에 민감하여 CLSI 가이드라인은 Cefoxitin 디스크 확산법을 표준 선별법으로 채택함.",
+      "trigger": "검사실에서 mecA 유전자에 의한 PBP2a 생성을 유도하여 MRSA를 가장 정확하고 강력하게 선별(Screening)하는 대리 항생제 = Cefoxitin!",
+      "kmle_link": "KMLE 감염학 - 포도알균 감염 및 MRSA 진단과 치료(Vancomycin)"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q28",
+    "index": 27,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 28,
+    "category": "짤",
+    "theme_title": "디스크 확산법(Disk Diffusion Test, DDT)의 항생제 감수성 원리",
+    "subspecialty": "임상미생물학",
+    "stem": "항생제 감수성 검사에 대한 설명으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "① DDT는 검사시간이 짧다.",
+      "② DDT는 비용이 많이 든다.",
+      "③ DDT에서 억제대가 클수록 약제 감수성이 높다.",
+      "④ 액체 희석은 한천 배지를 이용한다.",
+      "⑤ MIC는 최대 농도이다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ DDT에서 억제대가 클수록 약제 감수성이 높다. (Zone of inhibition)",
+    "explanation": {
+      "title": "디스크 확산법(Disk Diffusion Test, DDT)의 항생제 감수성 원리",
+      "findings": "억제대 직경과 세균 증식 억제력의 정비례 상관관계 확인.",
+      "differential": "MIC(농도이므로 작을수록 우수), 배양 시간(16-18시간 표준).",
+      "trap": "최소억제농도(MIC)는 낮을수록 감수성이 높은 것이고, 디스크 억제대 직경(Zone size)은 클수록 감수성이 높은 것임 (반비례 관계 혼동 주의)!",
+      "trigger": "Kirby-Bauer 디스크 확산법에서 항생제 디스크 주변의 세균 증식 저지대(Inhibition zone) 직경이 클수록 -> 해당 균주는 그 항생제에 대해 감수성(Susceptible)이 높음!",
+      "kmle_link": "KMLE 감염학 - 항생제 감수성 검사(DDT vs MIC) 판독법"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q29",
+    "index": 28,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 29,
+    "category": "짤",
+    "theme_title": "카바페넴 분해효소(Carbapenemase) 생성 장내세균(CRE)의 핵심 유전자",
+    "subspecialty": "임상미생물학",
+    "stem": "Carbapenemase와 가장 관련성이 높은 gene은?",
+    "images": [],
+    "options": [
+      "① KPC",
+      "② VIM",
+      "③ NDM",
+      "④ OXA-48",
+      "⑤ IMP"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① KPC (Klebsiella pneumoniae carbapenemase)",
+    "explanation": {
+      "title": "카바페넴 분해효소(Carbapenemase) 생성 장내세균(CRE)의 핵심 유전자",
+      "findings": "신속 PCR 또는 다중 유전자 검사로 검출하는 핵심 내성 유전자 선별.",
+      "differential": "vanA(VRE 원인), mecA(MRSA 원인), blaCTX-M(ESBL 원인).",
+      "trap": "NDM은 메탈로-베타락탐분해효소(Class B, 아즈트레오남 제외 모든 베타락탐 분해)이고, OXA-48은 Class D 카바페네마제임. 국내 최빈발은 KPC.",
+      "trigger": "국내 카바페넴 내성 장내세균목(CRE/CPE)에서 가장 흔하게 검출되는 제1위 카바페넴 분해 유전자 = KPC (Ambler Class A)!",
+      "kmle_link": "KMLE 감염학 - 카바페넴 내성 장내세균(CRE)의 내성 기전 및 진단"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q30",
+    "index": 29,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 30,
+    "category": "짤",
+    "theme_title": "적혈구 지수(RBC Indices): 개별 적혈구의 평균 헤모글로빈 양 (MCH)",
+    "subspecialty": "진단혈액학",
+    "stem": "개별 RBC가 함유한 hemoglobin 양을 나타내는 지표?",
+    "images": [],
+    "options": [
+      "① MCH",
+      "② MCHC",
+      "③ Hct",
+      "④ RDW",
+      "⑤ MCV"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① MCH (Mean Corpuscular Hemoglobin, 평균 적혈구 혈색소량)",
+    "explanation": {
+      "title": "적혈구 지수(RBC Indices): 개별 적혈구의 평균 헤모글로빈 양 (MCH)",
+      "findings": "단순 정의 매칭: 개별 적혈구 함유 혈색소 중량 = MCH.",
+      "differential": "MCV(크기), MCHC(농도), RDW(크기 부동성).",
+      "trap": "MCHC는 적혈구 부피당 헤모글로빈 농도(g/dL, %)이고, MCV는 적혈구 개별 부피(fL)임. \"개별 RBC가 함유한 hemoglobin 양\"은 MCH.",
+      "trigger": "적혈구 1개당 함유된 절대적인 헤모글로빈 양(피코그램, pg 단위)을 나타내는 지표 = MCH (Mean Corpuscular Hemoglobin)!",
+      "kmle_link": "KMLE 혈액학 - 적혈구 지수의 계산 공식과 빈혈 분류"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q31",
+    "index": 30,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 31,
+    "category": "짤",
+    "theme_title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
+    "subspecialty": "진단면역학/혈액학",
+    "stem": "유세포분석으로 볼 수 없는 것은?",
+    "images": [],
+    "options": [
+      "① CA-125",
+      "② Immunophenocyte",
+      "③ HLA crossmatchinng",
+      "④ Stem cell count",
+      "⑤ NK cell 활성도 측정"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① CA-125 (난소암 혈청 종양표지자 - 면역측정법/ELISA로 측정)",
+    "explanation": {
+      "title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
+      "findings": "세포 부유액을 레이저 광선에 통과시키는 유세포분석과 혈청 화학 면역분석의 차이점 이해.",
+      "differential": "CD4/CD8(유세포 가능), CD34(유세포 가능), CA-125(ELISA 측정).",
+      "trap": "CD4/CD8 T세포 분획, 백혈병 면역표현형(CD19, CD33), PNH의 CD55/CD59 결손은 세포막 항원이므로 유세포분석의 대표 적응증임.",
+      "trigger": "유세포분석(Flow cytometry)은 개별 단일 세포(Cell) 표면/세포질의 항원을 측정하는 기법이므로, 혈청에 녹아있는 액상 종양표지자 단백질(CA-125, CEA, AFP, PSA)은 측정 불가!",
+      "kmle_link": "KMLE 혈액학/종양학 - 유세포분석의 임상적 이용"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q32",
+    "index": 31,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 32,
+    "category": "짤",
+    "theme_title": "자가항체 판독 결과의 모순: Anti-SS-B 단독 양성의 위음성/위양성 해석",
+    "subspecialty": "진단면역학",
+    "stem": "가장 가능성이 낮은 판독결과는? ANA : (-) Anti-sm : (+) Anti-dsDNA : (-) Anti-SS-A (RO) : (+) Anti-SS-B (LA) : (+)",
+    "images": [],
+    "options": [
+      "① False negative of ANA",
+      "② False negative of Anti-dsDNA",
+      "③ False positive of Anti-sm",
+      "④ False positive of Anti-LA",
+      "⑤ False positive of RO"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② False negative of Anti-dsDNA (또는 Anti-SS-A 음성인데 SS-B 단독 양성 소견 모순)",
+    "explanation": {
+      "title": "자가항체 판독 결과의 모순: Anti-SS-B 단독 양성의 위음성/위양성 해석",
+      "findings": "항체 결과 간의 생물학적 일치도를 검증하는 진단면역학 족보 문제.",
+      "differential": "Anti-dsDNA 역가는 질환 활성도 및 루푸스 신염 발생과 밀접하게 비례.",
+      "trap": "SLE 환자에서 ANA 양성이면서 Anti-dsDNA가 음성으로 나오는 것은 질환 비활동기나 관해 상태에서 흔히 볼 수 있는 정상적 판독임.",
+      "trigger": "쇼그렌 증후군에서 Anti-SS-B(La) 항체는 거의 예외 없이 Anti-SS-A(Ro) 항체와 동반되어 나타나므로, SS-A 음성이면서 SS-B만 단독 양성인 경우는 검사실 위양성이거나 극히 드묾!",
+      "kmle_link": "KMLE 류마티스학 - 쇼그렌 증후군 및 자가항체 패널 판독"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q33",
+    "index": 32,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 33,
+    "category": "짤",
+    "theme_title": "미생물 취급 실험실 개인보호구 및 손위생 원칙",
+    "subspecialty": "임상미생물학/감염관리",
+    "stem": "미생물 취급 실험실이 갖추어야 할 사항으로 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "① 검사실 문을 열어두면 안된다.",
+      "② 긴 머리는 오염을 일으킬 가능성이 높으므로 뒤로 잡아매야 한다.",
+      "③ 장갑을 벗고 난 후 손을 씻지 않아도 된다.",
+      "④ 미생물 관련 작업을 한 후에 다른 작업을 하기 전 장갑을 벗어야 한다.",
+      "⑤ 검사실 안에서는 보호복을 착용하고 발가락과 발뒤꿈치가 안보이는 신발을 신어야 한다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 장갑을 벗고 난 후 손을 씻지 않아도 된다. (X - 장갑 탈의 직후 반드시 손위생)",
+    "explanation": {
+      "title": "미생물 취급 실험실 개인보호구 및 손위생 원칙",
+      "findings": "너무나 당연한 감염관리 상식을 묻는 100% 득점용 서비스 족보.",
+      "differential": "가운 착용, 마스크/고글(비말 발생 조작 시), 실험실 문 닫힘 유지.",
+      "trap": "장갑 착용이 결코 손위생(Hand hygiene)을 대체할 수 없음.",
+      "trigger": "의료 및 검사실 감염관리 제1철칙 = 장갑(Gloves)을 착용했더라도 미세 구멍이나 벗는 과정에서 손이 오염되므로, 장갑을 벗은 직후에는 예외 없이 반드시 손을 씻어야 함!",
+      "kmle_link": "KMLE 감염학/예방의학 - 병원 표준주의 지침 및 손위생 원칙"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q34",
+    "index": 33,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 34,
+    "category": "짤",
+    "theme_title": "유전성 질환(Inherited Disease)과 환경적 요인의 상호작용",
+    "subspecialty": "진단유전학",
+    "stem": "다음 중 유전 질환(Inherited Disease)에 대한 설명으로 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "① 멘델 유전 법칙을 따른다.",
+      "② 일부 암은 inherited disorder이다",
+      "③ 가장 널리 알려진 원인은 단백질을 결정하는 단일 유전자 변이에 의한 것이다.",
+      "④ 부모에게 변이가 없어도 자녀에게서 변이가 발생할 수 있다",
+      "⑤ 유전적 요인외에 외부 인자에 영향을 받지 않는다."
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 유전적 요인외에 외부 인자에 영향을 받지 않는다. (X - 환경 요인과 밀접히 상호작용)",
+    "explanation": {
+      "title": "유전성 질환(Inherited Disease)과 환경적 요인의 상호작용",
+      "findings": "유전 결정론적 오류(외부 영향 배제)를 지적하는 전통적 총론 기출.",
+      "differential": "단일유전자 질환, 염색체 질환, 다인자성 복합 질환.",
+      "trap": "페닐케톤뇨증(PKU)은 전형적 단일 유전자 질환이지만 페닐알라닌 식이 제한이라는 환경 조절을 통해 뇌 손상을 완벽히 예방할 수 있음.",
+      "trigger": "유전 질환(Inherited/Genetic disease)이라 하더라도 식습관, 감염, 약물, 환경적 독소 등 외부 요인에 의해 질환의 발현 시기, 중증도(Expressivity), 표현형이 크게 좌우됨!",
+      "kmle_link": "KMLE 의학유전학 - 유전 질환의 기본 개념 및 다인자 유전"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q35",
+    "index": 34,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 35,
+    "category": "짤",
+    "theme_title": "유전 질환(Genetic Disease)의 포괄적 정의: 다운증후군(염색체 이상 질환)",
+    "subspecialty": "진단유전학",
+    "stem": "다음 중 유전 질환(Genetic Disease)에 대한 설명으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "① 멘델 유전 법칙을 따른다.",
+      "② 단백질을 결정하는 단일 유전자 변이에 의한 것이다.",
+      "③ 다운증후군은 염색체 이상 질환이므로 유전질환이다.",
+      "④ 암은 환경에 의한 영향을 받기 때문에 유전질환이 아니다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 다운증후군은 염색체 이상 질환이므로 유전질환이다.",
+    "explanation": {
+      "title": "유전 질환(Genetic Disease)의 포괄적 정의: 다운증후군(염색체 이상 질환)",
+      "findings": "Genetic vs Inherited의 학술적 개념 차이를 묻는 진단유전학 핵심 문항.",
+      "differential": "Robertsonian translocation 다운증후군(약 4%, 유전 가능).",
+      "trap": "다운증후군의 95%는 비유전성 삼염색체증(Trisomy 21)으로 부모에게서 유전된 것은 아니지만, 유전 물질(DNA/염색체)의 이상이므로 Genetic disease에 속함.",
+      "trigger": "유전 질환(Genetic disease)은 부모로부터 대대로 물려받는 유전성 질환(Inherited disease)뿐 아니라, 감수분열 비분리나 체세포 돌연변이에 의해 발생하는 염색체 질환(다운증후군, 터너증후군)과 암을 모두 포괄하는 상위 개념임!",
+      "kmle_link": "KMLE 의학유전학 - 염색체 이상 질환 및 유전질환 분류 체계"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q36",
+    "index": 35,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 36,
+    "category": "짤",
+    "theme_title": "가계도 해석: 불완전 침투율(Incomplete Penetrance)과 ANXA11 변이",
+    "subspecialty": "진단유전학",
+    "stem": "다음 그림은 ANXA11 유전자에 대한 가계도이다. 옳지 않은 것은?",
+    "images": [
+      "images/26Y_Q36_fig1.png"
+    ],
+    "options": [
+      "① Complete penetrance이다.",
+      "② Variable expressivity 이다.",
+      "③ 질환에 대해 알기 위해 proband 의 아버지 유전자 검사가 필요하다.",
+      "④ 형질에 관여하는 인자가 더 있을 수 있다.",
+      "⑤ Autosomal dominant 한 양상을 가진다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Complete penetrance이다. (X - Incomplete penetrance)",
+    "explanation": {
+      "title": "가계도 해석: 불완전 침투율(Incomplete Penetrance)과 ANXA11 변이",
+      "findings": "가계도에서 II대 보인자가 임상적 무증상인 상태로 III대 환자에게 변이를 전달함.",
+      "differential": "Variable expressivity(증상 중증도가 다양함), Complete penetrance(100% 발현).",
+      "trap": "Complete penetrance(완전 침투율)는 유전자 변이를 가진 사람이 100% 질환을 발현하는 경우(예: 헌팅턴병)를 뜻하므로, 보인자가 건너뛰는 가계도에서는 거짓 진술임.",
+      "trigger": "가계도 상에서 원인 유전자 변이(ANXA11 등)를 보유하고 있으나 질환 증상이 나타나지 않은 정상 보인자(Non-penetrant carrier)가 존재하므로 -> 불완전 침투율(Incomplete penetrance) 질환임!",
+      "kmle_link": "KMLE 의학유전학 - 상염색체 우성 유전의 변이(불완전 침투율 및 가변 발현도)"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q37",
+    "index": 36,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 37,
+    "category": "짤",
+    "theme_title": "암의 유전학적 본질: 만성 B형간염 유발 간세포암도 유전질환(Genetic Disorder)",
+    "subspecialty": "진단유전학/종양학",
+    "stem": "암 유전 진단과 질환에 관해 옳은 것은?",
+    "images": [],
+    "options": [
+      "① somatic pathogenic variant 의 경우 autosomal dominant inheritance를 보인다.",
+      "② germline brca1 변이 가진 사람의 경우 penetrance는 거의 100% 이다.",
+      "③ 유전성 암 신드롬 가족 중 암이 발병하지 않은 사람은 유전자 검사를 안 받아도 된다.",
+      "④ 만성적인 HBV 감염에 의한 hepatocellular carcinoma 는 유전질환(genetic disorder)이다.",
+      "⑤ 표적 치료는 특정 표적에만 작용하여 암을 완치하는 치료이다"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ 만성적인 HBV 감염에 의한 hepatocellular carcinoma는 유전질환(genetic disorder)이다.",
+    "explanation": {
+      "title": "암의 유전학적 본질: 만성 B형간염 유발 간세포암도 유전질환(Genetic Disorder)",
+      "findings": "발암 인자(HBV)가 숙주 DNA에 통합되어 체세포 유전체 변이를 유발하므로 Genetic disorder 범주에 속함.",
+      "differential": "유전성 암 증후군(Lynch, FAP, Li-Fraumeni - 생식세포 변이).",
+      "trap": "유전질환(Genetic disorder)과 부모에게서 물려받는 유전성 질환(Hereditary/Inherited disorder)을 혼동하여 \"외부 바이러스로 생긴 암이 왜 유전질환이냐\"고 생각하면 함정에 빠짐.",
+      "trigger": "암(Cancer)은 세포 내 유전자 변이(체세포 돌연변이, Somatic mutation)가 축적되어 발생하는 \"체세포 수준의 유전질환(Genetic disease of somatic cells)\"임! 바이러스나 환경 요인으로 발생했더라도 본질은 유전질환!",
+      "kmle_link": "KMLE 종양학 - 암의 분자생물학적 발암 기전"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q38",
+    "index": 37,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 38,
+    "category": "짤",
+    "theme_title": "유전 질환의 광의적 개념: 환경적 인자(Environmental Factors)의 포함",
+    "subspecialty": "진단유전학",
+    "stem": "다음 중 옳은 것을 고르시오.",
+    "images": [],
+    "options": [
+      "① 인구 집단의 변이 빈도를 알면 pathogenicity를 알 수 있다.",
+      "② 유전 질환(genetic disorder)은 환경적 인자를 포함한다.",
+      "③ genome의 변이는 부모로부터 물려받고 자손으로 전달된다",
+      "④ 유전 질환 중 환경에 의해 영향을 받는 질환은 멘델의 유전법칙을 따른다.",
+      "⑤ 모든 유전적 변이는 부모로부터 물려받는다."
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 유전 질환(genetic disorder)은 환경적 인자를 포함한다.",
+    "explanation": {
+      "title": "유전 질환의 광의적 개념: 환경적 인자(Environmental Factors)의 포함",
+      "findings": "Q34, Q35, Q37과 궤를 같이하는 유전의학 총론의 기본 철학 문항.",
+      "differential": "단일 유전자 질환(환경 영향 상대적 작음), 다인자 질환(환경 영향 지대함).",
+      "trap": "유전 질환이 오직 DNA 염기서열만으로 100% 결정된다는 보기는 대표적 오답.",
+      "trigger": "유전 질환(Genetic disorder)은 순수 멘델 유전뿐 아니라 다인자 유전 질환(당뇨, 고혈압, 관상동맥질환, 암 등)처럼 환경적 인자(후성유전, 흡연, 식이)와의 복합적 상호작용을 포괄함!",
+      "kmle_link": "KMLE 의학유전학 - 다인자성 질환 및 환경 유전학"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q39",
+    "index": 38,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 39,
+    "category": "짤",
+    "theme_title": "진공 채혈관(Vacutainer)의 올바른 정맥 채혈 순서(Order of Draw)",
+    "subspecialty": "임상화학/채혈학",
+    "stem": "정맥채혈 유의사항으로 틀린 것을 고르시오.",
+    "images": [],
+    "options": [
+      "① 나비바늘은 응고검사할 때 공기를 빼야한다.",
+      "② 채혈 순서는 혈액배양 -> 응고튜브 -> 혈장튜브 -> 혈청 튜브 -> EDTA이다.",
+      "③ 채혈 순서는 주사기와 진공채혈의 순서가 동일하다",
+      "④ EDTA하고 혈청하면 K 높게 나와 응급으로 오인될 수 있다.",
+      "⑤ carry over를 예방하기 위해 순서를 지켜야 한다."
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 채혈 순서는 혈액배양 -> 응고튜브 -> 혈장튜브 -> 혈청튜브 -> EDTA이다. (X - 혈청 튜브가 혈장보다 먼저)",
+    "explanation": {
+      "title": "진공 채혈관(Vacutainer)의 올바른 정맥 채혈 순서(Order of Draw)",
+      "findings": "CLSI H3-A6 표준 채혈 순서 규정 검증.",
+      "differential": "나비바늘 채혈 시 Citrate 튜브 전 공기 배출용 더미 튜브 채혈 필요.",
+      "trap": "EDTA(칼륨 염)가 혈청 튜브나 응고 튜브로 오염되면 칼슘 킬레이션으로 응고시간이 비정상 지연되고 칼륨이 위양성 상승하므로 EDTA는 반드시 뒤쪽에 채혈해야 함.",
+      "trigger": "표준 정맥 채혈 순서 = 1) 혈액배양병 -> 2) 응고 튜브(Sodium citrate, Light blue) -> 3) 혈청 튜브(Serum/SST, Red/Gold) -> 4) 헤파린 혈장 튜브(Green) -> 5) EDTA 튜브(Purple) -> 6) 당분석 튜브(Sodium fluoride, Gray)!",
+      "kmle_link": "KMLE 진단검사의학 - 정맥 채혈법 및 검체 오염 방지 가이드라인"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q40",
+    "index": 39,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 40,
+    "category": "탈",
+    "theme_title": "수술 중 동종 수혈을 줄이기 위한 환자 혈액 관리: 급성 동량성 혈액희석(ANH)",
+    "subspecialty": "수혈의학/마취통증",
+    "stem": "수술 중 출혈을 줄이기 위해 수술 시작 직전에 환자의 혈액을 일정량 채혈하고, 수술 중 출혈이 발생하면 수액을 넣어 출혈 양만큼 희석하여 이후 채혈해둔 혈액을 다시 수혈하는 방법은 무엇인가?",
+    "images": [],
+    "options": [
+      "① 수술 전 혈액예치",
+      "② 수술 전 지정수혈",
+      "③ 수술 중 혈액회수",
+      "④ 수술 중 혈액희석",
+      "⑤ 수술 후 혈액회수"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ 수술 중 혈액희석 (급성 동량성 혈액희석, Acute Normovolemic Hemodilution, ANH)",
+    "explanation": {
+      "title": "수술 중 동종 수혈을 줄이기 위한 환자 혈액 관리: 급성 동량성 혈액희석(ANH)",
+      "findings": "수술 직전 채혈 및 동량 수액 대체 후 수술 후 재주입 과정 서술.",
+      "differential": "Cell salvage(수술 필드 혈액 흡인 세척), 동종 수혈(타인 혈액).",
+      "trap": "수술 중 출혈이 끝난 후 보관해 둔 신선한 자가 전혈(혈소판과 응고인자가 온전함)을 다시 환자에게 재주입함.",
+      "trigger": "마취 유도 직후 환자의 전혈을 일정량 채혈하여 보관하고, 동일한 양의 수액(결정질액/교질액)을 주입하여 혈관 내 용적을 유지한 채 수술을 진행함으로써 출혈 시 적혈구 손실을 최소화하는 자가수혈 기법 = 급성 동량성 혈액희석(ANH)!",
+      "kmle_link": "KMLE 수혈의학 - 자가수혈 및 환자 혈액 관리(PBM)"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q41",
+    "index": 40,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 41,
+    "category": "짤",
+    "theme_title": "수혈 후 비예기항체(Unexpected Antibodies) 형성 위험과 관리",
+    "subspecialty": "수혈의학",
+    "stem": "수혈시 항체검사에 대해 옳은 것은?",
+    "images": [],
+    "options": [
+      "① 응급일시에 환자에게 혈액형을 물어보고 그대로 수혈한다.",
+      "② 응급 수혈이 필요할 땐 비예기 항체검사를 빨리 해달라고 한다.",
+      "③ 교차시험은 환자의 적혈구와 헌혈자의 serum 을 반응시킨다.",
+      "④ 헌혈 공여자가 WeakD 인 경우 혈액은 RhD(-)로 분류하는것이 안전하다.",
+      "⑤ 수혈 후 비예기항체가 생길 수 있는것에 주의한다."
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 수혈 후 비예기항체가 생길 수 있는 것에 주의한다.",
+    "explanation": {
+      "title": "수혈 후 비예기항체(Unexpected Antibodies) 형성 위험과 관리",
+      "findings": "안전 수혈 지침의 핵심 임상 원칙 숙지.",
+      "differential": "급성 용혈(ABO 불일치), 지연 용혈(비예기항체 아나므네스 반응).",
+      "trap": "한 번 교차시험이 맞았다고 해서 다음 수혈 때 이전 검사 결과를 재활용하면 지연성 용혈성 수혈반응(DHTR)으로 치명적 위험 초래.",
+      "trigger": "수혈을 반복적으로 받은 환자는 공혈자 적혈구의 미세 항원(Rh E, c, Kell, Duffy, Kidd 등)에 동종면역(Alloimmunization)되어 새로운 비예기항체가 생성될 수 있으므로, 매 수혈 시마다 72시간 이내 새 검체로 항체선별검사를 반복해야 함!",
+      "kmle_link": "KMLE 수혈의학 - 수혈 부작용(동종면역 및 지연성 용혈 반응)"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q42",
+    "index": 41,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 42,
+    "category": "짤",
+    "theme_title": "면역학적 검사 모식도: 괄호에 들어갈 용어 (항원, Antigen)",
+    "subspecialty": "진단면역학",
+    "stem": "다음 그림에서 (    )로 표시된 부분이 의미하는 항 원은?",
+    "images": [
+      "images/26Y_Q42_fig1.png"
+    ],
+    "options": [
+      "① A Antigen",
+      "② H Antigen",
+      "③ B Antigen",
+      "④ O Antigen",
+      "⑤ Null Antigen"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "Antigen (항원)",
+    "explanation": {
+      "title": "면역학적 검사 모식도: 괄호에 들어갈 용어 (항원, Antigen)",
+      "findings": "모식도에서 Y자 모양 항체 사이에 끼어 있는 원형 타깃 물질 확인.",
+      "differential": "Conjugate(효소표지 항체), Substrate(발색기질).",
+      "trap": "샌드위치 ELISA 구조: 포획항체(Capture antibody) -> 항원(Antigen, 괄호 부분) -> 검출항체(Detection antibody).",
+      "trigger": "항체 포획 모식도에서 고정상(Solid phase) 1차 항체에 결합하는 표적 물질 또는 효소 표지 2차 항체가 인식하는 중심 분자 = 항원(Antigen)!",
+      "kmle_link": "KMLE 진단면역학 - 효소면역측정법(ELISA)의 원리"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q43",
+    "index": 42,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 43,
+    "category": "짤",
+    "theme_title": "Rh 혈액형의 발달: 태아기(Fetal stage)의 조기 발현",
+    "subspecialty": "수혈의학",
+    "stem": "Rh 혈액형에 대한 설명으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "① 태아 상태에서 확인할 수 있다.",
+      "② Partial D는 양성으로 간주한다.",
+      "③ 적혈구 이외에 다른 조직에서도 중요한 조직 적합성 항원이다.",
+      "④ Rh 유전자는 9번 염색체에 존재한다.",
+      "⑤ Rh 항체는 자연발생적인 IgM이다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 태아 상태에서 확인할 수 있다. (Rh 항원은 태아기에 완성됨)",
+    "explanation": {
+      "title": "Rh 혈액형의 발달: 태아기(Fetal stage)의 조기 발현",
+      "findings": "Rh 항원의 태아기 발현 특성을 묻는 발생면역학적 족보.",
+      "differential": "ABO 항원(신생아기 미발달, 흡착 항원 아님), Lewis 항원(출생 시 음성).",
+      "trap": "ABO 혈액형 항원은 신생아 때 성인의 20~50% 수준으로 약하게 발현되고 혈청 내 자연항체는 생후 3~6개월부터 생성되나, Rh 항원은 출생 시 이미 100% 완전 발달해 있음.",
+      "trigger": "Rh(D) 항원은 임신 초기(임신 6~8주)부터 태아 적혈구 표면에 성인 수준으로 완벽하게 발현되므로, 태아 상태나 출생 직후 탯줄 혈액에서 즉시 정확한 판정이 가능함!",
+      "kmle_link": "KMLE 산부인과/수혈의학 - Rh 동종면역 및 신생아 용혈성 질환 예방(RhoGAM)"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q44",
+    "index": 43,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 44,
+    "category": "짤",
+    "theme_title": "유전자 미세 결실/중복 검출 기법: 다중 결찰의존 프로브 증폭법(MLPA)",
+    "subspecialty": "진단유전학",
+    "stem": "유전진단방법에 대해 옳은 것을 고르시오",
+    "images": [],
+    "options": [
+      "① MLPA는 duplication, deletion에 유리하다.",
+      "② CMA를 통해 balanced rearrangement에서 사용된다.",
+      "③ 삼염기반복질환은 short-Sanger로 진단할 수 있다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① MLPA는 duplication, deletion에 유리하다. (Copy Number Variation 검출)",
+    "explanation": {
+      "title": "유전자 미세 결실/중복 검출 기법: 다중 결찰의존 프로브 증폭법(MLPA)",
+      "findings": "분자유전 진단 기법별 장단점 비교 문항.",
+      "differential": "Sanger(점돌연변이용), FISH(대형 염색체 결실용), Microarray(전장 CNV 스크리닝).",
+      "trap": "생거 시퀀싱은 이형접합체 결실(Heterozygous deletion)을 놓치기 쉬우나, MLPA는 각 엑손의 유전자 용량(Copy number)을 직접 측정하여 결실/중복을 완벽히 포착.",
+      "trigger": "염기서열 치환이 아닌 엑손 단위의 결실(Deletion) 및 중복(Duplication, CNV)을 가장 신속하고 정확하게 정량 분석하는 분자 진단법 = MLPA (Multiplex Ligation-dependent Probe Amplification)!",
+      "kmle_link": "KMLE 의학유전학 - 유전자 결실 및 중복 질환의 분자진단(MLPA)"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q45",
+    "index": 44,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 45,
+    "category": "짤",
+    "theme_title": "2015 ACMG/AMP 유전 변이 해석 가이드라인: 변이 재평가의 의무",
+    "subspecialty": "진단유전학",
+    "stem": "변이 해석 문제. 2015-ACMG/AMP 가이드라인에 대한 설명으로 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "① 최종적으로 ‘pathogenic’, ‘likely pathogenic’, ‘uncertain significance’, ‘likely benign’, ‘benign’ 5단계로 분류된다.",
+      "② ‘uncertain significance’으로 해석된 변이는, 이후 추가되는 검사 결과에 따라  ‘likely pathogenic’이나 ‘likely benign’으로 변동될 수 있다.",
+      "③ 부모와 자녀의 유전자 검사를 비교하여 자녀에서 새로 나타난 de novo mutation을 확인할 수 있는데, 이는 변이 해석의 근거가 될 수 있다.",
+      "④ 컴퓨터 시뮬레이션(in silico)을 통해 유전자 변이에서 기능적 변화가 있는지 예측할 수 있으며, 이는 변이 해석의 근거가 될수 있다.",
+      "⑤ 변이가 데이터베이스 상 pathogenic 으로 등록이 되었으 면 추가 변이 해석 안해도 된다."
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 변이가 데이터베이스 상 pathogenic으로 등록이 되었으면 추가 변이 해석 안해도 된다. (X - 최신 기준 재평가 필수)",
+    "explanation": {
+      "title": "2015 ACMG/AMP 유전 변이 해석 가이드라인: 변이 재평가의 의무",
+      "findings": "선지 ⑤는 맹목적 DB 신뢰를 주장하여 명백히 가이드라인 원칙에 위배.",
+      "differential": "VUS(치료적 결정 근거로 사용 금지), Functional study(PS3 증거).",
+      "trap": "DB 등록 내용만 믿고 검증을 생략하면 치명적 오진(잘못된 유전상담, 불필요한 예방수술)을 초래함.",
+      "trigger": "ClinVar 등 공용 DB에 과거 Pathogenic으로 등재된 변이라 하더라도, 새로운 인구집단 빈도(gnomAD)나 기능 연구에 의해 VUS나 Benign으로 재분류될 수 있으므로 반드시 검사실 자체적으로 2015 ACMG 가이드라인 기준에 따라 독립적 재평가를 수행해야 함!",
+      "kmle_link": "KMLE 의학유전학 - 차세대염기서열분석(NGS) 변이 해석 가이드라인"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q46",
+    "index": 45,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 46,
+    "category": "짤",
+    "theme_title": "수술 전 우연히 발견된 혈소판 20,000/uL 환자의 즉각적 처치",
+    "subspecialty": "진단혈액학",
+    "stem": "갑상선 암 수술을 받으러 온 환자, PLT 20000으로 확인되었다. 다음으로 해야할 검사는?",
+    "images": [],
+    "options": [
+      "① 골수검사",
+      "② 말초 혈액 도말검사와 sodium citrate tube으로 재검"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 말초 혈액 도말검사와 sodium citrate tube으로 재검",
+    "explanation": {
+      "title": "수술 전 우연히 발견된 혈소판 20,000/uL 환자의 즉각적 처치",
+      "findings": "가장 빠르고 비용효과적인 1차 검증 조치를 묻는 실전 임상 문항.",
+      "differential": "혈소판 수혈(진성 출혈 위험 시에만 시행), 골수검사(가성 배제 후 고려).",
+      "trap": "환자에게 멍이나 점상출혈이 전혀 없는데 혈소판만 단독으로 2만으로 나오면 99% EDTA 응집 가성 감소증임. 혈소판제제 즉각 수혈은 절대 금기 오답!",
+      "trigger": "출혈 증상 없는 수술 예정 환자에서 PLT 20,000으로 급감 보고 시 -> 수술 연기나 불필요한 혈소판 수혈을 하기 전에 반드시 말초혈액도말(PBS)로 혈소판 응집을 확인하고 Sodium citrate 튜브로 재채혈하여 가성 혈소판 감소증(Pseudothrombocytopenia)을 먼저 배제해야 함!",
+      "kmle_link": "KMLE 혈액학/외과 - 수술 전 혈소판 감소증 환자의 안전 평가"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q47",
+    "index": 46,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 47,
+    "category": "짤",
+    "theme_title": "차세대 염기서열 분석(NGS)의 임상적 적용: 타깃 패널 검사(Targeted Gene Panel)",
+    "subspecialty": "진단유전학",
+    "stem": "NGS에 대한 설명으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "① WES(Whole Exome Sequencing)는 WGS(Whole Genome Sequencing)에 비해 structural 변이를 잘 발견 할 수 있다.",
+      "② WES(Whole Exome Sequencing)는 모든 유전자를 검사하므로 90% 이상의 멘델유전 질환의 원인 유전자를 밝혀낼 수 있다.",
+      "③ Targeted gene panel로 특정 질환군과 관련된 유전자 만을 선택하여 검사하며, 임상에서 많이 사용한다.",
+      "④ NGS는 전기영동(capillary electrophoresis)을 통해 크기가 다른 DNA 조각들을 분리하고 형광표지를 통해 염기서열을 분석한다. (정확하지 않지만 Sanger sequencing에 대한 설명)",
+      "⑤ NGS는 표준 유전 서열(reference)을 bioinformatic와 비교할 필요 없다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ Targeted gene panel로 특정 질환군과 관련된 유전자만을 선택하여 검사하며, 임상에서 많이 사용한다.",
+    "explanation": {
+      "title": "차세대 염기서열 분석(NGS)의 임상적 적용: 타깃 패널 검사(Targeted Gene Panel)",
+      "findings": "현재 대학병원 진단검사의학과 NGS 검사실의 표준 운영 형태 설명.",
+      "differential": "Sanger 시퀀싱(단일 유전자 검증용 골드스탠다드), WES(원인 불명 희귀질환 2차 검사).",
+      "trap": "WGS는 비용이 높고 VUS가 과도하게 검출되어 1차 임상 루틴 검사로는 제한적임.",
+      "trigger": "임상 유전체 검사에서 전장유전체(WGS)나 전장엑솜(WES)보다 타깃 유전자 패널(Targeted panel)을 가장 널리 사용하는 이유 = 특정 질환 연관 수십~수백 개 유전자만 집중 포획하여 높은 시퀀싱 깊이(Depth > 500x)와 뛰어난 경제성, 빠른 판독을 제공하기 때문!",
+      "kmle_link": "KMLE 의학유전학 - NGS 검사의 종류 및 임상적 유용성"
+    }
+  },
+  {
+    "id": "진단검사의학과_26Y_Q48",
+    "index": 47,
+    "subject": "진단검사의학과",
+    "year": "26Y",
+    "q_num": 48,
+    "category": "짤",
+    "theme_title": "가족성 메니에르병(Familial Meniere Disease) 가계도와 불완전 침투율",
+    "subspecialty": "진단유전학",
+    "stem": "다음은 Familial Meniere disease에 관한 가계도이다. 이 질환의 유전 패턴에 관한 설명으로 옳은 것은? (복기 미흡)",
+    "images": [],
+    "options": [
+      "① Incomplete penetrance (불완전 침투율을 보인다)",
+      "② 완전 침투율(Complete penetrance)을 보인다",
+      "③ 미토콘드리아 모계 유전 패턴이다",
+      "④ X-연쇄 열성 유전 패턴이다",
+      "⑤ 염색체 비분리 현상에 의한 이수체이다"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Incomplete penetrance (불완전 침투율을 보이는 상염색체 우성 유전)",
+    "explanation": {
+      "title": "가족성 메니에르병(Familial Meniere Disease) 가계도와 불완전 침투율",
+      "findings": "가계도 분석 문제에서 침투율 관련 보기가 핵심 정답 포인트로 매년 출제.",
+      "differential": "완전 침투(변이 보유자 전원 발병), 반성 유전(성별 편중).",
+      "trap": "선지에서 \"Complete penetrance이다\"는 대표적 오답 지문.",
+      "trigger": "가족성 메니에르병 가계도에서 상염색체 우성(AD) 양식을 띠지만 유전자 변이를 가진 보인자가 발병하지 않고 건너뛰는 양상 = Incomplete penetrance (침투율 약 60%)!",
+      "kmle_link": "KMLE 이비인후과/의학유전학 - 메니에르병 및 가계도 침투율 분석"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q01",
+    "index": 48,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 1,
+    "category": "짤",
+    "theme_title": "혈액 배양(Blood Culture) 양성률에 가장 결정적인 영향을 미치는 요인",
+    "subspecialty": "임상미생물학",
+    "stem": "혈액 배양 양성률에 있어서 가장 영향을 미치는 것은?",
+    "images": [],
+    "options": [
+      "① 채혈량",
+      "② 피부 소독",
+      "③ 채혈 횟수",
+      "④ 채혈 시기",
+      "⑤ 환자의 기저질환"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 채혈량 (Blood volume)",
+    "explanation": {
+      "title": "혈액 배양(Blood Culture) 양성률에 가장 결정적인 영향을 미치는 요인",
+      "findings": "임상 미생물학 교과서 제1장 혈액배양 총론의 불변의 핵심 명제.",
+      "differential": "피부 소독(오염률에 영향), 채혈 횟수(위양성/위음성 감별용).",
+      "trap": "채혈 시기(오한 직전)나 횟수(2~3쌍)도 중요하지만, 통계적으로 양성률과 직접 비례하는 절대적 제1 인자는 채혈량임.",
+      "trigger": "균혈증(Bacteremia) 진단에서 혈액 배양의 민감도/양성률을 결정하는 단 하나의 가장 중요한 인자 = 채혈량(Blood volume, 성인 세트당 20~30mL)!",
+      "kmle_link": "KMLE 감염학 - 패혈증 및 균혈증의 혈액 배양 원칙"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q02",
+    "index": 49,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 2,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 화살표가 나타내는 소견은?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "화살표가 나타내는 소견은?",
+    "images": [
+      "images/23Y_Q02_fig1.png"
+    ],
+    "options": [
+      "① Target cell",
+      "② Schistocyte",
+      "③ Spherocyte",
+      "④ Elliptocyte",
+      "⑤ Ovalocyte"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "[23Y Q02 & 22Y Q13 & 21Y Q50] ② Schistocyte (분열적혈구, 헬멧세포)",
+    "explanation": {
+      "title": "[과년도 빈출] 화살표가 나타내는 소견은?",
+      "findings": "• [23Y Q02 & 22Y Q13 & 21Y Q50] 공통 출제 지문:\n  - 지문: 말초혈액도말(PB smear) 상 화살표가 가리키는 세포 소견은?\n  - 선지: ① Target cell  ② Schistocyte  ③ Spherocyte  ④ Elliptocyte  ⑤ Ovalocyte\n  - 정답: ② Schistocyte (분열적혈구)",
+      "differential": "1. Schistocyte (분열적혈구, Helmet cell) 판독 핵심:\n  • 미세혈관병성 용혈성 빈혈 (MAHA: TTP, HUS, DIC, 임신전자간증, 인공심장판막 손상 등)의 결정적 특징적 소견!\n  • 섬유소망(Fibrin strand)이나 물리적 전단응력(Shear stress)에 의해 적혈구가 찢기면서 형성됨.\n\n2. 감별진단 포인트:\n  • Target cell (표적적혈구): 지중해빈혈, 간질환, 비장절제술 후, Hb C/E 질환.\n  • Spherocyte (구형적혈구): 유전구형적혈구증(HS), 자가면역용혈빈혈(AIHA).\n  • 3개년(21Y Q50, 22Y Q13, 23Y Q02) 연속 완벽 동일 도말 사진 출제 야마!",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 3회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q03",
+    "index": 50,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 3,
+    "category": "짤",
+    "theme_title": "EDTA 의존성 가성 혈소판 감소증(Pseudothrombocytopenia)과 튜브 선택",
+    "subspecialty": "진단혈액학",
+    "stem": "CBC에 관한 설명 중 틀린 것은?",
+    "images": [],
+    "options": [
+      "① 고지혈증일 때 실제보다 혈색소가 높게 측정이 된다.",
+      "② 적혈구가 응집 시 검체를 가온하면 교정될 수 있다.",
+      "③ Sodium citrate에서 혈소판 응집 시 EDTA 검사를 한다.",
+      "④ nRBC가 있으면 백혈구가 높게 측정된다.",
+      "⑤ 혈액응고가 일어나면 백혈구가 실제보다 낮게 측정된다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ Sodium citrate에서 혈소판 응집 시 EDTA 검사를 한다 (X - 반대로 EDTA 응집 시 Citrate로 재검)",
+    "explanation": {
+      "title": "EDTA 의존성 가성 혈소판 감소증(Pseudothrombocytopenia)과 튜브 선택",
+      "findings": "PBS에서 거대 혈소판 응집 괴(Platelet clumps) 관찰. 자동분석기는 이를 백혈구로 오인하거나 카운트에서 누락.",
+      "differential": "진성 면역혈소판감소증(ITP, PBS 상 단일 거대 혈소판, 응집괴 없음, 출혈 증상).",
+      "trap": "Citrate 튜브는 액체 항응고제로 10% 희석되므로, 측정된 혈소판 수치에 1.1을 곱하여 보정해야 함.",
+      "trigger": "EDTA 항응고제에 반응하여 체외에서 혈소판이 덩어리지는 가성 혈소판 감소증 의심 시 -> Sodium citrate 튜브나 Heparin 튜브로 재채혈하고 말초혈액도말(PBS)로 혈소판 응집 덩어리를 직접 확인해야 함!",
+      "kmle_link": "KMLE 혈액학 - 혈소판 감소증의 접근법 및 가성 혈소판 감소증 배제"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q04",
+    "index": 51,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 4,
+    "category": "짤",
+    "theme_title": "그물적혈구(Reticulocyte) 평가와 다염성(Polychromasia)의 관계",
+    "subspecialty": "진단혈액학",
+    "stem": "그물적혈구에 관한 설명으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "① Immature reticulocyte fraction (IRF)는 megakaryopoiesis를 반영한다.",
+      "② 그물적혈구는 성숙한 적혈구가 되기 전에 핵과 핵산이 남 아있는 상태이다.",
+      "③ Peripheral blood smear 검사 시 polychromasia로 그 물적혈구 비율을 추정할 수 있다.",
+      "④ 그물적혈구는 세포 탄성에 대해서 성숙도를 판단할 수 있다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ Peripheral blood smear 검사 시 polychromasia로 그물적혈구 비율을 추정할 수 있다.",
+    "explanation": {
+      "title": "그물적혈구(Reticulocyte) 평가와 다염성(Polychromasia)의 관계",
+      "findings": "PBS 상 대형의 푸른빛 적혈구 관찰. 리보솜 RNA가 염기성 색소에 염색되어 나타남.",
+      "differential": "Howell-Jolly body(DNA 잔유 점상 구조), Basophilic stippling(연중독).",
+      "trap": "그물적혈구는 무핵 세포(RNA 잔유물 함유)이며 핵이 있는 세포(有核赤血球, nRBC)와 엄격히 구분됨.",
+      "trigger": "Wright-Giemsa 염색에서 푸르스름한 회청색을 띠는 다염성 적혈구(Polychromatophilic RBC) = 초생체 염색(New methylene blue)의 그물적혈구(Reticulocyte)와 완벽히 대응!",
+      "kmle_link": "KMLE 혈액학 - 빈혈의 병태생리적 분류 (골수 증식 반응 평가)"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q05",
+    "index": 52,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 5,
+    "category": "짤",
+    "theme_title": "말초혈액도말 상 적혈구 연전 형성(Rouleaux Formation)과 다발골수종",
+    "subspecialty": "진단혈액학",
+    "stem": "다음 CBC 결과를 통해 가장 의심되는 진단은?",
+    "images": [
+      "images/23Y_Q05_fig1.png"
+    ],
+    "options": [
+      "① Iron deficiency anemia",
+      "② Megaloblastic anemia",
+      "③ Hemolytic anemia",
+      "④ Leukemia"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Multiple myeloma나 단백질이 증가한 상태 (연전 형성, Rouleaux formation)",
+    "explanation": {
+      "title": "말초혈액도말 상 적혈구 연전 형성(Rouleaux Formation)과 다발골수종",
+      "findings": "PBS 고배율 시야에서 적혈구들이 일렬로 중첩된 롤케이크/동전 기둥 모양 관찰.",
+      "differential": "자가응집(Autoagglutination, 불규칙 덩어리), 철결핍빈혈(중심 창백 확대, 소구성).",
+      "trap": "한랭응집소병(CAD)의 적혈구 응집(Agglutination)은 포도송이처럼 불규칙하게 뭉치는 것이며, 동전 쌓기 모양의 선상 연전(Rouleaux)과 형태학적으로 엄격히 구별됨.",
+      "trigger": "말초혈액도말(PBS)에서 적혈구들이 동전을 차곡차곡 쌓아 올린 형태로 길게 늘어서 있는 소견 = 연전 형성(Rouleaux formation)! 혈청 감마글로불린(단백질)이 극도로 증가한 다발골수종(Multiple myeloma)의 절대적 시그니처!",
+      "kmle_link": "KMLE 혈액학 - 다발골수종의 진단학적 검사 소견"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q06",
+    "index": 53,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 6,
+    "category": "짤",
+    "theme_title": "자동혈구분석기(Automated Hematology Analyzer)의 측정 원리",
+    "subspecialty": "진단혈액학",
+    "stem": "자동혈구 분석기에서 이용하지 않는 원리는?",
+    "images": [],
+    "options": [
+      "① 세포점도",
+      "② 전기전도도",
+      "③ 전기저항",
+      "④ 광산란",
+      "⑤ 형광염색"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 세포점도 (Cell viscosity - 이용하지 않음)",
+    "explanation": {
+      "title": "자동혈구분석기(Automated Hematology Analyzer)의 측정 원리",
+      "findings": "혈구 분석기의 물리광학적 계수 원리를 묻는 기본 개념 문제.",
+      "differential": "전기저항(임피던스), 레이저 광산란, 화학 발광.",
+      "trap": "전방 산란광(FSC)은 세포 크기, 측방 산란광(SSC)은 내부 과립도 및 핵 복잡도를 반영함.",
+      "trigger": "자동혈구분석기가 이용하는 3대 원리 = 1) 전기저항법(Coulter principle, 임피던스), 2) 광산란법(전방/측방 산란광), 3) 형광염색법(RNA/DNA 형광)! 세포점도는 결코 측정하지 않음.",
+      "kmle_link": "KMLE 혈액학 - CBC 자동분석 원리 및 스캐터그램 해석"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q07",
+    "index": 54,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 7,
+    "category": "짤",
+    "theme_title": "자가항체 판독 결과의 모순: Anti-SS-B 단독 양성의 위음성/위양성 해석",
+    "subspecialty": "진단면역학",
+    "stem": "가장 가능성이 낮은 판독결과는 무엇인가? ANA: (-) Anti-SM: (+) Anti-dsDNA: (-) Anti-SS-A (RO): (+) Anti-SS-B (LA): (+)",
+    "images": [],
+    "options": [
+      "① False negative of ANA",
+      "② False negative of Anti-dsDNA",
+      "③ False positive of Anti-sm",
+      "④ False positive of LA",
+      "⑤ False positive of RO"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② False negative of Anti-dsDNA (또는 Anti-SS-A 음성인데 SS-B 단독 양성 소견 모순)",
+    "explanation": {
+      "title": "자가항체 판독 결과의 모순: Anti-SS-B 단독 양성의 위음성/위양성 해석",
+      "findings": "항체 결과 간의 생물학적 일치도를 검증하는 진단면역학 족보 문제.",
+      "differential": "Anti-dsDNA 역가는 질환 활성도 및 루푸스 신염 발생과 밀접하게 비례.",
+      "trap": "SLE 환자에서 ANA 양성이면서 Anti-dsDNA가 음성으로 나오는 것은 질환 비활동기나 관해 상태에서 흔히 볼 수 있는 정상적 판독임.",
+      "trigger": "쇼그렌 증후군에서 Anti-SS-B(La) 항체는 거의 예외 없이 Anti-SS-A(Ro) 항체와 동반되어 나타나므로, SS-A 음성이면서 SS-B만 단독 양성인 경우는 검사실 위양성이거나 극히 드묾!",
+      "kmle_link": "KMLE 류마티스학 - 쇼그렌 증후군 및 자가항체 패널 판독"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q08",
+    "index": 55,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 8,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 엄마가 O, RH+. 아이 혈액형은 표로 나옴. (cell A, D에",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "엄마가 O, RH+. 아이 혈액형은 표로 나옴. (cell A, D에 서 4+, serum B+/-). 아이에게 수혈이 필요해서 수혈하려 고 할 때 A, RH+ 혈액으로 교차검사했는데 모두 양성으로 나왔다. 이 때 가장 가능성이 높은 진단은?",
+    "images": [
+      "images/23Y_Q08_fig1.png"
+    ],
+    "options": [
+      "① ABO hemolysis of fetus and newborn",
+      "② RH hemolysis of fetus and newborn",
+      "③ Drug induced hemolysis",
+      "④ Paroxysmal cold hemoglobinuria",
+      "⑤ Warm autoimmune hemolytic anemia"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q08 & 22Y Q42] ① ABO hemolysis of fetus and newborn (ABO 신생아 용혈질환)",
+    "explanation": {
+      "title": "[과년도 빈출] 엄마가 O, RH+. 아이 혈액형은 표로 나옴. (cell A, D에",
+      "findings": "• [23Y Q08 & 22Y Q42] 출제 지문:\n  - 산모: O형 Rh(+). 아이: A형 Rh(+). 아이에게 수혈이 필요하여 A형 Rh(+) 혈액으로 주교차시험을 시행했으나 모두 양성(부적합) 반응.\n  - 선지: ① ABO hemolysis of fetus and newborn  ② Rh hemolysis of fetus and newborn  ③ Drug induced hemolysis  ④ PCH\n  - 정답: ① ABO hemolysis of fetus and newborn",
+      "differential": "1. ABO 신생아 용혈성 질환(HDN) 기전:\n  • 산모(O형)의 IgG anti-A, anti-B, anti-A,B 항체는 태반을 통과하여 A형 태아 순환계로 유입됨.\n  • 신생아 혈청 내에 잔류하는 모체 유래 IgG anti-A 항체가 공혈자 A형 적혈구와 반응하므로, A형 혈액과의 교차시험에서 전량 양성(응집) 판정됨!\n\n2. 신생아 수혈 대원칙:\n  • 신생아 혈청 속 모체 항체와 반응하지 않도록 O형 적혈구제제(Rh 일치)를 선택하여 수혈해야 함.",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 2회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q09",
+    "index": 56,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 9,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 환자의 가족 혈액형 가계도이다. 환자의 혈액형을 설명할 ",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "환자의 가족 혈액형 가계도이다. 환자의 혈액형을 설명할 수 있는 현상은?",
+    "images": [
+      "images/23Y_Q09_fig1.png"
+    ],
+    "options": [
+      "① cis-AB",
+      "② Weakened A",
+      "③ B(A)",
+      "④ Acquired B",
+      "⑤ Weak A"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q09 & 22Y Q43] ① cis-AB",
+    "explanation": {
+      "title": "[과년도 빈출] 환자의 가족 혈액형 가계도이다. 환자의 혈액형을 설명할 ",
+      "findings": "• [23Y Q09 & 22Y Q43] 출제 지문:\n  - 환자의 가족 혈액형 가계도이다. AB형 부모와 O형 배우자 사이에서 AB형 또는 O형 자녀가 태어남. 설명할 수 있는 유전 현상은?\n  - 선지: ① cis-AB  ② Weakened A  ③ B(A)  ④ Acquired B  ⑤ Weak A\n  - 정답: ① cis-AB",
+      "differential": "1. cis-AB형 유전학적 본질:\n  • 정상적인 ABO는 한 염색체에 A 또는 B 유전자가 각각 대립 유전하나, cis-AB는 한 염색체 상에 A와 B 전이효소 활성을 가진 유전자가 함께 위치함(cis 배열).\n  • 따라서 cis-AB/O 개체가 O/O 개체와 결혼하면 자녀는 cis-AB형(50%) 또는 O형(50%)만 출생함!\n\n2. 한국인 호발 특성 및 수혈 원칙:\n  • 전남 등 서남해안 지역 호발. 혈구형/혈청형 불일치(ABO discrepancy)의 주요 원인.\n  • 수혈 시: O형 적혈구제제, AB형 혈장제제 수혈이 원칙.",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 2회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q10",
+    "index": 57,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 10,
+    "category": "짤",
+    "theme_title": "수혈 전 필수 면역혈액학 검사 항목: 불규칙항체 선별검사",
+    "subspecialty": "수혈의학",
+    "stem": "수혈 전 검사항목으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "① 직접 항글로불린검사",
+      "② 불규칙항체 선별검사",
+      "③ RH(E) 혈액형 검사",
+      "④ ABO 혈액형 유전자형 검사"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 불규칙항체 선별검사 (Antibody screening test)",
+    "explanation": {
+      "title": "수혈 전 필수 면역혈액학 검사 항목: 불규칙항체 선별검사",
+      "findings": "수혈 부작용(용혈성 수혈반응) 예방을 위한 필수 표준 패키지 규정.",
+      "differential": "직접 쿰스 검사(생체 내 적혈구 감작 확인용, 수혈 전 기본 선별 아님).",
+      "trap": "교차시험(Crossmatching)은 적혈구제제 불출 직전에 공혈자 적혈구와 환자 혈청을 반응시키는 것이며, 환자 자체 선별검사항목 1위는 불규칙항체 선별검사임.",
+      "trigger": "수혈 전 환자 검체로 반드시 시행해야 하는 법정 3대 수혈 전 검사 = 1) ABO 혈액형 검사, 2) Rh(D) 혈액형 검사, 3) 비예기항체(불규칙항체) 선별검사(Antibody screen)!",
+      "kmle_link": "KMLE 수혈의학 - 수혈 전 검사의 표준 절차"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q11",
+    "index": 58,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 11,
+    "category": "짤",
+    "theme_title": "급성 대량 출혈 시 긴급 수혈(Emergency Transfusion) 혈액형 선택",
+    "subspecialty": "수혈의학",
+    "stem": "40세 남성. 급성 출혈로 인해서 응급실에 온 환자. AB, RH-이며 항체선별검사 수행하였다. 혈액은행에 해당 혈액이 없는 상황에서 주치의로서 해야 하는 적절한 조치는?",
+    "images": [],
+    "options": [
+      "① 불규칙 항체 선별검사와 추가 검사를 더 시행한다.",
+      "② AB, RH- 혈액이 나올 때까지 기다린다.",
+      "③ 혈액은행에 대책을 요구한다.",
+      "④ 혈액은행에 AB, RH+혈액을 요청하여 수혈한다.",
+      "⑤ 보호자에게 대책이 없으며 사망할 것이라고 설명한다."
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ 혈액은행에 AB, RH+혈액을 요청하여 수혈한다. (X - O형 적혈구를 수혈해야 함)",
+    "explanation": {
+      "title": "급성 대량 출혈 시 긴급 수혈(Emergency Transfusion) 혈액형 선택",
+      "findings": "AB형 적혈구를 A, B, O형 환자에게 주면 환자의 자연 항체(Anti-A, Anti-B)에 의해 즉각적인 치명적 급성 혈관내 용혈 발생.",
+      "differential": "O형 RBC(모든 혈액형 투여 가능), AB형 FFP(항체 없으므로 모든 혈액형 투여 가능).",
+      "trap": "적혈구 제제는 O형이 만능 공혈자이고, FFP(신선동결혈장) 및 혈소판은 AB형이 항-A, 항-B 항체가 없어 만능 공혈자임. 적혈구와 혈장을 절대 혼동 말 것!",
+      "trigger": "환자 혈액형을 모르는 초응급 출혈 시 -> 적혈구 제제는 만능 공혈자인 O형(Rh-, 가임기 여성) 또는 O형(Rh+, 남성/고령)을 수혈해야 함! AB형은 혈장 제제의 만능 공혈자이지 적혈구는 절대 금기!",
+      "kmle_link": "KMLE 응급의학/수혈의학 - 중증 외상성 대량 출혈의 소생 수혈 지침"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q12",
+    "index": 59,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 12,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 혈액배양검사에 대한 설명으로 옳지 않은 것은?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "혈액배양검사에 대한 설명으로 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "① 뚜껑은 베타딘으로 소독한다.",
+      "② 알코올 소독 후 베타딘 소독",
+      "③ 혈액을 다른 부위에서 2~3번 채취한다.",
+      "④ ~20mL 정도의 혈액을 채취한다.",
+      "⑤ Hexidine은 2개월 이하 소아에서는 사용하지 않는다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q12 & 22Y Q48] ① 뚜껑은 베타딘으로 소독한다 (X - 고무마개는 70% 알코올 소독)",
+    "explanation": {
+      "title": "[과년도 빈출] 혈액배양검사에 대한 설명으로 옳지 않은 것은?",
+      "findings": "• [23Y Q12 & 22Y Q48] 출제 지문:\n  - 혈액배양검사에 대한 설명으로 옳지 않은 것은?\n  - 선지: ① 뚜껑은 베타딘으로 소독한다  ② 알코올 소독 후 베타딘 소독  ③ 서로 다른 부위에서 2~3회 채취  ④ 1쌍당 10~20mL 채취  ⑤ Hexidine은 2개월 이하 소아 금기\n  - 정답: ① 뚜껑은 베타딘으로 소독한다 (오답 선지)",
+      "differential": "1. 혈액배양병 고무마개 소독 원칙:\n  • 배양병의 고무마개(뚜껑)는 포비돈 요오드(베타딘)를 사용하면 고무가 변성·부식되므로 70% Isopropyl alcohol로만 닦고 말림!\n\n2. 혈액배양 채혈 및 피부 소독 표준 지침:\n  • 환자 피부: 70% 알코올로 먼저 유분을 제거한 후, 2% 클로르헥시딘 또는 10% 포비돈 요오드로 중심에서 외측으로 원을 그리며 소독하고 완전히 건조(1~2분)시킴.\n  • 채혈량: 성인은 1쌍당 16~20mL(호기성 8~10mL, 혐기성 8~10mL), 최소 2~3쌍을 서로 다른 정맥에서 채혈.",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 2회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q13",
+    "index": 60,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 13,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 검사 결과 혈액형은 무엇인가?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "검사 결과 혈액형은 무엇인가? (혈액 검사 결과 A와 B 모두에서 혈액응고 관찰)",
+    "images": [],
+    "options": [
+      "① AB형",
+      "② A형",
+      "③ B형",
+      "④ O형"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q13 & 22Y Q50 & 20Y Q23] ① AB형",
+    "explanation": {
+      "title": "[과년도 빈출] 검사 결과 혈액형은 무엇인가?",
+      "findings": "• [23Y Q13 & 22Y Q50 & 20Y Q23] 공통 출제 지문:\n  - 검사 결과 혈액형은 무엇인가? (혈구형 검사에서 Anti-A 시약 및 Anti-B 시약 모두에서 4+ 혈액 응고 관찰됨)\n  - 선지: ① AB형  ② A형  ③ B형  ④ O형\n  - 정답: ① AB형",
+      "differential": "1. ABO 혈구형 판정 원리 (Forward Grouping):\n  • Anti-A 시약 응집 (+) -> A 항원 보유\n  • Anti-B 시약 응집 (+) -> B 항원 보유\n  • 두 시약 모두에서 강한 응집(4+)이 나타나므로 환자의 적혈구형은 'AB형'임!\n\n2. 혈청형 검사(Reverse Grouping) 확인:\n  • AB형 환자의 혈청에는 anti-A, anti-B 항체가 모두 없으므로 A1 cell 및 B cell 모두에서 응집 음성(-)이어야 일치함.",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 3회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q14",
+    "index": 61,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 14,
+    "category": "짤",
+    "theme_title": "범혈구감소증(Pancytopenia)과 재생불량성 빈혈(Aplastic Anemia)",
+    "subspecialty": "진단혈액학",
+    "stem": "40대 남성이 입안 출혈을 주소로 내원하였다. 말초혈액 검사 / 골수 검사 소견은 다음과 같을 때 가장 의심되는 진 단은? [혈액 검사: Hb: 6.7 / WBC: 26,000 (모세포 30%), PLT 감소, PT &　aPTT 증가]",
+    "images": [
+      "images/23Y_Q14_fig1.png"
+    ],
+    "options": [
+      "① Acute lymphocytic leukemia",
+      "② Chronic myelocytic leukemia",
+      "③ Chronic lymphocytic leukemia",
+      "④ Acute promyelocytic leukemia",
+      "⑤ Aplastic anemia"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Aplastic anemia (재생불량성 빈혈, AA)",
+    "explanation": {
+      "title": "범혈구감소증(Pancytopenia)과 재생불량성 빈혈(Aplastic Anemia)",
+      "findings": "혈액검사 상 Hb 저하, WBC/ANC 현저 저하, PLT 저하 동반 및 골수 세포충실도 저하 소견.",
+      "differential": "MDS(말초 혈구 이형성), 급성 백혈병(Blast > 20%), 거대적혈모구빈혈(MCV > 115, 과분엽 호중구).",
+      "trap": "골수이형성증후군(MDS)이나 백혈병은 이형성(Dysplasia)이나 모세포(Blast)가 관찰되나, AA는 세포 충실도가 극히 저하된 지방 골수(Fatty marrow)를 보임.",
+      "trigger": "고령 환자의 빈혈 + 백혈구 감소(Neutropenia) + 혈소판 감소(Thrombocytopenia)의 삼계열 동시 저하(Pancytopenia) + 비장종대 없음 = 골수 형성 저하에 의한 재생불량성 빈혈(AA)!",
+      "kmle_link": "KMLE 혈액학 - 범혈구감소증의 감별 진단 및 재생불량성 빈혈"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q15",
+    "index": 62,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 15,
+    "category": "짤",
+    "theme_title": "ABO 혈액형 유전학: 전이효소(Transferase) 코딩과 당사슬 항원 합성",
+    "subspecialty": "수혈의학/진단유전학",
+    "stem": "혈액형에 대한 설명으로 옳은 것을 고르시오.",
+    "images": [],
+    "options": [
+      "① A형과 B형은 염기 1개 차이난다.",
+      "② O형과 A형은 염기 4개 차이난다.",
+      "③ ABO 혈액형을 결정하는 유전자는 1번 염색체에, Rh 혈 액형을 결정하는 유전자는 9번 염색체에 존재한다.",
+      "④ ABO 혈액형의 유전자는 성염색체의 상호우성으로 발현이 된다.",
+      "⑤ 혈액형의 유전자는 transferase를 코딩하여 간접적으로 혈액형을 결정한다."
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 혈액형의 유전자는 transferase를 코딩하여 간접적으로 혈액형을 결정한다.",
+    "explanation": {
+      "title": "ABO 혈액형 유전학: 전이효소(Transferase) 코딩과 당사슬 항원 합성",
+      "findings": "선지 ① \"A형과 B형은 염기 1개 차이(X - 4개 차이)\", ② \"O형과 A형은 염기 4개 차이(X - 1개 염기 결실)\", ③ \"1번 염색체(X - ABO는 9번, Rh는 1번)\".",
+      "differential": "Rh 유전자는 1번 염색체에 위치하며 단백질 항원을 직접 코딩함.",
+      "trap": "A 유전자는 N-acetylgalactosaminyltransferase를 코딩하고, B 유전자는 Galactosyltransferase를 코딩함. O 유전자는 단일 염기 결실(Frameshift)로 비활성 단백질 생성.",
+      "trigger": "ABO 유전자는 적혈구 표면 항원 단백질을 직접 만드는 것이 아니라, H 항원에 당을 붙이는 당전이효소(Glycosyltransferase)를 코딩하여 간접적으로 A/B 항원을 합성함!",
+      "kmle_link": "KMLE 수혈의학 - ABO 혈액형의 생화학적 합성 및 분자유전학"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q16",
+    "index": 63,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 16,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 세 여아. 발열과 인후통이 있어서 내원했다. 편도에 발",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "4세 여아. 발열과 인후통이 있어서 내원했다. 편도에 발 적과 표면에 하얀 막이 관찰되었다. 목에서 3cm 정도의 림 프절이 여러개 만져지며 만졌을 때 아파했다. 좌측 갈비뼈 아 래로 지라가 3cm정도 만져진다. 혈액검사 및 말초혈액도말검 사는 다음과 같으며 아래의 세포가 전체 백혈구의 30%를 차 지했다. 가장 의심되는 진단은? [혈액검사: WBC: 19,000 (림프구 70%)]",
+    "images": [
+      "images/23Y_Q16_fig1.png"
+    ],
+    "options": [
+      "① 가와사키병",
+      "② 홍역",
+      "③ 볼거리",
+      "④ 감염단핵구증",
+      "⑤ 백혈병"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "[23Y Q16 & 21Y Q46] ④ 감염단핵구증 (Infectious Mononucleosis, IM)",
+    "explanation": {
+      "title": "[과년도 빈출] 세 여아. 발열과 인후통이 있어서 내원했다. 편도에 발",
+      "findings": "• [23Y Q16 & 21Y Q46] 출제 지문:\n  - 4세 여아 발열, 인후통, 편도 발적 및 백태, 3cm 경부 림프절 비대, 좌측 갈비뼈 아래 지라(비장) 3cm 촉지. WBC 19,000 (림프구 70%), 말초혈액도말 상 비정형 림프구가 전체 백혈구의 30% 차지. 진단은?\n  - 선지: ① 가와사키병  ② 홍역  ③ 볼거리  ④ 감염단핵구증  ⑤ 백혈병\n  - 정답: ④ 감염단핵구증",
+      "differential": "1. 감염단핵구증(IM) 임상 3징:\n  • 발열, 삼출성 인후통, 경부 림프절 비대 + 비종대(Splenomegaly) 동반.\n\n2. 진단검사의학적 소견 (EBV 감염):\n  • 절대 림프구 증가증 (림프구 >50%)\n  • 말초혈액도말 상 비정형 림프구(Atypical / Reactive lymphocyte, Downey cell)가 백혈구의 10% 이상 (증례는 30%로 확진 수준)!\n  • 이종항체검사(Heterophile antibody test) 또는 EBV 특이 항체(VCA IgM, EBNA) 검사.",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 2회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q17",
+    "index": 64,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 17,
+    "category": "탈",
+    "theme_title": "EDTA 유도 가성 혈소판 감소증 (EDTA-PTCP)",
+    "subspecialty": "진단검사의학",
+    "stem": "40대 남성. CBC 검사 결과 이상이 발견되어 진단검사의 학과에서 슬라이드를 관찰한 결과 혈소판이 다른 혈소판이나 세포와 뭉쳐져 있는 것이 발견되었다. 다음 중 가장 가능성이 높은 상황은?",
+    "images": [],
+    "options": [
+      "① EDTA induced pseudothrombocytopenia",
+      "② ITP (Immune thrombocytopenic purpura)",
+      "③ TTP (Thrombocytopenic thrombotic purpura)",
+      "④ Bone marrow suppression",
+      "⑤ DIC (Disseminated intravascular coagulation)"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① EDTA induced pseudothrombocytopenia",
+    "explanation": {
+      "title": "EDTA 유도 가성 혈소판 감소증 (EDTA-PTCP)",
+      "findings": "말초혈액도말에서 혈소판이 응집되어 자동혈구분석기가 큰 세포나 잔해로 오인하여 혈소판 수치가 위감소(pseudothrombocytopenia)된 상태입니다.",
+      "differential": "• EDTA-PTCP: 혈소판 응집 관찰, 출혈 증상 없음, Citrate/Heparin 튜브 재채혈 시 정상 수치 회복\n• ITP: 도말 상 거대혈소판 관찰되나 응집은 없음, 실제 출혈 경향 동반\n• TTP: 파열적혈구(Schistocyte) 동반 마이크로혈전증\n• DIC: PT/aPTT 연장, D-dimer 상승, 섬유소원 감소",
+      "trap": "EDTA 튜브 내의 항체 의존성 혈소판 응집 현상이므로, 즉시 Sodium citrate(구연산나트륨) 튜브로 재채혈하여 측정해야 합니다.",
+      "trigger": "도말 상 혈소판 응집 덩어리 관찰 + 환자 무증상 -> EDTA induced pseudothrombocytopenia",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q18",
+    "index": 65,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 18,
+    "category": "탈",
+    "theme_title": "간담도 질환 시 요시험지봉 검사 (Bilirubinuria)",
+    "subspecialty": "진단검사의학",
+    "stem": "혈액화학검사가 다음과 같을 때 소변 검사에서 관찰될 가능성이 가장 높은 것은? Total protein 6.6 / Albumin 3.1 AST 315 / ALT 156 Total bilirubin 36.2 / Direct bilirubin 27.9",
+    "images": [],
+    "options": [
+      "① Ketonuria",
+      "② Pyuria",
+      "③ Bilirubinuria",
+      "④ Hematuria",
+      "⑤ Albuminuria"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ Bilirubinuria",
+    "explanation": {
+      "title": "간담도 질환 시 요시험지봉 검사 (Bilirubinuria)",
+      "findings": "AST 315 / ALT 156 상승 및 Total bilirubin 상승은 간세포 손상 및 담즙 정체를 시사합니다. 혈중 증가한 포합(직접) 빌리루빈은 수용성이므로 신장 사구체를 통과하여 소변에서 빌리루빈뇨(Bilirubinuria)로 검출됩니다.",
+      "differential": "• Bilirubinuria: 포합빌리루빈(Conjugated) 증가 시에만 소변 검출 (비포합 빌리루빈은 알부민 결합으로 사구체 여과 불가)\n• Ketonuria: 당뇨병성 케톤산증, 기아\n• Pyuria: 요로감염\n• Hematuria: 사구체신염, 요로결석, 종양\n• Albuminuria: 사구체 손상, 신증후군",
+      "trap": "비포합(간접) 빌리루빈뇨는 정상 및 용혈성 황달에서도 발생하지 않으며, 오직 간세포성/폐쇄성 황달의 포합 빌리루빈만 소변으로 배출됩니다.",
+      "trigger": "간효소 수치(AST/ALT) 급상승 + 황달 소변 검사 -> Bilirubinuria",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q19",
+    "index": 66,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 19,
+    "category": "탈",
+    "theme_title": "단클론감마글로불린혈증(Monoclonal Gammopathy) 선별 및 확진 검사",
+    "subspecialty": "진단검사의학",
+    "stem": "Monoclonal gammopathy의 진단에 있어서 가장 중요 한 검사는?",
+    "images": [],
+    "options": [
+      "① 단백전기영동 (SPEP / IFE)",
+      "② 일반 혈액 검사 (CBC)",
+      "③ 신장 기능 검사 (BUN/Cr)",
+      "④ 소변 루틴 검사",
+      "⑤ 전해질 검사"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 단백전기영동 (SPEP / IFE)",
+    "explanation": {
+      "title": "단클론감마글로불린혈증(Monoclonal Gammopathy) 선별 및 확진 검사",
+      "findings": "단클론감마글로불린혈증(다발골수종 등)의 진단에 가장 필수적인 핵심 검사는 혈청 단백전기영동(SPEP)과 면역고정전기영동(IFE)입니다.",
+      "differential": "• SPEP: 감마 영역의 날카로운 M-spike(M단백) 확인\n• IFE: M단백의 중쇄(IgG, IgA 등) 및 경쇄(kappa, lambda) 유형 확진\n• CBC/Cr: 빈혈, 신부전 등 장기 손상(CRAB) 평가",
+      "trap": "단순 Total protein 상승만으로는 감별할 수 없으며, 반드시 전기영동을 통한 단클론성 피크(M-spike) 검출이 필수적입니다.",
+      "trigger": "Monoclonal gammopathy 의심 1순위 검사 -> SPEP / IFE",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q20",
+    "index": 67,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 20,
+    "category": "탈",
+    "theme_title": "과립구계 조혈 세포의 분화 단계 (Most Primitive Cell)",
+    "subspecialty": "진단검사의학",
+    "stem": "다음 중 Most primitive한 것은?",
+    "images": [],
+    "options": [
+      "① Myeloblast",
+      "② Promyelocyte",
+      "③ Myelocyte",
+      "④ Metamyelocyte",
+      "⑤ Band neutrophil"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Myeloblast (골수모세포)",
+    "explanation": {
+      "title": "과립구계 조혈 세포의 분화 단계 (Most Primitive Cell)",
+      "findings": "과립구계 조혈 분화 단계: Myeloblast(골수모세포) -> Promyelocyte(전골수구) -> Myelocyte(골수구) -> Metamyelocyte(후골수구) -> Band neutrophil(간상핵구) -> Segmented neutrophil(분엽핵구). 따라서 제시된 세포 중 가장 원시적인(Most primitive) 세포는 Myeloblast입니다.",
+      "differential": "• Myeloblast: 핵소체 뚜렷, 과립 없음, 미성숙\n• Promyelocyte: 1차(아주르) 과립 출현, Auer rod 생성 가능\n• Myelocyte: 2차(특이) 과립 출현, 유사분열 가능한 마지막 단계\n• Metamyelocyte: 핵의 함입(신장 모양), 분열 불가",
+      "trap": "Auer rod가 관찰되는 단계는 Myeloblast 및 Promyelocyte입니다.",
+      "trigger": "과립구 분화 최원시 단계 -> Myeloblast",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q21",
+    "index": 68,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 21,
+    "category": "짤",
+    "theme_title": "EDTA 유도 가성 혈소판 감소증 환자의 재검용 항응고제 튜브",
+    "subspecialty": "진단혈액학",
+    "stem": "다음 병의 이름은 무엇인가?",
+    "images": [
+      "images/23Y_Q21_fig1.png"
+    ],
+    "options": [
+      "① Sodium citrate (구연산나트륨 튜브 - Light blue cap)",
+      "② EDTA tube (Lavender cap)",
+      "③ Heparin tube (Green cap)",
+      "④ Plain tube (Red cap)",
+      "⑤ ACD tube (Yellow cap)"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Sodium citrate (구연산나트륨 튜브 - Light blue cap)",
+    "explanation": {
+      "title": "EDTA 유도 가성 혈소판 감소증 환자의 재검용 항응고제 튜브",
+      "findings": "Q06과 연계되는 진단혈액학 고전 필수 문제.",
+      "differential": "EDTA(보라색), Sodium citrate(하늘색), Heparin(녹색), Plain/SST(노란/빨간색).",
+      "trap": "Citrate 튜브에서도 드물게 응집하는 경우 Heparin 튜브를 사용하거나, 항응고제 없는 주사기로 즉시 채혈 후 직접 도말/희석 검사 시행.",
+      "trigger": "EDTA 튜브에서 혈소판 응집으로 인한 가성 혈소판 감소증 확인 시 재검용으로 사용하는 제1 표준 튜브 = Sodium citrate 튜브!",
+      "kmle_link": "KMLE 혈액학 - 혈소판 검사 채혈 튜브 및 주의사항"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q22",
+    "index": 69,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 22,
+    "category": "탈",
+    "theme_title": "신장이식 전 교차시험(HLA Crossmatch) 결과 해석",
+    "subspecialty": "진단검사의학",
+    "stem": "다음은 신장이식을 받게 될 환자가 이식 전 HLA crossmatching을 진행한 결과이다. 다음 결과를 알맞게 해 석한 것은?\n\n- 공여자 T cell: positive\n- 공여자 B cell: negative\n- 수혜자 Lymphocyte: positive",
+    "images": [],
+    "options": [
+      "① 재검사",
+      "② 이식수술 가능",
+      "③ 이식수술 금기",
+      "④ 혈장치환술 후 즉시 이식",
+      "⑤ 면역억제제 감량"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 이식수술 금기",
+    "explanation": {
+      "title": "신장이식 전 교차시험(HLA Crossmatch) 결과 해석",
+      "findings": "CDC 교차시험에서 Donor T cell 양성(Positive)은 수혜자 혈청 내에 공여자 HLA Class I에 대한 특이 항체(DSA)가 이미 존재함을 의미합니다.",
+      "differential": "• Donor T cell (+): 초급성 거부반응(Hyperacute rejection) 위험으로 절대적 이식 금기(Contraindication)\n• Donor B cell 만 (+): Class II 항체 또는 자가항체 가능성 고려, 정밀 검사 후 판단",
+      "trap": "수술 후 면역억제제 투여로 극복할 수 없으며, 혈관 문합 직후 수 분~수 시간 내에 초급성 거부반응이 초래되므로 절대 금기입니다.",
+      "trigger": "Donor T cell (+) -> 초급성 거부반응 유발 -> 이식수술 금기",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q23",
+    "index": 70,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 23,
+    "category": "탈",
+    "theme_title": "신생아 생리적 황달 (Physiological Jaundice of Newborn)",
+    "subspecialty": "진단검사의학",
+    "stem": "신생아 생리적 황달 시 나타나는 소견으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "① 간접(비포합) 빌리루빈 증가",
+      "② 직접(포합) 빌리루빈 증가",
+      "③ 요중 빌리루빈 배출",
+      "④ 회색변(Acolic stool)",
+      "⑤ 간효소(AST/ALT) 급상승"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 간접(비포합) 빌리루빈 증가",
+    "explanation": {
+      "title": "신생아 생리적 황달 (Physiological Jaundice of Newborn)",
+      "findings": "신생아는 태아 적혈구의 빠른 파괴와 간의 UDP-glucuronosyltransferase 효소 미성숙으로 인해 비포합(간접) 빌리루빈이 일시적으로 상승합니다.",
+      "differential": "• 생리적 황달: 비포합 빌리루빈 우세, 생후 2~3일경 시작, 1~2주 내 정상화, 담즙정체 증상(회색변) 없음\n• 병적 황달: 생후 24시간 이내 발생, 직접 빌리루빈 > 2.0 mg/dL, 2주 이상 지속",
+      "trap": "비포합 빌리루빈은 지용성이므로 뇌혈관장벽(BBB)을 통과하여 핵황달(Kernicterus)을 유발할 수 있으나, 소변으로는 배출되지 않습니다.",
+      "trigger": "신생아 생리적 황달 -> 비포합(간접) 빌리루빈 상승",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q24",
+    "index": 71,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 24,
+    "category": "짤",
+    "theme_title": "혈액 응고 검사 판독: aPTT 단독 연장 시 연관 응고 인자 결핍",
+    "subspecialty": "진단혈액학",
+    "stem": "20대 여자. 평소 멍이 잘 들고 출혈경향이 나타나서 내 원하였다. 검사 결과 다음과 같을 때 관련된 인자는? Platelet: 250,000 Hb: 13.0 aPTT: 60 PT: 12",
+    "images": [],
+    "options": [
+      "① VIII, IX, XI",
+      "② I, II, III",
+      "③ V, VII, X",
+      "④ IV, V, VII",
+      "⑤ VII, IX, XII"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① VIII, IX, XI (내인성 경로 응고 인자)",
+    "explanation": {
+      "title": "혈액 응고 검사 판독: aPTT 단독 연장 시 연관 응고 인자 결핍",
+      "findings": "PT 정상치 범위, aPTT 기준치 2배 이상 지연 확인.",
+      "differential": "Factor VII(PT만 연장), Factor X/V/II(둘 다 연장).",
+      "trap": "PT 단독 연장은 외인성 경로인 제7인자(Factor VII) 결핍/와파린 초기이며, PT와 aPTT가 모두 연장되면 공통 경로(I, II, V, X) 결핍이나 중증 간질환/DIC임.",
+      "trigger": "출혈 경향 환자에서 PT 정상(12초) + aPTT 단독 현저 연장(60초) = 내인성 경로(Intrinsic pathway) 인자인 제8인자(혈우병 A), 제9인자(혈우병 B), 제11인자(혈우병 C) 결핍 또는 vWF 결핍!",
+      "kmle_link": "KMLE 혈액학 - 혈액응고 검사 해석 및 혈우병 진단"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q25",
+    "index": 72,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 25,
+    "category": "탈",
+    "theme_title": "극심한 백혈구 증가증과 좌방이행 (CML)",
+    "subspecialty": "진단검사의학",
+    "stem": "체중감소, 발열, 야간발한 호소하며 내원한 50대 남자. WBC는 250,000/mm3이었고, 말초혈액도말검사 결과 Left shift가 나타났으며, Myelocyte와 Promyelocyte가 많이 관 찰되었다. BM cellularity는 90%였고, Small monolobated megakaryocyte 관찰되었다. 이 환자에서 꼭 처방해야 하는 검사는?",
+    "images": [],
+    "options": [
+      "① 만성골수성백혈병 (CML)",
+      "② 급성골수성백혈병 (AML)",
+      "③ 백혈병양 반응 (Leukemoid reaction)",
+      "④ 진성적혈구증가증 (PV)",
+      "⑤ 본태성혈소판증가증 (ET)"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 만성골수성백혈병 (CML)",
+    "explanation": {
+      "title": "극심한 백혈구 증가증과 좌방이행 (CML)",
+      "findings": "WBC 250,000/mm3의 극단적 백혈구 증가, 골수모세포부터 분엽핵구까지 전 단계의 과립구 출현(Left shift), 호염구/호산구 증가, 비장비대는 전형적인 만성골수성백혈병(CML) 소견입니다.",
+      "differential": "• CML: t(9;22) Philadelphia 염색체, BCR-ABL1 융합유전자, LAP score 감소\n• Leukemoid reaction: 중증 감염 반응, 독성과립/Dohle body, LAP score 상승\n• AML: Blast > 20%",
+      "trap": "감염에 의한 백혈병양 반응과의 감별 핵심은 LAP score(CML 감소, Leukemoid 증가) 및 BCR-ABL1 유전자 검사입니다.",
+      "trigger": "WBC > 10만 + 전 단계 골수구 출현(Left shift) + 비장종대 -> CML",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q26",
+    "index": 73,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 26,
+    "category": "짤",
+    "theme_title": "자동혈구분석기(Automated Hematology Analyzer)의 측정 원리",
+    "subspecialty": "진단혈액학",
+    "stem": "자동혈구 분석기에서 이용하지 않는 원리는?",
+    "images": [],
+    "options": [
+      "① 세포점도",
+      "② 전기전도도",
+      "③ 전기저항",
+      "④ 광산란",
+      "⑤ 형광염색"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 세포점도 (Cell viscosity - 이용하지 않음)",
+    "explanation": {
+      "title": "자동혈구분석기(Automated Hematology Analyzer)의 측정 원리",
+      "findings": "혈구 분석기의 물리광학적 계수 원리를 묻는 기본 개념 문제.",
+      "differential": "전기저항(임피던스), 레이저 광산란, 화학 발광.",
+      "trap": "전방 산란광(FSC)은 세포 크기, 측방 산란광(SSC)은 내부 과립도 및 핵 복잡도를 반영함.",
+      "trigger": "자동혈구분석기가 이용하는 3대 원리 = 1) 전기저항법(Coulter principle, 임피던스), 2) 광산란법(전방/측방 산란광), 3) 형광염색법(RNA/DNA 형광)! 세포점도는 결코 측정하지 않음.",
+      "kmle_link": "KMLE 혈액학 - CBC 자동분석 원리 및 스캐터그램 해석"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q27",
+    "index": 74,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 27,
+    "category": "짤",
+    "theme_title": "검사실 생물안전등급(Biosafety Level, BSL) 분류 기준 및 지침",
+    "subspecialty": "임상미생물학",
+    "stem": "검사실 생물 안전에 대한 설명으로 틀린 것은?",
+    "images": [],
+    "options": [
+      "① 모든 검체는 잠재적 위험성이 있다고 간주하며 작업시 표 준지침을 따른다.",
+      "② 우리나라에서는 결핵균이 많이 검출되므로 생물안전 3등 급에서 작업하는 것이 바람직하다.",
+      "③ 생물안전 4등급에서는 class III 생물안전작업대와 양압복 과 같은 특수보호장비가 필요하다.",
+      "④ 정상인에게서 감염을 일으키지 않는 세균은 개방된 작업 대에서 다뤄도 된다.",
+      "⑤ 임상적으로 흔하게 검출되는 세균은 생물안전 1등급에 해 당되며 생물안전작업대가 필요하다."
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 임상적으로 흔하게 검출되는 세균은 생물안전 1등급에 해당되며 생물안전작업대가 필요하다. (X - 2등급에 해당)",
+    "explanation": {
+      "title": "검사실 생물안전등급(Biosafety Level, BSL) 분류 기준 및 지침",
+      "findings": "선지 ⑤는 흔한 임상 세균을 1등급으로 잘못 기술하여 명백한 오답.",
+      "differential": "BSL-3(결핵균 배양, 음압시설), BSL-4(Class III BSC 또는 에어슈트).",
+      "trap": "결핵균(M. tuberculosis)은 공기 전파 위험으로 BSL-3 음압 구역에서 작업하는 것이 원칙임.",
+      "trigger": "병원 임상검사실에서 흔히 분리되는 병원성 세균(S. aureus, E. coli, Salmonella 등)은 생물안전 2등급(BSL-2)에 해당하며 Class II 생물안전작업대(BSC)에서 다룸! 1등급은 비병원성균(E. coli K12).",
+      "kmle_link": "KMLE 감염학/예방의학 - 병원 감염 관리 및 검사실 생물안전 지침"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q28",
+    "index": 75,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 28,
+    "category": "짤",
+    "theme_title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
+    "subspecialty": "진단면역학",
+    "stem": "ANA에서 homogenous pattern이 나왔다. 다음으로 해야 하는 검사는?",
+    "images": [],
+    "options": [
+      "① Anti-ENA",
+      "② Anti-dsDNA",
+      "③ APA",
+      "④ ANCA",
+      "⑤ Anti-mitochondria"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① anti-dsDNA (및 anti-Histone)",
+    "explanation": {
+      "title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
+      "findings": "Hep-2 세포 핵질 전체에 걸쳐 균일한 녹색 형광 신호 관찰.",
+      "differential": "Speckled(점상, ENA 패널 필요), Nucleolar(핵소체, 전신경화증).",
+      "trap": "Rim/Peripheral pattern은 Anti-dsDNA, Speckled pattern은 Anti-Sm/RNP/Ro/La, Nucleolar는 Anti-Scl-70(전신경화증). Homogenous는 Anti-dsDNA 및 Histone.",
+      "trigger": "IIF 상 핵 전체가 균일하게 염색되는 Homogenous / Diffuse pattern = Chromatin, dsDNA, Histone 항체 시사! SLE 확진 및 활성도 평가를 위한 1순위 추가 검사는 Anti-dsDNA!",
+      "kmle_link": "KMLE 류마티스학 - 전신홍반루푸스(SLE)의 혈청학적 진단 기준"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q29",
+    "index": 76,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 29,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 병원 검사실에서 알부민 농도 검사에 사용하는 시약은?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "병원 검사실에서 알부민 농도 검사에 사용하는 시약은?",
+    "images": [],
+    "options": [
+      "① Bromocresol Green",
+      "② Bromocresol Purple",
+      "③ SSA(Salicylsalicylic acid)",
+      "④ HABA"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q29 & 22Y Q24] ① Bromocresol Green (BCG) / Bromocresol Purple (BCP)",
+    "explanation": {
+      "title": "[과년도 빈출] 병원 검사실에서 알부민 농도 검사에 사용하는 시약은?",
+      "findings": "• [23Y Q29 & 22Y Q24] 출제 지문:\n  - 병원 검사실에서 혈청 알부민(Albumin) 농도 측정에 사용하는 색소 시약은?\n  - 선지: ① Bromocresol Green (BCG)  ② Bromocresol Purple (BCP)  ③ SSA  ④ HABA\n  - 정답: ① Bromocresol Green (BCG) [BCG/BCP 공통 정답 인정]",
+      "differential": "1. 혈청 알부민 측정 원리:\n  • 색소 결합법(Dye-binding method): 음전하를 띤 알부민이 양이온성 색소인 Bromocresol green (BCG, pH 4.2) 또는 Bromocresol purple (BCP, pH 5.2)과 특이적으로 결합하여 흡광도가 변화하는 원리를 분광광도계로 측정.\n\n2. 총단백질 측정법과의 구별:\n  • 총단백질(Total protein): Biuret(뷰렛) 반응 (Cu2+ 이온 착체 형성, 보라색 발색).\n  • 소변 단백질 정성: Sulfosalicylic acid (SSA) 침전법.",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 2회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q30",
+    "index": 77,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 30,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 법정감염병 6종이 아닌 것은?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "법정감염병 6종이 아닌 것은?",
+    "images": [],
+    "options": [
+      "① Vancomycin-resistance Enterococcus",
+      "② Multidrug-resistant Pseudomonas aeruginosa",
+      "③ Multidrug-resistant Acinetobacter baumannii",
+      "④ Carbapenem-resistant Enterobacteriaceae",
+      "⑤ Vancomycin-resistant Enterovirus"
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "[23Y Q30 & 22Y Q06] ⑤ Vancomycin-resistant Enterovirus (X - 엔테로바이러스는 다제내성균 6종에 해당 안 됨)",
+    "explanation": {
+      "title": "[과년도 빈출] 법정감염병 6종이 아닌 것은?",
+      "findings": "• [23Y Q30 & 22Y Q06] 출제 지문:\n  - 법정감염병 (의료관련감염병 표본감시 다제내성균) 6종이 아닌 것은?\n  - 선지: ① VRE  ② MRPA  ③ MRAB  ④ CRE  ⑤ Vancomycin-resistant Enterovirus\n  - 정답: ⑤ Vancomycin-resistant Enterovirus (오답 선지)",
+      "differential": "1. 의료관련감염병 표본감시 대상 다제내성균 6종:\n  ① VRSA (반코마이신내성황색포도알균)\n  ② VRE (반코마이신내성장알균, Vancomycin-resistant Enterococcus)\n  ③ MRSA (메티실린내성황색포도알균)\n  ④ MRPA (다제내성녹농균, Multidrug-resistant P. aeruginosa)\n  ⑤ MRAB (다제내성아시네토박터바우마니균, Multidrug-resistant A. baumannii)\n  ⑥ CRE (카바페넴내성장내세균목, Carbapenem-resistant Enterobacterales)\n\n2. 감별 포인트:\n  • Enterovirus는 무균성뇌수막염, 수족구병 등을 일으키는 바이러스(RNA virus)이므로 항균제 내성균 개념 자체가 성립하지 않음!",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 2회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q31",
+    "index": 78,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 31,
+    "category": "짤",
+    "theme_title": "임상 안구/유리체 검체 취급 시 요구되는 생물안전 등급 및 작업대",
+    "subspecialty": "임상미생물학",
+    "stem": "백내장 수술 후 시력저하가 나타난 환자의 유리체에서 검사를 진행해 배양을 하였다. 배양 3일 후 SDA에서 솜털 모양의 집락이 관찰되었다. 생물안전등급으로 옳은 것은?",
+    "images": [
+      "images/23Y_Q31_fig1.png"
+    ],
+    "options": [
+      "① 등급 - 개방작업대",
+      "② 등급 - 개방작업대",
+      "③ 등급 - 생물안전작업대",
+      "④ 등급 - 음압시설과 양압복",
+      "⑤ 등급 - 생물안전작업대와 호흡보조장치"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 2등급 - 생물안전작업대 (BSL-2 with BSC Class II)",
+    "explanation": {
+      "title": "임상 안구/유리체 검체 취급 시 요구되는 생물안전 등급 및 작업대",
+      "findings": "환자 유래 감염성 검체의 기본 취급 표준 등급 숙지 여부 확인.",
+      "differential": "1등급(작업대 불필요), 3등급(음압 및 공기여과 특수시설).",
+      "trap": "3등급은 결핵이나 고위험 호흡기 바이러스에 적용되며 일반 세균성 안구 감염 검체는 2등급임.",
+      "trigger": "백내장 수술 후 안내염 환자의 유리체액(Vitreous humor) 등 환자 검체 배양은 일반 임상 검체이므로 생물안전 2등급(BSL-2) 시설 및 생물안전작업대(BSC) 내에서 취급해야 함!",
+      "kmle_link": "KMLE 감염학 - 임상 검체 안전 취급 지침"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q32",
+    "index": 79,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 32,
+    "category": "짤",
+    "theme_title": "류마티스 인자(Rheumatoid Factor, RF)의 주된 면역글로불린 동형",
+    "subspecialty": "진단면역학",
+    "stem": "RF의 주된 isotype은?",
+    "images": [],
+    "options": [
+      "① IgM-RF",
+      "② IgG-RF",
+      "③ IgA-RF",
+      "④ IgD-RF",
+      "⑤ IgE-RF"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① IgM-RF (IgG의 Fc 부위에 결합하는 IgM 항체)",
+    "explanation": {
+      "title": "류마티스 인자(Rheumatoid Factor, RF)의 주된 면역글로불린 동형",
+      "findings": "면역학적 정의: RF는 \"자가 IgG의 Fc 부위에 대한 자가항체\"이며 주 동형은 IgM.",
+      "differential": "Anti-CCP(Citrullinated peptide 항체, RA 특이도 95% 이상).",
+      "trap": "IgG-RF나 IgA-RF도 존재하나 임상 검사실에서 라텍스 응집법/비탁법으로 통상 검출하는 90% 이상의 주된 형태는 IgM-RF임.",
+      "trigger": "임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체.",
+      "kmle_link": "KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q33",
+    "index": 80,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 33,
+    "category": "짤",
+    "theme_title": "인터페론감마 분비검사(IGRA, QuantiFERON) 결과 판정: 판정 불가(Indeterminate)",
+    "subspecialty": "임상미생물학/면역학",
+    "stem": "다음은 IGRA 검사 결과이다. 옳게 해석한 것은? TB1 minus TB2 minus Nil mitogen Nil Nil 9.8",
+    "images": [],
+    "options": [
+      "① -2.6",
+      "② >=10",
+      "③ Intermediate",
+      "④ Indeterminate",
+      "⑤ Negative",
+      "⑥ Boderline",
+      "⑦ Positive"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Indeterminate (판정 불가 / 미결정)",
+    "explanation": {
+      "title": "인터페론감마 분비검사(IGRA, QuantiFERON) 결과 판정: 판정 불가(Indeterminate)",
+      "findings": "제시된 데이터에서 Nil 0.1, TB Ag 0.2, Mitogen 0.3으로 양성 대조군이 무반응 상태.",
+      "differential": "Positive(TB Ag 유의한 상승), Negative(TB Ag 무반응이나 Mitogen 정상 반응).",
+      "trap": "면역저하자, 스테로이드 사용자, 림프구감소증 환자에서 T세포 기능 저하로 Mitogen 반응이 안 나와 Indeterminate가 빈발함.",
+      "trigger": "IGRA 검사에서 양성 대조군(Mitogen)의 IFN-gamma 반응이 기준치 미달(<0.5 IU/mL)로 면역반응이 전혀 없거나, 음성 대조군(Nil) 수치가 비정상적으로 높으면(>8.0 IU/mL) = Indeterminate(판정 불가)!",
+      "kmle_link": "KMLE 호흡기/감염학 - 잠복결핵감염(LTBI)의 진단 및 IGRA 해석"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q34",
+    "index": 81,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 34,
+    "category": "짤",
+    "theme_title": "한랭글로불린(Cryoglobulin) 검사를 위한 적절한 채혈 튜브 및 온도 조건",
+    "subspecialty": "임상화학/면역학",
+    "stem": "다음 중 cryoglobulin (한랭글로불린) 검사를 위해 어떤 tube에 혈액을 채취하는 것이 합당한가?",
+    "images": [],
+    "options": [
+      "① ℃ plain tube",
+      "② ℃ plain tube",
+      "③ ℃ heparinized tube",
+      "④ ℃ heparinized tube",
+      "⑤ Cryotube"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 37도 plain tube (사전 보온된 무첨가 튜브)",
+    "explanation": {
+      "title": "한랭글로불린(Cryoglobulin) 검사를 위한 적절한 채혈 튜브 및 온도 조건",
+      "findings": "검체 채취 시 온도 관리가 결과의 성패를 가르는 대표적 특수 면역 검사.",
+      "differential": "EDTA(혈구용), Heparin(가스분석용), 4도 냉각 튜브(암모니아용).",
+      "trap": "얼음물에 담가 운송(Ice packing)하는 검사는 암모니아(Ammonia), ABGA, 젖산(Lactate), 가스트린 등이며, Cryoglobulin에 얼음을 대면 위음성(체외 침전) 초래.",
+      "trigger": "Cryoglobulin은 37℃ 미만 실온에서 즉시 침전되므로, 반드시 37℃로 미리 예열된 튜브(Prewarmed 37°C plain tube)에 채혈하고 37℃를 유지하며 운송 및 원심분리해야 함!",
+      "kmle_link": "KMLE 감염/류마티스 - 한랭글로불린혈증(HCV 연관)의 진단학적 주의사항"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q35",
+    "index": 82,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 35,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 결핵에 대해 옳은 것은?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "결핵에 대해 옳은 것은?",
+    "images": [],
+    "options": [
+      "① Norcardia와 cryptospordium은 Ziehl Neelsen stain 에서 파란색으로 염색이 된다.",
+      "② 결핵균은 세포벽에 두꺼운 LPS를 가지고 있다.",
+      "③ 그람 염색 시 양성 구균으로 나온다.",
+      "④ 항상균을 염색해서 양성이 나오면 결핵균이다.",
+      "⑤ 형광 염색이 Z-N stain보다 판독시간이 빠르다."
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "[23Y Q35 & 22Y Q04 & 20Y Q42] ⑤ 형광 염색(Fluorescent stain)이 Z-N stain보다 판독시간이 빠르다 (O)",
+    "explanation": {
+      "title": "[과년도 빈출] 결핵에 대해 옳은 것은?",
+      "findings": "• [23Y Q35 & 22Y Q04 & 20Y Q42] 공통 출제 지문:\n  - 결핵균 및 항산균(Acid-fast bacilli, AFB) 검사에 대해 옳은 설명은?\n  - 선지:\n    ① Nocardia와 Cryptosporidium은 Z-N 염색에서 파란색이다.\n    ② 결핵균은 세포벽에 두꺼운 LPS를 가지고 있다.\n    ③ 그람 염색 시 양성 구균으로 나온다.\n    ④ 항산균 염색 양성이면 반드시 결핵균이다.\n    ⑤ 형광 염색이 Z-N stain보다 판독시간이 빠르다.\n  - 정답: ⑤ 형광 염색이 Z-N stain보다 판독시간이 빠르다",
+      "differential": "1. 결핵균 항산균 염색법 비교:\n  • Auramine-rhodamine 형광염색: 저배율(250~400배)에서 넓은 시야를 신속히 관찰할 수 있어, 1,000배 유침렌즈로 300시야 이상을 봐야 하는 Ziehl-Neelsen(Z-N) 염색보다 판독시간이 훨씬 짧고 민감도가 10% 이상 높음 (스크리닝 검사로 표준 권장)!\n\n2. 오답 선지 완벽 정복:\n  • ① Nocardia, Cryptosporidium은 '부분 항산성(Partial acid-fast)'을 보여 Z-N 염색에서 붉은색 양성으로 나타남.\n  • ② 결핵균 세포벽에는 지질 성분인 미콜산(Mycolic acid)이 풍부함 (LPS는 그람음성균 특유 성분).\n  • ④ 항산균 양성은 NTM(비결핵항산균)일 수도 있으므로 분자진단(TB-PCR) 필수.",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 3회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q36",
+    "index": 83,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 36,
+    "category": "짤",
+    "theme_title": "알코올 젤 손소독제에 저항성을 보이는 아포 형성균(Spore-forming Bacteria)",
+    "subspecialty": "임상미생물학/감염관리",
+    "stem": "다음 중 알코올 젤로 손을 씻어 가장 효과 없을 균은?",
+    "images": [],
+    "options": [
+      "① Bacillus subtilis",
+      "② MERS virus",
+      "③ MRSA",
+      "④ Mycobacterium tuberculosis"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Bacillus subtilis (및 Clostridioides difficile - 아포 형성균)",
+    "explanation": {
+      "title": "알코올 젤 손소독제에 저항성을 보이는 아포 형성균(Spore-forming Bacteria)",
+      "findings": "선지 중 유일한 Bacillus속 아포 형성균주 확인.",
+      "differential": "E. coli, MRSA, VRE, P. aeruginosa (모두 영양세포 상태로 알코올 감수성).",
+      "trap": "일반 그람양성 구균(MRSA, VRE)이나 그람음성 간균(Pseudomonas, Acinetobacter)은 알코올에 매우 취약하여 알코올 젤로 쉽게 사멸됨.",
+      "trigger": "알코올 손소독제(Alcohol gel)로 사멸되지 않아 반드시 물과 비누로 기계적 세척(Soap and water handwashing)을 해야 하는 균 = 아포(Spore) 형성균(Bacillus속, Clostridium속)!",
+      "kmle_link": "KMLE 감염학 - 병원 감염 관리 및 소독/멸균 원칙"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q37",
+    "index": 84,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 37,
+    "category": "탈",
+    "theme_title": "임상 유전학 유전자 검사의 목적과 한계",
+    "subspecialty": "진단검사의학",
+    "stem": "유전자 검사 시행 목적으로 틀린 것은?",
+    "images": [],
+    "options": [
+      "① 확진 및 원인 규명",
+      "② 보인자 색출 및 유전상담",
+      "③ 산전 진단 및 착상 전 유전진단",
+      "④ 약물 유전체 기반 맞춤 치료",
+      "⑤ 유전 질환의 즉각적 완치 약제 합성"
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 유전 질환의 즉각적 완치 약제 합성",
+    "explanation": {
+      "title": "임상 유전학 유전자 검사의 목적과 한계",
+      "findings": "유전자 검사는 유전질환의 확진, 보인자 선별, 산전 진단, 약물 유전체(Pharmacogenomics) 반응 예측에 사용되나, 검사 자체로 질환의 완치 약제를 합성하는 목적은 아닙니다.",
+      "differential": "• 진단적 목적: 질환 원인 변이 규명\n• 예방적 목적: 가계 내 위험도 평가 및 유전상담\n• 치료적 목적: 표적항암제 감수성 및 약물 부작용 예측",
+      "trap": "유전자 분석은 정보 제공과 위험도 평가 도구이며, 유전자 결함을 즉각적으로 교정하거나 약제를 바로 합성해내는 치료술이 아닙니다.",
+      "trigger": "유전자 검사 목적 틀린 것 -> 즉각적 완치 약제 합성",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q38",
+    "index": 85,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 38,
+    "category": "짤",
+    "theme_title": "차세대 염기서열 분석(NGS)의 임상적 적용: 타깃 패널 검사(Targeted Gene Panel)",
+    "subspecialty": "진단유전학",
+    "stem": "NGS에 대한 설명으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "① WES(Whole Exome Sequencing)는 WGS(Whole Genome Sequencing)에 비해 structural 변이를 잘 발견 할 수 있다.",
+      "② WES(Whole Exome Sequencing)는 모든 유전자를 검 사하므로 90% 이상의 멘델유전 질환의 원인 유전자를 밝혀 낼 수 있다.",
+      "③ Targeted gene panel로 특정 질환군과 관련된 유전자 만을 선택하여 검사하며, 임상에서 많이 사용한다.",
+      "④ NGS는 전기영동(capillary electrophoresis)을 통해 크 기가 다른 DNA 조각들을 분리하고 형광표지를 통해 염기서 열을 분석한다. (정확하지 않지만 Sanger sequencing에 대 한 설명)",
+      "⑤ NGS는 표준 유전 서열(reference)을 bioinformatic와 비교할 필요 없다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ Targeted gene panel로 특정 질환군과 관련된 유전자만을 선택하여 검사하며, 임상에서 많이 사용한다.",
+    "explanation": {
+      "title": "차세대 염기서열 분석(NGS)의 임상적 적용: 타깃 패널 검사(Targeted Gene Panel)",
+      "findings": "현재 대학병원 진단검사의학과 NGS 검사실의 표준 운영 형태 설명.",
+      "differential": "Sanger 시퀀싱(단일 유전자 검증용 골드스탠다드), WES(원인 불명 희귀질환 2차 검사).",
+      "trap": "WGS는 비용이 높고 VUS가 과도하게 검출되어 1차 임상 루틴 검사로는 제한적임.",
+      "trigger": "임상 유전체 검사에서 전장유전체(WGS)나 전장엑솜(WES)보다 타깃 유전자 패널(Targeted panel)을 가장 널리 사용하는 이유 = 특정 질환 연관 수십~수백 개 유전자만 집중 포획하여 높은 시퀀싱 깊이(Depth > 500x)와 뛰어난 경제성, 빠른 판독을 제공하기 때문!",
+      "kmle_link": "KMLE 의학유전학 - NGS 검사의 종류 및 임상적 유용성"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q39",
+    "index": 86,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 39,
+    "category": "반짤",
+    "theme_title": "[과년도 빈출] 혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간 주하는 경우는?",
+    "images": [],
+    "options": [
+      "① Staphylococcus epidermis",
+      "② Staphylococcus aureus",
+      "③ Acinetobacter baumannii",
+      "④ Enterococcus faecium",
+      "⑤ E.coli"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q39] ① Staphylococcus epidermidis",
+    "explanation": {
+      "title": "[과년도 빈출] 혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간",
+      "findings": "• [23Y Q39] 정답: ① Staphylococcus epidermidis\n  - 지문: 혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간주하는 경우는?\n  - 선지: ① S. epidermidis  ② S. aureus  ③ A. baumannii  ④ E. faecium  ⑤ E. coli\n• [21Y Q36] 정답: ④ Diphtheroids (Corynebacterium)\n  - 지문: 혈액배양시 2쌍중 1쌍에서만 나타나도 오염으로 간주하는 경우는?\n  - 선지: ① S. aureus  ② A. baumannii  ③ E. faecium  ④ Diphtheroids  ⑤ E. coli\n• [20Y Q43] 정답: ④ Diphtheroids (Corynebacterium)\n  - 지문: 혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간주하는 경우는?\n  - 선지: 1) S. aureus  2) A. baumannii  3) E. faecium  4) Diphtheroids  5) E. coli",
+      "differential": "1. 혈액 배양 2쌍 중 1쌍 양성 시 오염균(Contaminant) vs 진성 균혈증(True Pathogen) 감별:\n   • 피부 상재 오염균 (1쌍 양성 시 위양성/오염 간주): CoNS(S. epidermidis), Corynebacterium(Diphtheroids), Cutibacterium(P. acnes), Bacillus spp., Micrococcus\n   • 진성 병원체 (1쌍만 나와도 반드시 진성 감염 치료): S. aureus, S. pneumoniae, Enterobacteriaceae(E. coli, Klebsiella), P. aeruginosa, Candida spp.\n2. 연도별 선지 변형 포인트:\n   • 20Y/21Y는 'Diphtheroids'가 정답이었고, 23Y는 'Staphylococcus epidermidis'로 변형 출제됨!\n3. 임상적 예외 판정:\n   • 인공판막, 중심정맥관, 인공관절 삽입 환자에서 CoNS가 2쌍 이상 반복 배양되면 카테터 감염/심내막염 진성 균혈증으로 진단함.",
+      "trap": "S. aureus, E. coli, P. aeruginosa는 1쌍만 나와도 100% 진성 균혈증으로 간주하므로 절대 오염균으로 고르면 안 됨.",
+      "trigger": "혈액배양 2쌍 중 1쌍 오염 -> S. epidermidis (CoNS) 또는 Diphtheroids(Corynebacterium) 즉시 연상!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q40",
+    "index": 87,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 40,
+    "category": "탈",
+    "theme_title": "기본 중합효소 연쇄반응(PCR)의 필수 4대 구성 요소",
+    "subspecialty": "진단검사의학",
+    "stem": "PCR에서 필요 없는 것은?",
+    "images": [],
+    "options": [
+      "① 주형 DNA (Template DNA)",
+      "② 특이 프라이머 (Primers)",
+      "③ DNA 중합효소 (Taq DNA Polymerase)",
+      "④ dNTP (탈산소리보뉴클레오티드)",
+      "⑤ 제한효소 (Restriction enzyme)"
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 제한효소 (Restriction enzyme)",
+    "explanation": {
+      "title": "기본 중합효소 연쇄반응(PCR)의 필수 4대 구성 요소",
+      "findings": "표준 PCR 증폭에 필수적인 성분은 ① 주형 DNA, ② 전방/역방향 프라이머 쌍, ③ 내열성 DNA 중합효소(Taq), ④ 4종의 dNTP(dATP, dCTP, dGTP, dTTP) 및 Mg2+ 완충액입니다.",
+      "differential": "• 제한효소(Restriction enzyme): PCR 증폭 산물을 절단하는 RFLP(제한효소절편길이다형성) 분석에 필요하며, 기본 PCR 증폭 반응 자체에는 포함되지 않습니다.\n• Reverse transcriptase: RNA를 주형으로 하는 RT-PCR에 필요",
+      "trap": "제한효소는 PCR 증폭 과정이 끝난 후 유전자형 분석(RFLP)에 선택적으로 쓰이는 효소입니다.",
+      "trigger": "기본 PCR 재료 아닌 것 -> 제한효소",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q41",
+    "index": 88,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 41,
+    "category": "짤",
+    "theme_title": "가계도 분석: 유전성 경직성 대마비(HSP)의 상염색체 우성(AD) 유전 패턴",
+    "subspecialty": "진단유전학",
+    "stem": "다음은 Hereditary spastic paraplegia의 가계도이다. 어떤 유전 형태인가?",
+    "images": [
+      "images/23Y_Q41_fig1.png"
+    ],
+    "options": [
+      "① Autosomal dominant",
+      "② Autosomal recessive",
+      "③ X-linked recessive",
+      "④ X-linked dominant",
+      "⑤ Mitochondria 유전"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Autosomal dominant (상염색체 우성 유전)",
+    "explanation": {
+      "title": "가계도 분석: 유전성 경직성 대마비(HSP)의 상염색체 우성(AD) 유전 패턴",
+      "findings": "3세대에 걸친 가계도에서 남성과 여성 모두 고르게 질환을 앓고 있으며 부자간 전달(Male-to-male transmission) 확인.",
+      "differential": "AR(동포 간에만 집중 발생), X-linked(부자간 전달 불가).",
+      "trap": "세대를 건너뛰는(Horizontal) 양상은 상염색체 열성(AR)이고, 모계로만 전달되는 것은 미토콘드리아 유전임.",
+      "trigger": "매 세대마다 연속적으로 환자가 발생(Vertical transmission) + 남녀 성별에 따른 발생률 차이 없음 + 이환된 부모의 자녀에게 50% 전달 = 상염색체 우성(AD) 유전!",
+      "kmle_link": "KMLE 의학유전학 - 단일 유전자 질환의 가계도 판독 원칙"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q42",
+    "index": 89,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 42,
+    "category": "짤",
+    "theme_title": "2015 ACMG/AMP 유전 변이 해석 가이드라인: 변이 재평가의 의무",
+    "subspecialty": "진단유전학",
+    "stem": "변이 해석 문제. 2015-ACMG/AMP 가이드라인에 대한 설명으로 옳지 않은 것은?",
+    "images": [
+      "images/23Y_Q42_fig1.png",
+      "images/23Y_Q42_fig2.png"
+    ],
+    "options": [
+      "① 최종적으로 ‘pathogenic’, ‘likely pathogenic’, ‘uncertain significance’, ‘likely benign’, ‘benign’ 5단계 로 분류된다.",
+      "② gnomAD를 참고해서 유전자 변이가 정상 집단에서 흔하 지 않은 빈도인지, 5% 이상의 흔한 빈도인지를 알 수 있으 며, 변이 빈도가 변이 해석의 근거가 될 수 있다.",
+      "③ 부모와 자녀의 유전자 검사를 비교하여 자녀에서 새로 나 타난 de novo mutation을 확인할 수 있는데, 이는 변이 해 석의 근거가 될 수 있다.",
+      "④ 컴퓨터 시뮬레이션을 통해 유전자 변이에서 기능적 변화 가 있는지 예측할 수 있으며, 이는 변이 해석의 근거가 될 수 있다.",
+      "⑤ Uncertain significance로 나왔을 때 추가적인 근거가 있 어도 ‘likely pathogenic’이나 ‘benign’으로 바뀔 수 없다."
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 변이가 데이터베이스 상 pathogenic으로 등록이 되었으면 추가 변이 해석 안해도 된다. (X - 최신 기준 재평가 필수)",
+    "explanation": {
+      "title": "2015 ACMG/AMP 유전 변이 해석 가이드라인: 변이 재평가의 의무",
+      "findings": "선지 ⑤는 맹목적 DB 신뢰를 주장하여 명백히 가이드라인 원칙에 위배.",
+      "differential": "VUS(치료적 결정 근거로 사용 금지), Functional study(PS3 증거).",
+      "trap": "DB 등록 내용만 믿고 검증을 생략하면 치명적 오진(잘못된 유전상담, 불필요한 예방수술)을 초래함.",
+      "trigger": "ClinVar 등 공용 DB에 과거 Pathogenic으로 등재된 변이라 하더라도, 새로운 인구집단 빈도(gnomAD)나 기능 연구에 의해 VUS나 Benign으로 재분류될 수 있으므로 반드시 검사실 자체적으로 2015 ACMG 가이드라인 기준에 따라 독립적 재평가를 수행해야 함!",
+      "kmle_link": "KMLE 의학유전학 - 차세대염기서열분석(NGS) 변이 해석 가이드라인"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q43",
+    "index": 90,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 43,
+    "category": "짤",
+    "theme_title": "상염색체 열성(Autosomal Recessive) 가계도와 보인자 부모의 자녀 발병 확률 (25%)",
+    "subspecialty": "진단유전학",
+    "stem": "다음은 Autosomal recessive gene인 EIF2AK4 변이 로 인한 pulmonary veno-occlusive disease 환자의 가계 도이다. 옳은 것은?",
+    "images": [
+      "images/23Y_Q43_fig1.png"
+    ],
+    "options": [
+      "① II-1, 2에서 유전 질환이 있을 가능성이 25%이므로 유전 자검사(가족검사)를 시행해야 한다.",
+      "② 이 유전질환은 여성보다 남성에서 더 흔하다.",
+      "③ 상염색체 열성질환이므로 해당 환자(II-3)에게는 EIF2AK4 유전자가 한 개 있을 것이다.",
+      "④ 해당 환자(II-3) 자녀에서 딸이 태어난다면 보인자 (carrier)이고, 아들이 태어난다면 정상(wild type)이다.",
+      "⑤ 해당 환자(II-3) 자녀에서 유전 질환을 가질 확률이 50% 이므로 반드시 유전자검사(가족검사)를 해야 한다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① II-1, 2에서 유전 질환이 있을 가능성이 25%이므로 유전자검사(가족검사)를 시행해야 한다.",
+    "explanation": {
+      "title": "상염색체 열성(Autosomal Recessive) 가계도와 보인자 부모의 자녀 발병 확률 (25%)",
+      "findings": "EIF2AK3 유전자 변이(Wolcott-Rallison 증후군) 가계도 제시.",
+      "differential": "AD(자녀 발병률 50%), X-linked(남아 발병률 50%).",
+      "trap": "이미 태어난 정상 자녀가 보인자일 확률은 2/3 (66.7%)이나, 임신 시 태아가 환아일 확률은 1/4 (25%)임.",
+      "trigger": "상염색체 열성(AR, EIF2AK3 유전자 등) 질환에서 보인자 부모(Aa x Aa) 사이에서 태어나는 자녀가 질환에 이환될 확률 = 정확히 1/4 (25%)! 보인자 확률은 50%, 정상 확률 25%.",
+      "kmle_link": "KMLE 의학유전학 - 상염색체 열성 유전의 가계도 상담 및 확률 계산"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q44",
+    "index": 91,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 44,
+    "category": "짤",
+    "theme_title": "광범위 베타락탐분해효소(ESBL) 생성균에 유효한 항생제: Cefoxitin과 Carbapenem",
+    "subspecialty": "임상미생물학",
+    "stem": "ESBL이 분해하지 못하는 항생제는?",
+    "images": [],
+    "options": [
+      "① Ampicillin",
+      "② Cefoxitin",
+      "③ Cefotaxime",
+      "④ Ceftazidime",
+      "⑤ Cefepime"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Cefoxitin (세폭시틴 - 세파마이신계 항생제)",
+    "explanation": {
+      "title": "광범위 베타락탐분해효소(ESBL) 생성균에 유효한 항생제: Cefoxitin과 Carbapenem",
+      "findings": "선지 중 Cefotaxime, Ceftazidime, Aztreonam은 ESBL 분해 대상. Cefoxitin은 Cephamycin 구조로 안정.",
+      "differential": "AmpC 과발현균(Cefoxitin 내성, Cefepime 감수성).",
+      "trap": "AmpC 베타락탐분해효소는 Cefoxitin마저 분해하므로, ESBL(Cefoxitin 감수성)과 AmpC(Cefoxitin 내성)를 감별하는 핵심 시약이 Cefoxitin임.",
+      "trigger": "ESBL(Extended-Spectrum Beta-Lactamase)은 3세대 세파, 4세대 세파, 아즈트레오남을 분해하여 내성을 보이나, 세파마이신(Cephamycin, Cefoxitin) 및 카바페넴(Carbapenem)은 분해하지 못함!",
+      "kmle_link": "KMLE 감염학 - 다제내성 그람음성 간균의 항생제 내성 기전과 치료"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q45",
+    "index": 92,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 45,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 세균 배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "세균 배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
+    "images": [],
+    "options": [
+      "① 소변, 혈액",
+      "② 소변, 객담",
+      "③ 객담, 혈액",
+      "④ 뇌척수액, 혈액",
+      "⑤ 뇌척수액, 객담"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q45 & 22Y Q03 & 21Y Q40 & 20Y Q47] ① 소변(Urine) & 객담(Sputum)",
+    "explanation": {
+      "title": "[과년도 빈출] 세균 배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
+      "findings": "• [23Y Q45 & 22Y Q03 & 21Y Q40 & 20Y Q47] 4개년 연속 100% 동일 반복 출제!\n  - 지문: 세균 배양을 즉시 할 수 없는 경우 냉장보관(4℃) 하는 검체는?\n  - 정답: 소변(Urine), 객담/가래(Sputum), 대변(Stool)\n  - 실온 보관(절대 냉장 금지) 검체: 뇌척수액(CSF), 혈액배양(Blood), 생식기/체액 검체",
+      "differential": "1. 검체 보관 온도 원칙 (냉장 vs 실온):\n   • 4℃ 냉장 보관 검체: 소변(세균 증식 억제하여 colony count 정량성 유지), 객담/대변(정상 상재균 과증식 억제)\n   • 실온(20~25℃) 보관 검체: 뇌척수액(CSF - 저온에 약한 S. pneumoniae, N. meningitidis, H. influenzae 사멸 방지), 혈액(Blood culture bottles - 균 사멸 방지)\n2. 20Y, 21Y, 22Y, 23Y 4개년 전수 일치 킬러 족보!",
+      "trap": "CSF(뇌척수액)는 저온 노출 시 수막염 원인균이 사멸하므로 절대 냉장고에 넣으면 안 됨(실온 유지 필수).",
+      "trigger": "세균배양 즉시 불가 시 냉장보관 검체 -> 소변(Urine) / 객담(Sputum)!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q46",
+    "index": 93,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 46,
+    "category": "짤",
+    "theme_title": "세균성 장염의 원인균이 아닌 것: 반코마이신 내성 장구균(VRE)",
+    "subspecialty": "임상미생물학",
+    "stem": "세균성 장염을 흔하게 일으키지 않는 균은?",
+    "images": [],
+    "options": [
+      "① EHEC",
+      "② Campylobacter",
+      "③ Shigella",
+      "④ Salmonella",
+      "⑤ VRE"
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ VRE (Vancomycin-Resistant Enterococci - VRE는 정상 장내 상재균으로 균혈증, 요로감염을 일으키며 독소성 감염성 설사의 원인균이 아님)",
+    "explanation": {
+      "title": "세균성 장염의 원인균이 아닌 것: 반코마이신 내성 장구균(VRE)",
+      "findings": "세균성 위장관염(Infectious gastroenteritis)의 원인균 목록에서 제외되는 항목 선별.",
+      "differential": "Campylobacter(수양성/혈변), Salmonella(발열, 점변), Shigella(이질, 테네스무스).",
+      "trap": "Salmonella, Shigella, Campylobacter, Vibrio, EHEC, C. difficile은 모두 급성 설사성 장염의 대표 원인균임.",
+      "trigger": "VRE(반코마이신 내성 장알균)는 장내 정상 상주세균총의 집락화(Colonization) 및 병원 내 기회감염균(요로감염, 균혈증)이지, 급성 설사/세균성 장염을 일으키는 장내 병원체가 아님!",
+      "kmle_link": "KMLE 소화기/감염학 - 급성 감염성 설사의 원인 미생물 감별"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q47",
+    "index": 94,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 47,
+    "category": "반짤",
+    "theme_title": "간접면역형광법(IIF)으로 검사할 수 없는 자가항체 (연도별 선지/정답 변형)",
+    "subspecialty": "진단면역학",
+    "stem": "다음중 간접형광현미경으로 볼 수 없는 것은?",
+    "images": [],
+    "options": [
+      "① APA",
+      "② ANCA",
+      "③ Anti-lkm",
+      "④ Anti-mitochondria",
+      "⑤ Anti-dsDNA"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q47 / 22Y Q25] ① APA (또는 Anti-CCP)",
+    "explanation": {
+      "title": "간접면역형광법(IIF)으로 검사할 수 없는 자가항체 (연도별 선지/정답 변형)",
+      "findings": "IIF의 원리는 환자 혈청 항체를 조직/세포 기질과 반응 후 형광표지 2차 항체로 관찰하는 것임.",
+      "differential": "• IIF 검출 가능 항체: ANA, Anti-dsDNA, AMA, Anti-LKM, ANCA (조직/세포 절편 기질 필요)\n• IIF 검출 불가 항체: 인지질 항체(Anti-cardiolipin, APA -> ELISA), 가용성 항체(RF -> 비탁법/응집법)",
+      "trap": "ANA, Anti-mitochondria(AMA), Anti-LKM은 Hep-2 세포나 조직 절편을 기질로 사용하여 IIF로 형광 패턴을 전형적으로 검출함.",
+      "trigger": "★ 연도별 변형 주의! 26Y는 2개 선택(Anti-cardiolipin & RF), 23Y는 1개 선택(APA)! 조직 슬라이드에 부착할 세포 형태 기질이 없는 가용성 인자/인지질 항체를 선택.",
+      "kmle_link": "KMLE 류마티스학 - 자가면역질환 검사법 (ANA 및 자가항체 측정 원리)"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q48",
+    "index": 95,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 48,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 병원 검사실에서 진행하는 정량검사의 측정원리에 대한 ",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "병원 검사실에서 진행하는 정량검사의 측정원리에 대한 설명으로 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "① 상관계수가 크면 민감도가 낮다.",
+      "② 같은 물질이라도 농도에 따라 변이계수 값이 변할 수 있다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q48 & 21Y Q25] ④ 분석물질의 물리화학적 특성과 관계없이 동일한 측정 원리가 적용된다 (X)",
+    "explanation": {
+      "title": "[과년도 빈출] 병원 검사실에서 진행하는 정량검사의 측정원리에 대한 ",
+      "findings": "• [23Y Q48 & 21Y Q26] 정답: ④ 분석물질에 따라 흡광도/발색/면역측정 등 상이한 원리 적용\n  - 지문: 병원 검사실에서 진행하는 정량검사의 측정 원리에 대한 설명으로 옳지 않은 것은?",
+      "differential": "1. 정량분석 측정원리:\n   • 흡광광도법(Spectrophotometry), 효소면역분석(ELISA), 화학발광면역분석(CLIA) 등 대상 물질의 농도 및 특성에 맞추어 적절한 분석 원리를 채택함.",
+      "trap": "모든 물질에 동일한 분석 원리가 적용된다는 보기는 대표적인 오답 함정.",
+      "trigger": "정량검사 측정원리 -> 물질 고유 특성에 따라 최적화된 분석법 개별 적용!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q49",
+    "index": 96,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 49,
+    "category": "짤",
+    "theme_title": "메티실린 내성 황색포도알균(MRSA) 선별 검사용 대리 항생제",
+    "subspecialty": "임상미생물학",
+    "stem": "다음 중 MRSA 선별검사로 사용되는 항생제는?",
+    "images": [],
+    "options": [
+      "① Methichillin",
+      "② Ampichillin",
+      "③ Penicillin",
+      "④ Cefoxitin",
+      "⑤ Cefotetan"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ Cefoxitin (세폭시틴 디스크 / 선별검사)",
+    "explanation": {
+      "title": "메티실린 내성 황색포도알균(MRSA) 선별 검사용 대리 항생제",
+      "findings": "CLSI 표준 MRSA 감수성 시험 지침의 핵심 족보.",
+      "differential": "Penicillin(Penicillinase 내성 확인용), Vancomycin(MRSA 치료제).",
+      "trap": "과거에는 Oxacillin을 사용했으나, 보관 및 온도에 민감하여 CLSI 가이드라인은 Cefoxitin 디스크 확산법을 표준 선별법으로 채택함.",
+      "trigger": "검사실에서 mecA 유전자에 의한 PBP2a 생성을 유도하여 MRSA를 가장 정확하고 강력하게 선별(Screening)하는 대리 항생제 = Cefoxitin!",
+      "kmle_link": "KMLE 감염학 - 포도알균 감염 및 MRSA 진단과 치료(Vancomycin)"
+    }
+  },
+  {
+    "id": "진단검사의학과_23Y_Q50",
+    "index": 97,
+    "subject": "진단검사의학과",
+    "year": "23Y",
+    "q_num": 50,
+    "category": "짤",
+    "theme_title": "당뇨병성 신증(Diabetic Nephropathy) 조기 스크리닝 지표",
+    "subspecialty": "진단검사의학",
+    "stem": "다음 중 DM 환자에서 신장 합병증 있는지 보기 위한 검사는?",
+    "images": [
+      "images/23Y_Q50_fig1.png",
+      "images/23Y_Q50_fig2.png"
+    ],
+    "options": [
+      "① microalbuminuria (미세알부민뇨)",
+      "② 요 일반 단백시험지봉 검사",
+      "③ 혈청 크레아티닌",
+      "④ 24시간 소변 요당 검사",
+      "⑤ 신장 초음파"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① microalbuminuria (미세알부민뇨 검사)",
+    "explanation": {
+      "title": "당뇨병성 신증(Diabetic Nephropathy) 조기 스크리닝 지표",
+      "findings": "당뇨병 환자에서 신장 합병증(조기 당뇨병 신증)을 가장 먼저 발견할 수 있는 표준 선별 검사는 미세알부민뇨(Microalbuminuria, Urine ACR 30~300 mg/g Cr) 검사입니다.",
+      "differential": "• Microalbuminuria: 일반 요시험지봉 검사(검출 한계 ~300 mg/L)로는 음성으로 나오는 미세한 알부민 누출을 정량 검출\n• Serum Cr: 사구체여과율이 50% 이상 소실되어야 상승하므로 조기 진단에 부적합",
+      "trap": "일반 Dipstick 소변검사는 현성 단백뇨(Macroalbuminuria)만 검출할 수 있어 조기 신증을 놓치게 됩니다.",
+      "trigger": "DM 환자 신장 합병증 조기 선별 -> microalbuminuria",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q01",
+    "index": 98,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 1,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 배양을 위해 적절한 검체는? ",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "(Y) 배양을 위해 적절한 검체는? 24hr urine",
+    "images": [],
+    "options": [
+      "① 타액 섞인 객담",
+      "② 창상 표면 검체",
+      "③ 실온 보관 뇌척수액",
+      "④ EDTA 혈액."
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "[22Y Q01 & 21Y Q34 & 20Y Q38] ④ 실온 보관 뇌척수액 (CSF at room temp)",
+    "explanation": {
+      "title": "[과년도 빈출] 배양을 위해 적절한 검체는? ",
+      "findings": "• [22Y Q01 & 21Y Q34 & 20Y Q38] 3개년 연속 출제!\n  - 지문: 배양을 위해 적절한 검체는?\n  - 정답: ④ 실온 보관 뇌척수액 (CSF)\n  - 오답 선지: 24시간 소변(X - 단회 중간뇨), 타액 섞인 객담(X - 침 섞이면 부적합), 창상 표면(X - 깊은 부위 흡인 검체), EDTA 혈액(X - EDTA는 세균 억제)",
+      "differential": "1. 미생물 배양 부적합 검체:\n   • 24시간 소변(세균 과증식으로 무의미 -> 단회 채취 청결중간뇨 요함)\n   • 타액 섞인 가래(구강 상재균 오염 -> Geckler scale 4~5등급 가래만 적합)\n   • 혈액배양 시 EDTA 튜브 사용 불가(항응고제 성분이 세균 증식을 억제 -> SPS 함유 배양병 사용)",
+      "trap": "24시간 요는 생화학 정량검사용이지 미생물 배양용이 아님.",
+      "trigger": "배양용 적절한 검체 -> 실온 보관 뇌척수액(CSF)!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q02",
+    "index": 99,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 2,
+    "category": "짤",
+    "theme_title": "한랭글로불린(Cryoglobulin) 검사를 위한 적절한 채혈 튜브 및 온도 조건",
+    "subspecialty": "임상화학/면역학",
+    "stem": "(Y) 다음 중 cryoglobulin 검사를 위해 어떤 tube 에 혈액 채취하는 것이 합당한가? 4 도 plain tube",
+    "images": [],
+    "options": [
+      "① 도 heparinizied tube",
+      "② 도 plain tube",
+      "③ 도 heparinized tube",
+      "④ crytube"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 37도 plain tube (사전 보온된 무첨가 튜브)",
+    "explanation": {
+      "title": "한랭글로불린(Cryoglobulin) 검사를 위한 적절한 채혈 튜브 및 온도 조건",
+      "findings": "검체 채취 시 온도 관리가 결과의 성패를 가르는 대표적 특수 면역 검사.",
+      "differential": "EDTA(혈구용), Heparin(가스분석용), 4도 냉각 튜브(암모니아용).",
+      "trap": "얼음물에 담가 운송(Ice packing)하는 검사는 암모니아(Ammonia), ABGA, 젖산(Lactate), 가스트린 등이며, Cryoglobulin에 얼음을 대면 위음성(체외 침전) 초래.",
+      "trigger": "Cryoglobulin은 37℃ 미만 실온에서 즉시 침전되므로, 반드시 37℃로 미리 예열된 튜브(Prewarmed 37°C plain tube)에 채혈하고 37℃를 유지하며 운송 및 원심분리해야 함!",
+      "kmle_link": "KMLE 감염/류마티스 - 한랭글로불린혈증(HCV 연관)의 진단학적 주의사항"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q03",
+    "index": 100,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 3,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 세균 배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "(Y) 세균배양을 즉시 할 수 없는 경우 냉장보 관 하는 검체는? 소변, 혈액",
+    "images": [],
+    "options": [
+      "① 소변, 객담",
+      "② 객담, 혈액",
+      "③ 뇌척수액, 혈액",
+      "④ 뇌척수액, 객담"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q45 & 22Y Q03 & 21Y Q40 & 20Y Q47] ① 소변(Urine) & 객담(Sputum)",
+    "explanation": {
+      "title": "[과년도 빈출] 세균 배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
+      "findings": "• [23Y Q45 & 22Y Q03 & 21Y Q40 & 20Y Q47] 4개년 연속 100% 동일 반복 출제!\n  - 지문: 세균 배양을 즉시 할 수 없는 경우 냉장보관(4℃) 하는 검체는?\n  - 정답: 소변(Urine), 객담/가래(Sputum), 대변(Stool)\n  - 실온 보관(절대 냉장 금지) 검체: 뇌척수액(CSF), 혈액배양(Blood), 생식기/체액 검체",
+      "differential": "1. 검체 보관 온도 원칙 (냉장 vs 실온):\n   • 4℃ 냉장 보관 검체: 소변(세균 증식 억제하여 colony count 정량성 유지), 객담/대변(정상 상재균 과증식 억제)\n   • 실온(20~25℃) 보관 검체: 뇌척수액(CSF - 저온에 약한 S. pneumoniae, N. meningitidis, H. influenzae 사멸 방지), 혈액(Blood culture bottles - 균 사멸 방지)\n2. 20Y, 21Y, 22Y, 23Y 4개년 전수 일치 킬러 족보!",
+      "trap": "CSF(뇌척수액)는 저온 노출 시 수막염 원인균이 사멸하므로 절대 냉장고에 넣으면 안 됨(실온 유지 필수).",
+      "trigger": "세균배양 즉시 불가 시 냉장보관 검체 -> 소변(Urine) / 객담(Sputum)!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q04",
+    "index": 101,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 4,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 결핵에 대해 옳은 것은?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "(Y) 결핵에 대해 옳은 것은? Norcardia 와 cyptospordium 은 Ziehl",
+    "images": [],
+    "options": [
+      "① Neelsen stain 에서 파란색으로 염색된다. 결핵균은 세포벽에 두꺼운 LPS 를 가지고",
+      "② 있다. 그람 염색하면 양성구균으로 나온다.",
+      "③ 항상균 염색해서 양성이면 결핵균이다.",
+      "④ 형광 염색이 Z-N stain 보다 판독시간이",
+      "⑤ 빠르다"
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "[23Y Q35 & 22Y Q04 & 20Y Q42] ⑤ 형광 염색(Fluorescent stain)이 Z-N stain보다 판독시간이 빠르다 (O)",
+    "explanation": {
+      "title": "[과년도 빈출] 결핵에 대해 옳은 것은?",
+      "findings": "• [23Y Q35 & 22Y Q04 & 20Y Q42] 공통 출제 지문:\n  - 결핵균 및 항산균(Acid-fast bacilli, AFB) 검사에 대해 옳은 설명은?\n  - 선지:\n    ① Nocardia와 Cryptosporidium은 Z-N 염색에서 파란색이다.\n    ② 결핵균은 세포벽에 두꺼운 LPS를 가지고 있다.\n    ③ 그람 염색 시 양성 구균으로 나온다.\n    ④ 항산균 염색 양성이면 반드시 결핵균이다.\n    ⑤ 형광 염색이 Z-N stain보다 판독시간이 빠르다.\n  - 정답: ⑤ 형광 염색이 Z-N stain보다 판독시간이 빠르다",
+      "differential": "1. 결핵균 항산균 염색법 비교:\n  • Auramine-rhodamine 형광염색: 저배율(250~400배)에서 넓은 시야를 신속히 관찰할 수 있어, 1,000배 유침렌즈로 300시야 이상을 봐야 하는 Ziehl-Neelsen(Z-N) 염색보다 판독시간이 훨씬 짧고 민감도가 10% 이상 높음 (스크리닝 검사로 표준 권장)!\n\n2. 오답 선지 완벽 정복:\n  • ① Nocardia, Cryptosporidium은 '부분 항산성(Partial acid-fast)'을 보여 Z-N 염색에서 붉은색 양성으로 나타남.\n  • ② 결핵균 세포벽에는 지질 성분인 미콜산(Mycolic acid)이 풍부함 (LPS는 그람음성균 특유 성분).\n  • ④ 항산균 양성은 NTM(비결핵항산균)일 수도 있으므로 분자진단(TB-PCR) 필수.",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 3회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q05",
+    "index": 102,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 5,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 손 위생에 필요한 경우에 해당하지 않는 ",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "(Y) 손 위생에 필요한 경우에 해당하지 않는 것은? 환자의 침상 주변 접촉 전",
+    "images": [],
+    "options": [
+      "① 혈액배양 시행 후",
+      "② 환자의 침상 주변 접촉 후"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "환자 주변 접촉 전 (WHO 5 Moments는 환자 주변 환경 접촉 후가 올바른 손위생 시점임)",
+    "explanation": {
+      "title": "[과년도 빈출] 손 위생에 필요한 경우에 해당하지 않는 ",
+      "findings": "• [22Y Q05 & 21Y Q37 & 20Y Q44] 3개년 출제!\n  - 지문: WHO 손 위생 5개 시점에 해당하지 않는 것은?\n  - 정답: 침상 주변 환경 접촉 '후'에 시행해야 하며 접촉 '전'은 필수 시점 아님.",
+      "differential": "1. WHO 손위생 5 moments:\n   1) 환자 접촉 전  2) 청결/무균 처치 전  3) 체액 노출 위험 후  4) 환자 접촉 후  5) 환자 주변 환경 접촉 후",
+      "trap": "환자 접촉 '전'은 손위생 시점이지만, 단순 환경 접촉 '전'은 시점에 포함되지 않음.",
+      "trigger": "WHO 손위생 5개 시점 -> 접촉 전 2가지(환자, 무균처치), 접촉 후 3가지(체액, 환자, 환경)!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q06",
+    "index": 103,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 6,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 법정감염병 6종이 아닌 것은?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "(Y) 법정감염병 6 종이 아닌 것은? Vancomycin-resistance Enterococcus",
+    "images": [],
+    "options": [
+      "① Multidrug-resistant Pseudomonas",
+      "② aeruginosa Multidrug-resistant Acinetobacter",
+      "③ baumannii Carbapenem-resistant Enterobacteriaceae",
+      "④ Vancomycin-resistance Enterovirus"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q30 & 22Y Q06] ⑤ Vancomycin-resistant Enterovirus (X - 엔테로바이러스는 다제내성균 6종에 해당 안 됨)",
+    "explanation": {
+      "title": "[과년도 빈출] 법정감염병 6종이 아닌 것은?",
+      "findings": "• [23Y Q30 & 22Y Q06] 출제 지문:\n  - 법정감염병 (의료관련감염병 표본감시 다제내성균) 6종이 아닌 것은?\n  - 선지: ① VRE  ② MRPA  ③ MRAB  ④ CRE  ⑤ Vancomycin-resistant Enterovirus\n  - 정답: ⑤ Vancomycin-resistant Enterovirus (오답 선지)",
+      "differential": "1. 의료관련감염병 표본감시 대상 다제내성균 6종:\n  ① VRSA (반코마이신내성황색포도알균)\n  ② VRE (반코마이신내성장알균, Vancomycin-resistant Enterococcus)\n  ③ MRSA (메티실린내성황색포도알균)\n  ④ MRPA (다제내성녹농균, Multidrug-resistant P. aeruginosa)\n  ⑤ MRAB (다제내성아시네토박터바우마니균, Multidrug-resistant A. baumannii)\n  ⑥ CRE (카바페넴내성장내세균목, Carbapenem-resistant Enterobacterales)\n\n2. 감별 포인트:\n  • Enterovirus는 무균성뇌수막염, 수족구병 등을 일으키는 바이러스(RNA virus)이므로 항균제 내성균 개념 자체가 성립하지 않음!",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 2회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q07",
+    "index": 104,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 7,
+    "category": "짤",
+    "theme_title": "디스크 확산법(Disk Diffusion Test, DDT)의 항생제 감수성 원리",
+    "subspecialty": "임상미생물학",
+    "stem": "항생제 감수성 검사에 대한 설명으로 옳은 것 은? DDT 는 검사시간이 짧다",
+    "images": [],
+    "options": [
+      "① DDT 는 비용이 많이 든다",
+      "② DDT 에서 억제대가 클수록 약제 감수성",
+      "③ 이 높다"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ DDT에서 억제대가 클수록 약제 감수성이 높다. (Zone of inhibition)",
+    "explanation": {
+      "title": "디스크 확산법(Disk Diffusion Test, DDT)의 항생제 감수성 원리",
+      "findings": "억제대 직경과 세균 증식 억제력의 정비례 상관관계 확인.",
+      "differential": "MIC(농도이므로 작을수록 우수), 배양 시간(16-18시간 표준).",
+      "trap": "최소억제농도(MIC)는 낮을수록 감수성이 높은 것이고, 디스크 억제대 직경(Zone size)은 클수록 감수성이 높은 것임 (반비례 관계 혼동 주의)!",
+      "trigger": "Kirby-Bauer 디스크 확산법에서 항생제 디스크 주변의 세균 증식 저지대(Inhibition zone) 직경이 클수록 -> 해당 균주는 그 항생제에 대해 감수성(Susceptible)이 높음!",
+      "kmle_link": "KMLE 감염학 - 항생제 감수성 검사(DDT vs MIC) 판독법"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q08",
+    "index": 105,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 8,
+    "category": "짤",
+    "theme_title": "메티실린 내성 황색포도알균(MRSA) 선별 검사용 대리 항생제",
+    "subspecialty": "임상미생물학",
+    "stem": "(Y) 다음 중 MRSA 선별검사로 사용되는 항생 제는? Methicillin",
+    "images": [],
+    "options": [
+      "① Ampicillin",
+      "② Penicillin",
+      "③ Cefoxitin",
+      "④ Cefotetan"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ Cefoxitin (세폭시틴 디스크 / 선별검사)",
+    "explanation": {
+      "title": "메티실린 내성 황색포도알균(MRSA) 선별 검사용 대리 항생제",
+      "findings": "CLSI 표준 MRSA 감수성 시험 지침의 핵심 족보.",
+      "differential": "Penicillin(Penicillinase 내성 확인용), Vancomycin(MRSA 치료제).",
+      "trap": "과거에는 Oxacillin을 사용했으나, 보관 및 온도에 민감하여 CLSI 가이드라인은 Cefoxitin 디스크 확산법을 표준 선별법으로 채택함.",
+      "trigger": "검사실에서 mecA 유전자에 의한 PBP2a 생성을 유도하여 MRSA를 가장 정확하고 강력하게 선별(Screening)하는 대리 항생제 = Cefoxitin!",
+      "kmle_link": "KMLE 감염학 - 포도알균 감염 및 MRSA 진단과 치료(Vancomycin)"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q09",
+    "index": 106,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 9,
+    "category": "짤",
+    "theme_title": "알코올 젤 손소독제에 저항성을 보이는 아포 형성균(Spore-forming Bacteria)",
+    "subspecialty": "임상미생물학/감염관리",
+    "stem": "(Y) 다음 중 알코올 젤로 손을 씻어 가장 효과 가 없을 균은? MERS virus",
+    "images": [],
+    "options": [
+      "① MRSA",
+      "② Mycobacterium tuberculosis",
+      "③ Bacillus subtilis",
+      "④ Candida albicans"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Bacillus subtilis (및 Clostridioides difficile - 아포 형성균)",
+    "explanation": {
+      "title": "알코올 젤 손소독제에 저항성을 보이는 아포 형성균(Spore-forming Bacteria)",
+      "findings": "선지 중 유일한 Bacillus속 아포 형성균주 확인.",
+      "differential": "E. coli, MRSA, VRE, P. aeruginosa (모두 영양세포 상태로 알코올 감수성).",
+      "trap": "일반 그람양성 구균(MRSA, VRE)이나 그람음성 간균(Pseudomonas, Acinetobacter)은 알코올에 매우 취약하여 알코올 젤로 쉽게 사멸됨.",
+      "trigger": "알코올 손소독제(Alcohol gel)로 사멸되지 않아 반드시 물과 비누로 기계적 세척(Soap and water handwashing)을 해야 하는 균 = 아포(Spore) 형성균(Bacillus속, Clostridium속)!",
+      "kmle_link": "KMLE 감염학 - 병원 감염 관리 및 소독/멸균 원칙"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q10",
+    "index": 107,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 10,
+    "category": "짤",
+    "theme_title": "혈액 배양(Blood Culture) 양성률에 가장 결정적인 영향을 미치는 요인",
+    "subspecialty": "임상미생물학",
+    "stem": "(Y) 혈액 배양 양성률에 가장 영향을 미치는 것은? 피부 소독",
+    "images": [],
+    "options": [
+      "① 채혈량",
+      "② 채혈 시기",
+      "③ 채혈 횟수",
+      "④ 환자의 기저질환"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 채혈량 (Blood volume)",
+    "explanation": {
+      "title": "혈액 배양(Blood Culture) 양성률에 가장 결정적인 영향을 미치는 요인",
+      "findings": "임상 미생물학 교과서 제1장 혈액배양 총론의 불변의 핵심 명제.",
+      "differential": "피부 소독(오염률에 영향), 채혈 횟수(위양성/위음성 감별용).",
+      "trap": "채혈 시기(오한 직전)나 횟수(2~3쌍)도 중요하지만, 통계적으로 양성률과 직접 비례하는 절대적 제1 인자는 채혈량임.",
+      "trigger": "균혈증(Bacteremia) 진단에서 혈액 배양의 민감도/양성률을 결정하는 단 하나의 가장 중요한 인자 = 채혈량(Blood volume, 성인 세트당 20~30mL)!",
+      "kmle_link": "KMLE 감염학 - 패혈증 및 균혈증의 혈액 배양 원칙"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q11",
+    "index": 108,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 11,
+    "category": "짤",
+    "theme_title": "카바페넴 분해효소(Carbapenemase) 생성 장내세균(CRE)의 핵심 유전자",
+    "subspecialty": "임상미생물학",
+    "stem": "Carbapenemase 와 가장 관련성이 높은 gene? KPC",
+    "images": [],
+    "options": [
+      "① VIM",
+      "② NDM",
+      "③ OXA-48",
+      "④ IMP",
+      "⑤ [혈액]"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① KPC (Klebsiella pneumoniae carbapenemase)",
+    "explanation": {
+      "title": "카바페넴 분해효소(Carbapenemase) 생성 장내세균(CRE)의 핵심 유전자",
+      "findings": "신속 PCR 또는 다중 유전자 검사로 검출하는 핵심 내성 유전자 선별.",
+      "differential": "vanA(VRE 원인), mecA(MRSA 원인), blaCTX-M(ESBL 원인).",
+      "trap": "NDM은 메탈로-베타락탐분해효소(Class B, 아즈트레오남 제외 모든 베타락탐 분해)이고, OXA-48은 Class D 카바페네마제임. 국내 최빈발은 KPC.",
+      "trigger": "국내 카바페넴 내성 장내세균목(CRE/CPE)에서 가장 흔하게 검출되는 제1위 카바페넴 분해 유전자 = KPC (Ambler Class A)!",
+      "kmle_link": "KMLE 감염학 - 카바페넴 내성 장내세균(CRE)의 내성 기전 및 진단"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q12",
+    "index": 109,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 12,
+    "category": "짤",
+    "theme_title": "적혈구 지수(RBC Indices): 개별 적혈구의 평균 헤모글로빈 양 (MCH)",
+    "subspecialty": "진단혈액학",
+    "stem": "(Y) 개별 RBC 가 함유한 hemoglobin 양을 나 타내는 지표? MCH",
+    "images": [],
+    "options": [
+      "① MCHC",
+      "② Hct",
+      "③ RDW",
+      "④ MCV"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① MCH (Mean Corpuscular Hemoglobin, 평균 적혈구 혈색소량)",
+    "explanation": {
+      "title": "적혈구 지수(RBC Indices): 개별 적혈구의 평균 헤모글로빈 양 (MCH)",
+      "findings": "단순 정의 매칭: 개별 적혈구 함유 혈색소 중량 = MCH.",
+      "differential": "MCV(크기), MCHC(농도), RDW(크기 부동성).",
+      "trap": "MCHC는 적혈구 부피당 헤모글로빈 농도(g/dL, %)이고, MCV는 적혈구 개별 부피(fL)임. \"개별 RBC가 함유한 hemoglobin 양\"은 MCH.",
+      "trigger": "적혈구 1개당 함유된 절대적인 헤모글로빈 양(피코그램, pg 단위)을 나타내는 지표 = MCH (Mean Corpuscular Hemoglobin)!",
+      "kmle_link": "KMLE 혈액학 - 적혈구 지수의 계산 공식과 빈혈 분류"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q13",
+    "index": 110,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 13,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 화살표가 나타내는 소견은?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "(Y) 화살표가 나타내는 소견은? target cell",
+    "images": [
+      "images/22Y_Q13_fig1.png"
+    ],
+    "options": [
+      "① spherocyte",
+      "② schistocyte",
+      "③ elliptocyte",
+      "④ ovalocyte"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "[23Y Q02 & 22Y Q13 & 21Y Q50] ② Schistocyte (분열적혈구, 헬멧세포)",
+    "explanation": {
+      "title": "[과년도 빈출] 화살표가 나타내는 소견은?",
+      "findings": "• [23Y Q02 & 22Y Q13 & 21Y Q50] 공통 출제 지문:\n  - 지문: 말초혈액도말(PB smear) 상 화살표가 가리키는 세포 소견은?\n  - 선지: ① Target cell  ② Schistocyte  ③ Spherocyte  ④ Elliptocyte  ⑤ Ovalocyte\n  - 정답: ② Schistocyte (분열적혈구)",
+      "differential": "1. Schistocyte (분열적혈구, Helmet cell) 판독 핵심:\n  • 미세혈관병성 용혈성 빈혈 (MAHA: TTP, HUS, DIC, 임신전자간증, 인공심장판막 손상 등)의 결정적 특징적 소견!\n  • 섬유소망(Fibrin strand)이나 물리적 전단응력(Shear stress)에 의해 적혈구가 찢기면서 형성됨.\n\n2. 감별진단 포인트:\n  • Target cell (표적적혈구): 지중해빈혈, 간질환, 비장절제술 후, Hb C/E 질환.\n  • Spherocyte (구형적혈구): 유전구형적혈구증(HS), 자가면역용혈빈혈(AIHA).\n  • 3개년(21Y Q50, 22Y Q13, 23Y Q02) 연속 완벽 동일 도말 사진 출제 야마!",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 3회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q14",
+    "index": 111,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 14,
+    "category": "짤",
+    "theme_title": "EDTA 의존성 가성 혈소판 감소증(Pseudothrombocytopenia)과 튜브 선택",
+    "subspecialty": "진단혈액학",
+    "stem": "(Y) CBC 틀린 것? 고지혈증일 때 실제보다 혈색소가 높게",
+    "images": [],
+    "options": [
+      "① 측정된다. 적혈구가 응집시 검체를 가온하면 교정",
+      "② 될 수 있다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "③ Sodium citrate에서 혈소판 응집 시 EDTA 검사를 한다 (X - 반대로 EDTA 응집 시 Citrate로 재검)",
+    "explanation": {
+      "title": "EDTA 의존성 가성 혈소판 감소증(Pseudothrombocytopenia)과 튜브 선택",
+      "findings": "PBS에서 거대 혈소판 응집 괴(Platelet clumps) 관찰. 자동분석기는 이를 백혈구로 오인하거나 카운트에서 누락.",
+      "differential": "진성 면역혈소판감소증(ITP, PBS 상 단일 거대 혈소판, 응집괴 없음, 출혈 증상).",
+      "trap": "Citrate 튜브는 액체 항응고제로 10% 희석되므로, 측정된 혈소판 수치에 1.1을 곱하여 보정해야 함.",
+      "trigger": "EDTA 항응고제에 반응하여 체외에서 혈소판이 덩어리지는 가성 혈소판 감소증 의심 시 -> Sodium citrate 튜브나 Heparin 튜브로 재채혈하고 말초혈액도말(PBS)로 혈소판 응집 덩어리를 직접 확인해야 함!",
+      "kmle_link": "KMLE 혈액학 - 혈소판 감소증의 접근법 및 가성 혈소판 감소증 배제"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q15",
+    "index": 112,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 15,
+    "category": "짤",
+    "theme_title": "말초혈액도말 상 적혈구 연전 형성(Rouleaux Formation)과 다발골수종",
+    "subspecialty": "진단혈액학",
+    "stem": "(Y) 가장 의심되는 진단은? Iron deficiency anemia",
+    "images": [
+      "images/22Y_Q15_fig1.png"
+    ],
+    "options": [
+      "① Megaloblastic anemia",
+      "② Hemolytic anemia"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Multiple myeloma나 단백질이 증가한 상태 (연전 형성, Rouleaux formation)",
+    "explanation": {
+      "title": "말초혈액도말 상 적혈구 연전 형성(Rouleaux Formation)과 다발골수종",
+      "findings": "PBS 고배율 시야에서 적혈구들이 일렬로 중첩된 롤케이크/동전 기둥 모양 관찰.",
+      "differential": "자가응집(Autoagglutination, 불규칙 덩어리), 철결핍빈혈(중심 창백 확대, 소구성).",
+      "trap": "한랭응집소병(CAD)의 적혈구 응집(Agglutination)은 포도송이처럼 불규칙하게 뭉치는 것이며, 동전 쌓기 모양의 선상 연전(Rouleaux)과 형태학적으로 엄격히 구별됨.",
+      "trigger": "말초혈액도말(PBS)에서 적혈구들이 동전을 차곡차곡 쌓아 올린 형태로 길게 늘어서 있는 소견 = 연전 형성(Rouleaux formation)! 혈청 감마글로불린(단백질)이 극도로 증가한 다발골수종(Multiple myeloma)의 절대적 시그니처!",
+      "kmle_link": "KMLE 혈액학 - 다발골수종의 진단학적 검사 소견"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q16",
+    "index": 113,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 16,
+    "category": "짤",
+    "theme_title": "그물적혈구(Reticulocyte) 평가와 다염성(Polychromasia)의 관계",
+    "subspecialty": "진단혈액학",
+    "stem": "(21 계통Y) 그물적혈구에 관한 설명으로 옳은 것은? Immature reticulocyte fraction (IRF)는",
+    "images": [],
+    "options": [
+      "① megakaryopoiesis 를 반영한다 심한 빈혈시 그물적혈구 생산이 증가하",
+      "② 므로 그물적혈구는 성숙한 적혈구가 되기 전",
+      "③ 에 핵과 핵산이 남아있는 상태다. peripheral blood smear 검사시",
+      "④ polychromasia 로 그물적혈구 비율을 추 정할 수 있다. 그물적혈구는 세포 탄성에 따라서 성숙",
+      "⑤ 도를 판단할 수 있다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ Peripheral blood smear 검사 시 polychromasia로 그물적혈구 비율을 추정할 수 있다.",
+    "explanation": {
+      "title": "그물적혈구(Reticulocyte) 평가와 다염성(Polychromasia)의 관계",
+      "findings": "PBS 상 대형의 푸른빛 적혈구 관찰. 리보솜 RNA가 염기성 색소에 염색되어 나타남.",
+      "differential": "Howell-Jolly body(DNA 잔유 점상 구조), Basophilic stippling(연중독).",
+      "trap": "그물적혈구는 무핵 세포(RNA 잔유물 함유)이며 핵이 있는 세포(有核赤血球, nRBC)와 엄격히 구분됨.",
+      "trigger": "Wright-Giemsa 염색에서 푸르스름한 회청색을 띠는 다염성 적혈구(Polychromatophilic RBC) = 초생체 염색(New methylene blue)의 그물적혈구(Reticulocyte)와 완벽히 대응!",
+      "kmle_link": "KMLE 혈액학 - 빈혈의 병태생리적 분류 (골수 증식 반응 평가)"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q17",
+    "index": 114,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 17,
+    "category": "짤",
+    "theme_title": "자동혈구분석기(Automated Hematology Analyzer)의 측정 원리",
+    "subspecialty": "진단혈액학",
+    "stem": "(21 계통Y) 자동혈구 분석기에서 이용하지 않 는 원리는? 세포점도",
+    "images": [],
+    "options": [
+      "① 전기전도도",
+      "② 전기저항",
+      "③ 광산란",
+      "④ 형광염색",
+      "⑤ [화학 : 박일규 교수님]"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 세포점도 (Cell viscosity - 이용하지 않음)",
+    "explanation": {
+      "title": "자동혈구분석기(Automated Hematology Analyzer)의 측정 원리",
+      "findings": "혈구 분석기의 물리광학적 계수 원리를 묻는 기본 개념 문제.",
+      "differential": "전기저항(임피던스), 레이저 광산란, 화학 발광.",
+      "trap": "전방 산란광(FSC)은 세포 크기, 측방 산란광(SSC)은 내부 과립도 및 핵 복잡도를 반영함.",
+      "trigger": "자동혈구분석기가 이용하는 3대 원리 = 1) 전기저항법(Coulter principle, 임피던스), 2) 광산란법(전방/측방 산란광), 3) 형광염색법(RNA/DNA 형광)! 세포점도는 결코 측정하지 않음.",
+      "kmle_link": "KMLE 혈액학 - CBC 자동분석 원리 및 스캐터그램 해석"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q18",
+    "index": 115,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 18,
+    "category": "탈",
+    "theme_title": "신생아 빌리루빈뇨(Bilirubinuria) 감별 진단",
+    "subspecialty": "진단검사의학",
+    "stem": "신생아 빌리루빈이 오줌으로 나올 가능성이 가 장 적은 경우? CMV infection",
+    "images": [],
+    "options": [
+      "① 신생아 생리적 황달",
+      "② CMV 간염 (거대세포바이러스 감염)",
+      "③ 담도 폐쇄증 (Biliary atresia)",
+      "④ 총담관 낭종 (Choledochal cyst)",
+      "⑤ 신생아 간염"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 신생아 생리적 황달",
+    "explanation": {
+      "title": "신생아 빌리루빈뇨(Bilirubinuria) 감별 진단",
+      "findings": "신생아 생리적 황달은 비포합(간접) 빌리루빈이 주로 증가합니다. 비포합 빌리루빈은 알부민과 강하게 결합하여 신장 사구체를 통과하지 못하므로 소변으로 배출되지 않습니다.",
+      "differential": "• 생리적 황달 / 모유 황달: 비포합 고빌리루빈혈증 -> 요중 빌리루빈 음성\n• CMV 감염 / 담도폐쇄증: 포합 고빌리루빈혈증 -> 직접빌리루빈이 소변으로 배출되어 진한 갈색뇨(Bilirubinuria)",
+      "trap": "소변 색이 진해지고 요시험지봉에서 빌리루빈 양성이 나오는 것은 포합(직접) 빌리루빈의 증가를 의미합니다.",
+      "trigger": "소변으로 빌리루빈 나올 가능성 가장 적은 경우 -> 신생아 생리적 황달",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q19",
+    "index": 116,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 19,
+    "category": "반짤",
+    "theme_title": "[과년도 빈출] 변이계수(CV)의 개념 및 공식 오류 변형",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "변이계수에 대한 설명으로 옳지 않은 것은? 변이계수가 클수록 정밀하다.",
+    "images": [],
+    "options": [
+      "① 같은 물질이라도 농도에 따라 변이계",
+      "② 수 값이 변할 수 있다. 구리병원에서 알부민의 변이계수는 5%",
+      "③ 이하로 유지되고 있다. 표준편차를 평균으로 나누고 100 을 곱",
+      "④ 한 값이다. 변이계수를 이용해 서로 다른 물질들",
+      "⑤ 간 검사의 정밀도를 비교할 수 있다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[22Y Q19] 변이계수가 클수록 정밀하다 (X - 작을수록 정밀)",
+    "explanation": {
+      "title": "[과년도 빈출] 변이계수(CV)의 개념 및 공식 오류 변형",
+      "findings": "• [22Y Q19 & 21Y Q20] 변형 기출(반짤)!\n  - 22Y Q19 정답: ① 변이계수가 클수록 정밀하다 (오답 - CV가 작을수록 정밀도가 높음)\n  - 21Y Q20 정답: ④ 평균을 표준편차로 나누고 100을 곱한 값이다 (오답 - 표준편차를 평균으로 나눈 값임)\n  - 공통 정상 선지: 같은 물질이라도 농도에 따라 CV가 변할 수 있음 / 서로 다른 물질 간 정밀도 비교 가능.",
+      "differential": "1. 변이계수(Coefficient of Variation, CV) 정의 및 공식:\n   • 공식: CV(%) = (표준편차 SD / 평균 Mean) × 100\n   • 단위(Unit)가 없는 상대적 백분율(무차원수).\n   • 단위가 다르거나 평균치 차이가 큰 검사 간의 정밀도(우연오차) 비교에 최적의 지표.",
+      "trap": "CV는 무차원수(%)이며, 작을수록 정밀도가 우수함. 분모가 평균(Mean), 분자가 표준편차(SD)임.",
+      "trigger": "★ 변이계수(CV) 변형 주의(반짤)! 22Y는 클수록 정밀하다(X), 21Y는 평균/SD(X)로 꼬아냄!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q20",
+    "index": 117,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 20,
+    "category": "탈",
+    "theme_title": "임상검사실 정도관리(QC) 원칙과 관리물질",
+    "subspecialty": "진단검사의학",
+    "stem": "검사실 관리로 옳지 않은 것은? 표준 관리 물질의 농도는 알고 있다.",
+    "images": [],
+    "options": [
+      "① 표준편차가 작을수록 정밀도가 높다",
+      "② 95% 허용범위는 평균 ± 2SD이다",
+      "③ 표준 관리 물질의 농도는 알고 있다",
+      "④ 허용범위는 측정방법의 변이를 반영한다",
+      "⑤ 관리물질 결과가 95% 내에 있으면 측정계를 용인한다"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 표준 관리 물질의 농도는 알고 있다",
+    "explanation": {
+      "title": "임상검사실 정도관리(QC) 원칙과 관리물질",
+      "findings": "정도관리에 사용하는 관리물질(Control material)은 검사자의 편향(bias)을 방지하기 위해 농도를 모르는 맹검(Blind) 상태로 일상 검체와 동일하게 취급하는 것이 원칙입니다. (표준물질/Calibrator는 농도가 공인된 물질임).",
+      "differential": "• Calibrator (표준물질): 기기 교정용으로 정확한 농도값이 명시됨\n• Control (관리물질): 정밀도/안정성 감시용으로 맹검 검사 수행 권장\n• 95% 관리한계: 평균 ± 2SD",
+      "trap": "Calibrator(표준물질)와 Control(관리물질)의 개념을 혼동하지 않도록 주의하십시오.",
+      "trigger": "검사실 관리 옳지 않은 것 -> 관리물질 농도를 알고 검사자가 특별 취급한다",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q21",
+    "index": 118,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 21,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 알부민 농도를 가장 민감하게 측정할 수 있는 ",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "알부민 농도를 가장 민감하게 측정할 수 있는 방법은? 화학침전",
+    "images": [],
+    "options": [
+      "① 가열침전",
+      "② 면역응집",
+      "③ 전기영동",
+      "④ 색소결합?"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "[22Y Q21 & 20Y Q30] ② 면역비탁법 (Immunoturbidimetry) / 미세알부민뇨 측정법",
+    "explanation": {
+      "title": "[과년도 빈출] 알부민 농도를 가장 민감하게 측정할 수 있는 ",
+      "findings": "• [22Y Q21 & 20Y Q30] 정답: ② 면역비탁법 (Immunoturbidimetry)\n  - 지문: 알부민 농도를 가장 민감하게(저농도 미세알부민뇨) 측정할 수 있는 방법은?\n  - 통상 혈청 알부민은 BCG/BCP 색소결합법을 쓰지만, 소변 미세알부민은 고감도 면역비탁법 사용.",
+      "differential": "1. 알부민 측정법 비교:\n   • 혈청 고농도 알부민(g/dL 단위): BCG (Bromocresol green), BCP (Bromocresol purple)\n   • 소변 저농도 미세알부민(mg/L 단위): 면역비탁법(Immunoturbidimetry), 면역비색법(Immunonephelometry)",
+      "trap": "BCG법은 헤파린이나 다른 단백질과 비특이 반응할 수 있으며 저농도 측정에는 민감도가 부족함.",
+      "trigger": "알부민 가장 민감한 저농도 측정 -> 면역비탁법(Immunoturbidimetry)!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q22",
+    "index": 119,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 22,
+    "category": "반짤",
+    "theme_title": "[과년도 빈출] 참고범위설정(Reference Range) 설정 원칙 및 120명 vs 정규분포 변형",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "참고범위설정에 관련한 설명 중 옳지 않은 것 은? 일반적으로 30 명 이상의 건강한 사람",
+    "images": [],
+    "options": [
+      "① 들의 결과를 이용한다. 참고범위 설정을 위한 대상자가 건강",
+      "② 한지 알기 위하여 우선 설문지를 배포 한다. 일반적으로 순위 분포를 이용하여 2.5",
+      "③ 와 97.5 percentile 값으로 결정한다. 대상자 검사 결과의 빈도가 정규 분포",
+      "④ 를 이룬다면 평균값과 표준편차를 이 용해 내부 95% 값을 결정할 수 있다. 참고범위를 적용하려는 환자가 일반",
+      "⑤ 사람들과 같을 것이라는 전제가 있다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[22Y Q22] ① 일반적으로 30 명 이상의 건강한 사람들의 결과를 이용한다 (X - 비모수적 95% 구간 설정을 위해 최소 120명 필요)",
+    "explanation": {
+      "title": "[과년도 빈출] 참고범위설정(Reference Range) 설정 원칙 및 120명 vs 정규분포 변형",
+      "findings": "1. 22Y vs 21Y 출제 변형 분석 및 정답 비교:\n   • [22Y Q22 정답]: ① 일반적으로 30 명 이상의 건강한 사람들의 결과를 이용한다 (X - 오답 선지)\n     - CLSI C28-A3 가이드라인에 따르면, 정규분포를 가정하지 않는 비모수적 방법(Non-parametric method)으로 하위 2.5%와 상위 97.5%를 90% 신뢰구간으로 결정하기 위해서는 최소 120명(권장 120~150명 이상)의 건강한 참고 대상자가 필수적입니다. 30명은 이미 확립된 기존 참고범위를 자체 검사실에서 확인(Verification/Transference)할 때 필요한 최소 표본 수에 불과합니다.\n   • [21Y Q24 정답]: ⑤ 대상자 검사 결과의 빈도 분포가 정규 분포를 이루지 않는다면 평균값과 표준편차를 이용해 내부 95% 값을 결정할 수 있다 (X - 오답 선지)\n     - 가우시안 정규분포를 이룰 때에만 모수적 방법(Parametric)인 평균 ± 1.96 SD로 중앙 95%를 결정할 수 있습니다. 정규분포를 이루지 않는다면 절대로 평균과 표준편차를 쓸 수 없으며, 비모수적 순위분포인 2.5th~97.5th 백분위수 값을 취해야 합니다 (22Y에서는 이 선지가 '정규 분포를 이룬다면'으로 수정되어 올바른 선지로 출제됨).",
+      "differential": "2. [5대 핵심 선지별 상세 해설 및 오답 분석]:\n   • ① 참고인 표본 수 기준 (120명 vs 30명):\n     - 최소 120명의 건강인 결과가 필요합니다. 21Y에서는 '120명 이상'으로 정상 출제(O), 22Y에서는 '30명 이상'으로 왜곡되어 출제된 정답(X)입니다.\n   • ② 참고 대상자 건강 평가 설문지 배포:\n     - (22Y & 21Y 공통 O) 참고 대상자 모집 시 잠재 질환자, 약물 복용자, 흡연자, 임산부를 선별 배제하기 위해 철저한 설문 조사를 사전에 시행합니다.\n   • ③ 순위 분포를 이용한 2.5 및 97.5 percentile 결정:\n     - (22Y & 21Y 공통 O) 비모수적 방법으로 측정값을 일렬 정렬한 뒤 양측 2.5%씩 제외한 중앙 95% 구간을 참고범위로 산출합니다.\n   • ④ 정규분포 여부에 따른 계산 방식 (모수적 vs 비모수적):\n     - 정규분포 시에만 평균 ± 1.96 SD를 적용합니다. 21Y는 '정규분포를 이루지 않는다면'으로 왜곡 출제된 정답(X), 22Y는 '정규분포를 이룬다면'으로 수정 출제(O)되었습니다.\n   • ⑤ 환자가 일반 사람들과 같을 것이라는 기본 전제:\n     - (22Y & 21Y 공통 O) 건강인 참고 범위를 환자에게 적용할 때에는 환자의 생물학적 기본 상태가 참고 집단과 일치한다는 통계적 전제를 바탕으로 합니다.",
+      "trap": "30명은 기존 타 기관 참고범위의 단순 검증(Verification) 표본 수이며, 신규 참고범위 수립에는 반드시 최소 120명이 필요함.",
+      "trigger": "[22Y] 최소 120명 이상 표본 필수(30명 X) | [21Y] 정규분포일 때만 평균±1.96SD(비정규분포는 순위분포 2.5~97.5% percentile)!",
+      "kmle_link": "KMLE 진단검사의학 - 검사실 관리 및 참고범위(Reference Interval)"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q23",
+    "index": 120,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 23,
+    "category": "탈",
+    "theme_title": "혈청 알부민 정량 분석법 (BCG 법 파장 원리)",
+    "subspecialty": "진단검사의학",
+    "stem": "알부민 정량 검사에서 옳지 않은 것은? 분광광도계 파장은 550nm를 선택한다.",
+    "images": [],
+    "options": [
+      "① 분광광도계 파장은 550nm를 선택한다",
+      "② 알부민을 다른 혈청 단백질과 특이적으로 구분해야 한다",
+      "③ 색의 변화(발색)로 흡광도 신호를 생성한다",
+      "④ BCG(Bromocresol green) 시약을 널리 사용한다",
+      "⑤ 브로모크레졸 퍼플(BCP)법도 이용된다"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 분광광도계 파장은 550nm를 선택한다",
+    "explanation": {
+      "title": "혈청 알부민 정량 분석법 (BCG 법 파장 원리)",
+      "findings": "알부민 정량에 가장 흔히 쓰이는 BCG(Bromocresol green) 색소결합법의 최대 흡광 파장은 628~630nm입니다. 550nm(또는 540nm)는 Biuret법(총단백 정량)에 사용되는 파장이므로 옳지 않습니다.",
+      "differential": "• BCG법 파장: 630 nm (알부민 특이 복합체 형성)\n• Biuret법 파장: 540~550 nm (펩티드 결합 구리 킬레이트 발색)\n• BCP법 파장: 600 nm",
+      "trap": "총단백(Biuret, 540nm)과 알부민(BCG, 630nm)의 파장 구분을 묻는 대표적인 빈출 야마입니다.",
+      "trigger": "알부민 BCG 측정 파장 550nm -> 오답! (정답 파장은 630nm)",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q24",
+    "index": 121,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 24,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 병원 검사실에서 알부민 농도 검사에 사용하는 시약은?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "병원 검사실에서 알부민 농도의 검사에 사용하 는 시약은? Bromocresol Green",
+    "images": [],
+    "options": [
+      "① Bromocresol Purple",
+      "② Picric acid",
+      "③ HABA?",
+      "④ [면역+실험실 안전]"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q29 & 22Y Q24] ① Bromocresol Green (BCG) / Bromocresol Purple (BCP)",
+    "explanation": {
+      "title": "[과년도 빈출] 병원 검사실에서 알부민 농도 검사에 사용하는 시약은?",
+      "findings": "• [23Y Q29 & 22Y Q24] 출제 지문:\n  - 병원 검사실에서 혈청 알부민(Albumin) 농도 측정에 사용하는 색소 시약은?\n  - 선지: ① Bromocresol Green (BCG)  ② Bromocresol Purple (BCP)  ③ SSA  ④ HABA\n  - 정답: ① Bromocresol Green (BCG) [BCG/BCP 공통 정답 인정]",
+      "differential": "1. 혈청 알부민 측정 원리:\n  • 색소 결합법(Dye-binding method): 음전하를 띤 알부민이 양이온성 색소인 Bromocresol green (BCG, pH 4.2) 또는 Bromocresol purple (BCP, pH 5.2)과 특이적으로 결합하여 흡광도가 변화하는 원리를 분광광도계로 측정.\n\n2. 총단백질 측정법과의 구별:\n  • 총단백질(Total protein): Biuret(뷰렛) 반응 (Cu2+ 이온 착체 형성, 보라색 발색).\n  • 소변 단백질 정성: Sulfosalicylic acid (SSA) 침전법.",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 2회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q25",
+    "index": 122,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 25,
+    "category": "반짤",
+    "theme_title": "간접면역형광법(IIF)으로 검사할 수 없는 자가항체 (연도별 선지/정답 변형)",
+    "subspecialty": "진단면역학",
+    "stem": "(Y 변형) 간접 형광현미경으로 볼 수 없는 것은? Anti-LKM",
+    "images": [
+      "images/22Y_Q25_fig1.png"
+    ],
+    "options": [
+      "① ANCA",
+      "② ANA",
+      "③ Anti-CCP",
+      "④ Anti-dsDNA"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q47 / 22Y Q25] ① APA (또는 Anti-CCP)",
+    "explanation": {
+      "title": "간접면역형광법(IIF)으로 검사할 수 없는 자가항체 (연도별 선지/정답 변형)",
+      "findings": "IIF의 원리는 환자 혈청 항체를 조직/세포 기질과 반응 후 형광표지 2차 항체로 관찰하는 것임.",
+      "differential": "• IIF 검출 가능 항체: ANA, Anti-dsDNA, AMA, Anti-LKM, ANCA (조직/세포 절편 기질 필요)\n• IIF 검출 불가 항체: 인지질 항체(Anti-cardiolipin, APA -> ELISA), 가용성 항체(RF -> 비탁법/응집법)",
+      "trap": "ANA, Anti-mitochondria(AMA), Anti-LKM은 Hep-2 세포나 조직 절편을 기질로 사용하여 IIF로 형광 패턴을 전형적으로 검출함.",
+      "trigger": "★ 연도별 변형 주의! 26Y는 2개 선택(Anti-cardiolipin & RF), 23Y는 1개 선택(APA)! 조직 슬라이드에 부착할 세포 형태 기질이 없는 가용성 인자/인지질 항체를 선택.",
+      "kmle_link": "KMLE 류마티스학 - 자가면역질환 검사법 (ANA 및 자가항체 측정 원리)"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q26",
+    "index": 123,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 26,
+    "category": "짤",
+    "theme_title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
+    "subspecialty": "진단면역학",
+    "stem": "(20Y) ANA 에서 Homogenous pattern 이 나왔 다. 다음으로 해야할 검사는? Anti-ENA",
+    "images": [],
+    "options": [
+      "① Anti-dsDNA",
+      "② APA",
+      "③ ANCA",
+      "④ Anti-mitochondria"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① anti-dsDNA (및 anti-Histone)",
+    "explanation": {
+      "title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
+      "findings": "Hep-2 세포 핵질 전체에 걸쳐 균일한 녹색 형광 신호 관찰.",
+      "differential": "Speckled(점상, ENA 패널 필요), Nucleolar(핵소체, 전신경화증).",
+      "trap": "Rim/Peripheral pattern은 Anti-dsDNA, Speckled pattern은 Anti-Sm/RNP/Ro/La, Nucleolar는 Anti-Scl-70(전신경화증). Homogenous는 Anti-dsDNA 및 Histone.",
+      "trigger": "IIF 상 핵 전체가 균일하게 염색되는 Homogenous / Diffuse pattern = Chromatin, dsDNA, Histone 항체 시사! SLE 확진 및 활성도 평가를 위한 1순위 추가 검사는 Anti-dsDNA!",
+      "kmle_link": "KMLE 류마티스학 - 전신홍반루푸스(SLE)의 혈청학적 진단 기준"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q27",
+    "index": 124,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 27,
+    "category": "반짤",
+    "theme_title": "[과년도 빈출] PPD 피부반응검사와 IGRA 원리 및 BCG 위양성 감별 (발문 변형)",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "(Y 변형) PPD 피부반응검사와 IGRA 에 대한 설 명으로 옳지 않은 것은? IGRA 는 과거 결핵균에 감작된 T 림프구",
+    "images": [],
+    "options": [
+      "① 에 결핵균 항원을 자극하여 분비되는 인 터페론 감마를 측정한다. IGRA 는 지연성 과민반응을 이용하여 체",
+      "② 내에서 APC 에 의하여 T 세포에 항원이 전달 인지 증식되어 과민 반응을 일으키 는 과정의 면역 반응을 전반적으로 평가 하는 방법이다. IGRA 검사는 한번의 방문으로 진단가능",
+      "③ 하다. IGRA 검사는 결핵균 항원만 이용하므로",
+      "④ PPD 검사보다 위양성률이 낮다. PPD 피부반응 검사와 IGRA 모두 잠복결",
+      "⑤ 핵과 활동성결핵을 감별할 수 없다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "PPD 검사는 BCG 접종력의 영향을 받지 않는다 (X - PPD는 위양성을 보이며, IGRA가 BCG 영향을 안 받음)",
+    "explanation": {
+      "title": "[과년도 빈출] PPD 피부반응검사와 IGRA 원리 및 BCG 위양성 감별 (발문 변형)",
+      "findings": "• [22Y Q27 & 21Y Q02 & 20Y Q11 & 19Y Q06] 4개년 연속 출제!\n  - 지문: PPD 피부반응검사(TST)와 IGRA에 대한 설명으로 옳은 것은?\n  - 정답: IGRA는 BCG 백신 균주에 없는 결핵균 특이 항원(ESAT-6, CFP-10)을 사용하므로 BCG 접종자에서 위양성이 없음.",
+      "differential": "1. TST(PPD) vs IGRA 감별 비교:\n   • TST: PPD 투여 후 48~72시간 뒤 경결 직경 판독. BCG 접종 및 NTM 감염 시 위양성 빈발. 부스팅 현상 있음.\n   • IGRA: 전혈 채혈 1회 방문. BCG 접종 여부와 무관(특이도 98% 이상). 면역저하자에서 Indeterminate 판정 가능.",
+      "trap": "PPD는 과거 BCG 접종력에 의해 위양성이 흔하므로 우리나라처럼 BCG 접종국가에서는 IGRA가 훨씬 우월함.",
+      "trigger": "★ 발문 변형 주의(반짤)! 22Y는 옳지 않은 것, 21Y/20Y는 옳은 것을 묻는 변형 출제! 핵심: IGRA는 BCG 접종에 위양성 없음(ESAT-6, CFP-10 특이항원) & 두 검사 모두 잠복/활동성 감별 불가!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q28",
+    "index": 125,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 28,
+    "category": "짤",
+    "theme_title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
+    "subspecialty": "진단면역학/혈액학",
+    "stem": "(Y) 유세포분석으로 볼 수 없는 것은? CA-125",
+    "images": [],
+    "options": [
+      "① Immunophenotype",
+      "② HLA crossmatching",
+      "③ Stem cell count",
+      "④ NK cell 활성도 측정"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① CA-125 (난소암 혈청 종양표지자 - 면역측정법/ELISA로 측정)",
+    "explanation": {
+      "title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
+      "findings": "세포 부유액을 레이저 광선에 통과시키는 유세포분석과 혈청 화학 면역분석의 차이점 이해.",
+      "differential": "CD4/CD8(유세포 가능), CD34(유세포 가능), CA-125(ELISA 측정).",
+      "trap": "CD4/CD8 T세포 분획, 백혈병 면역표현형(CD19, CD33), PNH의 CD55/CD59 결손은 세포막 항원이므로 유세포분석의 대표 적응증임.",
+      "trigger": "유세포분석(Flow cytometry)은 개별 단일 세포(Cell) 표면/세포질의 항원을 측정하는 기법이므로, 혈청에 녹아있는 액상 종양표지자 단백질(CA-125, CEA, AFP, PSA)은 측정 불가!",
+      "kmle_link": "KMLE 혈액학/종양학 - 유세포분석의 임상적 이용"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q29",
+    "index": 126,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 29,
+    "category": "짤",
+    "theme_title": "자가항체 판독 결과의 모순: Anti-SS-B 단독 양성의 위음성/위양성 해석",
+    "subspecialty": "진단면역학",
+    "stem": "가장 가능성이 낮은 판독결과는? (답 논란, 2 번 예상) ANA : (-) Anti-sm : (+) Anti-dsDNA : (+) Anti-SS-A (RO) : (+) Anti-SS-B (LA) : (-) False negative of ANA",
+    "images": [],
+    "options": [
+      "① False negative of LA",
+      "② False positive of Anti-sm",
+      "③ False positive of Anti-dsDNA",
+      "④ False positive of RO"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② False negative of Anti-dsDNA (또는 Anti-SS-A 음성인데 SS-B 단독 양성 소견 모순)",
+    "explanation": {
+      "title": "자가항체 판독 결과의 모순: Anti-SS-B 단독 양성의 위음성/위양성 해석",
+      "findings": "항체 결과 간의 생물학적 일치도를 검증하는 진단면역학 족보 문제.",
+      "differential": "Anti-dsDNA 역가는 질환 활성도 및 루푸스 신염 발생과 밀접하게 비례.",
+      "trap": "SLE 환자에서 ANA 양성이면서 Anti-dsDNA가 음성으로 나오는 것은 질환 비활동기나 관해 상태에서 흔히 볼 수 있는 정상적 판독임.",
+      "trigger": "쇼그렌 증후군에서 Anti-SS-B(La) 항체는 거의 예외 없이 Anti-SS-A(Ro) 항체와 동반되어 나타나므로, SS-A 음성이면서 SS-B만 단독 양성인 경우는 검사실 위양성이거나 극히 드묾!",
+      "kmle_link": "KMLE 류마티스학 - 쇼그렌 증후군 및 자가항체 패널 판독"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q30",
+    "index": 127,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 30,
+    "category": "짤",
+    "theme_title": "진균 및 안과 감염 검체의 생물안전 등급 (BSL-2)",
+    "subspecialty": "진단검사의학",
+    "stem": "(Y) 백내장 수술 후 시력저하가 나타난 환자 의 유리체 검사를 배양하였다. 배양 3 일 후 SDA 에서 솜털 모양의 집락이 관찰되었다. 생물안전등급으로 옳은 것은? 1 등급 – 개방작업대",
+    "images": [
+      "images/22Y_Q30_fig1.png"
+    ],
+    "options": [
+      "① 1등급 – 개방작업대",
+      "② 2등급 – 개방작업대",
+      "③ 2등급 – 생물안전작업대",
+      "④ 3등급 – 음압작업실",
+      "⑤ 4등급 – 양압복 구역"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 2등급 – 생물안전작업대 (BSL-2 with BSC)",
+    "explanation": {
+      "title": "진균 및 안과 감염 검체의 생물안전 등급 (BSL-2)",
+      "findings": "유리체액에서 배양된 진균(SDA 배지 솜털 집락, Aspergillus, Fusarium 등 기회감염 진균) 및 대부분의 병원성 미생물은 생물안전 2등급(BSL-2)에 해당하며, 포자 비산 및 에어로졸 흡입을 방지하기 위해 반드시 생물안전작업대(BSC Class II) 내에서 취급해야 합니다.",
+      "differential": "• BSL-1: 비병원성 대장균, 고초균 -> 개방작업대 가능\n• BSL-2: 진균, 포도구균, 간염바이러스 -> BSL-2 + 생물안전작업대(BSC) 필수\n• BSL-3: 결핵균, 탄저균 -> 음압 배기 시설",
+      "trap": "진균 집락은 포자가 쉽게 공기 중으로 비산하므로 개방작업대에서 절대 다루면 안 됩니다.",
+      "trigger": "진균(곰팡이) 배양 작업대 -> BSL-2 생물안전작업대(BSC)",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q31",
+    "index": 128,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 31,
+    "category": "탈",
+    "theme_title": "장기이식 전 교차시험(Crossmatching) 검사 구성",
+    "subspecialty": "진단검사의학",
+    "stem": "(Y) HLA crossmatching 방법으로 옳은 것?",
+    "images": [],
+    "options": [
+      "① Recipient serum + Donor T, B cell",
+      "② Donor serum + Recipient T, B cell",
+      "③ Donor serum + Recipient serum",
+      "④ Donor T, B cell + Recipient T, B cell",
+      "⑤ Recipient RBC + Donor serum"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Recipient serum + Donor T, B cell",
+    "explanation": {
+      "title": "장기이식 전 교차시험(Crossmatching) 검사 구성",
+      "findings": "장기이식 교차시험의 목적은 수혜자(Recipient)의 혈청 내에 이미 형성되어 있는 공여자(Donor) 림프구에 대한 항-HLA 세포독성 항체를 검출하는 것입니다. 따라서 수혜자 혈청(Recipient serum)과 공여자 림프구(Donor T, B cell)를 반응시킵니다.",
+      "differential": "• HLA 교차시험: Recipient serum + Donor lymphocytes\n• 수혈 주교차시험(Major XM): Recipient serum + Donor RBC\n• 수혈 부교차시험(Minor XM): Donor serum + Recipient RBC",
+      "trap": "공여자 혈청과 수혜자 림프구를 반응시키는 반대 조합을 고르지 않도록 주의하십시오.",
+      "trigger": "HLA crossmatching -> Recipient serum + Donor T, B cell",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q32",
+    "index": 129,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 32,
+    "category": "탈",
+    "theme_title": "생물안전 2등급(BSL-2) 검사실 시설 및 운영 기준",
+    "subspecialty": "진단검사의학",
+    "stem": "(Y) 2 급 미생물 취급 실험실이 갖추어야 할 사항으로 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "① 검사실 문을 열어두고 환기한다",
+      "② 생물안전작업대(BSC)를 구비한다",
+      "③ 오토클레이브(고압증기멸균기)를 이용할 수 있어야 한다",
+      "④ 작업 구역 출입을 제한하고 경고 표지를 부착한다",
+      "⑤ 실험복과 개인보호구를 착용한다"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 검사실 문을 열어두고 환기한다",
+    "explanation": {
+      "title": "생물안전 2등급(BSL-2) 검사실 시설 및 운영 기준",
+      "findings": "BSL-2 검사실은 병원체의 외부 유출과 교차 오염을 방지하기 위해 작업 중 항상 문을 닫아두어야(Self-closing doors) 합니다. 문을 열어두고 환기하는 것은 규정 위반입니다.",
+      "differential": "• BSL-2 필수 기준: 닫힌 문, BSC 작업대 구비, 고압증기멸균 처리 시설, 생물위험 표지\n• BSL-3: 음압 공조 시스템 및 HEPA 필터 배기",
+      "trap": "환기를 목적으로 출입문이나 창문을 개방하는 행위는 오염 확산의 주원인이 됩니다.",
+      "trigger": "BSL-2 옳지 않은 것 -> 문을 열어두고 환기",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q33",
+    "index": 130,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 33,
+    "category": "짤",
+    "theme_title": "검사실 생물안전등급(Biosafety Level, BSL) 분류 기준 및 지침",
+    "subspecialty": "임상미생물학",
+    "stem": "(20Y) 검사실 생물 안전에 대한 설명으로 틀 린 것은? 모든 검체는 잠재적 위험성이 있다고 간",
+    "images": [],
+    "options": [
+      "① 주하여 작업 시 표준지침을 따른다. 우리 나라에서는 결핵균이 많이 검출되",
+      "② 므로 생물안전 3 등급에서 작업하는 것이 바람직하다. 생물안전 4 등급에서는 Class III 생물안전",
+      "③ 작업대와 양압복과 같은 특수보호장비까 필요하다. 정상인에게서 감염을 일으키지 않는 세",
+      "④ 균은 개방된 작업대에서 다뤄도 된다. 임상적으로 흔히 검출되는 세균은 생물",
+      "⑤ 안전 1 등급에 해당하며 생물안전작업대 가 필요하다. [유전]"
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 임상적으로 흔하게 검출되는 세균은 생물안전 1등급에 해당되며 생물안전작업대가 필요하다. (X - 2등급에 해당)",
+    "explanation": {
+      "title": "검사실 생물안전등급(Biosafety Level, BSL) 분류 기준 및 지침",
+      "findings": "선지 ⑤는 흔한 임상 세균을 1등급으로 잘못 기술하여 명백한 오답.",
+      "differential": "BSL-3(결핵균 배양, 음압시설), BSL-4(Class III BSC 또는 에어슈트).",
+      "trap": "결핵균(M. tuberculosis)은 공기 전파 위험으로 BSL-3 음압 구역에서 작업하는 것이 원칙임.",
+      "trigger": "병원 임상검사실에서 흔히 분리되는 병원성 세균(S. aureus, E. coli, Salmonella 등)은 생물안전 2등급(BSL-2)에 해당하며 Class II 생물안전작업대(BSC)에서 다룸! 1등급은 비병원성균(E. coli K12).",
+      "kmle_link": "KMLE 감염학/예방의학 - 병원 감염 관리 및 검사실 생물안전 지침"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q34",
+    "index": 131,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 34,
+    "category": "탈",
+    "theme_title": "실시간 중합효소연쇄반응(Real-Time PCR) 구성 성분",
+    "subspecialty": "진단검사의학",
+    "stem": "(Y) Real-Time PCR 의 재료를 모두 고르시오. dNTP",
+    "images": [],
+    "options": [
+      "① dNTP",
+      "② DNA Polymerase",
+      "③ DNA ligase",
+      "④ 형광 프로브 (Fluorescent probe)",
+      "⑤ 특이 프라이머 (Primers)"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ DNA ligase (불필요 성분)",
+    "explanation": {
+      "title": "실시간 중합효소연쇄반응(Real-Time PCR) 구성 성분",
+      "findings": "Real-Time PCR은 증폭과 동시에 형광을 실시간 검출하는 기법으로, 프라이머, dNTP, 내열성 DNA 중합효소, 형광 표지 프로브(또는 SYBR Green)가 필요합니다. DNA ligase(연결효소)는 클로닝이나 단편 연결에 쓰이며 PCR 반응계에는 들어가지 않습니다.",
+      "differential": "• Real-Time PCR 필수: Primer, dNTP, Taq polymerase, Probe/Dye\n• 불필요: DNA ligase, 제한효소, RNA polymerase",
+      "trap": "리보자임이나 ligase 등 분자생물학의 다른 효소들을 섞어 놓은 함정 선지입니다.",
+      "trigger": "Real-Time PCR 재료 아닌 것 -> DNA ligase",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q35",
+    "index": 132,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 35,
+    "category": "탈",
+    "theme_title": "약물유전체학(Pharmacogenetics)의 기본 개념",
+    "subspecialty": "진단검사의학",
+    "stem": "Pharmacogenetics 에 대해 옳은 것은?",
+    "images": [],
+    "options": [
+      "① 유전적 다형성에 의해 약물 대사 및 효능이 달라진다",
+      "② 약 효과 차이는 오직 투여 용량과 체중에 의해서만 결정된다",
+      "③ 모든 환자는 동일한 약물에 동일한 대사율을 보인다",
+      "④ 약동학(PK)에는 유전적 인자가 관여하지 않는다",
+      "⑤ 유전자 검사로 약물 부작용을 사전에 예측할 수 없다"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 유전적 다형성에 의해 약물 대사 및 효능이 달라진다",
+    "explanation": {
+      "title": "약물유전체학(Pharmacogenetics)의 기본 개념",
+      "findings": "약물유전체학은 유전적 변이(다형성, SNP)가 약물의 흡수, 분포, 대사(CYP 효소군 등), 배설 및 표적 수용체 감수성에 미치는 영향을 규명하여 개인별 맞춤 약물 치료를 구현하는 학문입니다.",
+      "differential": "• CYP2C19 변이: 클로피도그렐(Plavix) 활성화 저하\n• CYP2C9 / VKORC1: 와파린 감수성 변이\n• TPMT 변이: 6-MP 골수 억제 독성 위험",
+      "trap": "약물 반응 차이가 단순히 체중이나 용량 때문만이 아니라 유전체적 효소 활성도 차이에 기인한다는 점이 핵심입니다.",
+      "trigger": "Pharmacogenetics -> 유전적 다형성에 따른 약물 대사/효능 차이",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q36",
+    "index": 133,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 36,
+    "category": "짤",
+    "theme_title": "ANXA11 유전자 가계도와 불완전 침투율(Incomplete Penetrance)",
+    "subspecialty": "진단검사의학",
+    "stem": "(Y) 다음 그림은 ANXA11 유전자에 대한 가 계도이다. 옳지 않은 것은?",
+    "images": [
+      "images/22Y_Q36_fig1.png"
+    ],
+    "options": [
+      "① Complete penetrance",
+      "② Incomplete penetrance (불완전 침투율)",
+      "③ 상염색체 우성 유전 (AD)",
+      "④ 가계도 내 세대 건너뜀 관찰",
+      "⑤ 무증상 보인자 존재"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Complete penetrance (완전 침투율)",
+    "explanation": {
+      "title": "ANXA11 유전자 가계도와 불완전 침투율(Incomplete Penetrance)",
+      "findings": "ANXA11 변이와 연관된 신경퇴행질환(ALS 등) 가계도에서는 변이 유전자를 보유하고 있음에도 불구하고 증상이 발현되지 않는 세대 건너뜀(Skipped generation)이 관찰되므로 Incomplete penetrance(불완전 침투율)를 나타냅니다. 따라서 Complete penetrance는 옳지 않습니다.",
+      "differential": "• Incomplete penetrance: 유전자형을 가졌으나 표현형이 나타나지 않는 개체 존재\n• Variable expressivity: 동일 변이에서 증상의 중증도 차이\n• Anticipation: 세대를 거치며 조기 발병 및 악화",
+      "trap": "상염색체 우성 유전병이라도 침투율이 100%가 아니면 부모가 정상처럼 보일 수 있습니다.",
+      "trigger": "우성 가계도에서 세대 건너뜀 관찰 -> Incomplete penetrance (Complete penetrance는 오답)",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q37",
+    "index": 134,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 37,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 다음 검사에 대해 옳은 것은? ",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "다음 검사에 대해 옳은 것은?",
+    "images": [],
+    "options": [
+      "① 바이러스의 단백질을 검사하는 방법이",
+      "② 다. 오염으로 위양성 소견이 있을 수 있어",
+      "③ 여러 종의 바이러스를 확인하기 어렵다. 검체가 적을 때 다른 검사보다 위음성",
+      "④ 가능성이 높다. 최근 대부분 바이러스 검사에 널리 사",
+      "⑤ 용되고 있다. 해당 검사에서 음성이 나와도 확진을",
+      "⑥ 위해 한 번 더 검사를 시행해야 한다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "[22Y Q37 & 21Y Q33] ③ 소량의 검체로도 높은 민감도를 나타낸다 (O - 분자진단/PCR)",
+    "explanation": {
+      "title": "[과년도 빈출] 다음 검사에 대해 옳은 것은? ",
+      "findings": "• [22Y Q37 & 21Y Q33] 정답: ③ 분자진단(PCR)은 극미량의 바이러스도 증폭 검출 가능\n  - 지문: 바이러스 핵산 증폭 검사(NAAT/PCR)에 대해 옳은 것은?",
+      "differential": "1. 바이러스 분자진단 특성:\n   • 단백질 검출(항원검사)보다 유전자 증폭(PCR)이 민감도가 수백~수천 배 높음.",
+      "trap": "PCR은 단백질 검사법이 아니라 핵산(DNA/RNA) 증폭 검사법임.",
+      "trigger": "바이러스 분자진단(PCR) -> 극미량 핵산 증폭, 최고 민감도!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q38",
+    "index": 135,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 38,
+    "category": "짤",
+    "theme_title": "유전 질환의 광의적 개념: 환경적 인자(Environmental Factors)의 포함",
+    "subspecialty": "진단유전학",
+    "stem": "(Y 변형) variant 에 관해 옳은 것을 고르시오. reference genome 과 비교하여 다르면",
+    "images": [
+      "images/22Y_Q38_fig1.png"
+    ],
+    "options": [
+      "① 서 기능적 변화를 보이는 것을 variant 라고 한다. 인구 집단의 변이 빈도를 알면",
+      "② pathogenicity 를 알 수 있다. 유전 질환(genetic disorder)은 환경적 인",
+      "③ 자를 포함한다. genome 의 변이는 부모로부터 물려받고",
+      "④ 자손으로 전달된다. 유전 질환 중 환경에 의해 영향을 받는",
+      "⑤ 질환은 멘델의 유전법칙을 따른다."
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 유전 질환(genetic disorder)은 환경적 인자를 포함한다.",
+    "explanation": {
+      "title": "유전 질환의 광의적 개념: 환경적 인자(Environmental Factors)의 포함",
+      "findings": "Q34, Q35, Q37과 궤를 같이하는 유전의학 총론의 기본 철학 문항.",
+      "differential": "단일 유전자 질환(환경 영향 상대적 작음), 다인자 질환(환경 영향 지대함).",
+      "trap": "유전 질환이 오직 DNA 염기서열만으로 100% 결정된다는 보기는 대표적 오답.",
+      "trigger": "유전 질환(Genetic disorder)은 순수 멘델 유전뿐 아니라 다인자 유전 질환(당뇨, 고혈압, 관상동맥질환, 암 등)처럼 환경적 인자(후성유전, 흡연, 식이)와의 복합적 상호작용을 포괄함!",
+      "kmle_link": "KMLE 의학유전학 - 다인자성 질환 및 환경 유전학"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q39",
+    "index": 136,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 39,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] NGS 에 대한 설명 모두 고르세요. ",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "(Y) NGS 에 대한 설명 모두 고르세요. 모든 유전자 서열을 한번에 검사할 수",
+    "images": [],
+    "options": [
+      "① 있다. 환자가 표현하는 임상 양상에 관한 유",
+      "② 전자와의 염기를 분석하는 것은 윤리적 으로 옳지 않으므로 시행해서는 안된다. artifact 제거를 위해 표준 유전 서열",
+      "③ (reference) 과 비교하는 bioinformatic 를 사용해야 한다. 모든 유전자 서열을 검사하여 대부분",
+      "④ 희귀질환의 원인 유전자를 밝혔다. VUS 에 해당하는 영역은 benign 질환이",
+      "⑤ 라고 봐도 된다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[22Y Q39 & 20Y Q14] ① 모든 유전자 서열을 한 번에 대량 병렬 분석할 수 있다 (O)",
+    "explanation": {
+      "title": "[과년도 빈출] NGS 에 대한 설명 모두 고르세요. ",
+      "findings": "• [22Y Q39 & 20Y Q14] 정답: ① 대량 병렬 염기서열 분석 (Massively Parallel Sequencing)\n  - 지문: 차세대 염기서열 분석(NGS)에 대한 설명으로 옳은 것은?\n  - 수백만 개의 DNA 단편을 동시에 병렬 분석하여 전장 유전체/엑솜을 신속히 해독함.",
+      "differential": "1. 생거 시퀀싱 vs NGS 차이:\n   • 생거: 모세관 전기영동, 1개 단편씩 순차 분석(단일 유전자 확진용)\n   • NGS: 대량 병렬 분석, 패널/엑솜 전체 동시 분석(다중 유전자 변이 스크리닝)",
+      "trap": "NGS 결과는 생물정보학(Bioinformatics) 필터링 및 표준 유전체(Reference) 대조가 필수적임.",
+      "trigger": "NGS -> 대량 병렬 염기서열 분석 (모든 타깃 유전자 동시 해독)!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q40",
+    "index": 137,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 40,
+    "category": "짤",
+    "theme_title": "암의 유전학적 본질: 만성 B형간염 유발 간세포암도 유전질환(Genetic Disorder)",
+    "subspecialty": "진단유전학/종양학",
+    "stem": "(Y 변형) 암 유전 진단과 질환에 관해 옳은 것은?",
+    "images": [],
+    "options": [
+      "① somatic pathogenic variant 의 경우",
+      "② autosomal dominant inheritance 를 보인 다. germline brca1 변이 가진 사람의 경우",
+      "③ penetrance 는 거의 100%이다. 유전성 암 신드롬 가족 중 암이 발병하",
+      "④ 지 않은 사람은 유전자검사를 안 받아도 된다. 만성적인 감염에 의한 HBV",
+      "⑤ 는 유전질환 hepatocellular carcinoma (genetic diorder)이다. 표적 치료는 특정 표적에만 작용하여 암",
+      "⑥ 을 완치하는 치료이다. [수혈]"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ 만성적인 HBV 감염에 의한 hepatocellular carcinoma는 유전질환(genetic disorder)이다.",
+    "explanation": {
+      "title": "암의 유전학적 본질: 만성 B형간염 유발 간세포암도 유전질환(Genetic Disorder)",
+      "findings": "발암 인자(HBV)가 숙주 DNA에 통합되어 체세포 유전체 변이를 유발하므로 Genetic disorder 범주에 속함.",
+      "differential": "유전성 암 증후군(Lynch, FAP, Li-Fraumeni - 생식세포 변이).",
+      "trap": "유전질환(Genetic disorder)과 부모에게서 물려받는 유전성 질환(Hereditary/Inherited disorder)을 혼동하여 \"외부 바이러스로 생긴 암이 왜 유전질환이냐\"고 생각하면 함정에 빠짐.",
+      "trigger": "암(Cancer)은 세포 내 유전자 변이(체세포 돌연변이, Somatic mutation)가 축적되어 발생하는 \"체세포 수준의 유전질환(Genetic disease of somatic cells)\"임! 바이러스나 환경 요인으로 발생했더라도 본질은 유전질환!",
+      "kmle_link": "KMLE 종양학 - 암의 분자생물학적 발암 기전"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q41",
+    "index": 138,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 41,
+    "category": "탈",
+    "theme_title": "비예기항체(불규칙항체) 선별검사의 임상적 의의",
+    "subspecialty": "진단검사의학",
+    "stem": "비예기항체 검사에 관해 옳은 것은?",
+    "images": [],
+    "options": [
+      "① 비예기 항체 검출 시 적합 혈액 불출이 지연될 수 있다",
+      "② cis-AB 환자는 수혈 시 일반 AB형과 완전히 동일하게 취급한다",
+      "③ Weak D인 경우 Anti-D 항체가 절대 생성되지 않는다",
+      "④ 환자의 적혈구와 검사 혈청을 즉시 반응시키는 검사이다",
+      "⑤ 비예기 항체는 수혈 부작용과 무관하다"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 비예기 항체 검출 시 적합 혈액 불출이 지연될 수 있다",
+    "explanation": {
+      "title": "비예기항체(불규칙항체) 선별검사의 임상적 의의",
+      "findings": "수혈 전 비예기항체 선별검사에서 양성이 나오면, 항체 동정 검사를 통해 해당 항체를 규명하고 그 항원이 없는 적합 혈액을 찾아 교차시험을 통과해야 하므로 혈액 불출에 수 시간 이상 지연이 발생할 수 있습니다.",
+      "differential": "• cis-AB: O형 또는 A형/B형 적혈구 제제 선택 수혈\n• Weak D: 헌혈자일 때는 Rh(+), 수혈자일 때는 원칙적으로 Rh(-) 혈액 수혈\n• 비예기항체 선별: 환자 혈청 + 선별용 O형 적혈구 패널",
+      "trap": "응급 수혈 시 비예기항체 양성 환자는 교차적합 혈액을 찾기까지 시간이 지체될 수 있음을 임상의가 인지해야 합니다.",
+      "trigger": "비예기항체 검사 의의 -> 결과에 따라 적합 혈액 불출 지연 가능",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q42",
+    "index": 139,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 42,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 엄마가 O, RH+. 아이 혈액형은 표로 나옴. (cell A, D에",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "엄마가 O, RH+. 아이 혈액형 표로 나옴 (cell A, D 4+, serum B+/-). 아이한테 수혈하려고 A, RH+ 혈액으로 교차검사하였는데 모두 양성으로 나왔다. 가장 가능성이 높은 진단은?",
+    "images": [],
+    "options": [
+      "① ABO hemolysis of fetus and",
+      "② newborn RH hemolysis of fetus and newborn",
+      "③ Drug induced hemolysis",
+      "④ Paroxysmal cold hemoglobinuria",
+      "⑤ Warm autoimmune hemolytic",
+      "⑥ anemia"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q08 & 22Y Q42] ① ABO hemolysis of fetus and newborn (ABO 신생아 용혈질환)",
+    "explanation": {
+      "title": "[과년도 빈출] 엄마가 O, RH+. 아이 혈액형은 표로 나옴. (cell A, D에",
+      "findings": "• [23Y Q08 & 22Y Q42] 출제 지문:\n  - 산모: O형 Rh(+). 아이: A형 Rh(+). 아이에게 수혈이 필요하여 A형 Rh(+) 혈액으로 주교차시험을 시행했으나 모두 양성(부적합) 반응.\n  - 선지: ① ABO hemolysis of fetus and newborn  ② Rh hemolysis of fetus and newborn  ③ Drug induced hemolysis  ④ PCH\n  - 정답: ① ABO hemolysis of fetus and newborn",
+      "differential": "1. ABO 신생아 용혈성 질환(HDN) 기전:\n  • 산모(O형)의 IgG anti-A, anti-B, anti-A,B 항체는 태반을 통과하여 A형 태아 순환계로 유입됨.\n  • 신생아 혈청 내에 잔류하는 모체 유래 IgG anti-A 항체가 공혈자 A형 적혈구와 반응하므로, A형 혈액과의 교차시험에서 전량 양성(응집) 판정됨!\n\n2. 신생아 수혈 대원칙:\n  • 신생아 혈청 속 모체 항체와 반응하지 않도록 O형 적혈구제제(Rh 일치)를 선택하여 수혈해야 함.",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 2회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q43",
+    "index": 140,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 43,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 환자의 가족 혈액형 가계도이다. 환자의 혈액형을 설명할 ",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "환자의 가족 혈액형 가계도이다. 환자의 혈액형을 설명할 수 있는 현상은?",
+    "images": [
+      "images/22Y_Q43_fig1.png"
+    ],
+    "options": [
+      "① cisAB",
+      "② Weakened A"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q09 & 22Y Q43] ① cis-AB",
+    "explanation": {
+      "title": "[과년도 빈출] 환자의 가족 혈액형 가계도이다. 환자의 혈액형을 설명할 ",
+      "findings": "• [23Y Q09 & 22Y Q43] 출제 지문:\n  - 환자의 가족 혈액형 가계도이다. AB형 부모와 O형 배우자 사이에서 AB형 또는 O형 자녀가 태어남. 설명할 수 있는 유전 현상은?\n  - 선지: ① cis-AB  ② Weakened A  ③ B(A)  ④ Acquired B  ⑤ Weak A\n  - 정답: ① cis-AB",
+      "differential": "1. cis-AB형 유전학적 본질:\n  • 정상적인 ABO는 한 염색체에 A 또는 B 유전자가 각각 대립 유전하나, cis-AB는 한 염색체 상에 A와 B 전이효소 활성을 가진 유전자가 함께 위치함(cis 배열).\n  • 따라서 cis-AB/O 개체가 O/O 개체와 결혼하면 자녀는 cis-AB형(50%) 또는 O형(50%)만 출생함!\n\n2. 한국인 호발 특성 및 수혈 원칙:\n  • 전남 등 서남해안 지역 호발. 혈구형/혈청형 불일치(ABO discrepancy)의 주요 원인.\n  • 수혈 시: O형 적혈구제제, AB형 혈장제제 수혈이 원칙.",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 2회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q44",
+    "index": 141,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 44,
+    "category": "짤",
+    "theme_title": "직접 항글로불린 검사 (Direct Antiglobulin Test, DAT)",
+    "subspecialty": "진단검사의학",
+    "stem": "다음 그림에 나타난 검사는?",
+    "images": [
+      "images/22Y_Q44_fig1.png"
+    ],
+    "options": [
+      "① 직접 항글로불린검사 (DAT)",
+      "② 간접 항글로불린검사 (IAT)",
+      "③ 효소법 (Enzyme method)",
+      "④ 비탁법 (Nephelometry)",
+      "⑤ 방사면역측정법 (RIA)"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 직접 항글로불린검사 (DAT)",
+    "explanation": {
+      "title": "직접 항글로불린 검사 (Direct Antiglobulin Test, DAT)",
+      "findings": "체내(in vivo)에서 환자 적혈구 표면에 이미 결합해 있는 항체(IgG)나 보체(C3d)를 환자의 세척 적혈구에 항인글로불린 시약(Coombs reagent)을 첨가하여 응집 여부를 직접 확인하는 검사는 직접 항글로불린검사(DAT)입니다.",
+      "differential": "• DAT: 환자 적혈구 표면 부착 항체 검출 (자가면역용혈빈혈, 신생아용혈성질환, 수혈후용혈반응)\n• IAT: 환자 혈청 내 유리 불규칙항체 검출 (수혈 전 항체선별)",
+      "trap": "생체 내에서 이미 감작된 적혈구를 바로 검사하는 것은 직접(Direct) 검사입니다.",
+      "trigger": "적혈구 표면 결합 항체에 항글로불린 시약 직접 첨가 응집 -> DAT",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q45",
+    "index": 142,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 45,
+    "category": "짤",
+    "theme_title": "ABO 혈액형 항원의 생합성 경로 (H 항원의 전구체 역할)",
+    "subspecialty": "진단검사의학",
+    "stem": "다음 빈칸에 들어갈 말은?",
+    "images": [
+      "images/22Y_Q45_fig1.png"
+    ],
+    "options": [
+      "① A antigen",
+      "② H antigen",
+      "③ B antigen",
+      "④ O antigen",
+      "⑤ D antigen"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② H antigen (H 항원)",
+    "explanation": {
+      "title": "ABO 혈액형 항원의 생합성 경로 (H 항원의 전구체 역할)",
+      "findings": "ABO 항원 생합성 경로에서 기본 당사슬 전구물질(Precursor substance)에 FUT1 유전자가 암호화하는 Fucosyltransferase에 의해 Fucose가 결합하여 기본 골격인 H 항원(H antigen)이 먼저 형성됩니다. 이후 A전이효소나 B전이효소에 의해 각각 A/B 항원으로 전환됩니다.",
+      "differential": "• Precursor + Fucose -> H antigen\n• H antigen + N-acetylgalactosamine -> A antigen\n• H antigen + D-galactose -> B antigen\n• O형: H 전이효소만 작용하여 H 항원 상태로 잔존",
+      "trap": "O antigen이라는 독립된 당사슬 분자는 존재하지 않으며, O형은 H 항원 그 자체를 가장 많이 발현합니다.",
+      "trigger": "A, B 항원 형성의 공통 필수 전구 항원 -> H antigen",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q46",
+    "index": 143,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 46,
+    "category": "탈",
+    "theme_title": "안전한 수혈을 위한 필수 수혈 전 검사 항목",
+    "subspecialty": "진단검사의학",
+    "stem": "수혈 전 검사항목으로 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "① 직접 항글로불린검사 (DAT)",
+      "② ABO 혈액형 검사",
+      "③ Rh 혈액형 검사",
+      "④ 불규칙항체 선별검사",
+      "⑤ 주교차시험 (Major crossmatch)"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 직접 항글로불린검사 (DAT)",
+    "explanation": {
+      "title": "안전한 수혈을 위한 필수 수혈 전 검사 항목",
+      "findings": "표준 수혈 전 검사 4대 항목은 ① ABO 혈구/혈청형 검사, ② Rh 혈액형 검사, ③ 비예기(불규칙)항체 선별검사, ④ 교차시험(Crossmatching)입니다. 직접 항글로불린검사(DAT)는 수혈 부작용 조사나 용혈성 빈혈 감별 시 시행하는 특수 검사이며 통상적인 수혈 전 필수 검사가 아닙니다.",
+      "differential": "• 필수 수혈 전 검사: ABO, Rh, 비예기항체 선별, 주교차시험\n• 비필수 검사: 직접 항글로불린검사(DAT), 부교차시험(생략 추세)",
+      "trap": "수혈 전 검사로 시행하는 것은 비예기항체 선별을 위한 \"간접(IAT)\" 항글로불린 검사이며, \"직접(DAT)\"이 아닙니다.",
+      "trigger": "수혈 전 필수 검사 아닌 것 -> 직접 항글로불린검사 (DAT)",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q47",
+    "index": 144,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 47,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] ABO Rh-인데, 급성출혈로 응급실에 온 환자. ",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "ABO Rh-인데, 급성출혈로 응급실에 온 환자. 혈액은행에 해당 혈액이 없는 상황. 적절한 대응은?",
+    "images": [],
+    "options": [
+      "① AB, Rh+ 혈액을 수혈한다.",
+      "② 보호자한테 사망할 것임을 설명한다.",
+      "③ 혈액은행에 대책을 요구한다.",
+      "④ 해당 혈액이 나올때까지 기다린다.",
+      "⑤ 불규칙 항체 선별검사와 추가 검사를 더",
+      "⑥ 시행한다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[22Y Q47 & 21Y Q17] ① O형 Rh(-) 적혈구제제 우선 고려 / 응급 시 O형 Rh(+) 적혈구 수혈",
+    "explanation": {
+      "title": "[과년도 빈출] ABO Rh-인데, 급성출혈로 응급실에 온 환자. ",
+      "findings": "• [22Y Q47 & 21Y Q17] 정답: ① 동형 혈액 부재 시 O형 수혈 원칙\n  - 지문: AB형 Rh(-) 환자가 대량 출혈로 응급실 내원, 동형 혈액이 없을 때 처치는?\n  - 적혈구제제는 O형 Rh(-)가 1순위이나, 혈액원 재고 고갈 시 생명 구호를 위해 O형 Rh(+) 적혈구 수혈 고려.",
+      "differential": "1. 응급 수혈 원칙:\n   • 적혈구제제(RBC): O형이 범용 공여자\n   • 혈장제제(FFP): AB형이 범용 공여자 (항A, 항B 항체 없음)",
+      "trap": "AB형 환자에게 응급 시 타형 적혈구를 줄 때는 반드시 O형(항원 없음)을 줘야 하며, A형이나 B형을 섞어 주면 안 됨.",
+      "trigger": "응급 수혈 동형 부재 시 -> 적혈구는 O형, 혈장은 AB형!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q48",
+    "index": 145,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 48,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 혈액배양검사에 대한 설명으로 옳지 않은 것은?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "혈액배양검사에 대한 설명으로 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "① 뚜껑 베타딘 소독",
+      "② 알코올 소독 후 베타딘 소독",
+      "③ 혈액을 다른 부위에서 2-3 번 채취한다.",
+      "④ ml 채취",
+      "⑤ Hexidine 2 개월 이하 소아는 안됨"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q12 & 22Y Q48] ① 뚜껑은 베타딘으로 소독한다 (X - 고무마개는 70% 알코올 소독)",
+    "explanation": {
+      "title": "[과년도 빈출] 혈액배양검사에 대한 설명으로 옳지 않은 것은?",
+      "findings": "• [23Y Q12 & 22Y Q48] 출제 지문:\n  - 혈액배양검사에 대한 설명으로 옳지 않은 것은?\n  - 선지: ① 뚜껑은 베타딘으로 소독한다  ② 알코올 소독 후 베타딘 소독  ③ 서로 다른 부위에서 2~3회 채취  ④ 1쌍당 10~20mL 채취  ⑤ Hexidine은 2개월 이하 소아 금기\n  - 정답: ① 뚜껑은 베타딘으로 소독한다 (오답 선지)",
+      "differential": "1. 혈액배양병 고무마개 소독 원칙:\n  • 배양병의 고무마개(뚜껑)는 포비돈 요오드(베타딘)를 사용하면 고무가 변성·부식되므로 70% Isopropyl alcohol로만 닦고 말림!\n\n2. 혈액배양 채혈 및 피부 소독 표준 지침:\n  • 환자 피부: 70% 알코올로 먼저 유분을 제거한 후, 2% 클로르헥시딘 또는 10% 포비돈 요오드로 중심에서 외측으로 원을 그리며 소독하고 완전히 건조(1~2분)시킴.\n  • 채혈량: 성인은 1쌍당 16~20mL(호기성 8~10mL, 혐기성 8~10mL), 최소 2~3쌍을 서로 다른 정맥에서 채혈.",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 2회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q49",
+    "index": 146,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 49,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] HLA 교차시험(Crossmatching) 검체 조합",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "HLA crossmatching 방법으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "① Recipient serum – donor T,B cell",
+      "② Donor serum – recipient T,B cell",
+      "③ Donor serum – donor T,B cell",
+      "④ Recipient serum – recipient T,B cell"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[22Y Q49 & 22Y Q31] ① Recipient serum + Donor T, B cell",
+    "explanation": {
+      "title": "[과년도 빈출] HLA 교차시험(Crossmatching) 검체 조합",
+      "findings": "• [22Y Q49 & 22Y Q31] 출제!\n  - 지문: HLA crossmatching 방법으로 옳은 것은?\n  - 정답: ① Recipient serum (수혜자 혈청) + Donor T, B cell (공여자 림프구)\n  - 기전: 수혜자 혈청 속 기형성 항체(DSA)가 공여자 세포를 공격하는지 검사하여 초급성 거부반응 예방.",
+      "differential": "1. HLA Crossmatching 원리:\n   • 수혜자(받는 사람) 혈청의 항체가 공여자(주는 사람) 세포를 공격하면 초급성 거부반응(Hyperacute rejection) 발생 -> 양성이면 이식 절대 금기!",
+      "trap": "Donor serum + Recipient cell로 뒤바꿔 출제하는 전형적인 선지 말장난 주의.",
+      "trigger": "HLA 교차시험(Crossmatching) -> 수혜자 혈청(Recipient serum) + 공여자 세포(Donor cells)!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_22Y_Q50",
+    "index": 147,
+    "subject": "진단검사의학과",
+    "year": "22Y",
+    "q_num": 50,
+    "category": "짤",
+    "theme_title": "ABO 전향/후향 혈액형 판독",
+    "subspecialty": "진단검사의학",
+    "stem": "검사 결과 혈액형은 무엇인가?",
+    "images": [
+      "images/22Y_Q50_fig1.png"
+    ],
+    "options": [
+      "① A형",
+      "② B형",
+      "③ AB형",
+      "④ O형",
+      "⑤ Cis-AB형"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① A형 (혈구형 Anti-A+, Anti-B- / 혈청형 B cell+)",
+    "explanation": {
+      "title": "ABO 전향/후향 혈액형 판독",
+      "findings": "혈구형 검사(전향)에서 Anti-A 시약에 강한 응집(4+)을 보이고 Anti-B 시약에 음성이며, 혈청형 검사(후향)에서 B cell 시약에 응집(4+)을 보이고 A cell 시약에 음성이므로 전향 및 후향 검사가 완벽히 일치하는 전형적인 A형입니다.",
+      "differential": "• A형: Anti-A(+), Anti-B(-) / A cell(-), B cell(+)\n• B형: Anti-A(-), Anti-B(+) / A cell(+), B cell(-)\n• O형: Anti-A(-), Anti-B(-) / A cell(+), B cell(+)\n• AB형: Anti-A(+), Anti-B(+) / A cell(-), B cell(-)",
+      "trap": "혈구형과 혈청형의 일치 여부를 항상 교차 확인하십시오.",
+      "trigger": "Anti-A(+) & B cell(+) -> 확정 A형",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_21Y_Q01",
+    "index": 148,
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "q_num": 1,
+    "category": "반짤",
+    "theme_title": "간접면역형광법(IIF)으로 검사할 수 없는 자가항체 (연도별 선지/정답 변형)",
+    "subspecialty": "진단면역학",
+    "stem": "(Y) 형광 형미경으로 볼 수 없는 것은? Anti-cardiolipin",
+    "images": [],
+    "options": [
+      "① Anti LKM",
+      "② Anti mitochondria",
+      "③ ANA",
+      "④ Anti dsDna"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[26Y Q01] ③ anti-cardiolipin & ④ RF (2개 복수 정답) | [23Y Q47 / 22Y Q25] ① APA (또는 Anti-CCP) | [20Y Q34] Anti-cardiolipin",
+    "explanation": {
+      "title": "간접면역형광법(IIF)으로 검사할 수 없는 자가항체 (연도별 선지/정답 변형)",
+      "findings": "IIF의 원리는 환자 혈청 항체를 조직/세포 기질과 반응 후 형광표지 2차 항체로 관찰하는 것임.",
+      "differential": "• IIF 검출 가능 항체: ANA, Anti-dsDNA, AMA, Anti-LKM, ANCA (조직/세포 절편 기질 필요)\n• IIF 검출 불가 항체: 인지질 항체(Anti-cardiolipin, APA -> ELISA), 가용성 항체(RF -> 비탁법/응집법)",
+      "trap": "ANA, Anti-mitochondria(AMA), Anti-LKM은 Hep-2 세포나 조직 절편을 기질로 사용하여 IIF로 형광 패턴을 전형적으로 검출함.",
+      "trigger": "★ 연도별 변형 주의! 26Y는 2개 선택(Anti-cardiolipin & RF), 23Y는 1개 선택(APA)! 조직 슬라이드에 부착할 세포 형태 기질이 없는 가용성 인자/인지질 항체를 선택.",
+      "kmle_link": "KMLE 류마티스학 - 자가면역질환 검사법 (ANA 및 자가항체 측정 원리)"
+    }
+  },
+  {
+    "id": "진단검사의학과_21Y_Q02",
+    "index": 149,
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "q_num": 2,
+    "category": "반짤",
+    "theme_title": "[과년도 빈출] PPD 피부반응검사와 IGRA 원리 및 BCG 위양성 감별 (발문 변형)",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "(Y) PPD 피부반응검사와 IGRA 에 대한 설명으로 옳은 것은? PPD 는 과거 결핵균에 감작된 T 림프구에 결핵",
+    "images": [],
+    "options": [
+      "① 균 항원을 자극하여 분비되는 인터페론 감마 를 측정한다. IGRA 는 지연성 과민반응을 이용하여 체네에",
+      "② 서 APC 에 의하여 T 세포에 항원이 전달 인지 증식되어 과민 반응을 일으키는 과정의 면역 반응을 전반적으로 평가하는 방법이다. IGRA 검사는 결과 판독을 위해 48-72h 후에",
+      "③ 한번 더 방문해야 하지만 PPD 는 한번의 방문 으로 진단가능하다. IGRA 검사는 BCG 백신이나 비결핵 항산균 감",
+      "④ 염에 의해서도 위양성 반응을 보일 수 있지만 PPD 는 결핵균 항원만 이용하므로 IGRA 검사 보다 위양성률이 낮다. PPD 피부반응 검사와 IGRA 모두 잠복결핵과",
+      "⑤ 활동성결핵을 감별할 수 없다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "PPD 검사는 BCG 접종력의 영향을 받지 않는다 (X - PPD는 위양성을 보이며, IGRA가 BCG 영향을 안 받음)",
+    "explanation": {
+      "title": "[과년도 빈출] PPD 피부반응검사와 IGRA 원리 및 BCG 위양성 감별 (발문 변형)",
+      "findings": "• [22Y Q27 & 21Y Q02 & 20Y Q11 & 19Y Q06] 4개년 연속 출제!\n  - 지문: PPD 피부반응검사(TST)와 IGRA에 대한 설명으로 옳은 것은?\n  - 정답: IGRA는 BCG 백신 균주에 없는 결핵균 특이 항원(ESAT-6, CFP-10)을 사용하므로 BCG 접종자에서 위양성이 없음.",
+      "differential": "1. TST(PPD) vs IGRA 감별 비교:\n   • TST: PPD 투여 후 48~72시간 뒤 경결 직경 판독. BCG 접종 및 NTM 감염 시 위양성 빈발. 부스팅 현상 있음.\n   • IGRA: 전혈 채혈 1회 방문. BCG 접종 여부와 무관(특이도 98% 이상). 면역저하자에서 Indeterminate 판정 가능.",
+      "trap": "PPD는 과거 BCG 접종력에 의해 위양성이 흔하므로 우리나라처럼 BCG 접종국가에서는 IGRA가 훨씬 우월함.",
+      "trigger": "★ 발문 변형 주의(반짤)! 22Y는 옳지 않은 것, 21Y/20Y는 옳은 것을 묻는 변형 출제! 핵심: IGRA는 BCG 접종에 위양성 없음(ESAT-6, CFP-10 특이항원) & 두 검사 모두 잠복/활동성 감별 불가!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_21Y_Q03",
+    "index": 150,
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "q_num": 3,
+    "category": "짤",
+    "theme_title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
+    "subspecialty": "진단면역학",
+    "stem": "(Y 변형) ANA 에서 Speckled pattern 이 나왔다. 다음으로 해야할 검사는? Anti-ena",
+    "images": [],
+    "options": [
+      "① APF",
+      "② APA",
+      "③ Anca",
+      "④ Anti dsDna"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① anti-dsDNA (및 anti-Histone)",
+    "explanation": {
+      "title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
+      "findings": "Hep-2 세포 핵질 전체에 걸쳐 균일한 녹색 형광 신호 관찰.",
+      "differential": "Speckled(점상, ENA 패널 필요), Nucleolar(핵소체, 전신경화증).",
+      "trap": "Rim/Peripheral pattern은 Anti-dsDNA, Speckled pattern은 Anti-Sm/RNP/Ro/La, Nucleolar는 Anti-Scl-70(전신경화증). Homogenous는 Anti-dsDNA 및 Histone.",
+      "trigger": "IIF 상 핵 전체가 균일하게 염색되는 Homogenous / Diffuse pattern = Chromatin, dsDNA, Histone 항체 시사! SLE 확진 및 활성도 평가를 위한 1순위 추가 검사는 Anti-dsDNA!",
+      "kmle_link": "KMLE 류마티스학 - 전신홍반루푸스(SLE)의 혈청학적 진단 기준"
+    }
+  },
+  {
+    "id": "진단검사의학과_21Y_Q04",
+    "index": 151,
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "q_num": 4,
+    "category": "짤",
+    "theme_title": "류마티스 인자(Rheumatoid Factor, RF)의 주된 면역글로불린 동형",
+    "subspecialty": "진단면역학",
+    "stem": "(Y) RF 의 주된 isotype 은? IgM-RF",
+    "images": [],
+    "options": [
+      "① IgG-RF",
+      "② IgA-RF",
+      "③ IgD-RF"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① IgM-RF (IgG의 Fc 부위에 결합하는 IgM 항체)",
+    "explanation": {
+      "title": "류마티스 인자(Rheumatoid Factor, RF)의 주된 면역글로불린 동형",
+      "findings": "면역학적 정의: RF는 \"자가 IgG의 Fc 부위에 대한 자가항체\"이며 주 동형은 IgM.",
+      "differential": "Anti-CCP(Citrullinated peptide 항체, RA 특이도 95% 이상).",
+      "trap": "IgG-RF나 IgA-RF도 존재하나 임상 검사실에서 라텍스 응집법/비탁법으로 통상 검출하는 90% 이상의 주된 형태는 IgM-RF임.",
+      "trigger": "임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체.",
+      "kmle_link": "KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP"
+    }
+  },
+  {
+    "id": "진단검사의학과_21Y_Q05",
+    "index": 152,
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "q_num": 5,
+    "category": "짤",
+    "theme_title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
+    "subspecialty": "진단면역학/혈액학",
+    "stem": "(Y 변형)유세포분석으로 볼 수 없는 것은? ca 125",
+    "images": [
+      "images/21Y_Q05_fig1.png"
+    ],
+    "options": [
+      "① immunophenotype",
+      "② HLA crossmatching",
+      "③ stem cell count",
+      "④ NK cell 활성도 측정",
+      "⑤ [수혈, 실험실 안전] 14 문제",
+      "⑥ (Y) 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① CA-125 (난소암 혈청 종양표지자 - 면역측정법/ELISA로 측정)",
+    "explanation": {
+      "title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
+      "findings": "세포 부유액을 레이저 광선에 통과시키는 유세포분석과 혈청 화학 면역분석의 차이점 이해.",
+      "differential": "CD4/CD8(유세포 가능), CD34(유세포 가능), CA-125(ELISA 측정).",
+      "trap": "CD4/CD8 T세포 분획, 백혈병 면역표현형(CD19, CD33), PNH의 CD55/CD59 결손은 세포막 항원이므로 유세포분석의 대표 적응증임.",
+      "trigger": "유세포분석(Flow cytometry)은 개별 단일 세포(Cell) 표면/세포질의 항원을 측정하는 기법이므로, 혈청에 녹아있는 액상 종양표지자 단백질(CA-125, CEA, AFP, PSA)은 측정 불가!",
+      "kmle_link": "KMLE 혈액학/종양학 - 유세포분석의 임상적 이용"
+    }
+  },
+  {
+    "id": "진단검사의학과_21Y_Q06",
+    "index": 153,
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "q_num": 6,
+    "category": "짤",
+    "theme_title": "임상 안구/유리체 검체 취급 시 요구되는 생물안전 등급 및 작업대",
+    "subspecialty": "임상미생물학",
+    "stem": "(Y) 수혈 전 검사항목으로 옳은 것은? 불규칙항체 선별검사",
+    "images": [],
+    "options": [
+      "① 불규칙항체 선별검사 (비예기항체 선별검사)",
+      "② 직접 항글로불린 검사 (DAT)",
+      "③ HLA 조직적합성 교차시험",
+      "④ 한랭응집소 역가 검사",
+      "⑤ 적혈구 삼투압 취약성 검사"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 2등급 - 생물안전작업대 (BSL-2 with BSC Class II)",
+    "explanation": {
+      "title": "임상 안구/유리체 검체 취급 시 요구되는 생물안전 등급 및 작업대",
+      "findings": "환자 유래 감염성 검체의 기본 취급 표준 등급 숙지 여부 확인.",
+      "differential": "1등급(작업대 불필요), 3등급(음압 및 공기여과 특수시설).",
+      "trap": "3등급은 결핵이나 고위험 호흡기 바이러스에 적용되며 일반 세균성 안구 감염 검체는 2등급임.",
+      "trigger": "백내장 수술 후 안내염 환자의 유리체액(Vitreous humor) 등 환자 검체 배양은 일반 임상 검체이므로 생물안전 2등급(BSL-2) 시설 및 생물안전작업대(BSC) 내에서 취급해야 함!",
+      "kmle_link": "KMLE 감염학 - 임상 검체 안전 취급 지침"
+    }
+  },
+  {
+    "id": "진단검사의학과_21Y_Q07",
+    "index": 154,
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "q_num": 7,
+    "category": "탈",
+    "theme_title": "임상 검사 판독 및 의의",
+    "subspecialty": "진단검사의학",
+    "stem": "(Y) 다음 중 일반적으로 O 형에서 존재할 수 없 는 항체는? Anti-A",
+    "images": [],
+    "options": [
+      "① Anti-B",
+      "② Anti-A1",
+      "③ Anti-A, B",
+      "④ Anti-H"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[22Y Q49 & 22Y Q31 & 21Y Q07] ① Recipient serum + Donor T, B cell",
+    "explanation": {
+      "title": "임상 검사 판독 및 의의",
+      "findings": "상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.",
+      "differential": "선지별 감별 임상 의의 및 관련 질환 감별 포인트 완결.",
+      "trap": "실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.",
+      "trigger": "임상 검사 판독 및 의의 핵심 지표 기준 즉시 정답 도출",
+      "kmle_link": "진단검사의학과"
+    }
+  },
+  {
+    "id": "진단검사의학과_21Y_Q08",
+    "index": 155,
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "q_num": 8,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 농축 혈소판제제의 투여 및 보관 조건",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "(Y) 농축 혈소판제제에 대한 설명으로 옳은 것 은? 혈소판 감소증으로 인한 출혈 시 보통 2 단위",
+    "images": [],
+    "options": [
+      "① 의 농출혈소판을 투여해야 한다. 혈액응고를 방지하기 위해 leukocyte filte 를",
+      "② 사용한다. 농축 혈소판 1 단위를 투여하면 체중이 70kg",
+      "③ 인 성인의 경우 혈소판 수의 증가가5000- 10000/uL 정도 된다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "[21Y Q08 & 19Y Q05] ③ 농축 혈소판 1단위 투여 시 성인(70kg) 혈소판 수 5,000~10,000/μL 증가 (O)",
+    "explanation": {
+      "title": "[과년도 빈출] 농축 혈소판제제의 투여 및 보관 조건",
+      "findings": "• [21Y Q08 & 19Y Q05] 정답: ③ 농축 혈소판 1단위 투여 시 5,000~10,000/μL 증가\n  - 오답 선지: 2단위 투여(X - 6~8단위), 응고방지 필터(X - 백혈구제거 필터는 면역/발열 예방), 냉동 1년(X - 실온교반 5일), Apheresis보다 부작용 적다(X - Apheresis가 안전).",
+      "differential": "1. 농축혈소판(PC) 핵심 임상 지침:\n   • 투여 용량 및 효과: 1단위 투여 시 혈소판 약 5,000~10,000/μL 증가. 성인 1회 처방은 통상 6~8단위(또는 성분채혈 1단위) 투여.\n   • 보관 조건: 20~24℃ 실온에서 지속 교반(Agitation), 유효기간 5일 (냉동 절대 불가).\n   • 백혈구제거 필터(Leukocyte filter): 발열성 비용혈성 수혈부작용 및 HLA 동종면역 예방 목적 (혈액응고 방지 목적 아님).\n   • 성분채혈혈소판(Apheresis): 단일 공여자이므로 풀링 혈소판제제보다 부작용 및 면역 반응이 훨씬 적음.",
+      "trap": "혈소판을 냉장/냉동 보관하면 기능 상실로 폐기 처분됨. 반드시 실온(20~24℃) 교반 유지!",
+      "trigger": "농축혈소판 -> 1단위당 5,000~10,000/μL 증가 & 실온(20~24℃) 진탕 보관 5일!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_21Y_Q09",
+    "index": 156,
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "q_num": 9,
+    "category": "짤",
+    "theme_title": "수혈 후 비예기항체(Unexpected Antibodies) 형성 위험과 관리",
+    "subspecialty": "수혈의학",
+    "stem": "(Y) 2 급 미생물 취급 실험실이 갖추어야 할 사항 으로 옳지 않은 것은? 검사실 문을 열어두면 안된다",
+    "images": [],
+    "options": [
+      "① 긴머리는 오염을 일으킬 가능성이 높으므로",
+      "② 뒤로 잡아매야 한다. 검사실 안에서 상관없는 다른 작업을 할 때",
+      "③ 에도 장갑을 벗지 말아야 한다. 장갑을 벗고나서, 검사실 나갈 때, 오염물질",
+      "④ 을 만진 후 반드시 손을 씻어야 한다. 검사실 안에서는 보호복을 착용하고 발가락",
+      "⑤ 과 발뒤꿈치가 안보이는 신발을 신어야한다."
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 수혈 후 비예기항체가 생길 수 있는 것에 주의한다.",
+    "explanation": {
+      "title": "수혈 후 비예기항체(Unexpected Antibodies) 형성 위험과 관리",
+      "findings": "안전 수혈 지침의 핵심 임상 원칙 숙지.",
+      "differential": "급성 용혈(ABO 불일치), 지연 용혈(비예기항체 아나므네스 반응).",
+      "trap": "한 번 교차시험이 맞았다고 해서 다음 수혈 때 이전 검사 결과를 재활용하면 지연성 용혈성 수혈반응(DHTR)으로 치명적 위험 초래.",
+      "trigger": "수혈을 반복적으로 받은 환자는 공혈자 적혈구의 미세 항원(Rh E, c, Kell, Duffy, Kidd 등)에 동종면역(Alloimmunization)되어 새로운 비예기항체가 생성될 수 있으므로, 매 수혈 시마다 72시간 이내 새 검체로 항체선별검사를 반복해야 함!",
+      "kmle_link": "KMLE 수혈의학 - 수혈 부작용(동종면역 및 지연성 용혈 반응)"
+    }
+  },
+  {
+    "id": "진단검사의학과_21Y_Q10",
+    "index": 157,
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "q_num": 10,
+    "category": "탈",
+    "theme_title": "임상미생물 검사실 생물안전 등급 (BSL) 기준",
+    "subspecialty": "진단검사의학",
+    "stem": "(Y) 검사실 생물 안전에 대한 설명으로 틀린 것 은? 모든 검체는 잠재적 위험성이 있다고 간주",
+    "images": [],
+    "options": [
+      "① 모든 검체는 잠재적 감염 위험성이 있다고 간주한다",
+      "② 결핵균은 생물안전 2등급에서 작업하는 것이 바람직하다",
+      "③ 생물안전 4등급에서는 Class III 작업대나 양압복이 필요하다",
+      "④ 정상인에게 무해한 세균은 개방 작업대에서 취급 가능하다",
+      "⑤ 흔한 임상 세균은 생물안전 2등급 작업대가 권장된다"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 결핵균은 생물안전 2등급에서 작업하는 것이 바람직하다",
+    "explanation": {
+      "title": "임상미생물 검사실 생물안전 등급 (BSL) 기준",
+      "findings": "결핵균(Mycobacterium tuberculosis)은 공기 매개 비말핵으로 호흡기 감염을 유발하며 치명적인 결핵을 일으키므로, 발생 빈도와 무관하게 반드시 음압 시설과 특수 배기 공조를 갖춘 생물안전 3등급(BSL-3) 연구시설에서 취급해야 합니다.",
+      "differential": "• BSL-2: 대부분의 일반 세균(포도구균, 연쇄구균, 대장균)\n• BSL-3: 결핵균, 탄저균, 브루셀라, 흑사병균\n• BSL-4: 에볼라바이러스, 마버그바이러스",
+      "trap": "우리나라에 결핵 환자가 많다고 해서 안전 등급을 2등급으로 낮춰서 취급할 수 없습니다.",
+      "trigger": "결핵균 BSL-2 취급 -> 오답! (반드시 BSL-3 시설 필요)",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_21Y_Q11",
+    "index": 158,
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "q_num": 11,
+    "category": "짤",
+    "theme_title": "수혈 전 필수 면역혈액학 검사 항목: 불규칙항체 선별검사",
+    "subspecialty": "수혈의학",
+    "stem": "F-WBC 에 대한 설명으로 옳은 것은? 방사선을 쪼이면 비슷한 효과를 얻을 수 있다",
+    "images": [],
+    "options": [
+      "① frbrile reaction 을 줄이기 위해서는 pre-storage",
+      "② 를 이용하는 것 보다 bed side filter 가 더 효과 가 좋다 wbc 를 전부 없앨 수 있다",
+      "③ 동종 면역 반응이 증가할 수 있다",
+      "④ 혈소판 부전 수혈증을 줄일 수 있는 효과가 있",
+      "⑤ 다"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 불규칙항체 선별검사 (Antibody screening test)",
+    "explanation": {
+      "title": "수혈 전 필수 면역혈액학 검사 항목: 불규칙항체 선별검사",
+      "findings": "수혈 부작용(용혈성 수혈반응) 예방을 위한 필수 표준 패키지 규정.",
+      "differential": "직접 쿰스 검사(생체 내 적혈구 감작 확인용, 수혈 전 기본 선별 아님).",
+      "trap": "교차시험(Crossmatching)은 적혈구제제 불출 직전에 공혈자 적혈구와 환자 혈청을 반응시키는 것이며, 환자 자체 선별검사항목 1위는 불규칙항체 선별검사임.",
+      "trigger": "수혈 전 환자 검체로 반드시 시행해야 하는 법정 3대 수혈 전 검사 = 1) ABO 혈액형 검사, 2) Rh(D) 혈액형 검사, 3) 비예기항체(불규칙항체) 선별검사(Antibody screen)!",
+      "kmle_link": "KMLE 수혈의학 - 수혈 전 검사의 표준 절차"
+    }
+  },
+  {
+    "id": "진단검사의학과_21Y_Q12",
+    "index": 159,
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "q_num": 12,
+    "category": "탈",
+    "theme_title": "희귀 혈액형(AB Rh-) 응급 출혈 시 대체 수혈 프로토콜",
+    "subspecialty": "진단검사의학",
+    "stem": "급성출혈로 응급실에 온 환자. 수혈검사에서 AB, Rh(-)로 나왔다. 혈액은행에 해당 혈액이 없는 상 황. 적절한 대응은? 일단 AB, Rh(+) 혈액을 수혈한다",
+    "images": [],
+    "options": [
+      "① O형 Rh(-) 적혈구 제제 투여",
+      "② 보호자에게 치료 불가를 설명하고 대기",
+      "③ 혈액은행에 도착할 때까지 무한 대기",
+      "④ 일반 AB형 Rh(+) 전혈 즉시 투여",
+      "⑤ 생리식염수만 투여하고 수혈 중단"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① O형 Rh(-) 적혈구 제제 또는 동형 혈장 투여 고려",
+    "explanation": {
+      "title": "희귀 혈액형(AB Rh-) 응급 출혈 시 대체 수혈 프로토콜",
+      "findings": "AB형 Rh(-) 환자가 생명을 위협받는 대량 급성 출혈로 응급실에 내원하였으나 동형 혈액이 없는 경우, 즉시 투여 가능한 만능 적혈구 제제인 O형 Rh(-) 농축적혈구를 우선 수혈하여 산소 운반능을 유지해야 합니다.",
+      "differential": "• 적혈구 만능 공여자: O형 Rh(-)\n• 혈장/혈소판 만능 공여자: AB형 (항A, 항B 항체 없음)\n• 생명 위협 시 긴급 수혈: 교차시험 생략 O Rh(-) 적혈구 불출",
+      "trap": "Rh(-) 여성 환자에게 Rh(+) 적혈구를 투여하면 Anti-D 항체가 형성되어 향후 임신 시 신생아용혈성질환을 유발할 수 있으므로 극도로 주의해야 합니다.",
+      "trigger": "AB Rh(-) 응급 결핍 시 적혈구 대체 -> O형 Rh(-)",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_21Y_Q13",
+    "index": 160,
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "q_num": 13,
+    "category": "짤",
+    "theme_title": "임상 검사 판독 및 의의",
+    "subspecialty": "진단검사의학",
+    "stem": "검사 결과 혈액형은 무엇인가? A",
+    "images": [
+      "images/21Y_Q13_fig1.png"
+    ],
+    "options": [
+      "① B",
+      "② AB",
+      "③ O",
+      "④ 알 수 없다"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "[21Y Q13 & 19Y Q05] ③ 실온(20~24℃)에서 부드럽게 교반(Agitation)하며 보관 (O)",
+    "explanation": {
+      "title": "임상 검사 판독 및 의의",
+      "findings": "상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.",
+      "differential": "선지별 감별 임상 의의 및 관련 질환 감별 포인트 완결.",
+      "trap": "실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.",
+      "trigger": "임상 검사 판독 및 의의 핵심 지표 기준 즉시 정답 도출",
+      "kmle_link": "진단검사의학과"
+    }
+  },
+  {
+    "id": "진단검사의학과_21Y_Q14",
+    "index": 161,
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "q_num": 14,
+    "category": "짤",
+    "theme_title": "미생물 취급 실험실 개인보호구 및 손위생 원칙",
+    "subspecialty": "임상미생물학/감염관리",
+    "stem": "(Y) 다음 중 혈장제제 수혈이 필요한 경우가 아 닌 것은? 혈액량 증가",
+    "images": [],
+    "options": [
+      "① 단순 순환 혈액량 증가 (Volume expansion)",
+      "② 다발성 응고인자 결핍증",
+      "③ 간질환에 의한 중증 출혈 경향",
+      "④ 대량 수혈 시 희석성 응고장애 교정",
+      "⑤ 혈전성 혈소판감소성 자반증(TTP) 혈장교환술"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 장갑을 벗고 난 후 손을 씻지 않아도 된다. (X - 장갑 탈의 직후 반드시 손위생)",
+    "explanation": {
+      "title": "미생물 취급 실험실 개인보호구 및 손위생 원칙",
+      "findings": "너무나 당연한 감염관리 상식을 묻는 100% 득점용 서비스 족보.",
+      "differential": "가운 착용, 마스크/고글(비말 발생 조작 시), 실험실 문 닫힘 유지.",
+      "trap": "장갑 착용이 결코 손위생(Hand hygiene)을 대체할 수 없음.",
+      "trigger": "의료 및 검사실 감염관리 제1철칙 = 장갑(Gloves)을 착용했더라도 미세 구멍이나 벗는 과정에서 손이 오염되므로, 장갑을 벗은 직후에는 예외 없이 반드시 손을 씻어야 함!",
+      "kmle_link": "KMLE 감염학/예방의학 - 병원 표준주의 지침 및 손위생 원칙"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q01",
+    "index": 162,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 1,
+    "category": "탈",
+    "theme_title": "적혈구 크기 백분율(RDW) 변화 기전과 영향 요인",
+    "subspecialty": "진단검사의학",
+    "stem": "(17야마)RDW가 증가하는 상황이 아닌 것은?",
+    "images": [],
+    "options": [
+      "① iron deficiency anemia",
+      "② megaloblastic anemia",
+      "③ cold agglutinin disease",
+      "④ after FFP transfusion",
+      "⑤ severe agglutination"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ after FFP transfusion (신선동결혈장 수혈 후)",
+    "explanation": {
+      "title": "적혈구 크기 백분율(RDW) 변화 기전과 영향 요인",
+      "findings": "RDW(Red Cell Distribution Width)는 순환 적혈구 크기의 다양성(Anisocytosis, 적혈구부동증)을 나타내는 지표입니다. FFP(신선동결혈장)는 세포 성분이 전혀 없는 액체 혈장 제제이므로 적혈구의 크기나 분포도에 직접 영향을 주지 않습니다.",
+      "differential": "• RDW 증가 질환: IDA(철결핍빈혈), 거대적혈모구빈혈, 한랭응집소병(가성 덩어리), 적혈구 수혈 후(이중 세포군 출현)\n• RDW 정상 빈혈: 만성질환빈혈(ACD 일부), 지중해빈혈 경증(Thalassemia minor)",
+      "trap": "농축적혈구(RBC)를 수혈하면 공여 적혈구와 환자 적혈구가 혼재되어 RDW가 증가하지만, FFP는 적혈구가 없으므로 RDW에 영향이 없습니다.",
+      "trigger": "RDW 증가 상황 아닌 것 -> after FFP transfusion",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q02",
+    "index": 163,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 2,
+    "category": "짤",
+    "theme_title": "입안 출혈과 파종혈관내응고(DIC)를 동반한 APL",
+    "subspecialty": "진단검사의학",
+    "stem": "남성. 입안 출혈을 주소로 내원. 말초혈액검 사/골수검사 소견 주어짐. 가장 의심되는 진단 은? [혈액검사 소견 : Hb 6.7, WBC26000(모세포 30%), PLT 감소, PT, aPTT 증가]",
+    "images": [
+      "images/20Y_Q02_fig1.png"
+    ],
+    "options": [
+      "① Acute lymphocytic leukemia",
+      "② Chronic myelocytic leukemia",
+      "③ Chronic lymphocytic leukemia",
+      "④ Acute promyelocytic leukemia",
+      "⑤ Aplastic anemia"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ Acute promyelocytic leukemia (APL, M3)",
+    "explanation": {
+      "title": "입안 출혈과 파종혈관내응고(DIC)를 동반한 APL",
+      "findings": "Hb 6.7, WBC 26,000 (모세포/전골수구 다수), 현저한 혈소판 감소증, 그리고 PT/aPTT 연장은 백혈병 세포 과립 내 조직인자 방출로 인한 전형적인 DIC 동반 급성전골수구성백혈병(APL) 소견입니다.",
+      "differential": "• APL (M3): t(15;17), PML-RARA, 다발성 Auer rod(Faggot cell), 생명을 위협하는 치명적 DIC 호발\n• 치료: 진단 즉시 응급 ATRA(Tretinoin) 투여",
+      "trap": "APL 환자는 뇌출혈 등 치명적 DIC 출혈로 조기 사망할 수 있으므로 유전자 결과 전이라도 임상 의심 즉시 ATRA를 투여해야 합니다.",
+      "trigger": "구강 출혈 + 골수 미성숙 과립구 + DIC 소견 -> Acute promyelocytic leukemia (APL)",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q03",
+    "index": 164,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 3,
+    "category": "짤",
+    "theme_title": "위축성 위염 병력 환자의 악성빈혈(Pernicious Anemia)",
+    "subspecialty": "진단검사의학",
+    "stem": "60세 여성 피로감 주소로 내원. 이전에 위축 성 위염 진단 받은 병력 있다고 함. 혈액검사 및 말초혈액도말 소견 주어짐. 가장 의심되는 진단은? [혈액검사 소견 : Hb 9, WBC 2800 , PLT 10만 혈 청 철, 페리틴 수치 주어짐(참고범위 안줌.) , VitB12 감소(정상수치 유일하게 주어짐) , 항 내인자 항체(+) , 항 parietal cell 항체(+)]",
+    "images": [
+      "images/20Y_Q03_fig1.png"
+    ],
+    "options": [
+      "① Iron deficiency anemia",
+      "② Megaloblastic anemia",
+      "③ Acute leukemia",
+      "④ Autoimmune hemolytic anemia",
+      "⑤ Aplastic anemia"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Megaloblastic anemia (거대적혈모구빈혈)",
+    "explanation": {
+      "title": "위축성 위염 병력 환자의 악성빈혈(Pernicious Anemia)",
+      "findings": "만성 위축성 위염으로 인한 벽세포(parietal cell) 소실, 항내인자항체(+), 항벽세포항체(+), 혈중 Vitamin B12 감소 및 범혈구감소 경향(Hb 9, WBC 2800, PLT 10만)은 전형적인 자가면역성 악성빈혈(Pernicious anemia, Megaloblastic anemia)입니다.",
+      "differential": "• 악성빈혈: Vit B12 결핍, 고분엽성 호중구(Hypersegmented neutrophil), 대적혈구(MCV > 100)\n• IDA: 소구성 저색소성(MCV < 80), 페리틴 감소",
+      "trap": "Vit B12 결핍은 신경학적 증상(아급성 연합변성)을 동반할 수 있으며, 엽산만 단독 투여 시 신경 손상이 비가역적으로 악화됩니다.",
+      "trigger": "위축성 위염 + Vit B12 감소 + 항내인자항체(+) -> Megaloblastic anemia",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q04",
+    "index": 165,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 4,
+    "category": "탈",
+    "theme_title": "발열, 인후통, 비장비대와 비정형 림프구 (감염성 단핵구증)",
+    "subspecialty": "진단검사의학",
+    "stem": "8세 여아. 발열과 인후 통증을 주소로 내원 편도에 발적과 표면에 하얀 막이 관찰됨. 목에 서 3cm정도의 림프절이 여러 개 만져지고, 만 지면 아파함. 좌측 갈비뼈 아래로 지라가 3cm 정도 만져짐. 혈액검사 및 말초혈액도말검사는 다음과 같고, 아래의 세포가 전체 백혈구의 30% 를 차지했다. 가장 의심되는 진단은? [혈액검사 소견 : WBC 19000(림프구 70%)]",
+    "images": [],
+    "options": [
+      "① 감염성 단핵구증 (Infectious Mononucleosis)",
+      "② 급성 림프구성 백혈병 (ALL)",
+      "③ 만성 림프구성 백혈병 (CLL)",
+      "④ 전염성 홍반",
+      "⑤ 가와사키병"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 감염성 단핵구증 (Infectious Mononucleosis, EBV 감염)",
+    "explanation": {
+      "title": "발열, 인후통, 비장비대와 비정형 림프구 (감염성 단핵구증)",
+      "findings": "소아의 발열, 인후통, 편도 위막, 경부 림프절염, 비장종대와 함께 말초혈액도말에서 풍부한 세포질이 적혈구와 맞닿아 압흔을 보이는 비정형 림프구(Atypical reactive lymphocyte)가 백혈구의 30%를 차지하는 것은 전형적인 EBV 감염성 단핵구증입니다.",
+      "differential": "• 감염성 단핵구증: 반응성 CD8+ T 림프구 활성화, Downey cell\n• ALL: 균일하고 미성숙한 림프모구(Lymphoblast), 빈혈 및 혈소판 감소증 동반",
+      "trap": "반응성 림프구의 형태가 다양하고 풍부한 세포질을 가지는 반면, 백혈병 림프모구는 핵세포질비(N:C ratio)가 매우 높고 핵소체가 관찰됩니다.",
+      "trigger": "발열 + 편도염 + 림프절/비장비대 + 비정형 림프구 > 10% -> 감염성 단핵구증",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q05",
+    "index": 166,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 5,
+    "category": "짤",
+    "theme_title": "국내 토착 말라리아 원충 도말 소견 (P. vivax)",
+    "subspecialty": "진단검사의학",
+    "stem": "다음과 같은 PBS 소견을 보이는 경우는?",
+    "images": [
+      "images/20Y_Q05_fig1.png"
+    ],
+    "options": [
+      "① Plasmodium vivax (삼일열 말라리아)",
+      "② Plasmodium falciparum (열대열 말라리아)",
+      "③ Plasmodium malariae (사일열 말라리아)",
+      "④ Plasmodium ovale (난형열 말라리아)",
+      "⑤ Babesia microti"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Plasmodium vivax (삼일열 말라리아)",
+    "explanation": {
+      "title": "국내 토착 말라리아 원충 도말 소견 (P. vivax)",
+      "findings": "말초혈액도말 김자(Giemsa) 염색에서 감염된 적혈구가 비대해지고, 슈프너 반점(Schüffner dots)이 관찰되며, 아메바 모양의 영양체(Trophozoite)가 관찰되는 것은 국내 경기 북부 및 강원 지역 호발 삼일열 말라리아(P. vivax)의 특징입니다.",
+      "differential": "• P. vivax: 감염 적혈구 비대, Schüffner 반점, 불규칙 영양체\n• P. falciparum: 감염 적혈구 크기 불변, 다수 윤상체(Headphone ring), 초승달/바나나 모양 생식모세포",
+      "trap": "P. vivax는 간내 휴면체(Hypnozoite)를 형성하므로 혈액 내 원충 박멸(Chloroquine) 후 반드시 프리마퀸(Primaquine)을 투여해야 재발을 방지합니다.",
+      "trigger": "적혈구 비대 + Schüffner 반점 + 국내 호발 말라리아 -> P. vivax",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q06",
+    "index": 167,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 6,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 빈혈 및 골수 검사 소견 해석",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "60세 여성 피로를 주소로 내원. 혈액검사/골 수검사 소견 주어짐. 가장 의심되는 진단은? [혈액검사 소견 : Hb. 감소 WBC 증가, PLT 감 소, Cr. 2.3  Protein 9.4  Albumin 2.2]",
+    "images": [
+      "images/20Y_Q06_fig1.png",
+      "images/20Y_Q06_fig2.png"
+    ],
+    "options": [
+      "① ALL",
+      "② AML",
+      "③ Plasma cell myeloma",
+      "④ CML",
+      "⑤ Aplastic anemia"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "[21Y Q48 & 20Y Q06] ③ 다발골수종 (Plasma cell myeloma, Multiple myeloma)",
+    "explanation": {
+      "title": "[과년도 빈출] 빈혈 및 골수 검사 소견 해석",
+      "findings": "• [21Y Q48 & 20Y Q06] 정답: ③ 다발골수종 (Plasma cell myeloma)\n  - 지문: 60세 여성 피로. 혈액검사: Hb 감소(빈혈), Cr 2.3(신부전), Total Protein 9.4, Albumin 2.2 -> A/G 역전 및 글로불린 7.2 급증!\n  - 골수검사: 형질세포(Plasma cell) 현저한 증식 관찰.",
+      "differential": "1. CRAB 증후군 판독:\n   • HyperCalcemia, Renal failure (Cr 2.3), Anemia (Hb 저하), Bone lesion\n   • 총단백 - 알부민 = 7.2 g/dL (단클론 감마글로불린병증 시사)",
+      "trap": "단백질이 높고 알부민이 낮을 때 단순 간질환으로 오진하지 말 것(글로불린 갭 확인).",
+      "trigger": "노인 빈혈 + Cr 상승 + 총단백 급증(A/G 역전) + 골수 형질세포 -> 다발골수종!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q07",
+    "index": 168,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 7,
+    "category": "짤",
+    "theme_title": "철결핍빈혈(IDA) 말초혈액도말 소견 판독",
+    "subspecialty": "진단검사의학",
+    "stem": "다음 PBS에서 관찰되지 않는 소견은?",
+    "images": [
+      "images/20Y_Q07_fig1.png"
+    ],
+    "options": [
+      "① Spherocyte (구상적혈구)",
+      "② Target cell (표적적혈구)",
+      "③ Elliptocyte (타원적혈구)",
+      "④ Microcytic erythrocyte (소적혈구)",
+      "⑤ Hypochromic erythrocyte (저색소성 적혈구)"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Spherocyte (구상적혈구)",
+    "explanation": {
+      "title": "철결핍빈혈(IDA) 말초혈액도말 소견 판독",
+      "findings": "중증 IDA 혈액도말에서는 소구성 저색소성 적혈구(Microcytic hypochromic RBC), 연필 모양의 타원적혈구(Elliptocyte/Pencil cell), 표적적혈구(Target cell)가 흔히 관찰됩니다. 반면 구상적혈구(Spherocyte)는 중앙 창백이 소실된 고농도 적혈구로 유전구상적혈구증이나 자가면역용혈빈혈에서 관찰되며 IDA 소견이 아닙니다.",
+      "differential": "• IDA 소견: 소적혈구, 저색소성(중앙창백 1/3 이상), Pencil cell, Target cell\n• Spherocyte 관찰 질환: Hereditary spherocytosis, AIHA",
+      "trap": "IDA에서 적혈구막 손상이나 철 결핍으로 표적구나 타원구가 보일 수 있지만, 중앙 창백이 사라진 구상적혈구는 관찰되지 않습니다.",
+      "trigger": "IDA 도말에서 관찰되지 않는 소견 -> Spherocyte",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q08",
+    "index": 169,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 8,
+    "category": "짤",
+    "theme_title": "수술 전 우연히 발견된 혈소판 20,000/uL 환자의 즉각적 처치",
+    "subspecialty": "진단혈액학",
+    "stem": "수술 받으러 온 환자, PLT 20000나옴. 다음 으로 해야할 검사는 ?",
+    "images": [],
+    "options": [
+      "① 골수검사",
+      "② 말초 혈액 도말검사"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 말초 혈액 도말검사와 sodium citrate tube으로 재검",
+    "explanation": {
+      "title": "수술 전 우연히 발견된 혈소판 20,000/uL 환자의 즉각적 처치",
+      "findings": "가장 빠르고 비용효과적인 1차 검증 조치를 묻는 실전 임상 문항.",
+      "differential": "혈소판 수혈(진성 출혈 위험 시에만 시행), 골수검사(가성 배제 후 고려).",
+      "trap": "환자에게 멍이나 점상출혈이 전혀 없는데 혈소판만 단독으로 2만으로 나오면 99% EDTA 응집 가성 감소증임. 혈소판제제 즉각 수혈은 절대 금기 오답!",
+      "trigger": "출혈 증상 없는 수술 예정 환자에서 PLT 20,000으로 급감 보고 시 -> 수술 연기나 불필요한 혈소판 수혈을 하기 전에 반드시 말초혈액도말(PBS)로 혈소판 응집을 확인하고 Sodium citrate 튜브로 재채혈하여 가성 혈소판 감소증(Pseudothrombocytopenia)을 먼저 배제해야 함!",
+      "kmle_link": "KMLE 혈액학/외과 - 수술 전 혈소판 감소증 환자의 안전 평가"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q09",
+    "index": 170,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 9,
+    "category": "짤",
+    "theme_title": "류마티스 인자(Rheumatoid Factor, RF)의 주된 면역글로불린 동형",
+    "subspecialty": "진단면역학",
+    "stem": "(야마) RF의 주된 isotype은?",
+    "images": [],
+    "options": [
+      "① IgM-RF",
+      "② IgG-RF",
+      "③ IgA-RF",
+      "④ IgD-RF"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① IgM-RF (IgG의 Fc 부위에 결합하는 IgM 항체)",
+    "explanation": {
+      "title": "류마티스 인자(Rheumatoid Factor, RF)의 주된 면역글로불린 동형",
+      "findings": "면역학적 정의: RF는 \"자가 IgG의 Fc 부위에 대한 자가항체\"이며 주 동형은 IgM.",
+      "differential": "Anti-CCP(Citrullinated peptide 항체, RA 특이도 95% 이상).",
+      "trap": "IgG-RF나 IgA-RF도 존재하나 임상 검사실에서 라텍스 응집법/비탁법으로 통상 검출하는 90% 이상의 주된 형태는 IgM-RF임.",
+      "trigger": "임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체.",
+      "kmle_link": "KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q10",
+    "index": 171,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 10,
+    "category": "탈",
+    "theme_title": "HLA 교차시험(Crossmatching) 조합 원리",
+    "subspecialty": "진단검사의학",
+    "stem": "HLA crossmatching 방법으로 옳은 것?",
+    "images": [],
+    "options": [
+      "① Donor serum – Recipient T, B cell",
+      "② Recipient serum – Donor T, B cell",
+      "③ Donor serum - Donor T, B cell",
+      "④ Recipient serum - Recipient T, B cell",
+      "⑤ Recipient whole blood - Donor RBC"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Recipient serum – Donor T, B cell",
+    "explanation": {
+      "title": "HLA 교차시험(Crossmatching) 조합 원리",
+      "findings": "신장 등 고형장기 이식 전 초급성 거부반응을 방지하기 위한 HLA 교차시험은 수혜자의 혈청(Recipient serum) 내에 공여자의 주조직적합항원(Donor T, B cell)에 반응하는 세포독성 항체가 존재하는지 여부를 측정합니다.",
+      "differential": "• Recipient serum + Donor T cell (+): Class I 항체 양성 -> 이식 절대 금기\n• Recipient serum + Donor B cell (+): Class II 항체 또는 자가항체 감별 필요",
+      "trap": "수혈의 교차시험과 장기이식의 HLA 교차시험에서 혈청과 세포의 주체를 정확히 구분해야 합니다.",
+      "trigger": "HLA 교차시험 방법 -> Recipient serum + Donor T, B cell",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q11",
+    "index": 172,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 11,
+    "category": "반짤",
+    "theme_title": "[과년도 빈출] PPD 피부반응검사와 IGRA 원리 및 BCG 위양성 감별 (발문 변형)",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "(야마) PPD 피부반응검사와 IGRA에 대한 설 명으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "① PPD는 과거 결핵균에 감작된 T림프구 에 결핵균 항원을 자극하여 분비되는 인터페론 감마를 측정한다.",
+      "② IGRA는 지연성 과민반응을 이용하여 체내에서 APC에 의하여 T세포에 항원 이 전달 인지 증식 되어 과민반응을 일으키는 과정의 면역반응을 전반적으 로 평가하는 방법이다.",
+      "③ IGRA 검사는 결과 판독을 위해 48-72 시간 후에 한번 더 방문해야 하지만 PPD 한번의 방문으로 진단 가능하므 로 환자가 편리하다.",
+      "④ IGRA 검사는 BCG백신이나 비결핵 항 산균 감염에 의해서도 위양성 반응을 보일 수 있지만 PPD는 결핵균 항원만 이용하므로 IGRA 검사보다 위양성률 이 낮다.",
+      "⑤ PPD 피부반응 검사와 IGRA 모두 잠복 결핵과 활동성 결핵을 감별할 수 없다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "PPD 검사는 BCG 접종력의 영향을 받지 않는다 (X - PPD는 위양성을 보이며, IGRA가 BCG 영향을 안 받음)",
+    "explanation": {
+      "title": "[과년도 빈출] PPD 피부반응검사와 IGRA 원리 및 BCG 위양성 감별 (발문 변형)",
+      "findings": "• [22Y Q27 & 21Y Q02 & 20Y Q11 & 19Y Q06] 4개년 연속 출제!\n  - 지문: PPD 피부반응검사(TST)와 IGRA에 대한 설명으로 옳은 것은?\n  - 정답: IGRA는 BCG 백신 균주에 없는 결핵균 특이 항원(ESAT-6, CFP-10)을 사용하므로 BCG 접종자에서 위양성이 없음.",
+      "differential": "1. TST(PPD) vs IGRA 감별 비교:\n   • TST: PPD 투여 후 48~72시간 뒤 경결 직경 판독. BCG 접종 및 NTM 감염 시 위양성 빈발. 부스팅 현상 있음.\n   • IGRA: 전혈 채혈 1회 방문. BCG 접종 여부와 무관(특이도 98% 이상). 면역저하자에서 Indeterminate 판정 가능.",
+      "trap": "PPD는 과거 BCG 접종력에 의해 위양성이 흔하므로 우리나라처럼 BCG 접종국가에서는 IGRA가 훨씬 우월함.",
+      "trigger": "★ 발문 변형 주의(반짤)! 22Y는 옳지 않은 것, 21Y/20Y는 옳은 것을 묻는 변형 출제! 핵심: IGRA는 BCG 접종에 위양성 없음(ESAT-6, CFP-10 특이항원) & 두 검사 모두 잠복/활동성 감별 불가!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q12",
+    "index": 173,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 12,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 유전질환(Genetic disorder)의 분류 및 특징",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "유전질환(genetic disorder)에 대해 옳은것?",
+    "images": [],
+    "options": [
+      "① 유전질환(genetic disorder)은 환경적 영향을 받지 않는다.",
+      "② 암은 환경적 영향을 받기 때문에 유전질환 이 애니다.",
+      "③ 유전질환은 부모로부터 물려받은 돌연변이 이다.",
+      "④ 근육의 mitrochondria genome 변이에 의한 질환도 유전질환이다.",
+      "⑤ 다운증후군은 염색체이상이기 때문에 유전 질환이 아니다."
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "[21Y Q27 & 20Y Q12] ④ 미토콘드리아 유전자 변이에 의한 질환도 유전질환에 포함된다 (O)",
+    "explanation": {
+      "title": "[과년도 빈출] 유전질환(Genetic disorder)의 분류 및 특징",
+      "findings": "• [21Y Q27 & 20Y Q12] 정답: ④ 미토콘드리아 유전질환 포함 (모계 유전)\n  - 지문: 유전질환(Genetic disorder)의 개념에 대해 옳은 것은?\n  - 오답: 환경적 영향을 받지 않는다(X - 다인자 유전은 환경과 상호작용), 암은 유전질환이 아니다(X - 암은 체세포 유전질환)",
+      "differential": "1. 유전질환의 광의적 분류:\n   • 단일유전자 질환(멘델 유전), 염색체 이상 질환, 다인자 질환(환경+유전), 미토콘드리아 유전질환, 체세포 유전질환(암)",
+      "trap": "암(Cancer) 역시 유전자 돌연변이에 의해 발생하는 유전질환(체세포 유전질환) 범주에 속함.",
+      "trigger": "유전질환 개념 -> 미토콘드리아 질환 포함 & 암도 체세포 유전질환!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q13",
+    "index": 174,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 13,
+    "category": "탈",
+    "theme_title": "중합효소 연쇄반응(PCR)의 주기적 단계 순서",
+    "subspecialty": "진단검사의학",
+    "stem": "(주관식) PCR 과정을 순서대로 쓰세요 가. Primer 부착 나. Elongation 다. Denaturation of DNA 라. DNA polymerase 부착 다 – 가 – 라 – 나",
+    "images": [],
+    "options": [
+      "① 다 – 가 – 라 – 나 (변성 -> 결합 -> 중합효소 결합 -> 신장)",
+      "② 가 – 나 – 다 – 라",
+      "③ 다 – 라 – 가 – 나",
+      "④ 가 – 다 – 나 – 라",
+      "⑤ 라 – 다 – 가 – 나"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 다 – 가 – 라 – 나 (Denaturation -> Annealing -> Polymerase binding -> Elongation)",
+    "explanation": {
+      "title": "중합효소 연쇄반응(PCR)의 주기적 단계 순서",
+      "findings": "PCR 1사이클의 진행 순서는 다음과 같습니다: 다. Denaturation (94~95℃ 이중가닥 DNA 변성/해리) -> 가. Annealing (50~65℃ 프라이머 서열 특이적 결합) -> 라. DNA Polymerase 부착 -> 나. Elongation (72℃ Taq 중합효소에 의한 신장 및 증폭).",
+      "differential": "• 1단계: 열변성 (95℃)\n• 2단계: 프라이머 부착 (55℃)\n• 3단계: 신장 (72℃)",
+      "trap": "각 단계의 온도 설정(95℃ -> 55℃ -> 72℃)과 분자적 기전을 순서대로 매핑해야 합니다.",
+      "trigger": "PCR 단계 순서 -> 변성(다) -> 결합(가) -> 중합(라) -> 신장(나)",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q14",
+    "index": 175,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 14,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] NGS 에 대한 설명 모두 고르세요. ",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "(야마 변형) NGS 에 대한 설명 모두 고르세 요",
+    "images": [],
+    "options": [
+      "① 모든 유전자 서열을 한번에 검사할 수 있다.",
+      "② 환자가 표현하는 임상 양상에 관한 유전자 외의 염기를 분석하는 것은 윤리적으로 옳지 않으므로 시행해서는 안된다.",
+      "③ artifact제거를 위해 표준유전서열(reference) 과 비교하는 bioinformatic를 사용해야 한다.",
+      "④ 모든 유전자 서열을 검사하여 대부분 희귀 질환의 원인유전자를 밝혔다.",
+      "⑤ VUS에 해당하는 영역은 benign 질환이라고 봐도 된다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[22Y Q39 & 20Y Q14] ① 모든 유전자 서열을 한 번에 대량 병렬 분석할 수 있다 (O)",
+    "explanation": {
+      "title": "[과년도 빈출] NGS 에 대한 설명 모두 고르세요. ",
+      "findings": "• [22Y Q39 & 20Y Q14] 정답: ① 대량 병렬 염기서열 분석 (Massively Parallel Sequencing)\n  - 지문: 차세대 염기서열 분석(NGS)에 대한 설명으로 옳은 것은?\n  - 수백만 개의 DNA 단편을 동시에 병렬 분석하여 전장 유전체/엑솜을 신속히 해독함.",
+      "differential": "1. 생거 시퀀싱 vs NGS 차이:\n   • 생거: 모세관 전기영동, 1개 단편씩 순차 분석(단일 유전자 확진용)\n   • NGS: 대량 병렬 분석, 패널/엑솜 전체 동시 분석(다중 유전자 변이 스크리닝)",
+      "trap": "NGS 결과는 생물정보학(Bioinformatics) 필터링 및 표준 유전체(Reference) 대조가 필수적임.",
+      "trigger": "NGS -> 대량 병렬 염기서열 분석 (모든 타깃 유전자 동시 해독)!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q15",
+    "index": 176,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 15,
+    "category": "짤",
+    "theme_title": "암의 유전학적 본질: 만성 B형간염 유발 간세포암도 유전질환(Genetic Disorder)",
+    "subspecialty": "진단유전학/종양학",
+    "stem": "암 유전에 관해 옳은 것은?",
+    "images": [],
+    "options": [
+      "① somatic variant의 경우 50%의 확률로 자손 에게 전달된다.",
+      "② germline brca1 변이 가진 사람의 경우 penetrance는 거의 100%이다.",
+      "③ 표적치료하다가 동일한 부위에 동일한 암이 재발해도 유전자검사를 또 해야한다.",
+      "④ 암은 유전질환이므로 치료와 예후를 예측하 기 위해 반드시 유전자검사를 해야한다.",
+      "⑤ 유전성 암 신드롬 가족 중 암이 발병하지 않은 사람은 유전자검사를 안받아도 된다."
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ 만성적인 HBV 감염에 의한 hepatocellular carcinoma는 유전질환(genetic disorder)이다.",
+    "explanation": {
+      "title": "암의 유전학적 본질: 만성 B형간염 유발 간세포암도 유전질환(Genetic Disorder)",
+      "findings": "발암 인자(HBV)가 숙주 DNA에 통합되어 체세포 유전체 변이를 유발하므로 Genetic disorder 범주에 속함.",
+      "differential": "유전성 암 증후군(Lynch, FAP, Li-Fraumeni - 생식세포 변이).",
+      "trap": "유전질환(Genetic disorder)과 부모에게서 물려받는 유전성 질환(Hereditary/Inherited disorder)을 혼동하여 \"외부 바이러스로 생긴 암이 왜 유전질환이냐\"고 생각하면 함정에 빠짐.",
+      "trigger": "암(Cancer)은 세포 내 유전자 변이(체세포 돌연변이, Somatic mutation)가 축적되어 발생하는 \"체세포 수준의 유전질환(Genetic disease of somatic cells)\"임! 바이러스나 환경 요인으로 발생했더라도 본질은 유전질환!",
+      "kmle_link": "KMLE 종양학 - 암의 분자생물학적 발암 기전"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q16",
+    "index": 177,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 16,
+    "category": "짤",
+    "theme_title": "유전 질환의 광의적 개념: 환경적 인자(Environmental Factors)의 포함",
+    "subspecialty": "진단유전학",
+    "stem": "(19,18야마)variant에 관한 문제. 옳은 것 모 두 고르시오.  (다중체크로 안나옴..)",
+    "images": [],
+    "options": [
+      "① reference genome과 비교하여 다르면 variant라고 한다.",
+      "② 인구 집단의 변이 빈도를 알면 pathogenicity를 알수 있다.",
+      "③ genome의 변이는 부모로부터 물려받고자손 으로 전달된다.",
+      "④ variant가 있으면 100% 기능의 변화를 일으 킨다.",
+      "⑤ 유전 질환 중 환경에 의해 영향을 받는 질 환은 멘델의 유전법칙을 따른다"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 유전 질환(genetic disorder)은 환경적 인자를 포함한다.",
+    "explanation": {
+      "title": "유전 질환의 광의적 개념: 환경적 인자(Environmental Factors)의 포함",
+      "findings": "Q34, Q35, Q37과 궤를 같이하는 유전의학 총론의 기본 철학 문항.",
+      "differential": "단일 유전자 질환(환경 영향 상대적 작음), 다인자 질환(환경 영향 지대함).",
+      "trap": "유전 질환이 오직 DNA 염기서열만으로 100% 결정된다는 보기는 대표적 오답.",
+      "trigger": "유전 질환(Genetic disorder)은 순수 멘델 유전뿐 아니라 다인자 유전 질환(당뇨, 고혈압, 관상동맥질환, 암 등)처럼 환경적 인자(후성유전, 흡연, 식이)와의 복합적 상호작용을 포괄함!",
+      "kmle_link": "KMLE 의학유전학 - 다인자성 질환 및 환경 유전학"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q17",
+    "index": 178,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 17,
+    "category": "짤",
+    "theme_title": "가족성 메니에르병(Familial Meniere Disease) 가계도와 불완전 침투율",
+    "subspecialty": "진단유전학",
+    "stem": "(야마-주관식이였던 문제가 객관식으로) 다음 그림은 SENA3D-유전자에 pathogenic variant가 발견된 familiar Meniere’s disease 환 자의 가계도 이다. 옳은 것은?",
+    "images": [
+      "images/20Y_Q17_fig1.png"
+    ],
+    "options": [
+      "① Variable expressivity 이다.",
+      "② Incomplete penetrance이다.",
+      "③ 부모에게 모자이시즘이 있다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Incomplete penetrance (불완전 침투율을 보이는 상염색체 우성 유전)",
+    "explanation": {
+      "title": "가족성 메니에르병(Familial Meniere Disease) 가계도와 불완전 침투율",
+      "findings": "가계도 분석 문제에서 침투율 관련 보기가 핵심 정답 포인트로 매년 출제.",
+      "differential": "완전 침투(변이 보유자 전원 발병), 반성 유전(성별 편중).",
+      "trap": "선지에서 \"Complete penetrance이다\"는 대표적 오답 지문.",
+      "trigger": "가족성 메니에르병 가계도에서 상염색체 우성(AD) 양식을 띠지만 유전자 변이를 가진 보인자가 발병하지 않고 건너뛰는 양상 = Incomplete penetrance (침투율 약 60%)!",
+      "kmle_link": "KMLE 이비인후과/의학유전학 - 메니에르병 및 가계도 침투율 분석"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q18",
+    "index": 179,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 18,
+    "category": "탈",
+    "theme_title": "근위축성 측삭경화증(ALS) 가계도와 불완전 침투율",
+    "subspecialty": "진단검사의학",
+    "stem": "(야마 객관식으로 변형) ALS 가계도이다. 옳은 것은?",
+    "images": [],
+    "options": [
+      "① Variable expressivity이다",
+      "② Incomplete penetrance이다",
+      "③ 부모에게 모자이시즘이 있다",
+      "④ X-연쇄 열성 유전이다",
+      "⑤ 미토콘드리아 유전이다"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Incomplete penetrance (불완전 침투율)이다",
+    "explanation": {
+      "title": "근위축성 측삭경화증(ALS) 가계도와 불완전 침투율",
+      "findings": "상염색체 우성(AD)으로 유전되는 신경퇴행질환(가족성 ALS) 가계도에서 원인 돌연변이 대립유전자를 물려받았음에도 일생 동안 질환 표현형이 발현되지 않고 정상으로 생존하는 개체가 존재하므로 이는 불완전 침투율(Incomplete penetrance)의 전형적인 증거입니다.",
+      "differential": "• Incomplete penetrance: 특정 유전자형 보유자 중 표현형이 나타나는 개체의 비율이 100% 미만\n• Variable expressivity: 발병한 개체들 사이에서 증상의 심각도가 다름\n• Mosaicism: 단일 개체 내에 둘 이상의 유전적 세포 계통 공존",
+      "trap": "우성 가계도에서 세대를 건너뛰는 현상(Skipped generation)의 가장 대표적인 원인이 불완전 침투율입니다.",
+      "trigger": "ALS 가계도 세대 건너뜀 -> Incomplete penetrance",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q19",
+    "index": 180,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 19,
+    "category": "반짤",
+    "theme_title": "[과년도 빈출] 항글로불린 검사 모식도 판독: 직접(DAT) vs 간접(IAT) 변형",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "다음 그림에 나타난 검사는 무엇인가?",
+    "images": [
+      "images/20Y_Q19_fig1.png"
+    ],
+    "options": [
+      "① A. 간접 항글로불린 검사",
+      "② B. 직접 항글로불린 검사"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[20Y Q19] ① 간접 항글로불린 검사 (IAT)",
+    "explanation": {
+      "title": "[과년도 빈출] 항글로불린 검사 모식도 판독: 직접(DAT) vs 간접(IAT) 변형",
+      "findings": "• [22Y Q44] 정답: ① 직접 항글로불린 검사 (DAT)\n  - 모식도: Patient Sample RBCs + Coombs reagent -> Agglutination (HDN baby sample 양성 예시).\n• [20Y Q19] 정답: ① 간접 항글로불린 검사 (IAT)\n  - 모식도: STEP 1 (Rh+ RBCs + Patient Sample) -> STEP 2 (+ anti-Hu IgG) -> Agglutination.",
+      "differential": "1. DAT vs IAT 모식도 감별 핵심:\n   • DAT(직접 쿰스): 환자 체내에서 이미 항체가 결합된 적혈구(Patient Sample RBCs)에 항글로불린 시약 첨가하여 응집 (1단계 반응, AIHA, HDN 아기 검체).\n   • IAT(간접 쿰스): 환자 혈청(Patient Sample serum) 속 유리 항체와 O형 시약 적혈구를 시험관 내에서 먼저 반응(감작)시킨 후 항글로불린 시약 첨가하여 응집 (2단계 반응, 산모 혈청 비예기항체 선별, 교차시험).",
+      "trap": "혈청을 시약 적혈구와 인큐베이션하는 2단계(STEP 1/2)가 보이면 간접(IAT), 이미 부착된 적혈구에 바로 시약을 넣으면 직접(DAT)임.",
+      "trigger": "★ 모식도 변형 주의(반짤)! 20Y는 2단계 간접(IAT), 22Y는 1단계 직접(DAT)으로 정답이 정반대!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q20",
+    "index": 181,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 20,
+    "category": "탈",
+    "theme_title": "수혈관련 이식편대숙주병(TA-GVHD)의 예방",
+    "subspecialty": "진단검사의학",
+    "stem": "(야마) GVHD 예방을 위해 필요한 과정 은?",
+    "images": [],
+    "options": [
+      "① 방사선 조사 (Gamma irradiation)",
+      "② 적혈구 세척 (Cell washing)",
+      "③ 백혈구 제거 여과 (Leukocyte filtering)",
+      "④ 성분채집술 (Apheresis)",
+      "⑤ 혈장교환술 (Plasmapheresis)"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 방사선 조사 (Gamma irradiation)",
+    "explanation": {
+      "title": "수혈관련 이식편대숙주병(TA-GVHD)의 예방",
+      "findings": "TA-GVHD는 수혈된 혈액 제제 내의 면역적격 림프구(T-cell)가 면역저하 환자의 체내에 착상하여 숙주 조직을 공격하는 치사율 >90%의 질환입니다. 이를 완벽히 예방하는 유일한 표준 방법은 감마선 방사선 조사(Gamma irradiation, 25 Gy)로 림프구의 증식 능력을 불활성화하는 것입니다.",
+      "differential": "• 방사선 조사: TA-GVHD 예방 (유일한 확실한 방법)\n• 백혈구 여과(Leukoreduction): 발열성 비용혈수혈반응(FNHTR) 예방, CMV 전파 감소, HLA 동종면역 억제\n• 세척 적혈구(Washed RBC): 아나필락시스(IgA 결핍증 등), 중증 알레르기 수혈반응 예방",
+      "trap": "백혈구 제거 필터로는 미세 림프구를 완전히 제거할 수 없으므로 GVHD 예방 목적으로는 반드시 \"방사선 조사\"를 시행해야 합니다.",
+      "trigger": "GVHD 예방 -> 방사선 조사 (Gamma irradiation)",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q21",
+    "index": 182,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 21,
+    "category": "짤",
+    "theme_title": "수혈 후 비예기항체(Unexpected Antibodies) 형성 위험과 관리",
+    "subspecialty": "수혈의학",
+    "stem": "비예기 항체검사에 대해 옳은 것은?",
+    "images": [],
+    "options": [
+      "① 선별검사 음성 시 비예기항체 동 정검사는 하지 않는다",
+      "② 응급 수혈이 필요할 땐 비예기 항 체검사를 빨리 해달라고 한다",
+      "③ 환자의 적혈구와 검사 serum을 반 응시킨다",
+      "④ 헌혈 공여자가 Weak D인 경우 혈 액은 RhD(-)로 분류하는 것이 안 전하다",
+      "⑤ 헌혈 후 비예기항체가 생길 수 있 다"
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 수혈 후 비예기항체가 생길 수 있는 것에 주의한다.",
+    "explanation": {
+      "title": "수혈 후 비예기항체(Unexpected Antibodies) 형성 위험과 관리",
+      "findings": "안전 수혈 지침의 핵심 임상 원칙 숙지.",
+      "differential": "급성 용혈(ABO 불일치), 지연 용혈(비예기항체 아나므네스 반응).",
+      "trap": "한 번 교차시험이 맞았다고 해서 다음 수혈 때 이전 검사 결과를 재활용하면 지연성 용혈성 수혈반응(DHTR)으로 치명적 위험 초래.",
+      "trigger": "수혈을 반복적으로 받은 환자는 공혈자 적혈구의 미세 항원(Rh E, c, Kell, Duffy, Kidd 등)에 동종면역(Alloimmunization)되어 새로운 비예기항체가 생성될 수 있으므로, 매 수혈 시마다 72시간 이내 새 검체로 항체선별검사를 반복해야 함!",
+      "kmle_link": "KMLE 수혈의학 - 수혈 부작용(동종면역 및 지연성 용혈 반응)"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q22",
+    "index": 183,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 22,
+    "category": "짤",
+    "theme_title": "Rh 혈액형의 발달: 태아기(Fetal stage)의 조기 발현",
+    "subspecialty": "수혈의학",
+    "stem": "다음 중 옳은 것은?",
+    "images": [],
+    "options": [
+      "① Rh D 항원은 적혈구 뿐 아니라 다 양한 조직에서 나타나는 조직적합 성 항원이다",
+      "② Rh D 혈액형 유전자는 9번 염색체 에 존재한다",
+      "③ Rh D 항원은 규칙적으로 존재하는 자연 항체이며 IgM의 형태로 존재"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 태아 상태에서 확인할 수 있다. (Rh 항원은 태아기에 완성됨)",
+    "explanation": {
+      "title": "Rh 혈액형의 발달: 태아기(Fetal stage)의 조기 발현",
+      "findings": "Rh 항원의 태아기 발현 특성을 묻는 발생면역학적 족보.",
+      "differential": "ABO 항원(신생아기 미발달, 흡착 항원 아님), Lewis 항원(출생 시 음성).",
+      "trap": "ABO 혈액형 항원은 신생아 때 성인의 20~50% 수준으로 약하게 발현되고 혈청 내 자연항체는 생후 3~6개월부터 생성되나, Rh 항원은 출생 시 이미 100% 완전 발달해 있음.",
+      "trigger": "Rh(D) 항원은 임신 초기(임신 6~8주)부터 태아 적혈구 표면에 성인 수준으로 완벽하게 발현되므로, 태아 상태나 출생 직후 탯줄 혈액에서 즉시 정확한 판정이 가능함!",
+      "kmle_link": "KMLE 산부인과/수혈의학 - Rh 동종면역 및 신생아 용혈성 질환 예방(RhoGAM)"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q23",
+    "index": 184,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 23,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 검사 결과 혈액형은 무엇인가?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "검사 결과 혈액형은 무엇인가? (위 사진과 비슷하지만 다른 사진으로 출제)",
+    "images": [
+      "images/20Y_Q23_fig1.png"
+    ],
+    "options": [
+      "① AB형",
+      "② A형",
+      "③ B형",
+      "④ O형"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q13 & 22Y Q50 & 20Y Q23] ① AB형",
+    "explanation": {
+      "title": "[과년도 빈출] 검사 결과 혈액형은 무엇인가?",
+      "findings": "• [23Y Q13 & 22Y Q50 & 20Y Q23] 공통 출제 지문:\n  - 검사 결과 혈액형은 무엇인가? (혈구형 검사에서 Anti-A 시약 및 Anti-B 시약 모두에서 4+ 혈액 응고 관찰됨)\n  - 선지: ① AB형  ② A형  ③ B형  ④ O형\n  - 정답: ① AB형",
+      "differential": "1. ABO 혈구형 판정 원리 (Forward Grouping):\n  • Anti-A 시약 응집 (+) -> A 항원 보유\n  • Anti-B 시약 응집 (+) -> B 항원 보유\n  • 두 시약 모두에서 강한 응집(4+)이 나타나므로 환자의 적혈구형은 'AB형'임!\n\n2. 혈청형 검사(Reverse Grouping) 확인:\n  • AB형 환자의 혈청에는 anti-A, anti-B 항체가 모두 없으므로 A1 cell 및 B cell 모두에서 응집 음성(-)이어야 일치함.",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 3회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q24",
+    "index": 185,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 24,
+    "category": "짤",
+    "theme_title": "ABO 항원 생합성의 전구물질과 H 항원",
+    "subspecialty": "진단검사의학",
+    "stem": "다음 빈칸에 들어갈 말은?",
+    "images": [
+      "images/20Y_Q24_fig1.png"
+    ],
+    "options": [
+      "① A antigen",
+      "② B antigen",
+      "③ O antigen",
+      "④ H antigen",
+      "⑤ Lea antigen"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ H antigen (H 항원)",
+    "explanation": {
+      "title": "ABO 항원 생합성의 전구물질과 H 항원",
+      "findings": "적혈구 막의 기본 올리고당 전구물질에 Fucosyltransferase에 의해 L-fucose가 결합되어 H 항원이 합성됩니다. 이 H 항원이 존재해야만 A효소(GalNAc 부착) 또는 B효소(Galactose 부착)가 작용하여 A, B 항원이 발현될 수 있습니다.",
+      "differential": "• 전구물질 -> H 항원 (FUT1 유전자) -> A/B 항원\n• Bombay phenotype: H 유전자 결손(hh)으로 H 항원을 만들지 못해 A, B 항원도 발현 불가",
+      "trap": "O형은 전구물질 상태로 끝나는 것이 아니라 H 항원을 최대로 보유하고 있습니다.",
+      "trigger": "A, B 전구 필수 매개 항원 -> H antigen",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q25",
+    "index": 186,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 25,
+    "category": "반짤",
+    "theme_title": "[과년도 빈출] 신선동결혈장(FFP) 수혈 적응증 및 비적응증 (발문 반대 변형)",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "다음 중 FFP 수혈이 필요한 경우를 모 두 고르시오.",
+    "images": [],
+    "options": [
+      "① 과다 출혈",
+      "② 단일 응고인자 결핍",
+      "③ 복수 응고인자 결핍",
+      "④ 만성 간질환으로 인한 2차적 응고 인자 결핍"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "단순 순환 혈액량 보충이나 단백질 영양 공급 목적으로 투여한다 (X - 심각한 부작용 및 자원 낭비로 절대 금기)",
+    "explanation": {
+      "title": "[과년도 빈출] 신선동결혈장(FFP) 수혈 적응증 및 비적응증 (발문 반대 변형)",
+      "findings": "• 출제 연도: 21Y-19, 20Y-25\n• 기출 분석:\n20Y Q25는 FFP 수혈 적응증을 모두 고르는 문제(1,2,3,4 모두 정답)였으며, 21Y Q19는 이에 비적응증인 단순 혈액량 증가를 추가하여 아닌 것을 고르는 문제로 변형 출제됨.\n\n• [선지별 상세 해설 및 오답 분석]:\n  • 다발성 응고인자 결핍증(간부전, 대량수혈, DIC)에서 출혈 동반 시 투여: (O - 적응증) 모든 응고인자를 골고루 함유하고 있어 표준 치료입니다.\n  • 와파린 과용량에 의한 중증 출혈의 긴급 역전: (O - 적응증) 비타민 K 의존성 응고인자(II, VII, IX, X)를 즉시 보충합니다.\n  • 단순 순환 혈액량 팽창(Volume expansion): (X - 오답 / 금기) 결정질액(N/S, H/S)이나 알부민으로 보충해야 하며, FFP 투여 시 TRALI, TACO 등 치명적 수혈 합병증 위험만 초래합니다.\n  • 단순 저알부민혈증 또는 영양 보충 목적: (X - 오답 / 금기) 알부민 농도 상승 효과가 미미하고 알레르기 위험이 높아 투여가 금지됩니다.\n  • 수혈 전 검사: ABO 일치 혈장 투여가 원칙이며, Rh 항체는 거의 없어 Rh 형은 불일치해도 무방합니다.",
+      "differential": "1. 20Y Q25 선지별 심층 해설 (FFP 핵심 적응증 4대 항목):\n   • 1) 과다 출혈: 대량 수혈(Massive transfusion) 시 발생하는 희석성 응고장애(Dilutional coagulopathy) 교정.\n   • 2) 단일 응고인자 결핍: Factor V, Factor XI 등 특이 농축제제(Factor concentrate)가 상용화되지 않은 결핍증에 투여.\n   • 3) 복수 응고인자 결핍: 파종성 혈관내응고(DIC), 심한 비타민 K 결핍, 와파린(Warfarin) 과다 투여 시 긴급 역전.\n   • 4) 만성 간질환으로 인한 2차적 응고인자 결핍: 간 기능 저하로 PT/aPTT 연장되고 활동성 출혈이 있거나 침습적 처치 전 투여.\n   -> 20Y Q25는 1), 2), 3), 4) 네 가지 항목이 모두 정당한 FFP 수혈 적응증에 해당함!\n2. 21Y Q19 연도별 발문 변형 포인트 & FFP 비적응증 (절대 금기):\n   • 20Y의 4대 적응증 선지에 '혈액량 증가'를 추가하여 '수혈이 필요한 경우가 아닌 것'을 고르는 반대 발문으로 변형 출제됨!\n   • 단순 순환혈액량 보충(Volume expansion alone): 저혈량증 교정 목적으로 FFP를 투여하는 것은 절대 금기임 (생리식염수, 교질액, 알부민 사용).\n   • 기타 비적응증: 단순 알부민 보충, 단순 영양 공급, 상처 치유 촉진 목적 FFP 투여 금기.",
+      "trap": "단순 단백질 보충이나 저혈량증 교정 목적으로 FFP를 주는 것은 전형적인 수혈 지침 위반 (절대 금기).",
+      "trigger": "20Y(적응증 모두 고르시오) = 1,2,3,4 모두 정답! / 21Y(아닌 것 고르시오) = 혈액량 증가(단순 혈액량 팽창)!",
+      "kmle_link": "KMLE 진단검사의학 수혈의학 / FFP 수혈 지침"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q26",
+    "index": 187,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 26,
+    "category": "짤",
+    "theme_title": "수혈 전 필수 면역혈액학 검사 항목: 불규칙항체 선별검사",
+    "subspecialty": "수혈의학",
+    "stem": "수혈 전 검사항목으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "① ABO 혈액형 유전자 아형 검사",
+      "② 불규칙항체 동정검사",
+      "③ RhD 혈액형 검사"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 불규칙항체 선별검사 (Antibody screening test)",
+    "explanation": {
+      "title": "수혈 전 필수 면역혈액학 검사 항목: 불규칙항체 선별검사",
+      "findings": "수혈 부작용(용혈성 수혈반응) 예방을 위한 필수 표준 패키지 규정.",
+      "differential": "직접 쿰스 검사(생체 내 적혈구 감작 확인용, 수혈 전 기본 선별 아님).",
+      "trap": "교차시험(Crossmatching)은 적혈구제제 불출 직전에 공혈자 적혈구와 환자 혈청을 반응시키는 것이며, 환자 자체 선별검사항목 1위는 불규칙항체 선별검사임.",
+      "trigger": "수혈 전 환자 검체로 반드시 시행해야 하는 법정 3대 수혈 전 검사 = 1) ABO 혈액형 검사, 2) Rh(D) 혈액형 검사, 3) 비예기항체(불규칙항체) 선별검사(Antibody screen)!",
+      "kmle_link": "KMLE 수혈의학 - 수혈 전 검사의 표준 절차"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q27",
+    "index": 188,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 27,
+    "category": "탈",
+    "theme_title": "일반 O형 혈액형 보유자의 혈청 내 항체 스펙트럼",
+    "subspecialty": "진단검사의학",
+    "stem": "다음 중 일반적으로 O형에서 존재할 수 없는 항체는?",
+    "images": [],
+    "options": [
+      "① Anti-A",
+      "② Anti-B",
+      "③ Anti-A1",
+      "④ Anti-A, B",
+      "⑤ Anti-H"
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ Anti-H",
+    "explanation": {
+      "title": "일반 O형 혈액형 보유자의 혈청 내 항체 스펙트럼",
+      "findings": "일반적인 O형 적혈구는 H 항원을 가장 풍부하게 가지고 있으므로, 자신의 혈청에 Anti-H 항체가 존재한다면 자가용혈(Autohemolysis)을 일으키게 됩니다. 따라서 일반 O형에서는 Anti-H 항체가 절대 존재할 수 없습니다. Anti-H는 H 항원이 없는 매우 희귀한 봄베이형(Bombay Oh)에서만 생성됩니다.",
+      "differential": "• 일반 O형 혈청 보유 항체: Anti-A, Anti-B, Anti-A,B (자연항체)\n• Anti-H 보유 혈액형: 오직 Bombay phenotype (Oh)",
+      "trap": "O형 혈청에는 Anti-A, Anti-B뿐만 아니라 두 항원 모두와 교차반응하는 강력한 Anti-A,B 항체도 존재합니다.",
+      "trigger": "일반 O형에서 절대 존재할 수 없는 항체 -> Anti-H",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q28",
+    "index": 189,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 28,
+    "category": "탈",
+    "theme_title": "농축혈소판(Platelet Concentrate) 수혈 원칙과 합병증",
+    "subspecialty": "진단검사의학",
+    "stem": "다음 중 농축혈소판 수혈에 대해 옳은 것은?",
+    "images": [],
+    "options": [
+      "① 반복 수혈 시 혈소판 수혈 불응증이 나타날 수 있다",
+      "② 성분채집혈소판에 비해 부작용이 적다",
+      "③ 한 번에 보통 2단위씩 투여한다",
+      "④ 4℃ 냉장 보관한다",
+      "⑤ 교차시험을 필수로 진행해야 한다"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 반복 수혈 시 혈소판 수혈 불응증이 나타날 수 있다",
+    "explanation": {
+      "title": "농축혈소판(Platelet Concentrate) 수혈 원칙과 합병증",
+      "findings": "농축혈소판은 여러 명(보통 6~8명)의 헌혈자 혈액에서 분리 제조되므로 다수의 외래 HLA 항원에 노출됩니다. 따라서 반복 수혈 시 HLA 동종항체가 형성되어 혈소판 수혈 불응증(Platelet Transfusion Refractoriness, PTR)이 발생할 위험이 높습니다.",
+      "differential": "• 농축혈소판: 다수 헌혈자 유래 (동종면역 빈도 높음), 성인 1회 6~8단위 투여\n• 성분채집혈소판(SDP): 단일 헌혈자 유래 (부작용 및 감염 위험 감소)\n• 보관 조건: 20~24℃ 실온 교반 보관 (냉장 보관 금기)",
+      "trap": "혈소판은 냉장 보관하면 비가역적 형태 변형과 조기 제거가 일어나므로 반드시 20~24℃ 실온에서 지속 교반(Agitation) 보관해야 합니다.",
+      "trigger": "농축혈소판 옳은 것 -> 반복 수혈 시 혈소판 수혈 불응증 발생 가능",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q29",
+    "index": 190,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 29,
+    "category": "탈",
+    "theme_title": "Bromocresol Green (BCG) 알부민 분광광도계 측정 파장",
+    "subspecialty": "진단검사의학",
+    "stem": "BCG 사용하여 혈중 알부민 농도 측정할 때 분광광도계 선택해야하는 파장은? (nm)",
+    "images": [],
+    "options": [
+      "① 380 nm",
+      "② 420 nm",
+      "③ 550 nm",
+      "④ 630 nm",
+      "⑤ 730 nm"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ 630 nm",
+    "explanation": {
+      "title": "Bromocresol Green (BCG) 알부민 분광광도계 측정 파장",
+      "findings": "BCG(Bromocresol Green) 시약은 산성 완충액(pH 4.2)에서 알부민과 선택적으로 결합하여 녹청색 착염을 형성합니다. 이 복합체의 최대 흡광 피크 파장은 628~630nm이므로 630 nm를 분광광도계 측정 파장으로 선택합니다.",
+      "differential": "• BCG 알부민: 630 nm\n• BCP 알부민: 600 nm\n• Biuret 총단백: 540~550 nm\n• Jendrassik-Grof 빌리루빈: 600 nm",
+      "trap": "총단백(540nm)과 헷갈려 550nm를 선택하지 않도록 주의하십시오.",
+      "trigger": "BCG 알부민 분광광도계 측정 파장 -> 630 nm",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q30",
+    "index": 191,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 30,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 알부민 농도를 가장 민감하게 측정할 수 있는 ",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "알부민 양 가장 적은 단위로 측정할 수 있 는 방법은?",
+    "images": [],
+    "options": [
+      "① 색소결합법",
+      "② 화학침전법",
+      "③ 면역응집법",
+      "④ 전기영동법",
+      "⑤ 효소면역법"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "[22Y Q21 & 20Y Q30] ② 면역비탁법 (Immunoturbidimetry) / 미세알부민뇨 측정법",
+    "explanation": {
+      "title": "[과년도 빈출] 알부민 농도를 가장 민감하게 측정할 수 있는 ",
+      "findings": "• [22Y Q21 & 20Y Q30] 정답: ② 면역비탁법 (Immunoturbidimetry)\n  - 지문: 알부민 농도를 가장 민감하게(저농도 미세알부민뇨) 측정할 수 있는 방법은?\n  - 통상 혈청 알부민은 BCG/BCP 색소결합법을 쓰지만, 소변 미세알부민은 고감도 면역비탁법 사용.",
+      "differential": "1. 알부민 측정법 비교:\n   • 혈청 고농도 알부민(g/dL 단위): BCG (Bromocresol green), BCP (Bromocresol purple)\n   • 소변 저농도 미세알부민(mg/L 단위): 면역비탁법(Immunoturbidimetry), 면역비색법(Immunonephelometry)",
+      "trap": "BCG법은 헤파린이나 다른 단백질과 비특이 반응할 수 있으며 저농도 측정에는 민감도가 부족함.",
+      "trigger": "알부민 가장 민감한 저농도 측정 -> 면역비탁법(Immunoturbidimetry)!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q31",
+    "index": 192,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 31,
+    "category": "탈",
+    "theme_title": "신증후군(Nephrotic Syndrome)의 대표적 소변 검사 소견",
+    "subspecialty": "진단검사의학",
+    "stem": "신증후군 환자 소변 검사 시 흔히 볼 수 있는 결과는?",
+    "images": [],
+    "options": [
+      "① bilirubinuria",
+      "② ketonuria",
+      "③ albuminuria",
+      "④ hematuria",
+      "⑤ pyuria"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ albuminuria (알부민뇨/심한 단백뇨)",
+    "explanation": {
+      "title": "신증후군(Nephrotic Syndrome)의 대표적 소변 검사 소견",
+      "findings": "신증후군의 4대 특징은 ① 하루 3.5g 이상의 대량 단백뇨(Heavy proteinuria, 주로 Albuminuria), ② 저알부민혈증, ③ 전신 부종, ④ 고지혈증입니다. 소변 검사에서 가장 전형적이고 두드러진 소견은 심한 알부민뇨(Albuminuria)입니다.",
+      "differential": "• Albuminuria: 사구체 여과 장벽의 음전하 소실 및 족세포 손상\n• Hematuria: 신염증후군(Nephritic syndrome)의 주 특징\n• Pyuria: 요로감염\n• Lipiduria: 신증후군 소변에서 Oval fat body, Maltese cross 관찰",
+      "trap": "신증후군과 신염증후군의 감별: 신증후군은 대량 알부민뇨와 부종, 신염증후군은 혈뇨와 고혈압이 두드러집니다.",
+      "trigger": "신증후군 소변 대표 소견 -> albuminuria",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q32",
+    "index": 193,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 32,
+    "category": "탈",
+    "theme_title": "전격성 간염(Fulminant Hepatitis) 급성 간부전 모니터링 지표",
+    "subspecialty": "진단검사의학",
+    "stem": "(진검 post test 야마) 다음 중 전격성 간염 때 모니터링하는 지표는?",
+    "images": [],
+    "options": [
+      "① Prothrombin time (PT/INR)",
+      "② aPTT",
+      "③ AST",
+      "④ ALT",
+      "⑤ Albumin"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Prothrombin time (PT / INR)",
+    "explanation": {
+      "title": "전격성 간염(Fulminant Hepatitis) 급성 간부전 모니터링 지표",
+      "findings": "전격성 간염 및 급성 간부전(Acute Liver Failure) 시 간의 단백질 합성능과 생존율을 반영하는 가장 민감하고 결정적인 모니터링 지표는 프로트롬빈 시간(Prothrombin Time, PT / INR)입니다. 응고인자 VII(반감기 4~6시간) 등 비타민 K 의존성 응고인자의 빠른 고갈을 즉각 반영하기 때문입니다.",
+      "differential": "• PT/INR: 반감기가 매우 짧아(수 시간) 급성 간세포 손상 및 예후 평가에 최우선\n• Albumin: 반감기가 20일로 길어 만성 간질환의 지표\n• AST/ALT: 급성기에는 수천까지 치솟으나 말기 간부전(세포 전멸) 시 오히려 급감할 수 있어 경과 모니터링에 부적합",
+      "trap": "간효소(AST/ALT)가 감소하는 것이 질환 호전이 아니라 간세포가 더 이상 파괴될 것도 없는 파국적 괴사(Massive hepatic necrosis)일 수 있으므로 PT가 진정한 모니터링 지표입니다.",
+      "trigger": "전격성 간염/급성 간부전 모니터링 1순위 지표 -> Prothrombin time",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q33",
+    "index": 194,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 33,
+    "category": "짤",
+    "theme_title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
+    "subspecialty": "진단면역학/혈액학",
+    "stem": "유세포분석으로 볼 수 없는 것은?",
+    "images": [],
+    "options": [
+      "① immunophenotype",
+      "② HLA crossmatching",
+      "③ stem cell count",
+      "④ CA19-9",
+      "⑤ NK cell 활성도 측정"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① CA-125 (난소암 혈청 종양표지자 - 면역측정법/ELISA로 측정)",
+    "explanation": {
+      "title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
+      "findings": "세포 부유액을 레이저 광선에 통과시키는 유세포분석과 혈청 화학 면역분석의 차이점 이해.",
+      "differential": "CD4/CD8(유세포 가능), CD34(유세포 가능), CA-125(ELISA 측정).",
+      "trap": "CD4/CD8 T세포 분획, 백혈병 면역표현형(CD19, CD33), PNH의 CD55/CD59 결손은 세포막 항원이므로 유세포분석의 대표 적응증임.",
+      "trigger": "유세포분석(Flow cytometry)은 개별 단일 세포(Cell) 표면/세포질의 항원을 측정하는 기법이므로, 혈청에 녹아있는 액상 종양표지자 단백질(CA-125, CEA, AFP, PSA)은 측정 불가!",
+      "kmle_link": "KMLE 혈액학/종양학 - 유세포분석의 임상적 이용"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q34",
+    "index": 195,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 34,
+    "category": "탈",
+    "theme_title": "간접면역형광법(IIF)으로 관찰할 수 없는 자가항체",
+    "subspecialty": "진단검사의학",
+    "stem": "형광현미경으로 볼 수 없는 것은?",
+    "images": [],
+    "options": [
+      "① ANCA",
+      "② anti-dsDNA",
+      "③ Anti-cardiolipin",
+      "④ anti-LKM",
+      "⑤ anti-mitochondria (AMA)"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ Anti-cardiolipin (항카디오리핀 항체)",
+    "explanation": {
+      "title": "간접면역형광법(IIF)으로 관찰할 수 없는 자가항체",
+      "findings": "간접면역형광법(IIF)은 세포나 조직 절편(Hep-2, 호중구, 간/신장 조직)을 기질로 사용하여 세포 내 항원 구조물에 대한 결합 패턴을 형광현미경으로 관찰합니다. Anti-cardiolipin 항체는 인지질에 대한 항체로 세포 형태학적 구조물이 없으므로 ELISA(효소면역측정법)로 정량 측정해야 하며 형광현미경으로 볼 수 없습니다.",
+      "differential": "• IIF 검출 가능 항체: ANA, Anti-dsDNA(Crithidia luciliae 기질), ANCA(에탄올 고정 호중구), AMA, Anti-LKM\n• IIF 불가 항체: Anti-cardiolipin, Anti-beta2 GPI, Lupus anticoagulant",
+      "trap": "조직이나 세포 기질 위에 형광 패턴을 형성할 수 없는 \"인지질 항체\"는 ELISA로 측정한다는 점을 꼭 기억하십시오.",
+      "trigger": "형광현미경(IIF)으로 볼 수 없는 자가항체 -> Anti-cardiolipin",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q35",
+    "index": 196,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 35,
+    "category": "짤",
+    "theme_title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
+    "subspecialty": "진단면역학",
+    "stem": "(야마) ANA에서 homogenous pattern이 나 왔다. 다음으로 해야 할 검사는?",
+    "images": [],
+    "options": [
+      "① anti-dsDNA",
+      "② anti-ENA",
+      "③ anti-mitochondria",
+      "④ AKA",
+      "⑤ ANCA"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① anti-dsDNA (및 anti-Histone)",
+    "explanation": {
+      "title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
+      "findings": "Hep-2 세포 핵질 전체에 걸쳐 균일한 녹색 형광 신호 관찰.",
+      "differential": "Speckled(점상, ENA 패널 필요), Nucleolar(핵소체, 전신경화증).",
+      "trap": "Rim/Peripheral pattern은 Anti-dsDNA, Speckled pattern은 Anti-Sm/RNP/Ro/La, Nucleolar는 Anti-Scl-70(전신경화증). Homogenous는 Anti-dsDNA 및 Histone.",
+      "trigger": "IIF 상 핵 전체가 균일하게 염색되는 Homogenous / Diffuse pattern = Chromatin, dsDNA, Histone 항체 시사! SLE 확진 및 활성도 평가를 위한 1순위 추가 검사는 Anti-dsDNA!",
+      "kmle_link": "KMLE 류마티스학 - 전신홍반루푸스(SLE)의 혈청학적 진단 기준"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q36",
+    "index": 197,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 36,
+    "category": "짤",
+    "theme_title": "검사실 생물안전등급(Biosafety Level, BSL) 분류 기준 및 지침",
+    "subspecialty": "임상미생물학",
+    "stem": "검사실 생물 안전에 대한 설명으로 틀린 것은?",
+    "images": [],
+    "options": [
+      "① 모든 검체는 잠재적 위험성을 있다고 간주하며 작업 시 표준지침을 따른다.",
+      "② 우리나라에서는 결핵균이 많이 검출되므로 생물안전 2등급에서 작업하는 것이 바람직하다.",
+      "③ 생물안전 4등급에서는 class III 생물안전작업대와 양압복과 같은 특수보호장비가 필요하다.",
+      "④ 정상인에게서 감염을 일으키지 않는 세균은 개방된 작업대에서 다뤄도 된다.",
+      "⑤ 임상적으로 흔히 검출되는 세균은 생물안전 2등급에 해당하며 생물안전작업대가 필요하다."
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 임상적으로 흔하게 검출되는 세균은 생물안전 1등급에 해당되며 생물안전작업대가 필요하다. (X - 2등급에 해당)",
+    "explanation": {
+      "title": "검사실 생물안전등급(Biosafety Level, BSL) 분류 기준 및 지침",
+      "findings": "선지 ⑤는 흔한 임상 세균을 1등급으로 잘못 기술하여 명백한 오답.",
+      "differential": "BSL-3(결핵균 배양, 음압시설), BSL-4(Class III BSC 또는 에어슈트).",
+      "trap": "결핵균(M. tuberculosis)은 공기 전파 위험으로 BSL-3 음압 구역에서 작업하는 것이 원칙임.",
+      "trigger": "병원 임상검사실에서 흔히 분리되는 병원성 세균(S. aureus, E. coli, Salmonella 등)은 생물안전 2등급(BSL-2)에 해당하며 Class II 생물안전작업대(BSC)에서 다룸! 1등급은 비병원성균(E. coli K12).",
+      "kmle_link": "KMLE 감염학/예방의학 - 병원 감염 관리 및 검사실 생물안전 지침"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q37",
+    "index": 198,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 37,
+    "category": "짤",
+    "theme_title": "메티실린 내성 황색포도알균(MRSA) 선별 검사용 대리 항생제",
+    "subspecialty": "임상미생물학",
+    "stem": "다음 중 MRSA 선별검사로 사용되는 항생제는? (oxacillin이 선지에 확실히 없었음)",
+    "images": [],
+    "options": [
+      "① Methicillin",
+      "② Ampicillin",
+      "③ Penicillin",
+      "④ Cefoxitin",
+      "⑤ Cefotetan"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ Cefoxitin (세폭시틴 디스크 / 선별검사)",
+    "explanation": {
+      "title": "메티실린 내성 황색포도알균(MRSA) 선별 검사용 대리 항생제",
+      "findings": "CLSI 표준 MRSA 감수성 시험 지침의 핵심 족보.",
+      "differential": "Penicillin(Penicillinase 내성 확인용), Vancomycin(MRSA 치료제).",
+      "trap": "과거에는 Oxacillin을 사용했으나, 보관 및 온도에 민감하여 CLSI 가이드라인은 Cefoxitin 디스크 확산법을 표준 선별법으로 채택함.",
+      "trigger": "검사실에서 mecA 유전자에 의한 PBP2a 생성을 유도하여 MRSA를 가장 정확하고 강력하게 선별(Screening)하는 대리 항생제 = Cefoxitin!",
+      "kmle_link": "KMLE 감염학 - 포도알균 감염 및 MRSA 진단과 치료(Vancomycin)"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q38",
+    "index": 199,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 38,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 배양을 위해 적절한 검체는? ",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "배양을 위한 적절한 검체는?",
+    "images": [],
+    "options": [
+      "① 시간뇨",
+      "② 타액 섞인 객담",
+      "③ 창상 표면 검체",
+      "④ 실온보관 뇌척수액",
+      "⑤ EDTA 혈액"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "[22Y Q01 & 21Y Q34 & 20Y Q38] ④ 실온 보관 뇌척수액 (CSF at room temp)",
+    "explanation": {
+      "title": "[과년도 빈출] 배양을 위해 적절한 검체는? ",
+      "findings": "• [22Y Q01 & 21Y Q34 & 20Y Q38] 3개년 연속 출제!\n  - 지문: 배양을 위해 적절한 검체는?\n  - 정답: ④ 실온 보관 뇌척수액 (CSF)\n  - 오답 선지: 24시간 소변(X - 단회 중간뇨), 타액 섞인 객담(X - 침 섞이면 부적합), 창상 표면(X - 깊은 부위 흡인 검체), EDTA 혈액(X - EDTA는 세균 억제)",
+      "differential": "1. 미생물 배양 부적합 검체:\n   • 24시간 소변(세균 과증식으로 무의미 -> 단회 채취 청결중간뇨 요함)\n   • 타액 섞인 가래(구강 상재균 오염 -> Geckler scale 4~5등급 가래만 적합)\n   • 혈액배양 시 EDTA 튜브 사용 불가(항응고제 성분이 세균 증식을 억제 -> SPS 함유 배양병 사용)",
+      "trap": "24시간 요는 생화학 정량검사용이지 미생물 배양용이 아님.",
+      "trigger": "배양용 적절한 검체 -> 실온 보관 뇌척수액(CSF)!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q39",
+    "index": 200,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 39,
+    "category": "짤",
+    "theme_title": "임상 안구/유리체 검체 취급 시 요구되는 생물안전 등급 및 작업대",
+    "subspecialty": "임상미생물학",
+    "stem": "백내장 수술 후 시력저하가 나타난 환자의 유리체 검체를 배양하였다. 배양 3일 후 SDA(sabouraud dextrose agar)에서 솜털 모양의 집락이 관찰되었다.(진짜 딱 그 정도만 보여주는 사진, 최대한 비슷한 사진",
+    "images": [],
+    "options": [
+      "① 생물안전 2등급(BSL-2) 생물안전작업대(BSC)",
+      "② 생물안전 1등급(BSL-1) 개방작업대",
+      "③ 생물안전 3등급(BSL-3) 음압격리실",
+      "④ 생물안전 4등급(BSL-4) 양압복 시설",
+      "⑤ 멸균실 일반 클린벤치"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 2등급 - 생물안전작업대 (BSL-2 with BSC Class II)",
+    "explanation": {
+      "title": "임상 안구/유리체 검체 취급 시 요구되는 생물안전 등급 및 작업대",
+      "findings": "환자 유래 감염성 검체의 기본 취급 표준 등급 숙지 여부 확인.",
+      "differential": "1등급(작업대 불필요), 3등급(음압 및 공기여과 특수시설).",
+      "trap": "3등급은 결핵이나 고위험 호흡기 바이러스에 적용되며 일반 세균성 안구 감염 검체는 2등급임.",
+      "trigger": "백내장 수술 후 안내염 환자의 유리체액(Vitreous humor) 등 환자 검체 배양은 일반 임상 검체이므로 생물안전 2등급(BSL-2) 시설 및 생물안전작업대(BSC) 내에서 취급해야 함!",
+      "kmle_link": "KMLE 감염학 - 임상 검체 안전 취급 지침"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q40",
+    "index": 201,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 40,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 혈액배양검사(Blood culture) 채혈 지침",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "혈액배양검사에 대한 설명으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "① Gram negtive 균이 나오면 피부상재균일 확률이 높다.",
+      "② 소아는 균혈증 농도가 높아서 1~2ml 만 채취할 수 있다.",
+      "③ 포비돈으로 소독 먼저하고 알콜로 닦아준다",
+      "④ 열이나고 30 분 후 균의 농도가 가장 높으므로 채혈한다.",
+      "⑤ 성인은 10ml 채혈하고 5ml 씩 호기성, 혐기성 병에 접종한다."
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "[21Y Q35 & 20Y Q40] ② 소아는 균혈증 균 농도가 높아 1~2 mL 소량 채혈로도 진단 가능 (O)",
+    "explanation": {
+      "title": "[과년도 빈출] 혈액배양검사(Blood culture) 채혈 지침",
+      "findings": "• [21Y Q35 & 20Y Q40] 정답: ② 소아는 균 농도가 높아 1~2 mL 채혈 가능\n  - 성인은 1쌍당 20 mL(병당 8~10 mL) 채혈이 필수적이나, 소아는 균혈증 시 혈중 균 농도가 높아 체중에 따라 1~2 mL 채혈로도 충분함.\n  - 피부 소독: 알코올로 먼저 닦고 포비돈/클로르헥시딘 도포 후 건조.",
+      "differential": "1. 혈액배양 채혈량 및 소독 원칙:\n   • 성인: 2~3쌍, 쌍당 20 mL (양성률은 채혈량에 정비례)\n   • 소아: 체중 비례 (1~3 mL)\n   • 피부 소독: 70% 알코올(탈지) -> 2% 클로르헥시딘 또는 포비돈 요오드(소독)",
+      "trap": "성인에서 5 mL 미만 채혈 시 위음성률이 급격히 증가함.",
+      "trigger": "혈액배양 소아 채혈 -> 균 농도 높아 1~2 mL로도 가능!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q41",
+    "index": 202,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 41,
+    "category": "짤",
+    "theme_title": "미생물 취급 실험실 개인보호구 및 손위생 원칙",
+    "subspecialty": "임상미생물학/감염관리",
+    "stem": "(야마) II 급 미생물 취급 실험실이 갖추어야 할 사항으로 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "① 검사실 문을 열어두면 안된다",
+      "② 긴머리는 오염을 일으킬 가능성이 높으므로 뒤로 잡아 매야 한다.",
+      "③ 검사실 안에서 상관없는 다른 작업을 할 때도 장갑을 벗지 말아야 한다.",
+      "④ 장갑 벗고나서, 검사실 나갈때, 오염 물질 만진 후 반드시 손을 씻어야 한다",
+      "⑤ 검사실 안에서는 보호복을 착용하고 발가락과 발뒤꿈치가 안보이는 신발을 신어야 한다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 장갑을 벗고 난 후 손을 씻지 않아도 된다. (X - 장갑 탈의 직후 반드시 손위생)",
+    "explanation": {
+      "title": "미생물 취급 실험실 개인보호구 및 손위생 원칙",
+      "findings": "너무나 당연한 감염관리 상식을 묻는 100% 득점용 서비스 족보.",
+      "differential": "가운 착용, 마스크/고글(비말 발생 조작 시), 실험실 문 닫힘 유지.",
+      "trap": "장갑 착용이 결코 손위생(Hand hygiene)을 대체할 수 없음.",
+      "trigger": "의료 및 검사실 감염관리 제1철칙 = 장갑(Gloves)을 착용했더라도 미세 구멍이나 벗는 과정에서 손이 오염되므로, 장갑을 벗은 직후에는 예외 없이 반드시 손을 씻어야 함!",
+      "kmle_link": "KMLE 감염학/예방의학 - 병원 표준주의 지침 및 손위생 원칙"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q42",
+    "index": 203,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 42,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 결핵에 대해 옳은 것은?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "결핵에 대해 옳은 것은?",
+    "images": [],
+    "options": [
+      "① norcardia 와 cyptospordium 은 Ziehl Neelsen stain 에서 파란색으로 염색된다.",
+      "② 결핵균은 세포벽에 두꺼운 LPS 를 가지고 있다.",
+      "③ 그람 염색하면 양성구균으로 나온다.",
+      "④ 항상균 염색해서 양성이면 결핵균이다.",
+      "⑤ 형광염색이 Z-N stain 보다 판독시간이 빠르다."
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "[23Y Q35 & 22Y Q04 & 20Y Q42] ⑤ 형광 염색(Fluorescent stain)이 Z-N stain보다 판독시간이 빠르다 (O)",
+    "explanation": {
+      "title": "[과년도 빈출] 결핵에 대해 옳은 것은?",
+      "findings": "• [23Y Q35 & 22Y Q04 & 20Y Q42] 공통 출제 지문:\n  - 결핵균 및 항산균(Acid-fast bacilli, AFB) 검사에 대해 옳은 설명은?\n  - 선지:\n    ① Nocardia와 Cryptosporidium은 Z-N 염색에서 파란색이다.\n    ② 결핵균은 세포벽에 두꺼운 LPS를 가지고 있다.\n    ③ 그람 염색 시 양성 구균으로 나온다.\n    ④ 항산균 염색 양성이면 반드시 결핵균이다.\n    ⑤ 형광 염색이 Z-N stain보다 판독시간이 빠르다.\n  - 정답: ⑤ 형광 염색이 Z-N stain보다 판독시간이 빠르다",
+      "differential": "1. 결핵균 항산균 염색법 비교:\n  • Auramine-rhodamine 형광염색: 저배율(250~400배)에서 넓은 시야를 신속히 관찰할 수 있어, 1,000배 유침렌즈로 300시야 이상을 봐야 하는 Ziehl-Neelsen(Z-N) 염색보다 판독시간이 훨씬 짧고 민감도가 10% 이상 높음 (스크리닝 검사로 표준 권장)!\n\n2. 오답 선지 완벽 정복:\n  • ① Nocardia, Cryptosporidium은 '부분 항산성(Partial acid-fast)'을 보여 Z-N 염색에서 붉은색 양성으로 나타남.\n  • ② 결핵균 세포벽에는 지질 성분인 미콜산(Mycolic acid)이 풍부함 (LPS는 그람음성균 특유 성분).\n  • ④ 항산균 양성은 NTM(비결핵항산균)일 수도 있으므로 분자진단(TB-PCR) 필수.",
+      "trap": "검체 채취 튜브 조건 및 간섭 물질 주의.",
+      "trigger": "6개년 중 3회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상.",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q43",
+    "index": 204,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 43,
+    "category": "반짤",
+    "theme_title": "[과년도 빈출] 혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간주하는 경우는?",
+    "images": [],
+    "options": [
+      "① Staphylococcus aureus",
+      "② Acinetobacter baumannii",
+      "③ Enterococcus faecium",
+      "④ Diphtheroids",
+      "⑤ 5)",
+      "⑥ E.coli"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "[21Y Q36 & 20Y Q43] ④ Diphtheroids",
+    "explanation": {
+      "title": "[과년도 빈출] 혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간",
+      "findings": "• [23Y Q39] 정답: ① Staphylococcus epidermidis\n  - 지문: 혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간주하는 경우는?\n  - 선지: ① S. epidermidis  ② S. aureus  ③ A. baumannii  ④ E. faecium  ⑤ E. coli\n• [21Y Q36] 정답: ④ Diphtheroids (Corynebacterium)\n  - 지문: 혈액배양시 2쌍중 1쌍에서만 나타나도 오염으로 간주하는 경우는?\n  - 선지: ① S. aureus  ② A. baumannii  ③ E. faecium  ④ Diphtheroids  ⑤ E. coli\n• [20Y Q43] 정답: ④ Diphtheroids (Corynebacterium)\n  - 지문: 혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간주하는 경우는?\n  - 선지: 1) S. aureus  2) A. baumannii  3) E. faecium  4) Diphtheroids  5) E. coli",
+      "differential": "1. 혈액 배양 2쌍 중 1쌍 양성 시 오염균(Contaminant) vs 진성 균혈증(True Pathogen) 감별:\n   • 피부 상재 오염균 (1쌍 양성 시 위양성/오염 간주): CoNS(S. epidermidis), Corynebacterium(Diphtheroids), Cutibacterium(P. acnes), Bacillus spp., Micrococcus\n   • 진성 병원체 (1쌍만 나와도 반드시 진성 감염 치료): S. aureus, S. pneumoniae, Enterobacteriaceae(E. coli, Klebsiella), P. aeruginosa, Candida spp.\n2. 연도별 선지 변형 포인트:\n   • 20Y/21Y는 'Diphtheroids'가 정답이었고, 23Y는 'Staphylococcus epidermidis'로 변형 출제됨!\n3. 임상적 예외 판정:\n   • 인공판막, 중심정맥관, 인공관절 삽입 환자에서 CoNS가 2쌍 이상 반복 배양되면 카테터 감염/심내막염 진성 균혈증으로 진단함.",
+      "trap": "S. aureus, E. coli, P. aeruginosa는 1쌍만 나와도 100% 진성 균혈증으로 간주하므로 절대 오염균으로 고르면 안 됨.",
+      "trigger": "혈액배양 2쌍 중 1쌍 오염 -> S. epidermidis (CoNS) 또는 Diphtheroids(Corynebacterium) 즉시 연상!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q44",
+    "index": 205,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 44,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 손 위생에 필요한 경우에 해당하지 않는 ",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "손 위생에 필요한 경우에 해당하지 않는 것은? (교수님이 수업 때 말해주심)",
+    "images": [],
+    "options": [
+      "① 환자의 침상 주변 접촉 전",
+      "② 혈액배양 시행 후"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "환자 주변 접촉 전 (WHO 5 Moments는 환자 주변 환경 접촉 후가 올바른 손위생 시점임)",
+    "explanation": {
+      "title": "[과년도 빈출] 손 위생에 필요한 경우에 해당하지 않는 ",
+      "findings": "• [22Y Q05 & 21Y Q37 & 20Y Q44] 3개년 출제!\n  - 지문: WHO 손 위생 5개 시점에 해당하지 않는 것은?\n  - 정답: 침상 주변 환경 접촉 '후'에 시행해야 하며 접촉 '전'은 필수 시점 아님.",
+      "differential": "1. WHO 손위생 5 moments:\n   1) 환자 접촉 전  2) 청결/무균 처치 전  3) 체액 노출 위험 후  4) 환자 접촉 후  5) 환자 주변 환경 접촉 후",
+      "trap": "환자 접촉 '전'은 손위생 시점이지만, 단순 환경 접촉 '전'은 시점에 포함되지 않음.",
+      "trigger": "WHO 손위생 5개 시점 -> 접촉 전 2가지(환자, 무균처치), 접촉 후 3가지(체액, 환자, 환경)!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q45",
+    "index": 206,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 45,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 카테터 관련 혈류감염(CRBSI) 진단 기준",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "중심정맥관 균혈증에 관한 설명 중 옳은 것은?",
+    "images": [],
+    "options": [
+      "① 중심 정맥관 혈액 배양보다 말초 배양에서 세균의 증식속도가 더 빠르다.",
+      "② 중심정맥관 30일 이상 유지 시 균혈증 발생빈도가 10% 미만이다.",
+      "③ 중심정맥관 제거 후 말단 5cm 를 잘라서 혈액한천배지에 굴려서 배양한다.",
+      "④ 의료 관련 감염증 중 가장 발생빈도가 높다.",
+      "⑤ Staphylococcus aureus가 가장 흔하게 검출된다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "[21Y Q38 & 20Y Q45] ③ 중심정맥관 혈액배양이 말초혈액보다 2시간 이상 먼저 양성 판정 (DTP 양성)",
+    "explanation": {
+      "title": "[과년도 빈출] 카테터 관련 혈류감염(CRBSI) 진단 기준",
+      "findings": "• [21Y Q38 & 20Y Q45] 정답: ③ 차등 양성 시간(DTP, Differential Time to Positivity) ≥ 2시간\n  - 지문: 중심정맥관 관련 균혈증(CRBSI) 진단에 관한 설명으로 옳은 것은?\n  - 카테터 혈액이 말초혈액 배양보다 2시간 이상 먼저 양성(자라는 속도가 빠름)이면 CRBSI 확진.",
+      "differential": "1. 카테터 관련 균혈증(CRBSI) 진단 기준 (카테터 보존 시):\n   • DTP (Differential Time to Positivity): 동일 양 채혈 시 카테터 혈액이 말초보다 2시간 이상 먼저 양성\n   • 정량 배양: 카테터 혈액의 균 집락 수가 말초혈액보다 3배 이상 많음",
+      "trap": "말초혈액이 카테터보다 먼저 자란다는 보기는 역전된 오답.",
+      "trigger": "CRBSI 카테터 혈액배양 -> 말초보다 2시간 이상 먼저 양성(DTP ≥ 2h)!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q46",
+    "index": 207,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 46,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 법정감염병 6종이 아닌 것은? ",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "법정감염병 6종이 아닌 것은?",
+    "images": [],
+    "options": [
+      "① VRE",
+      "② MRPA",
+      "③ MRAB",
+      "④ CRE",
+      "⑤ Vacomycin-resistant C.difficile"
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "[20Y Q46 & 19Y Q18] ⑤ Vancomycin-resistant C. difficile (VRCD는 법정감염병 아님)",
+    "explanation": {
+      "title": "[과년도 빈출] 법정감염병 6종이 아닌 것은? ",
+      "findings": "• [20Y Q46 & 19Y Q18] 정답: ⑤ VRCD (존재하지 않는 감염병 분류)\n  - 지문: 제4급 법정감염병 표본감시 대상 다제내성균 6종이 아닌 것은?\n  - 법정 내성균 6종: VRSA, VRE, MRSA, MRPA, MRAB, CRE.",
+      "differential": "1. 법정 다제내성균 6종:\n   • 그람양성: VRSA(반코마이신내성황색포도알균), VRE(반코마이신내성장알균), MRSA(메티실린내성황색포도알균)\n   • 그람음성: CRE(카바페넴내성장내세균목), MRPA(다제내성녹농균), MRAB(다제내성아시네토바커균)",
+      "trap": "C. difficile은 혐기성 세균 감염증이나 법정 다제내성균 6종에 포함되지 않음.",
+      "trigger": "법정 다제내성균 6종 -> VRSA, VRE, MRSA, CRE, MRPA, MRAB!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q47",
+    "index": 208,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 47,
+    "category": "짤",
+    "theme_title": "[과년도 빈출] 세균 배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
+    "subspecialty": "진단검사의학과 과년도 빈출",
+    "stem": "세균배양을 즉시 할 수 없는 경우 냉장보관하는 검체로 올바른 것은?",
+    "images": [],
+    "options": [
+      "① 소변, 혈액",
+      "② 소변, 객담",
+      "③ 객담, 혈액",
+      "④ 뇌척수액, 혈액",
+      "⑤ 뇌척수액, 객담"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[23Y Q45 & 22Y Q03 & 21Y Q40 & 20Y Q47] ① 소변(Urine) & 객담(Sputum)",
+    "explanation": {
+      "title": "[과년도 빈출] 세균 배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
+      "findings": "• [23Y Q45 & 22Y Q03 & 21Y Q40 & 20Y Q47] 4개년 연속 100% 동일 반복 출제!\n  - 지문: 세균 배양을 즉시 할 수 없는 경우 냉장보관(4℃) 하는 검체는?\n  - 정답: 소변(Urine), 객담/가래(Sputum), 대변(Stool)\n  - 실온 보관(절대 냉장 금지) 검체: 뇌척수액(CSF), 혈액배양(Blood), 생식기/체액 검체",
+      "differential": "1. 검체 보관 온도 원칙 (냉장 vs 실온):\n   • 4℃ 냉장 보관 검체: 소변(세균 증식 억제하여 colony count 정량성 유지), 객담/대변(정상 상재균 과증식 억제)\n   • 실온(20~25℃) 보관 검체: 뇌척수액(CSF - 저온에 약한 S. pneumoniae, N. meningitidis, H. influenzae 사멸 방지), 혈액(Blood culture bottles - 균 사멸 방지)\n2. 20Y, 21Y, 22Y, 23Y 4개년 전수 일치 킬러 족보!",
+      "trap": "CSF(뇌척수액)는 저온 노출 시 수막염 원인균이 사멸하므로 절대 냉장고에 넣으면 안 됨(실온 유지 필수).",
+      "trigger": "세균배양 즉시 불가 시 냉장보관 검체 -> 소변(Urine) / 객담(Sputum)!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q48",
+    "index": 209,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 48,
+    "category": "탈",
+    "theme_title": "임상검사실 정도관리(QC) 통계 원칙",
+    "subspecialty": "진단검사의학",
+    "stem": "(야마변형) 검사실 관리로 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "① 표준편차가 작을 수록 정밀도가 높다.",
+      "② 95% 허용범위를 따르면 평균으로부터 표준편차 2배 전후이다.",
+      "③ 표준 관리 물질의 농도는 알고 있다.",
+      "④ 허용범위는 측정방법의 변이를 반영한다.",
+      "⑤ 표준관리 물질을 재고 95% 안에 들어있으면 허용 한다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 표준 관리 물질의 농도는 알고 있다",
+    "explanation": {
+      "title": "임상검사실 정도관리(QC) 통계 원칙",
+      "findings": "일상 내부정도관리에 사용되는 정도관리 물질(Control)은 분석자의 심리적 편향이나 특혜적 취급을 배제하기 위해 일반 검체와 완전히 동일한 조건에서 맹검(Blind)으로 분석해야 합니다. 따라서 \"농도를 미리 알고 의식적으로 맞춘다\"는 취지는 정도관리 원칙에 위배됩니다.",
+      "differential": "• 정밀도(Precision): 반복 측정 시 일치도로 표준편차(SD) 또는 변이계수(CV)로 평가\n• 95% 신뢰구간: 평균 ± 2SD\n• Levey-Jennings 차트: 시간에 따른 체계적/무작위 오차 감시",
+      "trap": "표준물질(Calibrator, 농도 명시)과 관리물질(Control, 맹검 감시)의 역할을 철저히 구분해야 합니다.",
+      "trigger": "검사실 정도관리 옳지 않은 것 -> 관리물질 농도를 알고 특별 취급",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q49",
+    "index": 210,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 49,
+    "category": "짤",
+    "theme_title": "한랭글로불린(Cryoglobulin) 검사를 위한 적절한 채혈 튜브 및 온도 조건",
+    "subspecialty": "임상화학/면역학",
+    "stem": "(야마) 다음 중 cryoglobulin(한냉글로불린) 검사를 위해 어떤 tube에 혈액을 채취하는 것 이 합당한가?",
+    "images": [],
+    "options": [
+      "① ℃ plain tube",
+      "② ℃ heparinized tube",
+      "③ ℃ plain tube",
+      "④ ℃ heparinized tube",
+      "⑤ Cryotube"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 37도 plain tube (사전 보온된 무첨가 튜브)",
+    "explanation": {
+      "title": "한랭글로불린(Cryoglobulin) 검사를 위한 적절한 채혈 튜브 및 온도 조건",
+      "findings": "검체 채취 시 온도 관리가 결과의 성패를 가르는 대표적 특수 면역 검사.",
+      "differential": "EDTA(혈구용), Heparin(가스분석용), 4도 냉각 튜브(암모니아용).",
+      "trap": "얼음물에 담가 운송(Ice packing)하는 검사는 암모니아(Ammonia), ABGA, 젖산(Lactate), 가스트린 등이며, Cryoglobulin에 얼음을 대면 위음성(체외 침전) 초래.",
+      "trigger": "Cryoglobulin은 37℃ 미만 실온에서 즉시 침전되므로, 반드시 37℃로 미리 예열된 튜브(Prewarmed 37°C plain tube)에 채혈하고 37℃를 유지하며 운송 및 원심분리해야 함!",
+      "kmle_link": "KMLE 감염/류마티스 - 한랭글로불린혈증(HCV 연관)의 진단학적 주의사항"
+    }
+  },
+  {
+    "id": "진단검사의학과_20Y_Q50",
+    "index": 211,
+    "subject": "진단검사의학과",
+    "year": "20Y",
+    "q_num": 50,
+    "category": "탈",
+    "theme_title": "2~3개월간의 평균 혈당 조절 상태 반영 지표 (HbA1c)",
+    "subspecialty": "진단검사의학",
+    "stem": "(17 야마 변형) 2개월 전 평균 혈당을 반영 하는 검사",
+    "images": [],
+    "options": [
+      "① glycated Albumin (프럭토사민)",
+      "② microalbuminuria",
+      "③ HbA1c",
+      "④ ketone body",
+      "⑤ FBS (공복혈당)"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ HbA1c (당화혈색소)",
+    "explanation": {
+      "title": "2~3개월간의 평균 혈당 조절 상태 반영 지표 (HbA1c)",
+      "findings": "적혈구의 평균 수명은 약 120일(4개월)이며, 적혈구 내 혈색소가 혈당에 노출되어 비효소적으로 결합한 당화혈색소(HbA1c)는 최근 2~3개월(약 8~12주) 동안의 평균 혈당 상태를 정확히 반영합니다.",
+      "differential": "• HbA1c: 최근 2~3개월 평균 혈당 반영 (진단 기준 >= 6.5%)\n• Glycated Albumin / Fructosamine: 알부민 반감기(20일)에 따라 최근 2~3주 혈당 반영\n• FBS: 채혈 당일 공복 혈당 반영",
+      "trap": "단기(2~3주) 혈당 변화를 볼 때는 Glycated Albumin, 중장기(2~3개월)는 HbA1c입니다.",
+      "trigger": "2~3개월 전 평균 혈당 반영 지표 -> HbA1c",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합"
+    }
+  }
+];

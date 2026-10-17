@@ -1,0 +1,897 @@
+/**
+ * 진단검사의학과 기출 퀴즈 마스터 (20Y ~ 26Y)
+ * Core Application Engine
+ */
+
+(function () {
+  'use strict';
+
+  // Storage Keys
+  const STORAGE_KEY_ANSWERS = 'KMLE_LAB_MED_ANSWERS_V1';
+  const STORAGE_KEY_BOOKMARKS = 'KMLE_LAB_MED_BOOKMARKS_V1';
+  const STORAGE_KEY_LAST_ID = 'KMLE_LAB_MED_LAST_ID_V1';
+
+  // Application State
+  const state = {
+    allQuestions: [],
+    filteredQuestions: [],
+    currentIndex: 0,
+    userAnswers: {},   // qId -> { selectedIndex, isCorrect, timestamp }
+    bookmarks: new Set(),
+    filters: {
+      year: 'ALL',
+      type: 'ALL',
+      onlyIncorrect: false,
+      onlyBookmarked: false,
+      searchQuery: ''
+    }
+  };
+
+  // DOM Elements Cache
+  const dom = {
+    // Stats
+    statProgress: document.getElementById('stat-progress'),
+    statBarFill: document.getElementById('stat-bar-fill'),
+    statAccuracy: document.getElementById('stat-accuracy'),
+    statBookmarks: document.getElementById('stat-bookmarks'),
+    btnOpenGrid: document.getElementById('btn-open-grid'),
+
+    // Filters
+    yearTabs: document.getElementById('year-tabs'),
+    typeTabs: document.getElementById('type-tabs'),
+    filterIncorrect: document.getElementById('filter-incorrect'),
+    filterBookmarked: document.getElementById('filter-bookmarked'),
+    searchInput: document.getElementById('search-input'),
+
+    // Question Card
+    cardYear: document.getElementById('card-year'),
+    cardQnum: document.getElementById('card-qnum'),
+    cardCategory: document.getElementById('card-category'),
+    cardSubspecialty: document.getElementById('card-subspecialty'),
+    filterCounter: document.getElementById('filter-counter'),
+    btnBookmark: document.getElementById('btn-bookmark'),
+    cardStem: document.getElementById('card-stem'),
+    cardImagesContainer: document.getElementById('card-images-container'),
+    cardImages: document.getElementById('card-images'),
+    optionsList: document.getElementById('options-list'),
+
+    // Feedback & Explanation
+    feedbackBanner: document.getElementById('feedback-banner'),
+    feedbackIcon: document.getElementById('feedback-icon'),
+    feedbackStatus: document.getElementById('feedback-status'),
+    feedbackDetail: document.getElementById('feedback-detail'),
+    btnRetry: document.getElementById('btn-retry'),
+
+    cardExplanation: document.getElementById('card-explanation'),
+    expThemeTitle: document.getElementById('exp-theme-title'),
+    expCorrectAnswer: document.getElementById('exp-correct-answer'),
+    expFindings: document.getElementById('exp-findings'),
+    expDifferential: document.getElementById('exp-differential'),
+    expTrap: document.getElementById('exp-trap'),
+    expTrigger: document.getElementById('exp-trigger'),
+    expKmleLink: document.getElementById('exp-kmle-link'),
+
+    // Navigation
+    btnPrev: document.getElementById('btn-prev'),
+    btnNext: document.getElementById('btn-next'),
+    btnRandom: document.getElementById('btn-random'),
+    navIndicator: document.getElementById('nav-indicator'),
+
+    // Grid Modal
+    gridModal: document.getElementById('grid-modal'),
+    questionGrid: document.getElementById('question-grid'),
+    btnCloseGrid: document.getElementById('btn-close-grid'),
+    btnCloseGridBottom: document.getElementById('btn-close-grid-bottom'),
+    btnResetHistory: document.getElementById('btn-reset-history'),
+
+    // Lightbox Modal & Zoom Canvas
+    lightboxModal: document.getElementById('lightbox-modal'),
+    lightboxImg: document.getElementById('lightbox-img'),
+    lightboxTitle: document.getElementById('lightbox-title'),
+    lightboxZoomLevel: document.getElementById('lightbox-zoom-level'),
+    btnZoomIn: document.getElementById('btn-zoom-in'),
+    btnZoomOut: document.getElementById('btn-zoom-out'),
+    btnZoomReset: document.getElementById('btn-zoom-reset'),
+    lightboxViewport: document.getElementById('lightbox-viewport'),
+    lightboxCanvas: document.getElementById('lightbox-canvas'),
+    btnCloseLightbox: document.getElementById('btn-close-lightbox')
+  };
+
+  /**
+   * Initialize Application
+   */
+  async function init() {
+    loadStorage();
+    await loadQuestions();
+    setupEventListeners();
+    applyFilters();
+    
+    // Restore last viewed question if available
+    const lastId = localStorage.getItem(STORAGE_KEY_LAST_ID);
+    if (lastId) {
+      const idx = state.filteredQuestions.findIndex(q => q.id === lastId);
+      if (idx !== -1) {
+        state.currentIndex = idx;
+      }
+    }
+    
+    renderCurrentQuestion();
+    updateStats();
+  }
+
+  /**
+   * Load local storage data
+   */
+  function loadStorage() {
+    try {
+      const savedAnswers = localStorage.getItem(STORAGE_KEY_ANSWERS);
+      if (savedAnswers) {
+        state.userAnswers = JSON.parse(savedAnswers);
+      }
+      const savedBookmarks = localStorage.getItem(STORAGE_KEY_BOOKMARKS);
+      if (savedBookmarks) {
+        state.bookmarks = new Set(JSON.parse(savedBookmarks));
+      }
+    } catch (e) {
+      console.error('Failed to load local storage:', e);
+    }
+  }
+
+  /**
+   * Save state to local storage
+   */
+  function saveStorage() {
+    try {
+      localStorage.setItem(STORAGE_KEY_ANSWERS, JSON.stringify(state.userAnswers));
+      localStorage.setItem(STORAGE_KEY_BOOKMARKS, JSON.stringify([...state.bookmarks]));
+      const currentQ = getCurrentQuestion();
+      if (currentQ) {
+        localStorage.setItem(STORAGE_KEY_LAST_ID, currentQ.id);
+      }
+    } catch (e) {
+      console.error('Failed to save to local storage:', e);
+    }
+  }
+
+  /**
+   * Load Question Data
+   */
+  async function loadQuestions() {
+    if (window.QUIZ_DATA && Array.isArray(window.QUIZ_DATA) && window.QUIZ_DATA.length > 0) {
+      state.allQuestions = window.QUIZ_DATA;
+      return;
+    }
+
+    try {
+      const res = await fetch('data/quiz_lab_med.json');
+      if (!res.ok) throw new Error('Network response not ok');
+      state.allQuestions = await res.json();
+    } catch (err) {
+      console.warn('Fetch fallback to window.QUIZ_DATA or failed:', err);
+      if (window.QUIZ_DATA) {
+        state.allQuestions = window.QUIZ_DATA;
+      }
+    }
+  }
+
+  /**
+   * Filter Questions based on active settings
+   */
+  function applyFilters() {
+    const { year, type, onlyIncorrect, onlyBookmarked, searchQuery } = state.filters;
+    const query = searchQuery.trim().toLowerCase();
+
+    state.filteredQuestions = state.allQuestions.filter(q => {
+      // Year filter
+      if (year !== 'ALL' && q.year !== year) {
+        return false;
+      }
+
+      // Type filter
+      if (type !== 'ALL') {
+        if (type === '짤' && (!q.images || q.images.length === 0)) return false;
+        if (type === '탈' && q.images && q.images.length > 0) return false;
+        if (type === '반짤' && q.category !== '반짤') return false;
+      }
+
+      // Incorrect only filter
+      if (onlyIncorrect) {
+        const ans = state.userAnswers[q.id];
+        if (!ans || ans.isCorrect) return false;
+      }
+
+      // Bookmarked only filter
+      if (onlyBookmarked && !state.bookmarks.has(q.id)) {
+        return false;
+      }
+
+      // Search query filter
+      if (query) {
+        const matchStem = q.stem.toLowerCase().includes(query);
+        const matchTitle = (q.theme_title || '').toLowerCase().includes(query);
+        const matchId = q.id.toLowerCase().includes(query);
+        const matchOptions = q.options.some(opt => opt.toLowerCase().includes(query));
+        if (!matchStem && !matchTitle && !matchId && !matchOptions) {
+          return false;
+        }
+      }
+
+      return true;
+    });
+
+    if (state.currentIndex >= state.filteredQuestions.length) {
+      state.currentIndex = Math.max(0, state.filteredQuestions.length - 1);
+    }
+  }
+
+  /**
+   * Get Current Question Object
+   */
+  function getCurrentQuestion() {
+    if (state.filteredQuestions.length === 0) return null;
+    return state.filteredQuestions[state.currentIndex];
+  }
+
+  /**
+   * Render Current Question
+   */
+  function renderCurrentQuestion() {
+    const q = getCurrentQuestion();
+    if (!q) {
+      dom.cardStem.textContent = '조건에 일치하는 문제가 없습니다. 필터를 초기화해 보세요.';
+      dom.cardImagesContainer.style.display = 'none';
+      dom.optionsList.innerHTML = '';
+      dom.feedbackBanner.style.display = 'none';
+      dom.cardExplanation.style.display = 'none';
+      dom.filterCounter.textContent = '문항 0 / 0';
+      dom.navIndicator.textContent = '0 / 0';
+      return;
+    }
+
+    // Top Metadata
+    dom.cardYear.textContent = q.year || '기출';
+    dom.cardQnum.textContent = `Q${String(q.q_num).padStart(2, '0')}`;
+    dom.cardCategory.textContent = q.category || (q.images && q.images.length > 0 ? '짤' : '탈');
+    dom.cardSubspecialty.textContent = q.subspecialty || '진단검사의학';
+
+    const countText = `문항 ${state.currentIndex + 1} / ${state.filteredQuestions.length}`;
+    dom.filterCounter.textContent = countText;
+    dom.navIndicator.textContent = `${state.currentIndex + 1} / ${state.filteredQuestions.length}`;
+
+    // Bookmark Toggle
+    const isBookmarked = state.bookmarks.has(q.id);
+    dom.btnBookmark.classList.toggle('active', isBookmarked);
+
+    // Stem Text
+    dom.cardStem.textContent = q.stem;
+
+    // Images
+    if (q.images && q.images.length > 0) {
+      dom.cardImagesContainer.style.display = 'flex';
+      dom.cardImages.innerHTML = '';
+      q.images.forEach((imgSrc, idx) => {
+        const wrapper = document.createElement('div');
+        wrapper.className = 'image-item-wrapper';
+        wrapper.setAttribute('role', 'button');
+        wrapper.setAttribute('tabindex', '0');
+        wrapper.setAttribute('aria-label', `${q.id} 고화질 사진 확대`);
+
+        const img = document.createElement('img');
+        img.src = imgSrc;
+        img.alt = `${q.id} 임상 사진 ${idx + 1}`;
+        img.className = 'quiz-image';
+
+        const badge = document.createElement('div');
+        badge.className = 'image-zoom-overlay-badge';
+        badge.innerHTML = `
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            <line x1="11" y1="8" x2="11" y2="14"></line>
+            <line x1="8" y1="11" x2="14" y2="11"></line>
+          </svg>
+          <span>터치하여 고화질 확대</span>
+        `;
+
+        wrapper.appendChild(img);
+        wrapper.appendChild(badge);
+
+        wrapper.addEventListener('click', () => openLightbox(imgSrc, `${q.id} [임상 사진 ${idx + 1}]`));
+        wrapper.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            openLightbox(imgSrc, `${q.id} [임상 사진 ${idx + 1}]`);
+          }
+        });
+
+        dom.cardImages.appendChild(wrapper);
+      });
+    } else {
+      dom.cardImagesContainer.style.display = 'none';
+      dom.cardImages.innerHTML = '';
+    }
+
+    // Render Options
+    renderOptions(q);
+
+    // Check answered state
+    const answerRecord = state.userAnswers[q.id];
+    if (answerRecord) {
+      revealAnswerAndExplanation(q, answerRecord.selectedIndex, false);
+    } else {
+      hideAnswerAndExplanation();
+    }
+
+    saveStorage();
+  }
+
+  /**
+   * Render Options List
+   */
+  function renderOptions(q) {
+    dom.optionsList.innerHTML = '';
+    const answerRecord = state.userAnswers[q.id];
+    const isAnswered = !!answerRecord;
+
+    q.options.forEach((optText, optIdx) => {
+      const btn = document.createElement('button');
+      btn.className = 'option-btn';
+      if (isAnswered) {
+        btn.classList.add('disabled');
+      }
+
+      // Clean prefix if already in optText
+      const numMatch = optText.match(/^[①②③④⑤⑥⑦⑧\d\.\)\-\s]+/);
+      const numPrefix = numMatch ? numMatch[0].trim() : `${optIdx + 1}.`;
+      const labelText = optText.replace(/^[①②③④⑤⑥⑦⑧\d\.\)\-\s]+/, '').trim() || optText;
+
+      btn.innerHTML = `
+        <div class="option-left">
+          <span class="option-num">${numPrefix}</span>
+          <span class="option-label">${labelText}</span>
+        </div>
+        <div class="option-right">
+          <span class="option-status-icon"></span>
+          <span class="option-kbd-hint">${optIdx + 1}</span>
+        </div>
+      `;
+
+      btn.addEventListener('click', () => {
+        if (!state.userAnswers[q.id]) {
+          handleSelectOption(q, optIdx);
+        }
+      });
+
+      dom.optionsList.appendChild(btn);
+    });
+  }
+
+  /**
+   * Handle Option Selection
+   */
+  function handleSelectOption(q, selectedIdx) {
+    const isCorrect = (selectedIdx === q.correct_option_index);
+    
+    // Save answer state
+    state.userAnswers[q.id] = {
+      selectedIndex: selectedIdx,
+      isCorrect: isCorrect,
+      timestamp: Date.now()
+    };
+
+    saveStorage();
+    updateStats();
+    revealAnswerAndExplanation(q, selectedIdx, true);
+  }
+
+  /**
+   * Reveal Answer, Grading Highlights, and Clinical Explanation
+   */
+  function revealAnswerAndExplanation(q, selectedIdx, animate) {
+    const optionButtons = dom.optionsList.querySelectorAll('.option-btn');
+    const isCorrect = (selectedIdx === q.correct_option_index);
+
+    optionButtons.forEach((btn, idx) => {
+      btn.classList.add('disabled');
+      const iconSpan = btn.querySelector('.option-status-icon');
+
+      if (idx === selectedIdx) {
+        if (isCorrect) {
+          btn.classList.add('is-correct');
+          if (iconSpan) iconSpan.textContent = '✓';
+        } else {
+          btn.classList.add('is-wrong');
+          if (iconSpan) iconSpan.textContent = '✗';
+        }
+      }
+
+      // If user selected the wrong answer, highlight the actual correct answer
+      if (!isCorrect && idx === q.correct_option_index) {
+        btn.classList.add('is-actual-correct');
+        if (iconSpan) {
+          iconSpan.textContent = '✓ 정답';
+          iconSpan.style.display = 'inline-block';
+        }
+      }
+    });
+
+    // Feedback Banner
+    dom.feedbackBanner.style.display = 'flex';
+    dom.feedbackBanner.className = 'feedback-banner ' + (isCorrect ? 'correct' : 'wrong');
+    dom.feedbackIcon.textContent = isCorrect ? '🎉' : '💡';
+    dom.feedbackStatus.textContent = isCorrect ? '정답입니다!' : '오답입니다!';
+    dom.feedbackDetail.textContent = isCorrect 
+      ? '정확하게 정답을 맞히셨습니다. 아래 해설에서 핵심 임상 포인트를 복습하세요.'
+      : `정답은 ${q.options[q.correct_option_index] || q.correct_answer} 입니다. 아래 해설을 확인하세요.`;
+
+    // Clinical Explanation Box
+    const exp = q.explanation || {};
+    dom.expThemeTitle.textContent = exp.title || q.theme_title || '임상 검사 판독 및 의의';
+    dom.expCorrectAnswer.textContent = q.correct_answer || q.options[q.correct_option_index] || '';
+    dom.expFindings.textContent = exp.findings || '상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.';
+    dom.expDifferential.textContent = exp.differential || '선지별 감별 임상 의의 및 관련 질환 감별 포인트를 숙지하십시오.';
+    dom.expTrap.textContent = exp.trap || '실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.';
+    dom.expTrigger.textContent = exp.trigger || `${q.theme_title} 핵심 지표 기준 즉시 정답 도출`;
+    dom.expKmleLink.textContent = `📚 KMLE 연계: ${exp.kmle_link || '진단검사의학과 총론 및 각론'}`;
+
+    dom.cardExplanation.style.display = 'flex';
+
+    if (animate) {
+      // Smooth scroll slightly if explanation is tall
+      setTimeout(() => {
+        dom.feedbackBanner.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }, 100);
+    }
+  }
+
+  /**
+   * Hide Answer and Explanation (Unanswered State)
+   */
+  function hideAnswerAndExplanation() {
+    dom.feedbackBanner.style.display = 'none';
+    dom.cardExplanation.style.display = 'none';
+  }
+
+  /**
+   * Reset / Retry Current Question
+   */
+  function resetCurrentQuestion() {
+    const q = getCurrentQuestion();
+    if (!q) return;
+
+    delete state.userAnswers[q.id];
+    saveStorage();
+    updateStats();
+    renderCurrentQuestion();
+  }
+
+  /**
+   * Update Global Stats Header
+   */
+  function updateStats() {
+    const total = state.allQuestions.length;
+    const answeredKeys = Object.keys(state.userAnswers);
+    const answeredCount = answeredKeys.length;
+
+    let correctCount = 0;
+    answeredKeys.forEach(k => {
+      if (state.userAnswers[k] && state.userAnswers[k].isCorrect) {
+        correctCount++;
+      }
+    });
+
+    const accuracyPct = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
+    const progressPct = total > 0 ? Math.round((answeredCount / total) * 100) : 0;
+
+    dom.statProgress.textContent = `${answeredCount} / ${total}`;
+    dom.statBarFill.style.width = `${progressPct}%`;
+    dom.statAccuracy.textContent = `${accuracyPct}%`;
+    dom.statBookmarks.textContent = `${state.bookmarks.size}`;
+  }
+
+  /**
+   * Setup Event Listeners
+   */
+  function setupEventListeners() {
+    // Navigation
+    dom.btnPrev.addEventListener('click', () => navigate(-1));
+    dom.btnNext.addEventListener('click', () => navigate(1));
+    dom.btnRandom.addEventListener('click', navigateRandom);
+
+    // Question Retry
+    dom.btnRetry.addEventListener('click', resetCurrentQuestion);
+
+    // Bookmark Toggle
+    dom.btnBookmark.addEventListener('click', toggleBookmark);
+
+    // Year Filter Tabs
+    dom.yearTabs.addEventListener('click', e => {
+      const btn = e.target.closest('.pill-tab');
+      if (!btn) return;
+      dom.yearTabs.querySelectorAll('.pill-tab').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      state.filters.year = btn.dataset.year;
+      state.currentIndex = 0;
+      applyFilters();
+      renderCurrentQuestion();
+    });
+
+    // Type Filter Tabs
+    dom.typeTabs.addEventListener('click', e => {
+      const btn = e.target.closest('.pill-tab');
+      if (!btn) return;
+      dom.typeTabs.querySelectorAll('.pill-tab').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      state.filters.type = btn.dataset.type;
+      state.currentIndex = 0;
+      applyFilters();
+      renderCurrentQuestion();
+    });
+
+    // Special Filter: Incorrect Only
+    dom.filterIncorrect.addEventListener('click', () => {
+      state.filters.onlyIncorrect = !state.filters.onlyIncorrect;
+      dom.filterIncorrect.classList.toggle('active', state.filters.onlyIncorrect);
+      state.currentIndex = 0;
+      applyFilters();
+      renderCurrentQuestion();
+    });
+
+    // Special Filter: Bookmarked Only
+    dom.filterBookmarked.addEventListener('click', () => {
+      state.filters.onlyBookmarked = !state.filters.onlyBookmarked;
+      dom.filterBookmarked.classList.toggle('active', state.filters.onlyBookmarked);
+      state.currentIndex = 0;
+      applyFilters();
+      renderCurrentQuestion();
+    });
+
+    // Keyword Search
+    let searchDebounce = null;
+    dom.searchInput.addEventListener('input', e => {
+      clearTimeout(searchDebounce);
+      searchDebounce = setTimeout(() => {
+        state.filters.searchQuery = e.target.value;
+        state.currentIndex = 0;
+        applyFilters();
+        renderCurrentQuestion();
+      }, 250);
+    });
+
+    // Grid Modal
+    dom.btnOpenGrid.addEventListener('click', openGridModal);
+    dom.btnCloseGrid.addEventListener('click', closeGridModal);
+    dom.btnCloseGridBottom.addEventListener('click', closeGridModal);
+    dom.gridModal.addEventListener('click', e => {
+      if (e.target === dom.gridModal) closeGridModal();
+    });
+
+    // Reset History
+    dom.btnResetHistory.addEventListener('click', () => {
+      if (confirm('모든 문제 풀이 기록과 정답 통계를 초기화하시겠습니까?')) {
+        state.userAnswers = {};
+        saveStorage();
+        updateStats();
+        renderGrid();
+        renderCurrentQuestion();
+      }
+    });
+
+    // Lightbox Events (Zoom, Pan, Drag, Close)
+    setupLightboxEvents();
+
+    // Keyboard Shortcuts
+    window.addEventListener('keydown', handleKeydown);
+  }
+
+  /**
+   * Keyboard Shortcuts Handler
+   */
+  function handleKeydown(e) {
+    // If typing in input, ignore
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+      return;
+    }
+
+    const q = getCurrentQuestion();
+
+    // Option selection keys 1 ~ 5
+    if (q && !state.userAnswers[q.id]) {
+      const keyNum = parseInt(e.key, 10);
+      if (keyNum >= 1 && keyNum <= q.options.length) {
+        e.preventDefault();
+        handleSelectOption(q, keyNum - 1);
+        return;
+      }
+    }
+
+    // Navigation keys
+    if (e.key === 'ArrowLeft' || e.key === 'j' || e.key === 'J') {
+      e.preventDefault();
+      navigate(-1);
+    } else if (e.key === 'ArrowRight' || e.key === 'k' || e.key === 'K' || e.key === ' ') {
+      e.preventDefault();
+      navigate(1);
+    } else if (e.key === 'b' || e.key === 'B') {
+      e.preventDefault();
+      toggleBookmark();
+    } else if (e.key === 'r' || e.key === 'R') {
+      e.preventDefault();
+      resetCurrentQuestion();
+    } else if (e.key === 'Escape') {
+      closeGridModal();
+      closeLightbox();
+    }
+  }
+
+  /**
+   * Navigate Previous / Next
+   */
+  function navigate(delta) {
+    if (state.filteredQuestions.length === 0) return;
+    state.currentIndex = (state.currentIndex + delta + state.filteredQuestions.length) % state.filteredQuestions.length;
+    renderCurrentQuestion();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  /**
+   * Navigate to Random Question
+   */
+  function navigateRandom() {
+    if (state.filteredQuestions.length <= 1) return;
+    let nextIdx = state.currentIndex;
+    while (nextIdx === state.currentIndex) {
+      nextIdx = Math.floor(Math.random() * state.filteredQuestions.length);
+    }
+    state.currentIndex = nextIdx;
+    renderCurrentQuestion();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  /**
+   * Toggle Bookmark
+   */
+  function toggleBookmark() {
+    const q = getCurrentQuestion();
+    if (!q) return;
+
+    if (state.bookmarks.has(q.id)) {
+      state.bookmarks.delete(q.id);
+    } else {
+      state.bookmarks.add(q.id);
+    }
+
+    saveStorage();
+    updateStats();
+    dom.btnBookmark.classList.toggle('active', state.bookmarks.has(q.id));
+  }
+
+  /**
+   * Question Jump Grid Modal
+   */
+  function openGridModal() {
+    renderGrid();
+    dom.gridModal.style.display = 'flex';
+  }
+
+  function closeGridModal() {
+    dom.gridModal.style.display = 'none';
+  }
+
+  function renderGrid() {
+    dom.questionGrid.innerHTML = '';
+    const currentQ = getCurrentQuestion();
+
+    state.filteredQuestions.forEach((q, idx) => {
+      const btn = document.createElement('button');
+      btn.className = 'grid-item-btn';
+      
+      const isCurrent = currentQ && q.id === currentQ.id;
+      if (isCurrent) btn.classList.add('active-current');
+
+      const ans = state.userAnswers[q.id];
+      if (ans) {
+        btn.classList.add(ans.isCorrect ? 'state-correct' : 'state-wrong');
+      }
+
+      btn.textContent = `${idx + 1}`;
+
+      if (state.bookmarks.has(q.id)) {
+        const star = document.createElement('span');
+        star.className = 'grid-star';
+        star.textContent = '★';
+        btn.appendChild(star);
+      }
+
+      btn.addEventListener('click', () => {
+        state.currentIndex = idx;
+        renderCurrentQuestion();
+        closeGridModal();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      dom.questionGrid.appendChild(btn);
+    });
+  }
+
+  /**
+   * ==========================================================================
+   * Image Lightbox & Interactive Zoom / Pan Engine
+   * ==========================================================================
+   */
+  const zoomState = {
+    scale: 1.0,
+    minScale: 1.0,
+    maxScale: 4.5,
+    translateX: 0,
+    translateY: 0,
+    isDragging: false,
+    startX: 0,
+    startY: 0,
+    initialPinchDistance: null,
+    initialPinchScale: 1.0,
+    lastTapTime: 0
+  };
+
+  function updateZoomTransform(smooth = false) {
+    if (smooth) {
+      dom.lightboxCanvas.style.transition = 'transform 0.2s cubic-bezier(0.2, 0, 0, 1)';
+    } else {
+      dom.lightboxCanvas.style.transition = 'none';
+    }
+    dom.lightboxCanvas.style.transform = `translate(${zoomState.translateX}px, ${zoomState.translateY}px) scale(${zoomState.scale})`;
+    if (dom.lightboxZoomLevel) {
+      dom.lightboxZoomLevel.textContent = `${Math.round(zoomState.scale * 100)}%`;
+    }
+  }
+
+  function setZoom(newScale, smooth = true) {
+    zoomState.scale = Math.min(zoomState.maxScale, Math.max(zoomState.minScale, newScale));
+    if (zoomState.scale <= 1.05) {
+      zoomState.scale = 1.0;
+      zoomState.translateX = 0;
+      zoomState.translateY = 0;
+    }
+    updateZoomTransform(smooth);
+  }
+
+  function resetZoom() {
+    setZoom(1.0, true);
+  }
+
+  function zoomIn() {
+    setZoom(zoomState.scale + 0.4, true);
+  }
+
+  function zoomOut() {
+    setZoom(zoomState.scale - 0.4, true);
+  }
+
+  function openLightbox(src, title) {
+    dom.lightboxImg.src = src;
+    dom.lightboxTitle.textContent = title;
+    resetZoom();
+    dom.lightboxModal.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeLightbox() {
+    dom.lightboxModal.style.display = 'none';
+    document.body.style.overflow = '';
+    resetZoom();
+  }
+
+  function setupLightboxEvents() {
+    // Zoom Buttons
+    if (dom.btnZoomIn) dom.btnZoomIn.addEventListener('click', (e) => { e.stopPropagation(); zoomIn(); });
+    if (dom.btnZoomOut) dom.btnZoomOut.addEventListener('click', (e) => { e.stopPropagation(); zoomOut(); });
+    if (dom.btnZoomReset) dom.btnZoomReset.addEventListener('click', (e) => { e.stopPropagation(); resetZoom(); });
+    if (dom.btnCloseLightbox) dom.btnCloseLightbox.addEventListener('click', (e) => { e.stopPropagation(); closeLightbox(); });
+
+    // Close when tapping outside the canvas on 1x zoom
+    dom.lightboxViewport.addEventListener('click', (e) => {
+      if (e.target === dom.lightboxViewport && zoomState.scale <= 1.05) {
+        closeLightbox();
+      }
+    });
+
+    // Mouse Dragging for Desktop
+    dom.lightboxViewport.addEventListener('mousedown', (e) => {
+      if (e.button === 0 && zoomState.scale > 1.05) {
+        zoomState.isDragging = true;
+        zoomState.startX = e.clientX - zoomState.translateX;
+        zoomState.startY = e.clientY - zoomState.translateY;
+        dom.lightboxCanvas.classList.add('is-dragging');
+      }
+    });
+
+    window.addEventListener('mousemove', (e) => {
+      if (zoomState.isDragging) {
+        zoomState.translateX = e.clientX - zoomState.startX;
+        zoomState.translateY = e.clientY - zoomState.startY;
+        updateZoomTransform(false);
+      }
+    });
+
+    window.addEventListener('mouseup', () => {
+      if (zoomState.isDragging) {
+        zoomState.isDragging = false;
+        dom.lightboxCanvas.classList.remove('is-dragging');
+      }
+    });
+
+    // Desktop Mouse Wheel Zoom
+    dom.lightboxViewport.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      const delta = e.deltaY < 0 ? 0.3 : -0.3;
+      setZoom(zoomState.scale + delta, false);
+    }, { passive: false });
+
+    // Touch Gestures: Double-Tap Zoom & Pinch-to-Zoom
+    dom.lightboxViewport.addEventListener('touchstart', (e) => {
+      if (e.touches.length === 1) {
+        // Double-Tap Detection
+        const now = Date.now();
+        if (now - zoomState.lastTapTime < 320) {
+          e.preventDefault();
+          if (zoomState.scale > 1.2) {
+            resetZoom();
+          } else {
+            setZoom(2.2, true);
+          }
+          zoomState.lastTapTime = 0;
+          return;
+        }
+        zoomState.lastTapTime = now;
+
+        // Pan Start
+        if (zoomState.scale > 1.05) {
+          zoomState.isDragging = true;
+          zoomState.startX = e.touches[0].clientX - zoomState.translateX;
+          zoomState.startY = e.touches[0].clientY - zoomState.translateY;
+        }
+      } else if (e.touches.length === 2) {
+        // Pinch Zoom Start
+        zoomState.isDragging = false;
+        zoomState.initialPinchDistance = Math.hypot(
+          e.touches[0].clientX - e.touches[1].clientX,
+          e.touches[0].clientY - e.touches[1].clientY
+        );
+        zoomState.initialPinchScale = zoomState.scale;
+      }
+    }, { passive: false });
+
+    dom.lightboxViewport.addEventListener('touchmove', (e) => {
+      if (e.touches.length === 1 && zoomState.isDragging && zoomState.scale > 1.05) {
+        e.preventDefault();
+        zoomState.translateX = e.touches[0].clientX - zoomState.startX;
+        zoomState.translateY = e.touches[0].clientY - zoomState.startY;
+        updateZoomTransform(false);
+      } else if (e.touches.length === 2 && zoomState.initialPinchDistance) {
+        e.preventDefault();
+        const dist = Math.hypot(
+          e.touches[0].clientX - e.touches[1].clientX,
+          e.touches[0].clientY - e.touches[1].clientY
+        );
+        const factor = dist / zoomState.initialPinchDistance;
+        setZoom(zoomState.initialPinchScale * factor, false);
+      }
+    }, { passive: false });
+
+    dom.lightboxViewport.addEventListener('touchend', (e) => {
+      if (e.touches.length < 2) {
+        zoomState.initialPinchDistance = null;
+      }
+      if (e.touches.length === 0) {
+        zoomState.isDragging = false;
+      }
+    });
+  }
+
+  // Start app when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
