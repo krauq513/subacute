@@ -266,6 +266,19 @@ def main():
         }
         print(f"[{subject}] Processed {len(processed_qs)} questions (Answers matched: {summary_by_sub[subject]['with_ans']})")
 
+    # Run enrichment engine to attach option-by-option explanations
+    try:
+        from enrich_option_explanations import load_all_subject_themes, enrich_single_question
+        themes_by_sub, crop_map, year_map, surgery_extra_map = load_all_subject_themes()
+        enriched_list = []
+        for q in all_questions:
+            q_en = enrich_single_question(q, crop_map, year_map, surgery_extra_map)
+            enriched_list.append(q_en)
+        all_questions = enriched_list
+        print(f"Successfully enriched {len(all_questions)} questions with option explanations!")
+    except Exception as e:
+        print(f"Option enrichment notice: {e}")
+
     # Save quiz_all_subjects.json
     out_json = os.path.join(APP_DATA_DIR, 'quiz_all_subjects.json')
     with open(out_json, 'w', encoding='utf-8') as f:
@@ -275,7 +288,7 @@ def main():
     # Save quiz_data.js (window.QUIZ_DATA = [...])
     out_js = os.path.join(APP_DATA_DIR, 'quiz_data.js')
     with open(out_js, 'w', encoding='utf-8') as f:
-        f.write("/**\n * KMLE ALL SUBJECTS QUIZ BANK DATA\n */\n")
+        f.write("/**\n * KMLE ALL SUBJECTS QUIZ BANK DATA (WITH OPTION EXPLANATIONS)\n */\n")
         f.write("window.QUIZ_DATA = ")
         json.dump(all_questions, f, ensure_ascii=False)
         f.write(";\n")

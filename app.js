@@ -529,6 +529,19 @@
   }
 
   /**
+   * Escape HTML utility to prevent XSS when injecting raw text
+   */
+  function escapeHtml(str) {
+    if (str === null || str === undefined) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  /**
    * Safe Option Prefix & Label Parser
    * Accurately extracts option number prefix (e.g. '①', '1.') and label text,
    * without EVER stripping medical content numbers (e.g. '4도', '37℃', '1등급', '0.9%', '10~20mL').
@@ -1151,6 +1164,79 @@
   }
 
   /**
+   * Render Structured Option-by-Option Explanation Cards
+   */
+  function renderDifferentialExplanation(q, exp, answerRecord) {
+    if (!dom.expDifferential) return;
+
+    const optExps = q.option_explanations || (exp && exp.option_explanations);
+    const userSelectedSet = new Set((answerRecord && answerRecord.selectedIndices) || (answerRecord && answerRecord.selectedIndex !== undefined ? [answerRecord.selectedIndex] : []));
+
+    if (optExps && Array.isArray(optExps) && optExps.length > 0) {
+      dom.expDifferential.innerHTML = '';
+      const listEl = document.createElement('div');
+      listEl.className = 'opt-exp-list';
+
+      optExps.forEach((item, idx) => {
+        const itemIdx = item.opt_idx !== undefined ? item.opt_idx : idx;
+        const isUserPicked = userSelectedSet.has(itemIdx);
+        const itemEl = document.createElement('div');
+        itemEl.className = 'opt-exp-item ' + (item.is_correct ? 'correct' : 'wrong') + (isUserPicked ? ' user-picked' : '');
+
+        const headerEl = document.createElement('div');
+        headerEl.className = 'opt-exp-header';
+
+        const badgeEl = document.createElement('span');
+        badgeEl.className = 'opt-badge ' + (item.is_correct ? 'correct' : 'wrong');
+        badgeEl.textContent = item.is_correct ? '정답' : '오답 감별';
+        headerEl.appendChild(badgeEl);
+
+        if (isUserPicked) {
+          const userBadge = document.createElement('span');
+          userBadge.className = 'opt-user-badge ' + (item.is_correct ? 'picked-correct' : 'picked-wrong');
+          userBadge.textContent = item.is_correct ? '내 선택 (일치) ✓' : '내 선택 ✗';
+          headerEl.appendChild(userBadge);
+        }
+
+        if (item.opt_num) {
+          const numEl = document.createElement('span');
+          numEl.className = 'opt-num';
+          numEl.textContent = item.opt_num;
+          headerEl.appendChild(numEl);
+        }
+
+        const nameEl = document.createElement('span');
+        nameEl.className = 'opt-name';
+        nameEl.textContent = item.text || (q.options && q.options[idx]) || '';
+        headerEl.appendChild(nameEl);
+
+        const bodyEl = document.createElement('div');
+        bodyEl.className = 'opt-exp-body';
+        bodyEl.textContent = item.reason || '';
+
+        itemEl.appendChild(headerEl);
+        itemEl.appendChild(bodyEl);
+        listEl.appendChild(itemEl);
+      });
+
+      dom.expDifferential.appendChild(listEl);
+
+      // If there is additional general differential or KMLE theory notes, append below
+      const generalText = (exp && (exp.differential_general || exp.kmle_theory_note)) || '';
+      if (generalText && generalText.trim()) {
+        const generalEl = document.createElement('div');
+        generalEl.className = 'opt-exp-general';
+        generalEl.innerHTML = `<div class="opt-exp-general-title">💡 핵심 감별 및 임상 가이드라인</div><div class="opt-exp-general-content">${escapeHtml(generalText).replace(/\n/g, '<br>')}</div>`;
+        dom.expDifferential.appendChild(generalEl);
+      }
+    } else {
+      // Fallback for short-answer or legacy format
+      const rawDiff = (exp && exp.differential) || '선지별 감별 임상 의의 및 관련 질환 감별 포인트를 숙지하십시오.';
+      dom.expDifferential.innerHTML = `<div class="exp-plain-text">${escapeHtml(rawDiff).replace(/\n/g, '<br>')}</div>`;
+    }
+  }
+
+  /**
    * Reveal Answer, Grading Highlights, and Clinical Explanation
    */
   function revealAnswerAndExplanation(q, answerRecord, animate) {
@@ -1229,10 +1315,12 @@
     dom.expCorrectAnswer.textContent = correctSummary;
 
     dom.expFindings.textContent = exp.findings || '상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.';
-    dom.expDifferential.textContent = exp.differential || '선지별 감별 임상 의의 및 관련 질환 감별 포인트를 숙지하십시오.';
     dom.expTrap.textContent = exp.trap || '실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.';
     dom.expTrigger.textContent = exp.trigger || `${q.theme_title} 핵심 지표 기준 즉시 정답 도출`;
     dom.expKmleLink.textContent = `📚 KMLE 연계: ${exp.kmle_link || '진단검사의학과 총론 및 각론'}`;
+
+    // Structured Option-by-Option Explanations
+    renderDifferentialExplanation(q, exp, answerRecord);
 
     dom.cardExplanation.style.display = 'flex';
 

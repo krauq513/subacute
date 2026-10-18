@@ -1255,6 +1255,139 @@ body {
   border-left: 2px solid #cbd5e1;
 }
 
+#exp-differential {
+  white-space: normal;
+  border-left: none;
+  padding-left: 0;
+}
+
+/* Option-by-Option Explanation Cards in Drawer */
+.opt-exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 6px;
+  width: 100%;
+}
+
+.opt-exp-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-left: 4px solid #94a3b8;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+.opt-exp-item.correct {
+  border-left: 4px solid var(--success);
+  background: #f0fdf4;
+  border-color: #bbf7d0;
+}
+
+.opt-exp-item.wrong {
+  border-left: 4px solid #94a3b8;
+  background: #f8fafc;
+  border-color: var(--border-light);
+}
+
+.opt-exp-item.user-picked {
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.35);
+}
+
+.opt-exp-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.opt-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 6px;
+  letter-spacing: 0.02em;
+  display: inline-flex;
+  align-items: center;
+}
+
+.opt-badge.correct {
+  background: #10b981;
+  color: #ffffff;
+}
+
+.opt-badge.wrong {
+  background: #e2e8f0;
+  color: #475569;
+}
+
+.opt-user-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.opt-user-badge.picked-correct {
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #86efac;
+}
+
+.opt-user-badge.picked-wrong {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+}
+
+.opt-num {
+  font-weight: 800;
+  color: var(--primary);
+  font-size: 0.95rem;
+}
+
+.opt-name {
+  font-weight: 700;
+  color: var(--text-primary);
+  font-size: 0.92rem;
+}
+
+.opt-exp-body {
+  font-size: 0.88rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  padding-left: 2px;
+}
+
+.opt-exp-general {
+  margin-top: 14px;
+  padding: 12px 14px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  font-size: 0.86rem;
+  line-height: 1.65;
+  color: var(--text-primary);
+}
+
+.opt-exp-general-title {
+  font-weight: 700;
+  color: #1e40af;
+  margin-bottom: 6px;
+  font-size: 0.88rem;
+}
+
+.opt-exp-general-content {
+  color: #334155;
+}
+
 /* Special High-Yield Callout Boxes */
 .exp-section.warning-box {
   background: var(--warning-bg);
