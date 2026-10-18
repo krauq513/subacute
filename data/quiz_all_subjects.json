@@ -600,25 +600,25 @@
     "category": "짤",
     "theme_title": "EDTA 유도 가성 혈소판 감소증 환자의 재검용 항응고제 튜브",
     "subspecialty": "진단혈액학",
-    "stem": "다음 병의 이름은 무엇인가?",
+    "stem": "다음 병(채혈 튜브)의 이름은 무엇인가?",
     "images": [
       "images/26Y_Q16_fig1.png"
     ],
     "options": [
-      "① Sodium citrate (구연산나트륨 튜브 - Light blue cap)",
-      "② EDTA tube (Lavender cap)",
-      "③ Heparin tube (Green cap)",
-      "④ Plain tube (Red cap)",
-      "⑤ ACD tube (Yellow cap)"
+      "① Sodium citrate 튜브 (구연산나트륨)",
+      "② EDTA 튜브",
+      "③ Heparin 튜브",
+      "④ Plain 튜브",
+      "⑤ ACD 튜브"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① Sodium citrate (구연산나트륨 튜브 - Light blue cap)",
+    "correct_answer": "① Sodium citrate 튜브 (구연산나트륨)",
     "explanation": {
       "title": "EDTA 유도 가성 혈소판 감소증 환자의 재검용 항응고제 튜브",
-      "findings": "Q06과 연계되는 진단혈액학 고전 필수 문제.",
-      "differential": "EDTA(보라색), Sodium citrate(하늘색), Heparin(녹색), Plain/SST(노란/빨간색).",
-      "trap": "Citrate 튜브에서도 드물게 응집하는 경우 Heparin 튜브를 사용하거나, 항응고제 없는 주사기로 즉시 채혈 후 직접 도말/희석 검사 시행.",
-      "trigger": "EDTA 튜브에서 혈소판 응집으로 인한 가성 혈소판 감소증 확인 시 재검용으로 사용하는 제1 표준 튜브 = Sodium citrate 튜브!",
+      "findings": "사진 속 하늘색 마개(Light blue cap) 채혈 튜브 = 3.2% Sodium citrate(구연산나트륨) 튜브.",
+      "differential": "주요 채혈 튜브 캡 색상 및 용도: ① 하늘색(Light blue): Sodium citrate (혈액응고 검사 PT/aPTT, 가성 혈소판감소증 재검) ② 보라색(Lavender): K2/K3 EDTA (CBC, 혈액도말) ③ 녹색(Green): Heparin (응급 화학, 전해질) ④ 빨강/노랑(Red/Gold): Plain/SST (혈청 생화학, 면역) ⑤ 회색(Gray): NaF (혈당).",
+      "trap": "선지에서 캡 색상을 유추하지 못하도록 튜브의 화학 성분명과 캡 색상의 연결 관계를 정확히 암기해야 함. Citrate 튜브는 액체 항응고제(9:1 희석)이므로 혈소판 수치 측정 시 1.1 희석 보정 필수.",
+      "trigger": "하늘색 캡 = 3.2% Sodium citrate 튜브! EDTA 유도 가성 혈소판 감소증 확인 시 재검용 표준 튜브!",
       "kmle_link": "KMLE 혈액학 - 혈소판 검사 채혈 튜브 및 주의사항"
     },
     "freq_count": 2,
@@ -2753,25 +2753,25 @@
     "category": "짤",
     "theme_title": "EDTA 유도 가성 혈소판 감소증 환자의 재검용 항응고제 튜브",
     "subspecialty": "진단혈액학",
-    "stem": "다음 병의 이름은 무엇인가?",
+    "stem": "다음 병(채혈 튜브)의 이름은 무엇인가?",
     "images": [
       "images/23Y_Q21_fig1.png"
     ],
     "options": [
-      "① Sodium citrate (구연산나트륨 튜브 - Light blue cap)",
-      "② EDTA tube (Lavender cap)",
-      "③ Heparin tube (Green cap)",
-      "④ Plain tube (Red cap)",
-      "⑤ ACD tube (Yellow cap)"
+      "① Sodium citrate 튜브 (구연산나트륨)",
+      "② EDTA 튜브",
+      "③ Heparin 튜브",
+      "④ Plain 튜브",
+      "⑤ ACD 튜브"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① Sodium citrate (구연산나트륨 튜브 - Light blue cap)",
+    "correct_answer": "① Sodium citrate 튜브 (구연산나트륨)",
     "explanation": {
       "title": "EDTA 유도 가성 혈소판 감소증 환자의 재검용 항응고제 튜브",
-      "findings": "Q06과 연계되는 진단혈액학 고전 필수 문제.",
-      "differential": "EDTA(보라색), Sodium citrate(하늘색), Heparin(녹색), Plain/SST(노란/빨간색).",
-      "trap": "Citrate 튜브에서도 드물게 응집하는 경우 Heparin 튜브를 사용하거나, 항응고제 없는 주사기로 즉시 채혈 후 직접 도말/희석 검사 시행.",
-      "trigger": "EDTA 튜브에서 혈소판 응집으로 인한 가성 혈소판 감소증 확인 시 재검용으로 사용하는 제1 표준 튜브 = Sodium citrate 튜브!",
+      "findings": "사진 속 하늘색 마개(Light blue cap) 채혈 튜브 = 3.2% Sodium citrate(구연산나트륨) 튜브.",
+      "differential": "주요 채혈 튜브 캡 색상 및 용도: ① 하늘색(Light blue): Sodium citrate (혈액응고 검사 PT/aPTT, 가성 혈소판감소증 재검) ② 보라색(Lavender): K2/K3 EDTA (CBC, 혈액도말) ③ 녹색(Green): Heparin (응급 화학, 전해질) ④ 빨강/노랑(Red/Gold): Plain/SST (혈청 생화학, 면역) ⑤ 회색(Gray): NaF (혈당).",
+      "trap": "선지에서 캡 색상을 유추하지 못하도록 튜브의 화학 성분명과 캡 색상의 연결 관계를 정확히 암기해야 함. Citrate 튜브는 액체 항응고제(9:1 희석)이므로 혈소판 수치 측정 시 1.1 희석 보정 필수.",
+      "trigger": "하늘색 캡 = 3.2% Sodium citrate 튜브! EDTA 유도 가성 혈소판 감소증 확인 시 재검용 표준 튜브!",
       "kmle_link": "KMLE 혈액학 - 혈소판 검사 채혈 튜브 및 주의사항"
     },
     "freq_count": 2,
