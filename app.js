@@ -59,6 +59,7 @@
     cardSubject: document.getElementById('card-subject'),
     cardYear: document.getElementById('card-year'),
     cardQnum: document.getElementById('card-qnum'),
+    cardMetaLinkedChips: document.getElementById('card-meta-linked-chips'),
     cardCategory: document.getElementById('card-category'),
     cardSubspecialty: document.getElementById('card-subspecialty'),
     cardFreqBadge: document.getElementById('card-freq-badge'),
@@ -584,6 +585,129 @@
   }
 
   /**
+   * Jump to question by raw exam tag (e.g. '23Y-47', '22Y-25')
+   * Accurately finds the question in state.allQuestions, adjusts filters if needed,
+   * updates the currentIndex, and smoothly transitions to the target question.
+   */
+  function jumpToQuestionByRaw(rawItem) {
+    if (!rawItem) return;
+    const curQ = getCurrentQuestion();
+    const curSub = curQ ? curQ.subject : (state.filters.subject !== 'ALL' ? state.filters.subject : null);
+
+    const m = rawItem.match(/(\d+Y)[-_]Q?0?(\d+)/i);
+    if (!m) return;
+    const targetYear = m[1].toUpperCase();
+    const targetNum = parseInt(m[2], 10);
+
+    // If already viewing this exact question, alert user gently
+    if (curQ && curQ.year === targetYear && Number(curQ.q_num) === targetNum) {
+      showToast(`이미 현재 표시 중인 문제입니다. (${targetYear} Q${String(targetNum).padStart(2, '0')})`);
+      return;
+    }
+
+    // 1. Find target question
+    let target = null;
+
+    // 1-a. Priority: Same subject, exact year & q_num
+    if (curSub) {
+      target = state.allQuestions.find(cand =>
+        cand.subject === curSub &&
+        cand.year === targetYear &&
+        Number(cand.q_num) === targetNum
+      );
+      if (!target) {
+        target = state.allQuestions.find(cand =>
+          cand.subject === curSub &&
+          cand.year === targetYear &&
+          (cand.id.includes(`_Q${String(targetNum).padStart(2, '0')}`) ||
+           cand.id.includes(`_Q${targetNum}`))
+        );
+      }
+    }
+
+    // 1-b. Global search: exact year & q_num
+    if (!target) {
+      target = state.allQuestions.find(cand =>
+        cand.year === targetYear &&
+        Number(cand.q_num) === targetNum
+      );
+    }
+
+    // 1-c. Global ID match
+    if (!target) {
+      target = state.allQuestions.find(cand =>
+        cand.year === targetYear &&
+        (cand.id.includes(`_Q${String(targetNum).padStart(2, '0')}`) ||
+         cand.id.includes(`_Q${targetNum}`))
+      );
+    }
+
+    if (!target) {
+      showToast(`⚠️ [${rawItem}] 문제는 현재 5개년(20Y~26Y) 기출 DB에 포함되어 있지 않습니다.`);
+      return;
+    }
+
+    // 2. Check if target is in current filtered list
+    let targetIdx = state.filteredQuestions.findIndex(fq => fq.id === target.id);
+
+    // If target was filtered out, adjust filters to include it!
+    if (targetIdx === -1) {
+      // If subject was restricted, adjust to target subject
+      if (state.filters.subject !== 'ALL' && state.filters.subject !== target.subject) {
+        state.filters.subject = target.subject;
+        localStorage.setItem(STORAGE_KEY_SUBJECT, target.subject);
+      }
+
+      // If year was restricted, adjust to ALL
+      if (state.filters.year !== 'ALL' && state.filters.year !== target.year) {
+        state.filters.year = 'ALL';
+      }
+
+      // Clear restrictive filters
+      state.filters.type = 'ALL';
+      state.filters.onlyFrequent = false;
+      state.filters.onlyImages = false;
+      state.filters.onlyIncorrect = false;
+      state.filters.onlyBookmarked = false;
+      state.filters.searchQuery = '';
+      if (dom.searchInput) dom.searchInput.value = '';
+
+      // Re-apply filters
+      applyFilters();
+
+      // Synchronize UI filter tabs
+      const subQuestions = (state.filters.subject === 'ALL')
+        ? state.allQuestions
+        : state.allQuestions.filter(q => q.subject === state.filters.subject);
+      renderYearTabs(subQuestions);
+      renderCategoryTabs(subQuestions);
+
+      if (dom.subjectTabs) {
+        dom.subjectTabs.querySelectorAll('.subject-pill').forEach(btn => {
+          btn.classList.toggle('active', btn.dataset.subject === state.filters.subject);
+        });
+      }
+      if (dom.filterFrequent) dom.filterFrequent.classList.remove('active');
+      if (dom.filterImages) dom.filterImages.classList.remove('active');
+      if (dom.filterIncorrect) dom.filterIncorrect.classList.remove('active');
+      if (dom.filterBookmarked) dom.filterBookmarked.classList.remove('active');
+
+      targetIdx = state.filteredQuestions.findIndex(fq => fq.id === target.id);
+    }
+
+    if (targetIdx !== -1) {
+      state.currentIndex = targetIdx;
+      renderCurrentQuestion();
+      renderGrid();
+      updateStats();
+      showToast(`🔄 [${target.year}-${String(target.q_num).padStart(2, '0')}] ${target.subject} 기출 문제로 이동했습니다.`);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      showToast(`⚠️ [${rawItem}] 문제로 이동하는 중 필터 충돌이 발생했습니다.`);
+    }
+  }
+
+  /**
    * Render Current Question
    */
   function renderCurrentQuestion() {
@@ -605,8 +729,36 @@
       dom.cardSubject.textContent = q.subject || '임상의학';
     }
     dom.cardYear.textContent = q.year || '기출';
+    dom.cardYear.title = `${q.year || ''} 기출 문제 필터 전환`;
     dom.cardQnum.textContent = `Q${String(q.q_num).padStart(2, '0')}`;
     
+    // Render Linked Year/Number Chips right next to Question Number
+    if (dom.cardMetaLinkedChips) {
+      dom.cardMetaLinkedChips.innerHTML = '';
+      const rawList = q.raw_questions && q.raw_questions.length > 0
+        ? q.raw_questions
+        : [`${q.year}-${String(q.q_num).padStart(2, '0')}`];
+
+      // Other years only (excluding current question)
+      const otherRaws = rawList.filter(rawItem => {
+        const isCurrent = rawItem.includes(q.year) && (rawItem.includes(String(q.q_num)) || rawItem.includes(String(q.q_num).padStart(2, '0')));
+        return !isCurrent;
+      });
+
+      otherRaws.forEach(rawItem => {
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'meta-link-chip';
+        chip.innerHTML = `${rawItem} <span class="chip-arrow">↗</span>`;
+        chip.title = `${rawItem} 기출 문제로 즉시 이동`;
+        chip.addEventListener('click', (e) => {
+          e.stopPropagation();
+          jumpToQuestionByRaw(rawItem);
+        });
+        dom.cardMetaLinkedChips.appendChild(chip);
+      });
+    }
+
     // 기출 연계 유형 (짤 / 반짤 / 탈 / 기출)
     const cat = q.category || '기출';
     dom.cardCategory.className = `category-badge cat-${cat}`;
@@ -678,35 +830,10 @@
           chip.classList.add('current');
           chip.textContent = `${rawItem} (현재)`;
         } else {
-          chip.textContent = rawItem;
+          chip.innerHTML = `${rawItem} <span style="font-size:0.7em;opacity:0.8;">↗</span>`;
           chip.title = `${rawItem} 기출 문제로 즉시 이동`;
           chip.addEventListener('click', () => {
-            // Find target question in state.allQuestions
-            const target = state.allQuestions.find(cand => {
-              const candRaw = cand.raw_questions || [];
-              if (candRaw.includes(rawItem)) return true;
-              return cand.id.includes(rawItem.replace('-', '_Q'));
-            });
-            if (target) {
-              const targetIdx = state.filteredQuestions.findIndex(fq => fq.id === target.id);
-              if (targetIdx !== -1) {
-                state.currentIndex = targetIdx;
-              } else {
-                // If filtered out, reset filters and jump
-                state.filters.year = 'ALL';
-                state.filters.type = 'ALL';
-                state.filters.onlyFrequent = false;
-                state.filters.onlyImages = false;
-                state.filters.onlyIncorrect = false;
-                state.filters.onlyBookmarked = false;
-                state.filters.searchQuery = '';
-                applyFilters();
-                const resetIdx = state.filteredQuestions.findIndex(fq => fq.id === target.id);
-                if (resetIdx !== -1) state.currentIndex = resetIdx;
-              }
-              renderCurrentQuestion();
-              window.scrollTo({ top: 0, behavior: 'smooth' });
-            }
+            jumpToQuestionByRaw(rawItem);
           });
         }
         dom.cardHistoryChips.appendChild(chip);
@@ -1128,6 +1255,31 @@
     dom.btnPrev.addEventListener('click', () => navigate(-1));
     dom.btnNext.addEventListener('click', () => navigate(1));
     dom.btnRandom.addEventListener('click', navigateRandom);
+
+    // Card Year Badge Click (연도 필터 전환)
+    if (dom.cardYear) {
+      dom.cardYear.addEventListener('click', () => {
+        const q = getCurrentQuestion();
+        if (!q || !q.year) return;
+        const newYear = (state.filters.year === q.year) ? 'ALL' : q.year;
+        state.filters.year = newYear;
+
+        const subQuestions = (state.filters.subject === 'ALL')
+          ? state.allQuestions
+          : state.allQuestions.filter(item => item.subject === state.filters.subject);
+        renderYearTabs(subQuestions);
+        renderCategoryTabs(subQuestions);
+        applyFilters();
+
+        const newIdx = state.filteredQuestions.findIndex(item => item.id === q.id);
+        state.currentIndex = (newIdx !== -1) ? newIdx : 0;
+        renderCurrentQuestion();
+        renderGrid();
+        updateStats();
+
+        showToast(`📅 ${newYear === 'ALL' ? '전체 연도' : newYear + ' 기출'} 필터로 전환되었습니다.`);
+      });
+    }
 
     // Subject Selection Tabs (과목 전환)
     if (dom.subjectTabs) {

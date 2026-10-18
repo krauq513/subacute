@@ -411,6 +411,15 @@ body {
   padding: 0.2rem 0.55rem;
   border-radius: var(--radius-sm);
   font-family: var(--font-mono);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.year-badge:hover {
+  background: #334155;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .qnum-badge {
@@ -421,6 +430,43 @@ body {
   padding: 0.2rem 0.55rem;
   border-radius: var(--radius-sm);
   font-family: var(--font-mono);
+}
+
+.meta-linked-chips {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.meta-link-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.45rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.meta-link-chip:hover {
+  background: #e0e7ff;
+  border-color: #6366f1;
+  color: #4338ca;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 5px rgba(99, 102, 241, 0.25);
+}
+
+.meta-link-chip .chip-arrow {
+  font-size: 0.65rem;
+  opacity: 0.75;
 }
 
 .category-badge {
