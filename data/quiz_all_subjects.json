@@ -3981,16 +3981,17 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 배양을 위해 적절한 검체는? ",
     "subspecialty": "진단검사의학과 과년도 빈출",
-    "stem": "(Y) 배양을 위해 적절한 검체는? 24hr urine",
+    "stem": "(Y) 배양을 위해 적절한 검체는?",
     "images": [],
     "options": [
-      "① 타액 섞인 객담",
-      "② 창상 표면 검체",
-      "③ 실온 보관 뇌척수액",
-      "④ EDTA 혈액."
+      "① 24hr urine",
+      "② 타액 섞인 객담",
+      "③ 창상 표면 검체",
+      "④ 실온 보관 뇌척수액",
+      "⑤ EDTA 혈액."
     ],
     "correct_option_index": 3,
-    "correct_answer": "[22Y Q01 & 21Y Q34 & 20Y Q38] ④ 실온 보관 뇌척수액 (CSF at room temp)",
+    "correct_answer": "④ 실온 보관 뇌척수액",
     "explanation": {
       "title": "[과년도 빈출] 배양을 위해 적절한 검체는? ",
       "findings": "• [22Y Q01 & 21Y Q34 & 20Y Q38] 3개년 연속 출제!\n  - 지문: 배양을 위해 적절한 검체는?\n  - 정답: ④ 실온 보관 뇌척수액 (CSF)\n  - 오답 선지: 24시간 소변(X - 단회 중간뇨), 타액 섞인 객담(X - 침 섞이면 부적합), 창상 표면(X - 깊은 부위 흡인 검체), EDTA 혈액(X - EDTA는 세균 억제)",
@@ -4068,16 +4069,17 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 세균 배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
     "subspecialty": "진단검사의학과 과년도 빈출",
-    "stem": "(Y) 세균배양을 즉시 할 수 없는 경우 냉장보 관 하는 검체는? 소변, 혈액",
+    "stem": "(Y) 세균배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
     "images": [],
     "options": [
-      "① 소변, 객담",
-      "② 객담, 혈액",
-      "③ 뇌척수액, 혈액",
-      "④ 뇌척수액, 객담"
+      "① 소변, 혈액",
+      "② 소변, 객담",
+      "③ 객담, 혈액",
+      "④ 뇌척수액, 혈액",
+      "⑤ 뇌척수액, 객담"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "[23Y Q45 & 22Y Q03 & 21Y Q40 & 20Y Q47] ① 소변(Urine) & 객담(Sputum)",
+    "correct_option_index": 1,
+    "correct_answer": "② 소변, 객담",
     "explanation": {
       "title": "[과년도 빈출] 세균 배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
       "findings": "• [23Y Q45 & 22Y Q03 & 21Y Q40 & 20Y Q47] 4개년 연속 100% 동일 반복 출제!\n  - 지문: 세균 배양을 즉시 할 수 없는 경우 냉장보관(4℃) 하는 검체는?\n  - 정답: 소변(Urine), 객담/가래(Sputum), 대변(Stool)\n  - 실온 보관(절대 냉장 금지) 검체: 뇌척수액(CSF), 혈액배양(Blood), 생식기/체액 검체",
@@ -4264,16 +4266,17 @@
     "category": "짤",
     "theme_title": "메티실린 내성 황색포도알균(MRSA) 선별 검사용 대리 항생제",
     "subspecialty": "임상미생물학",
-    "stem": "(Y) 다음 중 MRSA 선별검사로 사용되는 항생 제는? Methicillin",
+    "stem": "(Y) 다음 중 MRSA 선별검사로 사용되는 항생제는?",
     "images": [],
     "options": [
-      "① Ampicillin",
-      "② Penicillin",
-      "③ Cefoxitin",
-      "④ Cefotetan"
+      "① Methicillin",
+      "② Ampicillin",
+      "③ Penicillin",
+      "④ Cefoxitin",
+      "⑤ Cefotetan"
     ],
     "correct_option_index": 3,
-    "correct_answer": "④ Cefoxitin (세폭시틴 디스크 / 선별검사)",
+    "correct_answer": "④ Cefoxitin",
     "explanation": {
       "title": "메티실린 내성 황색포도알균(MRSA) 선별 검사용 대리 항생제",
       "findings": "CLSI 표준 MRSA 감수성 시험 지침의 핵심 족보.",
@@ -4348,16 +4351,17 @@
     "category": "짤",
     "theme_title": "혈액 배양(Blood Culture) 양성률에 가장 결정적인 영향을 미치는 요인",
     "subspecialty": "임상미생물학",
-    "stem": "(Y) 혈액 배양 양성률에 가장 영향을 미치는 것은? 피부 소독",
+    "stem": "(Y) 혈액 배양 양성률에 가장 영향을 미치는 것은?",
     "images": [],
     "options": [
-      "① 채혈량",
-      "② 채혈 시기",
-      "③ 채혈 횟수",
-      "④ 환자의 기저질환"
+      "① 피부 소독",
+      "② 채혈량",
+      "③ 채혈 시기",
+      "④ 채혈 횟수",
+      "⑤ 환자의 기저질환"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① 채혈량 (Blood volume)",
+    "correct_option_index": 1,
+    "correct_answer": "② 채혈량",
     "explanation": {
       "title": "혈액 배양(Blood Culture) 양성률에 가장 결정적인 영향을 미치는 요인",
       "findings": "임상 미생물학 교과서 제1장 혈액배양 총론의 불변의 핵심 명제.",
@@ -4429,16 +4433,17 @@
     "category": "짤",
     "theme_title": "적혈구 지수(RBC Indices): 개별 적혈구의 평균 헤모글로빈 양 (MCH)",
     "subspecialty": "진단혈액학",
-    "stem": "(Y) 개별 RBC 가 함유한 hemoglobin 양을 나 타내는 지표? MCH",
+    "stem": "(Y) 개별 RBC 가 함유한 hemoglobin 양을 나타내는 지표?",
     "images": [],
     "options": [
-      "① MCHC",
-      "② Hct",
-      "③ RDW",
-      "④ MCV"
+      "① MCH",
+      "② MCHC",
+      "③ Hct",
+      "④ RDW",
+      "⑤ MCV"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① MCH (Mean Corpuscular Hemoglobin, 평균 적혈구 혈색소량)",
+    "correct_answer": "① MCH",
     "explanation": {
       "title": "적혈구 지수(RBC Indices): 개별 적혈구의 평균 헤모글로빈 양 (MCH)",
       "findings": "단순 정의 매칭: 개별 적혈구 함유 혈색소 중량 = MCH.",
@@ -4467,18 +4472,19 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 화살표가 나타내는 소견은?",
     "subspecialty": "진단검사의학과 과년도 빈출",
-    "stem": "(Y) 화살표가 나타내는 소견은? target cell",
+    "stem": "(Y) 화살표가 나타내는 소견은?",
     "images": [
       "images/22Y_Q13_fig1.png"
     ],
     "options": [
-      "① spherocyte",
-      "② schistocyte",
-      "③ elliptocyte",
-      "④ ovalocyte"
+      "① target cell",
+      "② spherocyte",
+      "③ schistocyte",
+      "④ elliptocyte",
+      "⑤ ovalocyte"
     ],
-    "correct_option_index": 1,
-    "correct_answer": "[23Y Q02 & 22Y Q13 & 21Y Q50] ② Schistocyte (분열적혈구, 헬멧세포)",
+    "correct_option_index": 2,
+    "correct_answer": "③ schistocyte",
     "explanation": {
       "title": "[과년도 빈출] 화살표가 나타내는 소견은?",
       "findings": "• [23Y Q02 & 22Y Q13 & 21Y Q50] 공통 출제 지문:\n  - 지문: 말초혈액도말(PB smear) 상 화살표가 가리키는 세포 소견은?\n  - 선지: ① Target cell  ② Schistocyte  ③ Spherocyte  ④ Elliptocyte  ⑤ Ovalocyte\n  - 정답: ② Schistocyte (분열적혈구)",
@@ -4783,16 +4789,17 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 알부민 농도를 가장 민감하게 측정할 수 있는 ",
     "subspecialty": "진단검사의학과 과년도 빈출",
-    "stem": "알부민 농도를 가장 민감하게 측정할 수 있는 방법은? 화학침전",
+    "stem": "알부민 농도를 가장 민감하게 측정할 수 있는 방법은?",
     "images": [],
     "options": [
-      "① 가열침전",
-      "② 면역응집",
-      "③ 전기영동",
-      "④ 색소결합?"
+      "① 화학침전",
+      "② 가열침전",
+      "③ 면역응집",
+      "④ 전기영동",
+      "⑤ 색소결합?"
     ],
-    "correct_option_index": 1,
-    "correct_answer": "[22Y Q21 & 20Y Q30] ② 면역비탁법 (Immunoturbidimetry) / 미세알부민뇨 측정법",
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 색소결합?",
     "explanation": {
       "title": "[과년도 빈출] 알부민 농도를 가장 민감하게 측정할 수 있는 ",
       "findings": "• [22Y Q21 & 20Y Q30] 정답: ② 면역비탁법 (Immunoturbidimetry)\n  - 지문: 알부민 농도를 가장 민감하게(저농도 미세알부민뇨) 측정할 수 있는 방법은?\n  - 통상 혈청 알부민은 BCG/BCP 색소결합법을 쓰지만, 소변 미세알부민은 고감도 면역비탁법 사용.",
@@ -4897,16 +4904,16 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 병원 검사실에서 알부민 농도 검사에 사용하는 시약은?",
     "subspecialty": "진단검사의학과 과년도 빈출",
-    "stem": "병원 검사실에서 알부민 농도의 검사에 사용하 는 시약은? Bromocresol Green",
+    "stem": "병원 검사실에서 알부민 농도의 검사에 사용하는 시약은?",
     "images": [],
     "options": [
-      "① Bromocresol Purple",
-      "② Picric acid",
-      "③ HABA?",
-      "④ [면역+실험실 안전]"
+      "① Bromocresol Green",
+      "② Bromocresol Purple",
+      "③ Picric acid",
+      "④ HABA?"
     ],
     "correct_option_index": 0,
-    "correct_answer": "[23Y Q29 & 22Y Q24] ① Bromocresol Green (BCG) / Bromocresol Purple (BCP)",
+    "correct_answer": "① Bromocresol Green",
     "explanation": {
       "title": "[과년도 빈출] 병원 검사실에서 알부민 농도 검사에 사용하는 시약은?",
       "findings": "• [23Y Q29 & 22Y Q24] 출제 지문:\n  - 병원 검사실에서 혈청 알부민(Albumin) 농도 측정에 사용하는 색소 시약은?\n  - 선지: ① Bromocresol Green (BCG)  ② Bromocresol Purple (BCP)  ③ SSA  ④ HABA\n  - 정답: ① Bromocresol Green (BCG) [BCG/BCP 공통 정답 인정]",
@@ -4935,16 +4942,17 @@
     "category": "반짤",
     "theme_title": "간접면역형광법(IIF)으로 검사할 수 없는 자가항체 (연도별 선지/정답 변형)",
     "subspecialty": "진단면역학",
-    "stem": "(Y 변형) 간접 형광현미경으로 볼 수 없는 것은? Anti-LKM",
+    "stem": "(Y 변형) 간접 형광현미경으로 볼 수 없는 것은?",
     "images": [],
     "options": [
-      "① ANCA",
-      "② ANA",
-      "③ Anti-CCP",
-      "④ Anti-dsDNA"
+      "① Anti-LKM",
+      "② ANCA",
+      "③ ANA",
+      "④ Anti-CCP",
+      "⑤ Anti-dsDNA"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "[23Y Q47 / 22Y Q25] ① APA (또는 Anti-CCP)",
+    "correct_option_index": 3,
+    "correct_answer": "④ Anti-CCP",
     "explanation": {
       "title": "간접면역형광법(IIF)으로 검사할 수 없는 자가항체 (연도별 선지/정답 변형)",
       "findings": "IIF의 원리는 환자 혈청 항체를 조직/세포 기질과 반응 후 형광표지 2차 항체로 관찰하는 것임.",
@@ -4979,16 +4987,17 @@
     "category": "짤",
     "theme_title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
     "subspecialty": "진단면역학",
-    "stem": "(20Y) ANA 에서 Homogenous pattern 이 나왔 다. 다음으로 해야할 검사는? Anti-ENA",
+    "stem": "(20Y) ANA 에서 Homogenous pattern 이 나왔다. 다음으로 해야할 검사는?",
     "images": [],
     "options": [
-      "① Anti-dsDNA",
-      "② APA",
-      "③ ANCA",
-      "④ Anti-mitochondria"
+      "① Anti-ENA",
+      "② Anti-dsDNA",
+      "③ APA",
+      "④ ANCA",
+      "⑤ Anti-mitochondria"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① anti-dsDNA (및 anti-Histone)",
+    "correct_option_index": 1,
+    "correct_answer": "② Anti-dsDNA",
     "explanation": {
       "title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
       "findings": "Hep-2 세포 핵질 전체에 걸쳐 균일한 녹색 형광 신호 관찰.",
@@ -5068,16 +5077,17 @@
     "category": "짤",
     "theme_title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
     "subspecialty": "진단면역학/혈액학",
-    "stem": "(Y) 유세포분석으로 볼 수 없는 것은? CA-125",
+    "stem": "(Y) 유세포분석으로 볼 수 없는 것은?",
     "images": [],
     "options": [
-      "① Immunophenotype",
-      "② HLA crossmatching",
-      "③ Stem cell count",
-      "④ NK cell 활성도 측정"
+      "① CA-125",
+      "② Immunophenotype",
+      "③ HLA crossmatching",
+      "④ Stem cell count",
+      "⑤ NK cell 활성도 측정"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① CA-125 (난소암 혈청 종양표지자 - 면역측정법/ELISA로 측정)",
+    "correct_answer": "① CA-125",
     "explanation": {
       "title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
       "findings": "세포 부유액을 레이저 광선에 통과시키는 유세포분석과 혈청 화학 면역분석의 차이점 이해.",
