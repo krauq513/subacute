@@ -585,6 +585,22 @@
   }
 
   /**
+   * Check if a raw question citation (e.g. '26Y-01', '20Y-34', '23Y') matches question q
+   */
+  function isSameQuestionAsRaw(q, rawItem) {
+    if (!q || !rawItem) return false;
+    const m = rawItem.match(/(\d+Y)[-_]Q?0?(\d+)/i);
+    if (m) {
+      return m[1].toUpperCase() === q.year && parseInt(m[2], 10) === Number(q.q_num);
+    }
+    const ym = rawItem.match(/^(\d+Y)$/i);
+    if (ym) {
+      return ym[1].toUpperCase() === q.year;
+    }
+    return false;
+  }
+
+  /**
    * Jump to question by raw exam tag (e.g. '23Y-47', '22Y-25')
    * Accurately finds the question in state.allQuestions, adjusts filters if needed,
    * updates the currentIndex, and smoothly transitions to the target question.
@@ -595,7 +611,25 @@
     const curSub = curQ ? curQ.subject : (state.filters.subject !== 'ALL' ? state.filters.subject : null);
 
     const m = rawItem.match(/(\d+Y)[-_]Q?0?(\d+)/i);
-    if (!m) return;
+    if (!m) {
+      const ym = rawItem.match(/^(\d+Y)$/i);
+      if (ym) {
+        const targetYear = ym[1].toUpperCase();
+        state.filters.year = targetYear;
+        applyFilters();
+        const subQuestions = (state.filters.subject === 'ALL')
+          ? state.allQuestions
+          : state.allQuestions.filter(cand => cand.subject === state.filters.subject);
+        renderYearTabs(subQuestions);
+        renderCategoryTabs(subQuestions);
+        state.currentIndex = 0;
+        renderCurrentQuestion();
+        renderGrid();
+        updateStats();
+        showToast(`📅 ${targetYear} 기출 문제 목록으로 필터를 전환했습니다.`);
+      }
+      return;
+    }
     const targetYear = m[1].toUpperCase();
     const targetNum = parseInt(m[2], 10);
 
@@ -728,35 +762,55 @@
     if (dom.cardSubject) {
       dom.cardSubject.textContent = q.subject || '임상의학';
     }
-    dom.cardYear.textContent = q.year || '기출';
-    dom.cardYear.title = `${q.year || ''} 기출 문제 필터 전환`;
-    dom.cardQnum.textContent = `Q${String(q.q_num).padStart(2, '0')}`;
-    
-    // Render Linked Year/Number Chips right next to Question Number
-    if (dom.cardMetaLinkedChips) {
-      dom.cardMetaLinkedChips.innerHTML = '';
-      const rawList = q.raw_questions && q.raw_questions.length > 0
-        ? q.raw_questions
-        : [`${q.year}-${String(q.q_num).padStart(2, '0')}`];
 
-      // Other years only (excluding current question)
-      const otherRaws = rawList.filter(rawItem => {
-        const isCurrent = rawItem.includes(q.year) && (rawItem.includes(String(q.q_num)) || rawItem.includes(String(q.q_num).padStart(2, '0')));
-        return !isCurrent;
-      });
+    const hasMultipleLinks = q.raw_questions && q.raw_questions.length > 1;
 
-      otherRaws.forEach(rawItem => {
-        const chip = document.createElement('button');
-        chip.type = 'button';
-        chip.className = 'meta-link-chip';
-        chip.innerHTML = `${rawItem} <span class="chip-arrow">↗</span>`;
-        chip.title = `${rawItem} 기출 문제로 즉시 이동`;
-        chip.addEventListener('click', (e) => {
-          e.stopPropagation();
-          jumpToQuestionByRaw(rawItem);
+    if (hasMultipleLinks) {
+      // Hide separate year & qnum badges so buttons maintain fixed positions without jumping to the left
+      if (dom.cardYear) dom.cardYear.style.display = 'none';
+      if (dom.cardQnum) dom.cardQnum.style.display = 'none';
+
+      if (dom.cardMetaLinkedChips) {
+        dom.cardMetaLinkedChips.innerHTML = '';
+        q.raw_questions.forEach(rawItem => {
+          const isCurrent = isSameQuestionAsRaw(q, rawItem);
+          const chip = document.createElement('button');
+          chip.type = 'button';
+          chip.className = `meta-link-chip${isCurrent ? ' current' : ''}`;
+
+          if (isCurrent) {
+            chip.textContent = rawItem;
+            chip.title = `현재 문제 (${rawItem})`;
+            chip.setAttribute('aria-current', 'true');
+            chip.addEventListener('click', (e) => {
+              e.stopPropagation();
+              showToast(`이미 현재 표시 중인 문제입니다. (${rawItem})`);
+            });
+          } else {
+            chip.innerHTML = `${rawItem} <span class="chip-arrow">↗</span>`;
+            chip.title = `${rawItem} 기출 문제로 즉시 이동`;
+            chip.addEventListener('click', (e) => {
+              e.stopPropagation();
+              jumpToQuestionByRaw(rawItem);
+            });
+          }
+          dom.cardMetaLinkedChips.appendChild(chip);
         });
-        dom.cardMetaLinkedChips.appendChild(chip);
-      });
+      }
+    } else {
+      // Single question appearance: show standard year & qnum badges
+      if (dom.cardYear) {
+        dom.cardYear.style.display = '';
+        dom.cardYear.textContent = q.year || '기출';
+        dom.cardYear.title = `${q.year || ''} 기출 문제 필터 전환`;
+      }
+      if (dom.cardQnum) {
+        dom.cardQnum.style.display = '';
+        dom.cardQnum.textContent = `Q${String(q.q_num).padStart(2, '0')}`;
+      }
+      if (dom.cardMetaLinkedChips) {
+        dom.cardMetaLinkedChips.innerHTML = '';
+      }
     }
 
     // 기출 연계 유형 (짤 / 반짤 / 탈 / 기출)
@@ -825,7 +879,7 @@
         chip.className = 'intel-chip';
 
         // Check if rawItem refers to current question
-        const isCurrent = rawItem.includes(q.year) && (rawItem.includes(String(q.q_num)) || rawItem.includes(String(q.q_num).padStart(2, '0')));
+        const isCurrent = isSameQuestionAsRaw(q, rawItem);
         if (isCurrent) {
           chip.classList.add('current');
           chip.textContent = `${rawItem} (현재)`;
