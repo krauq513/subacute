@@ -14,6 +14,10 @@ Generates structured per-option explanations:
 import os, sys, json, re, unicodedata
 
 ROOT_DIR = r"C:\Users\ekims\OneDrive\냥의자료\2026-1\기말고사_자료"
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
+import medical_option_enricher as moe
+
 APP_DIR = os.path.join(ROOT_DIR, "lab_med_quiz_vercel")
 DATA_DIR = os.path.join(APP_DIR, "data")
 
@@ -220,15 +224,36 @@ def enrich_single_question(q, crop_map, year_map, surgery_extra_map):
 
     # Explanation text components
     exp = q.get('explanation', {})
-    findings = str(exp.get('findings', ''))
-    differential = str(exp.get('differential', ''))
-    trap = str(exp.get('trap', ''))
-    trigger = str(exp.get('trigger', ''))
+    if isinstance(exp, str):
+        findings = exp
+        differential = ""
+        trap = ""
+        trigger = ""
+        exp = {'findings': findings, 'differential': ''}
+    else:
+        findings = str(exp.get('findings', ''))
+        differential = str(exp.get('differential', ''))
+        trap = str(exp.get('trap', ''))
+        trigger = str(exp.get('trigger', ''))
+
     kmle_theory = str(theme.get('kmle_theory', '') if theme else '')
     kmle_question = str(theme.get('kmle_question', '') if theme else '')
     theme_exp = str(theme.get('explanation', '') if theme else '')
 
-    combined_notes = findings + "\n" + differential + "\n" + trap + "\n" + kmle_theory + "\n" + kmle_question + "\n" + theme_exp
+    # Extract original pure general note from differential without old option bullets
+    general_note = ""
+    if '【핵심 감별 및 임상 가이드라인】' in differential:
+        parts = differential.split('【핵심 감별 및 임상 가이드라인】')
+        for p in reversed(parts[1:]):
+            lines = [l.strip() for l in p.split('\n') if l.strip() and not re.match(r'^[•\-\*\s]*[①②③④⑤⑥⑦⑧⑨⑩\d\.]', l.strip()) and not any(bp in l for bp in ['부합하지', '결여되어 오답', '오답 선지입니다'])]
+            if lines:
+                general_note = "\n".join(lines)
+                break
+    elif kmle_theory:
+        general_note = kmle_theory.strip()
+
+    # Pure, uncontaminated sources ONLY
+    combined_notes = findings + "\n" + general_note + "\n" + trap + "\n" + kmle_theory + "\n" + kmle_question + "\n" + theme_exp
     core_finding = extract_core_finding(findings)
 
     # If question has NO options (Short-answer / Image-only)
@@ -236,10 +261,8 @@ def enrich_single_question(q, crop_map, year_map, surgery_extra_map):
         q['option_explanations'] = []
         if 'option_explanations' not in exp:
             exp['option_explanations'] = []
-        # Clean generic placeholder in differential if present
-        if '선지별 감별' in differential or '숙지하십시오' in differential or '비교 평가하십시오' in differential:
-            cleaned_diff = kmle_theory if kmle_theory else f"【{theme_title} 핵심 판독 가이드라인】\n• 본 증례는 {subspecialty} 핵심 임상 기준에 따라 전형적 영상/검사 소견 및 진단 지표를 정확히 판별하는 것이 핵심입니다."
-            exp['differential'] = cleaned_diff
+        cleaned_diff = general_note if general_note else (kmle_theory if kmle_theory else f"【{theme_title} 핵심 판독 가이드라인】\n• 본 증례는 {subspecialty} 핵심 임상 기준에 따라 전형적 영상/검사 소견 및 진단 지표를 정확히 판별하는 것이 핵심입니다.")
+        exp['differential'] = cleaned_diff
         return q
 
     # Build Option Explanations
@@ -261,15 +284,15 @@ def enrich_single_question(q, crop_map, year_map, surgery_extra_map):
         opt_clean = clean_option_text(opt_raw)
         is_correct = idx in correct_set
 
-        # Check placeholder distractor
-        if not opt_clean or opt_clean in ['그 외 관련없는 선지', '기타 선지', '관련없는 선지', '그 외 선지']:
+        # Check non-medical artifact (leave blank, NO boilerplate)
+        if moe.is_non_medical_artifact(opt_clean):
             option_explanations.append({
                 'opt_idx': idx,
                 'opt_num': opt_num,
-                'text': opt_clean or '기타 선지',
-                'is_correct': False,
-                'tag': '오답 감별',
-                'reason': '시험 복원 과정에서 수록된 기타 비특이적 오답 선지입니다 (임상적 관련성 없음).'
+                'text': opt_clean,
+                'is_correct': is_correct,
+                'tag': '정답' if is_correct else '오답 감별',
+                'reason': ''
             })
             continue
 
@@ -278,16 +301,23 @@ def enrich_single_question(q, crop_map, year_map, surgery_extra_map):
         # Check direct mention in surgery extra
         surg_reason = surg_opt_exps.get(opt_num)
 
-        # Check direct regex match in combined notes
+        # Check direct regex match in clean combined notes
         escaped_opt = re.escape(opt_clean[:12]) if len(opt_clean) >= 4 else re.escape(opt_clean)
         pattern = rf'(?:[①②③④⑤⑥⑦⑧]|\-|\•)?\s*{escaped_opt}[^\:\n\(\)]*[\:\)]\s*([^\n\•]+)'
         match = re.search(pattern, combined_notes)
         direct_match = match.group(1).strip() if (match and len(match.group(1).strip()) >= 12) else None
+        if direct_match and any(bp in direct_match for bp in ['부합하지', '결여되어 오답', '오답 선지입니다']):
+            direct_match = None
+
+        # Look up via high-yield KMLE Medical Knowledge Engine
+        moe_reason = moe.enrich_medical_option(opt_clean, idx, is_correct, subject, question_obj=q, source_text=combined_notes)
 
         if is_correct:
             tag = '정답'
             if surg_reason:
                 reason = surg_reason
+            elif moe_reason:
+                reason = moe_reason
             elif direct_match:
                 reason = direct_match
             elif rule_corr:
@@ -302,20 +332,22 @@ def enrich_single_question(q, crop_map, year_map, surgery_extra_map):
             tag = '오답 감별'
             if surg_reason:
                 reason = surg_reason
+            elif moe_reason:
+                reason = moe_reason
             elif direct_match:
                 reason = direct_match
             elif rule_wrong:
                 reason = rule_wrong
             else:
-                # Differential text line search
+                # Differential text line search (from genuine KMLE theory or theme explanation)
                 diff_line = ""
-                for line in differential.split('\n') + kmle_theory.split('\n'):
-                    if opt_clean[:8] in line and len(line.strip()) > 10:
+                for line in kmle_theory.split('\n') + theme_exp.split('\n'):
+                    if opt_clean[:8] in line and len(line.strip()) > 10 and not any(bp in line for bp in ['부합하지', '결여되어 오답']):
                         diff_line = re.sub(r'^[•\-\d\.\s]+', '', line).strip()
                         break
 
                 if diff_line:
-                    reason = f"감별 질환/치료 특성: {diff_line}. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
+                    reason = f"감별 질환/치료 특성: {diff_line}."
                 elif '수술' in opt_clean and ('약물' in theme_title or '보존' in findings):
                     reason = "비침습적 보존 요법 및 약물 투여가 우선되는 임상 단계로, 침습적 수술은 1차 선택으로 부적절합니다."
                 elif any(w in opt_clean for w in ['스테로이드', '항생제', '약물', '수액']) and '수술' in theme_title:
@@ -327,11 +359,13 @@ def enrich_single_question(q, crop_map, year_map, surgery_extra_map):
                 elif any(w in opt_clean for w in ['파열', '골절', '탈구', '염좌']) and any(w in theme_title for w in ['파열', '골절', '탈구', '염좌']):
                     reason = f"본 손상 기전 및 영상 소견은 [{theme_title}]에 부합하며, {opt_clean}의 손상 위치 및 임상 징후와는 상이합니다."
                 else:
-                    reason = f"본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, {opt_clean}에 합당한 특징적 소견이 결여되어 오답입니다."
+                    # STRICT USER RULE: Leave blank, NO hallucinated boilerplate
+                    reason = ""
 
         # Polish text formatting
-        reason = re.sub(r'\s+', ' ', reason).strip()
-        reason = re.sub(r'\.\.+', '.', reason)
+        if reason:
+            reason = re.sub(r'\s+', ' ', reason).strip()
+            reason = re.sub(r'\.\.+', '.', reason)
 
         option_explanations.append({
             'opt_idx': idx,
@@ -350,7 +384,10 @@ def enrich_single_question(q, crop_map, year_map, surgery_extra_map):
     diff_bullets = []
     for item in option_explanations:
         marker = "✓ [정답]" if item['is_correct'] else "✗ [오답]"
-        diff_bullets.append(f"• {item['opt_num']} {item['text']} {marker}: {item['reason']}")
+        if item['reason']:
+            diff_bullets.append(f"• {item['opt_num']} {item['text']} {marker}: {item['reason']}")
+        else:
+            diff_bullets.append(f"• {item['opt_num']} {item['text']} {marker}")
 
     diff_body = "\n".join(diff_bullets)
 

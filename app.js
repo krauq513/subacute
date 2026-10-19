@@ -1211,12 +1211,13 @@
         nameEl.textContent = item.text || (q.options && q.options[idx]) || '';
         headerEl.appendChild(nameEl);
 
-        const bodyEl = document.createElement('div');
-        bodyEl.className = 'opt-exp-body';
-        bodyEl.textContent = item.reason || '';
-
         itemEl.appendChild(headerEl);
-        itemEl.appendChild(bodyEl);
+        if (item.reason && item.reason.trim()) {
+          const bodyEl = document.createElement('div');
+          bodyEl.className = 'opt-exp-body';
+          bodyEl.textContent = item.reason;
+          itemEl.appendChild(bodyEl);
+        }
         listEl.appendChild(itemEl);
       });
 
