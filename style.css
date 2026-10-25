@@ -806,6 +806,32 @@ body {
   font-size: 0.8rem;
   color: var(--text-secondary);
   font-weight: 600;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.options-header-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-reshuffle {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  color: #1d4ed8;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.18rem 0.55rem;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.btn-reshuffle:hover {
+  background: #dbeafe;
+  border-color: #93c5fd;
+  transform: translateY(-1px);
 }
 
 .kbd-tip {

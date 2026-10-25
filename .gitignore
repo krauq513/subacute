@@ -6,3 +6,5 @@ Thumbs.db
 .idea/
 __pycache__/
 *.pyc
+public/
+validate_web_sync.py

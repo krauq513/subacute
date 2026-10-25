@@ -11,6 +11,8 @@
   const STORAGE_KEY_BOOKMARKS = 'KMLE_ALL_SUBJECT_BOOKMARKS_V2';
   const STORAGE_KEY_LAST_ID = 'KMLE_ALL_SUBJECT_LAST_ID_V2';
   const STORAGE_KEY_SUBJECT = 'KMLE_ACTIVE_SUBJECT_V2';
+  const STORAGE_KEY_SHUFFLE = 'KMLE_SHUFFLE_OPTIONS_V2';
+  const CIRCLE_NUMS = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩'];
 
   // Application State
   const state = {
@@ -19,7 +21,9 @@
     currentIndex: 0,
     userAnswers: {},   // qId -> { selectedIndices, selectedIndex, correctIndices, isCorrect, isPartial, score, timestamp }
     bookmarks: new Set(),
-    pendingSelections: new Set(), // Set of selected option indices (0-based) for multi-answer questions
+    pendingSelections: new Set(), // Set of selected option indices (0-based ORIGINAL indices) for multi-answer questions
+    shuffleOptions: localStorage.getItem(STORAGE_KEY_SHUFFLE) === 'true',
+    shuffledOrders: {}, // qId -> number[] (displayIdx -> originalIdx)
     filters: {
       subject: localStorage.getItem(STORAGE_KEY_SUBJECT) || '진단검사의학과',
       year: 'ALL',
@@ -53,6 +57,8 @@
     filterImages: document.getElementById('filter-images'),
     filterIncorrect: document.getElementById('filter-incorrect'),
     filterBookmarked: document.getElementById('filter-bookmarked'),
+    btnToggleShuffle: document.getElementById('btn-toggle-shuffle'),
+    btnReshuffleNow: document.getElementById('btn-reshuffle-now'),
     searchInput: document.getElementById('search-input'),
 
     // Question Card
@@ -258,11 +264,11 @@
     // Update Header Brand
     if (dom.brandTitle) {
       dom.brandTitle.textContent = (curSub === 'ALL')
-        ? 'subacute (임상의학 기출 퀴즈 마스터 v4.1)'
-        : `subacute v4.1 · ${meta.icon} ${meta.title}`;
+        ? 'subacute (임상의학 기출 퀴즈 마스터 v4.3)'
+        : `subacute v4.3 · ${meta.icon} ${meta.title}`;
     }
     if (dom.brandSubtitle) {
-      dom.brandSubtitle.textContent = `20Y ~ 26Y 실전 기출 완전 정복 • ${subQuestions.length}문항 (v4.1 정밀검수 완결판 • ${meta.desc})`;
+      dom.brandSubtitle.textContent = `20Y ~ 26Y 실전 기출 완전 정복 • ${subQuestions.length}문항 (v4.3 정밀검수 완결판 • ${meta.desc})`;
     }
 
     // Dynamic Year Tabs
@@ -977,6 +983,43 @@
   }
 
   /**
+   * Get or generate shuffled option order for question q
+   * Returns array mapping displayIdx -> origIdx
+   */
+  function getDisplayOrder(q, forceRegenerate = false) {
+    const n = (q && q.options) ? q.options.length : 0;
+    const identity = Array.from({ length: n }, (_, i) => i);
+    if (!state.shuffleOptions || n <= 1) {
+      return identity;
+    }
+    if (!forceRegenerate && state.shuffledOrders[q.id] && state.shuffledOrders[q.id].length === n) {
+      return state.shuffledOrders[q.id];
+    }
+    const arr = [...identity];
+    // Fisher-Yates shuffle
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    // Avoid identity order when n >= 2 if possible
+    if (n >= 2 && arr.every((val, idx) => val === idx)) {
+      const swapIdx = 1 + Math.floor(Math.random() * (n - 1));
+      [arr[0], arr[swapIdx]] = [arr[swapIdx], arr[0]];
+    }
+    state.shuffledOrders[q.id] = arr;
+    return arr;
+  }
+
+  function formatOptionWithDisplayNum(q, origIdx) {
+    if (!q || !q.options || origIdx === undefined || origIdx < 0 || origIdx >= q.options.length) return '';
+    const order = getDisplayOrder(q);
+    const dispIdx = order.indexOf(origIdx);
+    const numSym = CIRCLE_NUMS[dispIdx !== -1 ? dispIdx : origIdx] || `${(dispIdx !== -1 ? dispIdx : origIdx) + 1}.`;
+    const { label } = parseOptionText(q.options[origIdx], origIdx);
+    return `${numSym} ${label}`;
+  }
+
+  /**
    * Render Options List and Multi-Submit Action Bar
    */
   function renderOptions(q) {
@@ -984,6 +1027,15 @@
     const config = getQuestionAnswerConfig(q);
     const answerRecord = state.userAnswers[q.id];
     const isAnswered = !!answerRecord;
+    const order = getDisplayOrder(q);
+
+    if (dom.btnToggleShuffle) {
+      dom.btnToggleShuffle.classList.toggle('active', state.shuffleOptions);
+      dom.btnToggleShuffle.textContent = state.shuffleOptions ? '🔀 선지 섞기 ON' : '🔀 선지 섞기';
+    }
+    if (dom.btnReshuffleNow) {
+      dom.btnReshuffleNow.style.display = (state.shuffleOptions && !isAnswered && q.options && q.options.length > 1) ? 'inline-flex' : 'none';
+    }
 
     // Header Badge & Tips
     if (dom.cardMultiBadge) {
@@ -999,30 +1051,36 @@
       if (config.isMulti) {
         dom.optionsLabel.textContent = `복수 정답 문항입니다. 정답 ${config.requiredCount}개를 모두 선택하세요.`;
       } else {
-        dom.optionsLabel.textContent = '선지를 클릭하여 정답을 선택하세요';
+        dom.optionsLabel.textContent = state.shuffleOptions
+          ? '선지를 클릭하여 정답을 선택하세요 (선지 순서 랜덤 섞기 적용 중)'
+          : '선지를 클릭하여 정답을 선택하세요';
       }
     }
 
     if (dom.optionsKbdTip) {
       if (config.isMulti) {
-        dom.optionsKbdTip.textContent = '단축키: 1 ~ 5 (토글), Enter (정답 확인)';
+        dom.optionsKbdTip.textContent = '단축키: 1 ~ 5 (토글), Enter (정답 확인), S (섞기)';
       } else {
-        dom.optionsKbdTip.textContent = '단축키: 숫자키 1 ~ 5';
+        dom.optionsKbdTip.textContent = '단축키: 숫자키 1 ~ 5, S (선지 섞기)';
       }
     }
 
-    // Render Option Buttons with SAFE Prefix & Label Parser
-    q.options.forEach((optText, optIdx) => {
+    // Render Option Buttons in Display Order (displayIdx -> origIdx)
+    order.forEach((origIdx, displayIdx) => {
+      const optText = q.options[origIdx];
       const btn = document.createElement('button');
       btn.className = 'option-btn';
+      btn.dataset.origIdx = String(origIdx);
+      btn.dataset.displayIdx = String(displayIdx);
       if (isAnswered) {
         btn.classList.add('disabled');
       }
 
       // Safe option text parsing: NEVER strips numbers from labels!
-      const { prefix: numPrefix, label: labelText } = parseOptionText(optText, optIdx);
+      const { prefix: origPrefix, label: labelText } = parseOptionText(optText, origIdx);
+      const numPrefix = state.shuffleOptions ? (CIRCLE_NUMS[displayIdx] || `${displayIdx + 1}.`) : origPrefix;
 
-      const isPending = !isAnswered && config.isMulti && state.pendingSelections.has(optIdx);
+      const isPending = !isAnswered && config.isMulti && state.pendingSelections.has(origIdx);
       if (isPending) {
         btn.classList.add('is-selected-pending');
       }
@@ -1044,16 +1102,16 @@
         </div>
         <div class="option-right">
           <span class="option-status-icon"></span>
-          <span class="option-kbd-hint">${optIdx + 1}</span>
+          <span class="option-kbd-hint">${displayIdx + 1}</span>
         </div>
       `;
 
       btn.addEventListener('click', () => {
         if (!state.userAnswers[q.id]) {
           if (config.isMulti) {
-            togglePendingSelection(q, optIdx, config);
+            togglePendingSelection(q, origIdx, config);
           } else {
-            handleSelectSingleOption(q, optIdx, config);
+            handleSelectSingleOption(q, origIdx, config);
           }
         }
       });
@@ -1177,10 +1235,27 @@
       dom.expDifferential.innerHTML = '';
       const listEl = document.createElement('div');
       listEl.className = 'opt-exp-list';
+      const order = getDisplayOrder(q);
 
+      // Build map from origIdx -> explanation item
+      const expByOrigIdx = new Map();
       optExps.forEach((item, idx) => {
-        const itemIdx = item.opt_idx !== undefined ? item.opt_idx : idx;
-        const isUserPicked = userSelectedSet.has(itemIdx);
+        const origIdx = item.opt_idx !== undefined ? item.opt_idx : idx;
+        expByOrigIdx.set(origIdx, item);
+      });
+
+      // Iterate in current display order so explanation cards match ① ~ ⑤ on screen
+      const orderedItems = (order.length === optExps.length)
+        ? order.map((origIdx, dispIdx) => ({ item: expByOrigIdx.get(origIdx) || optExps[origIdx], origIdx, dispIdx }))
+        : optExps.map((item, idx) => {
+            const origIdx = item.opt_idx !== undefined ? item.opt_idx : idx;
+            const dispIdx = order.indexOf(origIdx);
+            return { item, origIdx, dispIdx: dispIdx !== -1 ? dispIdx : idx };
+          });
+
+      orderedItems.forEach(({ item, origIdx, dispIdx }) => {
+        if (!item) return;
+        const isUserPicked = userSelectedSet.has(origIdx);
         const itemEl = document.createElement('div');
         itemEl.className = 'opt-exp-item ' + (item.is_correct ? 'correct' : 'wrong') + (isUserPicked ? ' user-picked' : '');
 
@@ -1199,16 +1274,19 @@
           headerEl.appendChild(userBadge);
         }
 
-        if (item.opt_num) {
+        const displayNumSym = state.shuffleOptions
+          ? (CIRCLE_NUMS[dispIdx] || `${dispIdx + 1}.`)
+          : (item.opt_num || CIRCLE_NUMS[origIdx] || `${origIdx + 1}.`);
+        if (displayNumSym) {
           const numEl = document.createElement('span');
           numEl.className = 'opt-num';
-          numEl.textContent = item.opt_num;
+          numEl.textContent = displayNumSym;
           headerEl.appendChild(numEl);
         }
 
         const nameEl = document.createElement('span');
         nameEl.className = 'opt-name';
-        nameEl.textContent = item.text || (q.options && q.options[idx]) || '';
+        nameEl.textContent = item.text || (q.options && q.options[origIdx]) || '';
         headerEl.appendChild(nameEl);
 
         itemEl.appendChild(headerEl);
@@ -1250,10 +1328,11 @@
     const optionButtons = dom.optionsList.querySelectorAll('.option-btn');
 
     optionButtons.forEach((btn, idx) => {
+      const origIdx = btn.dataset.origIdx !== undefined ? Number(btn.dataset.origIdx) : idx;
       btn.classList.add('disabled');
       btn.classList.remove('is-selected-pending');
-      const isSelected = selectedSet.has(idx);
-      const isTargetCorrect = correctSet.has(idx);
+      const isSelected = selectedSet.has(origIdx);
+      const isTargetCorrect = correctSet.has(origIdx);
       const iconSpan = btn.querySelector('.option-status-icon');
 
       if (isSelected && isTargetCorrect) {
@@ -1290,6 +1369,8 @@
     dom.feedbackBanner.style.display = 'flex';
     dom.feedbackBanner.className = 'feedback-banner ' + (isCorrect ? 'correct' : (isPartial ? 'partial' : 'wrong'));
     
+    const correctDisplayLabels = config.correctIndices.map(i => formatOptionWithDisplayNum(q, i)).filter(Boolean).join(', ');
+
     if (isCorrect) {
       dom.feedbackIcon.textContent = '🎉';
       dom.feedbackStatus.textContent = config.isMulti 
@@ -1300,21 +1381,18 @@
       dom.feedbackIcon.textContent = '⚠️';
       const rightCount = selectedIndices.filter(i => correctSet.has(i)).length;
       dom.feedbackStatus.textContent = `부분 정답입니다 (${config.correctIndices.length}개 중 ${rightCount}개 정답)`;
-      const correctLabels = config.correctIndices.map(i => q.options[i]).join(', ');
-      dom.feedbackDetail.textContent = `정답은 [${correctLabels}] 입니다. 아래 상세 해설을 확인하세요.`;
+      dom.feedbackDetail.textContent = `정답은 [${correctDisplayLabels}] 입니다. 아래 상세 해설을 확인하세요.`;
     } else {
       dom.feedbackIcon.textContent = '💡';
       dom.feedbackStatus.textContent = '오답입니다!';
-      const correctLabels = config.correctIndices.map(i => q.options[i]).join(', ');
-      dom.feedbackDetail.textContent = `정답은 [${correctLabels || q.correct_answer}] 입니다. 아래 상세 해설을 확인하세요.`;
+      dom.feedbackDetail.textContent = `정답은 [${correctDisplayLabels || q.correct_answer}] 입니다. 아래 상세 해설을 확인하세요.`;
     }
 
     // Clinical Explanation Box
     const exp = q.explanation || {};
     dom.expThemeTitle.textContent = exp.title || q.theme_title || '임상 검사 판독 및 의의';
     
-    const correctSummary = config.correctIndices.map(i => q.options[i]).join(', ') || q.correct_answer || '';
-    dom.expCorrectAnswer.textContent = correctSummary;
+    dom.expCorrectAnswer.textContent = correctDisplayLabels || q.correct_answer || '';
 
     dom.expFindings.textContent = exp.findings || '상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.';
     dom.expTrap.textContent = exp.trap || '실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.';
@@ -1350,9 +1428,48 @@
 
     state.pendingSelections.clear();
     delete state.userAnswers[q.id];
+    if (state.shuffleOptions) {
+      getDisplayOrder(q, true);
+    }
     saveStorage();
     updateStats();
     renderCurrentQuestion();
+  }
+
+  /**
+   * Toggle Shuffle Options Mode
+   */
+  function toggleShuffleMode() {
+    state.shuffleOptions = !state.shuffleOptions;
+    try {
+      localStorage.setItem(STORAGE_KEY_SHUFFLE, String(state.shuffleOptions));
+    } catch (e) {}
+
+    const q = getCurrentQuestion();
+    if (state.shuffleOptions && q) {
+      getDisplayOrder(q, true);
+    }
+    renderCurrentQuestion();
+    showToast(state.shuffleOptions
+      ? '🔀 선지 순서 섞기가 켜졌습니다! (단축키 S)'
+      : '🔢 선지가 원래 기출 번호 순서로 표시됩니다.');
+  }
+
+  /**
+   * Reshuffle Current Question Options Immediately
+   */
+  function reshuffleCurrentQuestionOptions() {
+    const q = getCurrentQuestion();
+    if (!q) return;
+    if (!state.shuffleOptions) {
+      state.shuffleOptions = true;
+      try {
+        localStorage.setItem(STORAGE_KEY_SHUFFLE, 'true');
+      } catch (e) {}
+    }
+    getDisplayOrder(q, true);
+    renderCurrentQuestion();
+    showToast('🔄 현재 문제의 선지 순서를 다시 섞었습니다.');
   }
 
   /**
@@ -1540,6 +1657,14 @@
       renderCurrentQuestion();
     });
 
+    // Shuffle Options Mode Toggle & Reshuffle
+    if (dom.btnToggleShuffle) {
+      dom.btnToggleShuffle.addEventListener('click', toggleShuffleMode);
+    }
+    if (dom.btnReshuffleNow) {
+      dom.btnReshuffleNow.addEventListener('click', reshuffleCurrentQuestionOptions);
+    }
+
     // Keyword Search
     let searchDebounce = null;
     dom.searchInput.addEventListener('input', e => {
@@ -1595,10 +1720,12 @@
       const keyNum = parseInt(e.key, 10);
       if (keyNum >= 1 && keyNum <= q.options.length) {
         e.preventDefault();
+        const order = getDisplayOrder(q);
+        const origIdx = order[keyNum - 1] !== undefined ? order[keyNum - 1] : (keyNum - 1);
         if (config.isMulti) {
-          togglePendingSelection(q, keyNum - 1, config);
+          togglePendingSelection(q, origIdx, config);
         } else {
-          handleSelectSingleOption(q, keyNum - 1, config);
+          handleSelectSingleOption(q, origIdx, config);
         }
         return;
       }
@@ -1624,6 +1751,9 @@
     } else if (e.key === 'r' || e.key === 'R') {
       e.preventDefault();
       resetCurrentQuestion();
+    } else if (e.key === 's' || e.key === 'S') {
+      e.preventDefault();
+      toggleShuffleMode();
     } else if (e.key === 'Escape') {
       closeGridModal();
       closeLightbox();
