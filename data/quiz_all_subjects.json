@@ -42639,9 +42639,12 @@
     "category": "기출",
     "theme_title": "내과 임상 증례 및 기출 분석",
     "subspecialty": "내과 일반",
-    "stem": "(Spirometry 검사결과 줌. FVC, FEV1, FEV1/FVC 모두 정상보다 낮은 상태) 중증도를 평가하기 위해 가장 필요한 검사는? Chest X-ray ● 호흡곤란정도 설문지 ● DLCO ●",
+    "stem": "(Spirometry 검사결과 줌. FVC, FEV1, FEV1/FVC 모두 정상보다 낮은 상태) 중증도를 평가하기 위해 가장 필요한 검사는? Chest X-ray",
     "images": [],
-    "options": [],
+    "options": [
+      "호흡곤란정도 설문지",
+      "DLCO"
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -42678,9 +42681,14 @@
     "category": "기출",
     "theme_title": "내과 임상 증례 및 기출 분석",
     "subspecialty": "내과 일반",
-    "stem": "(내신야마) 다음 검사방법 중 폐암의 병기를 판정하는데 사용되는 검사가 아닌 것은? Brain MRI ● PET-CT ● 복부 CT ● Whole body bone scan ● 폐기능검사 ●",
+    "stem": "(내신야마) 다음 검사방법 중 폐암의 병기를 판정하는데 사용되는 검사가 아닌 것은? Brain MRI",
     "images": [],
-    "options": [],
+    "options": [
+      "PET-CT",
+      "복부 CT",
+      "Whole body bone scan",
+      "폐기능검사"
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -42717,9 +42725,15 @@
     "category": "기출",
     "theme_title": "내과 임상 증례 및 기출 분석",
     "subspecialty": "내과 일반",
-    "stem": "천식으로 ICS 사용 중인 환자이다. 최근 일주일에 2 번 이상 낮에 증상이 심해지고 밤에 자다가 깨기도 하며, 일상 생활에 지장이 많다. 흡입제는 매일 1 회 사용 중이다. 환자에게 필요한 치료는? 저용량 흡입스테로이드 ● 저용량 흡입스테로이드와 지속성 ● 베타2 효현제 경구 스테로이드 ● 테오필린 ● 속효성 베타2 효현제 ● (모든 선지 한글로 나왔으며, 선지에 LAMA 없었음)",
+    "stem": "천식으로 ICS 사용 중인 환자이다. 최근 일주일에 2 번 이상 낮에 증상이 심해지고 밤에 자다가 깨기도 하며, 일상 생활에 지장이 많다. 흡입제는 매일 1 회 사용 중이다. 환자에게 필요한 치료는? 저용량 흡입스테로이드",
     "images": [],
-    "options": [],
+    "options": [
+      "저용량 흡입스테로이드와 지속성",
+      "베타2 효현제 경구 스테로이드",
+      "테오필린",
+      "속효성 베타2 효현제",
+      "(모든 선지 한글로 나왔으며, 선지에 LAMA 없었음)"
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -42756,9 +42770,14 @@
     "category": "기출",
     "theme_title": "내과 임상 증례 및 기출 분석",
     "subspecialty": "내과 일반",
-    "stem": "비결핵성항산균(NTM) 감염으로 치료를 받던 중에 갑자기 눈이 잘 보이지 않는다고 하였다. 원인이 될 약물로 가장 가능성이 높은 것은? Isoniazid ● Ethambutol ● Moxifloxacin ● Rifampin ● Pyrazinamide ●",
+    "stem": "비결핵성항산균(NTM) 감염으로 치료를 받던 중에 갑자기 눈이 잘 보이지 않는다고 하였다. 원인이 될 약물로 가장 가능성이 높은 것은? Isoniazid",
     "images": [],
-    "options": [],
+    "options": [
+      "Ethambutol",
+      "Moxifloxacin",
+      "Rifampin",
+      "Pyrazinamide"
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -42795,9 +42814,14 @@
     "category": "기출",
     "theme_title": "내과 임상 증례 및 기출 분석",
     "subspecialty": "내과 일반",
-    "stem": "54 세 남성이 3 년전 M.abscessus 진단되고 3 개월간 결핵 초기 치료(4 제요법)하다가 증상이 호전되어 자의 중단하였다. 2 년전 해외 출장에서 돌아오고 3 개월 후부터 다시 증상이 생겨 내원하였다. AFB 검사와 PCR 둘다 양성. 앞으로 해야할 것은? Xpert MTB/RIF 검사를 한다. ● 초치료 실패에 해당한다. ● Paradoxical response 일 수 있으니 현재 ● 치료를 유지한다. 폐외결핵 증상이 있는지 확인한다. ● 2 차 치료 약제로 변경한다. ●",
+    "stem": "54 세 남성이 3 년전 M.abscessus 진단되고 3 개월간 결핵 초기 치료(4 제요법)하다가 증상이 호전되어 자의 중단하였다. 2 년전 해외 출장에서 돌아오고 3 개월 후부터 다시 증상이 생겨 내원하였다. AFB 검사와 PCR 둘다 양성. 앞으로 해야할 것은? Xpert MTB/RIF 검사를 한다.",
     "images": [],
-    "options": [],
+    "options": [
+      "초치료 실패에 해당한다.",
+      "Paradoxical response 일 수 있으니 현재",
+      "치료를 유지한다. 폐외결핵 증상이 있는지 확인한다.",
+      "차 치료 약제로 변경한다."
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -42834,9 +42858,14 @@
     "category": "기출",
     "theme_title": "내과 임상 증례 및 기출 분석",
     "subspecialty": "내과 일반",
-    "stem": "(야마) 다음 질환의 정확한 진단을 위해 시행해야 할 검사는? (PA view 와 Decubitus X- ray 제시해줬는데 PA 에서 CPA blunting 이 있었고 decubitus 에서 fluid 가 움직임이 있었음.) 흉수검사 - 흉부 CT ● 혈액검사 - 흉부 CT ● 혈액검사 - 흉수검사 ● 흉수검사 - 흉부 MRI ● 흉부 CT - 흉부 MRI ●",
+    "stem": "(야마) 다음 질환의 정확한 진단을 위해 시행해야 할 검사는? (PA view 와 Decubitus X- ray 제시해줬는데 PA 에서 CPA blunting 이 있었고 decubitus 에서 fluid 가 움직임이 있었음.) 흉수검사 - 흉부 CT",
     "images": [],
-    "options": [],
+    "options": [
+      "혈액검사 - 흉부 CT",
+      "혈액검사 - 흉수검사",
+      "흉수검사 - 흉부 MRI",
+      "흉부 CT - 흉부 MRI"
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -42912,11 +42941,15 @@
     "category": "기출",
     "theme_title": "내과 임상 증례 및 기출 분석",
     "subspecialty": "내과 일반",
-    "stem": "(야마) 60 대 남성이 호흡곤란을 주소로 내원하였다. 다음은 CT, PET-CT 검사 결과이다. (carina 주변에서 hypermetabolic 한 LN 3 군데 보임) 그리고 시행한 검사에서 사용한 기구와 채취한 검체의 육안적 소견 사진을 보았을 때, 이 검사의 이름은? Autofluorescence Bronchoscopy(AFB) ● Electromagnetic Navigational ● Bronchoscopy (ENB) Endobronchial Ultrasound-Guided ● Transbronchial Needle Aspiration (EBUS- TBNA) Transbronchial Lung Biopsy (TBLB) ●",
+    "stem": "(야마) 60 대 남성이 호흡곤란을 주소로 내원하였다. 다음은 CT, PET-CT 검사 결과이다. (carina 주변에서 hypermetabolic 한 LN 3 군데 보임) 그리고 시행한 검사에서 사용한 기구와 채취한 검체의 육안적 소견 사진을 보았을 때, 이 검사의 이름은? Autofluorescence Bronchoscopy(AFB)",
     "images": [
       "images/내과/22Y_Q18_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Electromagnetic Navigational",
+      "Bronchoscopy (ENB) Endobronchial Ultrasound-Guided",
+      "Transbronchial Needle Aspiration (EBUS- TBNA) Transbronchial Lung Biopsy (TBLB)"
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -42953,9 +42986,12 @@
     "category": "기출",
     "theme_title": "내과 임상 증례 및 기출 분석",
     "subspecialty": "내과 일반",
-    "stem": "스테로이드 흡입제와 경구 스테로이드 비교로 옳은 것은? 흡입 스테로이드는 소량으로도 경구 ● 제제와 동일한 효과를 얻을 수 있고 전신 부작용이 더 적은 장점이 있다. 천식환자에서 스테로이드 치료는 경구로 ● 투여하는 것이 적절하다.",
+    "stem": "스테로이드 흡입제와 경구 스테로이드 비교로 옳은 것은? 흡입 스테로이드는 소량으로도 경구",
     "images": [],
-    "options": [],
+    "options": [
+      "제제와 동일한 효과를 얻을 수 있고 전신 부작용이 더 적은 장점이 있다. 천식환자에서 스테로이드 치료는 경구로",
+      "투여하는 것이 적절하다."
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -42992,9 +43028,15 @@
     "category": "기출",
     "theme_title": "내과 임상 증례 및 기출 분석",
     "subspecialty": "내과 일반",
-    "stem": "(ARDS 의 X-ray 줌(아마AP). 여러 인공물들이 폐야와 혈관들에 보였음.) 중환자실에서 조치를 취하고 있다. 다음 중 부적절하게 삽입된 것은? Central line ● Arterial line ● Endotracheal tube ● Nasogastric tube ● Urinary Catheter ● (답논란. 가슴 사진이라 선지의 urinary catheter 는 생각할 필요도 없었습니다.) <소화기내과> 총 10 문제 중 10 문제 복원",
+    "stem": "(ARDS 의 X-ray 줌(아마AP). 여러 인공물들이 폐야와 혈관들에 보였음.) 중환자실에서 조치를 취하고 있다. 다음 중 부적절하게 삽입된 것은? Central line",
     "images": [],
-    "options": [],
+    "options": [
+      "Arterial line",
+      "Endotracheal tube",
+      "Nasogastric tube",
+      "Urinary Catheter",
+      "(답논란. 가슴 사진이라 선지의 urinary catheter 는 생각할 필요도 없었습니다.) <소화기내과> 총 10 문제 중 10 문제 복원"
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -67895,11 +67937,17 @@
     "category": "반짤",
     "theme_title": "급성 담낭염(Acute Cholecystitis)의 진단 및 복강경 담낭절제술",
     "subspecialty": "외과 일반",
-    "stem": "Right upper quadrant pain 및 tenderness 를 주소로 내원한 56 세 여성 환자의 CT 이다. 오른쪽 윗배의 갈비뼈 아래 경계부위를 누른 상태에서 숨을 깊게 들이 마시라고 했을 때 환자는 숨을 들이 마시다 갑자기 멈췄다. 환자에게 적절한 치료는? 1 1. IV fluid hydration 2 IV antibiotics 3 Endoscopic nasobiliary drainage (ENBD) 4 Percutaneous transhepatic biliary drainage (PTBD) 5 Laparoscopic cholecystectomy",
+    "stem": "Right upper quadrant pain 및 tenderness 를 주소로 내원한 56 세 여성 환자의 CT 이다. 오른쪽 윗배의 갈비뼈 아래 경계부위를 누른 상태에서 숨을 깊게 들이 마시라고 했을 때 환자는 숨을 들이 마시다 갑자기 멈췄다(Murphy 징후 양성). 환자에게 가장 적절한 치료는?",
     "images": [
       "images/외과/22Y_Q02_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "IV fluid hydration (단독 보존요법)",
+      "IV antibiotics (단독 항생제 치료)",
+      "Endoscopic nasobiliary drainage (ENBD)",
+      "Percutaneous transhepatic biliary drainage (PTBD)",
+      "Laparoscopic cholecystectomy (복강경 담낭절제술)"
+    ],
     "correct_option_index": 4,
     "correct_answer": "⑤ Laparoscopic cholecystectomy (복강경 담낭절제술)",
     "explanation": {
@@ -67946,13 +67994,19 @@
     "category": "짤",
     "theme_title": "외상성 비장 파열(Spleen Rupture)의 단계별 치료",
     "subspecialty": "외과 일반",
-    "stem": "교통사고 후 CT 에서 비장 파열이 확인되었다. 주변 장기나 혈관 외 유출이 없는 것으로 확인되었고 압통이 있었다. (반발압통 여부는언급 X) BP 110/70 mmHg, Hb 11.5 g/dL 였을 때 적절한 치료는? (이전 기출자료 사진이나, 실제 시험에서는 2 개의 사진으로 나뉘어 나왔습니다.) 1 경과관찰 2 동맥색전술 3 비장 부분절제 4 비장 전체절제",
+    "stem": "교통사고 후 CT 에서 비장 파열이 확인되었다. 주변 장기 손상이나 혈관 외 조영제 유출(contrast extravasation)이 없는 것으로 확인되었고 국소 압통이 있었다. (반발압통 없음) BP 110/70 mmHg, Hb 11.5 g/dL 였을 때 적절한 치료는?",
     "images": [
       "images/외과/22Y_Q03_fig1.png"
     ],
-    "options": [],
-    "correct_option_index": 1,
-    "correct_answer": "23Y/26Y: ② 비장동맥색전술 / 20Y~22Y: ① 경과관찰",
+    "options": [
+      "경과관찰 (Nonoperative management, NOM)",
+      "비장동맥색전술 (Splenic artery embolization)",
+      "비장 부분절제술 (Partial splenectomy)",
+      "비장 전절제술 (Total splenectomy)",
+      "진단적 개복술"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 경과관찰 (Nonoperative management)",
     "explanation": {
       "title": "외상성 비장 파열(Spleen Rupture)의 단계별 치료",
       "findings": "교통사고 후 비장 파열, 혈역학 안정(BP 110/70, Hb 11.5)이나 CT 혈관 외 유출 → 비장동맥색전술",
@@ -67997,9 +68051,15 @@
     "category": "반짤",
     "theme_title": "췌십이지장절제술(Whipple) 후 문합부 출혈 손상 혈관",
     "subspecialty": "외과 일반",
-    "stem": "췌장 두부암 환자의 복강경 췌장-십이지장 절제술 수술 후 경과관찰 도중 췌장과 jejunum 연결한 부위에서 문합부 누출 토혈이 있었다. 손상 받았을 가능성이 가장 높은 혈관은? 1 superior pancreaticoduodenal artery 2 gastroduodenal artery 3 left gastric artery 4 right gastric artery 5 common hepatic artery",
+    "stem": "췌장 두부암 환자의 복강경 췌장-십이지장 절제술(Whipple 수술) 후 경과관찰 도중 췌장-공장(jejunum) 문합부 누출과 함께 대량 토혈이 발생하였다. 손상 받았을 가능성이 가장 높은 혈관은?",
     "images": [],
-    "options": [],
+    "options": [
+      "Superior pancreaticoduodenal artery",
+      "Gastroduodenal artery (위십이지장동맥, GDA stump)",
+      "Left gastric artery",
+      "Right gastric artery",
+      "Common hepatic artery"
+    ],
     "correct_option_index": 1,
     "correct_answer": "② Gastroduodenal artery (위십이지장동맥, GDA)",
     "explanation": {
@@ -68042,9 +68102,15 @@
     "category": "반짤",
     "theme_title": "담낭절제술 후 담즙 누출(Bile Leak)의 1순위 처치",
     "subspecialty": "외과 일반",
-    "stem": "GB empyema 및 perforation 으로 담낭 절제술을 받은 환자의 배액이 담즙색으로 변하였다. Vital sign 은 안정할때 1 순위로 해야할 처치는? (답 논란) 1 경피경간담즙배액술 (PTBD) 2 응급 수술 3 고주파열치료 (Radiofrequency ablation) 4 내시경역행췌담관조영술 (ERCP)",
+    "stem": "담낭 축농(GB empyema) 및 천공으로 담낭 절제술을 받은 환자의 배액관에서 담즙성 액체가 지속적으로 배출되었다. 활력징후는 안정적일 때 1순위로 시행해야 할 처치는?",
     "images": [],
-    "options": [],
+    "options": [
+      "경피경간담즙배액술 (PTBD)",
+      "응급 개복 탐색술",
+      "고주파열치료 (Radiofrequency ablation)",
+      "내시경역행췌담관조영술 (ERCP 및 유두괄약근절개술·스텐트)",
+      "단순 경과관찰"
+    ],
     "correct_option_index": 3,
     "correct_answer": "④ 내시경역행췌담관조영술 (ERCP)",
     "explanation": {
@@ -68218,13 +68284,19 @@
     "category": "짤",
     "theme_title": "위원위부절제술 후 배액관 소견 (유미성 복수 vs 췌장액 유출)",
     "subspecialty": "외과 일반",
-    "stem": "위암으로 위원위부절제술을 받은 환자이다. 다음은 무엇인가? 1 췌장액 유출 2 유미성 복수 3 장 내용물 4 혈액 5 농양",
+    "stem": "위암으로 위원위부절제술 및 D2 림프절 곽청술을 받은 환자이다. 수술 후 복강 배액관에서 다음과 같은 유백색(우윳빛) 액체가 배출되었을 때 가장 적절한 진단은?",
     "images": [
       "images/외과/22Y_Q07_fig1.png"
     ],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "① 췌장액 유출 (Pancreatic fistula/leak) 또는 ② 유미성 복수 (Chylous ascites)",
+    "options": [
+      "췌장액 유출 (Pancreatic fistula)",
+      "유미성 복수 (Chylous ascites, 림프관 손상)",
+      "소화관 내용물 유출 (Bowel anastomosis leak)",
+      "활동성 복강 내 출혈 (Intraabdominal bleeding)",
+      "복강 내 농양 (Intraabdominal abscess)"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 유미성 복수 (Chylous ascites)",
     "explanation": {
       "title": "위원위부절제술 후 배액관 소견 (유미성 복수 vs 췌장액 유출)",
       "findings": "위원위부절제 및 림프절 곽청 후 배액관의 우윳빛(유백색) 액체 → 유미성 복수(Chylous ascites, 중성지방 > 110mg/dL)",
@@ -68666,11 +68738,17 @@
     "category": "반짤",
     "theme_title": "궤양성 대장염(UC) 독성거대결장의 응급수술",
     "subspecialty": "외과 일반",
-    "stem": "37 세 여성 환자가 복통을 주소로 내원하였다. 환자는 5 년전부터 궤양성 대장염으로 약물 복용 중이었다고 한다. BP 80/50 mmHg, HR 120 회/min, 호흡수 24 회/min, 체온 38.5 도 이 환자에게 적절한 치료는? 전결장직장절제술(total proctocolectomy) 및 회장낭-항문 문합술(ileorectal anastomosis) 전결장직장절제술(total proctocolectomy) 및 회장루 조성술(ileostomy) 전결장절제술(total colectomy) 및 회장낭-항문 문합술(ileorectal anastomosis) 전결장절제술(total colectomy) 및 회장루 조성술(ileostomy) 회장루조성술(ileostomy) 12 생후 4 개월 된 아이가 복부 팽만을 주소로 내원하였다. 태어날 때부터 변을 잘 보지 못했고, 관장을 했을 때 태변과 가스가 나왔다. 바륨 조영술 사진은 다음과 같다. 확진을 위한 검사는?",
+    "stem": "37 세 여성 환자가 심한 복통과 고열을 주소로 내원하였다. 환자는 5 년 전부터 궤양성 대장염(UC)으로 약물 치료 중이었다. BP 80/50 mmHg, HR 120 회/분, RR 24 회/분, 체온 38.5℃ 이며 단순 복부 X-선에서 결장의 독성 거대결장(Toxic megacolon) 소견이 관찰되었다. 가장 적절한 응급 수술은?",
     "images": [
       "images/외과/22Y_Q11_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "전결장직장절제술(Total proctocolectomy) 및 회장낭-항문 문합술(IPAA)",
+      "전결장직장절제술(Total proctocolectomy) 및 영구 회장루 조성술",
+      "전결장절제술(Total colectomy) 및 회장-직장 문합술",
+      "전결장절제술(Total colectomy) 및 말단 회장루 조성술(Ileostomy)",
+      "단독 루프 회장루 조성술(Loop ileostomy)"
+    ],
     "correct_option_index": 3,
     "correct_answer": "④ 전결장절제술(Total colectomy) 및 말단 회장루 조성술(Ileostomy)",
     "explanation": {
@@ -68969,10 +69047,14 @@
     "stem": "유방초음파가 유방촬영술(mammography)에 비해 갖는 장점으로 옳지 않은 것은?",
     "images": [],
     "options": [
-      "1. 유방촬영술로 애매한 병변에 도움이 될 수 있다"
+      "치밀유방에서 유방촬영술로 불명확한 병변의 발견에 도움이 된다",
+      "방사선 피폭이 없다",
+      "미세석회화(Microcalcification)를 발견하는 데 더 우수하다",
+      "낭종(Cyst)과 고형 종괴(Solid mass)를 쉽게 감별할 수 있다",
+      "임산부나 젊은 여성에게 안전하게 시행할 수 있다"
     ],
     "correct_option_index": 2,
-    "correct_answer": "③ 미세석회화를 보는 데 유용하다. (옳지 않은 것!)",
+    "correct_answer": "③ 미세석회화(Microcalcification)를 발견하는 데 더 우수하다",
     "explanation": {
       "title": "유방초음파 vs 유방촬영술(Mammography)의 비교",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -70116,13 +70198,17 @@
     "category": "반짤",
     "theme_title": "갑상선 유두암 수술 후 방사선요오드 치료(RAI)",
     "subspecialty": "외과 일반",
-    "stem": "47세 여자 환자가 우측 갑상선에 1.5cm 및 좌측 갑상선에",
+    "stem": "47세 여자 환자가 우측 갑상선에 1.5cm 및 좌측 갑상선에 1.0cm 크기의 유두암으로 갑상선 전절제술 및 경부 6구역 림프절 절제술을 시행받았다. 수술 후 병리 조직검사에서 갑상선 외 침범 소견이 보였으며, 림프절 10개 중 3개가 전이되었다. 다음에 시행해야 할 치료로 적절한 것은?",
     "images": [],
     "options": [
-      "1.0cm 크기의 유두암으로 갑상선 전절제술 및 경부 6구역 림프절 절제술을 시행받았다. 수술 후 병리 조직검사에서 갑상선 외 침범 소견이 보였으며, 림프절 10개 중 3개가 전이되었다. 다음에 시행 해야 할 치료로 적절한 것은?"
+      "경과관찰 및 갑상선호르몬 억제요법",
+      "방사성요오드 치료 (131-I ablation)",
+      "경부 외부 방사선 치료 (EBRT)",
+      "표적치료제 (Lenvatinib 투여)",
+      "전신 항암화학요법"
     ],
     "correct_option_index": 1,
-    "correct_answer": "② 방사선요오드치료 (Radioactive Iodine, 131-I ablation)",
+    "correct_answer": "② 방사성요오드 치료 (131-I ablation)",
     "explanation": {
       "title": "갑상선 유두암 수술 후 방사선요오드 치료(RAI)",
       "findings": "양측 갑상선 유두암 전절제+6구역 곽청, 갑상선 외 침범+림프절 3/10 전이 → 방사선요오드 치료",
@@ -71384,11 +71470,17 @@
     "category": "반짤",
     "theme_title": "외상성 비장 파열(Spleen Rupture)의 단계별 치료",
     "subspecialty": "외과 일반",
-    "stem": "교통사고 후 CT 에서 비장 파열이 확인되었다. 주변 장기나 혈 관 외 유출이 없는 것으로 확인되었고 압통이 있었다. (반발압통 여 부는언급 X) BP 110/70 mmHg, Hb 11.5 g/dL 였을 때 적절한 치료 는?",
+    "stem": "교통사고 후 복부 CT에서 비장 파열이 확인되었다. 주변 장기 손상이나 혈관 외 조영제 유출이 없는 것으로 확인되었고 국소 압통이 있었다. (반발압통 없음) BP 110/70 mmHg, Hb 11.5 g/dL 였을 때 적절한 치료는?",
     "images": [],
-    "options": [],
-    "correct_option_index": 1,
-    "correct_answer": "23Y/26Y: ② 비장동맥색전술 / 20Y~22Y: ① 경과관찰",
+    "options": [
+      "경과관찰 (Nonoperative management, NOM)",
+      "비장동맥색전술 (Splenic artery embolization)",
+      "비장 부분절제술 (Partial splenectomy)",
+      "비장 전절제술 (Total splenectomy)",
+      "진단적 복강세척술 (DPL)"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 경과관찰 (Nonoperative management)",
     "explanation": {
       "title": "외상성 비장 파열(Spleen Rupture)의 단계별 치료",
       "findings": "교통사고 후 비장 파열, 혈역학 안정(BP 110/70, Hb 11.5)이나 CT 혈관 외 유출 → 비장동맥색전술",
@@ -75329,11 +75421,17 @@
     "category": "반짤",
     "theme_title": "궤양성 대장염(UC) 독성거대결장의 응급수술",
     "subspecialty": "외과 일반",
-    "stem": "36 세 여성 복부팽만 주소로 내원하였다. 5 년전 uc 진단 받아 약물 복용중인 환자로 복부전체 압통호소하였고 BP 80/50 PR120 HR24 T38.5 처치는? Lead pipe 로 보이는 사진 가. total colectomy with ileal pouch anal anastomosis 나. total colectomy /c ileostomy 다. ileostomy 라. Total protocolectomy 마. Total protocolectomy with ileal pouch anal anastomosis",
+    "stem": "36 세 여성이 복부 팽만과 심한 복통을 주소로 내원하였다. 5 년 전 궤양성 대장염(UC)을 진단받고 약물 복용 중인 환자로 복부 전체에 압통이 있었고 BP 80/50 mmHg, PR 120 회/분, RR 24 회/분, 체온 38.5℃ 이었다. 단순복부촬영 상 Lead pipe 모양 및 심한 대장 확장이 관찰되었다. 가장 적절한 응급 처치는?",
     "images": [],
-    "options": [],
-    "correct_option_index": 3,
-    "correct_answer": "④ 전결장절제술(Total colectomy) 및 말단 회장루 조성술(Ileostomy)",
+    "options": [
+      "Total colectomy with ileal pouch-anal anastomosis",
+      "Total colectomy with end ileostomy",
+      "Loop ileostomy 단독 시행",
+      "Total proctocolectomy 단독",
+      "Total proctocolectomy with ileal pouch-anal anastomosis"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Total colectomy with end ileostomy",
     "explanation": {
       "title": "궤양성 대장염(UC) 독성거대결장의 응급수술",
       "findings": "궤양성 대장염 5년+저혈압·빈맥·고열 → 독성거대결장/패혈성 쇼크, 응급 전결장절제+말단 회장루",
@@ -75374,13 +75472,19 @@
     "category": "반짤",
     "theme_title": "복부 둔상(간손상 등) 혈역학 안정 시 보존적 치료",
     "subspecialty": "외과 일반",
-    "stem": "11 세 여자가 계단에서 구른 이후로 우상복부 통증을 호소하였다. 복부압통이 있었으나 반발압통은 없었다. BP 100/80, Hb 11. 어떤 처치를 해야하는가? 가. 경과관찰 나. 진단적 복강세척 다. 진단적 개복 라. 배액관 삽입 마. 혈관조영술",
+    "stem": "11 세 여아가 계단에서 구른 이후 우상복부 통증을 호소하였다. 복부 압통이 있었으나 반발압통은 없었고 혈압 100/80 mmHg, Hb 11.0 g/dL 로 혈역학적으로 안정되어 있었다. CT 상 간/비장의 경미한 열상이 보일 때 어떤 처치를 해야 하는가?",
     "images": [
       "images/외과/19Y_Q02_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "보존적 치료 및 경과관찰 (NOM)",
+      "진단적 복강세척술 (DPL)",
+      "응급 진단적 개복술",
+      "경피적 복강 배액관 삽입",
+      "응급 간동맥 혈관조영술"
+    ],
     "correct_option_index": 0,
-    "correct_answer": "① 경과관찰 (Non-operative management, NOM)",
+    "correct_answer": "① 보존적 치료 및 경과관찰 (NOM)",
     "explanation": {
       "title": "복부 둔상(간손상 등) 혈역학 안정 시 보존적 치료",
       "findings": "계단에서 구른 뒤 우상복부 통증, 반발압통 없음, 혈압·Hb 안정 → 간손상 비수술적 치료",
@@ -75531,11 +75635,17 @@
     "category": "반짤",
     "theme_title": "감시림프절 생검(SLNB)의 적응증 및 금기증",
     "subspecialty": "외과 일반",
-    "stem": "Sentinel lymph node biopsy 사진 주고, 적응증이 아닌 것은? 가. CNB 로 확인한 광범위한 DCIS 나. 3cm IDC 다. 다발성유방암 라. 염증성유방암 마. 임신 3 기",
+    "stem": "유방암 환자에서 감시림프절 생검술(Sentinel Lymph Node Biopsy, SLNB)의 적응증이 아닌 것은?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "① CNB로 확인한 광범위한 DCIS (절대적 금기증!)",
+    "options": [
+      "중심부바늘생검(CNB)으로 확인된 광범위 상피내암(DCIS)",
+      "3cm 크기의 침윤성 유관암(IDC)",
+      "다초발성/다발성 유방암",
+      "염증성 유방암 (Inflammatory breast cancer)",
+      "임신 3기 유방암"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ 염증성 유방암 (Inflammatory breast cancer)",
     "explanation": {
       "title": "감시림프절 생검(SLNB)의 적응증 및 금기증",
       "findings": "액와부 감마 프로브(Gamma probe)를 이용한 감시림프절 생검(SLNB) → 염증성 유방암(T4d)은 절대 금기",
@@ -75576,11 +75686,17 @@
     "category": "반짤",
     "theme_title": "외상성 비장 파열(Spleen Rupture)의 단계별 치료",
     "subspecialty": "외과 일반",
-    "stem": "보행자 교통사고 난 환자, CT 상 Spleen rupture 소견, 처치는? 가. 비장절제 나. 비장동맥색전술 다. 경과관찰 라. 진단적 복강세척",
+    "stem": "보행자 교통사고로 내원한 환자에서 복부 CT 상 비장 파열(Spleen rupture) 소견이 관찰되었다. 혈역학적으로 안정되어 있고 조영제 유출이 없을 때 가장 적절한 처치는?",
     "images": [],
-    "options": [],
-    "correct_option_index": 1,
-    "correct_answer": "23Y/26Y: ② 비장동맥색전술 / 20Y~22Y: ① 경과관찰",
+    "options": [
+      "응급 비장 전절제술",
+      "비장동맥색전술",
+      "보존적 치료 및 경과관찰 (NOM)",
+      "진단적 복강세척술",
+      "진단적 개복술"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 보존적 치료 및 경과관찰 (NOM)",
     "explanation": {
       "title": "외상성 비장 파열(Spleen Rupture)의 단계별 치료",
       "findings": "교통사고 후 비장 파열, 혈역학 안정(BP 110/70, Hb 11.5)이나 CT 혈관 외 유출 → 비장동맥색전술",
@@ -75752,11 +75868,17 @@
     "category": "반짤",
     "theme_title": "위원위부절제술 중 결찰 혈관 판독 (Left Gastric Artery)",
     "subspecialty": "외과 일반",
-    "stem": "(Y)수술사진 주고, Left gastric artery 와 연결되는 artery 고르기 (variant 라서 Lt hepatic? 아니면 common? 가. Lt hepatic 나. common hepatic 다. proper hepatic 라. splenic",
+    "stem": "위암 수술 소견에서 Left gastric artery (좌위동맥)에서 분지하여 간좌엽으로 주행하는 해부학적 변이 동맥(Anatomical variant)은?",
     "images": [],
-    "options": [],
-    "correct_option_index": 1,
-    "correct_answer": "② Left gastric artery (좌위동맥)",
+    "options": [
+      "Replaced left hepatic artery (변이 좌간동맥)",
+      "Common hepatic artery (총간동맥)",
+      "Proper hepatic artery (고유간동맥)",
+      "Splenic artery (비장동맥)",
+      "Gastroduodenal artery (위십이지장동맥)"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Replaced left hepatic artery (변이 좌간동맥)",
     "explanation": {
       "title": "위원위부절제술 중 결찰 혈관 판독 (Left Gastric Artery)",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -75795,11 +75917,17 @@
     "category": "반짤",
     "theme_title": "위절제술(R-Y) 후 내탈장(Internal Hernia)의 치료",
     "subspecialty": "외과 일반",
-    "stem": "Internal herniation case, 60 세 남자가 20 년전 복막염 수술, 배아파서 병원 왔더니, 이렇게 되어있었음 (장 괴사같은 사진) 처치는? 가. 소장절제 후 문합 나. warm saline 후 경과관찰 다. 24 시간 후 경과관찰 라. 항응고제 투여",
+    "stem": "60 세 남자가 20 년 전 복막염 수술을 받은 병력이 있으며, 갑작스러운 극심한 복통으로 내원하였다. CT에서 소장의 내탈장(Internal herniation) 및 장 허혈 소견이 관찰되었을 때 가장 적절한 처치는?",
     "images": [],
-    "options": [],
+    "options": [
+      "소장절제 후 단단문합술",
+      "온생리식염수 세척 후 단순 경과관찰",
+      "응급 진단적 개복술 및 탐색술",
+      "항응고제 투여",
+      "비위관 감압 및 보존적 치료"
+    ],
     "correct_option_index": 2,
-    "correct_answer": "③ 진단적 개복술 (또는 응급 수술 탐색술)",
+    "correct_answer": "③ 응급 진단적 개복술 및 탐색술",
     "explanation": {
       "title": "위절제술(R-Y) 후 내탈장(Internal Hernia)의 치료",
       "findings": "R-Y 위절제 후 갑작스러운 복통+배부 방사통+CT whirl sign → 내탈장(Petersen hernia), 응급 진단적 개복술",
@@ -75967,13 +76095,19 @@
     "category": "반짤",
     "theme_title": "위절제술 후 문합 방식 판독 (Billroth II vs Roux-en-Y)",
     "subspecialty": "외과 일반",
-    "stem": "다음 모식도는 어떤 수술의 모식도인가? 가. Bilroth I 나. Bilroth 2 다. Roux en Y 라. Braun anastomosis 마. esophagojejunostomy",
+    "stem": "다음 모식도는 위전절제술(Total gastrectomy) 후 시행하는 어떤 재건술식의 모식도인가?",
     "images": [
       "images/외과/19Y_Q10_fig1.png"
     ],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "① Roux-en-Y esophagojejunostomy (위전절제술 후 식도-공장 Roux-en-Y 재건술)",
+    "options": [
+      "Billroth I (위십이지장문합술)",
+      "Billroth II (위공장문합술)",
+      "Roux-en-Y esophagojejunostomy (식도공장 Roux-en-Y 문합술)",
+      "Braun anastomosis",
+      "Pylorus-preserving gastrectomy"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ Roux-en-Y esophagojejunostomy (식도공장 Roux-en-Y 문합술)",
     "explanation": {
       "title": "위절제술 후 문합 방식 판독 (Billroth II vs Roux-en-Y)",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -76012,11 +76146,17 @@
     "category": "반짤",
     "theme_title": "직장-S상결장 이행부 암의 수술명 (Anterior Resection)",
     "subspecialty": "외과 일반",
-    "stem": "56 세 여성 rectosigmoid 이행부 cancer 환자이다. 병변절제 후 직장과 결장을 peritoneal reflexion(한국말로) 위에서 문합하는 수술 이름은? 가. AR 나. LAR 다. APR 라. Hartmann 마. transanal excision",
+    "stem": "56 세 여성 직장-S상결장 이행부 암(rectosigmoid junction cancer) 환자이다. 종양 절제 후 결장과 직장을 복막반전부(peritoneal reflection) 상방에서 문합하는 수술 이름은?",
     "images": [],
-    "options": [],
+    "options": [
+      "Anterior resection (AR, 전방절제술)",
+      "Low anterior resection (LAR, 저위전방절제술)",
+      "Abdominoperineal resection (APR, 복회음절제술)",
+      "Hartmann operation (하트만 수술)",
+      "Transanal excision (경항문 국소절제술)"
+    ],
     "correct_option_index": 0,
-    "correct_answer": "① Anterior resection (전방절제술)",
+    "correct_answer": "① Anterior resection (AR, 전방절제술)",
     "explanation": {
       "title": "직장-S상결장 이행부 암의 수술명 (Anterior Resection)",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -76421,11 +76561,17 @@
     "category": "짤",
     "theme_title": "소화성 궤양 천공(Peptic Ulcer Perforation)의 수술",
     "subspecialty": "외과 일반",
-    "stem": "34 세 남자. 갑작스러운 극심한 우상복부 복통으로 응급실 내원. 복부 엑스레이 상 우측 횡격막 아래에 공기음영이 있다. 탐색적 복강경 수술 사진 보여주고(위? 십이지장? perforation) 수술 중 해야할 처치는? 가. Levin tube 거치 후 관찰 나. primary closure 다. Truncal vagotomy with antrectomy 라. distal gastrectomy 마. distal gastrectomy with D2 lymph- adenectomy",
+    "stem": "34 세 남자 환자가 갑작스러운 극심한 상복부 통증으로 내원하였다. 복부 단순촬영 상 횡격막하 유리공기음영(Free air)이 관찰되었고, 복강경 수술에서 십이지장 구부 전벽의 천공이 확인되었다. 수술 중 시행해야 할 가장 적절한 처치는?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "Primary closure with omentopexy (단순봉합 및 대망피복술, Graham patch)",
+    "options": [
+      "비위관 거치 후 보존적 관찰",
+      "Primary closure with omentopexy (단순봉합 및 대망피복술, Graham patch)",
+      "Truncal vagotomy with antrectomy",
+      "Distal gastrectomy (위원위부절제술)",
+      "Distal gastrectomy with D2 lymphadenectomy"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Primary closure with omentopexy (단순봉합 및 대망피복술, Graham patch)",
     "explanation": {
       "title": "소화성 궤양 천공(Peptic Ulcer Perforation)의 수술",
       "findings": "50대 남 급성 복통·복부 강직·횡격막하 free air → 소화성궤양 천공, 단순봉합+대망피복술",
@@ -76462,13 +76608,19 @@
     "category": "반짤",
     "theme_title": "복부 대동맥류 파열(Ruptured AAA)의 진단",
     "subspecialty": "외과 일반",
-    "stem": "평소 고혈압이 있던 76 세의 남자환자가 내원 한 시간 전 갑자기 발생한 back pain, abdominal pain 으로 응급실을 방문하였다. 신체검사상 복부 중앙에서 종물이 만져졌으며 혈압은 80/50mmHg 이었다. CT 소견이 다음과 같을 때 가장 가능성 있는 질환은? 가. aortic aneurysm",
+    "stem": "평소 고혈압이 있던 76 세 남자 환자가 내원 1 시간 전 갑자기 발생한 극심한 허리 및 복부 통증으로 내원하였다. 신체검사상 복부 중앙에서 박동성 종물이 만져졌고 혈압은 80/50 mmHg 이었다. 복부 CT 소견이 다음과 같을 때 가장 가능성 높은 질환은?",
     "images": [
       "images/외과/19Y_Q16_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Abdominal aortic aneurysm rupture (복부 대동맥류 파열)",
+      "Acute aortic dissection (급성 대동맥 박리)",
+      "Acute myocardial infarction (급성 심근경색)",
+      "Acute pancreatitis (급성 췌장염)",
+      "Acute mesenteric ischemia (급성 장간막 허혈)"
+    ],
     "correct_option_index": 0,
-    "correct_answer": "복부 대동맥류 파열 (Ruptured abdominal aortic aneurysm, AAA)",
+    "correct_answer": "① Abdominal aortic aneurysm rupture (복부 대동맥류 파열)",
     "explanation": {
       "title": "복부 대동맥류 파열(Ruptured AAA)의 진단",
       "findings": "고혈압 노인+급성 복통·요통+복부 박동성 종괴+저혈압 → 파열 복부대동맥류, 즉시 수술",
@@ -76509,11 +76661,17 @@
     "category": "반짤",
     "theme_title": "수술 창상(Wound)의 오염도 분류",
     "subspecialty": "외과 일반",
-    "stem": "정규대장암 수술은 수술 전 예방적 항생제를 쓰기 위한 상처 분류에 따르면 어떤 상처에 해당하는가? 가. clean wound 나. clean contaminated wound 다. contaminated wound 라. dirty wound 마. none of above",
+    "stem": "정규 대장암 수술(Elective colon resection)은 수술 전 예방적 항생제 사용을 위한 수술 창상 분류(Surgical wound classification) 중 어디에 해당하는가?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "26Y/23Y: ① Clean (청결 창상) / 19Y: ② Clean-contaminated",
+    "options": [
+      "Clean wound (청결 창상, Class I)",
+      "Clean-contaminated wound (청결-오염 창상, Class II)",
+      "Contaminated wound (오염 창상, Class III)",
+      "Dirty-infected wound (감염 창상, Class IV)",
+      "None of the above"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Clean-contaminated wound (청결-오염 창상, Class II)",
     "explanation": {
       "title": "수술 창상(Wound)의 오염도 분류",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -76552,13 +76710,19 @@
     "category": "반짤",
     "theme_title": "급성 담낭염(Acute Cholecystitis)의 진단 및 복강경 담낭절제술",
     "subspecialty": "외과 일반",
-    "stem": "RUQ pain 및 tenderness 를 주소로 내원한 56 세 여자환자의 복부전산화 단층촬영 소견이다. 어떤 처치를 해야하는가? 가. laparoscopic cholecystectomy 나. PTBD",
+    "stem": "우상복부 통증 및 Murphy 징후를 주소로 내원한 56 세 여성 환자의 복부 CT 소견(급성 담낭염)이다. 가장 적절한 표준 치료는?",
     "images": [
       "images/외과/19Y_Q18_fig1.png"
     ],
-    "options": [],
-    "correct_option_index": 4,
-    "correct_answer": "⑤ Laparoscopic cholecystectomy (복강경 담낭절제술)",
+    "options": [
+      "Laparoscopic cholecystectomy (복강경 담낭절제술)",
+      "Percutaneous transhepatic biliary drainage (PTBD)",
+      "Endoscopic retrograde cholangiopancreatography (ERCP)",
+      "Extracorporeal shock wave lithotripsy (ESWL)",
+      "경구 항생제 및 통원 관찰"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① Laparoscopic cholecystectomy (복강경 담낭절제술)",
     "explanation": {
       "title": "급성 담낭염(Acute Cholecystitis)의 진단 및 복강경 담낭절제술",
       "findings": "우상복부 통증+Murphy sign+백혈구·CRP 상승+담낭 CT 소견 → 급성 담낭염, 조기 복강경 담낭절제술이 표준",
@@ -76732,9 +76896,15 @@
     "category": "반짤",
     "theme_title": "복강경 탈장수술(TAPP) 복강 내 해부학 판독",
     "subspecialty": "외과 일반",
-    "stem": "수술 사진 주고 Hernia 종류 고르기 가. indirect 나. direct 다. femoral 라. obturator",
+    "stem": "복강경 탈장 수술(TAPP) 시야에서 하복벽혈관(Inferior epigastric vessels) 내측 해부학 구조(Hesselbach 삼각)를 통해 결손이 발생한 탈장의 종류는?",
     "images": [],
-    "options": [],
+    "options": [
+      "Direct inguinal hernia (직접 서혜부 탈장)",
+      "Indirect inguinal hernia (간접 서혜부 탈장)",
+      "Femoral hernia (대퇴 탈장)",
+      "Obturator hernia (폐쇄공 탈장)",
+      "Umbilical hernia (제대 탈장)"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① Direct inguinal hernia (직접 서혜부 탈장)",
     "explanation": {
@@ -95756,11 +95926,14 @@
     "category": "기출",
     "theme_title": "산부인과 임상 증례 및 기출 분석",
     "subspecialty": "산부인과 일반",
-    "stem": "산전진단검사에 관한 설명이다. 옳은 것은? 가.  목덜미  투명대가  3.0mm  이상시  태아 기형의  고위험군을  의미하므로  정밀  초 음파검사와  태아염색체검사 가  필요하다. 나.  제1 삼분기에  시행하는  병합선별검사는 11~14 주에 목덜미  투명대검사와  PAPP-A,",
+    "stem": "산전진단검사에 관한 설명이다. 옳은 것은?",
     "images": [
       "images/산부인과/22Y_Q33_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "목덜미  투명대가  3.0mm  이상시  태아 기형의  고위험군을  의미하므로  정밀  초 음파검사와  태아염색체검사 가  필요하다.",
+      "제1 삼분기에  시행하는  병합선별검사는 11~14 주에 목덜미  투명대검사와  PAPP-A,"
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -103213,9 +103386,14 @@
     "category": "짤",
     "theme_title": "테마 03. 청소년 및 가임기 급성 비정상 자궁출혈(AUB-O)의 호르몬 지혈",
     "subspecialty": "생식내분비학 / 불임",
-    "stem": "(20년 본2) Hb=7.2, 질출혈 많이 있었다 해야 할 처치 로 옳지 않은 것은? 경구피임약을 7일 간 하루 34 회 치료 ● 후 용량을 줄여서 21 일 사용한다 약물 치료가 되지 않으면 소파술을 ● 한다. CEE 4시간마다 25mg 투여 ● 수액 보충을 하면서 입원 치료를 한다 ● 우선 MPA 20mg를 2번 정도 투여한다. ●",
+    "stem": "(20년 본2) Hb=7.2, 질출혈 많이 있었다 해야 할 처치 로 옳지 않은 것은? 경구피임약을 7일 간 하루 34 회 치료",
     "images": [],
-    "options": [],
+    "options": [
+      "후 용량을 줄여서 21 일 사용한다 약물 치료가 되지 않으면 소파술을",
+      "한다. CEE 4시간마다 25mg 투여",
+      "수액 보충을 하면서 입원 치료를 한다",
+      "우선 MPA 20mg를 2번 정도 투여한다."
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 고용량 에스트로겐",
     "explanation": {
@@ -103258,9 +103436,15 @@
     "category": "짤",
     "theme_title": "테마 07. 매큔-올브라이트 증후군(McCune-Albright Syndrome)과 말초성 성조숙증",
     "subspecialty": "생식내분비학 / 불임",
-    "stem": "(20년 본2) 사춘기 조발증에 대한 설명으로 틀린 것을 고르시오 Bone age는 non-dominant hand나 ● elbow에서 측정한다. 여성호르몬을 투여하여 치료한다. ● GnRH agonist를 투여하여 이차 성징의 ● 발현을 억제하는 것이 핵심이다. Bone age<12세 일 때 사용하면 더 ● 효과적이다. Epiphysis fusion되거나, ● bone/chronologic age가 일치할 때까지 치료한다.",
+    "stem": "(20년 본2) 사춘기 조발증에 대한 설명으로 틀린 것을 고르시오 Bone age는 non-dominant hand나",
     "images": [],
-    "options": [],
+    "options": [
+      "elbow에서 측정한다. 여성호르몬을 투여하여 치료한다.",
+      "GnRH agonist를 투여하여 이차 성징의",
+      "발현을 억제하는 것이 핵심이다. Bone age<12세 일 때 사용하면 더",
+      "효과적이다. Epiphysis fusion되거나,",
+      "bone/chronologic age가 일치할 때까지 치료한다."
+    ],
     "correct_option_index": 0,
     "correct_answer": "① McCune-Albright syndrome",
     "explanation": {
@@ -105542,9 +105726,14 @@
     "category": "짤",
     "theme_title": "테마 52. 난소 낭종 염전(Ovarian Cyst Torsion) - 성숙낭종기형종(Teratoma)",
     "subspecialty": "일반부인과 & 비뇨부인과",
-    "stem": "20세 대학생이 3시간 전부터 시작된 극심한 좌하복부 통증 으로 응급실을 방문하였다.이 여성의 활력징후는 110/70 mmHg – 74회 – 24회 – 36.9 ℃ 였고 마지막 생리일은 2주전이었고, 성경험은 있었다. 응급실에서 시행한 CT 소견이 다음과 같다면 이 여성에서의가장 적절한 처치는? 입원하여 항생제 치료 ● 경구피임제 투여 ● 시험적 개복술 혹은 복강경수술 ● 초음파 영상 하에 needle aspiration ● 2개월 후 추적 관찰 ●",
+    "stem": "20세 대학생이 3시간 전부터 시작된 극심한 좌하복부 통증 으로 응급실을 방문하였다.이 여성의 활력징후는 110/70 mmHg – 74회 – 24회 – 36.9 ℃ 였고 마지막 생리일은 2주전이었고, 성경험은 있었다. 응급실에서 시행한 CT 소견이 다음과 같다면 이 여성에서의가장 적절한 처치는? 입원하여 항생제 치료",
     "images": [],
-    "options": [],
+    "options": [
+      "경구피임제 투여",
+      "시험적 개복술 혹은 복강경수술",
+      "초음파 영상 하에 needle aspiration",
+      "개월 후 추적 관찰"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 난소 기형종 (Mature Cystic Teratoma)",
     "explanation": {
@@ -106821,9 +107010,12 @@
     "category": "짤",
     "theme_title": "테마 48. 자궁경부 상피내암(CIN 3) 원추절제술 후 절제연 양성의 처치",
     "subspecialty": "기형학 & 부인종양학",
-    "stem": "산과력 2-0-6-2인 44세 여자가 성교 후 질출혈을 주소로 내원하였다. 자궁경부 미란이 보여서 병변 부위의 생검을 시행하자 HSIL로 진단되었고, colposcopy 결과, 깊이 2mm의 침윤암이 발견되었다. 임신은 더 이상 원하지 않는다고 하였다. 이 환자에게 시행해야 할 조치는? 단순 자궁절제술 및 ● 양측난소난관절제술 단순 자궁절제술 ● ● Conization 광범위자궁절제술 ●",
+    "stem": "산과력 2-0-6-2인 44세 여자가 성교 후 질출혈을 주소로 내원하였다. 자궁경부 미란이 보여서 병변 부위의 생검을 시행하자 HSIL로 진단되었고, colposcopy 결과, 깊이 2mm의 침윤암이 발견되었다. 임신은 더 이상 원하지 않는다고 하였다. 이 환자에게 시행해야 할 조치는? 단순 자궁절제술 및",
     "images": [],
-    "options": [],
+    "options": [
+      "양측난소난관절제술 단순 자궁절제술",
+      "Conization 광범위자궁절제술"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 전자궁적출술 (Total Hysterectomy)",
     "explanation": {
@@ -106993,11 +107185,16 @@
     "category": "짤",
     "theme_title": "테마 50. 자궁경부암 골반림프절 전이(FIGO IIIC1)의 동시항암화학방사선치료(CCRT)",
     "subspecialty": "기형학 & 부인종양학",
-    "stem": "산과력이 2-0-1-2 인 60 세 여성이 자궁경부암으로 치료를 받았다. 근치적 자궁 절제술 및 배막뒤림프절절제술을 시행 받았다. 수술 소견은 다음과 같고 대동맥 근처 림프절은 전이되지 않았다. 병기와, 다음으로 해야 할 처치를 고르시오 IIIC1, 동시 항암화학방사선치료 ● IIIC2, 동시 항암화학방사선치료 ● IIIC1, 항암화학요법 ● IIIC2, 항암화학요법 ● <외음암 및 질암>",
+    "stem": "산과력이 2-0-1-2 인 60 세 여성이 자궁경부암으로 치료를 받았다. 근치적 자궁 절제술 및 배막뒤림프절절제술을 시행 받았다. 수술 소견은 다음과 같고 대동맥 근처 림프절은 전이되지 않았다. 병기와, 다음으로 해야 할 처치를 고르시오 IIIC1, 동시 항암화학방사선치료",
     "images": [
       "images/산부인과/20Y_Q37_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "IIIC2, 동시 항암화학방사선치료",
+      "IIIC1, 항암화학요법",
+      "IIIC2, 항암화학요법",
+      "<외음암 및 질암>"
+    ],
     "correct_option_index": 3,
     "correct_answer": "④ IIIC1, 동시항암화학방사선치료",
     "explanation": {
@@ -107499,11 +107696,16 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 난소 난황낭종(Endodermal Sinus Tumor)의 종양표지자(AFP 상승)",
     "subspecialty": "산부인과 과년도 빈출",
-    "stem": "17세 여자 복부통증으로 응급실 왔을 때 AFP가 14000으로 높고, 나머지 hCG, CA125, CA19-9는 낮았다. 진단은? ● Endodermal sinus tumor ● Dermoid cyst ● Choriocarcinoma ● Dysgerminoma <상피내 질환>",
+    "stem": "17세 여자 복부통증으로 응급실 왔을 때 AFP가 14000으로 높고, 나머지 hCG, CA125, CA19-9는 낮았다. 진단은?",
     "images": [
       "images/산부인과/20Y_Q42_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Endodermal sinus tumor",
+      "Dermoid cyst",
+      "Choriocarcinoma",
+      "Dysgerminoma <상피내 질환>"
+    ],
     "correct_option_index": 1,
     "correct_answer": "[21Y Q26 & 20Y Q42] ② Dermoid cyst (성숙낭종기형 / 유피낭종)",
     "explanation": {
@@ -129422,12 +129624,17 @@
     "category": "짤",
     "theme_title": "영아기 아토피 피부염(Atopic Dermatitis)의 표준 국소 치료 (국소 스테로이드)",
     "subspecialty": "소아알레르기호흡기학 & 피부",
-    "stem": "(2022 임종평 4 차 한양대) 6 개월 된 남아가 8 주 이상 지속되는 심한 가려움증과 홍반, 인설을 동반한 습진성 피부질환을 주소로 왔다. 병변은 아래 사진과 같이 볼과 발목, 발등쪽에 있었으며 심하게 긁어 딱지가 생겨 있었다. 혈액검사 결과는 다음과 같았다. 다음 중 나쁜 예후인자에 해당되는 환자의 상태는? 호산구 1000/mm3 혈청 IgE 45IU/ml (소아 1 세 미만 정상 수치 ~15IU/ml) 남아 ● 6 개월 ● 혈청 IgE 상승 ● 습진성 피부병변 ● 6 주이상 지속병변 ●",
+    "stem": "(2022 임종평 4 차 한양대) 6 개월 된 남아가 8 주 이상 지속되는 심한 가려움증과 홍반, 인설을 동반한 습진성 피부질환을 주소로 왔다. 병변은 아래 사진과 같이 볼과 발목, 발등쪽에 있었으며 심하게 긁어 딱지가 생겨 있었다. 혈액검사 결과는 다음과 같았다. 다음 중 나쁜 예후인자에 해당되는 환자의 상태는? 호산구 1000/mm3 혈청 IgE 45IU/ml (소아 1 세 미만 정상 수치 ~15IU/ml) 남아",
     "images": [
       "images/소아청소년과/22Y_Q04_fig1.png",
       "images/소아청소년과/22Y_Q04_fig2.png"
     ],
-    "options": [],
+    "options": [
+      "개월",
+      "혈청 IgE 상승",
+      "습진성 피부병변",
+      "주이상 지속병변"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 국소 부신피질스테로이드",
     "explanation": {
@@ -129466,13 +129673,18 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 세 여아가 발달이 느린 것과 피부질환, 뇌전증으로 내",
     "subspecialty": "소아청소년과 과년도 빈출",
-    "stem": "(본1 신경Y) 5 세 여아 발달이 느린 것과 피부질환, 뇌전증으로 내원하였다. 전신에 1.5- 3cm 의 피부반점들이 있었고 어머니에게도 똑같은 병변들이 관찰 되었다. 다음은 피부반점, 무릎x-ray, MRI 사진이다. 다음과 같은 소견을 보이는 질환에서 나타나는 유전자 이상으로 옳은 것은? NF1 유전자 돌연변이 ● NF2 유전자 돌연변이 ● TSC1 유전자 돌연변이 ● TSC2 유전자 돌연변이 ● APLD1 유전자 돌연변이 ●",
+    "stem": "(본1 신경Y) 5 세 여아 발달이 느린 것과 피부질환, 뇌전증으로 내원하였다. 전신에 1.5- 3cm 의 피부반점들이 있었고 어머니에게도 똑같은 병변들이 관찰 되었다. 다음은 피부반점, 무릎x-ray, MRI 사진이다. 다음과 같은 소견을 보이는 질환에서 나타나는 유전자 이상으로 옳은 것은? NF1 유전자 돌연변이",
     "images": [
       "images/소아청소년과/22Y_Q05_fig1.png",
       "images/소아청소년과/22Y_Q05_fig2.png",
       "images/소아청소년과/22Y_Q05_fig3.png"
     ],
-    "options": [],
+    "options": [
+      "NF2 유전자 돌연변이",
+      "TSC1 유전자 돌연변이",
+      "TSC2 유전자 돌연변이",
+      "APLD1 유전자 돌연변이"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[23Y Q45 & 22Y Q05] 결절성 경화증 (Tuberous sclerosis) / 잎사귀모양 저색소반점 (Ash-leaf spot)",
     "explanation": {
@@ -129511,12 +129723,16 @@
     "category": "짤",
     "theme_title": "급성 파종성 뇌척수염 (Acute Disseminated Encephalomyelitis, ADEM)",
     "subspecialty": "소아신경학",
-    "stem": "(본1 신경 Y) 5 세 남아가 상기도 감염이 있은지 며칠 뒤 경련, 두통, 구토를 호소했다. 다음은 촬영한 CT 사진이다. BP 110/80, BT 38.1, RR 20, HR 80. 진단명은? 급성파종 뇌척수염 (ADEM) ● Sturge-Weber syndrome ● Moyamoya disease ● 부신백색질장애 ●",
+    "stem": "(본1 신경 Y) 5 세 남아가 상기도 감염이 있은지 며칠 뒤 경련, 두통, 구토를 호소했다. 다음은 촬영한 CT 사진이다. BP 110/80, BT 38.1, RR 20, HR 80. 진단명은? 급성파종 뇌척수염 (ADEM)",
     "images": [
       "images/소아청소년과/22Y_Q06_fig1.png",
       "images/소아청소년과/22Y_Q06_fig2.png"
     ],
-    "options": [],
+    "options": [
+      "Sturge-Weber syndrome",
+      "Moyamoya disease",
+      "부신백색질장애"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 급성파종 뇌척수염 (ADEM)",
     "explanation": {
@@ -129682,10 +129898,14 @@
     "category": "짤",
     "theme_title": "모유 영양의 생리학적 특성 및 조기 모유 황달의 관리",
     "subspecialty": "소아영양학 & 신생아학",
-    "stem": "모유영양에 대한 설명으로 옳은 것은? 조기 모유 황달 시 모유수유를 중단하지 ● 않는다. 초유에는 평소 모유보다 더 많은 지방이 ● 함유되어있다. 모유의 지방 함량은 우유보다 많다. ● 모유의 단백질은 주로 casein 이다. ● 완전 모유 수유시 신생아 시기에는 철분을 ● 보충해줘야한다.",
+    "stem": "모유영양에 대한 설명으로 옳은 것은? 조기 모유 황달 시 모유수유를 중단하지",
     "images": [],
     "options": [
-      "*조기 모유황달은 모유수유가 충분치 않아 발생"
+      "않는다. 초유에는 평소 모유보다 더 많은 지방이",
+      "함유되어있다. 모유의 지방 함량은 우유보다 많다.",
+      "모유의 단백질은 주로 casein 이다.",
+      "완전 모유 수유시 신생아 시기에는 철분을",
+      "보충해줘야한다."
     ],
     "correct_option_index": 0,
     "correct_answer": "*조기 모유황달은 모유수유가 충분치 않아 발생",
@@ -129747,12 +129967,15 @@
     "category": "짤",
     "theme_title": "특발성 조기 유방 발육증 (Premature Thelarche)의 감별진단",
     "subspecialty": "소아내분비학",
-    "stem": "7 세 여아 유방 발달로 내원. 뼈나이 7 세, 유방 태너 2 단계, 음모 태너 1 단계. 진단은? 정상 사춘기 ● 진성 성 조숙증 ● 조기 음모 발생 ● 조기 유방 발육 ● 사춘기 지연 ●",
+    "stem": "7 세 여아 유방 발달로 내원. 뼈나이 7 세, 유방 태너 2 단계, 음모 태너 1 단계. 진단은? 정상 사춘기",
     "images": [
       "images/소아청소년과/22Y_Q09_fig1.png"
     ],
     "options": [
-      "*성조숙증은 제2 차 성징의 출현이 여아에서 8 세, 남아에서 9 세 이전에 나타나는 것. 불완전형 성조숙증은 유방비대, 음모, 초경이 단독으로 나타나는 것. 한쪽 또는 양쪽 유방 발육 있으면서 다른 2 차성징을 보이지 않는 일시적인 상태를 유방 조기 발육증이라함"
+      "진성 성 조숙증",
+      "조기 음모 발생",
+      "조기 유방 발육",
+      "사춘기 지연"
     ],
     "correct_option_index": 3,
     "correct_answer": "④ 조기 유방 발육",
@@ -129814,9 +130037,14 @@
     "category": "짤",
     "theme_title": "체질성 성장지연 (Constitutional Delay of Growth and Puberty)",
     "subspecialty": "소아내분비학",
-    "stem": "13 세 여아 키 작다고 내원했다. 키 10 백분위, 체중 10 백분위였으며 1 년에 6cm 컸다. 뼈연령은 10 세이고 Tanner stage 2 단계. 아버지 키 175cm, 어머니 키 160cm 이다. 아버지는 키가 고등학교 때 많이 컸다고 하였고 어머니는 초경 16 세였다. 진단은? 체질성 성장지연 ● 터너증후군 ● 쿠싱증후군 ● 가족성 저신장 ● 성장호르몬 결핍증 ●",
+    "stem": "13 세 여아 키 작다고 내원했다. 키 10 백분위, 체중 10 백분위였으며 1 년에 6cm 컸다. 뼈연령은 10 세이고 Tanner stage 2 단계. 아버지 키 175cm, 어머니 키 160cm 이다. 아버지는 키가 고등학교 때 많이 컸다고 하였고 어머니는 초경 16 세였다. 진단은? 체질성 성장지연",
     "images": [],
-    "options": [],
+    "options": [
+      "터너증후군",
+      "쿠싱증후군",
+      "가족성 저신장",
+      "성장호르몬 결핍증"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 체질성 성장지연",
     "explanation": {
@@ -130371,9 +130599,13 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 세 남아가 밤에 자는 도중에 소리를 지르고 몸부림을 ",
     "subspecialty": "소아청소년과 과년도 빈출",
-    "stem": "6 세  남아가  밤에  자는  도중에  소리를 지르고 몸부림을  치며  일어난다.  일어난 후에는  호흡 가쁘고,  동공이  확산되며,  땀에 젖어  있었고,  밤의 상황을  기억하지  못했다. 진단은? 악몽 ● 야경증 ● REM 수면이상 ● 경련 ●",
+    "stem": "6 세  남아가  밤에  자는  도중에  소리를 지르고 몸부림을  치며  일어난다.  일어난 후에는  호흡 가쁘고,  동공이  확산되며,  땀에 젖어  있었고,  밤의 상황을  기억하지  못했다. 진단은? 악몽",
     "images": [],
-    "options": [],
+    "options": [
+      "야경증",
+      "REM 수면이상",
+      "경련"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[23Y Q43 & 22Y Q15] 야경증 (Sleep terror) / 수면 전반부 NREM 공포 발작 (아침에 기억 못함)",
     "explanation": {
@@ -131434,9 +131666,14 @@
     "category": "짤",
     "theme_title": "성장호르몬 결핍증(GHD)의 확진: 인슐린 유발 저혈당 성장호르몬 자극검사",
     "subspecialty": "소아내분비학",
-    "stem": "7 세 남자 아이 키 작다고 내원했다. 키 117cm (1백분위수), 몸무게  20.4kg (10백분위수)였다. 1 년에 4cm 씩 컸다. 뼈연령은 5 세였다. 아버지 185cm, 어머니 162cm 이고 갑상선호르몬 기능검사 정상이었다. 다음 해야 할 검사는? 금식 후 성장호르몬 농도 측정 ● 수면 중 성장호르몬 농도 측정 ● 인슐린 투여 후 성장호르몬 농도 측정 ● 금식 후 IGF-1 농도 측정 ● 운동 후 IGF-1 농도 측정 ●",
+    "stem": "7 세 남자 아이 키 작다고 내원했다. 키 117cm (1백분위수), 몸무게  20.4kg (10백분위수)였다. 1 년에 4cm 씩 컸다. 뼈연령은 5 세였다. 아버지 185cm, 어머니 162cm 이고 갑상선호르몬 기능검사 정상이었다. 다음 해야 할 검사는? 금식 후 성장호르몬 농도 측정",
     "images": [],
-    "options": [],
+    "options": [
+      "수면 중 성장호르몬 농도 측정",
+      "인슐린 투여 후 성장호르몬 농도 측정",
+      "금식 후 IGF-1 농도 측정",
+      "운동 후 IGF-1 농도 측정"
+    ],
     "correct_option_index": 2,
     "correct_answer": "③ 인슐린 투여 후 성장호르몬 농도 측정",
     "explanation": {
@@ -131731,11 +131968,16 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 재태연령 26주, 1.5kg로 태어난 신생아로, 흉벽당김, ",
     "subspecialty": "소아청소년과 과년도 빈출",
-    "stem": "RDS 사진주고 치료는? (21 학년말 26 번 유사) Surfactant PO ● Surfactant IV ● Surfactant 기관내 ● PO dexamethasone ● IV dexamethasone ●",
+    "stem": "RDS 사진주고 치료는? (21 학년말 26 번 유사) Surfactant PO",
     "images": [
       "images/소아청소년과/22Y_Q27_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Surfactant IV",
+      "Surfactant 기관내",
+      "PO dexamethasone",
+      "IV dexamethasone"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[23Y Q07 & 22Y Q27] 신생아 호흡곤란증후군 (RDS) / 폐표면활성제 (Surfactant) 투여",
     "explanation": {
@@ -131774,11 +132016,13 @@
     "category": "짤",
     "theme_title": "영유아 호흡기계의 해부생리학적 특징 (기도 저항 및 호흡 역학)",
     "subspecialty": "소아호흡기학",
-    "stem": "영유아 호흡기 특징으로 옳은 것? 상기도 안지름은 크고 후두개는 작다. ● 성인에 비해 점액샘 밀도가 낮아 분비가 ● 적다 연골이 잘 발달되어있어 협착이 잘 안된다. ● 늑간근의 제 2 연축섬유 많아 지속적 호흡 ● 에 유리하다. 2 세에 성인 호흡으로 전환된다. ●",
+    "stem": "영유아 호흡기 특징으로 옳은 것? 상기도 안지름은 크고 후두개는 작다.",
     "images": [],
     "options": [
-      "*성장하면서 후두개, 설골, 후두 연골의 하방 이동, 혀의 후방 이동. 얼굴 골격의 상하 성장과 턱의 전후방 성장 등의 상기도 발달이 진행되어 2 세경에는 성인형 호흡 운동으로 전환된다.",
-      "*늑간 호흡근이 대부분 피로에 잘 견디지 못하는 제2 형 속성 연축 섬유로 구성되어 있어 호흡 운동의 지속성에 불리함. 기도에는 점액샘의 밀도가 높아 염증이 생겼을 때 쉽게 많은 점액이 분비"
+      "성인에 비해 점액샘 밀도가 낮아 분비가",
+      "적다 연골이 잘 발달되어있어 협착이 잘 안된다.",
+      "늑간근의 제 2 연축섬유 많아 지속적 호흡",
+      "에 유리하다. 2 세에 성인 호흡으로 전환된다."
     ],
     "correct_option_index": 0,
     "correct_answer": "*성장하면서 후두개, 설골, 후두 연골의 하방 이동, 혀의 후방 이동. 얼굴 골격의 상하 성장과 턱의 전후방 성장 등의 상기도 발달이 진행되어 2 세경에는 성인형 호흡 운동으로 전환된다.",
@@ -131983,9 +132227,14 @@
     "category": "짤",
     "theme_title": "소아 알레르기 비염(Allergic Rhinitis)의 1차 약제 (국소 비강 스테로이드 분무제)",
     "subspecialty": "소아알레르기호흡기학",
-    "stem": "(2022 4 차 임종평 한양대) 13 세 여아가 매년 환절기때마다 생기는 코가려움, 코막 힘, 재채기, 콧물, 훌쩍거림, 눈가려움 증상을 주소로 왔다. 어려서 아토피 피부염을 앓았으며 어머니가 어렸을 때 천식을 앓았었다고 한다. 혈액 검사는 다음과 같았다. 내원시 콧물 재채기로 학교생활에 불편함이 있어 2 주간 치료 후 다시 병원에 오기로 하고 약을 처방 하였다. 2 주간 처방할 수 있는 치료제로 옳은 것은? 호산구1000/mm3, 혈청 IgE 570 IU/mL 비충혈 제거제 (Decongestant) ● 스테로이드 국소 분무제 (nasal spray) ● 항생제 ● 전신 스테로이드제 ● 흡입 스테로이드제 ●",
+    "stem": "(2022 4 차 임종평 한양대) 13 세 여아가 매년 환절기때마다 생기는 코가려움, 코막 힘, 재채기, 콧물, 훌쩍거림, 눈가려움 증상을 주소로 왔다. 어려서 아토피 피부염을 앓았으며 어머니가 어렸을 때 천식을 앓았었다고 한다. 혈액 검사는 다음과 같았다. 내원시 콧물 재채기로 학교생활에 불편함이 있어 2 주간 치료 후 다시 병원에 오기로 하고 약을 처방 하였다. 2 주간 처방할 수 있는 치료제로 옳은 것은? 호산구1000/mm3, 혈청 IgE 570 IU/mL 비충혈 제거제 (Decongestant)",
     "images": [],
-    "options": [],
+    "options": [
+      "스테로이드 국소 분무제 (nasal spray)",
+      "항생제",
+      "전신 스테로이드제",
+      "흡입 스테로이드제"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 스테로이드 국소 분무제",
     "explanation": {
@@ -132153,9 +132402,14 @@
     "category": "짤",
     "theme_title": "비대칭성 자궁 내 성장지연(Asymmetric IUGR)의 감별 (선천성 감염의 대칭성 특성)",
     "subspecialty": "신생아학 & 모체태아",
-    "stem": "39 주  2400g  키  49cm,  머리둘레  34cm 으로 비대칭적으로  성장.  원인으로  흔하지 않은 것은? 선천성 풍진 ● 산모의  만성적인  고혈압 ● 산모의  만성적인  합병증을  동반한  당뇨 ● 산모의  임신  말기  영양결핍 ● 임신  중  전자간증  Calcium ●",
+    "stem": "39 주  2400g  키  49cm,  머리둘레  34cm 으로 비대칭적으로  성장.  원인으로  흔하지 않은 것은? 선천성 풍진",
     "images": [],
-    "options": [],
+    "options": [
+      "산모의  만성적인  고혈압",
+      "산모의  만성적인  합병증을  동반한  당뇨",
+      "산모의  임신  말기  영양결핍",
+      "임신  중  전자간증  Calcium"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 선천성 풍진 (비대칭성 성장의 흔한 원인이 아님 -> 선천성 감염은 '대칭성' IUGR 유발)",
     "explanation": {
@@ -132198,9 +132452,14 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 개월 남아가 3 일전부터 발열, 콧물, 기침 있었",
     "subspecialty": "소아청소년과 과년도 빈출",
-    "stem": "8 개월  남아가  3 일전부터  발열, 콧물, 기침 있었고,  1 일전부터  전부터  기침이  심해 지면서  먹지  못하고  쳐졌다고  한다.  양쪽 가슴에  갈비사이  뒤당김이  있다.  가슴청진 에서  날숨에서  쌕쌕거렸고,  심잡음은  없다. 치료는? WBC 14900, 호산구 700 였음. 에피네프린 흡입 ● 수액보충 ● 항생제 치료 ● 스테로이드 정주 ● 진정제 투여 ●",
+    "stem": "8 개월  남아가  3 일전부터  발열, 콧물, 기침 있었고,  1 일전부터  전부터  기침이  심해 지면서  먹지  못하고  쳐졌다고  한다.  양쪽 가슴에  갈비사이  뒤당김이  있다.  가슴청진 에서  날숨에서  쌕쌕거렸고,  심잡음은  없다. 치료는? WBC 14900, 호산구 700 였음. 에피네프린 흡입",
     "images": [],
-    "options": [],
+    "options": [
+      "수액보충",
+      "항생제 치료",
+      "스테로이드 정주",
+      "진정제 투여"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[23Y Q28 & 22Y Q33 & 21Y Q39] 급성 세기관지염 (Acute bronchiolitis, RSV) / 산소 및 수액 보존 치료",
     "explanation": {
@@ -132241,11 +132500,17 @@
     "category": "짤",
     "theme_title": "신생아 인공호흡기 평균기도압(MAP) 조절 기전 (최대 흡기압력 PIP)",
     "subspecialty": "신생아학 & 중환자의학",
-    "stem": "평균  기도압력을  높이는  방법으로 3 에 해당하는  방법은? 흡기 유속 증가 ● 최대 흡기 압력 증가 ● 호흡 횟수 변경 없이 흡기 시간을 ● 연장시킨다. 호기말 양압을 증가시킨다. ● 호기 시간을 줄여서 인공환기의 환기수를 ● 증가시킨다.",
+    "stem": "평균  기도압력을  높이는  방법으로 3 에 해당하는  방법은? 흡기 유속 증가",
     "images": [
       "images/소아청소년과/22Y_Q34_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "최대 흡기 압력 증가",
+      "호흡 횟수 변경 없이 흡기 시간을",
+      "연장시킨다. 호기말 양압을 증가시킨다.",
+      "호기 시간을 줄여서 인공환기의 환기수를",
+      "증가시킨다."
+    ],
     "correct_option_index": 1,
     "correct_answer": "② 최대 흡기 압력 증가",
     "explanation": {
@@ -132548,10 +132813,13 @@
     "category": "짤",
     "theme_title": "소아 만성 기능성 복통 증후군 (Functional Abdominal Pain)의 특성",
     "subspecialty": "소아소화기병학",
-    "stem": "(19 연말Y 변형) 소아 만성 기능성 복통 증후군에 대해 옳은 것은? 주로 상복부 통증을 호소한다. ● 6 세 이전에 흔하다. ● 주로 식사 전에 아프다 ● 일상생활 (학교 수업 등) 을 할 수 없을 ● 정도로 아프지는 않다. 설사, 변비와 같이 동반되는 경우가 많다.. ●",
+    "stem": "(19 연말Y 변형) 소아 만성 기능성 복통 증후군에 대해 옳은 것은? 주로 상복부 통증을 호소한다.",
     "images": [],
     "options": [
-      "*Most often periumbilical,, Onset >6yrs. The pain interrupts normal life activity, Usually no relation with meals (김용주P 강의록)"
+      "세 이전에 흔하다.",
+      "주로 식사 전에 아프다",
+      "일상생활 (학교 수업 등) 을 할 수 없을",
+      "정도로 아프지는 않다. 설사, 변비와 같이 동반되는 경우가 많다.."
     ],
     "correct_option_index": 3,
     "correct_answer": "④ 주로 6세 이후에 흔하다.",
@@ -132867,9 +133135,14 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 세 남아가 급성 췌장염 소견에 대한 치료로 일주일 ",
     "subspecialty": "소아청소년과 과년도 빈출",
-    "stem": "(연말Y) 10 세 남아가 급성 췌장염 소견에 대한 치료로 일주일 넘게 금식하다가 배가 너무 고파하자 보호자가 몰래 간식을 사와 먹였다. 2 시간 후 환아의 양손에 tremor 가 나타났고 아이가 심한 복통, 구토를 호소했다. 다음 중 추적해야 하는 수치는? Calcium ● Phosphorus ● Ammonia ● Chloride ● Glucose ●",
+    "stem": "(연말Y) 10 세 남아가 급성 췌장염 소견에 대한 치료로 일주일 넘게 금식하다가 배가 너무 고파하자 보호자가 몰래 간식을 사와 먹였다. 2 시간 후 환아의 양손에 tremor 가 나타났고 아이가 심한 복통, 구토를 호소했다. 다음 중 추적해야 하는 수치는? Calcium",
     "images": [],
-    "options": [],
+    "options": [
+      "Phosphorus",
+      "Ammonia",
+      "Chloride",
+      "Glucose"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[23Y Q21 & 22Y Q40 & 21Y Q18] 재급식 증후군 (Refeeding syndrome) / 저인산혈증 (Hypophosphatemia)",
     "explanation": {
@@ -139063,9 +139336,14 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] ● ",
     "subspecialty": "소아청소년과 과년도 빈출",
-    "stem": "생후 2 일 남아가 경련으로 병원에 왔다. 임신 나이 39 주, 출생체중 3.3kg 으로 질분만으로 태어났다. 아래턱이 작았고, 입천장 갈림증이 있었다. 복장뼈 왼쪽 아래 가장자리에서 3/6 도의 범수축기 심잡음 들렸다. 혈액검사 결과는 다음과 같다. 본 환아의 면역 상태를 보기위해 꼭 해야하는 검사는? 혈색소 13.5g/dL, 백혈구 9600/mm3, 혈소판 450000/mm3, 포도당 95mg/dL, Na/K 135/3.9, 칼슘 5.5(참고치, 7~12), 인 9.5(참고치 4.8~8.2) CRP 0.8 혈청 보체 ● 절대중성구수 ● 혈정면역글로불린G ● 백혈구살균기능검사 ● T 림프구세군(subset) ●",
+    "stem": "생후 2 일 남아가 경련으로 병원에 왔다. 임신 나이 39 주, 출생체중 3.3kg 으로 질분만으로 태어났다. 아래턱이 작았고, 입천장 갈림증이 있었다. 복장뼈 왼쪽 아래 가장자리에서 3/6 도의 범수축기 심잡음 들렸다. 혈액검사 결과는 다음과 같다. 본 환아의 면역 상태를 보기위해 꼭 해야하는 검사는? 혈색소 13.5g/dL, 백혈구 9600/mm3, 혈소판 450000/mm3, 포도당 95mg/dL, Na/K 135/3.9, 칼슘 5.5(참고치, 7~12), 인 9.5(참고치 4.8~8.2) CRP 0.8 혈청 보체",
     "images": [],
-    "options": [],
+    "options": [
+      "절대중성구수",
+      "혈정면역글로불린G",
+      "백혈구살균기능검사",
+      "T 림프구세군(subset)"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[22Y Q01 & 20Y Q01] 태아 혈액순환 특징 (폐혈관 저항 높음, 동맥관을 통한 우좌단락)",
     "explanation": {
@@ -139999,10 +140277,12 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 정상 신생아의 혈액순환으로 옳은 ",
     "subspecialty": "소아청소년과 과년도 빈출",
-    "stem": "정상 신생아의 혈액순환으로 옳은 것은? 출생 후 폐동맥 저항이 급격하게 ● 증가한다 출생 후 전신 혈관 저항이 급격하게 ● 증가한다 동맥관은 생후 2-3 년에 자연스럽게 ● 닫힌다 우심실 박출량이 좌심실 박출량의 ●",
+    "stem": "정상 신생아의 혈액순환으로 옳은 것은? 출생 후 폐동맥 저항이 급격하게",
     "images": [],
     "options": [
-      "1.3 배이다 우심방으로 들어온 정맥혈은 대부분 ● 동맥관으로 흐른다."
+      "증가한다 출생 후 전신 혈관 저항이 급격하게",
+      "증가한다 동맥관은 생후 2-3 년에 자연스럽게",
+      "닫힌다 우심실 박출량이 좌심실 박출량의"
     ],
     "correct_option_index": 0,
     "correct_answer": "1.3 배이다 우심방으로 들어온 정맥혈은 대부분 ● 동맥관으로 흐른다.",
@@ -140871,9 +141151,13 @@
     "category": "짤",
     "theme_title": "선천성 갑상샘 저하증 (Congenital Hypothyroidism)의 최빈 원인 (딴곳 갑상샘)",
     "subspecialty": "소아내분비학 & 신생아학",
-    "stem": "생후 8 일된 남자 아이가 신생아 선별 검사에서 갑상선 자극호르몬 수치가 높아서 시행한 갑상선 기능 검사 결과가 다음과 같았다. 원인으로 가장 흔한 것은? 트라이아이오도티로닌 : 100 ng/dL (75- 260), 유리 티록신 : 0.3 ng/dL (0.9-2.6) 갑상선 자극호르몬 : 58 μU/mL (0.5-6.5) 딴 곳 갑상샘 ● 갑상샘 무형성 ● 효소 결핍 ● 만성 림프구성 갑상선염 ●",
+    "stem": "생후 8 일된 남자 아이가 신생아 선별 검사에서 갑상선 자극호르몬 수치가 높아서 시행한 갑상선 기능 검사 결과가 다음과 같았다. 원인으로 가장 흔한 것은? 트라이아이오도티로닌 : 100 ng/dL (75- 260), 유리 티록신 : 0.3 ng/dL (0.9-2.6) 갑상선 자극호르몬 : 58 μU/mL (0.5-6.5) 딴 곳 갑상샘",
     "images": [],
-    "options": [],
+    "options": [
+      "갑상샘 무형성",
+      "효소 결핍",
+      "만성 림프구성 갑상선염"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 딴곳 갑상샘",
     "explanation": {
@@ -141301,9 +141585,13 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 세 남아가 점점 걷기가 서툴러져서 병원에 왔다. 임신",
     "subspecialty": "소아청소년과 과년도 빈출",
-    "stem": "5 세 남아가 점점 걷기가 서툴러져서 병원에 왔다. 임신 나이 40 주, 출생 체중 3200g 질식분만으로 태어났다. 15 개월에 혼자 걷기 시작하였으나 4 개월 전부터 점차 다리를 넓게 벌리고 허리를 흔들어 걷고, 자주 넘어졌다. 이른 아침과 오후에 증상 차이는 없었다. 혼자 일어서기를 힘들어하며, 배를 내밀고 서 있었다. 장딴지 근육이 딱딱하고 비대해져 있었다. 진단은? l 근 디스트로피 l 중증근무력증 l 뇌성마비",
+    "stem": "5 세 남아가 점점 걷기가 서툴러져서 병원에 왔다. 임신 나이 40 주, 출생 체중 3200g 질식분만으로 태어났다. 15 개월에 혼자 걷기 시작하였으나 4 개월 전부터 점차 다리를 넓게 벌리고 허리를 흔들어 걷고, 자주 넘어졌다. 이른 아침과 오후에 증상 차이는 없었다. 혼자 일어서기를 힘들어하며, 배를 내밀고 서 있었다. 장딴지 근육이 딱딱하고 비대해져 있었다. 진단은?",
     "images": [],
-    "options": [],
+    "options": [
+      "디스트로피",
+      "중증근무력증",
+      "뇌성마비"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[23Y Q44 & 20Y Q21] 뒤쉔 근이영양증 (DMD) / 혈청 CK 극심한 상승 & Gower sign",
     "explanation": {
@@ -141342,12 +141630,15 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 세 여아 발열과 컹컹 거림을 주소로 내원. 산소",
     "subspecialty": "소아청소년과 과년도 빈출",
-    "stem": "2 세 여아 발열과 킁킁거림을 주소로 내원. 산소포화도 95% 호흡수 분당 40 회. 흉부함몰 있었고 예방접종은 다 맞음. 다음은 가슴과 목 옆면 x 선 사진이다. 치료는? (subglottic narrowing) l 에피네프린 흡인 l 기관삽관",
+    "stem": "2 세 여아 발열과 킁킁거림을 주소로 내원. 산소포화도 95% 호흡수 분당 40 회. 흉부함몰 있었고 예방접종은 다 맞음. 다음은 가슴과 목 옆면 x 선 사진이다. 치료는? (subglottic narrowing)",
     "images": [
       "images/소아청소년과/20Y_Q22_fig1.png",
       "images/소아청소년과/20Y_Q22_fig2.png"
     ],
-    "options": [],
+    "options": [
+      "에피네프린 흡인",
+      "기관삽관"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[23Y Q29 & 20Y Q22] 크룹 (Croup, 급성 후두기관기관지염) / 스테로이드 & 에피네프린 분무",
     "explanation": {
@@ -141896,9 +142187,14 @@
     "category": "짤",
     "theme_title": "성장호르몬 결핍증(GHD)의 확진: 인슐린 유발 저혈당 성장호르몬 자극검사",
     "subspecialty": "소아내분비학",
-    "stem": "6 세 남아가 키가 작아서 병원에 왔다. 키 102cm(3 백분위수 미만), 체중 12kg(3 백분위수 미만)이었다. 최근 1 년 동안 키가 3cm 컸다. 아버지는 175cm, 어머니는 160cm 였다. 골연령은 4세였다. 해야 할 검사는? 검사 결과에서 IGF-1 이 낮았다. l 인슐린 투여 후 성장호르몬 농도 l 경구 포도당 복용 후 성장호르몬 농도 l 염색체 검사 l 소변 검사",
+    "stem": "6 세 남아가 키가 작아서 병원에 왔다. 키 102cm(3 백분위수 미만), 체중 12kg(3 백분위수 미만)이었다. 최근 1 년 동안 키가 3cm 컸다. 아버지는 175cm, 어머니는 160cm 였다. 골연령은 4세였다. 해야 할 검사는? 검사 결과에서 IGF-1 이 낮았다.",
     "images": [],
-    "options": [],
+    "options": [
+      "인슐린 투여 후 성장호르몬 농도",
+      "경구 포도당 복용 후 성장호르몬 농도",
+      "염색체 검사",
+      "소변 검사"
+    ],
     "correct_option_index": 2,
     "correct_answer": "③ 인슐린 투여 후 성장호르몬 농도 측정",
     "explanation": {
@@ -143717,9 +144013,14 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 발열, 기침, 콧물로 내원한 환아. ",
     "subspecialty": "소아청소년과 과년도 빈출",
-    "stem": "발열, 기침, 콧물로 내원한 환아. 결막 충혈있고 입안에 하얀반점이 있고 부어있다. 피부 발진이 있었다. 다음 질환으로 인한 합병증 중 사망률이 높은것은? l 폐렴 l 뇌염 l 신장 질환 l 관절염",
+    "stem": "발열, 기침, 콧물로 내원한 환아. 결막 충혈있고 입안에 하얀반점이 있고 부어있다. 피부 발진이 있었다. 다음 질환으로 인한 합병증 중 사망률이 높은것은?",
     "images": [],
-    "options": [],
+    "options": [
+      "폐렴",
+      "뇌염",
+      "신장 질환",
+      "관절염"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[22Y Q12 & 21Y Q02 & 20Y Q42] 홍역 (Measles) / 가장 흔한 사망 원인: 폐렴 (Pneumonia)",
     "explanation": {
@@ -160063,9 +160364,14 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 한쪽 안검하수 있는 환자로, 고혈압과 당뇨를 기저질환으",
     "subspecialty": "신경과 과년도 빈출",
-    "stem": "한쪽 안검하수 있는 환자로, 고혈압과 당뇨를 기저질환으로 가지고 있다. 환자가 정면을 보았을 때 오른쪽 눈이 오른쪽 아래로 내려가 있는 것을 관찰 할 수 있었다. 어떤 신경에 문제 생겼는가? Rt. oculomotor n. ● Rt. trochlear n. ● Rt. abducens n. ● Lt. oculomotor n. ● Lt. trochlear n. ●",
+    "stem": "한쪽 안검하수 있는 환자로, 고혈압과 당뇨를 기저질환으로 가지고 있다. 환자가 정면을 보았을 때 오른쪽 눈이 오른쪽 아래로 내려가 있는 것을 관찰 할 수 있었다. 어떤 신경에 문제 생겼는가? Rt. oculomotor n.",
     "images": [],
-    "options": [],
+    "options": [
+      "Rt. trochlear n.",
+      "Rt. abducens n.",
+      "Lt. oculomotor n.",
+      "Lt. trochlear n."
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 및 핵심 해설 참조",
     "explanation": {
@@ -160235,9 +160541,13 @@
     "category": "짤",
     "theme_title": "시신경교차 병변과 뇌하수체 종양에 의한 양이측 반맹(Bitemporal Hemianopsia)",
     "subspecialty": "신경안과학",
-    "stem": "50/F, 시야가 좁아지는 증상으로 병원 내원. 시력 검사 결과 양안 1.0, 시야 검사 결과 Bitemporal hemianopsia 소견으로 미루어 보았을 때 환자는 어디에 병변이 있다고 할 수 있는가? 시상 ● 뇌교 ● 중뇌 ● 뇌하수체 ●",
+    "stem": "50/F, 시야가 좁아지는 증상으로 병원 내원. 시력 검사 결과 양안 1.0, 시야 검사 결과 Bitemporal hemianopsia 소견으로 미루어 보았을 때 환자는 어디에 병변이 있다고 할 수 있는가? 시상",
     "images": [],
-    "options": [],
+    "options": [
+      "뇌교",
+      "중뇌",
+      "뇌하수체"
+    ],
     "correct_option_index": 3,
     "correct_answer": "④ 뇌하수체",
     "explanation": {
@@ -160406,9 +160716,14 @@
     "category": "짤",
     "theme_title": "외측 연수 증후군(Wallenberg Syndrome)의 병소 위치 (숨뇌/Medulla)",
     "subspecialty": "뇌혈관질환",
-    "stem": "70/M, 1 주 전부터 시작된 어지러움증으로 병원 내원. 1년 전부터 오른 귀에서 귀울림이 들렸고, 1주 전부터는 걸을 때 오른쪽으로 쏠리는 증세가 나타났다. 신경학적 진찰에서 안구운동장애는 없었고, 오른쪽 이마주름의 마비가 있었으며 입이 왼쪽으로 돌아갔다. 오른쪽 청력이 감소되었고 롬버그 검사에서 오른쪽으로 넘어지는 경향을 보았을 때 환자의 병터는 어디인가? 숨뇌 ● 중뇌 ● 시상 ● 이마엽 ● 소뇌-다리각 ●",
+    "stem": "70/M, 1 주 전부터 시작된 어지러움증으로 병원 내원. 1년 전부터 오른 귀에서 귀울림이 들렸고, 1주 전부터는 걸을 때 오른쪽으로 쏠리는 증세가 나타났다. 신경학적 진찰에서 안구운동장애는 없었고, 오른쪽 이마주름의 마비가 있었으며 입이 왼쪽으로 돌아갔다. 오른쪽 청력이 감소되었고 롬버그 검사에서 오른쪽으로 넘어지는 경향을 보았을 때 환자의 병터는 어디인가? 숨뇌",
     "images": [],
-    "options": [],
+    "options": [
+      "중뇌",
+      "시상",
+      "이마엽",
+      "소뇌-다리각"
+    ],
     "correct_option_index": 4,
     "correct_answer": "⑤ 소뇌-다리각 (일부 복기본 ① 숨뇌 표기 감별)",
     "explanation": {
@@ -160448,11 +160763,16 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 사진 상 다음과 같은 결과가 나왔을 때 원인이 되는 혈",
     "subspecialty": "신경과 과년도 빈출",
-    "stem": "사진 상 다음과 같은 결과가 나왔을 때 원인이 되는 혈관을 고르시오. Vertebral a. ● AICA ● PICA ● SMA ● Basilar a. ●",
+    "stem": "사진 상 다음과 같은 결과가 나왔을 때 원인이 되는 혈관을 고르시오. Vertebral a.",
     "images": [
       "images/신경과/22Y_Q06_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "AICA",
+      "PICA",
+      "SMA",
+      "Basilar a."
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 및 핵심 해설 참조",
     "explanation": {
@@ -160620,9 +160940,14 @@
     "category": "짤",
     "theme_title": "의식 상태의 4단계 평가와 혼수(Coma)의 정의",
     "subspecialty": "혼수 및 의식장애",
-    "stem": "63/F, 의식 저하로 응급실에 내원. 불렀을 때 반응이 없었고 통증 자극에도 반응이 전혀 없었다. 이 환자의 의식 상태는 무엇인가? 명료 ● 기면 ● 혼미 ● 혼수 ● 섬망 ●",
+    "stem": "63/F, 의식 저하로 응급실에 내원. 불렀을 때 반응이 없었고 통증 자극에도 반응이 전혀 없었다. 이 환자의 의식 상태는 무엇인가? 명료",
     "images": [],
-    "options": [],
+    "options": [
+      "기면",
+      "혼미",
+      "혼수",
+      "섬망"
+    ],
     "correct_option_index": 3,
     "correct_answer": "④ 혼수",
     "explanation": {
@@ -160755,9 +161080,13 @@
     "category": "짤",
     "theme_title": "심인성 가성발작의 감별 및 온수 안뜰검사(Caloric Test) 판독",
     "subspecialty": "뇌전증 및 어지럼증",
-    "stem": "25/F. 갑자기 멍해진 것을 주소로 내원. 말 싸움을 하다가 갑자기 이러는 경우가 있다고 한다. 신경학적 진찰 결과 대광반사 정상, 양쪽 동공 크기는 3mm 로 같았으며 전정안구반사 정상 소견을 보였다. 신경 영상에서도 특별한 소견이 관찰되지 않았다. 환자가 신경학적 문제가 아닌 심리적 문제로 해당 증상이 발생했다고 가정해보았을 때 환자의 우측 귀에 44℃의 물을 넣었을 때 나타나는 현상으로 옳은 것을 고르시오. 좌측 안구 편위, 우측 안진 ● 우측 안구 편위, 좌측 안진 ● 좌측 안구 편위, 상방 안진 ● 우측 안구 편위, 하방 안진 ●",
+    "stem": "25/F. 갑자기 멍해진 것을 주소로 내원. 말 싸움을 하다가 갑자기 이러는 경우가 있다고 한다. 신경학적 진찰 결과 대광반사 정상, 양쪽 동공 크기는 3mm 로 같았으며 전정안구반사 정상 소견을 보였다. 신경 영상에서도 특별한 소견이 관찰되지 않았다. 환자가 신경학적 문제가 아닌 심리적 문제로 해당 증상이 발생했다고 가정해보았을 때 환자의 우측 귀에 44℃의 물을 넣었을 때 나타나는 현상으로 옳은 것을 고르시오. 좌측 안구 편위, 우측 안진",
     "images": [],
-    "options": [],
+    "options": [
+      "우측 안구 편위, 좌측 안진",
+      "좌측 안구 편위, 상방 안진",
+      "우측 안구 편위, 하방 안진"
+    ],
     "correct_option_index": 3,
     "correct_answer": "④ 우측 안구 편위, 하방 안진",
     "explanation": {
@@ -160925,9 +161254,14 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 세 여자가 지난 석 달간 허공을 멍하게 응시하고 잘 넘",
     "subspecialty": "신경과 과년도 빈출",
-    "stem": "64/F, 지난 3 달 간 허공을 멍하게 응시하고 잘 넘어지며, 몸동작이 매우 느려지고 우울한 증상을 보이는 환자이다. 진찰실로 들어올 때 환자는 몸을 굽힌 자세로 발을 질질 끌며 걸었다. 혈압은 누워서 측정하였을 때 130/100mmHg, 서서 측정하였을 때 110/80mmHg 이었고, 팔은 경직되어 있었으며, 안정 시 진전 (Resting tremor)이 있었다. 다음 중 어느 부위의 병변이 있을 때 이와 같은 질환이 나타나는가? 조가비핵 ● 미상핵 ● 창백핵 ● 흑색질 ● 시상하부 ●",
+    "stem": "64/F, 지난 3 달 간 허공을 멍하게 응시하고 잘 넘어지며, 몸동작이 매우 느려지고 우울한 증상을 보이는 환자이다. 진찰실로 들어올 때 환자는 몸을 굽힌 자세로 발을 질질 끌며 걸었다. 혈압은 누워서 측정하였을 때 130/100mmHg, 서서 측정하였을 때 110/80mmHg 이었고, 팔은 경직되어 있었으며, 안정 시 진전 (Resting tremor)이 있었다. 다음 중 어느 부위의 병변이 있을 때 이와 같은 질환이 나타나는가? 조가비핵",
     "images": [],
-    "options": [],
+    "options": [
+      "미상핵",
+      "창백핵",
+      "흑색질",
+      "시상하부"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 및 핵심 해설 참조",
     "explanation": {
@@ -160968,9 +161302,14 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] /F, 갑자기 시작된 두통, 구토 및 배뇨 장애로 내원. ",
     "subspecialty": "신경과 과년도 빈출",
-    "stem": "29/F, 갑자기 시작된 두통, 구토 및 배뇨 장애로 내원. 3 주전 정상 분만을 한 환자로, 평소에는 건강하였으며 화를 낼 줄 모르는 성격이었으나 최근 쉽게 화를 내었다. 신경학적 검사에서 오른쪽 다리에 가벼운 근력 저하가 관찰되었다. 환자의 뇌 손상 부위로 적절한 곳을 고르시오. 이마엽 (Frontal) ● 마루엽 (Parietal lobe) ● 관자엽 (Temporal lobe) ● 뒤통수엽 (Occipital lobe) ● 소뇌 (Cerebellum) ●",
+    "stem": "29/F, 갑자기 시작된 두통, 구토 및 배뇨 장애로 내원. 3 주전 정상 분만을 한 환자로, 평소에는 건강하였으며 화를 낼 줄 모르는 성격이었으나 최근 쉽게 화를 내었다. 신경학적 검사에서 오른쪽 다리에 가벼운 근력 저하가 관찰되었다. 환자의 뇌 손상 부위로 적절한 곳을 고르시오. 이마엽 (Frontal)",
     "images": [],
-    "options": [],
+    "options": [
+      "마루엽 (Parietal lobe)",
+      "관자엽 (Temporal lobe)",
+      "뒤통수엽 (Occipital lobe)",
+      "소뇌 (Cerebellum)"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 및 핵심 해설 참조",
     "explanation": {
@@ -161157,9 +161496,13 @@
     "category": "짤",
     "theme_title": "제뇌경직(Decerebrate Posturing)의 신경해부학적 병소 (중간뇌/Midbrain)",
     "subspecialty": "혼수 및 의식장애",
-    "stem": "Decerebrate position 의 환자가 있다. 안구 반사 및 VOR (-), 구역 반사는 있고, 호흡음 불규칙하며, 동공 6mm 로 양쪽 모두 산동 되어있다. 어떤 부위의 손상일지 고르시오. 숨뇌 ● 중간뇌 ● 다리뇌 ● 대뇌 반구 ●",
+    "stem": "Decerebrate position 의 환자가 있다. 안구 반사 및 VOR (-), 구역 반사는 있고, 호흡음 불규칙하며, 동공 6mm 로 양쪽 모두 산동 되어있다. 어떤 부위의 손상일지 고르시오. 숨뇌",
     "images": [],
-    "options": [],
+    "options": [
+      "중간뇌",
+      "다리뇌",
+      "대뇌 반구"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 중간뇌",
     "explanation": {
@@ -161332,11 +161675,14 @@
     "category": "짤",
     "theme_title": "모야모야병(Moyamoya Disease)의 과호흡 유발 일과성 허혈발작",
     "subspecialty": "뇌혈관질환",
-    "stem": "15 세 여아가 반복적인 오른쪽 반마비가 있어 병원에 왔다. 어릴 때에는 심하게 울거나 뜨거운 라면을 먹을 때 발생하였다. 최근에는 운동을 할 때 특히 더 심해지는 양상을 보였다. 이 병의 진단은? 모야모야병 ● 뇌동정맥기형 ● 호흡중지발작 ●",
+    "stem": "15 세 여아가 반복적인 오른쪽 반마비가 있어 병원에 왔다. 어릴 때에는 심하게 울거나 뜨거운 라면을 먹을 때 발생하였다. 최근에는 운동을 할 때 특히 더 심해지는 양상을 보였다. 이 병의 진단은? 모야모야병",
     "images": [
       "images/신경과/22Y_Q18_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "뇌동정맥기형",
+      "호흡중지발작"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 모야모야병",
     "explanation": {
@@ -161508,11 +161854,16 @@
     "category": "짤",
     "theme_title": "다리뇌 경색(Pontine Infarction)에 의한 운동마비 및 구음장애",
     "subspecialty": "뇌혈관질환",
-    "stem": "기저 질환 고혈압 당뇨 있던 57 세 남자 오늘 아침부터 걷기 힘들고 몸이 흔들거린다며 내원하였다. 혈압 140/90, 맥박 72 회 호흡 15 회/min. 체온 36.5’이다. 조음장애, 왼쪽 팔다리 근력 저하 (MRC 3/5), 운동 실조가 있다. 뇌 자기공명영상 DWI 에서는 다음과 같은 소견이 관찰된다. 병변의 위치는? 숨뇌 ● 중간뇌 ● 대뇌반구 ● 시상 ● 다리뇌 ●",
+    "stem": "기저 질환 고혈압 당뇨 있던 57 세 남자 오늘 아침부터 걷기 힘들고 몸이 흔들거린다며 내원하였다. 혈압 140/90, 맥박 72 회 호흡 15 회/min. 체온 36.5’이다. 조음장애, 왼쪽 팔다리 근력 저하 (MRC 3/5), 운동 실조가 있다. 뇌 자기공명영상 DWI 에서는 다음과 같은 소견이 관찰된다. 병변의 위치는? 숨뇌",
     "images": [
       "images/신경과/22Y_Q20_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "중간뇌",
+      "대뇌반구",
+      "시상",
+      "다리뇌"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 다리뇌 경색",
     "explanation": {
@@ -161678,9 +162029,14 @@
     "category": "짤",
     "theme_title": "급성 염증성 탈수초성 다발신경병증(AIDP/GBS)의 확진 검사 (뇌척수액검사)",
     "subspecialty": "말초신경병증",
-    "stem": "65 세 남성. 양쪽 상하지 근력저하로 내원. 10 일 전 예방접종 이럭이 있다. 이후 감기 증상으로 감기약 복용 중. 증상은 하지에서 시작해서 상지로 올라오는 느낌. 진단에 도움되는 검사는? 뇌척수액검사 ● 반복신경자극검사 ● Ice cube test ● 뇌자기공명영상 ● Tensilon test ●",
+    "stem": "65 세 남성. 양쪽 상하지 근력저하로 내원. 10 일 전 예방접종 이럭이 있다. 이후 감기 증상으로 감기약 복용 중. 증상은 하지에서 시작해서 상지로 올라오는 느낌. 진단에 도움되는 검사는? 뇌척수액검사",
     "images": [],
-    "options": [],
+    "options": [
+      "반복신경자극검사",
+      "Ice cube test",
+      "뇌자기공명영상",
+      "Tensilon test"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 뇌척수액검사",
     "explanation": {
@@ -161719,9 +162075,14 @@
     "category": "짤",
     "theme_title": "길랑-바레 증후군(Guillain-Barre Syndrome)의 선행 감염 및 상행성 마비",
     "subspecialty": "말초신경병증",
-    "stem": "52 세 여자가 10 일전부터 시작된 설사, 복통, 몸살, 운동마비를 주소로 내원하였다. 양쪽 다리에서 양쪽 팔로 진행하는 양상으로 운동마비, 허리통증이 발생하였고 의식은 명료하였으며 감각신경은 정상이었다. 대소변 기능에는 이상이 없었다. 가장 의심되는 질환은? 급성횡단척수염 ● 신경 매독 ● 중증근무력증 ● 길랭바레 증후군 ● 피부근염 ●",
+    "stem": "52 세 여자가 10 일전부터 시작된 설사, 복통, 몸살, 운동마비를 주소로 내원하였다. 양쪽 다리에서 양쪽 팔로 진행하는 양상으로 운동마비, 허리통증이 발생하였고 의식은 명료하였으며 감각신경은 정상이었다. 대소변 기능에는 이상이 없었다. 가장 의심되는 질환은? 급성횡단척수염",
     "images": [],
-    "options": [],
+    "options": [
+      "신경 매독",
+      "중증근무력증",
+      "길랭바레 증후군",
+      "피부근염"
+    ],
     "correct_option_index": 4,
     "correct_answer": "⑤ 길랑바레 증후군",
     "explanation": {
@@ -161764,9 +162125,12 @@
     "category": "짤",
     "theme_title": "소아 안검하수와 신경근육접합부(NMJ) 기능 이상",
     "subspecialty": "신경근육질환",
-    "stem": "10 세 여아가 몇 달전부터 눈꺼풀을 못 드는 증상이 있었으며, 증상은 오전보다 오후에 더 심해졌고, 누워서 고개를 들고 있으라 하면, 오래 버티지 못하고 고개를 떨어뜨렸다. 손으로 주먹 쥐었다 폈다하는 동작에도 금방 지쳤다고 한다. 진단으로 올바른 것? 중증근무력증 ● 길랑-바레 증후군 ● 근위축증 ●",
+    "stem": "10 세 여아가 몇 달전부터 눈꺼풀을 못 드는 증상이 있었으며, 증상은 오전보다 오후에 더 심해졌고, 누워서 고개를 들고 있으라 하면, 오래 버티지 못하고 고개를 떨어뜨렸다. 손으로 주먹 쥐었다 폈다하는 동작에도 금방 지쳤다고 한다. 진단으로 올바른 것? 중증근무력증",
     "images": [],
-    "options": [],
+    "options": [
+      "길랑-바레 증후군",
+      "근위축증"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① NMJ",
     "explanation": {
@@ -161809,9 +162173,13 @@
     "category": "짤",
     "theme_title": "시신경척수염 범주질환(NMOSD)의 진단 기준 및 항 AQP4 항체",
     "subspecialty": "탈수초성 질환",
-    "stem": "22 세 여자가 어제부터 다리가 마비되어 걸을 수 없게 되어 병원에 왔다. 1 년 전 오른쪽 눈이 일주일 동안 잘 보이지 않았고, 오른쪽 손이 한 달 간 저린 적이 있었다. 안저검사에서 오른쪽 시신경 위축이 관찰되었다. 양측 하지 근력은 2 등급(grade II), 깊은힘줄반사는 (+++/+++) 이었고, 양발에서 바빈스키징후가 관찰되었다. 감각검사에서 배꼽 이하로 통각 및 진동각이 감소되었다. 진단은? (선지 한국어, 영어 full term 병기) GBS ● ALS ● MG ● NMOSD ●",
+    "stem": "22 세 여자가 어제부터 다리가 마비되어 걸을 수 없게 되어 병원에 왔다. 1 년 전 오른쪽 눈이 일주일 동안 잘 보이지 않았고, 오른쪽 손이 한 달 간 저린 적이 있었다. 안저검사에서 오른쪽 시신경 위축이 관찰되었다. 양측 하지 근력은 2 등급(grade II), 깊은힘줄반사는 (+++/+++) 이었고, 양발에서 바빈스키징후가 관찰되었다. 감각검사에서 배꼽 이하로 통각 및 진동각이 감소되었다. 진단은? (선지 한국어, 영어 full term 병기) GBS",
     "images": [],
-    "options": [],
+    "options": [
+      "ALS",
+      "MG",
+      "NMOSD"
+    ],
     "correct_option_index": 3,
     "correct_answer": "④ NMOSD (Neuromyelitis Optica Spectrum Disorder)",
     "explanation": {
@@ -162239,9 +162607,14 @@
     "category": "짤",
     "theme_title": "파킨슨증후군(Parkinsonism)의 렘수면행동장애 및 파킨슨 증상",
     "subspecialty": "이상운동질환",
-    "stem": "55 세 여자가 1 주일부터 잠을 잘 못자는 것으로 내원. 말이 어눌해졌고, 침을 흘렸으며 근강직(muscle rigidity)과 떨림(tremor) 을 보였다. 1 개월 전부터 metoclopramide 를 복용하였다. 진단은? 파킨슨 증후군 ● 정좌불능 ● 지연성운동장애 ● 급성근긴장이상증 ● 신경이완제 악성증후군 ●",
+    "stem": "55 세 여자가 1 주일부터 잠을 잘 못자는 것으로 내원. 말이 어눌해졌고, 침을 흘렸으며 근강직(muscle rigidity)과 떨림(tremor) 을 보였다. 1 개월 전부터 metoclopramide 를 복용하였다. 진단은? 파킨슨 증후군",
     "images": [],
-    "options": [],
+    "options": [
+      "정좌불능",
+      "지연성운동장애",
+      "급성근긴장이상증",
+      "신경이완제 악성증후군"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 파킨슨증후군",
     "explanation": {
@@ -162411,9 +162784,14 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 여자 환자가 20분간 경련하여 응급실로 내원하였다. 응",
     "subspecialty": "신경과 과년도 빈출",
-    "stem": "여자 환자가 20 분간 경련하여 응급실로 내원하였다. 응급실 당직의가 기도를 확보하고 수액을 공급하였다. 환자에게 투여할 약물은? Alprazolam ● Lorazepam ● Propofol ● Thiamine ● Epinephrine ●",
+    "stem": "여자 환자가 20 분간 경련하여 응급실로 내원하였다. 응급실 당직의가 기도를 확보하고 수액을 공급하였다. 환자에게 투여할 약물은? Alprazolam",
     "images": [],
-    "options": [],
+    "options": [
+      "Lorazepam",
+      "Propofol",
+      "Thiamine",
+      "Epinephrine"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 및 핵심 해설 참조",
     "explanation": {
@@ -162624,9 +163002,13 @@
     "category": "짤",
     "theme_title": "경동맥 박리(Carotid Dissection)와 외상 후 호너 증후군",
     "subspecialty": "뇌혈관질환",
-    "stem": "20 대 남성이 농구를 하다가 상대 선수에게 오른쪽 어깨를 부딪힌 후에 왼쪽 팔 감각이 잠깐 소실되었다가 돌아왔다. 우측 턱 하부에서 경동맥 잡음이 들렸다. 오른쪽 동공이 좌측에 비해 축동되어 있고, 오른쪽 눈꺼풀이 처져있었다. 원인으로 적절한 것은? 경동맥 박리 ● 두개강내 출혈 ● 전두엽 경색 ● 후교통동맥 동맥류 ●",
+    "stem": "20 대 남성이 농구를 하다가 상대 선수에게 오른쪽 어깨를 부딪힌 후에 왼쪽 팔 감각이 잠깐 소실되었다가 돌아왔다. 우측 턱 하부에서 경동맥 잡음이 들렸다. 오른쪽 동공이 좌측에 비해 축동되어 있고, 오른쪽 눈꺼풀이 처져있었다. 원인으로 적절한 것은? 경동맥 박리",
     "images": [],
-    "options": [],
+    "options": [
+      "두개강내 출혈",
+      "전두엽 경색",
+      "후교통동맥 동맥류"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 경동맥 박리",
     "explanation": {
@@ -162794,9 +163176,15 @@
     "category": "짤",
     "theme_title": "레비소체 치매(DLB)의 3대 핵심 징후 (환시, 인지변동, 파킨슨증)",
     "subspecialty": "치매 및 인지장애",
-    "stem": "(KMLE) 60 세 남자가 인지기능 저하， 환시， 파킨슨병의 운동증상 등을 주소로 내원하였다. 이와 같은 증상들이 질병 초기에 나타나는 질환은 다음 중 무엇인가? 헌팅턴병 (Huntington ’ s disease) ● 이마관자엽 치매 (frontotemporal dementia) ● 레비소제치매 (Lewy body dementia) ● 알츠하이머병(Alzheimer’ s disease) ● 크로츠이펠트야코프병 (Creutzfeldt-Jakob ● disease)",
+    "stem": "(KMLE) 60 세 남자가 인지기능 저하， 환시， 파킨슨병의 운동증상 등을 주소로 내원하였다. 이와 같은 증상들이 질병 초기에 나타나는 질환은 다음 중 무엇인가? 헌팅턴병 (Huntington ’ s disease)",
     "images": [],
-    "options": [],
+    "options": [
+      "이마관자엽 치매 (frontotemporal dementia)",
+      "레비소제치매 (Lewy body dementia)",
+      "알츠하이머병(Alzheimer’ s disease)",
+      "크로츠이펠트야코프병 (Creutzfeldt-Jakob",
+      "disease)"
+    ],
     "correct_option_index": 2,
     "correct_answer": "③ 레비소체 치매",
     "explanation": {
@@ -162878,9 +163266,12 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 대 남성이 뒷목과 어깨 마사지를 받은 후 발생한 두",
     "subspecialty": "신경과 과년도 빈출",
-    "stem": "(Y, 선지 한국어로) 30 대 남성이 뒷목과 어깨 마사지를 받은 후 발생한 두통으로 내원하였다. 두통은 누우면 호전되고 앉거나 일어서면 악화되었다. 진단은? 두개내 저압 ● 척추동맥 박리 ● 두개강내 출혈 ●",
+    "stem": "(Y, 선지 한국어로) 30 대 남성이 뒷목과 어깨 마사지를 받은 후 발생한 두통으로 내원하였다. 두통은 누우면 호전되고 앉거나 일어서면 악화되었다. 진단은? 두개내 저압",
     "images": [],
-    "options": [],
+    "options": [
+      "척추동맥 박리",
+      "두개강내 출혈"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 및 핵심 해설 참조",
     "explanation": {
@@ -162921,9 +163312,13 @@
     "category": "짤",
     "theme_title": "편두통(Migraine)의 비약물적 생활습관 교정 및 유발 요인 조절",
     "subspecialty": "두통",
-    "stem": "45. (Y) 19 세 여성이 3 년 전부터 시작된 두통을 주소로 내원. 두통은 한달에 6 회 정도 35 분씩 지속되며, 오른쪽 측두부위에 국한된 박동성의 두통이었다. 두통 전에 섬광암점이 있고, 두통, 구역, 구토 증상이 동반되었다. 어머니와 언니가 비슷한 증상을 보였다고 한다. 신경학적 검사, CT, 단순 두개 경추촬영과 뇌파는 정상소견을 보였다. 천식을 앓고 있다고 한다. 이 질환의 예방을 위해 적절한 것은? 적포도주를 마신다. ● 베타 차단제를 복용한다. ● 피로 회복을 위해 주말에 늦잠을 잔다. ● 규칙적인 일상생활 ●",
+    "stem": "45. (Y) 19 세 여성이 3 년 전부터 시작된 두통을 주소로 내원. 두통은 한달에 6 회 정도 35 분씩 지속되며, 오른쪽 측두부위에 국한된 박동성의 두통이었다. 두통 전에 섬광암점이 있고, 두통, 구역, 구토 증상이 동반되었다. 어머니와 언니가 비슷한 증상을 보였다고 한다. 신경학적 검사, CT, 단순 두개 경추촬영과 뇌파는 정상소견을 보였다. 천식을 앓고 있다고 한다. 이 질환의 예방을 위해 적절한 것은? 적포도주를 마신다.",
     "images": [],
-    "options": [],
+    "options": [
+      "베타 차단제를 복용한다.",
+      "피로 회복을 위해 주말에 늦잠을 잔다.",
+      "규칙적인 일상생활"
+    ],
     "correct_option_index": 3,
     "correct_answer": "④ 규칙적인 일상생활을 한다.",
     "explanation": {
@@ -163093,9 +163488,12 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 중년 남성. 싸우는 꿈을 꿨는데 꿈 속에서 한 행동을 실",
     "subspecialty": "신경과 과년도 빈출",
-    "stem": "(Y) 중년 남성. 싸우는 꿈을 꿨는데 꿈 속에서 한 행동을 실제로 자면서 하여 배우자의 팔을 쳐서 배우자가 맞았다고 한다. 이 환자에게 해야 할 검사는? 수면다원검사 ● 뇌파검사 뇌 CT ● 뇌척수액 검사 ●",
+    "stem": "(Y) 중년 남성. 싸우는 꿈을 꿨는데 꿈 속에서 한 행동을 실제로 자면서 하여 배우자의 팔을 쳐서 배우자가 맞았다고 한다. 이 환자에게 해야 할 검사는? 수면다원검사",
     "images": [],
-    "options": [],
+    "options": [
+      "뇌파검사 뇌 CT",
+      "뇌척수액 검사"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 및 핵심 해설 참조",
     "explanation": {
@@ -163136,9 +163534,12 @@
     "category": "짤",
     "theme_title": "폐쇄성 수면무호흡증(OSA)의 표준 1차 치료 (지속기도양압기/CPAP)",
     "subspecialty": "수면장애",
-    "stem": "(Y 와 유사) (나이 불확실. 중년이었음.) 남자 환자. 코골이 때문에 가족과 각방 쓸 정도로 코골이가 심하다. 85kg, 165cm. Apnea-hypopnea index 20, 환자 가족이 봤을 때 잠버릇이 많이 안 좋았다고 함. 체중 감소 외에 우선적으로 적용할 수 있는 치료는? CPAP (한국어와 영어 full term 병기) ● Ativan ● Flumazenil ●",
+    "stem": "(Y 와 유사) (나이 불확실. 중년이었음.) 남자 환자. 코골이 때문에 가족과 각방 쓸 정도로 코골이가 심하다. 85kg, 165cm. Apnea-hypopnea index 20, 환자 가족이 봤을 때 잠버릇이 많이 안 좋았다고 함. 체중 감소 외에 우선적으로 적용할 수 있는 치료는? CPAP (한국어와 영어 full term 병기)",
     "images": [],
-    "options": [],
+    "options": [
+      "Ativan",
+      "Flumazenil"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① CPAP",
     "explanation": {
@@ -163439,9 +163840,13 @@
     "category": "짤",
     "theme_title": "자율신경계 이상과 기립성 저혈압 (Orthostatic Hypotension / Schellong Test)",
     "subspecialty": "자율신경계질환",
-    "stem": "(19Y) (나이는 10 후반~20 대였음.) 여성. dizziness, palpitation, blurred vision, faintness(이상 증상 4 개 한영 병기) 증상으로 내원하였다. Schellong test 진행하였다. 누워서 5 분 경과했을 때 BP 130/80 HR 70, 일어서서 3 분 후 BP 110/60 HR 80. 진단은? 참고. Schellong test: 누워서 5 분 이상 경과하고 혈압, 맥박 측정한 뒤 일어서서 1 분, 3 분 후 각각 혈압, 맥박 측정하는 검사. (Shellong test 가 뭔지 문제에서 알려줌.) Orthostatic hypotension ● postural tachycardia ● Neuromyotonia ● Vasovagal syncope ●",
+    "stem": "(19Y) (나이는 10 후반~20 대였음.) 여성. dizziness, palpitation, blurred vision, faintness(이상 증상 4 개 한영 병기) 증상으로 내원하였다. Schellong test 진행하였다. 누워서 5 분 경과했을 때 BP 130/80 HR 70, 일어서서 3 분 후 BP 110/60 HR 80. 진단은? 참고. Schellong test: 누워서 5 분 이상 경과하고 혈압, 맥박 측정한 뒤 일어서서 1 분, 3 분 후 각각 혈압, 맥박 측정하는 검사. (Shellong test 가 뭔지 문제에서 알려줌.) Orthostatic hypotension",
     "images": [],
-    "options": [],
+    "options": [
+      "postural tachycardia",
+      "Neuromyotonia",
+      "Vasovagal syncope"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① Orthostatic hypotension",
     "explanation": {
@@ -163480,9 +163885,15 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 세 여자가 최근 수주간 식욕부진과 소화장애로 음식을 ",
     "subspecialty": "신경과 과년도 빈출",
-    "stem": "65 세 여자가 최근 수주간 식욕부진과 소화장애로 음식을 섭취하지 못하여 내원하였다. 상부위장관내시경, 대장내시경을 위해 금식을 지시하였다. 5% 포도당을 주입한 후 이틀 뒤 의식이 저하하였다. 신경학적 진찰상 자극을 주면 깨어나 반응이 있었고 양측 눈 바깥쪽으로 안구운동 장애 있었고 위아래로 눈떨림이 있었다. 가장 우선적으로 적절한 치료? Lorazepam ● Thiamine ● Cobalamin ● Folic acid ● Ascorbic acid ● 음주 언급은 없지만 베르니케 뇌병증으로 추정됨.",
+    "stem": "65 세 여자가 최근 수주간 식욕부진과 소화장애로 음식을 섭취하지 못하여 내원하였다. 상부위장관내시경, 대장내시경을 위해 금식을 지시하였다. 5% 포도당을 주입한 후 이틀 뒤 의식이 저하하였다. 신경학적 진찰상 자극을 주면 깨어나 반응이 있었고 양측 눈 바깥쪽으로 안구운동 장애 있었고 위아래로 눈떨림이 있었다. 가장 우선적으로 적절한 치료? Lorazepam",
     "images": [],
-    "options": [],
+    "options": [
+      "Thiamine",
+      "Cobalamin",
+      "Folic acid",
+      "Ascorbic acid",
+      "음주 언급은 없지만 베르니케 뇌병증으로 추정됨."
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 및 핵심 해설 참조",
     "explanation": {
@@ -163521,9 +163932,14 @@
     "category": "짤",
     "theme_title": "벤조디아제핀 급성 과다복용 해독제 (Flumazenil)",
     "subspecialty": "혼수 및 의식장애",
-    "stem": "(Y) 80/F, 거실에서 갑자기 으아아악 소리가 들려 가족들이 가보니 환자 기절해 있었다. Drug toxin test 에서 Benzodiazepine 이 양성이 나왔을 때 지금 투여해야 할 약물은? Flumazenil ● Glucose ● Thiamine ● Methylphenidate ● Lorazepam ●",
+    "stem": "(Y) 80/F, 거실에서 갑자기 으아아악 소리가 들려 가족들이 가보니 환자 기절해 있었다. Drug toxin test 에서 Benzodiazepine 이 양성이 나왔을 때 지금 투여해야 할 약물은? Flumazenil",
     "images": [],
-    "options": [],
+    "options": [
+      "Glucose",
+      "Thiamine",
+      "Methylphenidate",
+      "Lorazepam"
+    ],
     "correct_option_index": 4,
     "correct_answer": "⑤ Flumazenil",
     "explanation": {
@@ -163663,9 +164079,14 @@
     "category": "짤",
     "theme_title": "벤조디아제핀 급성 과다복용 해독제 (Flumazenil)",
     "subspecialty": "혼수 및 의식장애",
-    "stem": "젊은 며느리, 으아아악 소리 내어 가족들이 깜짝 놀라 가보니 기절해 있었다. drug toxin test 에서 benzodiazepin 이 양성이 나왔을 때 지금 투여해야 할 약물은? flumazenil (답) ● glucose ● thiamine ● methylphenidate ● lorazepam ●",
+    "stem": "젊은 며느리, 으아아악 소리 내어 가족들이 깜짝 놀라 가보니 기절해 있었다. drug toxin test 에서 benzodiazepin 이 양성이 나왔을 때 지금 투여해야 할 약물은? flumazenil (답)",
     "images": [],
-    "options": [],
+    "options": [
+      "glucose",
+      "thiamine",
+      "methylphenidate",
+      "lorazepam"
+    ],
     "correct_option_index": 4,
     "correct_answer": "⑤ Flumazenil",
     "explanation": {
@@ -164266,9 +164687,13 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 오른쪽 눈을 자극했을 때에는 양쪽 눈 모두 반응이 ",
     "subspecialty": "신경과 과년도 빈출",
-    "stem": "오른쪽 눈을 자극했을 때에는 양쪽 눈 모두 반응이 없었으나, 왼쪽 눈을 자극했을 때에는 양쪽 눈을 모두 감음. 다음 중 문제가 있는 신경은? Rt. trigeminal ● Rt. facial ● Lt. facial ● Rt. trigeminal & facial ●",
+    "stem": "오른쪽 눈을 자극했을 때에는 양쪽 눈 모두 반응이 없었으나, 왼쪽 눈을 자극했을 때에는 양쪽 눈을 모두 감음. 다음 중 문제가 있는 신경은? Rt. trigeminal",
     "images": [],
-    "options": [],
+    "options": [
+      "Rt. facial",
+      "Lt. facial",
+      "Rt. trigeminal & facial"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 및 핵심 해설 참조",
     "explanation": {
@@ -164307,9 +164732,14 @@
     "category": "짤",
     "theme_title": "제4뇌신경(활차신경, Trochlear Nerve) 마비의 수직 복시 및 두부 기울임",
     "subspecialty": "신경안과학",
-    "stem": "38 세 남성이 최근에 시야가 불편하다는 주소로 상담을 받으러 신경과에 왔다. 계단을 내려갈 때 발을 헛딛는 경우가 많았고, 한 물체를 볼 때 두개로 보인다고 호소했다. 상담 중 눈을 마주치기 위해 머리가 살짝 왼쪽으로 기울어져 있었고, 아래볼수록 복시 심해진다고 하였다. 어떤 신경의 이상인가? Right trochlear nerve ● Right oculomotor nerve ● Left trigeminal nerve ● Left Vestibulocochlear nerve ● Right vagus nerve ●",
+    "stem": "38 세 남성이 최근에 시야가 불편하다는 주소로 상담을 받으러 신경과에 왔다. 계단을 내려갈 때 발을 헛딛는 경우가 많았고, 한 물체를 볼 때 두개로 보인다고 호소했다. 상담 중 눈을 마주치기 위해 머리가 살짝 왼쪽으로 기울어져 있었고, 아래볼수록 복시 심해진다고 하였다. 어떤 신경의 이상인가? Right trochlear nerve",
     "images": [],
-    "options": [],
+    "options": [
+      "Right oculomotor nerve",
+      "Left trigeminal nerve",
+      "Left Vestibulocochlear nerve",
+      "Right vagus nerve"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① Right trochlear nerve",
     "explanation": {
@@ -164483,9 +164913,13 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] , 선지 한국어로) 16 세 여자가 반복되는 실신을 ",
     "subspecialty": "신경과 과년도 빈출",
-    "stem": "16 세 여자가 반복되는 실신을 주소로 내원하였다. 덥거나 사람이 많은 곳에서 잘 쓰러지고 잘 쓰러지고, 쓰러진 직후 정신이 돌아왔다고 하였다. 전구증상으로 어지럽고 식은땀 흘리고, 몇 초후에 의식 찾는데, 의식 찾고 나면 몸이 떨리거나 뻣뻣해지는 증상 있었다. 이상있을 가능성 높은 검사는? Tilt table test ● Holter 심전도 ● tensilon test ● Dix hallpike test ●",
+    "stem": "16 세 여자가 반복되는 실신을 주소로 내원하였다. 덥거나 사람이 많은 곳에서 잘 쓰러지고 잘 쓰러지고, 쓰러진 직후 정신이 돌아왔다고 하였다. 전구증상으로 어지럽고 식은땀 흘리고, 몇 초후에 의식 찾는데, 의식 찾고 나면 몸이 떨리거나 뻣뻣해지는 증상 있었다. 이상있을 가능성 높은 검사는? Tilt table test",
     "images": [],
-    "options": [],
+    "options": [
+      "Holter 심전도",
+      "tensilon test",
+      "Dix hallpike test"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 및 핵심 해설 참조",
     "explanation": {
@@ -164524,9 +164958,15 @@
     "category": "짤",
     "theme_title": "청소년 근간대성 뇌전증(JME)의 임상 특징 및 1차 치료제 (Valproate)",
     "subspecialty": "뇌전증",
-    "stem": "16 세 남자 2 년전부터 전날 밤새거나 하면 그 다음날 컵 집으려 할 때 갑작스러운 팔에 경련이 발생하여 컵 깼다. 광자극했을 때에도 마비증상을 보였다. 약물은? valproate ● carbamazepine ● f/u ● phenytoin ● phenobarbital ● 전형적인 Juvenile myoclonic epilepsy 의 증례로 나왔습니다. 답은 전신발작의 TOC 인 Valproic acid 입니다.",
+    "stem": "16 세 남자 2 년전부터 전날 밤새거나 하면 그 다음날 컵 집으려 할 때 갑작스러운 팔에 경련이 발생하여 컵 깼다. 광자극했을 때에도 마비증상을 보였다. 약물은? valproate",
     "images": [],
-    "options": [],
+    "options": [
+      "carbamazepine",
+      "f/u",
+      "phenytoin",
+      "phenobarbital",
+      "전형적인 Juvenile myoclonic epilepsy 의 증례로 나왔습니다. 답은 전신발작의 TOC 인 Valproic acid 입니다."
+    ],
     "correct_option_index": 0,
     "correct_answer": "① valproate",
     "explanation": {
@@ -176622,11 +177062,17 @@
     "category": "기출",
     "theme_title": "신경과 임상 증례 및 기출 분석",
     "subspecialty": "신경과 일반",
-    "stem": "(야마)64/F 상하지 마비증상. 당화 혈색소 8.4인 환자에게 도움이 되는 약을 모두 고른 것은? 가. Pregabalin 나. Gabapentin 다. Carbamazepine 라. Amitryptiline 마. Steroid 바. NSAID 사. Propranolol",
+    "stem": "(야마)64/F 상하지 마비증상. 당화 혈색소 8.4인 환자에게 도움이 되는 약을 모두 고른 것은?",
     "images": [
       "images/신경과/19Y_Q20_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Pregabalin",
+      "Gabapentin",
+      "Carbamazepine",
+      "Amitryptiline",
+      "Steroid 바. NSAID 사. Propranolol"
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -193602,7 +194048,7 @@
     "options": [
       "⚫ 일반적으로 3 개월 이상 지속되지 않는다.",
       "⚫ 우울형, 불안형, 혼합형이 있다.",
-      "⚫ 증상으로는 -----이 있다.",
+      "⚫ 증상으로는 ______이 있다.",
       "⚫ 신체질환, 약물에 의한 것도 포함된다.",
       "⚫"
     ],
@@ -232395,9 +232841,15 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 손목 터널 증후군에 대해서 맞는 것은?",
     "subspecialty": "정형외과 과년도 빈출",
-    "stem": "손목 터널 증후군에 대해서 맞는 것은? 아침에 저린감이 더 심하고 손목이 부어 잘 ● 움직이지 못한다. 말단 손가락 마비 증상은 5 번째 ● 손가락에서 가장 심하다. 여자의 경우 판매원, 식당에서 일하는 ● 사람보다 가정주부가 더 심하다. 5-60 대 남성에서 흔하다. ● 원인을 아는 경우가 많으며 요골 골절이나 ● 류마티스 관절염과 관련 있다.",
+    "stem": "손목 터널 증후군에 대해서 맞는 것은? 아침에 저린감이 더 심하고 손목이 부어 잘",
     "images": [],
-    "options": [],
+    "options": [
+      "움직이지 못한다. 말단 손가락 마비 증상은 5 번째",
+      "손가락에서 가장 심하다. 여자의 경우 판매원, 식당에서 일하는",
+      "사람보다 가정주부가 더 심하다. 5-60 대 남성에서 흔하다.",
+      "원인을 아는 경우가 많으며 요골 골절이나",
+      "류마티스 관절염과 관련 있다."
+    ],
     "correct_option_index": 0,
     "correct_answer": "[23Y Q04 & 22Y Q03] 수근관 증후군 (야간통 악화, 1~3수지 및 4수지 요측 저림, Phalen/Tinel 양성)",
     "explanation": {
@@ -232733,12 +233185,18 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 세 남아가 손가락 감각이상 및 근력악화를 주소로 내원",
     "subspecialty": "정형외과 과년도 빈출",
-    "stem": "8 세 남아가 손가락 감각이상 및 근력악화를 주소로 내원하였다. 어릴 때 주관절 골절이 있었으나 적절한 치료를 받지는 않았다. 제1 수지와 제2 수지 사이에 근위축 소견도 보였다. 시진 상 소견과 x-ray 는 다음과 같다. 이 때 손상된 신경은? (빨간색 원 표시는 없었음) 정중신경 ● 요골신경 ● 척골신경 ● 근피신경 ● 액와신경 ● 진단) Cubitus valgus deformity: m/c 원인은 어렸을 때 lateral condyle fracture",
+    "stem": "8 세 남아가 손가락 감각이상 및 근력악화를 주소로 내원하였다. 어릴 때 주관절 골절이 있었으나 적절한 치료를 받지는 않았다. 제1 수지와 제2 수지 사이에 근위축 소견도 보였다. 시진 상 소견과 x-ray 는 다음과 같다. 이 때 손상된 신경은? (빨간색 원 표시는 없었음) 정중신경",
     "images": [
       "images/정형외과/22Y_Q07_fig1.png",
       "images/정형외과/22Y_Q07_fig2.png"
     ],
-    "options": [],
+    "options": [
+      "요골신경",
+      "척골신경",
+      "근피신경",
+      "액와신경",
+      "진단) Cubitus valgus deformity: m/c 원인은 어렸을 때 lateral condyle fracture"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[23Y Q08 & 22Y Q07] 지연성 척골신경 마비 (Tardy ulnar nerve palsy / Cubitus valgus)",
     "explanation": {
@@ -232904,9 +233362,14 @@
     "category": "짤",
     "theme_title": "주관증후군(Cubital Tunnel Syndrome)과 척골신경 포착",
     "subspecialty": "주관절 / 신경",
-    "stem": "석회성 건염 호발부위는? 이두장근 ● 극상근 ● 극하근 ● 견갑하근 ● 소원근 ●",
+    "stem": "석회성 건염 호발부위는? 이두장근",
     "images": [],
-    "options": [],
+    "options": [
+      "극상근",
+      "극하근",
+      "견갑하근",
+      "소원근"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 척골신경",
     "explanation": {
@@ -233327,11 +233790,16 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 어깨에서 Internal rotation 을 담당하는 근육은? ",
     "subspecialty": "정형외과 과년도 빈출",
-    "stem": "(Lift off test 사진, 오른쪽은 되는데 왼쪽은 안됨) 다음 검사는 어떤 근육의 이상을 보기 위한 것인가? Pectoralis minor ● supraspinatus ● infraspinatus ● teres minor ● subscapularis ●",
+    "stem": "(Lift off test 사진, 오른쪽은 되는데 왼쪽은 안됨) 다음 검사는 어떤 근육의 이상을 보기 위한 것인가? Pectoralis minor",
     "images": [
       "images/정형외과/22Y_Q13_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "supraspinatus",
+      "infraspinatus",
+      "teres minor",
+      "subscapularis"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[22Y Q12 & 22Y Q13] 견갑하근 (Subscapularis) - 어깨 내회전 담당",
     "explanation": {
@@ -233543,9 +234011,14 @@
     "category": "짤",
     "theme_title": "경추 척수증(Cervical Spondylotic Myelopathy)의 상위운동신경원 징후",
     "subspecialty": "척추 질환",
-    "stem": "(21Y) 83 세 남성 무릎 통증 및 열감으로 내원, V/S stable 하였으며 신체검사상 삼출, 홍반 부종 관찰. 무릎 X-ray 와 관절천자 후 편광현미경 검사결과이다. 진단은? 통풍 ● 가성통풍 ● 골관절염 ● 류마티스 관절염 ● 무혈성 괴사 ●",
+    "stem": "(21Y) 83 세 남성 무릎 통증 및 열감으로 내원, V/S stable 하였으며 신체검사상 삼출, 홍반 부종 관찰. 무릎 X-ray 와 관절천자 후 편광현미경 검사결과이다. 진단은? 통풍",
     "images": [],
-    "options": [],
+    "options": [
+      "가성통풍",
+      "골관절염",
+      "류마티스 관절염",
+      "무혈성 괴사"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 경추 척수증",
     "explanation": {
@@ -233767,11 +234240,14 @@
     "category": "짤",
     "theme_title": "청소년기 특발성 척추측만증(AIS)의 Cobb 각도 및 보조기 착용 기준",
     "subspecialty": "척추 질환",
-    "stem": "(21Y) 이 사진은 어떤 조직의 손상을 파악하는 test 인가? Anterior cruciate ligament ● Posterior cruciate ligament ● Medial collateral ●",
+    "stem": "(21Y) 이 사진은 어떤 조직의 손상을 파악하는 test 인가? Anterior cruciate ligament",
     "images": [
       "images/정형외과/22Y_Q19_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Posterior cruciate ligament",
+      "Medial collateral"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 20~40도 보조기 착용",
     "explanation": {
@@ -233811,11 +234287,16 @@
     "category": "짤",
     "theme_title": "슬개건염(Jumper's Knee)의 슬개골 하극 압통",
     "subspecialty": "슬관절",
-    "stem": "(21Y) 다음과 같은 검사에서 양성(no end point, mushroom)이었다. 원인이 되는 구조물은? Anterior cruciate ligament ● Posterior cruciate ligament ● Medial collateral ligament ● Lateral collateral ligament ● Anterolateral ligament ●",
+    "stem": "(21Y) 다음과 같은 검사에서 양성(no end point, mushroom)이었다. 원인이 되는 구조물은? Anterior cruciate ligament",
     "images": [
       "images/정형외과/22Y_Q20_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Posterior cruciate ligament",
+      "Medial collateral ligament",
+      "Lateral collateral ligament",
+      "Anterolateral ligament"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 슬개건염",
     "explanation": {
@@ -233863,11 +234344,15 @@
     "category": "기출",
     "theme_title": "정형외과 임상 증례 및 기출 분석",
     "subspecialty": "정형외과 일반",
-    "stem": "(21Y) 남자가 경골이 후방전위되었다. 사진과 같은 상황에서 손상받았을 구조는? Anterior cruciate ligament ● Posterior cruciate ligament ● Medial collateral ligament ● Lateral collateral ligament ●",
+    "stem": "(21Y) 남자가 경골이 후방전위되었다. 사진과 같은 상황에서 손상받았을 구조는? Anterior cruciate ligament",
     "images": [
       "images/정형외과/22Y_Q21_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Posterior cruciate ligament",
+      "Medial collateral ligament",
+      "Lateral collateral ligament"
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -233904,11 +234389,15 @@
     "category": "짤",
     "theme_title": "골다공증성 척추 압박골절의 경피적 척추성형술(Vertebroplasty)",
     "subspecialty": "척추 질환",
-    "stem": "다음 X-ray 영상과 같이 손상되었다. 적절한 치료는? (proximal tibia 골절이었음. fibula 는 문제 없었음. 비슷한 사진 구글링) 부목 ● 관혈적 정복 및 내고정 ● 외고정 ● 최소 침습적 고정 ●",
+    "stem": "다음 X-ray 영상과 같이 손상되었다. 적절한 치료는? (proximal tibia 골절이었음. fibula 는 문제 없었음. 비슷한 사진 구글링) 부목",
     "images": [
       "images/정형외과/22Y_Q22_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "관혈적 정복 및 내고정",
+      "외고정",
+      "최소 침습적 고정"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 척추성형술",
     "explanation": {
@@ -233949,9 +234438,12 @@
     "category": "짤",
     "theme_title": "석회성 건염의 급성 흡수기 극심한 통증과 초음파하 주사 흡인 치료",
     "subspecialty": "견관절",
-    "stem": "(Y)21 세 남성이 축구를 하다가 우측 슬관절 종창과 동통을 주소로 내원하였다. 무릎 관절 천자를 시행하였더니, 다량의 bloody aspiration 이 관찰되었다. 가장 가능성 높은 진단은? (fluid collection 보이는 MRI 있었음) Anterior cruciate ligament injury ● Hemangioma ● Sickle cell anemia ●",
+    "stem": "(Y)21 세 남성이 축구를 하다가 우측 슬관절 종창과 동통을 주소로 내원하였다. 무릎 관절 천자를 시행하였더니, 다량의 bloody aspiration 이 관찰되었다. 가장 가능성 높은 진단은? (fluid collection 보이는 MRI 있었음) Anterior cruciate ligament injury",
     "images": [],
-    "options": [],
+    "options": [
+      "Hemangioma",
+      "Sickle cell anemia"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 초음파하 세척 흡인술",
     "explanation": {
@@ -233992,11 +234484,16 @@
     "category": "짤",
     "theme_title": "청소년기 특발성 척추측만증(AIS)의 Cobb 각도 및 보조기 착용 기준",
     "subspecialty": "척추 질환",
-    "stem": "다음 관절경 사진에서 별표표(*)한 구조물로 알맞은 것은? Medial meniscus ● Lateral meniscus ● Anterior cruciate ligament ● Posterior cruciate ligament ● Patellar tendon ●",
+    "stem": "다음 관절경 사진에서 별표표(*)한 구조물로 알맞은 것은? Medial meniscus",
     "images": [
       "images/정형외과/22Y_Q24_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Lateral meniscus",
+      "Anterior cruciate ligament",
+      "Posterior cruciate ligament",
+      "Patellar tendon"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 20~40도 보조기 착용",
     "explanation": {
@@ -234036,9 +234533,14 @@
     "category": "짤",
     "theme_title": "주관절 외측상과염의 유발 검사: 코젠 검사(Cozen Test)",
     "subspecialty": "주관절",
-    "stem": "다음 X-ray 사진의 진단은? Anterior knee dislocation ● Posterior knee dislocation ● Multidirectional instability ● Subluxation ● [족부, 족관절 5 문제] 19-21 학기말,계통Y 에서 다 나옴",
+    "stem": "다음 X-ray 사진의 진단은? Anterior knee dislocation",
     "images": [],
-    "options": [],
+    "options": [
+      "Posterior knee dislocation",
+      "Multidirectional instability",
+      "Subluxation",
+      "[족부, 족관절 5 문제] 19-21 학기말,계통Y 에서 다 나옴"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 코젠 검사",
     "explanation": {
@@ -234079,9 +234581,14 @@
     "category": "짤",
     "theme_title": "소아 쇄골 골절의 8자 붕대(Figure-of-8 Bandage) 보존적 치료",
     "subspecialty": "소아 정형외과",
-    "stem": "(20Y) 어떤 남성이 아침에 일어나서 앉아 있는 자세를 했을 때 뒤꿈치에 통증을 느꼈다. 일어나서 걷게 되면 통증이 괜찮아졌다. 가장 우선적으로 진단해야 하는 것은? ● 족저건막염 ● 지간신경종 ● 아킬레스건 파열 ● 급성 족관절 염좌",
+    "stem": "(20Y) 어떤 남성이 아침에 일어나서 앉아 있는 자세를 했을 때 뒤꿈치에 통증을 느꼈다. 일어나서 걷게 되면 통증이 괜찮아졌다. 가장 우선적으로 진단해야 하는 것은?",
     "images": [],
-    "options": [],
+    "options": [
+      "족저건막염",
+      "지간신경종",
+      "아킬레스건 파열",
+      "급성 족관절 염좌"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 8자 붕대 고정",
     "explanation": {
@@ -234122,9 +234629,13 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 두번째와 세번째 발가락 사이 공간에 압통이 있고, 좁은 ",
     "subspecialty": "정형외과 과년도 빈출",
-    "stem": "(20Y) 두번째와 세번째 발가락 사이 공간에 압통이 있고, 좁은 신발을 신었을 때 통증이 있다. 손상된 구조물은? ● Interdigital nerve ●  Tarsal tunnel ●  Lisfranc joint 진단) Morton’s neuroma (지간신경종): 지간신경(interdigital nerve)의 비대",
+    "stem": "(20Y) 두번째와 세번째 발가락 사이 공간에 압통이 있고, 좁은 신발을 신었을 때 통증이 있다. 손상된 구조물은?",
     "images": [],
-    "options": [],
+    "options": [
+      "Interdigital nerve",
+      "Tarsal tunnel",
+      "Lisfranc joint 진단) Morton’s neuroma (지간신경종): 지간신경(interdigital nerve)의 비대"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[23Y Q24 & 22Y Q27 & 20Y Q21] ① Interdigital nerve (지간신경) / 몰톤 신경종",
     "explanation": {
@@ -234931,9 +235442,15 @@
     "category": "기출",
     "theme_title": "정형외과 임상 증례 및 기출 분석",
     "subspecialty": "정형외과 일반",
-    "stem": "(21 Y) 35 세 남성, 우측 하지 방사통으로 내원하였다. SLR test 에서 통증을 보인 위치에서 하지를 든 채로 무릎을 구부려서 통증을 완화시킨 후, 그 상태에서 좌골 신경이 지나는 부위를 눌렀더니 통증이 생겼다. 이 검사 방법의 이름은? Straight leg raising test ● Bragard test ● Lasegue test ● Bowstring test ● Femoral nerve stretch test ● [고관절 6 문제] - 탈탈탈탈",
+    "stem": "(21 Y) 35 세 남성, 우측 하지 방사통으로 내원하였다. SLR test 에서 통증을 보인 위치에서 하지를 든 채로 무릎을 구부려서 통증을 완화시킨 후, 그 상태에서 좌골 신경이 지나는 부위를 눌렀더니 통증이 생겼다. 이 검사 방법의 이름은? Straight leg raising test",
     "images": [],
-    "options": [],
+    "options": [
+      "Bragard test",
+      "Lasegue test",
+      "Bowstring test",
+      "Femoral nerve stretch test",
+      "[고관절 6 문제] - 탈탈탈탈"
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -234970,11 +235487,17 @@
     "category": "기출",
     "theme_title": "정형외과 임상 증례 및 기출 분석",
     "subspecialty": "정형외과 일반",
-    "stem": "다음 x – ray 소견에 대해 맞는 것은? ● Alpha 각이 증가하였다. ● 고관절을 신전 내전 할 때 통증이 발생한다. ● Pincer type 의 대퇴비구 충돌 증후군이다. ● 비구 전연의 상방이 후연보다 외측에 위치해 있다. ● AVN 에 의해 나타난 증상으로 수술을 하여야 한다.",
+    "stem": "다음 x – ray 소견에 대해 맞는 것은?",
     "images": [
       "images/정형외과/22Y_Q35_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Alpha 각이 증가하였다.",
+      "고관절을 신전 내전 할 때 통증이 발생한다.",
+      "Pincer type 의 대퇴비구 충돌 증후군이다.",
+      "비구 전연의 상방이 후연보다 외측에 위치해 있다.",
+      "AVN 에 의해 나타난 증상으로 수술을 하여야 한다."
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -235011,9 +235534,14 @@
     "category": "짤",
     "theme_title": "아킬레스건 파열(Achilles Rupture)의 톰슨 압착 검사(Thompson Test)",
     "subspecialty": "족부 외상",
-    "stem": "대퇴골에 혈액을 공급하는 것은 medial femoral circumflex a. lateral femoral circumflex a. ligament teres a. 가 있다. 그 중 (  )은 대퇴 골두의 뒤쪽으로 돌아서 neck 을 감아 돌아서 환형을 이룬다. ● medial femoral circumflex a. ● lateral femoral circumflex a. ● ligamentum teres a. ● obturator a.",
+    "stem": "대퇴골에 혈액을 공급하는 것은 medial femoral circumflex a. lateral femoral circumflex a. ligament teres a. 가 있다. 그 중 (  )은 대퇴 골두의 뒤쪽으로 돌아서 neck 을 감아 돌아서 환형을 이룬다.",
     "images": [],
-    "options": [],
+    "options": [
+      "medial femoral circumflex a.",
+      "lateral femoral circumflex a.",
+      "ligamentum teres a.",
+      "obturator a."
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 톰슨 검사",
     "explanation": {
@@ -235437,9 +235965,15 @@
     "category": "짤",
     "theme_title": "구획증후군(Compartment Syndrome)의 응급 근막절개술(Fasciotomy)",
     "subspecialty": "외상 응급",
-    "stem": "인공관절 탈구에 대한 설명으로 옳은 것은? ● 굴곡, 외전 ,내회전 할 때 탈구가 잘 된다. ● 전염각이 클수록 후방으로 탈구된다. ● 다리길이를 맞추기 위해 경간각이 작은 비구컵을 사용하기도 한다. ● 전방도달법을 하였을 때 탈구가 잘 일어 난다. ● 골두가 클수록 잘 발생한다. [연부조직 및 골의 치유, 다발성 골절 및 불안정성 골반 골절, 외상 등 7 문제] 대략 야마 탐.",
+    "stem": "인공관절 탈구에 대한 설명으로 옳은 것은?",
     "images": [],
-    "options": [],
+    "options": [
+      "굴곡, 외전 ,내회전 할 때 탈구가 잘 된다.",
+      "전염각이 클수록 후방으로 탈구된다.",
+      "다리길이를 맞추기 위해 경간각이 작은 비구컵을 사용하기도 한다.",
+      "전방도달법을 하였을 때 탈구가 잘 일어 난다.",
+      "골두가 클수록 잘 발생한다. [연부조직 및 골의 치유, 다발성 골절 및 불안정성 골반 골절, 외상 등 7 문제] 대략 야마 탐."
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 근막절개술",
     "explanation": {
@@ -235522,9 +236056,15 @@
     "category": "짤",
     "theme_title": "거대세포종(Giant Cell Tumor)의 골단부 비누거품(Soap Bubble) 양상",
     "subspecialty": "골종양",
-    "stem": "(21Y) 환자가 키우던 개에 물려 응급실에 내원하였다. 손 dorsum 부위에 2*2의 피부결손이 있고, 일부 연부조직 손상이 있었고 종창 열감 통증이 있었다. 처치는? 전층 피부 이식 (Full thickness skin graft) ● 부분층 피부 이식 (Split skin graft) ● 피판이식(FLAP) ● 창상 부위 세척 후 일차 봉합술 (Primary ● wound closure) 창상 부위 세척 후 이차 봉합술 (Delayed ● wound closure)",
+    "stem": "(21Y) 환자가 키우던 개에 물려 응급실에 내원하였다. 손 dorsum 부위에 2*2의 피부결손이 있고, 일부 연부조직 손상이 있었고 종창 열감 통증이 있었다. 처치는? 전층 피부 이식 (Full thickness skin graft)",
     "images": [],
-    "options": [],
+    "options": [
+      "부분층 피부 이식 (Split skin graft)",
+      "피판이식(FLAP)",
+      "창상 부위 세척 후 일차 봉합술 (Primary",
+      "wound closure) 창상 부위 세척 후 이차 봉합술 (Delayed",
+      "wound closure)"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 거대세포종",
     "explanation": {
@@ -235569,11 +236109,17 @@
     "category": "짤",
     "theme_title": "골연골종(Osteochondroma)의 골단판 방향 버섯 모양 양성 돌출",
     "subspecialty": "골종양",
-    "stem": "젊은 남성이 오토바이 사고 후 응급실로 내원하였다. BP 80/60, RR 가장 먼저 해야할 처치는? ● 관혈적 정복 및 내고정술 ● 부목고정 ● 골견인술 및 침상안정 ● 혈관색전술 ● 외고정술",
+    "stem": "젊은 남성이 오토바이 사고 후 응급실로 내원하였다. BP 80/60, RR 가장 먼저 해야할 처치는?",
     "images": [
       "images/정형외과/22Y_Q43_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "관혈적 정복 및 내고정술",
+      "부목고정",
+      "골견인술 및 침상안정",
+      "혈관색전술",
+      "외고정술"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 골연골종",
     "explanation": {
@@ -235614,11 +236160,17 @@
     "category": "기출",
     "theme_title": "정형외과 임상 증례 및 기출 분석",
     "subspecialty": "정형외과 일반",
-    "stem": "28 세 남자가 교통사고 후 응급실에 왔다. 우측하지에 부목고정을 한 상태였다. 우측 하퇴부 및 족부에 심한 부종, 통증 및 이상감각을 호소하였다. 동반된 손상은 없었다. 하퇴부 X ray 사진이다. 진단은? ● 외상성 반사성 교감신경 이영양증 ● 석고증후군 ● 압궤증후군 ● 구획증후군 ● 지방색전증",
+    "stem": "28 세 남자가 교통사고 후 응급실에 왔다. 우측하지에 부목고정을 한 상태였다. 우측 하퇴부 및 족부에 심한 부종, 통증 및 이상감각을 호소하였다. 동반된 손상은 없었다. 하퇴부 X ray 사진이다. 진단은?",
     "images": [
       "images/정형외과/22Y_Q44_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "외상성 반사성 교감신경 이영양증",
+      "석고증후군",
+      "압궤증후군",
+      "구획증후군",
+      "지방색전증"
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -235696,11 +236248,17 @@
     "category": "짤",
     "theme_title": "만성 골수염(Chronic Osteomyelitis)의 부골(Sequestrum)과 골포(Involucrum)",
     "subspecialty": "감염 질환",
-    "stem": "tibiofibular fracture 사진, 치료는? (선지 불확실) ● 골수내 금속정 ● 압박 금속 고정판 ● 외고정 ● 최소 침습적 금속판 고정술 ● 부목",
+    "stem": "tibiofibular fracture 사진, 치료는? (선지 불확실)",
     "images": [
       "images/정형외과/22Y_Q46_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "골수내 금속정",
+      "압박 금속 고정판",
+      "외고정",
+      "최소 침습적 금속판 고정술",
+      "부목"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 부골 절제술",
     "explanation": {
@@ -235869,9 +236427,14 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 경골 골절 수술 3일 뒤에 수술 부위에 감염이 생겼다. ",
     "subspecialty": "정형외과 과년도 빈출",
-    "stem": "(새로) (open wound case) 경골 골절 수술3 일 뒤에 수술 부위에 감염이 생겼다. 배농루에서 농도 나왔다. 원인균을 알기 위해 배양해야 할 부위는? 괴사 조직 배양 ● 심부 조직 배양 ● 배농루 swab ● 피부 swab ● 농(pus) 배양 ●",
+    "stem": "(새로) (open wound case) 경골 골절 수술3 일 뒤에 수술 부위에 감염이 생겼다. 배농루에서 농도 나왔다. 원인균을 알기 위해 배양해야 할 부위는? 괴사 조직 배양",
     "images": [],
-    "options": [],
+    "options": [
+      "심부 조직 배양",
+      "배농루 swab",
+      "피부 swab",
+      "농(pus) 배양"
+    ],
     "correct_option_index": 1,
     "correct_answer": "[23Y Q32 & 22Y Q48] ② 심부 조직 배양 (Deep tissue culture / 수술실 생검)",
     "explanation": {
@@ -235910,9 +236473,15 @@
     "category": "기출",
     "theme_title": "정형외과 임상 증례 및 기출 분석",
     "subspecialty": "정형외과 일반",
-    "stem": "(새로) (case) tibia open fracture 시 사용하는 경험적 항생제는? Aminoglycoside ● Penicillin ● 1 세대 cephalosporin ● 3 세대 cephalosporin ● 4 세대 cephalosporin ● 해설) MSSA 가 많으니까 cefazolin, nafcillin 등.. 참고) Antimicrobial prophylaxis in open lower extremity fractures, doi: 10.2147/OAEM.S11862 [기타]",
+    "stem": "(새로) (case) tibia open fracture 시 사용하는 경험적 항생제는? Aminoglycoside",
     "images": [],
-    "options": [],
+    "options": [
+      "Penicillin",
+      "세대 cephalosporin",
+      "세대 cephalosporin",
+      "세대 cephalosporin",
+      "해설) MSSA 가 많으니까 cefazolin, nafcillin 등.. 참고) Antimicrobial prophylaxis in open lower extremity fractures, doi: 10.2147/OAEM.S11862 [기타]"
+    ],
     "correct_option_index": 0,
     "correct_answer": "상세 해설 및 임상 가이드라인 참조",
     "explanation": {
@@ -236076,12 +236645,17 @@
     "category": "짤",
     "theme_title": "경추 척수증(Cervical Spondylotic Myelopathy)의 상위운동신경원 징후",
     "subspecialty": "척추 질환",
-    "stem": "83 세 남성 무릎 통증 및 열감으로 내원, V/S stable 하였으며 신체검사상 삼출, 홍반 부종 관찰. 무릎 X-ray 와 관절천자 후 편광현미경 검사 결과이다. 진단은? OA ● RA ● 통풍 ● 가성통풍 ● AVN ●",
+    "stem": "83 세 남성 무릎 통증 및 열감으로 내원, V/S stable 하였으며 신체검사상 삼출, 홍반 부종 관찰. 무릎 X-ray 와 관절천자 후 편광현미경 검사 결과이다. 진단은? OA",
     "images": [
       "images/정형외과/21Y_Q01_fig1.png",
       "images/정형외과/21Y_Q01_fig2.png"
     ],
-    "options": [],
+    "options": [
+      "RA",
+      "통풍",
+      "가성통풍",
+      "AVN"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 경추 척수증",
     "explanation": {
@@ -236124,11 +236698,16 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 세 여성 교통사고 후 서혜부 ",
     "subspecialty": "정형외과 과년도 빈출",
-    "stem": "31 세 여성 교통사고 후 서혜부 통증으로 내원 함. 다리를 움직일 수 없었음. 적절한 치료? 금속내고정술 ● 부목 ● 피부견인 ● 대퇴골견인 ● 외고정 ●",
+    "stem": "31 세 여성 교통사고 후 서혜부 통증으로 내원 함. 다리를 움직일 수 없었음. 적절한 치료? 금속내고정술",
     "images": [
       "images/정형외과/21Y_Q02_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "부목",
+      "피부견인",
+      "대퇴골견인",
+      "외고정"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[22Y Q38 & 21Y Q02] 대퇴골 견인 (골격견인 Skeletal traction) 또는 관혈적 정복 및 내고정술",
     "explanation": {
@@ -236167,9 +236746,15 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 환자가 침대에서 옆으로 누운 ",
     "subspecialty": "정형외과 과년도 빈출",
-    "stem": "침대에 누운자세(Supine position)에서는 고관절의 외전운동 능동적으로 가능. 옆으로 누워서는 아무런 움직임 제한 없이도 움직일 수 없었음. 이때, 근력 평가를 한다면? ● 5 - Normal ● 4 - Good ● 3- Fair ● 2- Poor ● 1- Trace",
+    "stem": "침대에 누운자세(Supine position)에서는 고관절의 외전운동 능동적으로 가능. 옆으로 누워서는 아무런 움직임 제한 없이도 움직일 수 없었음. 이때, 근력 평가를 한다면?",
     "images": [],
-    "options": [],
+    "options": [
+      "Normal",
+      "Good",
+      "Fair",
+      "Poor",
+      "Trace"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[22Y Q32 & 21Y Q03] 근력 등급 Poor (Grade 2 - 중력 제거 시 능동 관절운동 가능)",
     "explanation": {
@@ -236208,12 +236793,17 @@
     "category": "짤",
     "theme_title": "듀피트렌 구축(Dupuytren Contracture)의 수장건막 결절 및 굴곡 변형",
     "subspecialty": "수부 질환",
-    "stem": "60 대 여성 6 개월 전부터 무릎 통증이 있었다. 걸으면 악화되고 쉬면 나아지는 양상이었다. 엑스레이 소견은 다음과 같았다. 적절한 예방 방법은? 금연 ● 금주 ● 체중감량 ● 저퓨린식단 ● 저칼륨식단 ●",
+    "stem": "60 대 여성 6 개월 전부터 무릎 통증이 있었다. 걸으면 악화되고 쉬면 나아지는 양상이었다. 엑스레이 소견은 다음과 같았다. 적절한 예방 방법은? 금연",
     "images": [
       "images/정형외과/21Y_Q04_fig1.png",
       "images/정형외과/21Y_Q04_fig2.png"
     ],
-    "options": [],
+    "options": [
+      "금주",
+      "체중감량",
+      "저퓨린식단",
+      "저칼륨식단"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 듀피트렌 구축",
     "explanation": {
@@ -236385,9 +236975,14 @@
     "category": "짤",
     "theme_title": "[과년도 빈출] 좌측 상지에 뻗치는 통증으로 내원하였다. 세번째 손가락",
     "subspecialty": "정형외과 과년도 빈출",
-    "stem": "좌측 상지에 뻗치는 통증으로 내원하였다. 세번째 손가락에 감각이 없었다. 이학적 검사에서 주관절 신전이 안되고, 삼두근 반사가 저하되었다. 문제가 생긴 위치? 경추 3-4 사이 ● 경추 4-5 사이 ● 경추 5-6 사이 ● 경추 6-7 사이 ● 경추 7 흉추 1 사이 ●",
+    "stem": "좌측 상지에 뻗치는 통증으로 내원하였다. 세번째 손가락에 감각이 없었다. 이학적 검사에서 주관절 신전이 안되고, 삼두근 반사가 저하되었다. 문제가 생긴 위치? 경추 3-4 사이",
     "images": [],
-    "options": [],
+    "options": [
+      "경추 4-5 사이",
+      "경추 5-6 사이",
+      "경추 6-7 사이",
+      "경추 7 흉추 1 사이"
+    ],
     "correct_option_index": 2,
     "correct_answer": "[23Y Q54 & 21Y Q06] ③ C6-C7 추간판 탈출증 (C7 신경근 압박)",
     "explanation": {
@@ -236426,9 +237021,14 @@
     "category": "짤",
     "theme_title": "반월상 연골판 파열(Meniscus Tear)의 맥머레이 검사(McMurray Test)",
     "subspecialty": "슬관절",
-    "stem": "35 세 남성, 우측 하지 방사통으로 내원하였다. SLRT (+), 방사통 유발되었고, 무릎을 구부려서 통증을 완화시킨 후, 그 상태에서 좌골 신경 부위를 눌렀더니 통증이 생겼다. 이 검사방법은? SLRT ● Bowstring ● Bragard ● Lasegue test ● Gaenslen test ●",
+    "stem": "35 세 남성, 우측 하지 방사통으로 내원하였다. SLRT (+), 방사통 유발되었고, 무릎을 구부려서 통증을 완화시킨 후, 그 상태에서 좌골 신경 부위를 눌렀더니 통증이 생겼다. 이 검사방법은? SLRT",
     "images": [],
-    "options": [],
+    "options": [
+      "Bowstring",
+      "Bragard",
+      "Lasegue test",
+      "Gaenslen test"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 맥머레이 검사",
     "explanation": {
@@ -237120,11 +237720,16 @@
     "category": "짤",
     "theme_title": "견관절 전방 탈구 후 지속적 외전 제한: 회전근개 파열(Rotator Cuff Tear)",
     "subspecialty": "견관절",
-    "stem": "60 대, 견관절 전방 탈구 되었던 환자가 견관절 외측 감각은 정상적으로 1 달이 지나도 팔이 능동으로 올라가지 않고, 수동으로 들어올리면 올라갔다. Deltoid 근력은 정상되었다. 손상된 구조물은 ? ( MRI Coronal, Axial 사진 보여줬고, 딱 봐도 rotator cuff tear 의심할 수 있는 사진이었습니다. ) ● 회전근개 파열 ● 재발성 견갑탈골 ● 액와신경손상 ● 외상성 탈골",
+    "stem": "60 대, 견관절 전방 탈구 되었던 환자가 견관절 외측 감각은 정상적으로 1 달이 지나도 팔이 능동으로 올라가지 않고, 수동으로 들어올리면 올라갔다. Deltoid 근력은 정상되었다. 손상된 구조물은 ? ( MRI Coronal, Axial 사진 보여줬고, 딱 봐도 rotator cuff tear 의심할 수 있는 사진이었습니다. )",
     "images": [
       "images/정형외과/21Y_Q13_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "회전근개 파열",
+      "재발성 견갑탈골",
+      "액와신경손상",
+      "외상성 탈골"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 회전근개 파열",
     "explanation": {
@@ -237932,11 +238537,17 @@
     "category": "짤",
     "theme_title": "회전근개 전층 파열의 확진 검사 (어깨 MRI)",
     "subspecialty": "견관절",
-    "stem": "(Y)80 세 여성이 빙판길에서 미끄러져 발생한 손목 통증을 내원하였다. 손가락을 움직이는 데에는 문제가 없었으나 움직일 때 손목에 통증이 발생하였다. 올바른 처치는? ● 설탕집게 부목 ● 단상지 부목 ● 장상지 부목 ● 무지상 석고 부목 ● Ulnar gutter splint",
+    "stem": "(Y)80 세 여성이 빙판길에서 미끄러져 발생한 손목 통증을 내원하였다. 손가락을 움직이는 데에는 문제가 없었으나 움직일 때 손목에 통증이 발생하였다. 올바른 처치는?",
     "images": [
       "images/정형외과/21Y_Q20_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "설탕집게 부목",
+      "단상지 부목",
+      "장상지 부목",
+      "무지상 석고 부목",
+      "Ulnar gutter splint"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 견관절 MRI",
     "explanation": {
@@ -259278,11 +259889,17 @@
     "category": "탈",
     "theme_title": "[단독 기출] 다음 X-ray 사진에서 옳은 것은? ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "다음 X-ray 사진에서 옳은 것은? l 우하엽에 GGO pattern 병변이 있다. l 우하엽에 lung mass가 있다. l 병변은 우중엽에 있다. l pneumoperitoneum이 있다. l 병변 내에는 air-bronchogram이 보이지 않는다.",
+    "stem": "다음 X-ray 사진에서 옳은 것은?",
     "images": [
       "images/영상의학과/20Y_Q01_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "우하엽에 GGO pattern 병변이 있다.",
+      "우하엽에 lung mass가 있다.",
+      "병변은 우중엽에 있다.",
+      "pneumoperitoneum이 있다.",
+      "병변 내에는 air-bronchogram이 보이지 않는다."
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -259401,12 +260018,17 @@
     "category": "짤",
     "theme_title": "우상엽 무기폐(RUL Atelectasis)와 Golden S-sign (골든 S 징후)",
     "subspecialty": "흉부 영상의학",
-    "stem": "다음 X-ray 사진에서 옳지 않은 것은? (가장 비슷한 사진을 구해왔는데 실제 시험 사진에서는 오른쪽 폐야에 단추 2개가 보였고 main bronchus와 pulmonary artery가 더 명확하게 보였습니다.) l 좌측에 인공물질에 의한 음영이 있다. l 좌측 hilum이 오른쪽보다 낮다. l 우상엽에 중심성폐암이 의심된다. l 우상엽에 atelectasis가 있다.",
+    "stem": "다음 X-ray 사진에서 옳지 않은 것은? (가장 비슷한 사진을 구해왔는데 실제 시험 사진에서는 오른쪽 폐야에 단추 2개가 보였고 main bronchus와 pulmonary artery가 더 명확하게 보였습니다.)",
     "images": [
       "images/영상의학과/20Y_Q04_fig1.png",
       "images/영상의학과/20Y_Q04_fig2.png"
     ],
-    "options": [],
+    "options": [
+      "좌측에 인공물질에 의한 음영이 있다.",
+      "좌측 hilum이 오른쪽보다 낮다.",
+      "우상엽에 중심성폐암이 의심된다.",
+      "우상엽에 atelectasis가 있다."
+    ],
     "correct_option_index": 3,
     "correct_answer": "④ 우상엽에 atelectasis가 있다.",
     "explanation": {
@@ -259529,9 +260151,13 @@
     "category": "탈",
     "theme_title": "[단독 기출] 다음 X-ray 사진에서 옳은 것은? ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "다음 X-ray 사진에서 옳은 것은? (최대한 비슷하다 생각한 사진입니다. Rt diaphragm 쪽으로 살짝 실루엣 사인이 보이는 사진.) l 우상엽에 무기폐가 있다. l 우하엽에 무기폐가 있다. l pleural effusion이 있다",
+    "stem": "다음 X-ray 사진에서 옳은 것은? (최대한 비슷하다 생각한 사진입니다. Rt diaphragm 쪽으로 살짝 실루엣 사인이 보이는 사진.)",
     "images": [],
-    "options": [],
+    "options": [
+      "우상엽에 무기폐가 있다.",
+      "우하엽에 무기폐가 있다.",
+      "pleural effusion이 있다"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -259568,11 +260194,17 @@
     "category": "반짤",
     "theme_title": "[과년도 빈출] 흉부 X선 판독: Chest PA vs AP 감별 및 기흉/결절 판독",
     "subspecialty": "영상의학과 과년도 빈출",
-    "stem": "(가장 비슷한 사진 구글) 옳지 않은 것은? l 이 사진은 chest AP X-ray이다. l 오른쪽 scapula는 폐야를 거의 가리지 않는다. l 폐암을 감별해야 한다. l 우상엽에 3~4cm 결절이 있다. l 왼쪽 상복부에는 공기에 의한 음영 감소가 보인다.",
+    "stem": "(가장 비슷한 사진 구글) 옳지 않은 것은?",
     "images": [
       "images/영상의학과/20Y_Q08_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "이 사진은 chest AP X-ray이다.",
+      "오른쪽 scapula는 폐야를 거의 가리지 않는다.",
+      "폐암을 감별해야 한다.",
+      "우상엽에 3~4cm 결절이 있다.",
+      "왼쪽 상복부에는 공기에 의한 음영 감소가 보인다."
+    ],
     "correct_option_index": 4,
     "correct_answer": "[22Y Q04] ⑤ 왼쪽 폐야에 기흉이 있다 (오답 선지) | [20Y Q08] ① 이 사진은 chest AP X-ray이다 (X - Scapula가 견인된 Chest PA)",
     "explanation": {
@@ -259611,11 +260243,16 @@
     "category": "탈",
     "theme_title": "[단독 기출] (가장 비슷한 사진 구글) 다음 X-ray ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "(가장 비슷한 사진 구글) 다음 X-ray 사진에서 옳지 않은 것은? l 우측 공동 병변에는 air-fluid level이 보인다. l 양측 폐 상엽에 공동 병변이 있다. l 감염에 의한 질환이다. l 우측 상엽, 좌측 상엽, 좌측 하엽에 결절성 병변이 있다. <복부 10문제>",
+    "stem": "(가장 비슷한 사진 구글) 다음 X-ray 사진에서 옳지 않은 것은?",
     "images": [
       "images/영상의학과/20Y_Q09_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "우측 공동 병변에는 air-fluid level이 보인다.",
+      "양측 폐 상엽에 공동 병변이 있다.",
+      "감염에 의한 질환이다.",
+      "우측 상엽, 좌측 상엽, 좌측 하엽에 결절성 병변이 있다. <복부 10문제>"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -259652,11 +260289,14 @@
     "category": "탈",
     "theme_title": "[단독 기출] Lt. flank pain으로 내원. 동맥기 정맥기 ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "Lt. flank pain으로 내원. 동맥기 정맥기 CT 보고 알맞은 진단은? (비슷한 느낌으로 Lt. posterior 조영증강 되지 않음. 답은 둘중에 논란입니다.) l Lt. renal pyelonephritis l Lt. renal infarct",
+    "stem": "Lt. flank pain으로 내원. 동맥기 정맥기 CT 보고 알맞은 진단은? (비슷한 느낌으로 Lt. posterior 조영증강 되지 않음. 답은 둘중에 논란입니다.)",
     "images": [
       "images/영상의학과/20Y_Q10_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Lt. renal pyelonephritis",
+      "Lt. renal infarct"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -259693,11 +260333,17 @@
     "category": "탈",
     "theme_title": "[단독 기출] 세 남성 복부초음파상 우연히 ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "38세 남성 복부초음파상 우연히 발견된 간 종양으로 내원하여 촬영한 역동성 조영증강 CT 알맞은 처치는? (arterial phase에 테두리만 조영 > 지연기? 문맥기에? 가운데로 차고 들어옴) (tumor 복벽 가까이 위치) l Percutaneous biopsy l 항생제치료 l 항암치료 l 수술적 절제 l 경과관찰",
+    "stem": "38세 남성 복부초음파상 우연히 발견된 간 종양으로 내원하여 촬영한 역동성 조영증강 CT 알맞은 처치는? (arterial phase에 테두리만 조영 > 지연기? 문맥기에? 가운데로 차고 들어옴) (tumor 복벽 가까이 위치)",
     "images": [
       "images/영상의학과/20Y_Q11_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Percutaneous biopsy",
+      "항생제치료",
+      "항암치료",
+      "수술적 절제",
+      "경과관찰"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -259775,11 +260421,17 @@
     "category": "탈",
     "theme_title": "[단독 기출] 세 여성 3일동안 38도 이상 지속되는 ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "65세 여성 3일동안 38도 이상 지속되는 열과 nausea로 내원하여 촬영한 역동성 조영증강 CT 알맞은 치료는? l Observation l 경피적배농 l 항생제치료(APN으로 예상됨) l 항암치료 l 수술적 절제",
+    "stem": "65세 여성 3일동안 38도 이상 지속되는 열과 nausea로 내원하여 촬영한 역동성 조영증강 CT 알맞은 치료는?",
     "images": [
       "images/영상의학과/20Y_Q13_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Observation",
+      "경피적배농",
+      "항생제치료(APN으로 예상됨)",
+      "항암치료",
+      "수술적 절제"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -259816,9 +260468,12 @@
     "category": "탈",
     "theme_title": "[단독 기출] hypertension을 ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "Renal hypertension을 진단하는 과정에서 비침습적인 방법으로 제일 많이 사용하는 영상 기법은? l CT angiography l Ultrasonography",
+    "stem": "Renal hypertension을 진단하는 과정에서 비침습적인 방법으로 제일 많이 사용하는 영상 기법은?",
     "images": [],
-    "options": [],
+    "options": [
+      "CT angiography",
+      "Ultrasonography"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -259855,11 +260510,14 @@
     "category": "탈",
     "theme_title": "[단독 기출] X-ray abdomen erect. 병변 있는 곳은? ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "X-ray abdomen erect. 병변 있는 곳은? l Gall bladder(기종성 담낭염처럼 공기가 차있음) l Liver",
+    "stem": "X-ray abdomen erect. 병변 있는 곳은?",
     "images": [
       "images/영상의학과/20Y_Q15_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Gall bladder(기종성 담낭염처럼 공기가 차있음)",
+      "Liver"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -259937,11 +260595,16 @@
     "category": "탈",
     "theme_title": "[단독 기출] (야마) T2 MRI sagittal view이다. ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "(야마) T2 MRI sagittal view이다. Junctional zone 을 고르시오 l A l B l C l D",
+    "stem": "(야마) T2 MRI sagittal view이다. Junctional zone 을 고르시오",
     "images": [
       "images/영상의학과/20Y_Q17_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -259978,11 +260641,16 @@
     "category": "짤",
     "theme_title": "급성 음낭 통증 환아의 고환 염전(Testicular Torsion) 초음파 소견",
     "subspecialty": "비뇨/소아 영상의학",
-    "stem": "(야마) 14세 남아 환자 하루전부터 좌측 고환이 아파서 내원하였다. 고환 들어올려도 통증 그대로였다. l testicular torsion l testis tumor l testis rupture l epididymo-orchiti",
+    "stem": "(야마) 14세 남아 환자 하루전부터 좌측 고환이 아파서 내원하였다. 고환 들어올려도 통증 그대로였다.",
     "images": [
       "images/영상의학과/20Y_Q18_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "testicular torsion",
+      "testis tumor",
+      "testis rupture",
+      "epididymo-orchiti"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① Testicular torsion (고환 염전)",
     "explanation": {
@@ -260021,12 +260689,19 @@
     "category": "탈",
     "theme_title": "[단독 기출] (야마) 젊은 남성, 다음은 대장과 소장 ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "(야마) 젊은 남성, 다음은 대장과 소장 조영술 사진이다. 진단은? l Tb l crohns' dz l UC l ischemic colitis l peritoneal carcinomatosis l pseudomembranous colitis",
+    "stem": "(야마) 젊은 남성, 다음은 대장과 소장 조영술 사진이다. 진단은?",
     "images": [
       "images/영상의학과/20Y_Q19_fig1.png",
       "images/영상의학과/20Y_Q19_fig2.png"
     ],
-    "options": [],
+    "options": [
+      "Tb",
+      "crohns' dz",
+      "UC",
+      "ischemic colitis",
+      "peritoneal carcinomatosis",
+      "pseudomembranous colitis"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -260063,11 +260738,17 @@
     "category": "탈",
     "theme_title": "[단독 기출] 세 여성, Screening에서 다음과 같은 ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "53세 여성, Screening에서 다음과 같은 소견 발견. 옳지 않은것은? l 조직검사한다 l involuting fibroadenoma 소견이다 l BIRADs category 2에 해당한다. l Typically benign하다. l 팝콘모양의 calcification이다.",
+    "stem": "53세 여성, Screening에서 다음과 같은 소견 발견. 옳지 않은것은?",
     "images": [
       "images/영상의학과/20Y_Q20_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "조직검사한다",
+      "involuting fibroadenoma 소견이다",
+      "BIRADs category 2에 해당한다.",
+      "Typically benign하다.",
+      "팝콘모양의 calcification이다."
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -260104,11 +260785,16 @@
     "category": "짤",
     "theme_title": "유방촬영술(Mammography) 악성 미세석회화(Segmental Microcalcification)",
     "subspecialty": "유방 영상의학",
-    "stem": "좌측 유방을 찍은 사진이다. 병변의 위치는? l Upper inner quadrant l Upper outer quadrant l Lower inner quadrant l Lower outer quadrant",
+    "stem": "좌측 유방을 찍은 사진이다. 병변의 위치는?",
     "images": [
       "images/영상의학과/20Y_Q21_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Upper inner quadrant",
+      "Upper outer quadrant",
+      "Lower inner quadrant",
+      "Lower outer quadrant"
+    ],
     "correct_option_index": 3,
     "correct_answer": "④ Segmental calcification (분절성 미세석회화)",
     "explanation": {
@@ -260149,11 +260835,17 @@
     "category": "탈",
     "theme_title": "[단독 기출] 세 여환, 유방종괴로 내원. 옳은것은? ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "43세 여환, 유방종괴로 내원. 옳은것은? (구체적으로는 이사진과 똑같진 않음. 하얀색 모래 가루가 뿌려진것 같은 사진이었음. 악성 소견으로 생각함) l 단순 낭종으로 보이므로 낭종흡인을 실시한다. l 특이 소견 보이지 않으므로 귀가 조치 한다. l 양성소견으로 보이므로 6개월뒤 추적검사한다. l 유선염이 의심되므로 항생제를 처방한다. l 악성이 의심되므로 조직검사를 한다",
+    "stem": "43세 여환, 유방종괴로 내원. 옳은것은? (구체적으로는 이사진과 똑같진 않음. 하얀색 모래 가루가 뿌려진것 같은 사진이었음. 악성 소견으로 생각함)",
     "images": [
       "images/영상의학과/20Y_Q22_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "단순 낭종으로 보이므로 낭종흡인을 실시한다.",
+      "특이 소견 보이지 않으므로 귀가 조치 한다.",
+      "양성소견으로 보이므로 6개월뒤 추적검사한다.",
+      "유선염이 의심되므로 항생제를 처방한다.",
+      "악성이 의심되므로 조직검사를 한다"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -260270,9 +260962,15 @@
     "category": "탈",
     "theme_title": "[단독 기출] 다음 중 중심 정맥관 시술 관련하여 ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "다음 중 중심 정맥관 시술 관련하여 옳지 않은 것은? (접하지 못한 내용이 대부분, 맞추고 싶으신 분은 각 정맥관 카테터에 대해 자세히 공부하시길) l PICC의 사용기간은 2주에서 2개월간 정도이다. l Perm catheter은 주로 right internal jugular vein을 사용한다.. l 카테터의 끝이 Cavo-atrial junction에 있도록 한다. l Hickman 카테터의 용도에 대한 내용 l Permcath 카테터의 용도에 대한 내용",
+    "stem": "다음 중 중심 정맥관 시술 관련하여 옳지 않은 것은? (접하지 못한 내용이 대부분, 맞추고 싶으신 분은 각 정맥관 카테터에 대해 자세히 공부하시길)",
     "images": [],
-    "options": [],
+    "options": [
+      "PICC의 사용기간은 2주에서 2개월간 정도이다.",
+      "Perm catheter은 주로 right internal jugular vein을 사용한다..",
+      "카테터의 끝이 Cavo-atrial junction에 있도록 한다.",
+      "Hickman 카테터의 용도에 대한 내용",
+      "Permcath 카테터의 용도에 대한 내용"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -260309,9 +261007,13 @@
     "category": "반짤",
     "theme_title": "[과년도 빈출] 인터벤션 혈역학: TIPS vs BRTO의 원리 및 간성뇌증 영향",
     "subspecialty": "영상의학과 과년도 빈출",
-    "stem": "hepatic vein과 portal vein 연결시켜주는 시술(TIPS관한 설명)로 인해 기대해볼 수 있는 것이 아닌 것? (선지 복원이 정확하지 않지만 원리를 알고 있으면 맞출 수 있는 문제) l  hepatic encephalopathy 완화 l 복수 감소 l 문맥 고혈압 감소",
+    "stem": "hepatic vein과 portal vein 연결시켜주는 시술(TIPS관한 설명)로 인해 기대해볼 수 있는 것이 아닌 것? (선지 복원이 정확하지 않지만 원리를 알고 있으면 맞출 수 있는 문제)",
     "images": [],
-    "options": [],
+    "options": [
+      "hepatic encephalopathy 완화",
+      "복수 감소",
+      "문맥 고혈압 감소"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[20Y Q26] ① Hepatic encephalopathy 완화 (X - TIPS는 간성뇌증을 악화시킴) | [20Y Q27] Gastric varix 악화 (X - BRTO는 위정맥류 치료 시술)",
     "explanation": {
@@ -260349,11 +261051,16 @@
     "category": "반짤",
     "theme_title": "[과년도 빈출] 인터벤션 혈역학: TIPS vs BRTO의 원리 및 간성뇌증 영향",
     "subspecialty": "영상의학과 과년도 빈출",
-    "stem": "BRTO 관한 설명으로 인해 기대해볼 수 있는 것이 아닌 것? (마찬가지로 원리를 알고 있으면 맞출 수 있는 문제) l Gastric & esophageal varix 악화 l hepatic encephalopathy 완화 l 문맥 고혈압 상승 l 황달 악화",
+    "stem": "BRTO 관한 설명으로 인해 기대해볼 수 있는 것이 아닌 것? (마찬가지로 원리를 알고 있으면 맞출 수 있는 문제)",
     "images": [
       "images/영상의학과/20Y_Q27_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Gastric & esophageal varix 악화",
+      "hepatic encephalopathy 완화",
+      "문맥 고혈압 상승",
+      "황달 악화"
+    ],
     "correct_option_index": 0,
     "correct_answer": "[20Y Q26] ① Hepatic encephalopathy 완화 (X - TIPS는 간성뇌증을 악화시킴) | [20Y Q27] Gastric varix 악화 (X - BRTO는 위정맥류 치료 시술)",
     "explanation": {
@@ -260391,11 +261098,16 @@
     "category": "탈",
     "theme_title": "[단독 기출] 야마) 78세 남자 Brain MRI axial ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "(17 야마) 78세 남자 Brain MRI axial 영상. 우측 precentral gyrus의 cortex 감싸는(?) 부위에만 high signal. 진단은? (실제 사진은 아니지만 이런 cortex에 국한된 enhancement가 rt. parietal lobe 주위로만 보임) l Meningitis l Subacute infarction l Cortical calcification l Subarachnoid hemorrhage",
+    "stem": "(17 야마) 78세 남자 Brain MRI axial 영상. 우측 precentral gyrus의 cortex 감싸는(?) 부위에만 high signal. 진단은? (실제 사진은 아니지만 이런 cortex에 국한된 enhancement가 rt. parietal lobe 주위로만 보임)",
     "images": [
       "images/영상의학과/20Y_Q28_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Meningitis",
+      "Subacute infarction",
+      "Cortical calcification",
+      "Subarachnoid hemorrhage"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -260432,9 +261144,15 @@
     "category": "탈",
     "theme_title": "[단독 기출] 세 여자 Brain MRI Axial 영상. 우측 ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "80세 여자 Brain MRI Axial 영상. 우측 대뇌 반구 MCA territory 실질 내에 focal enhancement가 여러 개 보임. 어느 혈관의 문제인가? (아래 사진과 같고 parietal lobe도 침범) l Rt. ACA stenosis l Rt. MCA stenosis l Rt. proximal ICA stenosis l Rt. vertebral artery stenosis l Basilar artery stenosis",
+    "stem": "80세 여자 Brain MRI Axial 영상. 우측 대뇌 반구 MCA territory 실질 내에 focal enhancement가 여러 개 보임. 어느 혈관의 문제인가? (아래 사진과 같고 parietal lobe도 침범)",
     "images": [],
-    "options": [],
+    "options": [
+      "Rt. ACA stenosis",
+      "Rt. MCA stenosis",
+      "Rt. proximal ICA stenosis",
+      "Rt. vertebral artery stenosis",
+      "Basilar artery stenosis"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -260471,12 +261189,15 @@
     "category": "짤",
     "theme_title": "뇌동맥류 코일색전술 후 혈관연축(Vasospasm)의 치료",
     "subspecialty": "신경/인터벤션 영상의학",
-    "stem": "(19 야마) 최근 뇌출혈로 시술을 받은 사람의 며칠 후 추적관찰 사진이다. 다음 현상의 원인과 치료로 알맞은 것은? (혈관이 전반적으로 좁아져 있는 모습) l Thromboembolism - thrombolysis l vasospasm- intravascular vasodilater",
+    "stem": "(19 야마) 최근 뇌출혈로 시술을 받은 사람의 며칠 후 추적관찰 사진이다. 다음 현상의 원인과 치료로 알맞은 것은? (혈관이 전반적으로 좁아져 있는 모습)",
     "images": [
       "images/영상의학과/20Y_Q30_fig1.png",
       "images/영상의학과/20Y_Q30_fig2.png"
     ],
-    "options": [],
+    "options": [
+      "Thromboembolism - thrombolysis",
+      "vasospasm- intravascular vasodilater"
+    ],
     "correct_option_index": 2,
     "correct_answer": "③ vasospasm - intravascular vasodilator (혈관확장제 동맥 내 투여)",
     "explanation": {
@@ -260515,11 +261236,17 @@
     "category": "짤",
     "theme_title": "소뇌교각부(CP Angle) 종양: 전정신경초종(Vestibular Schwannoma)",
     "subspecialty": "신경 영상의학",
-    "stem": "(19 야마 변형) 30대 여성 우측 난청 호소. Brain MRI axial 사진 보고, rt. CPA cistern에서 보이는 병변을 진단하시오. (위와 비슷한 사진. 아래 보기에 나온 것들 모두 비슷한 위치에 비슷해 보이는 병변들을 만들 수 있음.) l Acoustic neuroma l Dermoid cyst l Arachnoid cyst l Meningioma l Acute pontine infarction",
+    "stem": "(19 야마 변형) 30대 여성 우측 난청 호소. Brain MRI axial 사진 보고, rt. CPA cistern에서 보이는 병변을 진단하시오. (위와 비슷한 사진. 아래 보기에 나온 것들 모두 비슷한 위치에 비슷해 보이는 병변들을 만들 수 있음.)",
     "images": [
       "images/영상의학과/20Y_Q31_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Acoustic neuroma",
+      "Dermoid cyst",
+      "Arachnoid cyst",
+      "Meningioma",
+      "Acute pontine infarction"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① Vestibular schwannoma (청신경초종 / 전정신경초종)",
     "explanation": {
@@ -260558,11 +261285,16 @@
     "category": "짤",
     "theme_title": "급성 뇌졸중에서 측부 혈류 순환(Collateral)과 예후의 관계",
     "subspecialty": "신경 영상의학",
-    "stem": "다음의 사진을 보고 Collateral circulation 및 환자의 예후를 평가하시오. l Poor collateral - poor prognosis l Intermediate collateral - poor prognosis l Intermediate collateral - good prognosis l Good collateral - good prognosis",
+    "stem": "다음의 사진을 보고 Collateral circulation 및 환자의 예후를 평가하시오.",
     "images": [
       "images/영상의학과/20Y_Q32_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Poor collateral - poor prognosis",
+      "Intermediate collateral - poor prognosis",
+      "Intermediate collateral - good prognosis",
+      "Good collateral - good prognosis"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① Poor collateral - poor prognosis (측부 순환 불량 시 불량한 예후)",
     "explanation": {
@@ -260603,9 +261335,14 @@
     "category": "탈",
     "theme_title": "[단독 기출] T1-weighted ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "T1-weighted brain MRI에서 Glioblastoma와 brain abscess 둘 다 rim enhancement를 보인다. 다음 보기 중 어떤 MRI sequence가 그 둘을 감별하는데 가장 큰 도움이 되는가? (Glioblastoma와 brain abscess MRI 사진이 있었지만 문제 푸는 것과는 상관없었음.) l T1+c/e l T2 l Flair l DWI",
+    "stem": "T1-weighted brain MRI에서 Glioblastoma와 brain abscess 둘 다 rim enhancement를 보인다. 다음 보기 중 어떤 MRI sequence가 그 둘을 감별하는데 가장 큰 도움이 되는가? (Glioblastoma와 brain abscess MRI 사진이 있었지만 문제 푸는 것과는 상관없었음.)",
     "images": [],
-    "options": [],
+    "options": [
+      "T1+c/e",
+      "T2",
+      "Flair",
+      "DWI"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -260642,9 +261379,14 @@
     "category": "탈",
     "theme_title": "[단독 기출] T1-weighted ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "T1-weighted brain MRI에서 고음영으로 보이지 않는 것은? l Fat l Acute hematoma l Subacute hematoma l High protein",
+    "stem": "T1-weighted brain MRI에서 고음영으로 보이지 않는 것은?",
     "images": [],
-    "options": [],
+    "options": [
+      "Fat",
+      "Acute hematoma",
+      "Subacute hematoma",
+      "High protein"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -260725,11 +261467,17 @@
     "category": "탈",
     "theme_title": "[단독 기출] 다음의 brain MRI에서 빨간 상자로 ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "다음의 brain MRI에서 빨간 상자로 표시한 부위(-> Cavernous sinus)의 이름 및 그곳을 지나지 않는 신경을 옳게 짝지은 것을 고르시오. l Transverse sinus - Maxillary n. l Cavernous sinus - Abducens n. l Transverse sinus - Optic n. l Cavernous sinus - Oculomotor n. l Cavernous sinus - Mandibular n. <근골격 6문제> 탈야마3문제",
+    "stem": "다음의 brain MRI에서 빨간 상자로 표시한 부위(-> Cavernous sinus)의 이름 및 그곳을 지나지 않는 신경을 옳게 짝지은 것을 고르시오.",
     "images": [
       "images/영상의학과/20Y_Q36_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Transverse sinus - Maxillary n.",
+      "Cavernous sinus - Abducens n.",
+      "Transverse sinus - Optic n.",
+      "Cavernous sinus - Oculomotor n.",
+      "Cavernous sinus - Mandibular n. <근골격 6문제> 탈야마3문제"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -260889,11 +261637,16 @@
     "category": "탈",
     "theme_title": "[단독 기출] 세 여자, 평소 소화장애 있음. 손 끝이 ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "35세 여자, 평소 소화장애 있음. 손 끝이 딱딱해져서 내원함. 옳은 것을 고르시오. (선지 모두 영어) x-ray 사진으로 위 사진처럼 손가락 끝과 피부 쪽에 뭔가 있었음. 관절 주변에는 없었음. (scleroderma예상) l Fluffy periostitis and subosteal bone resorption(hyperthyrodism 소견..) l skin thickening and soft tissue mineralization l periarticular osteopenia with soft tissue mineralization l osteophyte, joint space narrowing, subchondral sclerosis",
+    "stem": "35세 여자, 평소 소화장애 있음. 손 끝이 딱딱해져서 내원함. 옳은 것을 고르시오. (선지 모두 영어) x-ray 사진으로 위 사진처럼 손가락 끝과 피부 쪽에 뭔가 있었음. 관절 주변에는 없었음. (scleroderma예상)",
     "images": [
       "images/영상의학과/20Y_Q40_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "Fluffy periostitis and subosteal bone resorption(hyperthyrodism 소견..)",
+      "skin thickening and soft tissue mineralization",
+      "periarticular osteopenia with soft tissue mineralization",
+      "osteophyte, joint space narrowing, subchondral sclerosis"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -260930,9 +261683,14 @@
     "category": "탈",
     "theme_title": "[단독 기출] 세 남자, 손목과 손이 뻣뻣하여 ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "45세 남자, 손목과 손이 뻣뻣하여 내원함. 옳은 것을 고르시오. (선지 모두 영어) 양손 x-ray 사진으로 왼쪽 두번째 손가락 MCP가 눈에 띄게 매우 좁아져 있음. (RA? 염증장질환 관절염(enteropathic arthritis)? 강직성 척추염? 전혀 모르겠습니다.. 답도 선지도 확실하지 않음) l ankylosing.. peripheral.. spondyloarthritis l osteophyte, joint space narrowing, subchondral sclerosis l periarticular osteopenia with soft tissue mineralization l skin thickening and soft tissue mineralization",
+    "stem": "45세 남자, 손목과 손이 뻣뻣하여 내원함. 옳은 것을 고르시오. (선지 모두 영어) 양손 x-ray 사진으로 왼쪽 두번째 손가락 MCP가 눈에 띄게 매우 좁아져 있음. (RA? 염증장질환 관절염(enteropathic arthritis)? 강직성 척추염? 전혀 모르겠습니다.. 답도 선지도 확실하지 않음)",
     "images": [],
-    "options": [],
+    "options": [
+      "ankylosing.. peripheral.. spondyloarthritis",
+      "osteophyte, joint space narrowing, subchondral sclerosis",
+      "periarticular osteopenia with soft tissue mineralization",
+      "skin thickening and soft tissue mineralization"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {
@@ -260969,9 +261727,15 @@
     "category": "탈",
     "theme_title": "[단독 기출] 살 여자, 3년전부터 아침에 손이 ",
     "subspecialty": "영상의학과 단독 기출",
-    "stem": "55살 여자, 3년전부터 아침에 손이 뻣뻣하여 내원함. 옳은 것을 고르시오. 양손 x-ray 사진. (RA로 추정됨) l 관절 사이가 좁아진 것은 활액막염의 소견이다 l 골절이 많이 발생하여 골생성이 된 것으로 보인다 l 골유합이 된 것으로 보인다 l 관절 주변 연부조직의 종창이 있는 것으로 보아 급성 소견이다 l 근위부 수지관절은 침범하지 않은 것으로 보인다",
+    "stem": "55살 여자, 3년전부터 아침에 손이 뻣뻣하여 내원함. 옳은 것을 고르시오. 양손 x-ray 사진. (RA로 추정됨)",
     "images": [],
-    "options": [],
+    "options": [
+      "관절 사이가 좁아진 것은 활액막염의 소견이다",
+      "골절이 많이 발생하여 골생성이 된 것으로 보인다",
+      "골유합이 된 것으로 보인다",
+      "관절 주변 연부조직의 종창이 있는 것으로 보아 급성 소견이다",
+      "근위부 수지관절은 침범하지 않은 것으로 보인다"
+    ],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
     "explanation": {

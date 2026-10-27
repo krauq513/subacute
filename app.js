@@ -1064,6 +1064,92 @@
       }
     }
 
+    // Handle Subjective / Essay Questions with no options
+    if (!q.options || q.options.length === 0) {
+      if (dom.optionsLabel) {
+        dom.optionsLabel.textContent = '주관식 / 서술형 / 단답형 복기 문항입니다.';
+      }
+      if (dom.optionsKbdTip) {
+        dom.optionsKbdTip.textContent = '단축키: Space 또는 Enter (정답 및 상세 해설 열기)';
+      }
+      if (dom.cardMultiBadge) {
+        dom.cardMultiBadge.style.display = 'inline-flex';
+        dom.cardMultiBadge.textContent = '📝 주관식 자가채점';
+      }
+
+      const subjectiveWrapper = document.createElement('div');
+      subjectiveWrapper.className = 'subjective-card-wrapper';
+
+      if (!isAnswered) {
+        subjectiveWrapper.innerHTML = `
+          <div class="subjective-notice-box">
+            <div class="subjective-icon">📝</div>
+            <div class="subjective-info">
+              <div class="subjective-title">주관식 / 서술형 기출 복기 문항</div>
+              <div class="subjective-sub">스스로 정답을 생각한 후, 아래 버튼을 눌러 모범 답안과 상세 해설을 확인하고 자가 채점하세요.</div>
+            </div>
+          </div>
+          <button type="button" class="btn-subjective-reveal" id="btn-subjective-reveal">
+            💡 정답 및 상세 해설 확인하기 (Enter)
+          </button>
+        `;
+        const revealBtn = subjectiveWrapper.querySelector('#btn-subjective-reveal');
+        revealBtn.addEventListener('click', () => {
+          state.userAnswers[q.id] = {
+            selectedIndices: [],
+            isCorrect: true,
+            isSubjective: true,
+            timestamp: Date.now()
+          };
+          revealAnswerAndExplanation(q, state.userAnswers[q.id], false);
+          renderOptions(q);
+          renderGrid();
+          updateStats();
+          saveStorage();
+        });
+      } else {
+        const isCorrect = !!answerRecord.isCorrect;
+        subjectiveWrapper.innerHTML = `
+          <div class="subjective-graded-box ${isCorrect ? 'graded-correct' : 'graded-wrong'}">
+            <div class="subjective-graded-info">
+              <span class="subjective-grade-badge ${isCorrect ? 'badge-correct' : 'badge-wrong'}">
+                ${isCorrect ? '✅ 맞힘 (정답)' : '❌ 틀림 (복습 요망)'}
+              </span>
+              <span class="subjective-grade-hint">자가 채점 결과를 언제든 변경할 수 있습니다:</span>
+            </div>
+            <div class="subjective-grade-actions">
+              <button type="button" class="btn-grade-toggle btn-grade-pass ${isCorrect ? 'active' : ''}">
+                ✅ 맞힘
+              </button>
+              <button type="button" class="btn-grade-toggle btn-grade-fail ${!isCorrect ? 'active' : ''}">
+                ❌ 틀림
+              </button>
+            </div>
+          </div>
+        `;
+        const passBtn = subjectiveWrapper.querySelector('.btn-grade-pass');
+        const failBtn = subjectiveWrapper.querySelector('.btn-grade-fail');
+        passBtn.addEventListener('click', () => {
+          state.userAnswers[q.id].isCorrect = true;
+          revealAnswerAndExplanation(q, state.userAnswers[q.id], false);
+          renderOptions(q);
+          renderGrid();
+          updateStats();
+          saveStorage();
+        });
+        failBtn.addEventListener('click', () => {
+          state.userAnswers[q.id].isCorrect = false;
+          revealAnswerAndExplanation(q, state.userAnswers[q.id], false);
+          renderOptions(q);
+          renderGrid();
+          updateStats();
+          saveStorage();
+        });
+      }
+      dom.optionsList.appendChild(subjectiveWrapper);
+      return;
+    }
+
     // Render Option Buttons in Display Order (displayIdx -> origIdx)
     order.forEach((origIdx, displayIdx) => {
       const optText = q.options[origIdx];
@@ -1729,6 +1815,12 @@
         return;
       }
       if (e.key === 'Enter') {
+        if (!q.options || q.options.length === 0) {
+          e.preventDefault();
+          const revBtn = document.getElementById('btn-subjective-reveal');
+          if (revBtn) revBtn.click();
+          return;
+        }
         if (config.isMulti && state.pendingSelections.size === config.requiredCount) {
           e.preventDefault();
           submitMultiSelection(q, config);
