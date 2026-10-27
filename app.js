@@ -754,7 +754,6 @@
       renderGrid();
       updateStats();
       showToast(`🔄 [${target.year}-${String(target.q_num).padStart(2, '0')}] ${target.subject} 기출 문제로 이동했습니다.`);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
       showToast(`⚠️ [${rawItem}] 문제로 이동하는 중 필터 충돌이 발생했습니다.`);
     }
