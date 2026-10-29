@@ -12,6 +12,12 @@
   const STORAGE_KEY_LAST_ID = 'KMLE_ALL_SUBJECT_LAST_ID_V2';
   const STORAGE_KEY_SUBJECT = 'KMLE_ACTIVE_SUBJECT_V2';
   const STORAGE_KEY_SHUFFLE = 'KMLE_SHUFFLE_OPTIONS_V2';
+
+  // Multi-Profile & Continue Keys
+  const STORAGE_KEY_PROFILES = 'KMLE_USER_PROFILES_V1';
+  const STORAGE_KEY_ACTIVE_PROFILE_ID = 'KMLE_ACTIVE_PROFILE_ID_V1';
+  const STORAGE_KEY_AUTO_OPEN_PROFILE = 'KMLE_AUTO_OPEN_PROFILE_V1';
+  const SESSION_KEY_WELCOME_SHOWN = 'KMLE_PROFILE_WELCOME_SHOWN_V1';
   const CIRCLE_NUMS = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩'];
 
   // Application State
@@ -19,8 +25,13 @@
     allQuestions: [],
     filteredQuestions: [],
     currentIndex: 0,
+    profiles: [],
+    activeProfileId: null,
+    selectedNewAvatar: '🩺',
+    autoOpenProfileModal: localStorage.getItem(STORAGE_KEY_AUTO_OPEN_PROFILE) !== 'false',
     userAnswers: {},   // qId -> { selectedIndices, selectedIndex, correctIndices, isCorrect, isPartial, score, timestamp }
     bookmarks: new Set(),
+    lastSubjectMap: {}, // subject -> last viewed question id in that subject
     pendingSelections: new Set(), // Set of selected option indices (0-based ORIGINAL indices) for multi-answer questions
     shuffleOptions: localStorage.getItem(STORAGE_KEY_SHUFFLE) === 'true',
     shuffledOrders: {}, // qId -> number[] (displayIdx -> originalIdx)
@@ -130,6 +141,31 @@
     btnCloseGridBottom: document.getElementById('btn-close-grid-bottom'),
     btnResetHistory: document.getElementById('btn-reset-history'),
 
+    // Profile & Continue Modal
+    btnOpenProfile: document.getElementById('btn-open-profile'),
+    headerProfileAvatar: document.getElementById('header-profile-avatar'),
+    headerProfileName: document.getElementById('header-profile-name'),
+    profileModal: document.getElementById('profile-modal'),
+    btnCloseProfile: document.getElementById('btn-close-profile'),
+    btnCloseProfileBottom: document.getElementById('btn-close-profile-bottom'),
+    resumeProfileChip: document.getElementById('resume-profile-chip'),
+    resumeLastTime: document.getElementById('resume-last-time'),
+    resumeTargetText: document.getElementById('resume-target-text'),
+    resumeStatsText: document.getElementById('resume-stats-text'),
+    btnResumeLast: document.getElementById('btn-resume-last'),
+    profileSubjectResumeWrap: document.getElementById('profile-subject-resume-wrap'),
+    profileSubjectResumeList: document.getElementById('profile-subject-resume-list'),
+    profileCountBadge: document.getElementById('profile-count-badge'),
+    profileList: document.getElementById('profile-list'),
+    formCreateProfile: document.getElementById('form-create-profile'),
+    profileAvatarPicker: document.getElementById('profile-avatar-picker'),
+    inputProfileName: document.getElementById('input-profile-name'),
+    chkCopyBookmarks: document.getElementById('chk-copy-bookmarks'),
+    btnExportProfiles: document.getElementById('btn-export-profiles'),
+    btnImportProfiles: document.getElementById('btn-import-profiles'),
+    inputImportProfiles: document.getElementById('input-import-profiles'),
+    chkAutoOpenProfile: document.getElementById('chk-auto-open-profile'),
+
     // Lightbox Modal & Zoom Canvas
     lightboxModal: document.getElementById('lightbox-modal'),
     lightboxImg: document.getElementById('lightbox-img'),
@@ -150,50 +186,218 @@
     loadStorage();
     await loadQuestions();
     setupEventListeners();
+    syncFilterButtonsUI();
     updateSubjectUI();
-    
-    // Restore last viewed question if available
-    const lastId = localStorage.getItem(STORAGE_KEY_LAST_ID);
+
+    // Restore last viewed question for active profile if available
+    const activeProfile = getActiveProfile();
+    const lastId = (activeProfile && activeProfile.lastQuestionId) || localStorage.getItem(STORAGE_KEY_LAST_ID);
     if (lastId) {
-      const idx = state.filteredQuestions.findIndex(q => q.id === lastId);
+      let idx = state.filteredQuestions.findIndex(q => q.id === lastId);
+      if (idx === -1) {
+        const targetQ = state.allQuestions.find(q => q.id === lastId);
+        if (targetQ) {
+          state.filters.subject = targetQ.subject;
+          state.filters.year = 'ALL';
+          state.filters.type = 'ALL';
+          updateSubjectUI();
+          idx = state.filteredQuestions.findIndex(q => q.id === lastId);
+        }
+      }
       if (idx !== -1) {
         state.currentIndex = idx;
       }
     }
-    
+
     renderCurrentQuestion();
     updateStats();
+    updateHeaderProfileUI();
+
+    // Show Profile / Continue modal automatically once per session if enabled
+    if (state.autoOpenProfileModal && !sessionStorage.getItem(SESSION_KEY_WELCOME_SHOWN)) {
+      sessionStorage.setItem(SESSION_KEY_WELCOME_SHOWN, '1');
+      openProfileModal();
+    }
+  }
+
+  function getActiveProfile() {
+    if (!state.profiles || state.profiles.length === 0) return null;
+    return state.profiles.find(p => p.id === state.activeProfileId) || state.profiles[0];
+  }
+
+  function createProfileObject({ id, name, avatar, userAnswers, bookmarks, lastQuestionId, lastSubjectMap, filters, shuffleOptions }) {
+    const now = Date.now();
+    return {
+      id: id || `profile_${now}_${Math.random().toString(36).slice(2, 7)}`,
+      name: (name || '기본 프로필').trim(),
+      avatar: avatar || '🩺',
+      createdAt: now,
+      updatedAt: now,
+      userAnswers: userAnswers && typeof userAnswers === 'object' ? { ...userAnswers } : {},
+      bookmarks: Array.isArray(bookmarks) ? [...bookmarks] : [],
+      lastQuestionId: lastQuestionId || null,
+      lastSubjectMap: lastSubjectMap && typeof lastSubjectMap === 'object' ? { ...lastSubjectMap } : {},
+      filters: {
+        subject: (filters && filters.subject) || '진단검사의학과',
+        year: (filters && filters.year) || 'ALL',
+        type: (filters && filters.type) || 'ALL',
+        onlyFrequent: !!(filters && filters.onlyFrequent),
+        onlyImages: !!(filters && filters.onlyImages),
+        onlyIncorrect: !!(filters && filters.onlyIncorrect),
+        onlyBookmarked: !!(filters && filters.onlyBookmarked)
+      },
+      shuffleOptions: !!shuffleOptions
+    };
   }
 
   /**
-   * Load local storage data
+   * Load local storage data (with automatic migration from single-profile keys)
    */
   function loadStorage() {
     try {
-      const savedAnswers = localStorage.getItem(STORAGE_KEY_ANSWERS);
-      if (savedAnswers) {
-        state.userAnswers = JSON.parse(savedAnswers);
+      const savedAutoOpen = localStorage.getItem(STORAGE_KEY_AUTO_OPEN_PROFILE);
+      state.autoOpenProfileModal = savedAutoOpen !== 'false';
+      if (dom.chkAutoOpenProfile) {
+        dom.chkAutoOpenProfile.checked = state.autoOpenProfileModal;
       }
-      const savedBookmarks = localStorage.getItem(STORAGE_KEY_BOOKMARKS);
-      if (savedBookmarks) {
-        state.bookmarks = new Set(JSON.parse(savedBookmarks));
+
+      const rawProfiles = localStorage.getItem(STORAGE_KEY_PROFILES);
+      let loadedProfiles = [];
+      if (rawProfiles) {
+        const parsed = JSON.parse(rawProfiles);
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          loadedProfiles = parsed;
+        }
       }
+
+      if (loadedProfiles.length === 0) {
+        // Migrate existing single-user storage into initial default profile
+        let legacyAnswers = {};
+        let legacyBookmarks = [];
+        try {
+          const sa = localStorage.getItem(STORAGE_KEY_ANSWERS);
+          if (sa) legacyAnswers = JSON.parse(sa) || {};
+          const sb = localStorage.getItem(STORAGE_KEY_BOOKMARKS);
+          if (sb) legacyBookmarks = JSON.parse(sb) || [];
+        } catch (err) {}
+
+        const legacyLastId = localStorage.getItem(STORAGE_KEY_LAST_ID) || null;
+        const legacySubject = localStorage.getItem(STORAGE_KEY_SUBJECT) || '진단검사의학과';
+        const legacyShuffle = localStorage.getItem(STORAGE_KEY_SHUFFLE) === 'true';
+        const initialSubMap = {};
+        if (legacyLastId && legacySubject) {
+          initialSubMap[legacySubject] = legacyLastId;
+        }
+
+        const defaultProfile = createProfileObject({
+          id: 'profile_default',
+          name: '기본 프로필',
+          avatar: '🩺',
+          userAnswers: legacyAnswers,
+          bookmarks: legacyBookmarks,
+          lastQuestionId: legacyLastId,
+          lastSubjectMap: initialSubMap,
+          filters: { subject: legacySubject, year: 'ALL', type: 'ALL' },
+          shuffleOptions: legacyShuffle
+        });
+        loadedProfiles = [defaultProfile];
+      }
+
+      state.profiles = loadedProfiles;
+      const savedActiveId = localStorage.getItem(STORAGE_KEY_ACTIVE_PROFILE_ID);
+      const foundActive = state.profiles.find(p => p.id === savedActiveId) || state.profiles[0];
+      state.activeProfileId = foundActive.id;
+
+      loadProfileIntoMemory(foundActive);
     } catch (e) {
       console.error('Failed to load local storage:', e);
     }
   }
 
+  function loadProfileIntoMemory(profile) {
+    if (!profile) return;
+    state.userAnswers = profile.userAnswers && typeof profile.userAnswers === 'object'
+      ? { ...profile.userAnswers }
+      : {};
+    state.bookmarks = new Set(Array.isArray(profile.bookmarks) ? profile.bookmarks : []);
+    state.lastSubjectMap = profile.lastSubjectMap && typeof profile.lastSubjectMap === 'object'
+      ? { ...profile.lastSubjectMap }
+      : {};
+    state.shuffleOptions = !!profile.shuffleOptions;
+    const pf = profile.filters || {};
+    state.filters.subject = pf.subject || '진단검사의학과';
+    state.filters.year = pf.year || 'ALL';
+    state.filters.type = pf.type || 'ALL';
+    state.filters.onlyFrequent = !!pf.onlyFrequent;
+    state.filters.onlyImages = !!pf.onlyImages;
+    state.filters.onlyIncorrect = !!pf.onlyIncorrect;
+    state.filters.onlyBookmarked = !!pf.onlyBookmarked;
+    state.filters.searchQuery = '';
+    if (dom.searchInput) dom.searchInput.value = '';
+  }
+
+  function syncFilterButtonsUI() {
+    if (dom.filterFrequent) dom.filterFrequent.classList.toggle('active', !!state.filters.onlyFrequent);
+    if (dom.filterImages) dom.filterImages.classList.toggle('active', !!state.filters.onlyImages);
+    if (dom.filterIncorrect) dom.filterIncorrect.classList.toggle('active', !!state.filters.onlyIncorrect);
+    if (dom.filterBookmarked) dom.filterBookmarked.classList.toggle('active', !!state.filters.onlyBookmarked);
+    if (dom.btnToggleShuffle) dom.btnToggleShuffle.classList.toggle('active', !!state.shuffleOptions);
+  }
+
+  function updateHeaderProfileUI() {
+    const active = getActiveProfile();
+    if (!active) return;
+    if (dom.headerProfileAvatar) dom.headerProfileAvatar.textContent = active.avatar || '🩺';
+    if (dom.headerProfileName) dom.headerProfileName.textContent = active.name || '기본 프로필';
+  }
+
   /**
-   * Save state to local storage
+   * Save state to local storage (both active profile & legacy keys)
    */
   function saveStorage() {
     try {
+      const currentQ = getCurrentQuestion();
+      const active = getActiveProfile();
+      if (active) {
+        active.userAnswers = { ...state.userAnswers };
+        active.bookmarks = [...state.bookmarks];
+        active.shuffleOptions = !!state.shuffleOptions;
+        if (!active.lastSubjectMap || typeof active.lastSubjectMap !== 'object') {
+          active.lastSubjectMap = {};
+        }
+        if (currentQ) {
+          active.lastQuestionId = currentQ.id;
+          if (currentQ.subject) {
+            active.lastSubjectMap[currentQ.subject] = currentQ.id;
+          }
+          if (state.filters.subject) {
+            active.lastSubjectMap[state.filters.subject] = currentQ.id;
+          }
+          state.lastSubjectMap = { ...active.lastSubjectMap };
+        }
+        active.filters = {
+          subject: state.filters.subject,
+          year: state.filters.year,
+          type: state.filters.type,
+          onlyFrequent: !!state.filters.onlyFrequent,
+          onlyImages: !!state.filters.onlyImages,
+          onlyIncorrect: !!state.filters.onlyIncorrect,
+          onlyBookmarked: !!state.filters.onlyBookmarked
+        };
+        active.updatedAt = Date.now();
+        localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(state.profiles));
+        localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, active.id);
+      }
+
+      // Sync legacy keys for backward compatibility
       localStorage.setItem(STORAGE_KEY_ANSWERS, JSON.stringify(state.userAnswers));
       localStorage.setItem(STORAGE_KEY_BOOKMARKS, JSON.stringify([...state.bookmarks]));
-      const currentQ = getCurrentQuestion();
+      localStorage.setItem(STORAGE_KEY_SUBJECT, state.filters.subject);
+      localStorage.setItem(STORAGE_KEY_SHUFFLE, String(state.shuffleOptions));
       if (currentQ) {
         localStorage.setItem(STORAGE_KEY_LAST_ID, currentQ.id);
       }
+      updateHeaderProfileUI();
     } catch (e) {
       console.error('Failed to save to local storage:', e);
     }
@@ -1755,7 +1959,7 @@
       });
     }
 
-    // Subject Selection Tabs (과목 전환)
+    // Subject Selection Tabs (과목 전환 + 해당 과목의 마지막 풀이 위치로 자동 이어하기)
     if (dom.subjectTabs) {
       dom.subjectTabs.addEventListener('click', e => {
         const btn = e.target.closest('.subject-pill');
@@ -1771,6 +1975,17 @@
         if (dom.filterImages) dom.filterImages.classList.remove('active');
         state.currentIndex = 0;
         updateSubjectUI();
+
+        // Restore last saved question in this subject for the active profile
+        const savedSubQId = state.lastSubjectMap && state.lastSubjectMap[newSub];
+        if (savedSubQId) {
+          const savedIdx = state.filteredQuestions.findIndex(q => q.id === savedSubQId);
+          if (savedIdx !== -1 && savedIdx !== state.currentIndex) {
+            state.currentIndex = savedIdx;
+            renderCurrentQuestion();
+            renderGrid();
+          }
+        }
         window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     }
@@ -1900,14 +2115,20 @@
 
     // Reset History
     dom.btnResetHistory.addEventListener('click', () => {
-      if (confirm('모든 문제 풀이 기록과 정답 통계를 초기화하시겠습니까?')) {
+      const active = getActiveProfile();
+      const pName = active ? active.name : '현재 프로필';
+      if (confirm(`'${pName}' 프로필의 모든 문제 풀이 기록과 정답 통계를 초기화하시겠습니까?`)) {
         state.userAnswers = {};
         saveStorage();
         updateStats();
         renderGrid();
         renderCurrentQuestion();
+        showToast(`🔄 '${pName}' 프로필의 풀이 기록이 초기화되었습니다.`);
       }
     });
+
+    // Profile & Continue Modal Events
+    setupProfileModalEvents();
 
     // Lightbox Events (Zoom, Pan, Drag, Close)
     setupLightboxEvents();
@@ -1920,8 +2141,11 @@
    * Keyboard Shortcuts Handler
    */
   function handleKeydown(e) {
-    // If typing in input, ignore
+    // If typing in input or when profile modal is open, ignore global quiz shortcuts
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+      return;
+    }
+    if (dom.profileModal && dom.profileModal.open) {
       return;
     }
 
@@ -1973,10 +2197,502 @@
     } else if (e.key === 's' || e.key === 'S') {
       e.preventDefault();
       toggleShuffleMode();
+    } else if (e.key === 'p' || e.key === 'P') {
+      e.preventDefault();
+      openProfileModal();
     } else if (e.key === 'Escape') {
       closeGridModal();
       closeLightbox();
     }
+  }
+
+  /**
+   * ==========================================================================
+   * Profile Select / Create & Continue Engine
+   * ==========================================================================
+   */
+  function setupProfileModalEvents() {
+    if (dom.btnOpenProfile) {
+      dom.btnOpenProfile.addEventListener('click', openProfileModal);
+    }
+    if (dom.btnCloseProfile) {
+      dom.btnCloseProfile.addEventListener('click', closeProfileModal);
+    }
+    if (dom.btnCloseProfileBottom) {
+      dom.btnCloseProfileBottom.addEventListener('click', closeProfileModal);
+    }
+
+    // Modern Web Guidance fallback for browsers without native <dialog closedby="any">
+    if (dom.profileModal && !('closedBy' in HTMLDialogElement.prototype)) {
+      const outside = (e, dialog) => {
+        const r = dialog.getBoundingClientRect();
+        return e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom;
+      };
+      let pressedOutside = false;
+      dom.profileModal.addEventListener('pointerdown', e => {
+        pressedOutside = outside(e, dom.profileModal);
+      });
+      dom.profileModal.addEventListener('pointerup', e => {
+        if (pressedOutside && outside(e, dom.profileModal)) {
+          dom.profileModal.close();
+        }
+      });
+    }
+
+    if (dom.btnResumeLast) {
+      dom.btnResumeLast.addEventListener('click', () => {
+        const active = getActiveProfile();
+        if (active) {
+          switchAndResumeProfile(active.id);
+        } else {
+          closeProfileModal();
+        }
+      });
+    }
+
+    if (dom.profileAvatarPicker) {
+      dom.profileAvatarPicker.addEventListener('click', e => {
+        const btn = e.target.closest('.avatar-option');
+        if (!btn) return;
+        state.selectedNewAvatar = btn.dataset.avatar || '🩺';
+        dom.profileAvatarPicker.querySelectorAll('.avatar-option').forEach(b => {
+          const isSelected = b === btn;
+          b.classList.toggle('active', isSelected);
+          b.setAttribute('aria-pressed', String(isSelected));
+        });
+      });
+    }
+
+    if (dom.formCreateProfile) {
+      dom.formCreateProfile.addEventListener('submit', e => {
+        e.preventDefault();
+        createNewProfile();
+      });
+    }
+
+    if (dom.chkAutoOpenProfile) {
+      dom.chkAutoOpenProfile.addEventListener('change', () => {
+        state.autoOpenProfileModal = !!dom.chkAutoOpenProfile.checked;
+        try {
+          localStorage.setItem(STORAGE_KEY_AUTO_OPEN_PROFILE, String(state.autoOpenProfileModal));
+        } catch (err) {}
+      });
+    }
+
+    if (dom.btnExportProfiles) {
+      dom.btnExportProfiles.addEventListener('click', exportProfilesToFile);
+    }
+    if (dom.btnImportProfiles && dom.inputImportProfiles) {
+      dom.btnImportProfiles.addEventListener('click', () => dom.inputImportProfiles.click());
+      dom.inputImportProfiles.addEventListener('change', importProfilesFromFile);
+    }
+  }
+
+  function openProfileModal() {
+    if (!dom.profileModal) return;
+    saveStorage();
+    renderProfileModal();
+    if (!dom.profileModal.open) {
+      dom.profileModal.showModal();
+    }
+  }
+
+  function closeProfileModal() {
+    if (dom.profileModal && dom.profileModal.open) {
+      dom.profileModal.close();
+    }
+  }
+
+  function formatProfileTime(ts) {
+    if (!ts) return '기록 없음';
+    const diffSec = Math.max(0, Math.floor((Date.now() - ts) / 1000));
+    if (diffSec < 60) return '방금 전 저장';
+    const diffMin = Math.floor(diffSec / 60);
+    if (diffMin < 60) return `${diffMin}분 전 저장`;
+    const diffHr = Math.floor(diffMin / 60);
+    if (diffHr < 24) return `${diffHr}시간 전 저장`;
+    const d = new Date(ts);
+    const yyyy = d.getFullYear();
+    const mm = String(d.getMonth() + 1).padStart(2, '0');
+    const dd = String(d.getDate()).padStart(2, '0');
+    const hh = String(d.getHours()).padStart(2, '0');
+    const mi = String(d.getMinutes()).padStart(2, '0');
+    return `${yyyy}.${mm}.${dd} ${hh}:${mi}`;
+  }
+
+  function getQuestionPositionSummary(profile) {
+    const lastId = profile && profile.lastQuestionId;
+    if (!lastId) {
+      const sub = (profile && profile.filters && profile.filters.subject) || '진단검사의학과';
+      return { text: `${sub} 1번 문항 (처음부터 시작)`, q: null, subIndex: 1, subTotal: 0 };
+    }
+    const q = state.allQuestions.find(item => item.id === lastId);
+    if (!q) {
+      return { text: `문항 ID: ${lastId}`, q: null, subIndex: 1, subTotal: 0 };
+    }
+    const subQuestions = state.allQuestions.filter(item => item.subject === q.subject);
+    const subIdx = subQuestions.findIndex(item => item.id === q.id);
+    const posNum = subIdx !== -1 ? subIdx + 1 : 1;
+    return {
+      text: `${q.subject} ${posNum}번 / ${subQuestions.length}문항 (${q.year} Q${String(q.q_num).padStart(2, '0')})`,
+      q,
+      subIndex: posNum,
+      subTotal: subQuestions.length
+    };
+  }
+
+  function getProfileStatsSummary(profile) {
+    const answers = (profile && profile.userAnswers) || {};
+    const answerKeys = Object.keys(answers);
+    const answeredCount = answerKeys.length;
+    let correctCount = 0;
+    answerKeys.forEach(k => {
+      if (answers[k] && answers[k].isCorrect) correctCount++;
+    });
+    const total = state.allQuestions.length || 2267;
+    const pct = total > 0 ? Math.round((answeredCount / total) * 100) : 0;
+    const acc = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
+    const bCount = Array.isArray(profile && profile.bookmarks) ? profile.bookmarks.length : 0;
+    return { answeredCount, correctCount, total, pct, acc, bCount };
+  }
+
+  function renderProfileModal() {
+    const active = getActiveProfile();
+    if (!active) return;
+
+    // 1. Update Active Profile Quick Resume Card
+    const posInfo = getQuestionPositionSummary(active);
+    const statsInfo = getProfileStatsSummary(active);
+
+    if (dom.resumeProfileChip) {
+      dom.resumeProfileChip.textContent = `${active.avatar || '🩺'} ${active.name}`;
+    }
+    if (dom.resumeLastTime) {
+      dom.resumeLastTime.textContent = formatProfileTime(active.updatedAt);
+    }
+    if (dom.resumeTargetText) {
+      dom.resumeTargetText.textContent = `최근 위치: ${posInfo.text}`;
+    }
+    if (dom.resumeStatsText) {
+      dom.resumeStatsText.textContent = `전체 풀이 ${statsInfo.answeredCount} / ${statsInfo.total}문항 (${statsInfo.pct}%) · 정답률 ${statsInfo.acc}% · 북마크 ★ ${statsInfo.bCount}`;
+    }
+
+    // 2. Render Per-Subject Quick Resume Chips for Active Profile
+    if (dom.profileSubjectResumeWrap && dom.profileSubjectResumeList) {
+      dom.profileSubjectResumeList.innerHTML = '';
+      const subjects = Object.keys(SUBJECT_META).filter(s => s !== 'ALL');
+      let chipCount = 0;
+
+      subjects.forEach(sub => {
+        const subQs = state.allQuestions.filter(q => q.subject === sub);
+        if (subQs.length === 0) return;
+        let subSolved = 0;
+        subQs.forEach(q => {
+          if (active.userAnswers && active.userAnswers[q.id]) subSolved++;
+        });
+        const savedId = active.lastSubjectMap && active.lastSubjectMap[sub];
+        if (subSolved === 0 && !savedId) return;
+
+        let savedPos = 1;
+        if (savedId) {
+          const idx = subQs.findIndex(q => q.id === savedId);
+          if (idx !== -1) savedPos = idx + 1;
+        }
+        chipCount++;
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'subject-resume-chip';
+        const icon = SUBJECT_META[sub] ? SUBJECT_META[sub].icon : '📘';
+        chip.textContent = `${icon} ${sub} (#${savedPos} 이어하기 · ${subSolved}/${subQs.length})`;
+        chip.title = `${sub} ${savedPos}번 문제에서 바로 이어하기`;
+        chip.addEventListener('click', () => {
+          switchAndResumeProfile(active.id, sub);
+        });
+        dom.profileSubjectResumeList.appendChild(chip);
+      });
+
+      dom.profileSubjectResumeWrap.style.display = chipCount > 0 ? 'flex' : 'none';
+    }
+
+    // 3. Render Saved Profiles List
+    if (dom.profileCountBadge) {
+      dom.profileCountBadge.textContent = `${state.profiles.length}개 프로필`;
+    }
+    if (dom.profileList) {
+      dom.profileList.innerHTML = '';
+      state.profiles.forEach(prof => {
+        const isCurrent = prof.id === state.activeProfileId;
+        const pPos = getQuestionPositionSummary(prof);
+        const pStats = getProfileStatsSummary(prof);
+
+        const card = document.createElement('div');
+        card.className = `profile-item-card${isCurrent ? ' active-profile' : ''}`;
+
+        const left = document.createElement('div');
+        left.className = 'profile-item-left';
+        left.innerHTML = `
+          <div class="profile-item-avatar">${escapeHtml(prof.avatar || '🩺')}</div>
+          <div class="profile-item-meta">
+            <div class="profile-item-title-row">
+              <span class="profile-item-name">${escapeHtml(prof.name)}</span>
+              ${isCurrent ? '<span class="profile-item-badge">현재 사용 중</span>' : ''}
+              <span class="profile-resume-time">${escapeHtml(formatProfileTime(prof.updatedAt))}</span>
+            </div>
+            <div class="profile-item-last">📍 최근 위치: ${escapeHtml(pPos.text)}</div>
+            <div class="profile-item-sub">풀이 ${pStats.answeredCount} / ${pStats.total}문항 (${pStats.pct}%) · 정답률 ${pStats.acc}% · 북마크 ★ ${pStats.bCount}</div>
+          </div>
+        `;
+
+        const actions = document.createElement('div');
+        actions.className = 'profile-item-actions';
+
+        const btnSelect = document.createElement('button');
+        btnSelect.type = 'button';
+        btnSelect.className = 'btn-profile-select';
+        btnSelect.textContent = isCurrent ? '▶ 이어하기' : '▶ 선택 · 이어하기';
+        btnSelect.addEventListener('click', () => switchAndResumeProfile(prof.id));
+        actions.appendChild(btnSelect);
+
+        const btnRename = document.createElement('button');
+        btnRename.type = 'button';
+        btnRename.className = 'btn-profile-action';
+        btnRename.textContent = '✏️ 이름 변경';
+        btnRename.addEventListener('click', () => renameProfile(prof.id));
+        actions.appendChild(btnRename);
+
+        const btnReset = document.createElement('button');
+        btnReset.type = 'button';
+        btnReset.className = 'btn-profile-action danger';
+        btnReset.textContent = '🔄 초기화';
+        btnReset.addEventListener('click', () => resetProfileHistory(prof.id));
+        actions.appendChild(btnReset);
+
+        if (state.profiles.length > 1) {
+          const btnDelete = document.createElement('button');
+          btnDelete.type = 'button';
+          btnDelete.className = 'btn-profile-action danger';
+          btnDelete.textContent = '🗑️ 삭제';
+          btnDelete.addEventListener('click', () => deleteProfile(prof.id));
+          actions.appendChild(btnDelete);
+        }
+
+        card.appendChild(left);
+        card.appendChild(actions);
+        dom.profileList.appendChild(card);
+      });
+    }
+  }
+
+  function switchAndResumeProfile(profileId, targetSubjectOverride = null) {
+    const targetProfile = state.profiles.find(p => p.id === profileId);
+    if (!targetProfile) return;
+
+    // First save current active profile before switching
+    if (state.activeProfileId && state.activeProfileId !== profileId) {
+      saveStorage();
+    }
+
+    state.activeProfileId = targetProfile.id;
+    loadProfileIntoMemory(targetProfile);
+
+    let targetQId = targetProfile.lastQuestionId;
+    if (targetSubjectOverride) {
+      state.filters.subject = targetSubjectOverride;
+      state.filters.year = 'ALL';
+      state.filters.type = 'ALL';
+      state.filters.onlyFrequent = false;
+      state.filters.onlyImages = false;
+      state.filters.onlyIncorrect = false;
+      state.filters.onlyBookmarked = false;
+      targetQId = (targetProfile.lastSubjectMap && targetProfile.lastSubjectMap[targetSubjectOverride]) || null;
+    }
+
+    syncFilterButtonsUI();
+    updateSubjectUI();
+
+    if (targetQId) {
+      let idx = state.filteredQuestions.findIndex(q => q.id === targetQId);
+      if (idx === -1) {
+        // Relax sub-filters so the saved question can be resumed
+        const targetQ = state.allQuestions.find(q => q.id === targetQId);
+        if (targetQ) {
+          state.filters.subject = targetQ.subject;
+          state.filters.year = 'ALL';
+          state.filters.type = 'ALL';
+          state.filters.onlyFrequent = false;
+          state.filters.onlyImages = false;
+          state.filters.onlyIncorrect = false;
+          state.filters.onlyBookmarked = false;
+          syncFilterButtonsUI();
+          updateSubjectUI();
+          idx = state.filteredQuestions.findIndex(q => q.id === targetQId);
+        }
+      }
+      state.currentIndex = idx !== -1 ? idx : 0;
+    } else {
+      state.currentIndex = 0;
+    }
+
+    renderCurrentQuestion();
+    updateStats();
+    renderGrid();
+    saveStorage();
+    closeProfileModal();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    const q = getCurrentQuestion();
+    const locLabel = q
+      ? `${q.subject} ${state.currentIndex + 1}번 (${q.year} Q${String(q.q_num).padStart(2, '0')})`
+      : state.filters.subject;
+    showToast(`✅ '${targetProfile.name}' 프로필 [${locLabel}]에서 이어합니다.`);
+  }
+
+  function createNewProfile() {
+    const rawName = dom.inputProfileName ? dom.inputProfileName.value.trim() : '';
+    const name = rawName || `프로필 ${state.profiles.length + 1}`;
+    const copyBookmarks = !!(dom.chkCopyBookmarks && dom.chkCopyBookmarks.checked);
+    const active = getActiveProfile();
+
+    // Save current profile state before switching
+    saveStorage();
+
+    const newProfile = createProfileObject({
+      name,
+      avatar: state.selectedNewAvatar || '🩺',
+      userAnswers: {},
+      bookmarks: copyBookmarks && active ? [...active.bookmarks] : [],
+      lastQuestionId: null,
+      lastSubjectMap: {},
+      filters: {
+        subject: state.filters.subject || '진단검사의학과',
+        year: 'ALL',
+        type: 'ALL'
+      },
+      shuffleOptions: state.shuffleOptions
+    });
+
+    state.profiles.push(newProfile);
+    if (dom.inputProfileName) dom.inputProfileName.value = '';
+    if (dom.chkCopyBookmarks) dom.chkCopyBookmarks.checked = false;
+
+    switchAndResumeProfile(newProfile.id);
+    showToast(`🎉 새 프로필 '${newProfile.name}'이(가) 생성되었습니다!`);
+  }
+
+  function renameProfile(profileId) {
+    const prof = state.profiles.find(p => p.id === profileId);
+    if (!prof) return;
+    const nextName = prompt('변경할 프로필 이름을 입력하세요:', prof.name);
+    if (nextName === null) return;
+    const trimmed = nextName.trim();
+    if (!trimmed) {
+      showToast('⚠️ 프로필 이름을 비워둘 수 없습니다.');
+      return;
+    }
+    prof.name = trimmed.slice(0, 24);
+    prof.updatedAt = Date.now();
+    saveStorage();
+    renderProfileModal();
+    updateHeaderProfileUI();
+    showToast(`✏️ 프로필 이름이 '${prof.name}'(으)로 변경되었습니다.`);
+  }
+
+  function resetProfileHistory(profileId) {
+    const prof = state.profiles.find(p => p.id === profileId);
+    if (!prof) return;
+    if (!confirm(`'${prof.name}' 프로필의 모든 풀이 기록과 정답 통계를 초기화하시겠습니까? (북마크는 유지됩니다)`)) {
+      return;
+    }
+    prof.userAnswers = {};
+    prof.lastQuestionId = null;
+    prof.lastSubjectMap = {};
+    prof.updatedAt = Date.now();
+
+    if (prof.id === state.activeProfileId) {
+      state.userAnswers = {};
+      state.lastSubjectMap = {};
+      state.currentIndex = 0;
+      renderCurrentQuestion();
+      updateStats();
+      renderGrid();
+    }
+    saveStorage();
+    renderProfileModal();
+    showToast(`🔄 '${prof.name}' 프로필의 풀이 기록이 초기화되었습니다.`);
+  }
+
+  function deleteProfile(profileId) {
+    if (state.profiles.length <= 1) {
+      showToast('⚠️ 최소 1개의 프로필은 유지되어야 합니다.');
+      return;
+    }
+    const prof = state.profiles.find(p => p.id === profileId);
+    if (!prof) return;
+    if (!confirm(`'${prof.name}' 프로필과 저장된 풀이 기록을 완전히 삭제하시겠습니까?`)) {
+      return;
+    }
+    state.profiles = state.profiles.filter(p => p.id !== profileId);
+    if (state.activeProfileId === profileId) {
+      const nextActive = state.profiles[0];
+      state.activeProfileId = nextActive.id;
+      loadProfileIntoMemory(nextActive);
+      syncFilterButtonsUI();
+      updateSubjectUI();
+      renderCurrentQuestion();
+      updateStats();
+      renderGrid();
+    }
+    saveStorage();
+    renderProfileModal();
+    showToast(`🗑️ '${prof.name}' 프로필이 삭제되었습니다.`);
+  }
+
+  function exportProfilesToFile() {
+    saveStorage();
+    const payload = {
+      version: 1,
+      exportedAt: new Date().toISOString(),
+      activeProfileId: state.activeProfileId,
+      profiles: state.profiles
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    const dateStr = new Date().toISOString().slice(0, 10).replace(/-/g, '');
+    a.href = url;
+    a.download = `subacute_profiles_${dateStr}.json`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    showToast('💾 모든 프로필 학습 데이터가 파일로 백업되었습니다.');
+  }
+
+  function importProfilesFromFile(e) {
+    const file = e.target.files && e.target.files[0];
+    if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const parsed = JSON.parse(String(reader.result || '{}'));
+        const importedList = Array.isArray(parsed) ? parsed : parsed.profiles;
+        if (!Array.isArray(importedList) || importedList.length === 0) {
+          throw new Error('유효한 프로필 목록이 없습니다.');
+        }
+        const normalized = importedList.map(p => createProfileObject(p));
+        state.profiles = normalized;
+        const nextActiveId = parsed.activeProfileId && normalized.some(p => p.id === parsed.activeProfileId)
+          ? parsed.activeProfileId
+          : normalized[0].id;
+        switchAndResumeProfile(nextActiveId);
+        showToast(`📂 ${normalized.length}개의 프로필 데이터를 성공적으로 불러왔습니다!`);
+      } catch (err) {
+        showToast('⚠️ 백업 파일 형식이 올바르지 않습니다.');
+      } finally {
+        e.target.value = '';
+      }
+    };
+    reader.readAsText(file);
   }
 
   /**

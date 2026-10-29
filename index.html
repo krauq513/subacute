@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>subacute | 임상의학 기출 퀴즈 마스터</title>
   <meta name="description" content="subacute - 20Y ~ 26Y 임상의학 9개 분과 기출 문제 풀이 및 상세 해설 인터랙티브 CBT">
-  <link rel="stylesheet" href="style.css?v=20261029v5">
+  <link rel="stylesheet" href="style.css?v=20261030v1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -39,6 +39,16 @@
           <span class="stat-label">북마크</span>
           <span class="stat-val" id="stat-bookmarks">0</span>
         </div>
+        <button id="btn-open-profile" type="button" class="btn-profile-pill" aria-label="이어하기 및 프로필 선택/만들기" title="이어하기 · 프로필 선택/만들기 (단축키 P)">
+          <span class="profile-pill-avatar" id="header-profile-avatar">🩺</span>
+          <span class="profile-pill-text">
+            <span class="profile-pill-sub">이어하기 · 프로필</span>
+            <span class="profile-pill-name" id="header-profile-name">기본 프로필</span>
+          </span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </button>
         <button id="btn-open-grid" class="btn-icon-text" aria-label="전체 문제 목록 열기">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <rect x="3" y="3" width="7" height="7"></rect>
@@ -373,12 +383,108 @@
     <div class="lightbox-bottom-hint">
       <span>💡 두 번 탭하거나 핀치하여 확대 • 드래그하여 이동</span>
     </div>
+  </div>
+
+  <!-- Profile Select / Create & Continue Native Modal Dialog -->
+  <dialog id="profile-modal" class="profile-dialog" closedby="any" aria-labelledby="profile-modal-title">
+    <div class="profile-dialog-inner">
+      <div class="modal-header profile-modal-header">
+        <div class="modal-title-group">
+          <h2 id="profile-modal-title">이어하기 · 학습 프로필 선택/만들기</h2>
+          <span class="modal-subtitle">프로필별로 문제 풀이 상황, 오답·정답 통계, 북마크, 마지막 학습 위치가 자동 저장됩니다</span>
+        </div>
+        <button type="button" class="modal-close" id="btn-close-profile" aria-label="프로필 창 닫기">✕</button>
+      </div>
+
+      <div class="profile-modal-body">
+        <!-- Quick Resume Banner for Current Active Profile -->
+        <section class="profile-resume-card" id="profile-resume-card" aria-label="현재 프로필 이어하기">
+          <div class="profile-resume-top">
+            <div class="profile-resume-info">
+              <div class="profile-resume-badge-row">
+                <span class="profile-active-chip" id="resume-profile-chip">🩺 기본 프로필</span>
+                <span class="profile-resume-time" id="resume-last-time">자동 저장됨</span>
+              </div>
+              <div class="profile-resume-target" id="resume-target-text">마지막 학습 위치를 불러오는 중...</div>
+              <div class="profile-resume-stats" id="resume-stats-text">총 0 / 2,267문항 풀이 · 정답률 0% · 북마크 0개</div>
+            </div>
+            <button type="button" class="btn-resume-now" id="btn-resume-last" autofocus>
+              <span>▶ 이어하기</span>
+            </button>
+          </div>
+          <!-- Per-Subject Quick Continue Chips -->
+          <div class="profile-subject-resume-wrap" id="profile-subject-resume-wrap" style="display: none;">
+            <span class="profile-subject-resume-label">과목별 마지막 위치 바로 이어하기:</span>
+            <div class="profile-subject-resume-list" id="profile-subject-resume-list"></div>
+          </div>
+        </section>
+
+        <!-- Saved Profiles List -->
+        <section class="profile-section" aria-labelledby="profile-list-heading">
+          <div class="profile-section-header">
+            <h3 id="profile-list-heading">저장된 프로필 목록</h3>
+            <span class="profile-count-badge" id="profile-count-badge">1개 프로필</span>
+          </div>
+          <div class="profile-list" id="profile-list">
+            <!-- Dynamically rendered profile cards -->
+          </div>
+        </section>
+
+        <!-- Create New Profile Section -->
+        <section class="profile-section profile-create-section" aria-labelledby="profile-create-heading">
+          <div class="profile-section-header">
+            <h3 id="profile-create-heading">+ 새 프로필 만들기</h3>
+            <span class="profile-create-hint">회독별(1회독·2회독), 과목별, 또는 사용자별로 독립된 풀이 기록을 만드세요</span>
+          </div>
+          <form id="form-create-profile" class="profile-create-form">
+            <div class="avatar-picker-row" id="profile-avatar-picker" role="radiogroup" aria-label="프로필 아이콘 선택">
+              <button type="button" class="avatar-option active" data-avatar="🩺" aria-pressed="true">🩺</button>
+              <button type="button" class="avatar-option" data-avatar="🧠" aria-pressed="false">🧠</button>
+              <button type="button" class="avatar-option" data-avatar="🫀" aria-pressed="false">🫀</button>
+              <button type="button" class="avatar-option" data-avatar="🤰" aria-pressed="false">🤰</button>
+              <button type="button" class="avatar-option" data-avatar="👶" aria-pressed="false">👶</button>
+              <button type="button" class="avatar-option" data-avatar="🦴" aria-pressed="false">🦴</button>
+              <button type="button" class="avatar-option" data-avatar="🩻" aria-pressed="false">🩻</button>
+              <button type="button" class="avatar-option" data-avatar="🔥" aria-pressed="false">🔥</button>
+              <button type="button" class="avatar-option" data-avatar="⭐" aria-pressed="false">⭐</button>
+              <button type="button" class="avatar-option" data-avatar="🎓" aria-pressed="false">🎓</button>
+            </div>
+            <div class="profile-create-input-row">
+              <label for="input-profile-name" class="visually-hidden">새 프로필 이름</label>
+              <input type="text" id="input-profile-name" class="profile-name-input" placeholder="프로필 이름 입력 (예: 2회독, 오답집중, 홍길동)..." maxlength="24" autocomplete="off">
+              <button type="submit" class="btn-create-profile">+ 만들고 시작</button>
+            </div>
+            <label class="profile-copy-bookmarks-label">
+              <input type="checkbox" id="chk-copy-bookmarks">
+              <span>현재 프로필의 북마크(★) 목록을 새 프로필에 복사하기</span>
+            </label>
+          </form>
+        </section>
+      </div>
+
+      <div class="modal-footer profile-modal-footer">
+        <div class="profile-backup-actions">
+          <button type="button" class="btn-ghost" id="btn-export-profiles" title="모든 프로필의 풀이 상황을 파일(.json)로 저장합니다">💾 파일 백업</button>
+          <button type="button" class="btn-ghost" id="btn-import-profiles" title="백업해 둔 파일(.json)에서 프로필과 풀이 기록을 불러옵니다">📂 백업 불러오기</button>
+          <input type="file" id="input-import-profiles" accept=".json,application/json" style="display: none;">
+        </div>
+        <div class="profile-footer-right">
+          <label class="profile-auto-open-label" title="사이트에 처음 접속했을 때 이어하기/프로필 선택 창을 자동으로 띄웁니다">
+            <input type="checkbox" id="chk-auto-open-profile" checked>
+            <span>접속 시 이 창 자동 표시</span>
+          </label>
+          <button type="button" class="btn-primary" id="btn-close-profile-bottom">닫기</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
   <!-- Toast notification message -->
   <div class="toast-message" id="toast-message" style="display: none;"></div>
 
   <!-- Load Quiz Dataset (Embedded for instant local file:// execution without CORS) -->
-  <script src="data/quiz_data.js?v=20261029v5"></script>
+  <script src="data/quiz_data.js?v=20261030v1"></script>
   <!-- Main Application Logic -->
-  <script src="app.js?v=20261029v5"></script>
+  <script src="app.js?v=20261030v1"></script>
 </body>
 </html>
