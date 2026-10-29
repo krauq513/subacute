@@ -943,6 +943,7 @@
       dom.cardImagesContainer.style.display = 'flex';
       dom.cardImages.innerHTML = '';
       q.images.forEach((imgSrc, idx) => {
+        const resolvedSrc = imgSrc.includes('?') ? imgSrc : `${imgSrc}?v=20261029v2`;
         const wrapper = document.createElement('div');
         wrapper.className = 'image-item-wrapper';
         wrapper.setAttribute('role', 'button');
@@ -950,7 +951,7 @@
         wrapper.setAttribute('aria-label', `${q.id} 고화질 사진 확대`);
 
         const img = document.createElement('img');
-        img.src = imgSrc;
+        img.src = resolvedSrc;
         img.alt = `${q.id} 임상 사진 ${idx + 1}`;
         img.className = 'quiz-image';
 
@@ -970,11 +971,11 @@
         wrapper.appendChild(img);
         wrapper.appendChild(badge);
 
-        wrapper.addEventListener('click', () => openLightbox(imgSrc, `${q.id} [임상 사진 ${idx + 1}]`));
+        wrapper.addEventListener('click', () => openLightbox(resolvedSrc, `${q.id} [임상 사진 ${idx + 1}]`));
         wrapper.addEventListener('keydown', (e) => {
           if (e.key === 'Enter' || e.key === ' ') {
             e.preventDefault();
-            openLightbox(imgSrc, `${q.id} [임상 사진 ${idx + 1}]`);
+            openLightbox(resolvedSrc, `${q.id} [임상 사진 ${idx + 1}]`);
           }
         });
 
