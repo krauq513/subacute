@@ -12413,21 +12413,21 @@
     "category": "짤",
     "theme_title": "한랭글로불린(Cryoglobulin) 검사를 위한 적절한 채혈 튜브 및 온도 조건",
     "subspecialty": "임상화학/면역학",
-    "stem": "(Y) 다음 중 cryoglobulin 검사를 위해 어떤 tube 에 혈액 채취하는 것이 합당한가? 4 도 plain tube",
+    "stem": "(Y) 다음 중 cryoglobulin 검사를 위해 어떤 tube 에 혈액 채취하는 것이 합당한가?",
     "images": [],
     "options": [
-      "① 4 도 heparinizied tube",
-      "② 37 도 plain tube",
-      "③ 37 도 heparinized tube",
-      "④ crytube",
-      "⑤ ⚫"
+      "① 4 도 plain tube",
+      "② 4 도 heparinizied tube",
+      "③ 37 도 plain tube",
+      "④ 37 도 heparinized tube",
+      "⑤ crytube"
     ],
     "correct_option_index": 2,
-    "correct_answer": "③ 37도 plain tube (사전 보온된 무첨가 튜브)",
+    "correct_answer": "③ 37 도 plain tube",
     "explanation": {
       "title": "한랭글로불린(Cryoglobulin) 검사를 위한 적절한 채혈 튜브 및 온도 조건",
       "findings": "검체 채취 시 온도 관리가 결과의 성패를 가르는 대표적 특수 면역 검사.",
-      "differential": "• ① 도 heparinizied tube ✗ [오답]: 헤파린 유발성 혈소판감소증(HIT) 병력자나 중증 출혈성 질환자에서는 투여가 금기입니다.\n• ② 도 plain tube ✗ [오답]: ② 도 plain tube.\n• ③ 도 heparinized tube ✓ [정답]: 급성 심근경색, 심부정맥혈전증(DVT) 및 폐색전증 급성기의 즉각적인 항응고 치료제입니다.\n• ④ crytube ✗ [오답]\n• ⑤  ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\nEDTA(혈구용), Heparin(가스분석용), 4도 냉각 튜브(암모니아용).",
+      "differential": "• ① 4 도 plain tube ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ② 4 도 heparinizied tube ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ③ 37 도 plain tube ✓ [정답]: 제시된 증례 소견 및 가이드라인에 부합하는 정답 소견입니다.\n• ④ 37 도 heparinized tube ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ⑤ crytube ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.",
       "trap": "얼음물에 담가 운송(Ice packing)하는 검사는 암모니아(Ammonia), ABGA, 젖산(Lactate), 가스트린 등이며, Cryoglobulin에 얼음을 대면 위음성(체외 침전) 초래.",
       "trigger": "Cryoglobulin은 37℃ 미만 실온에서 즉시 침전되므로, 반드시 37℃로 미리 예열된 튜브(Prewarmed 37°C plain tube)에 채혈하고 37℃를 유지하며 운송 및 원심분리해야 함!",
       "kmle_link": "KMLE 감염/류마티스 - 한랭글로불린혈증(HCV 연관)의 진단학적 주의사항",
@@ -12497,42 +12497,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "도 heparinizied tube",
+        "text": "4 도 plain tube",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "헤파린 유발성 혈소판감소증(HIT) 병력자나 중증 출혈성 질환자에서는 투여가 금기입니다."
+        "reason": "본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않아 오답입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "도 plain tube",
+        "text": "4 도 heparinizied tube",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "② 도 plain tube."
+        "reason": "본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않아 오답입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "도 heparinized tube",
+        "text": "37 도 plain tube",
         "is_correct": true,
         "tag": "정답",
-        "reason": "급성 심근경색, 심부정맥혈전증(DVT) 및 폐색전증 급성기의 즉각적인 항응고 치료제입니다."
+        "reason": "[진단검사의학과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 정답 소견입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "crytube",
+        "text": "37 도 heparinized tube",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않아 오답입니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "",
+        "text": "crytube",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않아 오답입니다."
       }
     ],
     "correct_option_indices": [
