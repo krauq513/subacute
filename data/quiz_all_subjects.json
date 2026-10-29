@@ -77017,7 +77017,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -77273,7 +77273,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "22Y",
       "21Y",
@@ -77535,7 +77535,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -78016,8 +78016,8 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 4,
-    "rate": 66,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -78390,7 +78390,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -78648,7 +78648,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "22Y",
@@ -78912,7 +78912,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -79039,7 +79039,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -79690,7 +79690,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -79817,7 +79817,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -79944,7 +79944,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -80071,7 +80071,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -80189,7 +80189,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -80308,7 +80308,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -80435,7 +80435,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -80564,7 +80564,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -80633,7 +80633,7 @@
       "⑤ 임신 시 산모는 태아에게 원활하게 glucose를 공급하기 위해 약간 diabetogenic한 상태가 된다."
     ],
     "correct_option_index": 2,
-    "correct_answer": "③ 정상 산모에게 Angiotensin 2을 주입해도 혈압이 상승하 지 않는다.",
+    "correct_answer": "③ 정상 산모에게 Angiotensin 2을 주입해도 혈압이 상승하지 않는다. & ⑤ 임신 시 산모는 태아에게 원활하게 glucose를 공급하기 위해 약간 diabetogenic한 상태가 된다. (③, ⑤ 중복 정답)",
     "explanation": {
       "title": "테마 30. 임신 중 모체의 생리적 혈역학 및 호흡/대사 변화",
       "findings": "• [임상 증례 요약]: 임신 시 일어나는 모체의 생리적 변화에 대한 진위 판별 문제.\n• [핵심 생리 변화 요약]:\n  1. 혈관계: 정상 임신부는 혈관 내피세포에서 프로스타사이클린과 산화질소(NO) 분비가 증가하여 Angiotensin II에 대한 혈관 수축 불응성(Refractoriness)을 보임 (전자간증 환자에서는 이 불응성이 소실되어 혈압이 급상승함).\n  2. 대사계: hPL 등에 의해 인슐린 저항성이 유발되는 diabetogenic state가 됨.\n  3. 호흡계: 프로게스테론 작용으로 1회 호흡량(Tidal volume)과 분당 환기량이 증가하는 '과호흡(Hyperventilation)'이 일어나며 생리적 호흡성 알칼리증(PaCO2 27~32 mmHg)을 보임 (저호흡/산증은 오답!).\n  4. 신장계: 자궁의 우측 회전(Dextrorotation)으로 우측 수신증이 좌측보다 훨씬 흔함.",
@@ -80685,13 +80685,14 @@
       ],
       "differential_general": "22Y-02: 옳지 않은 것을 묻는 유형으로 출제되어 'Angiotensin II 주입 시 혈압 상승'이 정답 선지로 제시됨."
     },
-    "is_multiple_choice": false,
-    "required_count": 1,
+    "is_multiple_choice": true,
+    "required_count": 2,
     "correct_option_indices": [
-      2
+      2,
+      4
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -80742,9 +80743,9 @@
         "opt_idx": 4,
         "opt_num": "⑤",
         "text": "임신 시 산모는 태아에게 원활하게 glucose를 공급하기 위해 약간 diabetogenic한 상태가 된다.",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "태반락토겐(hPL), 프로게스테론 등의 항인슐린 작용으로 인슐린 저항성이 생겨 태아에게 포도당을 원활히 공급합니다"
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "태반락토겐(hPL), 프로게스테론 등의 항인슐린 작용으로 인슐린 저항성이 생겨 태아에게 포도당을 원활히 공급합니다 (정상 생리적 변화로 정답 인정)."
       }
     ]
   },
@@ -80818,7 +80819,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -80928,7 +80929,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -81182,7 +81183,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -81309,7 +81310,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -81681,7 +81682,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -81941,7 +81942,7 @@
       4
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "22Y",
@@ -82469,7 +82470,7 @@
       1
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "22Y",
@@ -82602,7 +82603,7 @@
       3
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -82735,7 +82736,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -83001,7 +83002,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -83265,7 +83266,7 @@
       3
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -83786,7 +83787,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -83896,7 +83897,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -84015,7 +84016,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -84400,7 +84401,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "26Y"
     ],
@@ -84517,8 +84518,8 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 4,
-    "rate": 66,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -84642,7 +84643,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -84769,7 +84770,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -85027,7 +85028,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -85153,8 +85154,8 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -85287,8 +85288,8 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -85557,7 +85558,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -86599,7 +86600,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -86728,7 +86729,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -86989,7 +86990,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -87115,8 +87116,8 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 4,
-    "rate": 66,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -87619,7 +87620,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "22Y",
@@ -87953,7 +87954,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -88414,7 +88415,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -88543,7 +88544,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -88672,7 +88673,7 @@
       4
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "22Y",
@@ -88807,7 +88808,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -88934,7 +88935,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -89061,7 +89062,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -89188,7 +89189,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -89315,7 +89316,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -89442,7 +89443,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -89568,8 +89569,8 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 4,
-    "rate": 66,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -89701,7 +89702,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -89830,7 +89831,7 @@
       1
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "22Y",
@@ -89963,7 +89964,7 @@
       3
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -90098,7 +90099,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -90363,7 +90364,7 @@
       3
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -91041,7 +91042,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -91297,7 +91298,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -91424,7 +91425,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -91551,7 +91552,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -91678,7 +91679,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -91805,7 +91806,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -92164,7 +92165,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "23Y"
     ],
@@ -92291,7 +92292,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -92417,8 +92418,8 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -92554,7 +92555,7 @@
       4
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "22Y",
@@ -92670,8 +92671,8 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 4,
-    "rate": 66,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -92786,8 +92787,8 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 4,
-    "rate": 66,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -92919,7 +92920,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -93048,7 +93049,7 @@
       1
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "22Y",
@@ -93183,7 +93184,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -93310,7 +93311,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -93437,7 +93438,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -93517,7 +93518,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -93603,7 +93604,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -93696,7 +93697,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -93793,7 +93794,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -93920,7 +93921,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -94000,7 +94001,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -94086,7 +94087,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -94344,7 +94345,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -94424,7 +94425,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -94631,7 +94632,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -94758,7 +94759,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -94876,7 +94877,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -94995,7 +94996,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -95113,7 +95114,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -95232,7 +95233,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -95359,7 +95360,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -95486,7 +95487,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -95613,7 +95614,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -95740,7 +95741,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -95867,7 +95868,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -95952,7 +95953,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -96299,8 +96300,8 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 4,
-    "rate": 66,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -96397,8 +96398,8 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 4,
-    "rate": 66,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -96764,7 +96765,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -97194,7 +97195,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "22Y",
@@ -97573,7 +97574,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -97700,7 +97701,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -97827,7 +97828,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -98205,7 +98206,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -98324,7 +98325,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -98442,7 +98443,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -98561,7 +98562,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -98681,7 +98682,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -98855,7 +98856,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "22Y"
     ],
@@ -99207,7 +99208,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -99334,7 +99335,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -99461,7 +99462,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -99588,7 +99589,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -99715,7 +99716,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -99844,7 +99845,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -99973,7 +99974,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -100307,21 +100308,19 @@
     "category": "짤",
     "theme_title": "테마 40. 자궁내장치(IUD) 삽입 상태에서의 임신과 IUD 조기 제거",
     "subspecialty": "산과학 / 분만기전·산과수술",
-    "stem": "30 세 산과력 0-0-1-0 여성이 무월경으로 내원하여 hCG 검사를 시행한 결과 양성이었다. 이어서 시행한 초음파 검사에서 임신 11 주 상태이고, 검사 결과는 다음과 같다.",
+    "stem": "30 세 산과력 0-0-1-0 여성이 무월경으로 내원하여 hCG 검사를 시행한 결과 양성이었다. 초음파 검사에서 임신 11 주 상태이고 활력징후는 체온 36.3 도, 혈압 110/90 mmHg, 심박수 정상, 호흡수 20회/분, 혈색소 10.3 g/dL, 백혈구 7,800/mm^3, 혈소판 380,000/mm^3 이었다. 1 년 전 자궁내장치 시술을 받았다고 했으나, 질경 검사에서는 자궁내장치의 실이 보이지 않았다. 가장 적절한 조치는?",
     "images": [
       "images/산부인과/21Y_Q10_fig1.png"
     ],
     "options": [
-      "- 체온 36.3 도, 혈압 110/90, 심박수(정상), 호흡수 20",
-      "- 혈색소 10.3, 백혈구 7800/mm^3, 혈소판 380000 1 년전 자궁내장치 시술을 받았다고 했으나, 질경 검사에서는 자궁내장치의 실이 보이지 않았다. 적절한 조치는?",
       "① 초음파 검사 하에서 자궁내장치 제거",
       "② 입원 후 융모막 융모 생검",
       "③ 프로게스테론 투여",
       "④ 경과 관찰",
       "⑤ 항생제 투여"
     ],
-    "correct_option_index": 6,
-    "correct_answer": "⑤ 항생제 투여",
+    "correct_option_index": 0,
+    "correct_answer": "① 초음파 검사 하에서 자궁내장치 제거",
     "explanation": {
       "title": "테마 40. 자궁내장치(IUD) 삽입 상태에서의 임신과 IUD 조기 제거",
       "findings": "IUD 삽입 상태에서 자궁내임신 확인 및 질경 검사상 실 확인 → 유산 및 패혈성 감염 예방을 위해 IUD 즉시 제거",
@@ -100395,7 +100394,7 @@
       6
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "22Y",
@@ -100546,7 +100545,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -100675,7 +100674,7 @@
       1
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "22Y",
@@ -100808,7 +100807,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -100937,7 +100936,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -101064,7 +101063,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -101195,7 +101194,7 @@
       3
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -101330,7 +101329,7 @@
       3
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -101465,7 +101464,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -101724,7 +101723,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -101843,7 +101842,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -101961,7 +101960,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -102335,7 +102334,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -102593,7 +102592,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -102720,7 +102719,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -102838,7 +102837,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -102959,7 +102958,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -103079,7 +103078,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -103198,7 +103197,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "21Y"
     ],
@@ -103327,7 +103326,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -103412,7 +103411,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "22Y",
       "21Y",
@@ -103553,7 +103552,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -103671,7 +103670,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -103790,7 +103789,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -103917,7 +103916,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -104035,7 +104034,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -104154,7 +104153,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -104234,7 +104233,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -104320,7 +104319,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -104449,7 +104448,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -104576,7 +104575,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -104696,7 +104695,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -104806,7 +104805,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -104927,7 +104926,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -105056,7 +105055,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -105185,7 +105184,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -105314,7 +105313,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -105434,7 +105433,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -105546,7 +105545,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -105667,7 +105666,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -105833,7 +105832,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -105952,7 +105951,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -106081,7 +106080,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -106199,7 +106198,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -106309,7 +106308,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -106428,7 +106427,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -106546,7 +106545,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -106665,7 +106664,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -106783,7 +106782,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -106857,7 +106856,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -106951,7 +106950,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -107034,7 +107033,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -107126,7 +107125,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -107213,7 +107212,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 66,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "21Y",
@@ -107298,7 +107297,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -107408,7 +107407,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -107527,7 +107526,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -107645,7 +107644,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -107814,7 +107813,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -107934,7 +107933,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -108053,7 +108052,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -108171,7 +108170,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "20Y"
     ],
@@ -108290,7 +108289,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -108408,7 +108407,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -108509,7 +108508,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -108584,7 +108583,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -108679,7 +108678,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -108806,7 +108805,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -108906,7 +108905,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -109009,7 +109008,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -109138,7 +109137,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -109265,7 +109264,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -109392,7 +109391,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -109512,7 +109511,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -109584,7 +109583,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -109670,7 +109669,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -109761,7 +109760,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -109820,7 +109819,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -109888,7 +109887,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -109973,7 +109972,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -110075,7 +110074,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -110176,7 +110175,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -110269,7 +110268,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -110371,7 +110370,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -110481,7 +110480,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -110618,7 +110617,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -110761,7 +110760,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -110870,7 +110869,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -110983,7 +110982,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -111110,7 +111109,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -111201,7 +111200,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -111296,7 +111295,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -111405,7 +111404,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -111518,7 +111517,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -111645,7 +111644,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -111754,7 +111753,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -111856,7 +111855,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -111928,7 +111927,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -111946,17 +111945,17 @@
     "category": "기출",
     "theme_title": "산부인과 임상 증례 및 기출 분석",
     "subspecialty": "산부인과 일반",
-    "stem": "",
+    "stem": "임신 중 태아 초음파 검사에서 태아의 재태 연령 및 발육을 평가하기 위한 초음파 신체 계측(Fetal biometry) 지표 중 태아의 복부 둘레(Abdominal circumference)를 나타내는 약어는?",
     "images": [],
     "options": [
-      "A. HC",
-      "B. AC",
-      "C. FL",
-      "D. BPD",
-      "E. CRL"
+      "① HC",
+      "② AC",
+      "③ FL",
+      "④ BPD",
+      "⑤ CRL"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "상세 해설 및 임상 가이드라인 참조",
+    "correct_option_index": 1,
+    "correct_answer": "② AC (Abdominal circumference, 복부 둘레)",
     "explanation": {
       "title": "산부인과 임상 증례 및 기출 분석",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -112014,7 +112013,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -112116,7 +112115,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -112212,7 +112211,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -112297,7 +112296,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -112383,7 +112382,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -112484,7 +112483,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -112586,7 +112585,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -112658,7 +112657,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -112744,7 +112743,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -112862,7 +112861,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -112981,7 +112980,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -113108,7 +113107,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -113244,7 +113243,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -113332,7 +113331,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -113350,18 +113349,17 @@
     "category": "기출",
     "theme_title": "[단독 기출] 폐경 후 위축성 질염(폐경비뇨생식기증후군)의 국소 에스트로겐 치료",
     "subspecialty": "산부인과 일반",
-    "stem": "",
+    "stem": "65세 여성이 1주일 전부터 소량의 질출혈이 있고 질 입구가 쓰리고 따갑다며 병원에 내원하였다. 최근 성교통과 빈뇨가 생겼다고 한다. 이학적 소견 상 질 점막의 위축이 관찰되었고, 소변 및 질분비물 검사와 자궁경부 액상세포검사는 정상이었다. 부인과초음파 상 자궁내막 두께는 2mm 였다. 가장 적절한 치료는?",
     "images": [],
     "options": [
-      "**사진 같이 나옴** 65세 여성, 1주일 전부터 소량의 질출혈 있고 질 입구가 쓰리고 따갑다 며 병원에 내원하였다. 최근 성교통과 빈뇨가 생겼다고 한다. 이학적 소견 상 질 점막의 위 축이 있었고, 소변 및 질분비물 검사와 자궁경 부 액상세포검사는 정상이었다. 부인과초음파 상 자궁내막 두께는 2mm 였다. 치료는?",
-      "A. 에스트로겐 질정",
-      "B. 클리트리마졸 연고",
-      "C. 경구 프로게스틴",
-      "D. 경구 메트로니다졸",
-      "E. 클린다마이신 크림"
+      "① 에스트로겐 질정",
+      "② 클로트리마졸 연고",
+      "③ 경구 프로게스틴",
+      "④ 경구 메트로니다졸",
+      "⑤ 클린다마이신 크림"
     ],
     "correct_option_index": 0,
-    "correct_answer": "**사진 같이 나옴** 65세 여성, 1주일 전부터 소량의 질출혈 있고 질 입구가 쓰리고 따갑다 며 병원에 내원하였다. 최근 성교통과 빈뇨가 생겼다고 한다. 이학적 소견 상 질 점막의 위 축이 있었고, 소변 및 질분비물 검사와 자궁경 부 액상세포검사는 정상이었다. 부인과초음파 상 자궁내막 두께는 2mm 였다. 치료는?",
+    "correct_answer": "① 에스트로겐 질정",
     "explanation": {
       "title": "[단독 기출] 폐경 후 위축성 질염(폐경비뇨생식기증후군)의 국소 에스트로겐 치료",
       "findings": "폐경 여성 소량 질출혈+질 쓰림/성교통+질점막 위축+내막두께 2mm → 위축성 질염(GSM), 국소 에스트로겐 크림",
@@ -113427,7 +113425,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -113544,7 +113542,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -113587,17 +113585,16 @@
     "category": "기출",
     "theme_title": "[단독 기출] 요역동학검사 및 Q-tip 검사를 통한 복압요실금 진단",
     "subspecialty": "산부인과 일반",
-    "stem": "",
+    "stem": "기침할 때 소변이 나와서 내원한 여성 환자이다. Q-tip 검사 시 15도였다. 요역동학 검사 상 방광근의 수축은 없었으나 방광내압이 요도내압을 넘어설 때 소변이 샜다. 잔뇨량은 없었다. 가장 가능성 높은 진단은?",
     "images": [],
     "options": [
-      "** 절박 변형, 야마** 기침할 때 소변이 나와 서 내원한 여성. Q tip 검사시 15도. 요역동근 검사상 방광근의 수축은 없지만 방광내압이 요도내압을 넘어설 때 소변이 샜다. 잔뇨량은 없었다. 진단은?",
-      "A. 범람요실금",
-      "B. 절박요실금",
-      "C. 복압요실금",
-      "D. 과민성방광"
+      "① 복압성 요실금 (Stress urinary incontinence)",
+      "② 절박성 요실금 (Urge incontinence)",
+      "③ 범람 요실금 (Overflow incontinence)",
+      "④ 과민성 방광 (Overactive bladder)"
     ],
-    "correct_option_index": 2,
-    "correct_answer": "B. 절박요실금",
+    "correct_option_index": 0,
+    "correct_answer": "① 복압성 요실금 (Stress urinary incontinence)",
     "explanation": {
       "title": "[단독 기출] 요역동학검사 및 Q-tip 검사를 통한 복압요실금 진단",
       "findings": "기침 시 요누출+Q-tip 40도(요도 과운동성)+배뇨근 무수축 복압성 요누출 → 복압요실금(SUI) 진단",
@@ -113655,7 +113652,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -113791,7 +113788,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -113926,7 +113923,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -114053,7 +114050,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -114133,7 +114130,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -114221,7 +114218,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -114348,7 +114345,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -114475,7 +114472,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -114602,7 +114599,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -114693,7 +114690,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -114779,7 +114776,7 @@
       1
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -114889,7 +114886,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -115008,7 +115005,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -115135,7 +115132,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -115226,7 +115223,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -115321,7 +115318,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -115421,7 +115418,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -115515,7 +115512,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -115625,7 +115622,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -115746,7 +115743,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -115855,7 +115852,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -115966,7 +115963,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -116046,7 +116043,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -116105,7 +116102,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -116208,7 +116205,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -116335,7 +116332,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -116480,7 +116477,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -116576,7 +116573,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -116646,7 +116643,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -116748,7 +116745,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -116858,7 +116855,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -116968,7 +116965,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -117053,7 +117050,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -117121,7 +117118,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -117226,7 +117223,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -117326,7 +117323,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -117395,7 +117392,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -117490,7 +117487,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -117570,7 +117567,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -117647,7 +117644,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -117741,7 +117738,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -117817,7 +117814,7 @@
       0
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],
@@ -117913,7 +117910,7 @@
       3
     ],
     "freq_count": 1,
-    "rate": 16,
+    "rate": 17,
     "freq_years": [
       "19Y"
     ],

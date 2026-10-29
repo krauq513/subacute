@@ -264,11 +264,11 @@
     // Update Header Brand
     if (dom.brandTitle) {
       dom.brandTitle.textContent = (curSub === 'ALL')
-        ? 'subacute (임상의학 기출 퀴즈 마스터 v4.3)'
-        : `subacute v4.3 · ${meta.icon} ${meta.title}`;
+        ? 'subacute (임상의학 기출 퀴즈 마스터 v4.4)'
+        : `subacute v4.4 · ${meta.icon} ${meta.title}`;
     }
     if (dom.brandSubtitle) {
-      dom.brandSubtitle.textContent = `20Y ~ 26Y 실전 기출 완전 정복 • ${subQuestions.length}문항 (v4.3 정밀검수 완결판 • ${meta.desc})`;
+      dom.brandSubtitle.textContent = `20Y ~ 26Y 실전 기출 완전 정복 • ${subQuestions.length}문항 (v4.4 정밀검수 완결판 • ${meta.desc})`;
     }
 
     // Dynamic Year Tabs
