@@ -760,6 +760,31 @@
   }
 
   /**
+   * Update Exam Intelligence Card Theme Display with Spoiler Protection
+   */
+  function updateCardThemeDisplay(q, isAnswered) {
+    if (!dom.cardThemeTitle || !q) return;
+    const realTitle = q.theme_title || '임상 검사 판독 및 의의';
+    dom.cardThemeTitle.dataset.realTheme = realTitle;
+
+    if (isAnswered) {
+      dom.cardThemeTitle.classList.remove('spoiler-masked', 'spoiler-peek');
+      dom.cardThemeTitle.textContent = realTitle;
+      dom.cardThemeTitle.title = '';
+    } else {
+      if (dom.cardThemeTitle.dataset.peeked === q.id) {
+        dom.cardThemeTitle.className = 'intel-theme-text spoiler-peek';
+        dom.cardThemeTitle.textContent = `🔓 ${realTitle}`;
+        dom.cardThemeTitle.title = '클릭하면 다시 가려집니다.';
+      } else {
+        dom.cardThemeTitle.className = 'intel-theme-text spoiler-masked';
+        dom.cardThemeTitle.innerHTML = '<span class="theme-lock-icon">🔒</span> 출제 테마 가림 (스포 방지 · 클릭하여 보기)';
+        dom.cardThemeTitle.title = '정답 스포 방지를 위해 가려져 있습니다. 클릭하면 미리볼 수 있습니다.';
+      }
+    }
+  }
+
+  /**
    * Render Current Question
    */
   function renderCurrentQuestion() {
@@ -876,10 +901,8 @@
       }
     }
 
-    // 2. Exam Intelligence Box Content
-    if (dom.cardThemeTitle) {
-      dom.cardThemeTitle.textContent = q.theme_title || '임상 검사 판독 및 의의';
-    }
+    // 2. Exam Intelligence Box Content (Theme with Spoiler Protection)
+    updateCardThemeDisplay(q, !!state.userAnswers[q.id]);
 
     if (dom.cardFreqStatText) {
       dom.cardFreqStatText.textContent = `6개년 중 ${freqCount}회 출제 (${rate}% 출제율)`;
@@ -1473,6 +1496,9 @@
       dom.feedbackDetail.textContent = `정답은 [${correctDisplayLabels || q.correct_answer}] 입니다. 아래 상세 해설을 확인하세요.`;
     }
 
+    // Reveal theme title in Exam Intelligence Box
+    updateCardThemeDisplay(q, true);
+
     // Clinical Explanation Box
     const exp = q.explanation || {};
     dom.expThemeTitle.textContent = exp.title || q.theme_title || '임상 검사 판독 및 의의';
@@ -1513,6 +1539,9 @@
 
     state.pendingSelections.clear();
     delete state.userAnswers[q.id];
+    if (dom.cardThemeTitle) {
+      delete dom.cardThemeTitle.dataset.peeked;
+    }
     if (state.shuffleOptions) {
       getDisplayOrder(q, true);
     }
@@ -1597,6 +1626,23 @@
    * Setup Event Listeners
    */
   function setupEventListeners() {
+    // Theme Spoiler Mask Toggle Click
+    if (dom.cardThemeTitle) {
+      dom.cardThemeTitle.addEventListener('click', () => {
+        const q = getCurrentQuestion();
+        if (!q) return;
+        const isAnswered = !!state.userAnswers[q.id];
+        if (isAnswered) return; // already revealed
+
+        if (dom.cardThemeTitle.dataset.peeked === q.id) {
+          delete dom.cardThemeTitle.dataset.peeked;
+        } else {
+          dom.cardThemeTitle.dataset.peeked = q.id;
+        }
+        updateCardThemeDisplay(q, false);
+      });
+    }
+
     // Navigation
     dom.btnPrev.addEventListener('click', () => navigate(-1));
     dom.btnNext.addEventListener('click', () => navigate(1));
