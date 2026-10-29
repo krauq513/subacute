@@ -246685,14 +246685,14 @@
     "category": "탈",
     "theme_title": "대량/긴장성 기흉의 응급 처치: 흉관 삽입술(Chest Tube Insertion)",
     "subspecialty": "흉부/외상 영상의학",
-    "stem": "이 환자에게서 시행할 처치로 올바른 것은?",
+    "stem": "기흉(Pneumothorax) 환자에서 시행할 처치로 올바른 것은?",
     "images": [
       "images/영상의학과/26Y_Q03_fig1.png"
     ],
     "options": [
       "① 채혈",
       "② 흉관 삽입",
-      "* 50문제 중 49문제 복기, 60분 시험(CBT)"
+      "③ 단순 경과관찰"
     ],
     "correct_option_index": 1,
     "correct_answer": "② 흉관 삽입",
