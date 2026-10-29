@@ -8,3 +8,5 @@ __pycache__/
 *.pyc
 public/
 validate_web_sync.py
+
+.vercel

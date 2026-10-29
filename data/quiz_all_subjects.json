@@ -6794,9 +6794,7 @@
     "theme_title": "진단검사의학과 과년도 빈출: 엄마가 O, RH+...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "엄마가 O, RH+. 아이 혈액형은 표로 나옴. (cell A, D에 서 4+, serum B+/-). 아이에게 수혈이 필요해서 수혈하려 고 할 때 A, RH+ 혈액으로 교차검사했는데 모두 양성으로 나왔다. 이 때 가장 가능성이 높은 진단은?",
-    "images": [
-      "images/23Y_Q08_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① ABO hemolysis of fetus and newborn",
       "② RH hemolysis of fetus and newborn",
@@ -11131,10 +11129,7 @@
     "theme_title": "2015 ACMG/AMP 유전 변이 해석 가이드라인: 변이 재평가의 의무",
     "subspecialty": "진단유전학",
     "stem": "변이 해석 문제. 2015-ACMG/AMP 가이드라인에 대한 설명으로 옳지 않은 것은?",
-    "images": [
-      "images/23Y_Q42_fig1.png",
-      "images/23Y_Q42_fig2.png"
-    ],
+    "images": [],
     "options": [
       "① 최종적으로 ‘pathogenic’, ‘likely pathogenic’, ‘uncertain significance’, ‘likely benign’, ‘benign’ 5단계 로 분류된다.",
       "② gnomAD를 참고해서 유전자 변이가 정상 집단에서 흔하 지 않은 빈도인지, 5% 이상의 흔한 빈도인지를 알 수 있으 며, 변이 빈도가 변이 해석의 근거가 될 수 있다.",
@@ -12165,10 +12160,7 @@
     "theme_title": "[단독 기출] 다음 중 DM 환자에서 신장 합병증 있는지 보기 위한 ",
     "subspecialty": "진단검사의학과 단독 기출",
     "stem": "다음 중 DM 환자에서 신장 합병증 있는지 보기 위한 검사는?",
-    "images": [
-      "images/23Y_Q50_fig1.png",
-      "images/23Y_Q50_fig2.png"
-    ],
+    "images": [],
     "options": [
       "① microalbuminuria (미세알부민뇨)",
       "② 요 일반 단백시험지봉 검사",
@@ -16904,9 +16896,7 @@
     "theme_title": "유전 질환의 광의적 개념: 환경적 인자(Environmental Factors)의 포함",
     "subspecialty": "진단유전학",
     "stem": "(Y 변형) variant 에 관해 옳은 것을 고르시오. reference genome 과 비교하여 다르면",
-    "images": [
-      "images/22Y_Q38_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① 서 기능적 변화를 보이는 것을 variant 라고 한다. 인구 집단의 변이 빈도를 알면",
       "② pathogenicity 를 알 수 있다. 유전 질환(genetic disorder)은 환경적 인",
@@ -19035,9 +19025,7 @@
     "theme_title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
     "subspecialty": "진단면역학/혈액학",
     "stem": "유세포분석(Flow Cytometry)으로 평가하기에 적절하지 않은 항목은?",
-    "images": [
-      "images/21Y_Q05_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① 면역표현형 분석 (Immunophenotyping)",
       "② HLA 교차시험 (HLA crossmatching)",
@@ -26842,9 +26830,7 @@
     "subspecialty": "심장내과 / 관상동맥",
     "stem": "44세 남성이 3시간 전부터 시작된 흉골 하부의 쥐어짜는 듯한 흉통으로 내원하였다. 혈압 90/50 mmHg, 맥박 120회/분, CK-MB 1,800 ng/mL, Troponin-I 200 ng/mL로 상승되었고, 심전도상 II, III, aVF 유도에서 ST분절 상승이 관찰되었다. 진단은?",
     "images": [
-      "images/내과/26Y_Q04_fig1.png",
-      "images/내과/26Y_Q04_fig2.png",
-      "images/내과/26Y_Q04_fig3.png"
+      "images/내과/26Y_Q04_fig1.png"
     ],
     "options": [
       "ST분절 상승 심근경색증 (ST-segment elevation myocardial infarction, STEMI)",
@@ -32727,9 +32713,7 @@
     "theme_title": "원내 폐렴 및 다제내성균 치료의 표적 항생제: Vancomycin",
     "subspecialty": "감염내과 / 원내감염",
     "stem": "65세 남성이 지역사회획득 폐렴으로 입원하여 2세대 cephalosporin과 clarithromycin으로 치료를 시작하였다. 3일간 치료하고 발열은 임상적으로 호전되었으며 흉부 x-ray 소견은 변화가 없었다. 환자는 호전된 상태이지만, 이후 항생제 감수성 결과가 나와 MRSA로 확인되었다. 사용해야 할 항생제로 옳은 것은?",
-    "images": [
-      "images/내과/26Y_Q49_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① fluoroquinolone만 투여",
       "② 2세대 cephalosporin만 투여",
@@ -34730,8 +34714,7 @@
     "subspecialty": "내과 단독 기출",
     "stem": "66세 남성이 앉아 있다가 갑작스런 의식 소실로 응급실에 내원하였다. 환자의 vital sign은 다음과 같았다. 혈압 95/70 ­ 맥박 95 ­ 호흡수 22 ­ 체온 36.4 심전도를 촬영했을 때 다음 그림과 같았다고 할 때, 의식 소 실의 이유는 무엇인가?",
     "images": [
-      "images/내과/23Y_Q03_fig1.png",
-      "images/내과/23Y_Q03_fig2.png"
+      "images/내과/23Y_Q03_fig1.png"
     ],
     "options": [
       "①Tachycardia-bradycardia syndrome",
@@ -35644,9 +35627,7 @@
     "stem": "18세 남학생이 체육시간에 축구를 하던 중 심정지로 119 통해 내원하게 되었다. 적절한 심폐소생술 이후에 진행 한 work-up에서 다음과 같은 finding이 있었다. EKG (LVH라고 조그맣게 써 있었음) 이 남학생의 급사 예방을 위 하여 필요한 추가 조치는?",
     "images": [
       "images/내과/23Y_Q10_fig1.png",
-      "images/내과/23Y_Q10_fig2.png",
-      "images/내과/23Y_Q10_fig3.png",
-      "images/내과/23Y_Q10_fig4.png"
+      "images/내과/23Y_Q10_fig2.png"
     ],
     "options": [
       "①Carvedilol",
@@ -37272,10 +37253,7 @@
     "theme_title": "[단독 기출] (학년말 Y) 57세 남성이 붉은 피를 토해 내원하였다. ",
     "subspecialty": "내과 단독 기출",
     "stem": "(학년말 Y) 57세 남성이 붉은 피를 토해 내원하였다. 평소 하루에 소주 한 병을 마시던 환자였다. BP-80/46, HR-122, RR-18, BT- 37.1 Hb-8.2, INR-1.8, GGT-1,110 (이외 lab 이상소견 없었음) 먼저 시행해야 할 처치는?",
-    "images": [
-      "images/내과/23Y_Q23_fig1.png",
-      "images/내과/23Y_Q23_fig2.png"
-    ],
+    "images": [],
     "options": [
       "①Telipressin",
       "②내시경적 지혈술",
@@ -49793,9 +49771,7 @@
     "theme_title": "내과 일반: 호흡기 증상으로 입원한 환자, 검사로 SARS- CoV2 양성 ...",
     "subspecialty": "내과 일반",
     "stem": "호흡기 증상으로 입원한 환자, 검사로 SARS- CoV2 양성 진단받아 음압병동에서 치료받고 있음. SpO2 89%. 적절한 치료는? (CT 사진도 있었음) Remdesivir",
-    "images": [
-      "images/내과/21Y_Q13_fig1.png"
-    ],
+    "images": [],
     "options": [
       "⚫"
     ],
@@ -50114,8 +50090,7 @@
     "subspecialty": "내과 일반",
     "stem": "(야마) 61 세 남성 3 개월 전부터 시작된 호흡곤란을 주소로 내원. PFT 검사 결과 상 진단은? (강의록에서 발췌함. 시험은 실제 사진) COPD",
     "images": [
-      "images/내과/21Y_Q16_fig1.png",
-      "images/내과/21Y_Q16_fig2.png"
+      "images/내과/21Y_Q16_fig1.png"
     ],
     "options": [
       "⚫ IPF",
@@ -50451,8 +50426,7 @@
     "subspecialty": "내과 일반",
     "stem": "(변형야마) 얼굴이 붓고 두통 있으며 호흡곤란 동반되어 찍은 Chest PA 에서 이상소견 보여 시행한 CT, PET-CT 소견이다. Brain MRI, Bone scan 상 이상 소견 없었음. 필요한 치료는? (없는 사진이라서 소세포암에 맞는 사진 긁어왔습니다. 병기설정에는 하단 설명 참고해 푸시면 됩니다.)",
     "images": [
-      "images/내과/21Y_Q19_fig1.png",
-      "images/내과/21Y_Q19_fig2.png"
+      "images/내과/21Y_Q19_fig1.png"
     ],
     "options": [],
     "correct_option_index": 0,
@@ -51946,9 +51920,7 @@
     "theme_title": "내과 일반: 육안혈뇨 있는 사람 160/100 고혈압에 혈압 높 게 측정되고...",
     "subspecialty": "내과 일반",
     "stem": "육안혈뇨 있는 사람 160/100 고혈압에 혈압 높 게 측정되고 당뇨 있으나 잘 조절 됨. 망막병증 없음. 단백뇨 있음. 24 시간 단백 0.5g 혈뇨 4+ CT 로 한쪽 renal artery perfusion 안되는 사진 주어짐. 혈뇨 원인은? 당뇨콩팥병",
-    "images": [
-      "images/내과/21Y_Q33_fig1.png"
-    ],
+    "images": [],
     "options": [
       "⚫ 신결석",
       "⚫ 방광암",
@@ -52407,9 +52379,7 @@
     "theme_title": "심부전 및 신기능 저하 동반 2형 당뇨병의 표준 치료제 (SGLT-2 억제제)",
     "subspecialty": "내과 일반",
     "stem": "중년 여성 당뇨병 병력. 최근 호흡곤란 심해지고 심비대 보임. 심장 EF 저하된 소견. 신장 GFR 는 45 정도, BUN/CR 수치 안좋았음. Urine ACR 500 정 도 였음. 이 환자에게 사용할수 있는 약? SGLT-2 Inhibitor",
-    "images": [
-      "images/내과/21Y_Q37_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① SGLT-2 억제제 (SGLT-2 inhibitor)",
       "② 메트포르민 (Metformin)",
@@ -53881,9 +53851,7 @@
     "theme_title": "내과 일반: Multiple myeloma 소견, lab 엄청 길게 줌 In...",
     "subspecialty": "내과 일반",
     "stem": "Multiple myeloma 소견, lab 엄청 길게 줌 Intenational staging system 의 stage 는? 대표적 Lab) Albumin 3.4, M protein 5.5 b2 microglobulin 5.2 0",
-    "images": [
-      "images/내과/21Y_Q49_fig1.png"
-    ],
+    "images": [],
     "options": [
       "⚫ I",
       "⚫ II",
@@ -55377,8 +55345,7 @@
     "stem": "46세 여자 어지럽고 두근거림으로 내원. 2년전 비허혈성 심근병증으로 진단. V/S 87/57-130-25회, 심초음파에서 LA,LV 확장소견 보임. A-fib으로 보이는 ekg. EF:41% (고흐 그림. 힌트로 줌), 쓸 수 있는 약물은?",
     "images": [
       "images/내과/20Y_Q03_fig1.png",
-      "images/내과/20Y_Q03_fig2.png",
-      "images/내과/20Y_Q03_fig3.png"
+      "images/내과/20Y_Q03_fig2.png"
     ],
     "options": [
       "① neprilysin inhibitor",
@@ -55824,7 +55791,6 @@
     "subspecialty": "내과 일반",
     "stem": "30년 동안 DM 환자. 걸을 수록 심해지는 통증으로 내원. 혈액검사 상 HbA1c 7.0 이외 이상 없고 (D-dimer 등 주 어지지 않음), ABI 0.7/1.0 주어지고, 영상에서 abdominal aorta -> iliac artery에 occlusion 보임. 치료는?",
     "images": [
-      "images/내과/20Y_Q07_fig1.png",
       "images/내과/20Y_Q07_fig2.png"
     ],
     "options": [
@@ -55902,9 +55868,7 @@
     "theme_title": "내과 일반: ?세 여성이 일을 할 때 심해지는 호흡곤란으로 내원함...",
     "subspecialty": "내과 일반",
     "stem": "?세 여성이 일을 할 때 심해지는 호흡곤란으로 내원함. 검 사 상 LA, RA와 RV 커져있는 소견 보임. 심초음파 사진 주어짐. 진단은? (초음파 사진 상 ↙Aortic valve 적혀있었고 그 옆으로 mosaic jet 보였습니다. 낚시인지 힌트인지…)",
-    "images": [
-      "images/내과/20Y_Q08_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① 승모판역류",
       "② 승모판협착",
@@ -56517,9 +56481,7 @@
     "theme_title": "내과 일반: 중년 남자가 호흡곤란을 주소로 응급실에 내원하였다...",
     "subspecialty": "내과 일반",
     "stem": "중년 남자가 호흡곤란을 주소로 응급실에 내원하였다. 과 거력 상 만성폐쇄성폐질환을 진단받았다. 자택산소치료를 받고있으며 순응도는 좋다. 최근 숨이 찬 증상이 악화되었 다. 의식은 명료하며 혈압 120/80 이었다. 산소공급을 해 도 동맥혈가스분석 결과는 pH 7.2 PaCO2 80mmHg, PaO2 110mmHg, HCO3- ??, Base Excess ?? 이었다. 이 환자의 처치로 알맞은 것은?",
-    "images": [
-      "images/내과/20Y_Q14_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① 고유량 비강캐뉼라",
       "② 비침습적양압환기",
@@ -56898,9 +56860,7 @@
     "theme_title": "내과 일반: 객혈이 있어 병원에 왔다...",
     "subspecialty": "내과 일반",
     "stem": "객혈이 있어 병원에 왔다. 흉부 X선 사진에 결절이 보여 조직검사와 전신핵의학스캔을 진행했다. 핵의학스캔 상 원격전이는 없었을 겁니다… 조직검사: 폐선암 변이: EGFR 변이(-), ALK 변이(+) 기타 다른 변이들 (-)…",
-    "images": [
-      "images/내과/20Y_Q18_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① adalimumab",
       "② pemetrexed/cisplatin",
@@ -57360,8 +57320,7 @@
     "subspecialty": "내과 단독 기출",
     "stem": "40/F, 식후 우상복부 통증 호소로 내원하였다. 초음파 사진은 다음과 같았다. (석회화 담낭, 담석 큰 것 존재하였음) 이 환자에게 적합 한 치료는 무엇인가?",
     "images": [
-      "images/내과/20Y_Q22_fig1.png",
-      "images/내과/20Y_Q22_fig2.png"
+      "images/내과/20Y_Q22_fig1.png"
     ],
     "options": [
       "① 담낭절제술",
@@ -58110,8 +58069,7 @@
     "subspecialty": "내과 단독 기출",
     "stem": "환자가 흑색변을 주소로 내원하여 위내시경 검사를 시행하였으나 광범위한 다량 출혈로 인해 시야 확보 및 내시경적 지혈술에 실패하였다. 혈역학적 안정을 도모하며 다음으로 시행해야 할 처치는?",
     "images": [
-      "images/내과/20Y_Q28_fig1.png",
-      "images/내과/20Y_Q28_fig2.png"
+      "images/내과/20Y_Q28_fig1.png"
     ],
     "options": [
       "혈관조영술 및 경도관 동맥 색전술 (TAE)",
@@ -60052,9 +60010,7 @@
     "theme_title": "[단독 기출] 변형) 무증상 일차성 부갑상선기능항진증 환자",
     "subspecialty": "내과 단독 기출",
     "stem": "(18연말 변형) 무증상 일차성 부갑상선기능항진증 환자 에 대한 소견 제시됨. 부갑상선기능항진증 임상양상 제 시됨. 이 환자가 부갑상선 수술을 하게된 적응증에 맞는 소견은? 나이 55세 혈액검사상 Ca 11.8, iPTH 100, GFR 80 24hr Urine Ca 860, GFR 80 DXA 상 L1-4 평균 -2.2, femur neck -2.0",
-    "images": [
-      "images/내과/20Y_Q43_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① 나이",
       "② 24시간 소변 Ca",
@@ -70518,9 +70474,7 @@
     "theme_title": "비정형 유관증식증(ADH) / BIRADS 4a의 처치 (절제생검)",
     "subspecialty": "외과 일반",
     "stem": "47세 여자 환자가 건강검진 상 시행한 유방촬영술에서 좌측 유 방 10시 방향, 유두에서 2cm 떨어진 곳에 크기 1.5 cm, BIRADS 4a 병변이 확인되었고, 이후 실시한 핵침조직검사상 비정형세포증식증 이 확인되었다. 다음 처치로 올바른 것은? (답논란)",
-    "images": [
-      "images/외과/21Y_Q02_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① 광범위 부분 절제술",
       "② 맘모톰 유방 절제술",
@@ -71801,9 +71755,7 @@
     "theme_title": "담낭절제술 후 담즙 누출(Bile Leak)의 1순위 처치",
     "subspecialty": "외과 일반",
     "stem": "GB empyema 및 perforation으로 담낭 절제술을 받은 환자의 배 액이 담즙색으로 변하였다. Vital sign은 안정할때 1순위로 해야할 처 치는?",
-    "images": [
-      "images/외과/21Y_Q12_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① 경피경간담즙배액술 (PTBD)",
       "② 응급 수술",
@@ -86353,9 +86305,7 @@
     "theme_title": "산부인과 과년도 빈출: Internal rotation 관련 진단 및 처치",
     "subspecialty": "산부인과 과년도 빈출",
     "stem": "후두위의 질식분만 중 Cardinal movement 중 에서 fetal occiput이 symphysis pubis를 향하여 앞 쪽으로 회전하여 O-A position을 유도하는 과정은?",
-    "images": [
-      "images/산부인과/23Y_Q10_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① Internal rotation",
       "② External rotation",
@@ -87394,8 +87344,7 @@
     "subspecialty": "산과학 / 분만기전·산과수술",
     "stem": "임신성 고혈압이 있는 임신 36주 산모가 복통을 주소로 내원하였다. 혈압은 180/120이었고, NST는 다음과 같다. 자궁목순화는 일어나지 않았다. 처치는? (정확히 똑같은 사진은 아니고 prolonged deceleration을 나타내는 NST였습니다.)",
     "images": [
-      "images/산부인과/23Y_Q18_fig1.png",
-      "images/산부인과/23Y_Q18_fig2.png"
+      "images/산부인과/23Y_Q18_fig1.png"
     ],
     "options": [
       "① 제왕절개",
@@ -90770,8 +90719,7 @@
     "subspecialty": "기형학 & 부인종양학",
     "stem": "산과력 2-0-1-2인 60세 여성이 질 출혈을 주소로 내원하였다. 개인 의원에서 실시한 자궁경부 세포 검사 결가 HSIL 이었다. 자궁경부에 3~4cm 크기의 종괴가 관찰되었 고, 침윤성 편평세포암종이었다. 진찰 및 MRI 소견이다. 다음 으로 시행할 적절한 조치는?",
     "images": [
-      "images/산부인과/23Y_Q45_fig1.png",
-      "images/산부인과/23Y_Q45_fig2.png"
+      "images/산부인과/23Y_Q45_fig1.png"
     ],
     "options": [
       "① 단순 전자궁적출술",
@@ -93222,9 +93170,7 @@
     "theme_title": "테마 09. 다낭난소증후군(PCOS) 난임 환자의 1차 배란유도제(Letrozole)",
     "subspecialty": "생식내분비학 / 불임",
     "stem": "다음은 과배란 유도 후 생길 수 있는 난소과자 극증후군(OHSS)의 특징에 대한 설명이다. 틀린 것은? 난자 채취 후 9 일 이내에 생기는",
-    "images": [
-      "images/산부인과/22Y_Q04_fig1.png"
-    ],
+    "images": [],
     "options": [
       "⚫ 경우를 초기 OHSS 으로 정의하며 혈중 estradiol 이 높은 경우와 난자 개수가 관련이 있다. 중증 OHSS 는 약 1%에서 나타나며,",
       "⚫ 호흡곤란, 복부팽만 등 생명을 위협할 수도 있다. OHSS 를 예방하는 방법으로",
@@ -96527,9 +96473,7 @@
     "theme_title": "산부인과 일반: 산전진단검사에 관한 설명이다...",
     "subspecialty": "산부인과 일반",
     "stem": "산전진단검사에 관한 설명이다. 옳은 것은?",
-    "images": [
-      "images/산부인과/22Y_Q33_fig1.png"
-    ],
+    "images": [],
     "options": [
       "목덜미  투명대가  3.0mm  이상시  태아 기형의  고위험군을  의미하므로  정밀  초 음파검사와  태아염색체검사 가  필요하다.",
       "제1 삼분기에  시행하는  병합선별검사는 11~14 주에 목덜미  투명대검사와  PAPP-A,"
@@ -97164,9 +97108,7 @@
     "theme_title": "산부인과 과년도 빈출: Internal rotation 관련 진단 및 처치",
     "subspecialty": "산부인과 과년도 빈출",
     "stem": "(22 계통) 후두위의 질식분만 중 Cardinal movement 중에서 fetal occiput 이 symphysis pubis 를 향하여 앞쪽으로 회전하여 O-A position 을 유도하는 과정은? External rotation",
-    "images": [
-      "images/산부인과/22Y_Q39_fig1.png"
-    ],
+    "images": [],
     "options": [
       "⚫ Internal rotation",
       "⚫ Expulsion",
@@ -101723,9 +101665,7 @@
     "subspecialty": "기형학 & 부인종양학",
     "stem": "산과력  3-0-4-3 인  53 세  여성이  성교  후 질출혈을  주소로  내원하였다.  개인 의원에서 실시한 자궁경부 세포 검사 결과 HSIL 이 나왔다. 자궁 경부에 4cm 크기의 종괴가 관찰되었고, 질 확대경을 하자 궁경부 조직검사를 시행한 생검에서 침윤성 편평상피 세포암으로 진단되었다.  수술 전 촬영한 MRI image 는 다음과 같다. 다음으로 시행할 적절한 조치는? (자궁 경부 확대 사진이 하나 더 있었고 출혈 확인 가능했음)",
     "images": [
-      "images/산부인과/21Y_Q16_fig1.png",
-      "images/산부인과/21Y_Q16_fig2.png",
-      "images/산부인과/21Y_Q16_fig3.png"
+      "images/산부인과/21Y_Q16_fig1.png"
     ],
     "options": [
       "1) 원추 절제술은 이미 시행했으므로 추가 치료없이 정기적 추적관찰만 시행한다.",
@@ -107425,9 +107365,7 @@
     "theme_title": "테마 45. 자궁경부암(Cervical Cancer IB1)의 수술적 치료",
     "subspecialty": "기형학 & 부인종양학",
     "stem": "산과력 3-0-4-3인 53세 여성이 성교 후 33. 질출혈을 주소로 내원하였다. 개인 의원에서 실시한 자궁경부 세포 검사 결과 HSIL이 나왔다. 자궁 경부에 2cm 크기의 종괴가 관찰되었고, 질 확대경을 하자 자궁경부 조직검사를 시행한 생검에서 침윤성편평상피세포암으로 진단되었다. 수술 전 촬영한 MRI image는 다음과 같다. 다음으로 시행할 적절한 조치는?",
-    "images": [
-      "images/산부인과/20Y_Q33_fig1.png"
-    ],
+    "images": [],
     "options": [],
     "correct_option_index": 3,
     "correct_answer": "④ 근치적 자궁절제술, 골반 림프절 절제술 (Radical Hysterectomy + PLND)",
@@ -120299,62 +120237,27 @@
     "year": "26Y",
     "q_num": 15,
     "category": "탈",
-    "theme_title": "십이지장 폐쇄증(Duodenal Atresia)의 진단(이중공기음영)과 수술적 재건술",
-    "subspecialty": "소아소화기 & 소아외과",
-    "stem": "6세 남아가 5일 전부터 눈 주위가 붓고 소변량이 줄어 내원하였다. 혈압은 정상이었고 복수가 차 있었다. 혈청 알부민 1.8 g/dL, 총 콜레스테롤 350 mg/dL, 24시간 소변 단백 2.5 g/day였다. 초기 치료로 가장 적절한 것은?",
+    "theme_title": "선천성 십이지장 폐쇄(Duodenal Atresia)와 Double-bubble sign",
+    "subspecialty": "소화기",
+    "stem": "생후 1일 된 신생아가 출생 직후부터 시작된 담즙성 구토를 주소로 내원하였다. 신체검진에서 심한 복부 팽만은 관찰되지 않았으며, 복부 단순 방사선 촬영(X-ray)에서 다음과 같은 소견이 확인되었다. 가장 의심되는 진단은?",
     "images": [
       "images/소아청소년과/26Y_Q15_fig1.png"
     ],
     "options": [
-      "① Duodenal atresia ­ surgical repair",
-      "② HPS ­ feeding 지속",
-      "③ NEC ­ NPO & 항생제",
-      "④ Colon intussusception - surgery"
+      "① 선천성 십이지장 폐쇄 (Duodenal atresia)",
+      "② 비후성 유문협착증 (Hypertrophic pyloric stenosis)",
+      "③ 장회전이상 및 중장염전 (Malrotation with midgut volvulus)",
+      "④ 선천성 거대결장 (Hirschsprung disease)",
+      "⑤ 괴사성 장염 (Necrotizing enterocolitis)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① Duodenal atresia ­ surgical repair",
+    "correct_answer": "① 선천성 십이지장 폐쇄 (Duodenal atresia)",
     "explanation": {
-      "title": "십이지장 폐쇄증(Duodenal Atresia)의 진단(이중공기음영)과 수술적 재건술",
-      "findings": "담즙성(초록색) 구토 + 복부 X선 이중 공기 음영(Double bubble sign) → 선천성 십이지장 폐쇄증, 수술적 교정",
-      "differential": "• ① Duodenal atresia ­ surgical repair ✓ [정답]: surgical repair — 단순 복부 촬영에서 위와 십이지장 근위부 팽창을 나타내는 이중 공기 음영(double-bubble sign)을 보이며, 십이지장-십이지장 문합술로 교정합니다\n• ② HPS ­ feeding 지속 ✗ [오답]: feeding 지속 — 비후성 유문협착증은 생후 2~8주에 발생하는 비담즙성 사출성 구토 질환으로, 치료 전 수유를 중단하고 탈수와 전해질을 교정한 뒤 유문근절개술을 시행해야 합니다.\n• ③ NEC ­ NPO & 항생제 ✗ [오답]: NPO & 항생제 — 주로 미숙아에서 경장 영양 시작 후 발생하며 복부 팽만과 혈변을 보이고, 단순 복부 촬영에서 장벽내 가스(pneumatosis intestinalis)가 관찰되는 질환입니다.\n• ④ Colon intussusception - surgery ✗ [오답]: surgery — 간헐적 복통과 점액성 혈변(currant jelly stool)을 보이며 초음파상 과녁 징후를 나타내고, 장천공이 없다면 공기정장술을 우선 시도합니다.",
-      "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "담즙성(초록색) 구토 + 복부 X선 이중 공기 음영(Double bubble sign) → 선천성 십이지장 폐쇄증, 수술적 교정",
-      "kmle_link": "KMLE 소아청소년과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "Duodenal atresia ­ surgical repair",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "surgical repair — 단순 복부 촬영에서 위와 십이지장 근위부 팽창을 나타내는 이중 공기 음영(double-bubble sign)을 보이며, 십이지장-십이지장 문합술로 교정합니다"
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "HPS ­ feeding 지속",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "feeding 지속 — 비후성 유문협착증은 생후 2~8주에 발생하는 비담즙성 사출성 구토 질환으로, 치료 전 수유를 중단하고 탈수와 전해질을 교정한 뒤 유문근절개술을 시행해야 합니다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "NEC ­ NPO & 항생제",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "NPO & 항생제 — 주로 미숙아에서 경장 영양 시작 후 발생하며 복부 팽만과 혈변을 보이고, 단순 복부 촬영에서 장벽내 가스(pneumatosis intestinalis)가 관찰되는 질환입니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "Colon intussusception - surgery",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "surgery — 간헐적 복통과 점액성 혈변(currant jelly stool)을 보이며 초음파상 과녁 징후를 나타내고, 장천공이 없다면 공기정장술을 우선 시도합니다."
-        }
-      ],
-      "differential_general": ""
+      "title": "선천성 십이지장 폐쇄(Duodenal Atresia)와 Double-bubble sign",
+      "findings": "출생 첫날부터 나타나는 담즙성 구토, 복부 팽만 없음(상부 위장관 폐쇄), 복부 X-ray상 위(stomach)와 근위부 십이지장이 팽창된 전형적인 쌍기포 징후(Double-bubble sign) 및 원위부 장관 가스 소실.",
+      "diagnosis": "선천성 십이지장 폐쇄 (Congenital duodenal atresia)",
+      "treatment": "비위관 감압 및 수액 교정 후 수술적 교정(십이지장-십이지장 문합술, Duodenoduodenostomy)",
+      "clinical_pearls": "다운증후군(Down syndrome) 등 선천성 기형이 약 30%에서 동반됩니다. 비후성 유문협착증은 생후 2~3주경 비담즙성 사출성 구토와 복부 X-ray상 단일 기포(Single-bubble sign)를 보입니다."
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -120373,34 +120276,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Duodenal atresia ­ surgical repair",
+        "text": "선천성 십이지장 폐쇄 (Duodenal atresia)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "surgical repair — 단순 복부 촬영에서 위와 십이지장 근위부 팽창을 나타내는 이중 공기 음영(double-bubble sign)을 보이며, 십이지장-십이지장 문합술로 교정합니다"
+        "reason": "출생 직후 담즙성 구토와 복부 X-ray의 Double-bubble sign(위와 십이지장 구부의 확장 및 원위부 가스 소실)은 선천성 십이지장 폐쇄의 특징적 소견입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "HPS ­ feeding 지속",
+        "text": "비후성 유문협착증 (Hypertrophic pyloric stenosis)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "feeding 지속 — 비후성 유문협착증은 생후 2~8주에 발생하는 비담즙성 사출성 구토 질환으로, 치료 전 수유를 중단하고 탈수와 전해질을 교정한 뒤 유문근절개술을 시행해야 합니다."
+        "reason": "생후 2~3주경 비담즙성 사출성 구토와 Single-bubble sign을 보입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "NEC ­ NPO & 항생제",
+        "text": "장회전이상 및 중장염전 (Malrotation with midgut volvulus)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "NPO & 항생제 — 주로 미숙아에서 경장 영양 시작 후 발생하며 복부 팽만과 혈변을 보이고, 단순 복부 촬영에서 장벽내 가스(pneumatosis intestinalis)가 관찰되는 질환입니다."
+        "reason": "담즙성 구토를 보이나 상부위장관 조영술에서 Corkscrew sign으로 확진합니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Colon intussusception - surgery",
+        "text": "선천성 거대결장 (Hirschsprung disease)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "surgery — 간헐적 복통과 점액성 혈변(currant jelly stool)을 보이며 초음파상 과녁 징후를 나타내고, 장천공이 없다면 공기정장술을 우선 시도합니다."
+        "reason": "태변 배출 지연과 심한 하부 장관 팽만을 보입니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "괴사성 장염 (Necrotizing enterocolitis)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "미숙아에서 수유 시작 후 복부 팽만, 혈변, 장벽 내 공기(pneumatosis intestinalis)를 보입니다."
       }
     ]
   },
@@ -121282,71 +121193,27 @@
     "year": "26Y",
     "q_num": 23,
     "category": "짤",
-    "theme_title": "신생아 호흡곤란증후군(RDS)의 병태생리 (폐 표면활성제 결핍과 표면장력 증가)",
-    "subspecialty": "신생아학 & 호흡기",
-    "stem": "2세 남아가 3일간의 고열이 내리면서 몸통과 목에 분홍색 반점구진성 발진이 나타나 내원하였다. 열이 나는 동안 보채기는 했으나 기침이나 콧물은 심하지 않았다. 원인 병원체는?",
+    "theme_title": "신생아 호흡곤란증후군(RDS)의 흉부 X-ray 소견과 폐표면활성제 치료",
+    "subspecialty": "신생아",
+    "stem": "재태연령 29주, 출생체중 1,250g으로 출생한 미숙아가 출생 직후부터 빈호흡, 흉벽 함몰, 신음 호흡(grunting) 및 청색증을 보였다. 촬영한 흉부 방사선 사진(CXR)이 다음과 같을 때 가장 적절한 치료는?",
     "images": [
       "images/소아청소년과/26Y_Q23_fig1.png"
     ],
     "options": [
-      "①  폐 표면장력이 감소되어 있다",
-      "②  폐 순응도(Compliance)가 감소되어 있다.",
-      "③ 일정 압력(Pressure)당 폐공기량(Volume)이 감소되어 있다.",
-      "④ 폐 표면활성제의 부족으로 무기폐가 생긴다.",
-      "⑤ 분만에 비해 C/sec하는 경우 더 많이 발생한다."
+      "① 폐표면활성제(Surfactant) 기도 내 투여",
+      "② 100% 산소 후드(Oxygen hood) 단독 투여",
+      "③ 정맥 내 이뇨제(Furosemide) 투여",
+      "④ 응급 흉관 삽입술(Chest tube insertion)",
+      "⑤ 프로스타글란딘 E1(PGE1) 지속 정주"
     ],
     "correct_option_index": 0,
-    "correct_answer": "①  폐 표면장력이 감소되어 있다",
+    "correct_answer": "① 폐표면활성제(Surfactant) 기도 내 투여",
     "explanation": {
-      "title": "신생아 호흡곤란증후군(RDS)의 병태생리 (폐 표면활성제 결핍과 표면장력 증가)",
-      "findings": "재태 28주 미숙아 호흡곤란 및 망상과립상 음영(RDS) → 표면활성제 결핍으로 폐포 '표면장력이 증가'하여 무기폐 발생",
-      "differential": "• ① 폐 표면장력이 감소되어 있다 ✓ [정답]: 폐 표면활성제(surfactant) 결핍으로 폐포 기-액 경계면의 표면장력이 비정상적으로 '증가'하여 호기 시 폐포가 허탈됩니다. 감소가 틀림\n• ② 폐 순응도(Compliance)가 감소되어 있다. ✗ [오답]: 표면장력 증가로 인해 폐포를 팽창시키는 데 더 큰 압력이 필요하므로 폐 순응도(compliance)가 현저히 감소합니다. (O)\n• ③ 일정 압력(Pressure)당 폐공기량(Volume)이 감소되어 있다. ✗ [오답]: 순응도가 떨어진 뻣뻣한 폐가 되므로 동일한 환기 압력(Pressure)을 주어도 들어가는 폐 공기량(Volume)이 감소합니다. (O)\n• ④ 폐 표면활성제의 부족으로 무기폐가 생긴다. ✗ [오답]: 라플라스 법칙(P=2T/r)에 따라 표면장력이 높아진 작은 폐포들이 호기 말에 완전히 허탈되어 미만성 무기폐를 형성합니다. (O)\n• ⑤ 분만에 비해 C/sec하는 경우 더 많이 발생한다. ✗ [오답]: 진통 스트레스에 의한 내인성 스테로이드 분비와 흉곽 압박을 통한 폐액 배출이 생략되므로 제왕절개 시 발생 위험이 높아집니다. (O)",
-      "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "재태 28주 미숙아 호흡곤란 및 망상과립상 음영(RDS) → 표면활성제 결핍으로 폐포 '표면장력이 증가'하여 무기폐 발생",
-      "kmle_link": "KMLE 소아청소년과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "폐 표면장력이 감소되어 있다",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "폐 표면활성제(surfactant) 결핍으로 폐포 기-액 경계면의 표면장력이 비정상적으로 '증가'하여 호기 시 폐포가 허탈됩니다. 감소가 틀림"
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "폐 순응도(Compliance)가 감소되어 있다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "표면장력 증가로 인해 폐포를 팽창시키는 데 더 큰 압력이 필요하므로 폐 순응도(compliance)가 현저히 감소합니다. (O)"
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "일정 압력(Pressure)당 폐공기량(Volume)이 감소되어 있다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "순응도가 떨어진 뻣뻣한 폐가 되므로 동일한 환기 압력(Pressure)을 주어도 들어가는 폐 공기량(Volume)이 감소합니다. (O)"
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "폐 표면활성제의 부족으로 무기폐가 생긴다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "라플라스 법칙(P=2T/r)에 따라 표면장력이 높아진 작은 폐포들이 호기 말에 완전히 허탈되어 미만성 무기폐를 형성합니다. (O)"
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "분만에 비해 C/sec하는 경우 더 많이 발생한다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "진통 스트레스에 의한 내인성 스테로이드 분비와 흉곽 압박을 통한 폐액 배출이 생략되므로 제왕절개 시 발생 위험이 높아집니다. (O)"
-        }
-      ],
-      "differential_general": ""
+      "title": "신생아 호흡곤란증후군(RDS)의 흉부 X-ray 소견과 폐표면활성제 치료",
+      "findings": "미숙아에서 출생 직후 발생한 호흡곤란, 흉부 X-ray상 폐 용적 감소, 전반적인 미세 과립상/간유리 음영(Ground-glass appearance) 및 공기기관지음영(Air-bronchogram).",
+      "diagnosis": "신생아 호흡곤란증후군 (Respiratory Distress Syndrome, RDS)",
+      "treatment": "폐표면활성제(Exogenous surfactant) 기도 내 투여 및 지속적 양압환기(CPAP)/기계환기 보조",
+      "clinical_pearls": "신생아 일과성 빈호흡(TTN)은 만삭아 제왕절개 후 폐문부 혈관 음영 증가와 엽간 흉수(fissural fluid), 과팽창 소견을 보이며 대개 48~72시간 내 호전됩니다."
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -121367,42 +121234,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "폐 표면장력이 감소되어 있다",
+        "text": "폐표면활성제(Surfactant) 기도 내 투여",
         "is_correct": true,
         "tag": "정답",
-        "reason": "폐 표면활성제(surfactant) 결핍으로 폐포 기-액 경계면의 표면장력이 비정상적으로 '증가'하여 호기 시 폐포가 허탈됩니다. 감소가 틀림"
+        "reason": "미숙아 RDS의 흉부 X-ray(전폐야 간유리 음영 및 공기기관지음영)가 확인되면 부족한 폐표면활성제를 기도 내로 보충 투여하는 것이 근본 치료입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "폐 순응도(Compliance)가 감소되어 있다.",
+        "text": "100% 산소 후드(Oxygen hood) 단독 투여",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "표면장력 증가로 인해 폐포를 팽창시키는 데 더 큰 압력이 필요하므로 폐 순응도(compliance)가 현저히 감소합니다. (O)"
+        "reason": "신생아 일과성 빈호흡(TTN) 등 경증 호흡곤란의 대증 요법입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "일정 압력(Pressure)당 폐공기량(Volume)이 감소되어 있다.",
+        "text": "정맥 내 이뇨제(Furosemide) 투여",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "순응도가 떨어진 뻣뻣한 폐가 되므로 동일한 환기 압력(Pressure)을 주어도 들어가는 폐 공기량(Volume)이 감소합니다. (O)"
+        "reason": "폐부종이나 기관지폐이형성증(BPD) 수분 과부하 시 고려하며 RDS 초기 치료가 아닙니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "폐 표면활성제의 부족으로 무기폐가 생긴다.",
+        "text": "응급 흉관 삽입술(Chest tube insertion)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "라플라스 법칙(P=2T/r)에 따라 표면장력이 높아진 작은 폐포들이 호기 말에 완전히 허탈되어 미만성 무기폐를 형성합니다. (O)"
+        "reason": "긴장성 기흉의 치료입니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "분만에 비해 C/sec하는 경우 더 많이 발생한다.",
+        "text": "프로스타글란딘 E1(PGE1) 지속 정주",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "진통 스트레스에 의한 내인성 스테로이드 분비와 흉곽 압박을 통한 폐액 배출이 생략되므로 제왕절개 시 발생 위험이 높아집니다. (O)"
+        "reason": "동맥관 의존성 선천성 심장질환의 치료입니다."
       }
     ]
   },
@@ -121675,62 +121542,27 @@
     "year": "26Y",
     "q_num": 26,
     "category": "짤",
-    "theme_title": "급성 파종성 뇌척수염 (Acute Disseminated Encephalomyelitis, ADEM)",
-    "subspecialty": "소아신경학",
-    "stem": "10세 남아가 2주 전부터 계속되는 기침과 발열로 내원하였다. 처음에는 마른 기침이었으나 점차 가래가 섞인 기침으로 변했다. 전신 상태는 비교적 양호하였다. 청진상 우측 폐 하부에서 수포음이 들렸고, 흉부 X선에서 우하엽 폐침윤이 관찰되었다. 활력징후는 다음과 같다. 1차 선택 항생제는?\n-\n \n혈\n압\n \n1\n1\n0\n/\n8\n0\n \nm\nm\nH\ng\n,\n \n체\n온\n \n3\n8\n.\n1\n℃\n,\n \n호\n흡\n수\n \n2\n0\n회\n/\n분\n,\n \n심\n박\n수\n \n8\n0\n회\n/\n분",
+    "theme_title": "급성 파종성 뇌척수염(ADEM)의 임상 양상 및 뇌 MRI 소견",
+    "subspecialty": "신경",
+    "stem": "5세 남아가 상기도 감염을 앓은 지 며칠 뒤 발생한 경련, 두통, 구토 및 의식 저하를 주소로 내원하였다. 촬영한 뇌 MRI 영상이 다음과 같을 때 가장 의심되는 진단은?",
     "images": [
       "images/소아청소년과/26Y_Q26_fig1.png"
     ],
     "options": [
-      "① 급성파종 뇌척수염 (ADEM)",
-      "② Sturge-Weber syndrome",
-      "③ Moyamoya disease",
-      "④ 부신백색질장애"
+      "① 급성 파종성 뇌척수염 (Acute disseminated encephalomyelitis, ADEM)",
+      "② 모야모야병 (Moyamoya disease)",
+      "③ 결절성 경화증 (Tuberous sclerosis)",
+      "④ 스터지-웨버 증후군 (Sturge-Weber syndrome)",
+      "⑤ 길랑-바레 증후군 (Guillain-Barré syndrome)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 급성파종 뇌척수염 (ADEM)",
+    "correct_answer": "① 급성 파종성 뇌척수염 (Acute disseminated encephalomyelitis, ADEM)",
     "explanation": {
-      "title": "급성 파종성 뇌척수염 (Acute Disseminated Encephalomyelitis, ADEM)",
-      "findings": "상기도 감염 후 급성 발열·두통·경련 및 백질 탈수초 병변 → 급성 파종성 뇌척수염(ADEM)",
-      "differential": "• ① 급성파종 뇌척수염 (ADEM) ✓ [정답]: 선행 감염 후 자가면역 반응으로 뇌병증(의식 변화/경련)과 다발성 신경 결손이 급성 발현하며, 백질의 광범위한 탈수초 병변을 보입니다\n• ② Sturge-Weber syndrome ✗ [오답]: 웨버 증후군(Sturge-Weber syndrome) — 삼차신경 분지를 따른 안면 포도주색 반점(port-wine stain), 연수막 혈관종, 두개내 회전상 기차선(tram-track) 석회화가 특징입니다.\n• ③ Moyamoya disease ✗ [오답]: 양측 내경동맥 원위부의 진행성 협착 및 기저핵 부위 그물망 측부혈관망으로 인해 과호흡 시 일과성 허혈발작(TIA)이나 뇌경색을 일으킵니다.\n• ④ 부신백색질장애 ✗ [오답]: X-연관 잠성 유전 대사질환으로 초진 시 행동 변화, 시신경 위축, 부신 부전 등이 수개월에 걸쳐 점진적으로 진행합니다.",
-      "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "상기도 감염 후 급성 발열·두통·경련 및 백질 탈수초 병변 → 급성 파종성 뇌척수염(ADEM)",
-      "kmle_link": "KMLE 소아청소년과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "급성파종 뇌척수염 (ADEM)",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "선행 감염 후 자가면역 반응으로 뇌병증(의식 변화/경련)과 다발성 신경 결손이 급성 발현하며, 백질의 광범위한 탈수초 병변을 보입니다"
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "Sturge-Weber syndrome",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "웨버 증후군(Sturge-Weber syndrome) — 삼차신경 분지를 따른 안면 포도주색 반점(port-wine stain), 연수막 혈관종, 두개내 회전상 기차선(tram-track) 석회화가 특징입니다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "Moyamoya disease",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "양측 내경동맥 원위부의 진행성 협착 및 기저핵 부위 그물망 측부혈관망으로 인해 과호흡 시 일과성 허혈발작(TIA)이나 뇌경색을 일으킵니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "부신백색질장애",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "X-연관 잠성 유전 대사질환으로 초진 시 행동 변화, 시신경 위축, 부신 부전 등이 수개월에 걸쳐 점진적으로 진행합니다."
-        }
-      ],
-      "differential_general": ""
+      "title": "급성 파종성 뇌척수염(ADEM)의 임상 양상 및 뇌 MRI 소견",
+      "findings": "바이러스 상기도 감염 또는 예방접종 수일~수주 후 급성으로 발생한 뇌병증(의식 변화, 경련, 두통)과 뇌 MRI(T2/FLAIR)상 양측 대뇌 백질 및 심부 회백질의 다발성·비대칭성 고신호강도 탈수초 병변.",
+      "diagnosis": "급성 파종성 뇌척수염 (ADEM)",
+      "treatment": "고용량 스테로이드 정주 (High-dose IV methylprednisolone), 불응 시 면역글로불린(IVIG) 또는 혈장교환술",
+      "clinical_pearls": "소아에서 감염 후 면역 매개 기전으로 발생하는 단상성(monophasic) 중추신경계 탈수초 질환입니다."
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -121751,34 +121583,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "급성파종 뇌척수염 (ADEM)",
+        "text": "급성 파종성 뇌척수염 (Acute disseminated encephalomyelitis, ADEM)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "선행 감염 후 자가면역 반응으로 뇌병증(의식 변화/경련)과 다발성 신경 결손이 급성 발현하며, 백질의 광범위한 탈수초 병변을 보입니다"
+        "reason": "선행 바이러스 감염 후 급성 뇌병증(경련, 두통, 의식 저하)과 뇌 MRI상 양측 비대칭 다발성 백질 고신호 병변은 ADEM의 전형적인 소견입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Sturge-Weber syndrome",
+        "text": "모야모야병 (Moyamoya disease)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "웨버 증후군(Sturge-Weber syndrome) — 삼차신경 분지를 따른 안면 포도주색 반점(port-wine stain), 연수막 혈관종, 두개내 회전상 기차선(tram-track) 석회화가 특징입니다."
+        "reason": "과호흡 시 일과성 편마비와 뇌혈관조영술상 내경동맥 말단부 협착 및 연기 모양 측부혈관을 보입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Moyamoya disease",
+        "text": "결절성 경화증 (Tuberous sclerosis)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "양측 내경동맥 원위부의 진행성 협착 및 기저핵 부위 그물망 측부혈관망으로 인해 과호흡 시 일과성 허혈발작(TIA)이나 뇌경색을 일으킵니다."
+        "reason": "저색소 반점, 영아연축, 피질 결절(cortical tuber) 및 뇌실막하 결절을 보입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "부신백색질장애",
+        "text": "스터지-웨버 증후군 (Sturge-Weber syndrome)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "X-연관 잠성 유전 대사질환으로 초진 시 행동 변화, 시신경 위축, 부신 부전 등이 수개월에 걸쳐 점진적으로 진행합니다."
+        "reason": "삼차신경 영역의 화염상 모반과 연수막 혈관종, 뇌회 모양 석회화를 보입니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "길랑-바레 증후군 (Guillain-Barré syndrome)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "말초신경계의 급성 염증성 탈수초성 다발신경병증으로 상행성 이완성 마비를 보입니다."
       }
     ]
   },
@@ -121929,14 +121769,14 @@
       "images/소아청소년과/26Y_Q28_fig1.png"
     ],
     "options": [
-      "① 흡기 유속 증가",
-      "② 최대 흡기 압력 증가",
-      "③ 호흡 횟수 변경 없이 흡기 시간을 연장시킨다",
-      "④ 호기말 양압을 증가시킨다",
-      "⑤ 호기 시간을 줄여서 인공환기의 환기수를 증가시킨다"
+      "① 흡기 유속(Inspiratory flow rate)을 증가시킨다.",
+      "② 최대 흡기 압력(PIP)을 증가시킨다.",
+      "③ 호흡 횟수 변경 없이 흡기 시간(Ti)을 연장시킨다.",
+      "④ 호기말 양압(PEEP)을 증가시킨다.",
+      "⑤ 호기 시간을 줄여서 인공환기의 호흡수를 증가시킨다."
     ],
     "correct_option_index": 1,
-    "correct_answer": "② 최대 흡기 압력 증가",
+    "correct_answer": "② 최대 흡기 압력(PIP)을 증가시킨다.",
     "explanation": {
       "title": "신생아 인공호흡기 평균기도압(MAP) 조절 기전 (최대 흡기압력 PIP)",
       "findings": "• [인공호흡기 압력-시간 파형 그래프 판독]:\n  - 영역 1: 흡기 유속(Inspiratory flow rate) 증가에 따른 압력 상승 기울기.\n  - 영역 2: 흡기 말 최고 압력 레벨 -> '최대 흡기 압력(Peak Inspiratory Pressure, PIP)'.\n  - 영역 3: 흡기 시간(Inspiratory time, Ti) 연장 구간.\n  - 영역 4: 호기 시간(Expiratory time, Te).\n  - 영역 5: 호기말 양압(Positive End-Expiratory Pressure, PEEP).\n• [평균기도압(Mean Airway Pressure, MAP) 결정 요인]:\n  - MAP는 1회 호흡 주기 동안 폐에 가해지는 평균 압력 면적을 의미함.\n  - 그래프에서 2번 영역의 높이를 올리는 것은 바로 '최대 흡기 압력(PIP)'을 높여 파형의 면적을 넓히는 방법임.",
@@ -122059,67 +121899,32 @@
     "year": "26Y",
     "q_num": 29,
     "category": "탈",
-    "theme_title": "소아 흉부 X-ray 판독: 좌측 흉막 삼출액 (Left Pleural Effusion)",
-    "subspecialty": "소아호흡기 & 영상의학",
-    "stem": "재태연령 39주, 출생체중 3,200 g으로 제왕절개 분만된 신생아가 출생 직후부터 호흡수 80회/분의 빈호흡과 경미한 흉골 함몰을 보였다. 흉부 X선에서 폐혈관 음영 증가, 엽간열 액체 저류(interlobar fissure fluid), 과팽창 소견이 관찰되었다. 산소 투여 후 48시간 이내에 증상이 완전히 호전되었다. 진단은?",
+    "theme_title": "소아 부폐렴성 흉막삼출(Parapneumonic Effusion)과 측면 와위 흉부 X-ray",
+    "subspecialty": "호흡기",
+    "stem": "5세 소아가 지속되는 고열, 기침 및 흉통을 주소로 내원하였다. 신체검진에서 좌측 폐야의 호흡음이 감소되어 있었고, 촬영한 좌측 측와위(Left lateral decubitus) 흉부 방사선 사진이 다음과 같을 때 가장 적절한 진단은?",
     "images": [
       "images/소아청소년과/26Y_Q29_fig1.png"
     ],
     "options": [
-      "① 오른쪽 옆으로 누워 촬영하였다.",
-      "② 좌측 pleural effusion이 있다.",
-      "③ 기관 삽관되어 있다.",
-      "④ 우측 폐에 기흉이 있다."
+      "① 부폐렴성 흉막삼출 (Parapneumonic pleural effusion)",
+      "② 긴장성 기흉 (Tension pneumothorax)",
+      "③ 기관지 내 이물 (Bronchial foreign body)",
+      "④ 급성 세기관지염 (Acute bronchiolitis)",
+      "⑤ 선천성 횡격막 탈장 (Congenital diaphragmatic hernia)"
     ],
-    "correct_option_index": 1,
-    "correct_answer": "② 좌측 pleural effusion이 있다.",
+    "correct_option_index": 0,
+    "correct_answer": "① 부폐렴성 흉막삼출 (Parapneumonic pleural effusion)",
     "explanation": {
-      "title": "소아 흉부 X-ray 판독: 좌측 흉막 삼출액 (Left Pleural Effusion)",
-      "findings": "흉부 단순촬영상 좌측 CP angle 둔화 및 meniscus sign → 좌측 흉막 삼출(Pleural effusion)",
-      "differential": "• ① 오른쪽 옆으로 누워 촬영하였다. ✗ [오답]: 바로 선 자세에서 촬영된 영상이며, 우측 외측와위(Rt. lateral decubitus) 촬영 시 우측 흉벽을 따라 중력 방향으로 체액이 넓게 깔려야 합니다.\n• ② 좌측 pleural effusion이 있다. ✓ [정답]: 좌측 늑골횡격막각(costophrenic angle)의 둔화 및 흉벽 외측 상방으로 오목하게 올라가는 초승달 모양의 음영(meniscus sign)이 확인됩니다\n• ③ 기관 삽관되어 있다. ✗ [오답]: 기도 내로 삽입된 인공기도관(endotracheal tube)이나 흉관 배액관의 방사선 불투과성 선 음영이 관찰되지 않습니다.\n• ④ 우측 폐에 기흉이 있다. ✗ [오답]: 우측 폐야에 장측 흉막선(visceral pleural line)이나 혈관 음영이 소실된 무혈관 투과성 공간이 관찰되지 않고 폐실질 음영이 정상입니다.",
-      "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "흉부 단순촬영상 좌측 CP angle 둔화 및 meniscus sign → 좌측 흉막 삼출(Pleural effusion)",
-      "kmle_link": "KMLE 소아청소년과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "오른쪽 옆으로 누워 촬영하였다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "바로 선 자세에서 촬영된 영상이며, 우측 외측와위(Rt. lateral decubitus) 촬영 시 우측 흉벽을 따라 중력 방향으로 체액이 넓게 깔려야 합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "좌측 pleural effusion이 있다.",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "좌측 늑골횡격막각(costophrenic angle)의 둔화 및 흉벽 외측 상방으로 오목하게 올라가는 초승달 모양의 음영(meniscus sign)이 확인됩니다"
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "기관 삽관되어 있다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "기도 내로 삽입된 인공기도관(endotracheal tube)이나 흉관 배액관의 방사선 불투과성 선 음영이 관찰되지 않습니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "우측 폐에 기흉이 있다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "우측 폐야에 장측 흉막선(visceral pleural line)이나 혈관 음영이 소실된 무혈관 투과성 공간이 관찰되지 않고 폐실질 음영이 정상입니다."
-        }
-      ],
-      "differential_general": ""
+      "title": "소아 부폐렴성 흉막삼출(Parapneumonic Effusion)과 측면 와위 흉부 X-ray",
+      "findings": "발열, 기침, 호흡음 감소 및 측와위(Lateral decubitus) 흉부 X-ray에서 중력 방향으로 흉수가 수평으로 고이는 액체 층(fluid layering, 1cm 이상) 소견.",
+      "diagnosis": "부폐렴성 흉막삼출 (Parapneumonic pleural effusion)",
+      "treatment": "진단적/치료적 흉수 천자(Thoracentesis) 및 정맥 항생제 투여, 농흉(Empyema) 시 흉관 배액술",
+      "clinical_pearls": "측와위 흉부 X-ray에서 흉수 두께가 10mm(1cm) 이상이면 진단적 흉수 천자의 적응증이 됩니다."
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      1
+      0
     ],
     "freq_count": 1,
     "rate": 16,
@@ -122133,34 +121938,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "오른쪽 옆으로 누워 촬영하였다.",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "바로 선 자세에서 촬영된 영상이며, 우측 외측와위(Rt. lateral decubitus) 촬영 시 우측 흉벽을 따라 중력 방향으로 체액이 넓게 깔려야 합니다."
+        "text": "부폐렴성 흉막삼출 (Parapneumonic pleural effusion)",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "발열과 기침 환아의 측와위 흉부 X-ray에서 종속측 흉벽을 따라 액체가 수평으로 고이는 소견은 부폐렴성 흉막삼출의 전형적 영상입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "좌측 pleural effusion이 있다.",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "좌측 늑골횡격막각(costophrenic angle)의 둔화 및 흉벽 외측 상방으로 오목하게 올라가는 초승달 모양의 음영(meniscus sign)이 확인됩니다"
+        "text": "긴장성 기흉 (Tension pneumothorax)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "과투과성 흉강과 폐 허탈, 반대측 종격동 편위를 보입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "기관 삽관되어 있다.",
+        "text": "기관지 내 이물 (Bronchial foreign body)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "기도 내로 삽입된 인공기도관(endotracheal tube)이나 흉관 배액관의 방사선 불투과성 선 음영이 관찰되지 않습니다."
+        "reason": "갑작스러운 기침/질식 병력과 호기 시 환측 폐의 과팽창(air trapping)을 보입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "우측 폐에 기흉이 있다.",
+        "text": "급성 세기관지염 (Acute bronchiolitis)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "우측 폐야에 장측 흉막선(visceral pleural line)이나 혈관 음영이 소실된 무혈관 투과성 공간이 관찰되지 않고 폐실질 음영이 정상입니다."
+        "reason": "영아에서 천명음과 양측 폐 과팽창을 보입니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "선천성 횡격막 탈장 (Congenital diaphragmatic hernia)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "신생아 흉강 내 장관 가스 음영과 주상 복부(scaphoid abdomen)를 보입니다."
       }
     ]
   },
@@ -123056,62 +122869,27 @@
     "year": "26Y",
     "q_num": 37,
     "category": "짤",
-    "theme_title": "영아기 아토피 피부염(Atopic Dermatitis)의 표준 국소 치료 (국소 스테로이드)",
-    "subspecialty": "소아알레르기호흡기학 & 피부",
-    "stem": "재태연령 41주, 양수에 태변이 착색된 상태로 태어난 신생아가 출생 직후 심한 호흡곤란과 청색증을 보였다. 흉부 X선에서 양폐야의 불규칙한 거친 침윤과 과팽창 소견이 관찰되었다. 진단은?",
+    "theme_title": "영아기 아토피 피부염(Atopic Dermatitis)의 임상 양상 및 치료",
+    "subspecialty": "알레르기",
+    "stem": "6개월 된 영아가 2개월 이상 지속되는 심한 가려움증과 양측 뺨 및 손목의 홍반성·삼출성 습진 병변을 주소로 내원하였다. 환아의 피부 사진이 다음과 같을 때 가장 의심되는 진단은?",
     "images": [
       "images/소아청소년과/26Y_Q37_fig1.png"
     ],
     "options": [
-      "① 국소 부신피질스테로이드",
-      "② 국소 면역조절제",
-      "③ 국소 항생제",
-      "④ 경구 항히스타민제"
+      "① 아토피 피부염 (Atopic dermatitis)",
+      "② 농가진 (Impetigo)",
+      "③ 접촉성 피부염 (Contact dermatitis)",
+      "④ 어린선 (Ichthyosis)",
+      "⑤ 한진 (Miliaria)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 국소 부신피질스테로이드",
+    "correct_answer": "① 아토피 피부염 (Atopic dermatitis)",
     "explanation": {
-      "title": "영아기 아토피 피부염(Atopic Dermatitis)의 표준 국소 치료 (국소 스테로이드)",
-      "findings": "6개월 영아 볼과 사지 폄측의 심한 습진성 병변(아토피 피부염) → 급성기 염증 완화를 위한 1차 국소 치료는 국소 부신피질스테로이드",
-      "differential": "• ① 국소 부신피질스테로이드 ✓ [정답]: 영아기 아토피 피부염의 급성 악화기 병변에서 염증과 가려움증을 신속히 가라앉히기 위한 1차 표준 치료제이며, 얼굴은 약한 강도 제제를 선택합니다\n• ② 국소 면역조절제 ✗ [오답]: 타크로리무스나 피메크로리무스는 스테로이드 부작용이 우려되는 부위의 2차 치료제이나 안전성 문제로 만 2세 이상에서만 승인되어 있습니다.\n• ③ 국소 항생제 ✗ [오답]: 삼출물이나 가피가 심해 2차 세균 감염(농가진 등)이 합병된 경우에 한해 제한적으로 도포하며, 단순 아토피 피부염 자체를 호전시키지 못합니다.\n• ④ 경구 항히스타민제 ✗ [오답]: 수면을 방해하는 심한 가려움증을 완화하는 보조 약제일 뿐이며, 피부의 습진성 염증 병변을 직접 가라앉히는 국소 치료제가 아닙니다.",
-      "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "6개월 영아 볼과 사지 폄측의 심한 습진성 병변(아토피 피부염) → 급성기 염증 완화를 위한 1차 국소 치료는 국소 부신피질스테로이드",
-      "kmle_link": "KMLE 소아청소년과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "국소 부신피질스테로이드",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "영아기 아토피 피부염의 급성 악화기 병변에서 염증과 가려움증을 신속히 가라앉히기 위한 1차 표준 치료제이며, 얼굴은 약한 강도 제제를 선택합니다"
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "국소 면역조절제",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "타크로리무스나 피메크로리무스는 스테로이드 부작용이 우려되는 부위의 2차 치료제이나 안전성 문제로 만 2세 이상에서만 승인되어 있습니다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "국소 항생제",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "삼출물이나 가피가 심해 2차 세균 감염(농가진 등)이 합병된 경우에 한해 제한적으로 도포하며, 단순 아토피 피부염 자체를 호전시키지 못합니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "경구 항히스타민제",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "수면을 방해하는 심한 가려움증을 완화하는 보조 약제일 뿐이며, 피부의 습진성 염증 병변을 직접 가라앉히는 국소 치료제가 아닙니다."
-        }
-      ],
-      "differential_general": ""
+      "title": "영아기 아토피 피부염(Atopic Dermatitis)의 임상 양상 및 치료",
+      "findings": "생후 2~3개월 이후 영아에서 심한 가려움증을 동반하며 양측 뺨(안면), 이마, 두피 및 사지 신측부에 발생하는 홍반성 구진·수포·진물·가피의 급성 습진 병변.",
+      "diagnosis": "아토피 피부염 (Atopic dermatitis)",
+      "treatment": "피부 보습제 도포, 악화 요인 회피 및 병변 중증도에 맞춘 국소 부신피질스테로이드(Topical corticosteroid) 도포",
+      "clinical_pearls": "2세 미만의 영아기 아토피 피부염은 주로 양 볼과 사지 폄쪽(신측부)에 급성 삼출성 병변으로 나타나며, 소아기 이후에는 팔오금·오금 등 굽힘쪽(굴측부)의 태선화 병변으로 이행합니다."
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -123132,34 +122910,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "국소 부신피질스테로이드",
+        "text": "아토피 피부염 (Atopic dermatitis)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "영아기 아토피 피부염의 급성 악화기 병변에서 염증과 가려움증을 신속히 가라앉히기 위한 1차 표준 치료제이며, 얼굴은 약한 강도 제제를 선택합니다"
+        "reason": "영아에서 만성·재발성 가려움증과 양측 뺨 및 사지의 홍반성 습진 병변은 영아기 아토피 피부염의 전형적인 소견입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "국소 면역조절제",
+        "text": "농가진 (Impetigo)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "타크로리무스나 피메크로리무스는 스테로이드 부작용이 우려되는 부위의 2차 치료제이나 안전성 문제로 만 2세 이상에서만 승인되어 있습니다."
+        "reason": "황갈색 벌꿀 모양의 가피(honey-colored crust)를 특징으로 하는 표재성 세균 감염입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "국소 항생제",
+        "text": "접촉성 피부염 (Contact dermatitis)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "삼출물이나 가피가 심해 2차 세균 감염(농가진 등)이 합병된 경우에 한해 제한적으로 도포하며, 단순 아토피 피부염 자체를 호전시키지 못합니다."
+        "reason": "외부 물질이 접촉한 부위에 국한되어 경계가 명확한 병변이 발생합니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "경구 항히스타민제",
+        "text": "어린선 (Ichthyosis)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "수면을 방해하는 심한 가려움증을 완화하는 보조 약제일 뿐이며, 피부의 습진성 염증 병변을 직접 가라앉히는 국소 치료제가 아닙니다."
+        "reason": "피부 건조와 물고기 비늘 모양의 과각화 인설을 보이는 유전성 각화 질환입니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "한진 (Miliaria)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "땀샘관 폐쇄로 인해 고온다습한 환경에서 발생하는 좁쌀 모양의 작은 수포/구진입니다."
       }
     ]
   },
@@ -125307,71 +125093,27 @@
     "year": "23Y",
     "q_num": 15,
     "category": "짤",
-    "theme_title": "소아청소년과 과년도 빈출: 복통 관련 진단 및 처치",
-    "subspecialty": "소아청소년과 과년도 빈출",
-    "stem": "소아 성장 및 발달의 일반 원칙에 대한 설명으로 옳은 것은?",
+    "theme_title": "마이코플라즈마 폐렴(Mycoplasma Pneumonia)의 임상적 특징 및 호흡기 외 증상",
+    "subspecialty": "호흡기",
+    "stem": "초등학교에 다니는 9세 여아가 8일간 지속된 발열과 발작적인 마른기침을 주소로 내원하였다. 두통과 복통도 함께 호소하였으며, 신체검진에서 몸통의 다형 홍반성 피부 발진과 흉부 X-ray상 폐문 주위 침윤 소견이 다음과 같았다. 이 질환에 대한 설명으로 옳은 것은?",
     "images": [
       "images/소아청소년과/23Y_Q15_fig1.png"
     ],
     "options": [
-      "① 복통, 심막염, 뇌수막염, 근육통 등 폐외 증상이 동반될 수 있다.",
-      "② 페니실린계로 치료한다.",
-      "③ 냉응집소 증가는 이 질환에서만 특징적이다.",
-      "④ 일반적으로 매년 유행하고, 여름에 유행한다.",
-      "⑤ 면역력이 약한 영유아가 잘 걸린다."
+      "① 피부 발진, 용혈성 빈혈 등 호흡기 외 증상이 동반될 수 있으며 매년 유행하고 3~4년 주기로 대유행한다.",
+      "② 1차 선택 항생제는 아목시실린(Amoxicillin) 등 베타락탐계 항생제이다.",
+      "③ 주로 생후 6개월 미만의 영아에서 가장 흔하게 발생한다.",
+      "④ 흉부 진찰 소견이 흉부 방사선 사진 소견보다 훨씬 심하게 나타나는 것이 특징이다.",
+      "⑤ 세균 배양 검사가 빨라 24시간 이내에 배양으로 확진한다."
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 복통, 심막염, 뇌수막염, 근육통 등 폐외 증상이 동반될 수 있다.",
+    "correct_answer": "① 피부 발진, 용혈성 빈혈 등 호흡기 외 증상이 동반될 수 있으며 매년 유행하고 3~4년 주기로 대유행한다.",
     "explanation": {
-      "title": "[과년도 빈출] 초등학교에 다니는 9 세 여아가 8 일간 지속된 발",
-      "findings": "학령기 소아의 발열, 마른기침, 홍반구진성 발진, 한랭응집소 상승 → 마이코플라즈마 폐렴 → 다양한 폐외 증상 동반 가능",
-      "differential": "• ① 복통, 심막염, 뇌수막염, 근육통 등 폐외 증상이 동반될 수 있다. ✓ [정답]: 면역 매개 반응으로 다형홍반 등 피부 발진, 신경계 침범, 용혈빈혈, 관절염 등 전신 폐외 증상이 흔히 동반됩니다\n• ② 페니실린계로 치료한다. ✗ [오답]: 마이코플라즈마는 세포벽이 없으므로 세포벽 합성을 억제하는 페니실린계는 무효하며 마크로라이드(Macrolide)를 씁니다.\n• ③ 냉응집소 증가는 이 질환에서만 특징적이다. ✗ [오답]: 한랭응집소는 마이코플라즈마의 50~70%에서 양성이지만 EBV, CMV 감염 등에서도 증가하여 특이적이지 않습니다.\n• ④ 일반적으로 매년 유행하고, 여름에 유행한다. ✗ [오답]: 국내에서는 3~4년 주기로 늦가을부터 겨울철에 걸쳐 크게 유행하는 양상을 보입니다.\n• ⑤ 면역력이 약한 영유아가 잘 걸린다. ✗ [오답]: 5~15세 학령기 및 청소년에서 가장 흔하게 호발하며 5세 미만 영유아에서는 비교적 증상이 경미합니다.",
-      "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "학령기 소아의 발열, 마른기침, 홍반구진성 발진, 한랭응집소 상승 → 마이코플라즈마 폐렴 → 다양한 폐외 증상 동반 가능",
-      "kmle_link": "KMLE 소아청소년과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "복통, 심막염, 뇌수막염, 근육통 등 폐외 증상이 동반될 수 있다.",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "면역 매개 반응으로 다형홍반 등 피부 발진, 신경계 침범, 용혈빈혈, 관절염 등 전신 폐외 증상이 흔히 동반됩니다"
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "페니실린계로 치료한다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "마이코플라즈마는 세포벽이 없으므로 세포벽 합성을 억제하는 페니실린계는 무효하며 마크로라이드(Macrolide)를 씁니다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "냉응집소 증가는 이 질환에서만 특징적이다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "한랭응집소는 마이코플라즈마의 50~70%에서 양성이지만 EBV, CMV 감염 등에서도 증가하여 특이적이지 않습니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "일반적으로 매년 유행하고, 여름에 유행한다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "국내에서는 3~4년 주기로 늦가을부터 겨울철에 걸쳐 크게 유행하는 양상을 보입니다."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "면역력이 약한 영유아가 잘 걸린다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "5~15세 학령기 및 청소년에서 가장 흔하게 호발하며 5세 미만 영유아에서는 비교적 증상이 경미합니다."
-        }
-      ],
-      "differential_general": ""
+      "title": "마이코플라즈마 폐렴(Mycoplasma Pneumonia)의 임상적 특징 및 호흡기 외 증상",
+      "findings": "학동기 소아에서 지속되는 발열과 발작적 기침, 신체검진에 비해 심한 흉부 X-ray 폐침윤, 다형 홍반/반구진성 발진 등 폐 외 증상 동반.",
+      "diagnosis": "마이코플라즈마 폐렴 (Mycoplasma pneumoniae pneumonia)",
+      "treatment": "마크로라이드계 항생제 (Macrolides: Azithromycin, Clarithromycin 등)",
+      "clinical_pearls": "세포벽이 없어 베타락탐계 항생제에 듣지 않으며, 다형 홍반·스티븐스-존슨 증후군, 한랭응집소 양성 용혈성 빈혈, 뇌수막염 등 다양한 호흡기 외 증상을 동반할 수 있습니다."
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -125392,42 +125134,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "복통, 심막염, 뇌수막염, 근육통 등 폐외 증상이 동반될 수 있다.",
+        "text": "피부 발진, 용혈성 빈혈 등 호흡기 외 증상이 동반될 수 있으며 매년 유행하고 3~4년 주기로 대유행한다.",
         "is_correct": true,
         "tag": "정답",
-        "reason": "면역 매개 반응으로 다형홍반 등 피부 발진, 신경계 침범, 용혈빈혈, 관절염 등 전신 폐외 증상이 흔히 동반됩니다"
+        "reason": "학동기 소아의 마이코플라즈마 폐렴은 3~4년 주기로 대유행하며 피부 발진(다형 홍반 등), 용혈성 빈혈, 신경계 합병증 등 호흡기 외 증상이 흔히 동반됩니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "페니실린계로 치료한다.",
+        "text": "1차 선택 항생제는 아목시실린(Amoxicillin) 등 베타락탐계 항생제이다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "마이코플라즈마는 세포벽이 없으므로 세포벽 합성을 억제하는 페니실린계는 무효하며 마크로라이드(Macrolide)를 씁니다."
+        "reason": "마이코플라즈마는 세포벽이 없어 베타락탐계 항생제에 내성이며 마크로라이드계 항생제를 사용합니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "냉응집소 증가는 이 질환에서만 특징적이다.",
+        "text": "주로 생후 6개월 미만의 영아에서 가장 흔하게 발생한다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "한랭응집소는 마이코플라즈마의 50~70%에서 양성이지만 EBV, CMV 감염 등에서도 증가하여 특이적이지 않습니다."
+        "reason": "5~15세 학동기 소아 및 청소년에서 가장 흔합니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "일반적으로 매년 유행하고, 여름에 유행한다.",
+        "text": "흉부 진찰 소견이 흉부 방사선 사진 소견보다 훨씬 심하게 나타나는 것이 특징이다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "국내에서는 3~4년 주기로 늦가을부터 겨울철에 걸쳐 크게 유행하는 양상을 보입니다."
+        "reason": "초기에는 청진 소견보다 흉부 X-ray 소견이 더 심하게 나타나는 불일치가 특징입니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "면역력이 약한 영유아가 잘 걸린다.",
+        "text": "세균 배양 검사가 빨라 24시간 이내에 배양으로 확진한다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "5~15세 학령기 및 청소년에서 가장 흔하게 호발하며 5세 미만 영유아에서는 비교적 증상이 경미합니다."
+        "reason": "배양이 까다롭고 수주가 소요되므로 혈청 특이 IgM 항체 검사나 PCR로 진단합니다."
       }
     ]
   },
@@ -126707,14 +126449,14 @@
       "images/소아청소년과/23Y_Q26_fig1.png"
     ],
     "options": [
-      "① 흡기 유속 증가",
-      "② 최대 흡기 압력 증가",
-      "③ 호흡 횟수 변경 없이 흡기 시간을 연장시킨다.",
-      "④ 호기말 양압을 증가시킨다.",
-      "⑤ 호기 시간을 줄여서 인공환기의 환기수를 증가시킨다."
+      "① 흡기 유속(Inspiratory flow rate)을 증가시킨다.",
+      "② 최대 흡기 압력(PIP)을 증가시킨다.",
+      "③ 호흡 횟수 변경 없이 흡기 시간(Ti)을 연장시킨다.",
+      "④ 호기말 양압(PEEP)을 증가시킨다.",
+      "⑤ 호기 시간을 줄여서 인공환기의 호흡수를 증가시킨다."
     ],
-    "correct_option_index": 1,
-    "correct_answer": "② 최대 흡기 압력 증가",
+    "correct_option_index": 3,
+    "correct_answer": "④ 호기말 양압(PEEP)을 증가시킨다.",
     "explanation": {
       "title": "신생아 인공호흡기 평균기도압(MAP) 조절 기전 (최대 흡기압력 PIP)",
       "findings": "• [인공호흡기 압력-시간 파형 그래프 판독]:\n  - 영역 1: 흡기 유속(Inspiratory flow rate) 증가에 따른 압력 상승 기울기.\n  - 영역 2: 흡기 말 최고 압력 레벨 -> '최대 흡기 압력(Peak Inspiratory Pressure, PIP)'.\n  - 영역 3: 흡기 시간(Inspiratory time, Ti) 연장 구간.\n  - 영역 4: 호기 시간(Expiratory time, Te).\n  - 영역 5: 호기말 양압(Positive End-Expiratory Pressure, PEEP).\n• [평균기도압(Mean Airway Pressure, MAP) 결정 요인]:\n  - MAP는 1회 호흡 주기 동안 폐에 가해지는 평균 압력 면적을 의미함.\n  - 그래프에서 2번 영역의 높이를 올리는 것은 바로 '최대 흡기 압력(PIP)'을 높여 파형의 면적을 넓히는 방법임.",
@@ -126769,7 +126511,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      1
+      3
     ],
     "freq_count": 5,
     "rate": 83,
@@ -126837,53 +126579,27 @@
     "year": "23Y",
     "q_num": 27,
     "category": "탈",
-    "theme_title": "[단독 기출] (post-test) 다음이 가리키는 것을 쓰시오.",
-    "subspecialty": "소아청소년과 단독 기출",
-    "stem": "다음 그림(심장초음파/모식도)의 화살표가 가리키는 구조물 및 결손에 해당하는 것은?",
+    "theme_title": "신생아 기흉(Neonatal Pneumothorax)의 흉부 X-ray 소견 및 응급 치료",
+    "subspecialty": "신생아",
+    "stem": "출생 후 호흡곤란을 보인 신생아에서 급격한 산소포화도 저하와 청색증, 흉곽 비대칭이 발생하였다. 촬영한 흉부 방사선 사진(CXR)이 다음과 같을 때 가장 적절한 응급 치료는?",
     "images": [
       "images/소아청소년과/23Y_Q27_fig1.png"
     ],
     "options": [
-      "① 공기가슴증(Pneumothorax)",
-      "② 호흡곤란증후군(Respiratory distress syndrome)",
-      "③ 폐렴(Pneumonia)"
+      "① 흉관 삽입술 (Chest tube insertion / 흉강 천자 감압)",
+      "② 백-마스크 양압환기 (Bag-mask ventilation)",
+      "③ 정맥 내 이뇨제 투여",
+      "④ 기관 내 흡인 단독 시행",
+      "⑤ 항생제 정주 후 경과관찰"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 공기가슴증(Pneumothorax)",
+    "correct_answer": "① 흉관 삽입술 (Chest tube insertion / 흉강 천자 감압)",
     "explanation": {
-      "title": "[단독 기출] (post-test) 다음이 가리키는 것을 쓰시오.",
-      "findings": "신생아 흉부 방사선 사진상 화살표가 가리키는 흉막선 및 무혈관성 과투과 음영 → 공기가슴증(Pneumothorax)",
-      "differential": "• ① 공기가슴증(Pneumothorax) ✓ [정답]: 단순 흉부 방사선상 노란색 화살표가 가리키는 뚜렷한 흉막선(visceral pleural line)과 폐혈관 음영이 소실된 흉막강 내 공기 저류 소견입니다\n• ② 호흡곤란증후군(Respiratory distress syndrome) ✗ [오답]: 미숙아 폐 표면활성제 결핍으로 양측 폐야 전반에 미세한 과립상 음영(reticulogranular density)과 공기 기관지조영을 보입니다.\n• ③ 폐렴(Pneumonia) ✗ [오답]: 세균이나 바이러스 감염에 의해 폐포 내 삼출물이 차면서 반점상 침윤 음영이나 분절성/대엽성 경화(consolidation)를 나타냅니다.",
-      "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "신생아 흉부 방사선 사진상 화살표가 가리키는 흉막선 및 무혈관성 과투과 음영 → 공기가슴증(Pneumothorax)",
-      "kmle_link": "KMLE 소아청소년과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "공기가슴증(Pneumothorax)",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "단순 흉부 방사선상 노란색 화살표가 가리키는 뚜렷한 흉막선(visceral pleural line)과 폐혈관 음영이 소실된 흉막강 내 공기 저류 소견입니다"
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "호흡곤란증후군(Respiratory distress syndrome)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "미숙아 폐 표면활성제 결핍으로 양측 폐야 전반에 미세한 과립상 음영(reticulogranular density)과 공기 기관지조영을 보입니다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "폐렴(Pneumonia)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "세균이나 바이러스 감염에 의해 폐포 내 삼출물이 차면서 반점상 침윤 음영이나 분절성/대엽성 경화(consolidation)를 나타냅니다."
-        }
-      ],
-      "differential_general": ""
+      "title": "신생아 기흉(Neonatal Pneumothorax)의 흉부 X-ray 소견 및 응급 치료",
+      "findings": "신생아에서 급격한 호흡곤란과 청색증 악화, 흉부 X-ray상 우측 흉강의 과투과성(hyperlucent) 무혈관 음영, 폐 허탈 및 횡격막 하방 편위 소견.",
+      "diagnosis": "신생아 기흉 (Neonatal pneumothorax)",
+      "treatment": "증상이 심하거나 긴장성 기흉 소견 시 즉각적인 바늘 감압술(Needle aspiration) 및 흉관 삽입술(Chest tube insertion)",
+      "clinical_pearls": "무증상 소량 기흉인 만삭아에서는 100% 산소 투여(질소 세척, Nitrogen washout)를 시도할 수 있으나, 미숙아나 호흡부전·긴장성 기흉에서는 즉시 흉관을 삽입해 배기해야 합니다."
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -126902,26 +126618,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "공기가슴증(Pneumothorax)",
+        "text": "흉관 삽입술 (Chest tube insertion / 흉강 천자 감압)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "단순 흉부 방사선상 노란색 화살표가 가리키는 뚜렷한 흉막선(visceral pleural line)과 폐혈관 음영이 소실된 흉막강 내 공기 저류 소견입니다"
+        "reason": "흉부 X-ray에서 뚜렷한 폐 허탈과 과투과성 기흉이 확인되며 호흡곤란이 동반된 경우 즉각적인 흉관 삽입술이 원칙입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "호흡곤란증후군(Respiratory distress syndrome)",
+        "text": "백-마스크 양압환기 (Bag-mask ventilation)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "미숙아 폐 표면활성제 결핍으로 양측 폐야 전반에 미세한 과립상 음영(reticulogranular density)과 공기 기관지조영을 보입니다."
+        "reason": "배기 없이 양압환기를 가하면 기흉이 악화될 수 있습니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "폐렴(Pneumonia)",
+        "text": "정맥 내 이뇨제 투여",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "세균이나 바이러스 감염에 의해 폐포 내 삼출물이 차면서 반점상 침윤 음영이나 분절성/대엽성 경화(consolidation)를 나타냅니다."
+        "reason": "기흉 치료와 무관합니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "기관 내 흡인 단독 시행",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "흉강 내 공기를 제거할 수 없습니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "항생제 정주 후 경과관찰",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "호흡곤란을 동반한 다량 기흉은 즉각 감압해야 합니다."
       }
     ]
   },
@@ -130552,9 +130284,7 @@
     "theme_title": "특발성 조기 유방 발육증 (Premature Thelarche)의 감별진단",
     "subspecialty": "소아내분비학",
     "stem": "7 세 여아 유방 발달로 내원. 뼈나이 7 세, 유방 태너 2 단계, 음모 태너 1 단계. 진단은? 정상 사춘기",
-    "images": [
-      "images/소아청소년과/22Y_Q09_fig1.png"
-    ],
+    "images": [],
     "options": [
       "진성 성 조숙증",
       "조기 음모 발생",
@@ -133084,19 +132814,19 @@
     "category": "짤",
     "theme_title": "신생아 인공호흡기 평균기도압(MAP) 조절 기전 (최대 흡기압력 PIP)",
     "subspecialty": "신생아학 & 중환자의학",
-    "stem": "평균  기도압력을  높이는  방법으로 3 에 해당하는  방법은? 흡기 유속 증가",
+    "stem": "인공호흡기 압력-시간 곡선에서 평균 기도압력(MAP)을 높이는 방법으로 '3번'에 해당하는 방법은?",
     "images": [
       "images/소아청소년과/22Y_Q34_fig1.png"
     ],
     "options": [
-      "최대 흡기 압력 증가",
-      "호흡 횟수 변경 없이 흡기 시간을",
-      "연장시킨다. 호기말 양압을 증가시킨다.",
-      "호기 시간을 줄여서 인공환기의 환기수를",
-      "증가시킨다."
+      "① 흡기 유속(Inspiratory flow rate)을 증가시킨다.",
+      "② 최대 흡기 압력(PIP)을 증가시킨다.",
+      "③ 호흡 횟수 변경 없이 흡기 시간(Ti)을 연장시킨다.",
+      "④ 호기말 양압(PEEP)을 증가시킨다.",
+      "⑤ 호기 시간을 줄여서 인공환기의 호흡수를 증가시킨다."
     ],
-    "correct_option_index": 1,
-    "correct_answer": "② 최대 흡기 압력 증가",
+    "correct_option_index": 2,
+    "correct_answer": "③ 호흡 횟수 변경 없이 흡기 시간(Ti)을 연장시킨다.",
     "explanation": {
       "title": "신생아 인공호흡기 평균기도압(MAP) 조절 기전 (최대 흡기압력 PIP)",
       "findings": "• [인공호흡기 압력-시간 파형 그래프 판독]:\n  - 영역 1: 흡기 유속(Inspiratory flow rate) 증가에 따른 압력 상승 기울기.\n  - 영역 2: 흡기 말 최고 압력 레벨 -> '최대 흡기 압력(Peak Inspiratory Pressure, PIP)'.\n  - 영역 3: 흡기 시간(Inspiratory time, Ti) 연장 구간.\n  - 영역 4: 호기 시간(Expiratory time, Te).\n  - 영역 5: 호기말 양압(Positive End-Expiratory Pressure, PEEP).\n• [평균기도압(Mean Airway Pressure, MAP) 결정 요인]:\n  - MAP는 1회 호흡 주기 동안 폐에 가해지는 평균 압력 면적을 의미함.\n  - 그래프에서 2번 영역의 높이를 올리는 것은 바로 '최대 흡기 압력(PIP)'을 높여 파형의 면적을 넓히는 방법임.",
@@ -133110,7 +132840,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      1
+      2
     ],
     "freq_count": 5,
     "rate": 83,
@@ -134280,9 +134010,7 @@
     "theme_title": "소아청소년과 과년도 빈출: 모르핀 근주(또는 피하/정주) 관련 진단 및 처치",
     "subspecialty": "소아청소년과 과년도 빈출",
     "stem": "4개월 여아가 얼굴이 파랗게 보여 병원에 왔다. 심하게 울다가 청색증이 더 심해졌다. 출생 직후부터 심잡음이 들린다는 얘기를 들었으나 심초음파를 시행한 적은 없었다. 체온은 37.8℃, 혈압은 60/45 mmHg, 맥박 130회/분, 산소포화도는 40%였다. 진찰상 현재 심잡음이 들리지 않았다. 가슴 X선 사진이다. 적절한 급성기 약물 치료는?",
-    "images": [
-      "images/소아청소년과/22Y_Q45_fig1.png"
-    ],
+    "images": [],
     "options": [
       "모르핀 근주(또는 피하/정주)",
       "디곡신(Digoxin) 투여",
@@ -134624,9 +134352,7 @@
     "theme_title": "초미숙아 분만 소생술 및 생후 1분 아프가 점수 (Apgar Score) 채점",
     "subspecialty": "신생아학 & 주산기의학",
     "stem": "임신 27 주에 ROM, labor 있어 산모가 제왕절개를 했다. 생후 1 분에 심박수 50, 호흡 없고, 온몸이 창백했으며, 사지 늘어져 있고 카테터 자극에 반응 없었다. PPV 후 생후 5 분 심박수 110, 호흡 느리고 불규칙해졌다. 1 분 apgar score 는? 1 ● 2 ● 3 ● 4 ● 5 ●",
-    "images": [
-      "images/소아청소년과/22Y_Q49_fig1.png"
-    ],
+    "images": [],
     "options": [],
     "correct_option_index": 0,
     "correct_answer": "① 1",
@@ -139686,19 +139412,19 @@
     "category": "짤",
     "theme_title": "신생아 인공호흡기 평균기도압(MAP) 조절 기전 (최대 흡기압력 PIP)",
     "subspecialty": "신생아학 & 중환자의학",
-    "stem": "평균 기도압력을 높이는 방법으로 2 에 해당하는 방법은? 흡기의 flow rate 증가",
+    "stem": "인공호흡기 압력-시간 곡선에서 평균 기도압력(MAP)을 높이는 방법으로 '2번'에 해당하는 방법은?",
     "images": [
       "images/소아청소년과/21Y_Q41_fig1.png"
     ],
     "options": [
-      "⚫ 최대 흡기 압력 증가",
-      "⚫ 흡기와 호기 시간 비 조정",
-      "⚫ 호기 말 양압 증가",
-      "⚫ 호흡횟수의 증가",
-      "⚫"
+      "① 흡기 유속(Inspiratory flow rate)을 증가시킨다.",
+      "② 최대 흡기 압력(PIP)을 증가시킨다.",
+      "③ 호흡 횟수 변경 없이 흡기 시간(Ti)을 연장시킨다.",
+      "④ 호기말 양압(PEEP)을 증가시킨다.",
+      "⑤ 호기 시간을 줄여서 인공환기의 호흡수를 증가시킨다."
     ],
     "correct_option_index": 1,
-    "correct_answer": "⚫ 흡기와 호기 시간 비 조정",
+    "correct_answer": "② 최대 흡기 압력(PIP)을 증가시킨다.",
     "explanation": {
       "title": "신생아 인공호흡기 평균기도압(MAP) 조절 기전 (최대 흡기압력 PIP)",
       "findings": "• [인공호흡기 압력-시간 파형 그래프 판독]:\n  - 영역 1: 흡기 유속(Inspiratory flow rate) 증가에 따른 압력 상승 기울기.\n  - 영역 2: 흡기 말 최고 압력 레벨 -> '최대 흡기 압력(Peak Inspiratory Pressure, PIP)'.\n  - 영역 3: 흡기 시간(Inspiratory time, Ti) 연장 구간.\n  - 영역 4: 호기 시간(Expiratory time, Te).\n  - 영역 5: 호기말 양압(Positive End-Expiratory Pressure, PEEP).\n• [평균기도압(Mean Airway Pressure, MAP) 결정 요인]:\n  - MAP는 1회 호흡 주기 동안 폐에 가해지는 평균 압력 면적을 의미함.\n  - 그래프에서 2번 영역의 높이를 올리는 것은 바로 '최대 흡기 압력(PIP)'을 높여 파형의 면적을 넓히는 방법임.",
@@ -140219,9 +139945,7 @@
     "theme_title": "[단독 기출] 선천성 심질환을 가진 ?세 남아가 켁켁 ",
     "subspecialty": "소아청소년과 단독 기출",
     "stem": "선천성 심질환(팔로네징후)을 가진 남아가 심하게 보채고 울다가 켁켁거리며 호흡곤란과 청색증이 급격히 악화되어 내원하였다. 가슴 X선 사진은 다음과 같다. 적절한 응급 약물 치료는?",
-    "images": [
-      "images/소아청소년과/20Y_Q04_fig1.png"
-    ],
+    "images": [],
     "options": [
       "정맥 에피네프린(IV epinephrine)",
       "디곡신(Digoxin) 정주",
@@ -141684,11 +141408,19 @@
     "category": "짤",
     "theme_title": "신생아 인공호흡기 평균기도압(MAP) 조절 기전 (최대 흡기압력 PIP)",
     "subspecialty": "신생아학 & 중환자의학",
-    "stem": "평균 기도 압력을 높이는 방법으로 ③에 해당하는 방법은?",
-    "images": [],
-    "options": [],
-    "correct_option_index": 1,
-    "correct_answer": "② 최대 흡기 압력 증가",
+    "stem": "인공호흡기 압력-시간 곡선에서 평균 기도압력(MAP)을 높이는 방법으로 '3번(③)'에 해당하는 방법은?",
+    "images": [
+      "images/소아청소년과/26Y_Q28_fig1.png"
+    ],
+    "options": [
+      "① 흡기 유속(Inspiratory flow rate)을 증가시킨다.",
+      "② 최대 흡기 압력(PIP)을 증가시킨다.",
+      "③ 호흡 횟수 변경 없이 흡기 시간(Ti)을 연장시킨다.",
+      "④ 호기말 양압(PEEP)을 증가시킨다.",
+      "⑤ 호기 시간을 줄여서 인공환기의 호흡수를 증가시킨다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 호흡 횟수 변경 없이 흡기 시간(Ti)을 연장시킨다.",
     "explanation": {
       "title": "신생아 인공호흡기 평균기도압(MAP) 조절 기전 (최대 흡기압력 PIP)",
       "findings": "• [인공호흡기 압력-시간 파형 그래프 판독]:\n  - 영역 1: 흡기 유속(Inspiratory flow rate) 증가에 따른 압력 상승 기울기.\n  - 영역 2: 흡기 말 최고 압력 레벨 -> '최대 흡기 압력(Peak Inspiratory Pressure, PIP)'.\n  - 영역 3: 흡기 시간(Inspiratory time, Ti) 연장 구간.\n  - 영역 4: 호기 시간(Expiratory time, Te).\n  - 영역 5: 호기말 양압(Positive End-Expiratory Pressure, PEEP).\n• [평균기도압(Mean Airway Pressure, MAP) 결정 요인]:\n  - MAP는 1회 호흡 주기 동안 폐에 가해지는 평균 압력 면적을 의미함.\n  - 그래프에서 2번 영역의 높이를 올리는 것은 바로 '최대 흡기 압력(PIP)'을 높여 파형의 면적을 넓히는 방법임.",
@@ -141702,7 +141434,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      1
+      2
     ],
     "freq_count": 5,
     "rate": 83,
@@ -158575,9 +158307,15 @@
       "images/신경과/23Y_Q22_fig1.png",
       "images/신경과/23Y_Q22_fig2.png"
     ],
-    "options": [],
+    "options": [
+      "① 호흡의 깊이가 점진적으로 커졌다가 작아지며 무호흡이 주기적으로 교대된다 (Cheyne-Stokes 호흡)",
+      "② 깊고 빠른 과호흡이 규칙적으로 지속된다 (중추신경성 과호흡)",
+      "③ 최대 흡기 후 숨을 멈추었다가 내쉬는 양상이 반복된다 (흡기성 무호흡, Apneustic breathing)",
+      "④ 불규칙한 군집성 호흡과 무호흡이 반복된다 (군집성 호흡, Cluster breathing)",
+      "⑤ 호흡의 깊이와 주기가 완전히 불규칙하다 (실조성 호흡, Ataxic breathing)"
+    ],
     "correct_option_index": 0,
-    "correct_answer": "① 호흡의 깊이가 점진적으로 커졌다가 작아진다.",
+    "correct_answer": "① 호흡의 깊이가 점진적으로 커졌다가 작아지며 무호흡이 주기적으로 교대된다 (Cheyne-Stokes 호흡)",
     "explanation": {
       "title": "체인-스톡스 호흡의 임상적 특징 및 호흡 깊이 변화",
       "findings": "양측 대뇌 심부/간뇌 손상에 의한 과호흡과 무호흡의 주기적 교대 → 체인-스톡스 호흡(Cheyne-Stokes breathing)",
@@ -161602,9 +161340,15 @@
     "images": [
       "images/신경과/22Y_Q10_fig1.png"
     ],
-    "options": [],
+    "options": [
+      "① 호흡의 깊이가 점진적으로 커졌다가 작아지며 무호흡이 주기적으로 교대된다 (Cheyne-Stokes 호흡)",
+      "② 깊고 빠른 과호흡이 규칙적으로 지속된다 (중추신경성 과호흡)",
+      "③ 최대 흡기 후 숨을 멈추었다가 내쉬는 양상이 반복된다 (흡기성 무호흡, Apneustic breathing)",
+      "④ 불규칙한 군집성 호흡과 무호흡이 반복된다 (군집성 호흡, Cluster breathing)",
+      "⑤ 호흡의 깊이와 주기가 완전히 불규칙하다 (실조성 호흡, Ataxic breathing)"
+    ],
     "correct_option_index": 0,
-    "correct_answer": "① 호흡의 깊이가 점진적으로 커졌다가 작아진다.",
+    "correct_answer": "① 호흡의 깊이가 점진적으로 커졌다가 작아지며 무호흡이 주기적으로 교대된다 (Cheyne-Stokes 호흡)",
     "explanation": {
       "title": "체인-스톡스 호흡의 임상적 특징 및 호흡 깊이 변화",
       "findings": "양측 대뇌 심부/간뇌 손상에 의한 과호흡과 무호흡의 주기적 교대 → 체인-스톡스 호흡(Cheyne-Stokes breathing)",
@@ -162109,8 +161853,7 @@
     "subspecialty": "신경과 단독 기출",
     "stem": "70세 남성이 취침 전 8시간 전에는 증상이 없었으나 기상 직후 좌측 편마비와 구음장애가 확인되어 내원하였다. 가장 적절한 급성기 치료는?",
     "images": [
-      "images/신경과/22Y_Q17_fig1.png",
-      "images/신경과/22Y_Q17_fig2.png"
+      "images/신경과/22Y_Q17_fig1.png"
     ],
     "options": [
       "항혈소판제 (Antiplatelet)",
@@ -171778,9 +171521,7 @@
     "theme_title": "[단독 기출] . ",
     "subspecialty": "신경과 단독 기출",
     "stem": "60세 여성이 아침에 일어난 후 물체가 둘로 보이는 복시를 주소로 내원하였다. 환자는 우측을 주시할 때 우안 외전 및 좌안 내전이 모두 되지 않는 우측 수평 주시 마비를 보였고, 좌측을 주시할 때에는 좌안 외전은 가능하나 우안 내전이 되지 않는 안쪽눈근육마비(INO)를 보여 원앤하프 증후군(One-and-a-half syndrome)으로 진단되었다. 이 환자의 병변 부위를 보여주는 영상은?",
-    "images": [
-      "images/신경과/20Y_Q17_fig1.png"
-    ],
+    "images": [],
     "options": [
       "우측 교뇌 후하부 병변 (Right pontine tegmentum - PPRF/외전신경핵 및 MLF 침범)",
       "단순포진 바이러스 뇌염 (HSV encephalitis)",
@@ -177622,9 +177363,7 @@
     "theme_title": "신경과 일반: (야마)64/F 상하지 마비증상...",
     "subspecialty": "신경과 일반",
     "stem": "(야마)64/F 상하지 마비증상. 당화 혈색소 8.4인 환자에게 도움이 되는 약을 모두 고른 것은?",
-    "images": [
-      "images/신경과/19Y_Q20_fig1.png"
-    ],
+    "images": [],
     "options": [
       "Pregabalin",
       "Gabapentin",
@@ -198583,9 +198322,7 @@
     "theme_title": "정신건강의학과 일반: 발견되었다 특별한 방화동기를 찾을 수 없다 관련 진단 및 처치",
     "subspecialty": "정신건강의학과 일반",
     "stem": "병적 방화로 추정되는 소견인 것은? 소지품에서 이번 방화에 관련된 계획서가",
-    "images": [
-      "images/정신건강의학과/21Y_Q08_fig1.png"
-    ],
+    "images": [],
     "options": [
       "⚫ 발견되었다 특별한 방화동기를 찾을 수 없다",
       "⚫ 지능검사에서 IQ 가 59 로 측정되었다",
@@ -222120,9 +221857,7 @@
     "theme_title": "골육종(Osteosarcoma)의 햇살 모양 골막 반응(Sunburst Pattern)",
     "subspecialty": "골종양",
     "stem": "48세 남성이 정원일을 하던 중 장미 가시에 찔린 뒤 발생한 둘째 손가락의 부종과 통증으로 내원하였다. 굴곡건을 따라 심한 압통이 있었고 손가락을 약간 굴곡된 자세로 유지하고 있었으며, 수동 신전 시 극심한 통증을 호소하였다. 체온 38.2℃, WBC 14,200/㎣일 때 가장 적절한 처치는?",
-    "images": [
-      "images/정형외과/26Y_Q31_fig1.png"
-    ],
+    "images": [],
     "options": [
       "정맥 항생제 투여 및 응급 절개배농술",
       "경구 항생제 처방 후 1주일 뒤 외래에서 추적관찰",
@@ -222984,8 +222719,7 @@
     "subspecialty": "척추 질환",
     "stem": "30대 오토바이 사고로 인해 응급실 내원하였다. 건측에 비해 환측 요골동맥이 약하게 촉지된다. 다음으로 시행할 처 치로 가장 적절한 것은?",
     "images": [
-      "images/정형외과/26Y_Q38_fig1.png",
-      "images/정형외과/26Y_Q38_fig2.png"
+      "images/정형외과/26Y_Q38_fig1.png"
     ],
     "options": [
       "① 구획압 측정",
@@ -223963,9 +223697,7 @@
     "theme_title": "경골 간부 골절(Tibia Shaft Fx)의 합병증: 구획증후군 감시",
     "subspecialty": "하지 외상",
     "stem": "7세 소아가 3일 전 시작된 고관절 통증으로 내원하였다. 며칠 지나도 발열 및 통증이 사라지지 않았다. 체온 40.0℃, CRP 5.03 mg/dL이었다. 대퇴골두 관상면 MRI에서 신호강도 저하 및 관절 삼출액이 관찰되었다. 진단으로 가장 적절한 것은?",
-    "images": [
-      "images/정형외과/26Y_Q46_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① 세균성 고관절염 (Septic arthritis)",
       "② 일과성 고관절 활액막염 (Transient synovitis)",
@@ -224465,9 +224197,7 @@
       "images/정형외과/26Y_Q50_fig2.png",
       "images/정형외과/26Y_Q50_fig3.png",
       "images/정형외과/26Y_Q50_fig4.png",
-      "images/정형외과/26Y_Q50_fig5.png",
-      "images/정형외과/26Y_Q50_fig6.png",
-      "images/정형외과/26Y_Q50_fig7.png"
+      "images/정형외과/26Y_Q50_fig5.png"
     ],
     "options": [
       "① 무릎뼈 부유/쓸림 검사 (Patellar tap test / Ballottement test)",
@@ -226252,10 +225982,7 @@
     "theme_title": "외측 상과염(테니스 엘보)과 단요측수근신근(ECRB) 기시부 손상",
     "subspecialty": "주관절",
     "stem": "6개월 전부터 발생한 팔꿈치 통증을 주소로 내원하였다. 주관절 및 전완부의 전반적 외측 통증을 호소하였고, 주먹을 쥘 때와 능동적으로 신전을 할 때 통증이 심해진다고 하였다. 저항성 회외전 운동과 저항성 신전 운동에서 통증을 더 호소 하였다. 다음 중 이상이 있을 구조물을 고르시오.",
-    "images": [
-      "images/정형외과/23Y_Q05_fig1.png",
-      "images/정형외과/23Y_Q05_fig2.png"
-    ],
+    "images": [],
     "options": [
       "① Extensor carpi ulnaris",
       "② Extensor carpi radialis longus",
@@ -229918,13 +229645,7 @@
     "images": [
       "images/정형외과/23Y_Q34_fig1.png",
       "images/정형외과/23Y_Q34_fig2.png",
-      "images/정형외과/23Y_Q34_fig3.png",
-      "images/정형외과/23Y_Q34_fig4.png",
-      "images/정형외과/23Y_Q34_fig5.png",
-      "images/정형외과/23Y_Q34_fig6.png",
-      "images/정형외과/23Y_Q34_fig7.png",
-      "images/정형외과/23Y_Q34_fig8.png",
-      "images/정형외과/23Y_Q34_fig9.png"
+      "images/정형외과/23Y_Q34_fig3.png"
     ],
     "options": [
       "① Anterior cruciate ligament",
@@ -237402,9 +237123,7 @@
     "theme_title": "[단독 기출] 대 여성, 손목이 찌릿찌릿 설거지할때 ",
     "subspecialty": "정형외과 단독 기출",
     "stem": "50대 여성이 설거지를 하거나 손목을 구부릴 때 손가락이 찌릿찌릿 저리고, 밤에 손이 저려 잠에서 깨어 손을 터는 증상을 호소하였다. 엄지두덩의 근력 저하가 동반되었을 때 이 환자에서 양성을 보일 가능성이 가장 높은 진찰법은?",
-    "images": [
-      "images/정형외과/21Y_Q05_fig1.png"
-    ],
+    "images": [],
     "options": [
       "팔렌 검사 (Phalen test)",
       "핑켈스타인 검사 (Finkelstein test)",
@@ -239146,9 +238865,7 @@
     "theme_title": "거대세포종(Giant Cell Tumor)의 골단부 비누거품(Soap Bubble) 양상",
     "subspecialty": "골종양",
     "stem": "환자가 키우던 개에 물려 응급실에 내원하였다. 손 dorsum 부위에 2x2 의 피부 결손이 있고, 일부 연부조직 손상이 있었고 종창 열감 통증이 있었다. 처치는? 전층 피부 이식  ( Full thickness skin graft )",
-    "images": [
-      "images/정형외과/21Y_Q21_fig1.png"
-    ],
+    "images": [],
     "options": [
       "⚫ 부분층 피부 이식 ( Split skin graft )",
       "⚫ 피판이식 (Flap)",
@@ -241726,9 +241443,7 @@
     "theme_title": "정형외과 과년도 빈출: Peroneus\u0001 관련 진단 및 처치",
     "subspecialty": "정형외과 과년도 빈출",
     "stem": "(야마) 족관절염좌재활운동시강화하는 \u0001 \u0001 \u0001 \u0001 \u0001 근육은?\u0001",
-    "images": [
-      "images/정형외과/20Y_Q16_fig1.png"
-    ],
+    "images": [],
     "options": [
       "A. Peroneus\u0001",
       "B. Soleus\u0001",
@@ -243559,8 +243274,7 @@
     "subspecialty": "정형외과 일반",
     "stem": "교통사고 40/M 5cm 개방창상 맥박은 촉지되는 상태 치료는? 실제 사진은 Articular space까지 골절된 사진이었습니다.. 답 정확히 모르는데 이 2개로 얘기했습니다.",
     "images": [
-      "images/정형외과/19Y_Q07_fig1.png",
-      "images/정형외과/19Y_Q07_fig2.png"
+      "images/정형외과/19Y_Q07_fig1.png"
     ],
     "options": [
       "A. 외고정술",
@@ -246892,8 +246606,7 @@
     "subspecialty": "흉부 영상의학",
     "stem": "다음 사진에서 확인할 수 있는 이상 소견은?",
     "images": [
-      "images/영상의학과/26Y_Q05_fig1.png",
-      "images/영상의학과/26Y_Q05_fig2.png"
+      "images/영상의학과/26Y_Q05_fig1.png"
     ],
     "options": [
       "① Diaphragm flattening",
@@ -247472,8 +247185,7 @@
     "subspecialty": "흉부 영상의학",
     "stem": "다음 X-ray에 대한 설명으로 적절한 것은?",
     "images": [
-      "images/영상의학과/26Y_Q10_fig1.png",
-      "images/영상의학과/26Y_Q10_fig2.png"
+      "images/영상의학과/26Y_Q10_fig1.png"
     ],
     "options": [
       "① 우측에 인공물질에 의한 음영이 있다.",
@@ -248291,8 +248003,7 @@
     "subspecialty": "소아 영상의학",
     "stem": "3세된 남아가 irritability를 주소로 내원하여 시행한 초 음파 사진이다. 진단은?",
     "images": [
-      "images/영상의학과/26Y_Q17_fig1.png",
-      "images/영상의학과/26Y_Q17_fig2.png"
+      "images/영상의학과/26Y_Q17_fig1.png"
     ],
     "options": [
       "① Intussusception",
@@ -248816,8 +248527,7 @@
     "subspecialty": "유방 영상의학",
     "stem": "유방촬영술 view의 맞는 조합은?",
     "images": [
-      "images/영상의학과/26Y_Q21_fig1.png",
-      "images/영상의학과/26Y_Q21_fig2.png"
+      "images/영상의학과/26Y_Q21_fig1.png"
     ],
     "options": [
       "① Mediolateral oblique view and craniocaudal view",
@@ -249400,8 +249110,7 @@
     "subspecialty": "신경 영상의학",
     "stem": "다음의 사진을 보고 Collateral circulation 및 환자의 예후를 평가하시오.",
     "images": [
-      "images/영상의학과/26Y_Q26_fig1.png",
-      "images/영상의학과/26Y_Q26_fig2.png"
+      "images/영상의학과/26Y_Q26_fig1.png"
     ],
     "options": [
       "① Poor collateral - poor prognosis",
@@ -249967,8 +249676,7 @@
     "subspecialty": "복부 영상의학",
     "stem": "다음 영상 특징으로 옳은 것은?(Crohn’s disease)",
     "images": [
-      "images/영상의학과/26Y_Q31_fig1.png",
-      "images/영상의학과/26Y_Q31_fig2.png"
+      "images/영상의학과/26Y_Q31_fig1.png"
     ],
     "options": [
       "① 급성기에 cobblestone appearance 보인다.",
@@ -252694,8 +252402,7 @@
     "subspecialty": "영상의학과 단독 기출",
     "stem": "(Liver abscess CT 주고) 치료는? (사진 약간 달랐으나 air-fluid level 보였고 capsule 있었음)",
     "images": [
-      "images/영상의학과/23Y_Q05_fig1.png",
-      "images/영상의학과/23Y_Q05_fig2.png"
+      "images/영상의학과/23Y_Q05_fig1.png"
     ],
     "options": [
       "① Percutaneous drainage",
@@ -253034,8 +252741,7 @@
     "stem": "황달로 내원한 중년 남성. 치료는? (사진 약간 달랐으나 CBD에 multiple stones 있는 것 확실히 보 였습니다.)",
     "images": [
       "images/영상의학과/23Y_Q08_fig1.png",
-      "images/영상의학과/23Y_Q08_fig2.png",
-      "images/영상의학과/23Y_Q08_fig3.png"
+      "images/영상의학과/23Y_Q08_fig2.png"
     ],
     "options": [
       "① ERCP",
@@ -254494,9 +254200,7 @@
     "subspecialty": "영상의학과 단독 기출",
     "stem": "다음 시술의 목적은? (사진 출처: 구리 영상 땡시 IVC filter)",
     "images": [
-      "images/영상의학과/23Y_Q21_fig1.png",
-      "images/영상의학과/23Y_Q21_fig2.png",
-      "images/영상의학과/23Y_Q21_fig3.png"
+      "images/영상의학과/23Y_Q21_fig1.png"
     ],
     "options": [
       "① Pulmonary embolism을 예방할 수 있다.",
@@ -254819,8 +254523,7 @@
     "stem": "Pelvic X-ray 옳게 묘사한 것은? (사진 불확실) (사진 출처: 2023 구리 MSK 대체과제 CASE 1: bone metastasis)",
     "images": [
       "images/영상의학과/23Y_Q24_fig1.png",
-      "images/영상의학과/23Y_Q24_fig2.png",
-      "images/영상의학과/23Y_Q24_fig3.png"
+      "images/영상의학과/23Y_Q24_fig2.png"
     ],
     "options": [
       "① Ischium과 pubis에 osteolytic osteoblastic lesion이 관찰된다.",
@@ -255255,8 +254958,7 @@
     "subspecialty": "영상의학과 단독 기출",
     "stem": "47세 여자가 높은 곳에서 점프해서 떨어져서 병원에 왔 다. Knee coronal MRI 주고 손상 입은 구조물은? (비슷한 사진, 화살표 없었음)",
     "images": [
-      "images/영상의학과/23Y_Q28_fig1.png",
-      "images/영상의학과/23Y_Q28_fig2.png"
+      "images/영상의학과/23Y_Q28_fig1.png"
     ],
     "options": [
       "① ACL (답 추정)",
@@ -256840,9 +256542,7 @@
     "theme_title": "[단독 기출] X-ray에서 정상소견이 아닌 것은?",
     "subspecialty": "영상의학과 단독 기출",
     "stem": "X-ray에서 정상소견이 아닌 것은?",
-    "images": [
-      "images/영상의학과/23Y_Q42_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① 왼쪽 hilum이 오른쪽보다 높다.",
       "② Diaphragm이 오른쪽이 왼쪽보다 2-4cm 높다.",
@@ -258283,8 +257983,7 @@
     "subspecialty": "영상의학과 단독 기출",
     "stem": "다음 진단은? (크고 불규칙한 nodule 이 광범 위하게 퍼져있었습니다. Miliary TB 와 헷갈리 지 않았음)",
     "images": [
-      "images/영상의학과/22Y_Q08_fig1.png",
-      "images/영상의학과/22Y_Q08_fig2.png"
+      "images/영상의학과/22Y_Q08_fig1.png"
     ],
     "options": [],
     "correct_option_index": 0,
@@ -258500,9 +258199,7 @@
     "stem": "갑작스러운 호흡곤란과 흉통으로 내원한 62세 환자의 조영증강 흉부 CT 영상이다. 주폐동맥 및 양측 폐동맥 분지 내강에서 조영 결손(Filling defect) 소견이 관찰될 때 가장 적절한 진단은?",
     "images": [
       "images/영상의학과/22Y_Q11_fig1.png",
-      "images/영상의학과/22Y_Q11_fig2.png",
-      "images/영상의학과/22Y_Q11_fig3.png",
-      "images/영상의학과/22Y_Q11_fig4.png"
+      "images/영상의학과/22Y_Q11_fig2.png"
     ],
     "options": [
       "① 폐혈전색전증 (Pulmonary Thromboembolism, PTE)",
@@ -258726,8 +258423,7 @@
     "subspecialty": "영상의학과 단독 기출",
     "stem": "심장병 있는 환자의 복부사진. 이 사진은? (사진은 2021 학기말에서 가져왔는데 이 사 진은 아니었습니다.) Renal infarction",
     "images": [
-      "images/영상의학과/22Y_Q13_fig1.png",
-      "images/영상의학과/22Y_Q13_fig2.png"
+      "images/영상의학과/22Y_Q13_fig1.png"
     ],
     "options": [
       "⚫ Apn",
@@ -258995,16 +258691,17 @@
     "subspecialty": "영상의학과 단독 기출",
     "stem": "다음과 비슷한 사진, CT 영상 주고 치료는? 경과관찰",
     "images": [
-      "images/영상의학과/22Y_Q16_fig1.png",
-      "images/영상의학과/22Y_Q16_fig2.png"
+      "images/영상의학과/22Y_Q16_fig1.png"
     ],
     "options": [
-      "⚫ 수술적 절제",
-      "⚫ MSK (8 문제)",
-      "1. Spondylolisthesis 에 관여하는 부위는? (1, 2, 3, 4, 5 번만 표시된 상태로 출제됐습니다.) 1 ● 2 ● 3 ● 4 ● 5 ●"
+      "① 경과관찰 (추적 검사)",
+      "② 수술적 절제 (간절제술)",
+      "③ 경동맥 화학색전술 (TACE)",
+      "④ 고주파 열치료 (RFA)",
+      "⑤ 전신 항암화학요법"
     ],
     "correct_option_index": 0,
-    "correct_answer": "⚫ 수술적 절제",
+    "correct_answer": "① 경과관찰 (추적 검사)",
     "explanation": {
       "title": "[단독 기출] 다음과 비슷한 사진, CT 영상 주고 치료는? ",
       "findings": "무증상 췌장 낭성 병변의 추적관찰 및 요추 사위상 협부 결손(pars interarticularis) 판독",
@@ -259057,26 +258754,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "수술적 절제",
+        "text": "경과관찰 (추적 검사)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "원 기출(Q16)은 무증상 장액낭성종양(SCN) 등 양성 낭성 병변으로 악성 위험이 낮아 '경과관찰'이 원칙이며, 증상이 있거나 고위험 악성 의심 징후가 없는 한 조기 수술적 절제는 시행하지 않습니다"
+        "reason": "역동적 조영증강 CT에서 변연부 결절성 조영증강과 구심성 충만(centripetal fill-in)을 보이는 전형적인 간혈관종(Hepatic hemangioma) 또는 무증상 양성 병변은 치료 없이 경과관찰이 원칙입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "MSK (8 문제)",
+        "text": "수술적 절제 (간절제술)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "본 문항 뒤로 이어진 근골격계(MSK) 기출 분과의 서두 헤더가 선지로 잘못 파싱된 항목입니다."
+        "reason": "무증상 양성 간 병변에서는 수술적 절제를 시행하지 않습니다."
       },
       {
         "opt_idx": 2,
-        "opt_num": "1.",
-        "text": "Spondylolisthesis 에 관여하는 부위는? (1, 2, 3, 4, 5 번만 표시된 상태로 출제됐습니다.) 1 ● 2 ● 3 ● 4 ● 5 ●",
+        "opt_num": "③",
+        "text": "경동맥 화학색전술 (TACE)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "요추 사위상(Oblique view)에서 스코티시 테리어(Scotty dog) 모양 중 목(neck) 부위에 해당하는 협부(pars interarticularis, 4번)의 결손(spondylolysis)이 척추전방전위증(spondylolisthesis)을 유발합니다."
+        "reason": "간세포암(HCC)의 비수술적 치료법입니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "고주파 열치료 (RFA)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "소형 간세포암 또는 전이성 간암의 국소 치료법입니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "전신 항암화학요법",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "양성 병변이므로 항암치료의 적응증이 아닙니다."
       }
     ]
   },
@@ -259607,11 +259320,7 @@
     "subspecialty": "영상의학과 일반",
     "stem": "어떤 view 에서 촬영해야 하는가? Mediolateral oblique view and craniocaudal",
     "images": [
-      "images/영상의학과/21Y_Q05_fig1.png",
-      "images/영상의학과/21Y_Q05_fig2.png",
-      "images/영상의학과/21Y_Q05_fig3.png",
-      "images/영상의학과/21Y_Q05_fig4.png",
-      "images/영상의학과/21Y_Q05_fig5.png"
+      "images/영상의학과/21Y_Q05_fig1.png"
     ],
     "options": [
       "⚫ view Mediolateral oblique view and caudocranial",
@@ -260575,8 +260284,7 @@
     "subspecialty": "흉부 영상의학",
     "stem": "다음 X-ray 사진에서 옳지 않은 것은? (가장 비슷한 사진을 구해왔는데 실제 시험 사진에서는 오른쪽 폐야에 단추 2개가 보였고 main bronchus와 pulmonary artery가 더 명확하게 보였습니다.)",
     "images": [
-      "images/영상의학과/20Y_Q04_fig1.png",
-      "images/영상의학과/20Y_Q04_fig2.png"
+      "images/영상의학과/20Y_Q04_fig1.png"
     ],
     "options": [
       "좌측에 인공물질에 의한 음영이 있다.",
@@ -260936,9 +260644,7 @@
     "theme_title": "영상의학과 단독 기출: 기출 정답 참조 관련 진단 및 처치",
     "subspecialty": "영상의학과 단독 기출",
     "stem": "68세 남성 하복부 불편으로 내원, CT 및 PET 소견 보았을 때 알맞은 치료는? 참고: CT 사진 화살표는 없었고 sigmoid 쯤에서 저렇게 벽이 두꺼워진 구간이 있었습니다. 대장암같은데.. 두가지 조건만으로 절제인지 항암치료인지는 답에 논란이 있었습니다.",
-    "images": [
-      "images/영상의학과/20Y_Q12_fig1.png"
-    ],
+    "images": [],
     "options": [],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
@@ -261246,8 +260952,7 @@
     "subspecialty": "영상의학과 단독 기출",
     "stem": "(야마) 젊은 남성, 다음은 대장과 소장 조영술 사진이다. 진단은?",
     "images": [
-      "images/영상의학과/20Y_Q19_fig1.png",
-      "images/영상의학과/20Y_Q19_fig2.png"
+      "images/영상의학과/20Y_Q19_fig1.png"
     ],
     "options": [
       "Tb",
@@ -261438,9 +261143,7 @@
     "theme_title": "[단독 기출] (주) 대동맥 질환 중 stent-graft 할 수 ",
     "subspecialty": "영상의학과 단독 기출",
     "stem": "(주) 대동맥 질환 중 stent-graft 할 수 있는 질환 3개 쓰시오 (답: 아래 티칭파일 참고하세요!)",
-    "images": [
-      "images/영상의학과/20Y_Q23_fig1.png"
-    ],
+    "images": [],
     "options": [],
     "correct_option_index": 0,
     "correct_answer": "기출 정답 참조",
@@ -261607,9 +261310,7 @@
     "theme_title": "영상의학과 과년도 빈출: BRTO 관한 설명으로 인해 기대해볼 수 있는 것이 아...",
     "subspecialty": "영상의학과 과년도 빈출",
     "stem": "BRTO 관한 설명으로 인해 기대해볼 수 있는 것이 아닌 것? (마찬가지로 원리를 알고 있으면 맞출 수 있는 문제)",
-    "images": [
-      "images/영상의학과/20Y_Q27_fig1.png"
-    ],
+    "images": [],
     "options": [
       "Gastric & esophageal varix 악화",
       "hepatic encephalopathy 완화",
@@ -261746,8 +261447,7 @@
     "subspecialty": "신경/인터벤션 영상의학",
     "stem": "(19 야마) 최근 뇌출혈로 시술을 받은 사람의 며칠 후 추적관찰 사진이다. 다음 현상의 원인과 치료로 알맞은 것은? (혈관이 전반적으로 좁아져 있는 모습)",
     "images": [
-      "images/영상의학과/20Y_Q30_fig1.png",
-      "images/영상의학과/20Y_Q30_fig2.png"
+      "images/영상의학과/20Y_Q30_fig1.png"
     ],
     "options": [
       "Thromboembolism - thrombolysis",
@@ -261980,8 +261680,7 @@
     "subspecialty": "신경 영상의학",
     "stem": "다음의 brain MRI 영상을 보고 infarction 부위(-> internal capsule posterior limb) 및 그곳과 관련된 혈관을 옳게 짝지은 것을 고르시오. (완전 똑같은 사진은 아니지만, 보면 바로 internal capsule 부위인거 알 수 있었음.)",
     "images": [
-      "images/영상의학과/20Y_Q35_fig1.png",
-      "images/영상의학과/20Y_Q35_fig2.png"
+      "images/영상의학과/20Y_Q35_fig1.png"
     ],
     "options": [],
     "correct_option_index": 2,
