@@ -255,6 +255,9 @@
         "tag": "오답 감별",
         "reason": "노인 환자에서 섬망, 요폐, 녹내장을 유발할 수 있으며 자살 위험이 높은 환자에게는 치명적 중독 위험으로 1차 선택을 피합니다."
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -387,6 +390,9 @@
         "tag": "오답 감별",
         "reason": "대형 혈관염(Takayasu, 거대세포동맥염)에서는 ANCA가 음성이며 혈관 조영 검사가 필수적입니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -519,6 +525,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -647,6 +656,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -773,6 +785,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -882,6 +897,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -1009,6 +1027,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -1137,6 +1158,9 @@
         "tag": "오답 감별",
         "reason": "⑤ Microangiopathic hemolytic anemia."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -1242,6 +1266,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -1366,6 +1393,9 @@
         "tag": "오답 감별",
         "reason": "⑤ Multiple myeloma."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -1481,6 +1511,9 @@
         "tag": "오답 감별",
         "reason": "④ ABO 혈액형 유전자형 검사."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -1605,6 +1638,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -1731,6 +1767,9 @@
         "tag": "정답",
         "reason": "ABO 유전자는 적혈구 표면 항원 단백질을 직접 만드는 것이 아니라, H 항원에 당을 붙이는 당전이효소(Glycosyltransferase)를 코딩하여 간접적으로 A/B 항원을 합성함!. 선지 ① \"A형과 B형은 염기 1개 차이(X - 4개 차이)\", ② \"O형과 A형은 염기 4개 차이(X - 1개 염기 결실)\", ③ \"1번 염색체(X - ABO는 9번, Rh는 1번)\"."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -1857,6 +1896,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -1981,6 +2023,9 @@
         "tag": "오답 감별",
         "reason": "⑤ VII, IX, XII."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -2111,6 +2156,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -2241,6 +2289,9 @@
         "tag": "정답",
         "reason": "병원 임상검사실에서 흔히 분리되는 병원성 세균(S. aureus, E. coli, Salmonella 등)은 생물안전 2등급(BSL-2)에 해당하며 Class II 생물안전작업대(BSC)에서 다룸! 1등급은 비병원성균(E. coli K12). 선지 ⑤는 흔한 임상 세균을 1등급으로 잘못 기술하여 명백한."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -2373,6 +2424,9 @@
         "tag": "오답 감별",
         "reason": "백내장 수술 후 안내염 환자의 유리체액(Vitreous humor) 등 환자 검체 배양은 일반 임상 검체이므로 생물안전 2등급(BSL-2) 시설 및 생물안전작업대(BSC) 내에서 취급해야 함!. 환자 유래 감염성 검체의 기본 취급 표준 등급 숙지 여부 확인."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -2499,6 +2553,9 @@
         "tag": "오답 감별",
         "reason": "감별 질환/치료 특성: Positive(TB Ag 유의한 상승), Negative(TB Ag 무반응이나 Mitogen 정상 반응). 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -2610,6 +2667,9 @@
         "tag": "오답 감별",
         "reason": "일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -2736,6 +2796,9 @@
         "tag": "오답 감별",
         "reason": "⑤ Mitochondria 유전."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -2862,6 +2925,9 @@
         "tag": "오답 감별",
         "reason": "자녀에서 유전 질환을 가질 확률이 50%이므로 반드시 유전자검사(가족검사)를 해야 한다. : 자녀에서 유전 질환을 가질 확률이 50%이므로 반드시 유전자검사(가족검사)를 해야 한다. : 자녀에서 유전 질환을 가질 확률이 50%이므로 반드시 유전자검사(가족검사)를 해야 한다. : 자녀에서 유전 질환을 가질 확률이 50%이므로 반드시 유전자검사(가족검사)를 해야 한다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -2986,6 +3052,9 @@
         "tag": "오답 감별",
         "reason": "감별 질환/치료 특성: AmpC 과발현균(Cefoxitin 내성, Cefepime 감수성). 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -3110,6 +3179,9 @@
         "tag": "정답",
         "reason": "VRE(반코마이신 내성 장알균)는 장내 정상 상주세균총의 집락화(Colonization) 및 병원 내 기회감염균(요로감염, 균혈증)이지, 급성 설사/세균성 장염을 일으키는 장내 병원체가 아님!. 세균성 위장관염(Infectious gastroenteritis)의 원인균 목록에서 제외되는 항목 선별."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -3238,6 +3310,9 @@
         "tag": "오답 감별",
         "reason": "NMTT 측쇄로 인해 저프로트롬빈혈증(출혈 경향) 및 알코올 섭취 시 디설피람 유사 반응을 유발할 수 있어 주의해야 합니다."
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -3362,6 +3437,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -3486,6 +3564,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -3610,6 +3691,9 @@
         "tag": "오답 감별",
         "reason": "감별 질환/치료 특성: MCV(크기), MCHC(농도), RDW(크기 부동성). 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -3738,6 +3822,9 @@
         "tag": "오답 감별",
         "reason": "⑤ NK cell 활성도 측정."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -3864,6 +3951,9 @@
         "tag": "오답 감별",
         "reason": "③ False positive of Anti-sm."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -3994,6 +4084,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -4116,6 +4209,9 @@
         "tag": "정답",
         "reason": "유전 질환(Inherited/Genetic disease)이라 하더라도 식습관, 감염, 약물, 환경적 독소 등 외부 요인에 의해 질환의 발현 시기, 중증도(Expressivity), 표현형이 크게 좌우됨!. 유전 결정론적 오류(외부 영향 배제)를 지적하는 전통적 총론 기출."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -4221,6 +4317,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -4349,6 +4448,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -4477,6 +4579,9 @@
         "tag": "오답 감별",
         "reason": "⑤ 표적 치료는 특정 표적에만 작용하여 암을 완치하는 치료이다."
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -4607,6 +4712,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -4729,6 +4837,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -4851,6 +4962,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -4977,6 +5091,9 @@
         "tag": "정답",
         "reason": "수혈을 반복적으로 받은 환자는 공혈자 적혈구의 미세 항원(Rh E, c, Kell, Duffy, Kidd 등)에 동종면역(Alloimmunization)되어 새로운 비예기항체가 생성될 수 있으므로, 매 수혈 시마다 72시간 이내 새 검체로 항체선별검사를 반복해야 함!. 안전 수혈 지침의 핵심 임상 원칙 숙지."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -5109,6 +5226,9 @@
         "tag": "오답 감별",
         "reason": "⑤ Null Antigen."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -5233,6 +5353,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -5321,6 +5444,9 @@
         "tag": "오답 감별",
         "reason": "Sanger로 진단할 수 있다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -5445,6 +5571,9 @@
         "tag": "정답",
         "reason": "ClinVar 등 공용 DB에 과거 Pathogenic으로 등재된 변이라 하더라도, 새로운 인구집단 빈도(gnomAD)나 기능 연구에 의해 VUS나 Benign으로 재분류될 수 있으므로 반드시 검사실 자체적으로 2015 ACMG 가이드라인 기준에 따라 독립적 재평가를 수행해야 함!. 선지 ⑤는 맹목적 DB 신뢰를 주장하여 명백히 가이드라인 원칙에 위배."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -5520,6 +5649,9 @@
         "tag": "정답",
         "reason": "출혈 증상 없는 수술 예정 환자에서 PLT 20,000으로 급감 보고 시 -> 수술 연기나 불필요한 혈소판 수혈을 하기 전에 반드시 말초혈액도말(PBS)로 혈소판 응집을 확인하고 Sodium citrate 튜브로 재채혈하여 가성 혈소판 감소증(Pseudothrombocytopenia)을 먼저 배제해야 함!. 가장 빠르고 비용효과적인 1차 검증 조치를 묻는 실전 임상 문항."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -5644,6 +5776,9 @@
         "tag": "오답 감별",
         "reason": "을 bioinformatic와 비교할 필요 없다. : 을 bioinformatic와 비교할 필요 없다. : 을 bioinformatic와 비교할 필요 없다. : 을 bioinformatic와 비교할 필요 없다."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -5768,6 +5903,9 @@
         "tag": "오답 감별",
         "reason": "⑤ 염색체 비분리 현상에 의한 이수체이다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -5896,6 +6034,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -5905,7 +6046,7 @@
     "year": "23Y",
     "q_num": 2,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 화살표가 나타내는 소견은?",
+    "theme_title": "진단검사의학과 과년도 빈출: 화살표가 나타내는 소견은?...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "화살표가 나타내는 소견은?",
     "images": [
@@ -6024,6 +6165,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -6150,6 +6294,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -6259,6 +6406,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -6370,6 +6520,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -6497,6 +6650,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -6623,6 +6779,9 @@
         "tag": "오답 감별",
         "reason": "③ False positive of Anti-sm."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -6632,12 +6791,10 @@
     "year": "23Y",
     "q_num": 8,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 엄마가 O, RH+. 아이 혈액형은 표로 나옴. (cell A, D에",
+    "theme_title": "진단검사의학과 과년도 빈출: 엄마가 O, RH+...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "엄마가 O, RH+. 아이 혈액형은 표로 나옴. (cell A, D에 서 4+, serum B+/-). 아이에게 수혈이 필요해서 수혈하려 고 할 때 A, RH+ 혈액으로 교차검사했는데 모두 양성으로 나왔다. 이 때 가장 가능성이 높은 진단은?",
-    "images": [
-      "images/23Y_Q08_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① ABO hemolysis of fetus and newborn",
       "② RH hemolysis of fetus and newborn",
@@ -6749,6 +6906,9 @@
         "tag": "오답 감별",
         "reason": "⑤ Warm autoimmune hemolytic anemia."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -6758,7 +6918,7 @@
     "year": "23Y",
     "q_num": 9,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 환자의 가족 혈액형 가계도이다. 환자의 혈액형을 설명할 ",
+    "theme_title": "진단검사의학과 과년도 빈출: [23Y Q09 & 22Y Q43] ① cis-AB 관련 진단 및 처치",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "환자의 가족 혈액형 가계도이다. 환자의 혈액형을 설명할 수 있는 현상은?",
     "images": [
@@ -6875,6 +7035,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -6990,6 +7153,9 @@
         "tag": "오답 감별",
         "reason": "④ ABO 혈액형 유전자형 검사."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -7114,6 +7280,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -7123,7 +7292,7 @@
     "year": "23Y",
     "q_num": 12,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 혈액배양검사에 대한 설명으로 옳지 않은 것은?",
+    "theme_title": "진단검사의학과 과년도 빈출: 혈액배양검사에 대한 설명으로 옳지 않은 것은?...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "혈액배양검사에 대한 설명으로 옳지 않은 것은?",
     "images": [],
@@ -7238,6 +7407,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -7247,7 +7419,7 @@
     "year": "23Y",
     "q_num": 13,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 검사 결과 혈액형은 무엇인가?",
+    "theme_title": "진단검사의학과 과년도 빈출: 검사 결과 혈액형은 무엇인가? (혈액 검사 결과 A와 ...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "검사 결과 혈액형은 무엇인가? (혈액 검사 결과 A와 B 모두에서 혈액응고 관찰)",
     "images": [],
@@ -7347,6 +7519,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -7473,6 +7648,9 @@
         "tag": "오답 감별",
         "reason": "비장 종대가 동반되지 않는 것이 특징이며, 간비종대가 있다면 백혈병, 골수섬유증 등 다른 골수 질환을 감별해야 합니다."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -7599,6 +7777,9 @@
         "tag": "정답",
         "reason": "ABO 유전자는 적혈구 표면 항원 단백질을 직접 만드는 것이 아니라, H 항원에 당을 붙이는 당전이효소(Glycosyltransferase)를 코딩하여 간접적으로 A/B 항원을 합성함!. 선지 ① \"A형과 B형은 염기 1개 차이(X - 4개 차이)\", ② \"O형과 A형은 염기 4개 차이(X - 1개 염기 결실)\", ③ \"1번 염색체(X - ABO는 9번, Rh는 1번)\"."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -7608,7 +7789,7 @@
     "year": "23Y",
     "q_num": 16,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 세 여아. 발열과 인후통이 있어서 내원했다. 편도에 발",
+    "theme_title": "진단검사의학과 과년도 빈출: 4세 여아...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "4세 여아. 발열과 인후통이 있어서 내원했다. 편도에 발 적과 표면에 하얀 막이 관찰되었다. 목에서 3cm 정도의 림 프절이 여러개 만져지며 만졌을 때 아파했다. 좌측 갈비뼈 아 래로 지라가 3cm정도 만져진다. 혈액검사 및 말초혈액도말검 사는 다음과 같으며 아래의 세포가 전체 백혈구의 30%를 차 지했다. 가장 의심되는 진단은? [혈액검사: WBC: 19,000 (림프구 70%)]",
     "images": [
@@ -7725,6 +7906,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -7847,6 +8031,9 @@
         "tag": "오답 감별",
         "reason": "항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -7969,6 +8156,9 @@
         "tag": "오답 감별",
         "reason": "사구체 손상, 신증후군."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -8091,6 +8281,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -8213,6 +8406,9 @@
         "tag": "오답 감별",
         "reason": "⑤ Band neutrophil."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -8339,6 +8535,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -8461,6 +8660,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -8583,6 +8785,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -8707,6 +8912,9 @@
         "tag": "오답 감별",
         "reason": "⑤ VII, IX, XII."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -8829,6 +9037,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -8956,6 +9167,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -9086,6 +9300,9 @@
         "tag": "정답",
         "reason": "병원 임상검사실에서 흔히 분리되는 병원성 세균(S. aureus, E. coli, Salmonella 등)은 생물안전 2등급(BSL-2)에 해당하며 Class II 생물안전작업대(BSC)에서 다룸! 1등급은 비병원성균(E. coli K12). 선지 ⑤는 흔한 임상 세균을 1등급으로 잘못 기술하여 명백한."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -9218,6 +9435,9 @@
         "tag": "오답 감별",
         "reason": "원발성 경화성 담관염(PSC)은 대개 AMA 음성이며 p-ANCA 양성과 담관조영술 상 구슬 모양(Beaded) 소견이 특징입니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -9227,7 +9447,7 @@
     "year": "23Y",
     "q_num": 29,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 병원 검사실에서 알부민 농도 검사에 사용하는 시약은?",
+    "theme_title": "진단검사의학과 과년도 빈출: 병원 검사실에서 알부민 농도 검사에 사용하는 시약은?...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "병원 검사실에서 알부민 농도 검사에 사용하는 시약은?",
     "images": [],
@@ -9325,6 +9545,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -9334,7 +9557,7 @@
     "year": "23Y",
     "q_num": 30,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 법정감염병 6종이 아닌 것은?",
+    "theme_title": "진단검사의학과 과년도 빈출: 법정감염병 6종이 아닌 것은?...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "법정감염병 6종이 아닌 것은?",
     "images": [],
@@ -9449,6 +9672,9 @@
         "tag": "정답",
         "reason": "resistant Enterovirus."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -9581,6 +9807,9 @@
         "tag": "오답 감별",
         "reason": "백내장 수술 후 안내염 환자의 유리체액(Vitreous humor) 등 환자 검체 배양은 일반 임상 검체이므로 생물안전 2등급(BSL-2) 시설 및 생물안전작업대(BSC) 내에서 취급해야 함!. 환자 유래 감염성 검체의 기본 취급 표준 등급 숙지 여부 확인."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -9711,6 +9940,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -9869,6 +10101,9 @@
         "tag": "오답 감별",
         "reason": "감별 질환/치료 특성: Positive(TB Ag 유의한 상승), Negative(TB Ag 무반응이나 Mitogen 정상 반응). 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -10001,6 +10236,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -10010,7 +10248,7 @@
     "year": "23Y",
     "q_num": 35,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 결핵에 대해 옳은 것은?",
+    "theme_title": "진단검사의학과 과년도 빈출: 결핵에 대해 옳은 것은?...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "결핵에 대해 옳은 것은?",
     "images": [],
@@ -10127,6 +10365,9 @@
         "tag": "정답",
         "reason": "6개년 중 3회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상. Y Q35 & 22Y Q04 & 20Y Q42] 공통 출제 지문."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -10238,6 +10479,9 @@
         "tag": "오답 감별",
         "reason": "일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -10360,6 +10604,9 @@
         "tag": "정답",
         "reason": "유전자 검사 목적 틀린 것 -> 즉각적 완치 약제 합성. 유전자 검사는 유전질환의 확진, 보인자 선별, 산전 진단, 약물 유전체(Pharmacogenomics) 반응 예측에 사용되나, 검사 자체로 질환의 완치 약제를 합성하는 목적은 아닙니다."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -10484,6 +10731,9 @@
         "tag": "오답 감별",
         "reason": "을 bioinformatic와 비교할 필요 없다. : 을 bioinformatic와 비교할 필요 없다. : 을 bioinformatic와 비교할 필요 없다. : 을 bioinformatic와 비교할 필요 없다."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -10493,7 +10743,7 @@
     "year": "23Y",
     "q_num": 39,
     "category": "반짤",
-    "theme_title": "[과년도 빈출] 혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간",
+    "theme_title": "진단검사의학과 과년도 빈출: 혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간 주하는 경우는?",
     "images": [],
@@ -10610,6 +10860,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -10732,6 +10985,9 @@
         "tag": "정답",
         "reason": "기본 PCR 재료 아닌 것 -> 제한효소. 표준 PCR 증폭에 필수적인 성분은 ① 주형 DNA, ② 전방/역방향 프라이머 쌍, ③ 내열성 DNA 중합효소(Taq), ④ 4종의 dNTP(dATP, dCTP, dGTP, dTTP) 및 Mg2+ 완충액입니다."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -10858,6 +11114,9 @@
         "tag": "오답 감별",
         "reason": "⑤ Mitochondria 유전."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -10870,10 +11129,7 @@
     "theme_title": "2015 ACMG/AMP 유전 변이 해석 가이드라인: 변이 재평가의 의무",
     "subspecialty": "진단유전학",
     "stem": "변이 해석 문제. 2015-ACMG/AMP 가이드라인에 대한 설명으로 옳지 않은 것은?",
-    "images": [
-      "images/23Y_Q42_fig1.png",
-      "images/23Y_Q42_fig2.png"
-    ],
+    "images": [],
     "options": [
       "① 최종적으로 ‘pathogenic’, ‘likely pathogenic’, ‘uncertain significance’, ‘likely benign’, ‘benign’ 5단계 로 분류된다.",
       "② gnomAD를 참고해서 유전자 변이가 정상 집단에서 흔하 지 않은 빈도인지, 5% 이상의 흔한 빈도인지를 알 수 있으 며, 변이 빈도가 변이 해석의 근거가 될 수 있다.",
@@ -10985,6 +11241,9 @@
         "tag": "정답",
         "reason": "ClinVar 등 공용 DB에 과거 Pathogenic으로 등재된 변이라 하더라도, 새로운 인구집단 빈도(gnomAD)나 기능 연구에 의해 VUS나 Benign으로 재분류될 수 있으므로 반드시 검사실 자체적으로 2015 ACMG 가이드라인 기준에 따라 독립적 재평가를 수행해야 함!. 선지 ⑤는 맹목적 DB 신뢰를 주장하여 명백히 가이드라인 원칙에 위배."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -11111,6 +11370,9 @@
         "tag": "오답 감별",
         "reason": "자녀에서 유전 질환을 가질 확률이 50% 이므로 반드시 유전자검사(가족검사)를 해야 한다. : 자녀에서 유전 질환을 가질 확률이 50% 이므로 반드시 유전자검사(가족검사)를 해야 한다. : 자녀에서 유전 질환을 가질 확률이 50% 이므로 반드시 유전자검사(가족검사)를 해야 한다. : 자녀에서 유전 질환을 가질 확률이 50% 이므로 반드시 유전자검사(가족검사)를 해야 한다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -11235,6 +11497,9 @@
         "tag": "오답 감별",
         "reason": "감별 질환/치료 특성: AmpC 과발현균(Cefoxitin 내성, Cefepime 감수성). 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -11244,7 +11509,7 @@
     "year": "23Y",
     "q_num": 45,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 세균 배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
+    "theme_title": "진단검사의학과 과년도 빈출: 세균 배양을 즉시 할 수 없는 경우 냉장보관 하는 검체...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "세균 배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
     "images": [],
@@ -11363,6 +11628,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -11487,6 +11755,9 @@
         "tag": "정답",
         "reason": "VRE(반코마이신 내성 장알균)는 장내 정상 상주세균총의 집락화(Colonization) 및 병원 내 기회감염균(요로감염, 균혈증)이지, 급성 설사/세균성 장염을 일으키는 장내 병원체가 아님!. 세균성 위장관염(Infectious gastroenteritis)의 원인균 목록에서 제외되는 항목 선별."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -11617,6 +11888,9 @@
         "tag": "오답 감별",
         "reason": "쇼그렌 증후군(Anti-Ro/La)이나 전신경화증(Anti-Scl-70)의 특이 항체가 아닙니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -11626,7 +11900,7 @@
     "year": "23Y",
     "q_num": 48,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 병원 검사실에서 진행하는 정량검사의 측정원리에 대한 ",
+    "theme_title": "진단검사의학과 과년도 빈출: 병원 검사실에서 시행하는 정량검사의 측정 원리 및 분석...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "병원 검사실에서 시행하는 정량검사의 측정 원리 및 분석 특성에 대한 설명으로 옳지 않은 것은?",
     "images": [],
@@ -11740,6 +12014,9 @@
         "tag": "오답 감별",
         "reason": "는 검출 가능한 분석물질의 최소 농도 한계를 반영한다. : 는 검출 가능한 분석물질의 최소 농도 한계를 반영한다. : 질환 특이도는 낮아 정상 노인이나 감염 질환에서도 위양성이 흔하므로 단독으로 SLE를 확진할 수 없습니다."
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -11868,6 +12145,9 @@
         "tag": "오답 감별",
         "reason": "NMTT 측쇄로 인해 저프로트롬빈혈증(출혈 경향) 및 알코올 섭취 시 디설피람 유사 반응을 유발할 수 있어 주의해야 합니다."
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -11880,10 +12160,7 @@
     "theme_title": "[단독 기출] 다음 중 DM 환자에서 신장 합병증 있는지 보기 위한 ",
     "subspecialty": "진단검사의학과 단독 기출",
     "stem": "다음 중 DM 환자에서 신장 합병증 있는지 보기 위한 검사는?",
-    "images": [
-      "images/23Y_Q50_fig1.png",
-      "images/23Y_Q50_fig2.png"
-    ],
+    "images": [],
     "options": [
       "① microalbuminuria (미세알부민뇨)",
       "② 요 일반 단백시험지봉 검사",
@@ -11993,6 +12270,9 @@
         "tag": "오답 감별",
         "reason": "장관 천공에 의한 기복증(Free air)이나 췌장 심부 병변, 급성 게실염의 주위 지방 침윤 평가는 복부 CT가 훨씬 우수합니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -12002,7 +12282,7 @@
     "year": "22Y",
     "q_num": 1,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 배양을 위해 적절한 검체는? ",
+    "theme_title": "진단검사의학과 과년도 빈출: 실온 보관 뇌척수액 관련 진단 및 처치",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "(Y) 배양을 위해 적절한 검체는?",
     "images": [],
@@ -12119,6 +12399,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -12251,6 +12534,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -12260,7 +12546,7 @@
     "year": "22Y",
     "q_num": 3,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 세균 배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
+    "theme_title": "진단검사의학과 과년도 빈출: 소변 관련 진단 및 처치",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "(Y) 세균배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
     "images": [],
@@ -12379,6 +12665,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -12388,7 +12677,7 @@
     "year": "22Y",
     "q_num": 4,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 결핵에 대해 옳은 것은?",
+    "theme_title": "진단검사의학과 과년도 빈출: (Y) 결핵에 대해 옳은 것은? Norcardia 와 ...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "(Y) 결핵에 대해 옳은 것은? Norcardia 와 cyptospordium 은 Ziehl",
     "images": [],
@@ -12505,6 +12794,9 @@
         "tag": "정답",
         "reason": "6개년 중 3회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상. Y Q35 & 22Y Q04 & 20Y Q42] 공통 출제 지문."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -12514,7 +12806,7 @@
     "year": "22Y",
     "q_num": 5,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 손 위생에 필요한 경우에 해당하지 않는 ",
+    "theme_title": "진단검사의학과 과년도 빈출: (Y) 손 위생에 필요한 경우에 해당하지 않는 것은? ...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "(Y) 손 위생에 필요한 경우에 해당하지 않는 것은? 환자의 침상 주변 접촉 전",
     "images": [],
@@ -12580,6 +12872,9 @@
         "tag": "오답 감별",
         "reason": "② 환자의 침상 주변 접촉 후."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -12589,7 +12884,7 @@
     "year": "22Y",
     "q_num": 6,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 법정감염병 6종이 아닌 것은?",
+    "theme_title": "진단검사의학과 과년도 빈출: 질병관리청 지정 의료관련감염병 표본감시 다제내성균 6종...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "질병관리청 지정 의료관련감염병 표본감시 다제내성균 6종에 해당하지 않는 것은?",
     "images": [],
@@ -12703,6 +12998,9 @@
         "tag": "정답",
         "reason": "임상 증례 소견 및 최신 가이드라인에 부합하는 확진/1차 표준 치료 지침입니다."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -12793,6 +13091,9 @@
         "tag": "정답",
         "reason": "Kirby-Bauer 디스크 확산법에서 항생제 디스크 주변의 세균 증식 저지대(Inhibition zone) 직경이 클수록 -> 해당 균주는 그 항생제에 대해 감수성(Susceptible)이 높음!. 억제대 직경과 세균 증식 억제력의 정비례 상관관계 확인."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -12921,6 +13222,9 @@
         "tag": "오답 감별",
         "reason": "NMTT 측쇄로 인해 저프로트롬빈혈증(출혈 경향) 및 알코올 섭취 시 디설피람 유사 반응을 유발할 수 있어 주의해야 합니다."
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -13032,6 +13336,9 @@
         "tag": "오답 감별",
         "reason": "④ Candida albicans."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -13160,6 +13467,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -13171,14 +13481,14 @@
     "category": "짤",
     "theme_title": "카바페넴 분해효소(Carbapenemase) 생성 장내세균(CRE)의 핵심 유전자",
     "subspecialty": "임상미생물학",
-    "stem": "Carbapenemase 와 가장 관련성이 높은 gene? KPC",
+    "stem": "Carbapenemase 와 가장 관련성이 높은 gene?",
     "images": [],
     "options": [
-      "① VIM",
-      "② NDM",
-      "③ OXA-48",
-      "④ IMP",
-      "⑤ [혈액]"
+      "① KPC",
+      "② VIM",
+      "③ NDM",
+      "④ OXA-48",
+      "⑤ IMP"
     ],
     "correct_option_index": 0,
     "correct_answer": "① KPC (Klebsiella pneumoniae carbapenemase)",
@@ -13193,7 +13503,7 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "VIM",
+          "text": "KPC",
           "is_correct": true,
           "tag": "정답",
           "reason": "국내 카바페넴 내성 장내세균목(CRE/CPE)에서 가장 흔하게 검출되는 제1위 카바페넴 분해 유전자 = KPC (Ambler Class A)!. 신속 PCR 또는 다중 유전자 검사로 검출하는 핵심 내성 유전자 선별."
@@ -13201,7 +13511,7 @@
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "NDM",
+          "text": "VIM",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "베타락탐분해효소(Class B, 아즈트레오남 제외 모든 베타락탐 분해)이고, OXA-48은 Class D 카바페네마제임. 국내 최빈발은 KPC. 국내 카바페넴 내성 장내세균목(CRE/CPE)에서 가장 흔하게 검출되는 제1위 카바페넴 분해 유전자 = KPC (Ambler Class A)! KMLE 감염학 - 카바페넴 내성 장내세균(CRE)의 내성 기전 및 진단."
@@ -13209,7 +13519,7 @@
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "OXA-48",
+          "text": "NDM",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": ""
@@ -13217,7 +13527,7 @@
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "IMP",
+          "text": "OXA-48",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": ""
@@ -13225,7 +13535,7 @@
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "[혈액]",
+          "text": "IMP",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": ""
@@ -13247,7 +13557,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "VIM",
+        "text": "KPC",
         "is_correct": true,
         "tag": "정답",
         "reason": "국내 카바페넴 내성 장내세균목(CRE/CPE)에서 가장 흔하게 검출되는 제1위 카바페넴 분해 유전자 = KPC (Ambler Class A)!. 신속 PCR 또는 다중 유전자 검사로 검출하는 핵심 내성 유전자 선별."
@@ -13255,7 +13565,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "NDM",
+        "text": "VIM",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "베타락탐분해효소(Class B, 아즈트레오남 제외 모든 베타락탐 분해)이고, OXA-48은 Class D 카바페네마제임. 국내 최빈발은 KPC. 국내 카바페넴 내성 장내세균목(CRE/CPE)에서 가장 흔하게 검출되는 제1위 카바페넴 분해 유전자 = KPC (Ambler Class A)! KMLE 감염학 - 카바페넴 내성 장내세균(CRE)의 내성 기전 및 진단."
@@ -13263,7 +13573,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "OXA-48",
+        "text": "NDM",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -13271,7 +13581,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "IMP",
+        "text": "OXA-48",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -13279,11 +13589,14 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "[혈액]",
+        "text": "IMP",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -13408,6 +13721,9 @@
         "tag": "오답 감별",
         "reason": "감별 질환/치료 특성: MCV(크기), MCHC(농도), RDW(크기 부동성). 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -13417,7 +13733,7 @@
     "year": "22Y",
     "q_num": 13,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 화살표가 나타내는 소견은?",
+    "theme_title": "진단검사의학과 과년도 빈출: schistocyte 관련 진단 및 처치",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "(Y) 화살표가 나타내는 소견은?",
     "images": [
@@ -13536,6 +13852,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -13661,6 +13980,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -13738,6 +14060,9 @@
         "tag": "정답",
         "reason": "말초혈액도말(PBS)에서 적혈구들이 동전을 차곡차곡 쌓아 올린 형태로 길게 늘어서 있는 소견 = 연전 형성(Rouleaux formation)! 혈청 감마글로불린(단백질)이 극도로 증가한 다발골수종(Multiple myeloma)의 절대적 시그니처!. PBS 고배율 시야에서 적혈구들이 일렬로 중첩된 롤케이크/동전 기둥 모양 관찰."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -13864,6 +14189,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -13875,14 +14203,14 @@
     "category": "짤",
     "theme_title": "자동혈구분석기(Automated Hematology Analyzer)의 측정 원리",
     "subspecialty": "진단혈액학",
-    "stem": "(21 계통Y) 자동혈구 분석기에서 이용하지 않 는 원리는? 세포점도",
+    "stem": "(21 계통Y) 자동혈구 분석기에서 이용하지 않는 원리는?",
     "images": [],
     "options": [
-      "① 전기전도도",
-      "② 전기저항",
-      "③ 광산란",
-      "④ 형광염색",
-      "⑤ [화학 : 박일규 교수님]"
+      "① 세포점도",
+      "② 전기전도도",
+      "③ 전기저항",
+      "④ 광산란",
+      "⑤ 형광염색"
     ],
     "correct_option_index": 0,
     "correct_answer": "① 세포점도 (Cell viscosity - 이용하지 않음)",
@@ -13897,7 +14225,7 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "전기전도도",
+          "text": "세포점도",
           "is_correct": true,
           "tag": "정답",
           "reason": "자동혈구분석기가 이용하는 3대 원리 = 1) 전기저항법(Coulter principle, 임피던스), 2) 광산란법(전방/측방 산란광), 3) 형광염색법(RNA/DNA 형광)! 세포점도는 결코 측정하지 않음. 혈구 분석기의 물리광학적 계수 원리를 묻는 기본 개념 문제."
@@ -13905,7 +14233,7 @@
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "전기저항",
+          "text": "전기전도도",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "감별 질환/치료 특성: 전기저항(임피던스), 레이저 광산란, 화학 발광. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
@@ -13913,7 +14241,7 @@
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "광산란",
+          "text": "전기저항",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "감별 질환/치료 특성: 전기저항(임피던스), 레이저 광산란, 화학 발광. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
@@ -13921,7 +14249,7 @@
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "형광염색",
+          "text": "광산란",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": ""
@@ -13929,7 +14257,7 @@
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "[화학 : 박일규 교수님]",
+          "text": "형광염색",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "박일규 교수님] : 박일규 교수님] : 박일규 교수님] : 박일규 교수님]."
@@ -13954,7 +14282,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "전기전도도",
+        "text": "세포점도",
         "is_correct": true,
         "tag": "정답",
         "reason": "자동혈구분석기가 이용하는 3대 원리 = 1) 전기저항법(Coulter principle, 임피던스), 2) 광산란법(전방/측방 산란광), 3) 형광염색법(RNA/DNA 형광)! 세포점도는 결코 측정하지 않음. 혈구 분석기의 물리광학적 계수 원리를 묻는 기본 개념 문제."
@@ -13962,7 +14290,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "전기저항",
+        "text": "전기전도도",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "감별 질환/치료 특성: 전기저항(임피던스), 레이저 광산란, 화학 발광. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
@@ -13970,7 +14298,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "광산란",
+        "text": "전기저항",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "감별 질환/치료 특성: 전기저항(임피던스), 레이저 광산란, 화학 발광. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
@@ -13978,7 +14306,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "형광염색",
+        "text": "광산란",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -13986,11 +14314,14 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "[화학 : 박일규 교수님]",
+        "text": "형광염색",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "박일규 교수님] : 박일규 교수님] : 박일규 교수님] : 박일규 교수님]."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -14113,6 +14444,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -14122,7 +14456,7 @@
     "year": "22Y",
     "q_num": 19,
     "category": "반짤",
-    "theme_title": "[과년도 빈출] 변이계수(CV)의 개념 및 공식 오류 변형",
+    "theme_title": "진단검사의학과 과년도 빈출: 진단검사의학 검사실의 정밀도(Precision) 평가 ...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "진단검사의학 검사실의 정밀도(Precision) 평가 지표인 변이계수(Coefficient of Variation, CV)에 대한 설명으로 옳지 않은 것은?",
     "images": [],
@@ -14236,6 +14570,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -14358,6 +14695,9 @@
         "tag": "오답 감별",
         "reason": "⑤ 관리물질 결과가 95% 내에 있으면 측정계를 용인한다."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -14367,7 +14707,7 @@
     "year": "22Y",
     "q_num": 21,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 알부민 농도를 가장 민감하게 측정할 수 있는 ",
+    "theme_title": "진단검사의학과 과년도 빈출: 혈청 알부민(Albumin) 또는 미세알부민 농도를 가...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "혈청 알부민(Albumin) 또는 미세알부민 농도를 가장 민감(Sensitive)하게 측정할 수 있는 검사 방법은?",
     "images": [],
@@ -14481,6 +14821,9 @@
         "tag": "오답 감별",
         "reason": "생후 적절한 연령 및 면역 상태가 확인된 표준 일정에 따라 접종해야 합니다."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -14490,7 +14833,7 @@
     "year": "22Y",
     "q_num": 22,
     "category": "반짤",
-    "theme_title": "[과년도 빈출] 참고범위설정(Reference Range) 설정 원칙 및 120명 vs 정규분포 변형",
+    "theme_title": "진단검사의학과 과년도 빈출: 참고범위설정에 관련한 설명 중 옳지 않은 것 은? 일반...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "참고범위설정에 관련한 설명 중 옳지 않은 것 은? 일반적으로 30 명 이상의 건강한 사람",
     "images": [],
@@ -14605,6 +14948,9 @@
         "tag": "오답 감별",
         "reason": "(22Y & 21Y 공통 O) 건강인 참고 범위를 환자에게 적용할 때에는 환자의 생물학적 기본 상태가 참고 집단과 일치한다는 통계적 전제를 바탕으로 합니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -14727,6 +15073,9 @@
         "tag": "오답 감별",
         "reason": "법도 이용된다 : 법도 이용된다 : 법도 이용된다 : 법도 이용된다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -14736,7 +15085,7 @@
     "year": "22Y",
     "q_num": 24,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 병원 검사실에서 알부민 농도 검사에 사용하는 시약은?",
+    "theme_title": "진단검사의학과 과년도 빈출: romocresol Green 관련 진단 및 처치",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "병원 검사실에서 알부민 농도의 검사에 사용하는 시약은?",
     "images": [],
@@ -14834,6 +15183,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -14964,6 +15316,9 @@
         "tag": "오답 감별",
         "reason": "쇼그렌 증후군(Anti-Ro/La)이나 전신경화증(Anti-Scl-70)의 특이 항체가 아닙니다."
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -15096,6 +15451,9 @@
         "tag": "오답 감별",
         "reason": "원발성 경화성 담관염(PSC)은 대개 AMA 음성이며 p-ANCA 양성과 담관조영술 상 구슬 모양(Beaded) 소견이 특징입니다."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -15105,7 +15463,7 @@
     "year": "22Y",
     "q_num": 27,
     "category": "반짤",
-    "theme_title": "[과년도 빈출] PPD 피부반응검사와 IGRA 원리 및 BCG 위양성 감별 (발문 변형)",
+    "theme_title": "진단검사의학과 과년도 빈출: (Y 변형) PPD 피부반응검사와 IGRA 에 대한 설...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "(Y 변형) PPD 피부반응검사와 IGRA 에 대한 설 명으로 옳지 않은 것은? IGRA 는 과거 결핵균에 감작된 T 림프구",
     "images": [],
@@ -15224,6 +15582,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -15352,6 +15713,9 @@
         "tag": "오답 감별",
         "reason": "⑤ NK cell 활성도 측정."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -15461,6 +15825,9 @@
         "tag": "오답 감별",
         "reason": "쇼그렌 증후군에서 Anti-SS-B(La) 항체는 거의 예외 없이 Anti-SS-A(Ro) 항체와 동반되어 나타나므로, SS-A 음성이면서 SS-B만 단독 양성인 경우는 검사실 위양성이거나 극히 드묾!. 항체 결과 간의 생물학적 일치도를 검증하는 진단면역학 족보 문제."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -15593,6 +15960,9 @@
         "tag": "오답 감별",
         "reason": "⑤ 등급 – 양압복 구역."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -15602,7 +15972,7 @@
     "year": "22Y",
     "q_num": 31,
     "category": "탈",
-    "theme_title": "[과년도 빈출] HLA 교차시험(Crossmatching) 검체 조합",
+    "theme_title": "진단검사의학과 과년도 빈출: Recipient serum + Donor T 관련 진단 및 처치",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "(Y) HLA crossmatching 방법으로 옳은 것?",
     "images": [],
@@ -15666,7 +16036,7 @@
       ],
       "differential_general": "• HLA 교차시험: Recipient serum + Donor lymphocytes\n• 수혈 주교차시험(Major XM): Recipient serum + Donor RBC\n• 수혈 부교차시험(Minor XM): Donor serum + Recipient RBC"
     },
-    "freq_count": 2,
+    "freq_count": 1,
     "rate": 33,
     "freq_years": [
       "22Y"
@@ -15716,6 +16086,9 @@
         "tag": "오답 감별",
         "reason": "과 공여자 림프구(Donor T, B cell)를 반응시킵니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -15846,6 +16219,9 @@
         "tag": "오답 감별",
         "reason": "⑤ 실험복과 개인보호구를 착용한다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -15864,14 +16240,14 @@
       "② 므로 생물안전 3 등급에서 작업하는 것이 바람직하다. 생물안전 4 등급에서는 Class III 생물안전",
       "③ 작업대와 양압복과 같은 특수보호장비까 필요하다. 정상인에게서 감염을 일으키지 않는 세",
       "④ 균은 개방된 작업대에서 다뤄도 된다. 임상적으로 흔히 검출되는 세균은 생물",
-      "⑤ 안전 1 등급에 해당하며 생물안전작업대 가 필요하다. [유전]"
+      "⑤ 안전 1 등급에 해당하며 생물안전작업대 가 필요하다."
     ],
     "correct_option_index": 4,
     "correct_answer": "⑤ 임상적으로 흔하게 검출되는 세균은 생물안전 1등급에 해당되며 생물안전작업대가 필요하다. (X - 2등급에 해당)",
     "explanation": {
       "title": "검사실 생물안전등급(Biosafety Level, BSL) 분류 기준 및 지침",
       "findings": "선지 ⑤는 흔한 임상 세균을 1등급으로 잘못 기술하여 명백한 오답.",
-      "differential": "• ① 주하여 작업 시 표준지침을 따른다. 우리 나라에서는 결핵균이 많이 검출되 ✗ [오답]: 일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다.\n• ② 므로 생물안전 3 등급에서 작업하는 것이 바람직하다. 생물안전 4 등급에서는 Class III 생물안전 ✗ [오답]: 생물안전 4 등급에서는 Class III 생물안전 : 생물안전 4 등급에서는 Class III 생물안전 : 생물안전 4 등급에서는 Class III 생물안전 : 생물안전 4 등급에서는 Class III 생물안전.\n• ③ 작업대와 양압복과 같은 특수보호장비까 필요하다. 정상인에게서 감염을 일으키지 않는 세 ✗ [오답]: 정상인에게서 감염을 일으키지 않는 세 : 정상인에게서 감염을 일으키지 않는 세 : 정상인에게서 감염을 일으키지 않는 세 : 정상인에게서 감염을 일으키지 않는 세 : 정상인에게서 감염을 일으키지 않는 세 : 환자에서 확인되는 비정상적 병적 수치 및 신체 진찰 소견과 상반되는 설명입니다.\n• ④ 균은 개방된 작업대에서 다뤄도 된다. 임상적으로 흔히 검출되는 세균은 생물 ✗ [오답]: 임상적으로 흔히 검출되는 세균은 생물 : 임상적으로 흔히 검출되는 세균은 생물 : 임상적으로 흔히 검출되는 세균은 생물 : 임상적으로 흔히 검출되는 세균은 생물.\n• ⑤ 안전 1 등급에 해당하며 생물안전작업대 가 필요하다. [유전] ✓ [정답]: [유전] : [유전] : [유전] : [유전] : [유전] : 병원 임상검사실에서 흔히 분리되는 병원성 세균(S. aureus, E. coli, Salmonella 등)은 생물안전 2등급(BSL-2)에 해당하며 Class II 생물안전작업대(BSC)에서 다룸! 1등급은 비병원성균(E. coli K12). 선지 ⑤는 흔한 임상 세균을 1등급으로 잘못 기술하여 명백한.\n\n【핵심 감별 및 임상 가이드라인】\nBSL-3(결핵균 배양, 음압시설), BSL-4(Class III BSC 또는 에어슈트).",
+      "differential": "• ① 주하여 작업 시 표준지침을 따른다. 우리 나라에서는 결핵균이 많이 검출되 ✗ [오답]: 일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다.\n• ② 므로 생물안전 3 등급에서 작업하는 것이 바람직하다. 생물안전 4 등급에서는 Class III 생물안전 ✗ [오답]: 생물안전 4 등급에서는 Class III 생물안전 : 생물안전 4 등급에서는 Class III 생물안전 : 생물안전 4 등급에서는 Class III 생물안전 : 생물안전 4 등급에서는 Class III 생물안전.\n• ③ 작업대와 양압복과 같은 특수보호장비까 필요하다. 정상인에게서 감염을 일으키지 않는 세 ✗ [오답]: 정상인에게서 감염을 일으키지 않는 세 : 정상인에게서 감염을 일으키지 않는 세 : 정상인에게서 감염을 일으키지 않는 세 : 정상인에게서 감염을 일으키지 않는 세 : 정상인에게서 감염을 일으키지 않는 세 : 환자에서 확인되는 비정상적 병적 수치 및 신체 진찰 소견과 상반되는 설명입니다.\n• ④ 균은 개방된 작업대에서 다뤄도 된다. 임상적으로 흔히 검출되는 세균은 생물 ✗ [오답]: 임상적으로 흔히 검출되는 세균은 생물 : 임상적으로 흔히 검출되는 세균은 생물 : 임상적으로 흔히 검출되는 세균은 생물 : 임상적으로 흔히 검출되는 세균은 생물.\n• ⑤ 안전 1 등급에 해당하며 생물안전작업대 가 필요하다. ✓ [정답]: : : : : : 병원 임상검사실에서 흔히 분리되는 병원성 세균(S. aureus, E. coli, Salmonella 등)은 생물안전 2등급(BSL-2)에 해당하며 Class II 생물안전작업대(BSC)에서 다룸! 1등급은 비병원성균(E. coli K12). 선지 ⑤는 흔한 임상 세균을 1등급으로 잘못 기술하여 명백한.\n\n【핵심 감별 및 임상 가이드라인】\nBSL-3(결핵균 배양, 음압시설), BSL-4(Class III BSC 또는 에어슈트).",
       "trap": "결핵균(M. tuberculosis)은 공기 전파 위험으로 BSL-3 음압 구역에서 작업하는 것이 원칙임.",
       "trigger": "병원 임상검사실에서 흔히 분리되는 병원성 세균(S. aureus, E. coli, Salmonella 등)은 생물안전 2등급(BSL-2)에 해당하며 Class II 생물안전작업대(BSC)에서 다룸! 1등급은 비병원성균(E. coli K12).",
       "kmle_link": "KMLE 감염학/예방의학 - 병원 감염 관리 및 검사실 생물안전 지침",
@@ -15911,10 +16287,10 @@
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "안전 1 등급에 해당하며 생물안전작업대 가 필요하다. [유전]",
+          "text": "안전 1 등급에 해당하며 생물안전작업대 가 필요하다.",
           "is_correct": true,
           "tag": "정답",
-          "reason": "[유전] : [유전] : [유전] : [유전] : [유전] : 병원 임상검사실에서 흔히 분리되는 병원성 세균(S. aureus, E. coli, Salmonella 등)은 생물안전 2등급(BSL-2)에 해당하며 Class II 생물안전작업대(BSC)에서 다룸! 1등급은 비병원성균(E. coli K12). 선지 ⑤는 흔한 임상 세균을 1등급으로 잘못 기술하여 명백한."
+          "reason": ": : : : : 병원 임상검사실에서 흔히 분리되는 병원성 세균(S. aureus, E. coli, Salmonella 등)은 생물안전 2등급(BSL-2)에 해당하며 Class II 생물안전작업대(BSC)에서 다룸! 1등급은 비병원성균(E. coli K12). 선지 ⑤는 흔한 임상 세균을 1등급으로 잘못 기술하여 명백한."
         }
       ],
       "differential_general": "BSL-3(결핵균 배양, 음압시설), BSL-4(Class III BSC 또는 에어슈트)."
@@ -15971,11 +16347,14 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "안전 1 등급에 해당하며 생물안전작업대 가 필요하다. [유전]",
+        "text": "안전 1 등급에 해당하며 생물안전작업대 가 필요하다.",
         "is_correct": true,
         "tag": "정답",
-        "reason": "[유전] : [유전] : [유전] : [유전] : [유전] : 병원 임상검사실에서 흔히 분리되는 병원성 세균(S. aureus, E. coli, Salmonella 등)은 생물안전 2등급(BSL-2)에 해당하며 Class II 생물안전작업대(BSC)에서 다룸! 1등급은 비병원성균(E. coli K12). 선지 ⑤는 흔한 임상 세균을 1등급으로 잘못 기술하여 명백한."
+        "reason": ": : : : : 병원 임상검사실에서 흔히 분리되는 병원성 세균(S. aureus, E. coli, Salmonella 등)은 생물안전 2등급(BSL-2)에 해당하며 Class II 생물안전작업대(BSC)에서 다룸! 1등급은 비병원성균(E. coli K12). 선지 ⑤는 흔한 임상 세균을 1등급으로 잘못 기술하여 명백한."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -15985,7 +16364,7 @@
     "year": "22Y",
     "q_num": 34,
     "category": "탈",
-    "theme_title": "[과년도 빈출] Real-Time PCR 의 재료를 모두 고르시오. ",
+    "theme_title": "진단검사의학과 과년도 빈출: NA ligase (불필요 성분) 관련 진단 및 처치",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "(Y) Real-Time PCR 의 재료를 모두 고르시오. dNTP",
     "images": [],
@@ -16100,6 +16479,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -16109,7 +16491,7 @@
     "year": "22Y",
     "q_num": 35,
     "category": "탈",
-    "theme_title": "[과년도 빈출] Pharmacogenetics 에 대해 옳은 것은? ",
+    "theme_title": "진단검사의학과 과년도 빈출: 유전적 다형성에 의해 약물 대사 및 효능이 달라진다 관련 진단 및 처치",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "Pharmacogenetics 에 대해 옳은 것은?",
     "images": [],
@@ -16224,6 +16606,9 @@
         "tag": "오답 감별",
         "reason": "⑤ 유전자 검사로 약물 부작용을 사전에 예측할 수 없다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -16352,6 +16737,9 @@
         "tag": "오답 감별",
         "reason": "⑤ 무증상 보인자 존재."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -16361,7 +16749,7 @@
     "year": "22Y",
     "q_num": 37,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 다음 검사에 대해 옳은 것은? ",
+    "theme_title": "진단검사의학과 과년도 빈출: 다음 검사에 대해 옳은 것은?...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "다음 검사에 대해 옳은 것은?",
     "images": [],
@@ -16493,6 +16881,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -16505,9 +16896,7 @@
     "theme_title": "유전 질환의 광의적 개념: 환경적 인자(Environmental Factors)의 포함",
     "subspecialty": "진단유전학",
     "stem": "(Y 변형) variant 에 관해 옳은 것을 고르시오. reference genome 과 비교하여 다르면",
-    "images": [
-      "images/22Y_Q38_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① 서 기능적 변화를 보이는 것을 variant 라고 한다. 인구 집단의 변이 빈도를 알면",
       "② pathogenicity 를 알 수 있다. 유전 질환(genetic disorder)은 환경적 인",
@@ -16625,6 +17014,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -16634,7 +17026,7 @@
     "year": "22Y",
     "q_num": 39,
     "category": "짤",
-    "theme_title": "[과년도 빈출] NGS 에 대한 설명 모두 고르세요. ",
+    "theme_title": "진단검사의학과 과년도 빈출: (Y) NGS 에 대한 설명 모두 고르세요...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "(Y) NGS 에 대한 설명 모두 고르세요. 모든 유전자 서열을 한번에 검사할 수",
     "images": [],
@@ -16749,6 +17141,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -16768,14 +17163,14 @@
       "③ penetrance 는 거의 100%이다. 유전성 암 신드롬 가족 중 암이 발병하",
       "④ 지 않은 사람은 유전자검사를 안 받아도 된다. 만성적인 감염에 의한 HBV",
       "⑤ 는 유전질환 hepatocellular carcinoma (genetic diorder)이다. 표적 치료는 특정 표적에만 작용하여 암",
-      "⑥ 을 완치하는 치료이다. [수혈]"
+      "⑥ 을 완치하는 치료이다."
     ],
     "correct_option_index": 3,
     "correct_answer": "④ 만성적인 HBV 감염에 의한 hepatocellular carcinoma는 유전질환(genetic disorder)이다.",
     "explanation": {
       "title": "암의 유전학적 본질: 만성 B형간염 유발 간세포암도 유전질환(Genetic Disorder)",
       "findings": "발암 인자(HBV)가 숙주 DNA에 통합되어 체세포 유전체 변이를 유발하므로 Genetic disorder 범주에 속함.",
-      "differential": "• ① somatic pathogenic variant 의 경우 ✗ [오답]: ① somatic pathogenic variant 의 경우.\n• ② autosomal dominant inheritance 를 보인 다. germline brca1 변이 가진 사람의 경우 ✗ [오답]: germline brca1 변이 가진 사람의 경우 : germline brca1 변이 가진 사람의 경우 : germline brca1 변이 가진 사람의 경우 : germline brca1 변이 가진 사람의 경우.\n• ③ penetrance 는 거의 100%이다. 유전성 암 신드롬 가족 중 암이 발병하 ✗ [오답]: 유전성 암 신드롬 가족 중 암이 발병하 : 유전성 암 신드롬 가족 중 암이 발병하 : 유전성 암 신드롬 가족 중 암이 발병하 : 유전성 암 신드롬 가족 중 암이 발병하.\n• ④ 지 않은 사람은 유전자검사를 안 받아도 된다. 만성적인 감염에 의한 HBV ✓ [정답]: 만성적인 감염에 의한 HBV : 만성적인 감염에 의한 HBV : 만성적인 감염에 의한 HBV : 만성적인 감염에 의한 HBV : 만성적인 감염에 의한 HBV : 암(Cancer)은 세포 내 유전자 변이(체세포 돌연변이, Somatic mutation)가 축적되어 발생하는 \"체세포 수준의 유전질환(Genetic disease of somatic cells)\"임! 바이러스나 환경 요인으로 발생했더라도 본질은 유전질환!. 발암 인자(HBV)가 숙주 DNA에 통합되어 체세포 유전체 변이를 유발하므로 Genetic disorder 범주에 속함.\n• ⑤ 는 유전질환 hepatocellular carcinoma (genetic diorder)이다. 표적 치료는 특정 표적에만 작용하여 암 ✗ [오답]: 이다. 표적 치료는 특정 표적에만 작용하여 암 : 이다. 표적 치료는 특정 표적에만 작용하여 암 : 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다.\n• ⑥ 을 완치하는 치료이다. [수혈] ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n유전성 암 증후군(Lynch, FAP, Li-Fraumeni - 생식세포 변이).",
+      "differential": "• ① somatic pathogenic variant 의 경우 ✗ [오답]: ① somatic pathogenic variant 의 경우.\n• ② autosomal dominant inheritance 를 보인 다. germline brca1 변이 가진 사람의 경우 ✗ [오답]: germline brca1 변이 가진 사람의 경우 : germline brca1 변이 가진 사람의 경우 : germline brca1 변이 가진 사람의 경우 : germline brca1 변이 가진 사람의 경우.\n• ③ penetrance 는 거의 100%이다. 유전성 암 신드롬 가족 중 암이 발병하 ✗ [오답]: 유전성 암 신드롬 가족 중 암이 발병하 : 유전성 암 신드롬 가족 중 암이 발병하 : 유전성 암 신드롬 가족 중 암이 발병하 : 유전성 암 신드롬 가족 중 암이 발병하.\n• ④ 지 않은 사람은 유전자검사를 안 받아도 된다. 만성적인 감염에 의한 HBV ✓ [정답]: 만성적인 감염에 의한 HBV : 만성적인 감염에 의한 HBV : 만성적인 감염에 의한 HBV : 만성적인 감염에 의한 HBV : 만성적인 감염에 의한 HBV : 암(Cancer)은 세포 내 유전자 변이(체세포 돌연변이, Somatic mutation)가 축적되어 발생하는 \"체세포 수준의 유전질환(Genetic disease of somatic cells)\"임! 바이러스나 환경 요인으로 발생했더라도 본질은 유전질환!. 발암 인자(HBV)가 숙주 DNA에 통합되어 체세포 유전체 변이를 유발하므로 Genetic disorder 범주에 속함.\n• ⑤ 는 유전질환 hepatocellular carcinoma (genetic diorder)이다. 표적 치료는 특정 표적에만 작용하여 암 ✗ [오답]: 이다. 표적 치료는 특정 표적에만 작용하여 암 : 이다. 표적 치료는 특정 표적에만 작용하여 암 : 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다.\n• ⑥ 을 완치하는 치료이다. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n유전성 암 증후군(Lynch, FAP, Li-Fraumeni - 생식세포 변이).",
       "trap": "유전질환(Genetic disorder)과 부모에게서 물려받는 유전성 질환(Hereditary/Inherited disorder)을 혼동하여 \"외부 바이러스로 생긴 암이 왜 유전질환이냐\"고 생각하면 함정에 빠짐.",
       "trigger": "암(Cancer)은 세포 내 유전자 변이(체세포 돌연변이, Somatic mutation)가 축적되어 발생하는 \"체세포 수준의 유전질환(Genetic disease of somatic cells)\"임! 바이러스나 환경 요인으로 발생했더라도 본질은 유전질환!",
       "kmle_link": "KMLE 종양학 - 암의 분자생물학적 발암 기전",
@@ -16823,7 +17218,7 @@
         {
           "opt_idx": 5,
           "opt_num": "⑥",
-          "text": "을 완치하는 치료이다. [수혈]",
+          "text": "을 완치하는 치료이다.",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": ""
@@ -16889,11 +17284,14 @@
       {
         "opt_idx": 5,
         "opt_num": "⑥",
-        "text": "을 완치하는 치료이다. [수혈]",
+        "text": "을 완치하는 치료이다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -17016,6 +17414,9 @@
         "tag": "오답 감별",
         "reason": "⑤ 비예기 항체는 수혈 부작용과 무관하다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -17025,7 +17426,7 @@
     "year": "22Y",
     "q_num": 42,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 엄마가 O, RH+. 아이 혈액형은 표로 나옴. (cell A, D에",
+    "theme_title": "진단검사의학과 과년도 빈출: 엄마가 O, RH+...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "엄마가 O, RH+. 아이 혈액형 표로 나옴 (cell A, D 4+, serum B+/-). 아이한테 수혈하려고 A, RH+ 혈액으로 교차검사하였는데 모두 양성으로 나왔다. 가장 가능성이 높은 진단은?",
     "images": [],
@@ -17157,6 +17558,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -17166,7 +17570,7 @@
     "year": "22Y",
     "q_num": 43,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 환자의 가족 혈액형 가계도이다. 환자의 혈액형을 설명할 ",
+    "theme_title": "진단검사의학과 과년도 빈출: [23Y Q09 & 22Y Q43] ① cis-AB 관련 진단 및 처치",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "환자의 가족 혈액형 가계도이다. 환자의 혈액형을 설명할 수 있는 현상은?",
     "images": [
@@ -17232,6 +17636,9 @@
         "tag": "오답 감별",
         "reason": "② Weakened A."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -17241,7 +17648,7 @@
     "year": "22Y",
     "q_num": 44,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 항글로불린 검사 모식도 판독: 직접(DAT) vs 간접(IAT) 변형",
+    "theme_title": "진단검사의학과 과년도 빈출: 직접 항글로불린검사 (DAT) 관련 진단 및 처치",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "다음 그림에 나타난 검사는?",
     "images": [
@@ -17358,6 +17765,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -17490,6 +17900,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -17622,6 +18035,9 @@
         "tag": "오답 감별",
         "reason": "T세포 교차시험 양성 시 즉각적인 이식편 괴사(초급성 거부반응)가 발생하므로 이식이 절대 금기입니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -17631,7 +18047,7 @@
     "year": "22Y",
     "q_num": 47,
     "category": "짤",
-    "theme_title": "[과년도 빈출] ABO Rh-인데, 급성출혈로 응급실에 온 환자. ",
+    "theme_title": "진단검사의학과 과년도 빈출: ABO Rh-인데, 급성출혈로 응급실에 온 환자...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "ABO Rh-인데, 급성출혈로 응급실에 온 환자. 혈액은행에 해당 혈액이 없는 상황. 적절한 대응은?",
     "images": [],
@@ -17763,6 +18179,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -17772,7 +18191,7 @@
     "year": "22Y",
     "q_num": 48,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 혈액배양검사에 대한 설명으로 옳지 않은 것은?",
+    "theme_title": "진단검사의학과 과년도 빈출: 혈액배양검사에 대한 설명으로 옳지 않은 것은?...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "혈액배양검사에 대한 설명으로 옳지 않은 것은?",
     "images": [],
@@ -17887,6 +18306,9 @@
         "tag": "오답 감별",
         "reason": "⑤ Hexidine 2 개월 이하 소아는 안됨."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -17896,7 +18318,7 @@
     "year": "22Y",
     "q_num": 49,
     "category": "짤",
-    "theme_title": "[과년도 빈출] HLA 교차시험(Crossmatching) 검체 조합",
+    "theme_title": "진단검사의학과 과년도 빈출: HLA crossmatching 방법으로 옳은 것은?...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "HLA crossmatching 방법으로 옳은 것은?",
     "images": [],
@@ -17951,7 +18373,7 @@
       ],
       "differential_general": "1. HLA Crossmatching 원리:\n• 수혜자(받는 사람) 혈청의 항체가 공여자(주는 사람) 세포를 공격하면 초급성 거부반응(Hyperacute rejection) 발생 -> 양성이면 이식 절대 금기!"
     },
-    "freq_count": 2,
+    "freq_count": 1,
     "rate": 33,
     "freq_years": [
       "22Y"
@@ -17993,6 +18415,9 @@
         "tag": "오답 감별",
         "reason": "HLA 교차시험(Crossmatching) -> 수혜자 혈청(Recipient serum) + 공여자 세포(Donor cells)!. Y Q49 & 22Y Q31] 출제!."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -18002,7 +18427,7 @@
     "year": "22Y",
     "q_num": 50,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 검사 결과 혈액형은 무엇인가?",
+    "theme_title": "진단검사의학과 과년도 빈출: 형 (혈구형 Anti-A+ 관련 진단 및 처치",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "검사 결과 혈액형은 무엇인가?",
     "images": [
@@ -18121,6 +18546,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -18234,6 +18662,9 @@
         "tag": "오답 감별",
         "reason": "④ Anti dsDna."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -18243,7 +18674,7 @@
     "year": "21Y",
     "q_num": 2,
     "category": "반짤",
-    "theme_title": "[과년도 빈출] PPD 피부반응검사와 IGRA 원리 및 BCG 위양성 감별 (발문 변형)",
+    "theme_title": "진단검사의학과 과년도 빈출: (Y) PPD 피부반응검사와 IGRA 에 대한 설명으로...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "(Y) PPD 피부반응검사와 IGRA 에 대한 설명으로 옳은 것은? PPD 는 과거 결핵균에 감작된 T 림프구에 결핵",
     "images": [],
@@ -18362,6 +18793,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -18477,6 +18911,9 @@
         "tag": "오답 감별",
         "reason": "④ Anti dsDna."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -18573,6 +19010,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -18584,20 +19024,17 @@
     "category": "짤",
     "theme_title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
     "subspecialty": "진단면역학/혈액학",
-    "stem": "(Y 변형)유세포분석으로 볼 수 없는 것은? ca 125",
-    "images": [
-      "images/21Y_Q05_fig1.png"
-    ],
+    "stem": "유세포분석(Flow Cytometry)으로 평가하기에 적절하지 않은 항목은?",
+    "images": [],
     "options": [
-      "① immunophenotype",
-      "② HLA crossmatching",
-      "③ stem cell count",
-      "④ NK cell 활성도 측정",
-      "⑤ [수혈, 실험실 안전] 14 문제",
-      "⑥ (Y) 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대"
+      "① 면역표현형 분석 (Immunophenotyping)",
+      "② HLA 교차시험 (HLA crossmatching)",
+      "③ 조혈모세포 계수 (CD34+ Stem cell count)",
+      "④ NK세포 활성도 측정",
+      "⑤ CA-125 (혈청 종양표지자 측정)"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① CA-125 (난소암 혈청 종양표지자 - 면역측정법/ELISA로 측정)",
+    "correct_option_index": 4,
+    "correct_answer": "⑤ CA-125 (혈청 종양표지자 측정)",
     "explanation": {
       "title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
       "findings": "세포 부유액을 레이저 광선에 통과시키는 유세포분석과 혈청 화학 면역분석의 차이점 이해.",
@@ -18720,7 +19157,12 @@
         "tag": "오답 감별",
         "reason": "백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대."
       }
-    ]
+    ],
+    "correct_option_indices": [
+      4
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1
   },
   {
     "id": "진단검사의학과_21Y_Q06",
@@ -18850,6 +19292,9 @@
         "tag": "오답 감별",
         "reason": "⑤ 적혈구 삼투압 취약성 검사."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -18955,6 +19400,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -18964,7 +19412,7 @@
     "year": "21Y",
     "q_num": 8,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 농축 혈소판제제의 투여 및 보관 조건",
+    "theme_title": "진단검사의학과 과년도 빈출: (Y) 농축 혈소판제제에 대한 설명으로 옳은 것 은? ...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "(Y) 농축 혈소판제제에 대한 설명으로 옳은 것 은? 혈소판 감소증으로 인한 출혈 시 보통 2 단위",
     "images": [],
@@ -19045,6 +19493,9 @@
         "tag": "정답",
         "reason": "농축혈소판 -> 1단위당 5,000~10,000/μL 증가 & 실온(20~24℃) 진탕 보관 5일!. Y Q08 & 19Y Q05] : ③ 농축 혈소판 1단위 투여 시 5,000~10,000/μL 증가."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -19171,6 +19622,9 @@
         "tag": "정답",
         "reason": "수혈을 반복적으로 받은 환자는 공혈자 적혈구의 미세 항원(Rh E, c, Kell, Duffy, Kidd 등)에 동종면역(Alloimmunization)되어 새로운 비예기항체가 생성될 수 있으므로, 매 수혈 시마다 72시간 이내 새 검체로 항체선별검사를 반복해야 함!. 안전 수혈 지침의 핵심 임상 원칙 숙지."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -19301,6 +19755,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -19433,6 +19890,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -19563,6 +20023,9 @@
         "tag": "오답 감별",
         "reason": "⑤ 생리식염수만 투여하고 수혈 중단."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -19670,6 +20133,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -19800,6 +20266,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -19922,6 +20391,9 @@
         "tag": "오답 감별",
         "reason": "⑤ severe agglutination."
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -20046,6 +20518,9 @@
         "tag": "오답 감별",
         "reason": "비장 종대가 동반되지 않는 것이 특징이며, 간비종대가 있다면 백혈병, 골수섬유증 등 다른 골수 질환을 감별해야 합니다."
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -20170,6 +20645,9 @@
         "tag": "오답 감별",
         "reason": "비장 종대가 동반되지 않는 것이 특징이며, 간비종대가 있다면 백혈병, 골수섬유증 등 다른 골수 질환을 감별해야 합니다."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -20292,6 +20770,9 @@
         "tag": "오답 감별",
         "reason": "조직 박리에는 Metzenbaum 가위, 우각 겸자(Right-angle, Mixter), 전기소작기(Bovie) 등이 쓰입니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -20416,6 +20897,9 @@
         "tag": "오답 감별",
         "reason": "⑤ Babesia microti."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -20425,7 +20909,7 @@
     "year": "20Y",
     "q_num": 6,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 빈혈 및 골수 검사 소견 해석",
+    "theme_title": "진단검사의학과 과년도 빈출: 60세 여성 피로를 주소로 내원...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "60세 여성 피로를 주소로 내원. 혈액검사/골 수검사 소견 주어짐. 가장 의심되는 진단은? [혈액검사 소견 : Hb. 감소 WBC 증가, PLT 감 소, Cr. 2.3  Protein 9.4  Albumin 2.2]",
     "images": [
@@ -20543,6 +21027,9 @@
         "tag": "오답 감별",
         "reason": "비장 종대가 동반되지 않는 것이 특징이며, 간비종대가 있다면 백혈병, 골수섬유증 등 다른 골수 질환을 감별해야 합니다."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -20667,6 +21154,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -20742,6 +21232,9 @@
         "tag": "정답",
         "reason": "출혈 증상 없는 수술 예정 환자에서 PLT 20,000으로 급감 보고 시 -> 수술 연기나 불필요한 혈소판 수혈을 하기 전에 반드시 말초혈액도말(PBS)로 혈소판 응집을 확인하고 Sodium citrate 튜브로 재채혈하여 가성 혈소판 감소증(Pseudothrombocytopenia)을 먼저 배제해야 함!. 가장 빠르고 비용효과적인 1차 검증 조치를 묻는 실전 임상 문항."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -20855,6 +21348,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -20977,6 +21473,9 @@
         "tag": "오답 감별",
         "reason": "이차 세균 감염 예방을 위해 항생제를 보조 투여할 수는 있으나, 뱀 독소에 의한 전신 독성과 급성신부전은 항독소와 수액 없이는 해결되지 않습니다."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -20986,7 +21485,7 @@
     "year": "20Y",
     "q_num": 11,
     "category": "반짤",
-    "theme_title": "[과년도 빈출] PPD 피부반응검사와 IGRA 원리 및 BCG 위양성 감별 (발문 변형)",
+    "theme_title": "진단검사의학과 과년도 빈출: (야마) PPD 피부반응검사와 IGRA에 대한 설 명으...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "(야마) PPD 피부반응검사와 IGRA에 대한 설 명으로 옳은 것은?",
     "images": [],
@@ -21105,6 +21604,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -21114,7 +21616,7 @@
     "year": "20Y",
     "q_num": 12,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 유전질환(Genetic disorder)의 분류 및 특징",
+    "theme_title": "진단검사의학과 과년도 빈출: 유전질환(genetic disorder)에 대해 옳은것...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "유전질환(genetic disorder)에 대해 옳은것?",
     "images": [],
@@ -21229,6 +21731,9 @@
         "tag": "오답 감별",
         "reason": "소화성 궤양 '출혈'의 치료법이며, '천공' 환자에서 내시경으로 공기를 주입하면 기복증과 복막 오염이 극도로 악화되므로 절대 금기입니다."
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -21351,6 +21856,9 @@
         "tag": "오답 감별",
         "reason": "바터팽대부암은 췌두부 및 담도와 직결되어 있어 십이지장만 부분 절제할 수 없습니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -21360,7 +21868,7 @@
     "year": "20Y",
     "q_num": 14,
     "category": "짤",
-    "theme_title": "[과년도 빈출] NGS 에 대한 설명 모두 고르세요. ",
+    "theme_title": "진단검사의학과 과년도 빈출: (야마 변형) NGS 에 대한 설명 모두 고르세 요...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "(야마 변형) NGS 에 대한 설명 모두 고르세 요",
     "images": [],
@@ -21475,6 +21983,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -21603,6 +22114,9 @@
         "tag": "오답 감별",
         "reason": "병든 대장을 그대로 둔 채 장루만 만드는 것은 UC의 근치적 치료가 아닙니다."
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -21733,6 +22247,9 @@
         "tag": "오답 감별",
         "reason": "간원인대(Ligamentum teres)는 담낭 박리 영역이 아닙니다."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -21825,6 +22342,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -21947,6 +22467,9 @@
         "tag": "오답 감별",
         "reason": "⑤ 미토콘드리아 유전이다."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -21956,7 +22479,7 @@
     "year": "20Y",
     "q_num": 19,
     "category": "반짤",
-    "theme_title": "[과년도 빈출] 항글로불린 검사 모식도 판독: 직접(DAT) vs 간접(IAT) 변형",
+    "theme_title": "진단검사의학과 과년도 빈출: [20Y Q19] ① 간접 항글로불린 검사 (IAT) 관련 진단 및 처치",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "다음 그림에 나타난 검사는 무엇인가?",
     "images": [
@@ -22022,6 +22545,9 @@
         "tag": "오답 감별",
         "reason": "폐색전증에서 단순 흉부 X선은 정상인 경우가 가장 흔하며, 관찰만 하면 치명적인 우심실 부전 및 심정지로 사망할 수 있습니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -22144,6 +22670,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -22270,6 +22799,9 @@
         "tag": "정답",
         "reason": "치핵(혈관 총 비대)이 아닌 표피의 바이러스성 사마귀 병변이므로 정상 점막하 치핵 조직을 절제할 필요가 없습니다."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -22360,6 +22892,9 @@
         "tag": "오답 감별",
         "reason": "③ Rh D 항원은 규칙적으로 존재하는 자연 항체이며 IgM의 형태로 존재."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -22369,7 +22904,7 @@
     "year": "20Y",
     "q_num": 23,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 검사 결과 혈액형은 무엇인가?",
+    "theme_title": "진단검사의학과 과년도 빈출: 검사 결과 혈액형은 무엇인가? (위 사진과 비슷하지만 ...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "검사 결과 혈액형은 무엇인가? (위 사진과 비슷하지만 다른 사진으로 출제)",
     "images": [
@@ -22471,6 +23006,9 @@
         "tag": "오답 감별",
         "reason": "허혈 상태의 화상 조직에 열을 가하면 대사 요구량 증가와 추가 열손상으로 조직 괴사가 가속화됩니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -22603,6 +23141,9 @@
         "tag": "오답 감별",
         "reason": "조기위암(EGC, 점막 또는 점막하층 국한)의 표면 함몰형으로 위벽 전층 비후가 없습니다."
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -22612,7 +23153,7 @@
     "year": "20Y",
     "q_num": 25,
     "category": "반짤",
-    "theme_title": "[과년도 빈출] 신선동결혈장(FFP) 수혈 적응증 및 비적응증 (발문 반대 변형)",
+    "theme_title": "진단검사의학과 과년도 빈출: 다음 중 FFP 수혈이 필요한 경우를 모 두 고르시오...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "다음 중 FFP 수혈이 필요한 경우를 모 두 고르시오.",
     "images": [],
@@ -22710,6 +23251,9 @@
         "tag": "오답 감별",
         "reason": "간 기능 저하로 PT/aPTT 연장되고 활동성 출혈이 있거나 침습적 처치 전 투여."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -22808,6 +23352,9 @@
         "tag": "오답 감별",
         "reason": "③ RhD 혈액형 검사."
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -22938,6 +23485,9 @@
         "tag": "정답",
         "reason": "H는 H 항원이 없는 매우 희귀한 봄베이형(Bombay Oh)에서만 생성됩니다. O형 혈청에는 Anti-A, Anti-B뿐만 아니라 두 항원 모두와 교차반응하는 강력한 Anti-A,B 항체도 존재합니다. 일반 O형에서 절대 존재할 수 없는 항체 -> Anti-H 진단검사의학과 및 임상병리학 종합."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -23060,6 +23610,9 @@
         "tag": "오답 감별",
         "reason": "T세포 교차시험 양성 시 즉각적인 이식편 괴사(초급성 거부반응)가 발생하므로 이식이 절대 금기입니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -23182,6 +23735,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -23191,7 +23747,7 @@
     "year": "20Y",
     "q_num": 30,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 알부민 농도를 가장 민감하게 측정할 수 있는 ",
+    "theme_title": "진단검사의학과 과년도 빈출: 알부민 양 가장 적은 단위로 측정할 수 있 는 방법은?...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "알부민 양 가장 적은 단위로 측정할 수 있 는 방법은?",
     "images": [],
@@ -23306,6 +23862,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -23428,6 +23987,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -23550,6 +24112,9 @@
         "tag": "오답 감별",
         "reason": "반감기가 20일로 길어 만성 간질환의 지표."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -23678,6 +24243,9 @@
         "tag": "오답 감별",
         "reason": "⑤ NK cell 활성도 측정."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -23808,6 +24376,9 @@
         "tag": "오답 감별",
         "reason": "원발성 경화성 담관염(PSC)은 대개 AMA 음성이며 p-ANCA 양성과 담관조영술 상 구슬 모양(Beaded) 소견이 특징입니다."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -23940,6 +24511,9 @@
         "tag": "오답 감별",
         "reason": "대형 혈관염(Takayasu, 거대세포동맥염)에서는 ANCA가 음성이며 혈관 조영 검사가 필수적입니다."
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -24070,6 +24644,9 @@
         "tag": "정답",
         "reason": "병원 임상검사실에서 흔히 분리되는 병원성 세균(S. aureus, E. coli, Salmonella 등)은 생물안전 2등급(BSL-2)에 해당하며 Class II 생물안전작업대(BSC)에서 다룸! 1등급은 비병원성균(E. coli K12). 선지 ⑤는 흔한 임상 세균을 1등급으로 잘못 기술하여 명백한."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -24198,6 +24775,9 @@
         "tag": "오답 감별",
         "reason": "NMTT 측쇄로 인해 저프로트롬빈혈증(출혈 경향) 및 알코올 섭취 시 디설피람 유사 반응을 유발할 수 있어 주의해야 합니다."
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -24207,7 +24787,7 @@
     "year": "20Y",
     "q_num": 38,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 배양을 위해 적절한 검체는? ",
+    "theme_title": "진단검사의학과 과년도 빈출: 배양을 위한 적절한 검체는?...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "배양을 위한 적절한 검체는?",
     "images": [],
@@ -24324,6 +24904,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -24454,6 +25037,9 @@
         "tag": "오답 감별",
         "reason": "⑤ 멸균실 일반 클린벤치."
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -24463,7 +25049,7 @@
     "year": "20Y",
     "q_num": 40,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 혈액배양검사(Blood culture) 채혈 지침",
+    "theme_title": "진단검사의학과 과년도 빈출: 혈액배양검사에 대한 설명으로 옳은 것은?...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "혈액배양검사에 대한 설명으로 옳은 것은?",
     "images": [],
@@ -24578,6 +25164,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      1
     ]
   },
   {
@@ -24708,6 +25297,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -24717,7 +25309,7 @@
     "year": "20Y",
     "q_num": 42,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 결핵에 대해 옳은 것은?",
+    "theme_title": "진단검사의학과 과년도 빈출: 결핵에 대해 옳은 것은?...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "결핵에 대해 옳은 것은?",
     "images": [],
@@ -24834,6 +25426,9 @@
         "tag": "정답",
         "reason": "6개년 중 3회 출제된 진단검사 핵심 야마! 시그니처 검사법/수치 즉시 연상. Y Q35 & 22Y Q04 & 20Y Q42] 공통 출제 지문."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -24843,7 +25438,7 @@
     "year": "20Y",
     "q_num": 43,
     "category": "반짤",
-    "theme_title": "[과년도 빈출] 혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간",
+    "theme_title": "진단검사의학과 과년도 빈출: [21Y Q36 & 20Y Q43] ④ Diphtheroids 관련 진단 및 처치",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "혈액 배양 시 2쌍 중 1쌍에서만 나타나면 오염으로 간주하는 경우는?",
     "images": [],
@@ -24977,6 +25572,9 @@
         "tag": "오답 감별",
         "reason": "> S. epidermidis (CoNS) 또는 Diphtheroids(Corynebacterium) 즉시 연상! KMLE 진단검사의학 핵심 가이드."
       }
+    ],
+    "correct_option_indices": [
+      3
     ]
   },
   {
@@ -24986,7 +25584,7 @@
     "year": "20Y",
     "q_num": 44,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 손 위생에 필요한 경우에 해당하지 않는 ",
+    "theme_title": "진단검사의학과 과년도 빈출: 손 위생에 필요한 경우에 해당하지 않는 것은? (교수님...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "손 위생에 필요한 경우에 해당하지 않는 것은? (교수님이 수업 때 말해주심)",
     "images": [],
@@ -25052,6 +25650,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -25061,7 +25662,7 @@
     "year": "20Y",
     "q_num": 45,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 카테터 관련 혈류감염(CRBSI) 진단 기준",
+    "theme_title": "진단검사의학과 과년도 빈출: 중심정맥관 균혈증에 관한 설명 중 옳은 것은?...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "중심정맥관 균혈증에 관한 설명 중 옳은 것은?",
     "images": [],
@@ -25176,6 +25777,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -25185,7 +25789,7 @@
     "year": "20Y",
     "q_num": 46,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 법정감염병 6종이 아닌 것은? ",
+    "theme_title": "진단검사의학과 과년도 빈출: 법정감염병 6종이 아닌 것은?...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "법정감염병 6종이 아닌 것은?",
     "images": [],
@@ -25300,6 +25904,9 @@
         "tag": "정답",
         "reason": "difficile : difficile : difficile : difficile : difficile : 법정 다제내성균 6종 -> VRSA, VRE, MRSA, CRE, MRPA, MRAB!. Y Q46 & 19Y Q18] : ⑤ VRCD (존재하지 않는 감염병 분류)."
       }
+    ],
+    "correct_option_indices": [
+      4
     ]
   },
   {
@@ -25309,7 +25916,7 @@
     "year": "20Y",
     "q_num": 47,
     "category": "짤",
-    "theme_title": "[과년도 빈출] 세균 배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
+    "theme_title": "진단검사의학과 과년도 빈출: 세균배양을 즉시 할 수 없는 경우 냉장보관하는 검체로 ...",
     "subspecialty": "진단검사의학과 과년도 빈출",
     "stem": "세균배양을 즉시 할 수 없는 경우 냉장보관하는 검체로 올바른 것은?",
     "images": [],
@@ -25428,6 +26035,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      0
     ]
   },
   {
@@ -25550,6 +26160,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -25682,6 +26295,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   },
   {
@@ -25804,6 +26420,9 @@
         "tag": "오답 감별",
         "reason": ""
       }
+    ],
+    "correct_option_indices": [
+      2
     ]
   }
 ]
