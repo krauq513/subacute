@@ -119,6 +119,9 @@
     btnNext: document.getElementById('btn-next'),
     btnRandom: document.getElementById('btn-random'),
     navIndicator: document.getElementById('nav-indicator'),
+    navJumpForm: document.getElementById('nav-jump-form'),
+    navJumpInput: document.getElementById('nav-jump-input'),
+    navIndicatorTotal: document.getElementById('nav-indicator-total'),
 
     // Grid Modal
     gridModal: document.getElementById('grid-modal'),
@@ -797,7 +800,13 @@
       dom.feedbackBanner.style.display = 'none';
       dom.cardExplanation.style.display = 'none';
       dom.filterCounter.textContent = '문항 0 / 0';
-      dom.navIndicator.textContent = '0 / 0';
+      if (dom.navJumpInput && dom.navIndicatorTotal) {
+        dom.navJumpInput.value = '0';
+        dom.navJumpInput.disabled = true;
+        dom.navIndicatorTotal.textContent = '0';
+      } else if (dom.navIndicator) {
+        dom.navIndicator.textContent = '0 / 0';
+      }
       return;
     }
 
@@ -877,7 +886,13 @@
 
     const countText = `문항 ${state.currentIndex + 1} / ${state.filteredQuestions.length}`;
     dom.filterCounter.textContent = countText;
-    dom.navIndicator.textContent = `${state.currentIndex + 1} / ${state.filteredQuestions.length}`;
+    if (dom.navJumpInput && dom.navIndicatorTotal) {
+      dom.navJumpInput.disabled = false;
+      dom.navJumpInput.value = String(state.currentIndex + 1);
+      dom.navIndicatorTotal.textContent = String(state.filteredQuestions.length);
+    } else if (dom.navIndicator) {
+      dom.navIndicator.textContent = `${state.currentIndex + 1} / ${state.filteredQuestions.length}`;
+    }
 
     // Bookmark Toggle
     const isBookmarked = state.bookmarks.has(q.id);
@@ -1648,6 +1663,72 @@
     dom.btnPrev.addEventListener('click', () => navigate(-1));
     dom.btnNext.addEventListener('click', () => navigate(1));
     dom.btnRandom.addEventListener('click', navigateRandom);
+
+    // Direct Question Number Jump Input
+    if (dom.navJumpForm && dom.navJumpInput) {
+      const commitJumpInput = (fromSubmit = false) => {
+        const total = state.filteredQuestions.length;
+        if (total === 0) {
+          dom.navJumpInput.value = '0';
+          return;
+        }
+        const raw = dom.navJumpInput.value.trim();
+        if (!raw) {
+          dom.navJumpInput.value = String(state.currentIndex + 1);
+          return;
+        }
+        const targetNum = parseInt(raw, 10);
+        if (isNaN(targetNum) || targetNum < 1 || targetNum > total) {
+          showToast(`⚠️ 1 ~ ${total}번 사이의 문제 번호를 입력해 주세요.`);
+          dom.navJumpInput.value = String(state.currentIndex + 1);
+          if (fromSubmit) dom.navJumpInput.select();
+          return;
+        }
+        const targetIndex = targetNum - 1;
+        if (targetIndex !== state.currentIndex) {
+          state.currentIndex = targetIndex;
+          renderCurrentQuestion();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        } else {
+          dom.navJumpInput.value = String(state.currentIndex + 1);
+        }
+        if (fromSubmit) {
+          dom.navJumpInput.blur();
+        }
+      };
+
+      dom.navJumpForm.addEventListener('submit', e => {
+        e.preventDefault();
+        commitJumpInput(true);
+      });
+
+      dom.navJumpInput.addEventListener('focus', () => {
+        dom.navJumpInput.select();
+      });
+
+      dom.navJumpInput.addEventListener('click', () => {
+        dom.navJumpInput.select();
+      });
+
+      dom.navJumpInput.addEventListener('input', () => {
+        const digitsOnly = dom.navJumpInput.value.replace(/[^0-9]/g, '');
+        if (dom.navJumpInput.value !== digitsOnly) {
+          dom.navJumpInput.value = digitsOnly;
+        }
+      });
+
+      dom.navJumpInput.addEventListener('keydown', e => {
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          dom.navJumpInput.value = String(state.filteredQuestions.length > 0 ? state.currentIndex + 1 : 0);
+          dom.navJumpInput.blur();
+        }
+      });
+
+      dom.navJumpInput.addEventListener('blur', () => {
+        commitJumpInput(false);
+      });
+    }
 
     // Card Year Badge Click (연도 필터 전환)
     if (dom.cardYear) {

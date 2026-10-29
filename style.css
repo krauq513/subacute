@@ -1580,6 +1580,69 @@ body {
   color: var(--text-secondary);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.nav-jump-form {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0;
+}
+
+.nav-jump-input {
+  width: 3.4rem;
+  padding: 0.28rem 0.35rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-family: var(--font-mono);
+  color: var(--text-primary);
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  text-align: center;
+  transition: all var(--transition-fast);
+}
+
+.nav-jump-input:hover:not(:disabled) {
+  border-color: #94a3b8;
+  background: #ffffff;
+}
+
+.nav-jump-input:focus,
+.nav-jump-input:focus-visible {
+  outline: 2px solid var(--border-focus);
+  outline-offset: 1px;
+  border-color: var(--primary);
+  background: #ffffff;
+  color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.14);
+}
+
+.nav-jump-input:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.nav-jump-sep {
+  color: var(--text-muted);
+  user-select: none;
+}
+
+.nav-jump-total {
+  color: var(--text-secondary);
+  user-select: none;
+}
+
 /* Question Grid Modal */
 .modal-backdrop, .lightbox-backdrop {
   position: fixed;
@@ -2238,6 +2301,12 @@ body {
 
   .nav-index-indicator {
     font-size: 0.8rem;
+  }
+
+  .nav-jump-input {
+    width: 3.3rem;
+    padding: 0.25rem 0.25rem;
+    font-size: 1rem;
   }
 
   /* Grid Modal on Mobile */

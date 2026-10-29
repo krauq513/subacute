@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>subacute | 임상의학 기출 퀴즈 마스터</title>
   <meta name="description" content="subacute - 20Y ~ 26Y 임상의학 9개 분과 기출 문제 풀이 및 상세 해설 인터랙티브 CBT">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20261029v3">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -290,7 +290,12 @@
             </svg>
             <span>랜덤 문제</span>
           </button>
-          <span class="nav-index-indicator" id="nav-indicator">1 / 211</span>
+          <form class="nav-jump-form nav-index-indicator" id="nav-jump-form" action="#" method="GET" title="문제 번호를 입력하고 Enter를 누르면 바로 이동합니다">
+            <label for="nav-jump-input" class="visually-hidden">이동할 문제 번호</label>
+            <input type="text" id="nav-jump-input" name="q_jump" class="nav-jump-input" inputmode="numeric" pattern="[0-9]*" enterkeyhint="go" autocorrect="off" autocapitalize="off" spellcheck="false" autocomplete="off" value="1" aria-label="현재 문제 번호 (숫자 입력 후 엔터로 이동)">
+            <span class="nav-jump-sep">/</span>
+            <span class="nav-jump-total" id="nav-indicator-total">211</span>
+          </form>
         </div>
 
         <button id="btn-next" class="nav-btn next-btn" title="다음 문제 (단축키 → 또는 K 또는 Space)">
@@ -372,8 +377,8 @@
   <div class="toast-message" id="toast-message" style="display: none;"></div>
 
   <!-- Load Quiz Dataset (Embedded for instant local file:// execution without CORS) -->
-  <script src="data/quiz_data.js?v=20261029v2"></script>
+  <script src="data/quiz_data.js?v=20261029v3"></script>
   <!-- Main Application Logic -->
-  <script src="app.js?v=20261029v2"></script>
+  <script src="app.js?v=20261029v3"></script>
 </body>
 </html>
