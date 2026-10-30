@@ -936,6 +936,133 @@
   }
 
   /**
+   * Parse and organize cross-year question linkages for question q.
+   * Returns a sorted array of consolidated chip items, one per year:
+   * [
+   *   { year: '26Y', isCurrent: true, label: '26Y-02 (흉부02)', targetRaw: '26Y-02', targetQ: q },
+   *   { year: '22Y', isCurrent: false, label: '22Y-06 (흉부06)', targetRaw: '22Y-06', targetQ: ... },
+   *   ...
+   * ]
+   */
+  function parseAndGroupHistoryChips(q) {
+    if (!q) return [];
+    const rawList = (q.raw_questions && q.raw_questions.length > 0)
+      ? q.raw_questions
+      : [`${q.year}-${String(q.q_num).padStart(2, '0')}`];
+
+    // Group raw tags by Year
+    const yearGroups = new Map();
+    const curYear = q.year || '26Y';
+
+    rawList.forEach(rawItem => {
+      if (!rawItem) return;
+      const ym = rawItem.match(/(\d+Y)/i);
+      const yr = ym ? ym[1].toUpperCase() : curYear;
+      if (!yearGroups.has(yr)) {
+        yearGroups.set(yr, []);
+      }
+      yearGroups.get(yr).push(rawItem);
+    });
+
+    // Ensure current year is included
+    if (!yearGroups.has(curYear)) {
+      yearGroups.set(curYear, [`${curYear}-${String(q.q_num).padStart(2, '0')}`]);
+    }
+
+    const yearPriority = ['26Y', '25Y', '24Y', '23Y', '22Y', '21Y', '20Y', '19Y', '18Y'];
+    const sortedYears = Array.from(yearGroups.keys()).sort((a, b) => {
+      const idxA = yearPriority.indexOf(a);
+      const idxB = yearPriority.indexOf(b);
+      if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+      if (idxA !== -1) return -1;
+      if (idxB !== -1) return 1;
+      return b.localeCompare(a);
+    });
+
+    const items = [];
+
+    sortedYears.forEach(yr => {
+      const tags = yearGroups.get(yr) || [];
+      const isCur = (yr === curYear);
+
+      let targetQ = isCur ? q : null;
+      let targetRaw = tags[0];
+
+      if (!targetQ) {
+        // Try finding matching question in state.allQuestions
+        // 1. Match by section tag first if exists (e.g. 22Y-복부01)
+        const secTag = tags.find(t => /(\d+Y)[-_]([가-힣a-zA-Z]+)0?(\d+)/i.test(t));
+        if (secTag) {
+          const sm = secTag.match(/(\d+Y)[-_]([가-힣a-zA-Z]+)0?(\d+)/i);
+          if (sm) {
+            const secName = sm[2];
+            const secNum = parseInt(sm[3], 10);
+            targetQ = state.allQuestions.find(cand =>
+              cand.subject === q.subject &&
+              cand.year === yr &&
+              cand.section && (cand.section === secName || cand.section.includes(secName) || secName.includes(cand.section)) &&
+              Number(cand.section_q_num) === secNum
+            );
+          }
+        }
+
+        // 2. Match by global question number (e.g. 23Y-47, 22Y-06)
+        if (!targetQ) {
+          const numTag = tags.find(t => /(\d+Y)[-_]Q?0?(\d+)/i.test(t));
+          if (numTag) {
+            const m = numTag.match(/(\d+Y)[-_]Q?0?(\d+)/i);
+            if (m) {
+              const numVal = parseInt(m[2], 10);
+              targetQ = state.allQuestions.find(cand =>
+                cand.subject === q.subject &&
+                cand.year === yr &&
+                Number(cand.q_num) === numVal
+              );
+            }
+          }
+        }
+
+        // 3. Match by raw_questions array
+        if (!targetQ) {
+          for (const t of tags) {
+            targetQ = state.allQuestions.find(cand =>
+              cand.subject === q.subject &&
+              cand.raw_questions && cand.raw_questions.includes(t)
+            );
+            if (targetQ) break;
+          }
+        }
+      }
+
+      // Format label
+      let label = '';
+      if (targetQ) {
+        targetRaw = `${yr}-${String(targetQ.q_num).padStart(2, '0')}`;
+        if (targetQ.section && targetQ.section_q_num) {
+          label = `${yr}-${String(targetQ.q_num).padStart(2, '0')} (${targetQ.section}${String(targetQ.section_q_num).padStart(2, '0')})`;
+        } else {
+          label = `${yr}-${String(targetQ.q_num).padStart(2, '0')}`;
+        }
+      } else {
+        // Fallback for earlier years not in DB (e.g. 19Y-13)
+        const cleanTag = tags.find(t => /[-_]/.test(t)) || tags[0];
+        label = cleanTag;
+        targetRaw = cleanTag;
+      }
+
+      items.push({
+        year: yr,
+        isCurrent: isCur,
+        label: label,
+        targetRaw: targetRaw,
+        targetQ: targetQ
+      });
+    });
+
+    return items;
+  }
+
+  /**
    * Jump to question by raw exam tag (e.g. '23Y-47', '22Y-복부01', '22Y-12')
    * Accurately finds the question in state.allQuestions, adjusts filters if needed,
    * updates the currentIndex, and smoothly transitions to the target question.
@@ -1095,7 +1222,10 @@
       renderCurrentQuestion();
       renderGrid();
       updateStats();
-      showToast(`🔄 [${target.year}-${String(target.q_num).padStart(2, '0')}] ${target.subject} 기출 문제로 이동했습니다.`);
+      const targetLabel = (target.section && target.section_q_num)
+        ? `${target.year}-${String(target.q_num).padStart(2, '0')} (${target.section}${String(target.section_q_num).padStart(2, '0')})`
+        : `${target.year}-${String(target.q_num).padStart(2, '0')}`;
+      showToast(`⚡ [${targetLabel}] ${target.subject} 기출 문제로 이동했습니다.`);
     } else {
       showToast(`⚠️ [${rawItem}] 문제로 이동하는 중 필터 충돌이 발생했습니다.`);
     }
@@ -1174,16 +1304,17 @@
     // Cross-year linked chips (links to other matching questions)
     if (dom.cardMetaLinkedChips) {
       dom.cardMetaLinkedChips.innerHTML = '';
-      const otherYearLinks = (q.raw_questions || []).filter(rawItem => !isSameQuestionAsRaw(q, rawItem));
-      otherYearLinks.forEach(rawItem => {
+      const historyItems = parseAndGroupHistoryChips(q);
+      const otherLinks = historyItems.filter(item => !item.isCurrent);
+      otherLinks.forEach(item => {
         const chip = document.createElement('button');
         chip.type = 'button';
         chip.className = 'meta-link-chip';
-        chip.innerHTML = `${rawItem} <span class="chip-arrow">↗</span>`;
-        chip.title = `${rawItem} 기출 문제로 즉시 이동`;
+        chip.innerHTML = `${item.label} <span class="chip-arrow">↗</span>`;
+        chip.title = `${item.label} 기출 문제로 즉시 이동`;
         chip.addEventListener('click', (e) => {
           e.stopPropagation();
-          jumpToQuestionByRaw(rawItem);
+          jumpToQuestionByRaw(item.targetRaw);
         });
         dom.cardMetaLinkedChips.appendChild(chip);
       });
@@ -1249,28 +1380,26 @@
 
     if (dom.cardHistoryChips) {
       dom.cardHistoryChips.innerHTML = '';
-      const rawList = q.raw_questions && q.raw_questions.length > 0
-        ? q.raw_questions
-        : [`${q.year}-${String(q.q_num).padStart(2, '0')}`];
+      const historyItems = parseAndGroupHistoryChips(q);
 
-      rawList.forEach(rawItem => {
-        const chip = document.createElement('button');
-        chip.type = 'button';
-        chip.className = 'intel-chip';
-
-        // Check if rawItem refers to current question
-        const isCurrent = isSameQuestionAsRaw(q, rawItem);
-        if (isCurrent) {
-          chip.classList.add('current');
-          chip.textContent = `${rawItem} (현재)`;
+      historyItems.forEach(item => {
+        if (item.isCurrent) {
+          const chip = document.createElement('span');
+          chip.className = 'intel-chip current';
+          chip.innerHTML = `${item.label} <span class="chip-now">현재</span>`;
+          chip.title = '현재 학습 중인 기출 문항';
+          dom.cardHistoryChips.appendChild(chip);
         } else {
-          chip.innerHTML = `${rawItem} <span style="font-size:0.7em;opacity:0.8;">↗</span>`;
-          chip.title = `${rawItem} 기출 문제로 즉시 이동`;
+          const chip = document.createElement('button');
+          chip.type = 'button';
+          chip.className = 'intel-chip linked';
+          chip.innerHTML = `${item.label} <span class="chip-arrow">↗</span>`;
+          chip.title = `${item.label} 기출 문제로 즉시 이동`;
           chip.addEventListener('click', () => {
-            jumpToQuestionByRaw(rawItem);
+            jumpToQuestionByRaw(item.targetRaw);
           });
+          dom.cardHistoryChips.appendChild(chip);
         }
-        dom.cardHistoryChips.appendChild(chip);
       });
     }
 
