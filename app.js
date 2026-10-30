@@ -1046,11 +1046,39 @@
           }
         }
 
-        // 3. Match by raw_questions array
+        // 3. Match by raw_questions array strictly in target year
         if (!targetQ) {
           for (const t of tags) {
             targetQ = state.allQuestions.find(cand =>
               cand.subject === q.subject &&
+              cand.year === yr &&
+              cand.raw_questions && cand.raw_questions.includes(t)
+            );
+            if (targetQ) break;
+          }
+        }
+
+        // 4. Match by question ID in target year
+        if (!targetQ) {
+          const numTag = tags.find(t => /(\d+Y)[-_]Q?0?(\d+)/i.test(t));
+          if (numTag) {
+            const m = numTag.match(/(\d+Y)[-_]Q?0?(\d+)/i);
+            if (m) {
+              const numVal = parseInt(m[2], 10);
+              targetQ = state.allQuestions.find(cand =>
+                cand.subject === q.subject &&
+                cand.year === yr &&
+                (cand.id.includes(`_Q${String(numVal).padStart(2, '0')}`) || cand.id.includes(`_Q${numVal}`))
+              );
+            }
+          }
+        }
+
+        // 5. Cross-subject match in target year if needed
+        if (!targetQ) {
+          for (const t of tags) {
+            targetQ = state.allQuestions.find(cand =>
+              cand.year === yr &&
               cand.raw_questions && cand.raw_questions.includes(t)
             );
             if (targetQ) break;
@@ -1087,9 +1115,105 @@
   }
 
   /**
+   * Jump directly to a question object (e.g. from cross-year linkages).
+   * Robustly relaxes conflicting filters, updates tabs and UI,
+   * switches the active question, and scrolls smoothly to top.
+   */
+  function jumpToQuestionObject(target, rawFallback = null) {
+    if (!target) {
+      if (rawFallback) {
+        jumpToQuestionByRaw(rawFallback);
+      }
+      return;
+    }
+
+    const curQ = getCurrentQuestion();
+    if (curQ && curQ.id === target.id) {
+      showToast(`이미 현재 표시 중인 문제입니다.`);
+      return;
+    }
+
+    // Check if target is already in state.filteredQuestions
+    let targetIdx = state.filteredQuestions.findIndex(fq => fq.id === target.id);
+
+    // If target was filtered out, relax filters to ensure it is included
+    if (targetIdx === -1) {
+      // 1. Subject filter
+      if (state.filters.subject !== 'ALL' && state.filters.subject !== target.subject) {
+        state.filters.subject = target.subject;
+        localStorage.setItem(STORAGE_KEY_SUBJECT, target.subject);
+      }
+
+      // 2. Year filter: if restricted and doesn't match target, relax to ALL
+      if (state.filters.year !== 'ALL' && state.filters.year !== target.year) {
+        state.filters.year = 'ALL';
+      }
+
+      // 3. Section filter: if restricted and doesn't match target, relax to ALL
+      if (state.filters.section && state.filters.section !== 'ALL' && target.section && state.filters.section !== target.section) {
+        state.filters.section = 'ALL';
+      }
+
+      // 4. Type/Category filter (짤/반짤/탈/기출)
+      if (state.filters.type !== 'ALL' && target.category && state.filters.type !== target.category) {
+        state.filters.type = 'ALL';
+      }
+
+      // 5. Clear restrictive filters
+      if (state.filters.onlyFrequent && (target.freq_count || 1) < 2) {
+        state.filters.onlyFrequent = false;
+      }
+      if (state.filters.onlyImages && (!target.images || target.images.length === 0)) {
+        state.filters.onlyImages = false;
+      }
+      state.filters.onlyIncorrect = false;
+      state.filters.onlyBookmarked = false;
+      state.filters.searchQuery = '';
+      if (dom.searchInput) dom.searchInput.value = '';
+
+      // Sync UI and re-apply filters
+      syncFilterButtonsUI();
+      updateSubjectUI();
+
+      targetIdx = state.filteredQuestions.findIndex(fq => fq.id === target.id);
+    }
+
+    // Fail-safe fallback if still not found
+    if (targetIdx === -1) {
+      state.filters.subject = target.subject;
+      state.filters.year = 'ALL';
+      state.filters.section = 'ALL';
+      state.filters.type = 'ALL';
+      state.filters.onlyFrequent = false;
+      state.filters.onlyImages = false;
+      state.filters.onlyIncorrect = false;
+      state.filters.onlyBookmarked = false;
+      state.filters.searchQuery = '';
+      if (dom.searchInput) dom.searchInput.value = '';
+      syncFilterButtonsUI();
+      updateSubjectUI();
+      targetIdx = state.filteredQuestions.findIndex(fq => fq.id === target.id);
+    }
+
+    if (targetIdx !== -1) {
+      state.currentIndex = targetIdx;
+      renderCurrentQuestion();
+      renderGrid();
+      updateStats();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      const targetLabel = (target.section && target.section_q_num)
+        ? `${target.year}-${String(target.q_num).padStart(2, '0')} (${target.section}${String(target.section_q_num).padStart(2, '0')})`
+        : `${target.year}-${String(target.q_num).padStart(2, '0')}`;
+      showToast(`⚡ [${targetLabel}] ${target.subject} 기출 문제로 문제를 변경했습니다.`);
+    } else {
+      showToast(`⚠️ [${target.id}] 문제로 이동하는 중 필터 충돌이 발생했습니다.`);
+    }
+  }
+
+  /**
    * Jump to question by raw exam tag (e.g. '23Y-47', '22Y-복부01', '22Y-12')
-   * Accurately finds the question in state.allQuestions, adjusts filters if needed,
-   * updates the currentIndex, and smoothly transitions to the target question.
+   * Uses robust priority search scoped to target year to prevent self-matching.
    */
   function jumpToQuestionByRaw(rawItem) {
     if (!rawItem) return;
@@ -1121,19 +1245,10 @@
       return;
     }
 
-    let targetYear = null;
-    let targetNum = null;
-    let targetSec = null;
-    let targetSecNum = null;
-
-    if (sm) {
-      targetYear = sm[1].toUpperCase();
-      targetSec = sm[2];
-      targetSecNum = parseInt(sm[3], 10);
-    } else if (m) {
-      targetYear = m[1].toUpperCase();
-      targetNum = parseInt(m[2], 10);
-    }
+    const targetYear = sm ? sm[1].toUpperCase() : m[1].toUpperCase();
+    const targetSec = sm ? sm[2] : null;
+    const targetSecNum = sm ? parseInt(sm[3], 10) : null;
+    const targetNum = m ? parseInt(m[2], 10) : null;
 
     // If already viewing this exact question, alert user gently
     if (curQ && isSameQuestionAsRaw(curQ, rawItem)) {
@@ -1141,17 +1256,11 @@
       return;
     }
 
-    // 1. Find target question
+    // Find target question strictly scoped by targetYear
     let target = null;
 
-    // 1-a. Priority: Match by raw_questions array
-    target = state.allQuestions.find(cand =>
-      (curSub ? cand.subject === curSub : true) &&
-      cand.raw_questions && cand.raw_questions.includes(rawItem)
-    );
-
-    // 1-b. Section tag match
-    if (!target && sm) {
+    // 1. Section match in targetYear
+    if (sm) {
       target = state.allQuestions.find(cand =>
         (curSub ? cand.subject === curSub : true) &&
         cand.year === targetYear &&
@@ -1160,29 +1269,38 @@
       );
     }
 
-    // 1-c. Global search: exact year & q_num
-    if (!target && m) {
-      if (curSub) {
-        target = state.allQuestions.find(cand =>
-          cand.subject === curSub &&
-          cand.year === targetYear &&
-          Number(cand.q_num) === targetNum
-        );
-      }
-      if (!target) {
-        target = state.allQuestions.find(cand =>
-          cand.year === targetYear &&
-          Number(cand.q_num) === targetNum
-        );
-      }
+    // 2. Exact q_num in targetYear & subject
+    if (!target && targetNum) {
+      target = state.allQuestions.find(cand =>
+        (curSub ? cand.subject === curSub : true) &&
+        cand.year === targetYear &&
+        Number(cand.q_num) === targetNum
+      );
     }
 
-    // 1-d. Global ID match
-    if (!target && m) {
+    // 3. raw_questions in targetYear & subject
+    if (!target) {
+      target = state.allQuestions.find(cand =>
+        (curSub ? cand.subject === curSub : true) &&
+        cand.year === targetYear &&
+        cand.raw_questions && cand.raw_questions.includes(rawItem)
+      );
+    }
+
+    // 4. ID match in targetYear & subject
+    if (!target && targetNum) {
+      target = state.allQuestions.find(cand =>
+        (curSub ? cand.subject === curSub : true) &&
+        cand.year === targetYear &&
+        (cand.id.includes(`_Q${String(targetNum).padStart(2, '0')}`) || cand.id.includes(`_Q${targetNum}`))
+      );
+    }
+
+    // 5. Cross-subject match in targetYear
+    if (!target) {
       target = state.allQuestions.find(cand =>
         cand.year === targetYear &&
-        (cand.id.includes(`_Q${String(targetNum).padStart(2, '0')}`) ||
-         cand.id.includes(`_Q${targetNum}`))
+        cand.raw_questions && cand.raw_questions.includes(rawItem)
       );
     }
 
@@ -1191,68 +1309,8 @@
       return;
     }
 
-    // 2. Check if target is in current filtered list
-    let targetIdx = state.filteredQuestions.findIndex(fq => fq.id === target.id);
-
-    // If target was filtered out, adjust filters to include it!
-    if (targetIdx === -1) {
-      // If subject was restricted, adjust to target subject
-      if (state.filters.subject !== 'ALL' && state.filters.subject !== target.subject) {
-        state.filters.subject = target.subject;
-        localStorage.setItem(STORAGE_KEY_SUBJECT, target.subject);
-      }
-
-      // If year was restricted, adjust to ALL
-      if (state.filters.year !== 'ALL' && state.filters.year !== target.year) {
-        state.filters.year = 'ALL';
-      }
-
-      // Clear restrictive filters
-      state.filters.type = 'ALL';
-      state.filters.section = 'ALL';
-      state.filters.onlyFrequent = false;
-      state.filters.onlyImages = false;
-      state.filters.onlyIncorrect = false;
-      state.filters.onlyBookmarked = false;
-      state.filters.searchQuery = '';
-      if (dom.searchInput) dom.searchInput.value = '';
-
-      // Re-apply filters
-      applyFilters();
-
-      // Synchronize UI filter tabs
-      const subQuestions = (state.filters.subject === 'ALL')
-        ? state.allQuestions
-        : state.allQuestions.filter(q => q.subject === state.filters.subject);
-      renderYearTabs(subQuestions);
-      renderSectionTabs(subQuestions);
-      renderCategoryTabs(subQuestions);
-
-      if (dom.subjectTabs) {
-        dom.subjectTabs.querySelectorAll('.subject-pill').forEach(btn => {
-          btn.classList.toggle('active', btn.dataset.subject === state.filters.subject);
-        });
-      }
-      if (dom.filterFrequent) dom.filterFrequent.classList.remove('active');
-      if (dom.filterImages) dom.filterImages.classList.remove('active');
-      if (dom.filterIncorrect) dom.filterIncorrect.classList.remove('active');
-      if (dom.filterBookmarked) dom.filterBookmarked.classList.remove('active');
-
-      targetIdx = state.filteredQuestions.findIndex(fq => fq.id === target.id);
-    }
-
-    if (targetIdx !== -1) {
-      state.currentIndex = targetIdx;
-      renderCurrentQuestion();
-      renderGrid();
-      updateStats();
-      const targetLabel = (target.section && target.section_q_num)
-        ? `${target.year}-${String(target.q_num).padStart(2, '0')} (${target.section}${String(target.section_q_num).padStart(2, '0')})`
-        : `${target.year}-${String(target.q_num).padStart(2, '0')}`;
-      showToast(`⚡ [${targetLabel}] ${target.subject} 기출 문제로 이동했습니다.`);
-    } else {
-      showToast(`⚠️ [${rawItem}] 문제로 이동하는 중 필터 충돌이 발생했습니다.`);
-    }
+    // Jump to the found target question
+    jumpToQuestionObject(target, rawItem);
   }
 
   /**
@@ -1333,12 +1391,20 @@
       otherLinks.forEach(item => {
         const chip = document.createElement('button');
         chip.type = 'button';
-        chip.className = 'meta-link-chip';
-        chip.innerHTML = `${item.label} <span class="chip-arrow">↗</span>`;
-        chip.title = `${item.label} 기출 문제로 즉시 이동`;
+        chip.className = item.targetQ ? 'meta-link-chip' : 'meta-link-chip unlinked';
+        chip.innerHTML = item.targetQ
+          ? `${item.label} <span class="chip-arrow">↗</span>`
+          : `${item.label} <span class="chip-unlinked-tag">미수록</span>`;
+        chip.title = item.targetQ
+          ? `[${item.label}] 기출 문제로 즉시 문제 바꾸기`
+          : `[${item.label}] 문제는 20Y 이전 기출로 20Y~26Y DB에 수록되어 있지 않습니다`;
         chip.addEventListener('click', (e) => {
           e.stopPropagation();
-          jumpToQuestionByRaw(item.targetRaw);
+          if (item.targetQ) {
+            jumpToQuestionObject(item.targetQ, item.targetRaw);
+          } else {
+            showToast(`ℹ️ [${item.label}] 문제는 20Y 이전 기출로 현재 5개년 DB에는 수록되어 있지 않습니다.`);
+          }
         });
         dom.cardMetaLinkedChips.appendChild(chip);
       });
@@ -1416,14 +1482,24 @@
           chip.innerHTML = `${item.label} <span class="chip-now">현재</span>`;
           chip.title = '현재 학습 중인 기출 문항';
           dom.cardHistoryChips.appendChild(chip);
-        } else {
+        } else if (item.targetQ) {
           const chip = document.createElement('button');
           chip.type = 'button';
           chip.className = 'intel-chip linked';
-          chip.innerHTML = `${item.label} <span class="chip-arrow">↗</span>`;
-          chip.title = `${item.label} 기출 문제로 즉시 이동`;
+          chip.innerHTML = `${item.label} <span class="chip-arrow">↗ 문제 바꾸기</span>`;
+          chip.title = `클릭 시 [${item.label}] 기출 문제로 즉시 문제 바꾸기`;
           chip.addEventListener('click', () => {
-            jumpToQuestionByRaw(item.targetRaw);
+            jumpToQuestionObject(item.targetQ, item.targetRaw);
+          });
+          dom.cardHistoryChips.appendChild(chip);
+        } else {
+          const chip = document.createElement('button');
+          chip.type = 'button';
+          chip.className = 'intel-chip unlinked';
+          chip.innerHTML = `${item.label} <span class="chip-unlinked-tag">미수록</span>`;
+          chip.title = `[${item.label}] 문제는 20Y 이전 기출로 20Y~26Y DB에 수록되어 있지 않습니다`;
+          chip.addEventListener('click', () => {
+            showToast(`ℹ️ [${item.label}] 문제는 20Y 이전 기출로 현재 5개년 DB에는 수록되어 있지 않습니다.`);
           });
           dom.cardHistoryChips.appendChild(chip);
         }

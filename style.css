@@ -532,6 +532,30 @@ body {
   opacity: 0.75;
 }
 
+.meta-link-chip.unlinked {
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  color: #94a3b8;
+  cursor: help;
+  opacity: 0.85;
+}
+
+.meta-link-chip.unlinked:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+  color: #64748b;
+  transform: none;
+}
+
+.meta-link-chip .chip-unlinked-tag {
+  background: #e2e8f0;
+  color: #64748b;
+  font-size: 0.6rem;
+  padding: 0.05rem 0.3rem;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
 .category-badge {
   font-weight: 700;
   font-size: 0.75rem;
@@ -845,6 +869,30 @@ body {
 .intel-chip .chip-arrow {
   font-size: 0.68rem;
   opacity: 0.75;
+}
+
+.intel-chip.unlinked {
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  color: #94a3b8;
+  cursor: help;
+  opacity: 0.85;
+}
+
+.intel-chip.unlinked:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+  color: #64748b;
+  transform: none;
+}
+
+.intel-chip .chip-unlinked-tag {
+  background: #e2e8f0;
+  color: #64748b;
+  font-size: 0.62rem;
+  padding: 0.05rem 0.35rem;
+  border-radius: 9999px;
+  font-weight: 600;
 }
 
 /* Question Stem */
