@@ -3642,6 +3642,151 @@ dialog.report-dialog::backdrop {
   white-space: pre-wrap;
 }
 
+/* ==========================================================================
+   Image-as-Option Cards (선지 자체가 사진인 문항 전용 레이아웃)
+   ========================================================================== */
+.options-list.has-image-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.85rem;
+}
+
+.option-btn.image-option-card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0.75rem;
+  border-radius: var(--radius-md);
+  background: #ffffff;
+  border: 1.5px solid #cbd5e1;
+  text-align: left;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  height: auto;
+}
+
+.option-btn.image-option-card:hover:not(.disabled) {
+  border-color: #6366f1;
+  background: #f8fafc;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.15);
+}
+
+.option-btn.image-option-card.is-selected-pending {
+  border-color: #4f46e5;
+  background: #eef2ff;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.25);
+}
+
+.option-btn.image-option-card.is-correct {
+  border-color: #10b981 !important;
+  background: #f0fdf4 !important;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.25);
+}
+
+.option-btn.image-option-card.is-wrong {
+  border-color: #ef4444 !important;
+  background: #fef2f2 !important;
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.25);
+}
+
+.option-btn.image-option-card.is-actual-correct {
+  border-color: #059669 !important;
+  background: #ecfdf5 !important;
+  box-shadow: 0 0 0 2px rgba(5, 150, 105, 0.35);
+}
+
+.image-opt-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.45rem;
+}
+
+.image-opt-left {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.image-opt-right {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.image-opt-img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-opt-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.option-btn.image-option-card:hover .image-opt-img {
+  transform: scale(1.02);
+}
+
+.image-opt-zoom-btn {
+  position: absolute;
+  top: 0.35rem;
+  right: 0.35rem;
+  background: rgba(15, 23, 42, 0.75);
+  color: #ffffff;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.45rem;
+  border-radius: var(--radius-sm);
+  backdrop-filter: blur(4px);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.image-opt-zoom-btn:hover {
+  background: #4f46e5;
+  transform: scale(1.08);
+}
+
+.image-opt-post-label {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #1e293b;
+  line-height: 1.35;
+  padding: 0.35rem 0.5rem;
+  background: #f1f5f9;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid #64748b;
+}
+
+.option-btn.image-option-card.is-correct .image-opt-post-label,
+.option-btn.image-option-card.is-actual-correct .image-opt-post-label {
+  border-left-color: #10b981;
+  background: #dcfce7;
+  color: #065f46;
+}
+
+.option-btn.image-option-card.is-wrong .image-opt-post-label {
+  border-left-color: #ef4444;
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+
 
 
 

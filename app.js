@@ -1509,8 +1509,8 @@
     // Stem Text
     dom.cardStem.textContent = q.stem;
 
-    // Images
-    if (q.images && q.images.length > 0) {
+    // Images (Hide stem gallery if images are used directly as options)
+    if (q.images && q.images.length > 0 && !q.is_image_options) {
       dom.cardImagesContainer.style.display = 'flex';
       dom.cardImages.innerHTML = '';
       q.images.forEach((imgSrc, idx) => {
@@ -1618,6 +1618,7 @@
    */
   function renderOptions(q) {
     dom.optionsList.innerHTML = '';
+    dom.optionsList.classList.toggle('has-image-options', !!q.is_image_options);
     const config = getQuestionAnswerConfig(q);
     const answerRecord = state.userAnswers[q.id];
     const isAnswered = !!answerRecord;
@@ -1774,17 +1775,50 @@
         </span>
       ` : '';
 
-      btn.innerHTML = `
-        <div class="option-left">
-          ${checkboxHtml}
-          <span class="option-num">${numPrefix}</span>
-          <span class="option-label">${labelText}</span>
-        </div>
-        <div class="option-right">
-          <span class="option-status-icon"></span>
-          <span class="option-kbd-hint">${displayIdx + 1}</span>
-        </div>
-      `;
+      const isImageOpt = q.is_image_options && q.option_images && q.option_images[origIdx];
+      if (isImageOpt) {
+        btn.classList.add('image-option-card');
+        const rawSrc = q.option_images[origIdx];
+        const optImgSrc = rawSrc.includes('?') ? rawSrc : `${rawSrc}?v=20261031v1`;
+        btn.innerHTML = `
+          <div class="image-opt-header">
+            <div class="image-opt-left">
+              ${checkboxHtml}
+              <span class="option-num">${numPrefix}</span>
+            </div>
+            <div class="image-opt-right">
+              <span class="option-status-icon"></span>
+              <span class="option-kbd-hint">${displayIdx + 1}</span>
+            </div>
+          </div>
+          <div class="image-opt-img-wrap">
+            <img src="${optImgSrc}" class="image-opt-img" alt="${numPrefix} 선지 사진" />
+            <span class="image-opt-zoom-btn" title="고화질 원본 확대">🔍 확대</span>
+          </div>
+          ${isAnswered && q.option_labels_post && q.option_labels_post[origIdx] ? `
+            <div class="image-opt-post-label">${q.option_labels_post[origIdx]}</div>
+          ` : ''}
+        `;
+        const zoomBtn = btn.querySelector('.image-opt-zoom-btn');
+        if (zoomBtn) {
+          zoomBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            openLightbox(optImgSrc, `${q.id} [선지 ${numPrefix} 사진]`);
+          });
+        }
+      } else {
+        btn.innerHTML = `
+          <div class="option-left">
+            ${checkboxHtml}
+            <span class="option-num">${numPrefix}</span>
+            <span class="option-label">${labelText}</span>
+          </div>
+          <div class="option-right">
+            <span class="option-status-icon"></span>
+            <span class="option-kbd-hint">${displayIdx + 1}</span>
+          </div>
+        `;
+      }
 
       btn.addEventListener('click', () => {
         if (!state.userAnswers[q.id]) {
@@ -2039,6 +2073,17 @@
       } else {
         // Neutral unselected distractor
         btn.classList.add('is-neutral');
+      }
+
+      // If question has image options with post-labels, reveal them now
+      if (q.is_image_options && q.option_labels_post && q.option_labels_post[origIdx]) {
+        let postLabel = btn.querySelector('.image-opt-post-label');
+        if (!postLabel) {
+          postLabel = document.createElement('div');
+          postLabel.className = 'image-opt-post-label';
+          btn.appendChild(postLabel);
+        }
+        postLabel.textContent = q.option_labels_post[origIdx];
       }
     });
 
