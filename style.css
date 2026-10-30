@@ -321,6 +321,51 @@ body {
   border-color: var(--primary);
 }
 
+/* Section / Subspecialty Tabs for Radiology & Sectioned Subjects */
+.section-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(3, 105, 161, 0.05);
+  border: 1px solid rgba(3, 105, 161, 0.15);
+  border-radius: var(--radius-md);
+  padding: 0.35rem 0.65rem;
+}
+
+.section-group .filter-label {
+  color: #0284c7;
+  font-weight: 700;
+}
+
+.section-tabs .pill-tab.active {
+  background: #0284c7;
+  border-color: #0284c7;
+  color: #ffffff;
+}
+
+.grid-item-btn .grid-sec-tag {
+  font-size: 0.6rem;
+  font-weight: 800;
+  color: #0284c7;
+  line-height: 1;
+  margin-bottom: 2px;
+  letter-spacing: -0.3px;
+}
+
+.grid-item-btn .grid-num {
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.grid-item-btn.state-correct .grid-sec-tag {
+  color: #15803d;
+}
+
+.grid-item-btn.state-wrong .grid-sec-tag {
+  color: #b91c1c;
+}
+
 .filter-group.actions {
   display: flex;
   align-items: center;

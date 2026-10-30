@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>subacute | 임상의학 기출 퀴즈 마스터</title>
   <meta name="description" content="subacute - 20Y ~ 26Y 임상의학 9개 분과 기출 문제 풀이 및 상세 해설 인터랙티브 CBT">
-  <link rel="stylesheet" href="style.css?v=20261030v1">
+  <link rel="stylesheet" href="style.css?v=20261030v2">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
         <div class="brand-badge">subacute</div>
         <div class="brand-text">
           <h1 class="brand-title" id="brand-title">subacute</h1>
-          <span class="brand-subtitle" id="brand-subtitle">임상의학 기출 퀴즈 마스터 v4.4 • 9개 분과 2,267문항 (정밀검수 완결판)</span>
+          <span class="brand-subtitle" id="brand-subtitle">임상의학 기출 퀴즈 마스터 v4.5 • 9개 분과 2,338문항 (영상의학과 5개년 세부분야 완결판)</span>
         </div>
       </div>
       
@@ -77,8 +77,8 @@
           <button class="pill-tab subject-pill" data-subject="신경과">🧠 신경과 (269)</button>
           <button class="pill-tab subject-pill" data-subject="정신건강의학과">🧩 정신과 (323)</button>
           <button class="pill-tab subject-pill" data-subject="정형외과">🦴 정형외과 (247)</button>
-          <button class="pill-tab subject-pill" data-subject="영상의학과">🩻 영상의학과 (168)</button>
-          <button class="pill-tab subject-pill" data-subject="ALL">🌐 전과목 통합 (2,267)</button>
+          <button class="pill-tab subject-pill" data-subject="영상의학과">🩻 영상의학과 (239)</button>
+          <button class="pill-tab subject-pill" data-subject="ALL">🌐 전과목 통합 (2,338)</button>
         </div>
       </div>
 
@@ -92,6 +92,14 @@
           <button class="pill-tab" data-year="22Y">22Y (50)</button>
           <button class="pill-tab" data-year="21Y">21Y (14)</button>
           <button class="pill-tab" data-year="20Y">20Y (50)</button>
+        </div>
+      </div>
+
+      <!-- Subspecialty / Section Filter Tabs (영상의학과 등 세부분야: 흉부 / 복부 / MSK / 신경 / 인터벤션 / 유방 / 총론) -->
+      <div class="filter-group section-group" id="section-filter-group" style="display: none;">
+        <span class="filter-label">세부분야:</span>
+        <div class="pill-tabs section-tabs" id="section-tabs">
+          <!-- Dynamically populated in app.js -->
         </div>
       </div>
 
@@ -483,8 +491,8 @@
   <div class="toast-message" id="toast-message" style="display: none;"></div>
 
   <!-- Load Quiz Dataset (Embedded for instant local file:// execution without CORS) -->
-  <script src="data/quiz_data.js?v=20261030v1"></script>
+  <script src="data/quiz_data.js?v=20261030v2"></script>
   <!-- Main Application Logic -->
-  <script src="app.js?v=20261030v1"></script>
+  <script src="app.js?v=20261030v2"></script>
 </body>
 </html>

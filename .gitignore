@@ -10,3 +10,4 @@ public/
 validate_web_sync.py
 
 .vercel
+.env*
