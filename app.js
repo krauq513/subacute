@@ -2440,7 +2440,7 @@
     } else if (e.key === 'b' || e.key === 'B') {
       e.preventDefault();
       toggleBookmark();
-    } else if (e.key === 'r' || e.key === 'R') {
+    } else if (e.key === 'r' || e.key === 'R' || e.key === 'Backspace') {
       e.preventDefault();
       resetCurrentQuestion();
     } else if (e.key === 's' || e.key === 'S') {
