@@ -151,6 +151,13 @@
           </div>
           <div class="meta-right">
             <span class="filter-counter" id="filter-counter">문항 1 / 211</span>
+            <button id="btn-report-issue" class="btn-report-issue" type="button" aria-label="문제 오류 신고" title="이 문제 오류 제보하기">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
+                <line x1="4" y1="22" x2="4" y2="15"></line>
+              </svg>
+              <span>오류 신고</span>
+            </button>
             <button id="btn-bookmark" class="btn-bookmark" aria-label="북마크 토글" title="북마크 토글 (단축키 B)">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
@@ -227,7 +234,10 @@
               <span id="feedback-detail">선택하신 정답이 맞습니다.</span>
             </div>
           </div>
-          <button class="btn-retry" id="btn-retry" title="다시 풀어보기 (단축키: Backspace 또는 R)">다시 풀기</button>
+          <div class="feedback-actions">
+            <button class="btn-retry" id="btn-retry" title="다시 풀어보기 (단축키: Backspace 또는 R)">다시 풀기</button>
+            <button type="button" class="btn-report-inline" id="btn-report-inline" title="정답, 발문, 이미지 오류 제보">🚨 오류 신고</button>
+          </div>
         </div>
 
         <!-- Clinical Explanation Drawer (Initially Hidden) -->
@@ -468,6 +478,20 @@
             </label>
           </form>
         </section>
+
+        <!-- Error Reports History Section (Expandable) -->
+        <section class="profile-section report-history-section" id="report-history-section" style="display: none;">
+          <div class="profile-section-header">
+            <h3>📋 오류 제보 내역 (<span id="report-section-count">0</span>건)</h3>
+            <div class="report-section-actions">
+              <button type="button" class="btn-ghost-sm" id="btn-export-reports">💾 제보 복사</button>
+              <button type="button" class="btn-ghost-sm danger" id="btn-clear-reports">비우기</button>
+            </div>
+          </div>
+          <div class="report-history-list" id="report-history-list">
+            <!-- Dynamically populated reports list -->
+          </div>
+        </section>
       </div>
 
       <div class="modal-footer profile-modal-footer">
@@ -475,6 +499,7 @@
           <button type="button" class="btn-ghost" id="btn-export-profiles" title="모든 프로필의 풀이 상황을 파일(.json)로 저장합니다">💾 파일 백업</button>
           <button type="button" class="btn-ghost" id="btn-import-profiles" title="백업해 둔 파일(.json)에서 프로필과 풀이 기록을 불러옵니다">📂 백업 불러오기</button>
           <input type="file" id="input-import-profiles" accept=".json,application/json" style="display: none;">
+          <button type="button" class="btn-ghost" id="btn-view-reports" title="지금까지 내가 제보한 오류 목록을 확인합니다">📋 제보 내역 (<span id="profile-report-count">0</span>)</button>
         </div>
         <div class="profile-footer-right">
           <label class="profile-auto-open-label" title="사이트에 처음 접속했을 때 이어하기/프로필 선택 창을 자동으로 띄웁니다">
@@ -483,6 +508,103 @@
           </label>
           <button type="button" class="btn-primary" id="btn-close-profile-bottom">닫기</button>
         </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Error Report Modal Dialog -->
+  <dialog id="report-modal" class="report-dialog modal" aria-labelledby="report-modal-title">
+    <div class="report-dialog-inner">
+      <div class="modal-header report-modal-header">
+        <div class="modal-title-group">
+          <div class="report-header-title-row">
+            <span class="report-header-icon">🚨</span>
+            <h2 id="report-modal-title">문제 오류 신고</h2>
+          </div>
+          <span class="modal-subtitle">오류를 제보해 주시면 확인 후 신속히 수정·보완하겠습니다.</span>
+        </div>
+        <button type="button" class="modal-close" id="btn-close-report" aria-label="오류 신고 창 닫기">✕</button>
+      </div>
+
+      <div class="report-modal-body">
+        <!-- Question Target Info Card -->
+        <div class="report-target-card">
+          <div class="report-target-meta">
+            <span class="report-sub-badge" id="report-target-sub">과목</span>
+            <span class="report-year-badge" id="report-target-year">연도</span>
+            <span class="report-qnum-badge" id="report-target-qnum">문항</span>
+            <span class="report-sec-badge" id="report-target-sec" style="display: none;">세부분과</span>
+          </div>
+          <div class="report-target-stem" id="report-target-stem">문제 발문 내용 미리보기...</div>
+        </div>
+
+        <!-- Rough Error Type Selection -->
+        <div class="report-form-group">
+          <label class="report-field-label">대략적인 오류 유형 선택 <span class="required-star">*</span></label>
+          <div class="report-type-grid" id="report-type-grid">
+            <label class="report-type-card active">
+              <input type="radio" name="reportType" value="정답 오류" checked>
+              <span class="type-icon">🔴</span>
+              <span class="type-info">
+                <strong class="type-name">정답 오류</strong>
+                <small class="type-desc">정답 표기 틀림, 복수 정답 등</small>
+              </span>
+            </label>
+            <label class="report-type-card">
+              <input type="radio" name="reportType" value="이미지/사진 오류">
+              <span class="type-icon">🖼️</span>
+              <span class="type-info">
+                <strong class="type-name">사진/이미지 오류</strong>
+                <small class="type-desc">사진 잘림, 엉뚱한 사진, 저화질</small>
+              </span>
+            </label>
+            <label class="report-type-card">
+              <input type="radio" name="reportType" value="발문/선지 오타">
+              <span class="type-icon">📝</span>
+              <span class="type-info">
+                <strong class="type-name">문제/선지 오타·누락</strong>
+                <small class="type-desc">발문 오탈자, 보기 누락, 글자 깨짐</small>
+              </span>
+            </label>
+            <label class="report-type-card">
+              <input type="radio" name="reportType" value="해설/오개념">
+              <span class="type-icon">💡</span>
+              <span class="type-info">
+                <strong class="type-name">해설/오개념 오류</strong>
+                <small class="type-desc">설명 부실, 오개념, 가이드라인 오류</small>
+              </span>
+            </label>
+            <label class="report-type-card">
+              <input type="radio" name="reportType" value="기출 연계/메타 오류">
+              <span class="type-icon">🏷️</span>
+              <span class="type-info">
+                <strong class="type-name">기출 연계/분과 오류</strong>
+                <small class="type-desc">출제 연도, 세부분과, 족보 연계 오류</small>
+              </span>
+            </label>
+            <label class="report-type-card">
+              <input type="radio" name="reportType" value="기타 제보">
+              <span class="type-icon">❓</span>
+              <span class="type-info">
+                <strong class="type-name">기타 오류 및 건의</strong>
+                <small class="type-desc">기타 수정 요청 및 추가 제보</small>
+              </span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Detailed Description -->
+        <div class="report-form-group">
+          <label class="report-field-label" for="report-desc-input">구체적인 오류 내용 <small>(선택 사항)</small></label>
+          <textarea id="report-desc-input" class="report-desc-textarea" rows="3" placeholder="어떤 부분이 이상한지 간단히 적어주세요. (예: 2번 보기도 정답으로 인정되어야 합니다 / 복부 CT 사진이 거꾸로 되어 있습니다 등)"></textarea>
+        </div>
+      </div>
+
+      <div class="modal-footer report-modal-footer">
+        <button type="button" class="btn-ghost" id="btn-cancel-report">취소</button>
+        <button type="button" class="btn-primary btn-submit-report" id="btn-submit-report">
+          <span>🚨 신고 접수하기</span>
+        </button>
       </div>
     </div>
   </dialog>

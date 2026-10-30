@@ -17,6 +17,7 @@
   const STORAGE_KEY_PROFILES = 'KMLE_USER_PROFILES_V1';
   const STORAGE_KEY_ACTIVE_PROFILE_ID = 'KMLE_ACTIVE_PROFILE_ID_V1';
   const STORAGE_KEY_AUTO_OPEN_PROFILE = 'KMLE_AUTO_OPEN_PROFILE_V1';
+  const STORAGE_KEY_REPORTS = 'KMLE_USER_REPORTS_V1';
   const SESSION_KEY_WELCOME_SHOWN = 'KMLE_PROFILE_WELCOME_SHOWN_V1';
   const CIRCLE_NUMS = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩'];
 
@@ -26,6 +27,7 @@
     filteredQuestions: [],
     currentIndex: 0,
     profiles: [],
+    reports: JSON.parse(localStorage.getItem('KMLE_USER_REPORTS_V1') || '[]'),
     activeProfileId: null,
     selectedNewAvatar: '🩺',
     autoOpenProfileModal: localStorage.getItem(STORAGE_KEY_AUTO_OPEN_PROFILE) !== 'false',
@@ -85,6 +87,7 @@
     cardFreqBadge: document.getElementById('card-freq-badge'),
     cardMultiBadge: document.getElementById('card-multi-badge'),
     filterCounter: document.getElementById('filter-counter'),
+    btnReportIssue: document.getElementById('btn-report-issue'),
     btnBookmark: document.getElementById('btn-bookmark'),
 
     // Exam Intelligence Box
@@ -118,6 +121,7 @@
     feedbackStatus: document.getElementById('feedback-status'),
     feedbackDetail: document.getElementById('feedback-detail'),
     btnRetry: document.getElementById('btn-retry'),
+    btnReportInline: document.getElementById('btn-report-inline'),
 
     cardExplanation: document.getElementById('card-explanation'),
     expThemeTitle: document.getElementById('exp-theme-title'),
@@ -168,6 +172,26 @@
     btnImportProfiles: document.getElementById('btn-import-profiles'),
     inputImportProfiles: document.getElementById('input-import-profiles'),
     chkAutoOpenProfile: document.getElementById('chk-auto-open-profile'),
+    btnViewReports: document.getElementById('btn-view-reports'),
+    profileReportCount: document.getElementById('profile-report-count'),
+    reportSectionCount: document.getElementById('report-section-count'),
+    reportHistorySection: document.getElementById('report-history-section'),
+    reportHistoryList: document.getElementById('report-history-list'),
+    btnExportReports: document.getElementById('btn-export-reports'),
+    btnClearReports: document.getElementById('btn-clear-reports'),
+
+    // Question Issue Report Modal
+    reportModal: document.getElementById('report-modal'),
+    btnCloseReport: document.getElementById('btn-close-report'),
+    btnCancelReport: document.getElementById('btn-cancel-report'),
+    btnSubmitReport: document.getElementById('btn-submit-report'),
+    reportTargetSub: document.getElementById('report-target-sub'),
+    reportTargetYear: document.getElementById('report-target-year'),
+    reportTargetQnum: document.getElementById('report-target-qnum'),
+    reportTargetSec: document.getElementById('report-target-sec'),
+    reportTargetStem: document.getElementById('report-target-stem'),
+    reportTypeGrid: document.getElementById('report-type-grid'),
+    reportDescInput: document.getElementById('report-desc-input'),
 
     // Lightbox Modal & Zoom Canvas
     lightboxModal: document.getElementById('lightbox-modal'),
@@ -1353,6 +1377,9 @@
     const isBookmarked = state.bookmarks.has(q.id);
     dom.btnBookmark.classList.toggle('active', isBookmarked);
 
+    // Update Error Report Button State
+    updateReportButtonState(q);
+
     // Exam Intelligence (출제 테마 & 기출 빈도 이력 브리핑)
     const freqCount = q.freq_count || 1;
     const rate = q.rate || (freqCount >= 5 ? 100 : Math.round((freqCount / 6) * 100));
@@ -2382,6 +2409,9 @@
     // Lightbox Events (Zoom, Pan, Drag, Close)
     setupLightboxEvents();
 
+    // Question Issue Reporting Events
+    setupReportModalEvents();
+
     // Keyboard Shortcuts
     window.addEventListener('keydown', handleKeydown);
   }
@@ -2390,11 +2420,17 @@
    * Keyboard Shortcuts Handler
    */
   function handleKeydown(e) {
-    // If typing in input or when profile modal is open, ignore global quiz shortcuts
+    // If typing in input or when modal dialogs are open, ignore global quiz shortcuts
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
       return;
     }
     if (dom.profileModal && dom.profileModal.open) {
+      return;
+    }
+    if (dom.reportModal && dom.reportModal.open) {
+      if (e.key === 'Escape') {
+        closeReportModal();
+      }
       return;
     }
 
@@ -2452,6 +2488,7 @@
     } else if (e.key === 'Escape') {
       closeGridModal();
       closeLightbox();
+      closeReportModal();
     }
   }
 
@@ -2730,6 +2767,9 @@
         dom.profileList.appendChild(card);
       });
     }
+
+    // 4. Update Error Reports Badge in Profile Modal
+    updateProfileReportsBadge();
   }
 
   function switchAndResumeProfile(profileId, targetSubjectOverride = null) {
@@ -2942,6 +2982,354 @@
       }
     };
     reader.readAsText(file);
+  }
+
+  /**
+   * ==========================================================================
+   * Question Issue Reporting Engine (오류 신고 시스템)
+   * ==========================================================================
+   */
+  function getQuestionDisplayLabel(q) {
+    if (!q) return '';
+    if (q.section && q.section_q_num) {
+      return `${q.section} Q${String(q.section_q_num).padStart(2, '0')} (#${String(q.q_num).padStart(2, '0')})`;
+    }
+    return `Q${String(q.q_num).padStart(2, '0')}`;
+  }
+
+  function setupReportModalEvents() {
+    if (dom.btnReportIssue) {
+      dom.btnReportIssue.addEventListener('click', () => openReportModal());
+    }
+    if (dom.btnReportInline) {
+      dom.btnReportInline.addEventListener('click', () => openReportModal());
+    }
+    if (dom.btnCloseReport) {
+      dom.btnCloseReport.addEventListener('click', closeReportModal);
+    }
+    if (dom.btnCancelReport) {
+      dom.btnCancelReport.addEventListener('click', closeReportModal);
+    }
+    if (dom.btnSubmitReport) {
+      dom.btnSubmitReport.addEventListener('click', submitErrorReport);
+    }
+
+    // Category Radio Selection Cards
+    if (dom.reportTypeGrid) {
+      const cards = dom.reportTypeGrid.querySelectorAll('.report-type-card');
+      cards.forEach(card => {
+        card.addEventListener('click', () => {
+          cards.forEach(c => c.classList.remove('active'));
+          card.classList.add('active');
+          const radio = card.querySelector('input[type="radio"]');
+          if (radio) radio.checked = true;
+        });
+      });
+    }
+
+    // Backdrop click close for native <dialog>
+    if (dom.reportModal) {
+      dom.reportModal.addEventListener('click', (e) => {
+        if (e.target === dom.reportModal) {
+          closeReportModal();
+        }
+      });
+    }
+
+    // Profile Modal Reports Section Events
+    if (dom.btnViewReports) {
+      dom.btnViewReports.addEventListener('click', toggleReportHistorySection);
+    }
+    if (dom.btnExportReports) {
+      dom.btnExportReports.addEventListener('click', exportReportsToClipboard);
+    }
+    if (dom.btnClearReports) {
+      dom.btnClearReports.addEventListener('click', clearAllReports);
+    }
+  }
+
+  function openReportModal(targetQuestion = null) {
+    const q = targetQuestion || getCurrentQuestion();
+    if (!q) {
+      showToast('⚠️ 신고할 문항을 찾을 수 없습니다.');
+      return;
+    }
+
+    state.reportingQuestion = q;
+
+    // Populate Target Information
+    if (dom.reportTargetSub) {
+      dom.reportTargetSub.textContent = q.subject || '과목';
+    }
+    if (dom.reportTargetYear) {
+      dom.reportTargetYear.textContent = q.year || '기출';
+    }
+    if (dom.reportTargetQnum) {
+      dom.reportTargetQnum.textContent = getQuestionDisplayLabel(q);
+    }
+    if (dom.reportTargetSec) {
+      if (q.section_name) {
+        dom.reportTargetSec.textContent = q.section_name;
+        dom.reportTargetSec.style.display = 'inline-block';
+      } else {
+        dom.reportTargetSec.style.display = 'none';
+      }
+    }
+    if (dom.reportTargetStem) {
+      const stemText = (q.stem || '').replace(/\s+/g, ' ').trim();
+      dom.reportTargetStem.textContent = stemText ? (stemText.length > 100 ? stemText.slice(0, 100) + '...' : stemText) : '(발문 내용 없음)';
+    }
+
+    // Reset Form Input
+    if (dom.reportDescInput) {
+      dom.reportDescInput.value = '';
+    }
+
+    // Reset Category Selection to first option
+    if (dom.reportTypeGrid) {
+      const cards = dom.reportTypeGrid.querySelectorAll('.report-type-card');
+      cards.forEach((c, idx) => {
+        const radio = c.querySelector('input[type="radio"]');
+        if (idx === 0) {
+          c.classList.add('active');
+          if (radio) radio.checked = true;
+        } else {
+          c.classList.remove('active');
+          if (radio) radio.checked = false;
+        }
+      });
+    }
+
+    if (dom.reportModal) {
+      if (typeof dom.reportModal.showModal === 'function') {
+        dom.reportModal.showModal();
+      } else {
+        dom.reportModal.setAttribute('open', 'true');
+      }
+    }
+  }
+
+  function closeReportModal() {
+    if (dom.reportModal && dom.reportModal.open) {
+      dom.reportModal.close();
+    }
+    state.reportingQuestion = null;
+  }
+
+  function submitErrorReport() {
+    const q = state.reportingQuestion || getCurrentQuestion();
+    if (!q) {
+      closeReportModal();
+      return;
+    }
+
+    const selectedRadio = dom.reportTypeGrid ? dom.reportTypeGrid.querySelector('input[name="reportType"]:checked') : null;
+    const category = selectedRadio ? selectedRadio.value : '기타 제보';
+    const description = dom.reportDescInput ? dom.reportDescInput.value.trim() : '';
+    const active = getActiveProfile();
+    const profileName = active ? `${active.avatar || ''} ${active.name}`.trim() : '익명';
+
+    const reportItem = {
+      id: 'rep_' + Date.now() + '_' + Math.random().toString(36).substring(2, 7),
+      questionId: q.id,
+      subject: q.subject,
+      year: q.year,
+      qNum: q.q_num,
+      qLabel: getQuestionDisplayLabel(q),
+      sectionName: q.section_name || '',
+      stemPreview: (q.stem || '').replace(/\s+/g, ' ').slice(0, 60),
+      category: category,
+      description: description,
+      profileName: profileName,
+      createdAt: new Date().toISOString()
+    };
+
+    // 1. Local Storage persistence
+    if (!Array.isArray(state.reports)) {
+      state.reports = [];
+    }
+    state.reports.unshift(reportItem);
+    try {
+      localStorage.setItem(STORAGE_KEY_REPORTS, JSON.stringify(state.reports));
+    } catch (e) {
+      console.error('Failed to save report to localStorage:', e);
+    }
+
+    // 2. Transmit to Serverless Function (/api/report)
+    fetch('/api/report', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(reportItem)
+    }).catch(err => {
+      // In local file mode or offline, gracefully fail
+      console.warn('API report background submission log:', err);
+    });
+
+    closeReportModal();
+    updateReportButtonState(q);
+    updateProfileReportsBadge();
+
+    showToast(`🚨 [${category}] 오류 제보가 접수되었습니다. 감사합니다!`);
+  }
+
+  function updateReportButtonState(q) {
+    if (!q) return;
+    const hasReport = Array.isArray(state.reports) && state.reports.some(r => r.questionId === q.id);
+
+    if (dom.btnReportIssue) {
+      dom.btnReportIssue.classList.toggle('reported', hasReport);
+      if (hasReport) {
+        dom.btnReportIssue.setAttribute('title', '이미 오류가 제보된 문항입니다 (추가 제보 가능)');
+      } else {
+        dom.btnReportIssue.setAttribute('title', '이 문제 오류 제보하기');
+      }
+    }
+
+    if (dom.btnReportInline) {
+      dom.btnReportInline.classList.toggle('reported', hasReport);
+      if (hasReport) {
+        dom.btnReportInline.innerHTML = '<span>✅ 오류 접수됨</span>';
+        dom.btnReportInline.setAttribute('title', '이미 오류가 접수된 문항입니다. 클릭하여 추가 제보가 가능합니다.');
+      } else {
+        dom.btnReportInline.innerHTML = '<span>🚨 오류 신고</span>';
+        dom.btnReportInline.setAttribute('title', '정답, 발문, 이미지, 분과 오류 제보');
+      }
+    }
+  }
+
+  function updateProfileReportsBadge() {
+    const count = Array.isArray(state.reports) ? state.reports.length : 0;
+    if (dom.profileReportCount) {
+      dom.profileReportCount.textContent = count;
+    }
+    if (dom.reportSectionCount) {
+      dom.reportSectionCount.textContent = count;
+    }
+    if (dom.reportHistorySection && dom.reportHistorySection.style.display !== 'none') {
+      renderReportHistoryList();
+    }
+  }
+
+  function toggleReportHistorySection() {
+    if (!dom.reportHistorySection) return;
+    const isHidden = dom.reportHistorySection.style.display === 'none';
+    dom.reportHistorySection.style.display = isHidden ? 'block' : 'none';
+    if (isHidden) {
+      renderReportHistoryList();
+      dom.reportHistorySection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }
+
+  function renderReportHistoryList() {
+    if (!dom.reportHistoryList) return;
+    dom.reportHistoryList.innerHTML = '';
+
+    const list = state.reports || [];
+    if (list.length === 0) {
+      dom.reportHistoryList.innerHTML = '<div style="color:#94a3b8; font-size:0.8rem; padding:0.5rem 0; text-align:center;">아직 접수된 오류 제보 내역이 없습니다.</div>';
+      return;
+    }
+
+    list.forEach(rep => {
+      const item = document.createElement('div');
+      item.className = 'report-history-item';
+
+      const timeStr = rep.createdAt ? new Date(rep.createdAt).toLocaleString('ko-KR', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' }) : '';
+
+      item.innerHTML = `
+        <div class="report-history-header">
+          <span class="report-history-badge">${escapeHtml(rep.category || '기타')}</span>
+          <span class="report-history-time">${timeStr}</span>
+        </div>
+        <div class="report-history-qlink" title="해당 문항으로 바로 이동하기">
+          📌 [${escapeHtml(rep.subject || '')} ${escapeHtml(rep.year || '')}] ${escapeHtml(rep.qLabel || '')} ${rep.sectionName ? '· ' + escapeHtml(rep.sectionName) : ''}
+        </div>
+        ${rep.description ? `<div class="report-history-desc">${escapeHtml(rep.description)}</div>` : ''}
+      `;
+
+      const qLink = item.querySelector('.report-history-qlink');
+      if (qLink) {
+        qLink.addEventListener('click', () => {
+          jumpToQuestionById(rep.questionId);
+          closeProfileModal();
+        });
+      }
+
+      dom.reportHistoryList.appendChild(item);
+    });
+  }
+
+  function jumpToQuestionById(questionId) {
+    if (!questionId) return;
+
+    // Check if question exists in filtered list
+    let idx = state.filteredQuestions.findIndex(q => q.id === questionId);
+    if (idx !== -1) {
+      state.currentIndex = idx;
+      renderCurrentQuestion();
+      showToast('🎯 제보한 문항으로 이동했습니다.');
+      return;
+    }
+
+    // If not in current filter, reset filters to locate it
+    const targetQ = state.allQuestions.find(q => q.id === questionId);
+    if (targetQ) {
+      state.filters.subject = targetQ.subject;
+      state.filters.year = 'ALL';
+      state.filters.type = 'ALL';
+      state.filters.section = 'ALL';
+      state.filters.onlyFrequent = false;
+      state.filters.onlyImages = false;
+      state.filters.onlyIncorrect = false;
+      state.filters.onlyBookmarked = false;
+      state.filters.searchQuery = '';
+      if (dom.inputSearch) dom.inputSearch.value = '';
+      syncFilterButtonsUI();
+      updateSubjectUI();
+      idx = state.filteredQuestions.findIndex(q => q.id === questionId);
+      state.currentIndex = idx !== -1 ? idx : 0;
+      renderCurrentQuestion();
+      renderGrid();
+      showToast(`🎯 '${targetQ.subject}' 과목으로 필터를 변경하여 문항으로 이동했습니다.`);
+    } else {
+      showToast('⚠️ 해당 문항 데이터를 찾을 수 없습니다.');
+    }
+  }
+
+  function exportReportsToClipboard() {
+    if (!state.reports || state.reports.length === 0) {
+      showToast('⚠️ 복사할 오류 제보 내역이 없습니다.');
+      return;
+    }
+
+    const jsonStr = JSON.stringify(state.reports, null, 2);
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(jsonStr)
+        .then(() => showToast('📋 오류 제보 내역(JSON)이 클립보드에 복사되었습니다.'))
+        .catch(() => showToast('⚠️ 클립보드 복사 권한이 없습니다.'));
+    } else {
+      showToast('⚠️ 클립보드를 지원하지 않는 환경입니다.');
+    }
+  }
+
+  function clearAllReports() {
+    if (!state.reports || state.reports.length === 0) {
+      showToast('⚠️ 삭제할 오류 제보 내역이 없습니다.');
+      return;
+    }
+
+    if (confirm('접수된 모든 오류 신고 내역을 목록에서 삭제하시겠습니까? (서버 로그는 유지됩니다)')) {
+      state.reports = [];
+      try {
+        localStorage.removeItem(STORAGE_KEY_REPORTS);
+      } catch (e) {
+        console.error(e);
+      }
+      updateProfileReportsBadge();
+      const curQ = getCurrentQuestion();
+      if (curQ) updateReportButtonState(curQ);
+      showToast('🗑️ 오류 제보 내역이 정리되었습니다.');
+    }
   }
 
   /**
