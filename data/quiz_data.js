@@ -247904,11 +247904,13 @@ window.QUIZ_DATA = [
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 14,
-    "category": "짤",
-    "theme_title": "풍선폐쇄 역행성 경정맥 폐쇄술(BRTO)의 원리 및 합병증",
+    "category": "반짤",
+    "theme_title": "문맥고혈압 인터벤션: TIPS vs BRTO 혈역학 비교",
     "subspecialty": "인터벤션 영상의학",
     "stem": "(BRTO 사진?주고) 이에 대한 설명으로 틀린 것은?",
-    "images": [],
+    "images": [
+      "images/영상의학과/23Y_Q20.png"
+    ],
     "options": [
       "① gastrorenal shunt를 차단한다.",
       "② Hepatic encephalopathy 완화한다",
@@ -247919,12 +247921,12 @@ window.QUIZ_DATA = [
     "correct_option_index": 2,
     "correct_answer": "③ Esophageal varix 완화한다",
     "explanation": {
-      "title": "풍선폐쇄 역행성 경정맥 폐쇄술(BRTO)의 원리 및 합병증",
-      "findings": "형광투시 영상에서 좌측 신정맥을 통해 진입한 풍선 카테터와 조영제로 채워진 위정맥류 망 관찰.",
-      "differential": "• ① gastrorenal shunt를 차단한다. ✗ [오답]: BRTO는 대퇴/경정맥으로 풍선 카테터를 위신장 단락(gastrorenal shunt)에 넣어 풍선을 부풀리고 경화제(ethanolamine oleate, STS 거품)로 단락과 위 정맥류를 폐색합니다. (O)\n• ② Hepatic encephalopathy 완화한다 ✗ [오답]: 문맥-전신 단락이 막혀 암모니아가 간으로 가게 되어 단락성 간성 뇌증이 호전됩니다. (O)\n• ③ Esophageal varix 완화한다 ✓ [정답]: 단락이 막히면 문맥 압력이 오르고 혈류가 식도 정맥류 쪽으로 몰려 식도 정맥류는 악화되거나 새로 생길 수 있습니다. 완화시킨다는 진술이 틀립니다\n• ④ Gastric fundal varix 완화한다 ✗ [오답]: 위 저부 정맥류(IGV1, GOV2)가 폐색되어 출혈 위험이 줄어드는 것이 BRTO의 주 목적입니다. (O)\n• ⑤ Portal hypertension 악화한다. ✗ [오답]: 간 밖으로 빠지던 문맥 혈류가 차단되어 간문맥압이 오릅니다. 복수, 흉수, 식도 정맥류 악화 같은 합병증이 생길 수 있습니다. (O)",
-      "trap": "TIPS는 문맥압을 낮춰 식도/위정맥류를 모두 완화하나 간성뇌증을 악화시킴. 반면 BRTO는 간성뇌증을 호전시키나 식도정맥류를 악화시킴 (상호 대조 필수 암기)!",
-      "trigger": "BRTO는 위정맥류(Gastric fundal varices)를 치료하기 위해 위신장 단락(Gastrorenal shunt)을 차단하므로, 문맥압이 상승하여 식도정맥류(Esophageal varices)는 오히려 악화됨!",
-      "kmle_link": "KMLE 소화기학/인터벤션 - 문맥고혈압 및 정맥류 치료 (TIPS vs BRTO 비교)",
+      "title": "문맥고혈압 인터벤션: TIPS vs BRTO 혈역학 비교",
+      "findings": "대퇴정맥(Femoral v.) 또는 내경정맥을 통해 좌측 신정맥(Left renal v.)으로 풍선 카테터를 진입시켜 위-신장 단락(Gastrorenal shunt)을 풍선으로 폐쇄하고 역행성으로 조영제 및 경화제를 주입하여 위정맥류(Gastric fundal varices)를 조영·혈전화시키는 BRTO(풍선폐쇄 역행성 경정맥 폐쇄술) 영상 소견입니다.",
+      "trap": "★ [김응태 교수님 실습 피야마 핵심!] TIPS는 문맥압을 낮춰 복수·식도정맥류를 호전시키지만 문맥혈이 간을 우회하므로 '간성뇌증 악화'! 반대로 BRTO는 단락을 막아 위정맥류 완치 및 '간성뇌증 호전'을 보이지만 문맥압이 올라 '식도정맥류 악화' 및 '복수 악화 가능'!",
+      "trigger": "TIPS = 문맥압 감소 + 복수 호전 + 식도정맥류 호전 + 간성뇌증 악화! / BRTO = 위정맥류 치료 + 문맥압 상승 + 식도정맥류 악화 + 간성뇌증 호전!",
+      "kmle_link": "KMLE 소화기학/인터벤션 - 문맥압 항진증의 중재적 치료 (TIPS vs BRTO 비교)",
+      "differential_general": "💡 **[인터벤션 혈역학 완전 정복: TIPS vs BRTO 비교 정리표]**\n\n| 비교 항목 | TIPS (경경정맥 간내문맥전신단락술) | BRTO (풍선폐쇄 역행성 경정맥 폐쇄술) |\n| :--- | :--- | :--- |\n| **시술 원리** | 간정맥(HV)과 문맥(PV) 사이에 **인공 스텐트 단락** 설치하여 간을 **우회(Bypass)** | 대퇴정맥 통해 **위-신장 단락(Gastrorenal shunt)에 풍선 폐쇄** 후 경화제 주입 |\n| **문맥압 (Portal Pressure)** | **강력 감소 (감압 / 호전)** | **증가 (상승 / 악화)** (체순환으로 빠지던 샛길을 막아 간으로 혈류 몰림) |\n| **복수 (Ascites)** | **현저히 호전 / 감소** (난치성 복수의 주 적응증) | **악화 위험** (문맥압 상승으로 복수 발생 또는 기존 복수 악화 가능) |\n| **식도 정맥류 (Esophageal)** | **호전 / 지혈** (문맥압 감소로 정맥류 압력 완화) | **악화 위험** (문맥압 증가로 식도 정맥류로 혈류 쏠림 -> 시술 전후 EVL 결찰술 필요) |\n| **위 정맥류 (Gastric Fundal)**| 호전 가능하나 재출혈률 있음 | **특효 / 1차 치료 (완전 소실 / 완치)** |\n| **간성 뇌증 (Hepatic Enceph.)**| **악화 위험 매우 높음** (간 해독 없이 암모니아가 전신 순환) | **호전 / 완화 / 보존** (단락 차단으로 문맥혈이 간 실질로 유입되어 암모니아 해독 증가) |\n| **간 관류 및 기능 (Liver func.)**| 악화 가능 (간 실질 관류 혈류 감소) | **호전 / 보존** (간 실질 관류 혈류량 증가) |",
       "option_explanations": [
         {
           "opt_idx": 0,
@@ -247932,7 +247934,7 @@ window.QUIZ_DATA = [
           "text": "gastrorenal shunt를 차단한다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "BRTO는 대퇴/경정맥으로 풍선 카테터를 위신장 단락(gastrorenal shunt)에 넣어 풍선을 부풀리고 경화제(ethanolamine oleate, STS 거품)로 단락과 위 정맥류를 폐색합니다. (O)"
+          "reason": "BRTO의 기본 술기 원리입니다. 대퇴정맥을 통해 좌측 신정맥으로 카테터를 넣어 위-신장 단락(gastrorenal shunt)에 풍선을 팽창시켜 역행성 혈류를 차단합니다."
         },
         {
           "opt_idx": 1,
@@ -247940,7 +247942,7 @@ window.QUIZ_DATA = [
           "text": "Hepatic encephalopathy 완화한다",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "문맥-전신 단락이 막혀 암모니아가 간으로 가게 되어 단락성 간성 뇌증이 호전됩니다. (O)"
+          "reason": "위-신장 단락을 통해 체순환으로 빠져나가던 문맥혈이 차단되어 간 실질(Liver parenchyma)로 유입되므로, 간에서 암모니아가 정상 해독되어 간성 뇌증(Hepatic encephalopathy)이 호전/완화됩니다."
         },
         {
           "opt_idx": 2,
@@ -247948,7 +247950,7 @@ window.QUIZ_DATA = [
           "text": "Esophageal varix 완화한다",
           "is_correct": true,
           "tag": "정답",
-          "reason": "단락이 막히면 문맥 압력이 오르고 혈류가 식도 정맥류 쪽으로 몰려 식도 정맥류는 악화되거나 새로 생길 수 있습니다. 완화시킨다는 진술이 틀립니다"
+          "reason": "단락(Shunt)이 차단되면 체순환으로 빠지던 우회로가 사라져 간문맥압(Portal pressure)이 상승합니다. 이로 인해 식도 쪽으로 문맥혈이 몰려 식도 정맥류(Esophageal varix)는 오히려 악화되거나 재출혈을 일으킬 수 있습니다. 완화한다는 설명이 틀렸으므로 정답입니다 (시술 전/후 내시경 결찰술 EVL 고려 필요)."
         },
         {
           "opt_idx": 3,
@@ -247956,7 +247958,7 @@ window.QUIZ_DATA = [
           "text": "Gastric fundal varix 완화한다",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "위 저부 정맥류(IGV1, GOV2)가 폐색되어 출혈 위험이 줄어드는 것이 BRTO의 주 목적입니다. (O)"
+          "reason": "BRTO의 주된 적응증입니다. 풍선 폐쇄 후 경화제(Ethanolamine oleate 등)를 주입하여 위저부 정맥류(IGV1, GOV2)를 완전 혈전화·폐색시켜 완치합니다."
         },
         {
           "opt_idx": 4,
@@ -247964,30 +247966,32 @@ window.QUIZ_DATA = [
           "text": "Portal hypertension 악화한다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "간 밖으로 빠지던 문맥 혈류가 차단되어 간문맥압이 오릅니다. 복수, 흉수, 식도 정맥류 악화 같은 합병증이 생길 수 있습니다. (O)"
+          "reason": "자연적으로 형성되어 있던 감압성 단락(Shunt)을 막아버리므로 간문맥압이 상승하여 문맥고혈압(Portal hypertension)은 악화됩니다. 이로 인해 복수 악화나 식도정맥류 악화가 유발될 수 있습니다."
         }
-      ],
-      "differential_general": ""
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
       2
     ],
-    "freq_count": 4,
-    "rate": 80,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
       "26Y",
       "23Y",
       "22Y",
-      "21Y"
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
       "26Y-14",
       "23Y-20",
       "22Y-44",
       "22Y-인터벤션02",
-      "21Y-30"
+      "21Y-30",
+      "20Y-26",
+      "20Y-27"
     ],
     "option_explanations": [
       {
@@ -247996,7 +248000,7 @@ window.QUIZ_DATA = [
         "text": "gastrorenal shunt를 차단한다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "BRTO는 대퇴/경정맥으로 풍선 카테터를 위신장 단락(gastrorenal shunt)에 넣어 풍선을 부풀리고 경화제(ethanolamine oleate, STS 거품)로 단락과 위 정맥류를 폐색합니다. (O)"
+        "reason": "BRTO의 기본 술기 원리입니다. 대퇴정맥을 통해 좌측 신정맥으로 카테터를 넣어 위-신장 단락(gastrorenal shunt)에 풍선을 팽창시켜 역행성 혈류를 차단합니다."
       },
       {
         "opt_idx": 1,
@@ -248004,7 +248008,7 @@ window.QUIZ_DATA = [
         "text": "Hepatic encephalopathy 완화한다",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "문맥-전신 단락이 막혀 암모니아가 간으로 가게 되어 단락성 간성 뇌증이 호전됩니다. (O)"
+        "reason": "위-신장 단락을 통해 체순환으로 빠져나가던 문맥혈이 차단되어 간 실질(Liver parenchyma)로 유입되므로, 간에서 암모니아가 정상 해독되어 간성 뇌증(Hepatic encephalopathy)이 호전/완화됩니다."
       },
       {
         "opt_idx": 2,
@@ -248012,7 +248016,7 @@ window.QUIZ_DATA = [
         "text": "Esophageal varix 완화한다",
         "is_correct": true,
         "tag": "정답",
-        "reason": "단락이 막히면 문맥 압력이 오르고 혈류가 식도 정맥류 쪽으로 몰려 식도 정맥류는 악화되거나 새로 생길 수 있습니다. 완화시킨다는 진술이 틀립니다"
+        "reason": "단락(Shunt)이 차단되면 체순환으로 빠지던 우회로가 사라져 간문맥압(Portal pressure)이 상승합니다. 이로 인해 식도 쪽으로 문맥혈이 몰려 식도 정맥류(Esophageal varix)는 오히려 악화되거나 재출혈을 일으킬 수 있습니다. 완화한다는 설명이 틀렸으므로 정답입니다 (시술 전/후 내시경 결찰술 EVL 고려 필요)."
       },
       {
         "opt_idx": 3,
@@ -248020,7 +248024,7 @@ window.QUIZ_DATA = [
         "text": "Gastric fundal varix 완화한다",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "위 저부 정맥류(IGV1, GOV2)가 폐색되어 출혈 위험이 줄어드는 것이 BRTO의 주 목적입니다. (O)"
+        "reason": "BRTO의 주된 적응증입니다. 풍선 폐쇄 후 경화제(Ethanolamine oleate 등)를 주입하여 위저부 정맥류(IGV1, GOV2)를 완전 혈전화·폐색시켜 완치합니다."
       },
       {
         "opt_idx": 4,
@@ -248028,12 +248032,14 @@ window.QUIZ_DATA = [
         "text": "Portal hypertension 악화한다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "간 밖으로 빠지던 문맥 혈류가 차단되어 간문맥압이 오릅니다. 복수, 흉수, 식도 정맥류 악화 같은 합병증이 생길 수 있습니다. (O)"
+        "reason": "자연적으로 형성되어 있던 감압성 단락(Shunt)을 막아버리므로 간문맥압이 상승하여 문맥고혈압(Portal hypertension)은 악화됩니다. 이로 인해 복수 악화나 식도정맥류 악화가 유발될 수 있습니다."
       }
     ],
     "section": "인터벤션",
     "section_q_num": 2,
-    "q_label": "Q14"
+    "q_label": "Q14",
+    "question": "다음 형광투시 영상에 해당하는 시술(BRTO)에 대한 설명으로 틀린 것은?",
+    "answer": 3
   },
   {
     "id": "영상의학과_26Y_Q15",
@@ -254655,139 +254661,142 @@ window.QUIZ_DATA = [
     "subject": "영상의학과",
     "year": "23Y",
     "q_num": 20,
-    "category": "짤",
-    "theme_title": "풍선폐쇄 역행성 경정맥 폐쇄술(BRTO)의 원리 및 합병증",
+    "category": "반짤",
+    "theme_title": "문맥고혈압 인터벤션: TIPS vs BRTO 혈역학 비교",
     "subspecialty": "인터벤션 영상의학",
     "stem": "M/49 환자가 아래 사진과 같은 시술을 받았다. 시술에 대한 설명으로 옳은 것은?",
     "images": [
-      "images/영상의학과/23Y_Q20_fig1.png",
-      "images/영상의학과/23Y_Q20_fig2.png"
+      "images/영상의학과/23Y_Q20.png"
     ],
     "options": [
       "① Hepatic encephalopathy가 악화된다.",
-      "② Gastric varix가 악화된다.",
+      "② Gastric fundal varix가 완화된다.",
       "③ Portal hypertension이 악화된다.",
-      "④ Liver function이 호전된다.",
-      "⑤ Ascites가 악화된다."
+      "④ 문맥혈류가 간 실질로 유입되어 간 기능이 보존된다.",
+      "⑤ Ascites가 악화될 수 있다."
     ],
-    "correct_option_index": 2,
-    "correct_answer": "③ Portal hypertension이 악화된다.",
+    "correct_option_index": 0,
+    "correct_answer": "① Hepatic encephalopathy가 악화된다.",
     "explanation": {
-      "title": "풍선폐쇄 역행성 경정맥 폐쇄술(BRTO)의 원리 및 합병증",
-      "findings": "형광투시 영상에서 좌측 신정맥을 통해 진입한 풍선 카테터와 조영제로 채워진 위정맥류 망 관찰.",
-      "differential": "• ① Hepatic encephalopathy가 악화된다. ✗ [오답]: BRTO는 대퇴/경정맥으로 풍선 카테터를 위신장 단락(gastrorenal shunt)에 넣어 풍선을 부풀리고 경화제(ethanolamine oleate, STS 거품)로 단락과 위 정맥류를 폐색합니다. (O)\n• ② Gastric varix가 악화된다. ✗ [오답]: 문맥-전신 단락이 막혀 암모니아가 간으로 가게 되어 단락성 간성 뇌증이 호전됩니다. (O)\n• ③ Portal hypertension이 악화된다. ✓ [정답]: 단락이 막히면 문맥 압력이 오르고 혈류가 식도 정맥류 쪽으로 몰려 식도 정맥류는 악화되거나 새로 생길 수 있습니다. 완화시킨다는 진술이 틀립니다\n• ④ Liver function이 호전된다. ✗ [오답]: 위 저부 정맥류(IGV1, GOV2)가 폐색되어 출혈 위험이 줄어드는 것이 BRTO의 주 목적입니다. (O)\n• ⑤ Ascites가 악화된다. ✗ [오답]: 간 밖으로 빠지던 문맥 혈류가 차단되어 간문맥압이 오릅니다. 복수, 흉수, 식도 정맥류 악화 같은 합병증이 생길 수 있습니다. (O)",
-      "trap": "TIPS는 문맥압을 낮춰 식도/위정맥류를 모두 완화하나 간성뇌증을 악화시킴. 반면 BRTO는 간성뇌증을 호전시키나 식도정맥류를 악화시킴 (상호 대조 필수 암기)!",
-      "trigger": "BRTO는 위정맥류(Gastric fundal varices)를 치료하기 위해 위신장 단락(Gastrorenal shunt)을 차단하므로, 문맥압이 상승하여 식도정맥류(Esophageal varices)는 오히려 악화됨!",
-      "kmle_link": "KMLE 소화기학/인터벤션 - 문맥고혈압 및 정맥류 치료 (TIPS vs BRTO 비교)",
+      "title": "문맥고혈압 인터벤션: TIPS vs BRTO 혈역학 비교",
+      "findings": "투시 영상에서 좌측 신정맥을 통해 진입한 풍선 카테터와 조영제로 채워진 위정맥류 망 및 위-신장 단락(Gastrorenal shunt)이 관찰되는 BRTO(풍선폐쇄 역행성 경정맥 폐쇄술) 시술 소견입니다.",
+      "trap": "★ [김응태 교수님 실습 피야마 핵심!] TIPS는 문맥압을 낮춰 복수·식도정맥류를 호전시키지만 문맥혈이 간을 우회하므로 '간성뇌증 악화'! 반대로 BRTO는 단락을 막아 위정맥류 완치 및 '간성뇌증 호전'을 보이지만 문맥압이 올라 '식도정맥류 악화' 및 '복수 악화 가능'!",
+      "trigger": "TIPS = 문맥압 감소 + 복수 호전 + 식도정맥류 호전 + 간성뇌증 악화! / BRTO = 위정맥류 치료 + 문맥압 상승 + 식도정맥류 악화 + 간성뇌증 호전!",
+      "kmle_link": "KMLE 소화기학/인터벤션 - 문맥압 항진증의 중재적 치료 (TIPS vs BRTO 비교)",
+      "differential_general": "💡 **[인터벤션 혈역학 완전 정복: TIPS vs BRTO 비교 정리표]**\n\n| 비교 항목 | TIPS (경경정맥 간내문맥전신단락술) | BRTO (풍선폐쇄 역행성 경정맥 폐쇄술) |\n| :--- | :--- | :--- |\n| **시술 원리** | 간정맥(HV)과 문맥(PV) 사이에 **인공 스텐트 단락** 설치하여 간을 **우회(Bypass)** | 대퇴정맥 통해 **위-신장 단락(Gastrorenal shunt)에 풍선 폐쇄** 후 경화제 주입 |\n| **문맥압 (Portal Pressure)** | **강력 감소 (감압 / 호전)** | **증가 (상승 / 악화)** (체순환으로 빠지던 샛길을 막아 간으로 혈류 몰림) |\n| **복수 (Ascites)** | **현저히 호전 / 감소** (난치성 복수의 주 적응증) | **악화 위험** (문맥압 상승으로 복수 발생 또는 기존 복수 악화 가능) |\n| **식도 정맥류 (Esophageal)** | **호전 / 지혈** (문맥압 감소로 정맥류 압력 완화) | **악화 위험** (문맥압 증가로 식도 정맥류로 혈류 쏠림 -> 시술 전후 EVL 결찰술 필요) |\n| **위 정맥류 (Gastric Fundal)**| 호전 가능하나 재출혈률 있음 | **특효 / 1차 치료 (완전 소실 / 완치)** |\n| **간성 뇌증 (Hepatic Enceph.)**| **악화 위험 매우 높음** (간 해독 없이 암모니아가 전신 순환) | **호전 / 완화 / 보존** (단락 차단으로 문맥혈이 간 실질로 유입되어 암모니아 해독 증가) |\n| **간 관류 및 기능 (Liver func.)**| 악화 가능 (간 실질 관류 혈류 감소) | **호전 / 보존** (간 실질 관류 혈류량 증가) |",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
           "text": "Hepatic encephalopathy가 악화된다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "BRTO는 대퇴/경정맥으로 풍선 카테터를 위신장 단락(gastrorenal shunt)에 넣어 풍선을 부풀리고 경화제(ethanolamine oleate, STS 거품)로 단락과 위 정맥류를 폐색합니다. (O)"
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "BRTO는 단락을 폐쇄하여 문맥혈이 간 실질을 통과하도록 유도하므로 암모니아 해독 능력이 개선되어 간성뇌증(Hepatic encephalopathy)은 호전/완화됩니다. 간성뇌증이 발생하는 것은 간을 우회시키는 TIPS의 대표적 부작용이므로, 악화된다는 설명이 틀려 정답입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "Gastric varix가 악화된다.",
+          "text": "Gastric fundal varix가 완화된다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "문맥-전신 단락이 막혀 암모니아가 간으로 가게 되어 단락성 간성 뇌증이 호전됩니다. (O)"
+          "reason": "위저부 정맥류(IGV1, GOV2)에 경화제를 투여하여 혈전화시키므로 정맥류가 완전히 소실·완화되는 것이 BRTO의 1차 목표입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
           "text": "Portal hypertension이 악화된다.",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "단락이 막히면 문맥 압력이 오르고 혈류가 식도 정맥류 쪽으로 몰려 식도 정맥류는 악화되거나 새로 생길 수 있습니다. 완화시킨다는 진술이 틀립니다"
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "위로 빠져나가던 감압 단락을 폐쇄하므로 문맥압(Portal pressure)은 상승하여 문맥고혈압이 악화됩니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "Liver function이 호전된다.",
+          "text": "문맥혈류가 간 실질로 유입되어 간 기능이 보존된다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "위 저부 정맥류(IGV1, GOV2)가 폐색되어 출혈 위험이 줄어드는 것이 BRTO의 주 목적입니다. (O)"
+          "reason": "단락 차단으로 인해 간 실질로 유입되는 간문맥 혈류량(Hepatic perfusion)이 증가하여 간세포 기능이 보존·개선됩니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "Ascites가 악화된다.",
+          "text": "Ascites가 악화될 수 있다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "간 밖으로 빠지던 문맥 혈류가 차단되어 간문맥압이 오릅니다. 복수, 흉수, 식도 정맥류 악화 같은 합병증이 생길 수 있습니다. (O)"
+          "reason": "문맥압 상승으로 인해 복강 내 모세혈관 정수압이 올라 복수(Ascites)가 발생하거나 기존 복수가 악화될 수 있습니다."
         }
-      ],
-      "differential_general": ""
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      2
+      0
     ],
-    "freq_count": 4,
-    "rate": 66,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
       "26Y",
       "23Y",
       "22Y",
-      "21Y"
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
-      "23Y-20",
       "26Y-14",
+      "23Y-20",
       "22Y-44",
       "22Y-인터벤션02",
-      "21Y-30"
+      "21Y-30",
+      "20Y-26",
+      "20Y-27"
     ],
     "option_explanations": [
       {
         "opt_idx": 0,
         "opt_num": "①",
         "text": "Hepatic encephalopathy가 악화된다.",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "BRTO는 대퇴/경정맥으로 풍선 카테터를 위신장 단락(gastrorenal shunt)에 넣어 풍선을 부풀리고 경화제(ethanolamine oleate, STS 거품)로 단락과 위 정맥류를 폐색합니다. (O)"
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "BRTO는 단락을 폐쇄하여 문맥혈이 간 실질을 통과하도록 유도하므로 암모니아 해독 능력이 개선되어 간성뇌증(Hepatic encephalopathy)은 호전/완화됩니다. 간성뇌증이 발생하는 것은 간을 우회시키는 TIPS의 대표적 부작용이므로, 악화된다는 설명이 틀려 정답입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Gastric varix가 악화된다.",
+        "text": "Gastric fundal varix가 완화된다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "문맥-전신 단락이 막혀 암모니아가 간으로 가게 되어 단락성 간성 뇌증이 호전됩니다. (O)"
+        "reason": "위저부 정맥류(IGV1, GOV2)에 경화제를 투여하여 혈전화시키므로 정맥류가 완전히 소실·완화되는 것이 BRTO의 1차 목표입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
         "text": "Portal hypertension이 악화된다.",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "단락이 막히면 문맥 압력이 오르고 혈류가 식도 정맥류 쪽으로 몰려 식도 정맥류는 악화되거나 새로 생길 수 있습니다. 완화시킨다는 진술이 틀립니다"
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "위로 빠져나가던 감압 단락을 폐쇄하므로 문맥압(Portal pressure)은 상승하여 문맥고혈압이 악화됩니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Liver function이 호전된다.",
+        "text": "문맥혈류가 간 실질로 유입되어 간 기능이 보존된다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "위 저부 정맥류(IGV1, GOV2)가 폐색되어 출혈 위험이 줄어드는 것이 BRTO의 주 목적입니다. (O)"
+        "reason": "단락 차단으로 인해 간 실질로 유입되는 간문맥 혈류량(Hepatic perfusion)이 증가하여 간세포 기능이 보존·개선됩니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "Ascites가 악화된다.",
+        "text": "Ascites가 악화될 수 있다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "간 밖으로 빠지던 문맥 혈류가 차단되어 간문맥압이 오릅니다. 복수, 흉수, 식도 정맥류 악화 같은 합병증이 생길 수 있습니다. (O)"
+        "reason": "문맥압 상승으로 인해 복강 내 모세혈관 정수압이 올라 복수(Ascites)가 발생하거나 기존 복수가 악화될 수 있습니다."
       }
     ],
     "section": "인터벤션",
     "section_q_num": 4,
-    "q_label": "Q20"
+    "q_label": "Q20",
+    "question": "49세 남성 환자가 아래 투시 영상과 같은 시술(BRTO)을 받았다. 해당 시술에 대한 설명으로 옳지 않은 것은?",
+    "answer": 1
   },
   {
     "id": "영상의학과_23Y_Q21",
@@ -255137,8 +255146,7 @@ window.QUIZ_DATA = [
     "subspecialty": "근골격 영상의학",
     "stem": "Pelvic X-ray 옳게 묘사한 것은? (사진 불확실) (사진 출처: 2023 구리 MSK 대체과제 CASE 1: bone metastasis)",
     "images": [
-      "images/영상의학과/23Y_Q24_fig1.png",
-      "images/영상의학과/23Y_Q24_fig2.png"
+      "images/영상의학과/23Y_Q24.png"
     ],
     "options": [
       "① Ischium과 pubis에 osteolytic osteoblastic lesion이 관찰된다.",
@@ -255257,8 +255265,7 @@ window.QUIZ_DATA = [
     "subspecialty": "근골격 영상의학",
     "stem": "다음은 손의 x-ray 사진이다. 진단은? (비슷한 사진으로 가져옴. PIP와 DIP와 1st MCP에 골극 같은 변 형 있었고, 손목에 joint space 소실되고 심한 염증소견, 손가락 휘 어짐은 심하지 않음.)",
     "images": [
-      "images/영상의학과/23Y_Q25_fig1.png",
-      "images/영상의학과/23Y_Q25_fig2.png"
+      "images/영상의학과/23Y_Q25.png"
     ],
     "options": [
       "① Rheumatoid arthritis",
@@ -255471,8 +255478,7 @@ window.QUIZ_DATA = [
     "subspecialty": "근골격 영상의학",
     "stem": "여성. 옳게 묘사한 것은? (사진 출처: 2023 구리 MSK 대체과제 CASE 4: renal osteodystrophy)",
     "images": [
-      "images/영상의학과/23Y_Q27_fig1.png",
-      "images/영상의학과/23Y_Q27_fig2.png"
+      "images/영상의학과/23Y_Q27.png"
     ],
     "options": [
       "① 만성 신장 질환으로 치료받고 있을 것이다.",
@@ -255719,8 +255725,7 @@ window.QUIZ_DATA = [
     "subspecialty": "근골격 영상의학",
     "stem": "Knee X-ray에서 옳게 묘사한 것은? (사진 출처: 2023 구리 MSK 대체과제 CASE 6: osteoarthritis)",
     "images": [
-      "images/영상의학과/23Y_Q29_fig1.png",
-      "images/영상의학과/23Y_Q29_fig2.png"
+      "images/영상의학과/23Y_Q29.png"
     ],
     "options": [
       "① Joint space narrowing이 있다.",
@@ -263922,27 +263927,29 @@ window.QUIZ_DATA = [
     "section": "인터벤션",
     "section_q_num": 2,
     "q_label": "인터벤션 02번",
-    "category": "짤",
-    "theme_title": "TIPS (경경정맥 간내문맥전신단락술)의 효과와 적응증",
+    "category": "반짤",
+    "theme_title": "문맥고혈압 인터벤션: TIPS vs BRTO 혈역학 비교",
     "subspecialty": "인터벤션 영상의학",
     "stem": "(21Y, PY) M/49 환자가 아래 사진과 같은 시술을 받았다. 해당 시술에 대한 설명으로 옳은 것은?",
-    "images": [],
+    "images": [
+      "images/영상의학과/21Y_Q30_fig1.png"
+    ],
     "options": [
       "① Portal hypertension이 호전된다.",
       "② Portosystemic shunt를 막는 시술이다.",
       "③ 복수가 악화된다.",
-      "④ 간성 뇌증 발생 위험이 완전히 사라진다.",
+      "④ Hepatic encephalopathy가 완화된다.",
       "⑤ Esophageal varix가 악화된다."
     ],
     "correct_option_index": 0,
     "correct_answer": "① Portal hypertension이 호전된다.",
     "explanation": {
-      "title": "TIPS (경경정맥 간내문맥전신단락술)의 효과와 적응증",
-      "findings": "경경정맥 간내문맥전신단락술(TIPS)은 간정맥(hepatic vein)과 문맥(portal vein) 사이에 인공 스텐트 션트를 형성하여 문맥 혈류를 체순환으로 우회시킴으로써 문맥압 항진증(portal hypertension)을 직접적으로 호전시키고 정맥류 출혈 및 난치성 복수를 치료함.",
-      "differential": "• ① Portal hypertension이 호전된다. ✓ [정답]: 경경정맥 간내문맥전신단락술(TIPS)은 간정맥(hepatic vein)과 문맥(portal vein) 사이에 인공 스텐트 션트를 형성하여 문맥 혈류를 체순환으로 우회시킴으로써 문맥압 항진증(portal hypertension)을 직접적으로 호전시키고 정맥류 출혈 및 난치성 복수를 치료함.\n• ② Portosystemic shunt를 막는 시술이다. ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ③ 복수가 악화된다. ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ④ 간성 뇌증 발생 위험이 완전히 사라진다. ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ⑤ Esophageal varix가 악화된다. ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.",
-      "trap": "단락을 차단하는 BRTO와 반대로 간내 단락을 만들어주는 시술이며, 문맥혈 우회로 인해 간성 뇌증은 오히려 증가할 수 있음.",
-      "trigger": "TIPS의 치료 효과 = 문맥압 항진증(Portal hypertension) 완화!",
-      "kmle_link": "KMLE 소화기학/인터벤션 - 문맥고혈압의 중재적 치료",
+      "title": "문맥고혈압 인터벤션: TIPS vs BRTO 혈역학 비교",
+      "findings": "경정맥(IJV)을 통해 진입하여 간정맥(Hepatic v.)과 간내 문맥지(Portal v. branch) 사이에 인공 스텐트(Stent-graft)를 거치하여 간을 우회하는 감압 단락을 형성한 TIPS(경경정맥 간내문맥전신단락술) 투시 소견입니다.",
+      "trap": "★ [김응태 교수님 실습 피야마 핵심!] TIPS는 문맥압을 낮춰 복수·식도정맥류를 호전시키지만 문맥혈이 간을 우회하므로 '간성뇌증 악화'! 반대로 BRTO는 단락을 막아 위정맥류 완치 및 '간성뇌증 호전'을 보이지만 문맥압이 올라 '식도정맥류 악화' 및 '복수 악화 가능'!",
+      "trigger": "TIPS = 문맥압 감소 + 복수 호전 + 식도정맥류 호전 + 간성뇌증 악화! / BRTO = 위정맥류 치료 + 문맥압 상승 + 식도정맥류 악화 + 간성뇌증 호전!",
+      "kmle_link": "KMLE 소화기학/인터벤션 - 문맥압 항진증의 중재적 치료 (TIPS vs BRTO 비교)",
+      "differential_general": "💡 **[인터벤션 혈역학 완전 정복: TIPS vs BRTO 비교 정리표]**\n\n| 비교 항목 | TIPS (경경정맥 간내문맥전신단락술) | BRTO (풍선폐쇄 역행성 경정맥 폐쇄술) |\n| :--- | :--- | :--- |\n| **시술 원리** | 간정맥(HV)과 문맥(PV) 사이에 **인공 스텐트 단락** 설치하여 간을 **우회(Bypass)** | 대퇴정맥 통해 **위-신장 단락(Gastrorenal shunt)에 풍선 폐쇄** 후 경화제 주입 |\n| **문맥압 (Portal Pressure)** | **강력 감소 (감압 / 호전)** | **증가 (상승 / 악화)** (체순환으로 빠지던 샛길을 막아 간으로 혈류 몰림) |\n| **복수 (Ascites)** | **현저히 호전 / 감소** (난치성 복수의 주 적응증) | **악화 위험** (문맥압 상승으로 복수 발생 또는 기존 복수 악화 가능) |\n| **식도 정맥류 (Esophageal)** | **호전 / 지혈** (문맥압 감소로 정맥류 압력 완화) | **악화 위험** (문맥압 증가로 식도 정맥류로 혈류 쏠림 -> 시술 전후 EVL 결찰술 필요) |\n| **위 정맥류 (Gastric Fundal)**| 호전 가능하나 재출혈률 있음 | **특효 / 1차 치료 (완전 소실 / 완치)** |\n| **간성 뇌증 (Hepatic Enceph.)**| **악화 위험 매우 높음** (간 해독 없이 암모니아가 전신 순환) | **호전 / 완화 / 보존** (단락 차단으로 문맥혈이 간 실질로 유입되어 암모니아 해독 증가) |\n| **간 관류 및 기능 (Liver func.)**| 악화 가능 (간 실질 관류 혈류 감소) | **호전 / 보존** (간 실질 관류 혈류량 증가) |",
       "option_explanations": [
         {
           "opt_idx": 0,
@@ -263950,7 +263957,7 @@ window.QUIZ_DATA = [
           "text": "Portal hypertension이 호전된다.",
           "is_correct": true,
           "tag": "정답",
-          "reason": "경경정맥 간내문맥전신단락술(TIPS)은 간정맥(hepatic vein)과 문맥(portal vein) 사이에 인공 스텐트 션트를 형성하여 문맥 혈류를 체순환으로 우회시킴으로써 문맥압 항진증(portal hypertension)을 직접적으로 호전시키고 정맥류 출혈 및 난치성 복수를 치료함."
+          "reason": "TIPS는 간정맥과 문맥 사이에 인공 스텐트 션트를 만들어 문맥혈을 전신순환으로 직접 빼주므로, 문맥압 항진증(Portal hypertension)을 강력하게 감압·호전시키는 것이 주된 치료 효과입니다."
         },
         {
           "opt_idx": 1,
@@ -263958,7 +263965,7 @@ window.QUIZ_DATA = [
           "text": "Portosystemic shunt를 막는 시술이다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "TIPS는 인공적으로 portosystemic shunt를 생성(create)하는 시술입니다. 기존 단락을 막는 시술은 BRTO입니다."
         },
         {
           "opt_idx": 2,
@@ -263966,15 +263973,15 @@ window.QUIZ_DATA = [
           "text": "복수가 악화된다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "문맥압이 강하하므로 문맥고혈압성 난치성 복수(Refractory ascites)는 현저히 호전·감소합니다 (TIPS의 주요 적응증)."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "간성 뇌증 발생 위험이 완전히 사라진다.",
+          "text": "Hepatic encephalopathy가 완화된다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "혈류가 간 실질을 거치지 않고(Bypass) 체순환으로 가므로 장에서 흡수된 암모니아가 해독되지 않아 간성뇌증(Hepatic encephalopathy)이 발생하거나 심하게 악화됩니다 (TIPS의 최대 합병증)."
         },
         {
           "opt_idx": 4,
@@ -263982,10 +263989,9 @@ window.QUIZ_DATA = [
           "text": "Esophageal varix가 악화된다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "문맥압이 직접 감압되므로 식도 정맥류(Esophageal varix)의 내압이 떨어져 정맥류 출혈이 지혈되고 호전됩니다."
         }
-      ],
-      "differential_general": ""
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -264002,12 +264008,13 @@ window.QUIZ_DATA = [
       "20Y"
     ],
     "raw_questions": [
-      "22Y-44",
-      "22Y-인터벤션02",
       "26Y-14",
       "23Y-20",
+      "22Y-44",
+      "22Y-인터벤션02",
       "21Y-30",
-      "20Y-26"
+      "20Y-26",
+      "20Y-27"
     ],
     "option_explanations": [
       {
@@ -264016,7 +264023,7 @@ window.QUIZ_DATA = [
         "text": "Portal hypertension이 호전된다.",
         "is_correct": true,
         "tag": "정답",
-        "reason": "경경정맥 간내문맥전신단락술(TIPS)은 간정맥(hepatic vein)과 문맥(portal vein) 사이에 인공 스텐트 션트를 형성하여 문맥 혈류를 체순환으로 우회시킴으로써 문맥압 항진증(portal hypertension)을 직접적으로 호전시키고 정맥류 출혈 및 난치성 복수를 치료함."
+        "reason": "TIPS는 간정맥과 문맥 사이에 인공 스텐트 션트를 만들어 문맥혈을 전신순환으로 직접 빼주므로, 문맥압 항진증(Portal hypertension)을 강력하게 감압·호전시키는 것이 주된 치료 효과입니다."
       },
       {
         "opt_idx": 1,
@@ -264024,7 +264031,7 @@ window.QUIZ_DATA = [
         "text": "Portosystemic shunt를 막는 시술이다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "TIPS는 인공적으로 portosystemic shunt를 생성(create)하는 시술입니다. 기존 단락을 막는 시술은 BRTO입니다."
       },
       {
         "opt_idx": 2,
@@ -264032,15 +264039,15 @@ window.QUIZ_DATA = [
         "text": "복수가 악화된다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "문맥압이 강하하므로 문맥고혈압성 난치성 복수(Refractory ascites)는 현저히 호전·감소합니다 (TIPS의 주요 적응증)."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "간성 뇌증 발생 위험이 완전히 사라진다.",
+        "text": "Hepatic encephalopathy가 완화된다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "혈류가 간 실질을 거치지 않고(Bypass) 체순환으로 가므로 장에서 흡수된 암모니아가 해독되지 않아 간성뇌증(Hepatic encephalopathy)이 발생하거나 심하게 악화됩니다 (TIPS의 최대 합병증)."
       },
       {
         "opt_idx": 4,
@@ -264048,10 +264055,12 @@ window.QUIZ_DATA = [
         "text": "Esophageal varix가 악화된다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "문맥압이 직접 감압되므로 식도 정맥류(Esophageal varix)의 내압이 떨어져 정맥류 출혈이 지혈되고 호전됩니다."
       }
     ],
-    "internal_index": "22Y-인터벤션02"
+    "internal_index": "22Y-인터벤션02",
+    "question": "(21Y, PY) 49세 남성 환자가 아래 투시 영상과 같은 시술(TIPS)을 받았다. 해당 시술에 대한 설명으로 옳은 것은?",
+    "answer": 1
   },
   {
     "id": "영상의학과_22Y_Q45",
@@ -268627,72 +268636,71 @@ window.QUIZ_DATA = [
     "section": "인터벤션",
     "section_q_num": 5,
     "q_label": "Q30",
-    "category": "짤",
-    "theme_title": "경경정맥 간내문맥전신단락술(TIPS)의 기본 원리",
+    "category": "반짤",
+    "theme_title": "문맥고혈압 인터벤션: TIPS vs BRTO 혈역학 비교",
     "subspecialty": "인터벤션 영상의학",
     "stem": "(PY) M/49 환자가 아래 사진과 같은 시술을 받았다. 시술의 명칭은?",
     "images": [
       "images/영상의학과/21Y_Q30_fig1.png"
     ],
     "options": [
-      "① TIPS (Transjugular Intrahepatic Portosystemic Shunt)",
-      "② BRTO",
-      "③ PTBD",
-      "④ PCN",
-      "⑤ TACE"
+      "① Portal hypertension이 호전된다.",
+      "② Portosystemic shunt를 막는 시술이다.",
+      "③ Ascites가 악화된다.",
+      "④ Hepatic encephalopathy가 완화된다.",
+      "⑤ Esophageal varix가 악화된다."
     ],
     "correct_option_index": 0,
-    "correct_answer": "① TIPS (Transjugular Intrahepatic Portosystemic Shunt)",
+    "correct_answer": "① Portal hypertension이 호전된다.",
     "explanation": {
-      "title": "경경정맥 간내문맥전신단락술(TIPS)의 기본 원리",
-      "findings": "경정맥(IJV)을 통해 진입하여 간정맥에서 간실질을 관통하여 문맥지로 연결되는 스텐트 단락을 형성한 투시 영상으로, 난치성 복수 및 식도정맥류 출혈의 감압을 위한 TIPS 시술 소견임.",
-      "differential": "• ① TIPS (Transjugular Intrahepatic Portosystemic Shunt) ✓ [정답]: 경정맥(IJV)을 통해 진입하여 간정맥에서 간실질을 관통하여 문맥지로 연결되는 스텐트 단락을 형성한 투시 영상으로, 난치성 복수 및 식도정맥류 출혈의 감압을 위한 TIPS 시술 소견임.\n• ② BRTO ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ③ PTBD ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ④ PCN ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ⑤ TACE ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.",
-      "trap": "위신장 단락을 풍선으로 막는 BRTO와 간내 우회 단락을 뚫어주는 TIPS의 투시 소견 구별.",
-      "trigger": "간정맥과 문맥 사이 스텐트 단락 형성 시술 = TIPS!",
-      "kmle_link": "KMLE 소화기학/인터벤션 - TIPS 시술",
+      "title": "문맥고혈압 인터벤션: TIPS vs BRTO 혈역학 비교",
+      "findings": "경정맥(IJV)을 통해 진입하여 간정맥(Hepatic v.)과 간내 문맥지(Portal v. branch) 사이에 인공 스텐트(Stent-graft)를 거치하여 간을 우회하는 감압 단락을 형성한 TIPS(경경정맥 간내문맥전신단락술) 투시 소견입니다.",
+      "trap": "★ [김응태 교수님 실습 피야마 핵심!] TIPS는 문맥압을 낮춰 복수·식도정맥류를 호전시키지만 문맥혈이 간을 우회하므로 '간성뇌증 악화'! 반대로 BRTO는 단락을 막아 위정맥류 완치 및 '간성뇌증 호전'을 보이지만 문맥압이 올라 '식도정맥류 악화' 및 '복수 악화 가능'!",
+      "trigger": "TIPS = 문맥압 감소 + 복수 호전 + 식도정맥류 호전 + 간성뇌증 악화! / BRTO = 위정맥류 치료 + 문맥압 상승 + 식도정맥류 악화 + 간성뇌증 호전!",
+      "kmle_link": "KMLE 소화기학/인터벤션 - 문맥압 항진증의 중재적 치료 (TIPS vs BRTO 비교)",
+      "differential_general": "💡 **[인터벤션 혈역학 완전 정복: TIPS vs BRTO 비교 정리표]**\n\n| 비교 항목 | TIPS (경경정맥 간내문맥전신단락술) | BRTO (풍선폐쇄 역행성 경정맥 폐쇄술) |\n| :--- | :--- | :--- |\n| **시술 원리** | 간정맥(HV)과 문맥(PV) 사이에 **인공 스텐트 단락** 설치하여 간을 **우회(Bypass)** | 대퇴정맥 통해 **위-신장 단락(Gastrorenal shunt)에 풍선 폐쇄** 후 경화제 주입 |\n| **문맥압 (Portal Pressure)** | **강력 감소 (감압 / 호전)** | **증가 (상승 / 악화)** (체순환으로 빠지던 샛길을 막아 간으로 혈류 몰림) |\n| **복수 (Ascites)** | **현저히 호전 / 감소** (난치성 복수의 주 적응증) | **악화 위험** (문맥압 상승으로 복수 발생 또는 기존 복수 악화 가능) |\n| **식도 정맥류 (Esophageal)** | **호전 / 지혈** (문맥압 감소로 정맥류 압력 완화) | **악화 위험** (문맥압 증가로 식도 정맥류로 혈류 쏠림 -> 시술 전후 EVL 결찰술 필요) |\n| **위 정맥류 (Gastric Fundal)**| 호전 가능하나 재출혈률 있음 | **특효 / 1차 치료 (완전 소실 / 완치)** |\n| **간성 뇌증 (Hepatic Enceph.)**| **악화 위험 매우 높음** (간 해독 없이 암모니아가 전신 순환) | **호전 / 완화 / 보존** (단락 차단으로 문맥혈이 간 실질로 유입되어 암모니아 해독 증가) |\n| **간 관류 및 기능 (Liver func.)**| 악화 가능 (간 실질 관류 혈류 감소) | **호전 / 보존** (간 실질 관류 혈류량 증가) |",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "TIPS (Transjugular Intrahepatic Portosystemic Shunt)",
+          "text": "Portal hypertension이 호전된다.",
           "is_correct": true,
           "tag": "정답",
-          "reason": "경정맥(IJV)을 통해 진입하여 간정맥에서 간실질을 관통하여 문맥지로 연결되는 스텐트 단락을 형성한 투시 영상으로, 난치성 복수 및 식도정맥류 출혈의 감압을 위한 TIPS 시술 소견임."
+          "reason": "TIPS는 간정맥과 문맥 사이에 인공 스텐트 션트를 만들어 문맥혈을 전신순환으로 직접 빼주므로, 문맥압 항진증(Portal hypertension)을 직접적으로 감압·호전시킵니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "BRTO",
+          "text": "Portosystemic shunt를 막는 시술이다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "TIPS는 인공적으로 단락을 생성하는 시술이며, 기존 단락을 막는 시술은 BRTO입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "PTBD",
+          "text": "Ascites가 악화된다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "문맥압 감소로 난치성 복수가 호전·감소합니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "PCN",
+          "text": "Hepatic encephalopathy가 완화된다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "간을 우회하여 암모니아가 전신 순환하므로 간성뇌증이 발생하거나 악화됩니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "TACE",
+          "text": "Esophageal varix가 악화된다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "문맥압 감압으로 식도정맥류는 호전됩니다."
         }
-      ],
-      "differential_general": ""
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -268709,55 +268717,58 @@ window.QUIZ_DATA = [
       "20Y"
     ],
     "raw_questions": [
-      "21Y-30",
       "26Y-14",
       "23Y-20",
       "22Y-44",
       "22Y-인터벤션02",
-      "20Y-26"
+      "21Y-30",
+      "20Y-26",
+      "20Y-27"
     ],
     "option_explanations": [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "TIPS (Transjugular Intrahepatic Portosystemic Shunt)",
+        "text": "Portal hypertension이 호전된다.",
         "is_correct": true,
         "tag": "정답",
-        "reason": "경정맥(IJV)을 통해 진입하여 간정맥에서 간실질을 관통하여 문맥지로 연결되는 스텐트 단락을 형성한 투시 영상으로, 난치성 복수 및 식도정맥류 출혈의 감압을 위한 TIPS 시술 소견임."
+        "reason": "TIPS는 간정맥과 문맥 사이에 인공 스텐트 션트를 만들어 문맥혈을 전신순환으로 직접 빼주므로, 문맥압 항진증(Portal hypertension)을 직접적으로 감압·호전시킵니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "BRTO",
+        "text": "Portosystemic shunt를 막는 시술이다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "TIPS는 인공적으로 단락을 생성하는 시술이며, 기존 단락을 막는 시술은 BRTO입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "PTBD",
+        "text": "Ascites가 악화된다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "문맥압 감소로 난치성 복수가 호전·감소합니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "PCN",
+        "text": "Hepatic encephalopathy가 완화된다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "간을 우회하여 암모니아가 전신 순환하므로 간성뇌증이 발생하거나 악화됩니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "TACE",
+        "text": "Esophageal varix가 악화된다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "문맥압 감압으로 식도정맥류는 호전됩니다."
       }
-    ]
+    ],
+    "question": "(PY) 49세 남성 환자가 아래 영상과 같은 시술(TIPS)을 받았다. 시술에 대한 설명으로 옳은 것은?",
+    "answer": 1
   },
   {
     "id": "영상의학과_21Y_Q31",
@@ -274385,100 +274396,123 @@ window.QUIZ_DATA = [
     "subject": "영상의학과",
     "year": "20Y",
     "q_num": 26,
-    "category": "짤",
-    "theme_title": "hepatic vein과 portal vein 연결시켜...",
+    "category": "반짤",
+    "theme_title": "문맥고혈압 인터벤션: TIPS vs BRTO 혈역학 비교",
     "subspecialty": "인터벤션 영상의학",
     "stem": "hepatic vein과 portal vein 연결시켜주는 시술(TIPS관한 설명)로 인해 기대해볼 수 있는 것이 아닌 것? (선지 복원이 정확하지 않지만 원리를 알고 있으면 맞출 수 있는 문제)",
     "images": [],
     "options": [
-      "hepatic encephalopathy 완화",
-      "복수 감소",
-      "문맥 고혈압 감소"
+      "① Hepatic encephalopathy 완화",
+      "② 복수(Ascites) 감소",
+      "③ 문맥 고혈압(Portal hypertension) 감소",
+      "④ 식도 정맥류 출혈의 지혈 및 예방"
     ],
     "correct_option_index": 0,
-    "correct_answer": "hepatic encephalopathy 완화",
+    "correct_answer": "① Hepatic encephalopathy 완화",
     "explanation": {
-      "title": "[과년도 빈출] 인터벤션 혈역학: TIPS vs BRTO의 원리 및 간성뇌증 영향",
-      "findings": "• [20Y Q26 기출 원문]:\n  - 지문: Hepatic vein과 Portal vein을 단락시켜주는 TIPS 시술로 인해 기대해볼 수 있는 효과가 아닌 것은?\n  - 선지: ① Hepatic encephalopathy 완화  ② 복수 감소  ③ 문맥 고혈압 감소\n  - 정답: ① Hepatic encephalopathy 완화 (X - 문맥혈이 간을 우회하여 뇌로 직행하므로 간성뇌증을 악화시킴)\n• [20Y Q27 기출 원문]:\n  - 지문: BRTO(풍선폐쇄 역행성 경정맥 폐쇄술)에 관한 설명으로 옳지 않은 것은?\n  - 선지: ① Gastric & esophageal varix 악화  ② Hepatic encephalopathy 완화  ③ 문맥 고혈압 상승  ④ 황달 악화\n  - 정답: ① Gastric varix 악화 (X - BRTO는 위정맥류를 경화/폐색시켜 치료하는 시술임)",
-      "differential": "① Hepatic encephalopathy 완화 — TIPS는 간정맥과 문맥 사이에 스텐트를 삽입해 혈류를 간 실질을 거치지 않고 전신순환으로 직접 우회(bypass)시키므로, 장에서 흡수된 암모니아가 해독되지 못해 간성뇌증(HE)이 새롭게 발생하거나 악화됩니다 → 정답.\n② 복수 감소 — 문맥압 항진증으로 인한 내장 혈관 확장과 정수압 상승을 낮춰주므로, 약물 치료에 반응하지 않는 난치성 복수(refractory ascites) 조절에 효과적인 치료 효과입니다. (O)\n③ 문맥 고혈압 감소 — 간문맥과 하대정맥 사이의 압력 경사(portosystemic pressure gradient)를 직접 낮추어 정맥류 출혈 재발 방지와 문맥고혈압 합병증을 줄이는 핵심 원리입니다. (O)\n\n【핵심 감별 및 임상 가이드라인】\n20Y-27: BRTO는 위-신장 단락 폐쇄로 문맥혈이 간으로 가 간성뇌증이 호전되나 식도정맥류 악화 가능.",
-      "trap": "유사 병변과의 영상의학적 감별 포인트 숙지 필수.",
-      "trigger": "6개년 중 2회 출제된 빈출 영상 소견! 시그니처 징후 즉시 연상.",
-      "kmle_link": "KMLE 영상의학 핵심 영상 판독 가이드",
+      "title": "문맥고혈압 인터벤션: TIPS vs BRTO 혈역학 비교",
+      "findings": "TIPS는 간정맥과 문맥 사이에 금속 스텐트를 삽입하여 혈류를 간 실질을 거치지 않고 전신순환으로 직접 우회(bypass)시키는 시술입니다.",
+      "trap": "★ [김응태 교수님 실습 피야마 핵심!] TIPS는 문맥압을 낮춰 복수·식도정맥류를 호전시키지만 문맥혈이 간을 우회하므로 '간성뇌증 악화'! 반대로 BRTO는 단락을 막아 위정맥류 완치 및 '간성뇌증 호전'을 보이지만 문맥압이 올라 '식도정맥류 악화' 및 '복수 악화 가능'!",
+      "trigger": "TIPS = 문맥압 감소 + 복수 호전 + 식도정맥류 호전 + 간성뇌증 악화! / BRTO = 위정맥류 치료 + 문맥압 상승 + 식도정맥류 악화 + 간성뇌증 호전!",
+      "kmle_link": "KMLE 소화기학/인터벤션 - 문맥압 항진증의 중재적 치료 (TIPS vs BRTO 비교)",
+      "differential_general": "💡 **[인터벤션 혈역학 완전 정복: TIPS vs BRTO 비교 정리표]**\n\n| 비교 항목 | TIPS (경경정맥 간내문맥전신단락술) | BRTO (풍선폐쇄 역행성 경정맥 폐쇄술) |\n| :--- | :--- | :--- |\n| **시술 원리** | 간정맥(HV)과 문맥(PV) 사이에 **인공 스텐트 단락** 설치하여 간을 **우회(Bypass)** | 대퇴정맥 통해 **위-신장 단락(Gastrorenal shunt)에 풍선 폐쇄** 후 경화제 주입 |\n| **문맥압 (Portal Pressure)** | **강력 감소 (감압 / 호전)** | **증가 (상승 / 악화)** (체순환으로 빠지던 샛길을 막아 간으로 혈류 몰림) |\n| **복수 (Ascites)** | **현저히 호전 / 감소** (난치성 복수의 주 적응증) | **악화 위험** (문맥압 상승으로 복수 발생 또는 기존 복수 악화 가능) |\n| **식도 정맥류 (Esophageal)** | **호전 / 지혈** (문맥압 감소로 정맥류 압력 완화) | **악화 위험** (문맥압 증가로 식도 정맥류로 혈류 쏠림 -> 시술 전후 EVL 결찰술 필요) |\n| **위 정맥류 (Gastric Fundal)**| 호전 가능하나 재출혈률 있음 | **특효 / 1차 치료 (완전 소실 / 완치)** |\n| **간성 뇌증 (Hepatic Enceph.)**| **악화 위험 매우 높음** (간 해독 없이 암모니아가 전신 순환) | **호전 / 완화 / 보존** (단락 차단으로 문맥혈이 간 실질로 유입되어 암모니아 해독 증가) |\n| **간 관류 및 기능 (Liver func.)**| 악화 가능 (간 실질 관류 혈류 감소) | **호전 / 보존** (간 실질 관류 혈류량 증가) |",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "hepatic encephalopathy 완화",
+          "text": "Hepatic encephalopathy 완화",
           "is_correct": true,
           "tag": "정답",
-          "reason": "TIPS는 간정맥과 문맥 사이에 스텐트를 삽입해 혈류를 간 실질을 거치지 않고 전신순환으로 직접 우회(bypass)시키므로, 장에서 흡수된 암모니아가 해독되지 못해 간성뇌증(HE)이 새롭게 발생하거나 악화됩니다 → 정답."
+          "reason": "TIPS는 간을 우회하므로 장에서 흡수된 암모니아가 해독되지 않고 전신순환으로 유입되어 간성뇌증(Hepatic encephalopathy)이 발생하거나 악화됩니다. 따라서 완화는 기대할 수 없는 대표적 부작용이자 오답(정답)입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "복수 감소",
+          "text": "복수(Ascites) 감소",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "문맥압 항진증으로 인한 내장 혈관 확장과 정수압 상승을 낮춰주므로, 약물 치료에 반응하지 않는 난치성 복수(refractory ascites) 조절에 효과적인 치료 효과입니다. (O)"
+          "reason": "문맥압 감소로 난치성 복수가 현저히 감소합니다 (TIPS의 주요 적응증)."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "문맥 고혈압 감소",
+          "text": "문맥 고혈압(Portal hypertension) 감소",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "간문맥과 하대정맥 사이의 압력 경사(portosystemic pressure gradient)를 직접 낮추어 정맥류 출혈 재발 방지와 문맥고혈압 합병증을 줄이는 핵심 원리입니다. (O)"
+          "reason": "간내 인공 단락 거치로 문맥압이 직접 감압됩니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "식도 정맥류 출혈의 지혈 및 예방",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "문맥압 감압으로 식도정맥류 내압이 감소하여 급성 출혈 지혈 및 재출혈 예방에 효과적입니다."
         }
-      ],
-      "differential_general": "20Y-27: BRTO는 위-신장 단락 폐쇄로 문맥혈이 간으로 가 간성뇌증이 호전되나 식도정맥류 악화 가능."
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
+      "23Y",
       "22Y",
       "21Y",
       "20Y"
     ],
     "raw_questions": [
-      "20Y-26",
+      "26Y-14",
+      "23Y-20",
       "22Y-44",
       "22Y-인터벤션02",
-      "21Y-30"
+      "21Y-30",
+      "20Y-26",
+      "20Y-27"
     ],
     "option_explanations": [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "hepatic encephalopathy 완화",
+        "text": "Hepatic encephalopathy 완화",
         "is_correct": true,
         "tag": "정답",
-        "reason": "TIPS는 간정맥과 문맥 사이에 스텐트를 삽입해 혈류를 간 실질을 거치지 않고 전신순환으로 직접 우회(bypass)시키므로, 장에서 흡수된 암모니아가 해독되지 못해 간성뇌증(HE)이 새롭게 발생하거나 악화됩니다 → 정답."
+        "reason": "TIPS는 간을 우회하므로 장에서 흡수된 암모니아가 해독되지 않고 전신순환으로 유입되어 간성뇌증(Hepatic encephalopathy)이 발생하거나 악화됩니다. 따라서 완화는 기대할 수 없는 대표적 부작용이자 오답(정답)입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "복수 감소",
+        "text": "복수(Ascites) 감소",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "문맥압 항진증으로 인한 내장 혈관 확장과 정수압 상승을 낮춰주므로, 약물 치료에 반응하지 않는 난치성 복수(refractory ascites) 조절에 효과적인 치료 효과입니다. (O)"
+        "reason": "문맥압 감소로 난치성 복수가 현저히 감소합니다 (TIPS의 주요 적응증)."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "문맥 고혈압 감소",
+        "text": "문맥 고혈압(Portal hypertension) 감소",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "간문맥과 하대정맥 사이의 압력 경사(portosystemic pressure gradient)를 직접 낮추어 정맥류 출혈 재발 방지와 문맥고혈압 합병증을 줄이는 핵심 원리입니다. (O)"
+        "reason": "간내 인공 단락 거치로 문맥압이 직접 감압됩니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "식도 정맥류 출혈의 지혈 및 예방",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "문맥압 감압으로 식도정맥류 내압이 감소하여 급성 출혈 지혈 및 재출혈 예방에 효과적입니다."
       }
     ],
     "section": "인터벤션",
     "section_q_num": 4,
-    "q_label": "Q26"
+    "q_label": "Q26",
+    "question": "간정맥(Hepatic vein)과 문맥(Portal vein) 사이에 인공 단락을 형성하는 TIPS 시술로 기대할 수 있는 효과가 아닌 것은?",
+    "answer": 1
   },
   {
     "id": "영상의학과_20Y_Q27",
@@ -274486,112 +274520,123 @@ window.QUIZ_DATA = [
     "subject": "영상의학과",
     "year": "20Y",
     "q_num": 27,
-    "category": "탈",
-    "theme_title": "BRTO 관한 설명으로 인해 기대해볼 수 있는 것이 아...",
+    "category": "반짤",
+    "theme_title": "문맥고혈압 인터벤션: TIPS vs BRTO 혈역학 비교",
     "subspecialty": "인터벤션 영상의학",
     "stem": "BRTO 관한 설명으로 인해 기대해볼 수 있는 것이 아닌 것? (마찬가지로 원리를 알고 있으면 맞출 수 있는 문제)",
     "images": [],
     "options": [
-      "Gastric & esophageal varix 악화",
-      "hepatic encephalopathy 완화",
-      "문맥 고혈압 상승",
-      "황달 악화"
+      "① Gastric varix(위정맥류)가 악화된다.",
+      "② Hepatic encephalopathy(간성뇌증)가 완화된다.",
+      "③ Portal hypertension(문맥고혈압)이 감소한다.",
+      "④ 복수(Ascites)가 현저히 감소한다."
     ],
-    "correct_option_index": 0,
-    "correct_answer": "Gastric & esophageal varix 악화",
+    "correct_option_index": 1,
+    "correct_answer": "② Hepatic encephalopathy(간성뇌증)가 완화된다.",
     "explanation": {
-      "title": "[과년도 빈출] 인터벤션 혈역학: TIPS vs BRTO의 원리 및 간성뇌증 영향",
-      "findings": "• [20Y Q26 기출 원문]:\n  - 지문: Hepatic vein과 Portal vein을 단락시켜주는 TIPS 시술로 인해 기대해볼 수 있는 효과가 아닌 것은?\n  - 선지: ① Hepatic encephalopathy 완화  ② 복수 감소  ③ 문맥 고혈압 감소\n  - 정답: ① Hepatic encephalopathy 완화 (X - 문맥혈이 간을 우회하여 뇌로 직행하므로 간성뇌증을 악화시킴)\n• [20Y Q27 기출 원문]:\n  - 지문: BRTO(풍선폐쇄 역행성 경정맥 폐쇄술)에 관한 설명으로 옳지 않은 것은?\n  - 선지: ① Gastric & esophageal varix 악화  ② Hepatic encephalopathy 완화  ③ 문맥 고혈압 상승  ④ 황달 악화\n  - 정답: ① Gastric varix 악화 (X - BRTO는 위정맥류를 경화/폐색시켜 치료하는 시술임)",
-      "differential": "① Hepatic encephalopathy 완화 — TIPS는 간정맥과 문맥 사이에 스텐트를 삽입해 혈류를 간 실질을 거치지 않고 전신순환으로 직접 우회(bypass)시키므로, 장에서 흡수된 암모니아가 해독되지 못해 간성뇌증(HE)이 새롭게 발생하거나 악화됩니다 → 정답.\n② 복수 감소 — 문맥압 항진증으로 인한 내장 혈관 확장과 정수압 상승을 낮춰주므로, 약물 치료에 반응하지 않는 난치성 복수(refractory ascites) 조절에 효과적인 치료 효과입니다. (O)\n③ 문맥 고혈압 감소 — 간문맥과 하대정맥 사이의 압력 경사(portosystemic pressure gradient)를 직접 낮추어 정맥류 출혈 재발 방지와 문맥고혈압 합병증을 줄이는 핵심 원리입니다. (O)\n\n【핵심 감별 및 임상 가이드라인】\n20Y-27: BRTO는 위-신장 단락 폐쇄로 문맥혈이 간으로 가 간성뇌증이 호전되나 식도정맥류 악화 가능.",
-      "trap": "유사 병변과의 영상의학적 감별 포인트 숙지 필수.",
-      "trigger": "6개년 중 2회 출제된 빈출 영상 소견! 시그니처 징후 즉시 연상.",
-      "kmle_link": "KMLE 영상의학 핵심 영상 판독 가이드",
+      "title": "문맥고혈압 인터벤션: TIPS vs BRTO 혈역학 비교",
+      "findings": "BRTO는 위정맥류의 배출 단락인 위-신장 단락(Gastrorenal shunt)을 풍선으로 폐쇄하고 경화제를 주입하여 위정맥류를 혈전화·폐쇄시키는 시술입니다.",
+      "trap": "★ [김응태 교수님 실습 피야마 핵심!] TIPS는 문맥압을 낮춰 복수·식도정맥류를 호전시키지만 문맥혈이 간을 우회하므로 '간성뇌증 악화'! 반대로 BRTO는 단락을 막아 위정맥류 완치 및 '간성뇌증 호전'을 보이지만 문맥압이 올라 '식도정맥류 악화' 및 '복수 악화 가능'!",
+      "trigger": "TIPS = 문맥압 감소 + 복수 호전 + 식도정맥류 호전 + 간성뇌증 악화! / BRTO = 위정맥류 치료 + 문맥압 상승 + 식도정맥류 악화 + 간성뇌증 호전!",
+      "kmle_link": "KMLE 소화기학/인터벤션 - 문맥압 항진증의 중재적 치료 (TIPS vs BRTO 비교)",
+      "differential_general": "💡 **[인터벤션 혈역학 완전 정복: TIPS vs BRTO 비교 정리표]**\n\n| 비교 항목 | TIPS (경경정맥 간내문맥전신단락술) | BRTO (풍선폐쇄 역행성 경정맥 폐쇄술) |\n| :--- | :--- | :--- |\n| **시술 원리** | 간정맥(HV)과 문맥(PV) 사이에 **인공 스텐트 단락** 설치하여 간을 **우회(Bypass)** | 대퇴정맥 통해 **위-신장 단락(Gastrorenal shunt)에 풍선 폐쇄** 후 경화제 주입 |\n| **문맥압 (Portal Pressure)** | **강력 감소 (감압 / 호전)** | **증가 (상승 / 악화)** (체순환으로 빠지던 샛길을 막아 간으로 혈류 몰림) |\n| **복수 (Ascites)** | **현저히 호전 / 감소** (난치성 복수의 주 적응증) | **악화 위험** (문맥압 상승으로 복수 발생 또는 기존 복수 악화 가능) |\n| **식도 정맥류 (Esophageal)** | **호전 / 지혈** (문맥압 감소로 정맥류 압력 완화) | **악화 위험** (문맥압 증가로 식도 정맥류로 혈류 쏠림 -> 시술 전후 EVL 결찰술 필요) |\n| **위 정맥류 (Gastric Fundal)**| 호전 가능하나 재출혈률 있음 | **특효 / 1차 치료 (완전 소실 / 완치)** |\n| **간성 뇌증 (Hepatic Enceph.)**| **악화 위험 매우 높음** (간 해독 없이 암모니아가 전신 순환) | **호전 / 완화 / 보존** (단락 차단으로 문맥혈이 간 실질로 유입되어 암모니아 해독 증가) |\n| **간 관류 및 기능 (Liver func.)**| 악화 가능 (간 실질 관류 혈류 감소) | **호전 / 보존** (간 실질 관류 혈류량 증가) |",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "Gastric & esophageal varix 악화",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "TIPS는 간정맥과 문맥 사이에 스텐트를 삽입해 혈류를 간 실질을 거치지 않고 전신순환으로 직접 우회(bypass)시키므로, 장에서 흡수된 암모니아가 해독되지 못해 간성뇌증(HE)이 새롭게 발생하거나 악화됩니다 → 정답."
+          "text": "Gastric varix(위정맥류)가 악화된다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "BRTO는 위정맥류를 경화제로 혈전화시켜 완치하는 시술이므로 위정맥류는 극적으로 완화·소실됩니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "hepatic encephalopathy 완화",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "문맥압 항진증으로 인한 내장 혈관 확장과 정수압 상승을 낮춰주므로, 약물 치료에 반응하지 않는 난치성 복수(refractory ascites) 조절에 효과적인 치료 효과입니다. (O)"
+          "text": "Hepatic encephalopathy(간성뇌증)가 완화된다.",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "체순환으로 빠지던 문맥혈류가 차단되어 간 실질로 유입되는 문맥 혈류량이 증가하므로, 간의 암모니아 해독 기능이 개선되어 간성뇌증(Hepatic encephalopathy)이 호전/완화됩니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "문맥 고혈압 상승",
+          "text": "Portal hypertension(문맥고혈압)이 감소한다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "간문맥과 하대정맥 사이의 압력 경사(portosystemic pressure gradient)를 직접 낮추어 정맥류 출혈 재발 방지와 문맥고혈압 합병증을 줄이는 핵심 원리입니다. (O)"
+          "reason": "감압 단락을 폐쇄하므로 문맥압은 오히려 상승·악화됩니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "황달 악화",
+          "text": "복수(Ascites)가 현저히 감소한다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+          "reason": "문맥압 상승으로 인해 복수는 발생하거나 악화될 수 있습니다 (복수 감소는 TIPS의 효과)."
         }
-      ],
-      "differential_general": "20Y-27: BRTO는 위-신장 단락 폐쇄로 문맥혈이 간으로 가 간성뇌증이 호전되나 식도정맥류 악화 가능."
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
-    "freq_count": 1,
-    "rate": 16,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
       "20Y"
     ],
     "raw_questions": [
+      "26Y-14",
+      "23Y-20",
+      "22Y-44",
+      "22Y-인터벤션02",
+      "21Y-30",
+      "20Y-26",
       "20Y-27"
     ],
     "option_explanations": [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Gastric & esophageal varix 악화",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "TIPS는 간정맥과 문맥 사이에 스텐트를 삽입해 혈류를 간 실질을 거치지 않고 전신순환으로 직접 우회(bypass)시키므로, 장에서 흡수된 암모니아가 해독되지 못해 간성뇌증(HE)이 새롭게 발생하거나 악화됩니다 → 정답."
+        "text": "Gastric varix(위정맥류)가 악화된다.",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "BRTO는 위정맥류를 경화제로 혈전화시켜 완치하는 시술이므로 위정맥류는 극적으로 완화·소실됩니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "hepatic encephalopathy 완화",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "문맥압 항진증으로 인한 내장 혈관 확장과 정수압 상승을 낮춰주므로, 약물 치료에 반응하지 않는 난치성 복수(refractory ascites) 조절에 효과적인 치료 효과입니다. (O)"
+        "text": "Hepatic encephalopathy(간성뇌증)가 완화된다.",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "체순환으로 빠지던 문맥혈류가 차단되어 간 실질로 유입되는 문맥 혈류량이 증가하므로, 간의 암모니아 해독 기능이 개선되어 간성뇌증(Hepatic encephalopathy)이 호전/완화됩니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "문맥 고혈압 상승",
+        "text": "Portal hypertension(문맥고혈압)이 감소한다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "간문맥과 하대정맥 사이의 압력 경사(portosystemic pressure gradient)를 직접 낮추어 정맥류 출혈 재발 방지와 문맥고혈압 합병증을 줄이는 핵심 원리입니다. (O)"
+        "reason": "감압 단락을 폐쇄하므로 문맥압은 오히려 상승·악화됩니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "황달 악화",
+        "text": "복수(Ascites)가 현저히 감소한다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+        "reason": "문맥압 상승으로 인해 복수는 발생하거나 악화될 수 있습니다 (복수 감소는 TIPS의 효과)."
       }
     ],
     "section": "인터벤션",
     "section_q_num": 5,
-    "q_label": "Q27"
+    "q_label": "Q27",
+    "question": "위정맥류 치료를 위해 시행하는 풍선폐쇄 역행성 경정맥 폐쇄술(BRTO)의 임상적/혈역학적 특징으로 옳은 것은?",
+    "answer": 2
   },
   {
     "id": "영상의학과_20Y_Q28",
