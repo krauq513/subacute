@@ -85,9 +85,7 @@
     ],
     "raw_questions": [
       "26Y-01",
-      "26Y-흉부01",
-      "21Y-31",
-      "21Y-흉부01"
+      "21Y-31"
     ],
     "option_explanations": [
       {
@@ -133,7 +131,7 @@
     ],
     "section": "흉부",
     "section_q_num": 1,
-    "q_label": "흉부 Q01 (#01)"
+    "q_label": "Q01"
   },
   {
     "id": "영상의학과_26Y_Q02",
@@ -204,11 +202,9 @@
     ],
     "raw_questions": [
       "26Y-02",
-      "26Y-흉부02",
       "22Y-06",
       "22Y-흉부06",
-      "21Y-39",
-      "21Y-흉부09"
+      "21Y-39"
     ],
     "option_explanations": [
       {
@@ -238,7 +234,7 @@
     ],
     "section": "흉부",
     "section_q_num": 2,
-    "q_label": "흉부 Q02 (#02)"
+    "q_label": "Q02"
   },
   {
     "id": "영상의학과_26Y_Q03",
@@ -308,7 +304,6 @@
     ],
     "raw_questions": [
       "26Y-03",
-      "26Y-흉부03",
       "22Y-07",
       "22Y-흉부07"
     ],
@@ -340,7 +335,7 @@
     ],
     "section": "흉부",
     "section_q_num": 3,
-    "q_label": "흉부 Q03 (#03)"
+    "q_label": "Q03"
   },
   {
     "id": "영상의학과_26Y_Q04",
@@ -420,11 +415,9 @@
     ],
     "raw_questions": [
       "26Y-04",
-      "26Y-흉부04",
       "22Y-10",
       "22Y-흉부10",
-      "21Y-37",
-      "21Y-흉부07"
+      "21Y-37"
     ],
     "option_explanations": [
       {
@@ -462,7 +455,7 @@
     ],
     "section": "흉부",
     "section_q_num": 4,
-    "q_label": "흉부 Q04 (#04)"
+    "q_label": "Q04"
   },
   {
     "id": "영상의학과_26Y_Q05",
@@ -542,11 +535,8 @@
     ],
     "raw_questions": [
       "26Y-05",
-      "26Y-흉부05",
       "23Y-47",
-      "23Y-흉부09",
-      "21Y-41",
-      "21Y-흉부11"
+      "21Y-41"
     ],
     "option_explanations": [
       {
@@ -584,7 +574,7 @@
     ],
     "section": "흉부",
     "section_q_num": 5,
-    "q_label": "흉부 Q05 (#05)"
+    "q_label": "Q05"
   },
   {
     "id": "영상의학과_26Y_Q06",
@@ -664,11 +654,9 @@
     ],
     "raw_questions": [
       "26Y-06",
-      "26Y-흉부06",
       "22Y-03",
       "22Y-흉부03",
-      "21Y-36",
-      "21Y-흉부06"
+      "21Y-36"
     ],
     "option_explanations": [
       {
@@ -706,7 +694,7 @@
     ],
     "section": "흉부",
     "section_q_num": 6,
-    "q_label": "흉부 Q06 (#06)"
+    "q_label": "Q06"
   },
   {
     "id": "영상의학과_26Y_Q07",
@@ -786,11 +774,9 @@
     ],
     "raw_questions": [
       "26Y-07",
-      "26Y-흉부07",
       "22Y-05",
       "22Y-흉부05",
-      "21Y-38",
-      "21Y-흉부08"
+      "21Y-38"
     ],
     "option_explanations": [
       {
@@ -828,7 +814,7 @@
     ],
     "section": "흉부",
     "section_q_num": 7,
-    "q_label": "흉부 Q07 (#07)"
+    "q_label": "Q07"
   },
   {
     "id": "영상의학과_26Y_Q08",
@@ -908,11 +894,9 @@
     ],
     "raw_questions": [
       "26Y-08",
-      "26Y-흉부08",
       "22Y-01",
       "22Y-흉부01",
-      "21Y-33",
-      "21Y-흉부03"
+      "21Y-33"
     ],
     "option_explanations": [
       {
@@ -950,7 +934,7 @@
     ],
     "section": "흉부",
     "section_q_num": 8,
-    "q_label": "흉부 Q08 (#08)"
+    "q_label": "Q08"
   },
   {
     "id": "영상의학과_26Y_Q09",
@@ -1036,8 +1020,7 @@
       "26Y"
     ],
     "raw_questions": [
-      "26Y-09",
-      "26Y-흉부09"
+      "26Y-09"
     ],
     "option_explanations": [
       {
@@ -1083,7 +1066,7 @@
     ],
     "section": "흉부",
     "section_q_num": 9,
-    "q_label": "흉부 Q09 (#09)"
+    "q_label": "Q09"
   },
   {
     "id": "영상의학과_26Y_Q10",
@@ -1173,13 +1156,10 @@
     ],
     "raw_questions": [
       "26Y-10",
-      "26Y-흉부10",
       "22Y-01",
       "22Y-흉부01",
       "21Y-40",
-      "21Y-흉부10",
-      "20Y-04",
-      "20Y-흉부04"
+      "20Y-04"
     ],
     "option_explanations": [
       {
@@ -1225,7 +1205,7 @@
     ],
     "section": "흉부",
     "section_q_num": 10,
-    "q_label": "흉부 Q10 (#10)"
+    "q_label": "Q10"
   },
   {
     "id": "영상의학과_26Y_Q11",
@@ -1302,8 +1282,7 @@
       "26Y"
     ],
     "raw_questions": [
-      "26Y-11",
-      "26Y-흉부11"
+      "26Y-11"
     ],
     "option_explanations": [
       {
@@ -1341,7 +1320,7 @@
     ],
     "section": "흉부",
     "section_q_num": 11,
-    "q_label": "흉부 Q11 (#11)"
+    "q_label": "Q11"
   },
   {
     "id": "영상의학과_26Y_Q12",
@@ -1409,8 +1388,7 @@
       "26Y"
     ],
     "raw_questions": [
-      "26Y-12",
-      "26Y-흉부12"
+      "26Y-12"
     ],
     "option_explanations": [
       {
@@ -1440,7 +1418,7 @@
     ],
     "section": "흉부",
     "section_q_num": 12,
-    "q_label": "흉부 Q12 (#12)"
+    "q_label": "Q12"
   },
   {
     "id": "영상의학과_26Y_Q13",
@@ -1448,7 +1426,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 13,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "폐색전증(PE) 예방을 위한 하대정맥 필터(IVC Filter) 삽입술",
     "subspecialty": "인터벤션 영상의학",
     "stem": "다음 X-ray에서 보이는 것에 대한 설명으로 옳은 것은?",
@@ -1528,7 +1506,6 @@
     ],
     "raw_questions": [
       "26Y-13",
-      "26Y-인터벤션01",
       "22Y-11",
       "22Y-흉부11"
     ],
@@ -1576,7 +1553,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 1,
-    "q_label": "인터벤션 Q01 (#13)"
+    "q_label": "Q13"
   },
   {
     "id": "영상의학과_26Y_Q14",
@@ -1664,13 +1641,10 @@
     ],
     "raw_questions": [
       "26Y-14",
-      "26Y-인터벤션02",
       "23Y-20",
-      "23Y-인터벤션04",
       "22Y-44",
       "22Y-인터벤션02",
-      "21Y-30",
-      "21Y-인터벤션05"
+      "21Y-30"
     ],
     "option_explanations": [
       {
@@ -1716,7 +1690,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 2,
-    "q_label": "인터벤션 Q02 (#14)"
+    "q_label": "Q14"
   },
   {
     "id": "영상의학과_26Y_Q15",
@@ -1791,8 +1765,7 @@
       "26Y"
     ],
     "raw_questions": [
-      "26Y-15",
-      "26Y-인터벤션03"
+      "26Y-15"
     ],
     "option_explanations": [
       {
@@ -1830,7 +1803,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 3,
-    "q_label": "인터벤션 Q03 (#15)"
+    "q_label": "Q15"
   },
   {
     "id": "영상의학과_26Y_Q16",
@@ -1907,7 +1880,6 @@
     ],
     "raw_questions": [
       "26Y-16",
-      "26Y-인터벤션04",
       "22Y-49",
       "22Y-인터벤션07"
     ],
@@ -1947,7 +1919,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 4,
-    "q_label": "인터벤션 Q04 (#16)"
+    "q_label": "Q16"
   },
   {
     "id": "영상의학과_26Y_Q17",
@@ -2036,11 +2008,9 @@
     ],
     "raw_questions": [
       "26Y-17",
-      "26Y-복부01",
       "22Y-12",
       "22Y-복부01",
-      "21Y-14",
-      "21Y-복부09"
+      "21Y-14"
     ],
     "option_explanations": [
       {
@@ -2086,7 +2056,7 @@
     ],
     "section": "복부",
     "section_q_num": 1,
-    "q_label": "복부 Q01 (#17)"
+    "q_label": "Q17"
   },
   {
     "id": "영상의학과_26Y_Q18",
@@ -2094,7 +2064,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 18,
-    "category": "반짤",
+    "category": "탈",
     "theme_title": "급성 음낭 통증 환아의 고환 염전(Testicular Torsion) 초음파 소견",
     "subspecialty": "복부 영상의학",
     "stem": "11세 남아가 12시간 전부터 갑자기 시작된 고환 통증을 주소로 응급실에 내원하여 시행한 초음파이다. 진단은? (A. gray scale, B. color doppler scan)",
@@ -2174,9 +2144,7 @@
     ],
     "raw_questions": [
       "26Y-18",
-      "26Y-복부02",
-      "20Y-18",
-      "20Y-복부09"
+      "20Y-18"
     ],
     "option_explanations": [
       {
@@ -2222,7 +2190,7 @@
     ],
     "section": "복부",
     "section_q_num": 2,
-    "q_label": "복부 Q02 (#18)"
+    "q_label": "Q18"
   },
   {
     "id": "영상의학과_26Y_Q19",
@@ -2311,11 +2279,8 @@
     ],
     "raw_questions": [
       "26Y-19",
-      "26Y-유방01",
       "21Y-01",
-      "21Y-유방01",
-      "20Y-21",
-      "20Y-유방02"
+      "20Y-21"
     ],
     "option_explanations": [
       {
@@ -2361,7 +2326,7 @@
     ],
     "section": "유방",
     "section_q_num": 1,
-    "q_label": "유방 Q01 (#19)"
+    "q_label": "Q19"
   },
   {
     "id": "영상의학과_26Y_Q20",
@@ -2369,7 +2334,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 20,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "유방 초음파 악성 소견 및 BI-RADS 카테고리 판정 기준",
     "subspecialty": "유방 영상의학",
     "stem": "62세 여자의 유방초음파 소견이다. 설명으로 틀린 것 은?",
@@ -2449,9 +2414,7 @@
     ],
     "raw_questions": [
       "26Y-20",
-      "26Y-유방02",
-      "21Y-02",
-      "21Y-유방02"
+      "21Y-02"
     ],
     "option_explanations": [
       {
@@ -2497,7 +2460,7 @@
     ],
     "section": "유방",
     "section_q_num": 2,
-    "q_label": "유방 Q02 (#20)"
+    "q_label": "Q20"
   },
   {
     "id": "영상의학과_26Y_Q21",
@@ -2505,7 +2468,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 21,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "유방촬영술(Mammography) 표준 2대 촬영법 조합",
     "subspecialty": "유방 영상의학",
     "stem": "유방촬영술 view의 맞는 조합은?",
@@ -2585,9 +2548,7 @@
     ],
     "raw_questions": [
       "26Y-21",
-      "26Y-유방03",
-      "21Y-03",
-      "21Y-유방03"
+      "21Y-03"
     ],
     "option_explanations": [
       {
@@ -2633,7 +2594,7 @@
     ],
     "section": "유방",
     "section_q_num": 3,
-    "q_label": "유방 Q03 (#21)"
+    "q_label": "Q21"
   },
   {
     "id": "영상의학과_26Y_Q22",
@@ -2713,11 +2674,8 @@
     ],
     "raw_questions": [
       "26Y-22",
-      "26Y-신경01",
       "21Y-46",
-      "21Y-신경04",
-      "20Y-30",
-      "20Y-신경03"
+      "20Y-30"
     ],
     "option_explanations": [
       {
@@ -2755,7 +2713,7 @@
     ],
     "section": "신경",
     "section_q_num": 1,
-    "q_label": "신경 Q01 (#22)"
+    "q_label": "Q22"
   },
   {
     "id": "영상의학과_26Y_Q23",
@@ -2763,7 +2721,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 23,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "소뇌교각부(CP Angle) 종양: 전정신경초종(Vestibular Schwannoma)",
     "subspecialty": "신경 영상의학",
     "stem": "30대 여성 우측 난청 호소. Brain MRI axial 사진 보 고, rt. CPA cistern에서 보이는 병변을 진단하시오",
@@ -2834,9 +2792,7 @@
     ],
     "raw_questions": [
       "26Y-23",
-      "26Y-신경02",
-      "20Y-31",
-      "20Y-신경04"
+      "20Y-31"
     ],
     "option_explanations": [
       {
@@ -2874,7 +2830,7 @@
     ],
     "section": "신경",
     "section_q_num": 2,
-    "q_label": "신경 Q02 (#23)"
+    "q_label": "Q23"
   },
   {
     "id": "영상의학과_26Y_Q24",
@@ -2953,9 +2909,7 @@
     ],
     "raw_questions": [
       "26Y-24",
-      "26Y-신경03",
-      "20Y-35",
-      "20Y-신경08"
+      "20Y-35"
     ],
     "option_explanations": [
       {
@@ -2993,7 +2947,7 @@
     ],
     "section": "신경",
     "section_q_num": 3,
-    "q_label": "신경 Q03 (#24)"
+    "q_label": "Q24"
   },
   {
     "id": "영상의학과_26Y_Q25",
@@ -3071,11 +3025,8 @@
     ],
     "raw_questions": [
       "26Y-25",
-      "26Y-신경04",
       "23Y-30",
-      "23Y-신경01",
-      "21Y-48",
-      "21Y-신경06"
+      "21Y-48"
     ],
     "option_explanations": [
       {
@@ -3113,7 +3064,7 @@
     ],
     "section": "신경",
     "section_q_num": 4,
-    "q_label": "신경 Q04 (#25)"
+    "q_label": "Q25"
   },
   {
     "id": "영상의학과_26Y_Q26",
@@ -3193,11 +3144,8 @@
     ],
     "raw_questions": [
       "26Y-26",
-      "26Y-신경05",
       "23Y-31",
-      "23Y-신경02",
-      "20Y-32",
-      "20Y-신경05"
+      "20Y-32"
     ],
     "option_explanations": [
       {
@@ -3235,7 +3183,7 @@
     ],
     "section": "신경",
     "section_q_num": 5,
-    "q_label": "신경 Q05 (#26)"
+    "q_label": "Q26"
   },
   {
     "id": "영상의학과_26Y_Q27",
@@ -3321,8 +3269,7 @@
       "26Y"
     ],
     "raw_questions": [
-      "26Y-27",
-      "26Y-신경06"
+      "26Y-27"
     ],
     "option_explanations": [
       {
@@ -3368,7 +3315,7 @@
     ],
     "section": "신경",
     "section_q_num": 6,
-    "q_label": "신경 Q06 (#27)"
+    "q_label": "Q27"
   },
   {
     "id": "영상의학과_26Y_Q28",
@@ -3438,9 +3385,7 @@
     ],
     "raw_questions": [
       "26Y-28",
-      "26Y-신경07",
-      "21Y-43",
-      "21Y-신경01"
+      "21Y-43"
     ],
     "option_explanations": [
       {
@@ -3470,7 +3415,7 @@
     ],
     "section": "신경",
     "section_q_num": 7,
-    "q_label": "신경 Q07 (#28)"
+    "q_label": "Q28"
   },
   {
     "id": "영상의학과_26Y_Q29",
@@ -3550,11 +3495,9 @@
     ],
     "raw_questions": [
       "26Y-29",
-      "26Y-복부03",
       "22Y-14",
       "22Y-복부03",
-      "21Y-26",
-      "21Y-인터벤션01"
+      "21Y-26"
     ],
     "option_explanations": [
       {
@@ -3592,7 +3535,7 @@
     ],
     "section": "복부",
     "section_q_num": 3,
-    "q_label": "복부 Q03 (#29)"
+    "q_label": "Q29"
   },
   {
     "id": "영상의학과_26Y_Q30",
@@ -3671,9 +3614,7 @@
     ],
     "raw_questions": [
       "26Y-30",
-      "26Y-복부04",
-      "23Y-02",
-      "23Y-복부01"
+      "23Y-02"
     ],
     "option_explanations": [
       {
@@ -3711,7 +3652,7 @@
     ],
     "section": "복부",
     "section_q_num": 4,
-    "q_label": "복부 Q04 (#30)"
+    "q_label": "Q30"
   },
   {
     "id": "영상의학과_26Y_Q31",
@@ -3719,7 +3660,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 31,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "크론병(Crohn’s Disease)의 소장 조영/CT 영상 특징",
     "subspecialty": "복부 영상의학",
     "stem": "다음 영상 특징으로 옳은 것은?(Crohn’s disease)",
@@ -3799,7 +3740,6 @@
     ],
     "raw_questions": [
       "26Y-31",
-      "26Y-복부05",
       "22Y-17",
       "22Y-복부06"
     ],
@@ -3847,7 +3787,7 @@
     ],
     "section": "복부",
     "section_q_num": 5,
-    "q_label": "복부 Q05 (#31)"
+    "q_label": "Q31"
   },
   {
     "id": "영상의학과_26Y_Q32",
@@ -3933,8 +3873,7 @@
       "26Y"
     ],
     "raw_questions": [
-      "26Y-32",
-      "26Y-복부06"
+      "26Y-32"
     ],
     "option_explanations": [
       {
@@ -3980,7 +3919,7 @@
     ],
     "section": "복부",
     "section_q_num": 6,
-    "q_label": "복부 Q06 (#32)"
+    "q_label": "Q32"
   },
   {
     "id": "영상의학과_26Y_Q33",
@@ -3988,7 +3927,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 33,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "신장 초음파의 가성 종양 감별: 베르탱 기둥 비대(Prominent Column of Bertin)",
     "subspecialty": "복부 영상의학",
     "stem": "신장초음파에서 발견된 다음 소견의 진단명은? (신장 초 음파 + 도플러 사진) (동일한 사진 못 찾았고 해당 질환 구글링해서 비슷해보이는 사진 넣음. 실제 시험에서는 왼쪽 - 초음파, 오른쪽 - 도플 러 사진이었고, renal papilla가 조금 dilatation 되어 있고 신장 실질 부위에 아래 사진과 같이 cystic lesion 들이 군 데군데 있었으나, 전형적인 multiple renal cysts처럼 많지 않았습니다. 아래 사진과 비슷한 밀도였습니다.)",
@@ -4059,7 +3998,6 @@
     ],
     "raw_questions": [
       "26Y-33",
-      "26Y-복부07",
       "22Y-13",
       "22Y-복부02"
     ],
@@ -4099,7 +4037,7 @@
     ],
     "section": "복부",
     "section_q_num": 7,
-    "q_label": "복부 Q07 (#33)"
+    "q_label": "Q33"
   },
   {
     "id": "영상의학과_26Y_Q34",
@@ -4107,7 +4045,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 34,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "복부 CT에서 간 인대 해부학: 겸상인대(Falciform Ligament)",
     "subspecialty": "복부 영상의학",
     "stem": "화살표로 가리키는 구조물의 이름은?",
@@ -4178,9 +4116,7 @@
     ],
     "raw_questions": [
       "26Y-34",
-      "26Y-복부08",
-      "21Y-12",
-      "21Y-복부07"
+      "21Y-12"
     ],
     "option_explanations": [
       {
@@ -4218,7 +4154,7 @@
     ],
     "section": "복부",
     "section_q_num": 8,
-    "q_label": "복부 Q08 (#34)"
+    "q_label": "Q34"
   },
   {
     "id": "영상의학과_26Y_Q35",
@@ -4226,7 +4162,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 35,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "간 종괴의 CT/MRI 다위상 영상 감별: 간혈관종(Hepatic Hemangioma)",
     "subspecialty": "복부 영상의학",
     "stem": "82/F, aFP 상승으로 요양병원에서 내원하였다. 혈액검 사 결과 WBC 8,600(lymphocyte 69%), CRP 1.97이었 다. CT 3 phase와 B-value DWI MRI 소견은 다음과 같 다. 환자의 진단으로 알맞은 것은? (CT 소견은 3장이었고, 아래 사진은 아니었지만 비슷한 느낌 이었음. size가 컸음. MRI 소견을 줬는데 병변 전체적으로 gadolinium enhancement로 signal intensity 증가해 있 었음)",
@@ -4298,11 +4234,9 @@
     ],
     "raw_questions": [
       "26Y-35",
-      "26Y-복부09",
       "22Y-16",
       "22Y-복부05",
-      "21Y-11",
-      "21Y-복부06"
+      "21Y-11"
     ],
     "option_explanations": [
       {
@@ -4340,7 +4274,7 @@
     ],
     "section": "복부",
     "section_q_num": 9,
-    "q_label": "복부 Q09 (#35)"
+    "q_label": "Q35"
   },
   {
     "id": "영상의학과_26Y_Q36",
@@ -4348,7 +4282,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 36,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "간농양(Liver Abscess)의 초음파/CT 소견 및 경피적 배액술(PCD)",
     "subspecialty": "복부 영상의학",
     "stem": "76세 여성이 내원 10일전 기력저하와 오한 나타났고, 일주일 전부터 증상이 악화되었다. 내원 당일 발열과 상복부 통증으로 응급실 내원하였다. 환자의 질환에 대한 치료로 알 맞은 것은?",
@@ -4428,7 +4362,6 @@
     ],
     "raw_questions": [
       "26Y-36",
-      "26Y-복부10",
       "22Y-15",
       "22Y-복부04"
     ],
@@ -4476,7 +4409,7 @@
     ],
     "section": "복부",
     "section_q_num": 10,
-    "q_label": "복부 Q10 (#36)"
+    "q_label": "Q36"
   },
   {
     "id": "영상의학과_26Y_Q37",
@@ -4556,9 +4489,7 @@
     ],
     "raw_questions": [
       "26Y-37",
-      "26Y-복부11",
-      "21Y-07",
-      "21Y-복부02"
+      "21Y-07"
     ],
     "option_explanations": [
       {
@@ -4596,7 +4527,7 @@
     ],
     "section": "복부",
     "section_q_num": 11,
-    "q_label": "복부 Q11 (#37)"
+    "q_label": "Q37"
   },
   {
     "id": "영상의학과_26Y_Q38",
@@ -4604,7 +4535,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 38,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "서혜부 종괴를 주소로 내원한 남성의 서혜부 탈장(Inguinal Hernia)",
     "subspecialty": "복부 영상의학",
     "stem": "52세 남성이 복통으로 내원하였다. 신체진찰에서 좌측 서혜부 종괴가 만져진다. 진단은? (사진 총 3개, coronal 2 개 있었음)",
@@ -4675,9 +4606,7 @@
     ],
     "raw_questions": [
       "26Y-38",
-      "26Y-복부12",
-      "21Y-09",
-      "21Y-복부04"
+      "21Y-09"
     ],
     "option_explanations": [
       {
@@ -4715,7 +4644,7 @@
     ],
     "section": "복부",
     "section_q_num": 12,
-    "q_label": "복부 Q12 (#38)"
+    "q_label": "Q38"
   },
   {
     "id": "영상의학과_26Y_Q39",
@@ -4783,7 +4712,6 @@
     ],
     "raw_questions": [
       "26Y-39",
-      "26Y-복부13",
       "22Y-26",
       "22Y-복부15"
     ],
@@ -4815,7 +4743,7 @@
     ],
     "section": "복부",
     "section_q_num": 13,
-    "q_label": "복부 Q13 (#39)"
+    "q_label": "Q39"
   },
   {
     "id": "영상의학과_26Y_Q40",
@@ -4902,11 +4830,9 @@
     ],
     "raw_questions": [
       "26Y-40",
-      "26Y-인터벤션05",
       "22Y-43",
       "22Y-인터벤션01",
-      "21Y-28",
-      "21Y-인터벤션03"
+      "21Y-28"
     ],
     "option_explanations": [
       {
@@ -4952,7 +4878,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 5,
-    "q_label": "인터벤션 Q05 (#40)"
+    "q_label": "Q40"
   },
   {
     "id": "영상의학과_26Y_Q41",
@@ -4960,7 +4886,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 41,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "요관 결석(Ureter Stone)의 3대 생리적 호발/협착 부위",
     "subspecialty": "복부 영상의학",
     "stem": "Ureter stone 가장 잘 생기는 부위는?",
@@ -5029,9 +4955,7 @@
     ],
     "raw_questions": [
       "26Y-41",
-      "26Y-복부14",
-      "23Y-15",
-      "23Y-복부14"
+      "23Y-15"
     ],
     "option_explanations": [
       {
@@ -5069,7 +4993,7 @@
     ],
     "section": "복부",
     "section_q_num": 14,
-    "q_label": "복부 Q14 (#41)"
+    "q_label": "Q41"
   },
   {
     "id": "영상의학과_26Y_Q42",
@@ -5155,8 +5079,7 @@
       "26Y"
     ],
     "raw_questions": [
-      "26Y-42",
-      "26Y-MSK01"
+      "26Y-42"
     ],
     "option_explanations": [
       {
@@ -5202,7 +5125,7 @@
     ],
     "section": "MSK",
     "section_q_num": 1,
-    "q_label": "MSK Q01 (#42)"
+    "q_label": "Q42"
   },
   {
     "id": "영상의학과_26Y_Q43",
@@ -5210,7 +5133,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 43,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "미만성 특발성 골격 과골증(DISH)과 후종인대골화증(OPLL)의 병발",
     "subspecialty": "근골격 영상의학",
     "stem": "다음 영상을 보고 진단하시오.",
@@ -5281,7 +5204,6 @@
     ],
     "raw_questions": [
       "26Y-43",
-      "26Y-MSK02",
       "22Y-35",
       "22Y-MSK08"
     ],
@@ -5321,7 +5243,7 @@
     ],
     "section": "MSK",
     "section_q_num": 2,
-    "q_label": "MSK Q02 (#43)"
+    "q_label": "Q43"
   },
   {
     "id": "영상의학과_26Y_Q44",
@@ -5329,7 +5251,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 44,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "경추 사위상(C-spine Oblique View)에서 추간공 협착과 신경근 압박",
     "subspecialty": "근골격 영상의학",
     "stem": "(C-spine left lateral view, right oblique view 주 어짐.) 압박받고 있는 신경은 무엇인가?",
@@ -5407,9 +5329,7 @@
     ],
     "raw_questions": [
       "26Y-44",
-      "26Y-MSK03",
-      "21Y-23",
-      "21Y-MSK06"
+      "21Y-23"
     ],
     "option_explanations": [
       {
@@ -5455,7 +5375,7 @@
     ],
     "section": "MSK",
     "section_q_num": 3,
-    "q_label": "MSK Q03 (#44)"
+    "q_label": "Q44"
   },
   {
     "id": "영상의학과_26Y_Q45",
@@ -5463,7 +5383,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 45,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "인공관절 치환 환자 골반 골절 평가를 위한 복부/골반 CT의 가치",
     "subspecialty": "근골격 영상의학",
     "stem": "femur 인공 관절 심어져 있는 골반 골절 사진. 다음 해 야 할 검사에 대한 설명으로 옳은 것은?",
@@ -5532,7 +5452,6 @@
     ],
     "raw_questions": [
       "26Y-45",
-      "26Y-MSK04",
       "22Y-29",
       "22Y-MSK02"
     ],
@@ -5572,7 +5491,7 @@
     ],
     "section": "MSK",
     "section_q_num": 4,
-    "q_label": "MSK Q04 (#45)"
+    "q_label": "Q45"
   },
   {
     "id": "영상의학과_26Y_Q46",
@@ -5649,8 +5568,7 @@
       "26Y"
     ],
     "raw_questions": [
-      "26Y-46",
-      "26Y-MSK05"
+      "26Y-46"
     ],
     "option_explanations": [
       {
@@ -5688,7 +5606,7 @@
     ],
     "section": "MSK",
     "section_q_num": 5,
-    "q_label": "MSK Q05 (#46)"
+    "q_label": "Q46"
   },
   {
     "id": "영상의학과_26Y_Q47",
@@ -5696,7 +5614,7 @@
     "subject": "영상의학과",
     "year": "26Y",
     "q_num": 47,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "골반뼈 골전이암(Bone Metastasis)의 혼합형 골병변 소견",
     "subspecialty": "근골격 영상의학",
     "stem": "다음 소견으로 옳은 것을 고르시오.",
@@ -5776,9 +5694,7 @@
     ],
     "raw_questions": [
       "26Y-47",
-      "26Y-MSK06",
-      "23Y-24",
-      "23Y-MSK03"
+      "23Y-24"
     ],
     "option_explanations": [
       {
@@ -5824,7 +5740,7 @@
     ],
     "section": "MSK",
     "section_q_num": 6,
-    "q_label": "MSK Q06 (#47)"
+    "q_label": "Q47"
   },
   {
     "id": "영상의학과_26Y_Q48",
@@ -5910,8 +5826,7 @@
       "26Y"
     ],
     "raw_questions": [
-      "26Y-48",
-      "26Y-MSK07"
+      "26Y-48"
     ],
     "option_explanations": [
       {
@@ -5957,7 +5872,7 @@
     ],
     "section": "MSK",
     "section_q_num": 7,
-    "q_label": "MSK Q07 (#48)"
+    "q_label": "Q48"
   },
   {
     "id": "영상의학과_26Y_Q49",
@@ -6034,8 +5949,7 @@
       "26Y"
     ],
     "raw_questions": [
-      "26Y-49",
-      "26Y-MSK08"
+      "26Y-49"
     ],
     "option_explanations": [
       {
@@ -6073,7 +5987,7 @@
     ],
     "section": "MSK",
     "section_q_num": 8,
-    "q_label": "MSK Q08 (#49)"
+    "q_label": "Q49"
   },
   {
     "id": "영상의학과_23Y_Q01",
@@ -6152,13 +6066,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-01",
-      "23Y-총론01"
+      "23Y-01"
     ],
     "option_explanations": [
       {
@@ -6204,7 +6117,7 @@
     ],
     "section": "총론",
     "section_q_num": 1,
-    "q_label": "총론 Q01 (#01)"
+    "q_label": "Q01"
   },
   {
     "id": "영상의학과_23Y_Q02",
@@ -6276,7 +6189,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "23Y",
@@ -6284,9 +6197,7 @@
     ],
     "raw_questions": [
       "23Y-02",
-      "23Y-복부01",
       "26Y-30",
-      "26Y-복부04",
       "22Y-14",
       "22Y-복부03"
     ],
@@ -6326,7 +6237,7 @@
     ],
     "section": "복부",
     "section_q_num": 1,
-    "q_label": "복부 Q01 (#02)"
+    "q_label": "Q02"
   },
   {
     "id": "영상의학과_23Y_Q03",
@@ -6405,14 +6316,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "22Y"
     ],
     "raw_questions": [
       "23Y-03",
-      "23Y-복부02",
       "22Y-15",
       "22Y-복부04"
     ],
@@ -6460,7 +6370,7 @@
     ],
     "section": "복부",
     "section_q_num": 2,
-    "q_label": "복부 Q02 (#03)"
+    "q_label": "Q03"
   },
   {
     "id": "영상의학과_23Y_Q04",
@@ -6532,7 +6442,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -6540,11 +6450,9 @@
     ],
     "raw_questions": [
       "23Y-04",
-      "23Y-복부03",
       "22Y-16",
       "22Y-복부05",
-      "21Y-11",
-      "21Y-복부06"
+      "21Y-11"
     ],
     "option_explanations": [
       {
@@ -6582,7 +6490,7 @@
     ],
     "section": "복부",
     "section_q_num": 3,
-    "q_label": "복부 Q03 (#04)"
+    "q_label": "Q04"
   },
   {
     "id": "영상의학과_23Y_Q05",
@@ -6654,16 +6562,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "21Y"
     ],
     "raw_questions": [
       "23Y-05",
-      "23Y-복부04",
-      "21Y-10",
-      "21Y-복부05"
+      "21Y-10"
     ],
     "option_explanations": [
       {
@@ -6701,7 +6607,7 @@
     ],
     "section": "복부",
     "section_q_num": 4,
-    "q_label": "복부 Q04 (#05)"
+    "q_label": "Q05"
   },
   {
     "id": "영상의학과_23Y_Q06",
@@ -6775,16 +6681,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "21Y"
     ],
     "raw_questions": [
       "23Y-06",
-      "23Y-복부05",
-      "21Y-08",
-      "21Y-복부03"
+      "21Y-08"
     ],
     "option_explanations": [
       {
@@ -6822,7 +6726,7 @@
     ],
     "section": "복부",
     "section_q_num": 5,
-    "q_label": "복부 Q05 (#06)"
+    "q_label": "Q06"
   },
   {
     "id": "영상의학과_23Y_Q07",
@@ -6894,14 +6798,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "22Y"
     ],
     "raw_questions": [
       "23Y-07",
-      "23Y-복부06",
       "22Y-13",
       "22Y-복부02"
     ],
@@ -6941,7 +6844,7 @@
     ],
     "section": "복부",
     "section_q_num": 6,
-    "q_label": "복부 Q06 (#07)"
+    "q_label": "Q07"
   },
   {
     "id": "영상의학과_23Y_Q08",
@@ -7005,14 +6908,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "22Y"
     ],
     "raw_questions": [
       "23Y-08",
-      "23Y-복부07",
       "22Y-19",
       "22Y-복부08"
     ],
@@ -7044,7 +6946,7 @@
     ],
     "section": "복부",
     "section_q_num": 7,
-    "q_label": "복부 Q07 (#08)"
+    "q_label": "Q08"
   },
   {
     "id": "영상의학과_23Y_Q09",
@@ -7108,13 +7010,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-09",
-      "23Y-복부08"
+      "23Y-09"
     ],
     "option_explanations": [
       {
@@ -7144,7 +7045,7 @@
     ],
     "section": "복부",
     "section_q_num": 8,
-    "q_label": "복부 Q08 (#09)"
+    "q_label": "Q09"
   },
   {
     "id": "영상의학과_23Y_Q10",
@@ -7227,13 +7128,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-10",
-      "23Y-복부09"
+      "23Y-10"
     ],
     "option_explanations": [
       {
@@ -7279,7 +7179,7 @@
     ],
     "section": "복부",
     "section_q_num": 9,
-    "q_label": "복부 Q09 (#10)"
+    "q_label": "Q10"
   },
   {
     "id": "영상의학과_23Y_Q11",
@@ -7342,14 +7242,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "22Y"
     ],
     "raw_questions": [
       "23Y-11",
-      "23Y-복부10",
       "22Y-20",
       "22Y-복부09"
     ],
@@ -7381,7 +7280,7 @@
     ],
     "section": "복부",
     "section_q_num": 10,
-    "q_label": "복부 Q10 (#11)"
+    "q_label": "Q11"
   },
   {
     "id": "영상의학과_23Y_Q12",
@@ -7390,7 +7289,7 @@
     "year": "23Y",
     "q_num": 12,
     "category": "반짤",
-    "theme_title": "[단독 기출] 다음 중 수술 안 하고 경과관찰 해도 되는 것은?",
+    "theme_title": "복부 양성 병변 중 수술 없이 경과관찰 가능한 질환 (담낭 용종 vs 담석/담낭염/천공)",
     "subspecialty": "복부 영상의학",
     "stem": "다음 중 수술 안 하고 경과관찰 해도 되는 것은?",
     "images": [
@@ -7401,11 +7300,11 @@
       "images/영상의학과/23Y_Q12_fig5.png"
     ],
     "options": [
-      "① 담낭 용종 (GB polyp, <10mm)",
-      "② 급성 담석성 담낭염",
-      "③ 기종성 담낭염",
-      "④ 담낭 천공",
-      "⑤ 석회화 담낭 (Porcelain GB)"
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
     ],
     "correct_option_index": 0,
     "correct_answer": "① 담낭 용종 (GB polyp, <10mm)",
@@ -7466,16 +7365,15 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
-      "21Y"
+      "22Y"
     ],
     "raw_questions": [
       "23Y-12",
-      "23Y-복부11",
-      "21Y-13",
-      "21Y-복부08"
+      "22Y-복부11",
+      "22Y-22"
     ],
     "option_explanations": [
       {
@@ -7521,7 +7419,9 @@
     ],
     "section": "복부",
     "section_q_num": 11,
-    "q_label": "복부 Q11 (#12)"
+    "q_label": "Q12",
+    "is_image_options": true,
+    "option_labels_post": null
   },
   {
     "id": "영상의학과_23Y_Q13",
@@ -7600,13 +7500,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-13",
-      "23Y-복부12"
+      "23Y-13"
     ],
     "option_explanations": [
       {
@@ -7652,7 +7551,7 @@
     ],
     "section": "복부",
     "section_q_num": 12,
-    "q_label": "복부 Q12 (#13)"
+    "q_label": "Q13"
   },
   {
     "id": "영상의학과_23Y_Q14",
@@ -7725,13 +7624,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-14",
-      "23Y-복부13"
+      "23Y-14"
     ],
     "option_explanations": [
       {
@@ -7769,7 +7667,7 @@
     ],
     "section": "복부",
     "section_q_num": 13,
-    "q_label": "복부 Q13 (#14)"
+    "q_label": "Q14"
   },
   {
     "id": "영상의학과_23Y_Q15",
@@ -7839,7 +7737,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "23Y",
@@ -7847,11 +7745,8 @@
     ],
     "raw_questions": [
       "23Y-15",
-      "23Y-복부14",
       "26Y-41",
-      "26Y-복부14",
-      "21Y-16",
-      "21Y-복부11"
+      "21Y-16"
     ],
     "option_explanations": [
       {
@@ -7889,7 +7784,7 @@
     ],
     "section": "복부",
     "section_q_num": 14,
-    "q_label": "복부 Q14 (#15)"
+    "q_label": "Q15"
   },
   {
     "id": "영상의학과_23Y_Q16",
@@ -7968,7 +7863,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -7976,11 +7871,9 @@
     ],
     "raw_questions": [
       "23Y-16",
-      "23Y-복부15",
       "22Y-12",
       "22Y-복부01",
-      "21Y-14",
-      "21Y-복부09"
+      "21Y-14"
     ],
     "option_explanations": [
       {
@@ -8026,7 +7919,7 @@
     ],
     "section": "복부",
     "section_q_num": 15,
-    "q_label": "복부 Q15 (#16)"
+    "q_label": "Q16"
   },
   {
     "id": "영상의학과_23Y_Q17",
@@ -8098,14 +7991,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "22Y"
     ],
     "raw_questions": [
       "23Y-17",
-      "23Y-인터벤션01",
       "22Y-47",
       "22Y-인터벤션05"
     ],
@@ -8145,7 +8037,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 1,
-    "q_label": "인터벤션 Q01 (#17)"
+    "q_label": "Q17"
   },
   {
     "id": "영상의학과_23Y_Q18",
@@ -8226,7 +8118,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -8234,11 +8126,9 @@
     ],
     "raw_questions": [
       "23Y-18",
-      "23Y-인터벤션02",
       "22Y-45",
       "22Y-인터벤션03",
-      "21Y-29",
-      "21Y-인터벤션04"
+      "21Y-29"
     ],
     "option_explanations": [
       {
@@ -8284,7 +8174,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 2,
-    "q_label": "인터벤션 Q02 (#18)"
+    "q_label": "Q18"
   },
   {
     "id": "영상의학과_23Y_Q19",
@@ -8363,13 +8253,12 @@
       4
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-19",
-      "23Y-인터벤션03"
+      "23Y-19"
     ],
     "option_explanations": [
       {
@@ -8415,7 +8304,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 3,
-    "q_label": "인터벤션 Q03 (#19)"
+    "q_label": "Q19"
   },
   {
     "id": "영상의학과_23Y_Q20",
@@ -8497,7 +8386,7 @@
       2
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "23Y",
@@ -8506,13 +8395,10 @@
     ],
     "raw_questions": [
       "23Y-20",
-      "23Y-인터벤션04",
       "26Y-14",
-      "26Y-인터벤션02",
       "22Y-44",
       "22Y-인터벤션02",
-      "21Y-30",
-      "21Y-인터벤션05"
+      "21Y-30"
     ],
     "option_explanations": [
       {
@@ -8558,7 +8444,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 4,
-    "q_label": "인터벤션 Q04 (#20)"
+    "q_label": "Q20"
   },
   {
     "id": "영상의학과_23Y_Q21",
@@ -8612,14 +8498,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "22Y"
     ],
     "raw_questions": [
       "23Y-21",
-      "23Y-인터벤션05",
       "22Y-11",
       "22Y-흉부11"
     ],
@@ -8643,7 +8528,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 5,
-    "q_label": "인터벤션 Q05 (#21)"
+    "q_label": "Q21"
   },
   {
     "id": "영상의학과_23Y_Q22",
@@ -8718,13 +8603,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-22",
-      "23Y-MSK01"
+      "23Y-22"
     ],
     "option_explanations": [
       {
@@ -8762,7 +8646,7 @@
     ],
     "section": "MSK",
     "section_q_num": 1,
-    "q_label": "MSK Q01 (#22)"
+    "q_label": "Q22"
   },
   {
     "id": "영상의학과_23Y_Q23",
@@ -8843,14 +8727,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "22Y"
     ],
     "raw_questions": [
       "23Y-23",
-      "23Y-MSK02",
       "22Y-35",
       "22Y-MSK08"
     ],
@@ -8898,7 +8781,7 @@
     ],
     "section": "MSK",
     "section_q_num": 2,
-    "q_label": "MSK Q02 (#23)"
+    "q_label": "Q23"
   },
   {
     "id": "영상의학과_23Y_Q24",
@@ -8971,7 +8854,7 @@
       3
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "23Y",
@@ -8979,11 +8862,8 @@
     ],
     "raw_questions": [
       "23Y-24",
-      "23Y-MSK03",
       "26Y-47",
-      "26Y-MSK06",
-      "21Y-23",
-      "21Y-MSK06"
+      "21Y-23"
     ],
     "option_explanations": [
       {
@@ -9021,7 +8901,7 @@
     ],
     "section": "MSK",
     "section_q_num": 3,
-    "q_label": "MSK Q03 (#24)"
+    "q_label": "Q24"
   },
   {
     "id": "영상의학과_23Y_Q25",
@@ -9085,13 +8965,12 @@
       1
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-25",
-      "23Y-MSK04"
+      "23Y-25"
     ],
     "option_explanations": [
       {
@@ -9121,7 +9000,7 @@
     ],
     "section": "MSK",
     "section_q_num": 4,
-    "q_label": "MSK Q04 (#25)"
+    "q_label": "Q25"
   },
   {
     "id": "영상의학과_23Y_Q26",
@@ -9193,13 +9072,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-26",
-      "23Y-MSK05"
+      "23Y-26"
     ],
     "option_explanations": [
       {
@@ -9237,7 +9115,7 @@
     ],
     "section": "MSK",
     "section_q_num": 5,
-    "q_label": "MSK Q05 (#26)"
+    "q_label": "Q26"
   },
   {
     "id": "영상의학과_23Y_Q27",
@@ -9310,13 +9188,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-27",
-      "23Y-MSK06"
+      "23Y-27"
     ],
     "option_explanations": [
       {
@@ -9354,7 +9231,7 @@
     ],
     "section": "MSK",
     "section_q_num": 6,
-    "q_label": "MSK Q06 (#27)"
+    "q_label": "Q27"
   },
   {
     "id": "영상의학과_23Y_Q28",
@@ -9435,13 +9312,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-28",
-      "23Y-MSK07"
+      "23Y-28"
     ],
     "option_explanations": [
       {
@@ -9487,7 +9363,7 @@
     ],
     "section": "MSK",
     "section_q_num": 7,
-    "q_label": "MSK Q07 (#28)"
+    "q_label": "Q28"
   },
   {
     "id": "영상의학과_23Y_Q29",
@@ -9569,13 +9445,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-29",
-      "23Y-MSK08"
+      "23Y-29"
     ],
     "option_explanations": [
       {
@@ -9621,7 +9496,7 @@
     ],
     "section": "MSK",
     "section_q_num": 8,
-    "q_label": "MSK Q08 (#29)"
+    "q_label": "Q29"
   },
   {
     "id": "영상의학과_23Y_Q30",
@@ -9700,7 +9575,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "23Y",
@@ -9709,13 +9584,10 @@
     ],
     "raw_questions": [
       "23Y-30",
-      "23Y-신경01",
       "26Y-25",
-      "26Y-신경04",
       "22Y-37",
       "22Y-신경02",
-      "21Y-47",
-      "21Y-신경05"
+      "21Y-47"
     ],
     "option_explanations": [
       {
@@ -9761,7 +9633,7 @@
     ],
     "section": "신경",
     "section_q_num": 1,
-    "q_label": "신경 Q01 (#30)"
+    "q_label": "Q30"
   },
   {
     "id": "영상의학과_23Y_Q31",
@@ -9833,7 +9705,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "23Y",
@@ -9842,13 +9714,10 @@
     ],
     "raw_questions": [
       "23Y-31",
-      "23Y-신경02",
       "26Y-26",
-      "26Y-신경05",
       "22Y-41",
       "22Y-신경06",
-      "20Y-32",
-      "20Y-신경05"
+      "20Y-32"
     ],
     "option_explanations": [
       {
@@ -9886,7 +9755,7 @@
     ],
     "section": "신경",
     "section_q_num": 2,
-    "q_label": "신경 Q02 (#31)"
+    "q_label": "Q31"
   },
   {
     "id": "영상의학과_23Y_Q32",
@@ -9967,13 +9836,12 @@
       1
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-32",
-      "23Y-신경03"
+      "23Y-32"
     ],
     "option_explanations": [
       {
@@ -10019,7 +9887,7 @@
     ],
     "section": "신경",
     "section_q_num": 3,
-    "q_label": "신경 Q03 (#32)"
+    "q_label": "Q32"
   },
   {
     "id": "영상의학과_23Y_Q33",
@@ -10073,16 +9941,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "21Y"
     ],
     "raw_questions": [
       "23Y-33",
-      "23Y-신경04",
-      "21Y-43",
-      "21Y-신경01"
+      "21Y-43"
     ],
     "option_explanations": [
       {
@@ -10104,7 +9970,7 @@
     ],
     "section": "신경",
     "section_q_num": 4,
-    "q_label": "신경 Q04 (#33)"
+    "q_label": "Q33"
   },
   {
     "id": "영상의학과_23Y_Q34",
@@ -10176,13 +10042,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-34",
-      "23Y-신경05"
+      "23Y-34"
     ],
     "option_explanations": [
       {
@@ -10220,7 +10085,7 @@
     ],
     "section": "신경",
     "section_q_num": 5,
-    "q_label": "신경 Q05 (#34)"
+    "q_label": "Q34"
   },
   {
     "id": "영상의학과_23Y_Q35",
@@ -10292,13 +10157,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-35",
-      "23Y-신경06"
+      "23Y-35"
     ],
     "option_explanations": [
       {
@@ -10336,7 +10200,7 @@
     ],
     "section": "신경",
     "section_q_num": 6,
-    "q_label": "신경 Q06 (#35)"
+    "q_label": "Q35"
   },
   {
     "id": "영상의학과_23Y_Q36",
@@ -10417,13 +10281,12 @@
       1
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-36",
-      "23Y-신경07"
+      "23Y-36"
     ],
     "option_explanations": [
       {
@@ -10469,7 +10332,7 @@
     ],
     "section": "신경",
     "section_q_num": 7,
-    "q_label": "신경 Q07 (#36)"
+    "q_label": "Q36"
   },
   {
     "id": "영상의학과_23Y_Q37",
@@ -10533,16 +10396,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "21Y"
     ],
     "raw_questions": [
       "23Y-37",
-      "23Y-신경08",
-      "21Y-49",
-      "21Y-신경07"
+      "21Y-49"
     ],
     "option_explanations": [
       {
@@ -10572,7 +10433,7 @@
     ],
     "section": "신경",
     "section_q_num": 8,
-    "q_label": "신경 Q08 (#37)"
+    "q_label": "Q37"
   },
   {
     "id": "영상의학과_23Y_Q38",
@@ -10642,13 +10503,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-38",
-      "23Y-신경09"
+      "23Y-38"
     ],
     "option_explanations": [
       {
@@ -10686,7 +10546,7 @@
     ],
     "section": "신경",
     "section_q_num": 9,
-    "q_label": "신경 Q09 (#38)"
+    "q_label": "Q38"
   },
   {
     "id": "영상의학과_23Y_Q39",
@@ -10747,13 +10607,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-39",
-      "23Y-흉부01"
+      "23Y-39"
     ],
     "option_explanations": [
       {
@@ -10783,7 +10642,7 @@
     ],
     "section": "흉부",
     "section_q_num": 1,
-    "q_label": "흉부 Q01 (#39)"
+    "q_label": "Q39"
   },
   {
     "id": "영상의학과_23Y_Q40",
@@ -10853,7 +10712,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -10861,11 +10720,9 @@
     ],
     "raw_questions": [
       "23Y-40",
-      "23Y-흉부02",
       "22Y-10",
       "22Y-흉부10",
-      "21Y-37",
-      "21Y-흉부07"
+      "21Y-37"
     ],
     "option_explanations": [
       {
@@ -10903,7 +10760,7 @@
     ],
     "section": "흉부",
     "section_q_num": 2,
-    "q_label": "흉부 Q02 (#40)"
+    "q_label": "Q40"
   },
   {
     "id": "영상의학과_23Y_Q41",
@@ -10975,7 +10832,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -10983,11 +10840,9 @@
     ],
     "raw_questions": [
       "23Y-41",
-      "23Y-흉부03",
       "22Y-03",
       "22Y-흉부03",
-      "21Y-36",
-      "21Y-흉부06"
+      "21Y-36"
     ],
     "option_explanations": [
       {
@@ -11025,7 +10880,7 @@
     ],
     "section": "흉부",
     "section_q_num": 3,
-    "q_label": "흉부 Q03 (#41)"
+    "q_label": "Q41"
   },
   {
     "id": "영상의학과_23Y_Q42",
@@ -11104,13 +10959,12 @@
       3
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-42",
-      "23Y-흉부04"
+      "23Y-42"
     ],
     "option_explanations": [
       {
@@ -11156,7 +11010,7 @@
     ],
     "section": "흉부",
     "section_q_num": 4,
-    "q_label": "흉부 Q04 (#42)"
+    "q_label": "Q42"
   },
   {
     "id": "영상의학과_23Y_Q43",
@@ -11228,13 +11082,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-43",
-      "23Y-흉부05"
+      "23Y-43"
     ],
     "option_explanations": [
       {
@@ -11272,7 +11125,7 @@
     ],
     "section": "흉부",
     "section_q_num": 5,
-    "q_label": "흉부 Q05 (#43)"
+    "q_label": "Q43"
   },
   {
     "id": "영상의학과_23Y_Q44",
@@ -11327,13 +11180,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-44",
-      "23Y-흉부06"
+      "23Y-44"
     ],
     "option_explanations": [
       {
@@ -11355,7 +11207,7 @@
     ],
     "section": "흉부",
     "section_q_num": 6,
-    "q_label": "흉부 Q06 (#44)"
+    "q_label": "Q44"
   },
   {
     "id": "영상의학과_23Y_Q45",
@@ -11436,13 +11288,12 @@
       4
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-45",
-      "23Y-흉부07"
+      "23Y-45"
     ],
     "option_explanations": [
       {
@@ -11488,7 +11339,7 @@
     ],
     "section": "흉부",
     "section_q_num": 7,
-    "q_label": "흉부 Q07 (#45)"
+    "q_label": "Q45"
   },
   {
     "id": "영상의학과_23Y_Q46",
@@ -11542,13 +11393,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-46",
-      "23Y-흉부08"
+      "23Y-46"
     ],
     "option_explanations": [
       {
@@ -11570,7 +11420,7 @@
     ],
     "section": "흉부",
     "section_q_num": 8,
-    "q_label": "흉부 Q08 (#46)"
+    "q_label": "Q46"
   },
   {
     "id": "영상의학과_23Y_Q47",
@@ -11642,7 +11492,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "23Y",
@@ -11650,11 +11500,8 @@
     ],
     "raw_questions": [
       "23Y-47",
-      "23Y-흉부09",
       "26Y-05",
-      "26Y-흉부05",
-      "21Y-41",
-      "21Y-흉부11"
+      "21Y-41"
     ],
     "option_explanations": [
       {
@@ -11692,7 +11539,7 @@
     ],
     "section": "흉부",
     "section_q_num": 9,
-    "q_label": "흉부 Q09 (#47)"
+    "q_label": "Q47"
   },
   {
     "id": "영상의학과_23Y_Q48",
@@ -11773,14 +11620,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "22Y"
     ],
     "raw_questions": [
       "23Y-48",
-      "23Y-흉부10",
       "22Y-09",
       "22Y-흉부09"
     ],
@@ -11828,7 +11674,7 @@
     ],
     "section": "흉부",
     "section_q_num": 10,
-    "q_label": "흉부 Q10 (#48)"
+    "q_label": "Q48"
   },
   {
     "id": "영상의학과_23Y_Q49",
@@ -11900,13 +11746,12 @@
       1
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "23Y"
     ],
     "raw_questions": [
-      "23Y-49",
-      "23Y-흉부11"
+      "23Y-49"
     ],
     "option_explanations": [
       {
@@ -11944,7 +11789,7 @@
     ],
     "section": "흉부",
     "section_q_num": 11,
-    "q_label": "흉부 Q11 (#49)"
+    "q_label": "Q49"
   },
   {
     "id": "영상의학과_22Y_Q01",
@@ -11954,7 +11799,7 @@
     "q_num": 1,
     "section": "흉부",
     "section_q_num": 1,
-    "q_label": "흉부 Q01 (#01)",
+    "q_label": "흉부 01번",
     "category": "짤",
     "theme_title": "우상엽 무기폐(RUL Atelectasis)와 Golden S sign",
     "subspecialty": "흉부 영상의학",
@@ -12028,7 +11873,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "22Y",
@@ -12039,11 +11884,8 @@
       "22Y-01",
       "22Y-흉부01",
       "26Y-10",
-      "26Y-흉부10",
       "21Y-40",
-      "21Y-흉부10",
-      "20Y-02",
-      "20Y-흉부02"
+      "20Y-02"
     ],
     "option_explanations": [
       {
@@ -12086,7 +11928,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-흉부01"
   },
   {
     "id": "영상의학과_22Y_Q02",
@@ -12096,7 +11939,7 @@
     "q_num": 2,
     "section": "흉부",
     "section_q_num": 2,
-    "q_label": "흉부 Q02 (#02)",
+    "q_label": "흉부 02번",
     "category": "짤",
     "theme_title": "우상엽 무기폐(RUL Atelectasis) 흉부 X선 판독",
     "subspecialty": "흉부 영상의학",
@@ -12161,7 +12004,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "22Y",
@@ -12172,11 +12015,8 @@
       "22Y-02",
       "22Y-흉부02",
       "26Y-10",
-      "26Y-흉부10",
       "21Y-34",
-      "21Y-흉부04",
-      "20Y-04",
-      "20Y-흉부04"
+      "20Y-04"
     ],
     "option_explanations": [
       {
@@ -12211,7 +12051,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-흉부02"
   },
   {
     "id": "영상의학과_22Y_Q03",
@@ -12221,7 +12062,7 @@
     "q_num": 3,
     "section": "흉부",
     "section_q_num": 3,
-    "q_label": "흉부 Q03 (#03)",
+    "q_label": "흉부 03번",
     "category": "짤",
     "theme_title": "활동성 폐결핵(Active TB)의 공동 및 결절 소견",
     "subspecialty": "흉부 영상의학",
@@ -12295,7 +12136,7 @@
       0
     ],
     "freq_count": 5,
-    "rate": 100,
+    "rate": 83,
     "freq_years": [
       "26Y",
       "23Y",
@@ -12307,13 +12148,9 @@
       "22Y-03",
       "22Y-흉부03",
       "26Y-06",
-      "26Y-흉부06",
       "23Y-41",
-      "23Y-흉부03",
       "21Y-42",
-      "21Y-흉부12",
-      "20Y-05",
-      "20Y-흉부05"
+      "20Y-05"
     ],
     "option_explanations": [
       {
@@ -12356,7 +12193,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-흉부03"
   },
   {
     "id": "영상의학과_22Y_Q04",
@@ -12366,7 +12204,7 @@
     "q_num": 4,
     "section": "흉부",
     "section_q_num": 4,
-    "q_label": "흉부 Q04 (#04)",
+    "q_label": "흉부 04번",
     "category": "반짤",
     "theme_title": "흉부 PA 판독 및 우상엽 고립성 폐결절 감별",
     "subspecialty": "흉부 영상의학",
@@ -12440,7 +12278,7 @@
       4
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "20Y"
@@ -12448,8 +12286,7 @@
     "raw_questions": [
       "22Y-04",
       "22Y-흉부04",
-      "20Y-08",
-      "20Y-흉부08"
+      "20Y-08"
     ],
     "option_explanations": [
       {
@@ -12492,7 +12329,8 @@
         "tag": "정답",
         "reason": "Chest PA에서 견갑골(scapula)이 외측으로 견인되어 폐야를 침범하지 않으며 우상엽에 약 3~4cm 크기의 종괴성 결절이 관찰됨. 좌측 폐야에는 내장측 흉막선(visceral pleural line)이나 기흉 소견이 전혀 관찰되지 않음."
       }
-    ]
+    ],
+    "internal_index": "22Y-흉부04"
   },
   {
     "id": "영상의학과_22Y_Q05",
@@ -12502,7 +12340,7 @@
     "q_num": 5,
     "section": "흉부",
     "section_q_num": 5,
-    "q_label": "흉부 Q05 (#05)",
+    "q_label": "흉부 05번",
     "category": "짤",
     "theme_title": "폐농양(Lung Abscess)의 공기-액체면(Air-fluid level)",
     "subspecialty": "흉부 영상의학",
@@ -12576,7 +12414,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "22Y",
@@ -12587,11 +12425,8 @@
       "22Y-05",
       "22Y-흉부05",
       "26Y-07",
-      "26Y-흉부07",
       "21Y-38",
-      "21Y-흉부08",
-      "20Y-09",
-      "20Y-흉부09"
+      "20Y-09"
     ],
     "option_explanations": [
       {
@@ -12634,7 +12469,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-흉부05"
   },
   {
     "id": "영상의학과_22Y_Q06",
@@ -12644,7 +12480,7 @@
     "q_num": 6,
     "section": "흉부",
     "section_q_num": 6,
-    "q_label": "흉부 Q06 (#06)",
+    "q_label": "흉부 06번",
     "category": "짤",
     "theme_title": "원발성 자연 기흉(Primary Spontaneous Pneumothorax)의 원인",
     "subspecialty": "흉부 영상의학",
@@ -12718,7 +12554,7 @@
       1
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "22Y",
@@ -12728,9 +12564,7 @@
       "22Y-06",
       "22Y-흉부06",
       "26Y-02",
-      "26Y-흉부02",
-      "21Y-39",
-      "21Y-흉부09"
+      "21Y-39"
     ],
     "option_explanations": [
       {
@@ -12773,7 +12607,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-흉부06"
   },
   {
     "id": "영상의학과_22Y_Q07",
@@ -12783,7 +12618,7 @@
     "q_num": 7,
     "section": "흉부",
     "section_q_num": 7,
-    "q_label": "흉부 Q07 (#07)",
+    "q_label": "흉부 07번",
     "category": "반짤",
     "theme_title": "외상성 혈기흉(Hemopneumothorax)의 치료: 흉관 삽관술",
     "subspecialty": "흉부 영상의학",
@@ -12857,7 +12692,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "22Y"
@@ -12865,8 +12700,7 @@
     "raw_questions": [
       "22Y-07",
       "22Y-흉부07",
-      "26Y-03",
-      "26Y-흉부03"
+      "26Y-03"
     ],
     "option_explanations": [
       {
@@ -12909,7 +12743,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-흉부07"
   },
   {
     "id": "영상의학과_22Y_Q08",
@@ -12919,7 +12754,7 @@
     "q_num": 8,
     "section": "흉부",
     "section_q_num": 8,
-    "q_label": "흉부 Q08 (#08)",
+    "q_label": "흉부 08번",
     "category": "반짤",
     "theme_title": "혈행성 전이암: 다발성 전이성 폐결절(Cannonball Metastasis)",
     "subspecialty": "흉부 영상의학",
@@ -12994,7 +12829,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "20Y"
@@ -13002,8 +12837,7 @@
     "raw_questions": [
       "22Y-08",
       "22Y-흉부08",
-      "20Y-03",
-      "20Y-흉부03"
+      "20Y-03"
     ],
     "option_explanations": [
       {
@@ -13046,7 +12880,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-흉부08"
   },
   {
     "id": "영상의학과_22Y_Q09",
@@ -13056,7 +12891,7 @@
     "q_num": 9,
     "section": "흉부",
     "section_q_num": 9,
-    "q_label": "흉부 Q09 (#09)",
+    "q_label": "흉부 09번",
     "category": "반짤",
     "theme_title": "흉수(Pleural Effusion) 평가를 위한 측와위(Decubitus View) 촬영",
     "subspecialty": "흉부 영상의학",
@@ -13113,7 +12948,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "22Y"
@@ -13121,8 +12956,7 @@
     "raw_questions": [
       "22Y-09",
       "22Y-흉부09",
-      "23Y-48",
-      "23Y-흉부10"
+      "23Y-48"
     ],
     "option_explanations": [
       {
@@ -13149,7 +12983,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-흉부09"
   },
   {
     "id": "영상의학과_22Y_Q10",
@@ -13159,7 +12994,7 @@
     "q_num": 10,
     "section": "흉부",
     "section_q_num": 10,
-    "q_label": "흉부 Q10 (#10)",
+    "q_label": "흉부 10번",
     "category": "짤",
     "theme_title": "고립성 폐결절(SPN)의 악성 소견: 폐암(Lung Cancer)",
     "subspecialty": "흉부 영상의학",
@@ -13233,7 +13068,7 @@
       0
     ],
     "freq_count": 5,
-    "rate": 100,
+    "rate": 83,
     "freq_years": [
       "26Y",
       "23Y",
@@ -13245,13 +13080,9 @@
       "22Y-10",
       "22Y-흉부10",
       "26Y-04",
-      "26Y-흉부04",
       "23Y-40",
-      "23Y-흉부02",
       "21Y-37",
-      "21Y-흉부07",
-      "20Y-02",
-      "20Y-흉부02"
+      "20Y-02"
     ],
     "option_explanations": [
       {
@@ -13294,7 +13125,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-흉부10"
   },
   {
     "id": "영상의학과_22Y_Q11",
@@ -13304,7 +13136,7 @@
     "q_num": 11,
     "section": "흉부",
     "section_q_num": 11,
-    "q_label": "흉부 Q11 (#11)",
+    "q_label": "흉부 11번",
     "category": "짤",
     "theme_title": "폐혈전색전증(PTE)의 CT 폐동맥조영술 소견",
     "subspecialty": "흉부 영상의학",
@@ -13378,7 +13210,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "23Y",
@@ -13389,11 +13221,8 @@
       "22Y-11",
       "22Y-흉부11",
       "26Y-13",
-      "26Y-인터벤션01",
       "23Y-21",
-      "23Y-인터벤션05",
-      "21Y-28",
-      "21Y-인터벤션03"
+      "21Y-28"
     ],
     "option_explanations": [
       {
@@ -13436,7 +13265,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-흉부11"
   },
   {
     "id": "영상의학과_22Y_Q12",
@@ -13446,7 +13276,7 @@
     "q_num": 12,
     "section": "복부",
     "section_q_num": 1,
-    "q_label": "복부 Q01 (#12)",
+    "q_label": "복부 01번",
     "category": "짤",
     "theme_title": "난소 성숙낭성기형종(Ovarian Mature Cystic Teratoma)",
     "subspecialty": "복부 영상의학",
@@ -13520,7 +13350,7 @@
       1
     ],
     "freq_count": 5,
-    "rate": 100,
+    "rate": 83,
     "freq_years": [
       "26Y",
       "23Y",
@@ -13532,13 +13362,9 @@
       "22Y-12",
       "22Y-복부01",
       "26Y-17",
-      "26Y-복부01",
       "23Y-16",
-      "23Y-복부15",
       "21Y-14",
-      "21Y-복부09",
-      "20Y-17",
-      "20Y-복부08"
+      "20Y-17"
     ],
     "option_explanations": [
       {
@@ -13581,7 +13407,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부01"
   },
   {
     "id": "영상의학과_22Y_Q13",
@@ -13591,7 +13418,7 @@
     "q_num": 13,
     "section": "복부",
     "section_q_num": 2,
-    "q_label": "복부 Q02 (#13)",
+    "q_label": "복부 02번",
     "category": "짤",
     "theme_title": "담낭벽 비후 및 급성 담낭염의 치료: 담낭절제술",
     "subspecialty": "복부 영상의학",
@@ -13666,7 +13493,7 @@
       1
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "23Y",
@@ -13677,11 +13504,8 @@
       "22Y-13",
       "22Y-복부02",
       "26Y-33",
-      "26Y-복부07",
       "23Y-07",
-      "23Y-복부06",
-      "20Y-16",
-      "20Y-복부07"
+      "20Y-16"
     ],
     "option_explanations": [
       {
@@ -13724,7 +13548,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부02"
   },
   {
     "id": "영상의학과_22Y_Q14",
@@ -13734,7 +13559,7 @@
     "q_num": 14,
     "section": "복부",
     "section_q_num": 3,
-    "q_label": "복부 Q03 (#14)",
+    "q_label": "복부 03번",
     "category": "짤",
     "theme_title": "간세포암종(HCC)의 3-phase CT 전형적 소견",
     "subspecialty": "복부 영상의학",
@@ -13808,7 +13633,7 @@
       3
     ],
     "freq_count": 5,
-    "rate": 100,
+    "rate": 83,
     "freq_years": [
       "26Y",
       "23Y",
@@ -13820,13 +13645,9 @@
       "22Y-14",
       "22Y-복부03",
       "26Y-29",
-      "26Y-복부03",
       "23Y-02",
-      "23Y-복부01",
       "21Y-11",
-      "21Y-복부06",
-      "20Y-15",
-      "20Y-복부06"
+      "20Y-15"
     ],
     "option_explanations": [
       {
@@ -13869,7 +13690,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부03"
   },
   {
     "id": "영상의학과_22Y_Q15",
@@ -13879,7 +13701,7 @@
     "q_num": 15,
     "section": "복부",
     "section_q_num": 4,
-    "q_label": "복부 Q04 (#15)",
+    "q_label": "복부 04번",
     "category": "짤",
     "theme_title": "간농양(Liver Abscess)의 이중 표적 징후(Double Target Sign)",
     "subspecialty": "복부 영상의학",
@@ -13953,7 +13775,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "23Y",
@@ -13964,11 +13786,8 @@
       "22Y-15",
       "22Y-복부04",
       "26Y-36",
-      "26Y-복부10",
       "23Y-03",
-      "23Y-복부02",
-      "20Y-14",
-      "20Y-복부05"
+      "20Y-14"
     ],
     "option_explanations": [
       {
@@ -14011,7 +13830,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부04"
   },
   {
     "id": "영상의학과_22Y_Q16",
@@ -14021,7 +13841,7 @@
     "q_num": 16,
     "section": "복부",
     "section_q_num": 5,
-    "q_label": "복부 Q05 (#16)",
+    "q_label": "복부 05번",
     "category": "짤",
     "theme_title": "간혈관종(Hepatic Hemangioma)의 구심성 충만(Centripetal Fill-in)",
     "subspecialty": "복부 영상의학",
@@ -14095,7 +13915,7 @@
       0
     ],
     "freq_count": 5,
-    "rate": 100,
+    "rate": 83,
     "freq_years": [
       "26Y",
       "23Y",
@@ -14107,13 +13927,9 @@
       "22Y-16",
       "22Y-복부05",
       "26Y-35",
-      "26Y-복부09",
       "23Y-04",
-      "23Y-복부03",
       "21Y-11",
-      "21Y-복부06",
-      "20Y-11",
-      "20Y-복부02"
+      "20Y-11"
     ],
     "option_explanations": [
       {
@@ -14156,7 +13972,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부05"
   },
   {
     "id": "영상의학과_22Y_Q17",
@@ -14166,7 +13983,7 @@
     "q_num": 17,
     "section": "복부",
     "section_q_num": 6,
-    "q_label": "복부 Q06 (#17)",
+    "q_label": "복부 06번",
     "category": "짤",
     "theme_title": "크론병(Crohn’s Disease)의 자갈길 모양(Cobblestone appearance)",
     "subspecialty": "복부 영상의학",
@@ -14240,7 +14057,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "22Y",
@@ -14251,11 +14068,8 @@
       "22Y-17",
       "22Y-복부06",
       "26Y-31",
-      "26Y-복부05",
       "21Y-07",
-      "21Y-복부02",
-      "20Y-13",
-      "20Y-복부04"
+      "20Y-13"
     ],
     "option_explanations": [
       {
@@ -14298,7 +14112,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부06"
   },
   {
     "id": "영상의학과_22Y_Q18",
@@ -14308,7 +14123,7 @@
     "q_num": 18,
     "section": "복부",
     "section_q_num": 7,
-    "q_label": "복부 Q07 (#18)",
+    "q_label": "복부 07번",
     "category": "반짤",
     "theme_title": "교액성 장폐색(Strangulated Obstruction)의 CT 소견",
     "subspecialty": "복부 영상의학",
@@ -14371,7 +14186,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "22Y"
@@ -14379,8 +14194,7 @@
     "raw_questions": [
       "22Y-18",
       "22Y-복부07",
-      "26Y-39",
-      "26Y-복부13"
+      "26Y-39"
     ],
     "option_explanations": [
       {
@@ -14415,7 +14229,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부07"
   },
   {
     "id": "영상의학과_22Y_Q19",
@@ -14425,7 +14240,7 @@
     "q_num": 19,
     "section": "복부",
     "section_q_num": 8,
-    "q_label": "복부 Q08 (#19)",
+    "q_label": "복부 08번",
     "category": "반짤",
     "theme_title": "담낭선근종증(Adenomyomatosis)의 초음파 소견",
     "subspecialty": "복부 영상의학",
@@ -14500,7 +14315,7 @@
       1
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "22Y"
@@ -14508,8 +14323,7 @@
     "raw_questions": [
       "22Y-19",
       "22Y-복부08",
-      "23Y-08",
-      "23Y-복부07"
+      "23Y-08"
     ],
     "option_explanations": [
       {
@@ -14552,7 +14366,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부08"
   },
   {
     "id": "영상의학과_22Y_Q20",
@@ -14562,7 +14377,7 @@
     "q_num": 20,
     "section": "복부",
     "section_q_num": 9,
-    "q_label": "복부 Q09 (#20)",
+    "q_label": "복부 09번",
     "category": "반짤",
     "theme_title": "췌장 낭성 종양의 정밀 평가 및 감별 검사",
     "subspecialty": "복부 영상의학",
@@ -14636,7 +14451,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "22Y"
@@ -14644,8 +14459,7 @@
     "raw_questions": [
       "22Y-20",
       "22Y-복부09",
-      "23Y-11",
-      "23Y-복부10"
+      "23Y-11"
     ],
     "option_explanations": [
       {
@@ -14688,7 +14502,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부09"
   },
   {
     "id": "영상의학과_22Y_Q21",
@@ -14698,7 +14513,7 @@
     "q_num": 21,
     "section": "복부",
     "section_q_num": 10,
-    "q_label": "복부 Q10 (#21)",
+    "q_label": "복부 10번",
     "category": "짤",
     "theme_title": "간 단순 낭종(Simple Hepatic Cyst)의 치료 방침",
     "subspecialty": "복부 영상의학",
@@ -14773,7 +14588,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "22Y",
       "21Y",
@@ -14783,9 +14598,7 @@
       "22Y-21",
       "22Y-복부10",
       "21Y-11",
-      "21Y-복부06",
-      "20Y-11",
-      "20Y-복부02"
+      "20Y-11"
     ],
     "option_explanations": [
       {
@@ -14828,7 +14641,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부10"
   },
   {
     "id": "영상의학과_22Y_Q22",
@@ -14838,7 +14652,7 @@
     "q_num": 22,
     "section": "복부",
     "section_q_num": 11,
-    "q_label": "복부 Q11 (#22)",
+    "q_label": "복부 11번",
     "category": "반짤",
     "theme_title": "복부 양성 병변 중 수술 없이 경과관찰 가능한 질환",
     "subspecialty": "복부 영상의학",
@@ -14913,16 +14727,15 @@
       4
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
-      "22Y",
-      "21Y"
+      "23Y",
+      "22Y"
     ],
     "raw_questions": [
-      "22Y-22",
       "22Y-복부11",
-      "21Y-11",
-      "21Y-복부06"
+      "22Y-22",
+      "23Y-12"
     ],
     "option_explanations": [
       {
@@ -14965,7 +14778,8 @@
         "tag": "정답",
         "reason": "단순 간낭종(Simple hepatic cyst)은 악성 변성의 위험이 없는 완전한 양성 병변으로, 합병증이나 증상이 없다면 수술적 절제 없이 경과관찰이 가능함."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부11"
   },
   {
     "id": "영상의학과_22Y_Q23",
@@ -14975,7 +14789,7 @@
     "q_num": 23,
     "section": "복부",
     "section_q_num": 12,
-    "q_label": "복부 Q12 (#23)",
+    "q_label": "복부 12번",
     "category": "반짤",
     "theme_title": "S상 결장 염전(Sigmoid Volvulus)의 커피콩 징후(Coffee Bean Sign)",
     "subspecialty": "복부 영상의학",
@@ -15049,7 +14863,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
@@ -15057,8 +14871,7 @@
     "raw_questions": [
       "22Y-23",
       "22Y-복부12",
-      "21Y-06",
-      "21Y-복부01"
+      "21Y-06"
     ],
     "option_explanations": [
       {
@@ -15101,7 +14914,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부12"
   },
   {
     "id": "영상의학과_22Y_Q24",
@@ -15111,7 +14925,7 @@
     "q_num": 24,
     "section": "복부",
     "section_q_num": 13,
-    "q_label": "복부 Q13 (#24)",
+    "q_label": "복부 13번",
     "category": "짤",
     "theme_title": "급성 신경색(Renal Infarction)과 Cortical Rim Sign",
     "subspecialty": "복부 영상의학",
@@ -15185,7 +14999,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "22Y",
       "21Y",
@@ -15195,9 +15009,7 @@
       "22Y-24",
       "22Y-복부13",
       "21Y-17",
-      "21Y-복부12",
-      "20Y-10",
-      "20Y-복부01"
+      "20Y-10"
     ],
     "option_explanations": [
       {
@@ -15240,7 +15052,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부13"
   },
   {
     "id": "영상의학과_22Y_Q25",
@@ -15250,7 +15063,7 @@
     "q_num": 25,
     "section": "복부",
     "section_q_num": 14,
-    "q_label": "복부 Q14 (#25)",
+    "q_label": "복부 14번",
     "category": "반짤",
     "theme_title": "신세포암종(Clear Cell RCC)의 CT 소견",
     "subspecialty": "복부 영상의학",
@@ -15324,7 +15137,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
@@ -15332,8 +15145,7 @@
     "raw_questions": [
       "22Y-25",
       "22Y-복부14",
-      "21Y-15",
-      "21Y-복부10"
+      "21Y-15"
     ],
     "option_explanations": [
       {
@@ -15376,7 +15188,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부14"
   },
   {
     "id": "영상의학과_22Y_Q26",
@@ -15386,7 +15199,7 @@
     "q_num": 26,
     "section": "복부",
     "section_q_num": 15,
-    "q_label": "복부 Q15 (#26)",
+    "q_label": "복부 15번",
     "category": "반짤",
     "theme_title": "기계적 장폐색(Mechanical Bowel Obstruction)의 영상 소견",
     "subspecialty": "복부 영상의학",
@@ -15460,7 +15273,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "22Y"
@@ -15468,8 +15281,7 @@
     "raw_questions": [
       "22Y-26",
       "22Y-복부15",
-      "26Y-39",
-      "26Y-복부13"
+      "26Y-39"
     ],
     "option_explanations": [
       {
@@ -15512,7 +15324,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부15"
   },
   {
     "id": "영상의학과_22Y_Q27",
@@ -15522,7 +15335,7 @@
     "q_num": 27,
     "section": "복부",
     "section_q_num": 16,
-    "q_label": "복부 Q16 (#27)",
+    "q_label": "복부 16번",
     "category": "반짤",
     "theme_title": "췌장 점액성 낭성 종양(MCN/IPMN)의 수술적 절제",
     "subspecialty": "복부 영상의학",
@@ -15596,16 +15409,15 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
     ],
     "raw_questions": [
-      "22Y-27",
       "22Y-복부16",
-      "21Y-13",
-      "21Y-복부08"
+      "22Y-27",
+      "21Y-13"
     ],
     "option_explanations": [
       {
@@ -15648,7 +15460,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-복부16"
   },
   {
     "id": "영상의학과_22Y_Q28",
@@ -15658,10 +15471,10 @@
     "q_num": 28,
     "section": "MSK",
     "section_q_num": 1,
-    "q_label": "MSK Q01 (#28)",
+    "q_label": "MSK 01번",
     "category": "반짤",
     "theme_title": "척추분리증과 척추전방전위증: Pars Interarticularis 결손",
-    "subspecialty": "근골격 영상의학",
+    "subspecialty": "MSK 영상의학",
     "stem": "Spondylolisthesis에 관여하는 부위는? (모식도 및 X-ray 1, 2, 3, 4, 5)",
     "images": [
       "images/영상의학과/22Y_Q28_fig1.png"
@@ -15732,7 +15545,7 @@
       3
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
@@ -15740,8 +15553,7 @@
     "raw_questions": [
       "22Y-28",
       "22Y-MSK01",
-      "21Y-24",
-      "21Y-MSK07"
+      "21Y-24"
     ],
     "option_explanations": [
       {
@@ -15784,7 +15596,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-MSK01"
   },
   {
     "id": "영상의학과_22Y_Q29",
@@ -15794,10 +15607,10 @@
     "q_num": 29,
     "section": "MSK",
     "section_q_num": 2,
-    "q_label": "MSK Q02 (#29)",
+    "q_label": "MSK 02번",
     "category": "반짤",
     "theme_title": "근골격계 질환에서 적절한 영상 검사 선택",
-    "subspecialty": "근골격 영상의학",
+    "subspecialty": "MSK 영상의학",
     "stem": "아래 해당되는 보기 중 적절한 영상의학적 검사를 실시한 상황은?",
     "images": [],
     "options": [
@@ -15857,7 +15670,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "22Y"
@@ -15865,8 +15678,7 @@
     "raw_questions": [
       "22Y-29",
       "22Y-MSK02",
-      "26Y-45",
-      "26Y-MSK04"
+      "26Y-45"
     ],
     "option_explanations": [
       {
@@ -15901,7 +15713,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-MSK02"
   },
   {
     "id": "영상의학과_22Y_Q30",
@@ -15911,10 +15724,10 @@
     "q_num": 30,
     "section": "MSK",
     "section_q_num": 3,
-    "q_label": "MSK Q03 (#30)",
+    "q_label": "MSK 03번",
     "category": "탈",
     "theme_title": "경추 해부학: 구상돌기(Uncus)와 Luschka 관절",
-    "subspecialty": "근골격 영상의학",
+    "subspecialty": "MSK 영상의학",
     "stem": "Uncus가 존재하는 관절은?",
     "images": [],
     "options": [
@@ -15983,7 +15796,7 @@
       2
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "22Y"
     ],
@@ -16032,7 +15845,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-MSK03"
   },
   {
     "id": "영상의학과_22Y_Q31",
@@ -16042,10 +15856,10 @@
     "q_num": 31,
     "section": "MSK",
     "section_q_num": 4,
-    "q_label": "MSK Q04 (#31)",
+    "q_label": "MSK 04번",
     "category": "탈",
     "theme_title": "경추 X선 해부학: 구상돌기(Uncus) 지칭 부위",
-    "subspecialty": "근골격 영상의학",
+    "subspecialty": "MSK 영상의학",
     "stem": "Uncus를 가리키는 곳은?",
     "images": [
       "images/영상의학과/22Y_Q31_fig1.png"
@@ -16116,7 +15930,7 @@
       4
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "22Y"
     ],
@@ -16165,7 +15979,8 @@
         "tag": "정답",
         "reason": "경추 전후방(AP) 및 사위상 X선에서 추체 상면 외측 가장자리에서 뿔 모양으로 솟아오른 구상돌기(Uncus / Uncinate process)를 지칭하는 기호는 E임."
       }
-    ]
+    ],
+    "internal_index": "22Y-MSK04"
   },
   {
     "id": "영상의학과_22Y_Q32",
@@ -16175,10 +15990,10 @@
     "q_num": 32,
     "section": "MSK",
     "section_q_num": 5,
-    "q_label": "MSK Q05 (#32)",
+    "q_label": "MSK 05번",
     "category": "반짤",
     "theme_title": "골육종(Osteosarcoma)의 일광선형 골막반응 소견",
-    "subspecialty": "근골격 영상의학",
+    "subspecialty": "MSK 영상의학",
     "stem": "아래 영상의학적 소견으로 보아 적절한 진단을 고르시오. (비골 골간단 병변)",
     "images": [
       "images/영상의학과/22Y_Q32_fig1.png"
@@ -16249,7 +16064,7 @@
       4
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
@@ -16257,8 +16072,7 @@
     "raw_questions": [
       "22Y-32",
       "22Y-MSK05",
-      "21Y-18",
-      "21Y-MSK01"
+      "21Y-18"
     ],
     "option_explanations": [
       {
@@ -16301,7 +16115,8 @@
         "tag": "정답",
         "reason": "장골 골간단에 위치한 파괴성 골병변과 함께 골피질을 뚫고 나온 종양 골형성, 그리고 침습적인 방사선/일광선형(sunburst pattern) 골막반응과 Codman 삼각형을 보이는 전형적인 골육종(Osteosarcoma) 소견임."
       }
-    ]
+    ],
+    "internal_index": "22Y-MSK05"
   },
   {
     "id": "영상의학과_22Y_Q33",
@@ -16311,10 +16126,10 @@
     "q_num": 33,
     "section": "MSK",
     "section_q_num": 6,
-    "q_label": "MSK Q06 (#33)",
+    "q_label": "MSK 06번",
     "category": "반짤",
     "theme_title": "수근골(Carpal Bones) 정상 해부학 배열",
-    "subspecialty": "근골격 영상의학",
+    "subspecialty": "MSK 영상의학",
     "stem": "다음 중 아래 영상에 관한 적절한 소견을 고르시오. (수근골 배열)",
     "images": [
       "images/영상의학과/22Y_Q33_fig1.png"
@@ -16376,7 +16191,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
@@ -16384,8 +16199,7 @@
     "raw_questions": [
       "22Y-33",
       "22Y-MSK06",
-      "21Y-22",
-      "21Y-MSK05"
+      "21Y-22"
     ],
     "option_explanations": [
       {
@@ -16420,7 +16234,8 @@
         "tag": "오답 감별",
         "reason": "손목 수근골의 근위열(proximal row)은 외측(엄지측)부터 주상골(Scaphoid), 월상골(Lunate), 삼각골(Triquetrum), 두상골(Pisiform) 순서로 배열됨."
       }
-    ]
+    ],
+    "internal_index": "22Y-MSK06"
   },
   {
     "id": "영상의학과_22Y_Q34",
@@ -16430,10 +16245,10 @@
     "q_num": 34,
     "section": "MSK",
     "section_q_num": 7,
-    "q_label": "MSK Q07 (#34)",
+    "q_label": "MSK 07번",
     "category": "짤",
     "theme_title": "수지 관절염의 침범 부위 및 관절 소견",
-    "subspecialty": "근골격 영상의학",
+    "subspecialty": "MSK 영상의학",
     "stem": "다음 중 아래 영상에 관한 적절한 소견을 고르시오.",
     "images": [
       "images/영상의학과/22Y_Q34_fig1.png",
@@ -16496,7 +16311,7 @@
       1
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "23Y",
@@ -16506,9 +16321,7 @@
       "22Y-34",
       "22Y-MSK07",
       "26Y-43",
-      "26Y-MSK02",
-      "23Y-23",
-      "23Y-MSK02"
+      "23Y-23"
     ],
     "option_explanations": [
       {
@@ -16543,7 +16356,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-MSK07"
   },
   {
     "id": "영상의학과_22Y_Q35",
@@ -16553,10 +16367,10 @@
     "q_num": 35,
     "section": "MSK",
     "section_q_num": 8,
-    "q_label": "MSK Q08 (#35)",
+    "q_label": "MSK 08번",
     "category": "짤",
     "theme_title": "골관절염(Osteoarthritis)의 원위지관절(DIP) 침범",
-    "subspecialty": "근골격 영상의학",
+    "subspecialty": "MSK 영상의학",
     "stem": "다음 중 아래 영상에서 관찰할 수 있는 소견을 고르시오. (손 X-선 사진)",
     "images": [
       "images/영상의학과/22Y_Q35_fig1.png"
@@ -16627,7 +16441,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "23Y",
@@ -16637,9 +16451,7 @@
       "22Y-35",
       "22Y-MSK08",
       "26Y-43",
-      "26Y-MSK02",
-      "23Y-23",
-      "23Y-MSK02"
+      "23Y-23"
     ],
     "option_explanations": [
       {
@@ -16682,7 +16494,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-MSK08"
   },
   {
     "id": "영상의학과_22Y_Q36",
@@ -16692,7 +16505,7 @@
     "q_num": 36,
     "section": "신경",
     "section_q_num": 1,
-    "q_label": "신경 Q01 (#36)",
+    "q_label": "신경 01번",
     "category": "짤",
     "theme_title": "급성 중대뇌동맥(MCA) 혈전색전증의 비조영 CT",
     "subspecialty": "신경 영상의학",
@@ -16766,7 +16579,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "22Y",
       "21Y",
@@ -16776,9 +16589,7 @@
       "22Y-36",
       "22Y-신경01",
       "21Y-44",
-      "21Y-신경02",
-      "20Y-28",
-      "20Y-신경01"
+      "20Y-28"
     ],
     "option_explanations": [
       {
@@ -16821,7 +16632,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-신경01"
   },
   {
     "id": "영상의학과_22Y_Q37",
@@ -16831,7 +16643,7 @@
     "q_num": 37,
     "section": "신경",
     "section_q_num": 2,
-    "q_label": "신경 Q02 (#37)",
+    "q_label": "신경 02번",
     "category": "짤",
     "theme_title": "급성 뇌경색에서 비조영 CT(Non-contrast CT)의 목적",
     "subspecialty": "신경 영상의학",
@@ -16903,7 +16715,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -16913,9 +16725,7 @@
       "22Y-37",
       "22Y-신경02",
       "23Y-30",
-      "23Y-신경01",
-      "21Y-47",
-      "21Y-신경05"
+      "21Y-47"
     ],
     "option_explanations": [
       {
@@ -16958,7 +16768,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-신경02"
   },
   {
     "id": "영상의학과_22Y_Q38",
@@ -16968,7 +16779,7 @@
     "q_num": 38,
     "section": "신경",
     "section_q_num": 3,
-    "q_label": "신경 Q03 (#38)",
+    "q_label": "신경 03번",
     "category": "반짤",
     "theme_title": "혈관인성 부종(Vasogenic Edema)의 피질 보존 소견",
     "subspecialty": "신경 영상의학",
@@ -17042,7 +16853,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
@@ -17050,8 +16861,7 @@
     "raw_questions": [
       "22Y-38",
       "22Y-신경03",
-      "21Y-50",
-      "21Y-신경08"
+      "21Y-50"
     ],
     "option_explanations": [
       {
@@ -17094,7 +16904,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-신경03"
   },
   {
     "id": "영상의학과_22Y_Q39",
@@ -17104,7 +16915,7 @@
     "q_num": 39,
     "section": "신경",
     "section_q_num": 4,
-    "q_label": "신경 Q04 (#39)",
+    "q_label": "신경 04번",
     "category": "반짤",
     "theme_title": "아급성기 뇌경색의 대뇌피질 층상 괴사(Cortical Laminar Necrosis)",
     "subspecialty": "신경 영상의학",
@@ -17178,7 +16989,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "20Y"
@@ -17186,8 +16997,7 @@
     "raw_questions": [
       "22Y-39",
       "22Y-신경04",
-      "20Y-28",
-      "20Y-신경01"
+      "20Y-28"
     ],
     "option_explanations": [
       {
@@ -17230,7 +17040,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-신경04"
   },
   {
     "id": "영상의학과_22Y_Q40",
@@ -17240,7 +17051,7 @@
     "q_num": 40,
     "section": "신경",
     "section_q_num": 5,
-    "q_label": "신경 Q05 (#40)",
+    "q_label": "신경 05번",
     "category": "반짤",
     "theme_title": "근위부 내경동맥 협착과 분수계/색전성 뇌경색",
     "subspecialty": "신경 영상의학",
@@ -17314,7 +17125,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "20Y"
@@ -17322,8 +17133,7 @@
     "raw_questions": [
       "22Y-40",
       "22Y-신경05",
-      "20Y-29",
-      "20Y-신경02"
+      "20Y-29"
     ],
     "option_explanations": [
       {
@@ -17366,7 +17176,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-신경05"
   },
   {
     "id": "영상의학과_22Y_Q41",
@@ -17376,7 +17187,7 @@
     "q_num": 41,
     "section": "신경",
     "section_q_num": 6,
-    "q_label": "신경 Q06 (#41)",
+    "q_label": "신경 06번",
     "category": "짤",
     "theme_title": "급성 뇌경색 다단계 CTA: 측부 혈류 순환과 환자 예후",
     "subspecialty": "신경 영상의학",
@@ -17441,7 +17252,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -17451,9 +17262,7 @@
       "22Y-41",
       "22Y-신경06",
       "23Y-31",
-      "23Y-신경02",
-      "20Y-32",
-      "20Y-신경05"
+      "20Y-32"
     ],
     "option_explanations": [
       {
@@ -17488,7 +17297,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-신경06"
   },
   {
     "id": "영상의학과_22Y_Q42",
@@ -17498,7 +17308,7 @@
     "q_num": 42,
     "section": "신경",
     "section_q_num": 7,
-    "q_label": "신경 Q07 (#42)",
+    "q_label": "신경 07번",
     "category": "반짤",
     "theme_title": "급성 뇌경색의 조기 진단 MRI 및 세포독성 부종",
     "subspecialty": "신경 영상의학",
@@ -17570,7 +17380,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "22Y"
@@ -17578,8 +17388,7 @@
     "raw_questions": [
       "22Y-42",
       "22Y-신경07",
-      "23Y-30",
-      "23Y-신경01"
+      "23Y-30"
     ],
     "option_explanations": [
       {
@@ -17622,7 +17431,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-신경07"
   },
   {
     "id": "영상의학과_22Y_Q43",
@@ -17632,7 +17442,7 @@
     "q_num": 43,
     "section": "인터벤션",
     "section_q_num": 1,
-    "q_label": "인터벤션 Q01 (#43)",
+    "q_label": "인터벤션 01번",
     "category": "짤",
     "theme_title": "혈전 형성의 3대 인자: 피르호 3징(Virchow’s Triad)",
     "subspecialty": "인터벤션 영상의학",
@@ -17704,7 +17514,7 @@
       3
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "22Y",
@@ -17714,9 +17524,7 @@
       "22Y-43",
       "22Y-인터벤션01",
       "26Y-40",
-      "26Y-인터벤션05",
-      "21Y-28",
-      "21Y-인터벤션03"
+      "21Y-28"
     ],
     "option_explanations": [
       {
@@ -17759,7 +17567,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-인터벤션01"
   },
   {
     "id": "영상의학과_22Y_Q44",
@@ -17769,7 +17578,7 @@
     "q_num": 44,
     "section": "인터벤션",
     "section_q_num": 2,
-    "q_label": "인터벤션 Q02 (#44)",
+    "q_label": "인터벤션 02번",
     "category": "짤",
     "theme_title": "TIPS (경경정맥 간내문맥전신단락술)의 효과와 적응증",
     "subspecialty": "인터벤션 영상의학",
@@ -17841,7 +17650,7 @@
       0
     ],
     "freq_count": 5,
-    "rate": 100,
+    "rate": 83,
     "freq_years": [
       "26Y",
       "23Y",
@@ -17853,13 +17662,9 @@
       "22Y-44",
       "22Y-인터벤션02",
       "26Y-14",
-      "26Y-인터벤션02",
       "23Y-20",
-      "23Y-인터벤션04",
       "21Y-30",
-      "21Y-인터벤션05",
-      "20Y-26",
-      "20Y-인터벤션04"
+      "20Y-26"
     ],
     "option_explanations": [
       {
@@ -17902,7 +17707,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-인터벤션02"
   },
   {
     "id": "영상의학과_22Y_Q45",
@@ -17912,7 +17718,7 @@
     "q_num": 45,
     "section": "인터벤션",
     "section_q_num": 3,
-    "q_label": "인터벤션 Q03 (#45)",
+    "q_label": "인터벤션 03번",
     "category": "짤",
     "theme_title": "수신증 및 요로 폐색의 감압술: 경피적 신루설치술(PCN)",
     "subspecialty": "인터벤션 영상의학",
@@ -17986,7 +17792,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -17996,9 +17802,7 @@
       "22Y-45",
       "22Y-인터벤션03",
       "23Y-18",
-      "23Y-인터벤션02",
-      "21Y-29",
-      "21Y-인터벤션04"
+      "21Y-29"
     ],
     "option_explanations": [
       {
@@ -18041,7 +17845,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-인터벤션03"
   },
   {
     "id": "영상의학과_22Y_Q46",
@@ -18051,7 +17856,7 @@
     "q_num": 46,
     "section": "인터벤션",
     "section_q_num": 4,
-    "q_label": "인터벤션 Q04 (#46)",
+    "q_label": "인터벤션 04번",
     "category": "반짤",
     "theme_title": "동맥류(Aneurysm)의 호발 부위: 복부 대동맥",
     "subspecialty": "인터벤션 영상의학",
@@ -18123,7 +17928,7 @@
       4
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
@@ -18131,8 +17936,7 @@
     "raw_questions": [
       "22Y-46",
       "22Y-인터벤션04",
-      "21Y-27",
-      "21Y-인터벤션02"
+      "21Y-27"
     ],
     "option_explanations": [
       {
@@ -18175,7 +17979,8 @@
         "tag": "정답",
         "reason": "대동맥류(Aortic aneurysm) 중 진성 동맥류의 80% 이상이 복부 대동맥(Abdominal aorta), 특히 신동맥 하방(Infrarenal abdominal aorta)에서 죽상경화증 및 혈역학적 스트레스로 인해 가장 흔하게 발생함."
       }
-    ]
+    ],
+    "internal_index": "22Y-인터벤션04"
   },
   {
     "id": "영상의학과_22Y_Q47",
@@ -18185,7 +17990,7 @@
     "q_num": 47,
     "section": "인터벤션",
     "section_q_num": 5,
-    "q_label": "인터벤션 Q05 (#47)",
+    "q_label": "인터벤션 05번",
     "category": "반짤",
     "theme_title": "급성 담낭염의 응급 배액술: 경피경간 담낭배액술(PTGBD)",
     "subspecialty": "인터벤션 영상의학",
@@ -18259,7 +18064,7 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "22Y"
@@ -18267,8 +18072,7 @@
     "raw_questions": [
       "22Y-47",
       "22Y-인터벤션05",
-      "23Y-17",
-      "23Y-인터벤션01"
+      "23Y-17"
     ],
     "option_explanations": [
       {
@@ -18311,7 +18115,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-인터벤션05"
   },
   {
     "id": "영상의학과_22Y_Q48",
@@ -18321,7 +18126,7 @@
     "q_num": 48,
     "section": "인터벤션",
     "section_q_num": 6,
-    "q_label": "인터벤션 Q06 (#48)",
+    "q_label": "인터벤션 06번",
     "category": "반짤",
     "theme_title": "중심정맥관의 종류와 삽입 부위 비교",
     "subspecialty": "인터벤션 영상의학",
@@ -18393,7 +18198,7 @@
       2
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "20Y"
@@ -18401,8 +18206,7 @@
     "raw_questions": [
       "22Y-48",
       "22Y-인터벤션06",
-      "20Y-25",
-      "20Y-인터벤션03"
+      "20Y-25"
     ],
     "option_explanations": [
       {
@@ -18445,7 +18249,8 @@
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
-    ]
+    ],
+    "internal_index": "22Y-인터벤션06"
   },
   {
     "id": "영상의학과_22Y_Q49",
@@ -18455,7 +18260,7 @@
     "q_num": 49,
     "section": "인터벤션",
     "section_q_num": 7,
-    "q_label": "인터벤션 Q07 (#49)",
+    "q_label": "인터벤션 07번",
     "category": "반짤",
     "theme_title": "뇌혈관 중재시술(Neurointervention)의 기본 천자 부위",
     "subspecialty": "인터벤션 영상의학",
@@ -18527,7 +18332,7 @@
       4
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "22Y"
@@ -18535,8 +18340,7 @@
     "raw_questions": [
       "22Y-49",
       "22Y-인터벤션07",
-      "26Y-16",
-      "26Y-인터벤션04"
+      "26Y-16"
     ],
     "option_explanations": [
       {
@@ -18579,7 +18383,8 @@
         "tag": "정답",
         "reason": "뇌혈관 조영술(TFCA) 및 뇌동맥류 코일색전술, 혈전제거술 등 대부분의 신경중재시술에서 서혜인대 직하방의 총대퇴동맥(Common femoral artery, CFA)이 혈관 직경이 크고 지혈이 용이하여 가장 표준적인 천자 부위로 이용됨."
       }
-    ]
+    ],
+    "internal_index": "22Y-인터벤션07"
   },
   {
     "id": "영상의학과_21Y_Q01",
@@ -18589,7 +18394,7 @@
     "q_num": 1,
     "section": "유방",
     "section_q_num": 1,
-    "q_label": "유방 Q01 (#01)",
+    "q_label": "Q01",
     "category": "짤",
     "theme_title": "유방촬영술(Mammography) 악성 미세석회화의 형태학적 분류",
     "subspecialty": "유방 영상의학",
@@ -18663,7 +18468,7 @@
       4
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "21Y",
@@ -18671,11 +18476,8 @@
     ],
     "raw_questions": [
       "21Y-01",
-      "21Y-유방01",
       "26Y-19",
-      "26Y-유방01",
-      "20Y-21",
-      "20Y-유방02"
+      "20Y-21"
     ],
     "option_explanations": [
       {
@@ -18728,7 +18530,7 @@
     "q_num": 2,
     "section": "유방",
     "section_q_num": 2,
-    "q_label": "유방 Q02 (#02)",
+    "q_label": "Q02",
     "category": "반짤",
     "theme_title": "유방초음파 악성 소견 및 BI-RADS 카테고리 판정",
     "subspecialty": "유방 영상의학",
@@ -18802,16 +18604,14 @@
       4
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-02",
-      "21Y-유방02",
-      "26Y-20",
-      "26Y-유방02"
+      "26Y-20"
     ],
     "option_explanations": [
       {
@@ -18864,7 +18664,7 @@
     "q_num": 3,
     "section": "유방",
     "section_q_num": 3,
-    "q_label": "유방 Q03 (#03)",
+    "q_label": "Q03",
     "category": "반짤",
     "theme_title": "유방촬영술(Mammography)의 원리와 제한점",
     "subspecialty": "유방 영상의학",
@@ -18936,16 +18736,14 @@
       4
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-03",
-      "21Y-유방03",
-      "26Y-21",
-      "26Y-유방03"
+      "26Y-21"
     ],
     "option_explanations": [
       {
@@ -18998,7 +18796,7 @@
     "q_num": 4,
     "section": "유방",
     "section_q_num": 4,
-    "q_label": "유방 Q04 (#04)",
+    "q_label": "Q04",
     "category": "반짤",
     "theme_title": "유방초음파의 장점: 종괴 내부 성상(고형 vs 낭성) 감별",
     "subspecialty": "유방 영상의학",
@@ -19070,16 +18868,14 @@
       3
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-04",
-      "21Y-유방04",
-      "26Y-20",
-      "26Y-유방02"
+      "26Y-20"
     ],
     "option_explanations": [
       {
@@ -19132,7 +18928,7 @@
     "q_num": 5,
     "section": "유방",
     "section_q_num": 5,
-    "q_label": "유방 Q05 (#05)",
+    "q_label": "Q05",
     "category": "반짤",
     "theme_title": "유방촬영술(Mammography)의 표준 2대 촬영 방향",
     "subspecialty": "유방 영상의학",
@@ -19206,16 +19002,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-05",
-      "21Y-유방05",
-      "26Y-21",
-      "26Y-유방03"
+      "26Y-21"
     ],
     "option_explanations": [
       {
@@ -19268,7 +19062,7 @@
     "q_num": 6,
     "section": "복부",
     "section_q_num": 1,
-    "q_label": "복부 Q01 (#06)",
+    "q_label": "Q06",
     "category": "반짤",
     "theme_title": "S상 결장 염전(Sigmoid Volvulus)의 방사선 소견",
     "subspecialty": "복부 영상의학",
@@ -19342,14 +19136,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-06",
-      "21Y-복부01",
       "22Y-23",
       "22Y-복부12"
     ],
@@ -19404,7 +19197,7 @@
     "q_num": 7,
     "section": "복부",
     "section_q_num": 2,
-    "q_label": "복부 Q02 (#07)",
+    "q_label": "Q07",
     "category": "짤",
     "theme_title": "회장 위장관기질종양(Ileal GIST)의 CT 소견",
     "subspecialty": "복부 영상의학",
@@ -19478,7 +19271,7 @@
       1
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "22Y",
@@ -19486,9 +19279,7 @@
     ],
     "raw_questions": [
       "21Y-07",
-      "21Y-복부02",
       "26Y-37",
-      "26Y-복부11",
       "22Y-17",
       "22Y-복부06"
     ],
@@ -19543,7 +19334,7 @@
     "q_num": 8,
     "section": "복부",
     "section_q_num": 3,
-    "q_label": "복부 Q03 (#08)",
+    "q_label": "Q08",
     "category": "반짤",
     "theme_title": "진행성 식도암(Infiltrating Esophageal Carcinoma)의 조영 검사",
     "subspecialty": "복부 영상의학",
@@ -19617,16 +19408,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-08",
-      "21Y-복부03",
-      "23Y-06",
-      "23Y-복부05"
+      "23Y-06"
     ],
     "option_explanations": [
       {
@@ -19679,7 +19468,7 @@
     "q_num": 9,
     "section": "복부",
     "section_q_num": 4,
-    "q_label": "복부 Q04 (#09)",
+    "q_label": "Q09",
     "category": "반짤",
     "theme_title": "대퇴탈장(Femoral Hernia)의 해부학적 위치",
     "subspecialty": "복부 영상의학",
@@ -19753,16 +19542,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-09",
-      "21Y-복부04",
-      "26Y-38",
-      "26Y-복부12"
+      "26Y-38"
     ],
     "option_explanations": [
       {
@@ -19815,7 +19602,7 @@
     "q_num": 10,
     "section": "복부",
     "section_q_num": 5,
-    "q_label": "복부 Q05 (#10)",
+    "q_label": "Q10",
     "category": "반짤",
     "theme_title": "상장간막동맥(SMA)의 분지와 공장/회장 공급 혈관",
     "subspecialty": "복부 영상의학",
@@ -19889,16 +19676,14 @@
       4
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-10",
-      "21Y-복부05",
-      "23Y-05",
-      "23Y-복부04"
+      "23Y-05"
     ],
     "option_explanations": [
       {
@@ -19951,7 +19736,7 @@
     "q_num": 11,
     "section": "복부",
     "section_q_num": 6,
-    "q_label": "복부 Q06 (#11)",
+    "q_label": "Q11",
     "category": "짤",
     "theme_title": "간혈관종(Hepatic Hemangioma)의 관리 방침: 경과관찰",
     "subspecialty": "복부 영상의학",
@@ -20025,7 +19810,7 @@
       4
     ],
     "freq_count": 5,
-    "rate": 100,
+    "rate": 83,
     "freq_years": [
       "26Y",
       "23Y",
@@ -20035,15 +19820,11 @@
     ],
     "raw_questions": [
       "21Y-11",
-      "21Y-복부06",
       "26Y-35",
-      "26Y-복부09",
       "23Y-04",
-      "23Y-복부03",
       "22Y-16",
       "22Y-복부05",
-      "20Y-11",
-      "20Y-복부02"
+      "20Y-11"
     ],
     "option_explanations": [
       {
@@ -20096,7 +19877,7 @@
     "q_num": 12,
     "section": "복부",
     "section_q_num": 7,
-    "q_label": "복부 Q07 (#12)",
+    "q_label": "Q12",
     "category": "반짤",
     "theme_title": "간 우엽과 좌엽의 분할 기준: Cantlie 선과 중간간정맥(MHV)",
     "subspecialty": "복부 영상의학",
@@ -20170,16 +19951,14 @@
       3
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-12",
-      "21Y-복부07",
-      "26Y-34",
-      "26Y-복부08"
+      "26Y-34"
     ],
     "option_explanations": [
       {
@@ -20232,8 +20011,8 @@
     "q_num": 13,
     "section": "복부",
     "section_q_num": 8,
-    "q_label": "복부 Q08 (#13)",
-    "category": "짤",
+    "q_label": "Q13",
+    "category": "반짤",
     "theme_title": "췌관선암종(Pancreatic Ductal Adenocarcinoma)의 CT 소견",
     "subspecialty": "복부 영상의학",
     "stem": "상복부 통증을 주소로 온 환자. 진단은?",
@@ -20305,20 +20084,16 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 3,
-    "rate": 60,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "23Y",
       "22Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-13",
-      "21Y-복부08",
-      "23Y-12",
-      "23Y-복부11",
-      "22Y-27",
-      "22Y-복부16"
+      "22Y-복부16",
+      "22Y-27"
     ],
     "option_explanations": [
       {
@@ -20371,7 +20146,7 @@
     "q_num": 14,
     "section": "복부",
     "section_q_num": 9,
-    "q_label": "복부 Q09 (#14)",
+    "q_label": "Q14",
     "category": "짤",
     "theme_title": "난소 성숙낭성기형종(Mature Cystic Teratoma)",
     "subspecialty": "복부 영상의학",
@@ -20445,7 +20220,7 @@
       0
     ],
     "freq_count": 5,
-    "rate": 100,
+    "rate": 83,
     "freq_years": [
       "26Y",
       "23Y",
@@ -20455,15 +20230,11 @@
     ],
     "raw_questions": [
       "21Y-14",
-      "21Y-복부09",
       "26Y-17",
-      "26Y-복부01",
       "23Y-16",
-      "23Y-복부15",
       "22Y-12",
       "22Y-복부01",
-      "20Y-17",
-      "20Y-복부08"
+      "20Y-17"
     ],
     "option_explanations": [
       {
@@ -20516,7 +20287,7 @@
     "q_num": 15,
     "section": "복부",
     "section_q_num": 10,
-    "q_label": "복부 Q10 (#15)",
+    "q_label": "Q15",
     "category": "반짤",
     "theme_title": "신세포암종(Renal Cell Carcinoma)의 외측 돌출 종괴",
     "subspecialty": "복부 영상의학",
@@ -20590,14 +20361,13 @@
       1
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-15",
-      "21Y-복부10",
       "22Y-25",
       "22Y-복부14"
     ],
@@ -20652,7 +20422,7 @@
     "q_num": 16,
     "section": "복부",
     "section_q_num": 11,
-    "q_label": "복부 Q11 (#16)",
+    "q_label": "Q16",
     "category": "반짤",
     "theme_title": "신장 혈관근지방종 파열(Renal Angiomyolipoma Rupture)",
     "subspecialty": "복부 영상의학",
@@ -20726,16 +20496,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "23Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-16",
-      "21Y-복부11",
-      "23Y-15",
-      "23Y-복부14"
+      "23Y-15"
     ],
     "option_explanations": [
       {
@@ -20788,7 +20556,7 @@
     "q_num": 17,
     "section": "복부",
     "section_q_num": 12,
-    "q_label": "복부 Q12 (#17)",
+    "q_label": "Q17",
     "category": "짤",
     "theme_title": "급성 신경색(Renal Infarction)의 전형적 CT 소견",
     "subspecialty": "복부 영상의학",
@@ -20862,7 +20630,7 @@
       1
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "22Y",
       "21Y",
@@ -20870,11 +20638,9 @@
     ],
     "raw_questions": [
       "21Y-17",
-      "21Y-복부12",
       "22Y-24",
       "22Y-복부13",
-      "20Y-10",
-      "20Y-복부01"
+      "20Y-10"
     ],
     "option_explanations": [
       {
@@ -20927,7 +20693,7 @@
     "q_num": 18,
     "section": "MSK",
     "section_q_num": 1,
-    "q_label": "MSK Q01 (#18)",
+    "q_label": "Q18",
     "category": "반짤",
     "theme_title": "골육종(Osteosarcoma)의 단순 X선 및 MRI 소견",
     "subspecialty": "근골격 영상의학",
@@ -21001,14 +20767,13 @@
       4
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-18",
-      "21Y-MSK01",
       "22Y-32",
       "22Y-MSK05"
     ],
@@ -21063,7 +20828,7 @@
     "q_num": 19,
     "section": "MSK",
     "section_q_num": 2,
-    "q_label": "MSK Q02 (#19)",
+    "q_label": "Q19",
     "category": "반짤",
     "theme_title": "골반 X선 해부학: 햄스트링(Hamstring) 근육 부착 부위",
     "subspecialty": "근골격 영상의학",
@@ -21137,16 +20902,14 @@
       4
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "21Y-19",
-      "21Y-MSK02",
-      "20Y-37",
-      "20Y-MSK01"
+      "20Y-37"
     ],
     "option_explanations": [
       {
@@ -21199,7 +20962,7 @@
     "q_num": 20,
     "section": "MSK",
     "section_q_num": 3,
-    "q_label": "MSK Q03 (#20)",
+    "q_label": "Q20",
     "category": "반짤",
     "theme_title": "상완신경총(Brachial Plexus)의 5단계 해부학적 순서",
     "subspecialty": "근골격 영상의학",
@@ -21273,16 +21036,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "21Y-20",
-      "21Y-MSK03",
-      "20Y-39",
-      "20Y-MSK03"
+      "20Y-39"
     ],
     "option_explanations": [
       {
@@ -21335,7 +21096,7 @@
     "q_num": 21,
     "section": "MSK",
     "section_q_num": 4,
-    "q_label": "MSK Q04 (#21)",
+    "q_label": "Q21",
     "category": "짤",
     "theme_title": "류마티스 관절염(RA)의 수부 단순 X선 특징",
     "subspecialty": "근골격 영상의학",
@@ -21409,7 +21170,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "23Y",
@@ -21418,13 +21179,9 @@
     ],
     "raw_questions": [
       "21Y-21",
-      "21Y-MSK04",
       "26Y-44",
-      "26Y-MSK03",
       "23Y-24",
-      "23Y-MSK03",
-      "20Y-42",
-      "20Y-MSK06"
+      "20Y-42"
     ],
     "option_explanations": [
       {
@@ -21477,7 +21234,7 @@
     "q_num": 22,
     "section": "MSK",
     "section_q_num": 5,
-    "q_label": "MSK Q05 (#22)",
+    "q_label": "Q22",
     "category": "반짤",
     "theme_title": "수근골(Carpal Bones) 명칭 및 순서",
     "subspecialty": "근골격 영상의학",
@@ -21551,14 +21308,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-22",
-      "21Y-MSK05",
       "22Y-33",
       "22Y-MSK06"
     ],
@@ -21613,7 +21369,7 @@
     "q_num": 23,
     "section": "MSK",
     "section_q_num": 6,
-    "q_label": "MSK Q06 (#23)",
+    "q_label": "Q23",
     "category": "짤",
     "theme_title": "류마티스 관절염(RA)의 완관절 병변",
     "subspecialty": "근골격 영상의학",
@@ -21678,7 +21434,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "23Y",
@@ -21687,13 +21443,9 @@
     ],
     "raw_questions": [
       "21Y-23",
-      "21Y-MSK06",
       "26Y-44",
-      "26Y-MSK03",
       "23Y-24",
-      "23Y-MSK03",
-      "20Y-42",
-      "20Y-MSK06"
+      "20Y-42"
     ],
     "option_explanations": [
       {
@@ -21738,7 +21490,7 @@
     "q_num": 24,
     "section": "MSK",
     "section_q_num": 7,
-    "q_label": "MSK Q07 (#24)",
+    "q_label": "Q24",
     "category": "반짤",
     "theme_title": "협부 척추전방전위증: Pars Interarticularis 결손",
     "subspecialty": "근골격 영상의학",
@@ -21812,14 +21564,13 @@
       3
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-24",
-      "21Y-MSK07",
       "22Y-28",
       "22Y-MSK01"
     ],
@@ -21874,7 +21625,7 @@
     "q_num": 25,
     "section": "MSK",
     "section_q_num": 8,
-    "q_label": "MSK Q08 (#25)",
+    "q_label": "Q25",
     "category": "반짤",
     "theme_title": "악성 골종양의 판독: 골육종의 일광선형 골막반응",
     "subspecialty": "근골격 영상의학",
@@ -21942,14 +21693,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-25",
-      "21Y-MSK08",
       "22Y-32",
       "22Y-MSK05"
     ],
@@ -21996,7 +21746,7 @@
     "q_num": 26,
     "section": "인터벤션",
     "section_q_num": 1,
-    "q_label": "인터벤션 Q01 (#26)",
+    "q_label": "Q26",
     "category": "반짤",
     "theme_title": "간세포암종 BCLC 병기 중 TACE의 주 적응증",
     "subspecialty": "인터벤션 영상의학",
@@ -22068,16 +21818,14 @@
       1
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-26",
-      "21Y-인터벤션01",
-      "26Y-29",
-      "26Y-복부03"
+      "26Y-29"
     ],
     "option_explanations": [
       {
@@ -22130,7 +21878,7 @@
     "q_num": 27,
     "section": "인터벤션",
     "section_q_num": 2,
-    "q_label": "인터벤션 Q02 (#27)",
+    "q_label": "Q27",
     "category": "반짤",
     "theme_title": "상행 대동맥류의 병인: 낭포성 중층 괴사",
     "subspecialty": "인터벤션 영상의학",
@@ -22202,14 +21950,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-27",
-      "21Y-인터벤션02",
       "22Y-46",
       "22Y-인터벤션04"
     ],
@@ -22264,7 +22011,7 @@
     "q_num": 28,
     "section": "인터벤션",
     "section_q_num": 3,
-    "q_label": "인터벤션 Q03 (#28)",
+    "q_label": "Q28",
     "category": "짤",
     "theme_title": "혈전증의 병태생리: Virchow’s Triad",
     "subspecialty": "인터벤션 영상의학",
@@ -22336,7 +22083,7 @@
       3
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "22Y",
@@ -22344,9 +22091,7 @@
     ],
     "raw_questions": [
       "21Y-28",
-      "21Y-인터벤션03",
       "26Y-40",
-      "26Y-인터벤션05",
       "22Y-43",
       "22Y-인터벤션01"
     ],
@@ -22401,7 +22146,7 @@
     "q_num": 29,
     "section": "인터벤션",
     "section_q_num": 4,
-    "q_label": "인터벤션 Q04 (#29)",
+    "q_label": "Q29",
     "category": "짤",
     "theme_title": "수신증 환자의 요로 전환술: 경피적 신루설치술(PCN)",
     "subspecialty": "인터벤션 영상의학",
@@ -22475,7 +22220,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -22483,9 +22228,7 @@
     ],
     "raw_questions": [
       "21Y-29",
-      "21Y-인터벤션04",
       "23Y-18",
-      "23Y-인터벤션02",
       "22Y-45",
       "22Y-인터벤션03"
     ],
@@ -22540,7 +22283,7 @@
     "q_num": 30,
     "section": "인터벤션",
     "section_q_num": 5,
-    "q_label": "인터벤션 Q05 (#30)",
+    "q_label": "Q30",
     "category": "짤",
     "theme_title": "경경정맥 간내문맥전신단락술(TIPS)의 기본 원리",
     "subspecialty": "인터벤션 영상의학",
@@ -22614,7 +22357,7 @@
       0
     ],
     "freq_count": 5,
-    "rate": 100,
+    "rate": 83,
     "freq_years": [
       "26Y",
       "23Y",
@@ -22624,15 +22367,11 @@
     ],
     "raw_questions": [
       "21Y-30",
-      "21Y-인터벤션05",
       "26Y-14",
-      "26Y-인터벤션02",
       "23Y-20",
-      "23Y-인터벤션04",
       "22Y-44",
       "22Y-인터벤션02",
-      "20Y-26",
-      "20Y-인터벤션04"
+      "20Y-26"
     ],
     "option_explanations": [
       {
@@ -22685,7 +22424,7 @@
     "q_num": 31,
     "section": "흉부",
     "section_q_num": 1,
-    "q_label": "흉부 Q01 (#31)",
+    "q_label": "Q31",
     "category": "반짤",
     "theme_title": "대엽성 폐렴(Lobar Pneumonia)의 폐경화 소견",
     "subspecialty": "흉부 영상의학",
@@ -22759,16 +22498,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-31",
-      "21Y-흉부01",
-      "26Y-01",
-      "26Y-흉부01"
+      "26Y-01"
     ],
     "option_explanations": [
       {
@@ -22821,7 +22558,7 @@
     "q_num": 32,
     "section": "흉부",
     "section_q_num": 2,
-    "q_label": "흉부 Q02 (#32)",
+    "q_label": "Q32",
     "category": "반짤",
     "theme_title": "흉부 단순촬영 판독 소견 감별",
     "subspecialty": "흉부 영상의학",
@@ -22886,16 +22623,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "21Y-32",
-      "21Y-흉부02",
-      "20Y-01",
-      "20Y-흉부01"
+      "20Y-01"
     ],
     "option_explanations": [
       {
@@ -22940,7 +22675,7 @@
     "q_num": 33,
     "section": "흉부",
     "section_q_num": 3,
-    "q_label": "흉부 Q03 (#33)",
+    "q_label": "Q33",
     "category": "짤",
     "theme_title": "우상엽 무기폐 및 골든 S 징후의 원인 질환",
     "subspecialty": "흉부 영상의학",
@@ -23014,7 +22749,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "22Y",
@@ -23023,13 +22758,10 @@
     ],
     "raw_questions": [
       "21Y-33",
-      "21Y-흉부03",
       "26Y-08",
-      "26Y-흉부08",
       "22Y-01",
       "22Y-흉부01",
-      "20Y-02",
-      "20Y-흉부02"
+      "20Y-02"
     ],
     "option_explanations": [
       {
@@ -23082,7 +22814,7 @@
     "q_num": 34,
     "section": "흉부",
     "section_q_num": 4,
-    "q_label": "흉부 Q04 (#34)",
+    "q_label": "Q34",
     "category": "짤",
     "theme_title": "우상엽 무기폐 X선 판독: 폐문 높이의 정상 해부학",
     "subspecialty": "흉부 영상의학",
@@ -23156,7 +22888,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "22Y",
       "21Y",
@@ -23164,11 +22896,9 @@
     ],
     "raw_questions": [
       "21Y-34",
-      "21Y-흉부04",
       "22Y-01",
       "22Y-흉부01",
-      "20Y-04",
-      "20Y-흉부04"
+      "20Y-04"
     ],
     "option_explanations": [
       {
@@ -23221,7 +22951,7 @@
     "q_num": 35,
     "section": "흉부",
     "section_q_num": 5,
-    "q_label": "흉부 Q05 (#35)",
+    "q_label": "Q35",
     "category": "반짤",
     "theme_title": "속립성 결핵(Miliary TB)의 좁쌀 결절 판독",
     "subspecialty": "흉부 영상의학",
@@ -23295,16 +23025,14 @@
       3
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "21Y-35",
-      "21Y-흉부05",
-      "20Y-03",
-      "20Y-흉부03"
+      "20Y-03"
     ],
     "option_explanations": [
       {
@@ -23357,7 +23085,7 @@
     "q_num": 36,
     "section": "흉부",
     "section_q_num": 6,
-    "q_label": "흉부 Q06 (#36)",
+    "q_label": "Q36",
     "category": "짤",
     "theme_title": "활동성 폐결핵(Active Pulmonary TB)의 공동성 병변",
     "subspecialty": "흉부 영상의학",
@@ -23431,7 +23159,7 @@
       0
     ],
     "freq_count": 5,
-    "rate": 100,
+    "rate": 83,
     "freq_years": [
       "26Y",
       "23Y",
@@ -23441,15 +23169,11 @@
     ],
     "raw_questions": [
       "21Y-36",
-      "21Y-흉부06",
       "26Y-06",
-      "26Y-흉부06",
       "23Y-41",
-      "23Y-흉부03",
       "22Y-03",
       "22Y-흉부03",
-      "20Y-05",
-      "20Y-흉부05"
+      "20Y-05"
     ],
     "option_explanations": [
       {
@@ -23502,7 +23226,7 @@
     "q_num": 37,
     "section": "흉부",
     "section_q_num": 7,
-    "q_label": "흉부 Q07 (#37)",
+    "q_label": "Q37",
     "category": "짤",
     "theme_title": "고립성 폐결절(SPN) 발견 시 1차 조치: 과거 영상 비교",
     "subspecialty": "흉부 영상의학",
@@ -23576,7 +23300,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "23Y",
@@ -23585,11 +23309,8 @@
     ],
     "raw_questions": [
       "21Y-37",
-      "21Y-흉부07",
       "26Y-04",
-      "26Y-흉부04",
       "23Y-40",
-      "23Y-흉부02",
       "22Y-10",
       "22Y-흉부10"
     ],
@@ -23644,7 +23365,7 @@
     "q_num": 38,
     "section": "흉부",
     "section_q_num": 8,
-    "q_label": "흉부 Q08 (#38)",
+    "q_label": "Q38",
     "category": "짤",
     "theme_title": "공동을 동반한 폐질환: 공동성 폐암 감별",
     "subspecialty": "흉부 영상의학",
@@ -23718,7 +23439,7 @@
       4
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "22Y",
@@ -23726,9 +23447,7 @@
     ],
     "raw_questions": [
       "21Y-38",
-      "21Y-흉부08",
       "26Y-07",
-      "26Y-흉부07",
       "22Y-05",
       "22Y-흉부05"
     ],
@@ -23783,7 +23502,7 @@
     "q_num": 39,
     "section": "흉부",
     "section_q_num": 9,
-    "q_label": "흉부 Q09 (#39)",
+    "q_label": "Q39",
     "category": "짤",
     "theme_title": "자연 기흉의 원인 병변: 폐첨부 기포 파열",
     "subspecialty": "흉부 영상의학",
@@ -23857,7 +23576,7 @@
       1
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "22Y",
@@ -23865,9 +23584,7 @@
     ],
     "raw_questions": [
       "21Y-39",
-      "21Y-흉부09",
       "26Y-02",
-      "26Y-흉부02",
       "22Y-06",
       "22Y-흉부06"
     ],
@@ -23922,7 +23639,7 @@
     "q_num": 40,
     "section": "흉부",
     "section_q_num": 10,
-    "q_label": "흉부 Q10 (#40)",
+    "q_label": "Q40",
     "category": "짤",
     "theme_title": "우상엽 무기폐로 인한 종격동 편위 및 폐문 높이 판독",
     "subspecialty": "흉부 영상의학",
@@ -23987,7 +23704,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "22Y",
@@ -23996,13 +23713,10 @@
     ],
     "raw_questions": [
       "21Y-40",
-      "21Y-흉부10",
       "26Y-10",
-      "26Y-흉부10",
       "22Y-01",
       "22Y-흉부01",
-      "20Y-04",
-      "20Y-흉부04"
+      "20Y-04"
     ],
     "option_explanations": [
       {
@@ -24047,7 +23761,7 @@
     "q_num": 41,
     "section": "흉부",
     "section_q_num": 11,
-    "q_label": "흉부 Q11 (#41)",
+    "q_label": "Q41",
     "category": "짤",
     "theme_title": "만성 폐쇄성 폐질환(COPD)의 횡격막 평탄화 소견",
     "subspecialty": "흉부 영상의학",
@@ -24112,7 +23826,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "23Y",
@@ -24120,11 +23834,8 @@
     ],
     "raw_questions": [
       "21Y-41",
-      "21Y-흉부11",
       "26Y-05",
-      "26Y-흉부05",
-      "23Y-47",
-      "23Y-흉부09"
+      "23Y-47"
     ],
     "option_explanations": [
       {
@@ -24169,7 +23880,7 @@
     "q_num": 42,
     "section": "흉부",
     "section_q_num": 12,
-    "q_label": "흉부 Q12 (#42)",
+    "q_label": "Q42",
     "category": "반짤",
     "theme_title": "활동성 결핵의 결절 및 공동 병변 소견",
     "subspecialty": "흉부 영상의학",
@@ -24232,14 +23943,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-42",
-      "21Y-흉부12",
       "22Y-03",
       "22Y-흉부03"
     ],
@@ -24286,7 +23996,7 @@
     "q_num": 43,
     "section": "신경",
     "section_q_num": 1,
-    "q_label": "신경 Q01 (#43)",
+    "q_label": "Q43",
     "category": "짤",
     "theme_title": "경막하 출혈(SDH)과 경막외 출혈(EDH)의 임상/영상 특징 감별",
     "subspecialty": "신경 영상의학",
@@ -24360,7 +24070,7 @@
       2
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "23Y",
@@ -24368,11 +24078,8 @@
     ],
     "raw_questions": [
       "21Y-43",
-      "21Y-신경01",
       "26Y-28",
-      "26Y-신경07",
-      "23Y-33",
-      "23Y-신경04"
+      "23Y-33"
     ],
     "option_explanations": [
       {
@@ -24425,7 +24132,7 @@
     "q_num": 44,
     "section": "신경",
     "section_q_num": 2,
-    "q_label": "신경 Q02 (#44)",
+    "q_label": "Q44",
     "category": "짤",
     "theme_title": "급성 뇌경색(Acute Ischemic Stroke)의 조영 전 CT",
     "subspecialty": "신경 영상의학",
@@ -24499,7 +24206,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "22Y",
       "21Y",
@@ -24507,11 +24214,9 @@
     ],
     "raw_questions": [
       "21Y-44",
-      "21Y-신경02",
       "22Y-36",
       "22Y-신경01",
-      "20Y-28",
-      "20Y-신경01"
+      "20Y-28"
     ],
     "option_explanations": [
       {
@@ -24564,7 +24269,7 @@
     "q_num": 45,
     "section": "신경",
     "section_q_num": 3,
-    "q_label": "신경 Q03 (#45)",
+    "q_label": "Q45",
     "category": "반짤",
     "theme_title": "정상 뇌 MRI 기본 시퀀스(DWI, T2WI, T1WI, FLAIR) 구별",
     "subspecialty": "신경 영상의학",
@@ -24636,16 +24341,14 @@
       2
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "21Y-45",
-      "21Y-신경03",
-      "20Y-34",
-      "20Y-신경07"
+      "20Y-34"
     ],
     "option_explanations": [
       {
@@ -24698,7 +24401,7 @@
     "q_num": 46,
     "section": "신경",
     "section_q_num": 4,
-    "q_label": "신경 Q04 (#46)",
+    "q_label": "Q46",
     "category": "짤",
     "theme_title": "지주막하 출혈(SAH)의 합병증: 혈관연축(Vasospasm)의 발생 시기",
     "subspecialty": "신경 영상의학",
@@ -24770,7 +24473,7 @@
       4
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "21Y",
@@ -24778,11 +24481,8 @@
     ],
     "raw_questions": [
       "21Y-46",
-      "21Y-신경04",
       "26Y-22",
-      "26Y-신경01",
-      "20Y-30",
-      "20Y-신경03"
+      "20Y-30"
     ],
     "option_explanations": [
       {
@@ -24835,7 +24535,7 @@
     "q_num": 47,
     "section": "신경",
     "section_q_num": 5,
-    "q_label": "신경 Q05 (#47)",
+    "q_label": "Q47",
     "category": "짤",
     "theme_title": "급성 허혈성 뇌졸중에서 비조영 CT의 목적",
     "subspecialty": "신경 영상의학",
@@ -24907,7 +24607,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "22Y",
@@ -24915,9 +24615,7 @@
     ],
     "raw_questions": [
       "21Y-47",
-      "21Y-신경05",
       "23Y-30",
-      "23Y-신경01",
       "22Y-37",
       "22Y-신경02"
     ],
@@ -24972,7 +24670,7 @@
     "q_num": 48,
     "section": "신경",
     "section_q_num": 6,
-    "q_label": "신경 Q06 (#48)",
+    "q_label": "Q48",
     "category": "반짤",
     "theme_title": "급성 뇌졸중의 재개통 치료 원칙",
     "subspecialty": "신경 영상의학",
@@ -25044,16 +24742,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-48",
-      "21Y-신경06",
-      "26Y-25",
-      "26Y-신경04"
+      "26Y-25"
     ],
     "option_explanations": [
       {
@@ -25106,7 +24802,7 @@
     "q_num": 49,
     "section": "신경",
     "section_q_num": 7,
-    "q_label": "신경 Q07 (#49)",
+    "q_label": "Q49",
     "category": "짤",
     "theme_title": "교모세포종(GBM)과 뇌농양(Abscess)의 림 조영증강 감별: DWI",
     "subspecialty": "신경 영상의학",
@@ -25181,7 +24877,7 @@
       3
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "23Y",
       "21Y",
@@ -25189,11 +24885,8 @@
     ],
     "raw_questions": [
       "21Y-49",
-      "21Y-신경07",
       "23Y-37",
-      "23Y-신경08",
-      "20Y-33",
-      "20Y-신경06"
+      "20Y-33"
     ],
     "option_explanations": [
       {
@@ -25246,7 +24939,7 @@
     "q_num": 50,
     "section": "신경",
     "section_q_num": 8,
-    "q_label": "신경 Q08 (#50)",
+    "q_label": "Q50",
     "category": "반짤",
     "theme_title": "혈관인성 부종(Vasogenic Edema)의 영상 특징과 원인 질환",
     "subspecialty": "신경 영상의학",
@@ -25320,14 +25013,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "21Y"
     ],
     "raw_questions": [
       "21Y-50",
-      "21Y-신경08",
       "22Y-38",
       "22Y-신경03"
     ],
@@ -25453,16 +25145,14 @@
       2
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-01",
-      "20Y-흉부01",
-      "21Y-32",
-      "21Y-흉부02"
+      "21Y-32"
     ],
     "option_explanations": [
       {
@@ -25508,7 +25198,7 @@
     ],
     "section": "흉부",
     "section_q_num": 1,
-    "q_label": "흉부 Q01 (#01)"
+    "q_label": "Q01"
   },
   {
     "id": "영상의학과_20Y_Q02",
@@ -25580,7 +25270,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "22Y",
       "21Y",
@@ -25588,11 +25278,9 @@
     ],
     "raw_questions": [
       "20Y-02",
-      "20Y-흉부02",
       "22Y-01",
       "22Y-흉부01",
-      "21Y-33",
-      "21Y-흉부03"
+      "21Y-33"
     ],
     "option_explanations": [
       {
@@ -25630,7 +25318,7 @@
     ],
     "section": "흉부",
     "section_q_num": 2,
-    "q_label": "흉부 Q02 (#02)"
+    "q_label": "Q02"
   },
   {
     "id": "영상의학과_20Y_Q03",
@@ -25702,7 +25390,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "22Y",
       "21Y",
@@ -25710,11 +25398,9 @@
     ],
     "raw_questions": [
       "20Y-03",
-      "20Y-흉부03",
       "22Y-08",
       "22Y-흉부08",
-      "21Y-35",
-      "21Y-흉부05"
+      "21Y-35"
     ],
     "option_explanations": [
       {
@@ -25752,7 +25438,7 @@
     ],
     "section": "흉부",
     "section_q_num": 3,
-    "q_label": "흉부 Q03 (#03)"
+    "q_label": "Q03"
   },
   {
     "id": "영상의학과_20Y_Q04",
@@ -25824,7 +25510,7 @@
       3
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "22Y",
@@ -25833,13 +25519,10 @@
     ],
     "raw_questions": [
       "20Y-04",
-      "20Y-흉부04",
       "26Y-10",
-      "26Y-흉부10",
       "22Y-02",
       "22Y-흉부02",
-      "21Y-40",
-      "21Y-흉부10"
+      "21Y-40"
     ],
     "option_explanations": [
       {
@@ -25877,7 +25560,7 @@
     ],
     "section": "흉부",
     "section_q_num": 4,
-    "q_label": "흉부 Q04 (#04)"
+    "q_label": "Q04"
   },
   {
     "id": "영상의학과_20Y_Q05",
@@ -25949,7 +25632,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "22Y",
       "21Y",
@@ -25957,11 +25640,9 @@
     ],
     "raw_questions": [
       "20Y-05",
-      "20Y-흉부05",
       "22Y-03",
       "22Y-흉부03",
-      "21Y-36",
-      "21Y-흉부06"
+      "21Y-36"
     ],
     "option_explanations": [
       {
@@ -25999,7 +25680,7 @@
     ],
     "section": "흉부",
     "section_q_num": 5,
-    "q_label": "흉부 Q05 (#05)"
+    "q_label": "Q05"
   },
   {
     "id": "영상의학과_20Y_Q06",
@@ -26071,13 +25752,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "20Y"
     ],
     "raw_questions": [
-      "20Y-06",
-      "20Y-흉부06"
+      "20Y-06"
     ],
     "option_explanations": [
       {
@@ -26115,7 +25795,7 @@
     ],
     "section": "흉부",
     "section_q_num": 6,
-    "q_label": "흉부 Q06 (#06)"
+    "q_label": "Q06"
   },
   {
     "id": "영상의학과_20Y_Q07",
@@ -26178,13 +25858,12 @@
       1
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "20Y"
     ],
     "raw_questions": [
-      "20Y-07",
-      "20Y-흉부07"
+      "20Y-07"
     ],
     "option_explanations": [
       {
@@ -26214,7 +25893,7 @@
     ],
     "section": "흉부",
     "section_q_num": 7,
-    "q_label": "흉부 Q07 (#07)"
+    "q_label": "Q07"
   },
   {
     "id": "영상의학과_20Y_Q08",
@@ -26295,14 +25974,13 @@
       4
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-08",
-      "20Y-흉부08",
       "22Y-04",
       "22Y-흉부04"
     ],
@@ -26350,7 +26028,7 @@
     ],
     "section": "흉부",
     "section_q_num": 8,
-    "q_label": "흉부 Q08 (#08)"
+    "q_label": "Q08"
   },
   {
     "id": "영상의학과_20Y_Q09",
@@ -26422,14 +26100,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-09",
-      "20Y-흉부09",
       "22Y-05",
       "22Y-흉부05"
     ],
@@ -26469,7 +26146,7 @@
     ],
     "section": "흉부",
     "section_q_num": 9,
-    "q_label": "흉부 Q09 (#09)"
+    "q_label": "Q09"
   },
   {
     "id": "영상의학과_20Y_Q10",
@@ -26523,7 +26200,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "22Y",
       "21Y",
@@ -26531,11 +26208,9 @@
     ],
     "raw_questions": [
       "20Y-10",
-      "20Y-복부01",
       "22Y-24",
       "22Y-복부13",
-      "21Y-17",
-      "21Y-복부12"
+      "21Y-17"
     ],
     "option_explanations": [
       {
@@ -26557,7 +26232,7 @@
     ],
     "section": "복부",
     "section_q_num": 1,
-    "q_label": "복부 Q01 (#10)"
+    "q_label": "Q10"
   },
   {
     "id": "영상의학과_20Y_Q11",
@@ -26638,7 +26313,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "22Y",
       "21Y",
@@ -26646,11 +26321,9 @@
     ],
     "raw_questions": [
       "20Y-11",
-      "20Y-복부02",
       "22Y-16",
       "22Y-복부05",
-      "21Y-11",
-      "21Y-복부06"
+      "21Y-11"
     ],
     "option_explanations": [
       {
@@ -26696,7 +26369,7 @@
     ],
     "section": "복부",
     "section_q_num": 2,
-    "q_label": "복부 Q02 (#11)"
+    "q_label": "Q11"
   },
   {
     "id": "영상의학과_20Y_Q12",
@@ -26769,13 +26442,12 @@
       3
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "20Y"
     ],
     "raw_questions": [
-      "20Y-12",
-      "20Y-복부03"
+      "20Y-12"
     ],
     "option_explanations": [
       {
@@ -26813,7 +26485,7 @@
     ],
     "section": "복부",
     "section_q_num": 3,
-    "q_label": "복부 Q03 (#12)"
+    "q_label": "Q12"
   },
   {
     "id": "영상의학과_20Y_Q13",
@@ -26894,14 +26566,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-13",
-      "20Y-복부04",
       "22Y-17",
       "22Y-복부06"
     ],
@@ -26949,7 +26620,7 @@
     ],
     "section": "복부",
     "section_q_num": 4,
-    "q_label": "복부 Q04 (#13)"
+    "q_label": "Q13"
   },
   {
     "id": "영상의학과_20Y_Q14",
@@ -27001,14 +26672,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-14",
-      "20Y-복부05",
       "22Y-15",
       "22Y-복부04"
     ],
@@ -27032,7 +26702,7 @@
     ],
     "section": "복부",
     "section_q_num": 5,
-    "q_label": "복부 Q05 (#14)"
+    "q_label": "Q14"
   },
   {
     "id": "영상의학과_20Y_Q15",
@@ -27086,14 +26756,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-15",
-      "20Y-복부06",
       "22Y-14",
       "22Y-복부03"
     ],
@@ -27117,7 +26786,7 @@
     ],
     "section": "복부",
     "section_q_num": 6,
-    "q_label": "복부 Q06 (#15)"
+    "q_label": "Q15"
   },
   {
     "id": "영상의학과_20Y_Q16",
@@ -27189,14 +26858,13 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-16",
-      "20Y-복부07",
       "22Y-13",
       "22Y-복부02"
     ],
@@ -27236,7 +26904,7 @@
     ],
     "section": "복부",
     "section_q_num": 7,
-    "q_label": "복부 Q07 (#16)"
+    "q_label": "Q16"
   },
   {
     "id": "영상의학과_20Y_Q17",
@@ -27308,7 +26976,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "22Y",
       "21Y",
@@ -27316,11 +26984,9 @@
     ],
     "raw_questions": [
       "20Y-17",
-      "20Y-복부08",
       "22Y-12",
       "22Y-복부01",
-      "21Y-14",
-      "21Y-복부09"
+      "21Y-14"
     ],
     "option_explanations": [
       {
@@ -27358,7 +27024,7 @@
     ],
     "section": "복부",
     "section_q_num": 8,
-    "q_label": "복부 Q08 (#17)"
+    "q_label": "Q17"
   },
   {
     "id": "영상의학과_20Y_Q18",
@@ -27430,16 +27096,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-18",
-      "20Y-복부09",
-      "26Y-18",
-      "26Y-복부02"
+      "26Y-18"
     ],
     "option_explanations": [
       {
@@ -27477,7 +27141,7 @@
     ],
     "section": "복부",
     "section_q_num": 9,
-    "q_label": "복부 Q09 (#18)"
+    "q_label": "Q18"
   },
   {
     "id": "영상의학과_20Y_Q19",
@@ -27567,13 +27231,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "20Y"
     ],
     "raw_questions": [
-      "20Y-19",
-      "20Y-복부10"
+      "20Y-19"
     ],
     "option_explanations": [
       {
@@ -27627,7 +27290,7 @@
     ],
     "section": "복부",
     "section_q_num": 10,
-    "q_label": "복부 Q10 (#19)"
+    "q_label": "Q19"
   },
   {
     "id": "영상의학과_20Y_Q20",
@@ -27708,13 +27371,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "20Y"
     ],
     "raw_questions": [
-      "20Y-20",
-      "20Y-유방01"
+      "20Y-20"
     ],
     "option_explanations": [
       {
@@ -27760,7 +27422,7 @@
     ],
     "section": "유방",
     "section_q_num": 1,
-    "q_label": "유방 Q01 (#20)"
+    "q_label": "Q20"
   },
   {
     "id": "영상의학과_20Y_Q21",
@@ -27832,7 +27494,7 @@
       1
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "21Y",
@@ -27840,11 +27502,8 @@
     ],
     "raw_questions": [
       "20Y-21",
-      "20Y-유방02",
       "26Y-19",
-      "26Y-유방01",
-      "21Y-01",
-      "21Y-유방01"
+      "21Y-01"
     ],
     "option_explanations": [
       {
@@ -27882,7 +27541,7 @@
     ],
     "section": "유방",
     "section_q_num": 2,
-    "q_label": "유방 Q02 (#21)"
+    "q_label": "Q21"
   },
   {
     "id": "영상의학과_20Y_Q22",
@@ -27963,13 +27622,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "20Y"
     ],
     "raw_questions": [
-      "20Y-22",
-      "20Y-유방03"
+      "20Y-22"
     ],
     "option_explanations": [
       {
@@ -28015,7 +27673,7 @@
     ],
     "section": "유방",
     "section_q_num": 3,
-    "q_label": "유방 Q03 (#22)"
+    "q_label": "Q22"
   },
   {
     "id": "영상의학과_20Y_Q23",
@@ -28087,13 +27745,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "20Y"
     ],
     "raw_questions": [
-      "20Y-23",
-      "20Y-인터벤션01"
+      "20Y-23"
     ],
     "option_explanations": [
       {
@@ -28131,7 +27788,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 1,
-    "q_label": "인터벤션 Q01 (#23)"
+    "q_label": "Q23"
   },
   {
     "id": "영상의학과_20Y_Q24",
@@ -28201,13 +27858,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "20Y"
     ],
     "raw_questions": [
-      "20Y-24",
-      "20Y-인터벤션02"
+      "20Y-24"
     ],
     "option_explanations": [
       {
@@ -28245,7 +27901,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 2,
-    "q_label": "인터벤션 Q02 (#24)"
+    "q_label": "Q24"
   },
   {
     "id": "영상의학과_20Y_Q25",
@@ -28324,14 +27980,13 @@
       2
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-25",
-      "20Y-인터벤션03",
       "22Y-48",
       "22Y-인터벤션06"
     ],
@@ -28379,7 +28034,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 3,
-    "q_label": "인터벤션 Q03 (#25)"
+    "q_label": "Q25"
   },
   {
     "id": "영상의학과_20Y_Q26",
@@ -28440,7 +28095,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "22Y",
       "21Y",
@@ -28448,11 +28103,9 @@
     ],
     "raw_questions": [
       "20Y-26",
-      "20Y-인터벤션04",
       "22Y-44",
       "22Y-인터벤션02",
-      "21Y-30",
-      "21Y-인터벤션05"
+      "21Y-30"
     ],
     "option_explanations": [
       {
@@ -28482,7 +28135,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 4,
-    "q_label": "인터벤션 Q04 (#26)"
+    "q_label": "Q26"
   },
   {
     "id": "영상의학과_20Y_Q27",
@@ -28552,13 +28205,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "20Y"
     ],
     "raw_questions": [
-      "20Y-27",
-      "20Y-인터벤션05"
+      "20Y-27"
     ],
     "option_explanations": [
       {
@@ -28596,7 +28248,7 @@
     ],
     "section": "인터벤션",
     "section_q_num": 5,
-    "q_label": "인터벤션 Q05 (#27)"
+    "q_label": "Q27"
   },
   {
     "id": "영상의학과_20Y_Q28",
@@ -28668,7 +28320,7 @@
       1
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "22Y",
       "21Y",
@@ -28676,11 +28328,9 @@
     ],
     "raw_questions": [
       "20Y-28",
-      "20Y-신경01",
       "22Y-39",
       "22Y-신경04",
-      "21Y-44",
-      "21Y-신경02"
+      "21Y-44"
     ],
     "option_explanations": [
       {
@@ -28718,7 +28368,7 @@
     ],
     "section": "신경",
     "section_q_num": 1,
-    "q_label": "신경 Q01 (#28)"
+    "q_label": "Q28"
   },
   {
     "id": "영상의학과_20Y_Q29",
@@ -28799,14 +28449,13 @@
       2
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "22Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-29",
-      "20Y-신경02",
       "22Y-40",
       "22Y-신경05"
     ],
@@ -28854,7 +28503,7 @@
     ],
     "section": "신경",
     "section_q_num": 2,
-    "q_label": "신경 Q02 (#29)"
+    "q_label": "Q29"
   },
   {
     "id": "영상의학과_20Y_Q30",
@@ -28926,7 +28575,7 @@
       0
     ],
     "freq_count": 3,
-    "rate": 60,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "21Y",
@@ -28934,11 +28583,8 @@
     ],
     "raw_questions": [
       "20Y-30",
-      "20Y-신경03",
       "26Y-22",
-      "26Y-신경01",
-      "21Y-46",
-      "21Y-신경04"
+      "21Y-46"
     ],
     "option_explanations": [
       {
@@ -28976,7 +28622,7 @@
     ],
     "section": "신경",
     "section_q_num": 3,
-    "q_label": "신경 Q03 (#30)"
+    "q_label": "Q30"
   },
   {
     "id": "영상의학과_20Y_Q31",
@@ -29057,16 +28703,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-31",
-      "20Y-신경04",
-      "26Y-23",
-      "26Y-신경02"
+      "26Y-23"
     ],
     "option_explanations": [
       {
@@ -29112,7 +28756,7 @@
     ],
     "section": "신경",
     "section_q_num": 4,
-    "q_label": "신경 Q04 (#31)"
+    "q_label": "Q31"
   },
   {
     "id": "영상의학과_20Y_Q32",
@@ -29184,7 +28828,7 @@
       0
     ],
     "freq_count": 4,
-    "rate": 80,
+    "rate": 66,
     "freq_years": [
       "26Y",
       "23Y",
@@ -29193,11 +28837,8 @@
     ],
     "raw_questions": [
       "20Y-32",
-      "20Y-신경05",
       "26Y-26",
-      "26Y-신경05",
       "23Y-31",
-      "23Y-신경02",
       "22Y-41",
       "22Y-신경06"
     ],
@@ -29237,7 +28878,7 @@
     ],
     "section": "신경",
     "section_q_num": 5,
-    "q_label": "신경 Q05 (#32)"
+    "q_label": "Q32"
   },
   {
     "id": "영상의학과_20Y_Q33",
@@ -29307,16 +28948,14 @@
       3
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-33",
-      "20Y-신경06",
-      "21Y-49",
-      "21Y-신경07"
+      "21Y-49"
     ],
     "option_explanations": [
       {
@@ -29354,7 +28993,7 @@
     ],
     "section": "신경",
     "section_q_num": 6,
-    "q_label": "신경 Q06 (#33)"
+    "q_label": "Q33"
   },
   {
     "id": "영상의학과_20Y_Q34",
@@ -29424,16 +29063,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-34",
-      "20Y-신경07",
-      "21Y-45",
-      "21Y-신경03"
+      "21Y-45"
     ],
     "option_explanations": [
       {
@@ -29471,7 +29108,7 @@
     ],
     "section": "신경",
     "section_q_num": 7,
-    "q_label": "신경 Q07 (#34)"
+    "q_label": "Q34"
   },
   {
     "id": "영상의학과_20Y_Q35",
@@ -29543,16 +29180,14 @@
       2
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "26Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-35",
-      "20Y-신경08",
-      "26Y-24",
-      "26Y-신경03"
+      "26Y-24"
     ],
     "option_explanations": [
       {
@@ -29590,7 +29225,7 @@
     ],
     "section": "신경",
     "section_q_num": 8,
-    "q_label": "신경 Q08 (#35)"
+    "q_label": "Q35"
   },
   {
     "id": "영상의학과_20Y_Q36",
@@ -29671,13 +29306,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "20Y"
     ],
     "raw_questions": [
-      "20Y-36",
-      "20Y-신경09"
+      "20Y-36"
     ],
     "option_explanations": [
       {
@@ -29723,7 +29357,7 @@
     ],
     "section": "신경",
     "section_q_num": 9,
-    "q_label": "신경 Q09 (#36)"
+    "q_label": "Q36"
   },
   {
     "id": "영상의학과_20Y_Q37",
@@ -29786,16 +29420,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-37",
-      "20Y-MSK01",
-      "21Y-19",
-      "21Y-MSK02"
+      "21Y-19"
     ],
     "option_explanations": [
       {
@@ -29825,7 +29457,7 @@
     ],
     "section": "MSK",
     "section_q_num": 1,
-    "q_label": "MSK Q01 (#37)"
+    "q_label": "Q37"
   },
   {
     "id": "영상의학과_20Y_Q38",
@@ -29888,13 +29520,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "20Y"
     ],
     "raw_questions": [
-      "20Y-38",
-      "20Y-MSK02"
+      "20Y-38"
     ],
     "option_explanations": [
       {
@@ -29924,7 +29555,7 @@
     ],
     "section": "MSK",
     "section_q_num": 2,
-    "q_label": "MSK Q02 (#38)"
+    "q_label": "Q38"
   },
   {
     "id": "영상의학과_20Y_Q39",
@@ -29987,16 +29618,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-39",
-      "20Y-MSK03",
-      "21Y-20",
-      "21Y-MSK03"
+      "21Y-20"
     ],
     "option_explanations": [
       {
@@ -30026,7 +29655,7 @@
     ],
     "section": "MSK",
     "section_q_num": 3,
-    "q_label": "MSK Q03 (#39)"
+    "q_label": "Q39"
   },
   {
     "id": "영상의학과_20Y_Q40",
@@ -30098,13 +29727,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "20Y"
     ],
     "raw_questions": [
-      "20Y-40",
-      "20Y-MSK04"
+      "20Y-40"
     ],
     "option_explanations": [
       {
@@ -30142,7 +29770,7 @@
     ],
     "section": "MSK",
     "section_q_num": 4,
-    "q_label": "MSK Q04 (#40)"
+    "q_label": "Q40"
   },
   {
     "id": "영상의학과_20Y_Q41",
@@ -30214,13 +29842,12 @@
       0
     ],
     "freq_count": 1,
-    "rate": 20,
+    "rate": 16,
     "freq_years": [
       "20Y"
     ],
     "raw_questions": [
-      "20Y-41",
-      "20Y-MSK05"
+      "20Y-41"
     ],
     "option_explanations": [
       {
@@ -30258,7 +29885,7 @@
     ],
     "section": "MSK",
     "section_q_num": 5,
-    "q_label": "MSK Q05 (#41)"
+    "q_label": "Q41"
   },
   {
     "id": "영상의학과_20Y_Q42",
@@ -30337,16 +29964,14 @@
       0
     ],
     "freq_count": 2,
-    "rate": 40,
+    "rate": 33,
     "freq_years": [
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-42",
-      "20Y-MSK06",
-      "21Y-23",
-      "21Y-MSK06"
+      "21Y-23"
     ],
     "option_explanations": [
       {
@@ -30392,6 +30017,6 @@
     ],
     "section": "MSK",
     "section_q_num": 6,
-    "q_label": "MSK Q06 (#42)"
+    "q_label": "Q42"
   }
 ]

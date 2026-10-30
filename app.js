@@ -1089,11 +1089,12 @@
       // Format label
       let label = '';
       if (targetQ) {
-        targetRaw = `${yr}-${String(targetQ.q_num).padStart(2, '0')}`;
-        if (targetQ.section && targetQ.section_q_num) {
-          label = `${yr}-${String(targetQ.q_num).padStart(2, '0')} (${targetQ.section}${String(targetQ.section_q_num).padStart(2, '0')})`;
+        if (targetQ.year === '22Y' && targetQ.section && targetQ.section_q_num) {
+          label = `22Y (${targetQ.section} ${String(targetQ.section_q_num).padStart(2, '0')}번)`;
+          targetRaw = `22Y-${targetQ.section}${String(targetQ.section_q_num).padStart(2, '0')}`;
         } else {
           label = `${yr}-${String(targetQ.q_num).padStart(2, '0')}`;
+          targetRaw = `${yr}-${String(targetQ.q_num).padStart(2, '0')}`;
         }
       } else {
         // Fallback for earlier years not in DB (e.g. 19Y-13)
@@ -1171,7 +1172,14 @@
       state.filters.searchQuery = '';
       if (dom.searchInput) dom.searchInput.value = '';
 
-      // Sync UI and re-apply filters
+      // Sync UI and re-apply filters so state.filteredQuestions includes target
+      applyFilters();
+      const subQuestions = (state.filters.subject === 'ALL')
+        ? state.allQuestions
+        : state.allQuestions.filter(cand => cand.subject === state.filters.subject);
+      renderYearTabs(subQuestions);
+      renderSectionTabs(subQuestions);
+      renderCategoryTabs(subQuestions);
       syncFilterButtonsUI();
       updateSubjectUI();
 
@@ -1190,6 +1198,11 @@
       state.filters.onlyBookmarked = false;
       state.filters.searchQuery = '';
       if (dom.searchInput) dom.searchInput.value = '';
+      applyFilters();
+      const subQuestions = state.allQuestions.filter(cand => cand.subject === target.subject);
+      renderYearTabs(subQuestions);
+      renderSectionTabs(subQuestions);
+      renderCategoryTabs(subQuestions);
       syncFilterButtonsUI();
       updateSubjectUI();
       targetIdx = state.filteredQuestions.findIndex(fq => fq.id === target.id);
@@ -1202,9 +1215,12 @@
       updateStats();
       window.scrollTo({ top: 0, behavior: 'smooth' });
 
-      const targetLabel = (target.section && target.section_q_num)
-        ? `${target.year}-${String(target.q_num).padStart(2, '0')} (${target.section}${String(target.section_q_num).padStart(2, '0')})`
-        : `${target.year}-${String(target.q_num).padStart(2, '0')}`;
+      let targetLabel = '';
+      if (target.year === '22Y' && target.section && target.section_q_num) {
+        targetLabel = `22Y (${target.section} ${String(target.section_q_num).padStart(2, '0')}번)`;
+      } else {
+        targetLabel = `${target.year}-${String(target.q_num).padStart(2, '0')}`;
+      }
       showToast(`⚡ [${targetLabel}] ${target.subject} 기출 문제로 문제를 변경했습니다.`);
     } else {
       showToast(`⚠️ [${target.id}] 문제로 이동하는 중 필터 충돌이 발생했습니다.`);
@@ -1374,10 +1390,12 @@
     }
     if (dom.cardQnum) {
       dom.cardQnum.style.display = '';
-      if (q.q_label) {
+      if (q.year === '22Y' && q.section && q.section_q_num) {
+        dom.cardQnum.textContent = `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`;
+      } else if (q.q_label) {
         dom.cardQnum.textContent = q.q_label;
       } else if (q.section && q.section_q_num) {
-        dom.cardQnum.textContent = `${q.section} Q${String(q.section_q_num).padStart(2, '0')} (#${String(q.q_num).padStart(2, '0')})`;
+        dom.cardQnum.textContent = `${q.section} Q${String(q.section_q_num).padStart(2, '0')}`;
       } else {
         dom.cardQnum.textContent = `Q${String(q.q_num).padStart(2, '0')}`;
       }
@@ -1795,9 +1813,6 @@
             <img src="${optImgSrc}" class="image-opt-img" alt="${numPrefix} 선지 사진" />
             <span class="image-opt-zoom-btn" title="고화질 원본 확대">🔍 확대</span>
           </div>
-          ${isAnswered && q.option_labels_post && q.option_labels_post[origIdx] ? `
-            <div class="image-opt-post-label">${q.option_labels_post[origIdx]}</div>
-          ` : ''}
         `;
         const zoomBtn = btn.querySelector('.image-opt-zoom-btn');
         if (zoomBtn) {
@@ -2075,16 +2090,7 @@
         btn.classList.add('is-neutral');
       }
 
-      // If question has image options with post-labels, reveal them now
-      if (q.is_image_options && q.option_labels_post && q.option_labels_post[origIdx]) {
-        let postLabel = btn.querySelector('.image-opt-post-label');
-        if (!postLabel) {
-          postLabel = document.createElement('div');
-          postLabel.className = 'image-opt-post-label';
-          btn.appendChild(postLabel);
-        }
-        postLabel.textContent = q.option_labels_post[origIdx];
-      }
+      // End of option button setup
     });
 
     // Feedback Banner
@@ -3529,12 +3535,12 @@
         }
       }
 
-      if (q.section && q.section_q_num) {
+      if (q.year === '22Y' && q.section && q.section_q_num) {
         btn.innerHTML = `<span class="grid-sec-tag">${q.section}</span><span class="grid-num">${String(q.section_q_num).padStart(2, '0')}</span>`;
-        btn.title = `[${q.year} ${q.section} Q${String(q.section_q_num).padStart(2, '0')}] 전체 #${q.q_num}: ${q.theme_title || ''}`;
+        btn.title = `[22Y ${q.section} ${String(q.section_q_num).padStart(2, '0')}번] ${q.theme_title || ''}`;
       } else {
         btn.textContent = `${idx + 1}`;
-        btn.title = `[${q.year} Q${q.q_num}]: ${q.theme_title || ''}`;
+        btn.title = `[${q.year} Q${String(q.q_num).padStart(2, '0')}]: ${q.theme_title || ''}`;
       }
 
       if (state.bookmarks.has(q.id)) {
