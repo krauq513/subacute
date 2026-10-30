@@ -1793,16 +1793,18 @@
         </span>
       ` : '';
 
-      const isImageOpt = q.is_image_options && q.option_images && q.option_images[origIdx];
+      const optImages = q.option_images || (q.is_image_options ? q.images : null);
+      const isImageOpt = q.is_image_options && optImages && optImages[origIdx];
       if (isImageOpt) {
         btn.classList.add('image-option-card');
-        const rawSrc = q.option_images[origIdx];
-        const optImgSrc = rawSrc.includes('?') ? rawSrc : `${rawSrc}?v=20261031v1`;
+        const rawSrc = optImages[origIdx];
+        const optImgSrc = rawSrc.includes('?') ? rawSrc : `${rawSrc}?v=20261031v5`;
         btn.innerHTML = `
           <div class="image-opt-header">
             <div class="image-opt-left">
               ${checkboxHtml}
               <span class="option-num">${numPrefix}</span>
+              ${labelText ? `<span class="image-opt-paren">${labelText}</span>` : ''}
             </div>
             <div class="image-opt-right">
               <span class="option-status-icon"></span>

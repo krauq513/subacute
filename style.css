@@ -3711,6 +3711,13 @@ dialog.report-dialog::backdrop {
   gap: 0.4rem;
 }
 
+.image-opt-paren {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #374151;
+  letter-spacing: -0.02em;
+}
+
 .image-opt-right {
   display: flex;
   align-items: center;

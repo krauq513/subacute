@@ -7297,7 +7297,7 @@
     "category": "반짤",
     "theme_title": "복부 양성 병변 중 수술 없이 경과관찰 가능한 질환 (담낭 용종 vs 담석/담낭염/천공)",
     "subspecialty": "복부 영상의학",
-    "stem": "다음 중 수술 안 하고 경과관찰 해도 되는 것은?",
+    "stem": "다음 중 수술 안 하고 경과관찰 해도 되는 것은? (선지의 사진을 보고 알맞은 질환을 선택)",
     "images": [
       "images/영상의학과/23Y_Q12_fig1.png",
       "images/영상의학과/23Y_Q12_fig2.png",
@@ -7306,61 +7306,61 @@
       "images/영상의학과/23Y_Q12_fig5.png"
     ],
     "options": [
-      "①",
-      "②",
-      "③",
-      "④",
-      "⑤"
+      "① ( )",
+      "② ( )",
+      "③ ( )",
+      "④ ( )",
+      "⑤ ( )"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 담낭 용종 (GB polyp, <10mm)",
+    "correct_answer": "① ( )",
     "explanation": {
-      "title": "[단독 기출] 다음 중 수술 안 하고 경과관찰 해도 되는 것은?",
-      "findings": "기출 원문 (23Y-12):\n다음 중 수술 안 하고 경과관찰 해도 되는 것은?\n① \n② \n③ \n④ \n⑤ \n(답인 GB polyp 사진은 ‘GB polyp ultrasound’ 구글링해서 나온 \n사진. 나머지 선지 사진들은 기존 22Y 선지와 동일한 사진들. 다른 \n선지들도 사진 약간씩 달랐으나 22Y 학년말 보면 답 고를 수 있을 \n정도로 출제됨.)\n[생식/요로] 4문항",
-      "differential": "• ①  ✓ [정답]: 10mm 미만의 무증상 담낭 용종은 악성 가능성이 낮아 수술 없이 정기적 초음파 추적 관찰이 권고됩니다. 반면 급성 담석성·기종성 담낭염은 조기 담낭절제술의 적응증이므로 경과관찰 대상은 담낭 용종입니다\n• ②  ✗ [오답]\n• ③  ✗ [오답]\n• ④  ✗ [오답]\n• ⑤ (답인 GB polyp 사진은 ‘GB polyp ultrasound’ 구글링해서 나온 사진. 나머지 선지 사진들은 기존 22Y 선지와 동일한 사진들. 다른 선지들도 사진 약간씩 달랐으나 22Y 학년말 보면 답 고를 수 있을 정도로 출제됨.) ✗ [오답]",
-      "trap": "보기 소거법 적용.",
-      "trigger": "단독 출제 문항 핵심 키워드 판독.",
-      "kmle_link": "KMLE 영상의학 연계",
+      "title": "담낭 질환 영상 판독 및 수술 vs 경과관찰 적응증 감별",
+      "findings": "담낭 초음파 및 복부 CT 영상에서 5가지 대표적 담낭 병변(담낭 용종, 급성 담석성 담낭염, 기종성 담낭염, 담낭 천공, 석회화 담낭)이 각 선지의 사진으로 제시된 문제입니다.",
+      "differential": "• ① [사진 1] 담낭 용종 (GB polyp, <10mm) ✓ [정답 - 수술 없이 경과관찰]:\n  - 초음파 소견: 담낭벽에서 내강으로 돌출하는 비유동성 고에코성 병변. 후방 음영(acoustic shadow)이 없고 체위 변화에도 움직이지 않음.\n  - 치료 방침: 10mm 미만의 무증상 담낭 용종은 악성화 위험이 극히 낮으므로 수술하지 않고 6~12개월 간격 정기 복부 초음파로 크기 변화를 경과관찰(Follow-up)합니다.\n  - ※ 담낭절제술 적응증: ① 크기 ≥10mm, ② 동반 증상 있음, ③ 50세 이상, ④ 담석 동반, ⑤ 용종 크기의 빠른 증가(>2mm/년), ⑥ 무경성(sessile) 용종.\n\n• ② [사진 2] 급성 담석성 담낭염 (Acute calculous cholecystitis) ✗ [조기 수술 적응증]:\n  - 영상 소견: 담낭경부 담석 감돈, 담낭벽 비후(>3mm), 담낭 주위 액체 저류(pericholecystic fluid).\n  - 치료 방침: 금식, 수액, 광범위 항생제 및 입원 조기 복강경 담낭절제술(통상 72시간 이내) 원칙!\n\n• ③ [사진 3] 기종성 담낭염 (Emphysematous cholecystitis) ✗ [응급 수술 적응증]:\n  - 영상 소견: 담낭벽 및 담낭 내강 내 가스(gas/air) 음영 관찰.\n  - 치료 방침: 가스형성균 감염 괴사성 담낭염으로 천공 및 패혈증 위험이 극히 높아 진단 즉시 응급 담낭절제술 시행!\n\n• ④ [사진 4] 담낭 천공 (GB perforation) ✗ [응급 수술 적응증]:\n  - 영상 소견: 담낭벽 결손(defect), 주위 농양 형성, 복막염 징후.\n  - 치료 방침: 패혈증 소생술 및 응급 담낭절제술과 배액술 시행!\n\n• ⑤ [사진 5] 석회화 담낭 (Porcelain gallbladder) ✗ [예방적 수술 적응증]:\n  - 영상 소견: 담낭벽 전체의 달걀 껍질 모양 연속적 석회화(eggshell calcification).\n  - 치료 방침: 담낭암 발생 위험이 높아(10~25%) 무증상이더라도 예방적 담낭절제술 시행!",
+      "trap": "나머지 4개 질환(급성 담석성 담낭염, 기종성 담낭염, 담낭 천공, 석회화 담낭)은 모두 즉시 또는 조기 담낭절제술(cholecystectomy) 적응증임에 주의!",
+      "trigger": "담낭 용종(GB polyp) 10mm 미만 & 무증상 -> 수술 없이 정기 초음파 추적관찰(Follow-up)!",
+      "kmle_link": "KMLE 소화기학/외과 - 담낭 및 담관 질환의 치료 지침",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "담낭 용종 (GB polyp, <10mm)",
+          "text": "사진 1: 담낭 용종 (GB polyp, <10mm)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "10mm 미만의 무증상 담낭 용종은 악성 가능성이 낮아 수술 없이 정기적 초음파 추적 관찰이 권고됩니다. 반면 급성 담석성·기종성 담낭염은 조기 담낭절제술의 적응증이므로 경과관찰 대상은 담낭 용종입니다"
+          "reason": "10mm 미만의 무증상 담낭 용종은 악성 위험이 극히 낮아 수술 없이 정기적 초음파 추적 관찰이 권고됩니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "급성 담석성 담낭염",
+          "text": "사진 2: 급성 담석성 담낭염",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "담석 감돈 및 담낭벽 비후, 주위 액체 저류 소견으로 조기 복강경 담낭절제술 적응증입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "기종성 담낭염",
+          "text": "사진 3: 기종성 담낭염",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "담낭벽 내 가스 음영이 관찰되는 괴사성 담낭염으로 천공 위험이 높아 응급 담낭절제술 적응증입니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "담낭 천공",
+          "text": "사진 4: 담낭 천공",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "담낭벽 결손 및 주위 농양 형성 소견으로 응급 수술 적응증입니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "석회화 담낭 (Porcelain GB)",
+          "text": "사진 5: 석회화 담낭 (Porcelain GB)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "담낭벽 전체의 심한 석회화로 담낭암 발생 위험이 높아 예방적 담낭절제술 적응증입니다."
         }
       ],
       "differential_general": ""
@@ -7385,49 +7385,57 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "담낭 용종 (GB polyp, <10mm)",
+        "text": "사진 1: 담낭 용종 (GB polyp, <10mm)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "10mm 미만의 무증상 담낭 용종은 악성 가능성이 낮아 수술 없이 정기적 초음파 추적 관찰이 권고됩니다. 반면 급성 담석성·기종성 담낭염은 조기 담낭절제술의 적응증이므로 경과관찰 대상은 담낭 용종입니다"
+        "reason": "10mm 미만의 무증상 담낭 용종은 악성 위험이 극히 낮아 수술 없이 정기적 초음파 추적 관찰이 권고됩니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "급성 담석성 담낭염",
+        "text": "사진 2: 급성 담석성 담낭염",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "담석 감돈 및 담낭벽 비후, 주위 액체 저류 소견으로 조기 복강경 담낭절제술 적응증입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "기종성 담낭염",
+        "text": "사진 3: 기종성 담낭염",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "담낭벽 내 가스 음영이 관찰되는 괴사성 담낭염으로 천공 위험이 높아 응급 담낭절제술 적응증입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "담낭 천공",
+        "text": "사진 4: 담낭 천공",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "담낭벽 결손 및 주위 농양 형성 소견으로 응급 수술 적응증입니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "석회화 담낭 (Porcelain GB)",
+        "text": "사진 5: 석회화 담낭 (Porcelain GB)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "담낭벽 전체의 심한 석회화로 담낭암 발생 위험이 높아 예방적 담낭절제술 적응증입니다."
       }
     ],
     "section": "복부",
     "section_q_num": 11,
     "q_label": "Q12",
     "is_image_options": true,
-    "option_labels_post": null
+    "option_labels_post": null,
+    "option_images": [
+      "images/영상의학과/23Y_Q12_fig1.png",
+      "images/영상의학과/23Y_Q12_fig2.png",
+      "images/영상의학과/23Y_Q12_fig3.png",
+      "images/영상의학과/23Y_Q12_fig4.png",
+      "images/영상의학과/23Y_Q12_fig5.png"
+    ],
+    "answer": 1
   },
   {
     "id": "영상의학과_23Y_Q13",
@@ -8548,7 +8556,7 @@
     "category": "탈",
     "theme_title": "[단독 기출] SLE에서 나타나지 않는 소견은? (답 불확실)",
     "subspecialty": "근골격 영상의학",
-    "stem": "SLE에서 나타나지 않는 소견은? (답 불확실)",
+    "stem": "SLE에서 나타나지 않는 소견은? (선지의 사진을 보고 알맞은 것을 고르시오)",
     "images": [
       "images/영상의학과/23Y_Q22_fig1.png",
       "images/영상의학과/23Y_Q22_fig2.png",
@@ -8556,52 +8564,52 @@
       "images/영상의학과/23Y_Q22_fig4.png"
     ],
     "options": [
-      "① (osteomyelitis 사진인데 비슷해서 넣음)",
-      "② (뇌에 low intensity 병변, NPSLE로 추정. 실제 사진은 좀 달랐 음. Coronal CT도 있었음.)",
-      "③ (Tibia에 low intensity 병변 있었고, patellar dislocation 소견 있었던 것 같음, arthritis로 추정. 실제 사진과는 좀 다름.)",
-      "④ (SLE soft tissue calcification. 실제 사진과 아주 비슷함.)"
+      "① ( )",
+      "② ( )",
+      "③ ( )",
+      "④ ( )"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① (osteomyelitis 사진인데 비슷해서 넣음)",
+    "correct_answer": "① ( )",
     "explanation": {
-      "title": "[단독 기출] SLE에서 나타나지 않는 소견은? (답 불확실)",
-      "findings": "기출 원문 (23Y-22):\nSLE에서 나타나지 않는 소견은? (답 불확실)\n①\n(osteomyelitis 사진인데 비슷해서 넣음) \n② \n(뇌에 low intensity 병변, NPSLE로 추정. 실제 사진은 좀 달랐\n음. Coronal CT도 있었음.)\n③ \n(Tibia에 low intensity 병변 있었고, patellar dislocation 소견 \n있었던 것 같음, arthritis로 추정. 실제 사진과는 좀 다름.)\n④ \n(SLE soft ti",
-      "differential": "• ① (osteomyelitis 사진인데 비슷해서 넣음) ✓ [정답]: 골수염은 세균 감염에 의한 골파괴와 골막 반응을 보이는 감염 질환으로, 자가면역질환인 SLE 자체의 특징적 영상 소견(NPSLE, 자쿠 관절병증, 무혈관괴사, 피하 석회화 등)에 해당하지 않습니다\n• ② (뇌에 low intensity 병변, NPSLE로 추정. 실제 사진은 좀 달랐 음. Coronal CT도 있었음.) ✗ [오답]: 전신홍반루푸스 환자에서 혈관염이나 혈전증, 면역 손상으로 대뇌 백질의 저음영 부종 및 신호 이상 소견이 흔히 나타날 수 있습니다. (O)\n• ③ (Tibia에 low intensity 병변 있었고, patellar dislocation 소견 있었던 것 같음, arthritis로 추정. 실제 사진과는 좀 다름.) ✗ [오답]: SLE의 특징인 자쿠 관절병증(Jaccoud arthropathy)은 관절낭과 인대의 이완으로 인해 골미란 없이도 슬개골 탈구, 척측 편위 등 변형이 유발됩니다. (O)\n• ④ (SLE soft tissue calcification. 실제 사진과 아주 비슷함.) ✗ [오답]: SLE를 포함한 결합조직질환에서는 만성 염증과 조직 손상에 따른 이영양성 연부조직 석회화(calcinosis)가 피하 및 결합조직에 호발합니다. (O)",
-      "trap": "보기 소거법 적용.",
-      "trigger": "단독 출제 문항 핵심 키워드 판독.",
-      "kmle_link": "KMLE 영상의학 연계",
+      "title": "[단독 기출] 전신홍반루푸스(SLE)의 영상 소견 및 골수염 감별",
+      "findings": "전신홍반루푸스(SLE) 환자에서 동반될 수 있는 다양한 전신/근골격계 영상 소견(NPSLE 뇌 병변, 자쿠 관절병증 및 슬개골 탈구, 연부조직 석회화 등)과 세균 감염증인 골수염(Osteomyelitis)의 감별 문제입니다.",
+      "differential": "• ① [사진 1] 골수염 (Osteomyelitis) 소견 ✓ [정답 - SLE에서 나타나지 않는 소견]:\n  - 영상 소견: 경골(Tibia) 등 장골의 국소적 골 파괴 및 연부조직 부종, 골막 반응(periosteal reaction), 피질골 침식 소견입니다.\n  - 감별 의의: 골수염은 주로 황색포도알균(S. aureus) 등 세균 감염에 의한 화농성 염증 질환으로, 자가면역질환인 SLE 자체의 고유 영상 특징이 아니므로 정답입니다.\n\n• ② [사진 2] 신경정신 루푸스 (NPSLE, Neuropsychiatric SLE) ✗ [SLE 소견]:\n  - 영상 소견: Brain MRI/CT상 대뇌 백질 및 피질하 부위의 다발성 저음영(T1 저신호, T2/FLAIR 고신호) 병변.\n  - 기전: SLE 환자에서 자가항체에 의한 미세혈관염(vasculitis) 또는 항인지질항체 증후군 동반에 따른 미세혈전증(microthrombosis)으로 허혈 및 탈수초화 병변이 호발합니다.\n\n• ③ [사진 3] 자쿠 관절병증 (Jaccoud arthropathy) 및 슬개골 탈구 ✗ [SLE 소견]:\n  - 영상 소견: X-ray상 관절강 협착이나 골미란(No bone erosion) 없이도 인대 및 관절낭의 심한 이완(laxity)으로 인해 슬개골 외측 탈구(patellar dislocation), 손가락의 가역적 척측 편위 등이 발생합니다.\n  - 특징: 류마티스 관절염(RA)과 달리 비미란성(non-erosive) 관절 변형을 보이는 것이 SLE 자쿠 관절병증의 결정적 특징입니다.\n\n• ④ [사진 4] 연부조직 석회화 (Soft tissue calcinosis) ✗ [SLE 소견]:\n  - 영상 소견: 피하 및 결합조직 내 다발성의 불규칙한 석회화 음영(calcinosis cutis).\n  - 기전: SLE 및 전신경화증, 피부근염 등 결합조직질환의 만성 염증 조직 손상 부위에 칼슘염이 침착되는 이영양성 석회화(dystrophic calcification)입니다.",
+      "trap": "자가면역질환인 SLE의 근골격계 합병증(자쿠 관절병증, 무혈관괴사, 피하 석회화)과 감염성 질환인 골수염(골미란/골막반응)의 병태생리 차이 숙지 필수!",
+      "trigger": "골수염(Osteomyelitis)은 세균 감염증이므로 자가면역질환인 SLE 자체의 영상 소견이 아님!",
+      "kmle_link": "KMLE 류마티스학 / 영상의학 - 전신홍반루푸스(SLE)의 장기 침범 및 근골격계 영상 판독",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "(osteomyelitis 사진인데 비슷해서 넣음)",
+          "text": "사진 1: 골수염 (Osteomyelitis)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "골수염은 세균 감염에 의한 골파괴와 골막 반응을 보이는 감염 질환으로, 자가면역질환인 SLE 자체의 특징적 영상 소견(NPSLE, 자쿠 관절병증, 무혈관괴사, 피하 석회화 등)에 해당하지 않습니다"
+          "reason": "골수염은 세균 감염에 의한 화농성 골파괴 질환으로 자가면역질환인 SLE 자체의 고유 영상 소견에 해당하지 않습니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "(뇌에 low intensity 병변, NPSLE로 추정. 실제 사진은 좀 달랐 음. Coronal CT도 있었음.)",
+          "text": "사진 2: 신경정신 루푸스 (NPSLE)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "전신홍반루푸스 환자에서 혈관염이나 혈전증, 면역 손상으로 대뇌 백질의 저음영 부종 및 신호 이상 소견이 흔히 나타날 수 있습니다. (O)"
+          "reason": "루푸스 혈관염 및 미세혈전으로 대뇌 백질 부위의 신호 이상/저음영 병변이 흔히 동반됩니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "(Tibia에 low intensity 병변 있었고, patellar dislocation 소견 있었던 것 같음, arthritis로 추정. 실제 사진과는 좀 다름.)",
+          "text": "사진 3: 자쿠 관절병증 및 관절 탈구",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "SLE의 특징인 자쿠 관절병증(Jaccoud arthropathy)은 관절낭과 인대의 이완으로 인해 골미란 없이도 슬개골 탈구, 척측 편위 등 변형이 유발됩니다. (O)"
+          "reason": "골미란 없이 인대 이완으로 슬개골 탈구 및 변형이 발생하는 루푸스 특유의 비미란성 자쿠 관절병증입니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "(SLE soft tissue calcification. 실제 사진과 아주 비슷함.)",
+          "text": "사진 4: 연부조직 석회화 (Calcinosis)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "SLE를 포함한 결합조직질환에서는 만성 염증과 조직 손상에 따른 이영양성 연부조직 석회화(calcinosis)가 피하 및 결합조직에 호발합니다. (O)"
+          "reason": "결합조직 만성 염증에 따른 피하 및 결합조직 이영양성 석회화 소견으로 루푸스에서 관찰됩니다."
         }
       ],
       "differential_general": ""
@@ -8623,39 +8631,48 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "(osteomyelitis 사진인데 비슷해서 넣음)",
+        "text": "사진 1: 골수염 (Osteomyelitis)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "골수염은 세균 감염에 의한 골파괴와 골막 반응을 보이는 감염 질환으로, 자가면역질환인 SLE 자체의 특징적 영상 소견(NPSLE, 자쿠 관절병증, 무혈관괴사, 피하 석회화 등)에 해당하지 않습니다"
+        "reason": "골수염은 세균 감염에 의한 화농성 골파괴 질환으로 자가면역질환인 SLE 자체의 고유 영상 소견에 해당하지 않습니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "(뇌에 low intensity 병변, NPSLE로 추정. 실제 사진은 좀 달랐 음. Coronal CT도 있었음.)",
+        "text": "사진 2: 신경정신 루푸스 (NPSLE)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "전신홍반루푸스 환자에서 혈관염이나 혈전증, 면역 손상으로 대뇌 백질의 저음영 부종 및 신호 이상 소견이 흔히 나타날 수 있습니다. (O)"
+        "reason": "루푸스 혈관염 및 미세혈전으로 대뇌 백질 부위의 신호 이상/저음영 병변이 흔히 동반됩니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "(Tibia에 low intensity 병변 있었고, patellar dislocation 소견 있었던 것 같음, arthritis로 추정. 실제 사진과는 좀 다름.)",
+        "text": "사진 3: 자쿠 관절병증 및 관절 탈구",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "SLE의 특징인 자쿠 관절병증(Jaccoud arthropathy)은 관절낭과 인대의 이완으로 인해 골미란 없이도 슬개골 탈구, 척측 편위 등 변형이 유발됩니다. (O)"
+        "reason": "골미란 없이 인대 이완으로 슬개골 탈구 및 변형이 발생하는 루푸스 특유의 비미란성 자쿠 관절병증입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "(SLE soft tissue calcification. 실제 사진과 아주 비슷함.)",
+        "text": "사진 4: 연부조직 석회화 (Calcinosis)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "SLE를 포함한 결합조직질환에서는 만성 염증과 조직 손상에 따른 이영양성 연부조직 석회화(calcinosis)가 피하 및 결합조직에 호발합니다. (O)"
+        "reason": "결합조직 만성 염증에 따른 피하 및 결합조직 이영양성 석회화 소견으로 루푸스에서 관찰됩니다."
       }
     ],
     "section": "MSK",
     "section_q_num": 1,
-    "q_label": "Q22"
+    "q_label": "Q22",
+    "is_image_options": true,
+    "option_images": [
+      "images/영상의학과/23Y_Q22_fig1.png",
+      "images/영상의학과/23Y_Q22_fig2.png",
+      "images/영상의학과/23Y_Q22_fig3.png",
+      "images/영상의학과/23Y_Q22_fig4.png"
+    ],
+    "answer": 1,
+    "option_labels_post": null
   },
   {
     "id": "영상의학과_23Y_Q23",
@@ -15485,14 +15502,14 @@
       "images/영상의학과/22Y_Q28_fig1.png"
     ],
     "options": [
-      "① ",
-      "② ",
-      "③ ",
-      "④ ",
-      "⑤ "
+      "① 1번",
+      "② 2번",
+      "③ 3번",
+      "④ 4번 (Pars interarticularis)",
+      "⑤ 5번"
     ],
     "correct_option_index": 3,
-    "correct_answer": "④ ",
+    "correct_answer": "④ 4번 (Pars interarticularis)",
     "explanation": {
       "title": "척추분리증과 척추전방전위증: Pars Interarticularis 결손",
       "findings": "사위상 요추 단순방사선 사진(Oblique view)에서 스코티 개(Scotty dog)의 목 부위에 해당하는 관절간협부(Pars interarticularis, 4번)의 골 결손 및 분리로 인해 추체가 전방으로 미끄러지는 협부 척추전방전위증(Isthmic spondylolisthesis) 소견임.",
@@ -21508,14 +21525,14 @@
       "images/영상의학과/21Y_Q24_fig1.png"
     ],
     "options": [
-      "① ",
-      "② ",
-      "③ ",
-      "④ (Pars interarticularis)",
-      "⑤ "
+      "① 1번",
+      "② 2번",
+      "③ 3번",
+      "④ 4번 (Pars interarticularis)",
+      "⑤ 5번"
     ],
     "correct_option_index": 3,
-    "correct_answer": "④ (Pars interarticularis)",
+    "correct_answer": "④ 4번 (Pars interarticularis)",
     "explanation": {
       "title": "협부 척추전방전위증: Pars Interarticularis 결손",
       "findings": "요추 사위상 방사선 사진에서 상관절돌기와 하관절돌기 사이를 잇는 협부(Pars interarticularis, 4번)의 피로골절 및 결손으로 인해 전방전위가 유발되는 협부 척추전방전위증 소견임.",
