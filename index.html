@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>subacute | 임상의학 기출 퀴즈 마스터</title>
   <meta name="description" content="subacute - 20Y ~ 26Y 임상의학 9개 분과 기출 문제 풀이 및 상세 해설 인터랙티브 CBT">
-  <link rel="stylesheet" href="style.css?v=20261031v6">
+  <link rel="stylesheet" href="style.css?v=20261031v7">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
         <div class="brand-badge">subacute</div>
         <div class="brand-text">
           <h1 class="brand-title" id="brand-title">subacute</h1>
-          <span class="brand-subtitle" id="brand-subtitle">임상의학 기출 퀴즈 마스터 v4.5 • 9개 분과 2,338문항 (영상의학과 5개년 세부분야 완결판)</span>
+          <span class="brand-subtitle" id="brand-subtitle">임상의학 기출 퀴즈 마스터 v4.4 • 9개 분과 2,338문항 (영상의학과 5개년 세부분야 완결판)</span>
         </div>
       </div>
       
@@ -148,9 +148,17 @@
             <span class="subspecialty-badge" id="card-subspecialty">진단면역학</span>
             <span class="freq-badge" id="card-freq-badge">★ 빈출 5개년 (83%)</span>
             <span class="multi-badge" id="card-multi-badge" style="display: none;">복수 정답 (2개)</span>
+            <span class="edited-badge" id="card-edited-badge" style="display: none;">✏️ 직접 수정됨</span>
           </div>
           <div class="meta-right">
             <span class="filter-counter" id="filter-counter">문항 1 / 211</span>
+            <button id="btn-edit-question" class="btn-edit-question" type="button" aria-label="문제 발문 및 선지 직접 수정" title="이 문제의 발문과 선지를 직접 수정하고 기록을 남깁니다">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9"></path>
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+              </svg>
+              <span>문제 수정</span>
+            </button>
             <button id="btn-report-issue" class="btn-report-issue" type="button" aria-label="문제 오류 신고" title="이 문제 오류 제보하기">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"></path>
@@ -317,6 +325,13 @@
               <line x1="4" y1="4" x2="9" y2="9"></line>
             </svg>
             <span>랜덤 문제</span>
+          </button>
+          <button id="btn-question-comments" class="btn-nav-comments has-no-comments" type="button" aria-label="이 문제 댓글 보기 / 남기기" title="이 문제 댓글 & 팁 보기 / 남기기 (단축키 C)">
+            <svg class="comment-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+            <span class="nav-comment-text">댓글</span>
+            <span class="nav-comment-badge" id="nav-comment-count">0</span>
           </button>
           <form class="nav-jump-form nav-index-indicator" id="nav-jump-form" action="#" method="GET" title="문제 번호를 입력하고 Enter를 누르면 바로 이동합니다">
             <label for="nav-jump-input" class="visually-hidden">이동할 문제 번호</label>
@@ -492,6 +507,20 @@
             <!-- Dynamically populated reports list -->
           </div>
         </section>
+
+        <!-- Edit History Section (Initially Hidden) -->
+        <section class="profile-section edit-history-section" id="edit-history-section" style="display: none;">
+          <div class="profile-section-header">
+            <h3>✏️ 내가 수정한 문제 내역 (<span id="edit-section-count">0</span>건)</h3>
+            <div class="report-section-actions">
+              <button type="button" class="btn-ghost-sm" id="btn-export-edits">💾 수정 로그 복사</button>
+              <button type="button" class="btn-ghost-sm danger" id="btn-clear-edits">전체 초기화</button>
+            </div>
+          </div>
+          <div class="edit-history-list" id="edit-history-list">
+            <!-- Dynamically populated edits list -->
+          </div>
+        </section>
       </div>
 
       <div class="modal-footer profile-modal-footer">
@@ -499,6 +528,7 @@
           <button type="button" class="btn-ghost" id="btn-export-profiles" title="모든 프로필의 풀이 상황을 파일(.json)로 저장합니다">💾 파일 백업</button>
           <button type="button" class="btn-ghost" id="btn-import-profiles" title="백업해 둔 파일(.json)에서 프로필과 풀이 기록을 불러옵니다">📂 백업 불러오기</button>
           <input type="file" id="input-import-profiles" accept=".json,application/json" style="display: none;">
+          <button type="button" class="btn-ghost" id="btn-view-edits" title="내가 직접 수정한 문제 내역을 확인합니다">✏️ 수정 내역 (<span id="profile-edit-count">0</span>)</button>
           <button type="button" class="btn-ghost" id="btn-view-reports" title="지금까지 내가 제보한 오류 목록을 확인합니다">📋 제보 내역 (<span id="profile-report-count">0</span>)</button>
         </div>
         <div class="profile-footer-right">
@@ -609,12 +639,131 @@
     </div>
   </dialog>
 
+
+  <!-- Question Direct Edit Modal -->
+  <dialog id="edit-question-modal" class="custom-modal edit-question-modal" aria-labelledby="edit-modal-title">
+    <div class="modal-content edit-modal-content">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <div class="report-header-title-row">
+            <span class="report-header-icon">✏️</span>
+            <h2 id="edit-modal-title">문제 발문 및 선지 직접 수정</h2>
+          </div>
+          <span class="modal-subtitle">발문, 선지, 정답을 직접 편집하여 즉시 반영하고 수정 로그를 안전하게 저장합니다.</span>
+        </div>
+        <button type="button" class="modal-close" id="btn-close-edit-modal" aria-label="수정 창 닫기">✕</button>
+      </div>
+
+      <div class="edit-modal-body">
+        <!-- Target Question Summary Card -->
+        <div class="report-target-card" id="edit-target-card">
+          <div class="target-card-meta">
+            <span class="subject-badge" id="edit-target-subject">영상의학과</span>
+            <span class="year-badge" id="edit-target-year">22Y</span>
+            <span class="qnum-badge" id="edit-target-qnum">Q01</span>
+            <span class="target-qid-badge" id="edit-target-qid">ID</span>
+          </div>
+        </div>
+
+        <!-- Stem Edit Form -->
+        <div class="edit-form-group">
+          <label class="edit-field-label" for="edit-stem-input">문제 발문 (Question Stem) <span class="required-star">*</span></label>
+          <textarea id="edit-stem-input" class="edit-stem-textarea" rows="4" placeholder="수정할 문제 발문을 입력하세요..."></textarea>
+        </div>
+
+        <!-- Options Edit Form -->
+        <div class="edit-form-group">
+          <label class="edit-field-label">선지 목록 (Options)</label>
+          <div class="edit-options-container" id="edit-options-container">
+            <!-- Dynamically populated in app.js -->
+          </div>
+        </div>
+
+        <!-- Correct Answer Selection -->
+        <div class="edit-form-group">
+          <label class="edit-field-label" for="edit-answer-select">정답 선지 선택 (Correct Answer)</label>
+          <select id="edit-answer-select" class="edit-answer-select"></select>
+        </div>
+
+        <!-- Edit Reason / Log Note -->
+        <div class="edit-form-group">
+          <label class="edit-field-label" for="edit-reason-input">수정 사유 및 메모 <small>(선택 사항, 감사 로그에 저장됨)</small></label>
+          <input type="text" id="edit-reason-input" class="edit-reason-input" placeholder="예: 오타 정정, 선지 명확화, 정답 조정 등">
+        </div>
+      </div>
+
+      <div class="modal-footer edit-modal-footer">
+        <button type="button" class="btn-ghost text-danger" id="btn-revert-question-edit" style="display: none;">원래 문제로 되돌리기</button>
+        <div class="edit-modal-actions-right">
+          <button type="button" class="btn-ghost" id="btn-cancel-edit-modal">취소</button>
+          <button type="button" class="btn-primary" id="btn-save-question-edit">
+            <span>💾 수정사항 저장 및 적용</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Question Comments Modal Dialog -->
+  <dialog id="comment-modal" class="custom-modal comment-modal" aria-labelledby="comment-modal-title">
+    <div class="modal-content comment-modal-content">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <div class="report-header-title-row">
+            <span class="report-header-icon">💬</span>
+            <h2 id="comment-modal-title">문제 댓글 & 암기 팁</h2>
+          </div>
+          <span class="modal-subtitle">이 문제에 대한 풀이 팁, 암기법, 감별 요령을 기록하고 공유합니다.</span>
+        </div>
+        <button type="button" class="modal-close" id="btn-close-comment-modal" aria-label="댓글 창 닫기">✕</button>
+      </div>
+
+      <div class="comment-modal-body">
+        <!-- Target Question Summary -->
+        <div class="comment-target-card" id="comment-target-card">
+          <div class="target-card-meta">
+            <span class="subject-badge" id="comment-target-subject">영상의학과</span>
+            <span class="year-badge" id="comment-target-year">22Y</span>
+            <span class="qnum-badge" id="comment-target-qnum">인터벤션 02번</span>
+            <span class="intel-pill" id="comment-target-theme">핵심 테마</span>
+          </div>
+        </div>
+
+        <!-- Comments List -->
+        <div class="comment-list-section">
+          <div class="comment-section-header">
+            <h4>💬 작성된 댓글 (<span id="comment-list-count">0</span>)</h4>
+          </div>
+          <div class="comment-list" id="comment-list">
+            <!-- Dynamically populated in app.js -->
+          </div>
+        </div>
+
+        <!-- Comment Write Form -->
+        <div class="comment-form-section">
+          <div class="comment-form-header">
+            <span class="comment-author-pill">
+              <span id="comment-author-avatar">🩺</span>
+              <span id="comment-author-name">내 프로필</span>
+            </span>
+          </div>
+          <textarea id="comment-input" class="comment-textarea" rows="3" placeholder="이 문제에 대한 의견, 암기 팁, 감별 포인트를 자유롭게 남겨보세요... (Shift+Enter 줄바꿈)"></textarea>
+          <div class="comment-form-actions">
+            <button type="button" class="btn-primary btn-submit-comment" id="btn-submit-comment">
+              <span>💬 댓글 등록</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
   <!-- Toast notification message -->
   <div class="toast-message" id="toast-message" style="display: none;"></div>
 
   <!-- Load Quiz Dataset (Embedded for instant local file:// execution without CORS) -->
-  <script src="data/quiz_data.js?v=20261031v6"></script>
+  <script src="data/quiz_data.js?v=20261031v7"></script>
   <!-- Main Application Logic -->
-  <script src="app.js?v=20261031v6"></script>
+  <script src="app.js?v=20261031v7"></script>
 </body>
 </html>

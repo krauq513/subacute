@@ -18,6 +18,9 @@
   const STORAGE_KEY_ACTIVE_PROFILE_ID = 'KMLE_ACTIVE_PROFILE_ID_V1';
   const STORAGE_KEY_AUTO_OPEN_PROFILE = 'KMLE_AUTO_OPEN_PROFILE_V1';
   const STORAGE_KEY_REPORTS = 'KMLE_USER_REPORTS_V1';
+  const STORAGE_KEY_CUSTOM_EDITS = 'KMLE_USER_CUSTOM_EDITS_V1';
+  const STORAGE_KEY_EDIT_LOGS = 'KMLE_QUESTION_EDIT_LOGS_V1';
+  const STORAGE_KEY_COMMENTS = 'KMLE_QUESTION_COMMENTS_V1';
   const SESSION_KEY_WELCOME_SHOWN = 'KMLE_PROFILE_WELCOME_SHOWN_V1';
   const CIRCLE_NUMS = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩'];
 
@@ -28,6 +31,9 @@
     currentIndex: 0,
     profiles: [],
     reports: JSON.parse(localStorage.getItem('KMLE_USER_REPORTS_V1') || '[]'),
+    customEdits: JSON.parse(localStorage.getItem('KMLE_USER_CUSTOM_EDITS_V1') || '{}'),
+    editLogs: JSON.parse(localStorage.getItem('KMLE_QUESTION_EDIT_LOGS_V1') || '[]'),
+    comments: JSON.parse(localStorage.getItem('KMLE_QUESTION_COMMENTS_V1') || '{}'),
     activeProfileId: null,
     selectedNewAvatar: '🩺',
     autoOpenProfileModal: localStorage.getItem(STORAGE_KEY_AUTO_OPEN_PROFILE) !== 'false',
@@ -87,6 +93,10 @@
     cardSubspecialty: document.getElementById('card-subspecialty'),
     cardFreqBadge: document.getElementById('card-freq-badge'),
     cardMultiBadge: document.getElementById('card-multi-badge'),
+    cardEditedBadge: document.getElementById('card-edited-badge'),
+    btnEditQuestion: document.getElementById('btn-edit-question'),
+    btnQuestionComments: document.getElementById('btn-question-comments'),
+    navCommentCount: document.getElementById('nav-comment-count'),
     filterCounter: document.getElementById('filter-counter'),
     btnReportIssue: document.getElementById('btn-report-issue'),
     btnBookmark: document.getElementById('btn-bookmark'),
@@ -186,6 +196,44 @@
     btnCloseReport: document.getElementById('btn-close-report'),
     btnCancelReport: document.getElementById('btn-cancel-report'),
     btnSubmitReport: document.getElementById('btn-submit-report'),
+
+    // Direct Question Edit Modal
+    editQuestionModal: document.getElementById('edit-question-modal'),
+    btnCloseEditModal: document.getElementById('btn-close-edit-modal'),
+    btnCancelEditModal: document.getElementById('btn-cancel-edit-modal'),
+    btnSaveQuestionEdit: document.getElementById('btn-save-question-edit'),
+    btnRevertQuestionEdit: document.getElementById('btn-revert-question-edit'),
+    editTargetSubject: document.getElementById('edit-target-subject'),
+    editTargetYear: document.getElementById('edit-target-year'),
+    editTargetQnum: document.getElementById('edit-target-qnum'),
+    editTargetQid: document.getElementById('edit-target-qid'),
+    editStemInput: document.getElementById('edit-stem-input'),
+    editOptionsContainer: document.getElementById('edit-options-container'),
+    editAnswerSelect: document.getElementById('edit-answer-select'),
+    editReasonInput: document.getElementById('edit-reason-input'),
+
+    // Question Comments Modal
+    commentModal: document.getElementById('comment-modal'),
+    btnCloseCommentModal: document.getElementById('btn-close-comment-modal'),
+    commentTargetSubject: document.getElementById('comment-target-subject'),
+    commentTargetYear: document.getElementById('comment-target-year'),
+    commentTargetQnum: document.getElementById('comment-target-qnum'),
+    commentTargetTheme: document.getElementById('comment-target-theme'),
+    commentList: document.getElementById('comment-list'),
+    commentListCount: document.getElementById('comment-list-count'),
+    commentAuthorAvatar: document.getElementById('comment-author-avatar'),
+    commentAuthorName: document.getElementById('comment-author-name'),
+    commentInput: document.getElementById('comment-input'),
+    btnSubmitComment: document.getElementById('btn-submit-comment'),
+
+    // Edit History in Profile Modal
+    btnViewEdits: document.getElementById('btn-view-edits'),
+    editHistorySection: document.getElementById('edit-history-section'),
+    profileEditCount: document.getElementById('profile-edit-count'),
+    editSectionCount: document.getElementById('edit-section-count'),
+    editHistoryList: document.getElementById('edit-history-list'),
+    btnExportEdits: document.getElementById('btn-export-edits'),
+    btnClearEdits: document.getElementById('btn-clear-edits'),
     reportTargetSub: document.getElementById('report-target-sub'),
     reportTargetYear: document.getElementById('report-target-year'),
     reportTargetQnum: document.getElementById('report-target-qnum'),
@@ -499,11 +547,11 @@
     // Update Header Brand
     if (dom.brandTitle) {
       dom.brandTitle.textContent = (curSub === 'ALL')
-        ? 'subacute (임상의학 기출 퀴즈 마스터 v4.5)'
-        : `subacute v4.5 · ${meta.icon} ${meta.title}`;
+        ? 'subacute (임상의학 기출 퀴즈 마스터 v4.4)'
+        : `subacute v4.4 · ${meta.icon} ${meta.title}`;
     }
     if (dom.brandSubtitle) {
-      dom.brandSubtitle.textContent = `20Y ~ 26Y 실전 기출 완전 정복 • ${subQuestions.length}문항 (v4.5 완결판 • ${meta.desc})`;
+      dom.brandSubtitle.textContent = `20Y ~ 26Y 실전 기출 완전 정복 • ${subQuestions.length}문항 (v4.4 완결판 • ${meta.desc})`;
     }
 
     // Dynamic Year Tabs
@@ -1291,7 +1339,7 @@
       renderCurrentQuestion();
       renderGrid();
       updateStats();
-      scrollToQuestionMeta();
+      scrollToQuestionIntel();
 
       let targetLabel = '';
       if (target.year === '22Y' && target.section && target.section_q_num) {
@@ -2375,7 +2423,7 @@
         if (targetIndex !== state.currentIndex) {
           state.currentIndex = targetIndex;
           renderCurrentQuestion();
-          scrollToQuestionMeta();
+          scrollToQuestionIntel();
         } else {
           dom.navJumpInput.value = String(state.currentIndex + 1);
         }
@@ -2469,7 +2517,7 @@
             renderGrid();
           }
         }
-        scrollToQuestionMeta();
+        scrollToQuestionIntel();
       });
     }
 
@@ -2610,6 +2658,78 @@
       }
     });
 
+
+    // Direct Question Edit Events
+    if (dom.btnEditQuestion) {
+      dom.btnEditQuestion.addEventListener('click', openEditQuestionModal);
+    }
+    if (dom.btnCloseEditModal) {
+      dom.btnCloseEditModal.addEventListener('click', closeEditQuestionModal);
+    }
+    if (dom.btnCancelEditModal) {
+      dom.btnCancelEditModal.addEventListener('click', closeEditQuestionModal);
+    }
+    if (dom.btnSaveQuestionEdit) {
+      dom.btnSaveQuestionEdit.addEventListener('click', saveQuestionEdit);
+    }
+    if (dom.btnRevertQuestionEdit) {
+      dom.btnRevertQuestionEdit.addEventListener('click', revertQuestionEdit);
+    }
+
+    // Question Comments Events
+    if (dom.btnQuestionComments) {
+      dom.btnQuestionComments.addEventListener('click', openCommentModal);
+    }
+    if (dom.btnCloseCommentModal) {
+      dom.btnCloseCommentModal.addEventListener('click', closeCommentModal);
+    }
+    if (dom.btnSubmitComment) {
+      dom.btnSubmitComment.addEventListener('click', submitComment);
+    }
+    if (dom.commentInput) {
+      dom.commentInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+          e.preventDefault();
+          submitComment();
+        }
+      });
+    }
+
+    // Edit History View in Profile Modal
+    if (dom.btnViewEdits) {
+      dom.btnViewEdits.addEventListener('click', () => {
+        if (!dom.editHistorySection) return;
+        const isHidden = dom.editHistorySection.style.display === 'none';
+        dom.editHistorySection.style.display = isHidden ? 'block' : 'none';
+        if (isHidden) {
+          renderEditHistory();
+          dom.editHistorySection.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      });
+    }
+
+    if (dom.btnExportEdits) {
+      dom.btnExportEdits.addEventListener('click', () => {
+        const textToCopy = JSON.stringify(state.editLogs, null, 2);
+        navigator.clipboard.writeText(textToCopy).then(() => {
+          showToast('📋 수정 내역 로그 JSON이 클립보드에 복사되었습니다.');
+        }).catch(() => {
+          prompt('아래 수정 로그를 복사하세요:', textToCopy);
+        });
+      });
+    }
+
+    if (dom.btnClearEdits) {
+      dom.btnClearEdits.addEventListener('click', () => {
+        if (confirm('수정 내역 로그를 모두 비우시겠습니까? (이미 문제에 적용된 수정사항은 유지됩니다)')) {
+          state.editLogs = [];
+          localStorage.setItem(STORAGE_KEY_EDIT_LOGS, '[]');
+          renderEditHistory();
+          showToast('🗑️ 수정 내역 로그가 비워졌습니다.');
+        }
+      });
+    }
+
     // Profile & Continue Modal Events
     setupProfileModalEvents();
 
@@ -2689,6 +2809,12 @@
     } else if (e.key === 's' || e.key === 'S') {
       e.preventDefault();
       toggleShuffleMode();
+    } else if (e.key === 'c' || e.key === 'C') {
+      e.preventDefault();
+      openCommentModal();
+    } else if (e.key === 'e' || e.key === 'E') {
+      e.preventDefault();
+      openEditQuestionModal();
     } else if (e.key === 'p' || e.key === 'P') {
       e.preventDefault();
       openProfileModal();
@@ -3034,7 +3160,7 @@
     renderGrid();
     saveStorage();
     closeProfileModal();
-    scrollToQuestionMeta();
+    scrollToQuestionIntel();
 
     const q = getCurrentQuestion();
     const locLabel = q
@@ -3540,20 +3666,21 @@
   }
 
   /**
-   * Auto-scroll so that the Question Metadata bar ('영상의학과 ~ 오류신고 줄', .card-meta)
+   * Auto-scroll so that the '핵심 출제 테마 박스' (#exam-intel-box)
    * is smoothly positioned right at the very top of the readable viewport.
    */
-  function scrollToQuestionMeta(behavior = 'smooth') {
+  function scrollToQuestionIntel(behavior = 'smooth') {
     requestAnimationFrame(() => {
-      const cardMeta = dom.cardMeta || document.querySelector('.card-meta') || document.getElementById('question-card');
-      if (!cardMeta) {
+      const targetBox = dom.examIntelBox || document.getElementById('exam-intel-box') || dom.cardMeta || document.getElementById('question-card');
+      if (!targetBox) {
         window.scrollTo({ top: 0, behavior });
         return;
       }
       const header = document.querySelector('header');
       const headerHeight = (header && window.getComputedStyle(header).position === 'sticky') ? header.offsetHeight : 0;
-      const rect = cardMeta.getBoundingClientRect();
+      const rect = targetBox.getBoundingClientRect();
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      // Position the top of #exam-intel-box right below the sticky header with 6px buffer
       const targetTop = rect.top + scrollTop - headerHeight - 6;
       window.scrollTo({
         top: Math.max(0, targetTop),
@@ -3569,7 +3696,7 @@
     if (state.filteredQuestions.length === 0) return;
     state.currentIndex = (state.currentIndex + delta + state.filteredQuestions.length) % state.filteredQuestions.length;
     renderCurrentQuestion();
-    scrollToQuestionMeta();
+    scrollToQuestionIntel();
   }
 
   /**
@@ -3583,7 +3710,7 @@
     }
     state.currentIndex = nextIdx;
     renderCurrentQuestion();
-    scrollToQuestionMeta();
+    scrollToQuestionIntel();
   }
 
   /**
@@ -3657,7 +3784,7 @@
         state.currentIndex = idx;
         renderCurrentQuestion();
         closeGridModal();
-        scrollToQuestionMeta();
+        scrollToQuestionIntel();
       });
 
       dom.questionGrid.appendChild(btn);

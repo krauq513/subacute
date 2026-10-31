@@ -686,6 +686,7 @@ body {
 
 /* Exam Intelligence Box (출제 테마 & 기출 이력 브리핑) */
 .exam-intel-box {
+  scroll-margin-top: 75px;
   background: #f8fafc;
   border: 1px solid #e2e8f0;
   border-left: 4px solid #6366f1;
@@ -3852,7 +3853,453 @@ dialog.report-dialog::backdrop {
   color: #991b1b;
 }
 
+/* ==========================================================================
+   Question Direct Edit Modal & Navigation Comments Feature
+   ========================================================================== */
 
+/* Edit Question Trigger Button in Card Meta */
+.btn-edit-question {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.32rem 0.65rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-light);
+  transition: all var(--transition-fast);
+}
 
+.btn-edit-question:hover {
+  background: #f0fdf4;
+  color: #166534;
+  border-color: #86efac;
+}
 
+.edited-badge {
+  background: #dcfce7;
+  color: #15803d;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid #bbf7d0;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
 
+/* Bottom Navigation Comments Button */
+.btn-nav-comments {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.42rem 0.8rem;
+  border-radius: var(--radius-md);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
+}
+
+/* When 0 comments: Dim / Muted */
+.btn-nav-comments.has-no-comments {
+  background: transparent;
+  border: 1px solid var(--border-light);
+  color: #94a3b8;
+  opacity: 0.48;
+}
+
+.btn-nav-comments.has-no-comments:hover {
+  opacity: 0.9;
+  background: var(--bg-surface);
+  color: var(--text-secondary);
+}
+
+.btn-nav-comments.has-no-comments .nav-comment-badge {
+  background: #e2e8f0;
+  color: #64748b;
+  font-size: 0.72rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+/* When comments exist: High-visibility vivid vibrant royal blue / amber color */
+.btn-nav-comments.has-comments {
+  background: #eff6ff;
+  border: 1.5px solid #3b82f6;
+  color: #1d4ed8;
+  opacity: 1;
+  font-weight: 700;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.22), 0 2px 8px rgba(37, 99, 235, 0.3);
+}
+
+.btn-nav-comments.has-comments .comment-icon {
+  stroke: #2563eb;
+  fill: rgba(37, 99, 235, 0.18);
+}
+
+.btn-nav-comments.has-comments .nav-comment-badge {
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 0.75rem;
+  padding: 0.12rem 0.52rem;
+  border-radius: 999px;
+  box-shadow: 0 1px 4px rgba(37, 99, 235, 0.4);
+}
+
+.btn-nav-comments.has-comments:hover {
+  background: #dbeafe;
+  border-color: #1d4ed8;
+  transform: translateY(-1px);
+}
+
+/* Direct Question Edit Modal Styles */
+.edit-question-modal .modal-content {
+  max-width: 680px;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-modal-body {
+  padding: 1.25rem 1.5rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+}
+
+.edit-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.edit-field-label {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.edit-stem-textarea {
+  width: 100%;
+  padding: 0.75rem 0.95rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-family: inherit;
+  resize: vertical;
+  min-height: 90px;
+}
+
+.edit-stem-textarea:focus,
+.edit-reason-input:focus,
+.edit-answer-select:focus,
+.edit-opt-input:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+}
+
+.edit-options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.edit-option-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.edit-opt-prefix {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.88rem;
+  background: #f1f5f9;
+  border-radius: var(--radius-sm);
+  color: #334155;
+  flex-shrink: 0;
+}
+
+.edit-opt-input {
+  flex: 1;
+  padding: 0.55rem 0.8rem;
+  font-size: 0.88rem;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-family: inherit;
+}
+
+.edit-answer-select {
+  padding: 0.55rem 0.8rem;
+  font-size: 0.88rem;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.edit-reason-input {
+  padding: 0.55rem 0.8rem;
+  font-size: 0.88rem;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-family: inherit;
+}
+
+.edit-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-top: 1px solid var(--border-light);
+}
+
+.edit-modal-actions-right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Question Comments Modal Styles */
+.comment-modal .modal-content {
+  max-width: 640px;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-modal-body {
+  padding: 1.25rem 1.5rem;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.comment-target-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-sm);
+  padding: 0.65rem 0.95rem;
+}
+
+.comment-list-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.comment-section-header h4 {
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.comment-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  max-height: 260px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.comment-empty-state {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  color: var(--text-tertiary, #94a3b8);
+  font-size: 0.85rem;
+  background: #f8fafc;
+  border-radius: var(--radius-sm);
+  border: 1px dashed var(--border-light);
+}
+
+.comment-item {
+  display: flex;
+  gap: 0.65rem;
+  padding: 0.75rem;
+  background: #f8fafc;
+  border-radius: var(--radius-md);
+  border: 1px solid #e2e8f0;
+  position: relative;
+}
+
+.comment-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  background: #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.comment-content-wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.comment-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.comment-author-name {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.comment-time {
+  font-size: 0.72rem;
+  color: var(--text-tertiary, #94a3b8);
+}
+
+.comment-text {
+  font-size: 0.88rem;
+  color: #1e293b;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.btn-comment-delete {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  font-size: 0.72rem;
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
+}
+
+.btn-comment-delete:hover {
+  color: #ef4444;
+  background: #fee2e2;
+}
+
+.comment-form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  background: #f1f5f9;
+  border-radius: var(--radius-md);
+  padding: 0.85rem;
+  border: 1px solid #e2e8f0;
+}
+
+.comment-author-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.comment-textarea {
+  width: 100%;
+  padding: 0.65rem 0.85rem;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-family: inherit;
+  resize: vertical;
+  min-height: 70px;
+}
+
+.comment-form-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-submit-comment {
+  padding: 0.5rem 1.15rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* Edit History List in Profile Modal */
+.edit-history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  max-height: 240px;
+  overflow-y: auto;
+  margin-top: 0.65rem;
+}
+
+.edit-history-item {
+  padding: 0.75rem 0.85rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.edit-history-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.edit-history-badge {
+  background: #dcfce7;
+  color: #15803d;
+  font-weight: 700;
+  padding: 0.12rem 0.45rem;
+  border-radius: 4px;
+  font-size: 0.72rem;
+}
+
+.edit-history-qlink {
+  font-weight: 700;
+  color: #2563eb;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.edit-history-note {
+  color: #475569;
+  font-size: 0.8rem;
+}
