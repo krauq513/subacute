@@ -244,6 +244,8 @@
     pdfSelectSubject: document.getElementById('pdf-select-subject'),
     pdfSelectYear: document.getElementById('pdf-select-year'),
     btnPdfExternal: document.getElementById('btn-pdf-external'),
+    pdfMobileBanner: document.getElementById('pdf-mobile-banner'),
+    btnPdfMobileOpen: document.getElementById('btn-pdf-mobile-open'),
     btnPdfDownload: document.getElementById('btn-pdf-download'),
     pdfFrame: document.getElementById('pdf-frame'),
     pdfEmptyState: document.getElementById('pdf-empty-state'),
@@ -491,23 +493,29 @@
     syncFilterButtonsUI();
     updateSubjectUI();
 
-    // Restore last viewed question for active profile if available
+    // Restore last viewed question for active profile on reconnect / startup
     const activeProfile = getActiveProfile();
     const lastId = (activeProfile && activeProfile.lastQuestionId) || localStorage.getItem(STORAGE_KEY_LAST_ID);
     if (lastId) {
-      let idx = state.filteredQuestions.findIndex(q => q.id === lastId);
-      if (idx === -1) {
-        const targetQ = state.allQuestions.find(q => q.id === lastId);
-        if (targetQ) {
-          state.filters.subject = targetQ.subject;
-          state.filters.year = 'ALL';
-          state.filters.type = 'ALL';
-          updateSubjectUI();
-          idx = state.filteredQuestions.findIndex(q => q.id === lastId);
+      const targetQ = state.allQuestions.find(q => q.id === lastId);
+      if (targetQ) {
+        state.filters.subject = targetQ.subject;
+        state.filters.year = 'ALL';
+        state.filters.section = 'ALL';
+        state.filters.type = 'ALL';
+        state.filters.onlyFrequent = false;
+        state.filters.onlyImages = false;
+        state.filters.onlyIncorrect = false;
+        state.filters.onlyBookmarked = false;
+        state.filters.searchQuery = '';
+        applyFilters();
+        updateSubjectUI();
+        syncFilterButtonsUI();
+
+        const idx = state.filteredQuestions.findIndex(q => q.id === lastId);
+        if (idx !== -1) {
+          state.currentIndex = idx;
         }
-      }
-      if (idx !== -1) {
-        state.currentIndex = idx;
       }
     }
 
@@ -1494,9 +1502,12 @@
       // Format label
       let label = '';
       if (targetQ) {
-        if (targetQ.year === '22Y' && targetQ.section && targetQ.section_q_num) {
-          label = `22Y (${targetQ.section} ${String(targetQ.section_q_num).padStart(2, '0')}번)`;
-          targetRaw = `22Y-${targetQ.section}${String(targetQ.section_q_num).padStart(2, '0')}`;
+        if (targetQ.section && targetQ.section_q_num) {
+          label = `${targetQ.year} (${targetQ.section} ${String(targetQ.section_q_num).padStart(2, '0')}번)`;
+          targetRaw = `${targetQ.year}-${targetQ.section}${String(targetQ.section_q_num).padStart(2, '0')}`;
+        } else if (targetQ.q_label && !targetQ.q_label.startsWith('Q')) {
+          label = `${targetQ.year} (${targetQ.q_label})`;
+          targetRaw = `${targetQ.year}-${String(targetQ.q_num).padStart(2, '0')}`;
         } else {
           label = `${yr}-${String(targetQ.q_num).padStart(2, '0')}`;
           targetRaw = `${yr}-${String(targetQ.q_num).padStart(2, '0')}`;
@@ -3260,11 +3271,27 @@
       dom.pdfActiveDocBadge.textContent = `${subject} · ${year}`;
     }
 
+    const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768;
+
+    if (dom.pdfMobileBanner) {
+      dom.pdfMobileBanner.style.display = (fileUrl && isMobileDevice) ? 'flex' : 'none';
+    }
+
     if (fileUrl) {
       if (dom.pdfFrame) {
         dom.pdfFrame.style.display = 'block';
-        if (!dom.pdfFrame.src.endsWith(fileUrl)) {
-          dom.pdfFrame.src = fileUrl;
+        if (isMobileDevice && (window.location.protocol === 'http:' || window.location.protocol === 'https:')) {
+          // Mobile Web: Embed Google Docs Touch PDF Viewer to allow scrolling & avoid forced auto-download
+          const fullPdfUrl = new URL(fileUrl, window.location.href).href;
+          const gviewUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(fullPdfUrl)}&embedded=true`;
+          if (!dom.pdfFrame.src.includes(encodeURIComponent(fullPdfUrl))) {
+            dom.pdfFrame.src = gviewUrl;
+          }
+        } else {
+          // PC Desktop or local file mode: keep original crisp high-performance browser native PDF view
+          if (!dom.pdfFrame.src.endsWith(fileUrl)) {
+            dom.pdfFrame.src = fileUrl;
+          }
         }
       }
       if (dom.pdfEmptyState) {
@@ -3791,6 +3818,14 @@
       });
     }
 
+    if (dom.btnPdfMobileOpen) {
+      dom.btnPdfMobileOpen.addEventListener('click', () => {
+        if (currentPdfState.url) {
+          window.open(currentPdfState.url, '_blank');
+        }
+      });
+    }
+
     if (dom.pdfModal) {
       dom.pdfModal.addEventListener('click', (e) => {
         const rect = dom.pdfModal.getBoundingClientRect();
@@ -4133,6 +4168,12 @@
 
         const card = document.createElement('div');
         card.className = `profile-item-card${isCurrent ? ' active-profile' : ''}`;
+        card.style.cursor = 'pointer';
+        card.setAttribute('title', `'${prof.name}' 프로필 선택 및 마지막 학습 위치로 이어하기`);
+        card.addEventListener('click', (e) => {
+          if (e.target.closest('.btn-profile-action')) return;
+          switchAndResumeProfile(prof.id);
+        });
 
         const left = document.createElement('div');
         left.className = 'profile-item-left';
@@ -4220,25 +4261,27 @@
     updateSubjectUI();
 
     if (targetQId) {
-      let idx = state.filteredQuestions.findIndex(q => q.id === targetQId);
-      if (idx === -1) {
-        // Relax sub-filters so the saved question can be resumed
-        const targetQ = state.allQuestions.find(q => q.id === targetQId);
-        if (targetQ) {
-          state.filters.subject = targetQ.subject;
-          state.filters.year = 'ALL';
-          state.filters.type = 'ALL';
-          state.filters.onlyFrequent = false;
-          state.filters.onlyImages = false;
-          state.filters.onlyIncorrect = false;
-          state.filters.onlyBookmarked = false;
-          syncFilterButtonsUI();
-          updateSubjectUI();
-          idx = state.filteredQuestions.findIndex(q => q.id === targetQId);
-        }
+      const targetQ = state.allQuestions.find(q => q.id === targetQId);
+      if (targetQ) {
+        state.filters.subject = targetQ.subject;
+        state.filters.year = 'ALL';
+        state.filters.section = 'ALL';
+        state.filters.type = 'ALL';
+        state.filters.onlyFrequent = false;
+        state.filters.onlyImages = false;
+        state.filters.onlyIncorrect = false;
+        state.filters.onlyBookmarked = false;
+        state.filters.searchQuery = '';
       }
+      applyFilters();
+      syncFilterButtonsUI();
+      updateSubjectUI();
+      const idx = state.filteredQuestions.findIndex(q => q.id === targetQId);
       state.currentIndex = idx !== -1 ? idx : 0;
     } else {
+      applyFilters();
+      syncFilterButtonsUI();
+      updateSubjectUI();
       state.currentIndex = 0;
     }
 

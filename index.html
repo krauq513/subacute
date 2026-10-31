@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>subacute | 임상의학 기출 퀴즈 마스터</title>
   <meta name="description" content="subacute - 20Y ~ 26Y 임상의학 9개 분과 기출 문제 풀이 및 상세 해설 인터랙티브 CBT">
-  <link rel="stylesheet" href="style.css?v=20261031v17">
+  <link rel="stylesheet" href="style.css?v=20261031v18">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -844,6 +844,13 @@
       </div>
 
       <div class="pdf-modal-body">
+        <div class="pdf-mobile-banner" id="pdf-mobile-banner" style="display: none;">
+          <div class="pdf-mobile-info">
+            <span class="pdf-mobile-icon">📱</span>
+            <span class="pdf-mobile-text">모바일 환경에서는 <strong>전체화면</strong>으로 보시면 핀치 줌(확대) 및 페이지 검색이 훨씬 편리합니다.</span>
+          </div>
+          <button type="button" class="btn-pdf-mobile-open" id="btn-pdf-mobile-open">🚀 모바일 전체화면 열기</button>
+        </div>
         <div class="pdf-frame-wrapper" id="pdf-frame-wrapper">
           <iframe id="pdf-frame" class="pdf-iframe-view" src="about:blank" title="원본 시험지 PDF 미리보기"></iframe>
           <div id="pdf-empty-state" class="pdf-empty-state" style="display: none;">
@@ -868,10 +875,10 @@
   <div class="toast-message" id="toast-message" style="display: none;"></div>
 
   <!-- Load Quiz Dataset (Embedded for instant local file:// execution without CORS) -->
-  <script src="data/quiz_data.js?v=20261031v17"></script>
+  <script src="data/quiz_data.js?v=20261031v18"></script>
   <!-- Original Exam PDF Manifest -->
-  <script src="data/pdf_manifest.js?v=20261031v17"></script>
+  <script src="data/pdf_manifest.js?v=20261031v18"></script>
   <!-- Main Application Logic -->
-  <script src="app.js?v=20261031v17"></script>
+  <script src="app.js?v=20261031v18"></script>
 </body>
 </html>
