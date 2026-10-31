@@ -4,17 +4,27 @@
 import { put, head } from '@vercel/blob';
 
 const BLOB_PATH = 'sync/global_sync_v1.json';
+const BLOB_URL = 'https://mz2fhtrx42zn4hgx.public.blob.vercel-storage.com/sync/global_sync_v1.json';
+const TOKEN = process.env.BLOB_READ_WRITE_TOKEN || 'vercel_blob_rw_mZ2FhTrX42ZN4HGX_mEOi9kpT0W8W9oeGrYlsJOIP8s2ZEw';
 
 async function fetchCurrentGlobalData() {
   try {
-    const meta = await head(BLOB_PATH);
+    const resp = await fetch(`${BLOB_URL}?t=${Date.now()}`, { cache: 'no-store' });
+    if (resp.ok) {
+      return await resp.json();
+    }
+  } catch (err) {}
+
+  try {
+    const meta = await head(BLOB_PATH, { token: TOKEN });
     if (meta && meta.url) {
-      const resp = await fetch(meta.url, { cache: 'no-store' });
+      const resp = await fetch(`${meta.url}?t=${Date.now()}`, { cache: 'no-store' });
       if (resp.ok) {
         return await resp.json();
       }
     }
   } catch (err) {}
+
   return {
     reports: [],
     comments: {},
@@ -69,7 +79,8 @@ export default async function handler(req, res) {
         access: 'public',
         addRandomSuffix: false,
         allowOverwrite: true,
-        contentType: 'application/json'
+        contentType: 'application/json',
+        token: TOKEN
       });
 
       return res.status(200).json({ success: true, message: 'Report received and saved successfully', report: reportItem, totalReports: current.reports.length });

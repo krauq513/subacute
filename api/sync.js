@@ -4,6 +4,8 @@
 import { put, head } from '@vercel/blob';
 
 const BLOB_PATH = 'sync/global_sync_v1.json';
+const BLOB_URL = 'https://mz2fhtrx42zn4hgx.public.blob.vercel-storage.com/sync/global_sync_v1.json';
+const TOKEN = process.env.BLOB_READ_WRITE_TOKEN || 'vercel_blob_rw_mZ2FhTrX42ZN4HGX_mEOi9kpT0W8W9oeGrYlsJOIP8s2ZEw';
 
 function mergeData(serverData, clientData) {
   // 1. Reports merge
@@ -174,16 +176,22 @@ function mergeData(serverData, clientData) {
 
 async function fetchCurrentGlobalData() {
   try {
-    const meta = await head(BLOB_PATH);
+    const resp = await fetch(`${BLOB_URL}?t=${Date.now()}`, { cache: 'no-store' });
+    if (resp.ok) {
+      return await resp.json();
+    }
+  } catch (err) {}
+
+  try {
+    const meta = await head(BLOB_PATH, { token: TOKEN });
     if (meta && meta.url) {
-      const resp = await fetch(meta.url, { cache: 'no-store' });
+      const resp = await fetch(`${meta.url}?t=${Date.now()}`, { cache: 'no-store' });
       if (resp.ok) {
         return await resp.json();
       }
     }
-  } catch (err) {
-    // Blob may not exist yet on first launch
-  }
+  } catch (err) {}
+
   return {
     reports: [],
     comments: {},
@@ -214,12 +222,13 @@ export default async function handler(req, res) {
       const current = await fetchCurrentGlobalData();
       const merged = mergeData(current, body);
 
-      // Save merged state back to Vercel Blob
+      // Save merged state back to Vercel Blob with token
       await put(BLOB_PATH, JSON.stringify(merged), {
         access: 'public',
         addRandomSuffix: false,
         allowOverwrite: true,
-        contentType: 'application/json'
+        contentType: 'application/json',
+        token: TOKEN
       });
 
       return res.status(200).json({ success: true, ...merged });
