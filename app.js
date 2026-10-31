@@ -1831,7 +1831,7 @@
         dom.cardThemeTitle.title = '클릭하면 다시 가려집니다.';
       } else {
         dom.cardThemeTitle.className = 'intel-theme-text spoiler-masked';
-        dom.cardThemeTitle.innerHTML = '<span class="theme-lock-icon">🔒</span> 출제 테마 가림 (스포 방지 · 클릭하여 보기)';
+        dom.cardThemeTitle.innerHTML = '<span class="theme-lock-icon">🔒</span> 출제 테마 가림 (스포 방지 · 탭하여 확인)';
         dom.cardThemeTitle.title = '정답 스포 방지를 위해 가려져 있습니다. 클릭하면 미리볼 수 있습니다.';
       }
     }
@@ -1949,12 +1949,15 @@
       if (freqCount >= 4 || rate >= 60) {
         dom.cardFreqBadge.className = 'freq-badge super';
         dom.cardFreqBadge.textContent = `★ ${freqCount}개년 빈출 (${rate}% 특급 야마)`;
+        dom.cardFreqBadge.style.display = 'inline-flex';
       } else if (freqCount >= 2) {
         dom.cardFreqBadge.className = 'freq-badge high';
         dom.cardFreqBadge.textContent = `★ ${freqCount}개년 기출 (${rate}%)`;
+        dom.cardFreqBadge.style.display = 'inline-flex';
       } else {
         dom.cardFreqBadge.className = 'freq-badge normal';
         dom.cardFreqBadge.textContent = '단일 기출';
+        dom.cardFreqBadge.style.display = 'none';
       }
     }
 
