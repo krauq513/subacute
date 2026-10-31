@@ -398,6 +398,27 @@
       const foundActive = state.profiles.find(p => p.id === savedActiveId) || state.profiles[0];
       state.activeProfileId = foundActive.id;
 
+      try {
+        const rawComments = localStorage.getItem(STORAGE_KEY_COMMENTS);
+        if (rawComments) state.comments = JSON.parse(rawComments) || {};
+      } catch (e) {
+        state.comments = {};
+      }
+
+      try {
+        const rawEdits = localStorage.getItem(STORAGE_KEY_CUSTOM_EDITS);
+        if (rawEdits) state.customEdits = JSON.parse(rawEdits) || {};
+      } catch (e) {
+        state.customEdits = {};
+      }
+
+      try {
+        const rawEditLogs = localStorage.getItem(STORAGE_KEY_EDIT_LOGS);
+        if (rawEditLogs) state.editLogs = JSON.parse(rawEditLogs) || [];
+      } catch (e) {
+        state.editLogs = [];
+      }
+
       loadProfileIntoMemory(foundActive);
     } catch (e) {
       console.error('Failed to load local storage:', e);
@@ -1731,6 +1752,36 @@
       revealAnswerAndExplanation(q, answerRecord, false);
     } else {
       hideAnswerAndExplanation();
+    }
+
+    // Direct Edited Question Badge
+    if (dom.cardEditedBadge) {
+      dom.cardEditedBadge.style.display = (state.customEdits && state.customEdits[q.id]) ? 'inline-flex' : 'none';
+    }
+
+    // Update Question PDF Tooltip
+    if (dom.btnQuestionPdf) {
+      dom.btnQuestionPdf.title = `현재 문제(${q.subject} ${q.year})의 원본 시험지 PDF 열기`;
+    }
+
+    // Update Bottom Nav Comments Indicator Badge
+    if (typeof updateNavCommentBadge === 'function') {
+      updateNavCommentBadge(q);
+    }
+
+    // If Comment Modal is currently open, update its displayed question context and comments list
+    if (dom.commentModal && dom.commentModal.open) {
+      renderCommentList(q);
+      if (dom.commentTargetSubject) dom.commentTargetSubject.textContent = q.subject || '임상의학';
+      if (dom.commentTargetYear) dom.commentTargetYear.textContent = q.year || '기출';
+      if (dom.commentTargetQnum) {
+        dom.commentTargetQnum.textContent = (q.year === '22Y' && q.section && q.section_q_num)
+          ? `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`
+          : (q.qnum || `Q${String(q.q_num || '').padStart(2, '0')}`);
+      }
+      if (dom.commentTargetTheme) {
+        dom.commentTargetTheme.textContent = q.theme_title || '핵심 출제 테마';
+      }
     }
 
     saveStorage();
@@ -3366,6 +3417,16 @@
     if (dom.btnCloseEditModal) {
       dom.btnCloseEditModal.addEventListener('click', closeEditQuestionModal);
     }
+    if (dom.editQuestionModal) {
+      dom.editQuestionModal.addEventListener('click', (e) => {
+        const rect = dom.editQuestionModal.getBoundingClientRect();
+        const isInDialog = (rect.top <= e.clientY && e.clientY <= rect.top + rect.height
+          && rect.left <= e.clientX && e.clientX <= rect.left + rect.width);
+        if (!isInDialog) {
+          closeEditQuestionModal();
+        }
+      });
+    }
     if (dom.btnCancelEditModal) {
       dom.btnCancelEditModal.addEventListener('click', closeEditQuestionModal);
     }
@@ -3382,6 +3443,16 @@
     }
     if (dom.btnCloseCommentModal) {
       dom.btnCloseCommentModal.addEventListener('click', closeCommentModal);
+    }
+    if (dom.commentModal) {
+      dom.commentModal.addEventListener('click', (e) => {
+        const rect = dom.commentModal.getBoundingClientRect();
+        const isInDialog = (rect.top <= e.clientY && e.clientY <= rect.top + rect.height
+          && rect.left <= e.clientX && e.clientX <= rect.left + rect.width);
+        if (!isInDialog) {
+          closeCommentModal();
+        }
+      });
     }
     if (dom.btnSubmitComment) {
       dom.btnSubmitComment.addEventListener('click', submitComment);
@@ -3514,12 +3585,23 @@
       return;
     }
     if (dom.profileModal && dom.profileModal.open) {
+      if (e.key === 'Escape') closeProfileModal();
       return;
     }
     if (dom.reportModal && dom.reportModal.open) {
-      if (e.key === 'Escape') {
-        closeReportModal();
-      }
+      if (e.key === 'Escape') closeReportModal();
+      return;
+    }
+    if (dom.pdfModal && dom.pdfModal.open) {
+      if (e.key === 'Escape') closePdfViewerModal();
+      return;
+    }
+    if (dom.commentModal && dom.commentModal.open) {
+      if (e.key === 'Escape') closeCommentModal();
+      return;
+    }
+    if (dom.editQuestionModal && dom.editQuestionModal.open) {
+      if (e.key === 'Escape') closeEditQuestionModal();
       return;
     }
 
