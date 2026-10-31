@@ -286,11 +286,14 @@
     syncTimer: null,
     isSyncing: false,
     lastSyncTime: null,
+    AUTO_SYNC_INTERVAL_MS: 180000, // 3 minutes
 
     async sync({ silent = false, isInitial = false } = {}) {
       if (this.isSyncing) return;
       this.isSyncing = true;
-      this.updateIndicator('syncing');
+      if (!silent) {
+        this.updateIndicator('syncing');
+      }
 
       try {
         // Ensure active profile state is up to date before syncing
@@ -422,11 +425,16 @@
       }
     },
 
-    scheduleDebouncedSync(delayMs = 3500) {
+    scheduleDebouncedSync(delayMs = 180000) {
+      // Background auto-sync throttled to 3 minutes
+      const elapsed = Date.now() - (this.lastSyncTime || 0);
+      if (elapsed < this.AUTO_SYNC_INTERVAL_MS) {
+        return;
+      }
       if (this.syncTimer) clearTimeout(this.syncTimer);
       this.syncTimer = setTimeout(() => {
         this.sync({ silent: true });
-      }, delayMs);
+      }, 5000);
     },
 
     async init() {
@@ -446,21 +454,27 @@
         });
       }
 
-      // 2. Periodic sync every 25 seconds
+      // 2. Periodic sync every 3 minutes (180,000ms)
       setInterval(() => {
         this.sync({ silent: true });
-      }, 25000);
+      }, this.AUTO_SYNC_INTERVAL_MS);
 
-      // 3. Tab visibility sync
+      // 3. Tab visibility sync (throttled to 3 minutes)
       document.addEventListener('visibilitychange', () => {
         if (document.visibilityState === 'visible') {
-          this.sync({ silent: true });
+          const elapsed = Date.now() - (this.lastSyncTime || 0);
+          if (elapsed >= this.AUTO_SYNC_INTERVAL_MS) {
+            this.sync({ silent: true });
+          }
         }
       });
 
-      // 4. Window focus sync
+      // 4. Window focus sync (throttled to 3 minutes)
       window.addEventListener('focus', () => {
-        this.sync({ silent: true });
+        const elapsed = Date.now() - (this.lastSyncTime || 0);
+        if (elapsed >= this.AUTO_SYNC_INTERVAL_MS) {
+          this.sync({ silent: true });
+        }
       });
 
       // 5. Online reconnection sync

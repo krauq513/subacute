@@ -90,7 +90,7 @@ body {
 .header-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0.75rem 1.25rem;
+  padding: 0.65rem 1.25rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -101,16 +101,18 @@ body {
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  flex-shrink: 0;
 }
 
 .brand-badge {
   background: linear-gradient(135deg, #1e40af, #3b82f6);
   color: white;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 800;
-  padding: 0.35rem 0.6rem;
+  padding: 0.32rem 0.55rem;
   border-radius: var(--radius-sm);
   letter-spacing: 0.05em;
+  box-shadow: 0 1px 2px rgba(37, 99, 235, 0.2);
 }
 
 .brand-title {
@@ -118,33 +120,46 @@ body {
   font-weight: 700;
   color: var(--text-primary);
   letter-spacing: -0.02em;
+  line-height: 1.25;
 }
 
 .brand-subtitle {
   display: block;
   font-size: 0.75rem;
   color: var(--text-secondary);
+  font-weight: 500;
 }
 
+.header-tools,
 .header-stats {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.6rem;
+  flex-wrap: nowrap;
+}
+
+.header-stats-group {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .stat-pill {
   background: var(--bg-surface);
   border: 1px solid var(--border-light);
-  padding: 0.35rem 0.75rem;
-  border-radius: var(--radius-md);
-  display: flex;
+  padding: 0.32rem 0.65rem;
+  border-radius: var(--radius-full);
+  display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  font-size: 0.8rem;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  height: 32px;
+  box-sizing: border-box;
 }
 
 .stat-label {
   color: var(--text-secondary);
+  font-weight: 600;
 }
 
 .stat-val {
@@ -154,8 +169,8 @@ body {
 }
 
 .stat-mini-bar {
-  width: 50px;
-  height: 6px;
+  width: 44px;
+  height: 5px;
   background: #cbd5e1;
   border-radius: var(--radius-full);
   overflow: hidden;
@@ -176,16 +191,32 @@ body {
   color: var(--warning);
 }
 
+.header-divider {
+  width: 1px;
+  height: 22px;
+  background: var(--border-light);
+  margin: 0 0.15rem;
+  flex-shrink: 0;
+}
+
+.header-actions-group {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
 .btn-icon-text {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.35rem;
   background: var(--bg-card);
   color: var(--primary);
   border: 1px solid var(--primary-subtle);
-  padding: 0.4rem 0.85rem;
+  padding: 0.3rem 0.75rem;
+  height: 32px;
+  box-sizing: border-box;
   border-radius: var(--radius-md);
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 600;
   cursor: pointer;
   transition: all var(--transition-fast);
@@ -906,10 +937,13 @@ body {
 }
 
 .stem-text {
-  font-size: 1.05rem;
+  font-size: 1.08rem;
+  line-height: 1.74;
   font-weight: 500;
   white-space: pre-line;
   word-break: keep-all;
+  letter-spacing: -0.015em;
+  color: var(--text-primary);
 }
 
 /* Clinical Images Gallery */
@@ -2248,46 +2282,103 @@ body {
    ========================================================================== */
 
 @media (max-width: 768px) {
+  /* Mobile Header: Clean 2-Row Layout (Brand+Profile on Row 1; Stats+Actions on Row 2) */
   .header-inner {
-    padding: 0.6rem 0.85rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "brand profile"
+      "stats actions";
+    gap: 0.45rem 0.5rem;
+    align-items: center;
+    padding: 0.55rem 0.85rem;
   }
 
   .brand {
-    width: 100%;
-    justify-content: space-between;
+    grid-area: brand;
+    gap: 0.5rem;
+  }
+
+  .brand-badge {
+    font-size: 0.68rem;
+    padding: 0.22rem 0.45rem;
   }
 
   .brand-title {
-    font-size: 1.05rem;
+    font-size: 1.02rem;
   }
 
   .brand-subtitle {
-    font-size: 0.7rem;
+    font-size: 0.68rem;
   }
 
+  .header-tools,
   .header-stats {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: contents; /* Unwraps children into the 2-row grid */
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  .btn-profile-pill {
+    grid-area: profile;
+    justify-self: end;
+    height: 30px;
+    padding: 0.2rem 0.55rem;
+    font-size: 0.74rem;
     gap: 0.35rem;
   }
 
+  .profile-pill-sub {
+    display: none; /* Hide '이어하기 ·' on mobile to keep profile pill compact */
+  }
+
+  .profile-pill-name {
+    max-width: 95px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .header-stats-group {
+    grid-area: stats;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
   .stat-pill {
-    padding: 0.25rem 0.5rem;
+    height: 28px;
+    padding: 0.18rem 0.45rem;
     font-size: 0.72rem;
+    gap: 0.25rem;
   }
 
   .stat-mini-bar {
     display: none;
   }
 
+  .header-actions-group {
+    grid-area: actions;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    justify-self: end;
+  }
+
+  .cloud-sync-indicator {
+    height: 28px;
+    padding: 0.18rem 0.5rem;
+    font-size: 0.72rem;
+  }
+
   .btn-icon-text {
-    padding: 0.3rem 0.6rem;
-    font-size: 0.75rem;
+    height: 28px;
+    padding: 0.18rem 0.5rem;
+    font-size: 0.72rem;
+    gap: 0.25rem;
   }
 
   /* Horizontal Scrolling Touch Chip Bars */
@@ -2299,7 +2390,7 @@ body {
   .toolbar-inner {
     flex-direction: column;
     align-items: stretch;
-    gap: 0.5rem;
+    gap: 0.45rem;
   }
 
   .filter-group {
@@ -2313,13 +2404,14 @@ body {
   .filter-label {
     flex-shrink: 0;
     font-size: 0.72rem;
+    font-weight: 700;
   }
 
   .pill-tabs {
     display: flex;
     overflow-x: auto;
     flex-wrap: nowrap;
-    gap: 0.35rem;
+    gap: 0.32rem;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     padding-bottom: 2px;
@@ -2333,7 +2425,9 @@ body {
     flex-shrink: 0;
     white-space: nowrap;
     font-size: 0.75rem;
-    padding: 0.3rem 0.65rem;
+    padding: 0.28rem 0.62rem;
+    min-height: 28px;
+    box-sizing: border-box;
   }
 
   .filter-group.actions {
@@ -2344,7 +2438,7 @@ body {
     justify-content: flex-start;
     scrollbar-width: none;
     padding-bottom: 2px;
-    gap: 0.35rem;
+    gap: 0.32rem;
   }
 
   .filter-group.actions::-webkit-scrollbar {
@@ -2355,29 +2449,70 @@ body {
     width: 100%;
     min-width: 180px;
     padding: 0.3rem 0.65rem;
+    height: 32px;
+    box-sizing: border-box;
   }
 
   /* Question Card & Content */
   .main-container {
-    margin: 0.6rem auto;
+    margin: 0.5rem auto;
     padding: 0 0.5rem 5.5rem 0.5rem; /* Bottom padding so sticky nav never covers content */
   }
 
   .question-card {
-    padding: 1.15rem 0.95rem;
-    gap: 1.15rem;
+    padding: 1.1rem 0.9rem;
+    gap: 1.1rem;
     border-radius: var(--radius-md);
   }
 
+  /* Two-row Card Meta: Badges on Row 1, Actions on Row 2 */
   .card-meta {
-    flex-wrap: wrap;
-    gap: 0.4rem;
-    padding-bottom: 0.6rem;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+    padding-bottom: 0.65rem;
+  }
+
+  .meta-left {
+    width: 100%;
+    gap: 0.32rem;
+  }
+
+  .meta-right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.45rem;
+    border-top: 1px dashed #f1f5f9;
+    gap: 0.35rem;
+  }
+
+  .filter-counter {
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+
+  .btn-question-pdf,
+  .btn-edit-question,
+  .btn-report-issue {
+    height: 28px;
+    padding: 0.18rem 0.48rem;
+    font-size: 0.73rem;
+    gap: 0.25rem;
+  }
+
+  .btn-bookmark {
+    height: 28px;
+    width: 28px;
+    padding: 0;
   }
 
   .stem-text {
-    font-size: 0.98rem;
+    font-size: 1.02rem;
     line-height: 1.68;
+    word-break: keep-all;
+    letter-spacing: -0.01em;
   }
 
   .image-item-wrapper .quiz-image {
@@ -2385,8 +2520,8 @@ body {
   }
 
   .exam-intel-box {
-    padding: 0.75rem 0.85rem;
-    gap: 0.5rem;
+    padding: 0.7rem 0.8rem;
+    gap: 0.45rem;
   }
 
   .intel-theme-text {
@@ -2394,20 +2529,22 @@ body {
   }
 
   .intel-freq-badge {
-    font-size: 0.74rem;
-    padding: 0.15rem 0.5rem;
+    font-size: 0.73rem;
+    padding: 0.15rem 0.48rem;
   }
 
   /* Mobile Touch Option Buttons (48px Min Height) */
   .option-btn {
-    padding: 0.85rem 0.95rem;
-    font-size: 0.92rem;
+    padding: 0.8rem 0.95rem;
+    font-size: 0.93rem;
+    line-height: 1.52;
     min-height: 48px;
     gap: 0.6rem;
+    word-break: keep-all;
   }
 
   .option-btn:active {
-    transform: scale(0.98);
+    transform: scale(0.99);
   }
 
   .option-kbd-hint {
@@ -2417,6 +2554,12 @@ body {
   .option-num {
     font-size: 0.95rem;
     min-width: 22px;
+    line-height: 1.52;
+    margin-top: 1px;
+  }
+
+  .option-label {
+    line-height: 1.52;
   }
 
   /* Feedback Banner */
@@ -2449,7 +2592,7 @@ body {
   }
 
   .exp-theme-title {
-    font-size: 1.05rem;
+    font-size: 1.02rem;
   }
 
   .section-content {
@@ -2467,22 +2610,42 @@ body {
     border-left: none;
     border-right: none;
     border-bottom: none;
-    padding: 0.6rem 0.85rem calc(0.6rem + env(safe-area-inset-bottom, 0px)) 0.85rem;
-    background: rgba(255, 255, 255, 0.96);
+    padding: 0.55rem 0.85rem calc(0.55rem + env(safe-area-inset-bottom, 0px)) 0.85rem;
+    background: rgba(255, 255, 255, 0.97);
     backdrop-filter: blur(12px);
     box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.08);
     z-index: 50;
   }
 
   .nav-btn {
-    padding: 0.65rem 1rem;
-    font-size: 0.85rem;
-    min-height: 44px;
+    padding: 0.55rem 0.85rem;
+    font-size: 0.84rem;
+    height: 42px;
+    box-sizing: border-box;
+  }
+
+  .nav-center {
+    gap: 0.4rem;
   }
 
   .btn-ghost {
-    padding: 0.4rem 0.6rem;
-    font-size: 0.75rem;
+    padding: 0.4rem 0.55rem;
+    height: 36px;
+    box-sizing: border-box;
+  }
+
+  .btn-ghost span {
+    display: none; /* Show only random shuffle icon on mobile */
+  }
+
+  .btn-nav-comments {
+    padding: 0.4rem 0.55rem;
+    height: 36px;
+    box-sizing: border-box;
+  }
+
+  .btn-nav-comments .nav-comment-text {
+    display: none; /* Show only comment icon + badge on mobile */
   }
 
   .nav-index-indicator {
@@ -2490,9 +2653,11 @@ body {
   }
 
   .nav-jump-input {
-    width: 3.3rem;
-    padding: 0.25rem 0.25rem;
-    font-size: 1rem;
+    width: 2.8rem;
+    height: 34px;
+    padding: 0.2rem;
+    font-size: 0.92rem;
+    box-sizing: border-box;
   }
 
   /* Grid Modal on Mobile */
@@ -2515,17 +2680,38 @@ body {
 }
 
 @media (max-width: 480px) {
+  .header-inner {
+    padding: 0.45rem 0.65rem;
+    gap: 0.38rem 0.45rem;
+  }
+
   .brand-title {
-    font-size: 0.98rem;
+    font-size: 0.92rem;
   }
 
   .stat-pill {
-    padding: 0.2rem 0.45rem;
-    font-size: 0.7rem;
+    padding: 0.16rem 0.38rem;
+    font-size: 0.68rem;
   }
 
   .stat-label {
     display: none; /* Show only values on ultra compact screens */
+  }
+
+  .btn-icon-text span {
+    display: none; /* Icon only for PDF & Grid buttons on narrow screens */
+  }
+
+  .btn-icon-text {
+    padding: 0.18rem 0.42rem;
+  }
+
+  .cloud-sync-indicator .sync-text {
+    display: none; /* Pulsating dot only on narrow screens */
+  }
+
+  .cloud-sync-indicator {
+    padding: 0.18rem 0.42rem;
   }
 
   .question-card {
