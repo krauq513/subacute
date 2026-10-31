@@ -691,15 +691,42 @@
 
     const sectionIcons = {
       '흉부': '🫁',
-      '복부': '🫄',
+      '복부': '🩺',
       'MSK': '🦴',
+      '근골격': '🦴',
       '신경': '🧠',
       '인터벤션': '🩸',
       '유방': '🎀',
-      '총론': '💡'
+      '총론': '💡',
+      '부인과': '🌸',
+      '산과': '👶',
+      '소화기': '🥣',
+      '호흡기': '🫁',
+      '신장': '💧',
+      '감염': '🦠',
+      '내분비': '💉',
+      '혈종': '🩸',
+      '류마': '🧬',
+      '심장': '❤️',
+      '면역': '🛡️',
+      '수혈': '🩸',
+      '화학': '🧪',
+      '유전': '🧬',
+      '미생물': '🔬',
+      '혈액': '🩸'
     };
 
-    const sectionOrder = ['흉부', '복부', 'MSK', '신경', '인터벤션', '유방', '총론'];
+    const sectionOrder = [
+      '흉부', '복부', 'MSK', '근골격', '신경', '인터벤션', '유방', '총론',
+      '부인과', '산과',
+      '소화기', '호흡기', '신장', '감염', '내분비', '혈종', '류마', '심장',
+      '면역', '수혈', '화학', '유전', '미생물', '혈액'
+    ];
+    // Dynamically append any additional sections present in scope
+    const presentSecs = Array.from(new Set(scope.map(q => q.section).filter(Boolean)));
+    presentSecs.forEach(sec => {
+      if (!sectionOrder.includes(sec)) sectionOrder.push(sec);
+    });
     const secCounts = {};
     scope.forEach(q => {
       if (q.section) {

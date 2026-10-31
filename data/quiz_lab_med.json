@@ -18552,1726 +18552,6 @@
     ]
   },
   {
-    "id": "진단검사의학과_21Y_Q01",
-    "index": 148,
-    "subject": "진단검사의학과",
-    "year": "21Y",
-    "q_num": 1,
-    "category": "반짤",
-    "theme_title": "간접면역형광법(IIF)으로 검사할 수 없는 자가항체 (연도별 선지/정답 변형)",
-    "subspecialty": "진단면역학",
-    "stem": "(Y) 형광 형미경으로 볼 수 없는 것은? Anti-cardiolipin",
-    "images": [],
-    "options": [
-      "① Anti LKM",
-      "② Anti mitochondria",
-      "③ ANA",
-      "④ Anti dsDna"
-    ],
-    "correct_option_index": 2,
-    "correct_answer": "[26Y Q01] ③ anti-cardiolipin & ④ RF (2개 복수 정답) | [23Y Q47 / 22Y Q25] ① APA (또는 Anti-CCP) | [20Y Q34] Anti-cardiolipin",
-    "explanation": {
-      "title": "간접면역형광법(IIF)으로 검사할 수 없는 자가항체 (연도별 선지/정답 변형)",
-      "findings": "IIF의 원리는 환자 혈청 항체를 조직/세포 기질과 반응 후 형광표지 2차 항체로 관찰하는 것임.",
-      "differential": "• ① Anti LKM ✗ [오답]: ★ 연도별 변형 주의! 26Y는 2개 선택(Anti-cardiolipin & RF), 23Y는 1개 선택(APA)! 조직 슬라이드에 부착할 세포 형태 기질이 없는 가용성 인자/인지질 항체를 선택. IIF의 원리는 환자 혈청 항체를 조직/세포 기질과 반응 후 형광표지 2차 항체로 관찰하는 것임.\n• ② Anti mitochondria ✗ [오답]: ② Anti mitochondria.\n• ③ ANA ✓ [정답]: 전신홍반루푸스(SLE), 전신경화증 등 전신 자가면역질환의 가장 민감한 선별 검사(IIF 이용)입니다.\n• ④ Anti dsDna ✗ [오답]: ④ Anti dsDna.\n\n【핵심 감별 및 임상 가이드라인】\n• IIF 검출 가능 항체: ANA, Anti-dsDNA, AMA, Anti-LKM, ANCA (조직/세포 절편 기질 필요)\n• IIF 검출 불가 항체: 인지질 항체(Anti-cardiolipin, APA -> ELISA), 가용성 항체(RF -> 비탁법/응집법)",
-      "trap": "ANA, Anti-mitochondria(AMA), Anti-LKM은 Hep-2 세포나 조직 절편을 기질로 사용하여 IIF로 형광 패턴을 전형적으로 검출함.",
-      "trigger": "★ 연도별 변형 주의! 26Y는 2개 선택(Anti-cardiolipin & RF), 23Y는 1개 선택(APA)! 조직 슬라이드에 부착할 세포 형태 기질이 없는 가용성 인자/인지질 항체를 선택.",
-      "kmle_link": "KMLE 류마티스학 - 자가면역질환 검사법 (ANA 및 자가항체 측정 원리)",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "Anti LKM",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "★ 연도별 변형 주의! 26Y는 2개 선택(Anti-cardiolipin & RF), 23Y는 1개 선택(APA)! 조직 슬라이드에 부착할 세포 형태 기질이 없는 가용성 인자/인지질 항체를 선택. IIF의 원리는 환자 혈청 항체를 조직/세포 기질과 반응 후 형광표지 2차 항체로 관찰하는 것임."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "Anti mitochondria",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "② Anti mitochondria."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "ANA",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "전신홍반루푸스(SLE), 전신경화증 등 전신 자가면역질환의 가장 민감한 선별 검사(IIF 이용)입니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "Anti dsDna",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "④ Anti dsDna."
-        }
-      ],
-      "differential_general": "• IIF 검출 가능 항체: ANA, Anti-dsDNA, AMA, Anti-LKM, ANCA (조직/세포 절편 기질 필요)\n• IIF 검출 불가 항체: 인지질 항체(Anti-cardiolipin, APA -> ELISA), 가용성 항체(RF -> 비탁법/응집법)"
-    },
-    "freq_count": 5,
-    "rate": 83,
-    "freq_years": [
-      "26Y",
-      "23Y",
-      "22Y",
-      "21Y",
-      "20Y"
-    ],
-    "raw_questions": [
-      "26Y-01",
-      "23Y-47",
-      "22Y-25",
-      "21Y-01",
-      "20Y-34"
-    ],
-    "option_explanations": [
-      {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "Anti LKM",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "★ 연도별 변형 주의! 26Y는 2개 선택(Anti-cardiolipin & RF), 23Y는 1개 선택(APA)! 조직 슬라이드에 부착할 세포 형태 기질이 없는 가용성 인자/인지질 항체를 선택. IIF의 원리는 환자 혈청 항체를 조직/세포 기질과 반응 후 형광표지 2차 항체로 관찰하는 것임."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "Anti mitochondria",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "② Anti mitochondria."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "ANA",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "전신홍반루푸스(SLE), 전신경화증 등 전신 자가면역질환의 가장 민감한 선별 검사(IIF 이용)입니다."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "Anti dsDna",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "④ Anti dsDna."
-      }
-    ],
-    "correct_option_indices": [
-      2
-    ]
-  },
-  {
-    "id": "진단검사의학과_21Y_Q02",
-    "index": 149,
-    "subject": "진단검사의학과",
-    "year": "21Y",
-    "q_num": 2,
-    "category": "반짤",
-    "theme_title": "진단검사의학과 과년도 빈출: (Y) PPD 피부반응검사와 IGRA 에 대한 설명으로...",
-    "subspecialty": "진단검사의학과 과년도 빈출",
-    "stem": "(Y) PPD 피부반응검사와 IGRA 에 대한 설명으로 옳은 것은? PPD 는 과거 결핵균에 감작된 T 림프구에 결핵",
-    "images": [],
-    "options": [
-      "① 균 항원을 자극하여 분비되는 인터페론 감마 를 측정한다. IGRA 는 지연성 과민반응을 이용하여 체네에",
-      "② 서 APC 에 의하여 T 세포에 항원이 전달 인지 증식되어 과민 반응을 일으키는 과정의 면역 반응을 전반적으로 평가하는 방법이다. IGRA 검사는 결과 판독을 위해 48-72h 후에",
-      "③ 한번 더 방문해야 하지만 PPD 는 한번의 방문 으로 진단가능하다. IGRA 검사는 BCG 백신이나 비결핵 항산균 감",
-      "④ 염에 의해서도 위양성 반응을 보일 수 있지만 PPD 는 결핵균 항원만 이용하므로 IGRA 검사 보다 위양성률이 낮다. PPD 피부반응 검사와 IGRA 모두 잠복결핵과",
-      "⑤ 활동성결핵을 감별할 수 없다."
-    ],
-    "correct_option_index": 0,
-    "correct_answer": "PPD 검사는 BCG 접종력의 영향을 받지 않는다 (X - PPD는 위양성을 보이며, IGRA가 BCG 영향을 안 받음)",
-    "explanation": {
-      "title": "[과년도 빈출] PPD 피부반응검사와 IGRA 원리 및 BCG 위양성 감별 (발문 변형)",
-      "findings": "• [22Y Q27 & 21Y Q02 & 20Y Q11 & 19Y Q06] 4개년 연속 출제!\n  - 지문: PPD 피부반응검사(TST)와 IGRA에 대한 설명으로 옳은 것은?\n  - 정답: IGRA는 BCG 백신 균주에 없는 결핵균 특이 항원(ESAT-6, CFP-10)을 사용하므로 BCG 접종자에서 위양성이 없음.",
-      "differential": "• ① 균 항원을 자극하여 분비되는 인터페론 감마 를 측정한다. IGRA 는 지연성 과민반응을 이용하여 체네에 ✓ [정답]: IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : ★ 발문 변형 주의(반짤)! 22Y는 옳지 않은 것, 21Y/20Y는 옳은 것을 묻는 변형 출제! 핵심: IGRA는 BCG 접종에 위양성 없음(ESAT-6, CFP-10 특이항원) & 두 검사 모두 잠복/활동성 감별 불가!. Y Q27 & 21Y Q02 & 20Y Q11 & 19Y Q06] 4개년 연속 출제!.\n• ② 서 APC 에 의하여 T 세포에 항원이 전달 인지 증식되어 과민 반응을 일으키는 과정의 면역 반응을 전반적으로 평가하는 방법이다. IGRA 검사는 결과 판독을 위해 48-72h 후에 ✗ [오답]: IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에.\n• ③ 한번 더 방문해야 하지만 PPD 는 한번의 방문 으로 진단가능하다. IGRA 검사는 BCG 백신이나 비결핵 항산균 감 ✗ [오답]: 일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다.\n• ④ 염에 의해서도 위양성 반응을 보일 수 있지만 PPD 는 결핵균 항원만 이용하므로 IGRA 검사 보다 위양성률이 낮다. PPD 피부반응 검사와 IGRA 모두 잠복결핵과 ✗ [오답]: 일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다.\n• ⑤ 활동성결핵을 감별할 수 없다. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n1. TST(PPD) vs IGRA 감별 비교:\n• TST: PPD 투여 후 48~72시간 뒤 경결 직경 판독. BCG 접종 및 NTM 감염 시 위양성 빈발. 부스팅 현상 있음.\n• IGRA: 전혈 채혈 1회 방문. BCG 접종 여부와 무관(특이도 98% 이상). 면역저하자에서 Indeterminate 판정 가능.",
-      "trap": "PPD는 과거 BCG 접종력에 의해 위양성이 흔하므로 우리나라처럼 BCG 접종국가에서는 IGRA가 훨씬 우월함.",
-      "trigger": "★ 발문 변형 주의(반짤)! 22Y는 옳지 않은 것, 21Y/20Y는 옳은 것을 묻는 변형 출제! 핵심: IGRA는 BCG 접종에 위양성 없음(ESAT-6, CFP-10 특이항원) & 두 검사 모두 잠복/활동성 감별 불가!",
-      "kmle_link": "KMLE 진단검사의학 핵심 가이드",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "균 항원을 자극하여 분비되는 인터페론 감마 를 측정한다. IGRA 는 지연성 과민반응을 이용하여 체네에",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : ★ 발문 변형 주의(반짤)! 22Y는 옳지 않은 것, 21Y/20Y는 옳은 것을 묻는 변형 출제! 핵심: IGRA는 BCG 접종에 위양성 없음(ESAT-6, CFP-10 특이항원) & 두 검사 모두 잠복/활동성 감별 불가!. Y Q27 & 21Y Q02 & 20Y Q11 & 19Y Q06] 4개년 연속 출제!."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "서 APC 에 의하여 T 세포에 항원이 전달 인지 증식되어 과민 반응을 일으키는 과정의 면역 반응을 전반적으로 평가하는 방법이다. IGRA 검사는 결과 판독을 위해 48-72h 후에",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "한번 더 방문해야 하지만 PPD 는 한번의 방문 으로 진단가능하다. IGRA 검사는 BCG 백신이나 비결핵 항산균 감",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "염에 의해서도 위양성 반응을 보일 수 있지만 PPD 는 결핵균 항원만 이용하므로 IGRA 검사 보다 위양성률이 낮다. PPD 피부반응 검사와 IGRA 모두 잠복결핵과",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "활동성결핵을 감별할 수 없다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        }
-      ],
-      "differential_general": "1. TST(PPD) vs IGRA 감별 비교:\n• TST: PPD 투여 후 48~72시간 뒤 경결 직경 판독. BCG 접종 및 NTM 감염 시 위양성 빈발. 부스팅 현상 있음.\n• IGRA: 전혈 채혈 1회 방문. BCG 접종 여부와 무관(특이도 98% 이상). 면역저하자에서 Indeterminate 판정 가능."
-    },
-    "freq_count": 4,
-    "rate": 66,
-    "freq_years": [
-      "22Y",
-      "21Y",
-      "20Y",
-      "19Y"
-    ],
-    "raw_questions": [
-      "22Y-27",
-      "21Y-02",
-      "20Y-11",
-      "19Y-06"
-    ],
-    "option_explanations": [
-      {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "균 항원을 자극하여 분비되는 인터페론 감마 를 측정한다. IGRA 는 지연성 과민반응을 이용하여 체네에",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : ★ 발문 변형 주의(반짤)! 22Y는 옳지 않은 것, 21Y/20Y는 옳은 것을 묻는 변형 출제! 핵심: IGRA는 BCG 접종에 위양성 없음(ESAT-6, CFP-10 특이항원) & 두 검사 모두 잠복/활동성 감별 불가!. Y Q27 & 21Y Q02 & 20Y Q11 & 19Y Q06] 4개년 연속 출제!."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "서 APC 에 의하여 T 세포에 항원이 전달 인지 증식되어 과민 반응을 일으키는 과정의 면역 반응을 전반적으로 평가하는 방법이다. IGRA 검사는 결과 판독을 위해 48-72h 후에",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "한번 더 방문해야 하지만 PPD 는 한번의 방문 으로 진단가능하다. IGRA 검사는 BCG 백신이나 비결핵 항산균 감",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "염에 의해서도 위양성 반응을 보일 수 있지만 PPD 는 결핵균 항원만 이용하므로 IGRA 검사 보다 위양성률이 낮다. PPD 피부반응 검사와 IGRA 모두 잠복결핵과",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "활동성결핵을 감별할 수 없다.",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
-      }
-    ],
-    "correct_option_indices": [
-      0
-    ]
-  },
-  {
-    "id": "진단검사의학과_21Y_Q03",
-    "index": 150,
-    "subject": "진단검사의학과",
-    "year": "21Y",
-    "q_num": 3,
-    "category": "짤",
-    "theme_title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
-    "subspecialty": "진단면역학",
-    "stem": "(Y 변형) ANA 에서 Speckled pattern 이 나왔다. 다음으로 해야할 검사는? Anti-ena",
-    "images": [],
-    "options": [
-      "① APF",
-      "② APA",
-      "③ Anca",
-      "④ Anti dsDna"
-    ],
-    "correct_option_index": 0,
-    "correct_answer": "① anti-dsDNA (및 anti-Histone)",
-    "explanation": {
-      "title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
-      "findings": "Hep-2 세포 핵질 전체에 걸쳐 균일한 녹색 형광 신호 관찰.",
-      "differential": "• ① APF ✓ [정답]: IIF 상 핵 전체가 균일하게 염색되는 Homogenous / Diffuse pattern = Chromatin, dsDNA, Histone 항체 시사! SLE 확진 및 활성도 평가를 위한 1순위 추가 검사는 Anti-dsDNA!. Hep-2 세포 핵질 전체에 걸쳐 균일한 녹색 형광 신호 관찰.\n• ② APA ✗ [오답]: 가용성 인지질 항체는 ELISA 또는 응고 검사로 측정하며, 조직/세포 형태 기질을 쓰는 IIF 검사 대상이 아닙니다.\n• ③ Anca ✗ [오답]: 대형 혈관염(Takayasu, 거대세포동맥염)에서는 ANCA가 음성이며 혈관 조영 검사가 필수적입니다.\n• ④ Anti dsDna ✗ [오답]: ④ Anti dsDna.\n\n【핵심 감별 및 임상 가이드라인】\nSpeckled(점상, ENA 패널 필요), Nucleolar(핵소체, 전신경화증).",
-      "trap": "Rim/Peripheral pattern은 Anti-dsDNA, Speckled pattern은 Anti-Sm/RNP/Ro/La, Nucleolar는 Anti-Scl-70(전신경화증). Homogenous는 Anti-dsDNA 및 Histone.",
-      "trigger": "IIF 상 핵 전체가 균일하게 염색되는 Homogenous / Diffuse pattern = Chromatin, dsDNA, Histone 항체 시사! SLE 확진 및 활성도 평가를 위한 1순위 추가 검사는 Anti-dsDNA!",
-      "kmle_link": "KMLE 류마티스학 - 전신홍반루푸스(SLE)의 혈청학적 진단 기준",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "APF",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "IIF 상 핵 전체가 균일하게 염색되는 Homogenous / Diffuse pattern = Chromatin, dsDNA, Histone 항체 시사! SLE 확진 및 활성도 평가를 위한 1순위 추가 검사는 Anti-dsDNA!. Hep-2 세포 핵질 전체에 걸쳐 균일한 녹색 형광 신호 관찰."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "APA",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "가용성 인지질 항체는 ELISA 또는 응고 검사로 측정하며, 조직/세포 형태 기질을 쓰는 IIF 검사 대상이 아닙니다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "Anca",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "대형 혈관염(Takayasu, 거대세포동맥염)에서는 ANCA가 음성이며 혈관 조영 검사가 필수적입니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "Anti dsDna",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "④ Anti dsDna."
-        }
-      ],
-      "differential_general": "Speckled(점상, ENA 패널 필요), Nucleolar(핵소체, 전신경화증)."
-    },
-    "freq_count": 6,
-    "rate": 100,
-    "freq_years": [
-      "26Y",
-      "23Y",
-      "22Y",
-      "21Y",
-      "20Y",
-      "19Y"
-    ],
-    "raw_questions": [
-      "26Y-03",
-      "23Y-28",
-      "22Y-26",
-      "21Y-03",
-      "20Y-35",
-      "19Y-13"
-    ],
-    "option_explanations": [
-      {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "APF",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "IIF 상 핵 전체가 균일하게 염색되는 Homogenous / Diffuse pattern = Chromatin, dsDNA, Histone 항체 시사! SLE 확진 및 활성도 평가를 위한 1순위 추가 검사는 Anti-dsDNA!. Hep-2 세포 핵질 전체에 걸쳐 균일한 녹색 형광 신호 관찰."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "APA",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "가용성 인지질 항체는 ELISA 또는 응고 검사로 측정하며, 조직/세포 형태 기질을 쓰는 IIF 검사 대상이 아닙니다."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "Anca",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "대형 혈관염(Takayasu, 거대세포동맥염)에서는 ANCA가 음성이며 혈관 조영 검사가 필수적입니다."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "Anti dsDna",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "④ Anti dsDna."
-      }
-    ],
-    "correct_option_indices": [
-      0
-    ]
-  },
-  {
-    "id": "진단검사의학과_21Y_Q04",
-    "index": 151,
-    "subject": "진단검사의학과",
-    "year": "21Y",
-    "q_num": 4,
-    "category": "짤",
-    "theme_title": "류마티스 인자(Rheumatoid Factor, RF)의 주된 면역글로불린 동형",
-    "subspecialty": "진단면역학",
-    "stem": "(Y) RF 의 주된 isotype 은? IgM-RF",
-    "images": [],
-    "options": [
-      "① IgG-RF",
-      "② IgA-RF",
-      "③ IgD-RF"
-    ],
-    "correct_option_index": 0,
-    "correct_answer": "① IgM-RF (IgG의 Fc 부위에 결합하는 IgM 항체)",
-    "explanation": {
-      "title": "류마티스 인자(Rheumatoid Factor, RF)의 주된 면역글로불린 동형",
-      "findings": "면역학적 정의: RF는 \"자가 IgG의 Fc 부위에 대한 자가항체\"이며 주 동형은 IgM.",
-      "differential": "• ① IgG-RF ✓ [정답]: RF임. 임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체. KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP.\n• ② IgA-RF ✗ [오답]: RF임. 임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체. KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP.\n• ③ IgD-RF ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\nAnti-CCP(Citrullinated peptide 항체, RA 특이도 95% 이상).",
-      "trap": "IgG-RF나 IgA-RF도 존재하나 임상 검사실에서 라텍스 응집법/비탁법으로 통상 검출하는 90% 이상의 주된 형태는 IgM-RF임.",
-      "trigger": "임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체.",
-      "kmle_link": "KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "IgG-RF",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "RF임. 임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체. KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "IgA-RF",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "RF임. 임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체. KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "IgD-RF",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        }
-      ],
-      "differential_general": "Anti-CCP(Citrullinated peptide 항체, RA 특이도 95% 이상)."
-    },
-    "freq_count": 5,
-    "rate": 83,
-    "freq_years": [
-      "26Y",
-      "23Y",
-      "21Y",
-      "20Y",
-      "19Y"
-    ],
-    "raw_questions": [
-      "26Y-18",
-      "23Y-32",
-      "21Y-04",
-      "20Y-09",
-      "19Y-01"
-    ],
-    "option_explanations": [
-      {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "IgG-RF",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "RF임. 임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체. KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "IgA-RF",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "RF임. 임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체. KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "IgD-RF",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
-      }
-    ],
-    "correct_option_indices": [
-      0
-    ]
-  },
-  {
-    "id": "진단검사의학과_21Y_Q05",
-    "index": 152,
-    "subject": "진단검사의학과",
-    "year": "21Y",
-    "q_num": 5,
-    "category": "짤",
-    "theme_title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
-    "subspecialty": "진단면역학/혈액학",
-    "stem": "유세포분석(Flow Cytometry)으로 평가하기에 적절하지 않은 항목은?",
-    "images": [],
-    "options": [
-      "① 면역표현형 분석 (Immunophenotyping)",
-      "② HLA 교차시험 (HLA crossmatching)",
-      "③ 조혈모세포 계수 (CD34+ Stem cell count)",
-      "④ NK세포 활성도 측정",
-      "⑤ CA-125 (혈청 종양표지자 측정)"
-    ],
-    "correct_option_index": 4,
-    "correct_answer": "⑤ CA-125 (혈청 종양표지자 측정)",
-    "explanation": {
-      "title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
-      "findings": "세포 부유액을 레이저 광선에 통과시키는 유세포분석과 혈청 화학 면역분석의 차이점 이해.",
-      "differential": "• ① immunophenotype ✓ [정답]: 유세포분석(Flow cytometry)은 개별 단일 세포(Cell) 표면/세포질의 항원을 측정하는 기법이므로, 혈청에 녹아있는 액상 종양표지자 단백질(CA-125, CEA, AFP, PSA)은 측정 불가!. 세포 부유액을 레이저 광선에 통과시키는 유세포분석과 혈청 화학 면역분석의 차이점 이해.\n• ② HLA crossmatching ✗ [오답]: T세포 교차시험 양성 시 즉각적인 이식편 괴사(초급성 거부반응)가 발생하므로 이식이 절대 금기입니다.\n• ③ stem cell count ✗ [오답]: ③ stem cell count.\n• ④ NK cell 활성도 측정 ✗ [오답]: ④ NK cell 활성도 측정.\n• ⑤ [수혈, 실험실 안전] 14 문제 ✗ [오답]: ⑤ [수혈, 실험실 안전] 14 문제.\n• ⑥ (Y) 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 ✗ [오답]: 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대.\n\n【핵심 감별 및 임상 가이드라인】\nCD4/CD8(유세포 가능), CD34(유세포 가능), CA-125(ELISA 측정).",
-      "trap": "CD4/CD8 T세포 분획, 백혈병 면역표현형(CD19, CD33), PNH의 CD55/CD59 결손은 세포막 항원이므로 유세포분석의 대표 적응증임.",
-      "trigger": "유세포분석(Flow cytometry)은 개별 단일 세포(Cell) 표면/세포질의 항원을 측정하는 기법이므로, 혈청에 녹아있는 액상 종양표지자 단백질(CA-125, CEA, AFP, PSA)은 측정 불가!",
-      "kmle_link": "KMLE 혈액학/종양학 - 유세포분석의 임상적 이용",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "immunophenotype",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "유세포분석(Flow cytometry)은 개별 단일 세포(Cell) 표면/세포질의 항원을 측정하는 기법이므로, 혈청에 녹아있는 액상 종양표지자 단백질(CA-125, CEA, AFP, PSA)은 측정 불가!. 세포 부유액을 레이저 광선에 통과시키는 유세포분석과 혈청 화학 면역분석의 차이점 이해."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "HLA crossmatching",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "T세포 교차시험 양성 시 즉각적인 이식편 괴사(초급성 거부반응)가 발생하므로 이식이 절대 금기입니다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "stem cell count",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "③ stem cell count."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "NK cell 활성도 측정",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "④ NK cell 활성도 측정."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "[수혈, 실험실 안전] 14 문제",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "⑤ [수혈, 실험실 안전] 14 문제."
-        },
-        {
-          "opt_idx": 5,
-          "opt_num": "⑥",
-          "text": "(Y) 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대."
-        }
-      ],
-      "differential_general": "CD4/CD8(유세포 가능), CD34(유세포 가능), CA-125(ELISA 측정)."
-    },
-    "freq_count": 4,
-    "rate": 66,
-    "freq_years": [
-      "26Y",
-      "22Y",
-      "21Y",
-      "20Y"
-    ],
-    "raw_questions": [
-      "26Y-31",
-      "22Y-28",
-      "21Y-05",
-      "20Y-33"
-    ],
-    "option_explanations": [
-      {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "immunophenotype",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "유세포분석(Flow cytometry)은 개별 단일 세포(Cell) 표면/세포질의 항원을 측정하는 기법이므로, 혈청에 녹아있는 액상 종양표지자 단백질(CA-125, CEA, AFP, PSA)은 측정 불가!. 세포 부유액을 레이저 광선에 통과시키는 유세포분석과 혈청 화학 면역분석의 차이점 이해."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "HLA crossmatching",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "T세포 교차시험 양성 시 즉각적인 이식편 괴사(초급성 거부반응)가 발생하므로 이식이 절대 금기입니다."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "stem cell count",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "③ stem cell count."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "NK cell 활성도 측정",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "④ NK cell 활성도 측정."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "[수혈, 실험실 안전] 14 문제",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "⑤ [수혈, 실험실 안전] 14 문제."
-      },
-      {
-        "opt_idx": 5,
-        "opt_num": "⑥",
-        "text": "(Y) 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대."
-      }
-    ],
-    "correct_option_indices": [
-      4
-    ],
-    "is_multiple_choice": false,
-    "required_count": 1
-  },
-  {
-    "id": "진단검사의학과_21Y_Q06",
-    "index": 153,
-    "subject": "진단검사의학과",
-    "year": "21Y",
-    "q_num": 6,
-    "category": "짤",
-    "theme_title": "임상 안구/유리체 검체 취급 시 요구되는 생물안전 등급 및 작업대",
-    "subspecialty": "임상미생물학",
-    "stem": "(Y) 수혈 전 검사항목으로 옳은 것은? 불규칙항체 선별검사",
-    "images": [],
-    "options": [
-      "① 불규칙항체 선별검사 (비예기항체 선별검사)",
-      "② 직접 항글로불린 검사 (DAT)",
-      "③ HLA 조직적합성 교차시험",
-      "④ 한랭응집소 역가 검사",
-      "⑤ 적혈구 삼투압 취약성 검사"
-    ],
-    "correct_option_index": 2,
-    "correct_answer": "③ 2등급 - 생물안전작업대 (BSL-2 with BSC Class II)",
-    "explanation": {
-      "title": "임상 안구/유리체 검체 취급 시 요구되는 생물안전 등급 및 작업대",
-      "findings": "환자 유래 감염성 검체의 기본 취급 표준 등급 숙지 여부 확인.",
-      "differential": "• ① 불규칙항체 선별검사 (비예기항체 선별검사) ✗ [오답]\n• ② 직접 항글로불린 검사 (DAT) ✗ [오답]\n• ③ HLA 조직적합성 교차시험 ✓ [정답]: 장기 이식 전 수혜자 혈청 내 기증자 특이 항체(DSA)의 존재를 확인하여 초급성 거부반응(Hyperacute rejection)을 예방하는 필수 검사입니다.\n• ④ 한랭응집소 역가 검사 ✗ [오답]: ④ 한랭응집소 역가 검사.\n• ⑤ 적혈구 삼투압 취약성 검사 ✗ [오답]: ⑤ 적혈구 삼투압 취약성 검사.\n\n【핵심 감별 및 임상 가이드라인】\n1등급(작업대 불필요), 3등급(음압 및 공기여과 특수시설).",
-      "trap": "3등급은 결핵이나 고위험 호흡기 바이러스에 적용되며 일반 세균성 안구 감염 검체는 2등급임.",
-      "trigger": "백내장 수술 후 안내염 환자의 유리체액(Vitreous humor) 등 환자 검체 배양은 일반 임상 검체이므로 생물안전 2등급(BSL-2) 시설 및 생물안전작업대(BSC) 내에서 취급해야 함!",
-      "kmle_link": "KMLE 감염학 - 임상 검체 안전 취급 지침",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "불규칙항체 선별검사 (비예기항체 선별검사)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "직접 항글로불린 검사 (DAT)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "HLA 조직적합성 교차시험",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "장기 이식 전 수혜자 혈청 내 기증자 특이 항체(DSA)의 존재를 확인하여 초급성 거부반응(Hyperacute rejection)을 예방하는 필수 검사입니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "한랭응집소 역가 검사",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "④ 한랭응집소 역가 검사."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "적혈구 삼투압 취약성 검사",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "⑤ 적혈구 삼투압 취약성 검사."
-        }
-      ],
-      "differential_general": "1등급(작업대 불필요), 3등급(음압 및 공기여과 특수시설)."
-    },
-    "freq_count": 5,
-    "rate": 83,
-    "freq_years": [
-      "26Y",
-      "23Y",
-      "22Y",
-      "21Y",
-      "20Y"
-    ],
-    "raw_questions": [
-      "26Y-20",
-      "23Y-31",
-      "22Y-30",
-      "21Y-06",
-      "20Y-39"
-    ],
-    "option_explanations": [
-      {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "불규칙항체 선별검사 (비예기항체 선별검사)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "직접 항글로불린 검사 (DAT)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "HLA 조직적합성 교차시험",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "장기 이식 전 수혜자 혈청 내 기증자 특이 항체(DSA)의 존재를 확인하여 초급성 거부반응(Hyperacute rejection)을 예방하는 필수 검사입니다."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "한랭응집소 역가 검사",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "④ 한랭응집소 역가 검사."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "적혈구 삼투압 취약성 검사",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "⑤ 적혈구 삼투압 취약성 검사."
-      }
-    ],
-    "correct_option_indices": [
-      2
-    ]
-  },
-  {
-    "id": "진단검사의학과_21Y_Q07",
-    "index": 154,
-    "subject": "진단검사의학과",
-    "year": "21Y",
-    "q_num": 7,
-    "category": "탈",
-    "theme_title": "임상 검사 판독 및 의의",
-    "subspecialty": "진단검사의학",
-    "stem": "(Y) 다음 중 일반적으로 O 형에서 존재할 수 없 는 항체는? Anti-A",
-    "images": [],
-    "options": [
-      "① Anti-B",
-      "② Anti-A1",
-      "③ Anti-A, B",
-      "④ Anti-H"
-    ],
-    "correct_option_index": 0,
-    "correct_answer": "[22Y Q49 & 22Y Q31 & 21Y Q07] ① Recipient serum + Donor T, B cell",
-    "explanation": {
-      "title": "임상 검사 판독 및 의의",
-      "findings": "상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.",
-      "differential": "• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]: ② Anti-A1 ✗.\n• ③ Anti-A, B ✗ [오답]: ③ Anti-A, B ✗.\n• ④ Anti-H ✗ [오답]: ④ Anti-H ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ② Anti-A1 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A1에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ Anti-A, B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Anti-H ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-H에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ② Anti-A1 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A1에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ Anti-A, B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Anti-H ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-H에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ② Anti-A1 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A1에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ Anti-A, B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Anti-H ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-H에 합당한 특징적 소견이 결여되어 오답입니다.",
-      "trap": "실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.",
-      "trigger": "임상 검사 판독 및 의의 핵심 지표 기준 즉시 정답 도출",
-      "kmle_link": "진단검사의학과",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "Anti-B",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "[임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "Anti-A1",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "Anti-A, B",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "Anti-H",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        }
-      ],
-      "differential_general": "• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]: ② Anti-A1 ✗.\n• ③ Anti-A, B ✗ [오답]: ③ Anti-A, B ✗.\n• ④ Anti-H ✗ [오답]: ④ Anti-H ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ② Anti-A1 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A1에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ Anti-A, B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Anti-H ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-H에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ② Anti-A1 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A1에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ Anti-A, B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Anti-H ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-H에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ② Anti-A1 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A1에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ Anti-A, B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Anti-H ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-H에 합당한 특징적 소견이 결여되어 오답입니다."
-    },
-    "freq_count": 1,
-    "rate": 16,
-    "freq_years": [
-      "21Y"
-    ],
-    "raw_questions": [
-      "21Y-07"
-    ],
-    "option_explanations": [
-      {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "Anti-B",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "[임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "Anti-A1",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "Anti-A, B",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "Anti-H",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
-      }
-    ],
-    "correct_option_indices": [
-      0
-    ]
-  },
-  {
-    "id": "진단검사의학과_21Y_Q08",
-    "index": 155,
-    "subject": "진단검사의학과",
-    "year": "21Y",
-    "q_num": 8,
-    "category": "짤",
-    "theme_title": "진단검사의학과 과년도 빈출: (Y) 농축 혈소판제제에 대한 설명으로 옳은 것 은? ...",
-    "subspecialty": "진단검사의학과 과년도 빈출",
-    "stem": "(Y) 농축 혈소판제제에 대한 설명으로 옳은 것 은? 혈소판 감소증으로 인한 출혈 시 보통 2 단위",
-    "images": [],
-    "options": [
-      "① 의 농출혈소판을 투여해야 한다. 혈액응고를 방지하기 위해 leukocyte filte 를",
-      "② 사용한다. 농축 혈소판 1 단위를 투여하면 체중이 70kg",
-      "③ 인 성인의 경우 혈소판 수의 증가가5000- 10000/uL 정도 된다."
-    ],
-    "correct_option_index": 2,
-    "correct_answer": "[21Y Q08 & 19Y Q05] ③ 농축 혈소판 1단위 투여 시 성인(70kg) 혈소판 수 5,000~10,000/μL 증가 (O)",
-    "explanation": {
-      "title": "[과년도 빈출] 농축 혈소판제제의 투여 및 보관 조건",
-      "findings": "• [21Y Q08 & 19Y Q05] 정답: ③ 농축 혈소판 1단위 투여 시 5,000~10,000/μL 증가\n  - 오답 선지: 2단위 투여(X - 6~8단위), 응고방지 필터(X - 백혈구제거 필터는 면역/발열 예방), 냉동 1년(X - 실온교반 5일), Apheresis보다 부작용 적다(X - Apheresis가 안전).",
-      "differential": "• ① 의 농출혈소판을 투여해야 한다. 혈액응고를 방지하기 위해 leukocyte filte 를 ✗ [오답]: 혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를.\n• ② 사용한다. 농축 혈소판 1 단위를 투여하면 체중이 70kg ✗ [오답]: 농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg.\n• ③ 인 성인의 경우 혈소판 수의 증가가5000- 10000/uL 정도 된다. ✓ [정답]: 농축혈소판 -> 1단위당 5,000~10,000/μL 증가 & 실온(20~24℃) 진탕 보관 5일!. Y Q08 & 19Y Q05] : ③ 농축 혈소판 1단위 투여 시 5,000~10,000/μL 증가.\n\n【핵심 감별 및 임상 가이드라인】\n1. 농축혈소판(PC) 핵심 임상 지침:\n• 투여 용량 및 효과: 1단위 투여 시 혈소판 약 5,000~10,000/μL 증가. 성인 1회 처방은 통상 6~8단위(또는 성분채혈 1단위) 투여.\n• 보관 조건: 20~24℃ 실온에서 지속 교반(Agitation), 유효기간 5일 (냉동 절대 불가).\n• 백혈구제거 필터(Leukocyte filter): 발열성 비용혈성 수혈부작용 및 HLA 동종면역 예방 목적 (혈액응고 방지 목적 아님).\n• 성분채혈혈소판(Apheresis): 단일 공여자이므로 풀링 혈소판제제보다 부작용 및 면역 반응이 훨씬 적음.",
-      "trap": "혈소판을 냉장/냉동 보관하면 기능 상실로 폐기 처분됨. 반드시 실온(20~24℃) 교반 유지!",
-      "trigger": "농축혈소판 -> 1단위당 5,000~10,000/μL 증가 & 실온(20~24℃) 진탕 보관 5일!",
-      "kmle_link": "KMLE 진단검사의학 핵심 가이드",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "의 농출혈소판을 투여해야 한다. 혈액응고를 방지하기 위해 leukocyte filte 를",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "사용한다. 농축 혈소판 1 단위를 투여하면 체중이 70kg",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "인 성인의 경우 혈소판 수의 증가가5000- 10000/uL 정도 된다.",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "농축혈소판 -> 1단위당 5,000~10,000/μL 증가 & 실온(20~24℃) 진탕 보관 5일!. Y Q08 & 19Y Q05] : ③ 농축 혈소판 1단위 투여 시 5,000~10,000/μL 증가."
-        }
-      ],
-      "differential_general": "1. 농축혈소판(PC) 핵심 임상 지침:\n• 투여 용량 및 효과: 1단위 투여 시 혈소판 약 5,000~10,000/μL 증가. 성인 1회 처방은 통상 6~8단위(또는 성분채혈 1단위) 투여.\n• 보관 조건: 20~24℃ 실온에서 지속 교반(Agitation), 유효기간 5일 (냉동 절대 불가).\n• 백혈구제거 필터(Leukocyte filter): 발열성 비용혈성 수혈부작용 및 HLA 동종면역 예방 목적 (혈액응고 방지 목적 아님).\n• 성분채혈혈소판(Apheresis): 단일 공여자이므로 풀링 혈소판제제보다 부작용 및 면역 반응이 훨씬 적음."
-    },
-    "freq_count": 2,
-    "rate": 33,
-    "freq_years": [
-      "21Y",
-      "19Y"
-    ],
-    "raw_questions": [
-      "21Y-08",
-      "19Y-05"
-    ],
-    "option_explanations": [
-      {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "의 농출혈소판을 투여해야 한다. 혈액응고를 방지하기 위해 leukocyte filte 를",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "사용한다. 농축 혈소판 1 단위를 투여하면 체중이 70kg",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "인 성인의 경우 혈소판 수의 증가가5000- 10000/uL 정도 된다.",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "농축혈소판 -> 1단위당 5,000~10,000/μL 증가 & 실온(20~24℃) 진탕 보관 5일!. Y Q08 & 19Y Q05] : ③ 농축 혈소판 1단위 투여 시 5,000~10,000/μL 증가."
-      }
-    ],
-    "correct_option_indices": [
-      2
-    ]
-  },
-  {
-    "id": "진단검사의학과_21Y_Q09",
-    "index": 156,
-    "subject": "진단검사의학과",
-    "year": "21Y",
-    "q_num": 9,
-    "category": "짤",
-    "theme_title": "수혈 후 비예기항체(Unexpected Antibodies) 형성 위험과 관리",
-    "subspecialty": "수혈의학",
-    "stem": "(Y) 2 급 미생물 취급 실험실이 갖추어야 할 사항 으로 옳지 않은 것은? 검사실 문을 열어두면 안된다",
-    "images": [],
-    "options": [
-      "① 긴머리는 오염을 일으킬 가능성이 높으므로",
-      "② 뒤로 잡아매야 한다. 검사실 안에서 상관없는 다른 작업을 할 때",
-      "③ 에도 장갑을 벗지 말아야 한다. 장갑을 벗고나서, 검사실 나갈 때, 오염물질",
-      "④ 을 만진 후 반드시 손을 씻어야 한다. 검사실 안에서는 보호복을 착용하고 발가락",
-      "⑤ 과 발뒤꿈치가 안보이는 신발을 신어야한다."
-    ],
-    "correct_option_index": 4,
-    "correct_answer": "⑤ 수혈 후 비예기항체가 생길 수 있는 것에 주의한다.",
-    "explanation": {
-      "title": "수혈 후 비예기항체(Unexpected Antibodies) 형성 위험과 관리",
-      "findings": "안전 수혈 지침의 핵심 임상 원칙 숙지.",
-      "differential": "• ① 긴머리는 오염을 일으킬 가능성이 높으므로 ✗ [오답]: ① 긴머리는 오염을 일으킬 가능성이 높으므로.\n• ② 뒤로 잡아매야 한다. 검사실 안에서 상관없는 다른 작업을 할 때 ✗ [오답]: 검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때.\n• ③ 에도 장갑을 벗지 말아야 한다. 장갑을 벗고나서, 검사실 나갈 때, 오염물질 ✗ [오답]: 장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질.\n• ④ 을 만진 후 반드시 손을 씻어야 한다. 검사실 안에서는 보호복을 착용하고 발가락 ✗ [오답]: 검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락.\n• ⑤ 과 발뒤꿈치가 안보이는 신발을 신어야한다. ✓ [정답]: 수혈을 반복적으로 받은 환자는 공혈자 적혈구의 미세 항원(Rh E, c, Kell, Duffy, Kidd 등)에 동종면역(Alloimmunization)되어 새로운 비예기항체가 생성될 수 있으므로, 매 수혈 시마다 72시간 이내 새 검체로 항체선별검사를 반복해야 함!. 안전 수혈 지침의 핵심 임상 원칙 숙지.\n\n【핵심 감별 및 임상 가이드라인】\n급성 용혈(ABO 불일치), 지연 용혈(비예기항체 아나므네스 반응).",
-      "trap": "한 번 교차시험이 맞았다고 해서 다음 수혈 때 이전 검사 결과를 재활용하면 지연성 용혈성 수혈반응(DHTR)으로 치명적 위험 초래.",
-      "trigger": "수혈을 반복적으로 받은 환자는 공혈자 적혈구의 미세 항원(Rh E, c, Kell, Duffy, Kidd 등)에 동종면역(Alloimmunization)되어 새로운 비예기항체가 생성될 수 있으므로, 매 수혈 시마다 72시간 이내 새 검체로 항체선별검사를 반복해야 함!",
-      "kmle_link": "KMLE 수혈의학 - 수혈 부작용(동종면역 및 지연성 용혈 반응)",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "긴머리는 오염을 일으킬 가능성이 높으므로",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "① 긴머리는 오염을 일으킬 가능성이 높으므로."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "뒤로 잡아매야 한다. 검사실 안에서 상관없는 다른 작업을 할 때",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "에도 장갑을 벗지 말아야 한다. 장갑을 벗고나서, 검사실 나갈 때, 오염물질",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "을 만진 후 반드시 손을 씻어야 한다. 검사실 안에서는 보호복을 착용하고 발가락",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "과 발뒤꿈치가 안보이는 신발을 신어야한다.",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "수혈을 반복적으로 받은 환자는 공혈자 적혈구의 미세 항원(Rh E, c, Kell, Duffy, Kidd 등)에 동종면역(Alloimmunization)되어 새로운 비예기항체가 생성될 수 있으므로, 매 수혈 시마다 72시간 이내 새 검체로 항체선별검사를 반복해야 함!. 안전 수혈 지침의 핵심 임상 원칙 숙지."
-        }
-      ],
-      "differential_general": "급성 용혈(ABO 불일치), 지연 용혈(비예기항체 아나므네스 반응)."
-    },
-    "freq_count": 3,
-    "rate": 50,
-    "freq_years": [
-      "26Y",
-      "21Y",
-      "20Y"
-    ],
-    "raw_questions": [
-      "26Y-41",
-      "21Y-09",
-      "20Y-21"
-    ],
-    "option_explanations": [
-      {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "긴머리는 오염을 일으킬 가능성이 높으므로",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "① 긴머리는 오염을 일으킬 가능성이 높으므로."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "뒤로 잡아매야 한다. 검사실 안에서 상관없는 다른 작업을 할 때",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "에도 장갑을 벗지 말아야 한다. 장갑을 벗고나서, 검사실 나갈 때, 오염물질",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "을 만진 후 반드시 손을 씻어야 한다. 검사실 안에서는 보호복을 착용하고 발가락",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "과 발뒤꿈치가 안보이는 신발을 신어야한다.",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "수혈을 반복적으로 받은 환자는 공혈자 적혈구의 미세 항원(Rh E, c, Kell, Duffy, Kidd 등)에 동종면역(Alloimmunization)되어 새로운 비예기항체가 생성될 수 있으므로, 매 수혈 시마다 72시간 이내 새 검체로 항체선별검사를 반복해야 함!. 안전 수혈 지침의 핵심 임상 원칙 숙지."
-      }
-    ],
-    "correct_option_indices": [
-      4
-    ]
-  },
-  {
-    "id": "진단검사의학과_21Y_Q10",
-    "index": 157,
-    "subject": "진단검사의학과",
-    "year": "21Y",
-    "q_num": 10,
-    "category": "탈",
-    "theme_title": "면역학적 검사 모식도: 괄호에 들어갈 용어 (항원, Antigen)",
-    "subspecialty": "진단면역학",
-    "stem": "(Y) 검사실 생물 안전에 대한 설명으로 틀린 것 은? 모든 검체는 잠재적 위험성이 있다고 간주",
-    "images": [],
-    "options": [
-      "① 하여 작업 시 표준지침을 따른다. 우리 나라에서는 결핵균이 많이 검출되므로",
-      "② 생물안전 2 등급에서 작업하는 것이 바람직하다. 생물안전 4 등급에서는 class III 생물안전작업",
-      "③ 대와 양압복과 같은 특수보호장비가 필요하다. 정상인에게서 감염을 일으키지 않는 세균은",
-      "④ 개방된 작업대에서 다뤄도 된다. 임상적으로 흔히 검출되는 세균은 생물안전",
-      "⑤ 2 등급에 해당하며 생물안전작업대가 필요하다."
-    ],
-    "correct_option_index": 1,
-    "correct_answer": "② 결핵균은 생물안전 2등급에서 작업하는 것이 바람직하다",
-    "explanation": {
-      "title": "임상미생물 검사실 생물안전 등급 (BSL) 기준",
-      "findings": "결핵균(Mycobacterium tuberculosis)은 공기 매개 비말핵으로 호흡기 감염을 유발하며 치명적인 결핵을 일으키므로, 발생 빈도와 무관하게 반드시 음압 시설과 특수 배기 공조를 갖춘 생물안전 3등급(BSL-3) 연구시설에서 취급해야 합니다.",
-      "differential": "• ① 하여 작업 시 표준지침을 따른다. 우리 나라에서는 결핵균이 많이 검출되므로 ✗ [오답]: 독성 거대결장 등 응급 상황에서는 직장을 남기는 전결장절제술(Total abdominal colectomy) + 회장루를 시행하고, 괄약근 기능이 불량한 정규 수술에서는 전대장직장절제술(TPC) + 영구 회장루를 시행합니다.\n• ② 생물안전 2 등급에서 작업하는 것이 바람직하다. 생물안전 4 등급에서는 class III 생물안전작업 ✓ [정답]: 본 증례는 내시경 상 '직장 점막 전체에 궤양 병변'이 있으므로 직장을 남겨두어 문합하면 직장염이 지속되고 직장암 발생 위험이 남습니다.\n• ③ 대와 양압복과 같은 특수보호장비가 필요하다. 정상인에게서 감염을 일으키지 않는 세균은 ✗ [오답]: 직장암의 수술법으로, 전대장을 침범한 궤양성 대장염에서는 병든 결장이 그대로 남게 되어 부적절합니다.\n• ④ 개방된 작업대에서 다뤄도 된다. 임상적으로 흔히 검출되는 세균은 생물안전 ✗ [오답]: 하부 직장암에서 직장과 항문만 절제하고 결장루를 만드는 수술로 전대장 궤양성 대장염의 수술이 아닙니다.\n• ⑤ 등급에 해당하며 생물안전작업대가 필요하다. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• BSL-2: 대부분의 일반 세균(포도구균, 연쇄구균, 대장균)\n• BSL-3: 결핵균, 탄저균, 브루셀라, 흑사병균\n• BSL-4: 에볼라바이러스, 마버그바이러스",
-      "trap": "우리나라에 결핵 환자가 많다고 해서 안전 등급을 2등급으로 낮춰서 취급할 수 없습니다.",
-      "trigger": "결핵균 BSL-2 취급 -> 오답! (반드시 BSL-3 시설 필요)",
-      "kmle_link": "진단검사의학과 및 임상병리학 종합",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "하여 작업 시 표준지침을 따른다. 우리 나라에서는 결핵균이 많이 검출되므로",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "독성 거대결장 등 응급 상황에서는 직장을 남기는 전결장절제술(Total abdominal colectomy) + 회장루를 시행하고, 괄약근 기능이 불량한 정규 수술에서는 전대장직장절제술(TPC) + 영구 회장루를 시행합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "생물안전 2 등급에서 작업하는 것이 바람직하다. 생물안전 4 등급에서는 class III 생물안전작업",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "본 증례는 내시경 상 '직장 점막 전체에 궤양 병변'이 있으므로 직장을 남겨두어 문합하면 직장염이 지속되고 직장암 발생 위험이 남습니다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "대와 양압복과 같은 특수보호장비가 필요하다. 정상인에게서 감염을 일으키지 않는 세균은",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "직장암의 수술법으로, 전대장을 침범한 궤양성 대장염에서는 병든 결장이 그대로 남게 되어 부적절합니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "개방된 작업대에서 다뤄도 된다. 임상적으로 흔히 검출되는 세균은 생물안전",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "하부 직장암에서 직장과 항문만 절제하고 결장루를 만드는 수술로 전대장 궤양성 대장염의 수술이 아닙니다."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "등급에 해당하며 생물안전작업대가 필요하다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        }
-      ],
-      "differential_general": "• BSL-2: 대부분의 일반 세균(포도구균, 연쇄구균, 대장균)\n• BSL-3: 결핵균, 탄저균, 브루셀라, 흑사병균\n• BSL-4: 에볼라바이러스, 마버그바이러스"
-    },
-    "freq_count": 4,
-    "rate": 66,
-    "freq_years": [
-      "26Y",
-      "22Y",
-      "21Y",
-      "20Y"
-    ],
-    "raw_questions": [
-      "26Y-42",
-      "22Y-45",
-      "21Y-10",
-      "21Y-12",
-      "20Y-24",
-      "20Y-27"
-    ],
-    "option_explanations": [
-      {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "하여 작업 시 표준지침을 따른다. 우리 나라에서는 결핵균이 많이 검출되므로",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "독성 거대결장 등 응급 상황에서는 직장을 남기는 전결장절제술(Total abdominal colectomy) + 회장루를 시행하고, 괄약근 기능이 불량한 정규 수술에서는 전대장직장절제술(TPC) + 영구 회장루를 시행합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "생물안전 2 등급에서 작업하는 것이 바람직하다. 생물안전 4 등급에서는 class III 생물안전작업",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "본 증례는 내시경 상 '직장 점막 전체에 궤양 병변'이 있으므로 직장을 남겨두어 문합하면 직장염이 지속되고 직장암 발생 위험이 남습니다."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "대와 양압복과 같은 특수보호장비가 필요하다. 정상인에게서 감염을 일으키지 않는 세균은",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "직장암의 수술법으로, 전대장을 침범한 궤양성 대장염에서는 병든 결장이 그대로 남게 되어 부적절합니다."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "개방된 작업대에서 다뤄도 된다. 임상적으로 흔히 검출되는 세균은 생물안전",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "하부 직장암에서 직장과 항문만 절제하고 결장루를 만드는 수술로 전대장 궤양성 대장염의 수술이 아닙니다."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "등급에 해당하며 생물안전작업대가 필요하다.",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
-      }
-    ],
-    "correct_option_indices": [
-      1
-    ]
-  },
-  {
-    "id": "진단검사의학과_21Y_Q11",
-    "index": 158,
-    "subject": "진단검사의학과",
-    "year": "21Y",
-    "q_num": 11,
-    "category": "짤",
-    "theme_title": "수혈 전 필수 면역혈액학 검사 항목: 불규칙항체 선별검사",
-    "subspecialty": "수혈의학",
-    "stem": "F-WBC 에 대한 설명으로 옳은 것은? 방사선을 쪼이면 비슷한 효과를 얻을 수 있다",
-    "images": [],
-    "options": [
-      "① frbrile reaction 을 줄이기 위해서는 pre-storage",
-      "② 를 이용하는 것 보다 bed side filter 가 더 효과 가 좋다 wbc 를 전부 없앨 수 있다",
-      "③ 동종 면역 반응이 증가할 수 있다",
-      "④ 혈소판 부전 수혈증을 줄일 수 있는 효과가 있",
-      "⑤ 다"
-    ],
-    "correct_option_index": 1,
-    "correct_answer": "② 불규칙항체 선별검사 (Antibody screening test)",
-    "explanation": {
-      "title": "수혈 전 필수 면역혈액학 검사 항목: 불규칙항체 선별검사",
-      "findings": "수혈 부작용(용혈성 수혈반응) 예방을 위한 필수 표준 패키지 규정.",
-      "differential": "• ① frbrile reaction 을 줄이기 위해서는 pre-storage ✗ [오답]: ① frbrile reaction 을 줄이기 위해서는 pre-storage.\n• ② 를 이용하는 것 보다 bed side filter 가 더 효과 가 좋다 wbc 를 전부 없앨 수 있다 ✓ [정답]: 수혈 전 환자 검체로 반드시 시행해야 하는 법정 3대 수혈 전 검사 = 1) ABO 혈액형 검사, 2) Rh(D) 혈액형 검사, 3) 비예기항체(불규칙항체) 선별검사(Antibody screen)!. 수혈 부작용(용혈성 수혈반응) 예방을 위한 필수 표준 패키지 규정.\n• ③ 동종 면역 반응이 증가할 수 있다 ✗ [오답]: ③ 동종 면역 반응이 증가할 수 있다.\n• ④ 혈소판 부전 수혈증을 줄일 수 있는 효과가 있 ✗ [오답]: ④ 혈소판 부전 수혈증을 줄일 수 있는 효과가 있.\n• ⑤ 다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n직접 쿰스 검사(생체 내 적혈구 감작 확인용, 수혈 전 기본 선별 아님).",
-      "trap": "교차시험(Crossmatching)은 적혈구제제 불출 직전에 공혈자 적혈구와 환자 혈청을 반응시키는 것이며, 환자 자체 선별검사항목 1위는 불규칙항체 선별검사임.",
-      "trigger": "수혈 전 환자 검체로 반드시 시행해야 하는 법정 3대 수혈 전 검사 = 1) ABO 혈액형 검사, 2) Rh(D) 혈액형 검사, 3) 비예기항체(불규칙항체) 선별검사(Antibody screen)!",
-      "kmle_link": "KMLE 수혈의학 - 수혈 전 검사의 표준 절차",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "frbrile reaction 을 줄이기 위해서는 pre-storage",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "① frbrile reaction 을 줄이기 위해서는 pre-storage."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "를 이용하는 것 보다 bed side filter 가 더 효과 가 좋다 wbc 를 전부 없앨 수 있다",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "수혈 전 환자 검체로 반드시 시행해야 하는 법정 3대 수혈 전 검사 = 1) ABO 혈액형 검사, 2) Rh(D) 혈액형 검사, 3) 비예기항체(불규칙항체) 선별검사(Antibody screen)!. 수혈 부작용(용혈성 수혈반응) 예방을 위한 필수 표준 패키지 규정."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "동종 면역 반응이 증가할 수 있다",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "③ 동종 면역 반응이 증가할 수 있다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "혈소판 부전 수혈증을 줄일 수 있는 효과가 있",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "④ 혈소판 부전 수혈증을 줄일 수 있는 효과가 있."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "다",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        }
-      ],
-      "differential_general": "직접 쿰스 검사(생체 내 적혈구 감작 확인용, 수혈 전 기본 선별 아님)."
-    },
-    "freq_count": 6,
-    "rate": 100,
-    "freq_years": [
-      "26Y",
-      "23Y",
-      "22Y",
-      "21Y",
-      "20Y",
-      "19Y"
-    ],
-    "raw_questions": [
-      "26Y-12",
-      "23Y-10",
-      "22Y-46",
-      "21Y-11",
-      "20Y-26",
-      "19Y-12"
-    ],
-    "option_explanations": [
-      {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "frbrile reaction 을 줄이기 위해서는 pre-storage",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "① frbrile reaction 을 줄이기 위해서는 pre-storage."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "를 이용하는 것 보다 bed side filter 가 더 효과 가 좋다 wbc 를 전부 없앨 수 있다",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "수혈 전 환자 검체로 반드시 시행해야 하는 법정 3대 수혈 전 검사 = 1) ABO 혈액형 검사, 2) Rh(D) 혈액형 검사, 3) 비예기항체(불규칙항체) 선별검사(Antibody screen)!. 수혈 부작용(용혈성 수혈반응) 예방을 위한 필수 표준 패키지 규정."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "동종 면역 반응이 증가할 수 있다",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "③ 동종 면역 반응이 증가할 수 있다."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "혈소판 부전 수혈증을 줄일 수 있는 효과가 있",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "④ 혈소판 부전 수혈증을 줄일 수 있는 효과가 있."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "다",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
-      }
-    ],
-    "correct_option_indices": [
-      1
-    ]
-  },
-  {
-    "id": "진단검사의학과_21Y_Q12",
-    "index": 159,
-    "subject": "진단검사의학과",
-    "year": "21Y",
-    "q_num": 12,
-    "category": "탈",
-    "theme_title": "면역학적 검사 모식도: 괄호에 들어갈 용어 (항원, Antigen)",
-    "subspecialty": "진단면역학",
-    "stem": "급성출혈로 응급실에 온 환자. 수혈검사에서 AB, Rh(-)로 나왔다. 혈액은행에 해당 혈액이 없는 상 황. 적절한 대응은? 일단 AB, Rh(+) 혈액을 수혈한다",
-    "images": [],
-    "options": [
-      "① O형 Rh(-) 적혈구 제제 투여",
-      "② 보호자에게 치료 불가를 설명하고 대기",
-      "③ 혈액은행에 도착할 때까지 무한 대기",
-      "④ 일반 AB형 Rh(+) 전혈 즉시 투여",
-      "⑤ 생리식염수만 투여하고 수혈 중단"
-    ],
-    "correct_option_index": 0,
-    "correct_answer": "① O형 Rh(-) 적혈구 제제 또는 동형 혈장 투여 고려",
-    "explanation": {
-      "title": "희귀 혈액형(AB Rh-) 응급 출혈 시 대체 수혈 프로토콜",
-      "findings": "AB형 Rh(-) 환자가 생명을 위협받는 대량 급성 출혈로 응급실에 내원하였으나 동형 혈액이 없는 경우, 즉시 투여 가능한 만능 적혈구 제제인 O형 Rh(-) 농축적혈구를 우선 수혈하여 산소 운반능을 유지해야 합니다.",
-      "differential": "• ① O형 Rh(-) 적혈구 제제 투여 ✓ [정답]: 적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : AB Rh(-) 응급 결핍 시 적혈구 대체 -> O형 Rh(-). AB형 Rh(-) 환자가 생명을 위협받는 대량 급성 출혈로 응급실에 내원하였으나 동형 혈액이 없는 경우, 즉시 투여 가능한 만능 적혈구 제제인 O형 Rh(-) 농축적혈구를 우선 수혈하여 산소 운반능을 유지해야 합니다.\n• ② 보호자에게 치료 불가를 설명하고 대기 ✗ [오답]: ② 보호자에게 치료 불가를 설명하고 대기.\n• ③ 혈액은행에 도착할 때까지 무한 대기 ✗ [오답]: ③ 혈액은행에 도착할 때까지 무한 대기.\n• ④ 일반 AB형 Rh(+) 전혈 즉시 투여 ✗ [오답]: 전혈 즉시 투여 : 전혈 즉시 투여 : 전혈 즉시 투여 : 전혈 즉시 투여.\n• ⑤ 생리식염수만 투여하고 수혈 중단 ✗ [오답]: ⑤ 생리식염수만 투여하고 수혈 중단.\n\n【핵심 감별 및 임상 가이드라인】\n• 적혈구 만능 공여자: O형 Rh(-)\n• 혈장/혈소판 만능 공여자: AB형 (항A, 항B 항체 없음)\n• 생명 위협 시 긴급 수혈: 교차시험 생략 O Rh(-) 적혈구 불출",
-      "trap": "Rh(-) 여성 환자에게 Rh(+) 적혈구를 투여하면 Anti-D 항체가 형성되어 향후 임신 시 신생아용혈성질환을 유발할 수 있으므로 극도로 주의해야 합니다.",
-      "trigger": "AB Rh(-) 응급 결핍 시 적혈구 대체 -> O형 Rh(-)",
-      "kmle_link": "진단검사의학과 및 임상병리학 종합",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "O형 Rh(-) 적혈구 제제 투여",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : AB Rh(-) 응급 결핍 시 적혈구 대체 -> O형 Rh(-). AB형 Rh(-) 환자가 생명을 위협받는 대량 급성 출혈로 응급실에 내원하였으나 동형 혈액이 없는 경우, 즉시 투여 가능한 만능 적혈구 제제인 O형 Rh(-) 농축적혈구를 우선 수혈하여 산소 운반능을 유지해야 합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "보호자에게 치료 불가를 설명하고 대기",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "② 보호자에게 치료 불가를 설명하고 대기."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "혈액은행에 도착할 때까지 무한 대기",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "③ 혈액은행에 도착할 때까지 무한 대기."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "일반 AB형 Rh(+) 전혈 즉시 투여",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "전혈 즉시 투여 : 전혈 즉시 투여 : 전혈 즉시 투여 : 전혈 즉시 투여."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "생리식염수만 투여하고 수혈 중단",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "⑤ 생리식염수만 투여하고 수혈 중단."
-        }
-      ],
-      "differential_general": "• 적혈구 만능 공여자: O형 Rh(-)\n• 혈장/혈소판 만능 공여자: AB형 (항A, 항B 항체 없음)\n• 생명 위협 시 긴급 수혈: 교차시험 생략 O Rh(-) 적혈구 불출"
-    },
-    "freq_count": 4,
-    "rate": 66,
-    "freq_years": [
-      "26Y",
-      "22Y",
-      "21Y",
-      "20Y"
-    ],
-    "raw_questions": [
-      "26Y-42",
-      "22Y-45",
-      "21Y-10",
-      "21Y-12",
-      "20Y-24",
-      "20Y-27"
-    ],
-    "option_explanations": [
-      {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "O형 Rh(-) 적혈구 제제 투여",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : AB Rh(-) 응급 결핍 시 적혈구 대체 -> O형 Rh(-). AB형 Rh(-) 환자가 생명을 위협받는 대량 급성 출혈로 응급실에 내원하였으나 동형 혈액이 없는 경우, 즉시 투여 가능한 만능 적혈구 제제인 O형 Rh(-) 농축적혈구를 우선 수혈하여 산소 운반능을 유지해야 합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "보호자에게 치료 불가를 설명하고 대기",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "② 보호자에게 치료 불가를 설명하고 대기."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "혈액은행에 도착할 때까지 무한 대기",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "③ 혈액은행에 도착할 때까지 무한 대기."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "일반 AB형 Rh(+) 전혈 즉시 투여",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "전혈 즉시 투여 : 전혈 즉시 투여 : 전혈 즉시 투여 : 전혈 즉시 투여."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "생리식염수만 투여하고 수혈 중단",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "⑤ 생리식염수만 투여하고 수혈 중단."
-      }
-    ],
-    "correct_option_indices": [
-      0
-    ]
-  },
-  {
-    "id": "진단검사의학과_21Y_Q13",
-    "index": 160,
-    "subject": "진단검사의학과",
-    "year": "21Y",
-    "q_num": 13,
-    "category": "짤",
-    "theme_title": "임상 검사 판독 및 의의",
-    "subspecialty": "진단검사의학",
-    "stem": "검사 결과 혈액형은 무엇인가? A",
-    "images": [
-      "images/21Y_Q13_fig1.png"
-    ],
-    "options": [
-      "① B",
-      "② AB",
-      "③ O",
-      "④ 알 수 없다"
-    ],
-    "correct_option_index": 2,
-    "correct_answer": "[21Y Q13 & 19Y Q05] ③ 실온(20~24℃)에서 부드럽게 교반(Agitation)하며 보관 (O)",
-    "explanation": {
-      "title": "임상 검사 판독 및 의의",
-      "findings": "상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.",
-      "differential": "• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]: ④ 알 수 없다 ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 알 수 없다에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ② AB ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, AB에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ O ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ④ 알 수 없다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 알 수 없다에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ② AB ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, AB에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ O ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ④ 알 수 없다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 알 수 없다에 합당한 특징적 소견이 결여되어 오답입니다.",
-      "trap": "실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.",
-      "trigger": "임상 검사 판독 및 의의 핵심 지표 기준 즉시 정답 도출",
-      "kmle_link": "진단검사의학과",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "B",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "AB",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "O",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": ""
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "알 수 없다",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        }
-      ],
-      "differential_general": "• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]: ④ 알 수 없다 ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 알 수 없다에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ② AB ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, AB에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ O ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ④ 알 수 없다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 알 수 없다에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ② AB ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, AB에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ O ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ④ 알 수 없다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 알 수 없다에 합당한 특징적 소견이 결여되어 오답입니다."
-    },
-    "freq_count": 1,
-    "rate": 16,
-    "freq_years": [
-      "21Y"
-    ],
-    "raw_questions": [
-      "21Y-13"
-    ],
-    "option_explanations": [
-      {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "B",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "AB",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "O",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": ""
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "알 수 없다",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
-      }
-    ],
-    "correct_option_indices": [
-      2
-    ]
-  },
-  {
-    "id": "진단검사의학과_21Y_Q14",
-    "index": 161,
-    "subject": "진단검사의학과",
-    "year": "21Y",
-    "q_num": 14,
-    "category": "짤",
-    "theme_title": "미생물 취급 실험실 개인보호구 및 손위생 원칙",
-    "subspecialty": "임상미생물학/감염관리",
-    "stem": "(Y) 다음 중 혈장제제 수혈이 필요한 경우가 아 닌 것은? 혈액량 증가",
-    "images": [],
-    "options": [
-      "① 단순 순환 혈액량 증가 (Volume expansion)",
-      "② 다발성 응고인자 결핍증",
-      "③ 간질환에 의한 중증 출혈 경향",
-      "④ 대량 수혈 시 희석성 응고장애 교정",
-      "⑤ 혈전성 혈소판감소성 자반증(TTP) 혈장교환술"
-    ],
-    "correct_option_index": 2,
-    "correct_answer": "③ 장갑을 벗고 난 후 손을 씻지 않아도 된다. (X - 장갑 탈의 직후 반드시 손위생)",
-    "explanation": {
-      "title": "미생물 취급 실험실 개인보호구 및 손위생 원칙",
-      "findings": "너무나 당연한 감염관리 상식을 묻는 100% 득점용 서비스 족보.",
-      "differential": "• ① 단순 순환 혈액량 증가 (Volume expansion) ✗ [오답]\n• ② 다발성 응고인자 결핍증 ✗ [오답]: ② 다발성 응고인자 결핍증.\n• ③ 간질환에 의한 중증 출혈 경향 ✓ [정답]: 의료 및 검사실 감염관리 제1철칙 = 장갑(Gloves)을 착용했더라도 미세 구멍이나 벗는 과정에서 손이 오염되므로, 장갑을 벗은 직후에는 예외 없이 반드시 손을 씻어야 함!. 너무나 당연한 감염관리 상식을 묻는 100% 득점용 서비스 족보.\n• ④ 대량 수혈 시 희석성 응고장애 교정 ✗ [오답]: ④ 대량 수혈 시 희석성 응고장애 교정.\n• ⑤ 혈전성 혈소판감소성 자반증(TTP) 혈장교환술 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n가운 착용, 마스크/고글(비말 발생 조작 시), 실험실 문 닫힘 유지.",
-      "trap": "장갑 착용이 결코 손위생(Hand hygiene)을 대체할 수 없음.",
-      "trigger": "의료 및 검사실 감염관리 제1철칙 = 장갑(Gloves)을 착용했더라도 미세 구멍이나 벗는 과정에서 손이 오염되므로, 장갑을 벗은 직후에는 예외 없이 반드시 손을 씻어야 함!",
-      "kmle_link": "KMLE 감염학/예방의학 - 병원 표준주의 지침 및 손위생 원칙",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "단순 순환 혈액량 증가 (Volume expansion)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "다발성 응고인자 결핍증",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "② 다발성 응고인자 결핍증."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "간질환에 의한 중증 출혈 경향",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "의료 및 검사실 감염관리 제1철칙 = 장갑(Gloves)을 착용했더라도 미세 구멍이나 벗는 과정에서 손이 오염되므로, 장갑을 벗은 직후에는 예외 없이 반드시 손을 씻어야 함!. 너무나 당연한 감염관리 상식을 묻는 100% 득점용 서비스 족보."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "대량 수혈 시 희석성 응고장애 교정",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "④ 대량 수혈 시 희석성 응고장애 교정."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "혈전성 혈소판감소성 자반증(TTP) 혈장교환술",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        }
-      ],
-      "differential_general": "가운 착용, 마스크/고글(비말 발생 조작 시), 실험실 문 닫힘 유지."
-    },
-    "freq_count": 5,
-    "rate": 83,
-    "freq_years": [
-      "26Y",
-      "22Y",
-      "21Y",
-      "20Y",
-      "19Y"
-    ],
-    "raw_questions": [
-      "26Y-33",
-      "22Y-32",
-      "21Y-14",
-      "20Y-41",
-      "19Y-20"
-    ],
-    "option_explanations": [
-      {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "단순 순환 혈액량 증가 (Volume expansion)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "다발성 응고인자 결핍증",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "② 다발성 응고인자 결핍증."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "간질환에 의한 중증 출혈 경향",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "의료 및 검사실 감염관리 제1철칙 = 장갑(Gloves)을 착용했더라도 미세 구멍이나 벗는 과정에서 손이 오염되므로, 장갑을 벗은 직후에는 예외 없이 반드시 손을 씻어야 함!. 너무나 당연한 감염관리 상식을 묻는 100% 득점용 서비스 족보."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "대량 수혈 시 희석성 응고장애 교정",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "④ 대량 수혈 시 희석성 응고장애 교정."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "혈전성 혈소판감소성 자반증(TTP) 혈장교환술",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
-      }
-    ],
-    "correct_option_indices": [
-      2
-    ]
-  },
-  {
     "id": "진단검사의학과_20Y_Q01",
     "index": 162,
     "subject": "진단검사의학과",
@@ -26423,6 +24703,3022 @@
     ],
     "correct_option_indices": [
       2
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_면역_Q01",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "면역",
+    "section_name": "진단면역학",
+    "section_q_num": 1,
+    "q_num": 1,
+    "q_label": "면역 01번",
+    "category": "반짤",
+    "theme_title": "간접면역형광법(IIF)으로 검사할 수 없는 자가항체 (연도별 선지/정답 변형)",
+    "subspecialty": "진단면역학",
+    "stem": "(Y) 형광 형미경으로 볼 수 없는 것은? Anti-cardiolipin",
+    "images": [],
+    "options": [
+      "① Anti LKM",
+      "② Anti mitochondria",
+      "③ ANA",
+      "④ Anti dsDna"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "[26Y Q01] ③ anti-cardiolipin & ④ RF (2개 복수 정답) | [23Y Q47 / 22Y Q25] ① APA (또는 Anti-CCP) | [20Y Q34] Anti-cardiolipin",
+    "explanation": {
+      "title": "간접면역형광법(IIF)으로 검사할 수 없는 자가항체 (연도별 선지/정답 변형)",
+      "findings": "IIF의 원리는 환자 혈청 항체를 조직/세포 기질과 반응 후 형광표지 2차 항체로 관찰하는 것임.",
+      "differential": "• ① Anti LKM ✗ [오답]: ★ 연도별 변형 주의! 26Y는 2개 선택(Anti-cardiolipin & RF), 23Y는 1개 선택(APA)! 조직 슬라이드에 부착할 세포 형태 기질이 없는 가용성 인자/인지질 항체를 선택. IIF의 원리는 환자 혈청 항체를 조직/세포 기질과 반응 후 형광표지 2차 항체로 관찰하는 것임.\n• ② Anti mitochondria ✗ [오답]: ② Anti mitochondria.\n• ③ ANA ✓ [정답]: 전신홍반루푸스(SLE), 전신경화증 등 전신 자가면역질환의 가장 민감한 선별 검사(IIF 이용)입니다.\n• ④ Anti dsDna ✗ [오답]: ④ Anti dsDna.\n\n【핵심 감별 및 임상 가이드라인】\n• IIF 검출 가능 항체: ANA, Anti-dsDNA, AMA, Anti-LKM, ANCA (조직/세포 절편 기질 필요)\n• IIF 검출 불가 항체: 인지질 항체(Anti-cardiolipin, APA -> ELISA), 가용성 항체(RF -> 비탁법/응집법)",
+      "trap": "ANA, Anti-mitochondria(AMA), Anti-LKM은 Hep-2 세포나 조직 절편을 기질로 사용하여 IIF로 형광 패턴을 전형적으로 검출함.",
+      "trigger": "★ 연도별 변형 주의! 26Y는 2개 선택(Anti-cardiolipin & RF), 23Y는 1개 선택(APA)! 조직 슬라이드에 부착할 세포 형태 기질이 없는 가용성 인자/인지질 항체를 선택.",
+      "kmle_link": "KMLE 류마티스학 - 자가면역질환 검사법 (ANA 및 자가항체 측정 원리)",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "Anti LKM",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "★ 연도별 변형 주의! 26Y는 2개 선택(Anti-cardiolipin & RF), 23Y는 1개 선택(APA)! 조직 슬라이드에 부착할 세포 형태 기질이 없는 가용성 인자/인지질 항체를 선택. IIF의 원리는 환자 혈청 항체를 조직/세포 기질과 반응 후 형광표지 2차 항체로 관찰하는 것임."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "Anti mitochondria",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "② Anti mitochondria."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "ANA",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "전신홍반루푸스(SLE), 전신경화증 등 전신 자가면역질환의 가장 민감한 선별 검사(IIF 이용)입니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "Anti dsDna",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "④ Anti dsDna."
+        }
+      ],
+      "differential_general": "• IIF 검출 가능 항체: ANA, Anti-dsDNA, AMA, Anti-LKM, ANCA (조직/세포 절편 기질 필요)\n• IIF 검출 불가 항체: 인지질 항체(Anti-cardiolipin, APA -> ELISA), 가용성 항체(RF -> 비탁법/응집법)"
+    },
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "Anti LKM",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "★ 연도별 변형 주의! 26Y는 2개 선택(Anti-cardiolipin & RF), 23Y는 1개 선택(APA)! 조직 슬라이드에 부착할 세포 형태 기질이 없는 가용성 인자/인지질 항체를 선택. IIF의 원리는 환자 혈청 항체를 조직/세포 기질과 반응 후 형광표지 2차 항체로 관찰하는 것임."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "Anti mitochondria",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "② Anti mitochondria."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "ANA",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "전신홍반루푸스(SLE), 전신경화증 등 전신 자가면역질환의 가장 민감한 선별 검사(IIF 이용)입니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "Anti dsDna",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "④ Anti dsDna."
+      }
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      2
+    ],
+    "raw_questions": [
+      "21Y-면역01"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_면역_Q02",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "면역",
+    "section_name": "진단면역학",
+    "section_q_num": 2,
+    "q_num": 2,
+    "q_label": "면역 02번",
+    "category": "반짤",
+    "theme_title": "진단검사의학과 과년도 빈출: (Y) PPD 피부반응검사와 IGRA 에 대한 설명으로...",
+    "subspecialty": "진단면역학",
+    "stem": "(Y) PPD 피부반응검사와 IGRA 에 대한 설명으로 옳은 것은? PPD 는 과거 결핵균에 감작된 T 림프구에 결핵",
+    "images": [],
+    "options": [
+      "① 균 항원을 자극하여 분비되는 인터페론 감마 를 측정한다. IGRA 는 지연성 과민반응을 이용하여 체네에",
+      "② 서 APC 에 의하여 T 세포에 항원이 전달 인지 증식되어 과민 반응을 일으키는 과정의 면역 반응을 전반적으로 평가하는 방법이다. IGRA 검사는 결과 판독을 위해 48-72h 후에",
+      "③ 한번 더 방문해야 하지만 PPD 는 한번의 방문 으로 진단가능하다. IGRA 검사는 BCG 백신이나 비결핵 항산균 감",
+      "④ 염에 의해서도 위양성 반응을 보일 수 있지만 PPD 는 결핵균 항원만 이용하므로 IGRA 검사 보다 위양성률이 낮다. PPD 피부반응 검사와 IGRA 모두 잠복결핵과",
+      "⑤ 활동성결핵을 감별할 수 없다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "PPD 검사는 BCG 접종력의 영향을 받지 않는다 (X - PPD는 위양성을 보이며, IGRA가 BCG 영향을 안 받음)",
+    "explanation": {
+      "title": "[과년도 빈출] PPD 피부반응검사와 IGRA 원리 및 BCG 위양성 감별 (발문 변형)",
+      "findings": "• [22Y Q27 & 21Y Q02 & 20Y Q11 & 19Y Q06] 4개년 연속 출제!\n  - 지문: PPD 피부반응검사(TST)와 IGRA에 대한 설명으로 옳은 것은?\n  - 정답: IGRA는 BCG 백신 균주에 없는 결핵균 특이 항원(ESAT-6, CFP-10)을 사용하므로 BCG 접종자에서 위양성이 없음.",
+      "differential": "• ① 균 항원을 자극하여 분비되는 인터페론 감마 를 측정한다. IGRA 는 지연성 과민반응을 이용하여 체네에 ✓ [정답]: IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : ★ 발문 변형 주의(반짤)! 22Y는 옳지 않은 것, 21Y/20Y는 옳은 것을 묻는 변형 출제! 핵심: IGRA는 BCG 접종에 위양성 없음(ESAT-6, CFP-10 특이항원) & 두 검사 모두 잠복/활동성 감별 불가!. Y Q27 & 21Y Q02 & 20Y Q11 & 19Y Q06] 4개년 연속 출제!.\n• ② 서 APC 에 의하여 T 세포에 항원이 전달 인지 증식되어 과민 반응을 일으키는 과정의 면역 반응을 전반적으로 평가하는 방법이다. IGRA 검사는 결과 판독을 위해 48-72h 후에 ✗ [오답]: IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에.\n• ③ 한번 더 방문해야 하지만 PPD 는 한번의 방문 으로 진단가능하다. IGRA 검사는 BCG 백신이나 비결핵 항산균 감 ✗ [오답]: 일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다.\n• ④ 염에 의해서도 위양성 반응을 보일 수 있지만 PPD 는 결핵균 항원만 이용하므로 IGRA 검사 보다 위양성률이 낮다. PPD 피부반응 검사와 IGRA 모두 잠복결핵과 ✗ [오답]: 일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다.\n• ⑤ 활동성결핵을 감별할 수 없다. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n1. TST(PPD) vs IGRA 감별 비교:\n• TST: PPD 투여 후 48~72시간 뒤 경결 직경 판독. BCG 접종 및 NTM 감염 시 위양성 빈발. 부스팅 현상 있음.\n• IGRA: 전혈 채혈 1회 방문. BCG 접종 여부와 무관(특이도 98% 이상). 면역저하자에서 Indeterminate 판정 가능.",
+      "trap": "PPD는 과거 BCG 접종력에 의해 위양성이 흔하므로 우리나라처럼 BCG 접종국가에서는 IGRA가 훨씬 우월함.",
+      "trigger": "★ 발문 변형 주의(반짤)! 22Y는 옳지 않은 것, 21Y/20Y는 옳은 것을 묻는 변형 출제! 핵심: IGRA는 BCG 접종에 위양성 없음(ESAT-6, CFP-10 특이항원) & 두 검사 모두 잠복/활동성 감별 불가!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "균 항원을 자극하여 분비되는 인터페론 감마 를 측정한다. IGRA 는 지연성 과민반응을 이용하여 체네에",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : ★ 발문 변형 주의(반짤)! 22Y는 옳지 않은 것, 21Y/20Y는 옳은 것을 묻는 변형 출제! 핵심: IGRA는 BCG 접종에 위양성 없음(ESAT-6, CFP-10 특이항원) & 두 검사 모두 잠복/활동성 감별 불가!. Y Q27 & 21Y Q02 & 20Y Q11 & 19Y Q06] 4개년 연속 출제!."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "서 APC 에 의하여 T 세포에 항원이 전달 인지 증식되어 과민 반응을 일으키는 과정의 면역 반응을 전반적으로 평가하는 방법이다. IGRA 검사는 결과 판독을 위해 48-72h 후에",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "한번 더 방문해야 하지만 PPD 는 한번의 방문 으로 진단가능하다. IGRA 검사는 BCG 백신이나 비결핵 항산균 감",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "염에 의해서도 위양성 반응을 보일 수 있지만 PPD 는 결핵균 항원만 이용하므로 IGRA 검사 보다 위양성률이 낮다. PPD 피부반응 검사와 IGRA 모두 잠복결핵과",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "활동성결핵을 감별할 수 없다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": ""
+        }
+      ],
+      "differential_general": "1. TST(PPD) vs IGRA 감별 비교:\n• TST: PPD 투여 후 48~72시간 뒤 경결 직경 판독. BCG 접종 및 NTM 감염 시 위양성 빈발. 부스팅 현상 있음.\n• IGRA: 전혈 채혈 1회 방문. BCG 접종 여부와 무관(특이도 98% 이상). 면역저하자에서 Indeterminate 판정 가능."
+    },
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "균 항원을 자극하여 분비되는 인터페론 감마 를 측정한다. IGRA 는 지연성 과민반응을 이용하여 체네에",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : IGRA 는 지연성 과민반응을 이용하여 체네에 : ★ 발문 변형 주의(반짤)! 22Y는 옳지 않은 것, 21Y/20Y는 옳은 것을 묻는 변형 출제! 핵심: IGRA는 BCG 접종에 위양성 없음(ESAT-6, CFP-10 특이항원) & 두 검사 모두 잠복/활동성 감별 불가!. Y Q27 & 21Y Q02 & 20Y Q11 & 19Y Q06] 4개년 연속 출제!."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "서 APC 에 의하여 T 세포에 항원이 전달 인지 증식되어 과민 반응을 일으키는 과정의 면역 반응을 전반적으로 평가하는 방법이다. IGRA 검사는 결과 판독을 위해 48-72h 후에",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에 : IGRA 검사는 결과 판독을 위해 48-72h 후에."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "한번 더 방문해야 하지만 PPD 는 한번의 방문 으로 진단가능하다. IGRA 검사는 BCG 백신이나 비결핵 항산균 감",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "염에 의해서도 위양성 반응을 보일 수 있지만 PPD 는 결핵균 항원만 이용하므로 IGRA 검사 보다 위양성률이 낮다. PPD 피부반응 검사와 IGRA 모두 잠복결핵과",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "일반 세균성 폐렴이나 비결핵항산균(NTM)과는 항생제 감수성 및 4제 표준 항결핵 요법(HERZ) 적용 대상이 상이합니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "활동성결핵을 감별할 수 없다.",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": ""
+      }
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-면역02"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_면역_Q03",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "면역",
+    "section_name": "진단면역학",
+    "section_q_num": 3,
+    "q_num": 3,
+    "q_label": "면역 03번",
+    "category": "짤",
+    "theme_title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
+    "subspecialty": "진단면역학",
+    "stem": "(Y 변형) ANA 에서 Speckled pattern 이 나왔다. 다음으로 해야할 검사는? Anti-ena",
+    "images": [],
+    "options": [
+      "① APF",
+      "② APA",
+      "③ Anca",
+      "④ Anti dsDna"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① anti-dsDNA (및 anti-Histone)",
+    "explanation": {
+      "title": "항핵항체(ANA) 균질형(Homogenous pattern) 시 후속 정밀 검사",
+      "findings": "Hep-2 세포 핵질 전체에 걸쳐 균일한 녹색 형광 신호 관찰.",
+      "differential": "• ① APF ✓ [정답]: IIF 상 핵 전체가 균일하게 염색되는 Homogenous / Diffuse pattern = Chromatin, dsDNA, Histone 항체 시사! SLE 확진 및 활성도 평가를 위한 1순위 추가 검사는 Anti-dsDNA!. Hep-2 세포 핵질 전체에 걸쳐 균일한 녹색 형광 신호 관찰.\n• ② APA ✗ [오답]: 가용성 인지질 항체는 ELISA 또는 응고 검사로 측정하며, 조직/세포 형태 기질을 쓰는 IIF 검사 대상이 아닙니다.\n• ③ Anca ✗ [오답]: 대형 혈관염(Takayasu, 거대세포동맥염)에서는 ANCA가 음성이며 혈관 조영 검사가 필수적입니다.\n• ④ Anti dsDna ✗ [오답]: ④ Anti dsDna.\n\n【핵심 감별 및 임상 가이드라인】\nSpeckled(점상, ENA 패널 필요), Nucleolar(핵소체, 전신경화증).",
+      "trap": "Rim/Peripheral pattern은 Anti-dsDNA, Speckled pattern은 Anti-Sm/RNP/Ro/La, Nucleolar는 Anti-Scl-70(전신경화증). Homogenous는 Anti-dsDNA 및 Histone.",
+      "trigger": "IIF 상 핵 전체가 균일하게 염색되는 Homogenous / Diffuse pattern = Chromatin, dsDNA, Histone 항체 시사! SLE 확진 및 활성도 평가를 위한 1순위 추가 검사는 Anti-dsDNA!",
+      "kmle_link": "KMLE 류마티스학 - 전신홍반루푸스(SLE)의 혈청학적 진단 기준",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "APF",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "IIF 상 핵 전체가 균일하게 염색되는 Homogenous / Diffuse pattern = Chromatin, dsDNA, Histone 항체 시사! SLE 확진 및 활성도 평가를 위한 1순위 추가 검사는 Anti-dsDNA!. Hep-2 세포 핵질 전체에 걸쳐 균일한 녹색 형광 신호 관찰."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "APA",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "가용성 인지질 항체는 ELISA 또는 응고 검사로 측정하며, 조직/세포 형태 기질을 쓰는 IIF 검사 대상이 아닙니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "Anca",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "대형 혈관염(Takayasu, 거대세포동맥염)에서는 ANCA가 음성이며 혈관 조영 검사가 필수적입니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "Anti dsDna",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "④ Anti dsDna."
+        }
+      ],
+      "differential_general": "Speckled(점상, ENA 패널 필요), Nucleolar(핵소체, 전신경화증)."
+    },
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "APF",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "IIF 상 핵 전체가 균일하게 염색되는 Homogenous / Diffuse pattern = Chromatin, dsDNA, Histone 항체 시사! SLE 확진 및 활성도 평가를 위한 1순위 추가 검사는 Anti-dsDNA!. Hep-2 세포 핵질 전체에 걸쳐 균일한 녹색 형광 신호 관찰."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "APA",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "가용성 인지질 항체는 ELISA 또는 응고 검사로 측정하며, 조직/세포 형태 기질을 쓰는 IIF 검사 대상이 아닙니다."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "Anca",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "대형 혈관염(Takayasu, 거대세포동맥염)에서는 ANCA가 음성이며 혈관 조영 검사가 필수적입니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "Anti dsDna",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "④ Anti dsDna."
+      }
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-면역03"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_면역_Q04",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "면역",
+    "section_name": "진단면역학",
+    "section_q_num": 4,
+    "q_num": 4,
+    "q_label": "면역 04번",
+    "category": "짤",
+    "theme_title": "류마티스 인자(Rheumatoid Factor, RF)의 주된 면역글로불린 동형",
+    "subspecialty": "진단면역학",
+    "stem": "(Y) RF 의 주된 isotype 은? IgM-RF",
+    "images": [],
+    "options": [
+      "① IgG-RF",
+      "② IgA-RF",
+      "③ IgD-RF"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① IgM-RF (IgG의 Fc 부위에 결합하는 IgM 항체)",
+    "explanation": {
+      "title": "류마티스 인자(Rheumatoid Factor, RF)의 주된 면역글로불린 동형",
+      "findings": "면역학적 정의: RF는 \"자가 IgG의 Fc 부위에 대한 자가항체\"이며 주 동형은 IgM.",
+      "differential": "• ① IgG-RF ✓ [정답]: RF임. 임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체. KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP.\n• ② IgA-RF ✗ [오답]: RF임. 임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체. KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP.\n• ③ IgD-RF ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\nAnti-CCP(Citrullinated peptide 항체, RA 특이도 95% 이상).",
+      "trap": "IgG-RF나 IgA-RF도 존재하나 임상 검사실에서 라텍스 응집법/비탁법으로 통상 검출하는 90% 이상의 주된 형태는 IgM-RF임.",
+      "trigger": "임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체.",
+      "kmle_link": "KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "IgG-RF",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "RF임. 임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체. KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "IgA-RF",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "RF임. 임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체. KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "IgD-RF",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": ""
+        }
+      ],
+      "differential_general": "Anti-CCP(Citrullinated peptide 항체, RA 특이도 95% 이상)."
+    },
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "IgG-RF",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "RF임. 임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체. KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "IgA-RF",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "RF임. 임상 검사실에서 측정하는 류마티스 인자(RF)의 가장 주된 Isotype = IgM-RF! 변형된 자가 IgG의 Fc 단편(Fc portion)을 항원으로 인식하여 결합하는 5량체 IgM 항체. KMLE 류마티스학 - 류마티스 관절염의 진단 기준 및 RF/Anti-CCP."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "IgD-RF",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": ""
+      }
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-면역04"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_면역_Q05",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "면역",
+    "section_name": "진단면역학",
+    "section_q_num": 5,
+    "q_num": 5,
+    "q_label": "면역 05번",
+    "category": "짤",
+    "theme_title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
+    "subspecialty": "진단면역학",
+    "stem": "유세포분석(Flow Cytometry)으로 평가하기에 적절하지 않은 항목은?",
+    "images": [],
+    "options": [
+      "① 면역표현형 분석 (Immunophenotyping)",
+      "② HLA 교차시험 (HLA crossmatching)",
+      "③ 조혈모세포 계수 (CD34+ Stem cell count)",
+      "④ NK세포 활성도 측정",
+      "⑤ CA-125 (혈청 종양표지자 측정)"
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ CA-125 (혈청 종양표지자 측정)",
+    "explanation": {
+      "title": "유세포분석(Flow Cytometry)으로 측정할 수 없는 가용성 혈청 종양표지자",
+      "findings": "세포 부유액을 레이저 광선에 통과시키는 유세포분석과 혈청 화학 면역분석의 차이점 이해.",
+      "differential": "• ① immunophenotype ✓ [정답]: 유세포분석(Flow cytometry)은 개별 단일 세포(Cell) 표면/세포질의 항원을 측정하는 기법이므로, 혈청에 녹아있는 액상 종양표지자 단백질(CA-125, CEA, AFP, PSA)은 측정 불가!. 세포 부유액을 레이저 광선에 통과시키는 유세포분석과 혈청 화학 면역분석의 차이점 이해.\n• ② HLA crossmatching ✗ [오답]: T세포 교차시험 양성 시 즉각적인 이식편 괴사(초급성 거부반응)가 발생하므로 이식이 절대 금기입니다.\n• ③ stem cell count ✗ [오답]: ③ stem cell count.\n• ④ NK cell 활성도 측정 ✗ [오답]: ④ NK cell 활성도 측정.\n• ⑤ [수혈, 실험실 안전] 14 문제 ✗ [오답]: ⑤ [수혈, 실험실 안전] 14 문제.\n• ⑥ (Y) 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 ✗ [오답]: 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대.\n\n【핵심 감별 및 임상 가이드라인】\nCD4/CD8(유세포 가능), CD34(유세포 가능), CA-125(ELISA 측정).",
+      "trap": "CD4/CD8 T세포 분획, 백혈병 면역표현형(CD19, CD33), PNH의 CD55/CD59 결손은 세포막 항원이므로 유세포분석의 대표 적응증임.",
+      "trigger": "유세포분석(Flow cytometry)은 개별 단일 세포(Cell) 표면/세포질의 항원을 측정하는 기법이므로, 혈청에 녹아있는 액상 종양표지자 단백질(CA-125, CEA, AFP, PSA)은 측정 불가!",
+      "kmle_link": "KMLE 혈액학/종양학 - 유세포분석의 임상적 이용",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "immunophenotype",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "유세포분석(Flow cytometry)은 개별 단일 세포(Cell) 표면/세포질의 항원을 측정하는 기법이므로, 혈청에 녹아있는 액상 종양표지자 단백질(CA-125, CEA, AFP, PSA)은 측정 불가!. 세포 부유액을 레이저 광선에 통과시키는 유세포분석과 혈청 화학 면역분석의 차이점 이해."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "HLA crossmatching",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "T세포 교차시험 양성 시 즉각적인 이식편 괴사(초급성 거부반응)가 발생하므로 이식이 절대 금기입니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "stem cell count",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "③ stem cell count."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "NK cell 활성도 측정",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "④ NK cell 활성도 측정."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "[수혈, 실험실 안전] 14 문제",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "⑤ [수혈, 실험실 안전] 14 문제."
+        },
+        {
+          "opt_idx": 5,
+          "opt_num": "⑥",
+          "text": "(Y) 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대."
+        }
+      ],
+      "differential_general": "CD4/CD8(유세포 가능), CD34(유세포 가능), CA-125(ELISA 측정)."
+    },
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "immunophenotype",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "유세포분석(Flow cytometry)은 개별 단일 세포(Cell) 표면/세포질의 항원을 측정하는 기법이므로, 혈청에 녹아있는 액상 종양표지자 단백질(CA-125, CEA, AFP, PSA)은 측정 불가!. 세포 부유액을 레이저 광선에 통과시키는 유세포분석과 혈청 화학 면역분석의 차이점 이해."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "HLA crossmatching",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "T세포 교차시험 양성 시 즉각적인 이식편 괴사(초급성 거부반응)가 발생하므로 이식이 절대 금기입니다."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "stem cell count",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "③ stem cell count."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "NK cell 활성도 측정",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "④ NK cell 활성도 측정."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "[수혈, 실험실 안전] 14 문제",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "⑤ [수혈, 실험실 안전] 14 문제."
+      },
+      {
+        "opt_idx": 5,
+        "opt_num": "⑥",
+        "text": "(Y) 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대 : 백내장 수술 후 시력저하가 나타난 환자의 유리체 검사를 배양하였다. 배양 3 일 후 SDA (subouraud dextrose agar)에서 솜털 모양의 집 락이 관찰되었다. 생물안전등급으로 옳은 것은? (그림 하나 더 있었음) 1 등급 – 개방작업대."
+      }
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      4
+    ],
+    "raw_questions": [
+      "21Y-면역05"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_수혈_Q01",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "수혈",
+    "section_name": "수혈의학 및 검사실안전",
+    "section_q_num": 1,
+    "q_num": 6,
+    "q_label": "수혈 01번",
+    "category": "짤",
+    "theme_title": "임상 안구/유리체 검체 취급 시 요구되는 생물안전 등급 및 작업대",
+    "subspecialty": "수혈의학 및 검사실안전",
+    "stem": "(Y) 수혈 전 검사항목으로 옳은 것은? 불규칙항체 선별검사",
+    "images": [],
+    "options": [
+      "① 불규칙항체 선별검사 (비예기항체 선별검사)",
+      "② 직접 항글로불린 검사 (DAT)",
+      "③ HLA 조직적합성 교차시험",
+      "④ 한랭응집소 역가 검사",
+      "⑤ 적혈구 삼투압 취약성 검사"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 2등급 - 생물안전작업대 (BSL-2 with BSC Class II)",
+    "explanation": {
+      "title": "임상 안구/유리체 검체 취급 시 요구되는 생물안전 등급 및 작업대",
+      "findings": "환자 유래 감염성 검체의 기본 취급 표준 등급 숙지 여부 확인.",
+      "differential": "• ① 불규칙항체 선별검사 (비예기항체 선별검사) ✗ [오답]\n• ② 직접 항글로불린 검사 (DAT) ✗ [오답]\n• ③ HLA 조직적합성 교차시험 ✓ [정답]: 장기 이식 전 수혜자 혈청 내 기증자 특이 항체(DSA)의 존재를 확인하여 초급성 거부반응(Hyperacute rejection)을 예방하는 필수 검사입니다.\n• ④ 한랭응집소 역가 검사 ✗ [오답]: ④ 한랭응집소 역가 검사.\n• ⑤ 적혈구 삼투압 취약성 검사 ✗ [오답]: ⑤ 적혈구 삼투압 취약성 검사.\n\n【핵심 감별 및 임상 가이드라인】\n1등급(작업대 불필요), 3등급(음압 및 공기여과 특수시설).",
+      "trap": "3등급은 결핵이나 고위험 호흡기 바이러스에 적용되며 일반 세균성 안구 감염 검체는 2등급임.",
+      "trigger": "백내장 수술 후 안내염 환자의 유리체액(Vitreous humor) 등 환자 검체 배양은 일반 임상 검체이므로 생물안전 2등급(BSL-2) 시설 및 생물안전작업대(BSC) 내에서 취급해야 함!",
+      "kmle_link": "KMLE 감염학 - 임상 검체 안전 취급 지침",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "불규칙항체 선별검사 (비예기항체 선별검사)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": ""
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "직접 항글로불린 검사 (DAT)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": ""
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "HLA 조직적합성 교차시험",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "장기 이식 전 수혜자 혈청 내 기증자 특이 항체(DSA)의 존재를 확인하여 초급성 거부반응(Hyperacute rejection)을 예방하는 필수 검사입니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "한랭응집소 역가 검사",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "④ 한랭응집소 역가 검사."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "적혈구 삼투압 취약성 검사",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "⑤ 적혈구 삼투압 취약성 검사."
+        }
+      ],
+      "differential_general": "1등급(작업대 불필요), 3등급(음압 및 공기여과 특수시설)."
+    },
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "불규칙항체 선별검사 (비예기항체 선별검사)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": ""
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "직접 항글로불린 검사 (DAT)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": ""
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "HLA 조직적합성 교차시험",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "장기 이식 전 수혜자 혈청 내 기증자 특이 항체(DSA)의 존재를 확인하여 초급성 거부반응(Hyperacute rejection)을 예방하는 필수 검사입니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "한랭응집소 역가 검사",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "④ 한랭응집소 역가 검사."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "적혈구 삼투압 취약성 검사",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "⑤ 적혈구 삼투압 취약성 검사."
+      }
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      2
+    ],
+    "raw_questions": [
+      "21Y-수혈01"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_수혈_Q02",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "수혈",
+    "section_name": "수혈의학 및 검사실안전",
+    "section_q_num": 2,
+    "q_num": 7,
+    "q_label": "수혈 02번",
+    "category": "탈",
+    "theme_title": "임상 검사 판독 및 의의",
+    "subspecialty": "수혈의학 및 검사실안전",
+    "stem": "(Y) 다음 중 일반적으로 O 형에서 존재할 수 없 는 항체는? Anti-A",
+    "images": [],
+    "options": [
+      "① Anti-B",
+      "② Anti-A1",
+      "③ Anti-A, B",
+      "④ Anti-H"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "[22Y Q49 & 22Y Q31 & 21Y Q07] ① Recipient serum + Donor T, B cell",
+    "explanation": {
+      "title": "임상 검사 판독 및 의의",
+      "findings": "상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.",
+      "differential": "• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]: ② Anti-A1 ✗.\n• ③ Anti-A, B ✗ [오답]: ③ Anti-A, B ✗.\n• ④ Anti-H ✗ [오답]: ④ Anti-H ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ② Anti-A1 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A1에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ Anti-A, B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Anti-H ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-H에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ② Anti-A1 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A1에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ Anti-A, B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Anti-H ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-H에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ② Anti-A1 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A1에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ Anti-A, B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Anti-H ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-H에 합당한 특징적 소견이 결여되어 오답입니다.",
+      "trap": "실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.",
+      "trigger": "임상 검사 판독 및 의의 핵심 지표 기준 즉시 정답 도출",
+      "kmle_link": "진단검사의학과",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "Anti-B",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "[임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "Anti-A1",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": ""
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "Anti-A, B",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": ""
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "Anti-H",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": ""
+        }
+      ],
+      "differential_general": "• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]: ② Anti-A1 ✗.\n• ③ Anti-A, B ✗ [오답]: ③ Anti-A, B ✗.\n• ④ Anti-H ✗ [오답]: ④ Anti-H ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.).\n• ② Anti-A1 ✗ [오답]\n• ③ Anti-A, B ✗ [오답]\n• ④ Anti-H ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ② Anti-A1 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A1에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ Anti-A, B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Anti-H ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-H에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ② Anti-A1 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A1에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ Anti-A, B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Anti-H ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-H에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Anti-B ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ② Anti-A1 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A1에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ Anti-A, B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-A, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Anti-H ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Anti-H에 합당한 특징적 소견이 결여되어 오답입니다."
+    },
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "Anti-B",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "[임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "Anti-A1",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": ""
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "Anti-A, B",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": ""
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "Anti-H",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": ""
+      }
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-수혈02"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_수혈_Q03",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "수혈",
+    "section_name": "수혈의학 및 검사실안전",
+    "section_q_num": 3,
+    "q_num": 8,
+    "q_label": "수혈 03번",
+    "category": "짤",
+    "theme_title": "진단검사의학과 과년도 빈출: (Y) 농축 혈소판제제에 대한 설명으로 옳은 것 은? ...",
+    "subspecialty": "수혈의학 및 검사실안전",
+    "stem": "(Y) 농축 혈소판제제에 대한 설명으로 옳은 것 은? 혈소판 감소증으로 인한 출혈 시 보통 2 단위",
+    "images": [],
+    "options": [
+      "① 의 농출혈소판을 투여해야 한다. 혈액응고를 방지하기 위해 leukocyte filte 를",
+      "② 사용한다. 농축 혈소판 1 단위를 투여하면 체중이 70kg",
+      "③ 인 성인의 경우 혈소판 수의 증가가5000- 10000/uL 정도 된다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "[21Y Q08 & 19Y Q05] ③ 농축 혈소판 1단위 투여 시 성인(70kg) 혈소판 수 5,000~10,000/μL 증가 (O)",
+    "explanation": {
+      "title": "[과년도 빈출] 농축 혈소판제제의 투여 및 보관 조건",
+      "findings": "• [21Y Q08 & 19Y Q05] 정답: ③ 농축 혈소판 1단위 투여 시 5,000~10,000/μL 증가\n  - 오답 선지: 2단위 투여(X - 6~8단위), 응고방지 필터(X - 백혈구제거 필터는 면역/발열 예방), 냉동 1년(X - 실온교반 5일), Apheresis보다 부작용 적다(X - Apheresis가 안전).",
+      "differential": "• ① 의 농출혈소판을 투여해야 한다. 혈액응고를 방지하기 위해 leukocyte filte 를 ✗ [오답]: 혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를.\n• ② 사용한다. 농축 혈소판 1 단위를 투여하면 체중이 70kg ✗ [오답]: 농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg.\n• ③ 인 성인의 경우 혈소판 수의 증가가5000- 10000/uL 정도 된다. ✓ [정답]: 농축혈소판 -> 1단위당 5,000~10,000/μL 증가 & 실온(20~24℃) 진탕 보관 5일!. Y Q08 & 19Y Q05] : ③ 농축 혈소판 1단위 투여 시 5,000~10,000/μL 증가.\n\n【핵심 감별 및 임상 가이드라인】\n1. 농축혈소판(PC) 핵심 임상 지침:\n• 투여 용량 및 효과: 1단위 투여 시 혈소판 약 5,000~10,000/μL 증가. 성인 1회 처방은 통상 6~8단위(또는 성분채혈 1단위) 투여.\n• 보관 조건: 20~24℃ 실온에서 지속 교반(Agitation), 유효기간 5일 (냉동 절대 불가).\n• 백혈구제거 필터(Leukocyte filter): 발열성 비용혈성 수혈부작용 및 HLA 동종면역 예방 목적 (혈액응고 방지 목적 아님).\n• 성분채혈혈소판(Apheresis): 단일 공여자이므로 풀링 혈소판제제보다 부작용 및 면역 반응이 훨씬 적음.",
+      "trap": "혈소판을 냉장/냉동 보관하면 기능 상실로 폐기 처분됨. 반드시 실온(20~24℃) 교반 유지!",
+      "trigger": "농축혈소판 -> 1단위당 5,000~10,000/μL 증가 & 실온(20~24℃) 진탕 보관 5일!",
+      "kmle_link": "KMLE 진단검사의학 핵심 가이드",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "의 농출혈소판을 투여해야 한다. 혈액응고를 방지하기 위해 leukocyte filte 를",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "사용한다. 농축 혈소판 1 단위를 투여하면 체중이 70kg",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "인 성인의 경우 혈소판 수의 증가가5000- 10000/uL 정도 된다.",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "농축혈소판 -> 1단위당 5,000~10,000/μL 증가 & 실온(20~24℃) 진탕 보관 5일!. Y Q08 & 19Y Q05] : ③ 농축 혈소판 1단위 투여 시 5,000~10,000/μL 증가."
+        }
+      ],
+      "differential_general": "1. 농축혈소판(PC) 핵심 임상 지침:\n• 투여 용량 및 효과: 1단위 투여 시 혈소판 약 5,000~10,000/μL 증가. 성인 1회 처방은 통상 6~8단위(또는 성분채혈 1단위) 투여.\n• 보관 조건: 20~24℃ 실온에서 지속 교반(Agitation), 유효기간 5일 (냉동 절대 불가).\n• 백혈구제거 필터(Leukocyte filter): 발열성 비용혈성 수혈부작용 및 HLA 동종면역 예방 목적 (혈액응고 방지 목적 아님).\n• 성분채혈혈소판(Apheresis): 단일 공여자이므로 풀링 혈소판제제보다 부작용 및 면역 반응이 훨씬 적음."
+    },
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "의 농출혈소판을 투여해야 한다. 혈액응고를 방지하기 위해 leukocyte filte 를",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를 : 혈액응고를 방지하기 위해 leukocyte filte 를."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "사용한다. 농축 혈소판 1 단위를 투여하면 체중이 70kg",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg : 농축 혈소판 1 단위를 투여하면 체중이 70kg."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "인 성인의 경우 혈소판 수의 증가가5000- 10000/uL 정도 된다.",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "농축혈소판 -> 1단위당 5,000~10,000/μL 증가 & 실온(20~24℃) 진탕 보관 5일!. Y Q08 & 19Y Q05] : ③ 농축 혈소판 1단위 투여 시 5,000~10,000/μL 증가."
+      }
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      2
+    ],
+    "raw_questions": [
+      "21Y-수혈03"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_수혈_Q04",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "수혈",
+    "section_name": "수혈의학 및 검사실안전",
+    "section_q_num": 4,
+    "q_num": 9,
+    "q_label": "수혈 04번",
+    "category": "짤",
+    "theme_title": "수혈 후 비예기항체(Unexpected Antibodies) 형성 위험과 관리",
+    "subspecialty": "수혈의학 및 검사실안전",
+    "stem": "(Y) 2 급 미생물 취급 실험실이 갖추어야 할 사항 으로 옳지 않은 것은? 검사실 문을 열어두면 안된다",
+    "images": [],
+    "options": [
+      "① 긴머리는 오염을 일으킬 가능성이 높으므로",
+      "② 뒤로 잡아매야 한다. 검사실 안에서 상관없는 다른 작업을 할 때",
+      "③ 에도 장갑을 벗지 말아야 한다. 장갑을 벗고나서, 검사실 나갈 때, 오염물질",
+      "④ 을 만진 후 반드시 손을 씻어야 한다. 검사실 안에서는 보호복을 착용하고 발가락",
+      "⑤ 과 발뒤꿈치가 안보이는 신발을 신어야한다."
+    ],
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 수혈 후 비예기항체가 생길 수 있는 것에 주의한다.",
+    "explanation": {
+      "title": "수혈 후 비예기항체(Unexpected Antibodies) 형성 위험과 관리",
+      "findings": "안전 수혈 지침의 핵심 임상 원칙 숙지.",
+      "differential": "• ① 긴머리는 오염을 일으킬 가능성이 높으므로 ✗ [오답]: ① 긴머리는 오염을 일으킬 가능성이 높으므로.\n• ② 뒤로 잡아매야 한다. 검사실 안에서 상관없는 다른 작업을 할 때 ✗ [오답]: 검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때.\n• ③ 에도 장갑을 벗지 말아야 한다. 장갑을 벗고나서, 검사실 나갈 때, 오염물질 ✗ [오답]: 장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질.\n• ④ 을 만진 후 반드시 손을 씻어야 한다. 검사실 안에서는 보호복을 착용하고 발가락 ✗ [오답]: 검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락.\n• ⑤ 과 발뒤꿈치가 안보이는 신발을 신어야한다. ✓ [정답]: 수혈을 반복적으로 받은 환자는 공혈자 적혈구의 미세 항원(Rh E, c, Kell, Duffy, Kidd 등)에 동종면역(Alloimmunization)되어 새로운 비예기항체가 생성될 수 있으므로, 매 수혈 시마다 72시간 이내 새 검체로 항체선별검사를 반복해야 함!. 안전 수혈 지침의 핵심 임상 원칙 숙지.\n\n【핵심 감별 및 임상 가이드라인】\n급성 용혈(ABO 불일치), 지연 용혈(비예기항체 아나므네스 반응).",
+      "trap": "한 번 교차시험이 맞았다고 해서 다음 수혈 때 이전 검사 결과를 재활용하면 지연성 용혈성 수혈반응(DHTR)으로 치명적 위험 초래.",
+      "trigger": "수혈을 반복적으로 받은 환자는 공혈자 적혈구의 미세 항원(Rh E, c, Kell, Duffy, Kidd 등)에 동종면역(Alloimmunization)되어 새로운 비예기항체가 생성될 수 있으므로, 매 수혈 시마다 72시간 이내 새 검체로 항체선별검사를 반복해야 함!",
+      "kmle_link": "KMLE 수혈의학 - 수혈 부작용(동종면역 및 지연성 용혈 반응)",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "긴머리는 오염을 일으킬 가능성이 높으므로",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "① 긴머리는 오염을 일으킬 가능성이 높으므로."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "뒤로 잡아매야 한다. 검사실 안에서 상관없는 다른 작업을 할 때",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "에도 장갑을 벗지 말아야 한다. 장갑을 벗고나서, 검사실 나갈 때, 오염물질",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "을 만진 후 반드시 손을 씻어야 한다. 검사실 안에서는 보호복을 착용하고 발가락",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "과 발뒤꿈치가 안보이는 신발을 신어야한다.",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "수혈을 반복적으로 받은 환자는 공혈자 적혈구의 미세 항원(Rh E, c, Kell, Duffy, Kidd 등)에 동종면역(Alloimmunization)되어 새로운 비예기항체가 생성될 수 있으므로, 매 수혈 시마다 72시간 이내 새 검체로 항체선별검사를 반복해야 함!. 안전 수혈 지침의 핵심 임상 원칙 숙지."
+        }
+      ],
+      "differential_general": "급성 용혈(ABO 불일치), 지연 용혈(비예기항체 아나므네스 반응)."
+    },
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "긴머리는 오염을 일으킬 가능성이 높으므로",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "① 긴머리는 오염을 일으킬 가능성이 높으므로."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "뒤로 잡아매야 한다. 검사실 안에서 상관없는 다른 작업을 할 때",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때 : 검사실 안에서 상관없는 다른 작업을 할 때."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "에도 장갑을 벗지 말아야 한다. 장갑을 벗고나서, 검사실 나갈 때, 오염물질",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질 : 장갑을 벗고나서, 검사실 나갈 때, 오염물질."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "을 만진 후 반드시 손을 씻어야 한다. 검사실 안에서는 보호복을 착용하고 발가락",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락 : 검사실 안에서는 보호복을 착용하고 발가락."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "과 발뒤꿈치가 안보이는 신발을 신어야한다.",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "수혈을 반복적으로 받은 환자는 공혈자 적혈구의 미세 항원(Rh E, c, Kell, Duffy, Kidd 등)에 동종면역(Alloimmunization)되어 새로운 비예기항체가 생성될 수 있으므로, 매 수혈 시마다 72시간 이내 새 검체로 항체선별검사를 반복해야 함!. 안전 수혈 지침의 핵심 임상 원칙 숙지."
+      }
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      4
+    ],
+    "raw_questions": [
+      "21Y-수혈04"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_수혈_Q05",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "수혈",
+    "section_name": "수혈의학 및 검사실안전",
+    "section_q_num": 5,
+    "q_num": 10,
+    "q_label": "수혈 05번",
+    "category": "탈",
+    "theme_title": "면역학적 검사 모식도: 괄호에 들어갈 용어 (항원, Antigen)",
+    "subspecialty": "수혈의학 및 검사실안전",
+    "stem": "(Y) 검사실 생물 안전에 대한 설명으로 틀린 것 은? 모든 검체는 잠재적 위험성이 있다고 간주",
+    "images": [],
+    "options": [
+      "① 하여 작업 시 표준지침을 따른다. 우리 나라에서는 결핵균이 많이 검출되므로",
+      "② 생물안전 2 등급에서 작업하는 것이 바람직하다. 생물안전 4 등급에서는 class III 생물안전작업",
+      "③ 대와 양압복과 같은 특수보호장비가 필요하다. 정상인에게서 감염을 일으키지 않는 세균은",
+      "④ 개방된 작업대에서 다뤄도 된다. 임상적으로 흔히 검출되는 세균은 생물안전",
+      "⑤ 2 등급에 해당하며 생물안전작업대가 필요하다."
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 결핵균은 생물안전 2등급에서 작업하는 것이 바람직하다",
+    "explanation": {
+      "title": "임상미생물 검사실 생물안전 등급 (BSL) 기준",
+      "findings": "결핵균(Mycobacterium tuberculosis)은 공기 매개 비말핵으로 호흡기 감염을 유발하며 치명적인 결핵을 일으키므로, 발생 빈도와 무관하게 반드시 음압 시설과 특수 배기 공조를 갖춘 생물안전 3등급(BSL-3) 연구시설에서 취급해야 합니다.",
+      "differential": "• ① 하여 작업 시 표준지침을 따른다. 우리 나라에서는 결핵균이 많이 검출되므로 ✗ [오답]: 독성 거대결장 등 응급 상황에서는 직장을 남기는 전결장절제술(Total abdominal colectomy) + 회장루를 시행하고, 괄약근 기능이 불량한 정규 수술에서는 전대장직장절제술(TPC) + 영구 회장루를 시행합니다.\n• ② 생물안전 2 등급에서 작업하는 것이 바람직하다. 생물안전 4 등급에서는 class III 생물안전작업 ✓ [정답]: 본 증례는 내시경 상 '직장 점막 전체에 궤양 병변'이 있으므로 직장을 남겨두어 문합하면 직장염이 지속되고 직장암 발생 위험이 남습니다.\n• ③ 대와 양압복과 같은 특수보호장비가 필요하다. 정상인에게서 감염을 일으키지 않는 세균은 ✗ [오답]: 직장암의 수술법으로, 전대장을 침범한 궤양성 대장염에서는 병든 결장이 그대로 남게 되어 부적절합니다.\n• ④ 개방된 작업대에서 다뤄도 된다. 임상적으로 흔히 검출되는 세균은 생물안전 ✗ [오답]: 하부 직장암에서 직장과 항문만 절제하고 결장루를 만드는 수술로 전대장 궤양성 대장염의 수술이 아닙니다.\n• ⑤ 등급에 해당하며 생물안전작업대가 필요하다. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• BSL-2: 대부분의 일반 세균(포도구균, 연쇄구균, 대장균)\n• BSL-3: 결핵균, 탄저균, 브루셀라, 흑사병균\n• BSL-4: 에볼라바이러스, 마버그바이러스",
+      "trap": "우리나라에 결핵 환자가 많다고 해서 안전 등급을 2등급으로 낮춰서 취급할 수 없습니다.",
+      "trigger": "결핵균 BSL-2 취급 -> 오답! (반드시 BSL-3 시설 필요)",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "하여 작업 시 표준지침을 따른다. 우리 나라에서는 결핵균이 많이 검출되므로",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "독성 거대결장 등 응급 상황에서는 직장을 남기는 전결장절제술(Total abdominal colectomy) + 회장루를 시행하고, 괄약근 기능이 불량한 정규 수술에서는 전대장직장절제술(TPC) + 영구 회장루를 시행합니다."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "생물안전 2 등급에서 작업하는 것이 바람직하다. 생물안전 4 등급에서는 class III 생물안전작업",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "본 증례는 내시경 상 '직장 점막 전체에 궤양 병변'이 있으므로 직장을 남겨두어 문합하면 직장염이 지속되고 직장암 발생 위험이 남습니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "대와 양압복과 같은 특수보호장비가 필요하다. 정상인에게서 감염을 일으키지 않는 세균은",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "직장암의 수술법으로, 전대장을 침범한 궤양성 대장염에서는 병든 결장이 그대로 남게 되어 부적절합니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "개방된 작업대에서 다뤄도 된다. 임상적으로 흔히 검출되는 세균은 생물안전",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "하부 직장암에서 직장과 항문만 절제하고 결장루를 만드는 수술로 전대장 궤양성 대장염의 수술이 아닙니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "등급에 해당하며 생물안전작업대가 필요하다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": ""
+        }
+      ],
+      "differential_general": "• BSL-2: 대부분의 일반 세균(포도구균, 연쇄구균, 대장균)\n• BSL-3: 결핵균, 탄저균, 브루셀라, 흑사병균\n• BSL-4: 에볼라바이러스, 마버그바이러스"
+    },
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "하여 작업 시 표준지침을 따른다. 우리 나라에서는 결핵균이 많이 검출되므로",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "독성 거대결장 등 응급 상황에서는 직장을 남기는 전결장절제술(Total abdominal colectomy) + 회장루를 시행하고, 괄약근 기능이 불량한 정규 수술에서는 전대장직장절제술(TPC) + 영구 회장루를 시행합니다."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "생물안전 2 등급에서 작업하는 것이 바람직하다. 생물안전 4 등급에서는 class III 생물안전작업",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "본 증례는 내시경 상 '직장 점막 전체에 궤양 병변'이 있으므로 직장을 남겨두어 문합하면 직장염이 지속되고 직장암 발생 위험이 남습니다."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "대와 양압복과 같은 특수보호장비가 필요하다. 정상인에게서 감염을 일으키지 않는 세균은",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "직장암의 수술법으로, 전대장을 침범한 궤양성 대장염에서는 병든 결장이 그대로 남게 되어 부적절합니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "개방된 작업대에서 다뤄도 된다. 임상적으로 흔히 검출되는 세균은 생물안전",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "하부 직장암에서 직장과 항문만 절제하고 결장루를 만드는 수술로 전대장 궤양성 대장염의 수술이 아닙니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "등급에 해당하며 생물안전작업대가 필요하다.",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": ""
+      }
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      1
+    ],
+    "raw_questions": [
+      "21Y-수혈05"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_수혈_Q06",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "수혈",
+    "section_name": "수혈의학 및 검사실안전",
+    "section_q_num": 6,
+    "q_num": 11,
+    "q_label": "수혈 06번",
+    "category": "짤",
+    "theme_title": "수혈 전 필수 면역혈액학 검사 항목: 불규칙항체 선별검사",
+    "subspecialty": "수혈의학 및 검사실안전",
+    "stem": "F-WBC 에 대한 설명으로 옳은 것은? 방사선을 쪼이면 비슷한 효과를 얻을 수 있다",
+    "images": [],
+    "options": [
+      "① frbrile reaction 을 줄이기 위해서는 pre-storage",
+      "② 를 이용하는 것 보다 bed side filter 가 더 효과 가 좋다 wbc 를 전부 없앨 수 있다",
+      "③ 동종 면역 반응이 증가할 수 있다",
+      "④ 혈소판 부전 수혈증을 줄일 수 있는 효과가 있",
+      "⑤ 다"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 불규칙항체 선별검사 (Antibody screening test)",
+    "explanation": {
+      "title": "수혈 전 필수 면역혈액학 검사 항목: 불규칙항체 선별검사",
+      "findings": "수혈 부작용(용혈성 수혈반응) 예방을 위한 필수 표준 패키지 규정.",
+      "differential": "• ① frbrile reaction 을 줄이기 위해서는 pre-storage ✗ [오답]: ① frbrile reaction 을 줄이기 위해서는 pre-storage.\n• ② 를 이용하는 것 보다 bed side filter 가 더 효과 가 좋다 wbc 를 전부 없앨 수 있다 ✓ [정답]: 수혈 전 환자 검체로 반드시 시행해야 하는 법정 3대 수혈 전 검사 = 1) ABO 혈액형 검사, 2) Rh(D) 혈액형 검사, 3) 비예기항체(불규칙항체) 선별검사(Antibody screen)!. 수혈 부작용(용혈성 수혈반응) 예방을 위한 필수 표준 패키지 규정.\n• ③ 동종 면역 반응이 증가할 수 있다 ✗ [오답]: ③ 동종 면역 반응이 증가할 수 있다.\n• ④ 혈소판 부전 수혈증을 줄일 수 있는 효과가 있 ✗ [오답]: ④ 혈소판 부전 수혈증을 줄일 수 있는 효과가 있.\n• ⑤ 다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n직접 쿰스 검사(생체 내 적혈구 감작 확인용, 수혈 전 기본 선별 아님).",
+      "trap": "교차시험(Crossmatching)은 적혈구제제 불출 직전에 공혈자 적혈구와 환자 혈청을 반응시키는 것이며, 환자 자체 선별검사항목 1위는 불규칙항체 선별검사임.",
+      "trigger": "수혈 전 환자 검체로 반드시 시행해야 하는 법정 3대 수혈 전 검사 = 1) ABO 혈액형 검사, 2) Rh(D) 혈액형 검사, 3) 비예기항체(불규칙항체) 선별검사(Antibody screen)!",
+      "kmle_link": "KMLE 수혈의학 - 수혈 전 검사의 표준 절차",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "frbrile reaction 을 줄이기 위해서는 pre-storage",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "① frbrile reaction 을 줄이기 위해서는 pre-storage."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "를 이용하는 것 보다 bed side filter 가 더 효과 가 좋다 wbc 를 전부 없앨 수 있다",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "수혈 전 환자 검체로 반드시 시행해야 하는 법정 3대 수혈 전 검사 = 1) ABO 혈액형 검사, 2) Rh(D) 혈액형 검사, 3) 비예기항체(불규칙항체) 선별검사(Antibody screen)!. 수혈 부작용(용혈성 수혈반응) 예방을 위한 필수 표준 패키지 규정."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "동종 면역 반응이 증가할 수 있다",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "③ 동종 면역 반응이 증가할 수 있다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "혈소판 부전 수혈증을 줄일 수 있는 효과가 있",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "④ 혈소판 부전 수혈증을 줄일 수 있는 효과가 있."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "다",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": ""
+        }
+      ],
+      "differential_general": "직접 쿰스 검사(생체 내 적혈구 감작 확인용, 수혈 전 기본 선별 아님)."
+    },
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "frbrile reaction 을 줄이기 위해서는 pre-storage",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "① frbrile reaction 을 줄이기 위해서는 pre-storage."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "를 이용하는 것 보다 bed side filter 가 더 효과 가 좋다 wbc 를 전부 없앨 수 있다",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "수혈 전 환자 검체로 반드시 시행해야 하는 법정 3대 수혈 전 검사 = 1) ABO 혈액형 검사, 2) Rh(D) 혈액형 검사, 3) 비예기항체(불규칙항체) 선별검사(Antibody screen)!. 수혈 부작용(용혈성 수혈반응) 예방을 위한 필수 표준 패키지 규정."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "동종 면역 반응이 증가할 수 있다",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "③ 동종 면역 반응이 증가할 수 있다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "혈소판 부전 수혈증을 줄일 수 있는 효과가 있",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "④ 혈소판 부전 수혈증을 줄일 수 있는 효과가 있."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "다",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": ""
+      }
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      1
+    ],
+    "raw_questions": [
+      "21Y-수혈06"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_수혈_Q07",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "수혈",
+    "section_name": "수혈의학 및 검사실안전",
+    "section_q_num": 7,
+    "q_num": 12,
+    "q_label": "수혈 07번",
+    "category": "탈",
+    "theme_title": "면역학적 검사 모식도: 괄호에 들어갈 용어 (항원, Antigen)",
+    "subspecialty": "수혈의학 및 검사실안전",
+    "stem": "급성출혈로 응급실에 온 환자. 수혈검사에서 AB, Rh(-)로 나왔다. 혈액은행에 해당 혈액이 없는 상 황. 적절한 대응은? 일단 AB, Rh(+) 혈액을 수혈한다",
+    "images": [],
+    "options": [
+      "① O형 Rh(-) 적혈구 제제 투여",
+      "② 보호자에게 치료 불가를 설명하고 대기",
+      "③ 혈액은행에 도착할 때까지 무한 대기",
+      "④ 일반 AB형 Rh(+) 전혈 즉시 투여",
+      "⑤ 생리식염수만 투여하고 수혈 중단"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① O형 Rh(-) 적혈구 제제 또는 동형 혈장 투여 고려",
+    "explanation": {
+      "title": "희귀 혈액형(AB Rh-) 응급 출혈 시 대체 수혈 프로토콜",
+      "findings": "AB형 Rh(-) 환자가 생명을 위협받는 대량 급성 출혈로 응급실에 내원하였으나 동형 혈액이 없는 경우, 즉시 투여 가능한 만능 적혈구 제제인 O형 Rh(-) 농축적혈구를 우선 수혈하여 산소 운반능을 유지해야 합니다.",
+      "differential": "• ① O형 Rh(-) 적혈구 제제 투여 ✓ [정답]: 적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : AB Rh(-) 응급 결핍 시 적혈구 대체 -> O형 Rh(-). AB형 Rh(-) 환자가 생명을 위협받는 대량 급성 출혈로 응급실에 내원하였으나 동형 혈액이 없는 경우, 즉시 투여 가능한 만능 적혈구 제제인 O형 Rh(-) 농축적혈구를 우선 수혈하여 산소 운반능을 유지해야 합니다.\n• ② 보호자에게 치료 불가를 설명하고 대기 ✗ [오답]: ② 보호자에게 치료 불가를 설명하고 대기.\n• ③ 혈액은행에 도착할 때까지 무한 대기 ✗ [오답]: ③ 혈액은행에 도착할 때까지 무한 대기.\n• ④ 일반 AB형 Rh(+) 전혈 즉시 투여 ✗ [오답]: 전혈 즉시 투여 : 전혈 즉시 투여 : 전혈 즉시 투여 : 전혈 즉시 투여.\n• ⑤ 생리식염수만 투여하고 수혈 중단 ✗ [오답]: ⑤ 생리식염수만 투여하고 수혈 중단.\n\n【핵심 감별 및 임상 가이드라인】\n• 적혈구 만능 공여자: O형 Rh(-)\n• 혈장/혈소판 만능 공여자: AB형 (항A, 항B 항체 없음)\n• 생명 위협 시 긴급 수혈: 교차시험 생략 O Rh(-) 적혈구 불출",
+      "trap": "Rh(-) 여성 환자에게 Rh(+) 적혈구를 투여하면 Anti-D 항체가 형성되어 향후 임신 시 신생아용혈성질환을 유발할 수 있으므로 극도로 주의해야 합니다.",
+      "trigger": "AB Rh(-) 응급 결핍 시 적혈구 대체 -> O형 Rh(-)",
+      "kmle_link": "진단검사의학과 및 임상병리학 종합",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "O형 Rh(-) 적혈구 제제 투여",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : AB Rh(-) 응급 결핍 시 적혈구 대체 -> O형 Rh(-). AB형 Rh(-) 환자가 생명을 위협받는 대량 급성 출혈로 응급실에 내원하였으나 동형 혈액이 없는 경우, 즉시 투여 가능한 만능 적혈구 제제인 O형 Rh(-) 농축적혈구를 우선 수혈하여 산소 운반능을 유지해야 합니다."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "보호자에게 치료 불가를 설명하고 대기",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "② 보호자에게 치료 불가를 설명하고 대기."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "혈액은행에 도착할 때까지 무한 대기",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "③ 혈액은행에 도착할 때까지 무한 대기."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "일반 AB형 Rh(+) 전혈 즉시 투여",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "전혈 즉시 투여 : 전혈 즉시 투여 : 전혈 즉시 투여 : 전혈 즉시 투여."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "생리식염수만 투여하고 수혈 중단",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "⑤ 생리식염수만 투여하고 수혈 중단."
+        }
+      ],
+      "differential_general": "• 적혈구 만능 공여자: O형 Rh(-)\n• 혈장/혈소판 만능 공여자: AB형 (항A, 항B 항체 없음)\n• 생명 위협 시 긴급 수혈: 교차시험 생략 O Rh(-) 적혈구 불출"
+    },
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "O형 Rh(-) 적혈구 제제 투여",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : 적혈구 제제 투여 : AB Rh(-) 응급 결핍 시 적혈구 대체 -> O형 Rh(-). AB형 Rh(-) 환자가 생명을 위협받는 대량 급성 출혈로 응급실에 내원하였으나 동형 혈액이 없는 경우, 즉시 투여 가능한 만능 적혈구 제제인 O형 Rh(-) 농축적혈구를 우선 수혈하여 산소 운반능을 유지해야 합니다."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "보호자에게 치료 불가를 설명하고 대기",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "② 보호자에게 치료 불가를 설명하고 대기."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "혈액은행에 도착할 때까지 무한 대기",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "③ 혈액은행에 도착할 때까지 무한 대기."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "일반 AB형 Rh(+) 전혈 즉시 투여",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "전혈 즉시 투여 : 전혈 즉시 투여 : 전혈 즉시 투여 : 전혈 즉시 투여."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "생리식염수만 투여하고 수혈 중단",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "⑤ 생리식염수만 투여하고 수혈 중단."
+      }
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-수혈07"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_수혈_Q08",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "수혈",
+    "section_name": "수혈의학 및 검사실안전",
+    "section_q_num": 8,
+    "q_num": 13,
+    "q_label": "수혈 08번",
+    "category": "짤",
+    "theme_title": "임상 검사 판독 및 의의",
+    "subspecialty": "수혈의학 및 검사실안전",
+    "stem": "검사 결과 혈액형은 무엇인가? A",
+    "images": [
+      "images/21Y_Q13_fig1.png"
+    ],
+    "options": [
+      "① B",
+      "② AB",
+      "③ O",
+      "④ 알 수 없다"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "[21Y Q13 & 19Y Q05] ③ 실온(20~24℃)에서 부드럽게 교반(Agitation)하며 보관 (O)",
+    "explanation": {
+      "title": "임상 검사 판독 및 의의",
+      "findings": "상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.",
+      "differential": "• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]: ④ 알 수 없다 ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 알 수 없다에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ② AB ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, AB에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ O ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ④ 알 수 없다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 알 수 없다에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ② AB ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, AB에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ O ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ④ 알 수 없다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 알 수 없다에 합당한 특징적 소견이 결여되어 오답입니다.",
+      "trap": "실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.",
+      "trigger": "임상 검사 판독 및 의의 핵심 지표 기준 즉시 정답 도출",
+      "kmle_link": "진단검사의학과",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "B",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": ""
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "AB",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": ""
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "O",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": ""
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "알 수 없다",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": ""
+        }
+      ],
+      "differential_general": "• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]: ④ 알 수 없다 ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]\n• ② AB ✗ [오답]\n• ③ O ✓ [정답]\n• ④ 알 수 없다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 알 수 없다에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ② AB ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, AB에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ O ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ④ 알 수 없다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 알 수 없다에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① B ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B에 합당한 특징적 소견이 결여되어 오답입니다.\n• ② AB ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, AB에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ O ✓ [정답]: [임상 검사 판독 및 의의] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.)\n• ④ 알 수 없다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 알 수 없다에 합당한 특징적 소견이 결여되어 오답입니다."
+    },
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "B",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": ""
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "AB",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": ""
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "O",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": ""
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "알 수 없다",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": ""
+      }
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      2
+    ],
+    "raw_questions": [
+      "21Y-수혈08"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_수혈_Q09",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "수혈",
+    "section_name": "수혈의학 및 검사실안전",
+    "section_q_num": 9,
+    "q_num": 14,
+    "q_label": "수혈 09번",
+    "category": "짤",
+    "theme_title": "미생물 취급 실험실 개인보호구 및 손위생 원칙",
+    "subspecialty": "수혈의학 및 검사실안전",
+    "stem": "(Y) 다음 중 혈장제제 수혈이 필요한 경우가 아 닌 것은? 혈액량 증가",
+    "images": [],
+    "options": [
+      "① 단순 순환 혈액량 증가 (Volume expansion)",
+      "② 다발성 응고인자 결핍증",
+      "③ 간질환에 의한 중증 출혈 경향",
+      "④ 대량 수혈 시 희석성 응고장애 교정",
+      "⑤ 혈전성 혈소판감소성 자반증(TTP) 혈장교환술"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 장갑을 벗고 난 후 손을 씻지 않아도 된다. (X - 장갑 탈의 직후 반드시 손위생)",
+    "explanation": {
+      "title": "미생물 취급 실험실 개인보호구 및 손위생 원칙",
+      "findings": "너무나 당연한 감염관리 상식을 묻는 100% 득점용 서비스 족보.",
+      "differential": "• ① 단순 순환 혈액량 증가 (Volume expansion) ✗ [오답]\n• ② 다발성 응고인자 결핍증 ✗ [오답]: ② 다발성 응고인자 결핍증.\n• ③ 간질환에 의한 중증 출혈 경향 ✓ [정답]: 의료 및 검사실 감염관리 제1철칙 = 장갑(Gloves)을 착용했더라도 미세 구멍이나 벗는 과정에서 손이 오염되므로, 장갑을 벗은 직후에는 예외 없이 반드시 손을 씻어야 함!. 너무나 당연한 감염관리 상식을 묻는 100% 득점용 서비스 족보.\n• ④ 대량 수혈 시 희석성 응고장애 교정 ✗ [오답]: ④ 대량 수혈 시 희석성 응고장애 교정.\n• ⑤ 혈전성 혈소판감소성 자반증(TTP) 혈장교환술 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n가운 착용, 마스크/고글(비말 발생 조작 시), 실험실 문 닫힘 유지.",
+      "trap": "장갑 착용이 결코 손위생(Hand hygiene)을 대체할 수 없음.",
+      "trigger": "의료 및 검사실 감염관리 제1철칙 = 장갑(Gloves)을 착용했더라도 미세 구멍이나 벗는 과정에서 손이 오염되므로, 장갑을 벗은 직후에는 예외 없이 반드시 손을 씻어야 함!",
+      "kmle_link": "KMLE 감염학/예방의학 - 병원 표준주의 지침 및 손위생 원칙",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "단순 순환 혈액량 증가 (Volume expansion)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": ""
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "다발성 응고인자 결핍증",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "② 다발성 응고인자 결핍증."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "간질환에 의한 중증 출혈 경향",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "의료 및 검사실 감염관리 제1철칙 = 장갑(Gloves)을 착용했더라도 미세 구멍이나 벗는 과정에서 손이 오염되므로, 장갑을 벗은 직후에는 예외 없이 반드시 손을 씻어야 함!. 너무나 당연한 감염관리 상식을 묻는 100% 득점용 서비스 족보."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "대량 수혈 시 희석성 응고장애 교정",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "④ 대량 수혈 시 희석성 응고장애 교정."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "혈전성 혈소판감소성 자반증(TTP) 혈장교환술",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": ""
+        }
+      ],
+      "differential_general": "가운 착용, 마스크/고글(비말 발생 조작 시), 실험실 문 닫힘 유지."
+    },
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "단순 순환 혈액량 증가 (Volume expansion)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": ""
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "다발성 응고인자 결핍증",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "② 다발성 응고인자 결핍증."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "간질환에 의한 중증 출혈 경향",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "의료 및 검사실 감염관리 제1철칙 = 장갑(Gloves)을 착용했더라도 미세 구멍이나 벗는 과정에서 손이 오염되므로, 장갑을 벗은 직후에는 예외 없이 반드시 손을 씻어야 함!. 너무나 당연한 감염관리 상식을 묻는 100% 득점용 서비스 족보."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "대량 수혈 시 희석성 응고장애 교정",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "④ 대량 수혈 시 희석성 응고장애 교정."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "혈전성 혈소판감소성 자반증(TTP) 혈장교환술",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": ""
+      }
+    ],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      2
+    ],
+    "raw_questions": [
+      "21Y-수혈09"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_수혈_Q10",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "수혈",
+    "section_name": "수혈의학 및 검사실안전",
+    "section_q_num": 10,
+    "q_num": 15,
+    "q_label": "수혈 10번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [수혈의학 및 검사실안전] 10번",
+    "subspecialty": "수혈의학 및 검사실안전",
+    "stem": "(Y) 검사실 생물 안전에 대한 설명으로 틀린 것 은?",
+    "images": [],
+    "options": [
+      "모든 검체는 잠재적 위험성이 있다고 간주 하여 작업 시 표준지침을 따른다.",
+      "우리 나라에서는 결핵균이 많이 검출되므로  생물안전 2 등급에서 작업하는 것이 바람직하다.",
+      "생물안전 4 등급에서는 class III 생물안전작업 대와 양압복과 같은 특수보호장비가 필요하다.",
+      "정상인에게서 감염을 일으키지 않는 세균은  개방된 작업대에서 다뤄도 된다.",
+      "임상적으로 흔히 검출되는 세균은 생물안전  2 등급에 해당하며 생물안전작업대가 필요하다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "모든 검체는 잠재적 위험성이 있다고 간주 하여 작업 시 표준지침을 따른다.",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [수혈의학 및 검사실안전] 10번 핵심 해설",
+      "findings": "(Y) 검사실 생물 안전에 대한 설명으로 틀린 것 은?",
+      "trigger": "【21Y 진검 수혈 10번】 (Y) 검사실 생물 안전에 대한 설명으로 틀린 것 은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-수혈10"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_수혈_Q11",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "수혈",
+    "section_name": "수혈의학 및 검사실안전",
+    "section_q_num": 11,
+    "q_num": 16,
+    "q_label": "수혈 11번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [수혈의학 및 검사실안전] 11번",
+    "subspecialty": "수혈의학 및 검사실안전",
+    "stem": "F-WBC 에 대한 설명으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "방사선을 쪼이면 비슷한 효과를 얻을 수 있다",
+      "frbrile reaction 을 줄이기 위해서는 pre-storage 를 이용하는 것 보다 bed side filter 가 더 효과 가 좋다",
+      "wbc 를 전부 없앨 수 있다",
+      "동종 면역 반응이 증가할 수 있다",
+      "혈소판 부전 수혈증을 줄일 수 있는 효과가 있 다"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "방사선을 쪼이면 비슷한 효과를 얻을 수 있다",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [수혈의학 및 검사실안전] 11번 핵심 해설",
+      "findings": "F-WBC 에 대한 설명으로 옳은 것은?",
+      "trigger": "【21Y 진검 수혈 11번】 F-WBC 에 대한 설명으로 옳은 것은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-수혈11"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_수혈_Q12",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "수혈",
+    "section_name": "수혈의학 및 검사실안전",
+    "section_q_num": 12,
+    "q_num": 17,
+    "q_label": "수혈 12번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [수혈의학 및 검사실안전] 12번",
+    "subspecialty": "수혈의학 및 검사실안전",
+    "stem": "급성출혈로 응급실에 온 환자. 수혈검사에서 AB, Rh(-)로 나왔다. 혈액은행에 해당 혈액이 없는 상 황. 적절한 대응은?",
+    "images": [],
+    "options": [
+      "일단 AB, Rh(+) 혈액을 수혈한다",
+      "어차피 죽게될 것이므로 보호자에게 잘 설 명한다.",
+      "혈액은행에 대책을 요구한다.",
+      "해당 혈액이 나올때까지 기다린다.",
+      "불규칙 항체 선별 검사와 추가 검사를 더  시행한다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "일단 AB, Rh(+) 혈액을 수혈한다",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [수혈의학 및 검사실안전] 12번 핵심 해설",
+      "findings": "급성출혈로 응급실에 온 환자. 수혈검사에서 AB, Rh(-)로 나왔다. 혈액은행에 해당 혈액이 없는 상 황. 적절한 대응은?",
+      "trigger": "【21Y 진검 수혈 12번】 급성출혈로 응급실에 온 환자. 수혈검사에서 AB, Rh(-)로 나왔다. 혈액은행에 해당 혈액이 없는 상 황.",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-수혈12"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_수혈_Q13",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "수혈",
+    "section_name": "수혈의학 및 검사실안전",
+    "section_q_num": 13,
+    "q_num": 18,
+    "q_label": "수혈 13번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [수혈의학 및 검사실안전] 13번",
+    "subspecialty": "수혈의학 및 검사실안전",
+    "stem": "검사 결과 혈액형은 무엇인가?",
+    "images": [],
+    "options": [
+      "A",
+      "B",
+      "AB",
+      "O",
+      "알 수 없다"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "A",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [수혈의학 및 검사실안전] 13번 핵심 해설",
+      "findings": "검사 결과 혈액형은 무엇인가?",
+      "trigger": "【21Y 진검 수혈 13번】 검사 결과 혈액형은 무엇인가?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-수혈13"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_수혈_Q14",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "수혈",
+    "section_name": "수혈의학 및 검사실안전",
+    "section_q_num": 14,
+    "q_num": 19,
+    "q_label": "수혈 14번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [수혈의학 및 검사실안전] 14번",
+    "subspecialty": "수혈의학 및 검사실안전",
+    "stem": "(Y) 다음 중 혈장제제 수혈이 필요한 경우가 아 닌 것은?",
+    "images": [],
+    "options": [
+      "혈액량 증가",
+      "단일 응고인자 결핍",
+      "복수 응고인자 결핍",
+      "만성 간질환으로 인한 응고인자 결핍",
+      "수혈 후 dilutional coagulopathy"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "혈액량 증가",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [수혈의학 및 검사실안전] 14번 핵심 해설",
+      "findings": "(Y) 다음 중 혈장제제 수혈이 필요한 경우가 아 닌 것은?",
+      "trigger": "【21Y 진검 수혈 14번】 (Y) 다음 중 혈장제제 수혈이 필요한 경우가 아 닌 것은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-수혈14"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_화학_Q01",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "화학",
+    "section_name": "임상화학 및 검사실안전",
+    "section_q_num": 1,
+    "q_num": 20,
+    "q_label": "화학 01번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상화학 및 검사실안전] 01번",
+    "subspecialty": "임상화학 및 검사실안전",
+    "stem": "병원 검사실에서 정량검사를 할 때 변이계수에 대한 설명으로 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "변이계수가 낮을수록 정확한 검사를 할 수 있다.",
+      "같은 물질이라도 농도에 따라 변이계수 값이 변 할 수 있다.",
+      "구리병원에서 알부민의 변이계수는 5% 이하로  유지되고 있다.",
+      "평균을 표준편차로 나누고 100을 곱한 값이다.",
+      "변이계수를 이용해 서로 다른 물질들 간 검사의  정밀도를 비교할 수 있다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "변이계수가 낮을수록 정확한 검사를 할 수 있다.",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상화학 및 검사실안전] 01번 핵심 해설",
+      "findings": "병원 검사실에서 정량검사를 할 때 변이계수에 대한 설명으로 옳지 않은 것은?",
+      "trigger": "【21Y 진검 화학 01번】 병원 검사실에서 정량검사를 할 때 변이계수에 대한 설명으로 옳지 않은 것은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-화학01"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_화학_Q02",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "화학",
+    "section_name": "임상화학 및 검사실안전",
+    "section_q_num": 2,
+    "q_num": 21,
+    "q_label": "화학 02번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상화학 및 검사실안전] 02번",
+    "subspecialty": "임상화학 및 검사실안전",
+    "stem": "병원 검사실에서 정량검사 할 때 필요하지 않은 것은?",
+    "images": [],
+    "options": [
+      "Quality controlled material",
+      "Standard curve",
+      "Standard material",
+      "Callibrator",
+      "Callibration curve"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "Quality controlled material",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상화학 및 검사실안전] 02번 핵심 해설",
+      "findings": "병원 검사실에서 정량검사 할 때 필요하지 않은 것은?",
+      "trigger": "【21Y 진검 화학 02번】 병원 검사실에서 정량검사 할 때 필요하지 않은 것은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-화학02"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_화학_Q03",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "화학",
+    "section_name": "임상화학 및 검사실안전",
+    "section_q_num": 3,
+    "q_num": 22,
+    "q_label": "화학 03번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상화학 및 검사실안전] 03번",
+    "subspecialty": "임상화학 및 검사실안전",
+    "stem": "(Y) 병원 검사실에서 알부민 농도의 정량검사를 하는 방법은?",
+    "images": [],
+    "options": [
+      "면역법",
+      "침전법",
+      "전기영동",
+      "색소법",
+      "항원항체 결합"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "면역법",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상화학 및 검사실안전] 03번 핵심 해설",
+      "findings": "(Y) 병원 검사실에서 알부민 농도의 정량검사를 하는 방법은?",
+      "trigger": "【21Y 진검 화학 03번】 (Y) 병원 검사실에서 알부민 농도의 정량검사를 하는 방법은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-화학03"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_화학_Q04",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "화학",
+    "section_name": "임상화학 및 검사실안전",
+    "section_q_num": 4,
+    "q_num": 23,
+    "q_label": "화학 04번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상화학 및 검사실안전] 04번",
+    "subspecialty": "임상화학 및 검사실안전",
+    "stem": "병원 검사실에서 알부민 정량검사를 할 때에 대한 설명으로 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "알부민을 다른 물질들과 구분할 수 있어야 한다.",
+      "알부민을 검출했을 때 신호를 보낼 수 있어야 한 다.",
+      "정도관리물질이 허용한계 범위 밖이면 시약을 즉 시 교체한다.",
+      "정도관리물질이 허용한계 범위 안이면 환자의 검 체를 그대로 사용해 검사한다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "알부민을 다른 물질들과 구분할 수 있어야 한다.",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상화학 및 검사실안전] 04번 핵심 해설",
+      "findings": "병원 검사실에서 알부민 정량검사를 할 때에 대한 설명으로 옳지 않은 것은?",
+      "trigger": "【21Y 진검 화학 04번】 병원 검사실에서 알부민 정량검사를 할 때에 대한 설명으로 옳지 않은 것은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-화학04"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_화학_Q05",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "화학",
+    "section_name": "임상화학 및 검사실안전",
+    "section_q_num": 5,
+    "q_num": 24,
+    "q_label": "화학 05번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상화학 및 검사실안전] 05번",
+    "subspecialty": "임상화학 및 검사실안전",
+    "stem": "병원 검사실에서 사용하는 참고범위설정에 관련된 설명 중 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "참고범위를 적용하려는 환자가 일반 사람들과 같 을 것이라는 전제가 있다.",
+      "일반적으로 120명 이상의 건강한 사람들의 결과 를 이용한다.",
+      "참고범위 설정을 위한 대상자가 건강한지 알기  위하여 우선 설문지를 배포한다.",
+      "일반적으로 순위 분포를 이용하여 2.5와 97.5  percentile 값으로 결정한다.",
+      "대상자 검사 결과의 빈도 분포가 정규 분포를 이 루지 않는다면 평균값과 표준편차를 이용해 내부  95%의 값을 결정할 수 있다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "참고범위를 적용하려는 환자가 일반 사람들과 같 을 것이라는 전제가 있다.",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상화학 및 검사실안전] 05번 핵심 해설",
+      "findings": "병원 검사실에서 사용하는 참고범위설정에 관련된 설명 중 옳지 않은 것은?",
+      "trigger": "【21Y 진검 화학 05번】 병원 검사실에서 사용하는 참고범위설정에 관련된 설명 중 옳지 않은 것은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-화학05"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_화학_Q06",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "화학",
+    "section_name": "임상화학 및 검사실안전",
+    "section_q_num": 6,
+    "q_num": 25,
+    "q_label": "화학 06번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상화학 및 검사실안전] 06번",
+    "subspecialty": "임상화학 및 검사실안전",
+    "stem": "병원 검사실에서 진행하는 정량검사의 측정 원리에 대한 설명으로 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "회귀곡선의 기울기가 낮을수록 검사의 정밀도가  높다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "회귀곡선의 기울기가 낮을수록 검사의 정밀도가  높다.",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상화학 및 검사실안전] 06번 핵심 해설",
+      "findings": "병원 검사실에서 진행하는 정량검사의 측정 원리에 대한 설명으로 옳지 않은 것은?",
+      "trigger": "【21Y 진검 화학 06번】 병원 검사실에서 진행하는 정량검사의 측정 원리에 대한 설명으로 옳지 않은 것은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-화학06"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_유전_Q01",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "유전",
+    "section_name": "진단유전학",
+    "section_q_num": 1,
+    "q_num": 26,
+    "q_label": "유전 01번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단유전학] 01번",
+    "subspecialty": "진단유전학",
+    "stem": "(Y) 유전질환(genetic disorder)에 대해 옳은 것은?",
+    "images": [],
+    "options": [
+      "유전질환(genetic disorder)은 환경적 영향을  받지 않는다.",
+      "암은 환경적 영향을 받기 때문에 유전질환이  아니다.",
+      "유전질환은 부모로부터 물려받은 돌연변이이 다.",
+      "근육의 mitochondria genome 변이에 의한 질 환도 유전질환이다.",
+      "다운증후군은 염색체 이상이기 때문에 유전자  질환이 아니다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "유전질환(genetic disorder)은 환경적 영향을  받지 않는다.",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단유전학] 01번 핵심 해설",
+      "findings": "(Y) 유전질환(genetic disorder)에 대해 옳은 것은?",
+      "trigger": "【21Y 진검 유전 01번】 (Y) 유전질환(genetic disorder)에 대해 옳은 것은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-유전01"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_유전_Q02",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "유전",
+    "section_name": "진단유전학",
+    "section_q_num": 2,
+    "q_num": 27,
+    "q_label": "유전 02번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단유전학] 02번",
+    "subspecialty": "진단유전학",
+    "stem": "(Y 변형) Real-Time PCR 의 재료를 모두 고르시 오.",
+    "images": [],
+    "options": [
+      "dNTP",
+      "ddNTP",
+      "DNA ligase",
+      "Sequencing primer",
+      "Sequencing probe"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "dNTP",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단유전학] 02번 핵심 해설",
+      "findings": "(Y 변형) Real-Time PCR 의 재료를 모두 고르시 오.",
+      "trigger": "【21Y 진검 유전 02번】 (Y 변형) Real-Time PCR 의 재료를 모두 고르시 오.",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-유전02"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_유전_Q03",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "유전",
+    "section_name": "진단유전학",
+    "section_q_num": 3,
+    "q_num": 28,
+    "q_label": "유전 03번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단유전학] 03번",
+    "subspecialty": "진단유전학",
+    "stem": "(Y) 암 유전에 관해 옳은 것은?",
+    "images": [],
+    "options": [
+      "Somatic variant 의 경우 50%의 확률로 자손 에게 전달된다.",
+      "Germline BRCA1 변이 가진 사람의 경우  penetrance 는 거의 100%이다.",
+      "표적 치료를 하다가 동일한 부위에 동일한 암 이 재발해도 유전자 검사를 또 해야 한다.",
+      "암은 유전질환이므로 치료와 예후를 예측하기  위해 반드시 유전자 검사를 해야 한다.",
+      "유전성 암 신드롬 가족 중 암이 발병하지 않 은 사람은 유전자 검사를 안 받아도 된다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "Somatic variant 의 경우 50%의 확률로 자손 에게 전달된다.",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단유전학] 03번 핵심 해설",
+      "findings": "(Y) 암 유전에 관해 옳은 것은?",
+      "trigger": "【21Y 진검 유전 03번】 (Y) 암 유전에 관해 옳은 것은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-유전03"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_유전_Q04",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "유전",
+    "section_name": "진단유전학",
+    "section_q_num": 4,
+    "q_num": 29,
+    "q_label": "유전 04번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단유전학] 04번",
+    "subspecialty": "진단유전학",
+    "stem": "(Y) variant 에 관한 문제. 옳은 것 모두 고르시 오. (다중 체크로 안 나옴)",
+    "images": [],
+    "options": [
+      "reference genome 과 비교하여 다르면  variant 라고 한다.",
+      "인구 집단의 변이 빈도를 알면 pathogenicity 를 알 수 있다.",
+      "genome 의 변이는 부모로부터 물려받고 자손 으로 전달된다.",
+      "variant 가 있으면 100% 기능의 변화를 일으 킨다.",
+      "유전 질환 중 환경에 의해 영향을 받는 질환 은 멘델의 유전법칙을 따른다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "reference genome 과 비교하여 다르면  variant 라고 한다.",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단유전학] 04번 핵심 해설",
+      "findings": "(Y) variant 에 관한 문제. 옳은 것 모두 고르시 오. (다중 체크로 안 나옴)",
+      "trigger": "【21Y 진검 유전 04번】 (Y) variant 에 관한 문제. 옳은 것 모두 고르시 오. (다중 체크로 안 나옴)",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-유전04"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_유전_Q05",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "유전",
+    "section_name": "진단유전학",
+    "section_q_num": 5,
+    "q_num": 30,
+    "q_label": "유전 05번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단유전학] 05번",
+    "subspecialty": "진단유전학",
+    "stem": "Pharmacogenetics 에 대해 옳은 것은?",
+    "images": [],
+    "options": [
+      "약 효과가 다른 이유는 약의 투여 용량과 환 자 체중 때문이다.",
+      "약물 유전자는 약의 대사 효소, 수송체,  cofactor, receptor 등에 작용한다.",
+      "약물 유전자의 변이 환자는 드물기 때문에 불 량한 경과 혹은 심각한 부작용이 있을 때에  검사한다.",
+      "약물 유전자 검사는 희귀한 유전질환일 때만  검사한다.",
+      "약물 유전자 검사로 사람마다 약물의 효과차 이를 대부분 설명할 수 있다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "약 효과가 다른 이유는 약의 투여 용량과 환 자 체중 때문이다.",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단유전학] 05번 핵심 해설",
+      "findings": "Pharmacogenetics 에 대해 옳은 것은?",
+      "trigger": "【21Y 진검 유전 05번】 Pharmacogenetics 에 대해 옳은 것은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-유전05"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_유전_Q06",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "유전",
+    "section_name": "진단유전학",
+    "section_q_num": 6,
+    "q_num": 31,
+    "q_label": "유전 06번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단유전학] 06번",
+    "subspecialty": "진단유전학",
+    "stem": "(Y 변형)다음 그림은 ANXA11 유전자에 대한 가계도이다. 옳지 않은 것은?",
+    "images": [],
+    "options": [
+      "Complete penetrance 이다.",
+      "Variable expressivity 이다.",
+      "질환에 대해 알기 위해 아버지 유전자 검사가  필요하다.",
+      "형질에 관여하는 인자가 더 있을 수 있다.",
+      "Autosomal dominant 한 양상을 가진다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "Complete penetrance 이다.",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단유전학] 06번 핵심 해설",
+      "findings": "(Y 변형)다음 그림은 ANXA11 유전자에 대한 가계도이다. 옳지 않은 것은?",
+      "trigger": "【21Y 진검 유전 06번】 (Y 변형)다음 그림은 ANXA11 유전자에 대한 가계도이다. 옳지 않은 것은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-유전06"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_유전_Q07",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "유전",
+    "section_name": "진단유전학",
+    "section_q_num": 7,
+    "q_num": 32,
+    "q_label": "유전 07번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단유전학] 07번",
+    "subspecialty": "진단유전학",
+    "stem": "다음 검사에 대해 옳은 것은?",
+    "images": [],
+    "options": [
+      "단백질을 검사하는 방법이다.",
+      "오염으로 위양성 소견이 있을 수 있어 여러  종의 바이러스를 확인하기 어렵다.",
+      "검체가 적을 때 다른 검사보다 위음성 가능성 이 높다.",
+      "최근 대부분 바이러스 검사에 쓰인다.",
+      "해당 검사에서 음성이 나와도 확진을 위해 한 번 더 검사를 시행해야 한다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "단백질을 검사하는 방법이다.",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단유전학] 07번 핵심 해설",
+      "findings": "다음 검사에 대해 옳은 것은?",
+      "trigger": "【21Y 진검 유전 07번】 다음 검사에 대해 옳은 것은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-유전07"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_미생물_Q01",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "미생물",
+    "section_name": "임상미생물학",
+    "section_q_num": 1,
+    "q_num": 33,
+    "q_label": "미생물 01번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상미생물학] 01번",
+    "subspecialty": "임상미생물학",
+    "stem": "(Y) 배양을 위해 적절한 검체는?",
+    "images": [],
+    "options": [
+      "24hr urine",
+      "타액 섞인 객담",
+      "창상 표면 검체",
+      "실온 보관 뇌척수액",
+      "EDTA 혈액"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "24hr urine",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상미생물학] 01번 핵심 해설",
+      "findings": "(Y) 배양을 위해 적절한 검체는?",
+      "trigger": "【21Y 진검 미생물 01번】 (Y) 배양을 위해 적절한 검체는?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-미생물01"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_미생물_Q02",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "미생물",
+    "section_name": "임상미생물학",
+    "section_q_num": 2,
+    "q_num": 34,
+    "q_label": "미생물 02번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상미생물학] 02번",
+    "subspecialty": "임상미생물학",
+    "stem": "(Y, 기존 야마와 선지 뉘앙스 달랐음) 혈액배양검 사에 대한 설명으로 옳은 것은?",
+    "images": [],
+    "options": [
+      "Gram negative 균이 나오면 피부상재균일  확률이 높다",
+      "소아는 균혈증 농도가 높아서 1~2ml를 채취 해도 된다.  (1~2ml’만’ 아니었음)",
+      "포비돈으로 먼저 소독하고 알콜로 소독",
+      "열이나고 30분 후 균의 농도가 가장 높으므 로 그때 채혈해야한다.",
+      "성인은 10ml 채혈하고 5ml씩 혐기성, 호기 성 병에다가 넣는다"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "Gram negative 균이 나오면 피부상재균일  확률이 높다",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상미생물학] 02번 핵심 해설",
+      "findings": "(Y, 기존 야마와 선지 뉘앙스 달랐음) 혈액배양검 사에 대한 설명으로 옳은 것은?",
+      "trigger": "【21Y 진검 미생물 02번】 (Y, 기존 야마와 선지 뉘앙스 달랐음) 혈액배양검 사에 대한 설명으로 옳은 것은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-미생물02"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_미생물_Q03",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "미생물",
+    "section_name": "임상미생물학",
+    "section_q_num": 3,
+    "q_num": 35,
+    "q_label": "미생물 03번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상미생물학] 03번",
+    "subspecialty": "임상미생물학",
+    "stem": "(Y) 혈액배양시 2쌍중 1쌍에서만 나타나도 오염 으로 간주하는 경우는?",
+    "images": [],
+    "options": [
+      "S. aureus",
+      "Acinetobacter baumannii",
+      "Enterococcus faecium",
+      "Diphtheroids",
+      "E.coli"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "S. aureus",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상미생물학] 03번 핵심 해설",
+      "findings": "(Y) 혈액배양시 2쌍중 1쌍에서만 나타나도 오염 으로 간주하는 경우는?",
+      "trigger": "【21Y 진검 미생물 03번】 (Y) 혈액배양시 2쌍중 1쌍에서만 나타나도 오염 으로 간주하는 경우는?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-미생물03"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_미생물_Q04",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "미생물",
+    "section_name": "임상미생물학",
+    "section_q_num": 4,
+    "q_num": 36,
+    "q_label": "미생물 04번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상미생물학] 04번",
+    "subspecialty": "임상미생물학",
+    "stem": "손 위생이 필요한 경우 아닌것?",
+    "images": [],
+    "options": [
+      "환자 침상 주변 접촉 전",
+      "혈액배양 시행 후",
+      "환자에게 수혈 전",
+      "ABGA 시행 전"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "환자 침상 주변 접촉 전",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상미생물학] 04번 핵심 해설",
+      "findings": "손 위생이 필요한 경우 아닌것?",
+      "trigger": "【21Y 진검 미생물 04번】 손 위생이 필요한 경우 아닌것?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-미생물04"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_미생물_Q05",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "미생물",
+    "section_name": "임상미생물학",
+    "section_q_num": 5,
+    "q_num": 37,
+    "q_label": "미생물 05번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상미생물학] 05번",
+    "subspecialty": "임상미생물학",
+    "stem": "(Y) 중심정맥관 균혈증에 관한 설명으로 옳은것?",
+    "images": [],
+    "options": [
+      "중심정맥관 혈액 배양보다 말초배양에서 세 균의 증식속도가 더 빠르다",
+      "중심정맥관 30일 이상 유지시 균혈증 발생 빈도가 10% 미만이다.",
+      "중심절맥관 제거 후 말단 5cm를 혈액한천배 지에 굴려서 배양한다",
+      "의료 관련 감염중 가장 발생빈도가 높다.",
+      "S.aureus가 가장 흔하게 검출된다."
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "중심정맥관 혈액 배양보다 말초배양에서 세 균의 증식속도가 더 빠르다",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상미생물학] 05번 핵심 해설",
+      "findings": "(Y) 중심정맥관 균혈증에 관한 설명으로 옳은것?",
+      "trigger": "【21Y 진검 미생물 05번】 (Y) 중심정맥관 균혈증에 관한 설명으로 옳은것?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-미생물05"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_미생물_Q06",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "미생물",
+    "section_name": "임상미생물학",
+    "section_q_num": 6,
+    "q_num": 38,
+    "q_label": "미생물 06번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상미생물학] 06번",
+    "subspecialty": "임상미생물학",
+    "stem": "(Y) 다음 중 cryoglobulin (한랭글로불린) 검사를 위해 어떤 tube에 혈액 채취하는 것이 합당한가?",
+    "images": [],
+    "options": [
+      "4도 plain ttube4",
+      "4도 heparinizied tube",
+      "37도 plain tube",
+      "37도 heparinized tube",
+      "Cryotube"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "4도 plain ttube4",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상미생물학] 06번 핵심 해설",
+      "findings": "(Y) 다음 중 cryoglobulin (한랭글로불린) 검사를 위해 어떤 tube에 혈액 채취하는 것이 합당한가?",
+      "trigger": "【21Y 진검 미생물 06번】 (Y) 다음 중 cryoglobulin (한랭글로불린) 검사를 위해 어떤 tube에 혈액 채취하는 것이 합당",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-미생물06"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_미생물_Q07",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "미생물",
+    "section_name": "임상미생물학",
+    "section_q_num": 7,
+    "q_num": 39,
+    "q_label": "미생물 07번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상미생물학] 07번",
+    "subspecialty": "임상미생물학",
+    "stem": "(Y) 세균배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
+    "images": [],
+    "options": [
+      "소변, 혈액",
+      "소변, 객담",
+      "객담, 혈액",
+      "뇌척수액, 혈액",
+      "뇌척수액, 객담"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "소변, 혈액",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상미생물학] 07번 핵심 해설",
+      "findings": "(Y) 세균배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
+      "trigger": "【21Y 진검 미생물 07번】 (Y) 세균배양을 즉시 할 수 없는 경우 냉장보관 하는 검체는?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-미생물07"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_미생물_Q08",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "미생물",
+    "section_name": "임상미생물학",
+    "section_q_num": 8,
+    "q_num": 40,
+    "q_label": "미생물 08번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상미생물학] 08번",
+    "subspecialty": "임상미생물학",
+    "stem": "(Y) 다음 중 배양할때 검사결과를 반드시 정량으 로 표기해야 하는 검사는?",
+    "images": [],
+    "options": [
+      "혈액",
+      "객담검체",
+      "CSF",
+      "요 검사"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "혈액",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상미생물학] 08번 핵심 해설",
+      "findings": "(Y) 다음 중 배양할때 검사결과를 반드시 정량으 로 표기해야 하는 검사는?",
+      "trigger": "【21Y 진검 미생물 08번】 (Y) 다음 중 배양할때 검사결과를 반드시 정량으 로 표기해야 하는 검사는?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-미생물08"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_미생물_Q09",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "미생물",
+    "section_name": "임상미생물학",
+    "section_q_num": 9,
+    "q_num": 41,
+    "q_label": "미생물 09번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상미생물학] 09번",
+    "subspecialty": "임상미생물학",
+    "stem": "다음과 같은 그람염색 결과가 나왔다. 가장 가능 성이 높은 균은?",
+    "images": [],
+    "options": [
+      "Streptococcus pneumoniae",
+      "Streptococcus agalctiae",
+      "Mycobacterium tuberculosis",
+      "Neisseria meningitidis",
+      "Human simplex virus"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "Streptococcus pneumoniae",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상미생물학] 09번 핵심 해설",
+      "findings": "다음과 같은 그람염색 결과가 나왔다. 가장 가능 성이 높은 균은?",
+      "trigger": "【21Y 진검 미생물 09번】 다음과 같은 그람염색 결과가 나왔다. 가장 가능 성이 높은 균은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-미생물09"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_미생물_Q10",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "미생물",
+    "section_name": "임상미생물학",
+    "section_q_num": 10,
+    "q_num": 42,
+    "q_label": "미생물 10번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [임상미생물학] 10번",
+    "subspecialty": "임상미생물학",
+    "stem": "혈액배양 양성률에 가장 중요한 영향을 주는 것?",
+    "images": [],
+    "options": [
+      "피부 소독",
+      "채혈의 양",
+      "채혈 시기",
+      "채혈 횟수",
+      "환자의 기저질환"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "피부 소독",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [임상미생물학] 10번 핵심 해설",
+      "findings": "혈액배양 양성률에 가장 중요한 영향을 주는 것?",
+      "trigger": "【21Y 진검 미생물 10번】 혈액배양 양성률에 가장 중요한 영향을 주는 것?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-미생물10"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_혈액_Q01",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "혈액",
+    "section_name": "진단혈액학",
+    "section_q_num": 1,
+    "q_num": 43,
+    "q_label": "혈액 01번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단혈액학] 01번",
+    "subspecialty": "진단혈액학",
+    "stem": "(Y) 남성. 입안 출혈을 주소로 내원. 말초혈액검사 /골수검사 소견 주어짐. 가장 의심되는 진단은? [혈액검사 소견 : Hb 6.7, WBC26000(모세포30%), PLT 감소, PT, aPTT 증가]",
+    "images": [],
+    "options": [
+      "Acute lymphocytic leukemia",
+      "Chronic myelocytic leukemia",
+      "Chronic lymphocytic leukemia",
+      "Acute promyelocytic leukemia",
+      "Aplastic anemia"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "Acute lymphocytic leukemia",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단혈액학] 01번 핵심 해설",
+      "findings": "(Y) 남성. 입안 출혈을 주소로 내원. 말초혈액검사 /골수검사 소견 주어짐. 가장 의심되는 진단은? [혈액검사 소견 : Hb 6.7, WBC2",
+      "trigger": "【21Y 진검 혈액 01번】 (Y) 남성. 입안 출혈을 주소로 내원. 말초혈액검사 /골수검사 소견 주어짐. 가장 의심되는 진단은? [혈액",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-혈액01"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_혈액_Q02",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "혈액",
+    "section_name": "진단혈액학",
+    "section_q_num": 2,
+    "q_num": 44,
+    "q_label": "혈액 02번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단혈액학] 02번",
+    "subspecialty": "진단혈액학",
+    "stem": "60 세 여성 피로감 주소로 내원. 이전에 위축성 위염 진단 받은 병력 있다고 함. 혈액검사 및 말 초혈액도말 소견 주어짐. 가장 의심되는 진단은? [혈액검사 소견 : Hb 9, WBC 2800 , PLT 10 만 혈청 철, 페리틴 수치 주어짐(참고범위 안줌.), VitB12 감소 (정상수치 유일하게 주어짐) , 항내인자 항체(+) , 항 parietal cell 항체(+)]",
+    "images": [],
+    "options": [
+      "Iron deficiency anemia",
+      "Megaloblastic anemia",
+      "Leukemia",
+      "Hemolytic anemia"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "Iron deficiency anemia",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단혈액학] 02번 핵심 해설",
+      "findings": "60 세 여성 피로감 주소로 내원. 이전에 위축성 위염 진단 받은 병력 있다고 함. 혈액검사 및 말 초혈액도말 소견 주어짐. 가장 의심되는 진단",
+      "trigger": "【21Y 진검 혈액 02번】 60 세 여성 피로감 주소로 내원. 이전에 위축성 위염 진단 받은 병력 있다고 함. 혈액검사 및 말 초혈액도",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-혈액02"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_혈액_Q03",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "혈액",
+    "section_name": "진단혈액학",
+    "section_q_num": 3,
+    "q_num": 45,
+    "q_label": "혈액 03번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단혈액학] 03번",
+    "subspecialty": "진단혈액학",
+    "stem": "8 세 여아. 발열과 인후 통증을 주소로 내원. 편도 에 발적과 표면에 하얀 막이 관찰됨. 목에서 3cm 정도의 림프절이 여러 개 만져지고, 만지면 아파 함. 좌측 갈비뼈 아래로 지라가 3cm 정도 만져짐. 혈액검사 및 말초혈액도말검사는다음과 같고, 아 래의 세포가 전체 백혈구의 30%를 차지했다. 가 장 의심되는 진단은? [혈액검사 소견 : WBC 19000(림프구 70%)]",
+    "images": [],
+    "options": [
+      "가와사키병",
+      "홍역",
+      "볼거리",
+      "감염단핵구증",
+      "백혈병"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "가와사키병",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단혈액학] 03번 핵심 해설",
+      "findings": "8 세 여아. 발열과 인후 통증을 주소로 내원. 편도 에 발적과 표면에 하얀 막이 관찰됨. 목에서 3cm 정도의 림프절이 여러 개 만져지고, 만",
+      "trigger": "【21Y 진검 혈액 03번】 8 세 여아. 발열과 인후 통증을 주소로 내원. 편도 에 발적과 표면에 하얀 막이 관찰됨. 목에서 3cm 정",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-혈액03"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_혈액_Q04",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "혈액",
+    "section_name": "진단혈액학",
+    "section_q_num": 4,
+    "q_num": 46,
+    "q_label": "혈액 04번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단혈액학] 04번",
+    "subspecialty": "진단혈액학",
+    "stem": "말라리아 감염 진단을 위한 PBS 에서 다음과 같 은 소견을 보이는 경우는?",
+    "images": [],
+    "options": [
+      "P.vivax",
+      "P. falciparum",
+      "P. ovale"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "P.vivax",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단혈액학] 04번 핵심 해설",
+      "findings": "말라리아 감염 진단을 위한 PBS 에서 다음과 같 은 소견을 보이는 경우는?",
+      "trigger": "【21Y 진검 혈액 04번】 말라리아 감염 진단을 위한 PBS 에서 다음과 같 은 소견을 보이는 경우는?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-혈액04"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_혈액_Q05",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "혈액",
+    "section_name": "진단혈액학",
+    "section_q_num": 5,
+    "q_num": 47,
+    "q_label": "혈액 05번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단혈액학] 05번",
+    "subspecialty": "진단혈액학",
+    "stem": "60 세 여성 피로를 주소로 내원. 혈액검사/골수검 사 소견 주어짐. 가장 의심되는 진단은? [혈액검사 소견 : Hb. 감소 WBC 증가, PLT 감소, Cr. 2.3 Protein 9.4 Albumin 2.2]",
+    "images": [],
+    "options": [
+      "ALL",
+      "AML",
+      "Plasma cell myeloma",
+      "CML",
+      "Aplastic anemia"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "ALL",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단혈액학] 05번 핵심 해설",
+      "findings": "60 세 여성 피로를 주소로 내원. 혈액검사/골수검 사 소견 주어짐. 가장 의심되는 진단은? [혈액검사 소견 : Hb. 감소 WBC 증가, PL",
+      "trigger": "【21Y 진검 혈액 05번】 60 세 여성 피로를 주소로 내원. 혈액검사/골수검 사 소견 주어짐. 가장 의심되는 진단은? [혈액검사 소견",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-혈액05"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_혈액_Q06",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "혈액",
+    "section_name": "진단혈액학",
+    "section_q_num": 6,
+    "q_num": 48,
+    "q_label": "혈액 06번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단혈액학] 06번",
+    "subspecialty": "진단혈액학",
+    "stem": "갑상선 암 수술을 받으러 병원에 온 환자, CBC 에 서 PLT 이 20000 으로 측정됨. 해야 하는 검사는?",
+    "images": [],
+    "options": [
+      "말초혈액도말검사",
+      "골수검사"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "말초혈액도말검사",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단혈액학] 06번 핵심 해설",
+      "findings": "갑상선 암 수술을 받으러 병원에 온 환자, CBC 에 서 PLT 이 20000 으로 측정됨. 해야 하는 검사는?",
+      "trigger": "【21Y 진검 혈액 06번】 갑상선 암 수술을 받으러 병원에 온 환자, CBC 에 서 PLT 이 20000 으로 측정됨. 해야 하는 검사",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-혈액06"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_혈액_Q07",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "혈액",
+    "section_name": "진단혈액학",
+    "section_q_num": 7,
+    "q_num": 49,
+    "q_label": "혈액 07번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단혈액학] 07번",
+    "subspecialty": "진단혈액학",
+    "stem": "다음 화살표가 나타내는 소견은?",
+    "images": [],
+    "options": [
+      "Schistocyte",
+      "Ovalocyte"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "Schistocyte",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단혈액학] 07번 핵심 해설",
+      "findings": "다음 화살표가 나타내는 소견은?",
+      "trigger": "【21Y 진검 혈액 07번】 다음 화살표가 나타내는 소견은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-혈액07"
+    ]
+  },
+  {
+    "id": "진단검사의학과_21Y_혈액_Q08",
+    "subject": "진단검사의학과",
+    "year": "21Y",
+    "section": "혈액",
+    "section_name": "진단혈액학",
+    "section_q_num": 8,
+    "q_num": 50,
+    "q_label": "혈액 08번",
+    "category": "기출",
+    "theme_title": "2021년 진단검사의학과 학년말고사 [진단혈액학] 08번",
+    "subspecialty": "진단혈액학",
+    "stem": "다음 PBS 에서 관찰되는 소견은?",
+    "images": [],
+    "options": [
+      "Elliptocyte"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "Elliptocyte",
+    "explanation": {
+      "title": "2021년 진단검사의학과 [진단혈액학] 08번 핵심 해설",
+      "findings": "다음 PBS 에서 관찰되는 소견은?",
+      "trigger": "【21Y 진검 혈액 08번】 다음 PBS 에서 관찰되는 소견은?",
+      "trap": "검사실 정도관리 및 판독 기준 확인."
+    },
+    "option_explanations": [],
+    "is_multiple_choice": false,
+    "required_count": 1,
+    "correct_option_indices": [
+      0
+    ],
+    "raw_questions": [
+      "21Y-혈액08"
     ]
   }
 ]
