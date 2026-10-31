@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>subacute | 임상의학 기출 퀴즈 마스터</title>
   <meta name="description" content="subacute - 20Y ~ 26Y 임상의학 9개 분과 기출 문제 풀이 및 상세 해설 인터랙티브 CBT">
-  <link rel="stylesheet" href="style.css?v=20261031v16">
+  <link rel="stylesheet" href="style.css?v=20261031v17">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -49,7 +49,11 @@
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
         </button>
-                <button id="btn-open-pdf-viewer" class="btn-icon-text btn-pdf-header" type="button" aria-label="원본 시험지 PDF 보기" title="과목/연도별 원본 시험지 PDF 열기">
+        <div class="cloud-sync-indicator sync-online" id="cloud-sync-indicator" title="모든 기기(모바일/태블릿/PC)와 실시간 클라우드 연동됨 (클릭 시 즉시 동기화)">
+          <span class="sync-dot"></span>
+          <span class="sync-text" id="sync-status-text">클라우드 연동</span>
+        </div>
+        <button id="btn-open-pdf-viewer" class="btn-icon-text btn-pdf-header" type="button" aria-label="원본 시험지 PDF 보기" title="과목/연도별 원본 시험지 PDF 열기">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
             <polyline points="14 2 14 8 20 8"></polyline>
@@ -443,6 +447,11 @@
         <div class="modal-title-group">
           <h2 id="profile-modal-title">이어하기 · 학습 프로필 선택/만들기</h2>
           <span class="modal-subtitle">프로필별로 문제 풀이 상황, 오답·정답 통계, 북마크, 마지막 학습 위치가 자동 저장됩니다</span>
+          <div class="profile-sync-badge-bar">
+            <span class="profile-sync-icon">☁️</span>
+            <span class="profile-sync-desc">모든 기기(PC, 태블릿, 모바일)와 프로필·제보 내역이 실시간 동기화 중입니다.</span>
+            <button type="button" class="btn-profile-sync-now" id="btn-profile-sync-now" title="클라우드와 지금 즉시 동기화">🔄 지금 동기화</button>
+          </div>
         </div>
         <button type="button" class="modal-close" id="btn-close-profile" aria-label="프로필 창 닫기">✕</button>
       </div>
@@ -859,10 +868,10 @@
   <div class="toast-message" id="toast-message" style="display: none;"></div>
 
   <!-- Load Quiz Dataset (Embedded for instant local file:// execution without CORS) -->
-  <script src="data/quiz_data.js?v=20261031v16"></script>
+  <script src="data/quiz_data.js?v=20261031v17"></script>
   <!-- Original Exam PDF Manifest -->
-  <script src="data/pdf_manifest.js?v=20261031v16"></script>
+  <script src="data/pdf_manifest.js?v=20261031v17"></script>
   <!-- Main Application Logic -->
-  <script src="app.js?v=20261031v16"></script>
+  <script src="app.js?v=20261031v17"></script>
 </body>
 </html>

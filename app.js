@@ -34,6 +34,7 @@
     customEdits: JSON.parse(localStorage.getItem('KMLE_USER_CUSTOM_EDITS_V1') || '{}'),
     editLogs: JSON.parse(localStorage.getItem('KMLE_QUESTION_EDIT_LOGS_V1') || '[]'),
     comments: JSON.parse(localStorage.getItem('KMLE_QUESTION_COMMENTS_V1') || '{}'),
+    pendingDeletedCommentIds: [],
     activeProfileId: null,
     selectedNewAvatar: '🩺',
     autoOpenProfileModal: localStorage.getItem(STORAGE_KEY_AUTO_OPEN_PROFILE) !== 'false',
@@ -266,12 +267,223 @@
     btnZoomReset: document.getElementById('btn-zoom-reset'),
     lightboxViewport: document.getElementById('lightbox-viewport'),
     lightboxCanvas: document.getElementById('lightbox-canvas'),
-    btnCloseLightbox: document.getElementById('btn-close-lightbox')
+    btnCloseLightbox: document.getElementById('btn-close-lightbox'),
+    cloudSyncIndicator: document.getElementById('cloud-sync-indicator'),
+    syncStatusText: document.getElementById('sync-status-text'),
+    btnProfileSyncNow: document.getElementById('btn-profile-sync-now')
   };
 
   /**
    * Initialize Application
    */
+  // ==========================================================================
+  // Cloud Synchronization Engine (Real-time Cross-Client Sync)
+  // ==========================================================================
+  const CloudSyncManager = {
+    syncTimer: null,
+    isSyncing: false,
+    lastSyncTime: null,
+
+    async sync({ silent = false, isInitial = false } = {}) {
+      if (this.isSyncing) return;
+      this.isSyncing = true;
+      this.updateIndicator('syncing');
+
+      try {
+        // Ensure active profile state is up to date before syncing
+        const active = getActiveProfile();
+        if (active) {
+          active.userAnswers = { ...state.userAnswers };
+          active.bookmarks = [...state.bookmarks];
+          active.shuffleOptions = !!state.shuffleOptions;
+          const currentQ = getCurrentQuestion();
+          if (currentQ) {
+            active.lastQuestionId = currentQ.id;
+            if (currentQ.subject) {
+              if (!active.lastSubjectMap) active.lastSubjectMap = {};
+              active.lastSubjectMap[currentQ.subject] = currentQ.id;
+            }
+          }
+        }
+
+        // 1. Harvest all local client data
+        const payload = {
+          clientReports: Array.isArray(state.reports) ? state.reports : [],
+          clientComments: state.comments && typeof state.comments === 'object' ? state.comments : {},
+          clientEdits: state.customEdits && typeof state.customEdits === 'object' ? state.customEdits : {},
+          clientEditLogs: Array.isArray(state.editLogs) ? state.editLogs : [],
+          clientProfiles: Array.isArray(state.profiles) ? state.profiles : [],
+          activeProfileId: state.activeProfileId,
+          deletedCommentIds: Array.isArray(state.pendingDeletedCommentIds) ? state.pendingDeletedCommentIds : []
+        };
+
+        const resp = await fetch('/api/sync', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        if (!resp.ok) {
+          throw new Error(`Sync API responded with status ${resp.status}`);
+        }
+
+        const data = await resp.json();
+        if (data && data.success) {
+          state.pendingDeletedCommentIds = [];
+
+          // 2. Merge server reports
+          if (Array.isArray(data.reports)) {
+            state.reports = data.reports;
+            try {
+              localStorage.setItem(STORAGE_KEY_REPORTS, JSON.stringify(state.reports));
+            } catch (e) {}
+          }
+
+          // 3. Merge server comments
+          if (data.comments && typeof data.comments === 'object') {
+            state.comments = data.comments;
+            try {
+              localStorage.setItem(STORAGE_KEY_COMMENTS, JSON.stringify(state.comments));
+            } catch (e) {}
+          }
+
+          // 4. Merge server custom edits
+          if (data.customEdits && typeof data.customEdits === 'object') {
+            state.customEdits = data.customEdits;
+            try {
+              localStorage.setItem(STORAGE_KEY_CUSTOM_EDITS, JSON.stringify(state.customEdits));
+            } catch (e) {}
+            applyCustomEdits();
+          }
+
+          if (Array.isArray(data.editLogs)) {
+            state.editLogs = data.editLogs;
+            try {
+              localStorage.setItem(STORAGE_KEY_EDIT_LOGS, JSON.stringify(state.editLogs));
+            } catch (e) {}
+          }
+
+          // 5. Merge server profiles
+          if (Array.isArray(data.profiles) && data.profiles.length > 0) {
+            const currentActiveId = state.activeProfileId;
+            state.profiles = data.profiles;
+            const updatedActive = state.profiles.find(p => p.id === currentActiveId) || state.profiles[0];
+            state.activeProfileId = updatedActive.id;
+            loadProfileIntoMemory(updatedActive);
+            try {
+              localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(state.profiles));
+              localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, state.activeProfileId);
+            } catch (e) {}
+          }
+
+          // 6. Refresh UI components
+          const curQ = getCurrentQuestion();
+          if (curQ) {
+            updateNavCommentBadge(curQ);
+            updateReportButtonState(curQ);
+            if (dom.btnBookmark) {
+              dom.btnBookmark.classList.toggle('active', state.bookmarks.has(curQ.id));
+            }
+          }
+          updateProfileReportsBadge();
+          updateHeaderProfileUI();
+
+    // Start Cloud Real-Time Cross-Client Sync
+    CloudSyncManager.init();
+          updateStats();
+          syncFilterButtonsUI();
+
+          // Refresh open modals
+          if (dom.profileModal && dom.profileModal.open) {
+            renderProfileModal();
+          }
+          if (dom.commentModal && dom.commentModal.open && curQ) {
+            renderCommentList(curQ);
+          }
+          if (dom.reportHistorySection && dom.reportHistorySection.style.display !== 'none') {
+            renderReportHistoryList();
+          }
+
+          this.lastSyncTime = Date.now();
+          this.updateIndicator('online');
+          if (!silent && !isInitial) {
+            showToast('✅ 클라우드 실시간 동기화 완료');
+          }
+        } else {
+          this.updateIndicator('error');
+        }
+      } catch (err) {
+        console.warn('Cloud sync error (fallback to local):', err);
+        this.updateIndicator('offline');
+      } finally {
+        this.isSyncing = false;
+      }
+    },
+
+    scheduleDebouncedSync(delayMs = 3500) {
+      if (this.syncTimer) clearTimeout(this.syncTimer);
+      this.syncTimer = setTimeout(() => {
+        this.sync({ silent: true });
+      }, delayMs);
+    },
+
+    init() {
+      // Click on indicator in header triggers immediate manual sync
+      if (dom.cloudSyncIndicator) {
+        dom.cloudSyncIndicator.addEventListener('click', async () => {
+          showToast('🔄 클라우드와 실시간 동기화 중...');
+          await this.sync({ silent: false });
+        });
+      }
+
+      // Click on "지금 동기화" button in Profile Modal
+      if (dom.btnProfileSyncNow) {
+        dom.btnProfileSyncNow.addEventListener('click', async () => {
+          showToast('🔄 클라우드와 실시간 동기화 중...');
+          await this.sync({ silent: false });
+        });
+      }
+
+      // 1. Initial sync immediately to harvest existing local data and pull latest cloud data
+      this.sync({ isInitial: true });
+
+      // 2. Periodic sync every 25 seconds
+      setInterval(() => {
+        this.sync({ silent: true });
+      }, 25000);
+
+      // 3. Tab visibility sync
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') {
+          this.sync({ silent: true });
+        }
+      });
+
+      // 4. Online reconnection sync
+      window.addEventListener('online', () => {
+        this.sync({ silent: true });
+      });
+    },
+
+    updateIndicator(status) {
+      if (!dom.cloudSyncIndicator || !dom.syncStatusText) return;
+      dom.cloudSyncIndicator.className = `cloud-sync-indicator sync-${status}`;
+      if (status === 'syncing') {
+        dom.syncStatusText.textContent = '동기화 중...';
+        dom.cloudSyncIndicator.title = '클라우드와 실시간 동기화 중입니다...';
+      } else if (status === 'online') {
+        dom.syncStatusText.textContent = '클라우드 연동';
+        dom.cloudSyncIndicator.title = '모든 기기(모바일/태블릿/PC)와 실시간 연동 완료 (클릭 시 즉시 동기화)';
+      } else if (status === 'offline') {
+        dom.syncStatusText.textContent = '로컬 보관 (오프라인)';
+        dom.cloudSyncIndicator.title = '오프라인 상태입니다. 네트워크 연결 시 자동으로 동기화됩니다.';
+      } else {
+        dom.syncStatusText.textContent = '동기화 대기';
+        dom.cloudSyncIndicator.title = '클라우드 동기화 대기 중';
+      }
+    }
+  };
+
   async function init() {
     loadStorage();
     await loadQuestions();
@@ -509,6 +721,9 @@
         localStorage.setItem(STORAGE_KEY_LAST_ID, currentQ.id);
       }
       updateHeaderProfileUI();
+      if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.scheduleDebouncedSync) {
+        CloudSyncManager.scheduleDebouncedSync(3000);
+      }
     } catch (e) {
       console.error('Failed to save to local storage:', e);
     }
@@ -2628,6 +2843,9 @@
     renderCurrentQuestion();
     updateProfileCounters();
     showToast(`💾 [${q.id}] 문제 수정사항이 저장되었습니다.`);
+    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+      CloudSyncManager.sync({ silent: true });
+    }
   }
 
   function revertQuestionEdit() {
@@ -2649,6 +2867,9 @@
     renderCurrentQuestion();
     updateProfileCounters();
     showToast(`🔄 [${q.id}] 문제가 원래 상태로 복원되었습니다.`);
+    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+      CloudSyncManager.sync({ silent: true });
+    }
   }
 
   /**
@@ -2813,6 +3034,9 @@
       dom.btnQuestionPdf.title = `현재 문제(${q.subject} ${q.year})의 원본 시험지 PDF 열기`;
     }
     showToast('💬 댓글이 등록되었습니다.');
+    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+      CloudSyncManager.sync({ silent: true });
+    }
   }
 
   function deleteComment(qId, commId) {
@@ -2833,7 +3057,12 @@
       dom.btnQuestionPdf.title = `현재 문제(${q.subject} ${q.year})의 원본 시험지 PDF 열기`;
     }
     }
+    if (!state.pendingDeletedCommentIds) state.pendingDeletedCommentIds = [];
+    state.pendingDeletedCommentIds.push(commId);
     showToast('🗑️ 댓글이 삭제되었습니다.');
+    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+      CloudSyncManager.sync({ silent: true });
+    }
   }
 
   /**
@@ -4057,6 +4286,9 @@
 
     switchAndResumeProfile(newProfile.id);
     showToast(`🎉 새 프로필 '${newProfile.name}'이(가) 생성되었습니다!`);
+    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+      CloudSyncManager.sync({ silent: true });
+    }
   }
 
   function renameProfile(profileId) {
@@ -4125,6 +4357,9 @@
     saveStorage();
     renderProfileModal();
     showToast(`🗑️ '${prof.name}' 프로필이 삭제되었습니다.`);
+    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+      CloudSyncManager.sync({ silent: true });
+    }
   }
 
   function exportProfilesToFile() {
@@ -4361,6 +4596,9 @@
     updateProfileReportsBadge();
 
     showToast(`🚨 [${category}] 오류 제보가 접수되었습니다. 감사합니다!`);
+    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+      CloudSyncManager.sync({ silent: true });
+    }
   }
 
   function updateReportButtonState(q) {

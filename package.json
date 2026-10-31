@@ -14,5 +14,8 @@
     "vercel"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/blob": "^2.8.2"
+  }
 }

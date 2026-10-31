@@ -2803,6 +2803,107 @@ body {
   white-space: nowrap;
 }
 
+/* Cloud Sync Status Indicator in Header */
+.cloud-sync-indicator {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 700;
+  cursor: pointer;
+  background: #f1f5f9;
+  color: #64748b;
+  border: 1px solid #e2e8f0;
+  transition: all var(--transition-fast);
+  user-select: none;
+}
+
+.cloud-sync-indicator:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+.cloud-sync-indicator .sync-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #94a3b8;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.cloud-sync-indicator.sync-online {
+  background: #ecfdf5;
+  color: #065f46;
+  border-color: #a7f3d0;
+}
+.cloud-sync-indicator.sync-online .sync-dot {
+  background-color: #10b981;
+  box-shadow: 0 0 6px rgba(16, 185, 129, 0.6);
+}
+
+.cloud-sync-indicator.sync-syncing {
+  background: #eff6ff;
+  color: #1e40af;
+  border-color: #bfdbfe;
+}
+.cloud-sync-indicator.sync-syncing .sync-dot {
+  background-color: #3b82f6;
+  animation: pulse-sync 0.8s infinite alternate;
+}
+
+@keyframes pulse-sync {
+  0% { transform: scale(0.7); opacity: 0.4; }
+  100% { transform: scale(1.35); opacity: 1; }
+}
+
+.cloud-sync-indicator.sync-offline {
+  background: #fef2f2;
+  color: #991b1b;
+  border-color: #fecaca;
+}
+.cloud-sync-indicator.sync-offline .sync-dot {
+  background-color: #ef4444;
+}
+
+/* Profile Modal Cloud Sync Badge Bar */
+.profile-sync-badge-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #f0fdf4, #ecfdf5);
+  border: 1px solid #bbf7d0;
+  border-radius: var(--radius-md);
+  padding: 0.45rem 0.8rem;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #166534;
+}
+
+.profile-sync-desc {
+  flex: 1;
+  font-weight: 600;
+}
+
+.btn-profile-sync-now {
+  background: white;
+  border: 1px solid #86efac;
+  color: #15803d;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.25rem 0.55rem;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.btn-profile-sync-now:hover {
+  background: #dcfce7;
+  border-color: #4ade80;
+}
+
 /* Native <dialog> Modal Styling (Modern Web Guidance compliant) */
 dialog.profile-dialog {
   border: none;
