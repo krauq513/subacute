@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>subacute | 임상의학 기출 퀴즈 마스터</title>
   <meta name="description" content="subacute - 20Y ~ 26Y 임상의학 9개 분과 기출 문제 풀이 및 상세 해설 인터랙티브 CBT">
-  <link rel="stylesheet" href="style.css?v=20261101v6">
+  <link rel="stylesheet" href="style.css?v=20261101v7">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -481,7 +481,12 @@
                 <span class="profile-resume-time" id="resume-last-time">자동 저장됨</span>
               </div>
               <div class="profile-resume-target" id="resume-target-text">마지막 학습 위치를 불러오는 중...</div>
-              <div class="profile-resume-stats" id="resume-stats-text">총 0 / 2,267문항 풀이 · 정답률 0% · 북마크 0개</div>
+              <div class="profile-resume-progress-wrap">
+                <div class="profile-resume-bar-track" title="전체 풀이 진도">
+                  <div class="profile-resume-bar-fill" id="resume-bar-fill" style="width: 0%;"></div>
+                </div>
+                <div class="profile-resume-stats" id="resume-stats-text">총 0 / 2,267문항 풀이 · 정답률 0% · 북마크 0개</div>
+              </div>
             </div>
             <button type="button" class="btn-resume-now" id="btn-resume-last" autofocus>
               <span>▶ 이어하기</span>
@@ -497,8 +502,13 @@
         <!-- Saved Profiles List -->
         <section class="profile-section" aria-labelledby="profile-list-heading">
           <div class="profile-section-header">
-            <h3 id="profile-list-heading">저장된 프로필 목록</h3>
-            <span class="profile-count-badge" id="profile-count-badge">1개 프로필</span>
+            <div class="profile-header-left">
+              <h3 id="profile-list-heading">저장된 프로필 목록</h3>
+              <span class="profile-count-badge" id="profile-count-badge">1개 프로필</span>
+            </div>
+            <div class="profile-search-wrap" id="profile-search-wrap" style="display: none;">
+              <input type="text" id="profile-search-input" class="profile-search-input" placeholder="🔍 프로필 검색..." aria-label="프로필 검색">
+            </div>
           </div>
           <div class="profile-list" id="profile-list">
             <!-- Dynamically rendered profile cards -->
@@ -894,6 +904,6 @@
   <!-- Original Exam PDF Manifest -->
   <script src="data/pdf_manifest.js?v=20261101v6"></script>
   <!-- Main Application Logic -->
-  <script src="app.js?v=20261101v6"></script>
+  <script src="app.js?v=20261101v7"></script>
 </body>
 </html>

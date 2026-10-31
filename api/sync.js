@@ -133,25 +133,42 @@ function mergeData(serverData, clientData) {
 
       // Handle profile reset or answer-level timestamp merge
       let mergedAnswers = {};
-      if (cp.resetAt && Number(cp.resetAt) > Number(sp.resetAt || 0)) {
+      if (cp.resetAt && Number(cp.resetAt) > Number(sp.resetAt || 0) && Number(cp.resetAt) > Number(sp.updatedAt || 0)) {
         mergedAnswers = { ...(cp.userAnswers || {}) };
       } else {
         mergedAnswers = { ...(sp.userAnswers || {}) };
         if (cp.userAnswers && typeof cp.userAnswers === 'object') {
           for (const [qId, cAns] of Object.entries(cp.userAnswers)) {
             const sAns = mergedAnswers[qId];
-            if (!sAns || Number(cAns.timestamp || 0) >= Number(sAns.timestamp || 0)) {
+            if (!sAns) {
               mergedAnswers[qId] = cAns;
+            } else {
+              const cTime = Number(cAns.timestamp || 0);
+              const sTime = Number(sAns.timestamp || 0);
+              if (cTime >= sTime) {
+                mergedAnswers[qId] = cAns;
+              }
             }
           }
         }
       }
 
-      const mergedBookmarks = useCpForPosition
-        ? (Array.isArray(cp.bookmarks) ? cp.bookmarks : [])
-        : (Array.isArray(sp.bookmarks) ? sp.bookmarks : []);
+      // Union merge of bookmarks across all devices
+      const mergedBookmarks = Array.from(new Set([
+        ...(Array.isArray(sp.bookmarks) ? sp.bookmarks : []),
+        ...(Array.isArray(cp.bookmarks) ? cp.bookmarks : [])
+      ]));
 
-      const mergedSubjectMap = { ...(sp.lastSubjectMap || {}), ...(cp.lastSubjectMap || {}) };
+      // Merge subject map taking the latest position per subject
+      const mergedSubjectMap = { ...(sp.lastSubjectMap || {}) };
+      if (cp.lastSubjectMap && typeof cp.lastSubjectMap === 'object') {
+        for (const [sub, cVal] of Object.entries(cp.lastSubjectMap)) {
+          if (!mergedSubjectMap[sub] || useCpForPosition) {
+            mergedSubjectMap[sub] = cVal;
+          }
+        }
+      }
+
       const newerTime = Math.max(Number(sp.updatedAt || 0), Number(cp.updatedAt || 0), Date.now());
 
       profileMap.set(key, {

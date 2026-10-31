@@ -181,6 +181,9 @@
     profileSubjectResumeWrap: document.getElementById('profile-subject-resume-wrap'),
     profileSubjectResumeList: document.getElementById('profile-subject-resume-list'),
     profileCountBadge: document.getElementById('profile-count-badge'),
+    profileSearchWrap: document.getElementById('profile-search-wrap'),
+    profileSearchInput: document.getElementById('profile-search-input'),
+    resumeBarFill: document.getElementById('resume-bar-fill'),
     profileList: document.getElementById('profile-list'),
     formCreateProfile: document.getElementById('form-create-profile'),
     profileAvatarPicker: document.getElementById('profile-avatar-picker'),
@@ -376,11 +379,20 @@
             } catch (e) {}
           }
 
-          // 5. Merge server profiles
+          // 5. Merge server profiles (Preserving active profile across devices by ID or Name)
           if (Array.isArray(data.profiles) && data.profiles.length > 0) {
             const currentActiveId = state.activeProfileId;
+            const currentActiveProfile = state.profiles.find(p => p.id === currentActiveId);
+            const currentActiveName = currentActiveProfile ? currentActiveProfile.name : null;
             state.profiles = data.profiles;
-            const updatedActive = state.profiles.find(p => p.id === currentActiveId) || state.profiles[0];
+            let updatedActive = state.profiles.find(p => p.id === currentActiveId);
+            if (!updatedActive && currentActiveName) {
+              const norm = currentActiveName.trim().toLowerCase();
+              updatedActive = state.profiles.find(p => p && p.name && p.name.trim().toLowerCase() === norm);
+            }
+            if (!updatedActive) {
+              updatedActive = state.profiles[0];
+            }
             state.activeProfileId = updatedActive.id;
             loadProfileIntoMemory(updatedActive);
             try {
@@ -645,6 +657,43 @@
         });
         loadedProfiles = [defaultProfile];
       }
+
+      // Check for any legacy local answers not yet reflected in profiles
+      try {
+        const sa = localStorage.getItem(STORAGE_KEY_ANSWERS) || localStorage.getItem('KMLE_QUESTION_ANSWERS_V1');
+        if (sa) {
+          const parsedAnswers = JSON.parse(sa);
+          if (parsedAnswers && typeof parsedAnswers === 'object' && Object.keys(parsedAnswers).length > 0) {
+            const targetProfile = loadedProfiles.find(p => p.id === 'profile_default') || loadedProfiles[0];
+            if (targetProfile) {
+              if (!targetProfile.userAnswers) targetProfile.userAnswers = {};
+              let hasNew = false;
+              for (const [qId, ans] of Object.entries(parsedAnswers)) {
+                if (!targetProfile.userAnswers[qId]) {
+                  targetProfile.userAnswers[qId] = ans;
+                  hasNew = true;
+                }
+              }
+              if (hasNew) {
+                targetProfile.updatedAt = Date.now();
+              }
+            }
+          }
+        }
+
+        const sb = localStorage.getItem(STORAGE_KEY_BOOKMARKS);
+        if (sb) {
+          const parsedBm = JSON.parse(sb);
+          if (Array.isArray(parsedBm) && parsedBm.length > 0) {
+            const targetProfile = loadedProfiles.find(p => p.id === 'profile_default') || loadedProfiles[0];
+            if (targetProfile) {
+              const bmSet = new Set(Array.isArray(targetProfile.bookmarks) ? targetProfile.bookmarks : []);
+              parsedBm.forEach(b => bmSet.add(b));
+              targetProfile.bookmarks = Array.from(bmSet);
+            }
+          }
+        }
+      } catch (err) {}
 
       state.profiles = loadedProfiles;
       const savedActiveId = localStorage.getItem(STORAGE_KEY_ACTIVE_PROFILE_ID);
@@ -4194,6 +4243,9 @@
     if (dom.resumeTargetText) {
       dom.resumeTargetText.textContent = `최근 위치: ${posInfo.text}`;
     }
+    if (dom.resumeBarFill) {
+      dom.resumeBarFill.style.width = `${statsInfo.pct}%`;
+    }
     if (dom.resumeStatsText) {
       dom.resumeStatsText.textContent = `전체 풀이 ${statsInfo.answeredCount} / ${statsInfo.total}문항 (${statsInfo.pct}%) · 정답률 ${statsInfo.acc}% · 북마크 ★ ${statsInfo.bCount}`;
     }
@@ -4224,9 +4276,11 @@
         chip.type = 'button';
         chip.className = 'subject-resume-chip';
         const icon = SUBJECT_META[sub] ? SUBJECT_META[sub].icon : '📘';
-        chip.textContent = `${icon} ${sub} (#${savedPos} 이어하기 · ${subSolved}/${subQs.length})`;
-        chip.title = `${sub} ${savedPos}번 문제에서 바로 이어하기`;
-        chip.addEventListener('click', () => {
+        const subPct = subQs.length > 0 ? Math.round((subSolved / subQs.length) * 100) : 0;
+        chip.innerHTML = `<span class="chip-sub-label">${icon} ${sub}</span> <span class="chip-sub-badge">#${savedPos}번</span> <span class="chip-sub-stats">(${subSolved}/${subQs.length} · ${subPct}%)</span>`;
+        chip.title = `${sub} ${savedPos}번 문제에서 바로 이어하기 (${subSolved}/${subQs.length}문항 풀이)`;
+        chip.addEventListener('click', (e) => {
+          e.stopPropagation();
           switchAndResumeProfile(active.id, sub);
         });
         dom.profileSubjectResumeList.appendChild(chip);
@@ -4239,6 +4293,25 @@
     if (dom.profileCountBadge) {
       dom.profileCountBadge.textContent = `${state.profiles.length}개 프로필`;
     }
+
+    // Show search filter when there are 4 or more profiles
+    if (dom.profileSearchWrap) {
+      dom.profileSearchWrap.style.display = state.profiles.length >= 4 ? 'block' : 'none';
+      if (dom.profileSearchInput && !dom.profileSearchInput._hasFilterInit) {
+        dom.profileSearchInput._hasFilterInit = true;
+        dom.profileSearchInput.addEventListener('input', () => {
+          const query = dom.profileSearchInput.value.trim().toLowerCase();
+          if (!dom.profileList) return;
+          const cards = dom.profileList.querySelectorAll('.profile-item-card');
+          cards.forEach(c => {
+            const nameEl = c.querySelector('.profile-item-name');
+            const name = nameEl ? nameEl.textContent.trim().toLowerCase() : '';
+            c.style.display = (!query || name.includes(query)) ? 'flex' : 'none';
+          });
+        });
+      }
+    }
+
     if (dom.profileList) {
       dom.profileList.innerHTML = '';
       state.profiles.forEach(prof => {
@@ -4248,11 +4321,19 @@
 
         const card = document.createElement('div');
         card.className = `profile-item-card${isCurrent ? ' active-profile' : ''}`;
-        card.style.cursor = 'pointer';
+        card.setAttribute('role', 'button');
+        card.setAttribute('tabindex', '0');
         card.setAttribute('title', `'${prof.name}' 프로필 선택 및 마지막 학습 위치로 이어하기`);
         card.addEventListener('click', (e) => {
-          if (e.target.closest('.btn-profile-action')) return;
+          if (e.target.closest('.btn-profile-action') || e.target.closest('.btn-icon-action') || e.target.closest('.btn-profile-select')) return;
           switchAndResumeProfile(prof.id);
+        });
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            if (e.target.closest('.btn-profile-action') || e.target.closest('.btn-icon-action') || e.target.closest('.btn-profile-select')) return;
+            e.preventDefault();
+            switchAndResumeProfile(prof.id);
+          }
         });
 
         const left = document.createElement('div');
@@ -4261,12 +4342,17 @@
           <div class="profile-item-avatar">${escapeHtml(prof.avatar || '🩺')}</div>
           <div class="profile-item-meta">
             <div class="profile-item-title-row">
-              <span class="profile-item-name">${escapeHtml(prof.name)}</span>
+              <span class="profile-item-name" title="${escapeHtml(prof.name)}">${escapeHtml(prof.name)}</span>
               ${isCurrent ? '<span class="profile-item-badge">현재 사용 중</span>' : ''}
               <span class="profile-resume-time">${escapeHtml(formatProfileTime(prof.updatedAt))}</span>
             </div>
-            <div class="profile-item-last">📍 최근 위치: ${escapeHtml(pPos.text)}</div>
-            <div class="profile-item-sub">풀이 ${pStats.answeredCount} / ${pStats.total}문항 (${pStats.pct}%) · 정답률 ${pStats.acc}% · 북마크 ★ ${pStats.bCount}</div>
+            <div class="profile-item-last" title="${escapeHtml(pPos.text)}">📍 ${escapeHtml(pPos.text)}</div>
+            <div class="profile-item-progress-row">
+              <div class="profile-mini-bar-track" title="전체 진도 ${pStats.pct}% (${pStats.answeredCount}/${pStats.total}문항)">
+                <div class="profile-mini-bar-fill" style="width: ${pStats.pct}%;"></div>
+              </div>
+              <span class="profile-mini-stat">${pStats.pct}% 풀이 (${pStats.answeredCount}문항) · 정답률 ${pStats.acc}% · ★ ${pStats.bCount}</span>
+            </div>
           </div>
         `;
 
@@ -4275,34 +4361,57 @@
 
         const btnSelect = document.createElement('button');
         btnSelect.type = 'button';
-        btnSelect.className = 'btn-profile-select';
-        btnSelect.textContent = isCurrent ? '▶ 이어하기' : '▶ 선택 · 이어하기';
-        btnSelect.addEventListener('click', () => switchAndResumeProfile(prof.id));
+        btnSelect.className = `btn-profile-select${isCurrent ? ' is-active' : ''}`;
+        btnSelect.textContent = isCurrent ? '▶ 이어하기' : '선택 · 이어하기';
+        btnSelect.title = isCurrent ? '현재 위치에서 바로 이어하기' : `'${prof.name}' 프로필로 전환하고 이어하기`;
+        btnSelect.addEventListener('click', (e) => {
+          e.stopPropagation();
+          switchAndResumeProfile(prof.id);
+        });
         actions.appendChild(btnSelect);
+
+        const iconGroup = document.createElement('div');
+        iconGroup.className = 'profile-icon-actions';
 
         const btnRename = document.createElement('button');
         btnRename.type = 'button';
-        btnRename.className = 'btn-profile-action';
-        btnRename.textContent = '✏️ 이름 변경';
-        btnRename.addEventListener('click', () => renameProfile(prof.id));
-        actions.appendChild(btnRename);
+        btnRename.className = 'btn-icon-action';
+        btnRename.innerHTML = '✏️';
+        btnRename.title = `'${prof.name}' 이름 변경`;
+        btnRename.setAttribute('aria-label', `'${prof.name}' 프로필 이름 변경`);
+        btnRename.addEventListener('click', (e) => {
+          e.stopPropagation();
+          renameProfile(prof.id);
+        });
+        iconGroup.appendChild(btnRename);
 
         const btnReset = document.createElement('button');
         btnReset.type = 'button';
-        btnReset.className = 'btn-profile-action danger';
-        btnReset.textContent = '🔄 초기화';
-        btnReset.addEventListener('click', () => resetProfileHistory(prof.id));
-        actions.appendChild(btnReset);
+        btnReset.className = 'btn-icon-action danger';
+        btnReset.innerHTML = '🔄';
+        btnReset.title = `'${prof.name}' 풀이 기록 초기화`;
+        btnReset.setAttribute('aria-label', `'${prof.name}' 풀이 기록 초기화`);
+        btnReset.addEventListener('click', (e) => {
+          e.stopPropagation();
+          resetProfileHistory(prof.id);
+        });
+        iconGroup.appendChild(btnReset);
 
         if (state.profiles.length > 1) {
           const btnDelete = document.createElement('button');
           btnDelete.type = 'button';
-          btnDelete.className = 'btn-profile-action danger';
-          btnDelete.textContent = '🗑️ 삭제';
-          btnDelete.addEventListener('click', () => deleteProfile(prof.id));
-          actions.appendChild(btnDelete);
+          btnDelete.className = 'btn-icon-action danger';
+          btnDelete.innerHTML = '🗑️';
+          btnDelete.title = `'${prof.name}' 프로필 삭제`;
+          btnDelete.setAttribute('aria-label', `'${prof.name}' 프로필 삭제`);
+          btnDelete.addEventListener('click', (e) => {
+            e.stopPropagation();
+            deleteProfile(prof.id);
+          });
+          iconGroup.appendChild(btnDelete);
         }
 
+        actions.appendChild(iconGroup);
         card.appendChild(left);
         card.appendChild(actions);
         dom.profileList.appendChild(card);
