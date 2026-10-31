@@ -234126,7 +234126,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 4,
     "rate": 67,
@@ -243085,7 +243085,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 4,
     "rate": 67,
