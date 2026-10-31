@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>subacute | 임상의학 기출 퀴즈 마스터</title>
   <meta name="description" content="subacute - 20Y ~ 26Y 임상의학 9개 분과 기출 문제 풀이 및 상세 해설 인터랙티브 CBT">
-  <link rel="stylesheet" href="style.css?v=20261031v7">
+  <link rel="stylesheet" href="style.css?v=20261031v8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -48,6 +48,15 @@
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
+        </button>
+                <button id="btn-open-pdf-viewer" class="btn-icon-text btn-pdf-header" type="button" aria-label="원본 시험지 PDF 보기" title="과목/연도별 원본 시험지 PDF 열기">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+          </svg>
+          <span>원본 PDF</span>
         </button>
         <button id="btn-open-grid" class="btn-icon-text" aria-label="전체 문제 목록 열기">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -152,6 +161,15 @@
           </div>
           <div class="meta-right">
             <span class="filter-counter" id="filter-counter">문항 1 / 211</span>
+                        <button id="btn-question-pdf" class="btn-question-pdf" type="button" aria-label="이 문제 원본 시험지 PDF 보기" title="현재 문제의 과목/연도 원본 시험지 PDF 열기">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+              </svg>
+              <span>원본 PDF</span>
+            </button>
             <button id="btn-edit-question" class="btn-edit-question" type="button" aria-label="문제 발문 및 선지 직접 수정" title="이 문제의 발문과 선지를 직접 수정하고 기록을 남깁니다">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M12 20h9"></path>
@@ -758,12 +776,93 @@
     </div>
   </dialog>
 
+  <!-- Original Exam PDF Viewer Modal Dialog -->
+  <dialog id="pdf-viewer-modal" class="custom-modal pdf-viewer-modal" aria-labelledby="pdf-viewer-title">
+    <div class="modal-content pdf-viewer-modal-content">
+      <div class="modal-header pdf-modal-header">
+        <div class="pdf-modal-title-group">
+          <div class="pdf-title-row">
+            <span class="report-header-icon">📑</span>
+            <h2 id="pdf-viewer-title">원본 시험지 PDF 뷰어</h2>
+            <span class="pdf-active-doc-badge" id="pdf-active-doc-badge">내과 · 26Y</span>
+          </div>
+          <span class="pdf-modal-subtitle" id="pdf-modal-subtitle">과목과 연도를 선택해 원본 기말고사 시험지를 바로 열람할 수 있습니다.</span>
+        </div>
+        <div class="pdf-modal-header-actions">
+          <!-- Subject Selector -->
+          <div class="pdf-selector-item">
+            <label for="pdf-select-subject">과목</label>
+            <select id="pdf-select-subject" class="pdf-dropdown-select">
+              <option value="내과">내과</option>
+              <option value="산부인과">산부인과</option>
+              <option value="소아청소년과">소아청소년과</option>
+              <option value="신경과">신경과</option>
+              <option value="영상의학과">영상의학과</option>
+              <option value="외과">외과</option>
+              <option value="정신건강의학과">정신건강의학과</option>
+              <option value="정형외과">정형외과</option>
+              <option value="진단검사의학과">진단검사의학과</option>
+            </select>
+          </div>
+          <!-- Year Selector -->
+          <div class="pdf-selector-item">
+            <label for="pdf-select-year">연도</label>
+            <select id="pdf-select-year" class="pdf-dropdown-select">
+              <!-- Dynamically populated -->
+            </select>
+          </div>
+          <!-- Open in new tab -->
+          <button type="button" id="btn-pdf-external" class="btn-pdf-action" title="새 창/새 탭에서 전체화면으로 열기">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+              <polyline points="15 3 21 3 21 9"></polyline>
+              <line x1="10" y1="14" x2="21" y2="3"></line>
+            </svg>
+            <span>새 탭 열기</span>
+          </button>
+          <!-- Download -->
+          <a id="btn-pdf-download" class="btn-pdf-action" href="#" download title="PDF 파일 다운로드">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>다운로드</span>
+          </a>
+          <!-- Close Button -->
+          <button type="button" class="modal-close" id="btn-close-pdf-modal" aria-label="PDF 뷰어 닫기">✕</button>
+        </div>
+      </div>
+
+      <div class="pdf-modal-body">
+        <div class="pdf-frame-wrapper" id="pdf-frame-wrapper">
+          <iframe id="pdf-frame" class="pdf-iframe-view" src="about:blank" title="원본 시험지 PDF 미리보기"></iframe>
+          <div id="pdf-empty-state" class="pdf-empty-state" style="display: none;">
+            <span class="pdf-empty-icon">📂</span>
+            <p class="pdf-empty-title">해당 과목/연도의 시험지 파일이 제공되지 않습니다.</p>
+            <p class="pdf-empty-desc">다른 과목 또는 연도를 선택해주세요.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer pdf-modal-footer">
+        <div class="pdf-footer-status">
+          <span class="pdf-status-pill" id="pdf-status-pill">💡 검색 팁</span>
+          <span class="pdf-status-desc" id="pdf-status-desc">브라우저 내장 PDF 검색(<strong>Ctrl + F</strong>)을 사용하여 문제 번호나 키워드로 바로 이동할 수 있습니다.</span>
+        </div>
+        <button type="button" class="btn-primary" id="btn-close-pdf-bottom">닫기</button>
+      </div>
+    </div>
+  </dialog>
+
   <!-- Toast notification message -->
   <div class="toast-message" id="toast-message" style="display: none;"></div>
 
   <!-- Load Quiz Dataset (Embedded for instant local file:// execution without CORS) -->
-  <script src="data/quiz_data.js?v=20261031v7"></script>
+  <script src="data/quiz_data.js?v=20261031v8"></script>
+  <!-- Original Exam PDF Manifest -->
+  <script src="data/pdf_manifest.js?v=20261031v8"></script>
   <!-- Main Application Logic -->
-  <script src="app.js?v=20261031v7"></script>
+  <script src="app.js?v=20261031v8"></script>
 </body>
 </html>

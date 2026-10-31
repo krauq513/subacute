@@ -234,6 +234,20 @@
     editHistoryList: document.getElementById('edit-history-list'),
     btnExportEdits: document.getElementById('btn-export-edits'),
     btnClearEdits: document.getElementById('btn-clear-edits'),
+    // Original Exam PDF Viewer Modal Elements
+    btnOpenPdfViewer: document.getElementById('btn-open-pdf-viewer'),
+    btnQuestionPdf: document.getElementById('btn-question-pdf'),
+    pdfModal: document.getElementById('pdf-viewer-modal'),
+    btnClosePdfModal: document.getElementById('btn-close-pdf-modal'),
+    btnClosePdfBottom: document.getElementById('btn-close-pdf-bottom'),
+    pdfSelectSubject: document.getElementById('pdf-select-subject'),
+    pdfSelectYear: document.getElementById('pdf-select-year'),
+    btnPdfExternal: document.getElementById('btn-pdf-external'),
+    btnPdfDownload: document.getElementById('btn-pdf-download'),
+    pdfFrame: document.getElementById('pdf-frame'),
+    pdfEmptyState: document.getElementById('pdf-empty-state'),
+    pdfActiveDocBadge: document.getElementById('pdf-active-doc-badge'),
+    pdfStatusDesc: document.getElementById('pdf-status-desc'),
     reportTargetSub: document.getElementById('report-target-sub'),
     reportTargetYear: document.getElementById('report-target-year'),
     reportTargetQnum: document.getElementById('report-target-qnum'),
@@ -485,6 +499,7 @@
   async function loadQuestions() {
     if (window.QUIZ_DATA && Array.isArray(window.QUIZ_DATA) && window.QUIZ_DATA.length > 0) {
       state.allQuestions = window.QUIZ_DATA;
+      applyCustomEdits();
       return;
     }
 
@@ -492,6 +507,7 @@
       const res = await fetch('data/quiz_all_subjects.json');
       if (!res.ok) throw new Error('Network response not ok');
       state.allQuestions = await res.json();
+      applyCustomEdits();
     } catch (err) {
       console.warn('Fetch fallback to quiz_lab_med.json or window.QUIZ_DATA:', err);
       try {
@@ -2373,6 +2389,690 @@
     dom.statBookmarks.textContent = `${bookmarkCount}`;
   }
 
+
+  /**
+   * ==========================================================================
+   * Question Direct Edit Engine & Audit Logging
+   * ==========================================================================
+   */
+
+  /**
+   * Apply user custom edits onto allQuestions on initialization
+   */
+  function applyCustomEdits() {
+    if (!state.customEdits || Object.keys(state.customEdits).length === 0) return;
+    state.allQuestions.forEach(q => {
+      const edit = state.customEdits[q.id];
+      if (edit) {
+        // Save original pristine copy if not saved
+        if (!q._orig) {
+          q._orig = {
+            stem: q.stem,
+            question: q.question,
+            options: q.options ? [...q.options] : [],
+            correct_option_index: q.correct_option_index,
+            correct_answer: q.correct_answer
+          };
+        }
+        if (edit.stem !== undefined) q.stem = edit.stem;
+        if (edit.question !== undefined) q.question = edit.question;
+        if (edit.options !== undefined) q.options = [...edit.options];
+        if (edit.correct_option_index !== undefined) {
+          q.correct_option_index = edit.correct_option_index;
+          q.correct_answer = q.options[edit.correct_option_index] || '';
+        }
+      }
+    });
+  }
+
+  function openEditQuestionModal() {
+    const q = getCurrentQuestion();
+    if (!q || !dom.editQuestionModal) return;
+
+    if (dom.editTargetSubject) dom.editTargetSubject.textContent = q.subject || '임상의학';
+    if (dom.editTargetYear) dom.editTargetYear.textContent = q.year || '기출';
+    if (dom.editTargetQnum) {
+      dom.editTargetQnum.textContent = (q.year === '22Y' && q.section && q.section_q_num)
+        ? `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`
+        : `Q${String(q.q_num || '').padStart(2, '0')}`;
+    }
+    if (dom.editTargetQid) dom.editTargetQid.textContent = q.id;
+
+    if (dom.editStemInput) {
+      dom.editStemInput.value = q.stem || q.question || '';
+    }
+
+    if (dom.editOptionsContainer) {
+      dom.editOptionsContainer.innerHTML = '';
+      const opts = q.options || [];
+      opts.forEach((optText, idx) => {
+        const row = document.createElement('div');
+        row.className = 'edit-option-row';
+
+        const prefix = document.createElement('span');
+        prefix.className = 'edit-opt-prefix';
+        prefix.textContent = CIRCLE_NUMS[idx] || `${idx + 1}.`;
+
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.className = 'edit-opt-input';
+        input.value = optText;
+        input.dataset.optIdx = String(idx);
+
+        row.appendChild(prefix);
+        row.appendChild(input);
+        dom.editOptionsContainer.appendChild(row);
+      });
+    }
+
+    if (dom.editAnswerSelect) {
+      dom.editAnswerSelect.innerHTML = '';
+      const opts = q.options || [];
+      opts.forEach((_, idx) => {
+        const optEl = document.createElement('option');
+        optEl.value = String(idx);
+        optEl.textContent = `${CIRCLE_NUMS[idx] || (idx + 1) + '번'} 정답`;
+        if (idx === q.correct_option_index) {
+          optEl.selected = true;
+        }
+        dom.editAnswerSelect.appendChild(optEl);
+      });
+    }
+
+    if (dom.editReasonInput) dom.editReasonInput.value = '';
+
+    // If already edited, show revert button
+    if (dom.btnRevertQuestionEdit) {
+      dom.btnRevertQuestionEdit.style.display = (state.customEdits && state.customEdits[q.id]) ? 'inline-block' : 'none';
+    }
+
+    dom.editQuestionModal.showModal();
+  }
+
+  function closeEditQuestionModal() {
+    if (dom.editQuestionModal && dom.editQuestionModal.open) {
+      dom.editQuestionModal.close();
+    }
+  }
+
+  function saveQuestionEdit() {
+    const q = getCurrentQuestion();
+    if (!q) return;
+
+    const newStem = dom.editStemInput ? dom.editStemInput.value.trim() : '';
+    if (!newStem) {
+      showToast('⚠️ 문제 발문은 비워둘 수 없습니다.');
+      return;
+    }
+
+    const optInputs = dom.editOptionsContainer ? dom.editOptionsContainer.querySelectorAll('.edit-opt-input') : [];
+    const newOptions = Array.from(optInputs).map(inp => inp.value.trim());
+
+    const newAnsIdx = dom.editAnswerSelect ? parseInt(dom.editAnswerSelect.value, 10) : q.correct_option_index;
+    const note = dom.editReasonInput ? dom.editReasonInput.value.trim() : '';
+
+    // Preserve original pristine copy if not saved
+    if (!q._orig) {
+      q._orig = {
+        stem: q.stem,
+        question: q.question,
+        options: q.options ? [...q.options] : [],
+        correct_option_index: q.correct_option_index,
+        correct_answer: q.correct_answer
+      };
+    }
+
+    const oldStem = q.stem;
+    const oldOptions = q.options ? [...q.options] : [];
+    const oldAnsIdx = q.correct_option_index;
+
+    // Update in memory
+    q.stem = newStem;
+    q.question = newStem;
+    q.options = newOptions;
+    q.correct_option_index = newAnsIdx;
+    q.correct_answer = newOptions[newAnsIdx] || '';
+
+    // Save to customEdits
+    state.customEdits[q.id] = {
+      stem: newStem,
+      question: newStem,
+      options: newOptions,
+      correct_option_index: newAnsIdx,
+      timestamp: Date.now(),
+      note: note
+    };
+    localStorage.setItem(STORAGE_KEY_CUSTOM_EDITS, JSON.stringify(state.customEdits));
+
+    // Append to audit log
+    const logEntry = {
+      id: 'edit_' + Date.now(),
+      qId: q.id,
+      subject: q.subject,
+      year: q.year,
+      qNum: q.q_num,
+      timestamp: Date.now(),
+      oldStem: oldStem,
+      newStem: newStem,
+      oldOptions: oldOptions,
+      newOptions: newOptions,
+      oldAnswer: oldAnsIdx,
+      newAnswer: newAnsIdx,
+      note: note
+    };
+    state.editLogs.unshift(logEntry);
+    localStorage.setItem(STORAGE_KEY_EDIT_LOGS, JSON.stringify(state.editLogs));
+
+    closeEditQuestionModal();
+    renderCurrentQuestion();
+    updateProfileCounters();
+    showToast(`💾 [${q.id}] 문제 수정사항이 저장되었습니다.`);
+  }
+
+  function revertQuestionEdit() {
+    const q = getCurrentQuestion();
+    if (!q || !q._orig) return;
+
+    if (!confirm('정말로 이 문제의 수정을 취소하고 원래 상태로 복원하시겠습니까?')) return;
+
+    q.stem = q._orig.stem;
+    q.question = q._orig.question;
+    q.options = [...q._orig.options];
+    q.correct_option_index = q._orig.correct_option_index;
+    q.correct_answer = q._orig.correct_answer;
+
+    delete state.customEdits[q.id];
+    localStorage.setItem(STORAGE_KEY_CUSTOM_EDITS, JSON.stringify(state.customEdits));
+
+    closeEditQuestionModal();
+    renderCurrentQuestion();
+    updateProfileCounters();
+    showToast(`🔄 [${q.id}] 문제가 원래 상태로 복원되었습니다.`);
+  }
+
+  /**
+   * ==========================================================================
+   * Question Comments Engine (Nav Bar & Modal)
+   * ==========================================================================
+   */
+
+  function updateNavCommentBadge(q) {
+    if (!dom.btnQuestionComments || !dom.navCommentCount) return;
+    if (!q) {
+      dom.navCommentCount.textContent = '0';
+      dom.btnQuestionComments.className = 'btn-nav-comments has-no-comments';
+      return;
+    }
+
+    const qComments = (state.comments && state.comments[q.id]) || [];
+    const count = qComments.length;
+    dom.navCommentCount.textContent = String(count);
+
+    if (count > 0) {
+      dom.btnQuestionComments.className = 'btn-nav-comments has-comments';
+      dom.btnQuestionComments.title = `이 문제에 작성된 댓글 ${count}개 보기 / 남기기 (단축키 C)`;
+    } else {
+      dom.btnQuestionComments.className = 'btn-nav-comments has-no-comments';
+      dom.btnQuestionComments.title = `이 문제 댓글 & 암기 팁 남기기 (단축키 C)`;
+    }
+  }
+
+  function openCommentModal() {
+    const q = getCurrentQuestion();
+    if (!q || !dom.commentModal) return;
+
+    if (dom.commentTargetSubject) dom.commentTargetSubject.textContent = q.subject || '임상의학';
+    if (dom.commentTargetYear) dom.commentTargetYear.textContent = q.year || '기출';
+    if (dom.commentTargetQnum) {
+      dom.commentTargetQnum.textContent = (q.year === '22Y' && q.section && q.section_q_num)
+        ? `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`
+        : `Q${String(q.q_num || '').padStart(2, '0')}`;
+    }
+    if (dom.commentTargetTheme) {
+      dom.commentTargetTheme.textContent = q.theme_title || '핵심 출제 테마';
+    }
+
+    const activeProfile = state.profiles.find(p => p.id === state.activeProfileId) || state.profiles[0] || { name: '기본 프로필', avatar: '🩺' };
+    if (dom.commentAuthorAvatar) dom.commentAuthorAvatar.textContent = activeProfile.avatar || '🩺';
+    if (dom.commentAuthorName) dom.commentAuthorName.textContent = activeProfile.name || '내 프로필';
+
+    if (dom.commentInput) dom.commentInput.value = '';
+
+    renderCommentList(q);
+    dom.commentModal.showModal();
+    setTimeout(() => {
+      if (dom.commentInput) dom.commentInput.focus();
+    }, 100);
+  }
+
+  function closeCommentModal() {
+    if (dom.commentModal && dom.commentModal.open) {
+      dom.commentModal.close();
+    }
+  }
+
+  function renderCommentList(q) {
+    if (!dom.commentList) return;
+    dom.commentList.innerHTML = '';
+    const qComments = (state.comments && state.comments[q.id]) || [];
+
+    if (dom.commentListCount) dom.commentListCount.textContent = String(qComments.length);
+
+    if (qComments.length === 0) {
+      const empty = document.createElement('div');
+      empty.className = 'comment-empty-state';
+      empty.textContent = '💡 아직 작성된 댓글이 없습니다. 첫 번째 풀이 팁이나 의견을 남겨보세요!';
+      dom.commentList.appendChild(empty);
+      return;
+    }
+
+    qComments.forEach(comm => {
+      const item = document.createElement('div');
+      item.className = 'comment-item';
+
+      const avatar = document.createElement('div');
+      avatar.className = 'comment-avatar';
+      avatar.textContent = comm.authorAvatar || '🩺';
+
+      const wrap = document.createElement('div');
+      wrap.className = 'comment-content-wrap';
+
+      const meta = document.createElement('div');
+      meta.className = 'comment-meta-row';
+
+      const name = document.createElement('span');
+      name.className = 'comment-author-name';
+      name.textContent = comm.authorName || '학습자';
+
+      const time = document.createElement('span');
+      time.className = 'comment-time';
+      time.textContent = formatProfileTime(comm.timestamp);
+
+      meta.appendChild(name);
+      meta.appendChild(time);
+
+      const text = document.createElement('div');
+      text.className = 'comment-text';
+      text.textContent = comm.text;
+
+      wrap.appendChild(meta);
+      wrap.appendChild(text);
+
+      const delBtn = document.createElement('button');
+      delBtn.type = 'button';
+      delBtn.className = 'btn-comment-delete';
+      delBtn.title = '이 댓글 삭제';
+      delBtn.textContent = '✕';
+      delBtn.addEventListener('click', () => {
+        deleteComment(q.id, comm.id);
+      });
+
+      item.appendChild(avatar);
+      item.appendChild(wrap);
+      item.appendChild(delBtn);
+
+      dom.commentList.appendChild(item);
+    });
+  }
+
+  function submitComment() {
+    const q = getCurrentQuestion();
+    if (!q) return;
+
+    const raw = dom.commentInput ? dom.commentInput.value.trim() : '';
+    if (!raw) {
+      showToast('⚠️ 댓글 내용을 입력해 주세요.');
+      return;
+    }
+
+    const activeProfile = state.profiles.find(p => p.id === state.activeProfileId) || state.profiles[0] || { id: 'p_default', name: '기본 프로필', avatar: '🩺' };
+
+    if (!state.comments[q.id]) {
+      state.comments[q.id] = [];
+    }
+
+    const newComment = {
+      id: 'comm_' + Date.now(),
+      authorId: activeProfile.id,
+      authorName: activeProfile.name,
+      authorAvatar: activeProfile.avatar,
+      text: raw,
+      timestamp: Date.now()
+    };
+
+    state.comments[q.id].push(newComment);
+    localStorage.setItem(STORAGE_KEY_COMMENTS, JSON.stringify(state.comments));
+
+    if (dom.commentInput) dom.commentInput.value = '';
+    renderCommentList(q);
+    updateNavCommentBadge(q);
+
+    // Update Question PDF Tooltip
+    if (dom.btnQuestionPdf) {
+      dom.btnQuestionPdf.title = `현재 문제(${q.subject} ${q.year})의 원본 시험지 PDF 열기`;
+    }
+    showToast('💬 댓글이 등록되었습니다.');
+  }
+
+  function deleteComment(qId, commId) {
+    if (!state.comments[qId]) return;
+    state.comments[qId] = state.comments[qId].filter(c => c.id !== commId);
+    if (state.comments[qId].length === 0) {
+      delete state.comments[qId];
+    }
+    localStorage.setItem(STORAGE_KEY_COMMENTS, JSON.stringify(state.comments));
+
+    const q = getCurrentQuestion();
+    if (q && q.id === qId) {
+      renderCommentList(q);
+      updateNavCommentBadge(q);
+
+    // Update Question PDF Tooltip
+    if (dom.btnQuestionPdf) {
+      dom.btnQuestionPdf.title = `현재 문제(${q.subject} ${q.year})의 원본 시험지 PDF 열기`;
+    }
+    }
+    showToast('🗑️ 댓글이 삭제되었습니다.');
+  }
+
+  /**
+   * ==========================================================================
+   * Edit History in Profile Modal
+   * ==========================================================================
+   */
+  function renderEditHistory() {
+    if (!dom.editHistoryList) return;
+    dom.editHistoryList.innerHTML = '';
+    const logs = state.editLogs || [];
+
+    if (dom.editSectionCount) dom.editSectionCount.textContent = String(logs.length);
+    if (dom.profileEditCount) dom.profileEditCount.textContent = String(logs.length);
+
+    if (logs.length === 0) {
+      const empty = document.createElement('div');
+      empty.className = 'report-empty-state';
+      empty.textContent = '✏️ 아직 직접 수정한 문제 내역이 없습니다.';
+      dom.editHistoryList.appendChild(empty);
+      return;
+    }
+
+    logs.forEach(log => {
+      const item = document.createElement('div');
+      item.className = 'edit-history-item';
+
+      const header = document.createElement('div');
+      header.className = 'edit-history-header';
+
+      const badge = document.createElement('span');
+      badge.className = 'edit-history-badge';
+      badge.textContent = '수정 완료';
+
+      const time = document.createElement('span');
+      time.className = 'report-history-time';
+      time.textContent = formatProfileTime(log.timestamp);
+
+      header.appendChild(badge);
+      header.appendChild(time);
+
+      const qLink = document.createElement('div');
+      qLink.className = 'edit-history-qlink';
+      qLink.textContent = `📌 [${log.subject} ${log.year}] ${log.qId} 문제로 바로가기`;
+      qLink.addEventListener('click', () => {
+        closeProfileModal();
+        const target = state.allQuestions.find(cand => cand.id === log.qId);
+        if (target) jumpToQuestionObject(target);
+      });
+
+      const note = document.createElement('div');
+      note.className = 'edit-history-note';
+      note.textContent = log.note ? `사유: ${log.note}` : '사유: 내용 수정';
+
+      item.appendChild(header);
+      item.appendChild(qLink);
+      item.appendChild(note);
+
+      dom.editHistoryList.appendChild(item);
+    });
+  }
+
+
+  /**
+   * ==========================================================================
+   * Original Exam PDF Viewer Engine
+   * ==========================================================================
+   */
+  const DEFAULT_PDF_MANIFEST = {
+    "내과": {
+      "19Y": "original_pdf/내과_19Y.pdf",
+      "20Y": "original_pdf/내과_20Y.pdf",
+      "21Y": "original_pdf/내과_21Y.pdf",
+      "22Y": "original_pdf/내과_22Y.pdf",
+      "23Y": "original_pdf/내과_23Y.pdf",
+      "26Y": "original_pdf/내과_26Y.pdf"
+    },
+    "산부인과": {
+      "19Y": "original_pdf/산부인과_19Y.pdf",
+      "20Y": "original_pdf/산부인과_20Y.pdf",
+      "21Y": "original_pdf/산부인과_21Y.pdf",
+      "22Y": "original_pdf/산부인과_22Y.pdf",
+      "23Y": "original_pdf/산부인과_23Y.pdf",
+      "26Y": "original_pdf/산부인과_26Y.pdf"
+    },
+    "소아청소년과": {
+      "19Y": "original_pdf/소아청소년과_19Y.pdf",
+      "20Y": "original_pdf/소아청소년과_20Y.pdf",
+      "21Y": "original_pdf/소아청소년과_21Y.pdf",
+      "22Y": "original_pdf/소아청소년과_22Y.pdf",
+      "23Y": "original_pdf/소아청소년과_23Y.pdf",
+      "26Y": "original_pdf/소아청소년과_26Y.pdf"
+    },
+    "신경과": {
+      "19Y": "original_pdf/신경과_19Y.pdf",
+      "20Y": "original_pdf/신경과_20Y.pdf",
+      "21Y": "original_pdf/신경과_21Y.pdf",
+      "22Y": "original_pdf/신경과_22Y.pdf",
+      "23Y": "original_pdf/신경과_23Y.pdf",
+      "26Y": "original_pdf/신경과_26Y.pdf"
+    },
+    "영상의학과": {
+      "20Y": "original_pdf/영상의학과_20Y.pdf",
+      "21Y": "original_pdf/영상의학과_21Y.pdf",
+      "22Y": "original_pdf/영상의학과_22Y.pdf",
+      "23Y": "original_pdf/영상의학과_23Y.pdf",
+      "26Y": "original_pdf/영상의학과_26Y.pdf"
+    },
+    "외과": {
+      "19Y": "original_pdf/외과_19Y.pdf",
+      "20Y": "original_pdf/외과_20Y.pdf",
+      "21Y": "original_pdf/외과_21Y.pdf",
+      "22Y": "original_pdf/외과_22Y.pdf",
+      "23Y": "original_pdf/외과_23Y.pdf",
+      "26Y": "original_pdf/외과_26Y.pdf"
+    },
+    "정신건강의학과": {
+      "19Y": "original_pdf/정신건강의학과_19Y.pdf",
+      "20Y": "original_pdf/정신건강의학과_20Y.pdf",
+      "21Y": "original_pdf/정신건강의학과_21Y.pdf",
+      "22Y": "original_pdf/정신건강의학과_22Y.pdf",
+      "23Y": "original_pdf/정신건강의학과_23Y.pdf",
+      "26Y": "original_pdf/정신건강의학과_26Y.pdf"
+    },
+    "정형외과": {
+      "19Y": "original_pdf/정형외과_19Y.pdf",
+      "20Y": "original_pdf/정형외과_20Y.pdf",
+      "21Y": "original_pdf/정형외과_21Y.pdf",
+      "22Y": "original_pdf/정형외과_22Y.pdf",
+      "23Y": "original_pdf/정형외과_23Y.pdf",
+      "26Y": "original_pdf/정형외과_26Y.pdf"
+    },
+    "진단검사의학과": {
+      "20Y": "original_pdf/진단검사의학과_20Y.pdf",
+      "21Y": "original_pdf/진단검사의학과_21Y.pdf",
+      "22Y": "original_pdf/진단검사의학과_22Y.pdf",
+      "23Y": "original_pdf/진단검사의학과_23Y.pdf",
+      "26Y": "original_pdf/진단검사의학과_26Y.pdf"
+    }
+  };
+
+  let currentPdfState = {
+    subject: '내과',
+    year: '26Y',
+    url: ''
+  };
+
+  function getPdfManifest() {
+    return window.PDF_MANIFEST || DEFAULT_PDF_MANIFEST;
+  }
+
+  function populatePdfYearOptions(subject, preferredYear = null) {
+    if (!dom.pdfSelectYear) return;
+    const manifest = getPdfManifest();
+    const yearsMap = manifest[subject] || {};
+    const years = Object.keys(yearsMap).sort((a, b) => {
+      const na = parseInt(a, 10) || 0;
+      const nb = parseInt(b, 10) || 0;
+      return nb - na;
+    });
+
+    dom.pdfSelectYear.innerHTML = '';
+    if (years.length === 0) {
+      const opt = document.createElement('option');
+      opt.value = '';
+      opt.textContent = '제공 연도 없음';
+      dom.pdfSelectYear.appendChild(opt);
+      return;
+    }
+
+    years.forEach(y => {
+      const opt = document.createElement('option');
+      opt.value = y;
+      opt.textContent = `${y} (${y.replace('Y', '년도')})`;
+      dom.pdfSelectYear.appendChild(opt);
+    });
+
+    if (preferredYear && years.includes(preferredYear)) {
+      dom.pdfSelectYear.value = preferredYear;
+    } else {
+      dom.pdfSelectYear.value = years[0];
+    }
+  }
+
+  function loadPdfInViewer(subject, year, qNumHint = null) {
+    const manifest = getPdfManifest();
+    const subjectFiles = manifest[subject];
+    const fileUrl = subjectFiles ? subjectFiles[year] : null;
+
+    currentPdfState.subject = subject;
+    currentPdfState.year = year;
+    currentPdfState.url = fileUrl || '';
+
+    if (dom.pdfActiveDocBadge) {
+      dom.pdfActiveDocBadge.textContent = `${subject} · ${year}`;
+    }
+
+    if (fileUrl) {
+      if (dom.pdfFrame) {
+        dom.pdfFrame.style.display = 'block';
+        if (!dom.pdfFrame.src.endsWith(fileUrl)) {
+          dom.pdfFrame.src = fileUrl;
+        }
+      }
+      if (dom.pdfEmptyState) {
+        dom.pdfEmptyState.style.display = 'none';
+      }
+      if (dom.btnPdfExternal) {
+        dom.btnPdfExternal.disabled = false;
+        dom.btnPdfExternal.title = `${subject} ${year} 원본 시험지를 새 창/새 탭에서 열기`;
+      }
+      if (dom.btnPdfDownload) {
+        dom.btnPdfDownload.href = fileUrl;
+        dom.btnPdfDownload.setAttribute('download', `${subject}_${year}_기말고사_원본.pdf`);
+        dom.btnPdfDownload.style.display = 'inline-flex';
+      }
+      if (dom.pdfStatusDesc) {
+        if (qNumHint) {
+          dom.pdfStatusDesc.innerHTML = `<strong>${subject} ${year} (현재 문항: ${qNumHint})</strong> 시험지입니다. 브라우저 PDF 검색(<strong>Ctrl + F</strong>)으로 문항 번호나 키워드를 바로 찾을 수 있습니다.`;
+        } else {
+          dom.pdfStatusDesc.innerHTML = `<strong>${subject} ${year}</strong> 학년말고사 원본 시험지입니다. <strong>Ctrl + F</strong>로 문제 번호나 키워드를 검색하세요.`;
+        }
+      }
+    } else {
+      if (dom.pdfFrame) {
+        dom.pdfFrame.style.display = 'none';
+        dom.pdfFrame.src = 'about:blank';
+      }
+      if (dom.pdfEmptyState) {
+        dom.pdfEmptyState.style.display = 'flex';
+      }
+      if (dom.btnPdfExternal) {
+        dom.btnPdfExternal.disabled = true;
+      }
+      if (dom.btnPdfDownload) {
+        dom.btnPdfDownload.style.display = 'none';
+      }
+      if (dom.pdfStatusDesc) {
+        dom.pdfStatusDesc.textContent = `${subject} ${year} 시험지는 아직 준비되지 않았습니다. 다른 과목이나 연도를 선택해주세요.`;
+      }
+    }
+  }
+
+  function openPdfViewerModal(targetSubject = null, targetYear = null, qNumHint = null) {
+    let sub = targetSubject;
+    if (!sub) {
+      const q = getCurrentQuestion();
+      if (q && q.subject) {
+        sub = q.subject;
+      } else if (state.filters.subject && state.filters.subject !== 'all') {
+        sub = state.filters.subject;
+      } else {
+        sub = '내과';
+      }
+    }
+
+    let yr = targetYear;
+    if (!yr) {
+      const q = getCurrentQuestion();
+      if (q && q.year) {
+        yr = q.year;
+      } else if (state.filters.year && state.filters.year !== 'all') {
+        yr = state.filters.year;
+      } else {
+        yr = '26Y';
+      }
+    }
+
+    if (!qNumHint) {
+      const q = getCurrentQuestion();
+      if (q && q.subject === sub && q.year === yr) {
+        qNumHint = (q.year === '22Y' && q.section && q.section_q_num)
+          ? `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`
+          : (q.qnum || `Q${String(q.q_num || '').padStart(2, '0')}`);
+      }
+    }
+
+    if (dom.pdfSelectSubject) {
+      dom.pdfSelectSubject.value = sub;
+    }
+    populatePdfYearOptions(sub, yr);
+    const selectedYear = dom.pdfSelectYear ? dom.pdfSelectYear.value : yr;
+
+    loadPdfInViewer(sub, selectedYear, qNumHint);
+
+    if (dom.pdfModal) {
+      if (typeof dom.pdfModal.showModal === 'function') {
+        dom.pdfModal.showModal();
+      } else {
+        dom.pdfModal.setAttribute('open', 'true');
+      }
+    }
+  }
+
+  function closePdfViewerModal() {
+    if (dom.pdfModal && dom.pdfModal.open) {
+      dom.pdfModal.close();
+    }
+  }
+
   /**
    * Setup Event Listeners
    */
@@ -2726,6 +3426,68 @@
           localStorage.setItem(STORAGE_KEY_EDIT_LOGS, '[]');
           renderEditHistory();
           showToast('🗑️ 수정 내역 로그가 비워졌습니다.');
+        }
+      });
+    }
+
+    // PDF Viewer Modal Events
+    if (dom.btnOpenPdfViewer) {
+      dom.btnOpenPdfViewer.addEventListener('click', () => {
+        openPdfViewerModal();
+      });
+    }
+
+    if (dom.btnQuestionPdf) {
+      dom.btnQuestionPdf.addEventListener('click', () => {
+        const q = getCurrentQuestion();
+        if (q) {
+          openPdfViewerModal(q.subject, q.year, q.qnum || `Q${q.number}`);
+        } else {
+          openPdfViewerModal();
+        }
+      });
+    }
+
+    if (dom.btnClosePdfModal) {
+      dom.btnClosePdfModal.addEventListener('click', closePdfViewerModal);
+    }
+
+    if (dom.btnClosePdfBottom) {
+      dom.btnClosePdfBottom.addEventListener('click', closePdfViewerModal);
+    }
+
+    if (dom.pdfSelectSubject) {
+      dom.pdfSelectSubject.addEventListener('change', () => {
+        const newSub = dom.pdfSelectSubject.value;
+        populatePdfYearOptions(newSub);
+        const newYr = dom.pdfSelectYear ? dom.pdfSelectYear.value : '';
+        loadPdfInViewer(newSub, newYr);
+      });
+    }
+
+    if (dom.pdfSelectYear) {
+      dom.pdfSelectYear.addEventListener('change', () => {
+        const sub = dom.pdfSelectSubject ? dom.pdfSelectSubject.value : '내과';
+        const newYr = dom.pdfSelectYear.value;
+        loadPdfInViewer(sub, newYr);
+      });
+    }
+
+    if (dom.btnPdfExternal) {
+      dom.btnPdfExternal.addEventListener('click', () => {
+        if (currentPdfState.url) {
+          window.open(currentPdfState.url, '_blank');
+        }
+      });
+    }
+
+    if (dom.pdfModal) {
+      dom.pdfModal.addEventListener('click', (e) => {
+        const rect = dom.pdfModal.getBoundingClientRect();
+        const isInDialog = (rect.top <= e.clientY && e.clientY <= rect.top + rect.height
+          && rect.left <= e.clientX && e.clientX <= rect.left + rect.width);
+        if (!isInDialog) {
+          closePdfViewerModal();
         }
       });
     }

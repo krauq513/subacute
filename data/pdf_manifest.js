@@ -1,0 +1,72 @@
+window.PDF_MANIFEST = {
+  "내과": {
+    "19Y": "original_pdf/내과_19Y.pdf",
+    "20Y": "original_pdf/내과_20Y.pdf",
+    "21Y": "original_pdf/내과_21Y.pdf",
+    "22Y": "original_pdf/내과_22Y.pdf",
+    "23Y": "original_pdf/내과_23Y.pdf",
+    "26Y": "original_pdf/내과_26Y.pdf"
+  },
+  "산부인과": {
+    "19Y": "original_pdf/산부인과_19Y.pdf",
+    "20Y": "original_pdf/산부인과_20Y.pdf",
+    "21Y": "original_pdf/산부인과_21Y.pdf",
+    "22Y": "original_pdf/산부인과_22Y.pdf",
+    "23Y": "original_pdf/산부인과_23Y.pdf",
+    "26Y": "original_pdf/산부인과_26Y.pdf"
+  },
+  "소아청소년과": {
+    "19Y": "original_pdf/소아청소년과_19Y.pdf",
+    "20Y": "original_pdf/소아청소년과_20Y.pdf",
+    "21Y": "original_pdf/소아청소년과_21Y.pdf",
+    "22Y": "original_pdf/소아청소년과_22Y.pdf",
+    "23Y": "original_pdf/소아청소년과_23Y.pdf",
+    "26Y": "original_pdf/소아청소년과_26Y.pdf"
+  },
+  "신경과": {
+    "19Y": "original_pdf/신경과_19Y.pdf",
+    "20Y": "original_pdf/신경과_20Y.pdf",
+    "21Y": "original_pdf/신경과_21Y.pdf",
+    "22Y": "original_pdf/신경과_22Y.pdf",
+    "23Y": "original_pdf/신경과_23Y.pdf",
+    "26Y": "original_pdf/신경과_26Y.pdf"
+  },
+  "외과": {
+    "19Y": "original_pdf/외과_19Y.pdf",
+    "20Y": "original_pdf/외과_20Y.pdf",
+    "21Y": "original_pdf/외과_21Y.pdf",
+    "22Y": "original_pdf/외과_22Y.pdf",
+    "23Y": "original_pdf/외과_23Y.pdf",
+    "26Y": "original_pdf/외과_26Y.pdf"
+  },
+  "정신건강의학과": {
+    "19Y": "original_pdf/정신건강의학과_19Y.pdf",
+    "20Y": "original_pdf/정신건강의학과_20Y.pdf",
+    "21Y": "original_pdf/정신건강의학과_21Y.pdf",
+    "22Y": "original_pdf/정신건강의학과_22Y.pdf",
+    "23Y": "original_pdf/정신건강의학과_23Y.pdf",
+    "26Y": "original_pdf/정신건강의학과_26Y.pdf"
+  },
+  "정형외과": {
+    "19Y": "original_pdf/정형외과_19Y.pdf",
+    "20Y": "original_pdf/정형외과_20Y.pdf",
+    "21Y": "original_pdf/정형외과_21Y.pdf",
+    "22Y": "original_pdf/정형외과_22Y.pdf",
+    "23Y": "original_pdf/정형외과_23Y.pdf",
+    "26Y": "original_pdf/정형외과_26Y.pdf"
+  },
+  "영상의학과": {
+    "20Y": "original_pdf/영상의학과_20Y.pdf",
+    "21Y": "original_pdf/영상의학과_21Y.pdf",
+    "22Y": "original_pdf/영상의학과_22Y.pdf",
+    "23Y": "original_pdf/영상의학과_23Y.pdf",
+    "26Y": "original_pdf/영상의학과_26Y.pdf"
+  },
+  "진단검사의학과": {
+    "20Y": "original_pdf/진단검사의학과_20Y.pdf",
+    "21Y": "original_pdf/진단검사의학과_21Y.pdf",
+    "22Y": "original_pdf/진단검사의학과_22Y.pdf",
+    "23Y": "original_pdf/진단검사의학과_23Y.pdf",
+    "26Y": "original_pdf/진단검사의학과_26Y.pdf"
+  }
+};
