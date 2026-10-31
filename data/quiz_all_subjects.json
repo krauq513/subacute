@@ -1783,11 +1783,11 @@
       "images/26Y_Q16_fig1.png"
     ],
     "options": [
-      "① Sodium citrate 튜브 (구연산나트륨)",
-      "② EDTA 튜브",
-      "③ Heparin 튜브",
-      "④ Plain 튜브",
-      "⑤ ACD 튜브"
+      "① Sodium citrate tube",
+      "② EDTA tube",
+      "③ Heparin tube",
+      "④ Plain tube",
+      "⑤ ACD tube"
     ],
     "correct_option_index": 0,
     "correct_answer": "① Sodium citrate 튜브 (구연산나트륨)",
@@ -1856,7 +1856,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Sodium citrate 튜브 (구연산나트륨)",
+        "text": "Sodium citrate tube",
         "is_correct": true,
         "tag": "정답",
         "reason": "혈소판 검사 채혈 튜브 및 주의사항."
@@ -1864,7 +1864,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "EDTA 튜브",
+        "text": "EDTA tube",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -1872,7 +1872,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Heparin 튜브",
+        "text": "Heparin tube",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "헤파린 유발성 혈소판감소증(HIT) 병력자나 중증 출혈성 질환자에서는 투여가 금기입니다."
@@ -1880,7 +1880,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Plain 튜브",
+        "text": "Plain tube",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -1888,7 +1888,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "ACD 튜브",
+        "text": "ACD tube",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -8205,9 +8205,9 @@
     "stem": "Monoclonal gammopathy의 진단에 있어서 가장 중요 한 검사는?",
     "images": [],
     "options": [
-      "① 단백전기영동 (SPEP / IFE)",
-      "② 일반 혈액 검사 (CBC)",
-      "③ 신장 기능 검사 (BUN/Cr)",
+      "① SPEP / IFE",
+      "② CBC",
+      "③ BUN/Cr",
       "④ 소변 루틴 검사",
       "⑤ 전해질 검사"
     ],
@@ -8276,7 +8276,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "단백전기영동 (SPEP / IFE)",
+        "text": "SPEP / IFE",
         "is_correct": true,
         "tag": "정답",
         "reason": "Monoclonal gammopathy 의심 1순위 검사 -> SPEP / IFE. 단클론감마글로불린혈증(다발골수종 등)의 진단에 가장 필수적인 핵심 검사는 혈청 단백전기영동(SPEP)과 면역고정전기영동(IFE)입니다."
@@ -8284,7 +8284,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "일반 혈액 검사 (CBC)",
+        "text": "CBC",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -8292,7 +8292,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "신장 기능 검사 (BUN/Cr)",
+        "text": "BUN/Cr",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -8457,11 +8457,11 @@
       "images/23Y_Q21_fig1.png"
     ],
     "options": [
-      "① Sodium citrate 튜브 (구연산나트륨)",
-      "② EDTA 튜브",
-      "③ Heparin 튜브",
-      "④ Plain 튜브",
-      "⑤ ACD 튜브"
+      "① Sodium citrate tube",
+      "② EDTA tube",
+      "③ Heparin tube",
+      "④ Plain tube",
+      "⑤ ACD tube"
     ],
     "correct_option_index": 0,
     "correct_answer": "① Sodium citrate 튜브 (구연산나트륨)",
@@ -8530,7 +8530,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Sodium citrate 튜브 (구연산나트륨)",
+        "text": "Sodium citrate tube",
         "is_correct": true,
         "tag": "정답",
         "reason": "혈소판 검사 채혈 튜브 및 주의사항."
@@ -8538,7 +8538,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "EDTA 튜브",
+        "text": "EDTA tube",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -8546,7 +8546,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Heparin 튜브",
+        "text": "Heparin tube",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "헤파린 유발성 혈소판감소증(HIT) 병력자나 중증 출혈성 질환자에서는 투여가 금기입니다."
@@ -8554,7 +8554,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Plain 튜브",
+        "text": "Plain tube",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -8562,7 +8562,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "ACD 튜브",
+        "text": "ACD tube",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -8961,11 +8961,11 @@
     "stem": "체중감소, 발열, 야간발한 호소하며 내원한 50대 남자. WBC는 250,000/mm3이었고, 말초혈액도말검사 결과 Left shift가 나타났으며, Myelocyte와 Promyelocyte가 많이 관 찰되었다. BM cellularity는 90%였고, Small monolobated megakaryocyte 관찰되었다. 이 환자에서 꼭 처방해야 하는 검사는?",
     "images": [],
     "options": [
-      "① 만성골수성백혈병 (CML)",
-      "② 급성골수성백혈병 (AML)",
-      "③ 백혈병양 반응 (Leukemoid reaction)",
-      "④ 진성적혈구증가증 (PV)",
-      "⑤ 본태성혈소판증가증 (ET)"
+      "① CML",
+      "② AML",
+      "③ Leukemoid reaction",
+      "④ PV",
+      "⑤ ET"
     ],
     "correct_option_index": 0,
     "correct_answer": "① 만성골수성백혈병 (CML)",
@@ -9032,7 +9032,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "만성골수성백혈병 (CML)",
+        "text": "CML",
         "is_correct": true,
         "tag": "정답",
         "reason": "WBC > 10만 + 전 단계 골수구 출현(Left shift) + 비장종대 -> CML. WBC 250,000/mm3의 극단적 백혈구 증가, 골수모세포부터 분엽핵구까지 전 단계의 과립구 출현(Left shift), 호염구/호산구 증가, 비장비대는 전형적인 만성골수성백혈병(CML) 소견입니다."
@@ -9040,7 +9040,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "급성골수성백혈병 (AML)",
+        "text": "AML",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -9048,7 +9048,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "백혈병양 반응 (Leukemoid reaction)",
+        "text": "Leukemoid reaction",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -9056,7 +9056,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "진성적혈구증가증 (PV)",
+        "text": "PV",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -9064,7 +9064,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "본태성혈소판증가증 (ET)",
+        "text": "ET",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -10919,11 +10919,11 @@
     "stem": "PCR에서 필요 없는 것은?",
     "images": [],
     "options": [
-      "① 주형 DNA (Template DNA)",
-      "② 특이 프라이머 (Primers)",
-      "③ DNA 중합효소 (Taq DNA Polymerase)",
-      "④ dNTP (탈산소리보뉴클레오티드)",
-      "⑤ 제한효소 (Restriction enzyme)"
+      "① Template DNA",
+      "② Primers",
+      "③ Taq DNA Polymerase",
+      "④ dNTP",
+      "⑤ Restriction enzyme"
     ],
     "correct_option_index": 4,
     "correct_answer": "⑤ 제한효소 (Restriction enzyme)",
@@ -10990,7 +10990,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "주형 DNA (Template DNA)",
+        "text": "Template DNA",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -10998,7 +10998,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "특이 프라이머 (Primers)",
+        "text": "Primers",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -11006,7 +11006,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "DNA 중합효소 (Taq DNA Polymerase)",
+        "text": "Taq DNA Polymerase",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -11014,7 +11014,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "dNTP (탈산소리보뉴클레오티드)",
+        "text": "dNTP",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -11022,7 +11022,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "제한효소 (Restriction enzyme)",
+        "text": "Restriction enzyme",
         "is_correct": true,
         "tag": "정답",
         "reason": "기본 PCR 재료 아닌 것 -> 제한효소. 표준 PCR 증폭에 필수적인 성분은 ① 주형 DNA, ② 전방/역방향 프라이머 쌍, ③ 내열성 DNA 중합효소(Taq), ④ 4종의 dNTP(dATP, dCTP, dGTP, dTTP) 및 Mg2+ 완충액입니다."
@@ -12928,11 +12928,11 @@
     "stem": "질병관리청 지정 의료관련감염병 표본감시 다제내성균 6종에 해당하지 않는 것은?",
     "images": [],
     "options": [
-      "① MRSA (메티실린 내성 황색포도알균)",
-      "② MRPA (다제내성 녹농균)",
-      "③ MRAB (다제내성 아시네토바터균)",
-      "④ CRE (카바페넴 내성 장내세균목)",
-      "⑤ Vancomycin-resistant Enterovirus (엔테로바이러스)"
+      "① MRSA",
+      "② MRPA",
+      "③ MRAB",
+      "④ CRE",
+      "⑤ Vancomycin-resistant Enterovirus"
     ],
     "correct_option_index": 4,
     "correct_answer": "⑤ Vancomycin-resistant Enterovirus (엔테로바이러스)",
@@ -12998,7 +12998,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "MRSA (메티실린 내성 황색포도알균)",
+        "text": "MRSA",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "mecA 유전자에 의해 PBP2a가 변형된 MRSA 감염에는 효과가 없어 반코마이신(Vancomycin) 투여가 요구됩니다."
@@ -13006,7 +13006,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "MRPA (다제내성 녹농균)",
+        "text": "MRPA",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "5. MRAB (다제내성 아시네토바터균)."
@@ -13014,7 +13014,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "MRAB (다제내성 아시네토바터균)",
+        "text": "MRAB",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "6. CRE (카바페넴 내성 장내세균목)."
@@ -13022,7 +13022,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "CRE (카바페넴 내성 장내세균목)",
+        "text": "CRE",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "Enterovirus는 바이러스(Virus)이므로 세균 항생제인 Vancomycin 내성균 범주에 원천적으로 해당하지 않습니다 (VRE의 Enterococcus를 Enterovirus로 오인 유도한 함정 선지)."
@@ -13030,7 +13030,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "Vancomycin-resistant Enterovirus (엔테로바이러스)",
+        "text": "Vancomycin-resistant Enterovirus",
         "is_correct": true,
         "tag": "정답",
         "reason": "임상 증례 소견 및 최신 가이드라인에 부합하는 확진/1차 표준 치료 지침입니다."
@@ -14361,8 +14361,8 @@
     "options": [
       "① 신생아 생리적 황달",
       "② CMV 간염 (거대세포바이러스 감염)",
-      "③ 담도 폐쇄증 (Biliary atresia)",
-      "④ 총담관 낭종 (Choledochal cyst)",
+      "③ Biliary atresia",
+      "④ Choledochal cyst",
       "⑤ 신생아 간염"
     ],
     "correct_option_index": 0,
@@ -14446,7 +14446,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "담도 폐쇄증 (Biliary atresia)",
+        "text": "Biliary atresia",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -14454,7 +14454,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "총담관 낭종 (Choledochal cyst)",
+        "text": "Choledochal cyst",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -16391,8 +16391,8 @@
       "① dNTP",
       "② DNA Polymerase",
       "③ DNA ligase",
-      "④ 형광 프로브 (Fluorescent probe)",
-      "⑤ 특이 프라이머 (Primers)"
+      "④ Fluorescent probe",
+      "⑤ Primers"
     ],
     "correct_option_index": 2,
     "correct_answer": "③ DNA ligase (불필요 성분)",
@@ -16485,7 +16485,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "형광 프로브 (Fluorescent probe)",
+        "text": "Fluorescent probe",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -16493,7 +16493,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "특이 프라이머 (Primers)",
+        "text": "Primers",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -19122,10 +19122,10 @@
       "images/20Y_Q05_fig1.png"
     ],
     "options": [
-      "① Plasmodium vivax (삼일열 말라리아)",
-      "② Plasmodium falciparum (열대열 말라리아)",
-      "③ Plasmodium malariae (사일열 말라리아)",
-      "④ Plasmodium ovale (난형열 말라리아)",
+      "① Plasmodium vivax",
+      "② Plasmodium falciparum",
+      "③ Plasmodium malariae",
+      "④ Plasmodium ovale",
       "⑤ Babesia microti"
     ],
     "correct_option_index": 0,
@@ -19193,7 +19193,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Plasmodium vivax (삼일열 말라리아)",
+        "text": "Plasmodium vivax",
         "is_correct": true,
         "tag": "정답",
         "reason": "적혈구 비대 + Schüffner 반점 + 국내 호발 말라리아 -> P. vivax. 말초혈액도말 김자(Giemsa) 염색에서 감염된 적혈구가 비대해지고, 슈프너 반점(Schüffner dots)이 관찰되며, 아메바 모양의 영양체(Trophozoite)가 관찰되는 것은 국내 경기 북부 및 강원 지역 호발 삼일열 말라리아(P. vivax)의 특징입니다."
@@ -19201,7 +19201,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Plasmodium falciparum (열대열 말라리아)",
+        "text": "Plasmodium falciparum",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "감별 질환/치료 특성: ① Plasmodium vivax (삼일열 말라리아) : 적혈구 비대 + Schüffner 반점 + 국내 호발 말라리아 -> P. vivax. 말초혈액도말 김자(Giemsa) 염색에서 감염된 적혈구가 비대해지고, 슈프너 반점(Schüffner dots)이 관찰되며, 아메바 모양의 영양체(Trophozoite)가 관찰되는 것은 국내 경기 북부 및 강원 지역 호발 삼일열 말라리아(P. vivax)의 특징입니다. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
@@ -19209,7 +19209,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Plasmodium malariae (사일열 말라리아)",
+        "text": "Plasmodium malariae",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다."
@@ -19217,7 +19217,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Plasmodium ovale (난형열 말라리아)",
+        "text": "Plasmodium ovale",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "감별 질환/치료 특성: ① Plasmodium vivax (삼일열 말라리아) : 적혈구 비대 + Schüffner 반점 + 국내 호발 말라리아 -> P. vivax. 말초혈액도말 김자(Giemsa) 염색에서 감염된 적혈구가 비대해지고, 슈프너 반점(Schüffner dots)이 관찰되며, 아메바 모양의 영양체(Trophozoite)가 관찰되는 것은 국내 경기 북부 및 강원 지역 호발 삼일열 말라리아(P. vivax)의 특징입니다. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
@@ -19383,11 +19383,11 @@
       "images/20Y_Q07_fig1.png"
     ],
     "options": [
-      "① Spherocyte (구상적혈구)",
-      "② Target cell (표적적혈구)",
-      "③ Elliptocyte (타원적혈구)",
-      "④ Microcytic erythrocyte (소적혈구)",
-      "⑤ Hypochromic erythrocyte (저색소성 적혈구)"
+      "① Spherocyte",
+      "② Target cell",
+      "③ Elliptocyte",
+      "④ Microcytic erythrocyte",
+      "⑤ Hypochromic erythrocyte"
     ],
     "correct_option_index": 0,
     "correct_answer": "① Spherocyte (구상적혈구)",
@@ -19456,7 +19456,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Spherocyte (구상적혈구)",
+        "text": "Spherocyte",
         "is_correct": true,
         "tag": "정답",
         "reason": "IDA 도말에서 관찰되지 않는 소견 -> Spherocyte. 중증 IDA 혈액도말에서는 소구성 저색소성 적혈구(Microcytic hypochromic RBC), 연필 모양의 타원적혈구(Elliptocyte/Pencil cell), 표적적혈구(Target cell)가 흔히 관찰됩니다. 반면 구상적혈구(Spherocyte)는 중앙 창백이 소실된 고농도 적혈구로 유전구상적혈구증이나 자가면역용혈빈혈에서 관찰되며 IDA 소견이 아닙니다."
@@ -19464,7 +19464,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Target cell (표적적혈구)",
+        "text": "Target cell",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "감별 질환/치료 특성: ① Spherocyte (구상적혈구) : IDA 도말에서 관찰되지 않는 소견 -> Spherocyte. 중증 IDA 혈액도말에서는 소구성 저색소성 적혈구(Microcytic hypochromic RBC), 연필 모양의 타원적혈구(Elliptocyte/Pencil cell), 표적적혈구(Target cell)가 흔히 관찰됩니다. 반면 구상적혈구(Spherocyte)는 중앙 창백이 소실된 고농도 적혈구로 유전구상적혈구증이나 자가면역용혈빈혈에서 관찰되며 IDA 소견이 아닙니다. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
@@ -19472,7 +19472,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Elliptocyte (타원적혈구)",
+        "text": "Elliptocyte",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "감별 질환/치료 특성: ① Spherocyte (구상적혈구) : IDA 도말에서 관찰되지 않는 소견 -> Spherocyte. 중증 IDA 혈액도말에서는 소구성 저색소성 적혈구(Microcytic hypochromic RBC), 연필 모양의 타원적혈구(Elliptocyte/Pencil cell), 표적적혈구(Target cell)가 흔히 관찰됩니다. 반면 구상적혈구(Spherocyte)는 중앙 창백이 소실된 고농도 적혈구로 유전구상적혈구증이나 자가면역용혈빈혈에서 관찰되며 IDA 소견이 아닙니다. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
@@ -19480,7 +19480,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Microcytic erythrocyte (소적혈구)",
+        "text": "Microcytic erythrocyte",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "감별 질환/치료 특성: ① Spherocyte (구상적혈구) : IDA 도말에서 관찰되지 않는 소견 -> Spherocyte. 중증 IDA 혈액도말에서는 소구성 저색소성 적혈구(Microcytic hypochromic RBC), 연필 모양의 타원적혈구(Elliptocyte/Pencil cell), 표적적혈구(Target cell)가 흔히 관찰됩니다. 반면 구상적혈구(Spherocyte)는 중앙 창백이 소실된 고농도 적혈구로 유전구상적혈구증이나 자가면역용혈빈혈에서 관찰되며 IDA 소견이 아닙니다. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
@@ -19488,7 +19488,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "Hypochromic erythrocyte (저색소성 적혈구)",
+        "text": "Hypochromic erythrocyte",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -20906,11 +20906,11 @@
     "stem": "(야마) GVHD 예방을 위해 필요한 과정 은?",
     "images": [],
     "options": [
-      "① 방사선 조사 (Gamma irradiation)",
-      "② 적혈구 세척 (Cell washing)",
-      "③ 백혈구 제거 여과 (Leukocyte filtering)",
-      "④ 성분채집술 (Apheresis)",
-      "⑤ 혈장교환술 (Plasmapheresis)"
+      "① Gamma irradiation",
+      "② Cell washing",
+      "③ Leukocyte filtering",
+      "④ Apheresis",
+      "⑤ Plasmapheresis"
     ],
     "correct_option_index": 0,
     "correct_answer": "① 방사선 조사 (Gamma irradiation)",
@@ -20977,7 +20977,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "방사선 조사 (Gamma irradiation)",
+        "text": "Gamma irradiation",
         "is_correct": true,
         "tag": "정답",
         "reason": "국소 진행성 악성종양의 수술 전/후 국소 재발 방지 또는 골전이 통증 완화를 위한 표준 국소 치료입니다."
@@ -20985,7 +20985,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "적혈구 세척 (Cell washing)",
+        "text": "Cell washing",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -20993,7 +20993,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "백혈구 제거 여과 (Leukocyte filtering)",
+        "text": "Leukocyte filtering",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -21001,7 +21001,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "성분채집술 (Apheresis)",
+        "text": "Apheresis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -21009,7 +21009,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "혈장교환술 (Plasmapheresis)",
+        "text": "Plasmapheresis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -24654,11 +24654,11 @@
     "stem": "(17 야마 변형) 2개월 전 평균 혈당을 반영 하는 검사",
     "images": [],
     "options": [
-      "① glycated Albumin (프럭토사민)",
+      "① glycated Albumin",
       "② microalbuminuria",
       "③ HbA1c",
       "④ ketone body",
-      "⑤ FBS (공복혈당)"
+      "⑤ FBS"
     ],
     "correct_option_index": 2,
     "correct_answer": "③ HbA1c (당화혈색소)",
@@ -24725,7 +24725,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "glycated Albumin (프럭토사민)",
+        "text": "glycated Albumin",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -24757,7 +24757,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "FBS (공복혈당)",
+        "text": "FBS",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -24910,11 +24910,11 @@
     "stem": "72세 남성이 운동 시 호흡곤란으로 내원하였다. 심음 청진상 흉골 우측 둘째 갈비사이공간에서 목(경동맥) 쪽으로 방사되는 거친 수축기 구출성 심잡음(Crescendo-decrescendo murmur)이 청진되었다. 가장 가능성이 높은 진단은?",
     "images": [],
     "options": [
-      "대동맥판 협착증 (Aortic stenosis)",
-      "삼첨판 역류증 (Tricuspid regurgitation)",
-      "승모판 협착증 (Mitral stenosis)",
-      "폐동맥판 협착증 (Pulmonic stenosis)",
-      "승모판 탈출증 (Mitral valve prolapse)"
+      "Aortic stenosis",
+      "Tricuspid regurgitation",
+      "Mitral stenosis",
+      "Pulmonic stenosis",
+      "Mitral valve prolapse"
     ],
     "correct_option_index": 0,
     "correct_answer": "대동맥판 협착증 (Aortic stenosis)",
@@ -24988,7 +24988,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "대동맥판 협착증 (Aortic stenosis)",
+        "text": "Aortic stenosis",
         "is_correct": true,
         "tag": "정답",
         "reason": "흉골 우측 둘째 갈비사이공간에서 경동맥으로 방사되는 수축기 구출성 잡음(Crescendo-decrescendo)은 AS의 고전적 소견입니다"
@@ -24996,7 +24996,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "삼첨판 역류증 (Tricuspid regurgitation)",
+        "text": "Tricuspid regurgitation",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "흡기 시 증가하는 범수축기 잡음이 흉골 좌하연에서 들립니다."
@@ -25004,7 +25004,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "승모판 협착증 (Mitral stenosis)",
+        "text": "Mitral stenosis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "심첨부에서 들리는 이완기 굴림잡음(Diastolic rumble)과 개구음이 특징입니다."
@@ -25012,7 +25012,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "폐동맥판 협착증 (Pulmonic stenosis)",
+        "text": "Pulmonic stenosis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "흉골 좌측 둘째 갈비사이공간에서 수축기 잡음이 들립니다."
@@ -25020,7 +25020,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "승모판 탈출증 (Mitral valve prolapse)",
+        "text": "Mitral valve prolapse",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "수축 중기 클릭음과 수축 후기 잡음이 심첨부에서 들립니다."
@@ -25172,11 +25172,11 @@
       "images/내과/26Y_Q04_fig1.png"
     ],
     "options": [
-      "ST분절 상승 심근경색증 (ST-segment elevation myocardial infarction, STEMI)",
-      "비ST분절 상승 심근경색증 (NSTEMI)",
-      "불안정 협심증 (Unstable angina)",
-      "급성 심낭염 (Acute pericarditis)",
-      "변이형 협심증 (Prinzmetal variant angina)"
+      "ST-segment elevation myocardial infarction, STEMI",
+      "NSTEMI",
+      "Unstable angina",
+      "Acute pericarditis",
+      "Prinzmetal variant angina"
     ],
     "correct_option_index": 0,
     "correct_answer": "ST분절 상승 심근경색증 (ST-segment elevation myocardial infarction, STEMI)",
@@ -25248,7 +25248,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "ST분절 상승 심근경색증 (ST-segment elevation myocardial infarction, STEMI)",
+        "text": "ST-segment elevation myocardial infarction, STEMI",
         "is_correct": true,
         "tag": "정답",
         "reason": "하벽 유도(II, III, aVF)의 명확한 ST분절 상승과 심근효소 상승은 관상동맥 완전 폐색을 시사하는 STEMI입니다"
@@ -25256,7 +25256,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "비ST분절 상승 심근경색증 (NSTEMI)",
+        "text": "NSTEMI",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "심전도상 ST분절 상승이 동반되지 않는 급성 관상동맥 증후군입니다."
@@ -25264,7 +25264,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "불안정 협심증 (Unstable angina)",
+        "text": "Unstable angina",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "심근 괴사 지표인 Troponin 상승이 동반되지 않습니다."
@@ -25272,7 +25272,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "급성 심낭염 (Acute pericarditis)",
+        "text": "Acute pericarditis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "전 유도에 걸친 광범위한 ST 상승과 PR 분절 하강을 보입니다."
@@ -25280,7 +25280,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "변이형 협심증 (Prinzmetal variant angina)",
+        "text": "Prinzmetal variant angina",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "관상동맥 연축으로 일시적 ST 상승이 나타나나 심근효소의 지속적 대량 상승은 드뭅니다."
@@ -25512,10 +25512,10 @@
     "stem": "심부전으로 입원 치료 후 호전되어 퇴원을 앞둔 환자의 혈액검사상 LDL 콜레스테롤이 135 mg/dL로 확인되었다. 관상동맥 질환 및 죽상경화반 안정을 위해 처방할 가장 적절한 일차 지질강하제는?",
     "images": [],
     "options": [
-      "스타틴 (HMG-CoA reductase inhibitor, Statin)",
-      "벰페도산 (Bempedoic acid)",
-      "PCSK9 억제제",
-      "피브레이트 (Fibrate)",
+      "HMG-CoA reductase inhibitor, Statin",
+      "Bempedoic acid",
+      "PCSK9 inhibitor",
+      "Fibrate",
       "오메가-3 지방산 제제"
     ],
     "correct_option_index": 0,
@@ -25588,7 +25588,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "스타틴 (HMG-CoA reductase inhibitor, Statin)",
+        "text": "HMG-CoA reductase inhibitor, Statin",
         "is_correct": true,
         "tag": "정답",
         "reason": "CoA reductase inhibitor) — 죽상경화성 심혈관 질환의 이차 예방 및 심근경색 재발 방지를 위해 LDL-C를 55~70 mg/dL 미만으로 낮추는 1차 필수 약제입니다"
@@ -25596,7 +25596,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "벰페도산 (Bempedoic acid)",
+        "text": "Bempedoic acid",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "스타틴 불내성 환자에서 고려하는 2차 약제입니다."
@@ -25604,7 +25604,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "PCSK9 억제제",
+        "text": "PCSK9 inhibitor",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "최대 용량 스타틴 투여 후에도 목표치에 도달하지 않는 초고위험군에서 추가하는 주사제입니다."
@@ -25612,7 +25612,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "피브레이트 (Fibrate)",
+        "text": "Fibrate",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "중성지방이 500 mg/dL 이상 극단적으로 높을 때 췌장염 예방 목적으로 사용됩니다."
@@ -26023,9 +26023,9 @@
     "stem": "호흡곤란과 양측 경골전 함요부종(Pretibial pitting edema)을 주소로 내원한 환자에서 양측 폐 하부 수포음이 청진되었다. 심장의 구조적 이상 및 수축/이완기능 평가를 위해 가장 먼저 시행해야 할 필수 검사는?",
     "images": [],
     "options": [
-      "경흉부 심초음파 (Transthoracic echocardiography, TTE)",
-      "흉부 조영 CT (Chest CT)",
-      "관상동맥 조영술 (CAG)",
+      "Transthoracic echocardiography, TTE",
+      "Chest CT",
+      "CAG",
       "심근 SPECT 검사",
       "24시간 홀터 심전도 검사"
     ],
@@ -26099,7 +26099,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "경흉부 심초음파 (Transthoracic echocardiography, TTE)",
+        "text": "Transthoracic echocardiography, TTE",
         "is_correct": true,
         "tag": "정답",
         "reason": "좌심실 구혈률(LVEF), 이완기능, 판막 이상, 심벽 운동 장애를 비침습적으로 즉시 평가할 수 있는 심부전 진단의 표준 검사입니다"
@@ -26107,7 +26107,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "흉부 조영 CT (Chest CT)",
+        "text": "Chest CT",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "폐 실질 병변이나 대동맥 질환 감별에 쓰이나 심기능 평가의 1차 검사가 아닙니다."
@@ -26115,7 +26115,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "관상동맥 조영술 (CAG)",
+        "text": "CAG",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "허혈성 심부전의 원인 혈관을 찾기 위한 침습적 검사입니다."
@@ -27314,9 +27314,9 @@
     "stem": "75세 여성이 대퇴골 골절 수술 후 침상 안정 중 3일 전부터 악화되는 호흡곤란을 호소하였다. 흉부 단순 X선 및 심전도상 특이 소견이 없을 때, 폐색전증을 신속히 확진하기 위해 시행해야 할 표준 영상 검사는?",
     "images": [],
     "options": [
-      "흉부 조영 CT 혈관조영술 (Chest CT angiography)",
-      "고해상도 흉부 CT (HRCT)",
-      "폐 환기-관류 스캔 (V/Q scan)",
+      "Chest CT angiography",
+      "HRCT",
+      "V/Q scan",
       "단순 흉부 X선 추적 검사",
       "기관지 내시경 검사"
     ],
@@ -27390,7 +27390,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "흉부 조영 CT 혈관조영술 (Chest CT angiography)",
+        "text": "Chest CT angiography",
         "is_correct": true,
         "tag": "정답",
         "reason": "폐동맥 내 혈전 결손을 직접 시각화하는 가장 빠르고 정확한 폐색전증의 표준 확진 검사입니다"
@@ -27398,7 +27398,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "고해상도 흉부 CT (HRCT)",
+        "text": "HRCT",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "간질성 폐질환(ILD) 진단에 사용되며 혈관 내 혈전 평가에는 부적합합니다."
@@ -27406,7 +27406,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "폐 환기-관류 스캔 (V/Q scan)",
+        "text": "V/Q scan",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "관류 스캔 — 신기능 저하나 조영제 알레르기로 CT 촬영이 불가능할 때 대안으로 시행합니다."
@@ -30191,11 +30191,11 @@
     "stem": "55세 환자가 제2형 당뇨병으로 생활습관 교정을 시행하였으나 당화혈색소 10.0%로 불량하였다. 소변 검사상 단백뇨(++)가 동반되었을 때, 신장 보호 및 혈당 조절을 위해 메트포르민과 병용할 가장 적절한 약제는?",
     "images": [],
     "options": [
-      "메트포르민 + SGLT-2 억제제 (Metformin + SGLT-2 inhibitor)",
-      "메트포르민 + GLP-1 수용체 작용제",
+      "Metformin + SGLT-2 inhibitor",
+      "GLP-1 receptor agonist",
       "메트포르민 단독 요법 유지",
       "설포닐유리아 단독 요법",
-      "메트포르민 + 치아졸리딘디온 (TZD)"
+      "TZD"
     ],
     "correct_option_index": 0,
     "correct_answer": "메트포르민 + SGLT-2 억제제 (Metformin + SGLT-2 inhibitor)",
@@ -30267,7 +30267,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "메트포르민 + SGLT-2 억제제 (Metformin + SGLT-2 inhibitor)",
+        "text": "Metformin + SGLT-2 inhibitor",
         "is_correct": true,
         "tag": "정답",
         "reason": "2 억제제 — 당뇨병성 신증(단백뇨 동반) 환자에서 사구체 내압을 감소시켜 알부민뇨를 줄이고 신기능 악화를 지연시키는 가장 우선적인 1차 병용 조합입니다"
@@ -30275,7 +30275,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "메트포르민 + GLP-1 수용체 작용제",
+        "text": "GLP-1 receptor agonist",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "1 수용체 작용제 — 죽상경화성 심혈관 질환이나 체중 감량이 주 목표일 때 우선 고려됩니다."
@@ -30299,7 +30299,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "메트포르민 + 치아졸리딘디온 (TZD)",
+        "text": "TZD",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "체중 증가와 체액 저류 부작용이 있습니다."
@@ -39283,8 +39283,8 @@
     "stem": "70세 여자가 골밀도 검사를 위해 병원에 왔다. 골밀도 소견은 다음과 같다. 이에 대한 적절한 해석과 진단은? Z score T score L1",
     "images": [],
     "options": [
-      "① T-score -2.9 (또는 -2.6), 골다공증 (Osteoporosis)",
-      "② T-score -2.1, 골감소증 (Osteopenia)",
+      "① Osteoporosis",
+      "② Osteopenia",
       "③ Z-score -2.5, 골다공증",
       "④ Z-score -2.1, 정상",
       "⑤ T-score -1.8, 골감소증"
@@ -39361,7 +39361,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "T-score -2.9 (또는 -2.6), 골다공증 (Osteoporosis)",
+        "text": "Osteoporosis",
         "is_correct": true,
         "tag": "정답",
         "reason": "score -2.9 (또는 -2.6), 골다공증 (Osteoporosis) — 70세 폐경 후 여성은 T-score로 판정하며, 요추 최저치(L1 -2.9) 및 평균(-2.6)이 -2.5 이하이므로 골다공증임"
@@ -39369,7 +39369,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "T-score -2.1, 골감소증 (Osteopenia)",
+        "text": "Osteopenia",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "score -2.1, 골감소증 (Osteopenia) — 대퇴골 수치(-2.1)만 반영한 것이며, 요추와 대퇴골 중 더 낮은 T-score 부위를 기준으로 삼아야 하므로 오진입니다."
@@ -40738,11 +40738,11 @@
       "images/내과/22Y_Q07_fig2.png"
     ],
     "options": [
-      "좌전하행동맥 (Left anterior descending artery, LAD)",
-      "좌회선동맥 (Left circumflex artery, LCx)",
-      "우관상동맥 (Right coronary artery, RCA)",
-      "좌주간부 관상동맥 (Left main coronary artery)",
-      "둔각분지 (Obtuse marginal branch, OM)"
+      "Left anterior descending artery, LAD",
+      "Left circumflex artery, LCx",
+      "Right coronary artery, RCA",
+      "Left main coronary artery",
+      "Obtuse marginal branch, OM"
     ],
     "correct_option_index": 0,
     "correct_answer": "좌전하행동맥 (Left anterior descending artery, LAD)",
@@ -40814,7 +40814,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "좌전하행동맥 (Left anterior descending artery, LAD)",
+        "text": "Left anterior descending artery, LAD",
         "is_correct": true,
         "tag": "정답",
         "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
@@ -40822,7 +40822,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "좌회선동맥 (Left circumflex artery, LCx)",
+        "text": "Left circumflex artery, LCx",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -40830,7 +40830,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "우관상동맥 (Right coronary artery, RCA)",
+        "text": "Right coronary artery, RCA",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -40838,7 +40838,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "좌주간부 관상동맥 (Left main coronary artery)",
+        "text": "Left main coronary artery",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -40846,7 +40846,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "둔각분지 (Obtuse marginal branch, OM)",
+        "text": "Obtuse marginal branch, OM",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -45527,7 +45527,7 @@
     "stem": "관절염 등으로 장기간 스테로이드를 복용한 환자에서 의인성 쿠싱증후군 및 2차성 부신기능부전을 평가하기 위해 시상하부-뇌하수체-부신 축의 예비능을 확인하는 가장 적절한 진단 검사는?",
     "images": [],
     "options": [
-      "신속 ACTH 자극검사 (Rapid ACTH stimulation test)",
+      "Rapid ACTH stimulation test",
       "야간 1mg 덱사메타손 억제검사",
       "24시간 소변 유리 코르티솔 검사",
       "고용량 덱사메타손 억제검사",
@@ -45603,7 +45603,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "신속 ACTH 자극검사 (Rapid ACTH stimulation test)",
+        "text": "Rapid ACTH stimulation test",
         "is_correct": true,
         "tag": "정답",
         "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
@@ -46722,11 +46722,11 @@
       "images/내과/21Y_Q03_fig2.png"
     ],
     "options": [
-      "좌주간부 관상동맥 (Left main coronary artery)",
-      "좌전하행동맥 (LAD)",
-      "우관상동맥 (RCA)",
-      "좌회선동맥 (LCx)",
-      "후하행동맥 (PDA)"
+      "Left main coronary artery",
+      "LAD",
+      "RCA",
+      "LCx",
+      "PDA"
     ],
     "correct_option_index": 0,
     "correct_answer": "좌주간부 관상동맥 (Left main coronary artery)",
@@ -46798,7 +46798,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "좌주간부 관상동맥 (Left main coronary artery)",
+        "text": "Left main coronary artery",
         "is_correct": true,
         "tag": "정답",
         "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
@@ -46806,7 +46806,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "좌전하행동맥 (LAD)",
+        "text": "LAD",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -46814,7 +46814,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "우관상동맥 (RCA)",
+        "text": "RCA",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -46822,7 +46822,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "좌회선동맥 (LCx)",
+        "text": "LCx",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -46830,7 +46830,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "후하행동맥 (PDA)",
+        "text": "PDA",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -47105,11 +47105,11 @@
     "stem": "심방세동과 심부전(HFrEF)이 동반된 환자에서 심실 박동수가 117회/분으로 빠르고 숨찬 증상이 지속되었다. 심박수 조절과 함께 장기 생존율 향상 효과가 입증된 표준 치료 약제는?",
     "images": [],
     "options": [
-      "베타차단제 (Bisoprolol / Carvedilol)",
-      "푸로세마이드 (Furosemide)",
-      "아미오다론 (Amiodarone)",
-      "아스피린 (Aspirin)",
-      "디곡신 (Digoxin)"
+      "Bisoprolol / Carvedilol",
+      "Furosemide",
+      "Amiodarone",
+      "Aspirin",
+      "Digoxin"
     ],
     "correct_option_index": 0,
     "correct_answer": "베타차단제 (Bisoprolol / Carvedilol)",
@@ -47181,7 +47181,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "베타차단제 (Bisoprolol / Carvedilol)",
+        "text": "Bisoprolol / Carvedilol",
         "is_correct": true,
         "tag": "정답",
         "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
@@ -47189,7 +47189,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "푸로세마이드 (Furosemide)",
+        "text": "Furosemide",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -47197,7 +47197,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "아미오다론 (Amiodarone)",
+        "text": "Amiodarone",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -47205,7 +47205,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "아스피린 (Aspirin)",
+        "text": "Aspirin",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -47213,7 +47213,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "디곡신 (Digoxin)",
+        "text": "Digoxin",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -50487,11 +50487,11 @@
     "stem": "중년 여성 당뇨병 병력. 최근 호흡곤란 심해지고 심비대 보임. 심장 EF 저하된 소견. 신장 GFR 는 45 정도, BUN/CR 수치 안좋았음. Urine ACR 500 정 도 였음. 이 환자에게 사용할수 있는 약? SGLT-2 Inhibitor",
     "images": [],
     "options": [
-      "① SGLT-2 억제제 (SGLT-2 inhibitor)",
-      "② 메트포르민 (Metformin)",
-      "③ 설포닐유레아 (Sulfonylurea)",
-      "④ DPP-4 억제제 (DPP-4 inhibitor)",
-      "⑤ 인슐린 (Insulin)"
+      "① SGLT-2 inhibitor",
+      "② Metformin",
+      "③ Sulfonylurea",
+      "④ DPP-4 inhibitor",
+      "⑤ Insulin"
     ],
     "correct_option_index": 0,
     "correct_answer": "① SGLT-2 억제제 (SGLT-2 inhibitor)",
@@ -50563,7 +50563,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Metformin",
+        "text": "SGLT-2 inhibitor",
         "is_correct": true,
         "tag": "정답",
         "reason": "[내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
@@ -50571,7 +50571,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Sulfonylurea",
+        "text": "Metformin",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "② Sulfonylurea."
@@ -50579,7 +50579,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "DPP-IV antagonist",
+        "text": "Sulfonylurea",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "③ DPP-IV antagonist."
@@ -50587,7 +50587,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "",
+        "text": "DPP-4 inhibitor",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -50595,7 +50595,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "경구 혈당강하제 중 SGLT-2i 와 GLP-1RA 가 심혈관계 동반질환을 가진 환자에서 추천됨. 보기에는 GLP-1RA 가 없었음. 심장내과에서도 유사한 문제 1 문제 출제됨. 밑에 문제와 비슷한 문제이나 선지에 GLP-1RA 없었음.",
+        "text": "Insulin",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "보기에는 GLP-1RA 가 없었음. 심장내과에서도 유사한 문제 1 문제 출제됨. 밑에 문제와 비슷한 문제이나 선지에 GLP-1RA 없었음. : 보기에는 GLP-1RA 가 없었음. 심장내과에서도 유사한 문제 1 문제 출제됨. 밑에 문제와 비슷한 문제이나 선지에 GLP-1RA 없었음. : 보기에는 GLP-1RA 가 없었음. 심장내과에서도 유사한 문제 1 문제 출제됨. 밑에 문제와 비슷한 문제이나 선지에 GLP-1RA 없었음. : 보기에는 GLP-1RA 가 없었음. 심장내과에서도 유사한 문제 1 문제 출제됨. 밑에 문제와 비슷한 문제이나 선지에 GLP-1RA 없었음."
@@ -55497,11 +55497,11 @@
       "images/내과/20Y_Q23_fig1.png"
     ],
     "options": [
-      "① 터리프레신 (Terlipressin)",
-      "② 비선택적 베타차단제 (Non-selective beta blocker, Propranolol / Nadolol)",
-      "③ 루프 이뇨제 (Furosemide)",
-      "④ 프로톤펌프억제제 (PPI)",
-      "⑤ 예방적 3세대 세팔로스포린 항생제 (Ceftriaxone)"
+      "① Terlipressin",
+      "② Non-selective beta blocker, Propranolol / Nadolol",
+      "③ Furosemide",
+      "④ PPI",
+      "⑤ Ceftriaxone"
     ],
     "correct_option_index": 1,
     "correct_answer": "② 비선택적 베타차단제 (Non-selective beta blocker, Propranolol / Nadolol)",
@@ -55573,7 +55573,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "터리프레신 (Terlipressin)",
+        "text": "Terlipressin",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "바소프레신 수용체를 자극해 내장 혈류를 줄이는 급성 정맥류 출혈의 지혈 약제이며 퇴원 후 장기 2차 예방용 약제가 아닙니다."
@@ -55581,7 +55581,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "비선택적 베타차단제 (Non-selective beta blocker, Propranolol / Nadolol)",
+        "text": "Non-selective beta blocker, Propranolol / Nadolol",
         "is_correct": true,
         "tag": "정답",
         "reason": "selective beta blocker, Propranolol / Nadolol) — 베타1 차단으로 심박출량을 줄이고 베타2 차단으로 내장 혈관을 수축시켜 문맥압을 낮추는 재출혈 2차 예방의 표준 약제임"
@@ -55589,7 +55589,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "루프 이뇨제 (Furosemide)",
+        "text": "Furosemide",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "간경변에 동반된 복수와 부종을 완화하는 약제이며 식도정맥류 재출혈을 예방하는 효과가 없습니다."
@@ -55597,7 +55597,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "프로톤펌프억제제 (PPI)",
+        "text": "PPI",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "결찰술 후 유발된 국소 점막 궤양의 치유를 위해 단기 사용할 수 있으나 문맥압을 낮추는 2차 예방 약제가 아닙니다."
@@ -55605,7 +55605,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "예방적 3세대 세팔로스포린 항생제 (Ceftriaxone)",
+        "text": "Ceftriaxone",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "급성 출혈 발생 시 패혈증 및 조기 재출혈을 막기 위해 5~7일간 단기 투여하는 급성기 예방 약제입니다."
@@ -56502,11 +56502,11 @@
     "stem": "60세 남성이 고혈압으로 인한 말기신부전(ESRD)으로 신장이식을 받았다. 이후 추적 관찰 중 혈장 포도당 690 mg/dL, HbA1c 11.0%로 심한 고혈당 소견을 보였다. 이식 후 당뇨병(NODAT)을 유발한 가장 의심되는 면역억제제는?",
     "images": [],
     "options": [
-      "① 타크로리무스 (Tacrolimus)",
-      "② 마이코페놀레이트 모페틸 (Mycophenolate mofetil)",
-      "③ 아자티오프린 (Azathioprine)",
-      "④ 사이클로스포린 A (Cyclosporine A)",
-      "⑤ 바실릭시맙 (Basiliximab)"
+      "① Tacrolimus",
+      "② Mycophenolate mofetil",
+      "③ Azathioprine",
+      "④ Cyclosporine A",
+      "⑤ Basiliximab"
     ],
     "correct_option_index": 0,
     "correct_answer": "① 타크로리무스 (Tacrolimus)",
@@ -56594,7 +56594,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "plasma glc 690 대",
+        "text": "Tacrolimus",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "공복 및 식후 혈당의 극심한 상승은 이식 후 당뇨병(NODAT)의 진단 근거 소견이며, 질환을 유발한 원인 면역억제제 약물이 아닙니다."
@@ -56602,7 +56602,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "HbA1c 도 11.0",
+        "text": "Mycophenolate mofetil",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "당화혈색소의 뚜렷한 상승은 수개월간 지속된 고혈당 상태를 반영하는 검사 결과 지표일 뿐, 고혈당을 초래한 원인 약제에 해당하지 않습니다."
@@ -56610,7 +56610,7 @@
       {
         "opt_idx": 2,
         "opt_num": "①",
-        "text": "Cyclosporine A",
+        "text": "Azathioprine",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "공복 및 식후 혈당의 극심한 상승은 이식 후 당뇨병(NODAT)의 진단 근거 소견이며, 질환을 유발한 원인 면역억제제 약물이 아닙니다."
@@ -56618,7 +56618,7 @@
       {
         "opt_idx": 3,
         "opt_num": "②",
-        "text": "Tacrolimus",
+        "text": "Cyclosporine A",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "당화혈색소의 뚜렷한 상승은 수개월간 지속된 고혈당 상태를 반영하는 검사 결과 지표일 뿐, 고혈당을 초래한 원인 약제에 해당하지 않습니다."
@@ -56626,7 +56626,7 @@
       {
         "opt_idx": 4,
         "opt_num": "③",
-        "text": "Mycophenolate mofetil",
+        "text": "Basiliximab",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "칼시뉴린 억제제로 당뇨를 유발할 수 있으나, 타크로리무스에 비해 췌장 베타세포 억제 독성이 상대적으로 낮고 오히려 고혈압과 다모증, 잇몸 비대가 흔합니다."
@@ -57266,11 +57266,11 @@
     "stem": "평상시 건강했던 28세 남성이 여행을 다녀온 후 설사와 하지 쇠약을 주소로 내원하였다.\n- 혈압: 90/50 mmHg\n- 혈청: Na 135 mEq/L, K 3.5 mEq/L, Cl 98 mEq/L\n- 소변: Na 10 mEq/L, Osmolality 800 mOsm/kg, Cl 20 mEq/L\n환자에 대한 수액 요법으로 가장 알맞은 것은?",
     "images": [],
     "options": [
-      "① 5% 포도당 (5% Dextrose)",
-      "② 10% 포도당 (10% Dextrose)",
-      "③ 0.45% 생리식염수 (Half-isotonic saline)",
-      "④ 젖산 링거액 (Ringer's lactate solution)",
-      "⑤ 만니톨 (Mannitol)"
+      "① 5% Dextrose",
+      "② 10% Dextrose",
+      "③ Half-isotonic saline",
+      "④ Ringer's lactate solution",
+      "⑤ Mannitol"
     ],
     "correct_option_index": 3,
     "correct_answer": "④ 젖산 링거액 (Ringer's lactate solution)",
@@ -57366,7 +57366,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "혈압 : 90/50",
+        "text": "5% Dextrose",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "체내에서 포도당이 대사된 후 자유수(free water)로 작용하여 전신 체액 구획으로 확산되므로, 저혈압 쇼크 환자의 혈관내 용적을 신속히 확장하지 못합니다."
@@ -57374,7 +57374,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Serum : Na 135 K 3.5 Cl 98",
+        "text": "10% Dextrose",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "고농도 포도당 수액으로 삼투성 이뇨를 유발하여 체액 소실을 악화시킬 수 있으며 저혈량 쇼크의 용적 소생술에 사용하지 않습니다."
@@ -57382,7 +57382,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Urine : Na 10 osmolality 800 Cl 20",
+        "text": "Half-isotonic saline",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "isotonic saline) — 저장성 수액으로 고나트륨혈증의 수분 보충이나 유지 수액으로 쓰이며, 혈역학적 불안정을 동반한 급성 탈수의 1차 소생술에는 적절하지 않습니다."
@@ -57390,7 +57390,7 @@
       {
         "opt_idx": 3,
         "opt_num": "①",
-        "text": "% Dextrose",
+        "text": "Ringer's lactate solution",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "체내에서 포도당이 대사된 후 자유수(free water)로 작용하여 전신 체액 구획으로 확산되므로, 저혈압 쇼크 환자의 혈관내 용적을 신속히 확장하지 못합니다."
@@ -57398,7 +57398,7 @@
       {
         "opt_idx": 4,
         "opt_num": "②",
-        "text": "% Dextrose",
+        "text": "Mannitol",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "고농도 포도당 수액으로 삼투성 이뇨를 유발하여 체액 소실을 악화시킬 수 있으며 저혈량 쇼크의 용적 소생술에 사용하지 않습니다."
@@ -72914,10 +72914,10 @@
     "stem": "유방암 환자에서 감시림프절 생검술(Sentinel Lymph Node Biopsy, SLNB)의 적응증이 아닌 것은?",
     "images": [],
     "options": [
-      "중심부바늘생검(CNB)으로 확인된 광범위 상피내암(DCIS)",
-      "3cm 크기의 침윤성 유관암(IDC)",
+      "DCIS",
+      "3 IDC",
       "다초발성/다발성 유방암",
-      "염증성 유방암 (Inflammatory breast cancer)",
+      "Inflammatory breast cancer",
       "임신 3기 유방암"
     ],
     "correct_option_index": 3,
@@ -73147,11 +73147,11 @@
     "stem": "위암 수술 소견에서 Left gastric artery (좌위동맥)에서 분지하여 간좌엽으로 주행하는 해부학적 변이 동맥(Anatomical variant)은?",
     "images": [],
     "options": [
-      "Replaced left hepatic artery (변이 좌간동맥)",
-      "Common hepatic artery (총간동맥)",
-      "Proper hepatic artery (고유간동맥)",
-      "Splenic artery (비장동맥)",
-      "Gastroduodenal artery (위십이지장동맥)"
+      "Replaced left hepatic artery",
+      "Common hepatic artery",
+      "Proper hepatic artery",
+      "Splenic artery",
+      "Gastroduodenal artery"
     ],
     "correct_option_index": 0,
     "correct_answer": "① Replaced left hepatic artery (변이 좌간동맥)",
@@ -73889,11 +73889,11 @@
       "images/외과/19Y_Q16_fig1.png"
     ],
     "options": [
-      "Abdominal aortic aneurysm rupture (복부 대동맥류 파열)",
-      "Acute aortic dissection (급성 대동맥 박리)",
-      "Acute myocardial infarction (급성 심근경색)",
-      "Acute pancreatitis (급성 췌장염)",
-      "Acute mesenteric ischemia (급성 장간막 허혈)"
+      "Abdominal aortic aneurysm rupture",
+      "Acute aortic dissection",
+      "Acute myocardial infarction",
+      "Acute pancreatitis",
+      "Acute mesenteric ischemia"
     ],
     "correct_option_index": 0,
     "correct_answer": "① Abdominal aortic aneurysm rupture (복부 대동맥류 파열)",
@@ -74175,11 +74175,11 @@
     "stem": "복강경 탈장 수술(TAPP) 시야에서 하복벽혈관(Inferior epigastric vessels) 내측 해부학 구조(Hesselbach 삼각)를 통해 결손이 발생한 탈장의 종류는?",
     "images": [],
     "options": [
-      "Direct inguinal hernia (직접 서혜부 탈장)",
-      "Indirect inguinal hernia (간접 서혜부 탈장)",
-      "Femoral hernia (대퇴 탈장)",
-      "Obturator hernia (폐쇄공 탈장)",
-      "Umbilical hernia (제대 탈장)"
+      "Direct inguinal hernia",
+      "Indirect inguinal hernia",
+      "Femoral hernia",
+      "Obturator hernia",
+      "Umbilical hernia"
     ],
     "correct_option_index": 0,
     "correct_answer": "① Direct inguinal hernia (직접 서혜부 탈장)",
@@ -75983,11 +75983,11 @@
       "images/소아청소년과/26Y_Q15_fig1.png"
     ],
     "options": [
-      "① 선천성 십이지장 폐쇄 (Duodenal atresia)",
-      "② 비후성 유문협착증 (Hypertrophic pyloric stenosis)",
-      "③ 장회전이상 및 중장염전 (Malrotation with midgut volvulus)",
-      "④ 선천성 거대결장 (Hirschsprung disease)",
-      "⑤ 괴사성 장염 (Necrotizing enterocolitis)"
+      "① Duodenal atresia",
+      "② Hypertrophic pyloric stenosis",
+      "③ Malrotation with midgut volvulus",
+      "④ Hirschsprung disease",
+      "⑤ Necrotizing enterocolitis"
     ],
     "correct_option_index": 0,
     "correct_answer": "① 선천성 십이지장 폐쇄 (Duodenal atresia)",
@@ -76016,7 +76016,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "선천성 십이지장 폐쇄 (Duodenal atresia)",
+        "text": "Duodenal atresia",
         "is_correct": true,
         "tag": "정답",
         "reason": "출생 직후 담즙성 구토와 복부 X-ray의 Double-bubble sign(위와 십이지장 구부의 확장 및 원위부 가스 소실)은 선천성 십이지장 폐쇄의 특징적 소견입니다."
@@ -76024,7 +76024,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "비후성 유문협착증 (Hypertrophic pyloric stenosis)",
+        "text": "Hypertrophic pyloric stenosis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "생후 2~3주경 비담즙성 사출성 구토와 Single-bubble sign을 보입니다."
@@ -76032,7 +76032,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "장회전이상 및 중장염전 (Malrotation with midgut volvulus)",
+        "text": "Malrotation with midgut volvulus",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "담즙성 구토를 보이나 상부위장관 조영술에서 Corkscrew sign으로 확진합니다."
@@ -76040,7 +76040,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "선천성 거대결장 (Hirschsprung disease)",
+        "text": "Hirschsprung disease",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "태변 배출 지연과 심한 하부 장관 팽만을 보입니다."
@@ -76048,7 +76048,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "괴사성 장염 (Necrotizing enterocolitis)",
+        "text": "Necrotizing enterocolitis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "미숙아에서 수유 시작 후 복부 팽만, 혈변, 장벽 내 공기(pneumatosis intestinalis)를 보입니다."
@@ -77294,11 +77294,11 @@
       "images/소아청소년과/26Y_Q26_fig1.png"
     ],
     "options": [
-      "① 급성 파종성 뇌척수염 (Acute disseminated encephalomyelitis, ADEM)",
-      "② 모야모야병 (Moyamoya disease)",
-      "③ 결절성 경화증 (Tuberous sclerosis)",
-      "④ 스터지-웨버 증후군 (Sturge-Weber syndrome)",
-      "⑤ 길랑-바레 증후군 (Guillain-Barré syndrome)"
+      "① Acute disseminated encephalomyelitis, ADEM",
+      "② Moyamoya disease",
+      "③ Tuberous sclerosis",
+      "④ Sturge-Weber syndrome",
+      "⑤ Guillain-Barré syndrome"
     ],
     "correct_option_index": 0,
     "correct_answer": "① 급성 파종성 뇌척수염 (Acute disseminated encephalomyelitis, ADEM)",
@@ -77329,7 +77329,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "급성 파종성 뇌척수염 (Acute disseminated encephalomyelitis, ADEM)",
+        "text": "Acute disseminated encephalomyelitis, ADEM",
         "is_correct": true,
         "tag": "정답",
         "reason": "선행 바이러스 감염 후 급성 뇌병증(경련, 두통, 의식 저하)과 뇌 MRI상 양측 비대칭 다발성 백질 고신호 병변은 ADEM의 전형적인 소견입니다."
@@ -77337,7 +77337,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "모야모야병 (Moyamoya disease)",
+        "text": "Moyamoya disease",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "과호흡 시 일과성 편마비와 뇌혈관조영술상 내경동맥 말단부 협착 및 연기 모양 측부혈관을 보입니다."
@@ -77345,7 +77345,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "결절성 경화증 (Tuberous sclerosis)",
+        "text": "Tuberous sclerosis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "저색소 반점, 영아연축, 피질 결절(cortical tuber) 및 뇌실막하 결절을 보입니다."
@@ -77353,7 +77353,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "스터지-웨버 증후군 (Sturge-Weber syndrome)",
+        "text": "Sturge-Weber syndrome",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "삼차신경 영역의 화염상 모반과 연수막 혈관종, 뇌회 모양 석회화를 보입니다."
@@ -77361,7 +77361,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "길랑-바레 증후군 (Guillain-Barré syndrome)",
+        "text": "Guillain-Barré syndrome",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "말초신경계의 급성 염증성 탈수초성 다발신경병증으로 상행성 이완성 마비를 보입니다."
@@ -85869,11 +85869,11 @@
     "stem": "4세 여아가 40초 이상 멍한 모습을 보여 내원하였다. 멍하게 있는 동안 눈꺼풀이 떨리고 고개가 떨어지며 자주 넘어지기도 하였다. 발달 지체도 동반되어 있었다. 뇌파(EEG)에서 전반적인 2~2.5 Hz의 느린 극서파 복합체(generalized 2~2.5/sec spike and wave complex)가 나타났다. 진단은?",
     "images": [],
     "options": [
-      "전형적 소발작(Typical absence seizure)",
-      "비전형적 소발작(Atypical absence seizure)",
-      "근간대발작(Myoclonic seizure)",
-      "영아연축(Infantile spasm)",
-      "양성 롤란딕 뇌전증(Benign rolandic epilepsy)"
+      "Typical absence seizure",
+      "Atypical absence seizure",
+      "Myoclonic seizure",
+      "Infantile spasm",
+      "Benign rolandic epilepsy"
     ],
     "correct_option_index": 1,
     "correct_answer": "비전형적 소발작(Atypical absence seizure)",
@@ -85945,7 +85945,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "전형적 소발작(Typical absence seizure)",
+        "text": "Typical absence seizure",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "주로 5~10세 정상 발달 소아에서 수초(10~15초 미만)간 갑자기 멈추었다가 즉시 회복되며 뇌파상 3 Hz 전신 극서파를 보입니다."
@@ -85953,7 +85953,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "비전형적 소발작(Atypical absence seizure)",
+        "text": "Atypical absence seizure",
         "is_correct": true,
         "tag": "정답",
         "reason": "40초 이상의 긴 발작 지속시간, 눈꺼풀 떨림 및 고개 떨굼(근긴장 소실 동반), 발달 지체, 뇌파상 2~2.5 Hz의 느린 극서파를 보이는 비전형 소발작입니다"
@@ -85961,7 +85961,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "근간대발작(Myoclonic seizure)",
+        "text": "Myoclonic seizure",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "사지나 몸통이 번개처럼 짧고 급격하게 수축하는 발작으로 뇌파상 다극서파(polyspike-and-wave)를 보입니다."
@@ -85969,7 +85969,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "영아연축(Infantile spasm)",
+        "text": "Infantile spasm",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "주로 생후 3~8개월 영아에서 잠에서 깰 때 군집성 굴곡/신전 연축을 보이며 뇌파상 고진폭부정뇌파(hypsarrhythmia)가 나타납니다."
@@ -85977,7 +85977,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "양성 롤란딕 뇌전증(Benign rolandic epilepsy)",
+        "text": "Benign rolandic epilepsy",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "정상 발달 학령기 소아에서 수면 중 안면·구강 국소 경련을 보이며 중심측두부 극파가 관찰됩니다."
@@ -89680,11 +89680,11 @@
       "images/소아청소년과/22Y_Q44_fig1.png"
     ],
     "options": [
-      "아이젠멩거 증후군(Eisenmenger syndrome)",
-      "팔로네징후(Tetralogy of Fallot)",
-      "완전 대혈관 전위(Complete TGA)",
-      "총폐정맥환류이상(TAPVR)",
-      "삼첨판 폐쇄증(Tricuspid atresia)"
+      "Eisenmenger syndrome",
+      "Tetralogy of Fallot",
+      "Complete TGA",
+      "TAPVR",
+      "Tricuspid atresia"
     ],
     "correct_option_index": 0,
     "correct_answer": "아이젠멩거 증후군(Eisenmenger syndrome)",
@@ -89756,7 +89756,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "아이젠멩거 증후군(Eisenmenger syndrome)",
+        "text": "Eisenmenger syndrome",
         "is_correct": true,
         "tag": "정답",
         "reason": "좌-우 단락 선천 심질환(대형 VSD 등)을 치료하지 않아 비가역적 폐동맥 고혈압(P2 항진, 폐동맥 확장)이 발생하고 단락이 우-좌로 역전되어 후기 청색증이 나타난 상태입니다"
@@ -89764,7 +89764,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "팔로네징후(Tetralogy of Fallot)",
+        "text": "Tetralogy of Fallot",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "폐동맥 협착으로 폐혈류가 감소하여 영아기 초기부터 청색증을 보이며 P2가 약하거나 단일음으로 들립니다."
@@ -89772,7 +89772,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "완전 대혈관 전위(Complete TGA)",
+        "text": "Complete TGA",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "대동맥과 폐동맥이 바뀌어 기시하므로 출생 직후부터 심한 청색증이 나타납니다."
@@ -89780,7 +89780,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "총폐정맥환류이상(TAPVR)",
+        "text": "TAPVR",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "폐정맥이 우심방 계통으로 연결되어 신생아기부터 청색증과 심부전을 보입니다."
@@ -89788,7 +89788,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "삼첨판 폐쇄증(Tricuspid atresia)",
+        "text": "Tricuspid atresia",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "우심실 저형성과 폐혈류 감소로 출생 직후부터 청색증을 보이며 심전도상 좌축편위가 특징입니다."
@@ -91497,11 +91497,11 @@
       "images/소아청소년과/21Y_Q10_fig1.png"
     ],
     "options": [
-      "심실중격결손(VSD)",
-      "심방중격결손(ASD)",
-      "폐동맥판 협착증(PS)",
-      "대동맥 축착증(CoA)",
-      "팔로네징후(TOF)"
+      "VSD",
+      "ASD",
+      "PS",
+      "CoA",
+      "TOF"
     ],
     "correct_option_index": 0,
     "correct_answer": "심실중격결손(VSD)",
@@ -91573,7 +91573,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "심실중격결손(VSD)",
+        "text": "VSD",
         "is_correct": true,
         "tag": "정답",
         "reason": "좌측 흉골 하연(LLSB)의 3/6도 범수축기 심잡음과 폐혈류 증가로 인해 승모판 유입 혈류가 많아져 들리는 심첨부 이완기 굴림 심잡음(diastolic rumble), 폐동맥 고혈압에 의한 P2 항진을 보이는 전형적인 중등도~대형 VSD 소견입니다"
@@ -91581,7 +91581,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "심방중격결손(ASD)",
+        "text": "ASD",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "좌측 흉골 상연의 수축기 구출성 잡음, 제2심음 고정성 분열 및 삼첨판 유입 증가에 의한 좌흉골 하연 이완기 잡음을 보입니다."
@@ -91589,7 +91589,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "폐동맥판 협착증(PS)",
+        "text": "PS",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "좌측 흉골 상연에서 수축기 구출성 잡음이 들리고 폐혈류가 감소하며 P2가 감소합니다."
@@ -91597,7 +91597,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "대동맥 축착증(CoA)",
+        "text": "CoA",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "상지 고혈압과 하지 맥박 약화 및 견갑골 사이 수축기 잡음이 특징입니다."
@@ -91605,7 +91605,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "팔로네징후(TOF)",
+        "text": "TOF",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "우심실 유출로 협착과 우-좌 단락으로 청색증을 보이며 폐혈류가 감소합니다."
@@ -96029,10 +96029,10 @@
     "stem": "신생아 연령 표기 중 월경후연령(Postmenstrual age, PMA)을 뜻하는 것은?",
     "images": [],
     "options": [
-      "교정연령(Corrected age)",
-      "재태연령(Gestational age)",
-      "역연령(Chronological age)",
-      "재태연령 + 역연령(Gestational age + Chronological age)",
+      "Corrected age",
+      "Gestational age",
+      "Chronological age",
+      "Gestational age + Chronological age",
       "재태연령 - 40주"
     ],
     "correct_option_index": 3,
@@ -96105,7 +96105,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "교정연령(Corrected age)",
+        "text": "Corrected age",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "출생 후 역연령에서 조산한 주수(40주 - 재태연령)를 뺀 연령으로 미숙아의 성장·발달 평가 기준입니다."
@@ -96113,7 +96113,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "재태연령(Gestational age)",
+        "text": "Gestational age",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "최종 월경 첫날부터 출생 시점까지의 주수입니다."
@@ -96121,7 +96121,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "역연령(Chronological age)",
+        "text": "Chronological age",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "출생 시점부터 현재까지 실제로 경과한 시간(일, 주, 개월, 년)입니다."
@@ -96129,7 +96129,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "재태연령 + 역연령(Gestational age + Chronological age)",
+        "text": "Gestational age + Chronological age",
         "is_correct": true,
         "tag": "정답",
         "reason": "월경후연령(PMA)은 재태연령에 출생 후 경과한 역연령을 더한 총 주수입니다"
@@ -98202,11 +98202,11 @@
     "stem": "5세 여아가 발열과 두통, 구토로 병원에 내원하였다. 2주 전 손과 발에 수포성 발진이 나고 입안에도 궤양이 생겨 밥을 잘 먹지 못한 적이 있었다(수족구병). 뇌척수액 검사 결과가 다음과 같을 때 가장 흔한 원인 병원체는?\n- 뇌척수액 검사: 백혈구 180/mm3 (림프구 96%), 단백질 35 mg/dL, 포도당 65 mg/dL (정상)",
     "images": [],
     "options": [
-      "엔테로바이러스(Enterovirus)",
-      "폐렴구균(Streptococcus pneumoniae)",
-      "수막구균(Neisseria meningitidis)",
-      "결핵균(Mycobacterium tuberculosis)",
-      "단순포진바이러스 1형(HSV-1)"
+      "Enterovirus",
+      "Streptococcus pneumoniae",
+      "Neisseria meningitidis",
+      "Mycobacterium tuberculosis",
+      "HSV-1"
     ],
     "correct_option_index": 0,
     "correct_answer": "엔테로바이러스(Enterovirus)",
@@ -98278,7 +98278,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "엔테로바이러스(Enterovirus)",
+        "text": "Enterovirus",
         "is_correct": true,
         "tag": "정답",
         "reason": "2주 전 수족구병(손발 수포, 구강 궤양) 병력 후 발생한 발열·두통·구토와 뇌척수액 림프구 우위(96%) 무균성 뇌수막염의 가장 흔한 원인 병원체는 엔테로바이러스(콕사키바이러스, 엔테로바이러스 71형 등)입니다"
@@ -98286,7 +98286,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "폐렴구균(Streptococcus pneumoniae)",
+        "text": "Streptococcus pneumoniae",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "세균성 뇌수막염의 주요 원인균으로 뇌척수액 다형핵 중성구 급증, 단백 상승, 당 현저 감소를 보입니다."
@@ -98294,7 +98294,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "수막구균(Neisseria meningitidis)",
+        "text": "Neisseria meningitidis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "전격성 자반증과 패혈증을 동반하는 급성 세균성 뇌수막염의 원인균입니다."
@@ -98302,7 +98302,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "결핵균(Mycobacterium tuberculosis)",
+        "text": "Mycobacterium tuberculosis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "아급성 경과를 보이며 뇌척수액 단백이 고도로 상승하고 당이 현저히 감소합니다."
@@ -98310,7 +98310,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "단순포진바이러스 1형(HSV-1)",
+        "text": "HSV-1",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "1) — 측두엽을 침범하는 중증 괴사성·출혈성 뇌염을 주로 일으키며 수족구병 선행 병력과는 무관합니다."
@@ -100470,10 +100470,10 @@
     "stem": "6세 남아가 상기도 감염 2일 후 육안적 혈뇨가 발생해 내원하였다. 혈뇨는 하루 지속되고 소실되었다. 소변검사상 요단백(-), 요잠혈(2+)일 때 가장 의심되는 질환은?",
     "images": [],
     "options": [
-      "알포트 증후군(Alport syndrome)",
-      "급성 사슬알균 감염 후 사구체신염(PSGN)",
-      "IgA 신병증(IgA nephropathy)",
-      "용혈요독증후군(HUS)"
+      "Alport syndrome",
+      "PSGN",
+      "IgA nephropathy",
+      "HUS"
     ],
     "correct_option_index": 2,
     "correct_answer": "IgA 신병증(IgA nephropathy)",
@@ -100537,7 +100537,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "알포트 증후군(Alport syndrome)",
+        "text": "Alport syndrome",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "제4형 콜라겐 유전자 변이로 사구체 기저막 손상, 감각신경성 난청, 원추수정체를 동반하는 유전 신염으로 진행성 신부전을 유발합니다."
@@ -100545,7 +100545,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "급성 사슬알균 감염 후 사구체신염(PSGN)",
+        "text": "PSGN",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "사슬알균 인두염 후 1~2주(피부감염 후 3~6주)의 잠복기를 거쳐 혈뇨, 부종, 고혈압 및 혈청 C3 감소를 보입니다."
@@ -100553,7 +100553,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "IgA 신병증(IgA nephropathy)",
+        "text": "IgA nephropathy",
         "is_correct": true,
         "tag": "정답",
         "reason": "상기도 감염 후 잠복기 없이 1~2일 이내(synpharyngitic)에 육안적 혈뇨가 발생했다가 수일 내 소실되고 혈청 C3가 정상인 가장 흔한 만성 사구체신염입니다"
@@ -100561,7 +100561,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "용혈요독증후군(HUS)",
+        "text": "HUS",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "장출혈성 대장균 장염 후 미세혈관병성 용혈빈혈, 혈소판감소증, 급성 신손상의 3징을 보입니다."
@@ -102505,7 +102505,7 @@
     "stem": "범혈구 감소증과 골수 검사에서 세포충실도가 감소해 있는 재생불량빈혈 9세 소아이다. 추가 검사에서 혈색소 F(Hb F)가 증가해 있고 염색체 파손(chromosome breakage) 검사 양성이 확인되었을 때 근치적 치료는?",
     "images": [],
     "options": [
-      "조혈모세포이식(Hematopoietic stem cell transplantation)",
+      "Hematopoietic stem cell transplantation",
       "스테로이드 단독 투여",
       "비장절제술",
       "정맥 면역글로불린(IVIG) 투여"
@@ -102572,7 +102572,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "조혈모세포이식(Hematopoietic stem cell transplantation)",
+        "text": "Hematopoietic stem cell transplantation",
         "is_correct": true,
         "tag": "정답",
         "reason": "범혈구감소증과 골수 저세포충실도를 보이는 재생불량빈혈 소아에서 Hb F 증가와 염색체 파손(chromosome breakage) 검사 양성은 선천성 판코니 빈혈을 확진하는 소견이며, 근치적 치료는 조혈모세포이식입니다"
@@ -106744,11 +106744,11 @@
     "stem": "60세 남자가 6개월 전부터 양쪽 발바닥이 저리고 화끈거리며 감각이 무뎌진다고 내원하였다. 신체진찰 및 혈액검사 결과는 다음과 같다. 가장 의심되는 질환은?\n- 공복혈당: 180 mg/dL, HbA1c: 8.8%\n- 진동감각 및 촉각: 양측 발목 이하에서 대칭적으로 저하\n- 아킬레스건 반사: 양측 모두 소실\n- 말초맥박(족배동맥): 정상 촉지\n- 보행 시 발바닥에 모래가 끼인 듯한 이상감각 호소",
     "images": [],
     "options": [
-      "Diabetic polyneuropathy (당뇨병성 다발신경병증)",
-      "Right thalamic infarction (우측 시상경색)",
-      "Left pontine infarction (좌측 교뇌경색)",
-      "Tarsal tunnel syndrome (발목터널증후군)",
-      "Plantar fasciitis (족저근막염)"
+      "Diabetic polyneuropathy",
+      "Right thalamic infarction",
+      "Left pontine infarction",
+      "Tarsal tunnel syndrome",
+      "Plantar fasciitis"
     ],
     "correct_option_index": 0,
     "correct_answer": "Diabetic polyneuropathy (당뇨병성 다발신경병증)",
@@ -106822,7 +106822,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Diabetic polyneuropathy (당뇨병성 다발신경병증)",
+        "text": "Diabetic polyneuropathy",
         "is_correct": true,
         "tag": "정답",
         "reason": "장기간의 고혈당으로 원위부 축삭 퇴행이 발생하는 가장 흔한 합병증으로, 양측 원위부(장갑-양말 분포)의 감각 저하, 저림, 이상감각 및 건반사 소실을 보입니다"
@@ -106830,7 +106830,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Right thalamic infarction (우측 시상경색)",
+        "text": "Right thalamic infarction",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "반대측(좌측) 반신의 감각 소실과 함께 심한 중추성 통증(Dejerine-Roussy syndrome)을 유발하며 대칭성 사지 말단 침범과 다릅니다."
@@ -106838,7 +106838,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Left pontine infarction (좌측 교뇌경색)",
+        "text": "Left pontine infarction",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "교차성 편마비, 안면신경 마비, 외전신경 마비 등 뇌간 징후를 동반하며 말초신경병증 증상과 다릅니다."
@@ -106846,7 +106846,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Tarsal tunnel syndrome (발목터널증후군)",
+        "text": "Tarsal tunnel syndrome",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "후경골신경이 굴근지대 하방에서 압박되는 단일신경병증으로, 주로 일측성 족저부 통증 및 감각이상을 유발합니다."
@@ -106854,7 +106854,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "Plantar fasciitis (족저근막염)",
+        "text": "Plantar fasciitis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "아침 기상 시 첫 발 디딜 때 발뒤꿈치 내측의 심한 통증이 특징이며, 건반사 소실이나 대칭성 감각 소실은 없습니다."
@@ -107129,11 +107129,11 @@
     "stem": "근육 질환 및 운동신경원 질환의 신체 진찰 소견이다. 얼굴과 눈꺼풀 주변 근육이 미세하게 떨리고 물결치듯 지속적으로 수축하는 잔떨림 증상을 일컫는 용어는?\n- 35세 여성이 과도한 피로와 카페인 섭취 후 눈꺼풀과 안면근육이 파르르 떨리는 증상 호소\n- 신경학적 진찰 상 근력 약화나 근위축은 관찰되지 않음",
     "images": [],
     "options": [
-      "Myokymia (근파동증)",
-      "Fasciculation (근섬유다발수축)",
-      "Myotonia (근긴장증)",
-      "Spasm (연축)",
-      "Cramp (경련)"
+      "Myokymia",
+      "Fasciculation",
+      "Myotonia",
+      "Spasm",
+      "Cramp"
     ],
     "correct_option_index": 0,
     "correct_answer": "Myokymia (근파동증)",
@@ -107207,7 +107207,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Myokymia (근파동증)",
+        "text": "Myokymia",
         "is_correct": true,
         "tag": "정답",
         "reason": "근육 표면이 지렁이가 기어가듯 물결치는 불수의적이고 율동적인 수축으로, 안면부(특히 눈꺼풀 주위)에서 피로, 스트레스, 카페인 등에 의해 흔히 유발됩니다"
@@ -107215,7 +107215,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Fasciculation (근섬유다발수축)",
+        "text": "Fasciculation",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "단일 운동단위가 자발적으로 탈분극되어 발생하는 불규칙하고 빠른 단일 연축으로, ALS 등 하위운동신경원(LMN) 질환에서 특징적입니다."
@@ -107223,7 +107223,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Myotonia (근긴장증)",
+        "text": "Myotonia",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "수의 수축 후 근육의 이완이 지연되는 현상으로 근긴장성 이영양증(DM)에서 관찰됩니다."
@@ -107231,7 +107231,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Spasm (연축)",
+        "text": "Spasm",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "지속적이고 불수의적인 근육 수축을 총칭하는 포괄적 용어입니다."
@@ -107239,7 +107239,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "Cramp (경련)",
+        "text": "Cramp",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "근육이 급격하고 고통스럽게 지속 수축하는 통증성 연축입니다."
@@ -110113,11 +110113,11 @@
     "stem": "45세 여자가 갑작스러운 좌측 상하지 편마비로 응급실에 내원하였다. 내원 당시 근력 검사 상 Grade 3/3이었으며, 응급 뇌 CT 및 MRI(DWI)에서 급성 뇌경색이나 뇌출혈 소견은 관찰되지 않았다. 문진 상 내원 30분 전 전신 강직-간대 발작이 있었던 병력이 확인되었다. 가장 적절한 진단은?",
     "images": [],
     "options": [
-      "Todd 마비 (Todd's paralysis)",
-      "급성 허혈성 뇌경색 (Acute ischemic stroke)",
-      "일과성 허혈발작 (TIA)",
-      "전환장애 (Conversion disorder)",
-      "길랑-바레 증후군 (GBS)"
+      "Todd's paralysis",
+      "Acute ischemic stroke",
+      "TIA",
+      "Conversion disorder",
+      "GBS"
     ],
     "correct_option_index": 0,
     "correct_answer": "Todd 마비 (Todd's paralysis)",
@@ -110189,7 +110189,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Todd 마비 (Todd's paralysis)",
+        "text": "Todd's paralysis",
         "is_correct": true,
         "tag": "정답",
         "reason": "국소 또는 전신 뇌전증 발작 직후 발작 초점 부위 대뇌피질의 일시적 신경 억제로 인해 발생하는 일과성 편마비로, 뇌 영상이 정상이며 대개 수 시간에서 48시간 이내에 완전히 회복됩니다"
@@ -110197,7 +110197,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "급성 허혈성 뇌경색 (Acute ischemic stroke)",
+        "text": "Acute ischemic stroke",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "뇌 MRI(DWI)에서 뚜렷한 고신호강도 병변이 관찰되어야 합니다."
@@ -110205,7 +110205,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "일과성 허혈발작 (TIA)",
+        "text": "TIA",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "선행 경련 발작 없이 혈관 폐색에 의해 발생하며 수 분~수십 분 내에 자연 소실됩니다."
@@ -110213,7 +110213,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "전환장애 (Conversion disorder)",
+        "text": "Conversion disorder",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "객관적 신경학적 결손 패턴과 일치하지 않는 심리적 원인의 마비입니다."
@@ -110221,7 +110221,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "길랑-바레 증후군 (GBS)",
+        "text": "GBS",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "바레 증후군 (GBS) — 양측 대칭성의 상행성 이완마비와 심부건반사 소실을 보입니다."
@@ -110766,7 +110766,7 @@
     "stem": "64세 남자가 주간 과도한 졸림증을 주소로 아내와 함께 내원하였다. 20년 전부터 수면 중 코골이와 무호흡이 관찰되었고, 렘수면 행동장애 및 주간 졸림으로 인해 졸음운전 사고 위험이 반복되었다. 수면다원검사에서 폐쇄성 수면무호흡증(OSA, AHI > 30)으로 확진되었을 때, 가장 효과적인 1차 비수술적 표준 치료법은?",
     "images": [],
     "options": [
-      "지속양압기 치료 (CPAP)",
+      "CPAP",
       "클로나제팜 (Clonazepam) 단독 복용",
       "모다피닐 (Modafinil) 경구 투여",
       "구강 내 장치 단독 착용",
@@ -110842,7 +110842,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "지속양압기 치료 (CPAP)",
+        "text": "CPAP",
         "is_correct": true,
         "tag": "정답",
         "reason": "중등도~중증 폐쇄성 수면무호흡증(OSA) 및 주간 졸림증에 대한 1차 표준 치료로, 수면 중 상기도 폐쇄를 물리적으로 방지하여 수면 구조를 정상화합니다"
@@ -114880,11 +114880,11 @@
     "stem": "51세 비만 남성이 낮 시간 운전 중 잦은 졸림으로 내원하였다. 수면다원검사상 AHI 50/hr 이상일 때 가장 효과적인 표준 치료는?",
     "images": [],
     "options": [
-      "① 지속기도양압기 (CPAP)",
-      "② 로라제팜 (Ativan)",
-      "③ 플루마제닐 (Flumazenil)",
-      "④ 산소 요법 (O₂)",
-      "⑤ 페노바르비탈 (Phenobarbital)"
+      "① CPAP",
+      "② Ativan",
+      "③ Flumazenil",
+      "④ O₂",
+      "⑤ Phenobarbital"
     ],
     "correct_option_index": 0,
     "correct_answer": "① 지속기도양압기 (CPAP)",
@@ -115026,7 +115026,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "O2",
+        "text": "O₂",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "산소 투여는 일시적 저산소혈증을 완화할 수 있으나 상기도 역학적 폐쇄를 교정하지 못하며 고탄산혈증을 조장할 수 있어 1차 단독 치료가 아닙니다."
@@ -115034,7 +115034,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "Phenobarbital 29.7 6세 남자가 3개월 전부터 인지 기능이 저하되었다며 병원에 왔다. 6개월 전부터 파킨슨병이 의심되어 약물치료를 받았으나 효과가 없다고 한다. 최근에는 배뇨장애가 나타났 다. 진단은?",
+        "text": "Phenobarbital",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "바비튜레이트계 항경련제로 중추신경 호흡 중추를 억제하여 수면무호흡 환자의 호흡 정지 위험을 크게 높입니다."
@@ -116985,9 +116985,9 @@
     "stem": "오른쪽 각막을 자극했을 때에는 양쪽 눈 모두 반응이 없었으나, 왼쪽 각막을 자극했을 때에는 양쪽 눈을 모두 감았다. 손상된 신경은?",
     "images": [],
     "options": [
-      "우측 삼차신경 (Rt. trigeminal n.)",
-      "우측 안면신경 (Rt. facial n.)",
-      "좌측 삼차신경 (Lt. trigeminal n.)",
+      "Rt. trigeminal n.",
+      "Rt. facial n.",
+      "Lt. trigeminal n.",
       "우측 삼차신경 및 안면신경 동시 손상",
       "좌측 삼차신경 및 안면신경 동시 손상"
     ],
@@ -117065,7 +117065,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "우측 삼차신경 (Rt. trigeminal n.)",
+        "text": "Rt. trigeminal n.",
         "is_correct": true,
         "tag": "정답",
         "reason": "각막 반사의 구심로는 삼차신경(CN V1)이고 원심로는 양측 안면신경(CN VII)이므로, 우측 자극에 양안 무반응이고 좌측 자극에 양안이 모두 감기면 우측 구심로인 우측 삼차신경 단독 손상입니다"
@@ -117073,7 +117073,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "우측 안면신경 (Rt. facial n.)",
+        "text": "Rt. facial n.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "우측 안면신경 손상이라면 좌측 자극 시에도 우측 눈은 감기지 않아야 합니다."
@@ -117081,7 +117081,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "좌측 삼차신경 (Lt. trigeminal n.)",
+        "text": "Lt. trigeminal n.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "좌측 삼차신경 손상이라면 좌측 자극 시 양안 모두 반응이 없어야 합니다."
@@ -117532,11 +117532,11 @@
     "stem": "50세 여성이 신체 진찰에서 고혈압, 당뇨병, 이상지질혈증 병력이 있고, 양측 손발 끝이 따끔거리며 저린 통증을 호소하였다. 무릎 반사(Knee jerk)가 감소되어 있고 바빈스키 징후는 음성이었다. 가장 의심되는 진단은?",
     "images": [],
     "options": [
-      "① 당뇨병성 다발신경병증 (Diabetic polyneuropathy)",
-      "② 시상 경색 (Right thalamic infarction)",
-      "③ 교뇌 경색 (Left pontine infarction)",
-      "④ 발목터널증후군 (Tarsal tunnel syndrome)",
-      "⑤ 족저근막염 (Plantar fasciitis)"
+      "① Diabetic polyneuropathy",
+      "② Right thalamic infarction",
+      "③ Left pontine infarction",
+      "④ Tarsal tunnel syndrome",
+      "⑤ Plantar fasciitis"
     ],
     "correct_option_index": 0,
     "correct_answer": "① 당뇨병성 다발신경병증 (Diabetic polyneuropathy)",
@@ -117618,7 +117618,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "HTN/DM/Dyslipidemia (+/+/+)",
+        "text": "Diabetic polyneuropathy",
         "is_correct": true,
         "tag": "정답",
         "reason": "장기간의 고혈당으로 원위부 축삭 퇴행이 발생하는 가장 흔한 합병증으로, 양측 원위부(장갑-양말 분포)의 감각 저하, 저림, 이상감각 및 건반사 소실을 보입니다"
@@ -117626,7 +117626,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "손발 끝 따끔한 양상",
+        "text": "Right thalamic infarction",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "반대측(좌측) 반신의 감각 소실과 함께 심한 중추성 통증(Dejerine-Roussy syndrome)을 유발하며 대칭성 사지 말단 침범과 다릅니다."
@@ -117634,7 +117634,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "통증 양측으로 발생",
+        "text": "Left pontine infarction",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "교차성 편마비, 안면신경 마비, 외전신경 마비 등 뇌간 징후를 동반하며 말초신경병증 증상과 다릅니다."
@@ -117642,7 +117642,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Knee jerk 감소",
+        "text": "Tarsal tunnel syndrome",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "후경골신경이 굴근지대 하방에서 압박되는 단일신경병증으로, 주로 일측성 족저부 통증 및 감각이상을 유발합니다."
@@ -117650,7 +117650,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "DTR (+/+)",
+        "text": "Plantar fasciitis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "아침 기상 시 첫 발 디딜 때 발뒤꿈치 내측의 심한 통증이 특징이며, 건반사 소실이나 대칭성 감각 소실은 없습니다."
@@ -117909,9 +117909,9 @@
       "images/신경과/22Y_Q19_fig1.png"
     ],
     "options": [
-      "NSAIDs (비스테로이드 소염진통제)",
-      "수마트립탄 피하주사 (Sumatriptan SQ)",
-      "응급 감압 개두술 (Emergent decompression)",
+      "NSAIDs",
+      "Sumatriptan SQ",
+      "Emergent decompression",
       "응급 기계적 혈전제거술",
       "고용량 헤파린 정맥 주사"
     ],
@@ -117985,7 +117985,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "NSAIDs (비스테로이드 소염진통제)",
+        "text": "NSAIDs",
         "is_correct": true,
         "tag": "정답",
         "reason": "성행위 연관 두통이나 RCVS 의심 상황에서 뇌혈관 연축 위험 없이 안전하게 두통을 완화시키는 1차 진통 소염제입니다"
@@ -117993,7 +117993,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "수마트립탄 피하주사 (Sumatriptan SQ)",
+        "text": "Sumatriptan SQ",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "트립탄 제제는 뇌혈관을 강력히 수축시키므로 가역적 뇌혈관연축증후군(RCVS)이나 뇌경색 위험이 있는 환자에게 금기입니다."
@@ -118001,7 +118001,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "응급 감압 개두술 (Emergent decompression)",
+        "text": "Emergent decompression",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "대량 뇌출혈이나 악성 뇌부종 환자에서 시행하며 본 증례와 무관합니다."
@@ -118838,11 +118838,11 @@
     "stem": "1년 전부터 가끔 피부에 벌레 기어가는 느낌이 들어 내원하였다. 통증은 없었다. 환자의 positive motor symptom으로 맞는 것은? (선지 한국어, 영어 병기)\n- 피부가 연속적이고 비교적 리듬이 있게 움직이는 것으로 보임\n- 신경학적 검진 상 구음장애 있고, 사지 근력이 전체적으로 저하되어 MRC G5-로 나타남\n- 신체검진 상 가슴이 여성처럼 발달함\n- 3년 전 당뇨 진단받았고, 1-2년 전부터 성 기능에 이상이 생겼음\n- 환자의 외삼촌, 형도 같은 증상 있다고 함",
     "images": [],
     "options": [
-      "Fasciculation (근섬유다발수축)",
-      "Myotonia (근긴장증)",
-      "Myokymia (근파동증)",
-      "Spasm (근연축)",
-      "Cramp (근경련)"
+      "Fasciculation",
+      "Myotonia",
+      "Myokymia",
+      "Spasm",
+      "Cramp"
     ],
     "correct_option_index": 2,
     "correct_answer": "Myokymia (근파동증)",
@@ -118916,7 +118916,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Fasciculation (근섬유다발수축)",
+        "text": "Fasciculation",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않아 오답입니다."
@@ -118924,7 +118924,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Myotonia (근긴장증)",
+        "text": "Myotonia",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않아 오답입니다."
@@ -118932,7 +118932,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Myokymia (근파동증)",
+        "text": "Myokymia",
         "is_correct": true,
         "tag": "정답",
         "reason": "[신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 정답 소견입니다."
@@ -118940,7 +118940,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Spasm (근연축)",
+        "text": "Spasm",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않아 오답입니다."
@@ -118948,7 +118948,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "Cramp (근경련)",
+        "text": "Cramp",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않아 오답입니다."
@@ -119056,11 +119056,11 @@
       "images/신경과/22Y_Q33_fig1.png"
     ],
     "options": [
-      "낭상 뇌동맥류 파열 (Aneurysm rupture)",
-      "두부 외상 (Trauma)",
-      "두개내 감염증 (Infection)",
-      "뇌동정맥기형 (AVM)",
-      "모야모야병 (Moyamoya disease)"
+      "Aneurysm rupture",
+      "Trauma",
+      "Infection",
+      "AVM",
+      "Moyamoya disease"
     ],
     "correct_option_index": 0,
     "correct_answer": "낭상 뇌동맥류 파열 (Aneurysm rupture)",
@@ -119134,7 +119134,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "낭상 뇌동맥류 파열 (Aneurysm rupture)",
+        "text": "Aneurysm rupture",
         "is_correct": true,
         "tag": "정답",
         "reason": "배변 등 복압 상승 시 호발하는 비외상성(자발적) 거미막밑출혈(SAH)의 약 80~85%를 차지하는 가장 흔한 원인입니다"
@@ -119142,7 +119142,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "두부 외상 (Trauma)",
+        "text": "Trauma",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "외상성 거미막밑출혈의 원인이나 문제에서 제시한 비외상성/자발적 원인이 아닙니다."
@@ -119150,7 +119150,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "두개내 감염증 (Infection)",
+        "text": "Infection",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "진균성 동맥류 파열 등은 자발성 SAH의 매우 드문 원인입니다."
@@ -119158,7 +119158,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "뇌동정맥기형 (AVM)",
+        "text": "AVM",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "젊은 연령 자발성 뇌출혈의 원인이나 동맥류 파열보다 빈도가 훨씬 낮습니다."
@@ -119166,7 +119166,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "모야모야병 (Moyamoya disease)",
+        "text": "Moyamoya disease",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "기저부 이상 혈관망 출혈을 유발할 수 있으나 동맥류 파열에 비해 빈도가 낮습니다."
@@ -119765,11 +119765,11 @@
     "stem": "70세 여성이 찬물 수영 강습을 받던 중 '여기가 어디지?'라며 같은 질문을 반복하고 혼란스러워하는 모습을 보였다. 다른 신경학적 결손은 없었으며 24시간 이내에 완전히 기억을 회복하였으나, 해당 상황에 대한 기억상실(Amnesia)을 호소하였다. 가장 가능성이 높은 질환은?",
     "images": [],
     "options": [
-      "일과성 전체기억상실증 (Transient Global Amnesia, TGA)",
-      "일과성 허혈발작 (Transient Ischemic Attack, TIA)",
-      "단순포진 바이러스 뇌염 (HSV encephalitis)",
+      "Transient Global Amnesia, TGA",
+      "Transient Ischemic Attack, TIA",
+      "HSV encephalitis",
       "급성 알츠하이머병 악화",
-      "심인성 해리성 기억상실 (Dissociative amnesia)"
+      "Dissociative amnesia"
     ],
     "correct_option_index": 0,
     "correct_answer": "일과성 전체기억상실증 (Transient Global Amnesia, TGA)",
@@ -119843,7 +119843,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "일과성 전체기억상실증 (Transient Global Amnesia, TGA)",
+        "text": "Transient Global Amnesia, TGA",
         "is_correct": true,
         "tag": "정답",
         "reason": "찬물 수영이나 격한 운동, 감정적 스트레스 후 갑자기 새로운 정보를 기억하지 못하고 같은 질문을 반복하지만, 자기 정체성은 유지되고 24시간 내에 완전히 정상 회복되는 양성 질환입니다"
@@ -119851,7 +119851,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "일과성 허혈발작 (Transient Ischemic Attack, TIA)",
+        "text": "Transient Ischemic Attack, TIA",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "편마비, 구음장애, 실어증 등 국소 신경학적 결손이 주 증상이며 고립성 기억상실 단독은 매우 드뭅니다."
@@ -119859,7 +119859,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "단순포진 바이러스 뇌염 (HSV encephalitis)",
+        "text": "HSV encephalitis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "발열, 의식 저하, 경련을 동반하는 치명적 뇌실질 감염증입니다."
@@ -119875,7 +119875,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "심인성 해리성 기억상실 (Dissociative amnesia)",
+        "text": "Dissociative amnesia",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "자신의 이름이나 개인적 정체성을 잊어버리는 역행성 기억상실이 주소견입니다."
@@ -120830,11 +120830,11 @@
       "images/신경과/21Y_Q07_fig1.png"
     ],
     "options": [
-      "척추동맥 (Vertebral artery) 및 전척수동맥 (Anterior spinal artery)",
-      "전하소뇌동맥 (AICA)",
-      "후하소뇌동맥 (PICA)",
-      "상소뇌동맥 (SCA)",
-      "기저동맥 본간 (Basilar artery)"
+      "Anterior spinal artery",
+      "AICA",
+      "PICA",
+      "SCA",
+      "Basilar artery"
     ],
     "correct_option_index": 0,
     "correct_answer": "척추동맥 (Vertebral artery) 및 전척수동맥 (Anterior spinal artery)",
@@ -120906,7 +120906,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "척추동맥 (Vertebral artery) 및 전척수동맥 (Anterior spinal artery)",
+        "text": "Anterior spinal artery",
         "is_correct": true,
         "tag": "정답",
         "reason": "연수 내측의 피라미드로(반대측 편마비), 내측모대(반대측 고유감각 저하), 설하신경핵(동측 혀 마비)을 관류하는 혈관입니다"
@@ -120914,7 +120914,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "전하소뇌동맥 (AICA)",
+        "text": "AICA",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "외측 교뇌 증후군을 유발하여 동측 안면마비와 청력 저하를 초래합니다."
@@ -120922,7 +120922,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "후하소뇌동맥 (PICA)",
+        "text": "PICA",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "외측 연수 증후군(Wallenberg syndrome)을 유발합니다."
@@ -120930,7 +120930,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "상소뇌동맥 (SCA)",
+        "text": "SCA",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "상부 소뇌 및 중간뇌 배외측을 관류합니다."
@@ -120938,7 +120938,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "기저동맥 본간 (Basilar artery)",
+        "text": "Basilar artery",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "교뇌 기저부의 광범위한 경색을 일으킵니다."
@@ -123016,11 +123016,11 @@
     "stem": "성격 변화, 사소한 일에 화를 내고 최근 손주의 이름을 잊어버리는 치매 증상을 보이는 환자에게 투여할 수 있는 인지기능 개선제는?",
     "images": [],
     "options": [
-      "① 도네페질 (Donepezil)",
-      "② 페니토인 (Phenytoin)",
-      "③ 페노바르비탈 (Phenobarbital)",
-      "④ 카바마제핀 (Carbamazepine)",
-      "⑤ 레비티라세탐 (Levetiracetam)"
+      "① Donepezil",
+      "② Phenytoin",
+      "③ Phenobarbital",
+      "④ Carbamazepine",
+      "⑤ Levetiracetam"
     ],
     "correct_option_index": 0,
     "correct_answer": "① 도네페질 (Donepezil)",
@@ -123110,7 +123110,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "phenytoin",
+        "text": "Donepezil",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "레보도파는 도파민 전구물질로 파킨슨병의 서동, 진전, 강직 등 운동 증상 치료제이며 알츠하이머병의 기억력 치료제가 아닙니다."
@@ -123118,7 +123118,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "phenobarbital",
+        "text": "Phenytoin",
         "is_correct": true,
         "tag": "정답",
         "reason": "중추 콜린에스테라제를 가역적으로 억제하여 시냅스 내 아세틸콜린 농도를 높여 알츠하이머병 환자의 인지 기능 악화를 지연시키는 1차 치료제입니다"
@@ -123126,7 +123126,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "(야마) 73 세 남자가 약 10 개월 전부터 갑자기 말수가 적어지고 기억력이 저하된다고 보호자와 왔다. 20 년 전 고혈압으로 진단받고 약물치료 중이었고, 10 년 전 뇌출혈과 1 년 전 뇌경색 진단을 받고 약물치료중이다. 기억력저하와 함께 시간과 장소를 엉뚱하게 말하기도 하고, 한 달 전부터는 갑자기 더 나빠져서 독립적인 일상 생활이 힘들어졌다고 보호자가 말하였다. 혈압 140/85mmHg, 맥박수 75 회/분, 호흡수 18 회/분, 체온 36.5’c 이었다. 신경학적검사에서 오른족 팔과 다리의 근력이 저하되어 있었고 MRC grade IV/IV, 깊은 힘줄 반사는 증가되어 있었으며 오른쪽 다리에서 바빈스키 징후가 관찰되었다. 발음할 때 조음장애가 관찰되었다. 혈관성 치매",
+        "text": "Phenobarbital",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "전압의존성 나트륨 통로를 차단하는 항전간제로 간질 발작 예방에 사용되며 인지기능 개선 효과가 없습니다."
@@ -123134,7 +123134,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "전두측두치매",
+        "text": "Carbamazepine",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "GABA 경로를 촉진하는 바비튜레이트계 항경련제로 중추신경 억제와 진정 작용을 일으켜 인지 저하를 악화시킬 수 있습니다."
@@ -123142,7 +123142,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "루이체 치매",
+        "text": "Levetiracetam",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -124114,10 +124114,10 @@
     "images": [],
     "options": [
       "마루엽 (Parietal lobe - 우성반구 각이랑 Angular gyrus)",
-      "이마엽 (Frontal lobe)",
-      "관자엽 (Temporal lobe)",
-      "뒤통수엽 (Occipital lobe)",
-      "소뇌 반구 (Cerebellar hemisphere)"
+      "Frontal lobe",
+      "Temporal lobe",
+      "Occipital lobe",
+      "Cerebellar hemisphere"
     ],
     "correct_option_index": 0,
     "correct_answer": "마루엽 (Parietal lobe - 우성반구 각이랑 Angular gyrus)",
@@ -124197,7 +124197,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "이마엽 (Frontal lobe)",
+        "text": "Frontal lobe",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "운동마비와 브로카 실어증을 유발합니다."
@@ -124205,7 +124205,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "관자엽 (Temporal lobe)",
+        "text": "Temporal lobe",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "언어 이해 장애와 기억 장애를 유발합니다."
@@ -124213,7 +124213,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "뒤통수엽 (Occipital lobe)",
+        "text": "Occipital lobe",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "시야 결손과 피질맹을 유발합니다."
@@ -124221,7 +124221,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "소뇌 반구 (Cerebellar hemisphere)",
+        "text": "Cerebellar hemisphere",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "운동 조절 부전과 조화운동불능을 유발합니다."
@@ -124728,7 +124728,7 @@
     "stem": "1시간 전에 갑작스러운 좌측 편마비와 구음장애가 발생하여 응급실로 내원한 환자이다. 뇌 CT에서 두개강내 출혈이 배제되었고 심전도상 정상 동율동이었다. 급성기 1차 치료로 가장 적절한 것은?",
     "images": [],
     "options": [
-      "정맥내 혈전용해술 (IV rtPA)",
+      "IV rtPA",
       "아스피린 (Aspirin) 경구 투여",
       "헤파린 (Heparin) 정맥 투여",
       "와파린 (Warfarin) 경구 투여",
@@ -124804,7 +124804,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "정맥내 혈전용해술 (IV rtPA)",
+        "text": "IV rtPA",
         "is_correct": true,
         "tag": "정답",
         "reason": "급성 허혈성 뇌졸중 발병 1시간(골든타임 4.5시간 이내)으로 뇌 CT에서 뇌출혈이 배제되었으므로 즉각적인 IV rtPA 투여가 최우선 치료입니다"
@@ -129685,11 +129685,11 @@
       "images/신경과/20Y_Q34_fig1.png"
     ],
     "options": [
-      "정중신경 (Median nerve)",
-      "척골신경 (Ulnar nerve)",
-      "요골신경 (Radial nerve)",
-      "액와신경 (Axillary nerve)",
-      "근피신경 (Musculocutaneous nerve)"
+      "Median nerve",
+      "Ulnar nerve",
+      "Radial nerve",
+      "Axillary nerve",
+      "Musculocutaneous nerve"
     ],
     "correct_option_index": 0,
     "correct_answer": "정중신경 (Median nerve)",
@@ -129761,7 +129761,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "정중신경 (Median nerve)",
+        "text": "Median nerve",
         "is_correct": true,
         "tag": "정답",
         "reason": "수근관 횡수근인대 하방을 통과하며 압박 시 1~3번째 수지 및 4번째 수지 요측 반부의 감각 저하와 무지구근 위축을 초래합니다"
@@ -129769,7 +129769,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "척골신경 (Ulnar nerve)",
+        "text": "Ulnar nerve",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "가이온관(Guyon's canal) 또는 주관증후군에서 4, 5번째 수지 저림을 유발합니다."
@@ -129777,7 +129777,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "요골신경 (Radial nerve)",
+        "text": "Radial nerve",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "손등 부위 감각 저하와 손목 하수를 초래합니다."
@@ -129785,7 +129785,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "액와신경 (Axillary nerve)",
+        "text": "Axillary nerve",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "삼각근 위약과 견관절 외측 감각 저하를 초래합니다."
@@ -129793,7 +129793,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "근피신경 (Musculocutaneous nerve)",
+        "text": "Musculocutaneous nerve",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "상완이두근 위약과 전완 외측 감각 저하를 초래합니다."
@@ -136272,11 +136272,11 @@
     "stem": "두부 외상 이후 상황과 상관없이 산만해지고, 주변 사람들에게 공격적이거나 성적이고 천박한 농담(Witzelsucht)을 서슴없이 던지는 탈억제(Disinhibition) 증상을 보였다. 손상된 대뇌 부위는?",
     "images": [],
     "options": [
-      "전두엽 피질 (Prefrontal cortex)",
-      "일차 운동피질 (Primary motor cortex)",
-      "전운동피질 (Premotor cortex)",
-      "마루엽 피질 (Parietal cortex)",
-      "측두엽 피질 (Temporal cortex)"
+      "Prefrontal cortex",
+      "Primary motor cortex",
+      "Premotor cortex",
+      "Parietal cortex",
+      "Temporal cortex"
     ],
     "correct_option_index": 0,
     "correct_answer": "전두엽 피질 (Prefrontal cortex)",
@@ -136348,7 +136348,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "전두엽 피질 (Prefrontal cortex)",
+        "text": "Prefrontal cortex",
         "is_correct": true,
         "tag": "정답",
         "reason": "특히 안와전두피질(Orbitofrontal cortex) 손상 시 충동 억제 실패, 사회적 상황에 맞지 않는 부적절한 언행과 농담(Witzelsucht), 탈억제(Disinhibition)가 발생합니다"
@@ -136356,7 +136356,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "일차 운동피질 (Primary motor cortex)",
+        "text": "Primary motor cortex",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "중심전회에 위치하며 수의적 골격근 운동을 제어하므로 손상 시 반대측 편마비나 근력 저하가 유발됩니다."
@@ -136364,7 +136364,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "전운동피질 (Premotor cortex)",
+        "text": "Premotor cortex",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "복합 운동의 계획과 조율을 담당하며 손상 시 실행증(Apraxia) 등이 나타납니다."
@@ -136372,7 +136372,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "마루엽 피질 (Parietal cortex)",
+        "text": "Parietal cortex",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "공간 지각, 체감각 통합을 담당하며 손상 시 실인증(Agnosia)이나 무시증후군(Neglect)이 주로 발생합니다."
@@ -136380,7 +136380,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "측두엽 피질 (Temporal cortex)",
+        "text": "Temporal cortex",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "언어 이해(베르니케 영역), 청각, 장기 기억(해마)을 담당하며 손상 시 감각실어증이나 기억장애가 나타납니다."
@@ -146924,11 +146924,11 @@
     "stem": "치료저항성 조현병으로 항정신병 약물을 복용 중인 여성이 외래 방문 시마다 치명적 무과립구증(Agranulocytosis) 발생 여부를 확인하기 위해 주기적으로 절대호중구수(ANC) 검사를 받고 있다. 복용 중인 약물은?",
     "images": [],
     "options": [
-      "클로자핀 (Clozapine)",
-      "올란자핀 (Olanzapine)",
-      "리스페리돈 (Risperidone)",
-      "아리피프라졸 (Aripiprazole)",
-      "할로페리돌 (Haloperidol)"
+      "Clozapine",
+      "Olanzapine",
+      "Risperidone",
+      "Aripiprazole",
+      "Haloperidol"
     ],
     "correct_option_index": 0,
     "correct_answer": "클로자핀 (Clozapine)",
@@ -147000,7 +147000,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "클로자핀 (Clozapine)",
+        "text": "Clozapine",
         "is_correct": true,
         "tag": "정답",
         "reason": "치료저항성 조현병에 탁월한 효과를 보이나 1~2%에서 치명적인 무과립구증이 발생하므로 지속적인 절대호중구수(ANC) 모니터링이 의무화되어 있습니다"
@@ -147008,7 +147008,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "올란자핀 (Olanzapine)",
+        "text": "Olanzapine",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "프로락틴 상승과 추체외로 증상(EPS) 위험이 상대적으로 높으나 무과립구증의 위험은 매우 낮습니다."
@@ -147016,7 +147016,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "리스페리돈 (Risperidone)",
+        "text": "Risperidone",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "체중 증가, 당뇨병, 지질대사 이상 등 대사증후군 위험이 높으나 혈액학적 무과립구증 모니터링이 상시 요구되지는 않습니다."
@@ -147024,7 +147024,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "아리피프라졸 (Aripiprazole)",
+        "text": "Aripiprazole",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "도파민 D2 수용체 부분작용제로 추체외로 증상 및 진정 작용이 적고 혈액학적 부작용 위험이 낮습니다."
@@ -147032,7 +147032,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "할로페리돌 (Haloperidol)",
+        "text": "Haloperidol",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "전형적 1세대 항정신병 약물로 강력한 도파민 차단으로 인한 추체외로 증상이 주된 부작용입니다."
@@ -164564,11 +164564,11 @@
     "stem": "다음 설명에 해당하는 치료법(안구운동 민감소실 및 재처리요법, EMDR)을 가장 효과적으로 적용할 수 있는 정신 질환은?\n\n[ 환자에게 외상 기억을 떠올리게 하면서 검사자의 손가락 끝을 보게 하고 손가락을 양옆으로 신속하게 움직인다. ]",
     "images": [],
     "options": [
-      "외상후 스트레스 장애 (PTSD)",
-      "조현병 (Schizophrenia)",
-      "양극성 장애 (Bipolar disorder)",
-      "주요 우울장애 (Major depressive disorder)",
-      "강박장애 (Obsessive-compulsive disorder)"
+      "PTSD",
+      "Schizophrenia",
+      "Bipolar disorder",
+      "Major depressive disorder",
+      "Obsessive-compulsive disorder"
     ],
     "correct_option_index": 0,
     "correct_answer": "외상후 스트레스 장애 (PTSD)",
@@ -164640,7 +164640,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "외상후 스트레스 장애 (PTSD)",
+        "text": "PTSD",
         "is_correct": true,
         "tag": "정답",
         "reason": "EMDR은 외상 기억을 활성화한 상태에서 좌우 교대 안구운동 등의 양측성 자극을 통해 트라우마 기억을 재처리하는 공인된 1차 심리치료법입니다"
@@ -164648,7 +164648,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "조현병 (Schizophrenia)",
+        "text": "Schizophrenia",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "항정신병 약물치료와 사회기술훈련이 표준 치료이며 EMDR의 적응증이 아닙니다."
@@ -164656,7 +164656,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "양극성 장애 (Bipolar disorder)",
+        "text": "Bipolar disorder",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "기분조절제 중심의 약물치료와 일주기 리듬 유지가 핵심 치료법입니다."
@@ -164664,7 +164664,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "주요 우울장애 (Major depressive disorder)",
+        "text": "Major depressive disorder",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "인지행동치료(CBT)나 대인관계치료(IPT), 항우울제가 우선 추천됩니다."
@@ -164672,7 +164672,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "강박장애 (Obsessive-compulsive disorder)",
+        "text": "Obsessive-compulsive disorder",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "compulsive disorder) — 인지행동치료 중 노출 및 반응방지(ERP) 기법이 가장 효과적인 표준 치료법입니다."
@@ -167526,11 +167526,11 @@
     "stem": "32세 남자가 문을 제대로 잠갔는지, 가스 밸브를 껐는지 불안하여 외출 후에도 집에 수십 번 전화를 걸어 확인하는 강박 증상으로 일상생활에 심각한 지장을 겪고 있다. 이 환자에게 투여해야 할 1차 표준 약물은?",
     "images": [],
     "options": [
-      "설트랄린 (Sertraline, SSRI)",
-      "디아제팜 (Diazepam)",
-      "할로페리돌 (Haloperidol)",
-      "리튬 (Lithium)",
-      "메틸페니데이트 (Methylphenidate)"
+      "Sertraline, SSRI",
+      "Diazepam",
+      "Haloperidol",
+      "Lithium",
+      "Methylphenidate"
     ],
     "correct_option_index": 0,
     "correct_answer": "설트랄린 (Sertraline, SSRI)",
@@ -167602,7 +167602,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "설트랄린 (Sertraline, SSRI)",
+        "text": "Sertraline, SSRI",
         "is_correct": true,
         "tag": "정답",
         "reason": "강박장애의 약물치료에는 고용량의 SSRI(설트랄린, 플루옥세틴, 에스시탈로프람 등)가 1차 표준 치료제로 사용됩니다"
@@ -167610,7 +167610,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "디아제팜 (Diazepam)",
+        "text": "Diazepam",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "도파민 차단 항정신병 약물로 SSRI에 반응하지 않는 난치성 강박장애나 틱이 동반된 경우 보조제로 쓰이나 1차 약제가 아닙니다."
@@ -167618,7 +167618,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "할로페리돌 (Haloperidol)",
+        "text": "Haloperidol",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "양극성 장애의 1차 기분조절제이며 강박장애의 1차 치료 약물이 아닙니다."
@@ -167626,7 +167626,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "리튬 (Lithium)",
+        "text": "Lithium",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "벤조디아제핀계 진정불안제는 급성 불안 완화에 단기 사용할 수 있으나 강박 증상 자체를 호전시키지 못하며 의존 위험이 있습니다."
@@ -167634,7 +167634,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "메틸페니데이트 (Methylphenidate)",
+        "text": "Methylphenidate",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "중추신경흥분제로 ADHD 치료제이며 강박 증상을 오히려 악화시킬 수 있습니다."
@@ -177328,11 +177328,11 @@
     "stem": "45세 남성이 아침에 일어나 첫발을 디딜 때 발뒤꿈치 내측에 찢어지는 듯한 통증을 느꼈다. 몇 걸음 걷고 나면 통증이 다소 완화되는 양상이었다. 가장 우선적으로 고려해야 하는 진단은?",
     "images": [],
     "options": [
-      "족저근막염 (Plantar fasciitis)",
-      "아킬레스 건염 (Achilles tendonitis)",
-      "종골 후방 점액낭염 (Retrocalcaneal bursitis)",
-      "발목터널증후군 (Tarsal tunnel syndrome)",
-      "종골 피로골절 (Calcaneal stress fracture)"
+      "Plantar fasciitis",
+      "Achilles tendonitis",
+      "Retrocalcaneal bursitis",
+      "Tarsal tunnel syndrome",
+      "Calcaneal stress fracture"
     ],
     "correct_option_index": 0,
     "correct_answer": "족저근막염 (Plantar fasciitis)",
@@ -177408,7 +177408,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "족저근막염 (Plantar fasciitis)",
+        "text": "Plantar fasciitis",
         "is_correct": true,
         "tag": "정답",
         "reason": "밤 동안 수축되어 있던 족저근막이 아침 기상 시 첫발을 내디딜 때 갑자기 신장되면서 종골 부착부에 찢어지는 듯한 통증이 발생하고 몇 걸음 걸으면 완화되는 전형적 양상입니다"
@@ -177416,7 +177416,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "아킬레스 건염 (Achilles tendonitis)",
+        "text": "Achilles tendonitis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "발바닥이 아닌 발뒤꿈치 후방 종골 부착부 상방 2~6cm 부위의 압통과 통증을 호소합니다."
@@ -177424,7 +177424,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "종골 후방 점액낭염 (Retrocalcaneal bursitis)",
+        "text": "Retrocalcaneal bursitis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "아킬레스건과 종골 후상방 사이 점액낭의 염증으로 뒤꿈치 뒷부분의 종창과 압통을 특징으로 합니다."
@@ -177432,7 +177432,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "발목터널증후군 (Tarsal tunnel syndrome)",
+        "text": "Tarsal tunnel syndrome",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "내과 후하방 굴근지대 아래에서 후경골신경이 압박되어 발바닥 전체의 저림과 감각 이상, Tinel 징후를 보입니다."
@@ -177440,7 +177440,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "종골 피로골절 (Calcaneal stress fracture)",
+        "text": "Calcaneal stress fracture",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "뒤꿈치를 양측에서 쥐어짤 때(Squeeze test) 통증이 유발되며, 보행을 지속할수록 통증이 악화되는 점이 족저근막염과 다릅니다."
@@ -179540,11 +179540,11 @@
       "images/정형외과/26Y_Q44_fig1.png"
     ],
     "options": [
-      "비대대 및 잠정 석회화대 (Zone of hypertrophy / provisional calcification)",
-      "휴지대 / 예비대 (Zone of resting / reserve)",
-      "증식대 (Zone of proliferation)",
-      "골화대 (Zone of ossification)",
-      "골간단 해면골 (Metaphyseal trabecular bone)"
+      "Zone of hypertrophy / provisional calcification",
+      "Zone of resting / reserve",
+      "Zone of proliferation",
+      "Zone of ossification",
+      "Metaphyseal trabecular bone"
     ],
     "correct_option_index": 0,
     "correct_answer": "비대대 및 잠정 석회화대 (Zone of hypertrophy / provisional calcification)",
@@ -179616,7 +179616,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "비대대 및 잠정 석회화대 (Zone of hypertrophy / provisional calcification)",
+        "text": "Zone of hypertrophy / provisional calcification",
         "is_correct": true,
         "tag": "정답",
         "reason": "연골세포가 비대해지고 기질(matrix)이 감소하여 세포 간 결합력이 가장 취약하므로 대부분의 성장판 골절 분리가 이 층을 따라 발생합니다"
@@ -179624,7 +179624,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "휴지대 / 예비대 (Zone of resting / reserve)",
+        "text": "Zone of resting / reserve",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "연골세포의 모세포가 위치하는 층으로 세포 외 기질이 풍부하여 전단력에 상대적으로 강합니다."
@@ -179632,7 +179632,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "증식대 (Zone of proliferation)",
+        "text": "Zone of proliferation",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "연골세포가 기둥(column) 모양으로 활발히 분열 증식하는 층으로 혈류가 풍부하고 결합력이 유지됩니다."
@@ -179640,7 +179640,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "골화대 (Zone of ossification)",
+        "text": "Zone of ossification",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "골단판과 골간단 경계부로 침착된 석회질 기질에 신생 골조직이 형성되는 튼튼한 골화 영역입니다."
@@ -179648,7 +179648,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "골간단 해면골 (Metaphyseal trabecular bone)",
+        "text": "Metaphyseal trabecular bone",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "골간단 골주(trabeculae)로 구성된 성숙 해면골 조직으로 성장판 연골보다 전단 강도가 큽니다."
@@ -180037,11 +180037,11 @@
       "images/정형외과/26Y_Q48_fig1.png"
     ],
     "options": [
-      "아플레이 압박 검사 (Apley compression test)",
-      "맥머리 검사 (McMurray test)",
-      "피벗 시프트 검사 (Pivot-shift test)",
-      "라크만 검사 (Lachman test)",
-      "전방 서랍 검사 (Anterior drawer test)"
+      "Apley compression test",
+      "McMurray test",
+      "Pivot-shift test",
+      "Lachman test",
+      "Anterior drawer test"
     ],
     "correct_option_index": 0,
     "correct_answer": "아플레이 압박 검사 (Apley compression test)",
@@ -180113,7 +180113,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "아플레이 압박 검사 (Apley compression test)",
+        "text": "Apley compression test",
         "is_correct": true,
         "tag": "정답",
         "reason": "엎드린 자세에서 무릎 90도 굴곡 후 발뒤꿈치를 아래로 압박하면서 회전 시 통증이 유발되면 반월상 연골판 파열을 시사합니다"
@@ -180121,7 +180121,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "맥머리 검사 (McMurray test)",
+        "text": "McMurray test",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "환자가 바로 누운(Supine) 상태에서 고관절과 무릎을 굴곡한 뒤 경골을 회전시키면서 서서히 신전하여 관절선의 통증이나 탄발음을 확인하는 검사입니다."
@@ -180129,7 +180129,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "피벗 시프트 검사 (Pivot-shift test)",
+        "text": "Pivot-shift test",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "shift test) — 전방십자인대 결손 시 외반력과 내회전력을 가하며 무릎을 굴곡할 때 경골 아탈구가 정복되는 회전 불안정성 검사입니다."
@@ -180137,7 +180137,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "라크만 검사 (Lachman test)",
+        "text": "Lachman test",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "바로 누운 자세에서 무릎을 20~30도 굴곡한 상태로 대퇴골을 고정하고 경골을 전방 견인하여 전방십자인대 파열을 진단하는 가장 민감한 검사입니다."
@@ -180145,7 +180145,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "전방 서랍 검사 (Anterior drawer test)",
+        "text": "Anterior drawer test",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "무릎을 90도 굴곡하고 발을 고정한 상태에서 경골 근위부를 전방으로 당겨 전방 전위 정도를 평가하는 검사입니다."
@@ -184470,11 +184470,11 @@
     "stem": "여성이 볼이 좁고 굽이 높은 구두를 신었을 때 둘째와 셋째 발가락 사이 공간의 찌릿한 통증과 압통을 호소하였다. 족지 압박 검사에서 딸깍하는 소리와 통증이 유발되었을 때 손상된 신경 구조물은?",
     "images": [],
     "options": [
-      "지간신경 (Interdigital nerve, 몰톤 신경종)",
-      "경골신경 (Tibial nerve, 발목터널)",
-      "비복신경 (Sural nerve)",
-      "심비골신경 (Deep peroneal nerve)",
-      "천비골신경 (Superficial peroneal nerve)"
+      "Interdigital nerve",
+      "Tibial nerve",
+      "Sural nerve",
+      "Deep peroneal nerve",
+      "Superficial peroneal nerve"
     ],
     "correct_option_index": 0,
     "correct_answer": "지간신경 (Interdigital nerve, 몰톤 신경종)",
@@ -184550,7 +184550,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "지간신경 (Interdigital nerve, 몰톤 신경종)",
+        "text": "Interdigital nerve",
         "is_correct": true,
         "tag": "정답",
         "reason": "중족골두 사이 횡중족인대 아래를 주행하는 지간신경이 좁은 신발 착용 시 반복적으로 압박되어 신경종성 비후와 통증을 유발합니다"
@@ -184558,7 +184558,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "경골신경 (Tibial nerve, 발목터널)",
+        "text": "Tibial nerve",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "내과 후하방을 통과하며 손상 시 발바닥 전체 및 족저 내측의 감각 이상을 초래합니다."
@@ -184566,7 +184566,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "비복신경 (Sural nerve)",
+        "text": "Sural nerve",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "발목 외측 및 발의 외측연 감각을 담당하는 순수 감각신경입니다."
@@ -184574,7 +184574,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "심비골신경 (Deep peroneal nerve)",
+        "text": "Deep peroneal nerve",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "전경골근 등 족관절 배굴근을 지배하며 제1-2 족지 간격 등쪽 감각을 담당합니다."
@@ -184582,7 +184582,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "천비골신경 (Superficial peroneal nerve)",
+        "text": "Superficial peroneal nerve",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "비골근 지배 및 족배부 대부분의 피부 감각을 담당합니다."
@@ -186288,11 +186288,11 @@
       "images/정형외과/23Y_Q38_fig5.png"
     ],
     "options": [
-      "① 무릎뼈 부유/쓸림 검사 (Patellar tap test / Ballottement test)",
-      "② 라크만 검사 (Lachman test)",
-      "③ 전방 전위 검사 (Anterior drawer test)",
-      "④ 맥머레이 검사 (McMurray test)",
-      "⑤ 회전 편위 검사 (Pivot shift test)"
+      "① Patellar tap test / Ballottement test",
+      "② Lachman test",
+      "③ Anterior drawer test",
+      "④ McMurray test",
+      "⑤ Pivot shift test"
     ],
     "correct_option_index": 0,
     "correct_answer": "① 무릎뼈 부유/쓸림 검사 (Patellar tap test / Ballottement test)",
@@ -186366,7 +186366,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "무릎뼈 부유/쓸림 검사 (Patellar tap test / Ballottement test)",
+        "text": "Patellar tap test / Ballottement test",
         "is_correct": true,
         "tag": "정답",
         "reason": "슬개상낭 부위를 근위부에서 쓸어내려 삼출액을 슬개골 하부로 모은 뒤 슬개골을 눌러 부유감을 촉지함으로써 관절액 저류(effusion)를 진단합니다"
@@ -186374,7 +186374,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "라크만 검사 (Lachman test)",
+        "text": "Lachman test",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "무릎을 20~30도 굴곡하고 대퇴골을 고정한 상태에서 경골을 전방 견인하여 전방십자인대(ACL)의 전방 불안정성을 확인하는 검사입니다."
@@ -186382,7 +186382,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "전방 전위 검사 (Anterior drawer test)",
+        "text": "Anterior drawer test",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "무릎 90도 굴곡 상태에서 경골 근위부를 양손으로 당겨 전방십자인대의 파열 여부를 평가합니다."
@@ -186390,7 +186390,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "맥머레이 검사 (McMurray test)",
+        "text": "McMurray test",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "무릎을 완전 굴곡 후 회전력과 외반/내반 스트레스를 주며 신전시켜 반월연골판 파열 시의 통증과 클릭음을 유발하는 검사입니다."
@@ -186398,7 +186398,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "회전 편위 검사 (Pivot shift test)",
+        "text": "Pivot shift test",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "무릎을 신전 상태에서 외반 및 내회전력을 가하며 굴곡시킬 때 경골이 정복되는 전방십자인대 파열의 회전 불안정성 검사입니다."
@@ -189918,9 +189918,9 @@
     "stem": "20대 남성에서 반복적인 어깨 전방 탈구로 내원하였다. 관절와(Glenoid)의 전하방 관절와순이 관절와 골연으로부터 찢어져 분리되는 대표적인 병변의 명칭은?",
     "images": [],
     "options": [
-      "반카르트 병변 (Bankart lesion)",
-      "슬랩 병변 (SLAP lesion)",
-      "힐삭스 병변 (Hill-Sachs lesion)",
+      "Bankart lesion",
+      "SLAP lesion",
+      "Hill-Sachs lesion",
       "회전근개 전층 파열",
       "상완이두근 장두 건염"
     ],
@@ -189994,7 +189994,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "반카르트 병변 (Bankart lesion)",
+        "text": "Bankart lesion",
         "is_correct": true,
         "tag": "정답",
         "reason": "전하방 관절와순(Labrum)과 하견상완인대 복합체가 관절와 골연에서 찢어져 떨어지는 병변으로 재발성 견관절 탈구의 주원인입니다"
@@ -190002,7 +190002,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "슬랩 병변 (SLAP lesion)",
+        "text": "SLAP lesion",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "상완이두근 장두 기시부를 포함하는 상방 관절와순이 전방에서 후방으로 파열되는 병변입니다."
@@ -190010,7 +190010,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "힐삭스 병변 (Hill-Sachs lesion)",
+        "text": "Hill-Sachs lesion",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "Sachs lesion) — 전방 탈구 시 관절와 전하방 골연에 의해 상완골두 후외측면에 발생하는 감입 골절(Impaction fracture)입니다."
@@ -190267,10 +190267,10 @@
     "stem": "무릎을 굽혔다 펼 때 슬개골 내측에서 뚝뚝거리는 탄발음(Snapping)과 통증이 느껴졌다. 관절경 및 MRI에서 비후되어 활액막 주름을 형성하는 가장 흔한 병적 추벽은?",
     "images": [],
     "options": [
-      "Medial patellar plica (슬개 내측 추벽)",
-      "Suprapatellar plica (슬개상 추벽)",
-      "Infrapatellar plica (슬개하 추벽)",
-      "Lateral patellar plica (슬개 외측 추벽)",
+      "Medial patellar plica",
+      "Suprapatellar plica",
+      "Infrapatellar plica",
+      "Lateral patellar plica",
       "Posterior patellar plica"
     ],
     "correct_option_index": 0,
@@ -190343,7 +190343,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Medial patellar plica (슬개 내측 추벽)",
+        "text": "Medial patellar plica",
         "is_correct": true,
         "tag": "정답",
         "reason": "태아기 활액낭 격막의 잔존물 중 슬개골 내측과 대퇴 내과 사이에 위치하여 가장 흔하게 비후되고 활액막 마찰 및 탄발음을 유발합니다"
@@ -190351,7 +190351,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Suprapatellar plica (슬개상 추벽)",
+        "text": "Suprapatellar plica",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "슬개상 활액낭과 관절강 사이에 위치하는 주름으로 증상을 유발하는 빈도가 낮습니다."
@@ -190359,7 +190359,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Infrapatellar plica (슬개하 추벽)",
+        "text": "Infrapatellar plica",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "과간절흔(Intercondylar notch) 내에서 전방십자인대 전방을 주행하는 ligamentum mucosum으로 대개 무증상입니다."
@@ -190367,7 +190367,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Lateral patellar plica (슬개 외측 추벽)",
+        "text": "Lateral patellar plica",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "슬개골 외측에 드물게 존재하는 추벽으로 발생 빈도가 극히 낮습니다."
@@ -190446,10 +190446,10 @@
       "images/정형외과/22Y_Q17_fig1.png"
     ],
     "options": [
-      "자가 골연골 이식술 (Osteochondral autograft transfer, OATS)",
-      "동종 골연골 이식술 (Allograft osteochondral transfer)",
-      "관절경적 미세 골절술 (Microfracture)",
-      "자가 연골세포 배양 이식술 (Autologous chondrocyte implantation, ACI)",
+      "Osteochondral autograft transfer, OATS",
+      "Allograft osteochondral transfer",
+      "Microfracture",
+      "Autologous chondrocyte implantation, ACI",
       "관절경적 단순 변연절제술"
     ],
     "correct_option_index": 0,
@@ -190522,7 +190522,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "자가 골연골 이식술 (Osteochondral autograft transfer, OATS)",
+        "text": "Osteochondral autograft transfer, OATS",
         "is_correct": true,
         "tag": "정답",
         "reason": "대퇴골 활차 상외측 등 비체중부하 부위에서 정상 초자연골과 연골하골이 포함된 기둥을 채취하여 이식함으로써 초자연골 치유를 얻는 방법입니다"
@@ -190530,7 +190530,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "동종 골연골 이식술 (Allograft osteochondral transfer)",
+        "text": "Allograft osteochondral transfer",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "타인의 기증 연골을 사용하는 방법으로 4㎠ 이상의 광범위 거대 결손에 주로 적용됩니다."
@@ -190538,7 +190538,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "관절경적 미세 골절술 (Microfracture)",
+        "text": "Microfracture",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "연골하골판에 구멍을 뚫어 골수 줄기세포를 유도하는 방법으로 초자연골이 아닌 기계적 성질이 떨어지는 섬유연골로 치유됩니다."
@@ -190546,7 +190546,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "자가 연골세포 배양 이식술 (Autologous chondrocyte implantation, ACI)",
+        "text": "Autologous chondrocyte implantation, ACI",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "1차 연골 채취 및 세포 체외 배양 후 2차 수술로 골막이나 콜라겐 막 아래에 주입하는 2단계 수술법입니다."
@@ -191385,10 +191385,10 @@
     "stem": "당뇨병 환자에서 말초 감각신경병증에 의해 보호 감각(Protective sensation)이 소실되었을 때 발에 발생하는 핵심 합병증은?",
     "images": [],
     "options": [
-      "족저 궤양 (Ulceration)",
-      "조직 허혈성 괴사 (Gangrene)",
-      "샤르코 관절병증 (Charcot joint)",
-      "족저근막염 (Plantar fasciitis)",
+      "Ulceration",
+      "Gangrene",
+      "Charcot joint",
+      "Plantar fasciitis",
       "종골 급성 골수염"
     ],
     "correct_option_index": 0,
@@ -191463,7 +191463,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "족저 궤양 (Ulceration)",
+        "text": "Ulceration",
         "is_correct": true,
         "tag": "정답",
         "reason": "감각신경 손상으로 이물감, 압력, 마찰 통증을 인지하지 못하는 보호 감각 소실이 발생하여 무자각 피부 궤양이 생깁니다"
@@ -191471,7 +191471,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "조직 허혈성 괴사 (Gangrene)",
+        "text": "Gangrene",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "동맥경화증에 의한 말초 혈관 폐색(대혈관 질환)이 주원인입니다."
@@ -191479,7 +191479,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "샤르코 관절병증 (Charcot joint)",
+        "text": "Charcot joint",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "감각 상실 하에서 반복적 미세 골절과 관절 탈구가 누적되어 발생하는 중증 골관절 변형입니다."
@@ -191487,7 +191487,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "족저근막염 (Plantar fasciitis)",
+        "text": "Plantar fasciitis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "종골 부착부 건막의 만성 견인성 염증 질환입니다."
@@ -193485,11 +193485,11 @@
     "stem": "50대 여성이 설거지를 하거나 손목을 구부릴 때 손가락이 찌릿찌릿 저리고, 밤에 손이 저려 잠에서 깨어 손을 터는 증상을 호소하였다. 엄지두덩의 근력 저하가 동반되었을 때 이 환자에서 양성을 보일 가능성이 가장 높은 진찰법은?",
     "images": [],
     "options": [
-      "팔렌 검사 (Phalen test)",
-      "핑켈스타인 검사 (Finkelstein test)",
-      "앨런 검사 (Allen test)",
-      "스펄링 검사 (Spurling test)",
-      "패트릭 검사 (Patrick test)"
+      "Phalen test",
+      "Finkelstein test",
+      "Allen test",
+      "Spurling test",
+      "Patrick test"
     ],
     "correct_option_index": 0,
     "correct_answer": "팔렌 검사 (Phalen test)",
@@ -193561,7 +193561,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "팔렌 검사 (Phalen test)",
+        "text": "Phalen test",
         "is_correct": true,
         "tag": "정답",
         "reason": "양 손등을 마주 대고 손목을 90도 굴곡시킨 상태를 60초간 유지할 때 정중신경 지배 영역(1~3수지)에 저림과 통증이 재현되는 검사로 CTS 진단의 민감도가 높습니다"
@@ -193569,7 +193569,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "핑켈스타인 검사 (Finkelstein test)",
+        "text": "Finkelstein test",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "엄지손가락을 주먹 안에 쥐고 손목을 척측으로 굴곡시킬 때 요골 붓돌기 부위에 통증이 발생하는 드퀘르벵 건초염 검사입니다."
@@ -193577,7 +193577,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "앨런 검사 (Allen test)",
+        "text": "Allen test",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "요골동맥과 척골동맥을 동시에 압박한 후 손바닥의 혈류 재관류 시간을 측정하는 동맥 개통성 검사입니다."
@@ -193585,7 +193585,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "스펄링 검사 (Spurling test)",
+        "text": "Spurling test",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "경추를 환측으로 신전 및 외측 굴곡한 상태에서 머리를 아래로 압박하여 상지 방사통을 유발하는 경추 신경근병증 검사입니다."
@@ -193593,7 +193593,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "패트릭 검사 (Patrick test)",
+        "text": "Patrick test",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "고관절을 굴곡, 외번, 외회전(FABER)시켜 서혜부나 천장관절 통증을 유발하는 고관절/천장관절 검사입니다."
@@ -194232,11 +194232,11 @@
       "images/정형외과/21Y_Q12_fig1.png"
     ],
     "options": [
-      "골절 부위의 기계적 고정 안정성 부족 (Inadequate fracture stability)",
-      "골절 부위의 심각한 혈액 공급 차단 (Impaired vascularity at fracture site)",
-      "환자의 기저 전신 대사 질환 (Comorbid medical condition)",
-      "내고정물에 의한 과도한 압박 강직 (Excessive rigid fixation)",
-      "수술 부위의 세균성 만성 감염 (Chronic infection)"
+      "Inadequate fracture stability",
+      "Impaired vascularity at fracture site",
+      "Comorbid medical condition",
+      "Excessive rigid fixation",
+      "Chronic infection"
     ],
     "correct_option_index": 0,
     "correct_answer": "골절 부위의 기계적 고정 안정성 부족 (Inadequate fracture stability)",
@@ -194310,7 +194310,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "골절 부위의 기계적 고정 안정성 부족 (Inadequate fracture stability)",
+        "text": "Inadequate fracture stability",
         "is_correct": true,
         "tag": "정답",
         "reason": "골절 부위의 혈류는 풍부하여 조골 반응과 가골 형성은 왕성하나, 지속적인 미세 흔들림(불안정성)으로 인해 골가골로 성숙하지 못하는 상태이므로 견고한 내고정으로 치료합니다"
@@ -194318,7 +194318,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "골절 부위의 심각한 혈액 공급 차단 (Impaired vascularity at fracture site)",
+        "text": "Impaired vascularity at fracture site",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "가골 형성이 전혀 일어나지 않고 골단이 흡수되는 위축성 불유합(Atrophic nonunion)의 병태생리입니다."
@@ -194326,7 +194326,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "환자의 기저 전신 대사 질환 (Comorbid medical condition)",
+        "text": "Comorbid medical condition",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "당뇨나 영양 결핍 등은 전반적인 치유를 지연시키나 국소적 비후성 가골 반응 자체의 직접 원인은 아닙니다."
@@ -194334,7 +194334,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "내고정물에 의한 과도한 압박 강직 (Excessive rigid fixation)",
+        "text": "Excessive rigid fixation",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "과도한 강직 고정 시 외가골 형성이 억제되어 일차 골유합으로 진행합니다."
@@ -194342,7 +194342,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "수술 부위의 세균성 만성 감염 (Chronic infection)",
+        "text": "Chronic infection",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "감염성 불유합은 부비동, 골용해, 부골(sequestrum) 형성을 동반하는 감염 질환입니다."
@@ -198284,11 +198284,11 @@
     "stem": "대퇴골 원위부 골절에 대해 금속정 내고정술을 시행한 후 방사선 추적 검사에서 금속정이 휘어져 있고 골절선이 불유합된 소견이 관찰되었다. 이와 같은 비후성 불유합이 일어나는 가장 주된 원인은?",
     "images": [],
     "options": [
-      "골절 부위의 기계적 고정 안정성 부족 (Inadequate fracture stability)",
-      "골절 부위의 심각한 혈액 공급 결핍 (Impaired vascularity at fracture site)",
-      "환자의 기저 전신 대사 질환 (Comorbid medical condition)",
-      "내고정물에 의한 과도한 압박 강직 (Excessive rigid fixation)",
-      "수술 부위의 세균 감염 (Bacterial infection)"
+      "Inadequate fracture stability",
+      "Impaired vascularity at fracture site",
+      "Comorbid medical condition",
+      "Excessive rigid fixation",
+      "Bacterial infection"
     ],
     "correct_option_index": 0,
     "correct_answer": "골절 부위의 기계적 고정 안정성 부족 (Inadequate fracture stability)",
@@ -198362,7 +198362,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "골절 부위의 기계적 고정 안정성 부족 (Inadequate fracture stability)",
+        "text": "Inadequate fracture stability",
         "is_correct": true,
         "tag": "정답",
         "reason": "골절부 혈액 순환은 풍부하여 다량의 연골성 가골이 형성되었으나, 내고정물의 굵기 부족이나 고정력 약화로 인한 과도한 전단 변형력(Strain) 때문에 골유합이 완성되지 못한 상태입니다"
@@ -198370,7 +198370,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "골절 부위의 심각한 혈액 공급 결핍 (Impaired vascularity at fracture site)",
+        "text": "Impaired vascularity at fracture site",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "가골 형성이 전혀 일어나지 않는 위축성 불유합(Atrophic nonunion)의 주원인입니다."
@@ -198378,7 +198378,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "환자의 기저 전신 대사 질환 (Comorbid medical condition)",
+        "text": "Comorbid medical condition",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "골절 치유 속도에 영향을 줄 수 있으나 국소적 비후성 불유합 형태의 직접적 단독 원인은 아닙니다."
@@ -198386,7 +198386,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "내고정물에 의한 과도한 압박 강직 (Excessive rigid fixation)",
+        "text": "Excessive rigid fixation",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "강직 고정 시 외가골 형성이 차단되어 직접 골유합이 유도됩니다."
@@ -198394,7 +198394,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "수술 부위의 세균 감염 (Bacterial infection)",
+        "text": "Bacterial infection",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "감염성 불유합은 골용해, 부골(Sequestrum), 만성 농양 누공 형성을 특징으로 합니다."
@@ -199393,11 +199393,11 @@
     "stem": "(야마 족관절 염좌시 재활운동으로 근력을 가장 강화 하여야 하는 근육은 ?",
     "images": [],
     "options": [
-      "A. Flexor hallucis longus (장무지굴근)",
-      "B. Soleus (가자미근)",
-      "C. Posterior tibia (후경골근)",
-      "D. Gastrocnemius (비복근)",
-      "E. Peroneal (비골근)"
+      "A. Flexor hallucis longus",
+      "B. Soleus",
+      "C. Posterior tibia",
+      "D. Gastrocnemius",
+      "E. Peroneal"
     ],
     "correct_option_index": 0,
     "correct_answer": "A. Flexor hallucis longus (장무지굴근)",
@@ -199475,7 +199475,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A. Flexor hallucis longus (장무지굴근)",
+        "text": "A. Flexor hallucis longus",
         "is_correct": true,
         "tag": "정답",
         "reason": "발목을 외번(Eversion)시키는 주동근으로, 급격한 내번 스트레스가 가해질 때 반사적으로 수축하여 전거비인대를 보호하므로 재발 방지 재활의 핵심 근육입니다"
@@ -199483,7 +199483,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "B. Soleus (가자미근)",
+        "text": "B. Soleus",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "아킬레스건을 통해 종골에 부착하여 순수 족저굴곡을 일으키는 심부 후방 근육입니다."
@@ -199491,7 +199491,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "C. Posterior tibia (후경골근)",
+        "text": "C. Posterior tibia",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "엄지발가락 족저굴곡 근육으로 족관절 외측 안정성 제공과는 직접 연관성이 낮습니다."
@@ -199499,7 +199499,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "D. Gastrocnemius (비복근)",
+        "text": "D. Gastrocnemius",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "족관절 내번(Inversion)과 족궁 유지를 담당하는 근육으로, 이를 과도하게 강화하면 오히려 내번 경향이 커질 수 있습니다."
@@ -199507,7 +199507,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "E. Peroneal (비골근)",
+        "text": "E. Peroneal",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "대퇴과부에서 기시하는 강력한 족저굴곡근으로 발목의 내외측 동적 안정화 근육이 아닙니다."
@@ -217425,7 +217425,7 @@
       "images/영상의학과/22Y_Q21_fig2.png"
     ],
     "options": [
-      "① 경과관찰(Observation)",
+      "① Observation",
       "② 수술적 절제",
       "③ 경피적 알코올 경화술",
       "④ 항암화학요법",
@@ -217501,7 +217501,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "경과관찰(Observation)",
+        "text": "Observation",
         "is_correct": true,
         "tag": "정답",
         "reason": "T1 저신호, T2 현저한 고신호이며 조영증강되지 않는 매끄럽고 얇은 벽을 가진 전형적인 단순 간낭종(Simple hepatic cyst)으로, 무증상일 경우 어떠한 침습적 처치 없이 경과관찰함."
@@ -219672,11 +219672,11 @@
       "images/영상의학과/22Y_Q38_fig1.png"
     ],
     "options": [
-      "① infarction (뇌경색)",
-      "② tumor (뇌종양)",
-      "③ hematoma (뇌혈종)",
-      "④ abscess (뇌농양)",
-      "⑤ metastasis (전이암)"
+      "① infarction",
+      "② tumor",
+      "③ hematoma",
+      "④ abscess",
+      "⑤ metastasis"
     ],
     "correct_option_index": 0,
     "correct_answer": "① infarction (뇌경색)",
@@ -219750,7 +219750,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "infarction (뇌경색)",
+        "text": "infarction",
         "is_correct": true,
         "tag": "정답",
         "reason": "백질(white matter)을 따라 손가락 모양(digit-like)으로 퍼지며 대뇌피질을 침범하지 않고 보존하는 부종은 혈관인성 부종(vasogenic edema)으로, 종양/혈종/농양에서 보임. 반면 뇌경색은 피질과 백질을 모두 침범하는 세포독성 부종(cytotoxic edema)이므로 피질 보존 소견을 보이지 않음."
@@ -219758,7 +219758,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "tumor (뇌종양)",
+        "text": "tumor",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -219766,7 +219766,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "hematoma (뇌혈종)",
+        "text": "hematoma",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -219774,7 +219774,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "abscess (뇌농양)",
+        "text": "abscess",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -219782,7 +219782,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "metastasis (전이암)",
+        "text": "metastasis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -222663,7 +222663,7 @@
       "② Drainage",
       "③ Operation",
       "④ Antibiotics",
-      "⑤ Observation (경과관찰)"
+      "⑤ Observation"
     ],
     "correct_option_index": 4,
     "correct_answer": "⑤ Observation (경과관찰)",
@@ -222767,7 +222767,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "Observation (경과관찰)",
+        "text": "Observation",
         "is_correct": true,
         "tag": "정답",
         "reason": "동맥기 변연부 결절성 조영증강 후 지연기에서 중심부로 서서히 차오르는 전형적인 간혈관종(Hemangioma) 소견으로, 악성 위험이 없고 특별한 합병증이 없다면 침습적 수술 없이 경과관찰(Observation)함."
@@ -225315,11 +225315,11 @@
       "images/영상의학과/21Y_Q31_fig1.png"
     ],
     "options": [
-      "① Pneumonia (폐렴)",
-      "② Pneumothorax (기흉)",
-      "③ Pulmonary edema (폐부종)",
-      "④ Pleural effusion (흉수)",
-      "⑤ Atelectasis (무기폐)"
+      "① Pneumonia",
+      "② Pneumothorax",
+      "③ Pulmonary edema",
+      "④ Pleural effusion",
+      "⑤ Atelectasis"
     ],
     "correct_option_index": 0,
     "correct_answer": "① Pneumonia (폐렴)",
@@ -225393,7 +225393,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Pneumonia (폐렴)",
+        "text": "Pneumonia",
         "is_correct": true,
         "tag": "정답",
         "reason": "폐엽 단위로 폐포 내에 염증성 삼출액이 가득 차서 나타나는 균일한 폐경화(consolidation)와 내부의 투과성 공기기관지음영(air-bronchogram)을 보이는 전형적인 대엽성 폐렴 소견임."
@@ -225401,7 +225401,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Pneumothorax (기흉)",
+        "text": "Pneumothorax",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -225409,7 +225409,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Pulmonary edema (폐부종)",
+        "text": "Pulmonary edema",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -225417,7 +225417,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Pleural effusion (흉수)",
+        "text": "Pleural effusion",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -225425,7 +225425,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "Atelectasis (무기폐)",
+        "text": "Atelectasis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -234064,11 +234064,11 @@
     "stem": "32세 여성이 2년간 임신이 되지 않아 내원하였다. BMI 28로 비만이었고 턱쪽에 굵은 털이 나는 다모증과 희발월경이 있었다. 다낭성 난소 증후군(PCOS) 환자에서 배란 유도를 위해 투여해야 할 1차 표준 약제는?",
     "images": [],
     "options": [
-      "레트로졸 (Letrozole, 아로마타제 억제제)",
-      "클로미펜 (Clomiphene citrate)",
-      "메트포르민 (Metformin)",
-      "복합 경구 피임약 (Oral contraceptives)",
-      "성선자극호르몬 방출호르몬 작용제 (GnRH agonist)"
+      "Letrozole",
+      "Clomiphene citrate",
+      "Metformin",
+      "Oral contraceptives",
+      "GnRH agonist"
     ],
     "correct_option_index": 0,
     "correct_answer": "레트로졸 (Letrozole, 아로마타제 억제제)",
@@ -234149,7 +234149,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "레트로졸 (Letrozole, 아로마타제 억제제)",
+        "text": "Letrozole",
         "is_correct": true,
         "tag": "정답",
         "reason": "에스트로겐 합성을 차단하여 뇌하수체 FSH 분비를 유도하며, 특히 비만 환자에서 클로미펜 대비 배란율과 생아출생률이 유의하게 높아 1차 치료제로 권고됩니다"
@@ -234157,7 +234157,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "클로미펜 (Clomiphene citrate)",
+        "text": "Clomiphene citrate",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "시상하부 에스트로겐 수용체를 차단하는 고전적 배란유도제이나 항에스트로겐 작용으로 자궁내막 박막화 부작용이 있습니다."
@@ -234165,7 +234165,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "메트포르민 (Metformin)",
+        "text": "Metformin",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "인슐린 저항성을 개선하여 배란을 보조할 수 있으나 단독 배란유도제로서의 일차 효과는 레트로졸보다 열등합니다."
@@ -234173,7 +234173,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "복합 경구 피임약 (Oral contraceptives)",
+        "text": "Oral contraceptives",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "고안드로겐혈증 및 생리주기 조절에는 효과적이나 배란을 억제하므로 임신을 원하는 환자에게는 금기입니다."
@@ -234181,7 +234181,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "성선자극호르몬 방출호르몬 작용제 (GnRH agonist)",
+        "text": "GnRH agonist",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "조기 LH 급증을 억제하는 시험관 아기(IVF) 과배란 유도 시 병용 약제입니다."
@@ -234200,11 +234200,11 @@
     "stem": "16세 여성이 일차성 무월경으로 내원하였다. 키는 또래 평균보다 컸고 유방은 정상 발달하였으나 겨드랑이 털과 음모는 거의 없었다. 골반 초음파상 자궁이 없었고 염색체 검사는 46,XY였다. 진단은?",
     "images": [],
     "options": [
-      "완전 안드로겐 불응성 증후군 (Complete androgen insensitivity syndrome, CAIS)",
-      "뮐러관 무발생 (Mullerian agenesis, MRKH syndrome)",
-      "스와이어 증후군 (Swyer syndrome, 46,XY 성선이형성증)",
-      "터너 증후군 (Turner syndrome, 45,X)",
-      "선천성 부신 과형성증 (CAH)"
+      "Complete androgen insensitivity syndrome, CAIS",
+      "Mullerian agenesis, MRKH syndrome",
+      "Swyer syndrome",
+      "Turner syndrome, 45,X",
+      "CAH"
     ],
     "correct_option_index": 0,
     "correct_answer": "완전 안드로겐 불응성 증후군 (Complete androgen insensitivity syndrome, CAIS)",
@@ -234276,7 +234276,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "완전 안드로겐 불응성 증후군 (Complete androgen insensitivity syndrome, CAIS)",
+        "text": "Complete androgen insensitivity syndrome, CAIS",
         "is_correct": true,
         "tag": "정답",
         "reason": "안드로겐 수용체 유전자 돌연변이로 남성호르몬에 반응하지 못해 말초에서 에스트로겐으로 전환되어 유방은 발달하나 음모가 없고 자궁이 결손된 46,XY 질환입니다"
@@ -234284,7 +234284,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "뮐러관 무발생 (Mullerian agenesis, MRKH syndrome)",
+        "text": "Mullerian agenesis, MRKH syndrome",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "46,XX 정상 여성 핵형을 가지며 난소 기능과 음모 발달이 정상인 선천성 자궁 질환입니다."
@@ -234292,7 +234292,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "스와이어 증후군 (Swyer syndrome, 46,XY 성선이형성증)",
+        "text": "Swyer syndrome",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "성선(고환)이 섬유성 흔적으로 남아 에스트로겐이 생성되지 않으므로 유방 발달이 전혀 일어나지 않습니다."
@@ -234300,7 +234300,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "터너 증후군 (Turner syndrome, 45,X)",
+        "text": "Turner syndrome, 45,X",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "저신장, 익상경, 림프부종과 함께 난소 무형성으로 유방 발달이 없습니다."
@@ -234308,7 +234308,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "선천성 부신 과형성증 (CAH)",
+        "text": "CAH",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "안드로겐 과다로 여성 가성반음양(음핵 비대 등 남성화)을 나타냅니다."
@@ -239591,11 +239591,11 @@
       "images/산부인과/26Y_Q52_fig1.png"
     ],
     "options": [
-      "성숙 낭성 기형종 (Mature cystic teratoma)",
-      "난황낭종 (Yolk sac tumor / Endodermal sinus tumor)",
-      "난소 점액성 낭선종 (Mucinous cystadenoma)",
-      "과립막세포종 (Granulosa cell tumor)",
-      "난소 미분화세포종 (Dysgerminoma)"
+      "Mature cystic teratoma",
+      "Yolk sac tumor / Endodermal sinus tumor",
+      "Mucinous cystadenoma",
+      "Granulosa cell tumor",
+      "Dysgerminoma"
     ],
     "correct_option_index": 0,
     "correct_answer": "성숙 낭성 기형종 (Mature cystic teratoma)",
@@ -239673,7 +239673,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "성숙 낭성 기형종 (Mature cystic teratoma)",
+        "text": "Mature cystic teratoma",
         "is_correct": true,
         "tag": "정답",
         "reason": "외배엽, 중배엽, 내배엽 조직(지방, 모발, 치아)을 포함하는 가장 흔한 양성 난소 종양으로 염전(Torsion)이 빈번합니다"
@@ -239681,7 +239681,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "난황낭종 (Yolk sac tumor / Endodermal sinus tumor)",
+        "text": "Yolk sac tumor / Endodermal sinus tumor",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "악성 배세포 종양으로 Schiller-Duval 소체와 혈청 AFP 상승을 특징으로 합니다."
@@ -239689,7 +239689,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "난소 점액성 낭선종 (Mucinous cystadenoma)",
+        "text": "Mucinous cystadenoma",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "다방성(Multilocular)의 거대 낭종으로 젤라틴 점액성 액체를 함유합니다."
@@ -239697,7 +239697,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "과립막세포종 (Granulosa cell tumor)",
+        "text": "Granulosa cell tumor",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "에스트로겐을 분비하는 성선간질 종양으로 Call-Exner 소체를 보입니다."
@@ -239705,7 +239705,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "난소 미분화세포종 (Dysgerminoma)",
+        "text": "Dysgerminoma",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "혈청 LDH가 상승하는 젊은 여성의 악성 생식세포 종양입니다."
@@ -266631,11 +266631,11 @@
       "images/산부인과/21Y_Q11_fig1.png"
     ],
     "options": [
-      "우측 골반누두인대 - 우측 난소 - 자궁 - 우측 원인가 (Rt. IP ligament - Rt. ovary - Uterus - Rt. round ligament)",
-      "우측 원인가 - 자궁 - 우측 난소 - 우측 골반누두인대 (Rt. round ligament - Uterus - Rt. ovary - Rt. IP ligament)",
-      "우측 난소인대 - 우측 난소 - 난관 - 자궁 (Rt. ovarian ligament - Rt. ovary - Fallopian tube - Uterus)",
-      "우측 기저인대 - 자궁동맥 - 자궁 - 방광 (Rt. cardinal ligament - Uterine artery - Uterus - Bladder)",
-      "우측 천골자궁인대 - 직장 - 자궁 - 난소 (Rt. uterosacral ligament - Rectum - Uterus - Ovary)"
+      "Rt. IP ligament - Rt. ovary - Uterus - Rt. round ligament",
+      "Rt. round ligament - Uterus - Rt. ovary - Rt. IP ligament",
+      "Rt. ovarian ligament - Rt. ovary - Fallopian tube - Uterus",
+      "Rt. cardinal ligament - Uterine artery - Uterus - Bladder",
+      "Rt. uterosacral ligament - Rectum - Uterus - Ovary"
     ],
     "correct_option_index": 0,
     "correct_answer": "우측 골반누두인대 - 우측 난소 - 자궁 - 우측 원인가 (Rt. IP ligament - Rt. ovary - Uterus - Rt. round ligament)",
@@ -266694,7 +266694,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "우측 골반누두인대 - 우측 난소 - 자궁 - 우측 원인가 (Rt. IP ligament - Rt. ovary - Uterus - Rt. round ligament)",
+        "text": "Rt. IP ligament - Rt. ovary - Uterus - Rt. round ligament",
         "is_correct": true,
         "tag": "정답",
         "reason": "우측 난소 - 자궁 - 우측 원인가 (Rt. IP ligament - Rt. ovary - Uterus - Rt. round ligament) — 복강경 시야에서 외측 후방의 난소혈관을 포함하는 IP ligament부터 내측 자궁체부 및 전방 원인가로 주행합니다"
@@ -266702,7 +266702,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "우측 원인가 - 자궁 - 우측 난소 - 우측 골반누두인대 (Rt. round ligament - Uterus - Rt. ovary - Rt. IP ligament)",
+        "text": "Rt. round ligament - Uterus - Rt. ovary - Rt. IP ligament",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "자궁 - 우측 난소 - 우측 골반누두인대 — 내측 및 전방 구조물부터 나열된 역방향 배치입니다."
@@ -266710,7 +266710,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "우측 난소인대 - 우측 난소 - 난관 - 자궁 (Rt. ovarian ligament - Rt. ovary - Fallopian tube - Uterus)",
+        "text": "Rt. ovarian ligament - Rt. ovary - Fallopian tube - Uterus",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "우측 난소 - 난관 - 자궁 — 해부학적 외측에서 내측 공간 배열과 일치하지 않습니다."
@@ -266718,7 +266718,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "우측 기저인대 - 자궁동맥 - 자궁 - 방광 (Rt. cardinal ligament - Uterine artery - Uterus - Bladder)",
+        "text": "Rt. cardinal ligament - Uterine artery - Uterus - Bladder",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "자궁동맥 - 자궁 - 방광 — 자궁 하부 및 경부 측부의 심부 결합조직 배열입니다."
@@ -266726,7 +266726,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "우측 천골자궁인대 - 직장 - 자궁 - 난소 (Rt. uterosacral ligament - Rectum - Uterus - Ovary)",
+        "text": "Rt. uterosacral ligament - Rectum - Uterus - Ovary",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "직장 - 자궁 - 난소 — 골반 후방 맹낭 주위의 인대 구조물입니다."
@@ -278401,11 +278401,11 @@
     "stem": "배아기 발생 과정에서 고환의 세르톨리 세포(Sertoli cell)가 분비하여 뮐러관(Mullerian duct)의 퇴행을 유도하는 호르몬은?",
     "images": [],
     "options": [
-      "뮐러관 억제물질 (Mullerian inhibiting factor, MIF / AMH)",
-      "테스토스테론 (Testosterone)",
-      "디하이드로테스토스테론 (DHT)",
-      "데하이드로에피안드로스테론 설페이트 (DHEA-S)",
-      "에스트라디올 (Estradiol)"
+      "Mullerian inhibiting factor, MIF / AMH",
+      "Testosterone",
+      "DHT",
+      "DHEA-S",
+      "Estradiol"
     ],
     "correct_option_index": 0,
     "correct_answer": "뮐러관 억제물질 (Mullerian inhibiting factor, MIF / AMH)",
@@ -278464,7 +278464,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "뮐러관 억제물질 (Mullerian inhibiting factor, MIF / AMH)",
+        "text": "Mullerian inhibiting factor, MIF / AMH",
         "is_correct": true,
         "tag": "정답",
         "reason": "세르톨리 세포에서 분비되어 동측 뮐러관의 퇴행을 유도하여 여성 생식기 발생을 억제합니다"
@@ -278472,7 +278472,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "테스토스테론 (Testosterone)",
+        "text": "Testosterone",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "간질세포(Leydig cell)에서 분비되어 볼프관(Wolffian duct)을 부고환, 정관, 정낭으로 발달시킵니다."
@@ -278480,7 +278480,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "디하이드로테스토스테론 (DHT)",
+        "text": "DHT",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "5알파 환원효소에 의해 전환되어 외생식기(음경, 음낭) 남성화를 유도합니다."
@@ -278488,7 +278488,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "데하이드로에피안드로스테론 설페이트 (DHEA-S)",
+        "text": "DHEA-S",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "S) — 부신피질 망상대에서 주로 분비되는 약한 안드로겐입니다."
@@ -278496,7 +278496,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "에스트라디올 (Estradiol)",
+        "text": "Estradiol",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "난소 과립막세포에서 주로 분비되는 여성호르몬입니다."
@@ -279216,8 +279216,8 @@
       "images/산부인과/20Y_Q16_fig1.png"
     ],
     "options": [
-      "복부 대동맥 - 하대정맥 - 좌측 신정맥 - 하장간막동맥 (Abdominal aorta - IVC - Left renal vein - IMA)",
-      "복부 대동맥 - 하대정맥 - 하장간막동맥 - 좌측 신정맥 (Abdominal aorta - IVC - IMA - Left renal vein)",
+      "Abdominal aorta - IVC - Left renal vein - IMA",
+      "Abdominal aorta - IVC - IMA - Left renal vein",
       "하대정맥 - 복부 대동맥 - 하장간막동맥 - 좌측 신정맥",
       "하장간막동맥 - 좌측 신정맥 - 복부 대동맥 - 하대정맥",
       "복부 대동맥 - 좌측 신정맥 - 하대정맥 - 하장간막동맥"
@@ -279279,7 +279279,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "복부 대동맥 - 하대정맥 - 좌측 신정맥 - 하장간막동맥 (Abdominal aorta - IVC - Left renal vein - IMA)",
+        "text": "Abdominal aorta - IVC - Left renal vein - IMA",
         "is_correct": true,
         "tag": "정답",
         "reason": "하대정맥 - 좌측 신정맥 - 하장간막동맥 (Abdominal aorta - IVC - Left renal vein - IMA) — 척추체 전방에서 정중선 좌측의 대동맥, 우측의 IVC, 상방을 가로지르는 좌측 신정맥, 하방의 IMA 주행 관계입니다"
@@ -279287,7 +279287,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "복부 대동맥 - 하대정맥 - 하장간막동맥 - 좌측 신정맥 (Abdominal aorta - IVC - IMA - Left renal vein)",
+        "text": "Abdominal aorta - IVC - IMA - Left renal vein",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "하대정맥 - 하장간막동맥 - 좌측 신정맥 — 좌측 신정맥은 신동맥보다 복측에서 대동맥 전방을 횡단하므로 IMA보다 상방에 위치합니다."
@@ -279480,7 +279480,7 @@
       "images/산부인과/20Y_Q18_fig1.png"
     ],
     "options": [
-      "우측 원인가 - 자궁 - 우측 난소인대 - 우측 난소 - 우측 골반누두인대 (Right round ligament - Uterus - Right ovarian ligament - Right ovary - Right IP ligament)",
+      "Right round ligament - Uterus - Right ovarian ligament - Right ovary - Right IP ligament",
       "우측 원인가 - 자궁 - 우측 난관 - 우측 난소 - 우측 골반누두인대",
       "우측 골반누두인대 - 우측 난소 - 우측 난소인대 - 자궁 - 우측 원인가",
       "우측 난관 - 우측 난소 - 우측 원인가 - 자궁 - 우측 골반누두인대",
@@ -279543,7 +279543,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "우측 원인가 - 자궁 - 우측 난소인대 - 우측 난소 - 우측 골반누두인대 (Right round ligament - Uterus - Right ovarian ligament - Right ovary - Right IP ligament)",
+        "text": "Right round ligament - Uterus - Right ovarian ligament - Right ovary - Right IP ligament",
         "is_correct": true,
         "tag": "정답",
         "reason": "자궁 - 우측 난소인대 - 우측 난소 - 우측 골반누두인대 (Right round ligament - Uterus - Right ovarian ligament - Right ovary - Right IP ligament) — 골반 전방 복벽으로 향하는 원인가부터 후방 골반누두인대까지 완벽한 전후 해부학적 순서입니다"
