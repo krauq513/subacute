@@ -78,6 +78,8 @@
     searchInput: document.getElementById('search-input'),
 
     // Question Card
+    questionCard: document.getElementById('question-card'),
+    cardMeta: document.querySelector('.card-meta'),
     cardSubject: document.getElementById('card-subject'),
     cardYear: document.getElementById('card-year'),
     cardQnum: document.getElementById('card-qnum'),
@@ -1213,7 +1215,7 @@
       renderCurrentQuestion();
       renderGrid();
       updateStats();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      scrollToQuestionHeader();
 
       let targetLabel = '';
       if (target.year === '22Y' && target.section && target.section_q_num) {
@@ -2297,7 +2299,7 @@
         if (targetIndex !== state.currentIndex) {
           state.currentIndex = targetIndex;
           renderCurrentQuestion();
-          window.scrollTo({ top: 0, behavior: 'smooth' });
+          scrollToQuestionHeader();
         } else {
           dom.navJumpInput.value = String(state.currentIndex + 1);
         }
@@ -2956,7 +2958,7 @@
     renderGrid();
     saveStorage();
     closeProfileModal();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    scrollToQuestionHeader();
 
     const q = getCurrentQuestion();
     const locLabel = q
@@ -3462,13 +3464,46 @@
   }
 
   /**
+   * Scroll so that the question metadata header row ("영상의학과 ~ 오류신고 줄")
+   * is positioned smoothly right at the top of the viewport.
+   * Dynamically measures sticky/fixed header height to guarantee perfect alignment.
+   */
+  function scrollToQuestionHeader(smooth = true) {
+    requestAnimationFrame(() => {
+      const target = dom.cardMeta || document.querySelector('.card-meta') || dom.questionCard || document.getElementById('question-card');
+      if (!target) {
+        window.scrollTo({ top: 0, behavior: smooth ? 'smooth' : 'auto' });
+        return;
+      }
+
+      const header = document.querySelector('.app-header');
+      let headerOffset = 0;
+      if (header) {
+        const style = window.getComputedStyle(header);
+        if (style.position === 'sticky' || style.position === 'fixed') {
+          headerOffset = header.offsetHeight;
+        }
+      }
+
+      const rect = target.getBoundingClientRect();
+      const currentScrollY = window.pageYOffset || document.documentElement.scrollTop;
+      const targetY = rect.top + currentScrollY - headerOffset - 8;
+
+      window.scrollTo({
+        top: Math.max(0, Math.round(targetY)),
+        behavior: smooth ? 'smooth' : 'auto'
+      });
+    });
+  }
+
+  /**
    * Navigate Previous / Next
    */
   function navigate(delta) {
     if (state.filteredQuestions.length === 0) return;
     state.currentIndex = (state.currentIndex + delta + state.filteredQuestions.length) % state.filteredQuestions.length;
     renderCurrentQuestion();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    scrollToQuestionHeader();
   }
 
   /**
@@ -3482,7 +3517,7 @@
     }
     state.currentIndex = nextIdx;
     renderCurrentQuestion();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    scrollToQuestionHeader();
   }
 
   /**
@@ -3556,7 +3591,7 @@
         state.currentIndex = idx;
         renderCurrentQuestion();
         closeGridModal();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        scrollToQuestionHeader();
       });
 
       dom.questionGrid.appendChild(btn);
