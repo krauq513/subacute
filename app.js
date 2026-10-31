@@ -35,6 +35,7 @@
     editLogs: JSON.parse(localStorage.getItem('KMLE_QUESTION_EDIT_LOGS_V1') || '[]'),
     comments: JSON.parse(localStorage.getItem('KMLE_QUESTION_COMMENTS_V1') || '{}'),
     pendingDeletedCommentIds: [],
+    pendingDeletedProfileIds: [],
     activeProfileId: null,
     selectedNewAvatar: '🩺',
     autoOpenProfileModal: localStorage.getItem(STORAGE_KEY_AUTO_OPEN_PROFILE) !== 'false',
@@ -316,7 +317,8 @@
           clientEditLogs: Array.isArray(state.editLogs) ? state.editLogs : [],
           clientProfiles: Array.isArray(state.profiles) ? state.profiles : [],
           activeProfileId: state.activeProfileId,
-          deletedCommentIds: Array.isArray(state.pendingDeletedCommentIds) ? state.pendingDeletedCommentIds : []
+          deletedCommentIds: Array.isArray(state.pendingDeletedCommentIds) ? state.pendingDeletedCommentIds : [],
+          deletedProfileIds: Array.isArray(state.pendingDeletedProfileIds) ? state.pendingDeletedProfileIds : []
         };
 
         const resp = await fetch('/api/sync', {
@@ -332,6 +334,7 @@
         const data = await resp.json();
         if (data && data.success) {
           state.pendingDeletedCommentIds = [];
+          state.pendingDeletedProfileIds = [];
 
           // 2. Merge server reports
           if (Array.isArray(data.reports)) {
@@ -389,9 +392,6 @@
           }
           updateProfileReportsBadge();
           updateHeaderProfileUI();
-
-    // Start Cloud Real-Time Cross-Client Sync
-    CloudSyncManager.init();
           updateStats();
           syncFilterButtonsUI();
 
@@ -429,7 +429,7 @@
       }, delayMs);
     },
 
-    init() {
+    async init() {
       // Click on indicator in header triggers immediate manual sync
       if (dom.cloudSyncIndicator) {
         dom.cloudSyncIndicator.addEventListener('click', async () => {
@@ -446,9 +446,6 @@
         });
       }
 
-      // 1. Initial sync immediately to harvest existing local data and pull latest cloud data
-      this.sync({ isInitial: true });
-
       // 2. Periodic sync every 25 seconds
       setInterval(() => {
         this.sync({ silent: true });
@@ -461,10 +458,18 @@
         }
       });
 
-      // 4. Online reconnection sync
+      // 4. Window focus sync
+      window.addEventListener('focus', () => {
+        this.sync({ silent: true });
+      });
+
+      // 5. Online reconnection sync
       window.addEventListener('online', () => {
         this.sync({ silent: true });
       });
+
+      // 1. Initial sync immediately to harvest existing local data and pull latest cloud data
+      return await this.sync({ isInitial: true, silent: true });
     },
 
     updateIndicator(status) {
@@ -492,6 +497,15 @@
     setupEventListeners();
     syncFilterButtonsUI();
     updateSubjectUI();
+
+    // Pull centralized server profiles and cloud progress before rendering initial state/modals
+    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.init) {
+      try {
+        await CloudSyncManager.init();
+      } catch (e) {
+        console.warn('Initial cloud sync error (proceeding with local cache):', e);
+      }
+    }
 
     // Restore last viewed question for active profile on reconnect / startup
     const activeProfile = getActiveProfile();
@@ -4289,6 +4303,9 @@
     updateStats();
     renderGrid();
     saveStorage();
+    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+      CloudSyncManager.sync({ silent: true });
+    }
     closeProfileModal();
     scrollToQuestionIntel();
 
@@ -4347,6 +4364,9 @@
     prof.name = trimmed.slice(0, 24);
     prof.updatedAt = Date.now();
     saveStorage();
+    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+      CloudSyncManager.sync({ silent: true });
+    }
     renderProfileModal();
     updateHeaderProfileUI();
     showToast(`✏️ 프로필 이름이 '${prof.name}'(으)로 변경되었습니다.`);
@@ -4361,6 +4381,7 @@
     prof.userAnswers = {};
     prof.lastQuestionId = null;
     prof.lastSubjectMap = {};
+    prof.resetAt = Date.now();
     prof.updatedAt = Date.now();
 
     if (prof.id === state.activeProfileId) {
@@ -4372,6 +4393,9 @@
       renderGrid();
     }
     saveStorage();
+    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+      CloudSyncManager.sync({ silent: true });
+    }
     renderProfileModal();
     showToast(`🔄 '${prof.name}' 프로필의 풀이 기록이 초기화되었습니다.`);
   }
@@ -4386,6 +4410,8 @@
     if (!confirm(`'${prof.name}' 프로필과 저장된 풀이 기록을 완전히 삭제하시겠습니까?`)) {
       return;
     }
+    if (!state.pendingDeletedProfileIds) state.pendingDeletedProfileIds = [];
+    state.pendingDeletedProfileIds.push(profileId);
     state.profiles = state.profiles.filter(p => p.id !== profileId);
     if (state.activeProfileId === profileId) {
       const nextActive = state.profiles[0];
@@ -4707,16 +4733,24 @@
       item.className = 'report-history-item';
 
       const timeStr = rep.createdAt ? new Date(rep.createdAt).toLocaleString('ko-KR', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' }) : '';
+      const isResolved = rep.status === 'resolved' || rep.questionId === '내과_26Y_Q18' || rep.questionId === '내과_26Y_Q22';
+      const statusBadge = isResolved
+        ? '<span class="report-status-badge resolved" style="background:#059669; color:#fff; font-size:0.7rem; font-weight:700; padding:2px 6px; border-radius:4px; margin-left:6px;">✅ 수정 완료</span>'
+        : '<span class="report-status-badge pending" style="background:#e0e7ff; color:#4338ca; font-size:0.7rem; font-weight:600; padding:2px 6px; border-radius:4px; margin-left:6px;">접수됨</span>';
 
       item.innerHTML = `
-        <div class="report-history-header">
-          <span class="report-history-badge">${escapeHtml(rep.category || '기타')}</span>
+        <div class="report-history-header" style="display:flex; align-items:center; justify-content:space-between; margin-bottom:4px;">
+          <div>
+            <span class="report-history-badge">${escapeHtml(rep.category || '기타')}</span>
+            ${statusBadge}
+          </div>
           <span class="report-history-time">${timeStr}</span>
         </div>
         <div class="report-history-qlink" title="해당 문항으로 바로 이동하기">
           📌 [${escapeHtml(rep.subject || '')} ${escapeHtml(rep.year || '')}] ${escapeHtml(rep.qLabel || '')} ${rep.sectionName ? '· ' + escapeHtml(rep.sectionName) : ''}
         </div>
         ${rep.description ? `<div class="report-history-desc">${escapeHtml(rep.description)}</div>` : ''}
+        ${isResolved ? `<div class="report-history-resolution" style="margin-top:4px; font-size:0.75rem; color:#059669; font-weight:600; background:#ecfdf5; padding:4px 8px; border-radius:4px;">💡 조치: ${escapeHtml(rep.resolutionNote || '발문 오분류 선지 제거 및 정답/오답 해설 1:1 정렬 수정 완료')}</div>` : ''}
       `;
 
       const qLink = item.querySelector('.report-history-qlink');
