@@ -24,11 +24,18 @@ function mergeData(serverData, clientData) {
 
   // Automatically mark resolved reported errors
   const resolvedReportIds = new Set(['rep_1793464903407_4eczg', 'rep_1793465487079_7leo0']);
+  const resolvedQuestionIds = new Set(['내과_26Y_Q18', '내과_26Y_Q22', '내과_26Y_Q31', '내과_26Y_Q30', '내과_21Y_Q30']);
   for (const [rid, rep] of reportMap.entries()) {
-    if (resolvedReportIds.has(rid) || rep.questionId === '내과_26Y_Q18' || rep.questionId === '내과_26Y_Q22') {
+    if (resolvedReportIds.has(rid) || resolvedQuestionIds.has(rep.questionId)) {
       rep.status = 'resolved';
       rep.resolvedAt = rep.resolvedAt || new Date().toISOString();
-      rep.resolutionNote = '발문 오분류 선지 제거 및 정답/오답 해설 1:1 정렬 수정 완료';
+      if (rep.questionId === '내과_26Y_Q31') {
+        rep.resolutionNote = '정답 ERCP 수정(선지 1칸 밀림 교정) 및 PTBD 2차 요법 감별 해설 정렬 완료';
+      } else if (rep.questionId === '내과_21Y_Q30') {
+        rep.resolutionNote = '발문/선지 오표기 문구 정리 및 EST & Basket 담석제거술 표준 해설 완료';
+      } else {
+        rep.resolutionNote = '발문 오분류 선지 제거 및 정답/오답 해설 1:1 정렬 수정 완료';
+      }
     }
   }
 
