@@ -7,6 +7,9 @@ const BLOB_PATH = 'sync/global_sync_v1.json';
 const BLOB_URL = 'https://mz2fhtrx42zn4hgx.public.blob.vercel-storage.com/sync/global_sync_v1.json';
 const TOKEN = process.env.BLOB_READ_WRITE_TOKEN || 'vercel_blob_rw_mZ2FhTrX42ZN4HGX_mEOi9kpT0W8W9oeGrYlsJOIP8s2ZEw';
 
+const GITHUB_TOKEN = process.env.GITHUB_SYNC_TOKEN;
+const GIST_ID = process.env.GITHUB_GIST_ID || '88f570fe24ad4ac41f02b0e7592a547c';
+
 function mergeData(serverData, clientData) {
   // 1. Reports merge
   const reportMap = new Map();
@@ -199,6 +202,33 @@ function mergeData(serverData, clientData) {
 }
 
 async function fetchCurrentGlobalData() {
+  // 1. Primary: GitHub Gist Storage (unlimited, zero-cost, persistent)
+  if (GITHUB_TOKEN && GIST_ID) {
+    try {
+      const resp = await fetch(`https://api.github.com/gists/${GIST_ID}?t=${Date.now()}`, {
+        headers: {
+          'Authorization': `token ${GITHUB_TOKEN}`,
+          'User-Agent': 'Subacute-Sync-Engine',
+          'Accept': 'application/vnd.github.v3+json'
+        },
+        cache: 'no-store'
+      });
+      if (resp.ok) {
+        const gist = await resp.json();
+        const fileObj = gist.files && gist.files['global_sync_v1.json'];
+        if (fileObj && fileObj.content) {
+          const parsed = JSON.parse(fileObj.content);
+          if (parsed && typeof parsed === 'object') {
+            return parsed;
+          }
+        }
+      }
+    } catch (err) {
+      console.warn('GitHub Gist fetch error, fallback to blob:', err.message);
+    }
+  }
+
+  // 2. Secondary: Vercel Blob Storage
   try {
     const resp = await fetch(`${BLOB_URL}?t=${Date.now()}`, { cache: 'no-store' });
     if (resp.ok) {
@@ -226,6 +256,56 @@ async function fetchCurrentGlobalData() {
   };
 }
 
+async function saveCurrentGlobalData(merged) {
+  let saved = false;
+
+  // 1. Primary: GitHub Gist Storage
+  if (GITHUB_TOKEN && GIST_ID) {
+    try {
+      const payload = {
+        files: {
+          'global_sync_v1.json': {
+            content: JSON.stringify(merged)
+          }
+        }
+      };
+      const resp = await fetch(`https://api.github.com/gists/${GIST_ID}`, {
+        method: 'PATCH',
+        headers: {
+          'Authorization': `token ${GITHUB_TOKEN}`,
+          'User-Agent': 'Subacute-Sync-Engine',
+          'Content-Type': 'application/json',
+          'Accept': 'application/vnd.github.v3+json'
+        },
+        body: JSON.stringify(payload)
+      });
+      if (resp.ok) {
+        saved = true;
+      } else {
+        console.warn('Gist save responded with status:', resp.status);
+      }
+    } catch (err) {
+      console.warn('Gist save error:', err.message);
+    }
+  }
+
+  // 2. Secondary: Vercel Blob Storage (if available)
+  try {
+    await put(BLOB_PATH, JSON.stringify(merged), {
+      access: 'public',
+      addRandomSuffix: false,
+      allowOverwrite: true,
+      contentType: 'application/json',
+      token: TOKEN
+    });
+    saved = true;
+  } catch (err) {
+    // Gracefully handle suspended Blob store
+  }
+
+  return saved;
+}
+
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
@@ -246,14 +326,8 @@ export default async function handler(req, res) {
       const current = await fetchCurrentGlobalData();
       const merged = mergeData(current, body);
 
-      // Save merged state back to Vercel Blob with token
-      await put(BLOB_PATH, JSON.stringify(merged), {
-        access: 'public',
-        addRandomSuffix: false,
-        allowOverwrite: true,
-        contentType: 'application/json',
-        token: TOKEN
-      });
+      // Save merged state reliably
+      await saveCurrentGlobalData(merged);
 
       return res.status(200).json({ success: true, ...merged });
     }
