@@ -2335,7 +2335,7 @@
 
     dom.expFindings.innerHTML = renderRichText(exp.findings || '상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.');
     dom.expTrap.innerHTML = renderRichText(exp.trap || '실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.');
-    dom.expTrigger.innerHTML = renderRichText(exp.trigger || `${q.theme_title} 핵심 지표 기준 즉시 정답 도출`);
+    dom.expTrigger.innerHTML = renderRichText(exp.trigger || `${q.theme_title} 핵심 임상 가이드라인`);
     dom.expKmleLink.textContent = `📚 KMLE 연계: ${exp.kmle_link || '진단검사의학과 총론 및 각론'}`;
 
     // Structured Option-by-Option Explanations
