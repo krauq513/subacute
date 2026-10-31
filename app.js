@@ -45,6 +45,7 @@
     pendingSelections: new Set(), // Set of selected option indices (0-based ORIGINAL indices) for multi-answer questions
     shuffleOptions: localStorage.getItem(STORAGE_KEY_SHUFFLE) === 'true',
     shuffledOrders: {}, // qId -> number[] (displayIdx -> originalIdx)
+    isSectionFilterExpanded: false, // Collapsed by default
     filters: {
       subject: localStorage.getItem(STORAGE_KEY_SUBJECT) || '진단검사의학과',
       year: 'ALL',
@@ -76,6 +77,10 @@
     yearTabs: document.getElementById('year-tabs'),
     sectionFilterGroup: document.getElementById('section-filter-group'),
     sectionTabs: document.getElementById('section-tabs'),
+    btnToggleSection: document.getElementById('btn-toggle-section'),
+    sectionTabsContainer: document.getElementById('section-tabs-container'),
+    sectionActiveBadge: document.getElementById('section-active-badge'),
+    sectionArrowIcon: document.getElementById('section-arrow-icon'),
     typeTabs: document.getElementById('type-tabs'),
     filterFrequent: document.getElementById('filter-frequent'),
     filterImages: document.getElementById('filter-images'),
@@ -839,7 +844,8 @@
         : `subacute v4.4 · ${meta.icon} ${meta.title}`;
     }
     if (dom.brandSubtitle) {
-      dom.brandSubtitle.textContent = `20Y ~ 26Y 실전 기출 완전 정복 • ${subQuestions.length}문항 (v4.4 완결판 • ${meta.desc})`;
+      dom.brandSubtitle.textContent = `20Y ~ 26Y 실전 기출 • ${subQuestions.length}문항 (v4.4)`;
+      dom.brandSubtitle.title = `20Y ~ 26Y 실전 기출 완전 정복 • ${subQuestions.length}문항 (${meta.desc})`;
     }
 
     // Dynamic Year Tabs
@@ -922,6 +928,21 @@
   /**
    * Dynamically Render Section Tabs (흉부 / 복부 / MSK / 신경 / 인터벤션 / 유방 / 총론)
    */
+  function updateSectionFilterVisibility() {
+    if (!dom.sectionTabsContainer || !dom.btnToggleSection) return;
+    if (state.isSectionFilterExpanded) {
+      dom.sectionTabsContainer.style.display = 'block';
+      dom.btnToggleSection.classList.add('expanded');
+      dom.btnToggleSection.setAttribute('aria-expanded', 'true');
+      if (dom.sectionArrowIcon) dom.sectionArrowIcon.textContent = '▴';
+    } else {
+      dom.sectionTabsContainer.style.display = 'none';
+      dom.btnToggleSection.classList.remove('expanded');
+      dom.btnToggleSection.setAttribute('aria-expanded', 'false');
+      if (dom.sectionArrowIcon) dom.sectionArrowIcon.textContent = '▾';
+    }
+  }
+
   function renderSectionTabs(subQuestions) {
     if (!dom.sectionFilterGroup || !dom.sectionTabs) return;
 
@@ -985,6 +1006,21 @@
       }
     });
 
+    // Update active badge in toggle button
+    const updateActiveBadge = () => {
+      if (!dom.sectionActiveBadge) return;
+      if (state.filters.section === 'ALL') {
+        dom.sectionActiveBadge.textContent = `전체 (${scope.length})`;
+      } else {
+        const icon = sectionIcons[state.filters.section] || '📁';
+        dom.sectionActiveBadge.textContent = `${icon} ${state.filters.section} (${secCounts[state.filters.section] || 0})`;
+      }
+    };
+    updateActiveBadge();
+
+    // Update container collapsed/expanded visibility
+    updateSectionFilterVisibility();
+
     dom.sectionTabs.innerHTML = '';
 
     // ALL button
@@ -996,6 +1032,7 @@
       dom.sectionTabs.querySelectorAll('.pill-tab').forEach(b => b.classList.remove('active'));
       allBtn.classList.add('active');
       state.filters.section = 'ALL';
+      updateActiveBadge();
       state.currentIndex = 0;
       applyFilters();
       renderCurrentQuestion();
@@ -1006,7 +1043,7 @@
 
     sectionOrder.forEach(sec => {
       const count = secCounts[sec] || 0;
-      if (count === 0 && state.filters.year !== 'ALL') return; // Hide empty sections in specific year
+      if (count === 0) return; // CRITICAL: NEVER render sections with 0 questions!
       const icon = sectionIcons[sec] || '📁';
       const btn = document.createElement('button');
       btn.className = `pill-tab ${state.filters.section === sec ? 'active' : ''}`;
@@ -1016,6 +1053,7 @@
         dom.sectionTabs.querySelectorAll('.pill-tab').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         state.filters.section = sec;
+        updateActiveBadge();
         state.currentIndex = 0;
         applyFilters();
         renderCurrentQuestion();
@@ -1028,6 +1066,7 @@
     if (state.filters.section !== 'ALL' && (!secCounts[state.filters.section] || secCounts[state.filters.section] === 0)) {
       state.filters.section = 'ALL';
       allBtn.classList.add('active');
+      updateActiveBadge();
     }
   }
 
@@ -3544,6 +3583,8 @@
         state.filters.subject = newSub;
         localStorage.setItem(STORAGE_KEY_SUBJECT, newSub);
         state.filters.year = 'ALL';
+        state.filters.section = 'ALL';
+        state.isSectionFilterExpanded = false; // Always collapsed by default
         state.filters.type = 'ALL';
         state.filters.onlyFrequent = false;
         state.filters.onlyImages = false;
@@ -3667,6 +3708,14 @@
     }
     if (dom.btnReshuffleNow) {
       dom.btnReshuffleNow.addEventListener('click', reshuffleCurrentQuestionOptions);
+    }
+
+    // Section Filter Accordion Toggle (평소 접힌 상태)
+    if (dom.btnToggleSection) {
+      dom.btnToggleSection.addEventListener('click', () => {
+        state.isSectionFilterExpanded = !state.isSectionFilterExpanded;
+        updateSectionFilterVisibility();
+      });
     }
 
     // Keyword Search
