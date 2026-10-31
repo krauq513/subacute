@@ -232576,7 +232576,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 2,
-    "category": "반짤",
+    "category": "탈",
     "theme_title": "테마 02. 아셔만 증후군(Asherman Syndrome)의 진단 및 자궁경 치료",
     "subspecialty": "생식내분비학 / 불임",
     "stem": "35세 여자가 8개월 전부터 월경이 없어서 병원에 왔다. 9개월 전 계류유산으로 자궁긁어냄술을 받은 후 점차 월경량 이 줄었다고 한다. 소변 임신반응검사는 음성이다. 안면홍조, 불면증 등의 증상은 없었고 혈액검사 상 호르몬 수치는 모두 정상이었다. 원인을 감별하기 위해 시행한 프로게스테론 부하 검사에서 소퇴성 출혈은 없었다. 이 환자에 대해 옳은 것은?",
@@ -232646,10 +232646,9 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "23Y",
       "26Y"
     ],
     "raw_questions": [
@@ -232704,7 +232703,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 3,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 03. 청소년 및 가임기 급성 비정상 자궁출혈(AUB-O)의 호르몬 지혈",
     "subspecialty": "생식내분비학 / 불임",
     "stem": "24살 여성이 질출혈 심해서 내원하였다. 1년간 생리 3~4 번 하는 희소월경이었고 최근 3개월간 월경이 없었다. Hb 9.2였으며 질식초음파 상 자궁내막 3mm로 심하게 박리되어 있었다. 질출혈에 대한 일차치료로 사용할 수 있는 약물로 옳 은 것은?",
@@ -232777,15 +232776,16 @@
     "freq_count": 4,
     "rate": 67,
     "freq_years": [
+      "26Y",
       "22Y",
       "21Y",
-      "26Y",
       "20Y"
     ],
     "raw_questions": [
       "26Y-03",
-      "20Y-02",
-      "21Y-부인과02"
+      "22Y-25",
+      "21Y-부인과02",
+      "20Y-부인과02"
     ],
     "option_explanations": [
       {
@@ -232836,7 +232836,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 4,
-    "category": "반짤",
+    "category": "탈",
     "theme_title": "테마 04. 자궁내막증 병력 환자의 폐경 호르몬대체요법(MHT)",
     "subspecialty": "생식내분비학 / 불임",
     "stem": "50세 여자가 안면홍조, 불면으로 병원에 왔다. 3년전 severe endometriosis로 TAH+BSO를 받은 병력이 있다. 혈액검사 결과는 중성지방과 LDH 상승한 소견을 보였다. 이 환자의 치료로 사용할 수 있는 약물로 옳은 것은?",
@@ -232906,15 +232906,13 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "26Y",
-      "19Y"
+      "26Y"
     ],
     "raw_questions": [
-      "26Y-04",
-      "19Y"
+      "26Y-04"
     ],
     "option_explanations": [
       {
@@ -233092,7 +233090,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 6,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 06. 절박성 요실금(Urge Incontinence) 및 과민성 방광의 감별",
     "subspecialty": "생식내분비학 / 불임",
     "stem": "55세 여자가 소변이 마려우면 화장실에 도달하기 전에 소 변이 나와 병원에 왔다. 기침이나 재채기를 할 때 소변이 새 지는 않았다고 한다. 소변검사와 골반 초음파 검사는 정상이 었고, Q tip 검사는 15도였다. 요역동학검사상 방광의 불수 의적 수축이 있으면서 소변누출이 관찰되었다. 진단은?",
@@ -233156,8 +233154,8 @@
     "freq_count": 2,
     "rate": 33,
     "freq_years": [
-      "23Y",
-      "26Y"
+      "26Y",
+      "23Y"
     ],
     "raw_questions": [
       "26Y-06",
@@ -233204,7 +233202,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 7,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 07. 매큔-올브라이트 증후군(McCune-Albright Syndrome)과 말초성 성조숙증",
     "subspecialty": "생식내분비학 / 불임",
     "stem": "5세 여아가 유방이 발달하고 소량의 질출혈을 보여 내원하였다. 유방 Tanner stage 3, 음모 Tanner stage 1기였다. 목 뒤쪽에 커피색의 반점(Cafe au lait spot)을 보였다. 검사결과는 다음과 같다. 진단은?\n- 골연령 8세\n- 에스트라디올 55 (높음), LH/FSH 낮음\n- GnRH 자극검사 → LH 1.5 (상승 없음)\n- TSH 정상, prolactin 정상",
@@ -233268,14 +233266,14 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
-      "21Y",
       "26Y",
+      "21Y",
       "20Y"
     ],
     "raw_questions": [
       "26Y-07",
-      "20Y-03",
-      "21Y-부인과01"
+      "21Y-부인과01",
+      "20Y-부인과03"
     ],
     "option_explanations": [
       {
@@ -233318,7 +233316,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 8,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 08. 자궁경 수술 시 확장 매질(Distension Media)과 체액과부하",
     "subspecialty": "생식내분비학 / 불임",
     "stem": "45세 환자가 의식혼수로 응급실에 내원하였다. 2시간 전 개인병원에서 자궁근종으로 자궁 절제술을 받았는데 수술 과 정에 특별한 문제는 없었으나 수술 시간이 예상보다 오래 걸 렸다고 한다. 넣어준 수액의 주입량과 배출량은 각각 6000cc, 1000cc이다. 다음 중 원인이 된 distention media로 가장 가능성이 높은 것은?",
@@ -233391,8 +233389,8 @@
     "freq_count": 2,
     "rate": 33,
     "freq_years": [
-      "23Y",
-      "26Y"
+      "26Y",
+      "23Y"
     ],
     "raw_questions": [
       "26Y-08",
@@ -233517,18 +233515,22 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y"
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
       "26Y-09",
       "23Y-40",
       "22Y-04",
-      "22Y-05"
+      "22Y-05",
+      "21Y-부인과05",
+      "20Y-부인과10"
     ],
     "option_explanations": [
       {
@@ -233579,7 +233581,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 10,
-    "category": "짤",
+    "category": "탈",
     "theme_title": "테마 10. 완전 안드로겐 불감성 증후군(CAIS)의 임상 특징 및 감별",
     "subspecialty": "생식내분비학 / 불임",
     "stem": "16세 여성이 일차성 무월경으로 내원하였다. 키는 또래 평균보다 컸고 유방은 정상 발달하였으나 겨드랑이 털과 음모는 거의 없었다. 골반 초음파상 자궁이 없었고 염색체 검사는 46,XY였다. 진단은?",
@@ -233649,10 +233651,9 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "21Y",
       "26Y"
     ],
     "raw_questions": [
@@ -233707,7 +233708,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 11,
-    "category": "반짤",
+    "category": "탈",
     "theme_title": "테마 11. 다낭난소증후군(PCOS)의 자궁내막 보호 (프로게스테론 단독)",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "24세 여자가 월경이 없어서 병원에 왔다. 평소 생리는 1년에 3~4번 정도로 희발월경을 보였고 턱에 굵은 수염이 나는 모습을 보였으며, BMI 29kg/m2으로 비만이었다. 목 뒤 피부는 갈색이었다. 학업 진행 중으로 임신계획은 없다고 한다. 이 환자에 대해 옳은 것은?",
@@ -233768,10 +233769,9 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "22Y",
       "26Y"
     ],
     "raw_questions": [
@@ -234015,17 +234015,21 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y"
+      "21Y",
+      "19Y"
     ],
     "raw_questions": [
       "26Y-13",
       "23Y-21",
-      "22Y-41"
+      "22Y-41",
+      "21Y-산과22",
+      "19Y-23"
     ],
     "option_explanations": [
       {
@@ -234128,19 +234132,21 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
       "21Y",
-      "26Y"
+      "20Y"
     ],
     "raw_questions": [
       "26Y-14",
       "23Y-24",
       "22Y-44",
-      "21Y"
+      "21Y-산과20",
+      "20Y-산과24"
     ],
     "option_explanations": [
       {
@@ -234175,7 +234181,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 15,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "테마 15. 이완성 산후출혈과 산도 열상(Cervical Laceration)의 감별",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신 39주의 산모가 질식분만 후 다량의 질출혈이 계속 되었다. 자궁저부는 배꼽 밑에서 단단하게 만져졌고, 만출된 태반 역시 정상이었다. 가장 가능성 높은 진단은?",
@@ -234245,16 +234251,21 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
-      "26Y"
+      "22Y",
+      "21Y",
+      "19Y"
     ],
     "raw_questions": [
       "26Y-15",
       "23Y-14",
-      "21Y-산과13"
+      "22Y-49",
+      "21Y-산과13",
+      "19Y-29"
     ],
     "option_explanations": [
       {
@@ -234383,8 +234394,7 @@
       "26Y"
     ],
     "raw_questions": [
-      "26Y-16",
-      "21Y-산과12"
+      "26Y-16"
     ],
     "option_explanations": [
       {
@@ -234637,9 +234647,9 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "22Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
       "26Y-18",
@@ -234695,7 +234705,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 19,
-    "category": "탈",
+    "category": "반짤",
     "theme_title": "테마 19. 절박유산(Threatened Abortion)의 진단 및 대증 치료",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신 10주인 27세 임산부가 전날부터 시작된 소량의 질 출혈을 주소로 병원에 내원하였다. 하복부 통증이나 골반통은 호소하지 않았다. 활력징후는 혈압 110/70 mmHg, 맥박 78회/분, 체온 36.6도였다. 골반내진 시 자궁경부 개대는 확 인되지 않았으며, 골반 초음파 검사상 임신낭이 확인되었다. 태아 심박동이 확인되었다. 이 환자의 진단으로 가장 적절한 것은?",
@@ -234765,15 +234775,17 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
       "26Y-19",
-      "23Y-26"
+      "23Y-26",
+      "22Y-54"
     ],
     "option_explanations": [
       {
@@ -234894,18 +234906,21 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y"
+      "21Y",
+      "19Y"
     ],
     "raw_questions": [
       "26Y-20",
       "23Y-09",
       "22Y-35",
-      "21Y-산과07"
+      "21Y-산과07",
+      "19Y-92"
     ],
     "option_explanations": [
       {
@@ -235026,12 +235041,13 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y"
+      "21Y"
     ],
     "raw_questions": [
       "26Y-21",
@@ -236089,7 +236105,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 30,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "테마 30. 임신 중 모체의 생리적 혈역학 및 호흡/대사 변화",
     "subspecialty": "산과학 / 고위험임신·합병증",
     "stem": "임신 시 일어나는 모체의 생리적 변화로 옳은 것은? (중복정답 처리)",
@@ -236160,20 +236176,24 @@
       2,
       4
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
-      "21Y",
       "22Y",
-      "26Y"
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
       "26Y-30",
       "23Y-05",
       "23Y-06",
-      "21Y",
-      "22Y-02"
+      "22Y-02",
+      "21Y-산과05",
+      "21Y-산과06",
+      "20Y-산과06",
+      "20Y-산과12"
     ],
     "option_explanations": [
       {
@@ -236336,7 +236356,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 32,
-    "category": "탈",
+    "category": "짤",
     "theme_title": "테마 32. 임신 중 호흡곤란 및 말초 부종의 원인과 평가",
     "subspecialty": "산과학 / 분만기전·산과수술",
     "stem": "31주 32세 임산부가 숨이 차고 다리가 부어 내원하였 다. 혈압 110/80, 맥박 70/분, 호흡 25 회/분이었다. 복부 촉진상 태아의 신체부위가 안 만져질 정도로 복벽이 팽팽하 였고 자궁바닥의 높이는 38cm, 양수지수는 32 이었다. 처치 는?",
@@ -236397,13 +236417,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "26Y"
+      "26Y",
+      "21Y"
     ],
     "raw_questions": [
-      "26Y-32"
+      "26Y-32",
+      "21Y-산과02"
     ],
     "option_explanations": [
       {
@@ -236446,7 +236468,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 33,
-    "category": "탈",
+    "category": "반짤",
     "theme_title": "테마 33. 태아 곤란증(Fetal Distress) - 후기 감퇴(Late Deceleration)와 제왕절개",
     "subspecialty": "산과학 / 분만기전·산과수술",
     "stem": "35주 임산부가 아기가 잘 놀지 않는다는 것을 주소로 내원했다. Fetal CTG 시행 시 다음과 같은 양상이 나타났다. 처치는?",
@@ -236521,9 +236543,9 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "22Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
       "26Y-33",
@@ -236835,7 +236857,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 36,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 36. 자궁경부 무력증(Cervical Insufficiency)의 자궁경부봉축술(Cerclage)",
     "subspecialty": "산과학 / 분만기전·산과수술",
     "stem": "임신 17주 산모의 초음파 검사 결과가 다음과 같았다. 산모는 이전 임신 시 조산을 한 과거력이 있다. 환자에게 다 른 이상은 없을 때 시행해야 할 처치로 가장 적절한 것은?",
@@ -236898,15 +236920,17 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
       "26Y-36",
-      "23Y-29"
+      "23Y-29",
+      "22Y-58"
     ],
     "option_explanations": [
       {
@@ -237022,9 +237046,9 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "22Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
       "26Y-37",
@@ -237207,7 +237231,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 39,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "테마 39. 초음파 태아 신체계측(Fetal Biometry) - 복부 둘레(AC)",
     "subspecialty": "산과학 / 분만기전·산과수술",
     "stem": "다음 사진은 fetal biometry 중 어느 부위를 측정하는 것인가?",
@@ -237287,7 +237311,7 @@
     ],
     "raw_questions": [
       "26Y-39",
-      "19Y"
+      "19Y-36"
     ],
     "option_explanations": [
       {
@@ -237413,16 +237437,16 @@
     "freq_count": 4,
     "rate": 67,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "21Y",
-      "26Y"
+      "21Y"
     ],
     "raw_questions": [
       "26Y-40",
       "23Y-33",
       "22Y-03",
-      "21Y-10"
+      "21Y-부인과10"
     ],
     "option_explanations": [
       {
@@ -237546,8 +237570,8 @@
     "freq_count": 2,
     "rate": 33,
     "freq_years": [
-      "23Y",
-      "26Y"
+      "26Y",
+      "23Y"
     ],
     "raw_questions": [
       "26Y-41",
@@ -237602,7 +237626,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 42,
-    "category": "짤",
+    "category": "탈",
     "theme_title": "테마 42. 모자보건법 상 인공임신중절수술의 허용 한계",
     "subspecialty": "기형학 & 부인종양학",
     "stem": "모자보건법 상 대통령령 15조에 의거한 인공임신중절수 술의 허용한계가 아닌 것은?",
@@ -237672,10 +237696,9 @@
     "correct_option_indices": [
       4
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "22Y",
       "26Y"
     ],
     "raw_questions": [
@@ -237803,9 +237826,9 @@
     "freq_count": 5,
     "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y",
       "21Y",
       "19Y"
     ],
@@ -237813,9 +237836,8 @@
       "26Y-43",
       "23Y-07",
       "22Y-60",
-      "21Y",
-      "19Y",
-      "21Y-산과01"
+      "21Y-산과01",
+      "19Y-01"
     ],
     "option_explanations": [
       {
@@ -237941,16 +237963,16 @@
     "freq_count": 4,
     "rate": 67,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "21Y",
-      "26Y"
+      "21Y"
     ],
     "raw_questions": [
       "26Y-44",
       "23Y-42",
       "22Y-07",
-      "21Y-12"
+      "21Y-부인과12"
     ],
     "option_explanations": [
       {
@@ -238071,19 +238093,26 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 6,
+    "rate": 100,
     "freq_years": [
-      "23Y",
-      "21Y",
       "26Y",
-      "20Y"
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y",
+      "19Y"
     ],
     "raw_questions": [
       "26Y-45",
+      "26Y-49",
       "23Y-43",
-      "21Y-16",
-      "20Y-33"
+      "23Y-45",
+      "22Y-10",
+      "22Y-11",
+      "21Y-부인과16",
+      "20Y-부인과33",
+      "19Y-74"
     ],
     "option_explanations": [
       {
@@ -238134,7 +238163,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 46,
-    "category": "반짤",
+    "category": "탈",
     "theme_title": "테마 46. 자궁근종의 FIGO 분류 체계 (FIGO Classification)",
     "subspecialty": "기형학 & 부인종양학",
     "stem": "다음 사진에서 보이는 유경성 장막하(pedunculated subserosal) 자궁근종의 FIGO classification으로 적절한 것은? (원본 시험 사진 미수록)",
@@ -238261,7 +238290,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 47,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 47. 난소 자궁내막종(Endometrioma)의 초음파 간유리 음영 및 골반 유착",
     "subspecialty": "기형학 & 부인종양학",
     "stem": "31세 미산부가 심한 월경통과 불임으로 내원하였다. 질식 초음파상 난소 내에 균질한 간유리 음영(Ground-glass appearance)의 낭종이 관찰되었고, 복강경 소견에서 난소와 직장 사이 골반 유착이 확인되었다. 진단은?",
@@ -238333,21 +238362,18 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y",
-      "21Y",
-      "19Y"
+      "21Y"
     ],
     "raw_questions": [
       "26Y-47",
       "23Y-47",
       "22Y-21",
-      "21Y-23",
-      "19Y",
       "21Y-부인과23"
     ],
     "option_explanations": [
@@ -238471,19 +238497,21 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
-      "23Y",
-      "21Y",
       "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
       "20Y"
     ],
     "raw_questions": [
       "26Y-48",
       "23Y-44",
-      "21Y-18",
-      "20Y-35"
+      "22Y-09",
+      "21Y-부인과18",
+      "20Y-부인과35"
     ],
     "option_explanations": [
       {
@@ -238606,15 +238634,26 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 6,
+    "rate": 100,
     "freq_years": [
+      "26Y",
       "23Y",
-      "26Y"
+      "22Y",
+      "21Y",
+      "20Y",
+      "19Y"
     ],
     "raw_questions": [
       "26Y-49",
-      "23Y-45"
+      "26Y-45",
+      "23Y-43",
+      "23Y-45",
+      "22Y-10",
+      "22Y-11",
+      "21Y-부인과16",
+      "20Y-부인과33",
+      "19Y-74"
     ],
     "option_explanations": [
       {
@@ -238735,19 +238774,21 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
-      "23Y",
-      "21Y",
       "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
       "20Y"
     ],
     "raw_questions": [
       "26Y-50",
       "23Y-46",
-      "21Y-17",
-      "20Y-37"
+      "22Y-12",
+      "21Y-부인과17",
+      "20Y-부인과37"
     ],
     "option_explanations": [
       {
@@ -238873,8 +238914,8 @@
     "freq_count": 2,
     "rate": 33,
     "freq_years": [
-      "23Y",
-      "26Y"
+      "26Y",
+      "23Y"
     ],
     "raw_questions": [
       "26Y-51",
@@ -238929,7 +238970,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 52,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 52. 난소 낭종 염전(Ovarian Cyst Torsion) - 성숙낭종기형종(Teratoma)",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "20세 여성이 3시간 전 시작된 극심한 좌하복부 통증으로 응급실에 내원하였다. 골반 초음파 및 복부 CT상 좌측 난소에 지방 음영과 석회화 치아 결절을 포함하는 6cm 크기의 낭성 종괴가 관찰되었고 염전(Torsion)이 의심되었다. 종괴의 진단은?",
@@ -239001,17 +239042,19 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
+      "26Y",
       "23Y",
-      "20Y",
-      "26Y"
+      "22Y",
+      "20Y"
     ],
     "raw_questions": [
       "26Y-52",
       "23Y-58",
-      "20Y-23"
+      "22Y-16",
+      "20Y-부인과23"
     ],
     "option_explanations": [
       {
@@ -239137,14 +239180,14 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "21Y",
-      "26Y"
+      "21Y"
     ],
     "raw_questions": [
       "26Y-53",
       "23Y-59",
-      "21Y-19"
+      "21Y-부인과19"
     ],
     "option_explanations": [
       {
@@ -239542,7 +239585,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 57,
-    "category": "반짤",
+    "category": "짤",
     "theme_title": "테마 57. 난소 악성 생식세포종양 - 미분화세포종(Dysgerminoma) IA기 치료",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "17세 여학생이 복부통증이 있어 응급실로 왔다. 수술 소견에서 혈복강이 심하였고, 종양 표지자 검사가 다음과 같을 때, 환자에게 적절한 치료 및 설명이 아닌 것은?",
@@ -239615,8 +239658,8 @@
     "freq_count": 2,
     "rate": 33,
     "freq_years": [
-      "22Y",
-      "26Y"
+      "26Y",
+      "22Y"
     ],
     "raw_questions": [
       "26Y-57",
@@ -239671,7 +239714,7 @@
     "subject": "산부인과",
     "year": "26Y",
     "q_num": 58,
-    "category": "탈",
+    "category": "짤",
     "theme_title": "테마 58. 부인과 수술 후 누공 형성 - 방광질루(Vesicovaginal Fistula)",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "39세 여성이 맑은 질분비물을 주소로 내원하였다. 밤에 잠을 잘 때도 나왔다. 3개월 전 전자궁 및 양쪽 부속기 절제 술을 받았으며, 수술 다음날에 도뇨관을 제거하였다. 질분비 물에 대해 인디고카민 정맥 주사 후 질에 거즈를 대보니 파 란색으로 염색되었다. 가장 가능성 높은 진단은?",
@@ -239744,12 +239787,12 @@
     "freq_count": 2,
     "rate": 33,
     "freq_years": [
-      "21Y",
-      "26Y"
+      "26Y",
+      "21Y"
     ],
     "raw_questions": [
       "26Y-58",
-      "21Y-09"
+      "21Y-부인과09"
     ],
     "option_explanations": [
       {
@@ -239991,16 +240034,15 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "22Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
       "26Y-60",
       "23Y-20",
       "22Y-36",
-      "22Y-37",
-      "21Y-산과03"
+      "22Y-37"
     ],
     "option_explanations": [
       {
@@ -240170,7 +240212,7 @@
     "subject": "산부인과",
     "year": "23Y",
     "q_num": 2,
-    "category": "탈",
+    "category": "짤",
     "theme_title": "[단독 기출] 임신부의 산전 관리에 대한 설명으로 옳지 않은 것은?",
     "subspecialty": "산부인과 단독 기출",
     "stem": "임신부의 산전 관리에 대한 설명으로 옳지 않은 것은?",
@@ -240240,13 +240282,21 @@
     "correct_option_indices": [
       4
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
-      "23Y"
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y",
+      "19Y"
     ],
     "raw_questions": [
-      "23Y-02"
+      "23Y-02",
+      "22Y-47",
+      "21Y-산과15",
+      "20Y-산과35",
+      "19Y-35"
     ],
     "option_explanations": [
       {
@@ -240370,13 +240420,13 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "22Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
-      "26Y-37",
       "23Y-03",
+      "26Y-37",
       "22Y-34"
     ],
     "option_explanations": [
@@ -240555,7 +240605,7 @@
     "subject": "산부인과",
     "year": "23Y",
     "q_num": 5,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 30. 임신 중 모체의 생리적 혈역학 및 호흡/대사 변화",
     "subspecialty": "산과학 / 고위험임신·합병증",
     "stem": "모체 생리의 변화에 대한 설명 중 옳지 않은 것은?",
@@ -240625,20 +240675,24 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
-      "21Y",
       "22Y",
-      "26Y"
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
-      "26Y-30",
       "23Y-05",
+      "26Y-30",
       "23Y-06",
-      "21Y",
-      "22Y-02"
+      "22Y-02",
+      "21Y-산과05",
+      "21Y-산과06",
+      "20Y-산과06",
+      "20Y-산과12"
     ],
     "option_explanations": [
       {
@@ -240689,7 +240743,7 @@
     "subject": "산부인과",
     "year": "23Y",
     "q_num": 6,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 30. 임신 중 모체의 생리적 혈역학 및 호흡/대사 변화",
     "subspecialty": "산과학 / 고위험임신·합병증",
     "stem": "모체 생리의 변화에 대한 설명 중 옳지 않은 것은?",
@@ -240759,20 +240813,24 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
-      "21Y",
       "22Y",
-      "26Y"
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
+      "23Y-06",
       "26Y-30",
       "23Y-05",
-      "23Y-06",
-      "21Y",
-      "22Y-02"
+      "22Y-02",
+      "21Y-산과05",
+      "21Y-산과06",
+      "20Y-산과06",
+      "20Y-산과12"
     ],
     "option_explanations": [
       {
@@ -240896,18 +240954,18 @@
     "freq_count": 5,
     "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y",
       "21Y",
       "19Y"
     ],
     "raw_questions": [
-      "26Y-43",
       "23Y-07",
+      "26Y-43",
       "22Y-60",
-      "21Y",
-      "19Y"
+      "21Y-산과01",
+      "19Y-01"
     ],
     "option_explanations": [
       {
@@ -240958,7 +241016,7 @@
     "subject": "산부인과",
     "year": "23Y",
     "q_num": 8,
-    "category": "탈",
+    "category": "짤",
     "theme_title": "[단독 기출] 주 산모. NST에서 reactive이고, 30분간 측정 시 태",
     "subspecialty": "산부인과 단독 기출",
     "stem": "36주 산모. NST에서 reactive이고, 30분간 측정 시 태 아의 호흡이 10초 지속되는 것을 1회 관찰하였다. 팔다리의 움직임은 30분 동안 2회 관찰되고, 사지의 신전 굴곡은 관찰 되지 않았다. Single vertical pocket의 크기가 2.5cm였다. BPP 점수를 구하시오.",
@@ -241028,13 +241086,15 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "23Y"
+      "23Y",
+      "20Y"
     ],
     "raw_questions": [
-      "23Y-08"
+      "23Y-08",
+      "20Y-산과13"
     ],
     "option_explanations": [
       {
@@ -241155,17 +241215,21 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y"
+      "21Y",
+      "19Y"
     ],
     "raw_questions": [
-      "26Y-20",
       "23Y-09",
-      "22Y-35"
+      "26Y-20",
+      "22Y-35",
+      "21Y-산과07",
+      "19Y-92"
     ],
     "option_explanations": [
       {
@@ -241420,13 +241484,13 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "22Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
-      "26Y-18",
       "23Y-11",
+      "26Y-18",
       "22Y-38"
     ],
     "option_explanations": [
@@ -241551,12 +241615,12 @@
     "freq_count": 2,
     "rate": 33,
     "freq_years": [
-      "23Y",
-      "26Y"
+      "26Y",
+      "23Y"
     ],
     "raw_questions": [
-      "26Y-41",
-      "23Y-12"
+      "23Y-12",
+      "26Y-41"
     ],
     "option_explanations": [
       {
@@ -241607,7 +241671,7 @@
     "subject": "산부인과",
     "year": "23Y",
     "q_num": 13,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "산부인과 과년도 빈출: 제왕절개 관련 진단 및 처치",
     "subspecialty": "산부인과 과년도 빈출",
     "stem": "임신 36주, 30세 산모가 무통성의 다량의 질출혈 로 내원하였다. 이전에도 출혈이 있긴 했지만, 이렇게 심하지 는 않았다. 헤모글로빈 수치는 6.9%이었으며, 혈압은 90/60mmHg, 맥박은 110/min이었다. 적절한 처치는?",
@@ -241806,15 +241870,21 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
-      "26Y"
+      "22Y",
+      "21Y",
+      "19Y"
     ],
     "raw_questions": [
+      "23Y-14",
       "26Y-15",
-      "23Y-14"
+      "22Y-49",
+      "21Y-산과13",
+      "19Y-29"
     ],
     "option_explanations": [
       {
@@ -241935,17 +242005,19 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y"
+      "21Y"
     ],
     "raw_questions": [
-      "26Y-21",
       "23Y-15",
-      "22Y-46"
+      "26Y-21",
+      "22Y-46",
+      "21Y-산과14"
     ],
     "option_explanations": [
       {
@@ -242125,7 +242197,7 @@
     "subject": "산부인과",
     "year": "23Y",
     "q_num": 17,
-    "category": "탈",
+    "category": "짤",
     "theme_title": "[단독 기출] 임신 38주 여성이 진통으로 내원하였다. 자궁경부는 ",
     "subspecialty": "산부인과 단독 기출",
     "stem": "임신 38주 여성이 진통으로 내원하였다. 자궁경부는 7cm 열려 있었고, 소실도는 80%, 하강도는 +1 이었으며 양막은 파열되지 않았다. 비수축검사 결과가 다음과 같을 때, 가장 적절한 원인은?",
@@ -242197,13 +242269,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "23Y"
+      "23Y",
+      "21Y"
     ],
     "raw_questions": [
-      "23Y-17"
+      "23Y-17",
+      "21Y-산과08"
     ],
     "option_explanations": [
       {
@@ -242329,13 +242403,13 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "22Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
-      "26Y-33",
       "23Y-18",
+      "26Y-33",
       "22Y-45"
     ],
     "option_explanations": [
@@ -242587,13 +242661,13 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "22Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
-      "26Y-60",
       "23Y-20",
+      "26Y-60",
       "22Y-36",
       "22Y-37"
     ],
@@ -242716,17 +242790,21 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y"
+      "21Y",
+      "19Y"
     ],
     "raw_questions": [
-      "26Y-13",
       "23Y-21",
-      "22Y-41"
+      "26Y-13",
+      "22Y-41",
+      "21Y-산과22",
+      "19Y-23"
     ],
     "option_explanations": [
       {
@@ -243087,19 +243165,21 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
       "21Y",
-      "26Y"
+      "20Y"
     ],
     "raw_questions": [
-      "26Y-14",
       "23Y-24",
+      "26Y-14",
       "22Y-44",
-      "21Y"
+      "21Y-산과20",
+      "20Y-산과24"
     ],
     "option_explanations": [
       {
@@ -243204,15 +243284,17 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "23Y",
-      "22Y"
+      "22Y",
+      "21Y"
     ],
     "raw_questions": [
       "23Y-25",
-      "22Y-51"
+      "22Y-51",
+      "21Y-산과04"
     ],
     "option_explanations": [
       {
@@ -243263,7 +243345,7 @@
     "subject": "산부인과",
     "year": "23Y",
     "q_num": 26,
-    "category": "탈",
+    "category": "짤",
     "theme_title": "테마 19. 절박유산(Threatened Abortion)의 진단 및 대증 치료",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신 11주인 산모, 질출혈로 내원. 자궁 경부 닫힌 상 태. FHR 140. 처치는?",
@@ -243315,15 +243397,17 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
+      "23Y-26",
       "26Y-19",
-      "23Y-26"
+      "22Y-54"
     ],
     "option_explanations": [
       {
@@ -243470,7 +243554,7 @@
     "subject": "산부인과",
     "year": "23Y",
     "q_num": 28,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "산부인과 과년도 빈출: 추적관찰 관련 진단 및 처치",
     "subspecialty": "산부인과 과년도 빈출",
     "stem": "25주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는?\n[초음파 소견]\n• 여아: 예측 태아몸무게 10백분위수, 최대양수주머니 수직깊이 2cm, 탯줄동맥도플러 정상, 정맥관도플러 정상\n• 남아: 예측 태아몸무게 70백분위수, 최대양수주머니 수직깊이 7cm, 탯줄동맥도플러 정상, 정맥관도플러 정상",
@@ -243644,15 +243728,17 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
+      "23Y-29",
       "26Y-36",
-      "23Y-29"
+      "22Y-58"
     ],
     "option_explanations": [
       {
@@ -243761,7 +243847,7 @@
     "raw_questions": [
       "23Y-30",
       "22Y-59",
-      "21Y-24"
+      "21Y-부인과24"
     ],
     "option_explanations": [
       {
@@ -244068,7 +244154,7 @@
     "subject": "산부인과",
     "year": "23Y",
     "q_num": 33,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 40. 자궁내장치(IUD) 삽입 상태에서의 임신과 IUD 조기 제거",
     "subspecialty": "산과학 / 분만기전·산과수술",
     "stem": "35세, 산과력 0-3-0-0인 여성이 무월경으로 내원하여 소변 hCG 양성이었다. 체온 36.3도, 혈압 110/90, 심박수 78, 호흡수 20회였다. CBC도 정상수치였다. 1년 전 자궁내 장치 시술을 받았다고 했으나, 질경 검사에서 자궁내장치의 실이 보이지 않았다. 초음파 소견은 아래와 같다. 적절한 조 치는?",
@@ -244143,16 +244229,16 @@
     "freq_count": 4,
     "rate": 67,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "21Y",
-      "26Y"
+      "21Y"
     ],
     "raw_questions": [
-      "26Y-40",
       "23Y-33",
+      "26Y-40",
       "22Y-03",
-      "21Y-10"
+      "21Y-부인과10"
     ],
     "option_explanations": [
       {
@@ -244967,7 +245053,7 @@
     "subject": "산부인과",
     "year": "23Y",
     "q_num": 40,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 09. 다낭난소증후군(PCOS) 난임 환자의 1차 배란유도제(Letrozole)",
     "subspecialty": "생식내분비학 / 불임",
     "stem": "과배란유도와 IVF-ET에 관한 설명으로 옳지 않은 것은?",
@@ -245037,18 +245123,22 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y"
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
-      "26Y-09",
       "23Y-40",
+      "26Y-09",
       "22Y-04",
-      "22Y-05"
+      "22Y-05",
+      "21Y-부인과05",
+      "20Y-부인과10"
     ],
     "option_explanations": [
       {
@@ -245301,16 +245391,16 @@
     "freq_count": 4,
     "rate": 67,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "21Y",
-      "26Y"
+      "21Y"
     ],
     "raw_questions": [
-      "26Y-44",
       "23Y-42",
+      "26Y-44",
       "22Y-07",
-      "21Y-12"
+      "21Y-부인과12"
     ],
     "option_explanations": [
       {
@@ -245431,19 +245521,26 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 6,
+    "rate": 100,
     "freq_years": [
-      "23Y",
-      "21Y",
       "26Y",
-      "20Y"
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y",
+      "19Y"
     ],
     "raw_questions": [
-      "26Y-45",
       "23Y-43",
-      "21Y-16",
-      "20Y-33"
+      "26Y-45",
+      "26Y-49",
+      "23Y-45",
+      "22Y-10",
+      "22Y-11",
+      "21Y-부인과16",
+      "20Y-부인과33",
+      "19Y-74"
     ],
     "option_explanations": [
       {
@@ -245566,19 +245663,21 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
-      "23Y",
-      "21Y",
       "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
       "20Y"
     ],
     "raw_questions": [
-      "26Y-48",
       "23Y-44",
-      "21Y-18",
-      "20Y-35"
+      "26Y-48",
+      "22Y-09",
+      "21Y-부인과18",
+      "20Y-부인과35"
     ],
     "option_explanations": [
       {
@@ -245701,15 +245800,26 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 6,
+    "rate": 100,
     "freq_years": [
+      "26Y",
       "23Y",
-      "26Y"
+      "22Y",
+      "21Y",
+      "20Y",
+      "19Y"
     ],
     "raw_questions": [
+      "23Y-45",
+      "26Y-45",
       "26Y-49",
-      "23Y-45"
+      "23Y-43",
+      "22Y-10",
+      "22Y-11",
+      "21Y-부인과16",
+      "20Y-부인과33",
+      "19Y-74"
     ],
     "option_explanations": [
       {
@@ -245830,19 +245940,21 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
-      "23Y",
-      "21Y",
       "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
       "20Y"
     ],
     "raw_questions": [
-      "26Y-50",
       "23Y-46",
-      "21Y-17",
-      "20Y-37"
+      "26Y-50",
+      "22Y-12",
+      "21Y-부인과17",
+      "20Y-부인과37"
     ],
     "option_explanations": [
       {
@@ -245893,7 +246005,7 @@
     "subject": "산부인과",
     "year": "23Y",
     "q_num": 47,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 47. 난소 자궁내막종(Endometrioma)의 초음파 간유리 음영 및 골반 유착",
     "subspecialty": "기형학 & 부인종양학",
     "stem": "초음파 소견상 간유리 같은 음영이 보였다. 초음파 소견 과 복강경 소견은 다음과 같다. 진단은?",
@@ -245945,21 +246057,19 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y",
-      "21Y",
-      "19Y"
+      "21Y"
     ],
     "raw_questions": [
-      "26Y-47",
       "23Y-47",
+      "26Y-47",
       "22Y-21",
-      "21Y-23",
-      "19Y"
+      "21Y-부인과23"
     ],
     "option_explanations": [
       {
@@ -246093,12 +246203,12 @@
     "freq_count": 2,
     "rate": 33,
     "freq_years": [
-      "23Y",
-      "26Y"
+      "26Y",
+      "23Y"
     ],
     "raw_questions": [
-      "26Y-51",
-      "23Y-48"
+      "23Y-48",
+      "26Y-51"
     ],
     "option_explanations": [
       {
@@ -246173,7 +246283,7 @@
     "subject": "산부인과",
     "year": "23Y",
     "q_num": 49,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "산부인과 과년도 빈출: 복합경구피임제 관련 진단 및 처치",
     "subspecialty": "산부인과 과년도 빈출",
     "stem": "산과력 0-0-1-0인 30세 여자가 질 출혈을 주소로 내 원하였다. 자궁흡입긁어냄술 결과 완전포상기태를 확인하였고, hCG 검사가 아래 표와 같았다. 흉부 X선 검사 및 CT 단층 촬영 소견이 정상이었다. 이 환자에게 해야 할 처치는?",
@@ -246253,7 +246363,7 @@
     ],
     "raw_questions": [
       "23Y-49",
-      "21Y-08"
+      "21Y-부인과08"
     ],
     "option_explanations": [
       {
@@ -246377,12 +246487,12 @@
     "freq_count": 2,
     "rate": 33,
     "freq_years": [
-      "23Y",
-      "26Y"
+      "26Y",
+      "23Y"
     ],
     "raw_questions": [
-      "26Y-06",
-      "23Y-50"
+      "23Y-50",
+      "26Y-06"
     ],
     "option_explanations": [
       {
@@ -246635,12 +246745,12 @@
     "freq_count": 2,
     "rate": 33,
     "freq_years": [
-      "23Y",
-      "26Y"
+      "26Y",
+      "23Y"
     ],
     "raw_questions": [
-      "26Y-08",
-      "23Y-52"
+      "23Y-52",
+      "26Y-08"
     ],
     "option_explanations": [
       {
@@ -247380,17 +247490,19 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
+      "26Y",
       "23Y",
-      "20Y",
-      "26Y"
+      "22Y",
+      "20Y"
     ],
     "raw_questions": [
-      "26Y-52",
       "23Y-58",
-      "20Y-23"
+      "26Y-52",
+      "22Y-16",
+      "20Y-부인과23"
     ],
     "option_explanations": [
       {
@@ -247500,14 +247612,14 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "21Y",
-      "26Y"
+      "21Y"
     ],
     "raw_questions": [
-      "26Y-53",
       "23Y-59",
-      "21Y-19"
+      "26Y-53",
+      "21Y-부인과19"
     ],
     "option_explanations": [
       {
@@ -247685,7 +247797,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 1,
-    "category": "기출",
+    "category": "탈",
     "theme_title": "산부인과 일반: 모체 생리의 변화에 대한 설명 중 옳지 않은 것은? h...",
     "subspecialty": "산부인과 일반",
     "stem": "모체 생리의 변화에 대한 설명 중 옳지 않은 것은? hCG 의 역할은 황체 유지이다.",
@@ -247812,7 +247924,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 2,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 30. 임신 중 모체의 생리적 혈역학 및 호흡/대사 변화",
     "subspecialty": "산과학 / 고위험임신·합병증",
     "stem": "모체 생리의 변화에 대한 설명 중 옳지 않은 것은? 산모에게 Angiotensin II 주입 시 혈압이",
@@ -247882,20 +247994,24 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
-      "21Y",
       "22Y",
-      "26Y"
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
+      "22Y-02",
       "26Y-30",
       "23Y-05",
       "23Y-06",
-      "21Y",
-      "22Y-02"
+      "21Y-산과05",
+      "21Y-산과06",
+      "20Y-산과06",
+      "20Y-산과12"
     ],
     "option_explanations": [
       {
@@ -247946,7 +248062,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 3,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 40. 자궁내장치(IUD) 삽입 상태에서의 임신과 IUD 조기 제거",
     "subspecialty": "산과학 / 분만기전·산과수술",
     "stem": "39 세 산과력 0-0-3-0 여성이 무월경으로 내원하여 hCG 검사를 시행한 결과 양성이었다. 1 년 전 자궁내장치 시술을 받았다. 질경검사 사진과 초음파 검사 사진이다. 처치는?",
@@ -248021,16 +248137,16 @@
     "freq_count": 4,
     "rate": 67,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "21Y",
-      "26Y"
+      "21Y"
     ],
     "raw_questions": [
+      "22Y-03",
       "26Y-40",
       "23Y-33",
-      "22Y-03",
-      "21Y-10"
+      "21Y-부인과10"
     ],
     "option_explanations": [
       {
@@ -248081,7 +248197,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 4,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 09. 다낭난소증후군(PCOS) 난임 환자의 1차 배란유도제(Letrozole)",
     "subspecialty": "생식내분비학 / 불임",
     "stem": "다음은 과배란 유도 후 생길 수 있는 난소과자 극증후군(OHSS)의 특징에 대한 설명이다. 틀린 것은? 난자 채취 후 9 일 이내에 생기는",
@@ -248133,18 +248249,22 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y"
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
+      "22Y-04",
       "26Y-09",
       "23Y-40",
-      "22Y-04",
-      "22Y-05"
+      "22Y-05",
+      "21Y-부인과05",
+      "20Y-부인과10"
     ],
     "option_explanations": [
       {
@@ -248179,7 +248299,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 5,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 09. 다낭난소증후군(PCOS) 난임 환자의 1차 배란유도제(Letrozole)",
     "subspecialty": "생식내분비학 / 불임",
     "stem": "체외수정과 배아이식을 위해 과배란 유도에 대 한 설명으로 틀린 것은? hCG 는 난자 성숙을 위해 난자 채취 전",
@@ -248249,18 +248369,22 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y"
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
+      "22Y-05",
       "26Y-09",
       "23Y-40",
       "22Y-04",
-      "22Y-05"
+      "21Y-부인과05",
+      "20Y-부인과10"
     ],
     "option_explanations": [
       {
@@ -248438,7 +248562,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 7,
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 44. 부인암 수술 해부학 - 골반 측벽 및 폐쇄신경(Obturator Nerve)",
     "subspecialty": "기형학 & 부인종양학",
     "stem": "(22 총괄) 다음은 FIGO stage 1B 로 확인된 자궁 경부암 환자의 수술 사진이다. 화살표로 표시한 구조물은?",
@@ -248513,16 +248637,16 @@
     "freq_count": 4,
     "rate": 67,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "21Y",
-      "26Y"
+      "21Y"
     ],
     "raw_questions": [
+      "22Y-07",
       "26Y-44",
       "23Y-42",
-      "22Y-07",
-      "21Y-12"
+      "21Y-부인과12"
     ],
     "option_explanations": [
       {
@@ -248700,7 +248824,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 9,
-    "category": "기출",
+    "category": "반짤",
     "theme_title": "산부인과 일반: 정기적 추적관찰 관련 진단 및 처치",
     "subspecialty": "산부인과 일반",
     "stem": "(22 총괄) 산과력이 2-0-3-2인 45세 여자가 질 출혈을 주소로 내원하였다. 이전에 HSIL로 판명되어 conization을 시행했다. Colposcopy 결과 깊이 2mm, 넓이 6mm인 자궁경부 침윤성 편평세포암종(Stage IA1)이 발견되었다. 환자가 더 이상 임신할 계획이 없다고 할 때 적절한 치료는?",
@@ -248770,13 +248894,21 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
-      "22Y"
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
-      "22Y-09"
+      "22Y-09",
+      "26Y-48",
+      "23Y-44",
+      "21Y-부인과18",
+      "20Y-부인과35"
     ],
     "option_explanations": [
       {
@@ -248827,7 +248959,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 10,
-    "category": "기출",
+    "category": "반짤",
     "theme_title": "산부인과 일반: 경과를 관찰한다. 다시 conization 을 한다. 관련 진단 및 처치",
     "subspecialty": "산부인과 일반",
     "stem": "(22 총괄) 산과력 3-0-4-3인 55세 여성이 성교 후 질 출혈을 주소로 내원하였다. 개인 의원에서 실시한 자궁경부 세포 검사 결과 HSIL이었다. 자궁경부에 2~3cm 크기의 종괴가 관찰되었고, 침윤성 편평세포암종이었다. 다음으로 시행할 적절한 조치는?",
@@ -248897,13 +249029,26 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 6,
+    "rate": 100,
     "freq_years": [
-      "22Y"
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y",
+      "19Y"
     ],
     "raw_questions": [
-      "22Y-10"
+      "22Y-10",
+      "26Y-45",
+      "26Y-49",
+      "23Y-43",
+      "23Y-45",
+      "22Y-11",
+      "21Y-부인과16",
+      "20Y-부인과33",
+      "19Y-74"
     ],
     "option_explanations": [
       {
@@ -248954,7 +249099,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 11,
-    "category": "기출",
+    "category": "반짤",
     "theme_title": "산부인과 일반: (22 총괄) 산과력 2-0-1-2 인 60 세 여성이...",
     "subspecialty": "산부인과 일반",
     "stem": "(22 총괄) 산과력 2-0-1-2 인 60 세 여성이 질 출혈 을 주소로 내원하였다. 개인 의원에서 실시한 자궁 경부 세포 검사 결과 HSIL 이었다. 자궁경부에 3~4cm 크기의 종괴가 관찰되었고, 침윤성 편평세 포암종이었다. 진찰 및 MRI 소견이다. 다음으로 시",
@@ -248977,13 +249122,26 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 6,
+    "rate": 100,
     "freq_years": [
-      "22Y"
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y",
+      "19Y"
     ],
     "raw_questions": [
-      "22Y-11"
+      "22Y-11",
+      "26Y-45",
+      "26Y-49",
+      "23Y-43",
+      "23Y-45",
+      "22Y-10",
+      "21Y-부인과16",
+      "20Y-부인과33",
+      "19Y-74"
     ],
     "option_explanations": []
   },
@@ -248993,7 +249151,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 12,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: IIIC2 관련 진단 및 처치",
     "subspecialty": "산부인과 일반",
     "stem": "(22 총괄) 산과력이 2-0-1-2 인 60 세 여성이 자궁 경부암으로 치료를 받았다. 근치적 자궁 절제술 및 배막뒤림프절절제술을 시행했는데, 수술 소견은 다음과 같다. 골반강 근처 림프절은 전이되었지만 대동맥 근처 림프절은 전이되지 않았다. 환자의 병기와 다음으로 해야 할 처치는?",
@@ -249063,13 +249221,21 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
-      "22Y"
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
-      "22Y-12"
+      "22Y-12",
+      "26Y-50",
+      "23Y-46",
+      "21Y-부인과17",
+      "20Y-부인과37"
     ],
     "option_explanations": [
       {
@@ -249120,7 +249286,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 13,
-    "category": "기출",
+    "category": "탈",
     "theme_title": "산부인과 일반: (22 형성) 32 세 산과력 0-0-1-0 여자가 어...",
     "subspecialty": "산부인과 일반",
     "stem": "(22 형성) 32세 산과력 0-0-1-0 여자가 어지럼증으로 왔다. 환자는 평소에 류마티스 관절염으로 10년 전부터 치료약을 복용 중이다. 평소에 월경은 규칙적으로 하였지만 월경 때마다 덩어리가 나오고 2시간마다 대형패드를 교체하였다. 신체 진찰 결과 복부는 임신 6개월 크기로 불러 있었고 단단하고 움직이지 않는 종괴가 만져졌다. 검사 결과는 다음과 같다. 이 환자에게서 선택할 수 있는 치료 옵션 중 적절하지 않은 것은?\n* 일반혈액검사: 백혈구 10,500/mm3, 혈색소 5.5g/dL, 적혈구용적률 27%, 혈소판 145,000/mm3, 크레아티닌 0.94mg/dL",
@@ -249181,7 +249347,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 14,
-    "category": "기출",
+    "category": "탈",
     "theme_title": "산부인과 일반: {22 형성) 42 세 산과력 2-0-0-2 여자가 월...",
     "subspecialty": "산부인과 일반",
     "stem": "{22 형성) 42 세 산과력 2-0-0-2 여자가 월경간 이 상 출혈로 왔다. 평소에 월경은 규칙적으로 하였다. 골반 내진 결과 비정상적으로 촉지되는 종괴는 없 었다. 환자는 3 년전에 자궁경부암 예방 주사를 3 차례 모두 맞고 이후에 자궁경부암 선별검사를 시 행하지 않았다고 한다. 검사결과는 다음과 같다. 치 료는? 자궁경부암 선별검사: 비정형샘세포(Atypical glandular cell) 자궁경부 조직 검사: 상피내 선암종(Adenocarcinoma in situ) 인유두종바이러스: 33 번 양성 냉동요법(Cryotherapy)",
@@ -249310,7 +249476,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 15,
-    "category": "기출",
+    "category": "탈",
     "theme_title": "산부인과 일반: (탈) 34 세 산과력 0-0-0-0 인 환자, 월경 ...",
     "subspecialty": "산부인과 일반",
     "stem": "(탈) 34 세 산과력 0-0-0-0 인 환자, 월경 간 질 출혈 반복되어 내원하였다. 자궁내막 두께는 19mm 였다. 치료는? (조직형: 자궁내막양 샘암, MRI: 자궁내막에 1.0 x 1.0 cm 의 high signal intensity 를 보이는 병변이 있었으며 자궁근육층 침범 없음, CT/PET-CT: 림프절 비대 및 원격 전이 없음)",
@@ -249437,7 +249603,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 16,
-    "category": "기출",
+    "category": "반짤",
     "theme_title": "산부인과 일반: 20 세 대학생이 3 시간 전부터 시작된 극심한 좌 하...",
     "subspecialty": "산부인과 일반",
     "stem": "20 세 대학생이 3 시간 전부터 시작된 극심한 좌 하복부 통증으로 응급실 방분하였다. 활력징후 110/70-75-24-36.9 였고, 마지막 생리일은 2 주 전이었고, 성경험은 있었다.  응급실에서 시행 한 CT 소견이 다음과 같다면, 올바른 진단은?",
@@ -249460,13 +249626,19 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "22Y"
+      "26Y",
+      "23Y",
+      "22Y",
+      "20Y"
     ],
     "raw_questions": [
-      "22Y-16"
+      "22Y-16",
+      "26Y-52",
+      "23Y-58",
+      "20Y-부인과23"
     ],
     "option_explanations": []
   },
@@ -249476,7 +249648,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 17,
-    "category": "기출",
+    "category": "탈",
     "theme_title": "산부인과 일반: 2 년 전 위암 진단을 받은 48 세 여자 환자...",
     "subspecialty": "산부인과 일반",
     "stem": "2 년 전 위암 진단을 받은 48 세 여자 환자. CT 촬 영 결과 양측 난소에 8cm, 10cm 난소 종괴가 관찰 된다. 이 환자에 대한 설명으로 옳지 않은 것은? 병리조직검사 시 Schiller-Duval body 가",
@@ -249678,12 +249850,12 @@
     "freq_count": 2,
     "rate": 33,
     "freq_years": [
-      "22Y",
-      "26Y"
+      "26Y",
+      "22Y"
     ],
     "raw_questions": [
-      "26Y-57",
-      "22Y-18"
+      "22Y-18",
+      "26Y-57"
     ],
     "option_explanations": [
       {
@@ -249734,7 +249906,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 19,
-    "category": "기출",
+    "category": "탈",
     "theme_title": "산부인과 일반: 62/F...",
     "subspecialty": "산부인과 일반",
     "stem": "62/F. 난소암 Debulking surgery 하고 결과. 병기는? Bilateral ovary and salpinx. Salpingooophorectomy. Serous adenocarcinoma. Moderately differentiated. with tumor size: Rt. (2.5 x 2.3 x 2.0 cm) Lt. (1.7 x 1.7 x 1.5 cm) involvement of bilateral ovarian capsule, with penetration Washing cytology: malignant cell (+) Pelvic and para-aortic lymphadenectomy Pelvic LN metastasis: (1/21), 7mm Para-aortic LN metastasis: 2/26, 11mm, 9mm Omentum and Omentectum: Malignant cell metastasis (+), 1cm",
@@ -249861,7 +250033,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 20,
-    "category": "기출",
+    "category": "탈",
     "theme_title": "산부인과 일반: 60...",
     "subspecialty": "산부인과 일반",
     "stem": "60. 27 세 여자가 질출혈과 객혈을 주소로 내원하 였다. 내진에서 자궁은 거위알 크기였고, 흉부 X 선 검사에서 왼쪽 폐에 동전 크기의 혹이 관찰되었다.",
@@ -249964,21 +250136,19 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y",
-      "21Y",
-      "19Y"
+      "21Y"
     ],
     "raw_questions": [
+      "22Y-21",
       "26Y-47",
       "23Y-47",
-      "22Y-21",
-      "21Y-23",
-      "19Y"
+      "21Y-부인과23"
     ],
     "option_explanations": [
       {
@@ -250385,7 +250555,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 25,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "[단독 기출] 급성 대량 비정상 자궁출혈(Hb 7.2)의 응급 처치",
     "subspecialty": "산부인과 일반",
     "stem": "Hb 5.5, 질출혈 많이 있었다. 내원 당시에는 질 출혈 다소, 해야 할 처치로 옳지 않은 것은? 경구피임약을 7 일 간 하루 34 회 치료",
@@ -250455,13 +250625,19 @@
     "correct_option_indices": [
       4
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "22Y"
+      "26Y",
+      "22Y",
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
-      "22Y-25"
+      "22Y-25",
+      "26Y-03",
+      "21Y-부인과02",
+      "20Y-부인과02"
     ],
     "option_explanations": [
       {
@@ -251130,7 +251306,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 31,
-    "category": "기출",
+    "category": "탈",
     "theme_title": "산부인과 일반: 태아  DNA  선별검사  결과의  해석에  대한 설명...",
     "subspecialty": "산부인과 일반",
     "stem": "태아 DNA 선별검사 결과의 해석에 대한 설명으로 옳은 것은?\n가. 태아 DNA 선별검사 결과 저위험군으로 판정되고 초음파 검사상 주요 구조적 이상 소견(major anomaly)이 동반된 경우, 반드시 침습적 검사를 권고한다.\n나. 태아 DNA 선별검사 결과 저위험군으로 판정되고 초음파 검사상 단독 부수 소견(soft sign)이 있는 경우, 침습적 검사를 권고하지 않는다.\n다. 태아 DNA 선별검사에서 고위험군으로 판정되면 반드시 침습적 검사를 권고한다.\n라. No call 그룹에서도 2.7%의 염색체 이상이 보고되고 있기 때문에 이 경우 재검보다는 정밀 초음파 검사 및 침습적 검사를 권유한다.",
@@ -251257,7 +251433,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 32,
-    "category": "기출",
+    "category": "탈",
     "theme_title": "산부인과 일반: 모체  혈청  알파태아단백에  대한  설명으로 옳은  ...",
     "subspecialty": "산부인과 일반",
     "stem": "모체 혈청 알파태아단백(AFP)에 대한 설명으로 옳은 것은?\n가. 태아 혈청과 양수에서 임신 13주까지 증가하다가 이후 급격히 감소한다.\n나. 모체 혈청 AFP 수치에 영향을 주는 인자에는 임신 주수, 산모 체중, 다태 임신, 당뇨 등이 있다.\n다. 다운증후군에서 AFP, uE3은 감소하고, hCG와 inhibin A는 증가한다.\n라. 모체 혈청에서는 임신 12주 이후 주수에 따라 계속 증가하다가 26~28주에 최고 농도가 된다.",
@@ -251384,7 +251560,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 33,
-    "category": "기출",
+    "category": "탈",
     "theme_title": "산부인과 일반: 산전진단검사에 관한 설명이다...",
     "subspecialty": "산부인과 일반",
     "stem": "산전진단검사에 관한 설명이다. 옳은 것은?",
@@ -251499,14 +251675,14 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "22Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
+      "22Y-34",
       "26Y-37",
-      "23Y-03",
-      "22Y-34"
+      "23Y-03"
     ],
     "option_explanations": [
       {
@@ -251627,17 +251803,21 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y"
+      "21Y",
+      "19Y"
     ],
     "raw_questions": [
+      "22Y-35",
       "26Y-20",
       "23Y-09",
-      "22Y-35"
+      "21Y-산과07",
+      "19Y-92"
     ],
     "option_explanations": [
       {
@@ -251761,14 +251941,14 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "22Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
+      "22Y-36",
       "26Y-60",
       "23Y-20",
-      "22Y-36",
       "22Y-37"
     ],
     "option_explanations": [
@@ -251863,15 +252043,15 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "22Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
+      "22Y-37",
       "26Y-60",
       "23Y-20",
-      "22Y-36",
-      "22Y-37"
+      "22Y-36"
     ],
     "option_explanations": [
       {
@@ -251997,14 +252177,14 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "22Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
+      "22Y-38",
       "26Y-18",
-      "23Y-11",
-      "22Y-38"
+      "23Y-11"
     ],
     "option_explanations": [
       {
@@ -252132,8 +252312,8 @@
       "22Y"
     ],
     "raw_questions": [
-      "23Y-10",
-      "22Y-39"
+      "22Y-39",
+      "23Y-10"
     ],
     "option_explanations": [
       {
@@ -252383,17 +252563,21 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y"
+      "21Y",
+      "19Y"
     ],
     "raw_questions": [
+      "22Y-41",
       "26Y-13",
       "23Y-21",
-      "22Y-41"
+      "21Y-산과22",
+      "19Y-23"
     ],
     "option_explanations": [
       {
@@ -252485,8 +252669,8 @@
       "22Y"
     ],
     "raw_questions": [
-      "23Y-22",
-      "22Y-42"
+      "22Y-42",
+      "23Y-22"
     ],
     "option_explanations": [
       {
@@ -252582,8 +252766,8 @@
       "22Y"
     ],
     "raw_questions": [
-      "23Y-23",
-      "22Y-43"
+      "22Y-43",
+      "23Y-23"
     ],
     "option_explanations": [
       {
@@ -252686,19 +252870,21 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
       "21Y",
-      "26Y"
+      "20Y"
     ],
     "raw_questions": [
+      "22Y-44",
       "26Y-14",
       "23Y-24",
-      "22Y-44",
-      "21Y"
+      "21Y-산과20",
+      "20Y-산과24"
     ],
     "option_explanations": [
       {
@@ -252806,14 +252992,14 @@
     "freq_count": 3,
     "rate": 50,
     "freq_years": [
+      "26Y",
       "23Y",
-      "22Y",
-      "26Y"
+      "22Y"
     ],
     "raw_questions": [
+      "22Y-45",
       "26Y-33",
-      "23Y-18",
-      "22Y-45"
+      "23Y-18"
     ],
     "option_explanations": [
       {
@@ -252934,17 +253120,19 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y"
+      "21Y"
     ],
     "raw_questions": [
+      "22Y-46",
       "26Y-21",
       "23Y-15",
-      "22Y-46"
+      "21Y-산과14"
     ],
     "option_explanations": [
       {
@@ -252995,7 +253183,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 47,
-    "category": "탈",
+    "category": "짤",
     "theme_title": "[단독 기출] 임신 중 고혈압 질환에서 금기인 항고혈압제 (ACE 억제제)",
     "subspecialty": "산부인과 단독 기출",
     "stem": "임신 중 고혈압에 대한 설명으로 옳지 않은 것은?",
@@ -253065,13 +253253,21 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
-      "22Y"
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y",
+      "19Y"
     ],
     "raw_questions": [
-      "22Y-47"
+      "22Y-47",
+      "23Y-02",
+      "21Y-산과15",
+      "20Y-산과35",
+      "19Y-35"
     ],
     "option_explanations": [
       {
@@ -253249,7 +253445,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 49,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: 34 세 산모가 4...",
     "subspecialty": "산부인과 일반",
     "stem": "34 세 산모가 4.1kg 아이를 성공적으로 질식분만 하고 태반도 완전 만출되었으나 지속적인 질출혈 이 있었다. 복부검사에서 배꼽 위가 물렁물렁하게 만져졌다. 다음 중 해야 하는 처치로 옳은 것은?",
@@ -253319,13 +253515,21 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
-      "22Y"
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "19Y"
     ],
     "raw_questions": [
-      "22Y-49"
+      "22Y-49",
+      "26Y-15",
+      "23Y-14",
+      "21Y-산과13",
+      "19Y-29"
     ],
     "option_explanations": [
       {
@@ -253453,8 +253657,8 @@
       "22Y"
     ],
     "raw_questions": [
-      "23Y-13",
-      "22Y-50"
+      "22Y-50",
+      "23Y-13"
     ],
     "option_explanations": [
       {
@@ -253575,15 +253779,17 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "23Y",
-      "22Y"
+      "22Y",
+      "21Y"
     ],
     "raw_questions": [
+      "22Y-51",
       "23Y-25",
-      "22Y-51"
+      "21Y-산과04"
     ],
     "option_explanations": [
       {
@@ -253634,7 +253840,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 52,
-    "category": "탈",
+    "category": "짤",
     "theme_title": "[단독 기출] 과숙임신(Postterm Pregnancy)의 NST 감속 소견과 병태생리",
     "subspecialty": "산부인과 단독 기출",
     "stem": "다음과 같은 NST가 관찰되는 과숙아 병태생리와 관련된 원인은? (답 논란)",
@@ -253697,13 +253903,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "22Y"
+      "22Y",
+      "21Y"
     ],
     "raw_questions": [
-      "22Y-52"
+      "22Y-52",
+      "21Y-산과11"
     ],
     "option_explanations": [
       {
@@ -253873,7 +254081,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 54,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: 10 주 산모, 질출혈로 내원...",
     "subspecialty": "산부인과 일반",
     "stem": "10 주 산모, 질출혈로 내원. 자궁 경부 닫힌 상태. FHR 140. 처치는?",
@@ -253925,13 +254133,17 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
+      "26Y",
+      "23Y",
       "22Y"
     ],
     "raw_questions": [
-      "22Y-54"
+      "22Y-54",
+      "26Y-19",
+      "23Y-26"
     ],
     "option_explanations": [
       {
@@ -254257,8 +254469,8 @@
       "22Y"
     ],
     "raw_questions": [
-      "23Y-28",
-      "22Y-57"
+      "22Y-57",
+      "23Y-28"
     ],
     "option_explanations": [
       {
@@ -254285,7 +254497,7 @@
     "subject": "산부인과",
     "year": "22Y",
     "q_num": 58,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: 임신 22 주 (24 주 이내였음) 산모...",
     "subspecialty": "산부인과 일반",
     "stem": "임신 22 주 (24 주 이내였음) 산모. 초음파 사진 제시. 처치는?",
@@ -254330,13 +254542,17 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
+      "26Y",
+      "23Y",
       "22Y"
     ],
     "raw_questions": [
-      "22Y-58"
+      "22Y-58",
+      "26Y-36",
+      "23Y-29"
     ],
     "option_explanations": [
       {
@@ -254441,9 +254657,9 @@
       "21Y"
     ],
     "raw_questions": [
-      "23Y-30",
       "22Y-59",
-      "21Y-24"
+      "23Y-30",
+      "21Y-부인과24"
     ],
     "option_explanations": [
       {
@@ -254549,18 +254765,18 @@
     "freq_count": 5,
     "rate": 83,
     "freq_years": [
+      "26Y",
       "23Y",
       "22Y",
-      "26Y",
       "21Y",
       "19Y"
     ],
     "raw_questions": [
+      "22Y-60",
       "26Y-43",
       "23Y-07",
-      "22Y-60",
-      "21Y",
-      "19Y"
+      "21Y-산과01",
+      "19Y-01"
     ],
     "option_explanations": [
       {
@@ -254595,7 +254811,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 1,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: hief complaint 관련 진단 및 처치",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 환자가 치료받고자 하는 문제에 대해 시간 순으로 명시한 것. 어디가 아프 고, onset, duration… 등등 언제 악화되고 언제 완화되는지 등등 알아보는 것과 관 련된 사항은?",
@@ -254665,13 +254881,21 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-01"
+      "19Y-01",
+      "26Y-43",
+      "23Y-07",
+      "22Y-60",
+      "21Y-산과01"
     ],
     "option_explanations": [
       {
@@ -255111,7 +255335,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 6,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: (야마) 임신 전 상담을 하러 온 여성...",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 임신 전 상담을 하러 온 여성. 10년 전 epilepsy로 valproic acid 먹고 있음. 다음 중 틀린 것은?",
@@ -255181,13 +255405,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "21Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-06"
+      "19Y-06",
+      "21Y-산과18"
     ],
     "option_explanations": [
       {
@@ -255441,7 +255667,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 9,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: (야마) 다음 별표에 해당하는 질환은 무엇인가?...",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 다음 별표에 해당하는 질환은 무엇인가?",
@@ -255513,13 +255739,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "21Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-09"
+      "19Y-09",
+      "21Y-산과19"
     ],
     "option_explanations": [
       {
@@ -255975,7 +256203,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 14,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: (야마) 다음 중 자궁 수축제로 쓰이지 않는 것 은?...",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 다음 중 자궁 수축제로 쓰이지 않는 것 은?",
@@ -256045,13 +256273,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-14"
+      "19Y-14",
+      "20Y-산과16"
     ],
     "option_explanations": [
       {
@@ -256161,7 +256391,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 16,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: (야마 Prolonged decel nst 사진주고) ...",
     "subspecialty": "산부인과 일반",
     "stem": "(야마 Prolonged decel nst 사진주고) 처치는?",
@@ -256195,13 +256425,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-16"
+      "19Y-16",
+      "20Y-산과37"
     ],
     "option_explanations": [
       {
@@ -256389,7 +256621,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 19,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: 다음 초음파 사진과 같은 종류의 쌍둥이를 무 엇이라 하...",
     "subspecialty": "산부인과 일반",
     "stem": "다음 초음파 사진과 같은 종류의 쌍둥이를 무 엇이라 하는가?",
@@ -256450,13 +256682,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-19"
+      "19Y-19",
+      "20Y-산과03"
     ],
     "option_explanations": [
       {
@@ -256499,7 +256733,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 20,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: 쌍둥이 37주 둘 다 두위...",
     "subspecialty": "산부인과 일반",
     "stem": "쌍둥이 37주 둘 다 두위. 산모가 원해서 자연 분만 시작했고 한 명은 잘 나옴. 한 명이 10 분동안 진행 없었고 HR 130 → 70까지 떨어짐.",
@@ -256551,13 +256785,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-20"
+      "19Y-20",
+      "20Y-산과10"
     ],
     "option_explanations": [
       {
@@ -256795,7 +257031,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 23,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: (야마) 자궁의 윤곽 파악, 자궁 저부 촉진하고 자궁 ...",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 자궁의 윤곽 파악, 자궁 저부 촉진하고 자궁 옆면을 촉진하고 태아의 팔다리 방향 확 인하고 자궁 하부를 촉진하고 골반 진입과 태 세를 확인하는 것으로 양수과다증이 있는 경 우 판단하기 어려운 수기는?",
@@ -256856,13 +257092,21 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-23"
+      "19Y-23",
+      "26Y-13",
+      "23Y-21",
+      "22Y-41",
+      "21Y-산과22"
     ],
     "option_explanations": [
       {
@@ -256905,7 +257149,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 24,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: (야마) 태아의 BPD가 골반 입구에 도달했을 때 태아...",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 태아의 BPD가 골반 입구에 도달했을 때 태아의 하강도는?",
@@ -256993,13 +257237,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "21Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-24"
+      "19Y-24",
+      "21Y-산과23"
     ],
     "option_explanations": [
       {
@@ -257066,7 +257312,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 25,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: (야마) 임신 38주 35세인 산모가 진통으로 내 원하...",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 임신 38주 35세인 산모가 진통으로 내 원하였다. 자궁경부개대가 3cm, 자궁개대숙화 가 50%, 아두하강정도 -2, 경부의 경도는 부 드러웠으며, 경부의 위치는 anterior 이었다. Bishop score는 얼마인가?",
@@ -257136,13 +257382,17 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
+      "21Y",
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-25"
+      "19Y-25",
+      "21Y-산과10",
+      "20Y-산과14"
     ],
     "option_explanations": [
       {
@@ -257542,7 +257792,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 29,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: (야마) 4200g의 아이를 성공적으로 질식분만하 고 ...",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 4200g의 아이를 성공적으로 질식분만하 고 태반도 완전 만출되었으나 지속적인 질출 혈이 있었다. 복부검사에서 배꼽 위가 물렁물 렁하게 만져졌다. 다음 중 해야하는 처치로 옳 은 것은?",
@@ -257576,13 +257826,21 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-29"
+      "19Y-29",
+      "26Y-15",
+      "23Y-14",
+      "22Y-49",
+      "21Y-산과13"
     ],
     "option_explanations": [
       {
@@ -257950,7 +258208,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 33,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: (야마) 임신 36주인 산모가 심한 두통으로 내 원하였...",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 임신 36주인 산모가 심한 두통으로 내 원하였다. 단백뇨 (3+/3+), 부종 (2+/2+), 혈압 190/100 이었다. 자궁목 확장과 숙화는 관찰 되지 않았다. 처치는?",
@@ -258020,13 +258278,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-33"
+      "19Y-33",
+      "20Y-산과29"
     ],
     "option_explanations": [
       {
@@ -258170,7 +258430,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 35,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: (야마) 임신 중 고혈압에 대해서 옳지 않은 것 은?...",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 임신 중 고혈압에 대해서 옳지 않은 것 은?",
@@ -258231,13 +258491,21 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-35"
+      "19Y-35",
+      "23Y-02",
+      "22Y-47",
+      "21Y-산과15",
+      "20Y-산과35"
     ],
     "option_explanations": [
       {
@@ -258280,7 +258548,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 36,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: (야마) 다음 사진은 fetal biometry 중 어...",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 다음 사진은 fetal biometry 중 어느 부 위를 측정하는 것인가? (한글보기였음)",
@@ -258303,13 +258571,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "26Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-36"
+      "19Y-36",
+      "26Y-39"
     ],
     "option_explanations": []
   },
@@ -259049,7 +259319,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 45,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "[단독 기출] 순수 생식샘발생장애(Swyer Syndrome, 46,XY)의 특징",
     "subspecialty": "산부인과 일반",
     "stem": "(변형) Pure gonadal dysgenesis(Swyer syndrome)에 대한 설명으로 틀린 것은?",
@@ -259119,13 +259389,15 @@
     "correct_option_indices": [
       4
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-45"
+      "19Y-45",
+      "20Y-부인과07"
     ],
     "option_explanations": [
       {
@@ -259176,7 +259448,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 46,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "[단독 기출] 이성 사춘기 발달(Heterosexual Pubertal Development)의 최다 원인 - PCOS",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 사춘기의 발달은 있으나 반대편 성의 소견을 보이는 Heterosexual pubertal development의 가장 흔한 원인은?",
@@ -259237,13 +259509,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-46"
+      "19Y-46",
+      "20Y-부인과08"
     ],
     "option_explanations": [
       {
@@ -259714,7 +259988,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 51,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "[단독 기출] 폐경 후 위축성 질염(폐경비뇨생식기증후군)의 국소 에스트로겐 치료",
     "subspecialty": "산부인과 일반",
     "stem": "65세 여성이 1주일 전부터 소량의 질출혈이 있고 질 입구가 쓰리고 따갑다며 병원에 내원하였다. 최근 성교통과 빈뇨가 생겼다고 한다. 이학적 소견 상 질 점막의 위축이 관찰되었고, 소변 및 질분비물 검사와 자궁경부 액상세포검사는 정상이었다. 부인과초음파 상 자궁내막 두께는 2mm 였다. 가장 적절한 치료는?",
@@ -259792,13 +260066,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-51"
+      "19Y-51",
+      "20Y-부인과13"
     ],
     "option_explanations": [
       {
@@ -259950,7 +260226,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 53,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "[단독 기출] 요역동학검사 및 Q-tip 검사를 통한 복압요실금 진단",
     "subspecialty": "산부인과 일반",
     "stem": "기침할 때 소변이 나와서 내원한 여성 환자이다. Q-tip 검사 시 15도였다. 요역동학 검사 상 방광근의 수축은 없었으나 방광내압이 요도내압을 넘어설 때 소변이 샜다. 잔뇨량은 없었다. 가장 가능성 높은 진단은?",
@@ -260019,13 +260295,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-53"
+      "19Y-53",
+      "20Y-부인과15"
     ],
     "option_explanations": [
       {
@@ -260513,7 +260791,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 58,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: 경구피임제 투여 관련 진단 및 처치",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 산과력 2-1-0-2 28세 여자가 하복부 통 증을 주소로 내원하였다. 신체 진찰 결과 cervical motion tendereness+였다. 다음은 환 자의 MRI 소견이다. 필요한 처치는?",
@@ -260585,13 +260863,15 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "21Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-58"
+      "19Y-58",
+      "21Y-부인과20"
     ],
     "option_explanations": [
       {
@@ -261082,7 +261362,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 63,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "[단독 기출] 포상기태 제거술 후 추적관찰 기간의 권장 피임법 (경구피임제)",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 포상기태로 치료받은 환자의 피임법으 로 알맞은 것은?",
@@ -261143,13 +261423,15 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-63"
+      "19Y-63",
+      "20Y-부인과27"
     ],
     "option_explanations": [
       {
@@ -261192,7 +261474,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 64,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "[단독 기출] 고위험 임신융모종양(GTN, 폐 전이·만삭분만 후)의 복합 항암화학요법",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 산과력이 1-0-0-1인 34세 여자가 정상 분만하고 5개월 간 불규칙적인 질출혈이 지속 되어서 내원하였다. 흉부 X선 촬영을 시행하 였을 때 지름이 2cm인 전이성 종양이 발견되 었고 당시 시행한 혈청 beta-hCG 농도는 100000이었다. 골반 초음파 검사에서 자궁 및 부속기에 특이적인 소견은 없었으며 뇌 자기 공명영상 소견은 정상이었다. 자궁내막 조직검 사에서 특이소견은 없었다. 이 환자에서 시행 해야 할 조치는?",
@@ -261253,13 +261535,15 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-64"
+      "19Y-64",
+      "20Y-부인과28"
     ],
     "option_explanations": [
       {
@@ -262260,7 +262544,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 74,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: (야마) 산과력 3-0-4-3인 53세 여성이 성교 후...",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 산과력 3-0-4-3인 53세 여성이 성교 후 질출혈을 주소로 내원하였다. 개인 의원에 서 실시한 자궁경부 세포 검사 결과 HSIL이 나왔다. 자궁 경부에 2cm 크기의 종괴가 관찰 되었고, 질 확대경을 하자 자궁경부 조직검사 를 시행한 생검에서 침윤성편평상피세포암으 로 진단되었다. 수술 전 촬영한 MRI image는 다음과 같다. 다음으로 시행할 적절한 조치는? (이렇게 큰 사진은 아니었어요)",
@@ -262330,13 +262614,26 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 6,
+    "rate": 100,
     "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-74"
+      "19Y-74",
+      "26Y-45",
+      "26Y-49",
+      "23Y-43",
+      "23Y-45",
+      "22Y-10",
+      "22Y-11",
+      "21Y-부인과16",
+      "20Y-부인과33"
     ],
     "option_explanations": [
       {
@@ -262387,7 +262684,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 75,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "[단독 기출] 수신증을 동반한 진행성 자궁경부암(Stage IIIB)의 동시항암방사선요법",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 산과력 4-0-5-4인 64세 여성이 몇 달 전부터 시작된 우측 옆구리 통증과 우측 다리 부종을 주소로 내원하였다. 자궁경부 전체뿐만 아니라 양측 자궁조직까지 침윤된 자궁경부 편평상피세포암이 확인되었다. 응급실에서 찍",
@@ -262410,13 +262707,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-75"
+      "19Y-75",
+      "20Y-부인과34"
     ],
     "option_explanations": []
   },
@@ -262917,7 +263216,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 80,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: (변형) 다음 그림에 관해 틀린 것을 고르시오...",
     "subspecialty": "산부인과 일반",
     "stem": "(변형) 다음 그림에 관해 틀린 것을 고르시오.",
@@ -262940,13 +263239,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-80"
+      "19Y-80",
+      "20Y-부인과38"
     ],
     "option_explanations": []
   },
@@ -263051,7 +263352,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 82,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: 1C1 관련 진단 및 처치",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사 결과가 다음과 같다. Stage는? Serous adenocarcinoma moderately differentiated Right & left ovary둘다 침범 Capsule 침범 Washing cytology (+) Pelvic LN mets (+) 7mm Para aortic LN mets (-) Omentum (+) omentectomy(+)",
@@ -263112,13 +263413,17 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
+      "21Y",
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-82"
+      "19Y-82",
+      "21Y-부인과25",
+      "20Y-부인과41"
     ],
     "option_explanations": [
       {
@@ -263161,7 +263466,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 83,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: ndodermal sinus tumor 관련 진단 및 처치",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 17세 여자 복부통증으로 응급실 왔을 때 AFP가 14000으로 높고 나머지 hCG, CA125, CA19-9는 낮았다. 진단은?",
@@ -263222,13 +263527,17 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
+      "21Y",
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-83"
+      "19Y-83",
+      "21Y-부인과26",
+      "20Y-부인과42"
     ],
     "option_explanations": [
       {
@@ -263518,7 +263827,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 87,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "[단독 기출] 골반 림프절 절제술 시 골반 측벽 및 후복막 해부 구조물(A~E)",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) ABCDE 순서대로 나열한 것은?",
@@ -263590,13 +263899,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-87"
+      "19Y-87",
+      "20Y-부인과17"
     ],
     "option_explanations": [
       {
@@ -263784,7 +264095,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 90,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: 임신주수 12주 추정...",
     "subspecialty": "산부인과 일반",
     "stem": "임신주수 12주 추정. 생리는 28일로 규칙적이 다. 개인병원에서 nuchal translucency 3cm?가 량 나와서 내원함. 옳지 않은 것은?",
@@ -263854,13 +264165,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "21Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-90"
+      "19Y-90",
+      "21Y-산과28"
     ],
     "option_explanations": [
       {
@@ -263950,7 +264263,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 92,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: 응급제왕절개 관련 진단 및 처치",
     "subspecialty": "산부인과 일반",
     "stem": "(야마) 29세 임신 34주의 임산부가 병원에 내 원하였다. BPP가 8점이었고 single vertical pocket=2cm이었다. 조치는?",
@@ -264011,13 +264324,21 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-92"
+      "19Y-92",
+      "26Y-20",
+      "23Y-09",
+      "22Y-35",
+      "21Y-산과07"
     ],
     "option_explanations": [
       {
@@ -264060,7 +264381,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 93,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: 분만 임박한 산모...",
     "subspecialty": "산부인과 일반",
     "stem": "분만 임박한 산모. 과거에 제왕절개 했었음. 제왕절개 방법은 그림으로 보여줌. 조치는?",
@@ -264105,13 +264426,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-93"
+      "19Y-93",
+      "20Y-산과27"
     ],
     "option_explanations": [
       {
@@ -264214,7 +264537,7 @@
     "subject": "산부인과",
     "year": "19Y",
     "q_num": 95,
-    "category": "기출",
+    "category": "짤",
     "theme_title": "[단독 기출] 자궁경부 궤양(매독 경성하감 vs 연성하감/클라미디아)의 항생제 치료",
     "subspecialty": "산부인과 일반",
     "stem": "여성 환자의 질경 검사 사진이다. 치료는?",
@@ -264277,13 +264600,15 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-95"
+      "19Y-95",
+      "20Y-부인과14"
     ],
     "option_explanations": [
       {
@@ -264328,7 +264653,7 @@
     "section_q_num": 1,
     "q_num": 1,
     "q_label": "부인과 01번",
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 07. 매큔-올브라이트 증후군(McCune-Albright Syndrome)과 말초성 성조숙증",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "사춘기 조발증에 대한 설명으로 틀린 것을 고르시오.",
@@ -264441,10 +264766,17 @@
       1
     ],
     "raw_questions": [
-      "26Y-07",
       "21Y-부인과01",
-      "20Y-03"
-    ]
+      "26Y-07",
+      "20Y-부인과03"
+    ],
+    "freq_years": [
+      "26Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 3,
+    "rate": 50
   },
   {
     "id": "산부인과_21Y_부인과_Q02",
@@ -264454,7 +264786,7 @@
     "section_q_num": 2,
     "q_num": 2,
     "q_label": "부인과 02번",
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 03. 청소년 및 가임기 급성 비정상 자궁출혈(AUB-O)의 호르몬 지혈",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "Hb 7.2, 질출혈 많이 있었다 해야 할 처치로 옳지 않은 것은?",
@@ -264567,10 +264899,19 @@
       4
     ],
     "raw_questions": [
-      "26Y-03",
       "21Y-부인과02",
-      "20Y-02"
-    ]
+      "26Y-03",
+      "22Y-25",
+      "20Y-부인과02"
+    ],
+    "freq_years": [
+      "26Y",
+      "22Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 4,
+    "rate": 67
   },
   {
     "id": "산부인과_21Y_부인과_Q03",
@@ -264694,7 +265035,12 @@
     ],
     "raw_questions": [
       "21Y-부인과03"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_부인과_Q04",
@@ -264818,7 +265164,12 @@
     ],
     "raw_questions": [
       "21Y-부인과04"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_부인과_Q05",
@@ -264828,7 +265179,7 @@
     "section_q_num": 5,
     "q_num": 5,
     "q_label": "부인과 05번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 부인과 05번",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "체외수정과 배아이식을 위해 과배란 유도에 대한 설명 틀린 것?",
@@ -264941,8 +265292,22 @@
       1
     ],
     "raw_questions": [
-      "21Y-부인과05"
-    ]
+      "21Y-부인과05",
+      "26Y-09",
+      "23Y-40",
+      "22Y-04",
+      "22Y-05",
+      "20Y-부인과10"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_21Y_부인과_Q06",
@@ -265068,7 +265433,12 @@
     ],
     "raw_questions": [
       "21Y-부인과06"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_부인과_Q07",
@@ -265194,7 +265564,12 @@
     ],
     "raw_questions": [
       "21Y-부인과07"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_부인과_Q08",
@@ -265204,7 +265579,7 @@
     "section_q_num": 8,
     "q_num": 8,
     "q_label": "부인과 08번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 부인과 08번",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "산과력  0-0-2-0 인  30 세  여자가  질  출혈을 주소로  내원하였다.  자궁흡입긁어냄술  결과 완전포상기태를  확인하였고,  hCG  검사  결과가 아래 표와  같았다.  (야마와  다르게  점점  갈수록 감소하는 추세를  보였음)  흉부  X  선  검사  및 가슴컴퓨터 단층  촬영  소견이  정상이었다.  이 환자에게  해야 할  처치는? [자궁흡입긁어냄술] 시행 전  120,000mIU/mL 1 주 후  60,000mIU/mL 2 주 후  45,000mIU/mL 3 주 후  20,000mIU/mL 4 주 후  9,280mIU/mL (정확하진  않고 9 천 얼마였음",
@@ -265317,8 +265692,15 @@
       3
     ],
     "raw_questions": [
-      "21Y-부인과08"
-    ]
+      "21Y-부인과08",
+      "23Y-49"
+    ],
+    "freq_years": [
+      "23Y",
+      "21Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_21Y_부인과_Q09",
@@ -265328,7 +265710,7 @@
     "section_q_num": 9,
     "q_num": 9,
     "q_label": "부인과 09번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 부인과 09번",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "39 세 여성이 맑은 질분비물을 주소로 내원하였다. 밤에 잠 잘 때도 나왔다. 3 개월 전 전자궁 및 양쪽 부속기 절제술을 받았으며, 수술 다음날 도뇨관 제거하였다. 질분비물에 대해 인디고카민 정맥 주사 후 질에 거즈를 대보니 파란색으로 염색 되었다. 가장 가능성 높은 진단은?",
@@ -265441,8 +265823,15 @@
       0
     ],
     "raw_questions": [
-      "21Y-부인과09"
-    ]
+      "21Y-부인과09",
+      "26Y-58"
+    ],
+    "freq_years": [
+      "26Y",
+      "21Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_21Y_부인과_Q10",
@@ -265452,7 +265841,7 @@
     "section_q_num": 10,
     "q_num": 10,
     "q_label": "부인과 10번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 부인과 10번",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "30 세 산과력 0-0-1-0 여성이 무월경으로 내원하여 hCG 검사를 시행한 결과 양성이었다. 초음파 검사에서 임신 11 주 상태이고 활력징후는 체온 36.3 도, 혈압 110/90 mmHg, 심박수 정상, 호흡수 20회/분, 혈색소 10.3 g/dL, 백혈구 7,800/mm^3, 혈소판 380,000/mm^3 이었다. 1 년 전 자궁내장치 시술을 받았다고 했으나, 질경 검사에서는 자궁내장치의 실이 보이지 않았다. 가장 적절한 조치는?",
@@ -265599,8 +265988,19 @@
       0
     ],
     "raw_questions": [
-      "21Y-부인과10"
-    ]
+      "21Y-부인과10",
+      "26Y-40",
+      "23Y-33",
+      "22Y-03"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y"
+    ],
+    "freq_count": 4,
+    "rate": 67
   },
   {
     "id": "산부인과_21Y_부인과_Q11",
@@ -265726,7 +266126,12 @@
     ],
     "raw_questions": [
       "21Y-부인과11"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_부인과_Q12",
@@ -265736,7 +266141,7 @@
     "section_q_num": 12,
     "q_num": 12,
     "q_label": "부인과 12번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 부인과 12번",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "자궁경부암 환자의 수술당시 사진이다.  다음 표시한 사진의 구조물은?",
@@ -265851,8 +266256,19 @@
       1
     ],
     "raw_questions": [
-      "21Y-부인과12"
-    ]
+      "21Y-부인과12",
+      "26Y-44",
+      "23Y-42",
+      "22Y-07"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y"
+    ],
+    "freq_count": 4,
+    "rate": 67
   },
   {
     "id": "산부인과_21Y_부인과_Q13",
@@ -265976,7 +266392,12 @@
     ],
     "raw_questions": [
       "21Y-부인과13"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_부인과_Q14",
@@ -266102,7 +266523,12 @@
     ],
     "raw_questions": [
       "21Y-부인과14"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_부인과_Q15",
@@ -266226,7 +266652,12 @@
     ],
     "raw_questions": [
       "21Y-부인과15"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_부인과_Q16",
@@ -266236,7 +266667,7 @@
     "section_q_num": 16,
     "q_num": 16,
     "q_label": "부인과 16번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 부인과 16번",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "산과력  3-0-4-3 인  53 세  여성이  성교  후 질출혈을  주소로  내원하였다.  개인 의원에서 실시한 자궁경부 세포 검사 결과 HSIL 이 나왔다. 자궁 경부에 4cm 크기의 종괴가 관찰되었고, 질 확대경을 하자 궁경부 조직검사를 시행한 생검에서 침윤성 편평상피 세포암으로 진단되었다.  수술 전 촬영한 MRI image 는 다음과 같다. 다음으로 시행할 적절한 조치는? (자궁 경부 확대 사진이 하나 더 있었고 출혈 확인 가능했음)",
@@ -266351,8 +266782,26 @@
       3
     ],
     "raw_questions": [
-      "21Y-부인과16"
-    ]
+      "21Y-부인과16",
+      "26Y-45",
+      "26Y-49",
+      "23Y-43",
+      "23Y-45",
+      "22Y-10",
+      "22Y-11",
+      "20Y-부인과33",
+      "19Y-74"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 6,
+    "rate": 100
   },
   {
     "id": "산부인과_21Y_부인과_Q17",
@@ -266362,7 +266811,7 @@
     "section_q_num": 17,
     "q_num": 17,
     "q_label": "부인과 17번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 부인과 17번",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "산과 2-0-1-2, 60 세 여성이 자궁경부암으로 치료를  받았다.  근치적 자궁 절제술  및 배막뒤림프절절제술을  시행했었는데,  수술  소견은 다음과  같고  대동맥  근처  림프절은  전이되지 않았다.  병기와  다음으로 해야 할 처치를 고르시오.",
@@ -266477,8 +266926,21 @@
       3
     ],
     "raw_questions": [
-      "21Y-부인과17"
-    ]
+      "21Y-부인과17",
+      "26Y-50",
+      "23Y-46",
+      "22Y-12",
+      "20Y-부인과37"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_21Y_부인과_Q18",
@@ -266488,7 +266950,7 @@
     "section_q_num": 18,
     "q_num": 18,
     "q_label": "부인과 18번",
-    "category": "기출",
+    "category": "반짤",
     "theme_title": "2021년 본3 학년말고사 부인과 18번",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "산과력이  2-0-3-2 인  45 세  여성이  질출혈을 주소로  내원했다.  자궁경부세포진검사 상  HSIL 로 판명되어  원추절제술을  시행했다.  질경 검사 결과 깊이  2mm,  폭  6mm 인  자궁  경부에  침윤성 편평세포암종이  발견되었다.  더 이상 환자가  임신을 원하지  않는다고  할  때,  적절한  조치는? (자궁경부 사진은  각자  다른  사진이  제시되었는데 문제가 있는 사진이었습니다.  각각을 찾을 수 없어  같은 사진으로 대체합니다.)",
@@ -266603,8 +267065,21 @@
       0
     ],
     "raw_questions": [
-      "21Y-부인과18"
-    ]
+      "21Y-부인과18",
+      "26Y-48",
+      "23Y-44",
+      "22Y-09",
+      "20Y-부인과35"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_21Y_부인과_Q19",
@@ -266614,7 +267089,7 @@
     "section_q_num": 19,
     "q_num": 19,
     "q_label": "부인과 19번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 부인과 19번",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "다음 초음파 소견의 PALM-COEIN stage 소견은 무엇인가?",
@@ -266729,8 +267204,17 @@
       0
     ],
     "raw_questions": [
-      "21Y-부인과19"
-    ]
+      "21Y-부인과19",
+      "26Y-53",
+      "23Y-59"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "21Y"
+    ],
+    "freq_count": 3,
+    "rate": 50
   },
   {
     "id": "산부인과_21Y_부인과_Q20",
@@ -266740,7 +267224,7 @@
     "section_q_num": 20,
     "q_num": 20,
     "q_label": "부인과 20번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 부인과 20번",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "산과력 2-1-0-2 인 28 세 여자가 하복부 통증을 주소로 내원하였다. 신체 진찰 결과 cervical motion tenderness (+)였다. 다음은 환자의 MRI 소견이다. 환자에게 필요한 처치는?",
@@ -266838,8 +267322,15 @@
       1
     ],
     "raw_questions": [
-      "21Y-부인과20"
-    ]
+      "21Y-부인과20",
+      "19Y-58"
+    ],
+    "freq_years": [
+      "21Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_21Y_부인과_Q21",
@@ -266963,7 +267454,12 @@
     ],
     "raw_questions": [
       "21Y-부인과21"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_부인과_Q22",
@@ -267070,7 +267566,12 @@
     ],
     "raw_questions": [
       "21Y-부인과22"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_부인과_Q23",
@@ -267179,11 +267680,19 @@
       0
     ],
     "raw_questions": [
+      "21Y-부인과23",
       "26Y-47",
       "23Y-47",
-      "22Y-21",
-      "21Y-부인과23"
-    ]
+      "22Y-21"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y"
+    ],
+    "freq_count": 4,
+    "rate": 67
   },
   {
     "id": "산부인과_21Y_부인과_Q24",
@@ -267193,7 +267702,7 @@
     "section_q_num": 24,
     "q_num": 24,
     "q_label": "부인과 24번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 부인과 24번",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "산과력 2-0-2-2 인 36 세 여성환자가 6 주 째 무월경 및 복통을 주소로 내원하였다. 요임신검사 양성. 하복부 심한 통증과 압통 있었음. 더글라스 천자했더니 50mL 의 응고되지 않은 출혈 발견하여 응급수술함. 수술의 이름은? (사진은 자궁 전체 모습, 각각 좌우 adnexa 의 모습으로 총 3 장으로 보기에 나옴) (답논란)",
@@ -267309,8 +267818,17 @@
       0
     ],
     "raw_questions": [
-      "21Y-부인과24"
-    ]
+      "21Y-부인과24",
+      "23Y-30",
+      "22Y-59"
+    ],
+    "freq_years": [
+      "23Y",
+      "22Y",
+      "21Y"
+    ],
+    "freq_count": 3,
+    "rate": 50
   },
   {
     "id": "산부인과_21Y_부인과_Q25",
@@ -267320,7 +267838,7 @@
     "section_q_num": 25,
     "q_num": 25,
     "q_label": "부인과 25번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 부인과 25번",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "56 세 여성 난소암 종양감축술 받은 뒤 병리 검사 결과가 다음과 같다. 병기설정은? Serous adenocarcinoma, moderately differentiated Right & left ovary 모두 침범 Capsule 침범 Washing cytology (+) Pelvic LN metastasis (+) : 7mm Para-aortic LN metastasis (-) Omentum & Omentectomy (-)",
@@ -267433,8 +267951,17 @@
       0
     ],
     "raw_questions": [
-      "21Y-부인과25"
-    ]
+      "21Y-부인과25",
+      "20Y-부인과41",
+      "19Y-82"
+    ],
+    "freq_years": [
+      "21Y",
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 3,
+    "rate": 50
   },
   {
     "id": "산부인과_21Y_부인과_Q26",
@@ -267444,7 +267971,7 @@
     "section_q_num": 26,
     "q_num": 26,
     "q_label": "부인과 26번",
-    "category": "기출",
+    "category": "반짤",
     "theme_title": "2021년 본3 학년말고사 부인과 26번",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "17세 여자가 복부통증으로 응급실에 내원하였다. 혈액 종양표지자 검사 결과가 아래와 같을 때 가장 의심되는 진단은?",
@@ -267559,8 +268086,17 @@
       0
     ],
     "raw_questions": [
-      "21Y-부인과26"
-    ]
+      "21Y-부인과26",
+      "20Y-부인과42",
+      "19Y-83"
+    ],
+    "freq_years": [
+      "21Y",
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 3,
+    "rate": 50
   },
   {
     "id": "산부인과_21Y_부인과_Q27",
@@ -267684,7 +268220,12 @@
     ],
     "raw_questions": [
       "21Y-부인과27"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_부인과_Q28",
@@ -267808,7 +268349,12 @@
     ],
     "raw_questions": [
       "21Y-부인과28"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_산과_Q01",
@@ -267842,11 +268388,21 @@
       0
     ],
     "raw_questions": [
+      "21Y-산과01",
       "26Y-43",
       "23Y-07",
       "22Y-60",
-      "21Y-산과01"
-    ]
+      "19Y-01"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "19Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_21Y_산과_Q02",
@@ -267856,7 +268412,7 @@
     "section_q_num": 2,
     "q_num": 30,
     "q_label": "산과 02번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 산과 02번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신 30 주의 28 세 임산부가 숨이 차고 다리가 부어 내원하였다. 혈압 110/80, 맥박 70/분, 호흡 25 회/분이었다. 복부촉진상 태아의 신체부위가 안 만져질 정도로 복벽이 팽팽하였고 자궁바닥의 높이는 38cm, 양수지수는 32 이었다. 처치는?",
@@ -267877,8 +268433,15 @@
     "required_count": 1,
     "correct_option_indices": [],
     "raw_questions": [
-      "21Y-산과02"
-    ]
+      "21Y-산과02",
+      "26Y-32"
+    ],
+    "freq_years": [
+      "26Y",
+      "21Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_21Y_산과_Q03",
@@ -267888,7 +268451,7 @@
     "section_q_num": 3,
     "q_num": 31,
     "q_label": "산과 03번",
-    "category": "짤",
+    "category": "기출",
     "theme_title": "테마 60. 태아 성장지연(FGR) - 제대동맥 이완기말 역류(REDF)와 응급 분만",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "양수지수가 3cm 이고 IUGR 1750g (<5 백분위수).  자궁경부가 2cm 개대되어 있었으며 70% effacement  되어 있었다. 태아 doppler 검사에서 Reversed end  diastolic flow 가 관찰되었다. 처치는? (NST 사진 \n제시되지 않고 말로만 설명되어있었습니다.)",
@@ -267911,10 +268474,13 @@
       1
     ],
     "raw_questions": [
-      "26Y-60",
-      "23Y-20",
       "21Y-산과03"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_산과_Q04",
@@ -267924,7 +268490,7 @@
     "section_q_num": 4,
     "q_num": 32,
     "q_label": "산과 04번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 산과 04번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신 25 주인 34 세 미분만부가 산전 진찰을 위해 병원에 왔다. 검사 결과는 다음과 같았다. 혈액 50g  OGTT 155mg/dL. 처치는?",
@@ -267948,8 +268514,17 @@
       3
     ],
     "raw_questions": [
-      "21Y-산과04"
-    ]
+      "21Y-산과04",
+      "23Y-25",
+      "22Y-51"
+    ],
+    "freq_years": [
+      "23Y",
+      "22Y",
+      "21Y"
+    ],
+    "freq_count": 3,
+    "rate": 50
   },
   {
     "id": "산부인과_21Y_산과_Q05",
@@ -267959,7 +268534,7 @@
     "section_q_num": 5,
     "q_num": 33,
     "q_label": "산과 05번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 산과 05번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신 시 일어나는 모체의 생리적 변화로 옳지 않은 것은?",
@@ -267981,8 +268556,24 @@
     "required_count": 1,
     "correct_option_indices": [],
     "raw_questions": [
-      "21Y-산과05"
-    ]
+      "21Y-산과05",
+      "26Y-30",
+      "23Y-05",
+      "23Y-06",
+      "22Y-02",
+      "21Y-산과06",
+      "20Y-산과06",
+      "20Y-산과12"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_21Y_산과_Q06",
@@ -267992,7 +268583,7 @@
     "section_q_num": 6,
     "q_num": 34,
     "q_label": "산과 06번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 산과 06번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신 시 일어나는 모체의 생리적 변화로 옳지 않은 것은?",
@@ -268014,8 +268605,24 @@
     "required_count": 1,
     "correct_option_indices": [],
     "raw_questions": [
-      "21Y-산과06"
-    ]
+      "21Y-산과06",
+      "26Y-30",
+      "23Y-05",
+      "23Y-06",
+      "22Y-02",
+      "21Y-산과05",
+      "20Y-산과06",
+      "20Y-산과12"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_21Y_산과_Q07",
@@ -268025,7 +268632,7 @@
     "section_q_num": 7,
     "q_num": 35,
     "q_label": "산과 07번",
-    "category": "짤",
+    "category": "반짤",
     "theme_title": "테마 20. 생물리학적 계수(BPP)와 양수과소증(Oligohydramnios) 시 분만 방침",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "29 세 임신 37 주의 임산부가 병원에 내원하였다.  BPP 가 8 점이었고 AFI = 2cm 이었다. 조치는?",
@@ -268047,11 +268654,21 @@
       0
     ],
     "raw_questions": [
+      "21Y-산과07",
       "26Y-20",
       "23Y-09",
       "22Y-35",
-      "21Y-산과07"
-    ]
+      "19Y-92"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "19Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_21Y_산과_Q08",
@@ -268061,7 +268678,7 @@
     "section_q_num": 8,
     "q_num": 36,
     "q_label": "산과 08번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 산과 08번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신 38 주 여성이 진통으로 내원하였다. 자궁 경부는 8cm 열려있었고 소실도 80%, 하강도는 +1 이었으며 양막은 파열되지 않았다. 비수축 검사가 다음과 같을 때 가장 적절한 원인은?",
@@ -268082,8 +268699,15 @@
     "required_count": 1,
     "correct_option_indices": [],
     "raw_questions": [
-      "21Y-산과08"
-    ]
+      "21Y-산과08",
+      "23Y-17"
+    ],
+    "freq_years": [
+      "23Y",
+      "21Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_21Y_산과_Q09",
@@ -268110,7 +268734,12 @@
     "correct_option_indices": [],
     "raw_questions": [
       "21Y-산과09"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_산과_Q10",
@@ -268120,7 +268749,7 @@
     "section_q_num": 10,
     "q_num": 38,
     "q_label": "산과 10번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 산과 10번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "38 주, 35 세인 산모가 진통으로 내원하였다.  자궁경부 개대가 3cm, 자궁경부 소실도가 50%,  아두하강정도가 -2, 경부가 부드러웠으며, 경부의 위치는 anterior 였을 때, Bishop score 는?",
@@ -268147,8 +268776,17 @@
     "required_count": 1,
     "correct_option_indices": [],
     "raw_questions": [
-      "21Y-산과10"
-    ]
+      "21Y-산과10",
+      "20Y-산과14",
+      "19Y-25"
+    ],
+    "freq_years": [
+      "21Y",
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 3,
+    "rate": 50
   },
   {
     "id": "산부인과_21Y_산과_Q11",
@@ -268158,7 +268796,7 @@
     "section_q_num": 11,
     "q_num": 39,
     "q_label": "산과 11번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 산과 11번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "다음과 같은 NST 가 관찰되는 과숙아 병태생리와 관련된 원인은?",
@@ -268180,8 +268818,15 @@
     "required_count": 1,
     "correct_option_indices": [],
     "raw_questions": [
-      "21Y-산과11"
-    ]
+      "21Y-산과11",
+      "22Y-52"
+    ],
+    "freq_years": [
+      "22Y",
+      "21Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_21Y_산과_Q12",
@@ -268191,7 +268836,7 @@
     "section_q_num": 12,
     "q_num": 40,
     "q_label": "산과 12번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "테마 16. 분만 2기 리트겐 수기(Ritgen Maneuver)와 아두 신전(Extension)",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "두정위 질식분만 중 cardinal movement 중에 extension 을 통해 태아의 머리가 질의 개구부와 회음부를 통과할 수 있어 분만이 원활하게 진행되게 하는 수기는?",
@@ -268215,9 +268860,13 @@
       0
     ],
     "raw_questions": [
-      "26Y-16",
       "21Y-산과12"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_산과_Q13",
@@ -268251,10 +268900,21 @@
       0
     ],
     "raw_questions": [
+      "21Y-산과13",
       "26Y-15",
       "23Y-14",
-      "21Y-산과13"
-    ]
+      "22Y-49",
+      "19Y-29"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "19Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_21Y_산과_Q14",
@@ -268287,11 +268947,19 @@
       0
     ],
     "raw_questions": [
+      "21Y-산과14",
       "26Y-21",
       "23Y-15",
-      "22Y-46",
-      "21Y-산과14"
-    ]
+      "22Y-46"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y"
+    ],
+    "freq_count": 4,
+    "rate": 67
   },
   {
     "id": "산부인과_21Y_산과_Q15",
@@ -268301,7 +268969,7 @@
     "section_q_num": 15,
     "q_num": 43,
     "q_label": "산과 15번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 산과 15번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신 중 고혈압에 대한 설명으로 옳지 않은 것은?",
@@ -268322,8 +268990,21 @@
     "required_count": 1,
     "correct_option_indices": [],
     "raw_questions": [
-      "21Y-산과15"
-    ]
+      "21Y-산과15",
+      "23Y-02",
+      "22Y-47",
+      "20Y-산과35",
+      "19Y-35"
+    ],
+    "freq_years": [
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_21Y_산과_Q16",
@@ -268356,7 +269037,12 @@
     "correct_option_indices": [],
     "raw_questions": [
       "21Y-산과16"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_산과_Q17",
@@ -268389,7 +269075,12 @@
     "correct_option_indices": [],
     "raw_questions": [
       "21Y-산과17"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_산과_Q18",
@@ -268399,7 +269090,7 @@
     "section_q_num": 18,
     "q_num": 46,
     "q_label": "산과 18번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 산과 18번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신 전 상담을 하러 온 여성. 10 년 전 epilepsy 로 valproic acid 먹고 있음. 다음 중 틀린 것은?",
@@ -268421,8 +269112,15 @@
     "required_count": 1,
     "correct_option_indices": [],
     "raw_questions": [
-      "21Y-산과18"
-    ]
+      "21Y-산과18",
+      "19Y-06"
+    ],
+    "freq_years": [
+      "21Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_21Y_산과_Q19",
@@ -268432,7 +269130,7 @@
     "section_q_num": 19,
     "q_num": 47,
     "q_label": "산과 19번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 산과 19번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "(야마) 다음 별표에 해당하는 질환은 무엇인가?",
@@ -268454,8 +269152,15 @@
     "required_count": 1,
     "correct_option_indices": [],
     "raw_questions": [
-      "21Y-산과19"
-    ]
+      "21Y-산과19",
+      "19Y-09"
+    ],
+    "freq_years": [
+      "21Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_21Y_산과_Q20",
@@ -268465,7 +269170,7 @@
     "section_q_num": 20,
     "q_num": 48,
     "q_label": "산과 20번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 산과 20번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "진통 억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 \n과량 시 호흡부전 \n태아 neuroprotective",
@@ -268485,8 +269190,21 @@
     "required_count": 1,
     "correct_option_indices": [],
     "raw_questions": [
-      "21Y-산과20"
-    ]
+      "21Y-산과20",
+      "26Y-14",
+      "23Y-24",
+      "22Y-44",
+      "20Y-산과24"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_21Y_산과_Q21",
@@ -268518,7 +269236,12 @@
     "correct_option_indices": [],
     "raw_questions": [
       "21Y-산과21"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_산과_Q22",
@@ -268528,7 +269251,7 @@
     "section_q_num": 22,
     "q_num": 50,
     "q_label": "산과 22번",
-    "category": "기출",
+    "category": "반짤",
     "theme_title": "2021년 본3 학년말고사 산과 22번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "자궁의 윤곽 파악, 자궁 저부 촉진하고 자궁 옆면을 촉진하고 태아의 팔다리 방향을 확인하는 것으로 양수과다증이 있거나 산모가 비만일 경우 판단하기 어려운 수기는?",
@@ -268549,8 +269272,21 @@
     "required_count": 1,
     "correct_option_indices": [],
     "raw_questions": [
-      "21Y-산과22"
-    ]
+      "21Y-산과22",
+      "26Y-13",
+      "23Y-21",
+      "22Y-41",
+      "19Y-23"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "19Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_21Y_산과_Q23",
@@ -268560,7 +269296,7 @@
     "section_q_num": 23,
     "q_num": 51,
     "q_label": "산과 23번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2021년 본3 학년말고사 산과 23번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "태아의 BPD 가 골반 입구가 도달했을 때 태아의 하강도는?",
@@ -268582,8 +269318,15 @@
     "required_count": 1,
     "correct_option_indices": [],
     "raw_questions": [
-      "21Y-산과23"
-    ]
+      "21Y-산과23",
+      "19Y-24"
+    ],
+    "freq_years": [
+      "21Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_21Y_산과_Q24",
@@ -268616,7 +269359,12 @@
     "correct_option_indices": [],
     "raw_questions": [
       "21Y-산과24"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_산과_Q25",
@@ -268649,7 +269397,12 @@
     "correct_option_indices": [],
     "raw_questions": [
       "21Y-산과25"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_산과_Q26",
@@ -268682,7 +269435,12 @@
     "correct_option_indices": [],
     "raw_questions": [
       "21Y-산과26"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_산과_Q27",
@@ -268715,7 +269473,12 @@
     "correct_option_indices": [],
     "raw_questions": [
       "21Y-산과27"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_산과_Q28",
@@ -268725,7 +269488,7 @@
     "section_q_num": 28,
     "q_num": 56,
     "q_label": "산과 28번",
-    "category": "기출",
+    "category": "반짤",
     "theme_title": "2021년 본3 학년말고사 산과 28번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신주수 12 주 추정. 생리는 28 일로 규칙적이다.  개인 병원에서 목덜미 투명대 3.5cm 로 추정되어 큰병원 권유받아 내원하였다. 옳지 않은 것은?",
@@ -268746,8 +269509,15 @@
     "required_count": 1,
     "correct_option_indices": [],
     "raw_questions": [
-      "21Y-산과28"
-    ]
+      "21Y-산과28",
+      "19Y-90"
+    ],
+    "freq_years": [
+      "21Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_21Y_산과_Q29",
@@ -268854,7 +269624,12 @@
     ],
     "raw_questions": [
       "21Y-산과29"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_산과_Q30",
@@ -268980,7 +269755,12 @@
     ],
     "raw_questions": [
       "21Y-산과30"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_산과_Q31",
@@ -269089,7 +269869,12 @@
     ],
     "raw_questions": [
       "21Y-산과31"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_21Y_산과_Q32",
@@ -269213,7 +269998,12 @@
     ],
     "raw_questions": [
       "21Y-산과32"
-    ]
+    ],
+    "freq_years": [
+      "21Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "내과_19Y_소화기_Q01",
@@ -275350,7 +276140,7 @@
     "section_q_num": 1,
     "q_num": 1,
     "q_label": "부인과 01번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 난소 자궁내막종(Endometrioma)의 초음파 소견 및 진단",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "29세 여성이 월경통이 심하여 내원하였고, 혈청 CA 125가 89 U/mL로 상승되어 있었다. 초음파 사진이 다음과 같을 때 진단은?",
@@ -275466,7 +276256,12 @@
     ],
     "raw_questions": [
       "20Y-부인과01"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q02",
@@ -275507,8 +276302,19 @@
       0
     ],
     "raw_questions": [
-      "20Y-부인과02"
-    ]
+      "20Y-부인과02",
+      "26Y-03",
+      "22Y-25",
+      "21Y-부인과02"
+    ],
+    "freq_years": [
+      "26Y",
+      "22Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 4,
+    "rate": 67
   },
   {
     "id": "산부인과_20Y_부인과_Q03",
@@ -275550,8 +276356,17 @@
       0
     ],
     "raw_questions": [
-      "20Y-부인과03"
-    ]
+      "20Y-부인과03",
+      "26Y-07",
+      "21Y-부인과01"
+    ],
+    "freq_years": [
+      "26Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 3,
+    "rate": 50
   },
   {
     "id": "산부인과_20Y_부인과_Q04",
@@ -275562,7 +276377,7 @@
     "section_q_num": 4,
     "q_num": 4,
     "q_label": "부인과 04번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 장액성 난소암 병기결정술에서 생략 가능한 술기 (충수절제술)",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "난소 종괴로 수술 중 시행한 동결절편 조직검사에서 장액성 선암종(Serous adenocarcinoma)으로 확진되었다. 난소암의 병기설정술(Surgical staging)에 반드시 포함되어야 하는 술식으로 옳은 것은?",
@@ -275676,7 +276491,12 @@
     ],
     "raw_questions": [
       "20Y-부인과04"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q05",
@@ -275687,7 +276507,7 @@
     "section_q_num": 5,
     "q_num": 5,
     "q_label": "부인과 05번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 상피성 난소암의 보호 요인 (다산·모유수유·경구피임약)",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "다음 중 상피성 난소암의 발생 위험이 가장 낮은 여성은?",
@@ -275784,7 +276604,12 @@
     ],
     "raw_questions": [
       "20Y-부인과05"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q06",
@@ -275795,7 +276620,7 @@
     "section_q_num": 6,
     "q_num": 6,
     "q_label": "부인과 06번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 난소 난황낭종(Yolk Sac Tumor) 가임력 보존 수술 후 보조 항암화학요법",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "14세 여아가 하복부 통증 및 복부팽만으로 내원하여 난황낭종(yolk sac tumor)으로 진단받고 좌측 난관난소절제술(LSO)을 받았다. 향후 치료계획은?",
@@ -275909,7 +276734,12 @@
     ],
     "raw_questions": [
       "20Y-부인과06"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q07",
@@ -275920,7 +276750,7 @@
     "section_q_num": 7,
     "q_num": 7,
     "q_label": "부인과 07번",
-    "category": "탈",
+    "category": "짤",
     "theme_title": "[단독 기출] 순수 생식샘발생장애(Swyer Syndrome, 46,XY)의 특징",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "Pure gonadal dysgenesis(Swyer syndrome)에 대한 설명으로 옳지 않은 것은?",
@@ -276033,8 +276863,15 @@
       4
     ],
     "raw_questions": [
-      "20Y-부인과07"
-    ]
+      "20Y-부인과07",
+      "19Y-45"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_부인과_Q08",
@@ -276045,7 +276882,7 @@
     "section_q_num": 8,
     "q_num": 8,
     "q_label": "부인과 08번",
-    "category": "탈",
+    "category": "짤",
     "theme_title": "[단독 기출] 이성 사춘기 발달(Heterosexual Pubertal Development)의 최다 원인 - PCOS",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "사춘기의 발달은 있으나 반대편 성의 소견(남성화/다모증)을 보이는 Heterosexual pubertal development의 가장 흔한 원인은?",
@@ -276141,8 +276978,15 @@
       0
     ],
     "raw_questions": [
-      "20Y-부인과08"
-    ]
+      "20Y-부인과08",
+      "19Y-46"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_부인과_Q09",
@@ -276153,7 +276997,7 @@
     "section_q_num": 9,
     "q_num": 9,
     "q_label": "부인과 09번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 고환 지지세포(Sertoli Cell)에서 분비되는 호르몬 - 항뮐러관호르몬(MIF)",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "배아기 발생 과정에서 고환의 세르톨리 세포(Sertoli cell)가 분비하여 뮐러관(Mullerian duct)의 퇴행을 유도하는 호르몬은?",
@@ -276267,7 +277111,12 @@
     ],
     "raw_questions": [
       "20Y-부인과09"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q10",
@@ -276278,7 +277127,7 @@
     "section_q_num": 10,
     "q_num": 10,
     "q_label": "부인과 10번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "산부인과 일반: 체외수정과 배아이식을 위해 과배란 유도에 대한 설명...",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "체외수정과 배아이식을 위해 과배란 유도에 대한 설명. 틀린것?",
@@ -276309,8 +277158,22 @@
       0
     ],
     "raw_questions": [
-      "20Y-부인과10"
-    ]
+      "20Y-부인과10",
+      "26Y-09",
+      "23Y-40",
+      "22Y-04",
+      "22Y-05",
+      "21Y-부인과05"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_20Y_부인과_Q11",
@@ -276321,7 +277184,7 @@
     "section_q_num": 11,
     "q_num": 11,
     "q_label": "부인과 11번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 폐경 호르몬 요법(MHT)의 절대적 금기증 감별",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "폐경 여성의 호르몬 요법의 절대적 금기증이 아닌 것은?",
@@ -276435,7 +277298,12 @@
     ],
     "raw_questions": [
       "20Y-부인과11"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q12",
@@ -276446,7 +277314,7 @@
     "section_q_num": 12,
     "q_num": 12,
     "q_label": "부인과 12번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 외음부질 칸디다증(Vulvovaginal Candidiasis)의 진단과 치료",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "우유찌꺼기 같은 하얀색 질 분비물과 외음부 가려움증으로 내원한 환자의 현미경 사진이다. 적절한 치료는?",
@@ -276562,7 +277430,12 @@
     ],
     "raw_questions": [
       "20Y-부인과12"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q13",
@@ -276573,7 +277446,7 @@
     "section_q_num": 13,
     "q_num": 13,
     "q_label": "부인과 13번",
-    "category": "탈",
+    "category": "짤",
     "theme_title": "[단독 기출] 폐경 후 위축성 질염(폐경비뇨생식기증후군)의 국소 에스트로겐 치료",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "65세 여성이 1주일 전부터 소량의 질출혈이 있고 질 입구가 쓰리고 따갑다며 병원에 내원하였다. 최근 성교통과 빈뇨가 생겼다고 한다. 이학적 소견상 질 점막의 위축이 있었고, 소변 및 질분비물 검사와 자궁경부 액상세포검사는 정상이었다. 부인과 초음파상 자궁내막 두께는 2mm였다. 치료는?",
@@ -276686,8 +277559,15 @@
       0
     ],
     "raw_questions": [
-      "20Y-부인과13"
-    ]
+      "20Y-부인과13",
+      "19Y-51"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_부인과_Q14",
@@ -276698,7 +277578,7 @@
     "section_q_num": 14,
     "q_num": 14,
     "q_label": "부인과 14번",
-    "category": "탈",
+    "category": "짤",
     "theme_title": "[단독 기출] 자궁경부 궤양(매독 경성하감 vs 연성하감/클라미디아)의 항생제 치료",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "여성 환자의 질경 검사 사진이다. 적절한 치료는?",
@@ -276796,8 +277676,15 @@
       3
     ],
     "raw_questions": [
-      "20Y-부인과14"
-    ]
+      "20Y-부인과14",
+      "19Y-95"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_부인과_Q15",
@@ -276808,7 +277695,7 @@
     "section_q_num": 15,
     "q_num": 15,
     "q_label": "부인과 15번",
-    "category": "탈",
+    "category": "짤",
     "theme_title": "[단독 기출] 요역동학검사 및 Q-tip 검사를 통한 복압요실금 진단",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "기침할 때 소변이 나와서 내원한 여성이다. Q-tip 검사 시 40도였고, 요역동학 검사상 방광근의 수축은 없지만 방광내압이 요도내압을 넘어설 때 소변이 샜다. 잔뇨량은 없었다. 진단은?",
@@ -276904,8 +277791,15 @@
       2
     ],
     "raw_questions": [
-      "20Y-부인과15"
-    ]
+      "20Y-부인과15",
+      "19Y-53"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_부인과_Q16",
@@ -276916,7 +277810,7 @@
     "section_q_num": 16,
     "q_num": 16,
     "q_label": "부인과 16번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 대동맥주위 림프절 절제술 시 후복막 혈관 해부학",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "복막후강 림프절 곽청술 시야에서 확인되는 주요 혈관 구조물을 정중선에서 외측(①~④) 순서대로 올바르게 나열한 것은?",
@@ -277032,7 +277926,12 @@
     ],
     "raw_questions": [
       "20Y-부인과16"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q17",
@@ -277043,7 +277942,7 @@
     "section_q_num": 17,
     "q_num": 17,
     "q_label": "부인과 17번",
-    "category": "탈",
+    "category": "반짤",
     "theme_title": "[단독 기출] 골반 림프절 절제술 시 골반 측벽 및 후복막 해부 구조물(A~E)",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "다음 수술 사진에서 A, B, C, D, E 순서대로 나열한 것은?",
@@ -277156,8 +278055,15 @@
       0
     ],
     "raw_questions": [
-      "20Y-부인과17"
-    ]
+      "20Y-부인과17",
+      "19Y-87"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_부인과_Q18",
@@ -277168,7 +278074,7 @@
     "section_q_num": 18,
     "q_num": 18,
     "q_label": "부인과 18번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 복강경 시야에서의 우측 자궁부속기 해부 구조물",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "복강경 수술 시 골반강 전방에서 후방으로 관찰되는 우측 내생식기 구조물을 올바른 해부학적 순서대로 나열한 것은?",
@@ -277284,7 +278190,12 @@
     ],
     "raw_questions": [
       "20Y-부인과18"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q19",
@@ -277295,7 +278206,7 @@
     "section_q_num": 19,
     "q_num": 19,
     "q_label": "부인과 19번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 창상 봉합술 - 수직 매트리스 봉합(Vertical Mattress Suture)",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "다음 사진에 해당하는 봉합법(suture)은 무엇인가?",
@@ -277409,7 +278320,12 @@
     ],
     "raw_questions": [
       "20Y-부인과19"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q20",
@@ -277420,7 +278336,7 @@
     "section_q_num": 20,
     "q_num": 20,
     "q_label": "부인과 20번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 폐경 후 질출혈 및 자궁내막 비후(21.6mm) 시 자궁내막생검",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "폐경 후 여성이 질출혈을 주소로 내원했다. 질초음파 소견은 다음과 같다. 다음 처치는?",
@@ -277519,7 +278435,12 @@
     ],
     "raw_questions": [
       "20Y-부인과20"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q21",
@@ -277530,7 +278451,7 @@
     "section_q_num": 21,
     "q_num": 21,
     "q_label": "부인과 21번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 파열된 난관 임신(Tubal Ectopic Pregnancy)의 진단",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "29세 산과력 0-0-2-0인 여성이 소량의 질출혈과 하복부 통증으로 내원하였다. 신체진찰상 좌하복부 자궁부속기 부분의 심한 통증과 압통이 있었고, 더글라스와 천자 결과 50mL의 응고되지 않는 혈액이 확인되어 응급수술을 시행하였다. 요 임신검사 양성, WBC 8,700, Hb 11.0, PLT 280,000이었다. 수술 및 초음파 사진이 다음과 같을 때 진단은?",
@@ -277627,7 +278548,12 @@
     ],
     "raw_questions": [
       "20Y-부인과21"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q22",
@@ -277638,7 +278564,7 @@
     "section_q_num": 22,
     "q_num": 22,
     "q_label": "부인과 22번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 혈역학적 불안정을 동반한 파열성 자궁외임신의 응급 복강경 수술",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "28세 여성이 LMP 8주 후 무월경과 급성 하복부 통증으로 내원하였다. 혈압 90/60 mmHg, 맥박 110회/분으로 저혈압과 빈맥을 보였고, 혈청 beta-hCG 5,800 mIU/mL, 초음파상 자궁강 내 태낭은 없고 우측 부속기에 4.5cm 크기의 파열성 종괴와 다량의 복강 내 복수(Cul-de-sac fluid)가 관찰되었다. 가장 적절한 처치는?",
@@ -277754,7 +278680,12 @@
     ],
     "raw_questions": [
       "20Y-부인과22"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q23",
@@ -277795,8 +278726,19 @@
       0
     ],
     "raw_questions": [
-      "20Y-부인과23"
-    ]
+      "20Y-부인과23",
+      "26Y-52",
+      "23Y-58",
+      "22Y-16"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "20Y"
+    ],
+    "freq_count": 4,
+    "rate": 67
   },
   {
     "id": "산부인과_20Y_부인과_Q24",
@@ -277807,7 +278749,7 @@
     "section_q_num": 24,
     "q_num": 24,
     "q_label": "부인과 24번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 임신 중 발견된 악성 의심 거대 난소 종괴의 수술적 처치",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "27세, 임신 28주 산모의 초음파에서 12cm 정도의 난소 종괴(고형성, 내부 격벽 및 다방성 소견)가 발견되었다. 다음에 시행해야 할 조치는?",
@@ -277904,7 +278846,12 @@
     ],
     "raw_questions": [
       "20Y-부인과24"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q25",
@@ -277915,7 +278862,7 @@
     "section_q_num": 25,
     "q_num": 25,
     "q_label": "부인과 25번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 심부정맥혈전증 기왕력 및 월경과다 여성의 피임법 - LNG-IUS(미레나)",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "피임을 위해서 내원한 여성 환자이다. 과거 혈전정맥염으로 치료받은 병력이 있으며, 현재 월경과다와 월경통을 호소하고 있다. 가장 적합한 피임 방법은?",
@@ -278029,7 +278976,12 @@
     ],
     "raw_questions": [
       "20Y-부인과25"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q26",
@@ -278040,7 +278992,7 @@
     "section_q_num": 26,
     "q_num": 26,
     "q_label": "부인과 26번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 자궁 천공으로 복강 내 이탈된 자궁내장치(IUD)의 처치",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "29세 여성이 타원에서 건강검진을 받다가 복부 영상에서 나타난 이상 소견으로 대학병원 외래를 방문하였다. 환자는 별다른 증상을 호소하지 않고 안정된 상태였다. 다음 처치로 올바른 것은?",
@@ -278154,7 +279106,12 @@
     ],
     "raw_questions": [
       "20Y-부인과26"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q27",
@@ -278165,7 +279122,7 @@
     "section_q_num": 27,
     "q_num": 27,
     "q_label": "부인과 27번",
-    "category": "탈",
+    "category": "짤",
     "theme_title": "[단독 기출] 포상기태 제거술 후 추적관찰 기간의 권장 피임법 (경구피임제)",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "포상기태로 치료받은 환자의 피임법으로 알맞은 것은?",
@@ -278261,8 +279218,15 @@
       1
     ],
     "raw_questions": [
-      "20Y-부인과27"
-    ]
+      "20Y-부인과27",
+      "19Y-63"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_부인과_Q28",
@@ -278273,7 +279237,7 @@
     "section_q_num": 28,
     "q_num": 28,
     "q_label": "부인과 28번",
-    "category": "탈",
+    "category": "반짤",
     "theme_title": "[단독 기출] 고위험 임신융모종양(GTN, 폐 전이·만삭분만 후)의 복합 항암화학요법",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "산과력이 1-0-0-1인 34세 여자가 정상분만 후 5개월간 불규칙적인 질출혈이 지속되어 내원하였다. 흉부 X선 촬영에서 지름 2cm인 전이성 종양이 발견되었고, 혈청 beta-hCG 농도는 150,000 mIU/mL였다. 골반 초음파 및 뇌 MRI, 자궁내막 조직검사에서는 특이소견이 없었다. 이 환자에서 시행해야 할 조치는?",
@@ -278369,8 +279333,15 @@
       2
     ],
     "raw_questions": [
-      "20Y-부인과28"
-    ]
+      "20Y-부인과28",
+      "19Y-64"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_부인과_Q29",
@@ -278381,7 +279352,7 @@
     "section_q_num": 29,
     "q_num": 29,
     "q_label": "부인과 29번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 완전포상기태(Complete Hydatidiform Mole)의 1차 치료 - 흡입소파술",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "24세 미산부가 2개월간의 무월경 후 무통성 질출혈로 내원하였다. 내진상 자궁은 임신 14주 크기로 촉진되었고, 혈청 beta-hCG 180,000 mIU/mL, 초음파상 자궁 내 눈보라 모양(Snowstorm pattern)의 융모 수포들이 가득 차 있었다. 가장 적절한 일차 치료는?",
@@ -278495,7 +279466,12 @@
     ],
     "raw_questions": [
       "20Y-부인과29"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q30",
@@ -278506,7 +279482,7 @@
     "section_q_num": 30,
     "q_num": 30,
     "q_label": "부인과 30번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 임신을 원하는 여성의 중증 자궁내막증·자궁근종 보존적 수술",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "임신을 원하는 40세 여성이 불임 및 골반 통증으로 내원하였다. 복강경 검사에서 양측 난소에 낭성 종괴, 자궁근종, 곧창자 및 더글라스와(Douglas pouch)의 유착이 관찰되었다. 알맞은 처치는?",
@@ -278603,7 +279579,12 @@
     ],
     "raw_questions": [
       "20Y-부인과30"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q31",
@@ -278614,7 +279595,7 @@
     "section_q_num": 31,
     "q_num": 31,
     "q_label": "부인과 31번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 부인과 수술 전후 지속 투여해야 하는 약물 (항고혈압제)",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "50세 자궁수술 예정인 여성에게 약물복용력이 있었다. 다음 중 수술 당일에도 지속해야 할 약물은?",
@@ -278728,7 +279709,12 @@
     ],
     "raw_questions": [
       "20Y-부인과31"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q32",
@@ -278739,7 +279725,7 @@
     "section_q_num": 32,
     "q_num": 32,
     "q_label": "부인과 32번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 부인과 수술 전 예방적 항생제 투여 대상 (복강경 자궁적출술)",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "다음 중 수술 전 예방적 항생제를 사용해야 하는 경우는?",
@@ -278836,7 +279822,12 @@
     ],
     "raw_questions": [
       "20Y-부인과32"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q33",
@@ -278878,8 +279869,26 @@
       3
     ],
     "raw_questions": [
-      "20Y-부인과33"
-    ]
+      "20Y-부인과33",
+      "26Y-45",
+      "26Y-49",
+      "23Y-43",
+      "23Y-45",
+      "22Y-10",
+      "22Y-11",
+      "21Y-부인과16",
+      "19Y-74"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 6,
+    "rate": 100
   },
   {
     "id": "산부인과_20Y_부인과_Q34",
@@ -278890,7 +279899,7 @@
     "section_q_num": 34,
     "q_num": 34,
     "q_label": "부인과 34번",
-    "category": "탈",
+    "category": "짤",
     "theme_title": "[단독 기출] 수신증을 동반한 진행성 자궁경부암(Stage IIIB)의 동시항암방사선요법",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "산과력 4-0-5-4인 64세 여성이 몇 달 전부터 시작된 우측 옆구리 통증과 우측 다리 부종을 주소로 내원하였다. 자궁경부 전체뿐만 아니라 양측 자궁주위조직까지 침윤된 자궁경부 편평상피세포암이 확인되었다. 응급실에서 촬영한 CT 소견이 다음과 같을 때 적절한 치료법은?",
@@ -279005,8 +280014,15 @@
       1
     ],
     "raw_questions": [
-      "20Y-부인과34"
-    ]
+      "20Y-부인과34",
+      "19Y-75"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_부인과_Q35",
@@ -279045,8 +280061,21 @@
       0
     ],
     "raw_questions": [
-      "20Y-부인과35"
-    ]
+      "20Y-부인과35",
+      "26Y-48",
+      "23Y-44",
+      "22Y-09",
+      "21Y-부인과18"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_20Y_부인과_Q36",
@@ -279057,7 +280086,7 @@
     "section_q_num": 36,
     "q_num": 36,
     "q_label": "부인과 36번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 자궁경부암 수술 후 질 절단단 국소 재발 시 방사선 치료",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "이전에 자궁경부에 국한된 암으로 수술 후 퇴원했던 환자에서 추적관찰 중 남아있는 질에 편평상피세포암(squamous cell carcinoma) 재발이 발견되었다. 원격 전이나 림프절 전이는 없으며 이전에 방사선 치료를 받은 적은 없다. 어떤 치료를 해야 하는가?",
@@ -279171,7 +280200,12 @@
     ],
     "raw_questions": [
       "20Y-부인과36"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q37",
@@ -279280,8 +280314,21 @@
       0
     ],
     "raw_questions": [
-      "20Y-부인과37"
-    ]
+      "20Y-부인과37",
+      "26Y-50",
+      "23Y-46",
+      "22Y-12",
+      "21Y-부인과17"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_20Y_부인과_Q38",
@@ -279292,7 +280339,7 @@
     "section_q_num": 38,
     "q_num": 38,
     "q_label": "부인과 38번",
-    "category": "탈",
+    "category": "짤",
     "theme_title": "[단독 기출] 원발성 질암(Vaginal Cancer)의 임상적 특징 및 치료",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "다음 그림(질 상부 후벽의 병변)에 관한 설명으로 틀린 것을 고르시오.",
@@ -279388,8 +280435,15 @@
       2
     ],
     "raw_questions": [
-      "20Y-부인과38"
-    ]
+      "20Y-부인과38",
+      "19Y-80"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_부인과_Q39",
@@ -279400,7 +280454,7 @@
     "section_q_num": 39,
     "q_num": 39,
     "q_label": "부인과 39번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 골반장기탈출증 POP-Q 병기 설정 (Stage 3)",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "자궁탈출증(uterine prolapse) 환자에서 전체 질 길이(TVL)가 6cm이고, 탈출 최대 하단부의 처녀막으로부터 거리가 +3cm일 때 POP-Q Stage는?",
@@ -279497,7 +280551,12 @@
     ],
     "raw_questions": [
       "20Y-부인과39"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q40",
@@ -279508,7 +280567,7 @@
     "section_q_num": 40,
     "q_num": 40,
     "q_label": "부인과 40번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 외음부암(Vulvar Cancer)의 역학, 합병증 및 수술적 치료",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "다음 중 외음부 암의 설명에 관해 옳지 않은 것은?",
@@ -279622,7 +280681,12 @@
     ],
     "raw_questions": [
       "20Y-부인과40"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q41",
@@ -279633,7 +280697,7 @@
     "section_q_num": 41,
     "q_num": 41,
     "q_label": "부인과 41번",
-    "category": "탈",
+    "category": "짤",
     "theme_title": "[단독 기출] 상피성 난소암의 수술적 병기 설정 (FIGO Stage IIIA1(i))",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "56세 여성이 난소암 종양감축술을 받은 뒤 병리 검사 결과가 다음과 같다. FIGO Stage는?\n• Serous adenocarcinoma, moderately differentiated\n• Right & left ovary 둘 다 침범, Capsule 침범\n• Washing cytology (+)\n• Pelvic LN mets (+) 7mm\n• Para-aortic LN mets (-)\n• Omentum (-)",
@@ -279729,8 +280793,17 @@
       2
     ],
     "raw_questions": [
-      "20Y-부인과41"
-    ]
+      "20Y-부인과41",
+      "21Y-부인과25",
+      "19Y-82"
+    ],
+    "freq_years": [
+      "21Y",
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 3,
+    "rate": 50
   },
   {
     "id": "산부인과_20Y_부인과_Q42",
@@ -279773,8 +280846,17 @@
       1
     ],
     "raw_questions": [
-      "20Y-부인과42"
-    ]
+      "20Y-부인과42",
+      "21Y-부인과26",
+      "19Y-83"
+    ],
+    "freq_years": [
+      "21Y",
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 3,
+    "rate": 50
   },
   {
     "id": "산부인과_20Y_부인과_Q43",
@@ -279785,7 +280867,7 @@
     "section_q_num": 43,
     "q_num": 43,
     "q_label": "부인과 43번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 고등급 자궁경부 상피내병변(HSIL/CIN 3)의 원추절제술",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "28세 여성이 자궁경부 세포진 검사상 고등급 편평상피내병변(HSIL)으로 나와 질확대경하 조직생검을 시행하였고 자궁경부 상피내종양 3단계(CIN 3)로 확진되었다. 향후 임신을 계획하고 있는 이 환자에게 가장 적절한 치료법은?",
@@ -279901,7 +280983,12 @@
     ],
     "raw_questions": [
       "20Y-부인과43"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q44",
@@ -279912,7 +280999,7 @@
     "section_q_num": 44,
     "q_num": 44,
     "q_label": "부인과 44번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 완전포상기태(Complete Mole)의 초음파 소견(Snowstorm)과 처치",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "34세 여자가 질출혈을 주소로 내원했다. 평소 월경 주기는 28일로 규칙적이었는데 최종 월경 시작일이 8주 전이었다고 한다. 골반 검사에서 자궁이 커져 있었고, 초음파 소견은 다음과 같다. 다음 처치는?",
@@ -280009,7 +281096,12 @@
     ],
     "raw_questions": [
       "20Y-부인과44"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q45",
@@ -280020,7 +281112,7 @@
     "section_q_num": 45,
     "q_num": 45,
     "q_label": "부인과 45번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 난소 예비능(Ovarian Reserve) 정상 수치 판독 (AMH)",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "다음 중 난소 기능이 저하되지 않은 정상 소견은?",
@@ -280134,7 +281226,12 @@
     ],
     "raw_questions": [
       "20Y-부인과45"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_부인과_Q46",
@@ -280145,7 +281242,7 @@
     "section_q_num": 46,
     "q_num": 46,
     "q_label": "부인과 46번",
-    "category": "탈",
+    "category": "기출",
     "theme_title": "[단독 기출] 체외수정(IVF-ET)에서 황체기 보강을 위한 프로게스테론 투여 시기",
     "subspecialty": "일반부인과 & 비뇨부인과",
     "stem": "다음 중 불임치료(체외수정) 과정에서 황체기 보강을 위한 progesterone의 투여 시기로 알맞은 것은?",
@@ -280242,7 +281339,12 @@
     ],
     "raw_questions": [
       "20Y-부인과46"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q01",
@@ -280280,7 +281382,12 @@
     ],
     "raw_questions": [
       "20Y-산과01"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q02",
@@ -280316,7 +281423,12 @@
     ],
     "raw_questions": [
       "20Y-산과02"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q03",
@@ -280327,7 +281439,7 @@
     "section_q_num": 3,
     "q_num": 49,
     "q_label": "산과 03번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2020년 산부인과 학년말고사 [산과] 03번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "다음 초음파 사진과 같은 종류의 쌍둥이를 무엇이라 하는가?",
@@ -280353,8 +281465,15 @@
       0
     ],
     "raw_questions": [
-      "20Y-산과03"
-    ]
+      "20Y-산과03",
+      "19Y-19"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_산과_Q04",
@@ -280393,7 +281512,12 @@
     ],
     "raw_questions": [
       "20Y-산과04"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q05",
@@ -280430,7 +281554,12 @@
     ],
     "raw_questions": [
       "20Y-산과05"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q06",
@@ -280441,7 +281570,7 @@
     "section_q_num": 6,
     "q_num": 52,
     "q_label": "산과 06번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2020년 산부인과 학년말고사 [산과] 06번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신시 일어나는 모체의 생리적 변화로 옳지 않은 것",
@@ -280468,8 +281597,24 @@
       0
     ],
     "raw_questions": [
-      "20Y-산과06"
-    ]
+      "20Y-산과06",
+      "26Y-30",
+      "23Y-05",
+      "23Y-06",
+      "22Y-02",
+      "21Y-산과05",
+      "21Y-산과06",
+      "20Y-산과12"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_20Y_산과_Q07",
@@ -280508,7 +281653,12 @@
     ],
     "raw_questions": [
       "20Y-산과07"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q08",
@@ -280547,7 +281697,12 @@
     ],
     "raw_questions": [
       "20Y-산과08"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q09",
@@ -280585,7 +281740,12 @@
     ],
     "raw_questions": [
       "20Y-산과09"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q10",
@@ -280596,7 +281756,7 @@
     "section_q_num": 10,
     "q_num": 56,
     "q_label": "산과 10번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2020년 산부인과 학년말고사 [산과] 10번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "쌍둥이 37주 둘 다 두위. 산모가 원해서 자연분만 시작했고 한 명은 잘 나옴. 한 명이 10 떨어짐 분동안 .진행 없었고 HR 130 → 70까지 떨어짐",
@@ -280620,8 +281780,15 @@
       0
     ],
     "raw_questions": [
-      "20Y-산과10"
-    ]
+      "20Y-산과10",
+      "19Y-20"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_산과_Q11",
@@ -280660,7 +281827,12 @@
     ],
     "raw_questions": [
       "20Y-산과11"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q12",
@@ -280671,7 +281843,7 @@
     "section_q_num": 12,
     "q_num": 58,
     "q_label": "산과 12번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2020년 산부인과 학년말고사 [산과] 12번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신시 일어나는 모체의 생리적 변화로 옳지 않은 것은?",
@@ -280697,8 +281869,24 @@
       0
     ],
     "raw_questions": [
-      "20Y-산과12"
-    ]
+      "20Y-산과12",
+      "26Y-30",
+      "23Y-05",
+      "23Y-06",
+      "22Y-02",
+      "21Y-산과05",
+      "21Y-산과06",
+      "20Y-산과06"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_20Y_산과_Q13",
@@ -280709,7 +281897,7 @@
     "section_q_num": 13,
     "q_num": 59,
     "q_label": "산과 13번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2020년 산부인과 학년말고사 [산과] 13번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "NST 에서 reactive이고. 30 분간 측정 시 30초 이상 태아의 호흡이 지속되는 것이 2 회이상 관찰되었다. 팔 다리의 움직임은 30 분 동안 2 회 관찰되고 사지의 신전과 굴곡은 관찰되지 않았다. Single vertical pocket 의 크기가 2.5cm 였다. BPP score 구하세요.",
@@ -280736,8 +281924,15 @@
       0
     ],
     "raw_questions": [
-      "20Y-산과13"
-    ]
+      "20Y-산과13",
+      "23Y-08"
+    ],
+    "freq_years": [
+      "23Y",
+      "20Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_산과_Q14",
@@ -280748,7 +281943,7 @@
     "section_q_num": 14,
     "q_num": 60,
     "q_label": "산과 14번",
-    "category": "기출",
+    "category": "반짤",
     "theme_title": "2020년 산부인과 학년말고사 [산과] 14번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신 38 주, 35 세인 산모가 진통으로 내원하였다. 자궁경부 개대가 3cm, 자궁 경부 소실도가 ​50%​ 아두하강정도 경부의 위치는 ​-2​, 경부는 부드러웠으며​, 경부의 위치는 앞쪽이었다. Bishop score 를 구하시오.",
@@ -280775,8 +281970,17 @@
       0
     ],
     "raw_questions": [
-      "20Y-산과14"
-    ]
+      "20Y-산과14",
+      "21Y-산과10",
+      "19Y-25"
+    ],
+    "freq_years": [
+      "21Y",
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 3,
+    "rate": 50
   },
   {
     "id": "산부인과_20Y_산과_Q15",
@@ -280815,7 +282019,12 @@
     ],
     "raw_questions": [
       "20Y-산과15"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q16",
@@ -280826,7 +282035,7 @@
     "section_q_num": 16,
     "q_num": 62,
     "q_label": "산과 16번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2020년 산부인과 학년말고사 [산과] 16번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "다음 중 자궁 수축제로 쓰이지 않는 것은?",
@@ -280853,8 +282062,15 @@
       0
     ],
     "raw_questions": [
-      "20Y-산과16"
-    ]
+      "20Y-산과16",
+      "19Y-14"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_산과_Q17",
@@ -280891,7 +282107,12 @@
     ],
     "raw_questions": [
       "20Y-산과17"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q18",
@@ -280930,7 +282151,12 @@
     ],
     "raw_questions": [
       "20Y-산과18"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q19",
@@ -280969,7 +282195,12 @@
     ],
     "raw_questions": [
       "20Y-산과19"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q20",
@@ -281008,7 +282239,12 @@
     ],
     "raw_questions": [
       "20Y-산과20"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q21",
@@ -281045,7 +282281,12 @@
     ],
     "raw_questions": [
       "20Y-산과21"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q22",
@@ -281083,7 +282324,12 @@
     ],
     "raw_questions": [
       "20Y-산과22"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q23",
@@ -281122,7 +282368,12 @@
     ],
     "raw_questions": [
       "20Y-산과23"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q24",
@@ -281133,7 +282384,7 @@
     "section_q_num": 24,
     "q_num": 70,
     "q_label": "산과 24번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2020년 산부인과 학년말고사 [산과] 24번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "진통억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective",
@@ -281157,8 +282408,21 @@
       0
     ],
     "raw_questions": [
-      "20Y-산과24"
-    ]
+      "20Y-산과24",
+      "26Y-14",
+      "23Y-24",
+      "22Y-44",
+      "21Y-산과20"
+    ],
+    "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_20Y_산과_Q25",
@@ -281197,7 +282461,12 @@
     ],
     "raw_questions": [
       "20Y-산과25"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q26",
@@ -281236,7 +282505,12 @@
     ],
     "raw_questions": [
       "20Y-산과26"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q27",
@@ -281247,7 +282521,7 @@
     "section_q_num": 27,
     "q_num": 73,
     "q_label": "산과 27번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2020년 산부인과 학년말고사 [산과] 27번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "분만 임박한 산모​. ​과거에 제왕절개 했었음.제왕절개 방법은 그림으로 보여줌. 조치는?",
@@ -281271,8 +282545,15 @@
       0
     ],
     "raw_questions": [
-      "20Y-산과27"
-    ]
+      "20Y-산과27",
+      "19Y-93"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_산과_Q28",
@@ -281310,7 +282591,12 @@
     ],
     "raw_questions": [
       "20Y-산과28"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q29",
@@ -281321,7 +282607,7 @@
     "section_q_num": 29,
     "q_num": 75,
     "q_label": "산과 29번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2020년 산부인과 학년말고사 [산과] 29번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신 36주인 산모가 심한 두통으로 내원하였다. 단백뇨(3+/3+), 부종(2+/2+), 혈압 190/100 자궁목 확장과 숙화는 관찰되지 않았다. 처치는?",
@@ -281347,8 +282633,15 @@
       0
     ],
     "raw_questions": [
-      "20Y-산과29"
-    ]
+      "20Y-산과29",
+      "19Y-33"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_산과_Q30",
@@ -281396,7 +282689,12 @@
     ],
     "raw_questions": [
       "20Y-산과30"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q31",
@@ -281442,7 +282740,12 @@
     ],
     "raw_questions": [
       "20Y-산과31"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q32",
@@ -281484,7 +282787,12 @@
     ],
     "raw_questions": [
       "20Y-산과32"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q33",
@@ -281521,7 +282829,12 @@
     ],
     "raw_questions": [
       "20Y-산과33"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q34",
@@ -281567,7 +282880,12 @@
     ],
     "raw_questions": [
       "20Y-산과34"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q35",
@@ -281578,7 +282896,7 @@
     "section_q_num": 35,
     "q_num": 81,
     "q_label": "산과 35번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2020년 산부인과 학년말고사 [산과] 35번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "임신 중 고혈압에 대해 옳지 ​않은​ 것은?",
@@ -281613,8 +282931,21 @@
       0
     ],
     "raw_questions": [
-      "20Y-산과35"
-    ]
+      "20Y-산과35",
+      "23Y-02",
+      "22Y-47",
+      "21Y-산과15",
+      "19Y-35"
+    ],
+    "freq_years": [
+      "23Y",
+      "22Y",
+      "21Y",
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 5,
+    "rate": 83
   },
   {
     "id": "산부인과_20Y_산과_Q36",
@@ -281656,7 +282987,12 @@
     ],
     "raw_questions": [
       "20Y-산과36"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q37",
@@ -281667,7 +283003,7 @@
     "section_q_num": 37,
     "q_num": 83,
     "q_label": "산과 37번",
-    "category": "기출",
+    "category": "짤",
     "theme_title": "2020년 산부인과 학년말고사 [산과] 37번",
     "subspecialty": "산과학 / 태아안녕평가",
     "stem": "처치는?",
@@ -281691,8 +283027,15 @@
       0
     ],
     "raw_questions": [
-      "20Y-산과37"
-    ]
+      "20Y-산과37",
+      "19Y-16"
+    ],
+    "freq_years": [
+      "20Y",
+      "19Y"
+    ],
+    "freq_count": 2,
+    "rate": 33
   },
   {
     "id": "산부인과_20Y_산과_Q38",
@@ -281734,7 +283077,12 @@
     ],
     "raw_questions": [
       "20Y-산과38"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q39",
@@ -281781,7 +283129,12 @@
     ],
     "raw_questions": [
       "20Y-산과39"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   },
   {
     "id": "산부인과_20Y_산과_Q40",
@@ -281816,6 +283169,11 @@
     ],
     "raw_questions": [
       "20Y-산과40"
-    ]
+    ],
+    "freq_years": [
+      "20Y"
+    ],
+    "freq_count": 1,
+    "rate": 17
   }
 ]
