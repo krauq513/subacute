@@ -439,7 +439,7 @@ body {
   justify-content: space-between;
   padding-bottom: 0.75rem;
   border-bottom: 1px solid var(--border-light);
-  scroll-margin-top: calc(60px + 8px);
+  scroll-margin-top: 75px;
 }
 
 .meta-left {
@@ -1576,6 +1576,64 @@ body {
   color: #334155;
 }
 
+/* Responsive Markdown Tables & Rich Formatting in Explanations */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 0.85rem 0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+  background: var(--bg-card);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.quiz-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+  line-height: 1.55;
+  text-align: left;
+}
+
+.quiz-table th {
+  background: #f1f5f9;
+  color: #1e293b;
+  font-weight: 700;
+  padding: 0.65rem 0.85rem;
+  border-bottom: 2px solid #cbd5e1;
+  white-space: nowrap;
+}
+
+.quiz-table td {
+  padding: 0.65rem 0.85rem;
+  border-bottom: 1px solid var(--border-light);
+  color: var(--text-primary);
+  vertical-align: top;
+}
+
+.quiz-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.quiz-table tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+.quiz-table tbody tr:hover {
+  background: #eff6ff;
+}
+
+.rich-p {
+  margin: 0.4rem 0;
+  line-height: 1.65;
+}
+
+.rich-bullet {
+  margin: 0.3rem 0 0.3rem 0.5rem;
+  line-height: 1.6;
+}
+
 /* Special High-Yield Callout Boxes */
 .exp-section.warning-box {
   background: var(--warning-bg);
@@ -2311,7 +2369,6 @@ body {
     flex-wrap: wrap;
     gap: 0.4rem;
     padding-bottom: 0.6rem;
-    scroll-margin-top: calc(90px + 8px);
   }
 
   .stem-text {

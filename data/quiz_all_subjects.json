@@ -53433,7 +53433,7 @@
     "category": "내과 일반",
     "theme_title": "내과 일반: Corrected reticulocyte count 를 계산하여...",
     "subspecialty": "내과 일반",
-    "stem": "Corrected reticulocyte count 를 계산하여라 (주 관식) (Hb 안줌) Hct 18, Reticulocyte 1.5% 정답: 0.6",
+    "stem": "Corrected reticulocyte count 를 계산하여라 (주관식) (Hb 안줌) Hct 18, Reticulocyte 1.5%",
     "images": [],
     "options": [],
     "correct_option_index": 0,
@@ -158306,7 +158306,7 @@
     "category": "짤",
     "theme_title": "체인-스톡스 호흡의 임상적 특징 및 호흡 깊이 변화",
     "subspecialty": "혼수 및 의식장애",
-    "stem": "60세 여성, 좌측 중뇌동맥 경색으로 인해 병원에 입원한 환자. 입원 3일 후 갑작스럽게 의식저하가 발생하였다. 신경 학적 진찰 결과 좌측 동공이 확대되었으며 그와 함께 호흡의 양상도 변화한 모습이 관찰되었다. 환자에게 나타날 수 있는 호흡의 양상을 고르시오. (그림만 주어지고 그림에 대한 설명 은 없었음) 답: 1",
+    "stem": "60세 여성, 좌측 중뇌동맥 경색으로 인해 병원에 입원한 환자. 입원 3일 후 갑작스럽게 의식저하가 발생하였다. 신경학적 진찰 결과 좌측 동공이 확대되었으며 그와 함께 호흡의 양상도 변화한 모습이 관찰되었다. 환자에게 나타날 수 있는 호흡의 양상을 고르시오.",
     "images": [
       "images/신경과/23Y_Q22_fig1.png",
       "images/신경과/23Y_Q22_fig2.png"
@@ -264378,7 +264378,7 @@
     "correct_answer": "① PTGBD",
     "explanation": {
       "title": "급성 담낭염의 응급 배액술: 경피경간 담낭배액술(PTGBD)",
-      "findings": "수술 고위험군 급성 담낭염 환자에서 초음파 유도하에 간 실질을 경유하여(transhepatic) 담낭 내강으로 피그테일 카테터를 거치하고 염증성 담즙을 체외 배액하는 경피경간 담낭배액술(PTGBD) 소견임.",
+      "findings": "수술 고위험군 급성 담낭염 환자에서 초음파 유도하에 간 실질을 경유하여(transhepatic) 담낭 내강으로 피그테일 카테터를 거치하고 염증성 담즙을 체외 배액하는 경피경간 담낭배액술(PTGBD) 소견입니다.\n\n💡 [카테터 끝(돼지꼬리, Pigtail)의 최종 위치 감별 요령]\n• PTGBD: 카테터의 꼬여 있는 끝부분이 그 커다란 주머니(담낭) 한가운데 덩그러니 들어가 있습니다.\n• PTBD: 카테터가 나뭇가지 같은 간내 담도를 따라 길게 유치되어 있거나, 협착 부위를 뚫고 내려가 십이지장 쪽으로 길게 뻗어 있습니다.",
       "differential": "• ① PTGBD ✓ [정답]: 수술 고위험군 급성 담낭염 환자에서 초음파 유도하에 간 실질을 경유하여(transhepatic) 담낭 내강으로 피그테일 카테터를 거치하고 염증성 담즙을 체외 배액하는 경피경간 담낭배액술(PTGBD) 소견임.\n• ② PTBD ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ③ TIPS ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ④ PARTO ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ⑤ BRTO ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.",
       "trap": "간내 담관을 배액하는 경피경간 담즙배액술(PTBD)과 담낭을 배액하는 PTGBD의 해부학적 위치 구별.",
       "trigger": "담낭 내 카테터 삽입 및 배액 = PTGBD!",
@@ -264390,7 +264390,7 @@
           "text": "PTGBD",
           "is_correct": true,
           "tag": "정답",
-          "reason": "수술 고위험군 급성 담낭염 환자에서 초음파 유도하에 간 실질을 경유하여(transhepatic) 담낭 내강으로 피그테일 카테터를 거치하고 염증성 담즙을 체외 배액하는 경피경간 담낭배액술(PTGBD) 소견임."
+          "reason": "수술 고위험군 급성 담낭염 환자에서 간 실질을 경유하여 담낭 내강으로 카테터를 거치해 담즙을 배액하는 경피경간 담낭배액술(PTGBD)입니다. 카테터 끝(Pigtail)이 커다란 담낭 주머니 한가운데에 덩그러니 위치합니다."
         },
         {
           "opt_idx": 1,
@@ -264398,7 +264398,7 @@
           "text": "PTBD",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "경피경간 담도배액술(PTBD)은 카테터가 담낭이 아닌 나뭇가지 같은 간내 담도를 따라 길게 유치되거나, 협착 부위를 뚫고 내려가 십이지장 쪽으로 길게 뻗어 있습니다."
         },
         {
           "opt_idx": 2,
@@ -264406,7 +264406,7 @@
           "text": "TIPS",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "경경정맥 간내문맥전신단락술(TIPS)은 간정맥과 문맥 사이에 인공 금속 스텐트를 거치하는 혈관 내 중재술로, 담즙 배액술이 아닙니다."
         },
         {
           "opt_idx": 3,
@@ -264414,7 +264414,7 @@
           "text": "PARTO",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "플러그 보조 역행성 경정맥 폐쇄술(PARTO)은 위-신장 단락에 혈관 플러그와 젤폼을 주입하여 위정맥류를 치료하는 혈관 색전술입니다."
         },
         {
           "opt_idx": 4,
@@ -264422,10 +264422,10 @@
           "text": "BRTO",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "풍선폐쇄 역행성 경정맥 폐쇄술(BRTO)은 대퇴정맥을 통해 위-신장 단락에 풍선 카테터를 거치하고 경화제를 주입하는 위정맥류 치료술입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "💡 **[담도계 인터벤션 영상 감별: PTGBD vs PTBD]**\n\n| 비교 항목 | PTGBD (경피경간 담낭배액술) | PTBD (경피경간 담도배액술) |\n| :--- | :--- | :--- |\n| **배액 대상** | **담낭 (Gallbladder)** (커다란 주머니 형태) | **담도/담관 (Bile Duct)** (간내 나뭇가지 가지 형태) |\n| **카테터 끝 (Pigtail) 위치** | **담낭 내강 한가운데 덩그러니 꼬여 있음** | **간내 담도를 따라 길게 유치되거나 협착부 지나 십이지장까지 뻗음** |\n| **주요 적응증** | 수술 고위험군 급성 담낭염(Acute cholecystitis) 감압 | 담도 폐쇄, 급성 폐쇄성 화농성 담관염(AOSC), 담도암/결석 |\n| **천자 경로** | 우측 늑간 통해 간 실질 경유(Transhepatic) 담낭 천자 | 간내 말초 담관 천자 후 간외담관 및 십이지장 방향으로 진입 |"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -264450,7 +264450,7 @@
         "text": "PTGBD",
         "is_correct": true,
         "tag": "정답",
-        "reason": "수술 고위험군 급성 담낭염 환자에서 초음파 유도하에 간 실질을 경유하여(transhepatic) 담낭 내강으로 피그테일 카테터를 거치하고 염증성 담즙을 체외 배액하는 경피경간 담낭배액술(PTGBD) 소견임."
+        "reason": "수술 고위험군 급성 담낭염 환자에서 간 실질을 경유하여 담낭 내강으로 카테터를 거치해 담즙을 배액하는 경피경간 담낭배액술(PTGBD)입니다. 카테터 끝(Pigtail)이 커다란 담낭 주머니 한가운데에 덩그러니 위치합니다."
       },
       {
         "opt_idx": 1,
@@ -264458,7 +264458,7 @@
         "text": "PTBD",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "경피경간 담도배액술(PTBD)은 카테터가 담낭이 아닌 나뭇가지 같은 간내 담도를 따라 길게 유치되거나, 협착 부위를 뚫고 내려가 십이지장 쪽으로 길게 뻗어 있습니다."
       },
       {
         "opt_idx": 2,
@@ -264466,7 +264466,7 @@
         "text": "TIPS",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "경경정맥 간내문맥전신단락술(TIPS)은 간정맥과 문맥 사이에 인공 금속 스텐트를 거치하는 혈관 내 중재술로, 담즙 배액술이 아닙니다."
       },
       {
         "opt_idx": 3,
@@ -264474,7 +264474,7 @@
         "text": "PARTO",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "플러그 보조 역행성 경정맥 폐쇄술(PARTO)은 위-신장 단락에 혈관 플러그와 젤폼을 주입하여 위정맥류를 치료하는 혈관 색전술입니다."
       },
       {
         "opt_idx": 4,
@@ -264482,7 +264482,7 @@
         "text": "BRTO",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "풍선폐쇄 역행성 경정맥 폐쇄술(BRTO)은 대퇴정맥을 통해 위-신장 단락에 풍선 카테터를 거치하고 경화제를 주입하는 위정맥류 치료술입니다."
       }
     ],
     "internal_index": "22Y-인터벤션05"
@@ -264499,7 +264499,7 @@
     "category": "반짤",
     "theme_title": "중심정맥관의 종류와 삽입 부위 비교",
     "subspecialty": "인터벤션 영상의학",
-    "stem": "다음 중 삽입 부위가 다른 하나는?",
+    "stem": "다음 중 카테터의 삽입 부위(천자 경로)가 다른 하나는?",
     "images": [],
     "options": [
       "① Hickman catheter",
@@ -264512,7 +264512,7 @@
     "correct_answer": "③ PICC (peripherally inserted central catheter)",
     "explanation": {
       "title": "중심정맥관의 종류와 삽입 부위 비교",
-      "findings": "Hickman 카테터, Chemoport, Perm 카테터 등은 내경정맥(IJV)이나 쇄골하정맥(SCV) 등 중심 정맥에 직접 천자하여 피하 터널을 통해 삽입하나, PICC는 상완의 척측피정맥(basilic v.) 등 말초 정맥(peripheral vein)을 통해 삽입되어 상대정맥까지 진입하므로 삽입 경로가 다름.",
+      "findings": "중심정맥관(Central Venous Catheter, CVC)의 삽입 부위(Puncture site / Entry route)에 따른 감별 문제입니다.\n• 중심 접근(Centrally inserted): Hickman 카테터, Chemoport, Perm 카테터, Subclavian catheter 등은 모두 내경정맥(IJV)이나 쇄골하정맥(SCV) 등 목/가슴의 '중심 정맥'을 직접 천자하여 진입합니다.\n• 말초 접근(Peripherally inserted): PICC는 유일하게 팔(상완)의 '말초 표재정맥(척측피정맥 Basilic v., 상완정맥 Brachial v.)'을 천자하여 중심정맥(상대정맥 SVC)까지 도관을 거치합니다.",
       "differential": "• ① Hickman catheter ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ② Chemoport ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ③ PICC (peripherally inserted central catheter) ✓ [정답]: Hickman 카테터, Chemoport, Perm 카테터 등은 내경정맥(IJV)이나 쇄골하정맥(SCV) 등 중심 정맥에 직접 천자하여 피하 터널을 통해 삽입하나, PICC는 상완의 척측피정맥(basilic v.) 등 말초 정맥(peripheral vein)을 통해 삽입되어 상대정맥까지 진입하므로 삽입 경로가 다름.\n• ④ Perm catheter ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ⑤ Subclavian catheter ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.",
       "trap": "PICC는 말초 정맥(상완)에서 접근하여 중심 정맥으로 거치되는 도관임.",
       "trigger": "말초 정맥을 통해 천자 삽입하는 중심정맥관 = PICC!",
@@ -264524,7 +264524,7 @@
           "text": "Hickman catheter",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "내경정맥(IJV)이나 쇄골하정맥(SCV) 등 목/가슴의 중심 정맥을 직접 천자하여 피하 터널을 형성하고 Dacron cuff로 고정하는 터널형 중심정맥관입니다. 천자 부위는 중심 정맥입니다."
         },
         {
           "opt_idx": 1,
@@ -264532,7 +264532,7 @@
           "text": "Chemoport",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "내경정맥(IJV) 또는 쇄골하정맥(SCV) 중심 정맥을 천자하여 도관을 삽입하고, 가슴 상부 피하에 약물 주입용 포트 챔버를 매립하는 완전 피하매립형 중심정맥관입니다. 천자 부위는 중심 정맥입니다."
         },
         {
           "opt_idx": 2,
@@ -264540,7 +264540,7 @@
           "text": "PICC (peripherally inserted central catheter)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "Hickman 카테터, Chemoport, Perm 카테터 등은 내경정맥(IJV)이나 쇄골하정맥(SCV) 등 중심 정맥에 직접 천자하여 피하 터널을 통해 삽입하나, PICC는 상완의 척측피정맥(basilic v.) 등 말초 정맥(peripheral vein)을 통해 삽입되어 상대정맥까지 진입하므로 삽입 경로가 다름."
+          "reason": "팔(상완)의 말초 정맥인 척측피정맥(Basilic vein)이나 상완정맥(Brachial vein)을 초음파 유도하에 천자하여 상대정맥(SVC)까지 도관을 거치하는 카테터입니다. 다른 모든 도관이 목/가슴의 중심 정맥을 직접 천자하는 반면, PICC만 유일하게 팔의 말초 정맥을 천자 부위로 사용하므로 삽입 부위가 다릅니다."
         },
         {
           "opt_idx": 3,
@@ -264548,7 +264548,7 @@
           "text": "Perm catheter",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "혈액투석용 도관으로, 주로 우측 내경정맥(IJV) 중심 정맥을 직접 천자하여 피하 터널을 통해 상대정맥/우심방 접합부로 거치하는 굵은 터널형 도관입니다. 천자 부위는 중심 정맥입니다."
         },
         {
           "opt_idx": 4,
@@ -264556,7 +264556,7 @@
           "text": "Subclavian catheter",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "쇄골 아래에서 쇄골하정맥(Subclavian vein, 중심 정맥)을 직접 천자하여 삽입하는 비터널형 단기 중심정맥관입니다. 천자 부위는 중심 정맥입니다."
         }
       ],
       "differential_general": ""
@@ -264584,7 +264584,7 @@
         "text": "Hickman catheter",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "내경정맥(IJV)이나 쇄골하정맥(SCV) 등 목/가슴의 중심 정맥을 직접 천자하여 피하 터널을 형성하고 Dacron cuff로 고정하는 터널형 중심정맥관입니다. 천자 부위는 중심 정맥입니다."
       },
       {
         "opt_idx": 1,
@@ -264592,7 +264592,7 @@
         "text": "Chemoport",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "내경정맥(IJV) 또는 쇄골하정맥(SCV) 중심 정맥을 천자하여 도관을 삽입하고, 가슴 상부 피하에 약물 주입용 포트 챔버를 매립하는 완전 피하매립형 중심정맥관입니다. 천자 부위는 중심 정맥입니다."
       },
       {
         "opt_idx": 2,
@@ -264600,7 +264600,7 @@
         "text": "PICC (peripherally inserted central catheter)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "Hickman 카테터, Chemoport, Perm 카테터 등은 내경정맥(IJV)이나 쇄골하정맥(SCV) 등 중심 정맥에 직접 천자하여 피하 터널을 통해 삽입하나, PICC는 상완의 척측피정맥(basilic v.) 등 말초 정맥(peripheral vein)을 통해 삽입되어 상대정맥까지 진입하므로 삽입 경로가 다름."
+        "reason": "팔(상완)의 말초 정맥인 척측피정맥(Basilic vein)이나 상완정맥(Brachial vein)을 초음파 유도하에 천자하여 상대정맥(SVC)까지 도관을 거치하는 카테터입니다. 다른 모든 도관이 목/가슴의 중심 정맥을 직접 천자하는 반면, PICC만 유일하게 팔의 말초 정맥을 천자 부위로 사용하므로 삽입 부위가 다릅니다."
       },
       {
         "opt_idx": 3,
@@ -264608,7 +264608,7 @@
         "text": "Perm catheter",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "혈액투석용 도관으로, 주로 우측 내경정맥(IJV) 중심 정맥을 직접 천자하여 피하 터널을 통해 상대정맥/우심방 접합부로 거치하는 굵은 터널형 도관입니다. 천자 부위는 중심 정맥입니다."
       },
       {
         "opt_idx": 4,
@@ -264616,7 +264616,7 @@
         "text": "Subclavian catheter",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "쇄골 아래에서 쇄골하정맥(Subclavian vein, 중심 정맥)을 직접 천자하여 삽입하는 비터널형 단기 중심정맥관입니다. 천자 부위는 중심 정맥입니다."
       }
     ],
     "internal_index": "22Y-인터벤션06"
@@ -264633,7 +264633,7 @@
     "category": "반짤",
     "theme_title": "뇌혈관 중재시술(Neurointervention)의 기본 천자 부위",
     "subspecialty": "인터벤션 영상의학",
-    "stem": "Neurointervention에서 가장 흔하게 사용되는 puncture site는?",
+    "stem": "Neurointervention(신경중재치료)에서 가장 흔하게 사용되는 표준 천자 부위(puncture site)는?",
     "images": [],
     "options": [
       "① Common iliac artery",
@@ -264646,7 +264646,7 @@
     "correct_answer": "⑤ Common femoral artery",
     "explanation": {
       "title": "뇌혈관 중재시술(Neurointervention)의 기본 천자 부위",
-      "findings": "뇌혈관 조영술(TFCA) 및 뇌동맥류 코일색전술, 혈전제거술 등 대부분의 신경중재시술에서 서혜인대 직하방의 총대퇴동맥(Common femoral artery, CFA)이 혈관 직경이 크고 지혈이 용이하여 가장 표준적인 천자 부위로 이용됨.",
+      "findings": "뇌혈관조영술(TFCA), 뇌동맥류 코일색전술, 급성 허혈성 뇌경색 혈전제거술 등 대부분의 신경중재시술에서 카테터 삽입을 위한 표준 접근로는 서혜인대 직하방의 총대퇴동맥(Common femoral artery, CFA)입니다.\n• CFA의 장점: 직경이 7~8mm로 굵어 굵은 시스(Sheath) 거치가 용이하고, 바로 뒤에 단단한 대퇴골두(Femoral head)가 받쳐주고 있어 시술 후 뼈를 향해 단단히 압박 지혈(Manual compression)할 수 있어 가장 안전합니다.",
       "differential": "• ① Common iliac artery ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ② Internal iliac artery ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ③ External iliac artery ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ④ Deep femoral artery ✗ [오답]: 해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다.\n• ⑤ Common femoral artery ✓ [정답]: 뇌혈관 조영술(TFCA) 및 뇌동맥류 코일색전술, 혈전제거술 등 대부분의 신경중재시술에서 서혜인대 직하방의 총대퇴동맥(Common femoral artery, CFA)이 혈관 직경이 크고 지혈이 용이하여 가장 표준적인 천자 부위로 이용됨.",
       "trap": "표재성/심부 대퇴동맥 분지 상부의 대퇴골두(femoral head) 중심부 위 총대퇴동맥을 천자함.",
       "trigger": "신경중재시술의 표준 동맥 천자 부위 = 총대퇴동맥(Common femoral artery, CFA)!",
@@ -264658,7 +264658,7 @@
           "text": "Common iliac artery",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "총장골동맥은 골반 깊숙한 후복막강(Retroperitoneum) 내에 위치하여 피부에서 경피 천자가 불가능하며, 출혈 시 물리적 압박 지혈이 불가능합니다."
         },
         {
           "opt_idx": 1,
@@ -264666,7 +264666,7 @@
           "text": "Internal iliac artery",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "내장골동맥은 골반강 장기(방광, 자궁 등)로 분지하는 골반 깊은 혈관으로, 외부 천자가 불가능하며 혈관 조영술 접근로로 사용되지 않습니다."
         },
         {
           "opt_idx": 2,
@@ -264674,7 +264674,7 @@
           "text": "External iliac artery",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "외장골동맥은 서혜인대(Inguinal ligament) 상방에 위치합니다. 서혜인대보다 높은 부위를 천자(High puncture)하면 후방에 뼈 지지대가 없어 압박 지혈이 불가능하여 치명적인 후복강 혈종(Retroperitoneal hematoma) 위험이 매우 높으므로 반드시 피해야 합니다."
         },
         {
           "opt_idx": 3,
@@ -264682,7 +264682,7 @@
           "text": "Deep femoral artery",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+          "reason": "심대퇴동맥(Profunda femoris artery)은 총대퇴동맥에서 갈라져 나오는 가지로 혈관 직경이 작고 위치가 깊어 천자가 어렵고 가성동맥류 위험이 높아 1차 표준 접근로로 사용하지 않습니다."
         },
         {
           "opt_idx": 4,
@@ -264690,7 +264690,7 @@
           "text": "Common femoral artery",
           "is_correct": true,
           "tag": "정답",
-          "reason": "뇌혈관 조영술(TFCA) 및 뇌동맥류 코일색전술, 혈전제거술 등 대부분의 신경중재시술에서 서혜인대 직하방의 총대퇴동맥(Common femoral artery, CFA)이 혈관 직경이 크고 지혈이 용이하여 가장 표준적인 천자 부위로 이용됨."
+          "reason": "서혜인대(Inguinal ligament) 직하방의 총대퇴동맥(CFA)은 신경중재술의 골드 스탠다드 천자 부위입니다. 직경이 7~8mm로 굵어 유도관 삽입이 용이하며, 바로 뒤에 대퇴골두(Femoral head)가 위치해 시술 후 뼈를 향해 확실하게 압박 지혈할 수 있어 가장 안전합니다."
         }
       ],
       "differential_general": ""
@@ -264718,7 +264718,7 @@
         "text": "Common iliac artery",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "총장골동맥은 골반 깊숙한 후복막강(Retroperitoneum) 내에 위치하여 피부에서 경피 천자가 불가능하며, 출혈 시 물리적 압박 지혈이 불가능합니다."
       },
       {
         "opt_idx": 1,
@@ -264726,7 +264726,7 @@
         "text": "Internal iliac artery",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "내장골동맥은 골반강 장기(방광, 자궁 등)로 분지하는 골반 깊은 혈관으로, 외부 천자가 불가능하며 혈관 조영술 접근로로 사용되지 않습니다."
       },
       {
         "opt_idx": 2,
@@ -264734,7 +264734,7 @@
         "text": "External iliac artery",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "외장골동맥은 서혜인대(Inguinal ligament) 상방에 위치합니다. 서혜인대보다 높은 부위를 천자(High puncture)하면 후방에 뼈 지지대가 없어 압박 지혈이 불가능하여 치명적인 후복강 혈종(Retroperitoneal hematoma) 위험이 매우 높으므로 반드시 피해야 합니다."
       },
       {
         "opt_idx": 3,
@@ -264742,7 +264742,7 @@
         "text": "Deep femoral artery",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
+        "reason": "심대퇴동맥(Profunda femoris artery)은 총대퇴동맥에서 갈라져 나오는 가지로 혈관 직경이 작고 위치가 깊어 천자가 어렵고 가성동맥류 위험이 높아 1차 표준 접근로로 사용하지 않습니다."
       },
       {
         "opt_idx": 4,
@@ -264750,7 +264750,7 @@
         "text": "Common femoral artery",
         "is_correct": true,
         "tag": "정답",
-        "reason": "뇌혈관 조영술(TFCA) 및 뇌동맥류 코일색전술, 혈전제거술 등 대부분의 신경중재시술에서 서혜인대 직하방의 총대퇴동맥(Common femoral artery, CFA)이 혈관 직경이 크고 지혈이 용이하여 가장 표준적인 천자 부위로 이용됨."
+        "reason": "서혜인대(Inguinal ligament) 직하방의 총대퇴동맥(CFA)은 신경중재술의 골드 스탠다드 천자 부위입니다. 직경이 7~8mm로 굵어 유도관 삽입이 용이하며, 바로 뒤에 대퇴골두(Femoral head)가 위치해 시술 후 뼈를 향해 확실하게 압박 지혈할 수 있어 가장 안전합니다."
       }
     ],
     "internal_index": "22Y-인터벤션07"
@@ -271942,7 +271942,7 @@
     "category": "짤",
     "theme_title": "진단을 위해 해야 할 처치는?",
     "subspecialty": "흉부 영상의학",
-    "stem": "(야마) 진단을 위해 해야 할 처치는? l AFB stain (항산균검사)",
+    "stem": "진단을 위해 우선적으로 시행해야 할 검사 및 처치는?",
     "images": [
       "images/영상의학과/20Y_Q05_fig1.png"
     ],
@@ -274055,7 +274055,7 @@
     "category": "탈",
     "theme_title": "대동맥 질환 중 stent-graft 할 수",
     "subspecialty": "인터벤션 영상의학",
-    "stem": "(주) 대동맥 질환 중 stent-graft 할 수 있는 질환 3개 쓰시오 (답: 아래 티칭파일 참고하세요!)",
+    "stem": "(주관식) 대동맥 질환 중 스텐트 그라프트(Stent-graft, EVAR/TEVAR) 시술을 시행할 수 있는 적응 질환 3가지를 기술하시오.",
     "images": [
       "images/영상의학과/20Y_Q23_fig1.png"
     ],
@@ -274170,7 +274170,7 @@
     "category": "탈",
     "theme_title": "㈜ PTBD를 응급으로 시행해야 하는",
     "subspecialty": "인터벤션 영상의학",
-    "stem": "㈜ PTBD를 응급으로 시행해야 하는 경우 2가지 쓰시오. 답: 담도염에 의한 담도폐쇄 가려움증(Pruritus) 동반시 Septic cholecystitis",
+    "stem": "(주관식) PTBD(경피경간 담도배액술)를 응급으로 시행해야 하는 임상 적응증 2가지를 기술하시오.",
     "images": [],
     "options": [
       "① 급성 폐쇄성 화농성 담관염 (AOSC)",
@@ -274182,7 +274182,7 @@
     "correct_answer": "① 급성 폐쇄성 화농성 담관염 (AOSC)",
     "explanation": {
       "title": "[단독 기출] ㈜ PTBD를 응급으로 시행해야 하는 ",
-      "findings": "기출 원문 (20Y-24):\n㈜ PTBD를 응급으로 시행해야 하는 \n경우 2가지 쓰시오. \n답: 담도염에 의한 담도폐쇄 \n가려움증(Pruritus) 동반시 \nSeptic cholecystitis",
+      "findings": "PTBD 응급 적응증: 담도염에 의한 담도 폐쇄, 가려움증(Pruritus) 동반 시, 패혈성 담낭염(Septic cholecystitis) 또는 급성 폐쇄성 화농성 담관염(AOSC).",
       "differential": "① 담도염을 동반한 담도 폐쇄 — 담석이나 종양으로 담관이 막혀 급성 화농성 담관염(acute suppurative cholangitis)이 발생하면 패혈성 쇼크로 급격히 악화되므로, 감압을 위해 응급 경피경간 담도배액술(PTBD)을 시행해야 합니다 → 정답.\n② 패혈성 담도 감압 및 ERCP 실패 — 담도 폐쇄로 인한 패혈증(sepsis) 또는 내시경적 역행성 배액(ERCP)이 불가능하거나 실패한 급성 폐쇄성 담관염에서 응급 담도 감압을 위해 필수적입니다.\n③ 불응성 소양증(가려움증) 완화 — 악성 담도 폐쇄 환자에서 빌리루빈 상승에 따른 심한 가려움증(pruritus) 조절은 환자의 삶의 질을 위한 비응급 선택적(elective/palliative) 적응증입니다.",
       "trap": "보기 소거법 적용.",
       "trigger": "단독 출제 문항 핵심 키워드 판독.",
@@ -275524,7 +275524,7 @@
     "category": "반짤",
     "theme_title": "뇌경색(Infarction) 부위와 혈관 지배 영역: 내포 후각과 전맥락총동맥",
     "subspecialty": "신경 영상의학",
-    "stem": "다음의 brain MRI 영상을 보고 infarction 부위(-> internal capsule posterior limb) 및 그곳과 관련된 혈관을 옳게 짝지은 것을 고르시오. (완전 똑같은 사진은 아니지만, 보면 바로 internal capsule 부위인거 알 수 있었음.)",
+    "stem": "다음의 brain MRI 영상을 보고 infarction 부위 및 그곳과 관련된 혈관을 옳게 짝지은 것을 고르시오.",
     "images": [
       "images/영상의학과/20Y_Q35_fig1.png"
     ],
@@ -275641,22 +275641,22 @@
     "category": "탈",
     "theme_title": "다음의 brain MRI에서 빨간 상자로",
     "subspecialty": "신경 영상의학",
-    "stem": "다음의 brain MRI에서 빨간 상자로 표시한 부위(-> Cavernous sinus)의 이름 및 그곳을 지나지 않는 신경을 옳게 짝지은 것을 고르시오.",
+    "stem": "다음의 brain MRI에서 빨간 상자로 표시한 부위의 이름 및 그곳을 지나지 않는 신경을 옳게 짝지은 것을 고르시오.",
     "images": [
       "images/영상의학과/20Y_Q36_fig1.png"
     ],
     "options": [
-      "Transverse sinus - Maxillary n.",
-      "Cavernous sinus - Abducens n.",
-      "Transverse sinus - Optic n.",
-      "Cavernous sinus - Oculomotor n.",
-      "Cavernous sinus - Mandibular n."
+      "① Transverse sinus - Maxillary n.",
+      "② Cavernous sinus - Abducens n.",
+      "③ Transverse sinus - Optic n.",
+      "④ Cavernous sinus - Oculomotor n.",
+      "⑤ Cavernous sinus - Mandibular n."
     ],
-    "correct_option_index": 0,
-    "correct_answer": "Transverse sinus - Maxillary n.",
+    "correct_option_index": 4,
+    "correct_answer": "⑤ Cavernous sinus - Mandibular n.",
     "explanation": {
       "title": "[단독 기출] 다음의 brain MRI에서 빨간 상자로 ",
-      "findings": "기출 원문 (20Y-36):\n다음의 brain MRI에서 빨간 상자로 \n표시한 부위(-> Cavernous sinus)의 이름 \n및 그곳을 지나지 않는 신경을 옳게 짝지은 \n것을 고르시오. \n \nl Transverse sinus - Maxillary n. \nl Cavernous sinus - Abducens n. \nl Transverse sinus - Optic n. \nl Cavernous sinus - Oculomotor n. \nl Cavernous sinus - Man",
+      "findings": "강조된 부위는 접형골(Sphenoid bone) 체부 양측에 위치한 해면정맥동(Cavernous sinus)입니다.\n• 해면정맥동 통과 구조물:\n  - 외측벽(Lateral wall): 동안신경(CN III), 활차신경(CN IV), 안신경(Ophthalmic n., CN V1), 상악신경(Maxillary n., CN V2)\n  - 정맥동 내부(Internal): 외전신경(Abducens n., CN VI), 내경동맥(ICA)\n• 통과하지 않는 신경:\n  - 삼차신경 제3분지인 하악신경(Mandibular n., CN V3)은 해면정맥동을 거치지 않고 난원공(Foramen ovale)을 통해 두개강 밖으로 직접 빠져나갑니다.",
       "differential": "① Cavernous sinus — Mandibular n. — 강조된 부위는 해면정맥동(cavernous sinus)이며, CN III, IV, V1, V2, VI 및 ICA가 통과하지만 삼차신경 제3분지인 하악신경(Mandibular n., CN V3)은 난원공(foramen ovale)으로 직접 빠져나가 통과하지 않음 → 정답.",
       "trap": "보기 소거법 적용.",
       "trigger": "단독 출제 문항 핵심 키워드 판독.",
@@ -275666,9 +275666,9 @@
           "opt_idx": 0,
           "opt_num": "①",
           "text": "Transverse sinus - Maxillary n.",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "강조된 부위는 해면정맥동(cavernous sinus)이며, CN III, IV, V1, V2, VI 및 ICA가 통과하지만 삼차신경 제3분지인 하악신경(Mandibular n., CN V3)은 난원공(foramen ovale)으로 직접 빠져나가 통과하지 않음 → 정답."
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "표시된 부위는 안장(Sella) 양측의 해면정맥동(Cavernous sinus)이며, 후두골 내면에 위치하는 횡정맥동(Transverse sinus)이 아닙니다."
         },
         {
           "opt_idx": 1,
@@ -275676,7 +275676,7 @@
           "text": "Cavernous sinus - Abducens n.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "강조된 부위는 해면정맥동(cavernous sinus)이며, CN III, IV, V1, V2, VI 및 ICA가 통과하지만 삼차신경 제3분지인 하악신경(Mandibular n., CN V3)은 난원공(foramen ovale)으로 직접 빠져나가 통과하지 않음 → 정답."
+          "reason": "부위는 해면정맥동이 맞으나, 외전신경(Abducens n., CN VI)은 해면정맥동 내부에서 내경동맥(ICA) 바로 외측을 주행하므로 통과하는 신경입니다."
         },
         {
           "opt_idx": 2,
@@ -275684,7 +275684,7 @@
           "text": "Transverse sinus - Optic n.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+          "reason": "횡정맥동이 아니며, 시신경(Optic n., CN II)은 시신경관(Optic canal)을 통과하므로 해면정맥동과 무관합니다."
         },
         {
           "opt_idx": 3,
@@ -275692,15 +275692,15 @@
           "text": "Cavernous sinus - Oculomotor n.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "강조된 부위는 해면정맥동(cavernous sinus)이며, CN III, IV, V1, V2, VI 및 ICA가 통과하지만 삼차신경 제3분지인 하악신경(Mandibular n., CN V3)은 난원공(foramen ovale)으로 직접 빠져나가 통과하지 않음 → 정답."
+          "reason": "부위는 해면정맥동이 맞으나, 동안신경(Oculomotor n., CN III)은 해면정맥동 외측벽(Lateral wall)의 최상단을 주행하므로 통과하는 신경입니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
           "text": "Cavernous sinus - Mandibular n.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "강조된 부위는 해면정맥동(cavernous sinus)이며, CN III, IV, V1, V2, VI 및 ICA가 통과하지만 삼차신경 제3분지인 하악신경(Mandibular n., CN V3)은 난원공(foramen ovale)으로 직접 빠져나가 통과하지 않음 → 정답."
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "표시된 부위는 해면정맥동(Cavernous sinus)입니다. 해면정맥동에는 CN III, IV, V1, V2, VI 및 ICA가 통과합니다. 반면 삼차신경의 제3분지인 하악신경(Mandibular n., CN V3)은 해면정맥동을 거치지 않고 난원공(Foramen ovale)을 통해 두개강 외로 빠져나가므로 통과하지 않는 신경입니다."
         }
       ],
       "differential_general": ""
@@ -275708,7 +275708,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      4
     ],
     "freq_count": 1,
     "rate": 16,
@@ -275723,9 +275723,9 @@
         "opt_idx": 0,
         "opt_num": "①",
         "text": "Transverse sinus - Maxillary n.",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "강조된 부위는 해면정맥동(cavernous sinus)이며, CN III, IV, V1, V2, VI 및 ICA가 통과하지만 삼차신경 제3분지인 하악신경(Mandibular n., CN V3)은 난원공(foramen ovale)으로 직접 빠져나가 통과하지 않음 → 정답."
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "표시된 부위는 안장(Sella) 양측의 해면정맥동(Cavernous sinus)이며, 후두골 내면에 위치하는 횡정맥동(Transverse sinus)이 아닙니다."
       },
       {
         "opt_idx": 1,
@@ -275733,7 +275733,7 @@
         "text": "Cavernous sinus - Abducens n.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "강조된 부위는 해면정맥동(cavernous sinus)이며, CN III, IV, V1, V2, VI 및 ICA가 통과하지만 삼차신경 제3분지인 하악신경(Mandibular n., CN V3)은 난원공(foramen ovale)으로 직접 빠져나가 통과하지 않음 → 정답."
+        "reason": "부위는 해면정맥동이 맞으나, 외전신경(Abducens n., CN VI)은 해면정맥동 내부에서 내경동맥(ICA) 바로 외측을 주행하므로 통과하는 신경입니다."
       },
       {
         "opt_idx": 2,
@@ -275741,7 +275741,7 @@
         "text": "Transverse sinus - Optic n.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+        "reason": "횡정맥동이 아니며, 시신경(Optic n., CN II)은 시신경관(Optic canal)을 통과하므로 해면정맥동과 무관합니다."
       },
       {
         "opt_idx": 3,
@@ -275749,15 +275749,15 @@
         "text": "Cavernous sinus - Oculomotor n.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "강조된 부위는 해면정맥동(cavernous sinus)이며, CN III, IV, V1, V2, VI 및 ICA가 통과하지만 삼차신경 제3분지인 하악신경(Mandibular n., CN V3)은 난원공(foramen ovale)으로 직접 빠져나가 통과하지 않음 → 정답."
+        "reason": "부위는 해면정맥동이 맞으나, 동안신경(Oculomotor n., CN III)은 해면정맥동 외측벽(Lateral wall)의 최상단을 주행하므로 통과하는 신경입니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
         "text": "Cavernous sinus - Mandibular n.",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "강조된 부위는 해면정맥동(cavernous sinus)이며, CN III, IV, V1, V2, VI 및 ICA가 통과하지만 삼차신경 제3분지인 하악신경(Mandibular n., CN V3)은 난원공(foramen ovale)으로 직접 빠져나가 통과하지 않음 → 정답."
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "표시된 부위는 해면정맥동(Cavernous sinus)입니다. 해면정맥동에는 CN III, IV, V1, V2, VI 및 ICA가 통과합니다. 반면 삼차신경의 제3분지인 하악신경(Mandibular n., CN V3)은 해면정맥동을 거치지 않고 난원공(Foramen ovale)을 통해 두개강 외로 빠져나가므로 통과하지 않는 신경입니다."
       }
     ],
     "section": "신경",
@@ -275773,20 +275773,21 @@
     "category": "반짤",
     "theme_title": "(보기 순서 바뀐 야먀) 1. Normal",
     "subspecialty": "근골격 영상의학",
-    "stem": "(보기 순서 바뀐 야먀) 1. Normal pelvis의plain film이다. A~D 각각에 부착하는 구조물로 옳은 것은? l A: rectus femoris B: sartorius C: iliopsoas D:gluteus medius",
+    "stem": "Normal pelvis의 plain film이다. A~D 각각에 부착하는 구조물로 옳은 것은?",
     "images": [
       "images/영상의학과/20Y_Q37_fig1.png"
     ],
     "options": [
-      "① A: rectus femoris B: sartorius C: iliopsoas D: gluteus medius",
-      "② A: sartorius B: rectus femoris C: gluteus medius D: iliopsoas",
-      "③ A: iliopsoas B: sartorius C: rectus femoris D: gluteus medius"
+      "① A: rectus femoris, B: sartorius, C: iliopsoas, D: gluteus medius",
+      "② A: sartorius, B: rectus femoris, C: gluteus medius, D: iliopsoas",
+      "③ A: iliopsoas, B: sartorius, C: rectus femoris, D: gluteus medius",
+      "④ A: rectus femoris, B: iliopsoas, C: sartorius, D: gluteus medius"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① A: rectus femoris B: sartorius C: iliopsoas D: gluteus medius",
+    "correct_answer": "① A: rectus femoris, B: sartorius, C: iliopsoas, D: gluteus medius",
     "explanation": {
       "title": "[단독 기출] (보기 순서 바뀐 야먀) 1. Normal ",
-      "findings": "골반 X선 건/근육 부착부: (A) AIIS=대퇴직근, (B) ASIS=봉공근, (C) 소전자=장요근, (D) 대전자=중둔근",
+      "findings": "골반 단순 X선(Pelvis AP) 상 주요 근육 및 건의 견인골단(Apophysis) 부착부:\n• (A) 전하장골극 (AIIS, Anterior inferior iliac spine): 대퇴직근 (Rectus femoris)\n• (B) 전상장골극 (ASIS, Anterior superior iliac spine): 봉공근 (Sartorius)\n• (C) 대퇴골 소전자 (Lesser trochanter): 장요근 (Iliopsoas)\n• (D) 대퇴골 대전자 (Greater trochanter): 중둔근 (Gluteus medius)",
       "differential": "① 골반 X선 근육 부착부 매칭 — (A) 전하장골극(AIIS)은 대퇴직근(Rectus femoris), (B) 전상장골극(ASIS)은 봉공근(Sartorius), (C) 소전자는 장요근(Iliopsoas), (D) 대전자는 중둔근(Gluteus medius) 부착부로 정확히 일치합니다 → 정답.",
       "trap": "보기 소거법 적용.",
       "trigger": "단독 출제 문항 핵심 키워드 판독.",
@@ -275795,26 +275796,34 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "A: rectus femoris B: sartorius C: iliopsoas D: gluteus medius",
+          "text": "A: rectus femoris, B: sartorius, C: iliopsoas, D: gluteus medius",
           "is_correct": true,
           "tag": "정답",
-          "reason": "(A) 전하장골극(AIIS)은 대퇴직근(Rectus femoris), (B) 전상장골극(ASIS)은 봉공근(Sartorius), (C) 소전자는 장요근(Iliopsoas), (D) 대전자는 중둔근(Gluteus medius) 부착부로 정확히 일치합니다 → 정답."
+          "reason": "(A) 전하장골극(AIIS)은 대퇴직근(Rectus femoris), (B) 전상장골극(ASIS)은 봉공근(Sartorius), (C) 소전자는 장요근(Iliopsoas), (D) 대전자는 중둔근(Gluteus medius) 부착부로 정확히 일치합니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "A: sartorius B: rectus femoris C: gluteus medius D: iliopsoas",
+          "text": "A: sartorius, B: rectus femoris, C: gluteus medius, D: iliopsoas",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+          "reason": "ASIS가 봉공근, AIIS가 대퇴직근 부착부이므로 A와 B 매칭이 바뀌어 오답입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "A: iliopsoas B: sartorius C: rectus femoris D: gluteus medius",
+          "text": "A: iliopsoas, B: sartorius, C: rectus femoris, D: gluteus medius",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+          "reason": "장요근은 소전자(C)에 부착하며 AIIS(A)에 부착하지 않습니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "A: rectus femoris, B: iliopsoas, C: sartorius, D: gluteus medius",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "ASIS(B)는 봉공근 부착부이며 장요근 부착부가 아닙니다."
         }
       ],
       "differential_general": ""
@@ -275838,26 +275847,34 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A: rectus femoris B: sartorius C: iliopsoas D: gluteus medius",
+        "text": "A: rectus femoris, B: sartorius, C: iliopsoas, D: gluteus medius",
         "is_correct": true,
         "tag": "정답",
-        "reason": "(A) 전하장골극(AIIS)은 대퇴직근(Rectus femoris), (B) 전상장골극(ASIS)은 봉공근(Sartorius), (C) 소전자는 장요근(Iliopsoas), (D) 대전자는 중둔근(Gluteus medius) 부착부로 정확히 일치합니다 → 정답."
+        "reason": "(A) 전하장골극(AIIS)은 대퇴직근(Rectus femoris), (B) 전상장골극(ASIS)은 봉공근(Sartorius), (C) 소전자는 장요근(Iliopsoas), (D) 대전자는 중둔근(Gluteus medius) 부착부로 정확히 일치합니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "A: sartorius B: rectus femoris C: gluteus medius D: iliopsoas",
+        "text": "A: sartorius, B: rectus femoris, C: gluteus medius, D: iliopsoas",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+        "reason": "ASIS가 봉공근, AIIS가 대퇴직근 부착부이므로 A와 B 매칭이 바뀌어 오답입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "A: iliopsoas B: sartorius C: rectus femoris D: gluteus medius",
+        "text": "A: iliopsoas, B: sartorius, C: rectus femoris, D: gluteus medius",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+        "reason": "장요근은 소전자(C)에 부착하며 AIIS(A)에 부착하지 않습니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "A: rectus femoris, B: iliopsoas, C: sartorius, D: gluteus medius",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "ASIS(B)는 봉공근 부착부이며 장요근 부착부가 아닙니다."
       }
     ],
     "section": "MSK",
@@ -275873,20 +275890,21 @@
     "category": "탈",
     "theme_title": "(보기 순서 바뀐 야먀) Chronic",
     "subspecialty": "근골격 영상의학",
-    "stem": "(보기 순서 바뀐 야먀) Chronic osteomyelitis의MR 영상이다. A~D 각각에 알맞은 용어는? l A: cloaca B: sinus tract C: abscess D: involucrum",
+    "stem": "Chronic osteomyelitis(만성 골수염)의 MR 영상이다. A~D 각각에 알맞은 용어로 옳은 것은?",
     "images": [
       "images/영상의학과/20Y_Q38_fig1.png"
     ],
     "options": [
-      "① A: cloaca B: sinus tract C: abscess D: involucrum",
-      "② A: involucrum B: cloaca C: abscess D: sinus tract",
-      "③ A: abscess B: sinus tract C: cloaca D: involucrum"
+      "① A: cloaca, B: sinus tract, C: abscess, D: involucrum",
+      "② A: involucrum, B: cloaca, C: abscess, D: sinus tract",
+      "③ A: abscess, B: sinus tract, C: cloaca, D: involucrum",
+      "④ A: cloaca, B: abscess, C: sinus tract, D: involucrum"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① A: cloaca B: sinus tract C: abscess D: involucrum",
+    "correct_answer": "① A: cloaca, B: sinus tract, C: abscess, D: involucrum",
     "explanation": {
       "title": "[단독 기출] (보기 순서 바뀐 야먀) Chronic ",
-      "findings": "만성 골수염 MR 영상 소견: (A) Cloaca(배농구), (B) Sinus tract(누공), (C) Abscess(농양), (D) Involucrum(골포)",
+      "findings": "만성 골수염(Chronic osteomyelitis)의 특징적 영상의학적 병리 소견:\n• (A) Cloaca (배농구): 피질골(Cortex)의 배농 결손 구멍으로 골수강 내 농양이 빠져나가는 통로\n• (B) Sinus tract (누공/누관): 배농구에서 연부조직을 뚫고 체외 피부까지 연결되는 통로\n• (C) Abscess (농양): 골수강 및 연부조직 내 액체 저류 농양\n• (D) Involucrum (골포): 괴사된 죽은 뼈(부골, Sequestrum) 주위를 둘러싸며 자라난 살아있는 신생골 외피",
       "differential": "① 만성 골수염 MRI 소견 매칭 — (A) 피질골의 배농 결손 구멍인 배농구(Cloaca), (B) 연부조직을 뚫고 체외로 연결되는 누공(Sinus tract), (C) 골수강 내 농양(Abscess), (D) 괴사 부골을 둘러싸는 신생골 외피인 골포(Involucrum)로 정확히 일치합니다 → 정답.",
       "trap": "보기 소거법 적용.",
       "trigger": "단독 출제 문항 핵심 키워드 판독.",
@@ -275895,26 +275913,34 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "A: cloaca B: sinus tract C: abscess D: involucrum",
+          "text": "A: cloaca, B: sinus tract, C: abscess, D: involucrum",
           "is_correct": true,
           "tag": "정답",
-          "reason": "(A) 피질골의 배농 결손 구멍인 배농구(Cloaca), (B) 연부조직을 뚫고 체외로 연결되는 누공(Sinus tract), (C) 골수강 내 농양(Abscess), (D) 괴사 부골을 둘러싸는 신생골 외피인 골포(Involucrum)로 정확히 일치합니다 → 정답."
+          "reason": "(A) 피질골 배농 결손 구멍인 배농구(Cloaca), (B) 연부조직을 관통하는 누공(Sinus tract), (C) 농양(Abscess), (D) 신생골 외피인 골포(Involucrum)로 정확히 일치합니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "A: involucrum B: cloaca C: abscess D: sinus tract",
+          "text": "A: involucrum, B: cloaca, C: abscess, D: sinus tract",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+          "reason": "골포(Involucrum)는 신생골 외피(D)이며 결손 구멍(A)이 아닙니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "A: abscess B: sinus tract C: cloaca D: involucrum",
+          "text": "A: abscess, B: sinus tract, C: cloaca, D: involucrum",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+          "reason": "A는 농양이 아니라 피질골의 배농 구멍(Cloaca)입니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "A: cloaca, B: abscess, C: sinus tract, D: involucrum",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "B와 C의 순서가 바뀌었습니다. B는 연부조직을 뚫고 나가는 누공, C는 골수강 내 농양입니다."
         }
       ],
       "differential_general": ""
@@ -275936,26 +275962,34 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A: cloaca B: sinus tract C: abscess D: involucrum",
+        "text": "A: cloaca, B: sinus tract, C: abscess, D: involucrum",
         "is_correct": true,
         "tag": "정답",
-        "reason": "(A) 피질골의 배농 결손 구멍인 배농구(Cloaca), (B) 연부조직을 뚫고 체외로 연결되는 누공(Sinus tract), (C) 골수강 내 농양(Abscess), (D) 괴사 부골을 둘러싸는 신생골 외피인 골포(Involucrum)로 정확히 일치합니다 → 정답."
+        "reason": "(A) 피질골 배농 결손 구멍인 배농구(Cloaca), (B) 연부조직을 관통하는 누공(Sinus tract), (C) 농양(Abscess), (D) 신생골 외피인 골포(Involucrum)로 정확히 일치합니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "A: involucrum B: cloaca C: abscess D: sinus tract",
+        "text": "A: involucrum, B: cloaca, C: abscess, D: sinus tract",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+        "reason": "골포(Involucrum)는 신생골 외피(D)이며 결손 구멍(A)이 아닙니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "A: abscess B: sinus tract C: cloaca D: involucrum",
+        "text": "A: abscess, B: sinus tract, C: cloaca, D: involucrum",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+        "reason": "A는 농양이 아니라 피질골의 배농 구멍(Cloaca)입니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "A: cloaca, B: abscess, C: sinus tract, D: involucrum",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "B와 C의 순서가 바뀌었습니다. B는 연부조직을 뚫고 나가는 누공, C는 골수강 내 농양입니다."
       }
     ],
     "section": "MSK",
@@ -276301,20 +276335,20 @@
     "category": "반짤",
     "theme_title": "살 여자, 3년전부터 아침에 손이",
     "subspecialty": "근골격 영상의학",
-    "stem": "55살 여자, 3년전부터 아침에 손이 뻣뻣하여 내원함. 옳은 것을 고르시오. 양손 x-ray 사진. (RA로 추정됨)",
+    "stem": "55세 여성, 3년 전부터 아침에 손이 뻣뻣하여 내원하였다. 옳은 것을 고르시오. (사진 없음)",
     "images": [],
     "options": [
-      "관절 사이가 좁아진 것은 활액막염의 소견이다",
-      "골절이 많이 발생하여 골생성이 된 것으로 보인다",
-      "골유합이 된 것으로 보인다",
-      "관절 주변 연부조직의 종창이 있는 것으로 보아 급성 소견이다",
-      "근위부 수지관절은 침범하지 않은 것으로 보인다"
+      "① 관절 사이가 좁아진 것은 활액막염의 소견이다",
+      "② 골절이 많이 발생하여 골생성이 된 것으로 보인다",
+      "③ 골유합이 된 것으로 보인다",
+      "④ 관절 주변 연부조직의 종창이 있는 것으로 보아 급성 소견이다",
+      "⑤ 근위부 수지관절은 침범하지 않은 것으로 보인다"
     ],
     "correct_option_index": 0,
-    "correct_answer": "관절 사이가 좁아진 것은 활액막염의 소견이다",
+    "correct_answer": "① 관절 사이가 좁아진 것은 활액막염의 소견이다",
     "explanation": {
       "title": "[단독 기출] 살 여자, 3년전부터 아침에 손이 ",
-      "findings": "55세 여성 3년 전부터 아침 손 뻣뻣함(조조강직), 양손 X-ray 소견 → 류마티스 관절염(RA), 활액막염에 의한 관절강 협착",
+      "findings": "55세 여성에서 3년 전부터 시작된 아침 손 뻣뻣함(Morning stiffness, 조조강직)은 전형적인 류마티스 관절염(Rheumatoid arthritis, RA) 증례입니다.\n• RA의 영상의학적 특징: 만성 증식성 활액막염(Synovitis)으로 판누스(Pannus)가 형성되어 연골을 대칭적이고 균일하게 파괴하므로 관절강 협착(Joint space narrowing)과 변연부 골미란(Marginal erosion), 관절 주위 골감소증(Periarticular osteopenia)이 나타납니다.",
       "differential": "① 관절 사이가 좁아진 것은 활액막염의 소견이다 — 류마티스 관절염(RA)은 판누스를 형성하는 만성 증식성 활액막염(synovitis)이 관절 연골을 광범위하게 파괴하여 대칭적이고 균일한 관절강 협착(joint space narrowing)을 초래함 → 정답.",
       "trap": "보기 소거법 적용.",
       "trigger": "단독 출제 문항 핵심 키워드 판독.",
@@ -276326,7 +276360,7 @@
           "text": "관절 사이가 좁아진 것은 활액막염의 소견이다",
           "is_correct": true,
           "tag": "정답",
-          "reason": "류마티스 관절염(RA)은 판누스를 형성하는 만성 증식성 활액막염(synovitis)이 관절 연골을 광범위하게 파괴하여 대칭적이고 균일한 관절강 협착(joint space narrowing)을 초래함 → 정답."
+          "reason": "류마티스 관절염(RA)의 주 병태생리는 활액막염(Synovitis)이며, 증식된 판누스(Pannus)가 관절 연골을 균일하게 파괴하므로 대칭적이고 균일한 관절강 협착(Joint space narrowing)을 초래합니다 → 정답."
         },
         {
           "opt_idx": 1,
@@ -276334,7 +276368,7 @@
           "text": "골절이 많이 발생하여 골생성이 된 것으로 보인다",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+          "reason": "RA는 골미란(Erosion)과 관절 주변 골감소증이 특징이며, 퇴행성 골관절염(OA)이나 외상 치유에서 나타나는 골극(Osteophyte), 연골하 골경화 등 골생성(Bone formation) 소견은 발생하지 않습니다."
         },
         {
           "opt_idx": 2,
@@ -276342,7 +276376,7 @@
           "text": "골유합이 된 것으로 보인다",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+          "reason": "골유합(Ankylosis)은 강직성 척추염의 주 소견이거나 RA의 극히 말기 손목 관절 등에서 드물게 발생하며, 통상적인 류마티스 관절염 손가락 관절의 주 소견이 아닙니다."
         },
         {
           "opt_idx": 3,
@@ -276350,7 +276384,7 @@
           "text": "관절 주변 연부조직의 종창이 있는 것으로 보아 급성 소견이다",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+          "reason": "3년 전부터 서서히 진행된 병력 자체가 만성(Chronic) 질환임을 의미하며, 관절 주변 방추상 연부조직 종창은 판누스 증식 및 만성 활액막 삼출액에 의한 만성 염증 소견입니다."
         },
         {
           "opt_idx": 4,
@@ -276358,7 +276392,7 @@
           "text": "근위부 수지관절은 침범하지 않은 것으로 보인다",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+          "reason": "RA는 근위지관절(PIP joint), 중수수지관절(MCP joint), 수근관절(Wrist)을 대칭적으로 가장 흔하게 침범합니다. 반대로 원위지관절(DIP joint)은 침범하지 않습니다."
         }
       ],
       "differential_general": ""
@@ -276385,7 +276419,7 @@
         "text": "관절 사이가 좁아진 것은 활액막염의 소견이다",
         "is_correct": true,
         "tag": "정답",
-        "reason": "류마티스 관절염(RA)은 판누스를 형성하는 만성 증식성 활액막염(synovitis)이 관절 연골을 광범위하게 파괴하여 대칭적이고 균일한 관절강 협착(joint space narrowing)을 초래함 → 정답."
+        "reason": "류마티스 관절염(RA)의 주 병태생리는 활액막염(Synovitis)이며, 증식된 판누스(Pannus)가 관절 연골을 균일하게 파괴하므로 대칭적이고 균일한 관절강 협착(Joint space narrowing)을 초래합니다 → 정답."
       },
       {
         "opt_idx": 1,
@@ -276393,7 +276427,7 @@
         "text": "골절이 많이 발생하여 골생성이 된 것으로 보인다",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+        "reason": "RA는 골미란(Erosion)과 관절 주변 골감소증이 특징이며, 퇴행성 골관절염(OA)이나 외상 치유에서 나타나는 골극(Osteophyte), 연골하 골경화 등 골생성(Bone formation) 소견은 발생하지 않습니다."
       },
       {
         "opt_idx": 2,
@@ -276401,7 +276435,7 @@
         "text": "골유합이 된 것으로 보인다",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+        "reason": "골유합(Ankylosis)은 강직성 척추염의 주 소견이거나 RA의 극히 말기 손목 관절 등에서 드물게 발생하며, 통상적인 류마티스 관절염 손가락 관절의 주 소견이 아닙니다."
       },
       {
         "opt_idx": 3,
@@ -276409,7 +276443,7 @@
         "text": "관절 주변 연부조직의 종창이 있는 것으로 보아 급성 소견이다",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+        "reason": "3년 전부터 서서히 진행된 병력 자체가 만성(Chronic) 질환임을 의미하며, 관절 주변 방추상 연부조직 종창은 판누스 증식 및 만성 활액막 삼출액에 의한 만성 염증 소견입니다."
       },
       {
         "opt_idx": 4,
@@ -276417,7 +276451,7 @@
         "text": "근위부 수지관절은 침범하지 않은 것으로 보인다",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "본 증례와 일치하지 않는 감별 소견입니다."
+        "reason": "RA는 근위지관절(PIP joint), 중수수지관절(MCP joint), 수근관절(Wrist)을 대칭적으로 가장 흔하게 침범합니다. 반대로 원위지관절(DIP joint)은 침범하지 않습니다."
       }
     ],
     "section": "MSK",

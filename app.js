@@ -78,7 +78,6 @@
     searchInput: document.getElementById('search-input'),
 
     // Question Card
-    questionCard: document.getElementById('question-card'),
     cardMeta: document.querySelector('.card-meta'),
     cardSubject: document.getElementById('card-subject'),
     cardYear: document.getElementById('card-year'),
@@ -880,6 +879,83 @@
   }
 
   /**
+   * Parse Markdown formatting into clean semantic HTML:
+   * Supports:
+   * - Markdown tables (| col | col |) -> <div class="table-responsive"><table class="quiz-table">...</table></div>
+   * - Bold: **text** -> <strong>text</strong>
+   * - Bullet items: • or - -> <div class="rich-bullet">• text</div>
+   * - Line breaks and paragraphs
+   */
+  function renderRichText(md) {
+    if (!md || typeof md !== 'string') return '';
+    const lines = md.split('\n');
+    const output = [];
+    let inTable = false;
+    let tableRows = [];
+
+    function formatInline(s) {
+      if (!s) return '';
+      let str = escapeHtml(s);
+      str = str.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+      return str;
+    }
+
+    function flushTable() {
+      if (!tableRows.length) return '';
+      let html = '<div class="table-responsive"><table class="quiz-table">';
+      const headerCols = tableRows[0];
+      html += '<thead><tr>';
+      headerCols.forEach(col => {
+        html += `<th>${formatInline(col.trim())}</th>`;
+      });
+      html += '</tr></thead><tbody>';
+      for (let r = 1; r < tableRows.length; r++) {
+        html += '<tr>';
+        tableRows[r].forEach(cell => {
+          html += `<td>${formatInline(cell.trim())}</td>`;
+        });
+        html += '</tr>';
+      }
+      html += '</tbody></table></div>';
+      tableRows = [];
+      inTable = false;
+      return html;
+    }
+
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const trimmed = line.trim();
+
+      if (trimmed.startsWith('|') && trimmed.endsWith('|')) {
+        if (/^\|[\s:\-]+(?:\|[\s:\-]+)+\|$/.test(trimmed)) {
+          continue;
+        }
+        const rawCells = trimmed.split('|');
+        const cells = rawCells.slice(1, -1);
+        tableRows.push(cells);
+        inTable = true;
+      } else {
+        if (inTable) {
+          output.push(flushTable());
+        }
+        if (trimmed) {
+          if (trimmed.startsWith('• ') || trimmed.startsWith('- ')) {
+            output.push(`<div class="rich-bullet">${formatInline(trimmed)}</div>`);
+          } else {
+            output.push(`<div class="rich-p">${formatInline(trimmed)}</div>`);
+          }
+        }
+      }
+    }
+
+    if (inTable) {
+      output.push(flushTable());
+    }
+
+    return output.join('');
+  }
+
+  /**
    * Safe Option Prefix & Label Parser
    * Accurately extracts option number prefix (e.g. '①', '1.') and label text,
    * without EVER stripping medical content numbers (e.g. '4도', '37℃', '1등급', '0.9%', '10~20mL').
@@ -1215,7 +1291,7 @@
       renderCurrentQuestion();
       renderGrid();
       updateStats();
-      scrollToQuestionHeader();
+      scrollToQuestionMeta();
 
       let targetLabel = '';
       if (target.year === '22Y' && target.section && target.section_q_num) {
@@ -2039,13 +2115,13 @@
       if (generalText && generalText.trim()) {
         const generalEl = document.createElement('div');
         generalEl.className = 'opt-exp-general';
-        generalEl.innerHTML = `<div class="opt-exp-general-title">💡 핵심 감별 및 임상 가이드라인</div><div class="opt-exp-general-content">${escapeHtml(generalText).replace(/\n/g, '<br>')}</div>`;
+        generalEl.innerHTML = `<div class="opt-exp-general-title">💡 핵심 감별 및 임상 가이드라인</div><div class="opt-exp-general-content">${renderRichText(generalText)}</div>`;
         dom.expDifferential.appendChild(generalEl);
       }
     } else {
       // Fallback for short-answer or legacy format
       const rawDiff = (exp && exp.differential) || '선지별 감별 임상 의의 및 관련 질환 감별 포인트를 숙지하십시오.';
-      dom.expDifferential.innerHTML = `<div class="exp-plain-text">${escapeHtml(rawDiff).replace(/\n/g, '<br>')}</div>`;
+      dom.expDifferential.innerHTML = `<div class="exp-plain-text">${renderRichText(rawDiff)}</div>`;
     }
   }
 
@@ -2132,8 +2208,8 @@
     
     dom.expCorrectAnswer.textContent = correctDisplayLabels || q.correct_answer || '';
 
-    dom.expFindings.textContent = exp.findings || '상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.';
-    dom.expTrap.textContent = exp.trap || '실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.';
+    dom.expFindings.innerHTML = renderRichText(exp.findings || '상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.');
+    dom.expTrap.innerHTML = renderRichText(exp.trap || '실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.');
     dom.expTrigger.textContent = exp.trigger || `${q.theme_title} 핵심 지표 기준 즉시 정답 도출`;
     dom.expKmleLink.textContent = `📚 KMLE 연계: ${exp.kmle_link || '진단검사의학과 총론 및 각론'}`;
 
@@ -2299,7 +2375,7 @@
         if (targetIndex !== state.currentIndex) {
           state.currentIndex = targetIndex;
           renderCurrentQuestion();
-          scrollToQuestionHeader();
+          scrollToQuestionMeta();
         } else {
           dom.navJumpInput.value = String(state.currentIndex + 1);
         }
@@ -2393,7 +2469,7 @@
             renderGrid();
           }
         }
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        scrollToQuestionMeta();
       });
     }
 
@@ -2958,7 +3034,7 @@
     renderGrid();
     saveStorage();
     closeProfileModal();
-    scrollToQuestionHeader();
+    scrollToQuestionMeta();
 
     const q = getCurrentQuestion();
     const locLabel = q
@@ -3464,34 +3540,24 @@
   }
 
   /**
-   * Scroll so that the question metadata header row ("영상의학과 ~ 오류신고 줄")
-   * is positioned smoothly right at the top of the viewport.
-   * Dynamically measures sticky/fixed header height to guarantee perfect alignment.
+   * Auto-scroll so that the Question Metadata bar ('영상의학과 ~ 오류신고 줄', .card-meta)
+   * is smoothly positioned right at the very top of the readable viewport.
    */
-  function scrollToQuestionHeader(smooth = true) {
+  function scrollToQuestionMeta(behavior = 'smooth') {
     requestAnimationFrame(() => {
-      const target = dom.cardMeta || document.querySelector('.card-meta') || dom.questionCard || document.getElementById('question-card');
-      if (!target) {
-        window.scrollTo({ top: 0, behavior: smooth ? 'smooth' : 'auto' });
+      const cardMeta = dom.cardMeta || document.querySelector('.card-meta') || document.getElementById('question-card');
+      if (!cardMeta) {
+        window.scrollTo({ top: 0, behavior });
         return;
       }
-
-      const header = document.querySelector('.app-header');
-      let headerOffset = 0;
-      if (header) {
-        const style = window.getComputedStyle(header);
-        if (style.position === 'sticky' || style.position === 'fixed') {
-          headerOffset = header.offsetHeight;
-        }
-      }
-
-      const rect = target.getBoundingClientRect();
-      const currentScrollY = window.pageYOffset || document.documentElement.scrollTop;
-      const targetY = rect.top + currentScrollY - headerOffset - 8;
-
+      const header = document.querySelector('header');
+      const headerHeight = (header && window.getComputedStyle(header).position === 'sticky') ? header.offsetHeight : 0;
+      const rect = cardMeta.getBoundingClientRect();
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const targetTop = rect.top + scrollTop - headerHeight - 6;
       window.scrollTo({
-        top: Math.max(0, Math.round(targetY)),
-        behavior: smooth ? 'smooth' : 'auto'
+        top: Math.max(0, targetTop),
+        behavior
       });
     });
   }
@@ -3503,7 +3569,7 @@
     if (state.filteredQuestions.length === 0) return;
     state.currentIndex = (state.currentIndex + delta + state.filteredQuestions.length) % state.filteredQuestions.length;
     renderCurrentQuestion();
-    scrollToQuestionHeader();
+    scrollToQuestionMeta();
   }
 
   /**
@@ -3517,7 +3583,7 @@
     }
     state.currentIndex = nextIdx;
     renderCurrentQuestion();
-    scrollToQuestionHeader();
+    scrollToQuestionMeta();
   }
 
   /**
@@ -3591,7 +3657,7 @@
         state.currentIndex = idx;
         renderCurrentQuestion();
         closeGridModal();
-        scrollToQuestionHeader();
+        scrollToQuestionMeta();
       });
 
       dom.questionGrid.appendChild(btn);
