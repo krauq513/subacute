@@ -1553,7 +1553,7 @@
     }
     if (dom.cardQnum) {
       dom.cardQnum.style.display = '';
-      if (q.year === '22Y' && q.section && q.section_q_num) {
+      if (q.section && q.section_q_num) {
         dom.cardQnum.textContent = `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`;
       } else if (q.q_label) {
         dom.cardQnum.textContent = q.q_label;
@@ -1568,24 +1568,17 @@
     if (dom.cardMetaLinkedChips) {
       dom.cardMetaLinkedChips.innerHTML = '';
       const historyItems = parseAndGroupHistoryChips(q);
-      const otherLinks = historyItems.filter(item => !item.isCurrent);
+      // Only show links that actually exist in the database (never show unlinked/미수록 chips)
+      const otherLinks = historyItems.filter(item => !item.isCurrent && item.targetQ);
       otherLinks.forEach(item => {
         const chip = document.createElement('button');
         chip.type = 'button';
-        chip.className = item.targetQ ? 'meta-link-chip' : 'meta-link-chip unlinked';
-        chip.innerHTML = item.targetQ
-          ? `${item.label} <span class="chip-arrow">↗</span>`
-          : `${item.label} <span class="chip-unlinked-tag">미수록</span>`;
-        chip.title = item.targetQ
-          ? `[${item.label}] 기출 문제로 즉시 문제 바꾸기`
-          : `[${item.label}] 문제는 20Y 이전 기출로 20Y~26Y DB에 수록되어 있지 않습니다`;
+        chip.className = 'meta-link-chip';
+        chip.innerHTML = `${item.label} <span class="chip-arrow">↗</span>`;
+        chip.title = `[${item.label}] 기출 문제로 즉시 문제 바꾸기`;
         chip.addEventListener('click', (e) => {
           e.stopPropagation();
-          if (item.targetQ) {
-            jumpToQuestionObject(item.targetQ, item.targetRaw);
-          } else {
-            showToast(`ℹ️ [${item.label}] 문제는 20Y 이전 기출로 현재 5개년 DB에는 수록되어 있지 않습니다.`);
-          }
+          jumpToQuestionObject(item.targetQ, item.targetRaw);
         });
         dom.cardMetaLinkedChips.appendChild(chip);
       });
@@ -1671,16 +1664,6 @@
           chip.title = `클릭 시 [${item.label}] 기출 문제로 즉시 문제 바꾸기`;
           chip.addEventListener('click', () => {
             jumpToQuestionObject(item.targetQ, item.targetRaw);
-          });
-          dom.cardHistoryChips.appendChild(chip);
-        } else {
-          const chip = document.createElement('button');
-          chip.type = 'button';
-          chip.className = 'intel-chip unlinked';
-          chip.innerHTML = `${item.label} <span class="chip-unlinked-tag">미수록</span>`;
-          chip.title = `[${item.label}] 문제는 20Y 이전 기출로 20Y~26Y DB에 수록되어 있지 않습니다`;
-          chip.addEventListener('click', () => {
-            showToast(`ℹ️ [${item.label}] 문제는 20Y 이전 기출로 현재 5개년 DB에는 수록되어 있지 않습니다.`);
           });
           dom.cardHistoryChips.appendChild(chip);
         }
@@ -1775,7 +1758,7 @@
       if (dom.commentTargetSubject) dom.commentTargetSubject.textContent = q.subject || '임상의학';
       if (dom.commentTargetYear) dom.commentTargetYear.textContent = q.year || '기출';
       if (dom.commentTargetQnum) {
-        dom.commentTargetQnum.textContent = (q.year === '22Y' && q.section && q.section_q_num)
+        dom.commentTargetQnum.textContent = (q.section && q.section_q_num)
           ? `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`
           : (q.qnum || `Q${String(q.q_num || '').padStart(2, '0')}`);
       }
@@ -2325,7 +2308,7 @@
 
     dom.expFindings.innerHTML = renderRichText(exp.findings || '상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.');
     dom.expTrap.innerHTML = renderRichText(exp.trap || '실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.');
-    dom.expTrigger.textContent = exp.trigger || `${q.theme_title} 핵심 지표 기준 즉시 정답 도출`;
+    dom.expTrigger.innerHTML = renderRichText(exp.trigger || `${q.theme_title} 핵심 지표 기준 즉시 정답 도출`);
     dom.expKmleLink.textContent = `📚 KMLE 연계: ${exp.kmle_link || '진단검사의학과 총론 및 각론'}`;
 
     // Structured Option-by-Option Explanations
@@ -2483,7 +2466,7 @@
     if (dom.editTargetSubject) dom.editTargetSubject.textContent = q.subject || '임상의학';
     if (dom.editTargetYear) dom.editTargetYear.textContent = q.year || '기출';
     if (dom.editTargetQnum) {
-      dom.editTargetQnum.textContent = (q.year === '22Y' && q.section && q.section_q_num)
+      dom.editTargetQnum.textContent = (q.section && q.section_q_num)
         ? `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`
         : `Q${String(q.q_num || '').padStart(2, '0')}`;
     }
@@ -2675,7 +2658,7 @@
     if (dom.commentTargetSubject) dom.commentTargetSubject.textContent = q.subject || '임상의학';
     if (dom.commentTargetYear) dom.commentTargetYear.textContent = q.year || '기출';
     if (dom.commentTargetQnum) {
-      dom.commentTargetQnum.textContent = (q.year === '22Y' && q.section && q.section_q_num)
+      dom.commentTargetQnum.textContent = (q.section && q.section_q_num)
         ? `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`
         : `Q${String(q.q_num || '').padStart(2, '0')}`;
     }
@@ -3095,7 +3078,7 @@
     if (!qNumHint) {
       const q = getCurrentQuestion();
       if (q && q.subject === sub && q.year === yr) {
-        qNumHint = (q.year === '22Y' && q.section && q.section_q_num)
+        qNumHint = (q.section && q.section_q_num)
           ? `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`
           : (q.qnum || `Q${String(q.q_num || '').padStart(2, '0')}`);
       }
@@ -3580,6 +3563,10 @@
    * Keyboard Shortcuts Handler
    */
   function handleKeydown(e) {
+    // Never intercept when user is holding modifier keys (Ctrl, Meta/Cmd, Alt)
+    if (e.ctrlKey || e.metaKey || e.altKey) {
+      return;
+    }
     // If typing in input or when modal dialogs are open, ignore global quiz shortcuts
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
       return;
@@ -4609,9 +4596,9 @@
         }
       }
 
-      if (q.year === '22Y' && q.section && q.section_q_num) {
+      if (q.section && q.section_q_num) {
         btn.innerHTML = `<span class="grid-sec-tag">${q.section}</span><span class="grid-num">${String(q.section_q_num).padStart(2, '0')}</span>`;
-        btn.title = `[22Y ${q.section} ${String(q.section_q_num).padStart(2, '0')}번] ${q.theme_title || ''}`;
+        btn.title = `[${q.year} ${q.section} ${String(q.section_q_num).padStart(2, '0')}번] ${q.theme_title || ''}`;
       } else {
         btn.textContent = `${idx + 1}`;
         btn.title = `[${q.year} Q${String(q.q_num).padStart(2, '0')}]: ${q.theme_title || ''}`;

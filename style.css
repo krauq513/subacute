@@ -1668,7 +1668,10 @@ body {
   border-left: none;
   padding-left: 0;
   color: #14532d;
-  font-weight: 600;
+  font-weight: 500;
+  white-space: pre-line;
+  line-height: 1.65;
+  font-size: 0.94rem;
 }
 
 .exp-footer {
