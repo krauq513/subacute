@@ -166,6 +166,7 @@
     btnPrev: document.getElementById('btn-prev'),
     btnNext: document.getElementById('btn-next'),
     btnNextUnsolved: document.getElementById('btn-next-unsolved'),
+    desktopUnsolvedStreakBadge: document.getElementById('desktop-unsolved-streak-badge'),
     btnNextUnsolvedMobile: document.getElementById('btn-next-unsolved-mobile'),
     mobileUnsolvedStreakBadge: document.getElementById('mobile-unsolved-streak-badge'),
     btnRandom: document.getElementById('btn-random'),
@@ -5282,10 +5283,16 @@
 
     const { streak, nextUnsolvedIdx } = getConsecutiveSolvedAhead(state.currentIndex);
 
-    // Desktop button state
+    // Desktop button state: ONLY show when streak >= 5 and there is an unsolved question ahead
     if (dom.btnNextUnsolved) {
-      const anyUnsolved = getNextUnsolvedQuestionIndex(state.currentIndex, true) !== -1;
-      dom.btnNextUnsolved.disabled = !anyUnsolved;
+      if (streak >= 5 && nextUnsolvedIdx !== -1) {
+        dom.btnNextUnsolved.style.display = 'inline-flex';
+        if (dom.desktopUnsolvedStreakBadge) {
+          dom.desktopUnsolvedStreakBadge.textContent = `${streak}개 패스`;
+        }
+      } else {
+        dom.btnNextUnsolved.style.display = 'none';
+      }
     }
 
     // Mobile floating button state: only show when streak >= 5 and there is an unsolved question ahead
