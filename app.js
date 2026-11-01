@@ -153,6 +153,9 @@
     // Navigation
     btnPrev: document.getElementById('btn-prev'),
     btnNext: document.getElementById('btn-next'),
+    btnNextUnsolved: document.getElementById('btn-next-unsolved'),
+    btnNextUnsolvedMobile: document.getElementById('btn-next-unsolved-mobile'),
+    mobileUnsolvedStreakBadge: document.getElementById('mobile-unsolved-streak-badge'),
     btnRandom: document.getElementById('btn-random'),
     navIndicator: document.getElementById('nav-indicator'),
     navJumpForm: document.getElementById('nav-jump-form'),
@@ -2140,6 +2143,7 @@
     }
 
     saveStorage();
+    updateNextUnsolvedButtonUI();
   }
 
   /**
@@ -2693,6 +2697,7 @@
         dom.feedbackBanner.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       }, 100);
     }
+    updateNextUnsolvedButtonUI();
   }
 
   /**
@@ -3533,6 +3538,12 @@
     // Navigation
     dom.btnPrev.addEventListener('click', () => navigate(-1));
     dom.btnNext.addEventListener('click', () => navigate(1));
+    if (dom.btnNextUnsolved) {
+      dom.btnNextUnsolved.addEventListener('click', navigateNextUnsolved);
+    }
+    if (dom.btnNextUnsolvedMobile) {
+      dom.btnNextUnsolvedMobile.addEventListener('click', navigateNextUnsolved);
+    }
     dom.btnRandom.addEventListener('click', navigateRandom);
 
     // Direct Question Number Jump Input
@@ -4048,7 +4059,10 @@
     if (e.key === 'ArrowLeft' || e.key === 'j' || e.key === 'J') {
       e.preventDefault();
       navigate(-1);
-    } else if (e.key === 'ArrowRight' || e.key === 'k' || e.key === 'K' || e.key === ' ') {
+    } else if (e.key === 'u' || e.key === 'U' || (e.shiftKey && e.key === ' ')) {
+      e.preventDefault();
+      navigateNextUnsolved();
+    } else if (e.key === 'ArrowRight' || e.key === 'k' || e.key === 'K' || (!e.shiftKey && e.key === ' ')) {
       e.preventDefault();
       navigate(1);
     } else if (e.key === 'b' || e.key === 'B') {
@@ -5081,6 +5095,127 @@
         behavior
       });
     });
+  }
+
+  /**
+   * Find index of next unsolved question starting after fromIndex.
+   * If wrapAround is true, wraps around to index 0 if not found before end.
+   * Returns index, or -1 if all questions are solved.
+   */
+  function getNextUnsolvedQuestionIndex(fromIndex, wrapAround = true) {
+    const total = state.filteredQuestions.length;
+    if (total === 0) return -1;
+    const answers = state.userAnswers || {};
+
+    // 1. Search forward from next question to end
+    for (let i = fromIndex + 1; i < total; i++) {
+      const q = state.filteredQuestions[i];
+      if (q && !answers[q.id]) {
+        return i;
+      }
+    }
+
+    // 2. Wrap around from 0 up to fromIndex
+    if (wrapAround) {
+      for (let i = 0; i <= fromIndex; i++) {
+        const q = state.filteredQuestions[i];
+        if (q && !answers[q.id]) {
+          return i;
+        }
+      }
+    }
+
+    return -1;
+  }
+
+  /**
+   * Count consecutive solved questions immediately ahead of fromIndex
+   * and find the next unsolved question index.
+   */
+  function getConsecutiveSolvedAhead(fromIndex) {
+    const total = state.filteredQuestions.length;
+    if (total === 0) return { streak: 0, nextUnsolvedIdx: -1 };
+    const answers = state.userAnswers || {};
+    let streak = 0;
+    let nextUnsolvedIdx = -1;
+
+    for (let i = fromIndex + 1; i < total; i++) {
+      const q = state.filteredQuestions[i];
+      if (q && answers[q.id]) {
+        streak++;
+      } else {
+        nextUnsolvedIdx = i;
+        break;
+      }
+    }
+
+    // If streak reached the end of list, check if wrap-around has unsolved
+    if (nextUnsolvedIdx === -1) {
+      for (let i = 0; i <= fromIndex; i++) {
+        const q = state.filteredQuestions[i];
+        if (q && !answers[q.id]) {
+          nextUnsolvedIdx = i;
+          break;
+        }
+      }
+    }
+
+    return { streak, nextUnsolvedIdx };
+  }
+
+  /**
+   * Update the Next Unsolved button state and mobile floating quick-jump pill
+   */
+  function updateNextUnsolvedButtonUI() {
+    if (!state.filteredQuestions || state.filteredQuestions.length === 0) {
+      if (dom.btnNextUnsolved) dom.btnNextUnsolved.disabled = true;
+      if (dom.btnNextUnsolvedMobile) dom.btnNextUnsolvedMobile.style.display = 'none';
+      return;
+    }
+
+    const { streak, nextUnsolvedIdx } = getConsecutiveSolvedAhead(state.currentIndex);
+
+    // Desktop button state
+    if (dom.btnNextUnsolved) {
+      const anyUnsolved = getNextUnsolvedQuestionIndex(state.currentIndex, true) !== -1;
+      dom.btnNextUnsolved.disabled = !anyUnsolved;
+    }
+
+    // Mobile floating button state: only show when streak >= 5 and there is an unsolved question ahead
+    if (dom.btnNextUnsolvedMobile) {
+      if (streak >= 5 && nextUnsolvedIdx !== -1) {
+        dom.btnNextUnsolvedMobile.style.display = 'inline-flex';
+        if (dom.mobileUnsolvedStreakBadge) {
+          dom.mobileUnsolvedStreakBadge.textContent = `${streak}개 패스`;
+        }
+      } else {
+        dom.btnNextUnsolvedMobile.style.display = 'none';
+      }
+    }
+  }
+
+  /**
+   * Navigate to Next Unsolved Question
+   */
+  function navigateNextUnsolved() {
+    if (state.filteredQuestions.length === 0) return;
+    const targetIdx = getNextUnsolvedQuestionIndex(state.currentIndex, true);
+    if (targetIdx === -1) {
+      showToast('🎉 현재 목록의 모든 문제를 이미 풀었습니다!');
+      return;
+    }
+    if (targetIdx === state.currentIndex) {
+      const curQ = state.filteredQuestions[state.currentIndex];
+      if (curQ && state.userAnswers && !state.userAnswers[curQ.id]) {
+        showToast('현재 문제가 유일한 미해결 문제입니다.');
+      } else {
+        showToast('🎉 현재 목록의 모든 문제를 이미 풀었습니다!');
+      }
+      return;
+    }
+    state.currentIndex = targetIdx;
+    renderCurrentQuestion();
+    scrollToQuestionIntel();
   }
 
   /**
