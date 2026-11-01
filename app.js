@@ -154,6 +154,8 @@
     btnReportInline: document.getElementById('btn-report-inline'),
 
     cardExplanation: document.getElementById('card-explanation'),
+    expImagesSection: document.getElementById('exp-images-section'),
+    expImagesGrid: document.getElementById('exp-images-grid'),
     expThemeTitle: document.getElementById('exp-theme-title'),
     expCorrectAnswer: document.getElementById('exp-correct-answer'),
     expFindings: document.getElementById('exp-findings'),
@@ -1984,6 +1986,10 @@
       if (dom.multiActionBar) dom.multiActionBar.style.display = 'none';
       dom.feedbackBanner.style.display = 'none';
       dom.cardExplanation.style.display = 'none';
+    if (dom.expImagesSection) {
+      dom.expImagesSection.style.display = 'none';
+      if (dom.expImagesGrid) dom.expImagesGrid.innerHTML = '';
+    }
       dom.filterCounter.textContent = '문항 0 / 0';
       if (dom.navJumpInput && dom.navIndicatorTotal) {
         dom.navJumpInput.value = '0';
@@ -2685,6 +2691,95 @@
   /**
    * Reveal Answer, Grading Highlights, and Clinical Explanation
    */
+    /**
+   * Render Explanation Reference Figures & Tables
+   */
+  function renderExplanationImages(images) {
+    if (!dom.expImagesSection || !dom.expImagesGrid) return;
+    if (!images || !Array.isArray(images) || images.length === 0) {
+      dom.expImagesSection.style.display = 'none';
+      dom.expImagesGrid.innerHTML = '';
+      return;
+    }
+
+    dom.expImagesGrid.innerHTML = '';
+    images.forEach((item, idx) => {
+      let src = '';
+      let caption = '참고 도표 ' + (idx + 1);
+      let desc = '';
+
+      if (typeof item === 'string') {
+        src = item;
+      } else if (item && typeof item === 'object') {
+        src = item.url || item.src || '';
+        caption = item.caption || item.title || caption;
+        desc = item.description || item.desc || '';
+      }
+
+      if (!src) return;
+      const resolvedSrc = src.includes('?') ? src : (src + '?v=20261101v1');
+
+      const card = document.createElement('div');
+      card.className = 'exp-figure-card';
+
+      const imgWrap = document.createElement('div');
+      imgWrap.className = 'exp-figure-img-wrap';
+      imgWrap.setAttribute('role', 'button');
+      imgWrap.setAttribute('tabindex', '0');
+      imgWrap.setAttribute('aria-label', caption + ' 확대보기');
+      imgWrap.setAttribute('title', '클릭하여 고화질 원본 확대');
+
+      const img = document.createElement('img');
+      img.src = resolvedSrc;
+      img.alt = caption;
+      img.loading = 'lazy';
+
+      const badge = document.createElement('div');
+      badge.className = 'image-zoom-overlay-badge';
+      badge.setAttribute('aria-hidden', 'true');
+      badge.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>';
+
+      imgWrap.appendChild(img);
+      imgWrap.appendChild(badge);
+
+      const info = document.createElement('div');
+      info.className = 'exp-figure-info';
+
+      const capEl = document.createElement('div');
+      capEl.className = 'exp-figure-caption';
+      capEl.innerHTML = '<span class="fig-badge">표/도표</span> <span>' + escapeHtml(caption) + '</span>';
+      info.appendChild(capEl);
+
+      if (desc) {
+        const descEl = document.createElement('div');
+        descEl.className = 'exp-figure-desc';
+        descEl.textContent = desc;
+        info.appendChild(descEl);
+      }
+
+      const hintEl = document.createElement('div');
+      hintEl.className = 'exp-figure-zoom-hint';
+      hintEl.innerHTML = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg><span>클릭하여 원본 확대 (핀치 줌 지원)</span>';
+      info.appendChild(hintEl);
+
+      const openImg = () => openLightbox(resolvedSrc, caption);
+      imgWrap.addEventListener('click', openImg);
+      imgWrap.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          openImg();
+        }
+      });
+      info.addEventListener('click', openImg);
+
+      card.appendChild(imgWrap);
+      card.appendChild(info);
+      dom.expImagesGrid.appendChild(card);
+    });
+
+    dom.expImagesSection.style.display = 'flex';
+  }
+
   function revealAnswerAndExplanation(q, answerRecord, animate) {
     const config = getQuestionAnswerConfig(q);
     const correctSet = new Set(config.correctIndices);
@@ -2764,6 +2859,9 @@
     dom.expThemeTitle.textContent = exp.title || q.theme_title || '임상 검사 판독 및 의의';
     
     dom.expCorrectAnswer.textContent = correctDisplayLabels || q.correct_answer || '';
+
+    // Explanation Figures & Reference Tables
+    renderExplanationImages(exp.images);
 
     dom.expFindings.innerHTML = renderRichText(exp.findings || '상기 검사의 기본 원리와 기준치 판독 지침을 참조하십시오.');
     dom.expTrap.innerHTML = renderRichText(exp.trap || '실전 빈출 함정 키워드와 검체 채취 전 처치 조건을 점검하십시오.');
@@ -5488,6 +5586,7 @@
   }
 
   function openLightbox(src, title) {
+    window.__openQuizLightbox = openLightbox;
     dom.lightboxImg.src = src;
     dom.lightboxTitle.textContent = title;
     resetZoom();
