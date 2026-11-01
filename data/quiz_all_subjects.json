@@ -484,7 +484,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "도 plain tube",
+        "text": "4도 plain tube",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "Cryoglobulin은 37℃ 미만 실온에서 즉시 침전되므로, 반드시 37℃로 미리 예열된 튜브(Prewarmed 37°C plain tube)에 채혈하고 37℃를 유지하며 운송 및 원심분리해야 함!. 검체 채취 시 온도 관리가 결과의 성패를 가르는 대표적 특수 면역 검사."
@@ -492,7 +492,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "도 heparinized tube",
+        "text": "4도 heparinized tube",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "헤파린 유발성 혈소판감소증(HIT) 병력자나 중증 출혈성 질환자에서는 투여가 금기입니다."
@@ -500,7 +500,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "도 plain tube",
+        "text": "37도 plain tube",
         "is_correct": true,
         "tag": "정답",
         "reason": "Cryoglobulin은 37℃ 미만 실온에서 즉시 침전되므로, 반드시 37℃로 미리 예열된 튜브(Prewarmed 37°C plain tube)에 채혈하고 37℃를 유지하며 운송 및 원심분리해야 함!. 검체 채취 시 온도 관리가 결과의 성패를 가르는 대표적 특수 면역 검사."
@@ -508,7 +508,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "도 heparinized tue",
+        "text": "37도 heparinized tue",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "헤파린 유발성 혈소판감소증(HIT) 병력자나 중증 출혈성 질환자에서는 투여가 금기입니다."
@@ -2381,7 +2381,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "등급-개방작업대",
+        "text": "1등급-개방작업대",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -2389,7 +2389,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "등급-개방작업대",
+        "text": "2등급-개방작업대",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -2397,7 +2397,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "등급-생물안전작업대",
+        "text": "2등급-생물안전작업대",
         "is_correct": true,
         "tag": "정답",
         "reason": "백내장 수술 후 안내염 환자의 유리체액(Vitreous humor) 등 환자 검체 배양은 일반 임상 검체이므로 생물안전 2등급(BSL-2) 시설 및 생물안전작업대(BSC) 내에서 취급해야 함!. 환자 유래 감염성 검체의 기본 취급 표준 등급 숙지 여부 확인."
@@ -2405,15 +2405,15 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "등급-음압시설과 양압복",
+        "text": "3등급-음압시설과 양압복",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "④ 등급-음압시설과 양압복."
+        "reason": "④ 3등급-음압시설과 양압복."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "등급-생물안전작업대와 호흡보조장치",
+        "text": "4등급-생물안전작업대와 호흡보조장치",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "백내장 수술 후 안내염 환자의 유리체액(Vitreous humor) 등 환자 검체 배양은 일반 임상 검체이므로 생물안전 2등급(BSL-2) 시설 및 생물안전작업대(BSC) 내에서 취급해야 함!. 환자 유래 감염성 검체의 기본 취급 표준 등급 숙지 여부 확인."
@@ -7408,7 +7408,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "~20mL 정도의 혈액을 채취한다.",
+        "text": "10~20mL 정도의 혈액을 채취한다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -9801,23 +9801,23 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "등급 - 개방작업대",
+        "text": "1등급 - 개방작업대",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "① 등급 - 개방작업대."
+        "reason": "① 1등급 - 개방작업대."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "등급 - 개방작업대",
+        "text": "2등급 - 개방작업대",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "① 등급 - 개방작업대."
+        "reason": "① 2등급 - 개방작업대."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "등급 - 생물안전작업대",
+        "text": "2등급 - 생물안전작업대",
         "is_correct": true,
         "tag": "정답",
         "reason": "백내장 수술 후 안내염 환자의 유리체액(Vitreous humor) 등 환자 검체 배양은 일반 임상 검체이므로 생물안전 2등급(BSL-2) 시설 및 생물안전작업대(BSC) 내에서 취급해야 함!. 환자 유래 감염성 검체의 기본 취급 표준 등급 숙지 여부 확인."
@@ -9825,15 +9825,15 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "등급 - 음압시설과 양압복",
+        "text": "3등급 - 음압시설과 양압복",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "④ 등급 - 음압시설과 양압복."
+        "reason": "④ 3등급 - 음압시설과 양압복."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "등급 - 생물안전작업대와 호흡보조장치",
+        "text": "4등급 - 생물안전작업대와 호흡보조장치",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "백내장 수술 후 안내염 환자의 유리체액(Vitreous humor) 등 환자 검체 배양은 일반 임상 검체이므로 생물안전 2등급(BSL-2) 시설 및 생물안전작업대(BSC) 내에서 취급해야 함!. 환자 유래 감염성 검체의 기본 취급 표준 등급 숙지 여부 확인."
@@ -10075,7 +10075,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "",
+        "text": "2.6",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -10083,7 +10083,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": ">=10",
+        "text": "2.9 >=10",
         "is_correct": true,
         "tag": "정답",
         "reason": "IGRA 검사에서 양성 대조군(Mitogen)의 IFN-gamma 반응이 기준치 미달(<0.5 IU/mL)로 면역반응이 전혀 없거나, 음성 대조군(Nil) 수치가 비정상적으로 높으면(>8.0 IU/mL) = Indeterminate(판정 불가)!. 제시된 데이터에서 Nil 0.1, TB Ag 0.2, Mitogen 0.3으로 양성 대조군이 무반응 상태."
@@ -10224,23 +10224,23 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "℃ plain tube",
+        "text": "37℃ plain tube",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "① ℃ plain tube."
+        "reason": "① 37℃ plain tube."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "℃ plain tube",
+        "text": "4℃ plain tube",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "① ℃ plain tube."
+        "reason": "① 4℃ plain tube."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "℃ heparinized tube",
+        "text": "37℃ heparinized tube",
         "is_correct": true,
         "tag": "정답",
         "reason": "급성 심근경색, 심부정맥혈전증(DVT) 및 폐색전증 급성기의 즉각적인 항응고 치료제입니다."
@@ -10248,7 +10248,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "℃ heparinized tube",
+        "text": "4℃ heparinized tube",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "헤파린 유발성 혈소판감소증(HIT) 병력자나 중증 출혈성 질환자에서는 투여가 금기입니다."
@@ -12302,10 +12302,10 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "시간 소변 요당 검사",
+        "text": "24시간 소변 요당 검사",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "④ 시간 소변 요당 검사."
+        "reason": "④ 24시간 소변 요당 검사."
       },
       {
         "opt_idx": 4,
@@ -12407,7 +12407,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "hr urine",
+        "text": "24hr urine",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -14694,10 +14694,10 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "% 허용범위는 평균 ± 2SD이다",
+        "text": "95% 허용범위는 평균 ± 2SD이다",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "② % 허용범위는 평균 ± 2SD이다."
+        "reason": "② 95% 허용범위는 평균 ± 2SD이다."
       },
       {
         "opt_idx": 2,
@@ -15941,23 +15941,23 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "등급 – 개방작업대",
+        "text": "1등급 – 개방작업대",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "① 등급 – 개방작업대."
+        "reason": "① 1등급 – 개방작업대."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "등급 – 개방작업대",
+        "text": "2등급 – 개방작업대",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "① 등급 – 개방작업대."
+        "reason": "① 2등급 – 개방작업대."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "등급 – 생물안전작업대",
+        "text": "2등급 – 생물안전작업대",
         "is_correct": true,
         "tag": "정답",
         "reason": "진균(곰팡이) 배양 작업대 -> BSL-2 생물안전작업대(BSC). 유리체액에서 배양된 진균(SDA 배지 솜털 집락, Aspergillus, Fusarium 등 기회감염 진균) 및 대부분의 병원성 미생물은 생물안전 2등급(BSL-2)에 해당하며, 포자 비산 및 에어로졸 흡입을 방지하기 위해 반드시 생물안전작업대(BSC Class II) 내에서 취급해야 합니다."
@@ -15965,18 +15965,18 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "등급 – 음압작업실",
+        "text": "3등급 – 음압작업실",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "④ 등급 – 음압작업실."
+        "reason": "④ 3등급 – 음압작업실."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "등급 – 양압복 구역",
+        "text": "4등급 – 양압복 구역",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "⑤ 등급 – 양압복 구역."
+        "reason": "⑤ 4등급 – 양압복 구역."
       }
     ],
     "correct_option_indices": [
@@ -21929,7 +21929,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "℃ 냉장 보관한다",
+        "text": "4℃ 냉장 보관한다",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -22030,7 +22030,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "nm",
+        "text": "380 nm",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -22038,7 +22038,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "nm",
+        "text": "420 nm",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -22046,7 +22046,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "nm",
+        "text": "550 nm",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -22054,7 +22054,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "nm",
+        "text": "630 nm",
         "is_correct": true,
         "tag": "정답",
         "reason": ""
@@ -22062,7 +22062,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "nm",
+        "text": "730 nm",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -23194,7 +23194,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "시간뇨",
+        "text": "24시간뇨",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -23901,7 +23901,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "",
+        "text": "5)",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -24475,7 +24475,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "% 허용범위를 따르면 평균으로부터 표준편차 2배 전후이다.",
+        "text": "95% 허용범위를 따르면 평균으로부터 표준편차 2배 전후이다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -24600,7 +24600,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "℃ plain tube",
+        "text": "4℃ plain tube",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "Cryoglobulin은 37℃ 미만 실온에서 즉시 침전되므로, 반드시 37℃로 미리 예열된 튜브(Prewarmed 37°C plain tube)에 채혈하고 37℃를 유지하며 운송 및 원심분리해야 함!. 검체 채취 시 온도 관리가 결과의 성패를 가르는 대표적 특수 면역 검사."
@@ -24608,7 +24608,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "℃ heparinized tube",
+        "text": "4℃ heparinized tube",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "헤파린 유발성 혈소판감소증(HIT) 병력자나 중증 출혈성 질환자에서는 투여가 금기입니다."
@@ -24616,7 +24616,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "℃ plain tube",
+        "text": "37℃ plain tube",
         "is_correct": true,
         "tag": "정답",
         "reason": "Cryoglobulin은 37℃ 미만 실온에서 즉시 침전되므로, 반드시 37℃로 미리 예열된 튜브(Prewarmed 37°C plain tube)에 채혈하고 37℃를 유지하며 운송 및 원심분리해야 함!. 검체 채취 시 온도 관리가 결과의 성패를 가르는 대표적 특수 면역 검사."
@@ -24624,7 +24624,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "℃ heparinized tube",
+        "text": "37℃ heparinized tube",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "헤파린 유발성 혈소판감소증(HIT) 병력자나 중증 출혈성 질환자에서는 투여가 금기입니다."
@@ -26051,7 +26051,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "시간 홀터 심전도 검사",
+        "text": "24시간 홀터 심전도 검사",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "부정맥 유발 평가 검사입니다."
@@ -26785,7 +26785,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "세대 세팔로스포린만 유지한다",
+        "text": "2세대 세팔로스포린만 유지한다",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "MRSA는 mecA 유전자 변형으로 PBP2a를 형성하여 모든 2세대 세파 등 베타락탐계 항생제에 내성을 가지므로 치료 실패를 초래합니다."
@@ -26809,7 +26809,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "세대 세팔로스포린과 클린다마이신을 모두 유지한다",
+        "text": "2세대 세팔로스포린과 클린다마이신을 모두 유지한다",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "원인균이 MRSA로 동원된 상황에서 무효한 베타락탐계 항생제를 포함한 기존 요법을 지속하는 것은 금기입니다."
@@ -27065,7 +27065,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "mL/kg 수액 투여 없이 승압제를 먼저 시작한다",
+        "text": "30mL/kg 수액 투여 없이 승압제를 먼저 시작한다",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "패혈성 쇼크 소생술의 첫걸음은 30 mL/kg 결정질 수액의 급속 부하이며, 이에 반응하지 않을 때 노르에피네프린을 씁니다."
@@ -30225,7 +30225,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "(OH)D",
+        "text": "25(OH)D",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "간에서 합성되는 비타민 D의 주요 저장 형태(25-OH-D)로 전신 비타민 D 결핍 또는 외인성 비타민 D 과다 섭취 감별에 쓰이나 고칼슘혈증의 1차 검사가 아닙니다."
@@ -30233,7 +30233,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": ",25(OH)2D",
+        "text": "1,25(OH)2D",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "신장에서 활성화되는 비타민 D 형태(1,25-OH2-D)로 유육종증(Sarcoidosis) 등 육아종 질환이나 림프종에 의한 고칼슘혈증 감별 시 PTH 억제 확인 후 고려하는 2차 검사입니다."
@@ -30741,7 +30741,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "세대 cephalosporin만 투여",
+        "text": "2세대 cephalosporin만 투여",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "MRSA는 변형된 페니실린 결합 단백질(PBP2a)을 가지므로 2세대 세파는 항균력이 없어 치료 실패를 초래합니다."
@@ -30757,7 +30757,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "세대 cephalosporin과 clarithromycin 유지",
+        "text": "2세대 cephalosporin과 clarithromycin 유지",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "환자 증상이 일시 호전되었더라도 원인균으로 동원된 MRSA에 효과가 없는 기존 경험적 약제를 지속하면 재발 위험이 극히 높습니다."
@@ -32653,7 +32653,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "도 방실차단",
+        "text": "1도 방실차단",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "PR 간격이 0.20초 이상 연장되는 소견으로, 모든 P파 뒤에 QRS가 정상 전도되므로 혈역학적 이상이나 실신을 일으키지 않습니다."
@@ -32661,7 +32661,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "도 방실차단",
+        "text": "2도 방실차단",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "Mobitz I형(PR 점진 연장 후 탈락)이나 II형(PR 일정 후 간헐적 탈락)으로 나타나며, 빈맥 정지 후 심정지가 생기는 본 심전도와 기전이 다릅니다."
@@ -32669,7 +32669,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "도 방실차단",
+        "text": "3도 방실차단",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "심방(P파)과 심실(QRS)이 완전히 해리되어 각각 독립된 리듬을 보이며, 심실보충율동에 의한 서맥이 지속되는 상태입니다."
@@ -34699,7 +34699,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "저용량 흡입스테로이드와 지속성 베타 2 효현제",
+        "text": "��� 저용량 흡입스테로이드와 지속성 베타 2 효현제",
         "is_correct": true,
         "tag": "정답",
         "reason": "GINA 가이드라인에 따라 Step 2 저용량 ICS 단독으로 조절되지 않는 천식은 Step 3인 저용량 ICS + LABA 복합제로 증량합니다"
@@ -36098,7 +36098,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "개월 이내 상부위장관내시경 검사 재시행",
+        "text": "3개월 이내 상부위장관내시경 검사 재시행",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "위궤양에서 악성 배제를 위해 추적 내시경을 고려할 수 있으나, 헬리코박터 양성이 확인된 현시점에서 가장 우선적으로 시행해야 할 치료 처치는 제균치료입니다."
@@ -37204,7 +37204,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "h urine test",
+        "text": "24h urine test",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "24시간 소변 검사로 실제 다뇨(>3L/day 또는 >50 mL/kg/day) 여부와 용질 배설량을 확인하나, 수분 이뇨 기전을 감별하는 핵심 생화학 지표가 아닙니다."
@@ -37849,7 +37849,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "세대 세팔로스포린 (Ceftriaxone)",
+        "text": "3세대 세팔로스포린 (Ceftriaxone)",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "ESBL 효소에 의해 분해되어 치료에 실패합니다."
@@ -37873,7 +37873,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "세대 세팔로스포린 (Cefazolin)",
+        "text": "1세대 세팔로스포린 (Cefazolin)",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "ESBL 균주에 감수성이 없습니다."
@@ -40092,7 +40092,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "시간 홀터 심전도 모니터링",
+        "text": "24시간 홀터 심전도 모니터링",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -41718,7 +41718,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "ASA",
+        "text": "5-ASA",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -42744,7 +42744,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "g/day로 염분 섭취를 제한한다",
+        "text": "2g/day로 염분 섭취를 제한한다",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "상염색체 우성 다낭신(ADPKD) 환자에서 염분 섭취는 2.3~3.0 g/day(나트륨 기준 약 100 mmol/day) 정도로 권고됩니다."
@@ -43024,7 +43024,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "h urine test",
+        "text": "24h urine test",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "혈중 바소프레신(ADH/Copeptin) 측정은 중추성 요붕증과 신성 요붕증의 감별에 참고할 수 있으나 반감기가 짧고 검사가 복잡하여 1차 접근 검사로 쓰이지 않습니다."
@@ -43245,7 +43245,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "N/S",
+        "text": "0.9 N/S",
         "is_correct": true,
         "tag": "정답",
         "reason": "설사로 인한 체액 소실과 혈압 80/60 mmHg의 저혈압 쇼크 상태이므로 고나트륨혈증 수치 교정에 앞서 유효 혈장량을 즉시 회복시켜야 함"
@@ -43364,10 +43364,10 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "% N/S",
+        "text": "3% N/S",
         "is_correct": true,
         "tag": "정답",
-        "reason": "% N/S은(는) 항암치료 환자+의식 저하+혈청 Na 108 mEq/L 중증 저나트륨혈증 → 3% 고장성 식염수(3% N/S) 투여 소견에 부합하는 적절한 1차 치료/표준 진단 기준입니다."
+        "reason": "3% N/S은(는) 항암치료 환자+의식 저하+혈청 Na 108 mEq/L 중증 저나트륨혈증 → 3% 고장성 식염수(3% N/S) 투여 소견에 부합하는 적절한 1차 치료/표준 진단 기준입니다."
       },
       {
         "opt_idx": 1,
@@ -43380,7 +43380,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "% N/S",
+        "text": "9% N/S",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "혈청 Na 108 mEq/L의 중증 저나트륨혈증에 의한 의식 저하 환자에서 뇌부종과 뇌탈출을 막기 위해 3% 고장성 생리식염수를 신속히 투여해야 함"
@@ -44143,7 +44143,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "RP 수치",
+        "text": "CRP 수치",
         "is_correct": true,
         "tag": "정답",
         "reason": "CRP는 비특이적 급성 염증 지표로 중증도나 치료 반응 경과 추적에 쓰일 뿐, 원인균 감별이나 특정 항생제 종류를 결정하는 기준이 아님"
@@ -44623,7 +44623,7 @@
       {
         "opt_idx": 0,
         "opt_num": "0.",
-        "text": "(RPI < 2, 골수 조혈반응 저하)",
+        "text": "5 (RPI < 2, 골수 조혈반응 저하)",
         "is_correct": true,
         "tag": "정답",
         "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
@@ -44631,7 +44631,7 @@
       {
         "opt_idx": 1,
         "opt_num": "1.",
-        "text": "",
+        "text": "5",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -44639,7 +44639,7 @@
       {
         "opt_idx": 2,
         "opt_num": "2.",
-        "text": "",
+        "text": "5",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -44647,7 +44647,7 @@
       {
         "opt_idx": 3,
         "opt_num": "3.",
-        "text": "",
+        "text": "5",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -44655,7 +44655,7 @@
       {
         "opt_idx": 4,
         "opt_num": "4.",
-        "text": "",
+        "text": "5",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -45008,7 +45008,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "점 (Low-intermediate risk, 연령 0점, ECOG 1점, LDH 1점, Extranodal 0점, Stage 0점)",
+        "text": "2점 (Low-intermediate risk, 연령 0점, ECOG 1점, LDH 1점, Extranodal 0점, Stage 0점)",
         "is_correct": true,
         "tag": "정답",
         "reason": "intermediate risk, 연령 0점, ECOG 1점, LDH 1점, Extranodal 0점, Stage 0점) — 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
@@ -45016,7 +45016,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "점",
+        "text": "1점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -45024,7 +45024,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "점",
+        "text": "3점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -45032,7 +45032,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "점",
+        "text": "4점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -45040,7 +45040,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "점",
+        "text": "5점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -45405,7 +45405,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "시간 소변 유리 코르티솔 검사",
+        "text": "24시간 소변 유리 코르티솔 검사",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -45901,15 +45901,15 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "NA",
+        "text": "ANA",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "NA은(는) 본 증례의 진단 및 치료 기준에 부합하지 않는 보기입니다."
+        "reason": "ANA은(는) 본 증례의 진단 및 치료 기준에 부합하지 않는 보기입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "sDna",
+        "text": "dsDna",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "전신 루푸스 질병 활성도를 감시하는 면역 표지자이지만, 신염 치료 반응의 직접적인 임상 관해 판정 척도가 아닙니다."
@@ -45917,7 +45917,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "",
+        "text": "C3",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "면역복합체 형성에 따른 보체 소모를 나타내는 혈청학적 지표이나 신장 자체의 조직 손상 회복을 직접 반영하지 못합니다."
@@ -45925,7 +45925,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "",
+        "text": "C4",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "C3와 함께 루푸스 활성도 평가에 사용되나 사구체 염증 호전에 따른 임상적 치료 반응을 판정하는 핵심 지표가 아닙니다."
@@ -46462,7 +46462,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "lation",
+        "text": "Ablation",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "심방세동이나 상심실성 빈맥의 부정맥 병소를 절제하는 시술이며 중증 판막 질환에 의한 유출로 폐색을 해결하지 못합니다."
@@ -46848,7 +46848,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "도 제1형 방실차단",
+        "text": "2도 제1형 방실차단",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -47241,7 +47241,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "PP-4 억제제 (DPP-4 inhibitor)",
+        "text": "DPP-4 억제제 (DPP-4 inhibitor)",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "DPP-4 억제제는 혈당 강하 효과는 있으나 심부전 입원 감소 이득이 없으며, 일부 제제는 심부전 위험을 높일 수 있습니다."
@@ -47932,15 +47932,15 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "utofluorescence Bronchoscopy (AFB)",
+        "text": "Autofluorescence Bronchoscopy (AFB)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "utofluorescence Bronchoscopy (AFB)은(는) 본 증례의 진단 및 치료 기준에 부합하지 않는 보기입니다."
+        "reason": "Autofluorescence Bronchoscopy (AFB)은(는) 본 증례의 진단 및 치료 기준에 부합하지 않는 보기입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "lectromagnetic Navigational Bronchoscopy (ENB)",
+        "text": "Electromagnetic Navigational Bronchoscopy (ENB)",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "TBNA) — 내시경 선단에 곡면형 초음파 탐촉자가 부착되어 기관/기관지벽 너머의 종격동 및 폐문부 림프절을 실시간으로 확인하며 침흡인 생검하는 검사임"
@@ -47948,7 +47948,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "ndobronchial Ultrasound-Guided Transbronchial Needle Aspiration (EBUS-TBNA)",
+        "text": "Endobronchial Ultrasound-Guided Transbronchial Needle Aspiration (EBUS-TBNA)",
         "is_correct": true,
         "tag": "정답",
         "reason": "3차원 CT 데이터를 바탕으로 전자기장 내비게이션을 이용해 일반 기관지경이 닿기 어려운 말초 폐병변에 도달하는 유도 기술입니다."
@@ -51687,7 +51687,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "",
+        "text": "0",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "은(는) 본 증례의 진단 및 치료 기준에 부합하지 않는 보기입니다."
@@ -52310,7 +52310,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "번 사진 (Janeway lesion / Osler node / Splinter hemorrhage)",
+        "text": "1번 사진 (Janeway lesion / Osler node / Splinter hemorrhage)",
         "is_correct": true,
         "tag": "정답",
         "reason": "감염성 심내막염 환자에서 손바닥, 발바닥의 무통성 홍반성 구진인 Janeway 병변 또는 손발가락 끝의 유통성 결절인 Osler 결절, 조갑하 선상출혈(Splinter hemorrhage)을 보여주는 소견입니다."
@@ -52318,7 +52318,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "번 사진",
+        "text": "2번 사진",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "감염성 심내막염의 특징적 말초 징후가 아닌 대조 사진입니다."
@@ -52326,7 +52326,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "번 사진",
+        "text": "3번 사진",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "감염성 심내막염의 특징적 말초 징후가 아닌 대조 사진입니다."
@@ -52334,7 +52334,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "번 사진",
+        "text": "4번 사진",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "감염성 심내막염의 특징적 말초 징후가 아닌 대조 사진입니다."
@@ -52342,7 +52342,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "번 사진",
+        "text": "5번 사진",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "감염성 심내막염의 특징적 말초 징후가 아닌 대조 사진입니다."
@@ -52566,7 +52566,7 @@
         "text": "Steroid 는 질병을 조절하는 효과가 없다",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "③ Steroid 는 질병을 조절하는 효과가 없다."
+        "reason": "③ 스테로이드는 질병 조절 효과가 전혀 없다."
       },
       {
         "opt_idx": 3,
@@ -52574,7 +52574,7 @@
         "text": "증상완화를 위해 NSAID 를 준다",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "④ 증상완화를 위해 NSAID 를 준다."
+        "reason": "④ 단순 증상 완화를 위해 NSAID 단독으로 조절한다."
       },
       {
         "opt_idx": 4,
@@ -55580,7 +55580,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "년 후 (크기 10mm 이상 선종은 고위험군)",
+        "text": "3년 후 (크기 10mm 이상 선종은 고위험군)",
         "is_correct": true,
         "tag": "정답",
         "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
@@ -55588,7 +55588,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "년 후",
+        "text": "5년 후",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -55596,7 +55596,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "년 후",
+        "text": "1년 후",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -55604,7 +55604,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "개월 후",
+        "text": "6개월 후",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -55612,7 +55612,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "년 후",
+        "text": "10년 후",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -56364,7 +56364,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "zathioprine",
+        "text": "Azathioprine",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "퓨린 유사체 대사길항제로 골수 억제가 주 부작용이며 당뇨병 유발 위험이 매우 낮습니다."
@@ -56372,7 +56372,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "yclosporine A",
+        "text": "Cyclosporine A",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "칼시뉴린 억제제로 당뇨를 유발할 수 있으나, Tacrolimus가 Cyclosporine보다 췌장 베타세포 독성 및 당뇨 유발 위험이 유의하게 더 높습니다."
@@ -56380,7 +56380,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "siliximab",
+        "text": "Basiliximab",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "IL-2 수용체 길항제(단클론항체)로 이식 초기 유도요법에 쓰이며 당뇨병을 유발하지 않습니다."
@@ -56824,7 +56824,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "DW",
+        "text": "5DW",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "체내에서 포도당이 대사되면 순수 유리수(free water)로 작용하므로 혈청 나트륨 농도를 급격히 떨어뜨려 저나트륨혈증을 치명적으로 악화시킵니다."
@@ -56840,7 +56840,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "% saline",
+        "text": "3% saline",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "혼수나 경련 등 신경학적 응급 상태에서 뇌탈출을 막기 위해 투여하며, 경련이 없고 탈수가 주된 경우 과교정 위험이 큽니다."
@@ -56848,7 +56848,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "% saline",
+        "text": "0.45% saline",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "저장성 수액(0.45% 식염수)으로 세포 외액 삼투압을 더 떨어뜨려 혈청 나트륨을 추가로 저하시키므로 저나트륨혈증 환자에게 금기입니다."
@@ -56856,7 +56856,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "% normal saline",
+        "text": "0.9% normal saline",
         "is_correct": true,
         "tag": "정답",
         "reason": "탈수가 동반된 혈량저하성 저나트륨혈증 환자에서 경련이 없으므로 유효 순환 혈장량을 보충해 비삼투성 ADH 분비를 억제하는 1차 수액임"
@@ -57080,7 +57080,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "% Dextrose",
+        "text": "5% Dextrose",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "포도당 수액은 체내 대사 후 자유수(free water)로 작용하여 세포내외로 확산되므로 혈관내 용적 확장에 비효율적입니다."
@@ -57088,7 +57088,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "% Dextrose",
+        "text": "10% Dextrose",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "고농도 포도당 수액으로 삼투성 이뇨를 유발하여 체액 소실을 악화시킬 수 있습니다."
@@ -57835,7 +57835,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "시간 소변 Ca",
+        "text": "24시간 소변 Ca",
         "is_correct": true,
         "tag": "정답",
         "reason": "24시간 요중 칼슘 배설량이 400 mg/day를 초과하거나 요로결석 위험도가 증가된 경우 부갑상선절제술의 표준 적응증이며 본 환자는 860 mg/day로 명확히 적응증임"
@@ -59086,7 +59086,7 @@
       {
         "opt_idx": 0,
         "opt_num": "0.",
-        "text": "(RPI < 2, 골수 생산 저하)",
+        "text": "3 (RPI < 2, 골수 생산 저하)",
         "is_correct": true,
         "tag": "정답",
         "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
@@ -59094,7 +59094,7 @@
       {
         "opt_idx": 1,
         "opt_num": "1.",
-        "text": "",
+        "text": "2",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -59102,7 +59102,7 @@
       {
         "opt_idx": 2,
         "opt_num": "2.",
-        "text": "",
+        "text": "4",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -59110,7 +59110,7 @@
       {
         "opt_idx": 3,
         "opt_num": "3.",
-        "text": "",
+        "text": "1",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -59118,7 +59118,7 @@
       {
         "opt_idx": 4,
         "opt_num": "4.",
-        "text": "",
+        "text": "2",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
@@ -63459,7 +63459,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "cm IDC",
+        "text": "3cm IDC",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "임상적 액와 림프절 음성(cN0)인 T1~T2 침윤성 유관암은 감시림프절 생검의 가장 대표적인 표준 적응증입니다."
@@ -64472,7 +64472,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "/120",
+        "text": "75/120",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "좌측 발목 수축기압(75)을 동측 좌상지 혈압(120)으로 나누는 흔한 계산 오류이며 양측 팔 중 더 높은 수축기압을 분모로 써야 합니다."
@@ -64480,7 +64480,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "/140",
+        "text": "75/140",
         "is_correct": true,
         "tag": "정답",
         "reason": "ABI는 해당 발목 최고 수축기압(75)을 양측 상완 중 더 높은 수축기압(우상지 140)으로 나눈 값이므로 75/140(=0.54, 중등도 허혈)입니다"
@@ -64488,7 +64488,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "/80",
+        "text": "50/80",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "이완기 혈압(좌하지 50, 좌상지 80)으로 계산한 값이며 동맥 폐색을 반영하는 지표인 수축기 혈압을 이용해야 하므로 잘못된 계산입니다."
@@ -64496,7 +64496,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "/140",
+        "text": "130/140",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "우측 하지의 발목 수축기압(130)을 양측 상완 최고압(140)으로 나눈 우하지의 ABI(=0.93)로 증상이 있는 좌측 값이 아닙니다."
@@ -64504,7 +64504,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "/120",
+        "text": "130/120",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "우하지 발목압(130)을 좌상지 혈압(120)으로 나눈 것으로 분자·분모 선택이 모두 잘못되었습니다."
@@ -64599,7 +64599,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "년 전 대장암",
+        "text": "2년 전 대장암",
         "is_correct": true,
         "tag": "정답",
         "reason": "악성종양 병력은 면역억제제 투여 시 급격한 재발 위험이 있어 최소 2~5년 이상의 완전관해 기간이 필요하므로 신장이식의 주요 금기입니다"
@@ -66379,7 +66379,7 @@
       {
         "opt_idx": 1,
         "opt_num": "2.",
-        "text": "cm IDC",
+        "text": "3cm IDC",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "임상적 액와 림프절 음성(cN0)인 T1~T2 침윤성 유관암은 감시림프절 생검의 가장 대표적인 표준 적응증입니다."
@@ -67179,7 +67179,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "cm IDC",
+        "text": "3cm IDC",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "임상적 액와 림프절 음성(cN0)인 T1~T2 침윤성 유관암은 감시림프절 생검의 가장 대표적인 표준 적응증입니다."
@@ -75061,7 +75061,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "도 방실차단: 심각한 심혈관계 합병증을 일으킬 수 있기 때문에 응급 치료가 필요하다.",
+        "text": "1도 방실차단: 심각한 심혈관계 합병증을 일으킬 수 있기 때문에 응급 치료가 필요하다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "PR 간격이 정상치 이상으로 연장되어 있으나 모든 P파 뒤에 QRS가 이어지는 전도 지연으로, 혈역학적 이상이 없어 응급 치료가 필요하지 않습니다."
@@ -75069,7 +75069,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "도 방실차단, Mobitz type I: 증상이 없다면 대부분 특 별한 치료가 불필요하며 경과 관찰한다.",
+        "text": "2도 방실차단, Mobitz type I: 증상이 없다면 대부분 특 별한 치료가 불필요하며 경과 관찰한다.",
         "is_correct": true,
         "tag": "정답",
         "reason": "PR 간격이 점진적으로 길어지다가 QRS가 탈락하는 방실결절 수준의 양호한 전도장애로, 증상이 없으면 특별한 치료 없이 경과를 관찰합니다"
@@ -75077,7 +75077,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "도 방실차단, Mobitz type II: 예후가 양호하므로 심박 동기 삽입 없이 경과 관찰해도 괜찮다.",
+        "text": "2도 방실차단, Mobitz type II: 예후가 양호하므로 심박 동기 삽입 없이 경과 관찰해도 괜찮다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "PR 간격이 일정하다가 예고 없이 QRS가 탈락하는 His-Purkinje계 병변으로, 완전 방실차단 진행 위험이 높아 인공심박동기 삽입이 필요합니다."
@@ -75716,7 +75716,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "개월 아이에게 salmonella 대변에서 검출되면 항생제 준다.(혈액/소변검사 음성)",
+        "text": "4개월 아이에게 salmonella 대변에서 검출되면 항생제 준다.(혈액/소변검사 음성)",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "패혈증 위험군(3개월 미만 영아, 면역저하자)이 아닌 전신 상태가 양호한 단순 살모넬라 위장관염 환아에게 항생제를 투여하면 대변 배균 기간만 늘어납니다."
@@ -75740,7 +75740,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "kg에서 9kg 됐는데 소변 안 나오면 ORS 500ml 줘 야 한다.",
+        "text": "10kg에서 9kg 됐는데 소변 안 나오면 ORS 500ml 줘 야 한다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "체중이 10% 감소(10kg에서 9kg)하고 무뇨를 보이는 중증 탈수는 쇼크 위험이 있으므로 즉시 등장성 정맥 수액(생리식염수 20 mL/kg)을 급속 정주해야 합니다."
@@ -75748,7 +75748,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "일 10회 이상 설사하면 장운동억제제 준다.",
+        "text": "1일 10회 이상 설사하면 장운동억제제 준다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "로페라마이드 등 장운동억제제는 감염성 설사에서 장내 세균 독소 배출을 막아 장마비, 독성 거대결장 및 패혈증을 유발할 수 있어 소아에게 금기입니다."
@@ -76674,7 +76674,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "세에 성인 호흡으로 전환된다",
+        "text": "2세에 성인 호흡으로 전환된다",
         "is_correct": true,
         "tag": "정답",
         "reason": "영아기에는 횡격막 위주의 복식 호흡을 하다가 안면 골격 성장과 후두 복합체의 하방 이동으로 만 2세경 성인형 흉복식 호흡으로 전환됩니다"
@@ -77860,7 +77860,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "점",
+        "text": "1점",
         "is_correct": true,
         "tag": "정답",
         "reason": "심박수 50회/분(100회 미만으로 1점), 무호흡(0점), 사지 완전 이완(0점), 카테터 자극 무반응(0점), 전신 창백(0점)으로 항목별 합산 점수는 총 1점입니다"
@@ -77868,7 +77868,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "점",
+        "text": "2점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "심박수(1점) 외에 호흡, 근긴장도, 자극반응, 피부색 중 1점 항목이 하나 더 있어야 2점이 되나 본 환아는 나머지 네 항목이 모두 0점입니다."
@@ -77876,7 +77876,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "점",
+        "text": "3점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "총점 0~3점은 중증 주산기 가사를 시사하며, 본 환아는 심박수 50회/분(1점)만 인정되어 1점입니다."
@@ -77884,7 +77884,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "점",
+        "text": "4점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "생후 5분 진찰에서 양압환기 후 심박수 100회 이상(2점), 손발 청색(1점), 사지 약간 굴곡(1점) 등으로 회복되었을 때의 점수(5분 Apgar 4~5점)에 해당합니다."
@@ -77892,7 +77892,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "점",
+        "text": "5점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "생후 1분 시점에는 호흡·근긴장·반사·피부색이 모두 0점이므로 5점이 될 수 없습니다."
@@ -77994,7 +77994,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "점",
+        "text": "1점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "1개 항목만 1점이고 나머지 4개 항목이 0점일 때의 점수로, 4개 항목에서 각 1점씩 부여되는 본 증례보다 낮습니다."
@@ -78002,7 +78002,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "점",
+        "text": "2점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "심박수 50회/분(1점), 손발 청색(1점), 사지 굴곡(1점), 느리고 불규칙한 호흡(1점)을 합산하면 2점을 초과합니다."
@@ -78010,7 +78010,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "점",
+        "text": "3점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "3점 이하는 중증 가사에 해당하며, 본 환아는 자극 무반응(0점)을 제외한 4개 항목이 각 1점이므로 총 4점입니다."
@@ -78018,7 +78018,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "점",
+        "text": "4점",
         "is_correct": true,
         "tag": "정답",
         "reason": "심박수 50회/분(100회 미만, 1점), 손발만 파람(말단청색증, 1점), 사지 약간 굴곡(1점), 느리고 불규칙한 호흡(1점), 자극에 반응 없음(0점)으로 합산 4점입니다"
@@ -78026,7 +78026,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "점",
+        "text": "5점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "카테터 자극에 찡그림(1점)이 있었다면 5점이 되나, 본 증례에서는 자극에 무반응(0점)이므로 총 4점입니다."
@@ -78934,7 +78934,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "주",
+        "text": "36주",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "36주 미만도 미숙아에 포함되나 미숙아의 정의 기준점 자체는 재태연령 37주 미만입니다."
@@ -78942,7 +78942,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "주",
+        "text": "37주",
         "is_correct": true,
         "tag": "정답",
         "reason": "세계보건기구(WHO) 및 소아과학 기준에 따라 최종 월경일 기준 재태연령 37주 미만(36주 6일까지)에 출생한 신생아를 미숙아로 정의합니다"
@@ -78950,7 +78950,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "주",
+        "text": "38주",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "재태연령 37주 0일~41주 6일은 만삭아(term infant)에 해당합니다."
@@ -78958,7 +78958,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "주",
+        "text": "39주",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "정상 만삭 주수에 해당합니다."
@@ -78966,7 +78966,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "주",
+        "text": "40주",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "정상 분만 예정일(만삭) 주수에 해당합니다."
@@ -79201,7 +79201,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "점",
+        "text": "1점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "심박수, 호흡, 근긴장도, 피부색 4개 항목에서 각각 1점씩 부여되므로 1점이 아닙니다."
@@ -79209,7 +79209,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "점",
+        "text": "2점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "4개 항목이 각 1점이고 자극 반응만 0점이므로 합산 점수는 4점입니다."
@@ -79217,7 +79217,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "점",
+        "text": "3점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "중증 가사 기준(0~3점)에 해당하며 본 증례의 합산 점수는 4점입니다."
@@ -79225,7 +79225,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "점",
+        "text": "4점",
         "is_correct": true,
         "tag": "정답",
         "reason": "심박수 50회/분(1점), 몸은 분홍이나 손발 청색(1점), 사지 약간 굴곡(1점), 느리고 불규칙한 호흡(1점), 자극 무반응(0점)으로 합산 4점입니다"
@@ -79233,7 +79233,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "점",
+        "text": "5점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "자극 반응이 0점이므로 5점이 아닌 4점입니다."
@@ -81829,7 +81829,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "세에 성인 호흡으로 전환된다.",
+        "text": "2세에 성인 호흡으로 전환된다.",
         "is_correct": true,
         "tag": "정답",
         "reason": "영아기에는 횡격막 위주의 복식 호흡을 하다가 안면 골격 성장과 후두 복합체의 하방 이동으로 만 2세경 성인형 흉복식 호흡으로 전환됩니다"
@@ -85210,7 +85210,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "주",
+        "text": "37주",
         "is_correct": true,
         "tag": "정답",
         "reason": "세계보건기구(WHO) 기준상 출생 체중과 관계없이 최종 월경일 기준 재태연령 37주 미만(36주 6일까지)에 출생한 신생아를 미숙아(조산아)로 정의합니다"
@@ -85218,7 +85218,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "주",
+        "text": "36주",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "재태연령 36주 미만은 미숙아의 일부에 속하나, 미숙아와 만삭아를 구분하는 공식 기준 주수는 37주 미만입니다."
@@ -85226,7 +85226,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "주",
+        "text": "35주",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "재태연령 34주 0일~36주 6일은 후기 미숙아(late preterm)로 분류하며 전체 미숙아 기준은 37주 미만입니다."
@@ -85234,7 +85234,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "주",
+        "text": "38주",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "재태연령 37주 0일부터 41주 6일까지(38주 포함)는 정상 만삭아(term infant)에 해당합니다."
@@ -85242,7 +85242,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "주",
+        "text": "40주",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "분만 예정일(EDD)에 해당하는 정상 만삭 재태연령입니다."
@@ -85480,7 +85480,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "회 이상의 반복적인 천명발작",
+        "text": "3회 이상의 반복적인 천명발작",
         "is_correct": true,
         "tag": "정답",
         "reason": "생후 6개월, 13개월에 이어 3회 이상 반복되는 천명발작(recurrent wheezing)은 단발성 세기관지염과 구별하여 영아 천식을 진단하는 가장 핵심적인 병력입니다"
@@ -86727,7 +86727,7 @@
       {
         "opt_idx": 0,
         "opt_num": "0.",
-        "text": "% Normal saline",
+        "text": "9% Normal saline",
         "is_correct": true,
         "tag": "정답",
         "reason": "당뇨병케톤산증(DKA) 초기 치료의 최우선 단계는 탈수와 유효 순환 혈장량 감소를 교정하기 위한 등장성 0.9% 생리식염수(10~20 mL/kg, 첫 1시간) 정맥 투여입니다"
@@ -86751,7 +86751,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "% Dextrose 수액 투여",
+        "text": "5% Dextrose 수액 투여",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "혈당이 600 mg/dL로 극도로 높은 초기에는 포도당 수액을 쓰지 않으며, 인슐린 치료로 혈당이 250~300 mg/dL 이하로 감소했을 때 수액에 포도당을 추가합니다."
@@ -86759,7 +86759,7 @@
       {
         "opt_idx": 4,
         "opt_num": "0.",
-        "text": "% Normal saline",
+        "text": "45% Normal saline",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "초기 급속 수액 확장에 저장성 수액을 쓰면 급격한 삼투압 하강으로 치명적인 뇌부종을 유발할 수 있어 초기에는 0.9% 생리식염수를 씁니다."
@@ -87805,7 +87805,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": ": 2",
+        "text": "2",
         "is_correct": true,
         "tag": "정답",
         "reason": "소아 심폐소생술에서 1인 구조자일 때는 성인과 동일하게 가슴압박과 인공호흡 비율을 30 : 2로 시행합니다"
@@ -87813,7 +87813,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": ": 1",
+        "text": "1",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "인공호흡은 1회가 아닌 2회 연속(각 1초간 가슴이 올라올 정도로) 시행합니다."
@@ -87821,7 +87821,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": ": 2",
+        "text": "2",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "소아 및 영아(신생아 제외) 심폐소생술에서 의료진 등 2인 구조자일 때 적용하는 가슴압박 대 인공호흡 비율입니다."
@@ -87829,7 +87829,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": ": 2",
+        "text": "2",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "표준 심폐소생술 지침에 존재하지 않는 비율입니다."
@@ -87837,7 +87837,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": ": 2",
+        "text": "2",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "표준 심폐소생술 지침에 존재하지 않는 비율입니다(신생아 소생술은 3 : 1 비율 적용)."
@@ -88398,7 +88398,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "% 글루콘산칼슘(Calcium gluconate) 정맥주사",
+        "text": "10% 글루콘산칼슘(Calcium gluconate) 정맥주사",
         "is_correct": true,
         "tag": "정답",
         "reason": "전신 경련과 심전도 QT 연장을 동반한 중증 저칼슘혈증(이온화 칼슘 2.1 mg/dL)의 응급 처치는 서맥 모니터링 하에 10% 글루콘산칼슘(1~2 mL/kg)을 서서히 정맥주사하는 것입니다"
@@ -88406,7 +88406,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "% 포도당(Dextrose) 정맥주사",
+        "text": "10% 포도당(Dextrose) 정맥주사",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "혈당이 75 mg/dL로 정상 범위이므로 저혈당 경련이 아닙니다."
@@ -89483,7 +89483,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "%",
+        "text": "12%",
         "is_correct": true,
         "tag": "정답",
         "reason": "기관지천식의 가역성 폐기능 검사에서 속효성 베타2 항진제(살부타몰) 흡입 10~15분 후 FEV1이 기저치 대비 12% 이상 증가할 때 양성으로 판정합니다"
@@ -89491,7 +89491,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "%",
+        "text": "7%",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "정상 변이 범위에 속하며 기관지확장제 가역성 양성 기준(12% 이상)에 미달합니다."
@@ -89499,7 +89499,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "%",
+        "text": "20%",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "20% 이상은 주간 최대호기유속(PEF) 변동률 기준 등에 쓰이는 수치이며 FEV1 가역성 기준은 12% 이상입니다."
@@ -89507,7 +89507,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "%",
+        "text": "15%",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "운동유발 기관지수축 검사 등에서 FEV1 감소 기준으로 쓰이는 수치이며 기관지확장제 양성 기준은 12%입니다."
@@ -89515,7 +89515,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "%",
+        "text": "9%",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "기관지확장제 가역성 진단 기준(12% 이상)에 미치지 못합니다."
@@ -91046,7 +91046,7 @@
       {
         "opt_idx": 0,
         "opt_num": "0.",
-        "text": "% 생리식염수(Normal saline) 급속 정주",
+        "text": "9% 생리식염수(Normal saline) 급속 정주",
         "is_correct": true,
         "tag": "정답",
         "reason": "혈당 600 mg/dL, 요케톤 3+, 의식 저하를 보이는 당뇨병케톤산증(DKA)에서 가장 먼저 시행해야 할 초기 처치는 유효 순환 혈장량 회복을 위한 0.9% 생리식염수(10~20 mL/kg) 정맥 투여입니다"
@@ -91070,7 +91070,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "% 포도당 수액 정맥주사",
+        "text": "5% 포도당 수액 정맥주사",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "포도당은 인슐린 치료로 혈당이 250~300 mg/dL 이하로 떨어졌을 때 저혈당 및 급격한 삼투압 하강 예방을 위해 추가합니다."
@@ -93735,7 +93735,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "점",
+        "text": "2점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "1개 항목만 1점이고 나머지 4개 항목이 0점일 때의 점수로, 4개 항목에서 각 1점씩 부여되는 본 증례보다 낮습니다."
@@ -93743,7 +93743,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "점",
+        "text": "3점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "심박수 50회/분(1점), 손발 청색(1점), 사지 굴곡(1점), 느리고 불규칙한 호흡(1점)을 합산하면 2점을 초과합니다."
@@ -93751,7 +93751,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "점",
+        "text": "4점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "3점 이하는 중증 가사에 해당하며, 본 환아는 자극 무반응(0점)을 제외한 4개 항목이 각 1점이므로 총 4점입니다."
@@ -93759,7 +93759,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "점",
+        "text": "5점",
         "is_correct": true,
         "tag": "정답",
         "reason": "심박수 50회/분(100회 미만, 1점), 손발만 파람(말단청색증, 1점), 사지 약간 굴곡(1점), 느리고 불규칙한 호흡(1점), 자극에 반응 없음(0점)으로 합산 4점입니다"
@@ -93767,7 +93767,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "점",
+        "text": "6점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "카테터 자극에 찡그림(1점)이 있었다면 5점이 되나, 본 증례에서는 자극에 무반응(0점)이므로 총 4점입니다."
@@ -94232,7 +94232,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "% 포도당(Dextrose) 정맥주사",
+        "text": "10% 포도당(Dextrose) 정맥주사",
         "is_correct": true,
         "tag": "정답",
         "reason": "당뇨병 산모 출생아에서 태아 고인슐린혈증으로 발생한 증상성 중증 저혈당증(Glucose 20 mg/dL, 칼슘은 9.7로 정상)이므로 즉시 10% 포도당(D10W 2 mL/kg)을 정맥 주사하고 지속 주입(6~8 mg/kg/min)합니다"
@@ -94240,7 +94240,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "% 글루콘산칼슘(Calcium gluconate) 정맥주사",
+        "text": "10% 글루콘산칼슘(Calcium gluconate) 정맥주사",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "당뇨 산모 신생아에서 저칼슘혈증도 흔하나 본 환아는 혈청 칼슘이 9.7 mg/dL로 정상입니다."
@@ -94383,7 +94383,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "세 미만 영유아의 안저출혈과 경막하출혈은 흔들린 아이 증후군을 시사한다.",
+        "text": "3세 미만 영유아의 안저출혈과 경막하출혈은 흔들린 아이 증후군을 시사한다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "외부 외상 흔적 없이 경막하출혈, 망막출혈, 뇌부종이 동반되면 가속-감속 손상에 의한 흔들린 아이 증후군(학대성 두부외상)을 강력히 의심합니다."
@@ -94488,7 +94488,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "~5개월",
+        "text": "4~5개월",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "양손을 중앙으로 모으고 손바닥 전체(척측 파악, ulnar palmar grasp)로 장난감을 쥐기 시작하는 시기입니다."
@@ -94496,7 +94496,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "~7개월",
+        "text": "6~7개월",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "장난감을 한 손에서 다른 손으로 옮겨 쥐고 손바닥의 요측(엄지 쪽)을 사용해 물건을 잡는 시기입니다."
@@ -94504,7 +94504,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "~12개월",
+        "text": "10~12개월",
         "is_correct": true,
         "tag": "정답",
         "reason": "엄지손가락과 집게손가락 끝을 정확히 마주하여 작은 물체를 집어 올리는 미세 집게쥐기(Fine pincer grasp)가 완성되는 시기입니다"
@@ -94512,7 +94512,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "~18개월",
+        "text": "15~18개월",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "적목(블록)을 2~3개 쌓아 올리고 크레용으로 스스로 낙서를 하며 숟가락질을 시도하는 시기입니다."
@@ -94520,7 +94520,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "개월",
+        "text": "24개월",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "적목을 6~7개 쌓고 수직선을 따라 그리며 책장을 한 장씩 넘기는 시기입니다."
@@ -94758,7 +94758,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "% 포도당 용액 급속 정주",
+        "text": "5% 포도당 용액 급속 정주",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "5% 포도당액은 체내에서 자유수분으로 대사되어 세포내액으로 빠져나가므로 혈관내 용적을 확장시키지 못하고 저나트륨혈증을 유발합니다."
@@ -95342,7 +95342,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "",
+        "text": "호기 시간을 줄여서 인공환기의 호흡수를 증가시킨다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "호기 시간(Te)을 단축하여 분당 호흡수를 증가시키는 방법(그래프의 5번)으로, 분당 환기량과 MAP를 함께 증가시킵니다."
@@ -97922,7 +97922,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "차 치료는 아목시실린이다.",
+        "text": "1차 치료는 아목시실린이다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "풍진은 토가바이러스과(Matonaviridae) RNA 바이러스 감염이므로 항생제는 효과가 없으며 대증 치료합니다."
@@ -98597,7 +98597,7 @@
       {
         "opt_idx": 0,
         "opt_num": "0.",
-        "text": "% 생리식염수(Normal saline) 정맥 투여",
+        "text": "9% 생리식염수(Normal saline) 정맥 투여",
         "is_correct": true,
         "tag": "정답",
         "reason": "소아 당뇨병케톤산증(DKA) 내원 시 가장 우선적인 초기 치료는 탈수와 혈관내 용적 결핍을 교정하기 위한 0.9% 생리식염수(10~20 mL/kg, 첫 1시간) 정맥 투여입니다"
@@ -99232,7 +99232,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "시간 소변 단백질 정량 검사",
+        "text": "24시간 소변 단백질 정량 검사",
         "is_correct": true,
         "tag": "정답",
         "reason": "전신 부종, 복수, 체중 증가 및 소변 시험지봉 단백뇨(3+ 이상)를 보이는 신증후군 의심 환아에서 신증후군 범위의 대량 단백뇨(>40 mg/m2/hr)를 확진하기 위해 24시간 소변 단백질 정량(또는 단회 소변 단백/크레아티닌 비)을 시행합니다"
@@ -100007,7 +100007,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "차 치료로 암피실린(Ampicillin) 또는 아목시실린을 10일간 투여한다.",
+        "text": "1차 치료로 암피실린(Ampicillin) 또는 아목시실린을 10일간 투여한다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "EBV 감염 환아에게 암피실린이나 아목시실린을 투여하면 80~90%에서 전신 홍반성 반점구진상 약물 발진이 발생하므로 투여하지 않습니다."
@@ -100460,7 +100460,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "D. 6세 이전에 흔하다.",
+        "text": "6세 이전에 흔하다.",
         "is_correct": true,
         "tag": "정답",
         "reason": "만 4세 미만에서는 드물고 6세 이후 학령기(6~12세)에 심리·환경적 스트레스와 연관되어 가장 흔하게 호발합니다"
@@ -102018,7 +102018,7 @@
       {
         "opt_idx": 0,
         "opt_num": "0.",
-        "text": "% 생리식염수(NS) 수액 투여",
+        "text": "9% 생리식염수(NS) 수액 투여",
         "is_correct": true,
         "tag": "정답",
         "reason": "설사 후 구강 점막 건조, 약하고 빠른 맥박, 신장의 나트륨 보존 반응(소변 Na 15 mEq/L로 감소)을 보이는 등장성 탈수(혈청 Na 142) 및 저혈량 상태이므로 0.9% 생리식염수를 정맥 투여하여 혈장량을 회복시킵니다"
@@ -103426,7 +103426,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A. 1",
+        "text": "1",
         "is_correct": true,
         "tag": "정답",
         "reason": "1 : 1 : 1 : 1 : 1 : [소아청소년과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
@@ -103434,7 +103434,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "B. 2",
+        "text": "2",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -103442,7 +103442,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "C. 3",
+        "text": "3",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -103450,7 +103450,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "D. 4",
+        "text": "4",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -103458,7 +103458,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "E. 5",
+        "text": "5",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -103754,7 +103754,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "C. 10% 포도당",
+        "text": "10% 포도당",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -103957,7 +103957,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "D. 20 % albumin",
+        "text": "20 % albumin",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "20 % albumin : 20 % albumin : 20 % albumin : 20 % albumin."
@@ -104313,7 +104313,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "C. 5일 이상 지속되는 발열",
+        "text": "5일 이상 지속되는 발열",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "5일 이상 지속되는 발열 : 5일 이상 지속되는 발열 : 5일 이상 지속되는 발열 : 5일 이상 지속되는 발열."
@@ -108588,7 +108588,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "% dextrose를 준다.",
+        "text": "50% dextrose를 준다.",
         "is_correct": true,
         "tag": "정답",
         "reason": "혈당 15 mg/dL는 치명적 뇌손상을 유발하는 중증 저혈당이므로 티아민 100mg 투여 직후 고농도 포도당(50% dextrose 50mL)을 즉시 정주해야 합니다"
@@ -111624,7 +111624,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "% dextrose를 준다.",
+        "text": "50% dextrose를 준다.",
         "is_correct": true,
         "tag": "정답",
         "reason": "혈당 15 mg/dL는 치명적 뇌손상을 유발하는 중증 저혈당이므로 티아민 100mg 투여 직후 고농도 포도당(50% dextrose 50mL)을 즉시 정주해야 합니다"
@@ -111880,7 +111880,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "uchenne muscular dystrophy",
+        "text": "Duchenne muscular dystrophy",
         "is_correct": true,
         "tag": "정답",
         "reason": "X-연관 열성 유전되는 디스트로핀 유전자 결손 질환으로, 3~5세경 근위부 근력 약화와 가우어 징후, 종아리 가성비대를 보입니다"
@@ -111896,7 +111896,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "myotrophic lateral sclerosis",
+        "text": "Amyotrophic lateral sclerosis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "X-연관 열성 유전되는 디스트로핀 유전자 결손 질환으로, 3~5세경 근위부 근력 약화와 가우어 징후, 종아리 가성비대를 보입니다"
@@ -114979,7 +114979,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "PAP",
+        "text": "CPAP",
         "is_correct": true,
         "tag": "정답",
         "reason": "수면 중 상기도에 양압을 가해 기도가 허탈되는 것을 방지하여 무호흡을 없애고 주간 졸림을 개선하는 폐쇄성 수면무호흡증(OSA)의 1차 표준 치료입니다."
@@ -114987,7 +114987,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "tivan",
+        "text": "Ativan",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "벤조디아제핀계 진정수면제로 상기도 근육의 긴장도를 떨어뜨려 기도 폐쇄와 저호흡을 악화시키므로 OSA 환자에게 금기입니다."
@@ -117547,7 +117547,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "iabetic polyneuropathy",
+        "text": "Diabetic polyneuropathy",
         "is_correct": true,
         "tag": "정답",
         "reason": "당뇨 환자에서 양측 발끝부터 대칭적으로 시작되는 저림과 통증, 진동각 및 건반사 저하를 보이는 장갑-양말 분포의 다발신경병증은 당뇨병성 말초신경병증(Diabetic polyneuropathy)입니다."
@@ -118869,10 +118869,10 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "ramp",
+        "text": "Cramp",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "ramp은(는) 본 증례의 적응증 및 감별 진단에 부합하지 않습니다."
+        "reason": "Cramp은(는) 본 증례의 적응증 및 감별 진단에 부합하지 않습니다."
       }
     ]
   },
@@ -119901,7 +119901,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "시간 홀터 심전도 (Holter ECG)",
+        "text": "24시간 홀터 심전도 (Holter ECG)",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "발작성 부정맥에 의한 심인성 실신을 감별하기 위해 시행합니다."
@@ -122743,10 +122743,10 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "iencephalon",
+        "text": "diencephalon",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "iencephalon은(는) 본 증례의 진단 및 치료 기준에 부합하지 않는 보기입니다."
+        "reason": "diencephalon은(는) 본 증례의 진단 및 치료 기준에 부합하지 않는 보기입니다."
       },
       {
         "opt_idx": 1,
@@ -122759,7 +122759,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "rebral cortex",
+        "text": "cerebral cortex",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "손상 시 교감신경 하행로 차단으로 핀포인트 동공(pinpoint pupil), 각막반사 소실, 지속흡식호흡(apneustic breathing)이 관찰됩니다."
@@ -122870,10 +122870,10 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "iencephalon",
+        "text": "diencephalon",
         "is_correct": true,
         "tag": "정답",
-        "reason": "iencephalon은(는) 제피질경직(양팔 굴곡·다리 신전)+체인-스톡스 호흡+작은 동공(반사 보존) → 간뇌(Diencephalon) 병변 소견에 부합하는 적절한 1차 치료/표준 진단 기준입니다."
+        "reason": "diencephalon은(는) 제피질경직(양팔 굴곡·다리 신전)+체인-스톡스 호흡+작은 동공(반사 보존) → 간뇌(Diencephalon) 병변 소견에 부합하는 적절한 1차 치료/표준 진단 기준입니다."
       },
       {
         "opt_idx": 1,
@@ -122886,7 +122886,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "rebral cortex",
+        "text": "cerebral cortex",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "제피질경직(decorticate posturing), 체인-스톡스 호흡, 동공반사 보존은 간뇌(diencephalon) 또는 피질하 광범위 병변 소견으로 제공된 선지 중 가장 부합합니다"
@@ -122999,7 +122999,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "onepezil",
+        "text": "Donepezil",
         "is_correct": true,
         "tag": "정답",
         "reason": "알츠하이머병 환자에서 뇌내 아세틸콜린 농도를 증가시켜 인지 기능 저하를 완화하는 아세틸콜린에스테라제 억제제(AChEI)의 대표적인 표준 치료 약제입니다."
@@ -123023,7 +123023,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "rbamazepine",
+        "text": "Carbamazepine",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "나트륨 통로 차단 항경련제로 치매 치료와 무관합니다."
@@ -124442,10 +124442,10 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "rpal tunnel syndrome",
+        "text": "Carpal tunnel syndrome",
         "is_correct": true,
         "tag": "정답",
-        "reason": "rpal tunnel syndrome은(는) 조선소 근무자 손목 앞부분 압박 통증(Tinel sign), 진동 노출 적음 → 손목터널 증후군 소견에 부합하는 적절한 1차 치료/표준 진단 기준입니다."
+        "reason": "Carpal tunnel syndrome은(는) 조선소 근무자 손목 앞부분 압박 통증(Tinel sign), 진동 노출 적음 → 손목터널 증후군 소견에 부합하는 적절한 1차 치료/표준 진단 기준입니다."
       },
       {
         "opt_idx": 1,
@@ -124458,7 +124458,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "ompartment syndrome",
+        "text": "Compartment syndrome",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "착암기 등 진동 공구에 장기간 노출되어 손가락의 혈관 수축과 말초신경 장애가 발생하는 직업병으로 진동 노출이 없어 배제됩니다."
@@ -125465,7 +125465,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "세 이후부터 정상 뇌혈류량이 서서히 감소한다.",
+        "text": "60세 이후부터 정상 뇌혈류량이 서서히 감소한다.",
         "is_correct": true,
         "tag": "정답",
         "reason": "정상 성인의 뇌혈류량은 약 50 mL/100g/min이며, 60세 이후 노화에 따른 뇌혈관 저항 증가 및 뇌세포 용적 감소로 점진적으로 감소합니다"
@@ -128416,7 +128416,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "PK와 같은 근육 효소가 현저히 상승한다.",
+        "text": "CPK와 같은 근육 효소가 현저히 상승한다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "acute onset , proximal motor 가 나타난다 weakness . 와 같은 효소가 상승한다 : acute onset , proximal motor 가 나타난다 weakness . 와 같은 효소가 상승한다 : acute onset , proximal motor 가 나타난다 weakness . 와 같은 효소가 상승한다 : acute onset , proximal motor 가 나타난다 weakness . 와 같은 효소가 상승한다."
@@ -129043,10 +129043,10 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "대, 50대 bimodal peak을 보인다.",
+        "text": "20대, 50대 bimodal peak을 보인다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "대, 50대 bimodal peak을 보인다.은(는) 본 증례의 적응증 및 감별 진단에 부합하지 않습니다."
+        "reason": "20대, 50대 bimodal peak을 보인다.은(는) 본 증례의 적응증 및 감별 진단에 부합하지 않습니다."
       },
       {
         "opt_idx": 3,
@@ -129537,10 +129537,10 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "WI",
+        "text": "DWI",
         "is_correct": true,
         "tag": "정답",
-        "reason": "WI은(는) 상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오. 소견에 부합하는 정답입니다."
+        "reason": "DWI은(는) 상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오. 소견에 부합하는 정답입니다."
       }
     ]
   },
@@ -131952,7 +131952,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "B. 50세 이후에 처음 발생한 두통",
+        "text": "50세 이후에 처음 발생한 두통",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "50세 이후에 처음 발생한 두통 : 50세 이후에 처음 발생한 두통 : 50세 이후에 처음 발생한 두통 : 50세 이후에 처음 발생한 두통."
@@ -132888,7 +132888,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "C. 20대, 50대 bimodal peak",
+        "text": "20대, 50대 bimodal peak",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "가만히 쉴 때보다는 물건을 잡거나 일정한 자세를 유지할 때 악화되는 자세떨림(postural tremor)과 활동떨림(action tremor)이 특징입니다. (O)"
@@ -133667,7 +133667,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "시간",
+        "text": "5시간",
         "is_correct": true,
         "tag": "정답",
         "reason": "급성 허혈성 뇌졸중에서 혈전용해 치료는 빠를수록 좋으나 공인된 표준 치료 시간창의 상한선은 2시간보다 깁니다."
@@ -136475,7 +136475,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "(Hs), 3번(Hy) 척도",
+        "text": "1(Hs), 3번(Hy) 척도",
         "is_correct": true,
         "tag": "정답",
         "reason": "건강염려증(Hs)과 히스테리(Hy) 척도가 동반 상승하고 2번(D)이 상대적으로 낮은 전환 V(신체화 V) 형태로, 심리적 갈등을 신체 증상으로 호소하는 신체증상장애의 전형적 프로파일입니다"
@@ -136483,7 +136483,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "(D), 7(Pt) 척도",
+        "text": "2(D), 7(Pt) 척도",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "우울증(D)과 강박증/정신쇠약(Pt) 척도가 동반 상승한 패턴으로 심한 불안, 만성 걱정, 초조, 긴장을 특징으로 하는 신경증적 불안장애에서 관찰됩니다."
@@ -136491,7 +136491,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "(Pd), 9(Ma) 척도",
+        "text": "4(Pd), 9(Ma) 척도",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "반사회성(Pd)과 경조증(Ma) 척도 상승으로 충동성, 권위 저항, 낮은 좌절 감내력, 외현화 행동 문제를 시사합니다."
@@ -136499,7 +136499,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "(Si) 척도",
+        "text": "0(Si) 척도",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "사회적 내향성(Si) 척도 단독 상승으로 수줍음, 대인관계 회피, 사회적 고립 성향을 반영하며 신체화와는 직접적 연관이 적습니다."
@@ -136507,7 +136507,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "(Pa), 8(Sc) 척도",
+        "text": "6(Pa), 8(Sc) 척도",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "편집증(Pa)과 조현병(Sc) 척도가 함께 상승한 정신증적 V 형태로 기괴한 망상, 환청, 사고장애, 현실검증력 손상을 나타냅니다."
@@ -138381,7 +138381,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "개월 전부터 삽화 서서히 발생",
+        "text": "6개월 전부터 삽화 서서히 발생",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "양극성 우울증은 급성으로 갑자기 시작되고 삽화 기간이 짧은 편이며, 수개월에 걸쳐 서서히 발생하는 양상은 단극성 우울증에 더 흔합니다."
@@ -138867,7 +138867,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "개월 이상 지속되면 진단할 수 있다.",
+        "text": "3개월 이상 지속되면 진단할 수 있다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "1년 미만 지속되는 틱 증상은 일과성(잠정적) 틱장애(Provisional Tic Disorder)로 진단합니다."
@@ -141443,7 +141443,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "~2.5mEq/L-vomiting",
+        "text": "2.0~2.5mEq/L-vomiting",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "vomiting — 오심, 구토, 설사, 복통 등 경미한 위장관 독성 증상은 1.5~2.0 mEq/L의 경도 독성 구간에서 호발합니다."
@@ -141451,7 +141451,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "~2.5mEq/L-abdominal pain",
+        "text": "2.0~2.5mEq/L-abdominal pain",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "abdominal pain — 복통과 묽은 변은 1.5~2.0 mEq/L에서 주로 나타나는 초기 독성 증상입니다."
@@ -141459,7 +141459,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "~2.5mEq/L-renal failure",
+        "text": "2.0~2.5mEq/L-renal failure",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "renal failure — 핍뇨, 급성 신부전 및 심혈관계 허탈은 혈중 농도가 2.5 mEq/L를 초과하는 중증 독성 단계에서 동반됩니다."
@@ -141467,7 +141467,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "~2.0mEq/L-muscle fasciculation",
+        "text": "1.5~2.0mEq/L-muscle fasciculation",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "muscle fasciculation — 근육 섬유속연축, 과다반사, 거친 떨림은 2.0~2.5 mEq/L의 중등도 신경독성 단계에서 특징적입니다."
@@ -141475,7 +141475,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "mEq/L-general convulsion",
+        "text": "2.5mEq/L-general convulsion",
         "is_correct": true,
         "tag": "정답",
         "reason": "general convulsion — 혈중 농도 2.5 mEq/L 초과 시 전신 경련, 혼수, 부정맥 등 생명을 위협하는 중증 독성이 발생하며 혈액투석이 필요합니다"
@@ -141570,7 +141570,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "~0.6 mEq/L",
+        "text": "0.3~0.6 mEq/L",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "치료 용량에 미달하는 농도로 급성 조증 삽화의 과잉행동, 다변, 과대망상 증상을 조절할 수 없습니다."
@@ -141578,7 +141578,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "~1.0 mEq/L",
+        "text": "0.6~1.0 mEq/L",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "급성기 증상이 안정된 후 재발을 방지하기 위한 장기 유지요법(maintenance)의 권장 혈중 농도입니다."
@@ -141586,7 +141586,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "~1.5 mEq/L",
+        "text": "1.0~1.5 mEq/L",
         "is_correct": true,
         "tag": "정답",
         "reason": "이전에 치료받지 않은 급성 조증 삽화 환자에서 신속한 증상 관해를 얻기 위한 급성기 목표 치료 농도입니다"
@@ -141594,7 +141594,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "~2.0 mEq/L",
+        "text": "1.5~2.0 mEq/L",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "경도 중독 농도로 오심, 구토, 설사, 미세 손떨림, 운동실조 등 리튬 독성 부작용이 나타나는 위험 구간입니다."
@@ -141602,7 +141602,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "~2.4 mEq/L",
+        "text": "2.0~2.4 mEq/L",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "중등도 중독 농도로 거친 진전, 근육 연축, 혼미, 발음장애 등 신경계 독성이 유발되므로 피해야 합니다."
@@ -141951,7 +141951,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "%",
+        "text": "12%",
         "is_correct": true,
         "tag": "정답",
         "reason": "조현병 환자의 이란성 쌍둥이(dizygotic twin)가 조현병에 이환될 평생 발병 위험률은 약 12%(10~15%)입니다"
@@ -141959,7 +141959,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "%",
+        "text": "8%",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "일반 인구 집단에서 조현병이 발병할 평생 유병률입니다."
@@ -141967,7 +141967,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "%",
+        "text": "25%",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "3차 친족(사촌 등)이나 2차 친족의 일부에서 관찰되는 조현병 유병률입니다."
@@ -141975,7 +141975,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "%",
+        "text": "40%",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "유전 정보가 100% 동일한 일란성 쌍둥이(monozygotic twin)에서의 조현병 일치율(concordance rate)입니다."
@@ -141983,7 +141983,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "%",
+        "text": "47%",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "유전 질환 중에서도 극도로 높은 침투율을 가진 단일 유전자 우성 질환 수준의 수치이며 조현병은 다인자 유전 양상을 따릅니다."
@@ -144791,7 +144791,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "차적으로 불안이나 우울증상이 있으면 치료를 받아야 한다.",
+        "text": "2차적으로 불안이나 우울증상이 있으면 치료를 받아야 한다.",
         "is_correct": true,
         "tag": "정답",
         "reason": "[정신건강의학과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
@@ -148036,10 +148036,10 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "ute dystonia",
+        "text": "Acute dystonia",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "ute dystonia은(는) 본 증례의 진단 및 치료 기준에 부합하지 않는 보기입니다."
+        "reason": "Acute dystonia은(는) 본 증례의 진단 및 치료 기준에 부합하지 않는 보기입니다."
       },
       {
         "opt_idx": 1,
@@ -148052,10 +148052,10 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "kathisia",
+        "text": "Akathisia",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "kathisia에 대한 감별 소견입니다."
+        "reason": "Akathisia에 대한 감별 소견입니다."
       },
       {
         "opt_idx": 3,
@@ -149779,10 +149779,10 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "lonazepam 처방",
+        "text": "Clonazepam 처방",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "lonazepam 처방은(는) 본 증례의 적응증 및 감별 진단에 부합하지 않습니다."
+        "reason": "Clonazepam 처방은(는) 본 증례의 적응증 및 감별 진단에 부합하지 않습니다."
       },
       {
         "opt_idx": 1,
@@ -149795,10 +149795,10 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "PAP",
+        "text": "CPAP",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "PAP은(는) 본 증례의 적응증 및 감별 진단에 부합하지 않습니다."
+        "reason": "CPAP은(는) 본 증례의 적응증 및 감별 진단에 부합하지 않습니다."
       },
       {
         "opt_idx": 3,
@@ -150789,7 +150789,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "onfusion, nystagmus, ataxia의 증상을 나타낸다.",
+        "text": "Confusion, nystagmus, ataxia의 증상을 나타낸다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "의식혼돈, 안구진탕/외안근마비, 보행실조가 베르니케 뇌병증의 특징적인 3대 징후입니다. (O)"
@@ -154009,10 +154009,10 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "% 이상이 20세 이후에 발생한다.",
+        "text": "50% 이상이 20세 이후에 발생한다.",
         "is_correct": true,
         "tag": "정답",
-        "reason": "% 이상이 20세 이후에 발생한다.은(는) 상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오. 소견에 부합하는 정답입니다."
+        "reason": "50% 이상이 20세 이후에 발생한다.은(는) 상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오. 소견에 부합하는 정답입니다."
       }
     ]
   },
@@ -154646,7 +154646,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "년동안 최소 5 일 이상의 자해 행동이 있다",
+        "text": "1 년동안 최소 5 일 이상의 자해 행동이 있다",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "자신에 대한 강한 분노나 죄책감을 해소하기 위해 자기 처벌 목적으로 신체 손상을 가하기도 합니다. (O)"
@@ -155027,10 +155027,10 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "세",
+        "text": "40세",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "세에 대한 감별 소견입니다."
+        "reason": "40세에 대한 감별 소견입니다."
       },
       {
         "opt_idx": 2,
@@ -159343,7 +159343,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "세까지 대부분의 발달 완성된다",
+        "text": "1 세까지 대부분의 발달 완성된다",
         "is_correct": true,
         "tag": "정답",
         "reason": "[정신건강의학과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
@@ -160480,7 +160480,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "개월 이상 지속되면 지속성(만성)으로 분류한다.",
+        "text": "6개월 이상 지속되면 지속성(만성)으로 분류한다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "적응장애는 만성 스트레스 요인이 있을 때 6개월 이상 지속형으로 분류되지만, PTSD는 1개월 이상 지속 시 기본 진단됩니다."
@@ -161985,7 +161985,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "년전에 수면제 한꺼번에 많이 먹은 적 있어요",
+        "text": "1년전에 수면제 한꺼번에 많이 먹은 적 있어요",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "과거 자살 시도력은 주요 위험인자이지만, 현재 진행 중인 구체적 수단 확보 상태에 비해 급성 위험도는 낮습니다."
@@ -162886,10 +162886,10 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "HIAA 농도의 감소",
+        "text": "5-HIAA 농도의 감소",
         "is_correct": true,
         "tag": "정답",
-        "reason": "HIAA 농도의 감소 — 세로토닌의 최종 대사산물인 CSF 5-HIAA 농도 감소는 세로토닌 활성 저하를 나타내며 우울증 및 자살 행동과 밀접한 연관이 있습니다"
+        "reason": "5-HIAA 농도의 감소 — 세로토닌의 최종 대사산물인 CSF 5-HIAA 농도 감소는 세로토닌 활성 저하를 나타내며 우울증 및 자살 행동과 밀접한 연관이 있습니다"
       },
       {
         "opt_idx": 1,
@@ -163789,7 +163789,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "강박형",
+        "text": "7 강박형",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "불안, 공포, 걱정, 완벽주의적 경향, 강박적 의식 행위 및 심리적 고통의 수준을 평가하는 척도입니다."
@@ -163797,7 +163797,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "편집형",
+        "text": "6 편집형",
         "is_correct": true,
         "tag": "정답",
         "reason": "대인관계 민감성, 의심, 피해망상 및 과대망상을 평가하며, 점수가 지나치게 낮으면 방어성과 과도한 경계를 시사합니다"
@@ -163805,7 +163805,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "내향형",
+        "text": "0 내향형",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "사회적 접촉을 회피하고 혼자 있기를 선호하는 사회적 내향성과 대인관계 불편감을 측정하는 척도입니다."
@@ -163813,7 +163813,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "반사회적 성격",
+        "text": "4 반사회적 성격",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "사회적 규범 위반, 충동성, 권위적 대상에 대한 반항, 반사회적 행동 경향성을 평가하는 척도입니다."
@@ -163821,7 +163821,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "조현형",
+        "text": "8 조현형",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "기괴한 사고, 비현실감, 사회적 고립, 정서적 둔마 및 분열형·조현병적 지각 왜곡을 평가하는 척도입니다."
@@ -167624,7 +167624,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A. 0-2 세",
+        "text": "0-2 세",
         "is_correct": true,
         "tag": "정답",
         "reason": "0-2 세 : 0-2 세 : 0-2 세 : 0-2 세 : 0-2 세 : [정신건강의학과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
@@ -167632,7 +167632,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "B. 2-7 세",
+        "text": "2-7 세",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -167640,7 +167640,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "C. 7-12 세",
+        "text": "7-12 세",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "7-12 세 : 7-12 세 : 7-12 세 : 7-12 세."
@@ -167648,7 +167648,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "D. 12-18",
+        "text": "12-18",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -168127,7 +168127,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "D. 6 개월 이상 지속되는 경우가 드물다.",
+        "text": "6 개월 이상 지속되는 경우가 드물다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "전신 미세전이 조절과 수술적 절제 없이는 완치될 수 없습니다."
@@ -168948,7 +168948,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A. 30-40 대에서 호발한다.",
+        "text": "30-40 대에서 호발한다.",
         "is_correct": true,
         "tag": "정답",
         "reason": "30-40 대에서 호발한다. : 30-40 대에서 호발한다. : 30-40 대에서 호발한다. : 30-40 대에서 호발한다. : 30-40 대에서 호발한다. : [정신건강의학과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
@@ -171757,7 +171757,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A. 167cm 에 37kg 이다",
+        "text": "167cm 에 37kg 이다",
         "is_correct": true,
         "tag": "정답",
         "reason": "167cm 에 37kg 이다 : 167cm 에 37kg 이다 : 167cm 에 37kg 이다 : 167cm 에 37kg 이다 : 167cm 에 37kg 이다 : [정신건강의학과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
@@ -171900,10 +171900,10 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": ",4 stage 늘어난다",
+        "text": "3,4 stage 늘어난다",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "③ ,4 stage 늘어난다."
+        "reason": "③ 3,4 stage 늘어난다."
       },
       {
         "opt_idx": 3,
@@ -173711,7 +173711,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A. 85-70",
+        "text": "85-70",
         "is_correct": true,
         "tag": "정답",
         "reason": "85-70 : 85-70 : 85-70 : 85-70 : 85-70 : [정신건강의학과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
@@ -173719,7 +173719,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "B. 49-35",
+        "text": "49-35",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -173727,7 +173727,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "C. 34-20",
+        "text": "34-20",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -173735,7 +173735,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "D. 34-20",
+        "text": "34-20",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -176911,7 +176911,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "세대 세라믹은 지르코니아 함량을 대폭 증가시켜 세라믹 골절 위험을 극대화하였다.",
+        "text": "4세대 세라믹은 지르코니아 함량을 대폭 증가시켜 세라믹 골절 위험을 극대화하였다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "4세대 세라믹(BIOLOX delta)은 알루미나 기질에 지르코니아 입자를 미세 분산시켜 균열 전파를 막음으로써 세라믹 골절률을 0.001% 미만으로 극감시켰습니다."
@@ -178766,7 +178766,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "세대 cephalosporin",
+        "text": "1세대 cephalosporin",
         "is_correct": true,
         "tag": "정답",
         "reason": "창상 5cm의 Gustilo Type II 개방성 골절에서는 포도알균 등 피부 상재균을 커버하는 1세대 세팔로스포린(세파졸린) 단독 투여가 표준입니다"
@@ -178774,7 +178774,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "세대 cephalosporin",
+        "text": "3세대 cephalosporin",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "3세대 세파는 원내 감염이나 복합 패혈증에 쓰이며 단순 개방 골절의 1차 경험적 예방 항생제로 권장되지 않습니다."
@@ -178782,7 +178782,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "세대 cephalosporin",
+        "text": "4세대 cephalosporin",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "녹농균을 포함한 광범위 항생제로 외상 초기 단순 예방 목적의 1차 선택제가 아닙니다."
@@ -179489,7 +179489,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "개월까지 경과관찰",
+        "text": "6개월까지 경과관찰",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "치료 없이 관찰만 하면 대퇴골두 탈구가 고착화되고 비구 이형성이 비가역적으로 악화되므로 조기 적극적 치료가 필수적입니다."
@@ -181400,7 +181400,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "대 여성에서 다발하며 스포츠에 의한 고에너지 손상에 흔히 발생한다.",
+        "text": "60대 여성에서 다발하며 스포츠에 의한 고에너지 손상에 흔히 발생한다.",
         "is_correct": true,
         "tag": "정답",
         "reason": "상완골 하단부터 주관절을 감아 중수수지관절까지 U자형으로 고정하여 전완부 회내·회외 운동을 효과적으로 억제하므로 급성기 원위 요골 골절의 표준 부목입니다"
@@ -181790,7 +181790,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "~60대 남성에서 흔하다.",
+        "text": "5~60대 남성에서 흔하다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "40~60대 여성에서 남성보다 약 3~5배 호발하는 대표적인 포착 신경병증입니다."
@@ -185702,7 +185702,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "nterior cruciate ligament rupture",
+        "text": "Anterior cruciate ligament rupture",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "전방십자인대 파열은 시상면 MRI에서 인대 연속성 소실로 진단하며 슬개대퇴관절 손상 패턴과 다릅니다."
@@ -194232,7 +194232,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "시간 동안 경과관찰 후 구획압 재측정",
+        "text": "24시간 동안 경과관찰 후 구획압 재측정",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "6~8시간 이상 지체되면 비가역적 근육 괴사와 영구적 장애(볼크만 구축, 족하수)가 초래됩니다."
@@ -209247,7 +209247,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "개월 후 경과관찰",
+        "text": "6개월 후 경과관찰",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "췌장의 저음영 종괴는 악성도와 진행 속도가 매우 빠른 췌장관선암종(PDAC)의 전형 소견이므로 경과관찰은 치료 시기를 놓치게 하여 금기입니다."
@@ -213627,7 +213627,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "번째 요추가 보여야 한다.",
+        "text": "3번째 요추가 보여야 한다.",
         "is_correct": true,
         "tag": "정답",
         "reason": "흉부 단순촬영의 적정 투과도 기준은 심음영 뒤로 흉추체 윤곽이 희미하게 보이는 정도이며, 요추(제3요추)까지 뚜렷하게 관찰되는 것은 복부 촬영 기준이거나 과투과 소견으로 흉부 X선의 정상 판독 기준이 아닙니다"
@@ -218172,7 +218172,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "",
+        "text": "1번",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -218180,7 +218180,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "",
+        "text": "2번",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -218188,7 +218188,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "",
+        "text": "3번",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -218196,7 +218196,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "",
+        "text": "4번 (Pars interarticularis)",
         "is_correct": true,
         "tag": "정답",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -218204,7 +218204,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "",
+        "text": "5번",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -224209,7 +224209,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "",
+        "text": "1번",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -224217,7 +224217,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "",
+        "text": "2번",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -224225,7 +224225,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "",
+        "text": "3번",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -224233,7 +224233,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "(Pars interarticularis)",
+        "text": "4번 (Pars interarticularis)",
         "is_correct": true,
         "tag": "정답",
         "reason": "요추 사위상 방사선 사진에서 상관절돌기와 하관절돌기 사이를 잇는 협부(Pars interarticularis, 4번)의 피로골절 및 결손으로 인해 전방전위가 유발되는 협부 척추전방전위증 소견임."
@@ -224241,7 +224241,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "",
+        "text": "5번",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
@@ -232905,7 +232905,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "차 치료로 생식샘자극호르몬(Gonadotropin) 주사를 이용한 과배란유도를 시행한다.",
+        "text": "1차 치료로 생식샘자극호르몬(Gonadotropin) 주사를 이용한 과배란유도를 시행한다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "성선자극호르몬 주사는 다태임신과 난소과자극증후군(OHSS) 위험이 높아 1차 치료로 우선 선택하지 않습니다."
@@ -233766,7 +233766,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "% sorbitol",
+        "text": "3% sorbitol",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "단극성 전기소작 시 쓰는 비전해질 저장성 용액으로 과량 흡수 시 저나트륨혈증과 수분 중독증에 의한 뇌부종을 유발합니다."
@@ -233782,7 +233782,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "% mannitol",
+        "text": "5% mannitol",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "등장성 비전해질 매질로 이뇨 효과가 있어 소르비톨보다 저삼투압성 뇌부종 위험이 낮습니다."
@@ -234877,7 +234877,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "",
+        "text": "2",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "2 — 선진부 최하단이 양측 좌골극(ischial spine) 연결선보다 2cm 위쪽에 위치한 상태로 아직 진입(engagement)이 완료되지 않은 시기입니다."
@@ -234885,7 +234885,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "",
+        "text": "1",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "1 — 선진부 최하단이 좌골극 평면보다 1cm 위쪽에 위치한 상태입니다."
@@ -234893,7 +234893,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "",
+        "text": "0",
         "is_correct": true,
         "tag": "정답",
         "reason": "두정위에서 태아의 양쪽마루뼈지름(BPD)이 골반 입구(pelvic inlet)를 통과하는 진입(Engagement) 시점에 아두의 최하단(선진부)은 좌골극 평면인 Station 0에 위치합니다"
@@ -235276,7 +235276,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "주 뒤 생물리학계수 측정",
+        "text": "1주 뒤 생물리학계수 측정",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "조산 위험이 큰 37주 미만 미숙아에서 고려하며, 만삭의 양수과소증에서는 태반부전 위험으로 연기할 수 없습니다."
@@ -235284,7 +235284,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "주 뒤 비수축 검사, 양수량 측정",
+        "text": "1주 뒤 비수축 검사, 양수량 측정",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "임신 37주 만삭에서 확인된 양수과소증은 태아 곤란증 위험을 높이므로 추적 검사로 지체하지 않고 분만합니다."
@@ -236043,7 +236043,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "g OGTT",
+        "text": "50g OGTT",
         "is_correct": true,
         "tag": "정답",
         "reason": "이전 임신성당뇨병 병력이 있는 고위험 산모는 일반 선별 시기(24~28주)를 기다리지 않고 첫 산전진찰 시 조기 선별검사를 시행합니다"
@@ -236051,7 +236051,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "g OGTT",
+        "text": "100g OGTT",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "1단계 확진 검사로도 사용 가능하나, 일반적인 2단계 선별 전략에서는 50g 선별검사를 먼저 시행하여 양성일 때 진행합니다."
@@ -236162,7 +236162,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "주차에 환상전기절제술을 시행",
+        "text": "13주차에 환상전기절제술을 시행",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "임신 중 원추절제술이나 LEEP은 대량 출혈과 조기 양막 파수, 유산 위험이 있어 침윤암이 강하게 의심될 때를 제외하고 금기입니다."
@@ -240398,7 +240398,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "주 뒤 생물리학계수 측정",
+        "text": "1주 뒤 생물리학계수 측정",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "도플러 혈류가 정상 또는 경미한 저항 증가인 경우의 추적법이며 REDF에서는 수일 내 태아 사망 위험이 있어 지연할 수 없습니다."
@@ -240406,7 +240406,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "주 뒤 재검사",
+        "text": "1주 뒤 재검사",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "REDF는 즉각적인 응급 처치가 요구되는 최중증 순환 부전 소견이므로 일주일 뒤 재검사는 태아 질식을 방치하는 것입니다."
@@ -241450,7 +241450,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "점",
+        "text": "2점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "NST 반응성(2점)과 양수량 정상(2점) 두 항목을 만족하므로 총점은 4점입니다."
@@ -241458,7 +241458,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "점",
+        "text": "4점",
         "is_correct": true,
         "tag": "정답",
         "reason": "생물리학계수(BPP)에서 NST reactive(2점) + 양수 단일 최대 포켓 2cm 초과(2.5cm, 2점)이고, 태아 호흡운동(30초 이상 지속되어야 2점이나 10초 1회로 0점), 태아 몸통 움직임(3회 이상이어야 2점이나 2회로 0점), 태아 긴장도(신전 후 굴곡 미관찰로 0점)이므로 총 4점입니다"
@@ -241466,7 +241466,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "점",
+        "text": "6점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "태아 호흡운동(10초)과 태아 움직임(2회) 모두 점수 부여 기준(각각 30초 이상, 3회 이상)에 미달하여 0점입니다."
@@ -241474,7 +241474,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "점",
+        "text": "8점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "5개 항목 중 2개 항목만 기준을 충족하였으므로 8점이 아닙니다."
@@ -241482,7 +241482,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "점",
+        "text": "10점",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "5개 항목 중 3개 항목이 기준 미달입니다."
@@ -241585,7 +241585,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "주 뒤 생물리학계수 측정",
+        "text": "1주 뒤 생물리학계수 측정",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "조산 위험이 큰 37주 미만 미숙아에서 고려하며, 만삭의 양수과소증에서는 태반부전 위험으로 연기할 수 없습니다."
@@ -241593,7 +241593,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "주 뒤 비수축 검사, 양수량 측정",
+        "text": "1주 뒤 비수축 검사, 양수량 측정",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "임신 37주 만삭에서 확인된 양수과소증은 태아 곤란증 위험을 높이므로 추적 검사로 지체하지 않고 분만합니다."
@@ -243025,7 +243025,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "주 뒤 생물리학계수 측정",
+        "text": "1주 뒤 생물리학계수 측정",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "도플러 혈류가 정상 또는 경미한 저항 증가인 경우의 추적법이며 REDF에서는 수일 내 태아 사망 위험이 있어 지연할 수 없습니다."
@@ -243033,7 +243033,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "주 뒤 재검사",
+        "text": "1주 뒤 재검사",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "REDF는 즉각적인 응급 처치가 요구되는 최중증 순환 부전 소견이므로 일주일 뒤 재검사는 태아 질식을 방치하는 것입니다."
@@ -243650,7 +243650,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "주 후 50g OGTT 재검",
+        "text": "1주 후 50g OGTT 재검",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "선별검사가 양성이면 확진 단계(100g OGTT)로 진행해야 하며 50g 선별검사를 반복 측정하지 않습니다."
@@ -243674,7 +243674,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "g OGTT",
+        "text": "100g OGTT",
         "is_correct": true,
         "tag": "정답",
         "reason": "50g 선별검사에서 140mg/dL 이상(155mg/dL)으로 양성이므로 임신성 당뇨병 확진을 위한 100g 경구 당부하 검사를 시행합니다"
@@ -244858,7 +244858,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "세 이상이거나 길항되지 않는 에스트로겐 노출 병력이 있으면 자궁내막조직검사와 경질 초음파를 시행해야한다.",
+        "text": "35세 이상이거나 길항되지 않는 에스트로겐 노출 병력이 있으면 자궁내막조직검사와 경질 초음파를 시행해야한다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "35세 이상이거나 지속적인 에스트로겐 자극 병력이 있는 비정상 자궁출혈 환자는 자궁내막증식증·암 배제를 위해 조직검사를 시행합니다. (O)"
@@ -245112,7 +245112,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "개월 후 세포진 및 HPV 검사 재추적",
+        "text": "6개월 후 세포진 및 HPV 검사 재추적",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "저등급 병변(LSIL / CIN 1)의 추적 방침이며 CIN 3에서는 질병 진행 위험으로 허용되지 않습니다."
@@ -246540,7 +246540,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "rdinal ligament-Uterus-Right ovarian ligament-Right ovary-Right infundibulopelvic ligament",
+        "text": "Cardinal ligament-Uterus-Right ovarian ligament-Right ovary-Right infundibulopelvic ligament",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "기적인대(Cardinal lig.)는 자궁경부 외측 심부에 위치하며 복강경 전방 시야의 첫 구조물이 아닙니다."
@@ -246548,7 +246548,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "rdinal ligament-Uterus-Right ovarian ligament-Right salpinx-Right infundibulopelvic ligament",
+        "text": "Cardinal ligament-Uterus-Right ovarian ligament-Right salpinx-Right infundibulopelvic ligament",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "고유난소인대 외측 골반 측벽으로 이어지는 해부학적 축에서 난관이 아니라 난소 실질이 연결됩니다."
@@ -247312,7 +247312,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "세 이전에 이차 성징이 나타나는 것으로 여아에서 남아 보다 흔하며 유방발달, 음모 출현, 질 출혈 등이 나타난다.",
+        "text": "8세 이전에 이차 성징이 나타나는 것으로 여아에서 남아 보다 흔하며 유방발달, 음모 출현, 질 출혈 등이 나타난다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "여아에서 8세 이전, 남아에서 9세 이전에 2차 성징이 발현하며 여아에서 훨씬 흔하고 유방 발달, 음모 출현, 질 출혈 등이 나타납니다. (O)"
@@ -248197,7 +248197,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "주에 최대치를 보이며 이후 감소한다. 임신 말기 산모의 Hb 농도는 11.0g/dl",
+        "text": "32 주에 최대치를 보이며 이후 감소한다. 임신 말기 산모의 Hb 농도는 11.0g/dl",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "임신 말기 산모의 Hb 농도는 11.0g/dl : 임신 말기 산모의 Hb 농도는 11.0g/dl : 임신 말기 산모의 Hb 농도는 11.0g/dl : 임신 말기 산모의 Hb 농도는 11.0g/dl."
@@ -248692,7 +248692,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "~36 시간에 투여한다 GnRH agonist 는 long protocol 이 short",
+        "text": "34~36 시간에 투여한다 GnRH agonist 는 long protocol 이 short",
         "is_correct": true,
         "tag": "정답",
         "reason": "에스트로겐 합성을 차단하여 뇌하수체 FSH 분비를 유도하며, 특히 비만 환자에서 클로미펜 대비 배란율과 생아출생률이 유의하게 높아 1차 치료제로 권고됩니다"
@@ -251087,7 +251087,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "일간 MPA 투여 후 14일간 휴약하다가 다음 주기에 맞춰서 MPA 투약",
+        "text": "14일간 MPA 투여 후 14일간 휴약하다가 다음 주기에 맞춰서 MPA 투약",
         "is_correct": true,
         "tag": "정답",
         "reason": "복기본 정답으로 표시된 선지이나, 만성 무배란성 비정상 자궁출혈에서 매달 10~14일간 MPA를 투여하는 것은 소퇴성 출혈을 유도하는 표준 치료이므로, 오히려 현재 출혈이 멈춘 환자에서 ①번(고용량 응급 요법)이 옳지 않은 처치에 해당합니다"
@@ -251309,7 +251309,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "세 이전에 이차 성징이 나타나는 것으로 여아에서 남아보다 흔하며 유방발달, 음모 출현, 질 출혈 등이 나타난다.",
+        "text": "8세 이전에 이차 성징이 나타나는 것으로 여아에서 남아보다 흔하며 유방발달, 음모 출현, 질 출혈 등이 나타난다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "여아에서 8세 이전, 남아에서 9세 이전에 2차 성징이 발현하며 여아에서 훨씬 흔하고 유방 발달, 음모 출현 등이 나타납니다. (O)"
@@ -252391,7 +252391,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "주 뒤 생물리학계수 측정",
+        "text": "1주 뒤 생물리학계수 측정",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "제대동맥 혈류 역류(REDF)는 태반 저항의 극심한 증가로 수일 내 태아 사망 위험이 매우 높아 추적관찰은 금기입니다."
@@ -252399,7 +252399,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "주 뒤 재검사",
+        "text": "1주 뒤 재검사",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "자궁 내 태아 사망 위험이 임박한 중증 태반기능부전 상태이므로 재검사를 기다릴 수 없습니다."
@@ -253615,7 +253615,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "/110mmHg일 때 ACE inhibitor를 이용하여 130/110mmHg로 낮출 수 있다.",
+        "text": "160/110mmHg일 때 ACE inhibitor를 이용하여 130/110mmHg로 낮출 수 있다.",
         "is_correct": true,
         "tag": "정답",
         "reason": "ACE 억제제와 안지오텐신 수용체 차단제(ARB)는 태아 신장 기형, 양수과소증, 태아 성장지연 및 두개관 형성부전을 유발하므로 임신 중 절대 금기입니다(임신 중 중증 고혈압에는 라베탈롤, 하이드랄라진, 니페디핀 사용)"
@@ -255377,7 +255377,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "D. 1주일 후 초음파",
+        "text": "1주일 후 초음파",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "장관 천공에 의한 기복증(Free air)이나 췌장 심부 병변, 급성 게실염의 주위 지방 침윤 평가는 복부 CT가 훨씬 우수합니다."
@@ -255454,7 +255454,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A. 100g OGTT",
+        "text": "100g OGTT",
         "is_correct": true,
         "tag": "정답",
         "reason": "100g OGTT : 100g OGTT : 100g OGTT : 100g OGTT : 100g OGTT : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
@@ -255462,7 +255462,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "B. 50g OGTT",
+        "text": "50g OGTT",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "50g OGTT : 50g OGTT : 50g OGTT : 50g OGTT."
@@ -255529,7 +255529,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A. 5-9,1kg",
+        "text": "5-9,1kg",
         "is_correct": true,
         "tag": "정답",
         "reason": "5-9,1kg : 5-9,1kg : 5-9,1kg : 5-9,1kg : 5-9,1kg : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
@@ -256119,7 +256119,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "E. 45X",
+        "text": "45X",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "Portal triad 혈관·담관 주변을 따라 간십이지장인대 내부를 함께 주행합니다."
@@ -257593,7 +257593,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "",
+        "text": "2",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -257609,7 +257609,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "",
+        "text": "1",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -257617,7 +257617,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "C. 0",
+        "text": "0",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -257732,7 +257732,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A. 6",
+        "text": "6",
         "is_correct": true,
         "tag": "정답",
         "reason": "6 : 6 : 6 : 6 : 6 : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
@@ -257740,7 +257740,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "B. 7",
+        "text": "7",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -257748,7 +257748,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "C. 8",
+        "text": "8",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -257756,7 +257756,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "D. 9",
+        "text": "9",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -257764,7 +257764,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "E. 10",
+        "text": "10",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -259013,7 +259013,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "",
+        "text": "AC",
         "is_correct": true,
         "tag": "정답",
         "reason": "은(는) 상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오. 소견에 부합하는 정답입니다."
@@ -259029,18 +259029,18 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "PD",
+        "text": "BPD",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "PD은(는) 본 증례의 적응증 및 감별 진단에 부합하지 않습니다."
+        "reason": "BPD은(는) 본 증례의 적응증 및 감별 진단에 부합하지 않습니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "RL",
+        "text": "CRL",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "RL은(는) 본 증례의 적응증 및 감별 진단에 부합하지 않습니다."
+        "reason": "CRL은(는) 본 증례의 적응증 및 감별 진단에 부합하지 않습니다."
       }
     ]
   },
@@ -259737,7 +259737,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A. 46XY",
+        "text": "46XY",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "SRY 유전자 돌연변이 등으로 고환 분화가 일어나지 않은 46,XY 핵형을 가집니다."
@@ -259984,7 +259984,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "B. 17-OH Progesterone",
+        "text": "17-OH Progesterone",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "이미 진행된 활성기 조기진통이나 융모양막염이 발생한 상태에서는 조산을 억제할 수 없습니다."
@@ -260238,7 +260238,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "nosumab 사용",
+        "text": "Denosumab 사용",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "데노수맙은 골흡수 억제제로, 장기간 비스포스포네이트 복용 중 발생한 골절 환자에서는 골형성 촉진제로의 전환이 더 우수합니다."
@@ -260246,7 +260246,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "isphosphonate 다른 걸로 변경",
+        "text": "Bisphosphonate 다른 걸로 변경",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "8년간 비스포스포네이트를 장기 복용했음에도 신규 척추 골절이 발생한 치료 실패 상태이므로 다른 비스포스포네이트로의 단순 변경은 부적절합니다."
@@ -260763,7 +260763,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "D. 3% sorbitol",
+        "text": "3% sorbitol",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "3% sorbitol : 3% sorbitol : 3% sorbitol : 3% sorbitol."
@@ -260779,7 +260779,7 @@
       {
         "opt_idx": 5,
         "opt_num": "5.",
-        "text": "% mannitol",
+        "text": "0% mannitol",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -261203,7 +261203,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "E. 2개월 후 추적 관찰",
+        "text": "2개월 후 추적 관찰",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -261298,7 +261298,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A. 2개월 후 추적관찰",
+        "text": "2개월 후 추적관찰",
         "is_correct": true,
         "tag": "정답",
         "reason": "2개월 후 추적관찰 : 2개월 후 추적관찰 : 2개월 후 추적관찰 : 2개월 후 추적관찰 : 2개월 후 추적관찰 : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
@@ -263201,7 +263201,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "D. 3개월 관찰",
+        "text": "3개월 관찰",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "침윤성 편평상피세포암 재발이 확진되었으므로 즉시 치료해야 합니다."
@@ -263723,7 +263723,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A. 1C1",
+        "text": "1C1",
         "is_correct": true,
         "tag": "정답",
         "reason": "골반 밖 복막(대망) 전이 없이 후복막 림프절(골반 림프절)에만 전이가 있고 전이 직경이 10mm 이하(7mm)이므로 FIGO 2014 병기상 Stage IIIA1(i)에 해당합니다"
@@ -263947,7 +263947,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A. 1",
+        "text": "1",
         "is_correct": true,
         "tag": "정답",
         "reason": "POP-Q 병기 체계에서 탈출 최하단이 처녀막 기준 +1cm를 넘고 (TVL - 2cm = 4cm) 미만에 위치(+3cm)하므로 Stage 3에 해당합니다(Stage 2는 ±1cm 이내, Stage 4는 4cm 이상 전복)"
@@ -263955,7 +263955,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "B. 2",
+        "text": "2",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -263963,7 +263963,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "C. 3",
+        "text": "3",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -263971,7 +263971,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "D. 4",
+        "text": "4",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -264497,7 +264497,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "D. 15주에 triple? Quad? Test 해서 정상(2.0-",
+        "text": "15주에 triple? Quad? Test 해서 정상(2.0-",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "15주에 triple? Quad? Test 해서 정상(2.0- : 15주에 triple? Quad? Test 해서 정상(2.0- : 15주에 triple? Quad? Test 해서 정상(2.0- : 15주에 triple? Quad? Test 해서 정상(2.0- : 15주에 triple? Quad? Test 해서 정상(2.0- : 15주에 triple? Quad? Test 해서 정상(2.0- : 감별 질환/치료 특성: ④ D. 15주에 triple? Quad? Test 해서 정상(2.0- : 환자에서 확인되는 비정상적 병적 수치 및 신체 진찰 소견과 상반되는 설명입니다. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다."
@@ -264505,7 +264505,7 @@
       {
         "opt_idx": 4,
         "opt_num": "2.",
-        "text": "mom)인지 본다",
+        "text": "5mom)인지 본다",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -264638,7 +264638,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "A. 1주 뒤 BPP 측정",
+        "text": "1주 뒤 BPP 측정",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "조산 위험이 큰 37주 미만 미숙아에서 고려하며, 만삭의 양수과소증에서는 태반부전 위험으로 연기할 수 없습니다."
@@ -265292,7 +265292,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "차 치료로 데노주맙을 쓴다",
+        "text": "1차 치료로 데노주맙을 쓴다",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "RANKL 억제제로 골밀도를 증가시키는 우수한 골다공증 치료제이지만 안면홍조 등 폐경 증상을 호전시키지 못합니다."
@@ -265300,7 +265300,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "차 치료로 calcitonin을 쓴다",
+        "text": "1차 치료로 calcitonin을 쓴다",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "골 흡수를 억제하나 효능이 낮아 급성 골절 통증 완화 외에는 골다공증의 1차 약제로 권고되지 않습니다."
@@ -265429,7 +265429,7 @@
       {
         "opt_idx": 2,
         "opt_num": "3)",
-        "text": "일 간 금욕후 정액검사 재검",
+        "text": "3-5 일 간 금욕후 정액검사 재검",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -268582,7 +268582,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "% sorbitol",
+        "text": "3% sorbitol",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "단극성(monopolar) 전기소작용 저장성 비전해질 용액으로 1,000mL 이상 대량 흡수 시 급성 희석성 저나트륨혈증과 뇌부종(뇌 CT 이상) 및 폐부종을 유발합니다 → 복수 정답 가능."
@@ -268590,7 +268590,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "% mannitol",
+        "text": "5% mannitol",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "등장성(274 mOsm/L) 비전해질 매질로 저나트륨혈증은 유발할 수 있으나 저장성 용액보다 삼투압성 뇌부종 위험이 낮습니다."
@@ -274265,7 +274265,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "혈청 종양표지자 측정)",
+        "text": "CA-125 (혈청 종양표지자 측정)",
         "is_correct": true,
         "tag": "정답",
         "reason": "CA-125는 난소암의 대표적인 수용성 혈청 종양표지자로, 혈액 내 단백 농도를 측정하기 위해 유세포분석기가 아닌 화학발광면역측정법(CLIA)이나 효소면역측정법(EIA)을 사용합니다."
@@ -274880,7 +274880,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "등급에 해당하며 생물안전작업대가 필요하다.",
+        "text": "2 등급에 해당하며 생물안전작업대가 필요하다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": ""
@@ -277834,7 +277834,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": ",XY",
+        "text": "46,XY",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "SRY 유전자 돌연변이 등으로 고환 분화가 일어나지 않은 46,XY 핵형을 가집니다."
@@ -281194,7 +281194,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "개월 관찰",
+        "text": "3개월 관찰",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "침윤성 편평상피세포암 재발이 확진되었으므로 즉시 치료해야 합니다."

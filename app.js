@@ -2656,9 +2656,16 @@
           headerEl.appendChild(numEl);
         }
 
+        const origOptStr = (q.options && q.options[origIdx]) ? String(q.options[origIdx]) : '';
+        const parsedOrig = origOptStr ? parseOptionText(origOptStr, origIdx) : null;
+        let optNameText = item.text || (parsedOrig ? parsedOrig.label : origOptStr) || '';
+        if (parsedOrig && parsedOrig.label && /^\d/.test(parsedOrig.label) && !/^\d/.test(optNameText)) {
+          optNameText = parsedOrig.label;
+        }
+
         const nameEl = document.createElement('span');
         nameEl.className = 'opt-name';
-        nameEl.textContent = item.text || (q.options && q.options[origIdx]) || '';
+        nameEl.textContent = optNameText;
         headerEl.appendChild(nameEl);
 
         itemEl.appendChild(headerEl);
