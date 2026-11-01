@@ -31894,8 +31894,8 @@
     "year": "26Y",
     "q_num": 59,
     "category": "탈",
-    "theme_title": "골수이형성증후군 (Myelodysplastic Syndrome, MDS)의 IPSS 위험도 평가",
-    "subspecialty": "혈액종양내과 / 골수질환",
+    "theme_title": "미만성 거대 B세포 림프종(DLBCL)의 Ann Arbor 병기 및 IPI 예후 위험군 분류",
+    "subspecialty": "혈액종양내과 / 악성림프종",
     "stem": "(30줄 정도의 정말 많은 검사가 주어져서 정확한 복기가 어려웠습니다) DLBCL이라고 진단되었던 37세 남자 환자가 병원에 내원하였다. 환자는 ECOG PS 2점이었다. 다음은 검사 결과이다(모든 소견은 영어로 주어졌습니다). · CBC: Hb 감소 · Blood chemistry: LDH 452 · PET-CT 소견 : neck II, III, IV에 최대 5cm의 림프절 비대 관찰됨 : supraclavicular에 최대 4cm의 림프절 비대 관찰됨 : right axilla에 최대 3.5cm의 림프절 비대 관찰됨 : pelvic, abdominal cavity에 림프절 비대 관찰되지 않 음. : hepatomegaly, splenomegaly는 관찰되지 않음. · Bone marrow : cellularity 50% : lymphoid, plasma cell 침범 소견 없음 이 환자에서의 IPI risk category는?",
     "images": [],
     "options": [
@@ -31907,12 +31907,12 @@
     "correct_option_index": 1,
     "correct_answer": "② Low intermediate",
     "explanation": {
-      "title": "골수이형성증후군 (Myelodysplastic Syndrome, MDS)의 IPSS 위험도 평가",
-      "findings": "37세 DLBCL 환자, ECOG PS 2점, LDH 상승, Stage II, 결절외 병변 없음 → IPI 위험인자 2개로 Low-intermediate군",
-      "differential": "• ① Low ✗ [오답]: DLBCL의 국제예후인자(IPI) 5개 인자(나이 >60, ECOG ≥2, LDH 상승, Stage III/IV, 결절외 침범 >1) 중 0~1개일 때 해당합니다.\n• ② Low intermediate ✓ [정답]: 37세(0점), ECOG PS 2점(1점), LDH 452 상승(1점), 횡격막 상부 림프절만 침범한 Stage II(0점), 결절외 장기 침범 없음(0점으로 총 2점)이므로 Low-intermediate 위험군에 속합니다\n• ③ High intermediate ✗ [오답]: IPI 점수 체계에서 5개 예후 인자 중 위험 인자가 총 3개 합산될 때 해당합니다.\n• ④ High ✗ [오답]: IPI 점수 체계에서 위험 인자가 4개 또는 5개로 예후가 가장 불량한 고위험군에 해당합니다.",
+      "title": "미만성 거대 B세포 림프종(DLBCL)의 Ann Arbor 병기 및 IPI 예후 위험군 분류",
+      "findings": "37세 DLBCL 환자: 횡경막 상부 림프절들만 침범(Ann Arbor II기), ECOG PS 2점(+1), LDH 452 상승(+1), 결절외 침범 없음 → IPI 총점 2점으로 ② Low intermediate (저중등도 위험군)에 해당합니다.",
+      "differential": "• ① Low ✗ [오답]: IPI 총점 0~1점(저위험군)일 때 해당합니다.\n• ② Low intermediate ✓ [정답]: ECOG PS 2점(1점) + LDH 452 상승(1점)으로 IPI 불량 예후 인자가 총 2점이므로 저중등도 위험군(Low intermediate)에 해당합니다. (37세로 나이 0점, Ann Arbor II기로 병기 0점, 결절외 침범 없음 0점)\n• ③ High intermediate ✗ [오답]: IPI 총점 3점(고중등도 위험군)일 때 해당합니다.\n• ④ High ✗ [오답]: IPI 총점 4~5점(고위험군)일 때 해당합니다.",
       "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "【골수이형성증후군 (Myelodysplastic Syndrome, MDS)의 IPSS 위험도 평가 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 임상 지표: 37세 DLBCL 환자, ECOG PS 2점, LDH 상승, Stage II, 결절외 병변 없음 → IPI 위험인자 2개로 Low-intermediate군\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ② Low intermediate.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 중증도 진행 시 상위 침습적 중재술 또는 2차 약제로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 비전형적 증례 또는 절대 금기 조건을 확인하여 오진과 합병증 발생을 예방할 것.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "trigger": "【미만성 거대 B세포 림프종(DLBCL)의 Ann Arbor 병기 및 IPI 예후 위험군 판정 핵심 가이드라인】\n\n1. 1단계: Ann Arbor 병기 설정\n• 횡경막(가로막) 기준 림프절 침범 부위:\n  - 목(Neck II, III, IV), 쇄골상(Supraclavicular), 우측 겨드랑이(Rt. Axilla) 림프절 비대 관찰\n  - 모두 가로막 상부(한쪽)에 위치하며 2개 이상의 림프절 영역 침범 → Ann Arbor 병기 II기\n  - 골반 및 복강 림프절 비대, 간/비장 비대, 골수 침범 소견 없음\n\n2. 2단계: IPI (International Prognostic Index) 불량 예후 인자 (각 1점, 5점 만점)\n• 나이 > 60세: 37세이므로 비해당 (0점)\n• ECOG 수행상태(PS) ≥ 2점: ECOG PS 2점이므로 해당 (1점)\n• 혈청 LDH 상승: LDH 452로 정상치 초과 상승이므로 해당 (1점)\n• 림프절 외 침범(Extranodal) ≥ 2곳: 골수 및 타 장기 침범 없으므로 비해당 (0점)\n• Ann Arbor 병기 III 또는 IV기: 병기 II기이므로 비해당 (0점)\n→ [증례 총점]: ECOG 1점 + LDH 1점 = 총점 2점\n\n3. 3단계: IPI 위험군 분류 (Risk Category)\n• 0~1점: Low (저위험군)\n• 2점: Low intermediate (저중등도 위험군) ★ 정답\n• 3점: High intermediate (고중등도 위험군)\n• 4~5점: High (고위험군)\n→ 총점 2점이므로 정답은 ② Low intermediate 입니다.",
+      "kmle_link": "KMLE 종양혈액학 - 악성 림프종 (Ann Arbor 병기 및 IPI 예후 인자)",
       "option_explanations": [
         {
           "opt_idx": 0,
@@ -31920,7 +31920,7 @@
           "text": "Low",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "DLBCL의 국제예후인자(IPI) 5개 인자(나이 >60, ECOG ≥2, LDH 상승, Stage III/IV, 결절외 침범 >1) 중 0~1개일 때 해당합니다."
+          "reason": "IPI 총점 0~1점일 때 Low(저위험군)에 해당합니다. 본 환자는 ECOG PS(1점)와 LDH 상승(1점)으로 총점 2점입니다."
         },
         {
           "opt_idx": 1,
@@ -31928,7 +31928,7 @@
           "text": "Low intermediate",
           "is_correct": true,
           "tag": "정답",
-          "reason": "37세(0점), ECOG PS 2점(1점), LDH 452 상승(1점), 횡격막 상부 림프절만 침범한 Stage II(0점), 결절외 장기 침범 없음(0점으로 총 2점)이므로 Low-intermediate 위험군에 속합니다"
+          "reason": "Ann Arbor Stage II(0점), 37세(0점), ECOG PS 2점(1점), LDH 452 상승(1점), 결절외 침범 0곳(0점)으로 IPI 총점 2점이며, Low intermediate(저중등도 위험군)에 정확히 해당합니다."
         },
         {
           "opt_idx": 2,
@@ -31936,7 +31936,7 @@
           "text": "High intermediate",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "IPI 점수 체계에서 5개 예후 인자 중 위험 인자가 총 3개 합산될 때 해당합니다."
+          "reason": "IPI 총점 3점일 때 High intermediate(고중등도 위험군)에 해당합니다."
         },
         {
           "opt_idx": 3,
@@ -31944,7 +31944,7 @@
           "text": "High",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "IPI 점수 체계에서 위험 인자가 4개 또는 5개로 예후가 가장 불량한 고위험군에 해당합니다."
+          "reason": "IPI 총점 4~5점일 때 High(고위험군)에 해당합니다."
         }
       ],
       "differential_general": ""
@@ -31969,7 +31969,7 @@
         "text": "Low",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "DLBCL의 국제예후인자(IPI) 5개 인자(나이 >60, ECOG ≥2, LDH 상승, Stage III/IV, 결절외 침범 >1) 중 0~1개일 때 해당합니다."
+        "reason": "IPI 총점 0~1점일 때 Low(저위험군)에 해당합니다. 본 환자는 ECOG PS(1점)와 LDH 상승(1점)으로 총점 2점입니다."
       },
       {
         "opt_idx": 1,
@@ -31977,7 +31977,7 @@
         "text": "Low intermediate",
         "is_correct": true,
         "tag": "정답",
-        "reason": "37세(0점), ECOG PS 2점(1점), LDH 452 상승(1점), 횡격막 상부 림프절만 침범한 Stage II(0점), 결절외 장기 침범 없음(0점으로 총 2점)이므로 Low-intermediate 위험군에 속합니다"
+        "reason": "Ann Arbor Stage II(0점), 37세(0점), ECOG PS 2점(1점), LDH 452 상승(1점), 결절외 침범 0곳(0점)으로 IPI 총점 2점이며, Low intermediate(저중등도 위험군)에 정확히 해당합니다."
       },
       {
         "opt_idx": 2,
@@ -31985,7 +31985,7 @@
         "text": "High intermediate",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "IPI 점수 체계에서 5개 예후 인자 중 위험 인자가 총 3개 합산될 때 해당합니다."
+        "reason": "IPI 총점 3점일 때 High intermediate(고중등도 위험군)에 해당합니다."
       },
       {
         "opt_idx": 3,
@@ -31993,7 +31993,7 @@
         "text": "High",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "IPI 점수 체계에서 위험 인자가 4개 또는 5개로 예후가 가장 불량한 고위험군에 해당합니다."
+        "reason": "IPI 총점 4~5점일 때 High(고위험군)에 해당합니다."
       }
     ]
   },
