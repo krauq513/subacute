@@ -95,10 +95,13 @@
         <span class="mf-count" id="mf-count">211문항</span>
         <span class="mf-badge" id="mf-extra-badge" style="display: none;"></span>
       </div>
-      <button type="button" class="btn-toggle-filters" id="btn-toggle-filters" aria-expanded="false" title="필터 옵션 열기/접기">
-        <span id="btn-toggle-filters-text">필터</span>
-        <span class="filter-toggle-arrow" id="filter-toggle-arrow">▾</span>
-      </button>
+      <div class="mobile-filter-actions">
+        <button type="button" class="btn-mobile-quick-shuffle" id="btn-mobile-toggle-shuffle" title="선지 순서 무작위 섞기 ON/OFF">🔀 섞기</button>
+        <button type="button" class="btn-toggle-filters" id="btn-toggle-filters" aria-expanded="false" title="필터 옵션 열기/접기">
+          <span id="btn-toggle-filters-text">필터</span>
+          <span class="filter-toggle-arrow" id="filter-toggle-arrow">▾</span>
+        </button>
+      </div>
     </div>
 
     <div class="toolbar-inner" id="toolbar-inner">
@@ -270,6 +273,7 @@
           <div class="options-header">
             <span class="options-label" id="options-label">선지를 클릭하여 정답을 선택하세요</span>
             <div class="options-header-right">
+              <button type="button" class="btn-shuffle-toggle" id="btn-card-toggle-shuffle" title="선지 순서 무작위 섞기 ON/OFF">🔀 선지 섞기</button>
               <button type="button" class="btn-reshuffle" id="btn-reshuffle-now" style="display: none;" title="현재 문제 선지 순서 다시 섞기">🔄 다시 섞기</button>
               <span class="kbd-tip" id="options-kbd-tip">단축키: 숫자키 1 ~ 5</span>
             </div>
@@ -948,10 +952,10 @@
   <div class="toast-message" id="toast-message" style="display: none;"></div>
 
   <!-- Load Quiz Dataset (Embedded for instant local file:// execution without CORS) -->
-  <script src="data/quiz_data.js?v=20261102v2"></script>
+  <script src="data/quiz_data.js?v=20261102v3"></script>
   <!-- Original Exam PDF Manifest -->
   <script src="data/pdf_manifest.js?v=20261101v6"></script>
   <!-- Main Application Logic -->
-  <script src="app.js?v=20261102v1"></script>
+  <script src="app.js?v=20261102v2"></script>
 </body>
 </html>

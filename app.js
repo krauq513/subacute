@@ -99,6 +99,8 @@
     filterIncorrect: document.getElementById('filter-incorrect'),
     filterBookmarked: document.getElementById('filter-bookmarked'),
     btnToggleShuffle: document.getElementById('btn-toggle-shuffle'),
+    btnCardToggleShuffle: document.getElementById('btn-card-toggle-shuffle'),
+    btnMobileToggleShuffle: document.getElementById('btn-mobile-toggle-shuffle'),
     btnReshuffleNow: document.getElementById('btn-reshuffle-now'),
     searchInput: document.getElementById('search-input'),
 
@@ -772,7 +774,18 @@
     if (dom.filterImages) dom.filterImages.classList.toggle('active', !!state.filters.onlyImages);
     if (dom.filterIncorrect) dom.filterIncorrect.classList.toggle('active', !!state.filters.onlyIncorrect);
     if (dom.filterBookmarked) dom.filterBookmarked.classList.toggle('active', !!state.filters.onlyBookmarked);
-    if (dom.btnToggleShuffle) dom.btnToggleShuffle.classList.toggle('active', !!state.shuffleOptions);
+    if (dom.btnToggleShuffle) {
+      dom.btnToggleShuffle.classList.toggle('active', !!state.shuffleOptions);
+      dom.btnToggleShuffle.textContent = state.shuffleOptions ? '🔀 선지 섞기 ON' : '🔀 선지 섞기';
+    }
+    if (dom.btnCardToggleShuffle) {
+      dom.btnCardToggleShuffle.classList.toggle('active', !!state.shuffleOptions);
+      dom.btnCardToggleShuffle.textContent = state.shuffleOptions ? '🔀 섞기 ON' : '🔀 선지 섞기';
+    }
+    if (dom.btnMobileToggleShuffle) {
+      dom.btnMobileToggleShuffle.classList.toggle('active', !!state.shuffleOptions);
+      dom.btnMobileToggleShuffle.textContent = state.shuffleOptions ? '🔀 섞기 ON' : '🔀 섞기';
+    }
   }
 
   function updateHeaderProfileUI() {
@@ -2286,6 +2299,14 @@
     if (dom.btnToggleShuffle) {
       dom.btnToggleShuffle.classList.toggle('active', state.shuffleOptions);
       dom.btnToggleShuffle.textContent = state.shuffleOptions ? '🔀 선지 섞기 ON' : '🔀 선지 섞기';
+    }
+    if (dom.btnCardToggleShuffle) {
+      dom.btnCardToggleShuffle.classList.toggle('active', state.shuffleOptions);
+      dom.btnCardToggleShuffle.textContent = state.shuffleOptions ? '🔀 섞기 ON' : '🔀 선지 섞기';
+    }
+    if (dom.btnMobileToggleShuffle) {
+      dom.btnMobileToggleShuffle.classList.toggle('active', state.shuffleOptions);
+      dom.btnMobileToggleShuffle.textContent = state.shuffleOptions ? '🔀 섞기 ON' : '🔀 섞기';
     }
     if (dom.btnReshuffleNow) {
       dom.btnReshuffleNow.style.display = (state.shuffleOptions && !isAnswered && q.options && q.options.length > 1) ? 'inline-flex' : 'none';
@@ -3956,6 +3977,12 @@
     // Shuffle Options Mode Toggle & Reshuffle
     if (dom.btnToggleShuffle) {
       dom.btnToggleShuffle.addEventListener('click', toggleShuffleMode);
+    }
+    if (dom.btnCardToggleShuffle) {
+      dom.btnCardToggleShuffle.addEventListener('click', toggleShuffleMode);
+    }
+    if (dom.btnMobileToggleShuffle) {
+      dom.btnMobileToggleShuffle.addEventListener('click', toggleShuffleMode);
     }
     if (dom.btnReshuffleNow) {
       dom.btnReshuffleNow.addEventListener('click', reshuffleCurrentQuestionOptions);

@@ -6146,3 +6146,77 @@ dialog.pdf-viewer-modal::backdrop {
   }
 }
 
+
+/* Mobile Filter Actions & Shuffle Buttons */
+.mobile-filter-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  flex-shrink: 0;
+}
+
+.btn-mobile-quick-shuffle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  color: var(--text-secondary);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.22rem 0.52rem;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all var(--transition-fast);
+}
+
+.btn-mobile-quick-shuffle:active {
+  background: #f1f5f9;
+}
+
+.btn-mobile-quick-shuffle.active {
+  background: #eff6ff;
+  border-color: #3b82f6;
+  color: #1d4ed8;
+  font-weight: 800;
+  box-shadow: 0 0 0 1px #3b82f6;
+}
+
+.btn-shuffle-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  color: var(--text-secondary);
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--radius-full);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  user-select: none;
+}
+
+.btn-shuffle-toggle:hover {
+  background: #f1f5f9;
+  color: var(--text-primary);
+  border-color: #94a3b8;
+}
+
+.btn-shuffle-toggle.active {
+  background: #eff6ff;
+  border-color: #3b82f6;
+  color: #1d4ed8;
+  font-weight: 800;
+  box-shadow: 0 0 0 1px #3b82f6;
+}
+
+@media (max-width: 768px) {
+  .kbd-tip {
+    display: none !important;
+  }
+}
