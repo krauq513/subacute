@@ -4845,23 +4845,31 @@
     }
   }
 
+  function isReportResolved(rep) {
+    if (!rep) return false;
+    if (rep.status === 'resolved' || rep.resolvedAt) return true;
+    const resolvedIds = new Set(['rep_1793464903407_4eczg', 'rep_1793465487079_7leo0']);
+    const resolvedQuestionIds = new Set(['내과_26Y_Q18', '내과_26Y_Q22', '내과_26Y_Q31', '내과_26Y_Q30', '내과_21Y_Q30']);
+    return resolvedIds.has(rep.id) || resolvedQuestionIds.has(rep.questionId);
+  }
+
   function updateReportButtonState(q) {
     if (!q) return;
-    const hasReport = Array.isArray(state.reports) && state.reports.some(r => r.questionId === q.id);
+    const hasActiveReport = Array.isArray(state.reports) && state.reports.some(r => r.questionId === q.id && !isReportResolved(r));
 
     if (dom.btnReportIssue) {
-      dom.btnReportIssue.classList.toggle('reported', hasReport);
-      if (hasReport) {
-        dom.btnReportIssue.setAttribute('title', '이미 오류가 제보된 문항입니다 (추가 제보 가능)');
+      dom.btnReportIssue.classList.toggle('reported', hasActiveReport);
+      if (hasActiveReport) {
+        dom.btnReportIssue.setAttribute('title', '처리 대기 중인 오류 제보가 있는 문항입니다 (추가 제보 가능)');
       } else {
         dom.btnReportIssue.setAttribute('title', '이 문제 오류 제보하기');
       }
     }
 
     if (dom.btnReportInline) {
-      dom.btnReportInline.classList.toggle('reported', hasReport);
-      if (hasReport) {
-        dom.btnReportInline.innerHTML = '<span>✅ 오류 접수됨</span>';
+      dom.btnReportInline.classList.toggle('reported', hasActiveReport);
+      if (hasActiveReport) {
+        dom.btnReportInline.innerHTML = '<span>⏳ 오류 접수됨</span>';
         dom.btnReportInline.setAttribute('title', '이미 오류가 접수된 문항입니다. 클릭하여 추가 제보가 가능합니다.');
       } else {
         dom.btnReportInline.innerHTML = '<span>🚨 오류 신고</span>';
@@ -4871,7 +4879,11 @@
   }
 
   function updateProfileReportsBadge() {
-    const count = Array.isArray(state.reports) ? state.reports.length : 0;
+    const allReports = Array.isArray(state.reports) ? state.reports : [];
+    const pendingReports = allReports.filter(r => !isReportResolved(r));
+    const showResolved = !!state.showResolvedReports;
+    const count = showResolved ? allReports.length : pendingReports.length;
+
     if (dom.profileReportCount) {
       dom.profileReportCount.textContent = count;
     }
@@ -4897,9 +4909,43 @@
     if (!dom.reportHistoryList) return;
     dom.reportHistoryList.innerHTML = '';
 
-    const list = state.reports || [];
+    const allReports = state.reports || [];
+    const resolvedReports = allReports.filter(r => isReportResolved(r));
+    const pendingReports = allReports.filter(r => !isReportResolved(r));
+    const showResolved = !!state.showResolvedReports;
+    const list = showResolved ? allReports : pendingReports;
+
+    // Show toggle in header actions if there are resolved reports in the log
+    const actionsEl = dom.reportHistorySection ? dom.reportHistorySection.querySelector('.report-section-actions') : null;
+    if (actionsEl) {
+      let toggleWrap = actionsEl.querySelector('.report-resolved-toggle-wrap');
+      if (resolvedReports.length > 0) {
+        if (!toggleWrap) {
+          toggleWrap = document.createElement('label');
+          toggleWrap.className = 'report-resolved-toggle-wrap';
+          toggleWrap.style.cssText = 'font-size:0.75rem; color:#64748b; display:inline-flex; align-items:center; gap:4px; cursor:pointer; user-select:none; margin-right:6px;';
+          toggleWrap.innerHTML = `<input type="checkbox" id="chk-show-resolved-reports" ${showResolved ? 'checked' : ''}> <span>해결된 제보(${resolvedReports.length}) 보기</span>`;
+          toggleWrap.querySelector('input').addEventListener('change', (e) => {
+            state.showResolvedReports = e.target.checked;
+            updateProfileReportsBadge();
+          });
+          actionsEl.insertBefore(toggleWrap, actionsEl.firstChild);
+        } else {
+          const span = toggleWrap.querySelector('span');
+          if (span) span.textContent = `해결된 제보(${resolvedReports.length}) 보기`;
+          const chk = toggleWrap.querySelector('input');
+          if (chk) chk.checked = showResolved;
+        }
+      } else if (toggleWrap) {
+        toggleWrap.remove();
+      }
+    }
+
     if (list.length === 0) {
-      dom.reportHistoryList.innerHTML = '<div style="color:#94a3b8; font-size:0.8rem; padding:0.5rem 0; text-align:center;">아직 접수된 오류 제보 내역이 없습니다.</div>';
+      const emptyNote = (resolvedReports.length > 0 && !showResolved)
+        ? `✨ 현재 처리 대기 중인 오류 제보가 없습니다.<br><span style="font-size:0.75rem; color:#94a3b8;">(해결 완료된 ${resolvedReports.length}건의 제보는 시스템 로그에 안전하게 보존 중입니다)</span>`
+        : '아직 접수된 오류 제보 내역이 없습니다.';
+      dom.reportHistoryList.innerHTML = `<div style="color:#64748b; font-size:0.82rem; padding:0.85rem 0; text-align:center;">${emptyNote}</div>`;
       return;
     }
 
@@ -4908,7 +4954,7 @@
       item.className = 'report-history-item';
 
       const timeStr = rep.createdAt ? new Date(rep.createdAt).toLocaleString('ko-KR', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' }) : '';
-      const isResolved = rep.status === 'resolved' || rep.questionId === '내과_26Y_Q18' || rep.questionId === '내과_26Y_Q22';
+      const isResolved = isReportResolved(rep);
       const statusBadge = isResolved
         ? '<span class="report-status-badge resolved" style="background:#059669; color:#fff; font-size:0.7rem; font-weight:700; padding:2px 6px; border-radius:4px; margin-left:6px;">✅ 수정 완료</span>'
         : '<span class="report-status-badge pending" style="background:#e0e7ff; color:#4338ca; font-size:0.7rem; font-weight:600; padding:2px 6px; border-radius:4px; margin-left:6px;">접수됨</span>';
