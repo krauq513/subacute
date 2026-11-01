@@ -45,13 +45,22 @@ function mergeData(serverData, clientData) {
     '내과_23Y_Q26',
     '내과_23Y_Q25',
     '내과_23Y_Q07',
-    '내과_26Y_Q45'
+    '내과_26Y_Q45',
+    '소아청소년과_22Y_Q44',
+    '소아청소년과_26Y_Q38',
+    '영상의학과_26Y_Q07'
   ]);
   for (const [rid, rep] of reportMap.entries()) {
     if (resolvedReportIds.has(rid) || resolvedQuestionIds.has(rep.questionId)) {
       rep.status = 'resolved';
       rep.resolvedAt = rep.resolvedAt || new Date().toISOString();
-      if (rep.questionId === '내과_26Y_Q31') {
+      if (rep.questionId === '소아청소년과_22Y_Q44') {
+        rep.resolutionNote = '22Y 44번 원본 5지선다 복원 및 정답 ③ PDA(대형 좌-우 단락에 의한 심첨부 확장기잡음 및 P2 항진) 교정 완료';
+      } else if (rep.questionId === '소아청소년과_26Y_Q38') {
+        rep.resolutionNote = '출제 답안(② 머리 비율)과 교과서적 복수정답(③ 체표면적 비율) 감별 가이드라인 해설 추가 완료';
+      } else if (rep.questionId === '영상의학과_26Y_Q07') {
+        rep.resolutionNote = '활동성 폐결핵 X-ray에 대한 [옳지 않은 것] 부정형 문제 강조 및 ① 폐암 의심 정답 해설 보강 완료';
+      } else if (rep.questionId === '내과_26Y_Q31') {
         rep.resolutionNote = '정답 ERCP 수정(선지 1칸 밀림 교정) 및 PTBD 2차 요법 감별 해설 정렬 완료';
       } else if (rep.questionId === '내과_21Y_Q30') {
         rep.resolutionNote = '발문/선지 오표기 문구 정리 및 EST & Basket 담석제거술 표준 해설 완료';
