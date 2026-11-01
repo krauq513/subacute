@@ -5506,12 +5506,11 @@
         }
       }
 
-      if (q.section && q.section_q_num) {
-        btn.innerHTML = `<span class="grid-sec-tag">${q.section}</span><span class="grid-num">${String(q.section_q_num).padStart(2, '0')}</span>`;
-        btn.title = `[${q.year} ${q.section} ${String(q.section_q_num).padStart(2, '0')}번] ${q.theme_title || ''}`;
+      btn.textContent = `${idx + 1}`;
+      if (q.section && q.section_q_num !== undefined) {
+        btn.title = `[#${idx + 1} | ${q.year} ${q.section} ${String(q.section_q_num).padStart(2, '0')}번] ${q.theme_title || ''}`;
       } else {
-        btn.textContent = `${idx + 1}`;
-        btn.title = `[${q.year} Q${String(q.q_num).padStart(2, '0')}]: ${q.theme_title || ''}`;
+        btn.title = `[#${idx + 1} | ${q.year} Q${String(q.q_num || '').padStart(2, '0')}]: ${q.theme_title || ''}`;
       }
 
       if (state.bookmarks.has(q.id)) {
