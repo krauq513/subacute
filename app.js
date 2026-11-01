@@ -73,6 +73,18 @@
     btnOpenGrid: document.getElementById('btn-open-grid'),
 
     // Filters
+    filterToolbar: document.getElementById('filter-toolbar'),
+    mobileFilterBar: document.getElementById('mobile-filter-bar'),
+    mobileFilterSummary: document.getElementById('mobile-filter-summary'),
+    mfSubject: document.getElementById('mf-subject'),
+    mfYear: document.getElementById('mf-year'),
+    mfCount: document.getElementById('mf-count'),
+    mfExtraBadge: document.getElementById('mf-extra-badge'),
+    btnToggleFilters: document.getElementById('btn-toggle-filters'),
+    btnToggleFiltersText: document.getElementById('btn-toggle-filters-text'),
+    filterToggleArrow: document.getElementById('filter-toggle-arrow'),
+    toolbarInner: document.getElementById('toolbar-inner'),
+    btnCloseFilterDrawer: document.getElementById('btn-close-filter-drawer'),
     subjectTabs: document.getElementById('subject-tabs'),
     yearTabs: document.getElementById('year-tabs'),
     sectionFilterGroup: document.getElementById('section-filter-group'),
@@ -1167,6 +1179,75 @@
   }
 
   /**
+   * Mobile Filter Drawer & Summary Engine
+   */
+  let isMobileFilterExpanded = false;
+  function toggleMobileFilters(forceState) {
+    isMobileFilterExpanded = (typeof forceState === 'boolean') ? forceState : !isMobileFilterExpanded;
+    if (dom.toolbarInner) {
+      dom.toolbarInner.classList.toggle('expanded', isMobileFilterExpanded);
+    }
+    if (dom.btnToggleFilters) {
+      dom.btnToggleFilters.classList.toggle('expanded', isMobileFilterExpanded);
+      dom.btnToggleFilters.setAttribute('aria-expanded', String(isMobileFilterExpanded));
+    }
+    if (dom.filterToggleArrow) {
+      dom.filterToggleArrow.textContent = isMobileFilterExpanded ? '▴' : '▾';
+    }
+    if (dom.btnToggleFiltersText) {
+      dom.btnToggleFiltersText.textContent = isMobileFilterExpanded ? '접기' : '필터';
+    }
+  }
+
+  function updateMobileFilterSummary() {
+    if (!dom.mobileFilterSummary) return;
+
+    // Subject display
+    const sub = state.selectedSubject || 'ALL';
+    let subText = '🌐 전과목';
+    if (sub === '진단검사의학과') subText = '🩺 진단검사';
+    else if (sub === '내과') subText = '🫀 내과';
+    else if (sub === '외과') subText = '🔪 외과';
+    else if (sub === '산부인과') subText = '🤰 산부인과';
+    else if (sub === '소아청소년과') subText = '👶 소아과';
+    else if (sub === '신경과') subText = '🧠 신경과';
+    else if (sub === '정신건강의학과') subText = '🧩 정신과';
+    else if (sub === '정형외과') subText = '🦴 정형외과';
+    else if (sub === '영상의학과') subText = '🩻 영상의학과';
+
+    // Year display
+    const yr = (state.filters && state.filters.year && state.filters.year !== 'ALL')
+      ? state.filters.year
+      : '전체연도';
+
+    // Count display
+    const count = (state.filteredQuestions ? state.filteredQuestions.length : 0) + '문항';
+
+    if (dom.mfSubject) dom.mfSubject.textContent = subText;
+    if (dom.mfYear) dom.mfYear.textContent = yr;
+    if (dom.mfCount) dom.mfCount.textContent = count;
+
+    // Extra filters active count
+    let extraCount = 0;
+    if (state.filters && state.filters.type && state.filters.type !== 'ALL') extraCount++;
+    if (state.filters && state.filters.section && state.filters.section !== 'ALL') extraCount++;
+    if (state.filters && state.filters.onlyFrequent) extraCount++;
+    if (state.filters && state.filters.onlyImages) extraCount++;
+    if (state.filters && state.filters.onlyIncorrect) extraCount++;
+    if (state.filters && state.filters.onlyBookmarked) extraCount++;
+    if (state.filters && state.filters.searchQuery) extraCount++;
+
+    if (dom.mfExtraBadge) {
+      if (extraCount > 0) {
+        dom.mfExtraBadge.textContent = `+${extraCount}`;
+        dom.mfExtraBadge.style.display = 'inline-block';
+      } else {
+        dom.mfExtraBadge.style.display = 'none';
+      }
+    }
+  }
+
+  /**
    * Filter Questions based on active settings
    */
   function applyFilters() {
@@ -1233,6 +1314,7 @@
     if (state.currentIndex >= state.filteredQuestions.length) {
       state.currentIndex = Math.max(0, state.filteredQuestions.length - 1);
     }
+    updateMobileFilterSummary();
   }
 
   /**
@@ -3771,6 +3853,31 @@
     }
     if (dom.btnReshuffleNow) {
       dom.btnReshuffleNow.addEventListener('click', reshuffleCurrentQuestionOptions);
+    }
+
+    // Mobile Filter Drawer Toggle
+    if (dom.btnToggleFilters) {
+      dom.btnToggleFilters.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleMobileFilters();
+      });
+    }
+    if (dom.mobileFilterSummary) {
+      dom.mobileFilterSummary.addEventListener('click', () => {
+        toggleMobileFilters();
+      });
+    }
+    if (dom.btnCloseFilterDrawer) {
+      dom.btnCloseFilterDrawer.addEventListener('click', () => {
+        toggleMobileFilters(false);
+      });
+    }
+
+    // Expand theme title on click if truncated on mobile
+    if (dom.cardThemeTitle) {
+      dom.cardThemeTitle.addEventListener('click', () => {
+        dom.cardThemeTitle.classList.toggle('expanded');
+      });
     }
 
     // Section Filter Accordion Toggle (평소 접힌 상태)

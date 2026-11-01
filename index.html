@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>subacute | 임상의학 기출 퀴즈 마스터</title>
   <meta name="description" content="subacute - 20Y ~ 26Y 임상의학 9개 분과 기출 문제 풀이 및 상세 해설 인터랙티브 CBT">
-  <link rel="stylesheet" href="style.css?v=20261101v10">
+  <link rel="stylesheet" href="style.css?v=20261101v11">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -84,8 +84,24 @@
   </header>
 
   <!-- Filter & Search Toolbar -->
-  <nav class="filter-toolbar">
-    <div class="toolbar-inner">
+  <nav class="filter-toolbar" id="filter-toolbar">
+    <!-- Mobile Filter Summary & Quick Toggle Bar (Visible only on mobile <= 768px) -->
+    <div class="mobile-filter-bar" id="mobile-filter-bar">
+      <div class="mobile-filter-summary" id="mobile-filter-summary" role="button" tabindex="0" title="필터 및 검색 메뉴 열기/접기">
+        <span class="mf-subject" id="mf-subject">🩺 진단검사</span>
+        <span class="mf-dot">·</span>
+        <span class="mf-year" id="mf-year">전체연도</span>
+        <span class="mf-dot">·</span>
+        <span class="mf-count" id="mf-count">211문항</span>
+        <span class="mf-badge" id="mf-extra-badge" style="display: none;"></span>
+      </div>
+      <button type="button" class="btn-toggle-filters" id="btn-toggle-filters" aria-expanded="false" title="필터 옵션 열기/접기">
+        <span id="btn-toggle-filters-text">필터</span>
+        <span class="filter-toggle-arrow" id="filter-toggle-arrow">▾</span>
+      </button>
+    </div>
+
+    <div class="toolbar-inner" id="toolbar-inner">
       <!-- Subject Filter Tabs (과목 선택) -->
       <div class="filter-group subject-group">
         <span class="filter-label">임상과목:</span>
@@ -156,6 +172,13 @@
           </svg>
           <input type="text" id="search-input" placeholder="키워드 검색 (예: APL, IIF, 수혈, EDTA)...">
         </div>
+      </div>
+
+      <!-- Mobile Close Drawer Footer -->
+      <div class="mobile-filter-drawer-footer" id="mobile-filter-drawer-footer">
+        <button type="button" class="btn-close-filter-drawer" id="btn-close-filter-drawer">
+          <span>필터 적용하고 접기 ▴</span>
+        </button>
       </div>
     </div>
   </nav>
@@ -919,6 +942,6 @@
   <!-- Original Exam PDF Manifest -->
   <script src="data/pdf_manifest.js?v=20261101v6"></script>
   <!-- Main Application Logic -->
-  <script src="app.js?v=20261101v10"></script>
+  <script src="app.js?v=20261101v11"></script>
 </body>
 </html>
