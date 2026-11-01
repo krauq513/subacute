@@ -26,8 +26,27 @@ function mergeData(serverData, clientData) {
   });
 
   // Automatically mark resolved reported errors
-  const resolvedReportIds = new Set(['rep_1793464903407_4eczg', 'rep_1793465487079_7leo0']);
-  const resolvedQuestionIds = new Set(['내과_26Y_Q18', '내과_26Y_Q22', '내과_26Y_Q31', '내과_26Y_Q30', '내과_21Y_Q30']);
+  const resolvedReportIds = new Set([
+    'rep_1793464903407_4eczg',
+    'rep_1793465487079_7leo0',
+    'rep_1793514583213_irbvt',
+    'rep_1793514411231_i4heg',
+    'rep_1793513521429_8y5q2',
+    'rep_1793509070690_6uszt',
+    'rep_1793490107805_c7lvw'
+  ]);
+  const resolvedQuestionIds = new Set([
+    '내과_26Y_Q18',
+    '내과_26Y_Q22',
+    '내과_26Y_Q31',
+    '내과_26Y_Q30',
+    '내과_21Y_Q30',
+    '내과_23Y_Q33',
+    '내과_23Y_Q26',
+    '내과_23Y_Q25',
+    '내과_23Y_Q07',
+    '내과_26Y_Q45'
+  ]);
   for (const [rid, rep] of reportMap.entries()) {
     if (resolvedReportIds.has(rid) || resolvedQuestionIds.has(rep.questionId)) {
       rep.status = 'resolved';
@@ -36,6 +55,16 @@ function mergeData(serverData, clientData) {
         rep.resolutionNote = '정답 ERCP 수정(선지 1칸 밀림 교정) 및 PTBD 2차 요법 감별 해설 정렬 완료';
       } else if (rep.questionId === '내과_21Y_Q30') {
         rep.resolutionNote = '발문/선지 오표기 문구 정리 및 EST & Basket 담석제거술 표준 해설 완료';
+      } else if (rep.questionId === '내과_23Y_Q33') {
+        rep.resolutionNote = '심전도 사진 상하 2분할 통합 및 만성신부전 고칼륨혈증 임상 해설·트리거 교정 완료';
+      } else if (rep.questionId === '내과_23Y_Q26') {
+        rep.resolutionNote = '정답 ③(IBS-C 변비형 식이섬유 권장) 수정 및 IBS-C 진단기준·식이요법 해설 전면 교정 완료';
+      } else if (rep.questionId === '내과_23Y_Q25') {
+        rep.resolutionNote = '정답 ③(임상적으로 국소 진행암) 수정 및 선지 감별 해설 정렬 완료';
+      } else if (rep.questionId === '내과_23Y_Q07') {
+        rep.resolutionNote = '심초음파 사진 상하 2분할 통합 및 단일 고화질 이미지 배치 완료';
+      } else if (rep.questionId === '내과_26Y_Q45') {
+        rep.resolutionNote = '해설 선지 번호 및 비타민D 표기(25(OH)D, 1,25(OH)2D) 누락 교정 완료';
       } else {
         rep.resolutionNote = '발문 오분류 선지 제거 및 정답/오답 해설 1:1 정렬 수정 완료';
       }
