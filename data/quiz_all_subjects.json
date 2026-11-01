@@ -31769,64 +31769,64 @@
     "category": "탈",
     "theme_title": "다발골수종 (Multiple Myeloma)의 진단(CRAB) 및 국제병기분류(ISS)",
     "subspecialty": "혈액종양내과 / 형질세포질환",
-    "stem": "62세 환자가 피로와 골통증으로 내원하였다. 검사 결과는 다음과 같다.\n- IgG kappa 4,000 mg/dL, M protein 5.5 g/dL, Albumin 2.4 g/dL, Beta-2 microglobulin 4.3 mg/L\n- 골수 생검: 골수 세포충실도 49%, 형질세포 증가\n이 환자의 질환명과 국제병기체계(ISS) 병기는?",
+    "stem": "(정말 많은 검사가 주어져서 정확한 복기가 어려웠습니다.) 요통이 있는 환자, 움직이면 요통이 심해지고 가만히 누워있으면 아프지 않아 계속 누워있는 XX세 여자 환자의 검사 결과가 다음과 같다. (다발성 골수종의 증상인 CRAB가 있었습니다. 다음은 주요 검사 결과들입니다.)\n- IgG kappa 4,000, M protein 5.5, Albumin 2.4, beta 2 microglobulin 4.3\n- Bone marrow cellularity 49%\n\n이 환자에서의 병명과 단계는?",
     "images": [],
     "options": [
-      "① 단클론감마글로불린혈증 (MGUS)",
-      "② 무증상 다발골수종 (Smoldering Multiple Myeloma)",
-      "③ 다발골수종 - ISS 병기 I",
-      "④ 다발골수종 - ISS 병기 II (Multiple Myeloma - ISS II)",
-      "⑤ 다발골수종 - ISS 병기 III"
+      "① Monoclonal gammopathy of undetermined significance",
+      "② Multiple Myeloma - smoldering",
+      "③ Multiple Myeloma - ISS I",
+      "④ Multiple Myeloma - ISS II",
+      "⑤ Multiple Myeloma - ISS III"
     ],
     "correct_option_index": 3,
-    "correct_answer": "④ 다발골수종 - ISS 병기 II (Multiple Myeloma - ISS II)",
+    "correct_answer": "④ Multiple Myeloma - ISS II",
     "explanation": {
       "title": "다발골수종 (Multiple Myeloma)의 진단(CRAB) 및 국제병기분류(ISS)",
-      "findings": "요통+골수 형질세포 49%+M-단백 → 다발골수종, Albumin 2.4 및 Beta-2 microglobulin 4.3이므로 ISS 병기 2",
-      "differential": "• ① 단클론감마글로불린혈증 (MGUS) ✗ [오답]: 혈청 M-단백 < 3.0 g/dL, 골수 형질세포 < 10%이며 CRAB 증상이 없어야 하나, 본 환자는 M-단백 5.5 g/dL, 골수 49%이므로 부합하지 않습니다.\n• ② 무증상 다발골수종 (Smoldering Multiple Myeloma) ✗ [오답]: M-단백 >= 3.0 g/dL 또는 골수 형질세포 10~60%이나 골병변, 신부전, 빈혈 등 CRAB 장기 손상이 없어야 합니다.\n• ③ 다발골수종 - ISS 병기 I ✗ [오답]: ISS 병기 I은 혈청 알부민 >= 3.5 g/dL 및 베타-2 마이크로그로불린 < 3.5 mg/L이어야 하나, 본 환자는 알부민 2.4 g/dL, B2M 4.3 mg/L입니다.\n• ④ 다발골수종 - ISS 병기 II (Multiple Myeloma - ISS II) ✓ [정답]: ISS 병기 II는 ISS I(알부민>=3.5 & B2M<3.5)과 ISS III(B2M>=5.5) 어디에도 속하지 않는 상태로, B2M 4.3 mg/L 및 알부민 2.4 g/dL인 본 환자가 정확히 해당합니다.\n• ⑤ 다발골수종 - ISS 병기 III ✗ [오답]: ISS 병기 III은 혈청 베타-2 마이크로그로불린 >= 5.5 mg/L이어야 하나, 본 환자는 4.3 mg/L이므로 해당하지 않습니다.",
+      "findings": "요통(골통증) + 골수 형질세포 증가(Bone marrow cellularity 49%) + M protein 5.5g/dL로 다발골수종(Multiple Myeloma)에 해당하며, Albumin 2.4, Beta-2 microglobulin 4.3이므로 ISS Stage II에 해당합니다.",
+      "differential": "• ① Monoclonal gammopathy of undetermined significance ✗ [오답]: 혈청 M-단백 < 3.0 g/dL, 골수 형질세포 < 10%이며 CRAB 증상이 없어야 하나, 본 환자는 M protein 5.5, 골수 49% 및 요통/CRAB 증상이 있으므로 배제됩니다.\n• ② Multiple Myeloma - smoldering ✗ [오답]: 무증상 다발골수종은 CRAB 장기 손상이 없어야 하나, 본 증례는 요통/CRAB 증상이 동반되어 유증상 다발골수종입니다.\n• ③ Multiple Myeloma - ISS I ✗ [오답]: ISS 병기 I은 Serum Albumin >= 3.5 및 Beta-2 microglobulin < 3.5 기준을 만족해야 하나, 본 환자는 Albumin 2.4, B2M 4.3입니다.\n• ④ Multiple Myeloma - ISS II ✓ [정답]: ISS 병기 II는 ISS I(Alb >= 3.5 & B2M < 3.5)과 ISS III(B2M >= 5.5)에 해당하지 않는 상태(Neither Stage I nor Stage III)로, B2M 4.3 및 Albumin 2.4인 본 증례가 정확히 해당합니다.\n• ⑤ Multiple Myeloma - ISS III ✗ [오답]: ISS 병기 III은 Serum Beta-2 microglobulin >= 5.5 기준을 만족해야 하나, 본 환자는 4.3입니다.",
       "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "【다발골수종 (Multiple Myeloma)의 진단(CRAB) 및 국제병기분류(ISS) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 기준 지표: 요통+골수 형질세포 49%+M-단백 → 다발골수종, Albumin 2.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ④ 다발골수종 - ISS 병기 II (Multiple Myeloma - ISS II).\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
+      "trigger": "【다발골수종(Multiple Myeloma)의 진단(CRAB) 및 국제병기분류(ISS)】\n• 핵심 진단 기준:\n  - M-protein 5.5, 골수 49%, 요통(CRAB 증상)\n• ISS 병기 판정:\n  - Stage I: B2M < 3.5 & Albumin >= 3.5\n  - Stage III: B2M >= 5.5\n  - Stage II: Neither Stage I nor III (본 증례: B2M 4.3, Alb 2.4 -> Stage II)\n• 1차 선택: ④ Multiple Myeloma - ISS II",
       "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "단클론감마글로불린혈증 (MGUS)",
+          "text": "Monoclonal gammopathy of undetermined significance",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "혈청 M-단백 < 3.0 g/dL, 골수 형질세포 < 10%이며 CRAB 증상이 없어야 하나, 본 환자는 M-단백 5.5 g/dL, 골수 49%이므로 부합하지 않습니다."
+          "reason": "혈청 M-단백 < 3.0 g/dL, 골수 형질세포 < 10%이며 CRAB 증상이 없어야 하나, 본 환자는 M protein 5.5, 골수 49% 및 요통/CRAB 증상이 있으므로 MGUS가 아닙니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "무증상 다발골수종 (Smoldering Multiple Myeloma)",
+          "text": "Multiple Myeloma - smoldering",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "M-단백 >= 3.0 g/dL 또는 골수 형질세포 10~60%이나 골병변, 신부전, 빈혈 등 CRAB 장기 손상이 없어야 합니다."
+          "reason": "무증상 다발골수종은 M-단백 >= 3.0 g/dL 또는 골수 형질세포 10~60%이나 골병변, 빈혈 등 CRAB 장기 손상이 전혀 없어야 합니다. 본 환자는 요통 및 CRAB 증상이 동반되어 active Multiple Myeloma입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "다발골수종 - ISS 병기 I",
+          "text": "Multiple Myeloma - ISS I",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "ISS 병기 I은 혈청 알부민 >= 3.5 g/dL 및 베타-2 마이크로그로불린 < 3.5 mg/L이어야 하나, 본 환자는 알부민 2.4 g/dL, B2M 4.3 mg/L입니다."
+          "reason": "ISS Stage I은 Serum Albumin >= 3.5 g/dL 및 Beta-2 microglobulin < 3.5 mg/L이어야 하나, 본 환자는 Albumin 2.4, B2M 4.3입니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "다발골수종 - ISS 병기 II (Multiple Myeloma - ISS II)",
+          "text": "Multiple Myeloma - ISS II",
           "is_correct": true,
           "tag": "정답",
-          "reason": "ISS 병기 II는 ISS I(알부민>=3.5 & B2M<3.5)과 ISS III(B2M>=5.5) 어디에도 속하지 않는 상태로, B2M 4.3 mg/L 및 알부민 2.4 g/dL인 본 환자가 정확히 해당합니다."
+          "reason": "다발골수종(Multiple Myeloma)의 국제병기체계(ISS)에서 Stage II는 ISS I(Albumin >= 3.5 & B2M < 3.5)과 ISS III(B2M >= 5.5) 어디에도 속하지 않는 상태(Neither Stage I nor Stage III)로, B2M 4.3 및 Albumin 2.4인 본 환자가 정확히 ISS II에 해당합니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "다발골수종 - ISS 병기 III",
+          "text": "Multiple Myeloma - ISS III",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "ISS 병기 III은 혈청 베타-2 마이크로그로불린 >= 5.5 mg/L이어야 하나, 본 환자는 4.3 mg/L이므로 해당하지 않습니다."
+          "reason": "ISS Stage III은 Serum Beta-2 microglobulin >= 5.5 mg/L이어야 하나, 본 환자는 4.3이므로 해당하지 않습니다."
         }
       ],
       "differential_general": ""
@@ -31848,42 +31848,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "단클론감마글로불린혈증 (MGUS)",
+        "text": "Monoclonal gammopathy of undetermined significance",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "혈청 M-단백 < 3.0 g/dL, 골수 형질세포 < 10%이며 CRAB 증상이 없어야 하나, 본 환자는 M-단백 5.5 g/dL, 골수 49%이므로 부합하지 않습니다."
+        "reason": "혈청 M-단백 < 3.0 g/dL, 골수 형질세포 < 10%이며 CRAB 증상이 없어야 하나, 본 환자는 M protein 5.5, 골수 49% 및 요통/CRAB 증상이 있으므로 MGUS가 아닙니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "무증상 다발골수종 (Smoldering Multiple Myeloma)",
+        "text": "Multiple Myeloma - smoldering",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "M-단백 >= 3.0 g/dL 또는 골수 형질세포 10~60%이나 골병변, 신부전, 빈혈 등 CRAB 장기 손상이 없어야 합니다."
+        "reason": "무증상 다발골수종은 M-단백 >= 3.0 g/dL 또는 골수 형질세포 10~60%이나 골병변, 빈혈 등 CRAB 장기 손상이 전혀 없어야 합니다. 본 환자는 요통 및 CRAB 증상이 동반되어 active Multiple Myeloma입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "다발골수종 - ISS 병기 I",
+        "text": "Multiple Myeloma - ISS I",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "ISS 병기 I은 혈청 알부민 >= 3.5 g/dL 및 베타-2 마이크로그로불린 < 3.5 mg/L이어야 하나, 본 환자는 알부민 2.4 g/dL, B2M 4.3 mg/L입니다."
+        "reason": "ISS Stage I은 Serum Albumin >= 3.5 g/dL 및 Beta-2 microglobulin < 3.5 mg/L이어야 하나, 본 환자는 Albumin 2.4, B2M 4.3입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "다발골수종 - ISS 병기 II (Multiple Myeloma - ISS II)",
+        "text": "Multiple Myeloma - ISS II",
         "is_correct": true,
         "tag": "정답",
-        "reason": "ISS 병기 II는 ISS I(알부민>=3.5 & B2M<3.5)과 ISS III(B2M>=5.5) 어디에도 속하지 않는 상태로, B2M 4.3 mg/L 및 알부민 2.4 g/dL인 본 환자가 정확히 해당합니다."
+        "reason": "다발골수종(Multiple Myeloma)의 국제병기체계(ISS)에서 Stage II는 ISS I(Albumin >= 3.5 & B2M < 3.5)과 ISS III(B2M >= 5.5) 어디에도 속하지 않는 상태(Neither Stage I nor Stage III)로, B2M 4.3 및 Albumin 2.4인 본 환자가 정확히 ISS II에 해당합니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "다발골수종 - ISS 병기 III",
+        "text": "Multiple Myeloma - ISS III",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "ISS 병기 III은 혈청 베타-2 마이크로그로불린 >= 5.5 mg/L이어야 하나, 본 환자는 4.3 mg/L이므로 해당하지 않습니다."
+        "reason": "ISS Stage III은 Serum Beta-2 microglobulin >= 5.5 mg/L이어야 하나, 본 환자는 4.3이므로 해당하지 않습니다."
       }
     ]
   },
