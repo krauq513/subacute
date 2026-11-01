@@ -77434,34 +77434,66 @@
     "year": "26Y",
     "q_num": 29,
     "category": "탈",
-    "theme_title": "소아 부폐렴성 흉막삼출(Parapneumonic Effusion)과 측면 와위 흉부 X-ray",
-    "subspecialty": "소아호흡기학 & 감염학",
-    "stem": "5세 소아가 지속되는 고열, 기침 및 흉통을 주소로 내원하였다. 신체검진에서 좌측 폐야의 호흡음이 감소되어 있었고, 촬영한 좌측 측와위(Left lateral decubitus) 흉부 방사선 사진이 다음과 같을 때 가장 적절한 진단은?",
+    "theme_title": "소아 흉부 X-ray 판독: 좌측 흉막 삼출액 (Left Pleural Effusion)",
+    "subspecialty": "소아호흡기학 & 영상의학",
+    "stem": "(Post test Y) 아래 chest X-ray에 관한 설명으로 옳은 것은?",
     "images": [
       "images/소아청소년과/26Y_Q29_fig1.png"
     ],
     "options": [
-      "① 부폐렴성 흉막삼출 (Parapneumonic pleural effusion)",
-      "② 긴장성 기흉 (Tension pneumothorax)",
-      "③ 기관지 내 이물 (Bronchial foreign body)",
-      "④ 급성 세기관지염 (Acute bronchiolitis)",
-      "⑤ 선천성 횡격막 탈장 (Congenital diaphragmatic hernia)"
+      "① 오른쪽 옆으로 누워 촬영하였다.",
+      "② 좌측 pleural effusion이 있다.",
+      "③ 기관 삽관되어 있다.",
+      "④ 우측 폐에 기흉이 있다."
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① 부폐렴성 흉막삼출 (Parapneumonic pleural effusion)",
+    "correct_option_index": 1,
+    "correct_answer": "② 좌측 pleural effusion이 있다.",
     "explanation": {
-      "title": "소아 부폐렴성 흉막삼출(Parapneumonic Effusion)과 측면 와위 흉부 X-ray",
-      "findings": "발열, 기침, 호흡음 감소 및 측와위(Lateral decubitus) 흉부 X-ray에서 중력 방향으로 흉수가 수평으로 고이는 액체 층(fluid layering, 1cm 이상) 소견.",
-      "diagnosis": "부폐렴성 흉막삼출 (Parapneumonic pleural effusion)",
-      "treatment": "진단적/치료적 흉수 천자(Thoracentesis) 및 정맥 항생제 투여, 농흉(Empyema) 시 흉관 배액술",
-      "clinical_pearls": "측와위 흉부 X-ray에서 흉수 두께가 10mm(1cm) 이상이면 진단적 흉수 천자의 적응증이 됩니다.",
-      "trigger": "【소아 부폐렴성 흉막삼출(Parapneumonic Effusion) 진단】\n• 흉부 단순 X-선 및 측와위(Lateral Decubitus View) 판독:\n  - 기립위 CXR에서 늑골횡격막각(Costophrenic angle)의 둔화가 관찰될 때, 병변이 있는 쪽을 아래로 향하게 누워 촬영한 측와위(Decubitus view)에서 흉벽을 따라 액체층(Fluid layer)이 흘러내리는 소견으로 유리성(Free-flowing) 흉수를 확인.\n• 처치 가이드라인:\n  - 흉수 두께 > 10 mm인 경우 진단적/치료적 흉강천자(Thoracentesis) 시행.\n  - 농흉(Empyema) 소견(육안적 농, pH < 7.2, 포도당 < 40 mg/dL, Gram 염색/배양 양성) 시 흉관 삽입(Chest tube drainage) 및 항생제 투여.",
-      "trap": "• [함정 및 주의 포인트]: 좌측 폐렴 환아가 좌측을 아래로 하고 누운 사진에서 흉벽을 따라 띠 모양의 음영이 형성되면 고형 종괴가 아니라 중력에 의해 이동한 자유 이동성 흉막삼출액임을 식별해야 합니다."
+      "title": "소아 흉부 X-ray 판독: 좌측 흉막 삼출액 (Left Pleural Effusion)",
+      "findings": "좌측 측와위(Left lateral decubitus) 흉부 X-선에서 좌측 흉벽을 따라 수평으로 띠 모양의 흉막 삼출액(Pleural effusion, 흰색 화살표) 음영 관찰.",
+      "differential": "• ① 오른쪽 옆으로 누워 촬영하였다. ✗ [오답]: 우측 상단에 'L DEC'라고 표기되어 있으며 좌측을 아래로 하여 누운 좌측 측와위(Left lateral decubitus) 촬영입니다.\n• ② 좌측 pleural effusion이 있다. ✓ [정답]: 좌측 측와위(Left lateral decubitus) 사진에서 중력에 의해 좌측 흉벽을 따라 띠 모양으로 고이는 유리성(free-flowing) 흉막 삼출액(Pleural effusion, 흰색 화살표)이 명확히 관찰됩니다.\n• ③ 기관 삽관되어 있다. ✗ [오답]: 기도 내에 인공기관내관(Endotracheal tube)이나 흉관 등 방사선 불투과성 도관 음영이 전혀 없습니다.\n• ④ 우측 폐에 기흉이 있다. ✗ [오답]: 상측에 위치한 우측 폐야에 장측 흉막선이나 무혈관성 공기 음영이 관찰되지 않고 폐혈관 음영이 정상적으로 유지되어 기흉이 아닙니다.",
+      "trigger": "【소아 흉막 삼출액(Pleural Effusion) 측와위(Decubitus View) 판독 공식】\n• 촬영법 식별: 'L DEC' 표기는 좌측을 아래로 하고 누운 Left lateral decubitus 뷰.\n• 핵심 영상 소견: 중력 방향인 아래쪽(좌측) 흉벽을 따라 액체층(Fluid layer, 흰색 화살표)이 흘러내리며 띠 모양의 음영을 형성(Pleural effusion).\n• 임상적 의의: 흉벽을 따라 고인 삼출액의 두께가 10 mm(1 cm) 이상인 경우 진단적/치료적 흉강천자(Thoracentesis)의 적응증.\n• 기흉과의 감별: 기흉은 반대로 위쪽(비종속부)으로 공기가 차서 무혈관성 투과상을 보임.",
+      "trap": "• [함정 및 주의 포인트]: 'L DEC'는 Left decubitus(좌측 와위)를 의미하며, 아래쪽으로 가라앉은 띠 모양 음영은 고형 종괴나 기흉이 아니라 중력에 의해 이동한 좌측 흉막 삼출액입니다.",
+      "kmle_link": "KMLE 소아호흡기학 / 흉막 질환 및 소아 영상의학 연계",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "오른쪽 옆으로 누워 촬영하였다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "우측 상단에 'L DEC'라고 표기되어 있으며 좌측을 아래로 하여 누운 좌측 측와위(Left lateral decubitus) 촬영입니다."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "좌측 pleural effusion이 있다.",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "좌측 측와위(Left lateral decubitus) 사진에서 중력에 의해 좌측 흉벽을 따라 띠 모양으로 고이는 유리성(free-flowing) 흉막 삼출액(Pleural effusion, 흰색 화살표)이 명확히 관찰됩니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "기관 삽관되어 있다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "기도 내에 인공기관내관(Endotracheal tube)이나 흉관 등 방사선 불투과성 도관 음영이 전혀 없습니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "우측 폐에 기흉이 있다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "상측에 위치한 우측 폐야에 장측 흉막선이나 무혈관성 공기 음영이 관찰되지 않고 폐혈관 음영이 정상적으로 유지되어 기흉이 아닙니다."
+        }
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -77475,42 +77507,34 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "부폐렴성 흉막삼출 (Parapneumonic pleural effusion)",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "발열과 기침 환아의 측와위 흉부 X-ray에서 종속측 흉벽을 따라 액체가 수평으로 고이는 소견은 부폐렴성 흉막삼출의 전형적 영상입니다."
+        "text": "오른쪽 옆으로 누워 촬영하였다.",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "우측 상단에 'L DEC'라고 표기되어 있으며 좌측을 아래로 하여 누운 좌측 측와위(Left lateral decubitus) 촬영입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "긴장성 기흉 (Tension pneumothorax)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "과투과성 흉강과 폐 허탈, 반대측 종격동 편위를 보입니다."
+        "text": "좌측 pleural effusion이 있다.",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "좌측 측와위(Left lateral decubitus) 사진에서 중력에 의해 좌측 흉벽을 따라 띠 모양으로 고이는 유리성(free-flowing) 흉막 삼출액(Pleural effusion, 흰색 화살표)이 명확히 관찰됩니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "기관지 내 이물 (Bronchial foreign body)",
+        "text": "기관 삽관되어 있다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "갑작스러운 기침/질식 병력과 호기 시 환측 폐의 과팽창(air trapping)을 보입니다."
+        "reason": "기도 내에 인공기관내관(Endotracheal tube)이나 흉관 등 방사선 불투과성 도관 음영이 전혀 없습니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "급성 세기관지염 (Acute bronchiolitis)",
+        "text": "우측 폐에 기흉이 있다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "영아에서 천명음과 양측 폐 과팽창을 보입니다."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "선천성 횡격막 탈장 (Congenital diaphragmatic hernia)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "신생아 흉강 내 장관 가스 음영과 주상 복부(scaphoid abdomen)를 보입니다."
+        "reason": "상측에 위치한 우측 폐야에 장측 흉막선이나 무혈관성 공기 음영이 관찰되지 않고 폐혈관 음영이 정상적으로 유지되어 기흉이 아닙니다."
       }
     ]
   },
