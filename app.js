@@ -266,6 +266,7 @@
     btnClearEdits: document.getElementById('btn-clear-edits'),
     // Original Exam PDF Viewer Modal Elements
     btnOpenPdfViewer: document.getElementById('btn-open-pdf-viewer'),
+    btnCopyQnum: document.getElementById('btn-copy-qnum'),
     btnQuestionPdf: document.getElementById('btn-question-pdf'),
     pdfModal: document.getElementById('pdf-viewer-modal'),
     btnClosePdfModal: document.getElementById('btn-close-pdf-modal'),
@@ -2229,7 +2230,15 @@
       dom.cardEditedBadge.style.display = (state.customEdits && state.customEdits[q.id]) ? 'inline-flex' : 'none';
     }
 
-    // Update Question PDF Tooltip
+    // Update Question Copy & PDF Tooltips
+    const formattedQnum = getFormattedQuestionNumber(q);
+    if (dom.btnCopyQnum) {
+      dom.btnCopyQnum.title = `문제 번호 복사: ${formattedQnum}`;
+    }
+    if (dom.cardQnum) {
+      dom.cardQnum.title = `클릭 시 문제 번호 복사: ${formattedQnum}`;
+    }
+
     if (dom.btnQuestionPdf) {
       dom.btnQuestionPdf.title = `현재 문제(${q.subject} ${q.year})의 원본 시험지 PDF 열기`;
     }
@@ -4224,6 +4233,18 @@
     if (dom.btnOpenPdfViewer) {
       dom.btnOpenPdfViewer.addEventListener('click', () => {
         openPdfViewerModal();
+      });
+    }
+
+    if (dom.btnCopyQnum) {
+      dom.btnCopyQnum.addEventListener('click', () => {
+        copyCurrentQuestionNumber();
+      });
+    }
+
+    if (dom.cardQnum) {
+      dom.cardQnum.addEventListener('click', () => {
+        copyCurrentQuestionNumber();
       });
     }
 

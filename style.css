@@ -829,6 +829,54 @@ body {
   line-height: 1;
 }
 
+
+.btn-copy-qnum {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.32rem;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  color: #334155;
+  height: 30px !important;
+  padding: 0 0.65rem !important;
+  border-radius: 7px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+  user-select: none;
+}
+
+.btn-copy-qnum:hover {
+  background: #f1f5f9;
+  border-color: #94a3b8;
+  color: #0f172a;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 5px rgba(51, 65, 85, 0.12);
+}
+
+.btn-copy-qnum:active {
+  transform: translateY(0);
+}
+
+.btn-copy-qnum.copied {
+  background: #ecfdf5 !important;
+  border-color: #6ee7b7 !important;
+  color: #047857 !important;
+}
+
+.qnum-badge {
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.qnum-badge:hover {
+  filter: brightness(0.92);
+  transform: translateY(-1px);
+}
+
 .btn-question-pdf {
   display: inline-flex !important;
   align-items: center !important;
@@ -2990,6 +3038,7 @@ body {
     color: var(--text-secondary);
   }
 
+  .btn-copy-qnum,
   .btn-question-pdf,
   .btn-edit-question,
   .btn-report-issue {
@@ -3385,12 +3434,14 @@ body {
   }
 
   /* Icon only for question actions on narrow phones */
+  .btn-copy-qnum span,
   .btn-question-pdf span,
   .btn-edit-question span,
   .btn-report-issue span {
     display: none !important;
   }
 
+  .btn-copy-qnum,
   .btn-question-pdf,
   .btn-edit-question,
   .btn-report-issue {
