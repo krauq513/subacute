@@ -3043,7 +3043,8 @@
    * Apply user custom edits onto allQuestions on initialization
    */
   const PERMANENT_RESOLVED_CUSTOM_EDITS = new Set([
-    '소아청소년과_23Y_Q39'
+    '소아청소년과_23Y_Q39',
+    '소아청소년과_23Y_Q42'
   ]);
 
   function applyCustomEdits() {

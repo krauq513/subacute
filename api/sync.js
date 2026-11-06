@@ -49,6 +49,7 @@ function mergeData(serverData, clientData) {
     '소아청소년과_22Y_Q44',
     '소아청소년과_26Y_Q38',
     '소아청소년과_23Y_Q39',
+    '소아청소년과_23Y_Q42',
     '영상의학과_26Y_Q07'
   ]);
   for (const [rid, rep] of reportMap.entries()) {
@@ -61,6 +62,8 @@ function mergeData(serverData, clientData) {
         rep.resolutionNote = '출제 답안(② 머리 비율)과 교과서적 복수정답(③ 체표면적 비율) 감별 가이드라인 해설 추가 완료';
       } else if (rep.questionId === '소아청소년과_23Y_Q39') {
         rep.resolutionNote = '정답 ⑤(검사없이 추적관찰) 수정 및 단순 조기 유방 발육증 진단기준 해설 정렬 완료';
+      } else if (rep.questionId === '소아청소년과_23Y_Q42') {
+        rep.resolutionNote = '정답 ①(성장호르몬 결핍증) 및 원본 발문(아버지는 중학교 때 키가 컸고 어머니 초경 연령은 13세였다. 진단은?) 복원 및 상세 해설 완료';
       } else if (rep.questionId === '영상의학과_26Y_Q07') {
         rep.resolutionNote = '활동성 폐결핵 X-ray에 대한 [옳지 않은 것] 부정형 문제 강조 및 ① 폐암 의심 정답 해설 보강 완료';
       } else if (rep.questionId === '내과_26Y_Q31') {
