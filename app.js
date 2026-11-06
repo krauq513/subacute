@@ -4365,7 +4365,7 @@
     } else if (e.key === 'b' || e.key === 'B') {
       e.preventDefault();
       toggleBookmark();
-    } else if (e.key === 'r' || e.key === 'R' || e.key === 'Backspace') {
+    } else if (e.key === 'r' || e.key === 'R' || e.key === 'Backspace' || e.key === '0' || e.code === 'Digit0' || e.code === 'Numpad0') {
       e.preventDefault();
       resetCurrentQuestion();
     } else if (e.key === 's' || e.key === 'S') {
