@@ -167976,8 +167976,8 @@ window.QUIZ_DATA = [
     "year": "26Y",
     "q_num": 54,
     "category": "짤",
-    "theme_title": "드퀘르벵 건초염(De Quervain Disease)의 핑켈스타인 검사(Finkelstein Test)",
-    "subspecialty": "수부 질환",
+    "theme_title": "후방십자인대(PCL) 파열의 이학적 검사(Posterior Drawer Test / Sag Sign)",
+    "subspecialty": "슬관절 질환",
     "stem": "20세 여자가 우측 슬관절 통증을 호소하여 병원을 방문 하였다. 검사 시행 결과 양성 판정을 받았다. 어떤 증상을 앓 고 있는가?",
     "images": [
       "images/정형외과/26Y_Q54_fig1.png"
@@ -167989,31 +167989,31 @@ window.QUIZ_DATA = [
       "④ Lateral collateral ligament rupture",
       "⑤ Anterolateral ligament rupture"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Anterior cruciate ligament rupture",
+    "correct_option_index": 1,
+    "correct_answer": "② Posterior cruciate ligament rupture",
     "explanation": {
-      "title": "드퀘르벵 건초염(De Quervain Disease)의 핑켈스타인 검사(Finkelstein Test)",
-      "findings": "20세 여성 무릎 손상 후 락만(Lachman) 검사 양성 → 전방십자인대 파열(ACL rupture)",
-      "differential": "• ① Anterior cruciate ligament rupture ✓ [정답]: 무릎 20~30도 굴곡 상태에서 경골을 전방 견인 시 연발성(soft endpoint)과 전방 이동을 보이는 락만 검사 양성으로 확진됩니다\n• ② Posterior cruciate ligament rupture ✗ [오답]: 무릎 90도 굴곡 상태에서 경골을 후방으로 밀어 전위를 확인하는 후방 전위 검사나 후방 처짐 징후(posterior sag sign)로 진단합니다.\n• ③ Medial collateral ligament rupture ✗ [오답]: 무릎 30도 굴곡 상태에서 외반 부하 검사(valgus stress test) 시 내측 관절면의 벌어짐과 동통을 유발하여 평가합니다.\n• ④ Lateral collateral ligament rupture ✗ [오답]: 무릎 30도 굴곡 상태에서 내반 부하 검사(varus stress test) 시 외측 관절 간격의 이개와 국소 통증을 확인합니다.\n• ⑤ Anterolateral ligament rupture ✗ [오답]: 전방십자인대 손상에 동반되는 전외측 회전 불안정성을 일으키는 구조물로 피벗 시프트 검사(pivot shift test)에서 정복음이 유발됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n23Y-37: 동일한 이학적 검사(Lachman test) 사진과 선지로 출제되어 정답은 ①(ACL rupture).",
+      "title": "후방십자인대(PCL) 파열의 이학적 검사(Posterior Drawer Test / Sag Sign)",
+      "findings": "20세 여성 무릎 손상 후 후방 전위 검사(Posterior drawer test) / 후방 처짐(Sag sign) 양성 → 후방십자인대 파열(PCL rupture)",
+      "differential": "• ① Anterior cruciate ligament rupture ✗ [오답]: 무릎 20~30도 굴곡 상태에서 경골을 전방 견인하는 락만(Lachman) 검사나 전방 전위 검사에서 양성을 보입니다.\n• ② Posterior cruciate ligament rupture ✓ [정답]: 무릎을 90도 굴곡한 상태에서 경골 근위부를 후방으로 밀었을 때 비정상적인 후방 전위가 관찰되는 후방 전위 검사(Posterior drawer test)나 후방 처짐 징후(Posterior sag sign) 양성으로 진단합니다.\n• ③ Medial collateral ligament rupture ✗ [오답]: 무릎 30도 굴곡 상태에서 외반 부하 검사(Valgus stress test) 시 내측 관절 간격의 벌어짐과 통증을 유발하여 평가합니다.\n• ④ Lateral collateral ligament rupture ✗ [오답]: 무릎 30도 굴곡 상태에서 내반 부하 검사(Varus stress test) 시 외측 관절 간격의 벌어짐과 통증을 확인합니다.\n• ⑤ Anterolateral ligament rupture ✗ [오답]: 전방십자인대 손상에 동반되는 회전 불안정성 구조물로 피벗 시프트 검사(Pivot shift test)에서 아탈구 정복음이 유발됩니다.",
       "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "【드퀘르벵 건초염(De Quervain Disease)의 핑켈스타인 검사(Finkelstein Test) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 20세 여성 무릎 손상 후 락만(Lachman) 검사 양성 → 전방십자인대 파열(ACL rupture).\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① Anterior cruciate ligament rupture.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
+      "trigger": "【후방십자인대(PCL) 파열 핵심 가이드라인】\n• 진단 핵심: 슬관절 90도 굴곡 상태에서 경골의 후방 전위(Posterior drawer test) 및 후방 처짐(Posterior sag sign, Godfrey test).\n• 치료: 단독 불완전 파열은 보존적 치료(신전 석고/보조기, 대퇴사두근 강화), 8~10mm 이상 전위 또는 복합 인대 파열 시 재건술.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
           "text": "Anterior cruciate ligament rupture",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "무릎 20~30도 굴곡 상태에서 경골을 전방 견인 시 연발성(soft endpoint)과 전방 이동을 보이는 락만 검사 양성으로 확진됩니다"
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "무릎 20~30도 굴곡 상태에서 경골을 전방 견인하는 락만(Lachman) 검사나 전방 전위 검사에서 양성을 보입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
           "text": "Posterior cruciate ligament rupture",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "무릎 90도 굴곡 상태에서 경골을 후방으로 밀어 전위를 확인하는 후방 전위 검사나 후방 처짐 징후(posterior sag sign)로 진단합니다."
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "무릎을 90도 굴곡한 상태에서 경골 근위부를 후방으로 밀었을 때 비정상적인 후방 전위가 관찰되는 후방 전위 검사(Posterior drawer test)나 후방 처짐 징후(Posterior sag sign) 양성으로 진단합니다."
         },
         {
           "opt_idx": 2,
@@ -168021,7 +168021,7 @@ window.QUIZ_DATA = [
           "text": "Medial collateral ligament rupture",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "무릎 30도 굴곡 상태에서 외반 부하 검사(valgus stress test) 시 내측 관절면의 벌어짐과 동통을 유발하여 평가합니다."
+          "reason": "무릎 30도 굴곡 상태에서 외반 부하 검사(Valgus stress test) 시 내측 관절 간격의 벌어짐과 통증을 유발하여 평가합니다."
         },
         {
           "opt_idx": 3,
@@ -168029,7 +168029,7 @@ window.QUIZ_DATA = [
           "text": "Lateral collateral ligament rupture",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "무릎 30도 굴곡 상태에서 내반 부하 검사(varus stress test) 시 외측 관절 간격의 이개와 국소 통증을 확인합니다."
+          "reason": "무릎 30도 굴곡 상태에서 내반 부하 검사(Varus stress test) 시 외측 관절 간격의 벌어짐과 통증을 확인합니다."
         },
         {
           "opt_idx": 4,
@@ -168037,17 +168037,17 @@ window.QUIZ_DATA = [
           "text": "Anterolateral ligament rupture",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "전방십자인대 손상에 동반되는 전외측 회전 불안정성을 일으키는 구조물로 피벗 시프트 검사(pivot shift test)에서 정복음이 유발됩니다."
+          "reason": "전방십자인대 손상에 동반되는 회전 불안정성 구조물로 피벗 시프트 검사(Pivot shift test)에서 아탈구 정복음이 유발됩니다."
         }
       ],
-      "differential_general": "23Y-37: 동일한 이학적 검사(Lachman test) 사진과 선지로 출제되어 정답은 ①(ACL rupture).",
-      "theme_title": "드퀘르벵 건초염(De Quervain Disease)의 핑켈스타인 검사(Finkelstein Test)",
-      "subspecialty": "수부 질환"
+      "differential_general": "26Y-54 / 23Y-37: 동일한 후방 전위 검사 소견으로 출제되어 정답은 ②(PCL rupture).",
+      "theme_title": "후방십자인대(PCL) 파열의 이학적 검사(Posterior Drawer Test / Sag Sign)",
+      "subspecialty": "슬관절 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 2,
     "rate": 33,
@@ -168065,17 +168065,17 @@ window.QUIZ_DATA = [
         "opt_idx": 0,
         "opt_num": "①",
         "text": "Anterior cruciate ligament rupture",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "무릎 20~30도 굴곡 상태에서 경골을 전방 견인 시 연발성(soft endpoint)과 전방 이동을 보이는 락만 검사 양성으로 확진됩니다"
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "무릎 20~30도 굴곡 상태에서 경골을 전방 견인하는 락만(Lachman) 검사나 전방 전위 검사에서 양성을 보입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
         "text": "Posterior cruciate ligament rupture",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "무릎 90도 굴곡 상태에서 경골을 후방으로 밀어 전위를 확인하는 후방 전위 검사나 후방 처짐 징후(posterior sag sign)로 진단합니다."
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "무릎을 90도 굴곡한 상태에서 경골 근위부를 후방으로 밀었을 때 비정상적인 후방 전위가 관찰되는 후방 전위 검사(Posterior drawer test)나 후방 처짐 징후(Posterior sag sign) 양성으로 진단합니다."
       },
       {
         "opt_idx": 2,
@@ -168083,7 +168083,7 @@ window.QUIZ_DATA = [
         "text": "Medial collateral ligament rupture",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "무릎 30도 굴곡 상태에서 외반 부하 검사(valgus stress test) 시 내측 관절면의 벌어짐과 동통을 유발하여 평가합니다."
+        "reason": "무릎 30도 굴곡 상태에서 외반 부하 검사(Valgus stress test) 시 내측 관절 간격의 벌어짐과 통증을 유발하여 평가합니다."
       },
       {
         "opt_idx": 3,
@@ -168091,7 +168091,7 @@ window.QUIZ_DATA = [
         "text": "Lateral collateral ligament rupture",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "무릎 30도 굴곡 상태에서 내반 부하 검사(varus stress test) 시 외측 관절 간격의 이개와 국소 통증을 확인합니다."
+        "reason": "무릎 30도 굴곡 상태에서 내반 부하 검사(Varus stress test) 시 외측 관절 간격의 벌어짐과 통증을 확인합니다."
       },
       {
         "opt_idx": 4,
@@ -168099,10 +168099,10 @@ window.QUIZ_DATA = [
         "text": "Anterolateral ligament rupture",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "전방십자인대 손상에 동반되는 전외측 회전 불안정성을 일으키는 구조물로 피벗 시프트 검사(pivot shift test)에서 정복음이 유발됩니다."
+        "reason": "전방십자인대 손상에 동반되는 회전 불안정성 구조물로 피벗 시프트 검사(Pivot shift test)에서 아탈구 정복음이 유발됩니다."
       }
     ],
-    "answer": "① Anterior cruciate ligament rupture"
+    "answer": "② Posterior cruciate ligament rupture"
   },
   {
     "id": "정형외과_26Y_Q55",
@@ -173448,8 +173448,8 @@ window.QUIZ_DATA = [
     "year": "23Y",
     "q_num": 37,
     "category": "짤",
-    "theme_title": "드퀘르벵 건초염(De Quervain Disease)의 핑켈스타인 검사(Finkelstein Test)",
-    "subspecialty": "수부 질환",
+    "theme_title": "후방십자인대(PCL) 파열의 이학적 검사(Posterior Drawer Test / Sag Sign)",
+    "subspecialty": "슬관절 질환",
     "stem": "20세 여자가 우측 슬관절 통증을 호소하여 병원을 방문 하였다. 다음 그림과 같은 검사를 시행하여 양성 판정을 받았다. 여성은 어떤 증상을 앓고 있는가?",
     "images": [
       "images/정형외과/23Y_Q37_fig1.png",
@@ -173462,31 +173462,31 @@ window.QUIZ_DATA = [
       "④ Lateral collateral ligament rupture",
       "⑤ Anterolateral ligament rupture"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Anterior cruciate ligament rupture",
+    "correct_option_index": 1,
+    "correct_answer": "② Posterior cruciate ligament rupture",
     "explanation": {
-      "title": "드퀘르벵 건초염(De Quervain Disease)의 핑켈스타인 검사(Finkelstein Test)",
-      "findings": "20세 여성 무릎 손상 후 락만(Lachman) 검사 양성 → 전방십자인대 파열(ACL rupture)",
-      "differential": "• ① Anterior cruciate ligament rupture ✓ [정답]: 무릎 20~30도 굴곡 상태에서 경골을 전방 견인 시 연발성(soft endpoint)과 전방 이동을 보이는 락만 검사 양성으로 확진됩니다\n• ② Posterior cruciate ligament rupture ✗ [오답]: 무릎 90도 굴곡 상태에서 경골을 후방으로 밀어 전위를 확인하는 후방 전위 검사나 후방 처짐 징후(posterior sag sign)로 진단합니다.\n• ③ Medial collateral ligament rupture ✗ [오답]: 무릎 30도 굴곡 상태에서 외반 부하 검사(valgus stress test) 시 내측 관절면의 벌어짐과 동통을 유발하여 평가합니다.\n• ④ Lateral collateral ligament rupture ✗ [오답]: 무릎 30도 굴곡 상태에서 내반 부하 검사(varus stress test) 시 외측 관절 간격의 이개와 국소 통증을 확인합니다.\n• ⑤ Anterolateral ligament rupture ✗ [오답]: 전방십자인대 손상에 동반되는 전외측 회전 불안정성을 일으키는 구조물로 피벗 시프트 검사(pivot shift test)에서 정복음이 유발됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n23Y-37: 동일한 이학적 검사(Lachman test) 사진과 선지로 출제되어 정답은 ①(ACL rupture).",
+      "title": "후방십자인대(PCL) 파열의 이학적 검사(Posterior Drawer Test / Sag Sign)",
+      "findings": "20세 여성 무릎 손상 후 후방 전위 검사(Posterior drawer test) / 후방 처짐(Sag sign) 양성 → 후방십자인대 파열(PCL rupture)",
+      "differential": "• ① Anterior cruciate ligament rupture ✗ [오답]: 무릎 20~30도 굴곡 상태에서 경골을 전방 견인하는 락만(Lachman) 검사나 전방 전위 검사에서 양성을 보입니다.\n• ② Posterior cruciate ligament rupture ✓ [정답]: 무릎을 90도 굴곡한 상태에서 경골 근위부를 후방으로 밀었을 때 비정상적인 후방 전위가 관찰되는 후방 전위 검사(Posterior drawer test)나 후방 처짐 징후(Posterior sag sign) 양성으로 진단합니다.\n• ③ Medial collateral ligament rupture ✗ [오답]: 무릎 30도 굴곡 상태에서 외반 부하 검사(Valgus stress test) 시 내측 관절 간격의 벌어짐과 통증을 유발하여 평가합니다.\n• ④ Lateral collateral ligament rupture ✗ [오답]: 무릎 30도 굴곡 상태에서 내반 부하 검사(Varus stress test) 시 외측 관절 간격의 벌어짐과 통증을 확인합니다.\n• ⑤ Anterolateral ligament rupture ✗ [오답]: 전방십자인대 손상에 동반되는 회전 불안정성 구조물로 피벗 시프트 검사(Pivot shift test)에서 아탈구 정복음이 유발됩니다.",
       "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "【드퀘르벵 건초염(De Quervain Disease)의 핑켈스타인 검사(Finkelstein Test) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 20세 여성 무릎 손상 후 락만(Lachman) 검사 양성 → 전방십자인대 파열(ACL rupture).\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① Anterior cruciate ligament rupture.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
+      "trigger": "【후방십자인대(PCL) 파열 핵심 가이드라인】\n• 진단 핵심: 슬관절 90도 굴곡 상태에서 경골의 후방 전위(Posterior drawer test) 및 후방 처짐(Posterior sag sign, Godfrey test).\n• 치료: 단독 불완전 파열은 보존적 치료(신전 석고/보조기, 대퇴사두근 강화), 8~10mm 이상 전위 또는 복합 인대 파열 시 재건술.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
           "text": "Anterior cruciate ligament rupture",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "무릎 20~30도 굴곡 상태에서 경골을 전방 견인 시 연발성(soft endpoint)과 전방 이동을 보이는 락만 검사 양성으로 확진됩니다"
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "무릎 20~30도 굴곡 상태에서 경골을 전방 견인하는 락만(Lachman) 검사나 전방 전위 검사에서 양성을 보입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
           "text": "Posterior cruciate ligament rupture",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "무릎 90도 굴곡 상태에서 경골을 후방으로 밀어 전위를 확인하는 후방 전위 검사나 후방 처짐 징후(posterior sag sign)로 진단합니다."
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "무릎을 90도 굴곡한 상태에서 경골 근위부를 후방으로 밀었을 때 비정상적인 후방 전위가 관찰되는 후방 전위 검사(Posterior drawer test)나 후방 처짐 징후(Posterior sag sign) 양성으로 진단합니다."
         },
         {
           "opt_idx": 2,
@@ -173494,7 +173494,7 @@ window.QUIZ_DATA = [
           "text": "Medial collateral ligament rupture",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "무릎 30도 굴곡 상태에서 외반 부하 검사(valgus stress test) 시 내측 관절면의 벌어짐과 동통을 유발하여 평가합니다."
+          "reason": "무릎 30도 굴곡 상태에서 외반 부하 검사(Valgus stress test) 시 내측 관절 간격의 벌어짐과 통증을 유발하여 평가합니다."
         },
         {
           "opt_idx": 3,
@@ -173502,7 +173502,7 @@ window.QUIZ_DATA = [
           "text": "Lateral collateral ligament rupture",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "무릎 30도 굴곡 상태에서 내반 부하 검사(varus stress test) 시 외측 관절 간격의 이개와 국소 통증을 확인합니다."
+          "reason": "무릎 30도 굴곡 상태에서 내반 부하 검사(Varus stress test) 시 외측 관절 간격의 벌어짐과 통증을 확인합니다."
         },
         {
           "opt_idx": 4,
@@ -173510,17 +173510,17 @@ window.QUIZ_DATA = [
           "text": "Anterolateral ligament rupture",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "전방십자인대 손상에 동반되는 전외측 회전 불안정성을 일으키는 구조물로 피벗 시프트 검사(pivot shift test)에서 정복음이 유발됩니다."
+          "reason": "전방십자인대 손상에 동반되는 회전 불안정성 구조물로 피벗 시프트 검사(Pivot shift test)에서 아탈구 정복음이 유발됩니다."
         }
       ],
-      "differential_general": "23Y-37: 동일한 이학적 검사(Lachman test) 사진과 선지로 출제되어 정답은 ①(ACL rupture).",
-      "theme_title": "드퀘르벵 건초염(De Quervain Disease)의 핑켈스타인 검사(Finkelstein Test)",
-      "subspecialty": "수부 질환"
+      "differential_general": "26Y-54 / 23Y-37: 동일한 후방 전위 검사 소견으로 출제되어 정답은 ②(PCL rupture).",
+      "theme_title": "후방십자인대(PCL) 파열의 이학적 검사(Posterior Drawer Test / Sag Sign)",
+      "subspecialty": "슬관절 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 2,
     "rate": 33,
@@ -173538,17 +173538,17 @@ window.QUIZ_DATA = [
         "opt_idx": 0,
         "opt_num": "①",
         "text": "Anterior cruciate ligament rupture",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "무릎 20~30도 굴곡 상태에서 경골을 전방 견인 시 연발성(soft endpoint)과 전방 이동을 보이는 락만 검사 양성으로 확진됩니다"
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "무릎 20~30도 굴곡 상태에서 경골을 전방 견인하는 락만(Lachman) 검사나 전방 전위 검사에서 양성을 보입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
         "text": "Posterior cruciate ligament rupture",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "무릎 90도 굴곡 상태에서 경골을 후방으로 밀어 전위를 확인하는 후방 전위 검사나 후방 처짐 징후(posterior sag sign)로 진단합니다."
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "무릎을 90도 굴곡한 상태에서 경골 근위부를 후방으로 밀었을 때 비정상적인 후방 전위가 관찰되는 후방 전위 검사(Posterior drawer test)나 후방 처짐 징후(Posterior sag sign) 양성으로 진단합니다."
       },
       {
         "opt_idx": 2,
@@ -173556,7 +173556,7 @@ window.QUIZ_DATA = [
         "text": "Medial collateral ligament rupture",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "무릎 30도 굴곡 상태에서 외반 부하 검사(valgus stress test) 시 내측 관절면의 벌어짐과 동통을 유발하여 평가합니다."
+        "reason": "무릎 30도 굴곡 상태에서 외반 부하 검사(Valgus stress test) 시 내측 관절 간격의 벌어짐과 통증을 유발하여 평가합니다."
       },
       {
         "opt_idx": 3,
@@ -173564,7 +173564,7 @@ window.QUIZ_DATA = [
         "text": "Lateral collateral ligament rupture",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "무릎 30도 굴곡 상태에서 내반 부하 검사(varus stress test) 시 외측 관절 간격의 이개와 국소 통증을 확인합니다."
+        "reason": "무릎 30도 굴곡 상태에서 내반 부하 검사(Varus stress test) 시 외측 관절 간격의 벌어짐과 통증을 확인합니다."
       },
       {
         "opt_idx": 4,
@@ -173572,10 +173572,10 @@ window.QUIZ_DATA = [
         "text": "Anterolateral ligament rupture",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "전방십자인대 손상에 동반되는 전외측 회전 불안정성을 일으키는 구조물로 피벗 시프트 검사(pivot shift test)에서 정복음이 유발됩니다."
+        "reason": "전방십자인대 손상에 동반되는 회전 불안정성 구조물로 피벗 시프트 검사(Pivot shift test)에서 아탈구 정복음이 유발됩니다."
       }
     ],
-    "answer": "① Anterior cruciate ligament rupture"
+    "answer": "② Posterior cruciate ligament rupture"
   },
   {
     "id": "정형외과_23Y_Q38",
