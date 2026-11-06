@@ -2873,6 +2873,22 @@
         btn.classList.add('is-neutral');
       }
 
+      // Show post label for image options upon answer reveal
+      if (q.is_image_options) {
+        let postLabel = btn.querySelector('.image-opt-post-label');
+        if (!postLabel) {
+          const optExps = q.option_explanations || (q.explanation && q.explanation.option_explanations);
+          const expItem = optExps && optExps.find(item => (item.opt_idx !== undefined ? item.opt_idx : -1) === origIdx);
+          const labelText = (q.option_labels_post && q.option_labels_post[origIdx]) || (expItem && expItem.text) || '';
+          if (labelText) {
+            postLabel = document.createElement('div');
+            postLabel.className = 'image-opt-post-label';
+            postLabel.textContent = labelText;
+            btn.appendChild(postLabel);
+          }
+        }
+      }
+
       // End of option button setup
     });
 

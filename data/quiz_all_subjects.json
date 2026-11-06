@@ -167438,8 +167438,8 @@
     "year": "26Y",
     "q_num": 50,
     "category": "짤",
-    "theme_title": "당뇨발(Diabetic Foot) 감염의 말초동맥 평가 및 혈당 조절",
-    "subspecialty": "족부 질환",
+    "theme_title": "슬관절 내 관절액 삼출 평가를 위한 무릎뼈 쓸림 검사(Ballottement test)",
+    "subspecialty": "슬관절 질환",
     "stem": "다음 중 슬관절 내 활액 양을 판별하기 위한 신체진찰로 옳은 것은?",
     "images": [
       "images/정형외과/26Y_Q50_fig1.png",
@@ -167449,14 +167449,14 @@
       "images/정형외과/26Y_Q50_fig5.png"
     ],
     "options": [
-      "① 무릎뼈 부유/쓸림 검사 (Patellar tap test / Ballottement test)",
-      "② 라크만 검사 (Lachman test)",
-      "③ 전방 전위 검사 (Anterior drawer test)",
-      "④ 맥머레이 검사 (McMurray test)",
-      "⑤ 회전 편위 검사 (Pivot shift test)"
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 무릎뼈 부유/쓸림 검사 (Patellar tap test / Ballottement test)",
+    "correct_answer": "①",
     "explanation": {
       "findings": "• [슬관절 신체진찰 핵심]:\n  슬관절 내 관절액(Joint effusion)의 존재 및 저류량을 확인하는 대표적인 신체진찰은 **무릎뼈 쓸림/부유 검사(Patellar tap test / Ballottement test)**와   소량의 삼출액을 확인하는 융기 징후(Bulge sign)입니다.",
       "differential": "• ① 무릎뼈 부유/쓸림 검사 (Patellar tap test / Ballottement test) ✓ [정답]: 슬개골 상낭을 아래로 쓸어내려 삼출액을 모은 뒤 슬개골을 눌러 대퇴골에 닿았다가 덜컹거리며 튀어오르는 부유감으로 관절액 저류(effusion)를 판정합니다\n• ② 라크만 검사 (Lachman test) ✗ [오답]: 무릎을 20~30도 굴곡하고 대퇴골을 고정한 채 경골을 전방 견인하여 전방십자인대(ACL) 파열에 따른 전방 전위와 종말점 소실을 평가하는 가장 민감한 검사입니다.\n• ③ 전방 전위 검사 (Anterior drawer test) ✗ [오답]: 무릎을 90도 굴곡하고 발을 고정한 뒤 경골 근위부를 양손으로 전방 견인하여 전방십자인대의 전방 안정성을 평가합니다.\n• ④ 맥머레이 검사 (McMurray test) ✗ [오답]: 무릎을 최대로 굴곡한 상태에서 경골을 내회전 또는 외회전하면서 신전시켜 반월연골판(meniscus) 파열 시 통증과 딸깍거림(click)을 유발하는 검사입니다.\n• ⑤ 회전 편위 검사 (Pivot shift test) ✗ [오답]: 무릎 신전 상태에서 외반력과 내회전력을 가하며 굴곡시킬 때 아탈구된 경골이 갑자기 정복되는 전방십자인대 파열의 회전 불안정성을 확인하는 검사입니다.\n\n【핵심 감별 및 임상 가이드라인】\n23Y-38: 동일 문항으로 출제되어 정답은 동일하게 무릎뼈 부유/쓸림 검사.",
@@ -167507,8 +167507,8 @@
       "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
       "trigger": "【당뇨발(Diabetic Foot) 감염의 말초동맥 평가 및 혈당 조절 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: • [슬관절 신체진찰 핵심]:\n  슬관절 내 관절액(Joint effusion)의 존재 및 저류량을 확인하는 대표적인 신체진찰은 **무릎뼈 쓸림/부유 검사(Pat.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 무릎뼈 부유/쓸림 검사 (Patellar tap test / Ballottement test).\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
-      "theme_title": "당뇨발(Diabetic Foot) 감염의 말초동맥 평가 및 혈당 조절",
-      "subspecialty": "족부 질환"
+      "theme_title": "슬관절 내 관절액 삼출 평가를 위한 무릎뼈 쓸림 검사(Ballottement test)",
+      "subspecialty": "슬관절 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -167567,7 +167567,15 @@
         "reason": "무릎 신전 상태에서 외반력과 내회전력을 가하며 굴곡시킬 때 아탈구된 경골이 갑자기 정복되는 전방십자인대 파열의 회전 불안정성을 확인하는 검사입니다."
       }
     ],
-    "answer": "① 무릎뼈 부유/쓸림 검사 (Patellar tap test / Ballottement test)"
+    "answer": "①",
+    "is_image_options": true,
+    "option_images": [
+      "images/정형외과/26Y_Q50_fig1.png",
+      "images/정형외과/26Y_Q50_fig2.png",
+      "images/정형외과/26Y_Q50_fig3.png",
+      "images/정형외과/26Y_Q50_fig4.png",
+      "images/정형외과/26Y_Q50_fig5.png"
+    ]
   },
   {
     "id": "정형외과_26Y_Q51",
