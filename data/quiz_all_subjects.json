@@ -85497,35 +85497,33 @@
     "year": "22Y",
     "q_num": 4,
     "category": "짤",
-    "theme_title": "영아기 아토피 피부염(Atopic Dermatitis)의 표준 국소 치료 (국소 스테로이드)",
+    "theme_title": "소아 아토피 피부염(Atopic Dermatitis)의 불량 예후 인자",
     "subspecialty": "소아알레르기학",
-    "stem": "(2022 임종평 4 차 한양대) 6 개월 된 남아가 8 주 이상 지속되는 심한 가려움증과 홍반, 인설을 동반한 습진성 피부질환을 주소로 왔다. 병변은 아래 사진과 같이 볼과 발목, 발등쪽에 있었으며 심하게 긁어 딱지가 생겨 있었다. 혈액검사결과는 다음과 같았다. 다음 중 나쁜 예후인자에 해당되는 환자의 상태는? 호산구 1000/mm3 혈청 IgE 45IU/ml (소아 1 세 미만 정상 수치 ~15IU/ml) 남아",
+    "stem": "(2022 임종평 4 차 한양대) 6 개월 된 남아가 8 주 이상 지속되는 심한 가려움증과 홍반, 인설을 동반한 습진성 피부질환을 주소로 왔다. 병변은 아래 사진과 같이 볼과 발목, 발등쪽에 있었으며 심하게 긁어 딱지가 생겨 있었다. 혈액검사결과는 다음과 같았다. 다음 중 나쁜 예후인자에 해당되는 환자의 상태는?\n- 호산구 1,000/mm3\n- 혈청 IgE 45 IU/ml (소아 1 세 미만 정상 수치 ~15 IU/ml)",
     "images": [
       "images/소아청소년과/22Y_Q04_fig1.png",
       "images/소아청소년과/22Y_Q04_fig2.png"
     ],
     "options": [
-      "개월",
-      "혈청 IgE 상승",
-      "습진성 피부병변",
-      "주이상 지속병변"
+      "① 남아",
+      "② 6 개월",
+      "③ 혈청 IgE 상승",
+      "④ 습진성 피부병변",
+      "⑤ 6 주이상 지속병변"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① 국소 부신피질스테로이드",
+    "correct_option_index": 2,
+    "correct_answer": "③ 혈청 IgE 상승",
     "explanation": {
-      "title": "영아기 아토피 피부염(Atopic Dermatitis)의 표준 국소 치료 (국소 스테로이드)",
-      "findings": "6개월 영아 볼과 사지 폄측의 심한 습진성 병변(아토피 피부염) → 급성기 염증 완화를 위한 1차 국소 치료는 국소 부신피질스테로이드",
-      "differential": "① 국소 부신피질스테로이드 — 영아기 아토피 피부염의 급성 악화기 병변에서 염증과 가려움증을 신속히 가라앉히기 위한 1차 표준 치료제이며, 얼굴은 약한 강도 제제를 선택합니다 → 정답.\n② 국소 면역조절제(칼시뉴린 억제제) — 타크로리무스나 피메크로리무스는 스테로이드 부작용이 우려되는 부위의 2차 치료제이나 안전성 문제로 만 2세 이상에서만 승인되어 있습니다.\n③ 국소 항생제 — 삼출물이나 가피가 심해 2차 세균 감염(농가진 등)이 합병된 경우에 한해 제한적으로 도포하며, 단순 아토피 피부염 자체를 호전시키지 못합니다.\n④ 경구 항히스타민제 — 수면을 방해하는 심한 가려움증을 완화하는 보조 약제일 뿐이며, 피부의 습진성 염증 병변을 직접 가라앉히는 국소 치료제가 아닙니다.",
-      "trap": "• [함정 및 주의 포인트]: 스테로이드 공포증으로 보습제만 바르며 염증을 방치하면 피부 장벽 손상이 심화되므로, 급성 염증기에는 저강도 국소 스테로이드를 적절히 사용하여 염증을 신속히 가라앉혀야 합니다.",
-      "trigger": "【소아 아토피 피부염 급성기 치료 가이드라인】\n• 급성기 항염증 1차 치료제:\n  - '국소 저강도 부신피질스테로이드(Low-potency Topical Corticosteroid: Hydrocortisone 등)' 외용제 도포.\n• 기본 피부 관리:\n  - 미온수 목욕 후 3분 이내 보습제(Moisturizer) 전신 도포 (하루 최소 2~3회).\n  - 가려움 완화를 위한 2세대 항히스타민제 경구 투여.\n  - 2차 세균 감염(농가진) 의심 시 국소/전신 항생제 병용.",
-      "kmle_link": "KMLE 소아청소년과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [],
-      "differential_general": ""
+      "title": "소아 아토피 피부염(Atopic Dermatitis)의 임상 경과 및 불량 예후 인자",
+      "findings": "6개월 남아 볼과 사지의 심한 습진성 병변 및 혈청 IgE 45 IU/mL(1세 미만 정상치 ~15의 3배 상승) → 환자가 가진 소견 중 아토피 피부염의 불량한 예후 인자는 '혈청 IgE 상승'",
+      "differential": "• ① 남아 ✗ [오답]: 아토피 피부염의 발생 빈도는 남아가 약간 높으나, 성인기까지 만성화되는 '불량한 예후'의 독립적 위험 인자는 '여아(Female)'입니다.\n• ② 6 개월 ✗ [오답]: 생후 6개월경 발병은 영아기 아토피 피부염의 전형적인 호발 시기(생후 2~3개월 이후)이며, 환아 연령 자체가 독립적 불량 예후 인자가 아닙니다.\n• ③ 혈청 IgE 상승 ✓ [정답]: 혈청 총 IgE치의 현저한 상승(High serum IgE level)은 아토피 피부염이 성인기까지 지속되거나 알레르기 행진(천식, 비염)으로 진행함을 시사하는 대표적인 불량 예후 인자입니다. 본 환아는 혈청 IgE 45 IU/mL로 영아 정상 상한치(15 IU/mL)의 3배에 달합니다.\n• ④ 습진성 피부병변 ✗ [오답]: 습진성 병변은 아토피 피부염 진단의 필수 기본 소견일 뿐 나쁜 예후를 예견하는 지표가 아닙니다.\n• ⑤ 6 주이상 지속병변 ✗ [오답]: 6주 이상 지속되는 만성/재발성 피부염은 아토피 피부염 진단 기준의 주소견(Major criteria)에 해당하며, 예후 판정 항목이 아닙니다.",
+      "trap": "• [함정 및 주의 포인트]: 아토피 피부염의 '진단 기준'과 '치료제(국소 스테로이드)'가 아닌, '환자의 상태 중 불량한 예후 인자'를 묻는 문제입니다. 혈액검사에서 정상의 3배로 뚜렷하게 상승한 '혈청 IgE 상승'이 정답입니다.",
+      "trigger": "【아토피 피부염 불량 예후 인자 핵심 공식】\n• 광범위하고 심한 피부염 (Extensive disease)\n• 알레르기 비염 또는 천식의 동반 (Allergic march)\n• 아토피 질환의 가족력\n• 여성 (Female sex)\n• 매우 높은 혈청 IgE 수치 (Very high serum IgE level)"
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 2,
     "rate": 33,
@@ -85546,31 +85544,28 @@
     "year": "22Y",
     "q_num": 5,
     "category": "짤",
-    "theme_title": "결절성 경화증 (Tuberous Sclerosis Complex, TSC)의 신경피부 증후",
+    "theme_title": "신경섬유종증 1형(Neurofibromatosis type 1)의 원인 유전자",
     "subspecialty": "소아신경학 & 유전학",
-    "stem": "(본1 신경Y) 5 세 여아 발달이 느린 것과 피부질환, 뇌전증으로 내원하였다. 전신에 1.5- 3cm 의 피부반점들이 있었고 어머니에게도 똑같은 병변들이 관찰 되었다. 다음은 피부반점, 무릎x-ray, MRI 사진이다. 다음과 같은 소견을 보이는 질환에서 나타나는 유전자 이상으로 옳은 것은? NF1 유전자 돌연변이",
+    "stem": "(본 1 신경 Y) 5 세 여아 발달이 느린 것과 피부질환, 뇌전증으로 내원하였다. 전신에 1.5-3cm 의 피부반점들이 있었고 어머니에게도 똑같은 병변들이 관찰 되었다. 다음은 피부반점, 무릎 x-ray, MRI 사진이다. 다음과 같은 소견을 보이는 질환에서 나타나는 유전자 이상으로 옳은 것은?",
     "images": [
       "images/소아청소년과/22Y_Q05_fig1.png",
       "images/소아청소년과/22Y_Q05_fig2.png",
       "images/소아청소년과/22Y_Q05_fig3.png"
     ],
     "options": [
-      "NF2 유전자 돌연변이",
-      "TSC1 유전자 돌연변이",
-      "TSC2 유전자 돌연변이",
-      "APLD1 유전자 돌연변이"
+      "① NF1 유전자 돌연변이",
+      "② NF2 유전자 돌연변이",
+      "③ TSC1 유전자 돌연변이",
+      "④ TSC2 유전자 돌연변이",
+      "⑤ APLD1 유전자 돌연변이"
     ],
     "correct_option_index": 0,
-    "correct_answer": "[23Y Q45 & 22Y Q05] 결절성 경화증 (Tuberous sclerosis) / 잎사귀모양 저색소반점 (Ash-leaf spot)",
+    "correct_answer": "① NF1 유전자 돌연변이",
     "explanation": {
-      "title": "결절성 경화증 (Tuberous Sclerosis Complex, TSC)의 신경피부 증후",
-      "findings": "밀크커피반점, 하지 엑스선상 경골 굽음/가관절증, 뇌 MRI상 시신경교종 → 신경섬유종증 1형(NF1) → NF1 유전자 돌연변이",
-      "differential": "① NF1 유전자 돌연변이 — 17q11.2의 NF1(Neurofibromin) 변이로 밀크커피반점, 신경섬유종, 시신경교종, 접형골 이형성/경골 가관절증을 보입니다 → 정답.\n② NF2 유전자 돌연변이 — 22q12의 NF2(Merlin) 변이로 양측 전정신경초종(청신경초종), 수막종, 연소형 후낭하 백내장 등을 유발합니다.\n③ TSC1 유전자 돌연변이 — 9q34의 Hamartin 결함으로 결절성 경화증을 일으키며 잎사귀모양 탈색반점, 피지선종, 심장 횡문근종이 동반됩니다.\n④ TSC2 유전자 돌연변이 — 16p13의 Tuberin 결함으로 결절성 경화증을 일으키며 피질 결절, 뇌실하 거대세포 성상세포종, 신장 혈관근지방종이 나타납니다.\n⑤ APLD1 유전자 돌연변이 — 백질이영양증 또는 기타 선천성 대사질환 관련 유전자로 신경피부증후군 소견과 직접 일치하지 않습니다.",
-      "trap": "• [함정 및 주의 포인트]: 발달 지연과 뇌전증을 보이는 환아의 피부에서 하얀 탈색반점(Ash leaf spot)이 관찰되면 결절성 경화증을 강력히 의심해야 합니다.",
-      "trigger": "【결절성 경화증(TSC) 진단 공식】\n• 유전학: 상염색체 우성(AD), TSC1 또는 TSC2 유전자 돌연변이.\n• 3대 주증상:\n  1. 뇌전증 (특히 영아 연축 West syndrome 호발).\n  2. 지능 저하 (Intellectual disability).\n  3. 안면 피지선종 (Adenoma sebaceum / Angiofibroma).\n• 피부 소견:\n  - 잎사귀 모양 저색소반점 (Ash-leaf spot): Wood 등 검사에서 선명하게 관찰.\n  - 샤그린 반점 (Shagreen patch), 손발톱 주변 섬유종 (Koenen tumor).\n• 동반 종양: 심장 횡문근종, 신장 혈관근지방종, 뇌실막하 거대세포 성상세포종.",
-      "kmle_link": "KMLE 소아청소년과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [],
-      "differential_general": ""
+      "title": "신경섬유종증 1형(NF1)의 임상 특징 및 원인 유전자",
+      "findings": "5세 여아 전신 밀크커피색 반점(1.5~3cm) 다발, 뇌전증, 발달 지연 및 어머니의 동일 피부 소견(상염색체 우성) → 신경섬유종증 1형(NF1)",
+      "differential": "• ① NF1 유전자 돌연변이 ✓ [정답]: 17번 염색체(17q11.2)에 위치한 NF1 유전자(neurofibromin 단백 암호화) 결함으로 발생하는 상염색체 우성 신경피부질환입니다 → 정답.\n• ② NF2 유전자 돌연변이 ✗ [오답]: 22번 염색체(22q12) merlin 단백 결함으로 양측 전정신경초종이 특징입니다.\n• ③ TSC1 / ④ TSC2 ✗ [오답]: 결절성 경화증(Tuberous sclerosis)의 원인 유전자(hamartin, tuberin)입니다.",
+      "trap": "• [주의]: 밀크커피색 반점 6개 이상 및 가족력은 NF1의 대표 기준입니다."
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -85598,15 +85593,16 @@
     "category": "짤",
     "theme_title": "급성 파종성 뇌척수염 (Acute Disseminated Encephalomyelitis, ADEM)",
     "subspecialty": "소아신경학",
-    "stem": "(본1 신경 Y) 5 세 남아가 상기도 감염이 있은지 며칠 뒤 경련, 두통, 구토를 호소했다. 다음은 촬영한 CT 사진이다. BP 110/80, BT 38.1, RR 20, HR 80. 진단명은? 급성파종 뇌척수염 (ADEM)",
+    "stem": "(본 1 신경 Y) 5 세 남아가 상기도 감염이 있은지 며칠 뒤 경련, 두통, 구토를 호소했다. 다음은 촬영한 CT 사진이다. BP 110/80, BT 38.1, RR 20, HR 80. 진단명은?",
     "images": [
       "images/소아청소년과/22Y_Q06_fig1.png",
       "images/소아청소년과/22Y_Q06_fig2.png"
     ],
     "options": [
-      "Sturge-Weber syndrome",
-      "Moyamoya disease",
-      "부신백색질장애"
+      "① 급성파종 뇌척수염 (ADEM)",
+      "② Sturge-Weber syndrome",
+      "③ Moyamoya disease",
+      "④ 부신백색질장애"
     ],
     "correct_option_index": 0,
     "correct_answer": "① 급성파종 뇌척수염 (ADEM)",
@@ -85773,17 +85769,17 @@
     "category": "반짤",
     "theme_title": "모유 영양의 생리학적 특성 및 조기 모유 황달의 관리",
     "subspecialty": "소아소화기영양학 & 신생아학",
-    "stem": "모유영양에 대한 설명으로 옳은 것은? 조기 모유 황달 시 모유수유를 중단하지",
+    "stem": "모유영양에 대한 설명으로 옳은 것은?",
     "images": [],
     "options": [
-      "않는다. 초유에는 평소 모유보다 더 많은 지방이",
-      "함유되어있다. 모유의 지방 함량은 우유보다 많다.",
-      "모유의 단백질은 주로 casein 이다.",
-      "완전 모유 수유시 신생아 시기에는 철분을",
-      "보충해줘야한다."
+      "① 조기 모유 황달 시 모유수유를 중단하지 않는다.",
+      "② 초유에는 평소 모유보다 더 많은 지방이 함유되어있다.",
+      "③ 모유의 지방 함량은 우유보다 많다.",
+      "④ 모유의 단백질은 주로 casein 이다.",
+      "⑤ 완전 모유 수유시 신생아 시기에는 철분을 보충해줘야한다."
     ],
     "correct_option_index": 0,
-    "correct_answer": "*조기 모유황달은 모유수유가 충분치 않아 발생",
+    "correct_answer": "① 조기 모유 황달 시 모유수유를 중단하지 않는다.",
     "explanation": {
       "title": "모유 영양의 생리학적 특성 및 조기 모유 황달의 관리",
       "findings": "• [모유 수유 및 황달 관리 원칙]:\n  1. 조기 모유 황달(Breastfeeding jaundice): 생후 첫 1주 이내에 모유 섭취량 부족, 탈수, 태변 배출 지연으로 장간순환이 증가하여 발생함. 치료의 핵심은 '모유 수유를 중단하는 것이 아니라, 하루 8~12회 이상 더 자주 먹여서 수분 섭취를 늘리고 장운동을 촉진'하는 것임.\n  2. 후기 모유 황달(Breast milk jaundice): 생후 1주 이후 발생. 빌리루빈이 과도하게 높을 때 1~2일간 일시 중단할 수 있음.\n• [모유 vs 우유 성분 비교]:\n  - 초유는 성숙유보다 단백질과 IgA는 많으나 지방과 당질 함량은 적음.\n  - 모유의 주요 단백질은 유청 단백질(Whey, 60~70%)이며, 우유는 카제인(Casein, 80%)임.\n  - 완전 모유 수유아의 철분 보충은 생후 4~6개월부터 시작함.",
@@ -85906,13 +85902,14 @@
     "category": "반짤",
     "theme_title": "특발성 조기 유방 발육증 (Premature Thelarche)의 감별진단",
     "subspecialty": "소아내분비학",
-    "stem": "7 세 여아 유방 발달로 내원. 뼈나이 7 세, 유방 태너 2 단계, 음모 태너 1 단계. 진단은? 정상 사춘기",
+    "stem": "7 세 여아 유방 발달로 내원. 뼈나이 7 세, 유방 태너 2 단계, 음모 태너 1 단계. 진단은?",
     "images": [],
     "options": [
-      "진성 성 조숙증",
-      "조기 음모 발생",
-      "조기 유방 발육",
-      "사춘기 지연"
+      "① 정상 사춘기",
+      "② 진성 성 조숙증",
+      "③ 조기 음모 발생",
+      "④ 조기 유방 발육",
+      "⑤ 사춘기 지연"
     ],
     "correct_option_index": 3,
     "correct_answer": "④ 조기 유방 발육",
@@ -86022,13 +86019,14 @@
     "category": "짤",
     "theme_title": "체질성 성장지연 (Constitutional Delay of Growth and Puberty)",
     "subspecialty": "소아내분비학",
-    "stem": "13 세 여아 키 작다고 내원했다. 키 10 백분위, 체중 10 백분위였으며 1 년에 6cm 컸다. 뼈연령은 10 세이고 Tanner stage 2 단계. 아버지 키 175cm, 어머니 키 160cm 이다. 아버지는 키가 고등학교 때 많이 컸다고 하였고 어머니는 초경 16 세였다. 진단은? 체질성 성장지연",
+    "stem": "13 세 여아 키 작다고 내원. 키 10 백분위수, 연간 6cm 씩 컸다. 뼈나이 10 세, 유방 태너 2 단계. 아버지 키 175cm, 어머니 키 160cm 이다. 아버지는 키가 고등학교 때 많이 컸다고 하였고 어머니는 초경 16 세였다. 진단은?",
     "images": [],
     "options": [
-      "터너증후군",
-      "쿠싱증후군",
-      "가족성 저신장",
-      "성장호르몬 결핍증"
+      "① 체질성 성장지연",
+      "② 터너증후군",
+      "③ 쿠싱증후군",
+      "④ 가족성 저신장",
+      "⑤ 성장호르몬 결핍증"
     ],
     "correct_option_index": 0,
     "correct_answer": "① 체질성 성장지연",
@@ -86588,15 +86586,16 @@
     "category": "짤",
     "theme_title": "소아 야경증 (Sleep Terror)의 임상 특징 및 비약물적 관리",
     "subspecialty": "소아신경학",
-    "stem": "6 세 남아가 밤에 자는 도중에 소리를 지르고 몸부림을 치며 일어난다. 일어난 후에는 호흡 가쁘고, 동공이 확산되며, 땀에 젖어 있었고, 밤의 상황을 기억하지 못했다. 진단은? 악몽",
+    "stem": "6 세 남아가 밤에 자는 도중에 소리를 지르고 몸부림을 치며 일어난다. 일어난 후에는 호흡 가쁘고, 동공이 확산되며, 땀에 젖어 있었고, 밤의 상황을 기억하지 못했다. 진단은?",
     "images": [],
     "options": [
-      "야경증",
-      "REM 수면이상",
-      "경련"
+      "① 악몽",
+      "② 야경증",
+      "③ REM 수면이상",
+      "④ 경련"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "[23Y Q43 & 22Y Q15] 야경증 (Sleep terror) / 수면 전반부 NREM 공포 발작 (아침에 기억 못함)",
+    "correct_option_index": 1,
+    "correct_answer": "② 야경증",
     "explanation": {
       "title": "소아 야경증 (Sleep Terror)의 임상 특징 및 비약물적 관리",
       "findings": "수면 중 비명과 몸부림, 빈맥·발한의 자율신경 항진, 아침에 기억 상실 → 야경증(Sleep terror)",
@@ -86610,7 +86609,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 2,
     "rate": 33,
@@ -87665,13 +87664,14 @@
     "category": "짤",
     "theme_title": "소아 병적 저신장 확진: 성장호르몬 결핍증(GHD) 자극검사",
     "subspecialty": "소아내분비학",
-    "stem": "7 세 남자 아이 키 작다고 내원했다. 키 117cm (1백분위수), 몸무게 20.4kg (10백분위수)였다. 1 년에 4cm 씩 컸다. 뼈연령은 5 세였다. 아버지 185cm, 어머니 162cm 이고 갑상선호르몬 기능검사 정상이었다. 다음 해야 할 검사는? 금식 후 성장호르몬 농도 측정",
+    "stem": "7 세 남자 아이 키 작다고 내원했다. 키 117cm (1백분위수), 몸무게 20.4kg (10백분위수)였다. 1 년에 4cm 씩 컸다. 뼈연령은 5 세였다. 아버지 185cm, 어머니 162cm 이고 갑상선호르몬 기능검사 정상이었다. 다음 해야 할 검사는?",
     "images": [],
     "options": [
-      "수면 중 성장호르몬 농도 측정",
-      "인슐린 투여 후 성장호르몬 농도 측정",
-      "금식 후 IGF-1 농도 측정",
-      "운동 후 IGF-1 농도 측정"
+      "① 금식 후 성장호르몬 농도 측정",
+      "② 수면 중 성장호르몬 농도 측정",
+      "③ 인슐린 투여 후 성장호르몬 농도 측정",
+      "④ 금식 후 IGF-1 농도 측정",
+      "⑤ 운동 후 IGF-1 농도 측정"
     ],
     "correct_option_index": 2,
     "correct_answer": "③ 인슐린 투여 후 성장호르몬 농도 측정",
@@ -87967,18 +87967,19 @@
     "category": "반짤",
     "theme_title": "신생아 호흡곤란증후군(RDS)의 기관 내 폐표면활성제 투여",
     "subspecialty": "신생아학",
-    "stem": "RDS 사진주고 치료는? (21 학년말 26 번 유사) Surfactant PO",
+    "stem": "재태연령 26 주 1500g 미숙아. 태어나자마자 끙끙 앓는 소리, 호흡곤란, 흉벽함몰. 다음 RDS 사진주고 치료는? (21 학년말 26 번 유사)",
     "images": [
       "images/소아청소년과/22Y_Q27_fig1.png"
     ],
     "options": [
-      "Surfactant IV",
-      "Surfactant 기관내",
-      "PO dexamethasone",
-      "IV dexamethasone"
+      "① Surfactant PO",
+      "② Surfactant IV",
+      "③ Surfactant 기관내",
+      "④ PO dexamethasone",
+      "⑤ IV dexamethasone"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "[23Y Q07 & 22Y Q27] 신생아 호흡곤란증후군 (RDS) / 폐표면활성제 (Surfactant) 투여",
+    "correct_option_index": 2,
+    "correct_answer": "③ Surfactant 기관내",
     "explanation": {
       "title": "신생아 호흡곤란증후군(RDS)의 기관 내 폐표면활성제 투여",
       "findings": "재태 26주 미숙아의 호흡곤란과 X선상 망상과립상 음영 → 호흡곤란증후군(RDS) → 기관 내 폐표면활성제 투여",
@@ -87992,7 +87993,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 2,
     "rate": 33,
@@ -88015,16 +88016,17 @@
     "category": "반짤",
     "theme_title": "영유아 호흡기계의 해부생리학적 특징 (기도 구조와 후두 복합체 하방 이동)",
     "subspecialty": "소아알레르기호흡기학",
-    "stem": "영유아 호흡기 특징으로 옳은 것? 상기도 안지름은 크고 후두개는 작다.",
+    "stem": "영유아 호흡기 특징으로 옳은 것?",
     "images": [],
     "options": [
-      "성인에 비해 점액샘 밀도가 낮아 분비가",
-      "적다 연골이 잘 발달되어있어 협착이 잘 안된다.",
-      "늑간근의 제 2 연축섬유 많아 지속적 호흡",
-      "에 유리하다. 2 세에 성인 호흡으로 전환된다."
+      "① 상기도 안지름은 크고 후두개는 작다.",
+      "② 성인에 비해 점액샘 밀도가 낮아 분비가 적다.",
+      "③ 연골이 잘 발달되어있어 협착이 잘 안된다.",
+      "④ 늑간근의 제 2 연축섬유 많아 지속적 호흡에 유리하다.",
+      "⑤ 2 세에 성인 호흡으로 전환된다."
     ],
-    "correct_option_index": 0,
-    "correct_answer": "*성장하면서 후두개, 설골, 후두 연골의 하방 이동, 혀의 후방 이동. 얼굴 골격의 상하 성장과 턱의 전후방 성장 등의 상기도 발달이 진행되어 2 세경에는 성인형 호흡 운동으로 전환된다.",
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 2 세에 성인 호흡으로 전환된다.",
     "explanation": {
       "title": "영유아 호흡기계의 해부생리학적 특징 (기도 구조와 후두 복합체 하방 이동)",
       "findings": "• [영유아 호흡기계의 생리적 발달 특징]:\n  1. 영아기에는 횡격막 호흡(복식 호흡)이 주를 이루며, 만 2세경 흉곽의 발달과 함께 성인형 흉복식 호흡 패턴으로 점진적 전환이 이루어짐.\n• [영유아 기도의 해부학적 취약점]:\n  - 기도의 직경이 좁아 Poiseuille 법칙에 의해 기도 반경이 조금만 좁아져도 저항이 4제곱에 반비례하여 급격히 증가함.\n  - 후두개가 상대적으로 크고 오메가(Ω) 모양으로 늘어져 있으며 혀가 상대적으로 커서 기도 폐쇄에 매우 취약함.\n  - 기도 연골이 부드럽고 지지력이 약해 흡기 시 허탈(Collapse)되기 쉬움.\n  - 늑간근의 피로 저항성 근섬유(제1형 연축섬유) 비율이 성인(50%)보다 현저히 낮아(약 20~25%) 쉽게 호흡근 피로에 빠짐.",
@@ -88071,7 +88073,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      4
     ],
     "freq_count": 3,
     "rate": 50,
@@ -88258,16 +88260,17 @@
     "category": "반짤",
     "theme_title": "소아 알레르기 비염(Allergic Rhinitis)의 1차 약제 (국소 비강 스테로이드 분무제)",
     "subspecialty": "소아알레르기호흡기학",
-    "stem": "(2022 4 차 임종평 한양대) 13 세 여아가 매년 환절기때마다 생기는 코가려움, 코막 힘, 재채기, 콧물, 훌쩍거림, 눈가려움 증상을 주소로 왔다. 어려서 아토피 피부염을 앓았으며 어머니가 어렸을 때 천식을 앓았었다고 한다. 혈액검사는 다음과 같았다. 내원시 콧물 재채기로 학교생활에 불편함이 있어 2 주간 치료 후 다시 병원에 오기로 하고 약을 처방 하였다. 2 주간 처방할 수 있는 치료제로 옳은 것은? 호산구1000/mm3, 혈청 IgE 570 IU/mL 비충혈 제거제 (Decongestant)",
+    "stem": "13 세 여아가 매년 봄마다 콧물, 재채기, 코막힘을 주소로 왔다. 어려서 아토피 피부염을 앓았으며 코안 점막이 창백하고 부어있었다. 2 주간 처방할 수 있는 치료제로 옳은 것은? 호산구 1000/mm3, 혈청 IgE 570 IU/mL",
     "images": [],
     "options": [
-      "스테로이드 국소 분무제 (nasal spray)",
-      "항생제",
-      "전신 스테로이드제",
-      "흡입 스테로이드제"
+      "① 비충혈 제거제 (Decongestant)",
+      "② 스테로이드 국소 분무제 (nasal spray)",
+      "③ 항생제",
+      "④ 전신 스테로이드제",
+      "⑤ 흡입 스테로이드제"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① 스테로이드 국소 분무제",
+    "correct_option_index": 1,
+    "correct_answer": "② 스테로이드 국소 분무제 (nasal spray)",
     "explanation": {
       "title": "소아 알레르기 비염(Allergic Rhinitis)의 1차 약제 (국소 비강 스테로이드 분무제)",
       "findings": "환절기 비염 증상(코막힘·재채기·가려움)+아토피 소인 → 코막힘 개선에 가장 효과적인 비강 내 국소 스테로이드 분무제",
@@ -88281,7 +88284,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 3,
     "rate": 50,
@@ -88433,16 +88436,17 @@
     "category": "반짤",
     "theme_title": "비대칭성 자궁 내 성장지연(Asymmetric IUGR)의 감별 (선천성 감염의 대칭성 특성)",
     "subspecialty": "신생아학",
-    "stem": "39 주 2400g 키 49cm, 머리둘레 34cm 으로 비대칭적으로 성장. 원인으로 흔하지 않은 것은? 선천성 풍진",
+    "stem": "39 주 2400g 키 49cm, 머리둘레 34cm 으로 비대칭적으로 성장. 원인으로 흔하지 않은 것은?",
     "images": [],
     "options": [
-      "산모의 만성적인 고혈압",
-      "산모의 만성적인 합병증을 동반한 당뇨",
-      "산모의 임신 말기 영양결핍",
-      "임신 중 전자간증 Calcium"
+      "① 선천성 풍진",
+      "② 산모의 만성적인 고혈압",
+      "③ 산모의 만성적인 합병증을 동반한 당뇨",
+      "④ 산모의 임신 말기 영양결핍",
+      "⑤ 임신 중 전자간증"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 선천성 풍진 (비대칭성 성장의 흔한 원인이 아님 -> 선천성 감염은 '대칭성' IUGR 유발)",
+    "correct_answer": "① 선천성 풍진",
     "explanation": {
       "title": "비대칭성 자궁 내 성장지연(Asymmetric IUGR)의 감별 (선천성 감염의 대칭성 특성)",
       "findings": "39주 만삭아 두위·신장 정상에 체중만 감소(비대칭성 IUGR) → 선천성 풍진은 '대칭성 IUGR'의 원인",
@@ -88483,16 +88487,17 @@
     "category": "반짤",
     "theme_title": "소아 급성 세기관지염 (Acute Bronchiolitis)의 원인 및 보존적 치료",
     "subspecialty": "소아알레르기호흡기학",
-    "stem": "8 개월 남아가 3 일전부터 발열, 콧물, 기침 있었고, 1 일전부터 전부터 기침이 심해 지면서 먹지 못하고 쳐졌다고 한다. 양쪽 가슴에 갈비사이 뒤당김이 있다. 가슴청진에서 날숨에서 쌕쌕거렸고, 심잡음은 없다. 치료는? WBC 14900, 호산구 700 였음. 에피네프린 흡입",
+    "stem": "8 개월 남아가 3 일전부터 발열, 콧물, 기침을 주소로 내원했다. 환아는 숨을 가쁘게 쉬었다. 양쪽 가슴에 갈비사이 뒤당김이 있다. 가슴청진에서 날숨에서 쌕쌕거렸고, 심잡음은 없다. 치료는? WBC 14900, 호산구 700 였음.",
     "images": [],
     "options": [
-      "수액보충",
-      "항생제 치료",
-      "스테로이드 정주",
-      "진정제 투여"
+      "① 에피네프린 흡입",
+      "② 수액보충",
+      "③ 항생제 치료",
+      "④ 스테로이드 정주",
+      "⑤ 진정제 투여"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "[23Y Q28 & 22Y Q33 & 21Y Q39] 급성 세기관지염 (Acute bronchiolitis, RSV) / 산소 및 수액 보존 치료",
+    "correct_option_index": 1,
+    "correct_answer": "② 수액보충",
     "explanation": {
       "title": "소아 급성 세기관지염 (Acute Bronchiolitis)의 원인 및 보존적 치료",
       "findings": "8개월 영아 상기도염 후 호기 천명·흉벽 함몰·수유 곤란 → 급성 세기관지염, 보존적 치료로 수액 보충 시행",
@@ -88506,7 +88511,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 3,
     "rate": 50,
@@ -88844,16 +88849,17 @@
     "category": "반짤",
     "theme_title": "소아 만성 기능성 복통 증후군 (Functional Abdominal Pain)의 특성",
     "subspecialty": "소아소화기병학",
-    "stem": "(19 연말Y 변형) 소아 만성 기능성 복통증후군에 대해 옳은 것은? 주로 상복부 통증을 호소한다.",
+    "stem": "(19 연말 Y 변형) 소아 만성 기능성 복통 증후군에 대해 옳은 것은?",
     "images": [],
     "options": [
-      "세 이전에 흔하다.",
-      "주로 식사 전에 아프다",
-      "일상생활 (학교 수업 등) 을 할 수 없을",
-      "정도로 아프지는 않다. 설사, 변비와 같이 동반되는 경우가 많다.."
+      "① 주로 상복부 통증을 호소한다.",
+      "② 6 세 이전에 흔하다.",
+      "③ 주로 식사 전에 아프다",
+      "④ 일상생활 (학교 수업 등) 을 할 수 없을 정도로 아프지는 않다.",
+      "⑤ 주로 6세 이후에 흔하다."
     ],
-    "correct_option_index": 3,
-    "correct_answer": "④ 주로 6세 이후에 흔하다.",
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 주로 6세 이후에 흔하다.",
     "explanation": {
       "title": "소아 만성 기능성 복통 증후군 (Functional Abdominal Pain)의 특성",
       "findings": "• [소아 기능성 복통의 임상 양상]:\n  1. 호발 연령: 만 4세 이상, 특히 6~12세 학령기 아동에서 가장 흔하게 발생함 (학업 스트레스, 환경 변화 등과 연관).\n  2. 통증의 부위: 대부분 배꼽 주위(Periumbilical region)이며, 복통으로 인해 잠에서 깨어나지는 않음.\n  3. 경고 징후(Red flags, 기질적 질환 의심 소견): 5세 미만 발병, 야간 복통으로 깸, 지속적인 설사/구토, 체중 감소, 원위부(상복부/우하복부) 복통, 발열, 혈변.\n• [함정 및 주의 포인트]: 기능성 복통은 설사를 동반하지 않으며, 주로 배꼽 주위 통증이고, 4세 이전에는 드물고 6세 이후에 흔함.",
@@ -88900,7 +88906,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      3
+      4
     ],
     "freq_count": 4,
     "rate": 67,
@@ -89216,16 +89222,17 @@
     "category": "반짤",
     "theme_title": "재급식 증후군 (Refeeding Syndrome)과 급성 저인산혈증",
     "subspecialty": "소아영양대사학",
-    "stem": "(연말Y) 10 세 남아가 급성 췌장염 소견에 대한 치료로 일주일 넘게 금식하다가 배가 너무 고파하자 보호자가 몰래 간식을 사와 먹였다. 2 시간 후 환아의 양손에 tremor 가 나타났고 아이가 심한 복통, 구토를 호소했다. 다음 중 추적해야 하는 수치는? Calcium",
+    "stem": "(연말 Y) 10 세 남아가 급성 췌장염 소견에 대한 치료로 일주일 넘게 금식하다가 배가 너무 고파하자 보호자가 몰래 간식을 사와 먹였다. 2 시간 후 환아의 양손에 tremor 가 나타났고 아이가 심한 복통, 구토를 호소했다. 다음 중 추적해야 하는 수치는?",
     "images": [],
     "options": [
-      "Phosphorus",
-      "Ammonia",
-      "Chloride",
-      "Glucose"
+      "① Calcium",
+      "② Phosphorus",
+      "③ Ammonia",
+      "④ Chloride",
+      "⑤ Glucose"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "[23Y Q21 & 22Y Q40 & 21Y Q18] 재급식 증후군 (Refeeding syndrome) / 저인산혈증 (Hypophosphatemia)",
+    "correct_option_index": 1,
+    "correct_answer": "② Phosphorus",
     "explanation": {
       "title": "재급식 증후군 (Refeeding Syndrome)과 급성 저인산혈증",
       "findings": "장기 금식 후 급격한 음식 섭취 후 떨림·복통 발생 → 재급식 증후군(Refeeding syndrome) 의심, 혈청 인(Phosphorus) 추적",
@@ -89239,7 +89246,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 3,
     "rate": 50,
@@ -89986,11 +89993,17 @@
     "category": "반짤",
     "theme_title": "신생아 분만 소생술: 심박수 저하 시 양압환기(PPV) 우선 개시",
     "subspecialty": "신생아학 & 소생술",
-    "stem": "심박수 50, 호흡 느리고 불규칙, 사지는 약간 굴곡되어 있었고 피부는 청색이었다. 카테터 자극에 반응 없었다. 5 분 APGAR score 는? 1 ● 2 ● 3 ● 4 ● 5 ●",
+    "stem": "심박수 50, 호흡 느리고 불규칙, 사지는 약간 굴곡되어 있었고 피부는 청색이었다. 카테터 자극에 반응 없었다. 5 분 APGAR score 는?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "[23Y Q03 & 22Y Q47 & 22Y Q48] 양압환기 (Positive Pressure Ventilation, PPV)",
+    "options": [
+      "① 1점",
+      "② 2점",
+      "③ 3점",
+      "④ 4점",
+      "⑤ 5점"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 3점",
     "explanation": {
       "title": "신생아 분만 소생술: 심박수 저하 시 양압환기(PPV) 우선 개시",
       "findings": "신생아 생후 5분 심박 1점 + 피부색 1점 + 근긴장 1점 + 호흡 1점 + 반사 0점 → 5분 아프가 점수는 4점",
@@ -90004,7 +90017,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 4,
     "rate": 67,
@@ -90032,11 +90045,17 @@
     "category": "반짤",
     "theme_title": "신생아 5분 아프가 평가 및 호흡 억제 시 양압환기(PPV)",
     "subspecialty": "신생아학 & 소생술",
-    "stem": "신생아의 5 분 신체 검진 결과이다. 심박수 50, 호흡 느리고 불규칙, 사지는 축 늘어져있었고 피부는 전신이 청색, 카테터를 코에 넣었을 때 반응 없었다. 5 분 APGAR score 는? 1 ● 2 ● 3 ● 4 ● 5 ●",
+    "stem": "신생아의 5 분 신체 검진 결과이다. 심박수 50, 호흡 느리고 불규칙, 사지는 축 늘어져있었고 피부는 전신이 청색, 카테터를 코에 넣었을 때 반응 없었다. 5 분 APGAR score 는?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "[23Y Q03 & 22Y Q47 & 22Y Q48] 양압환기 (Positive Pressure Ventilation, PPV)",
+    "options": [
+      "① 1점",
+      "② 2점",
+      "③ 3점",
+      "④ 4점",
+      "⑤ 5점"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 2점",
     "explanation": {
       "title": "신생아 5분 아프가 평가 및 호흡 억제 시 양압환기(PPV)",
       "findings": "신생아 생후 5분 심박 1점 + 피부색 1점 + 근긴장 1점 + 호흡 1점 + 반사 0점 → 5분 아프가 점수는 4점",
@@ -90050,7 +90069,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 4,
     "rate": 67,
@@ -90078,11 +90097,17 @@
     "category": "짤",
     "theme_title": "초미숙아 분만 소생술 및 생후 1분 아프가 점수 (Apgar Score) 채점",
     "subspecialty": "신생아학 & 소생술",
-    "stem": "임신 27 주에 ROM, labor 있어 산모가 제왕절개를 했다. 생후 1 분에 심박수 50, 호흡 없고, 온몸이 창백했으며, 사지 늘어져 있고 카테터 자극에 반응 없었다. PPV 후 생후 5 분 심박수 110, 호흡 느리고 불규칙해졌다. 1 분 apgar score 는? 1 ● 2 ● 3 ● 4 ● 5 ●",
+    "stem": "임신 27 주에 ROM, labor 있어 산모가 제왕절개를 했다. 생후 1 분에 심박수 50, 호흡 없고, 온몸이 창백했으며, 사지 늘어져 있고 카테터 자극에 반응 없었다. PPV 후 생후 5 분 심박수 110, 호흡 느리고 불규칙해졌다. 1 분 apgar score 는?",
     "images": [],
-    "options": [],
+    "options": [
+      "① 1점",
+      "② 2점",
+      "③ 3점",
+      "④ 4점",
+      "⑤ 5점"
+    ],
     "correct_option_index": 0,
-    "correct_answer": "① 1",
+    "correct_answer": "① 1점",
     "explanation": {
       "title": "초미숙아 분만 소생술 및 생후 1분 아프가 점수 (Apgar Score) 채점",
       "findings": "생후 1분 심박수 50(1점) 외 호흡·근긴장·반사·피부색 모두 0점 → 1분 아프가 점수는 1점",
