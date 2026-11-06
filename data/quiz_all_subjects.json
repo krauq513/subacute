@@ -161247,7 +161247,9 @@
           "reason": "오구돌기에서 상완골로 이어져 상완골두의 하방 전위를 제어하는 인대로 견봉쇄골관절 손상과는 무관합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "견봉쇄골관절(AC Joint) 탈구와 오구쇄골인대(CC Ligament) 파열",
+      "subspecialty": "견관절 / 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -161367,7 +161369,9 @@
           "reason": "만성적인 기계적 충돌과 건병증이 진행하여 건 섬유의 일부가 찢어지는 역학적 손상 단계입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "견관절 통증 질환의 병인 기전 감별: 석회성 건염(Calcific Tendinitis)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -161497,7 +161501,9 @@
           "reason": "정중신경(요측수근굴근) 및 척골신경(척측수근굴근)이 주로 담당하며 요골신경 마비 평가와 무관합니다."
         }
       ],
-      "differential_general": "23Y-09: 야구공 던지다 골절된 증례로 동일하게 손목 신전이 출제됨."
+      "differential_general": "23Y-09: 야구공 던지다 골절된 증례로 동일하게 손목 신전이 출제됨.",
+      "theme_title": "상완골 간부 골절(Humerus Shaft Fracture) 합병증: 요골신경 마비와 손목 신전 불능",
+      "subspecialty": "상지 외상 / 신경손상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -161618,7 +161624,9 @@
           "reason": "관절면 부정유합으로 조기 외상성 관절염, 만성 통증, 손목 운동 제한이 불가피하므로 활동적인 환자에서 금기입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "원위 요골 골절(Colles Fracture)의 수술적 정복 및 금속판 고정술",
+      "subspecialty": "수부 및 완관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -161729,7 +161737,9 @@
           "reason": "적절한 봉합 없이 방치할 경우 만성 엄지 집기(pinch) 기능 상실, 만성 외반 관절 불안정성, 조기 외상성 관절염으로 비가역적 장애가 발생합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "스키어 엄지(Skier's Thumb)와 중수수지관절 척측측부인대(UCL) 봉합술",
+      "subspecialty": "수부 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -161849,7 +161859,9 @@
           "reason": "단무지외전근으로 정중신경의 지배를 받아 무지의 손바닥 직각 외전을 담당하며 수근관 증후군 시 위축됩니다."
         }
       ],
-      "differential_general": "20Y-15: 복기본에 Extensor pollicis brevis로 잘못 표기되었으나 방아쇠 수지의 병소는 A1 pulley가 맞음."
+      "differential_general": "20Y-15: 복기본에 Extensor pollicis brevis로 잘못 표기되었으나 방아쇠 수지의 병소는 A1 pulley가 맞음.",
+      "theme_title": "방아쇠 수지(Trigger Finger)의 병태생리: A1 활차(A1 Pulley) 건초염",
+      "subspecialty": "수부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -161974,7 +161986,9 @@
           "reason": "초기 손상 자체를 지칭하는 용어로, 탈구가 이미 성공적으로 정복된 이후에도 지속되는 1달 이상의 능동 외전 기능 장애를 설명하지 못합니다."
         }
       ],
-      "differential_general": "21Y-13/20Y-24: 동일 증례와 선지 구성으로 연속 출제된 빈출 문항."
+      "differential_general": "21Y-13/20Y-24: 동일 증례와 선지 구성으로 연속 출제된 빈출 문항.",
+      "theme_title": "견관절 전방 탈구 후 지속적 외전 제한: 회전근개 파열(Rotator Cuff Tear)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -162091,7 +162105,9 @@
           "reason": "상완이두근 장두 기시부와 상부 관절와순의 파열로 오버헤드 동작 시 통증이나 걸림이 주증상이며 전 방향 관절낭 구축을 보이지 않습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "유착성 관절낭염(오십견, Adhesive Capsulitis)의 능동 및 수동 운동 제한",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -162211,7 +162227,9 @@
           "reason": "척측수근굴근으로 내측 상과와 척골에서 기시하여 손목 굴곡 및 척측 편위를 담당하며 외측 상과염과 무관합니다."
         }
       ],
-      "differential_general": "23Y-05: 사진과 선지가 동일하게 출제되어 정답 Extensor carpi radialis brevis."
+      "differential_general": "23Y-05: 사진과 선지가 동일하게 출제되어 정답 Extensor carpi radialis brevis.",
+      "theme_title": "외측 상과염(테니스 엘보)과 단요측수근신근(ECRB) 기시부 손상",
+      "subspecialty": "주관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -162344,7 +162362,9 @@
           "reason": "상완골 외과경(surgical neck) 골절이나 견관절 전방 탈구 시 손상되며, 삼각근 마비로 인한 견관절 외전 장애와 어깨 외측 감각 저하를 초래합니다."
         }
       ],
-      "differential_general": "21Y-18: 복기본에 정답이 정중신경으로 오표기되어 있으나 손목 신전 불능 소견상 요골신경 손상이 맞음."
+      "differential_general": "21Y-18: 복기본에 정답이 정중신경으로 오표기되어 있으나 손목 신전 불능 소견상 요골신경 손상이 맞음.",
+      "theme_title": "상완골 원위 1/3 나선형 골절과 요골신경(Radial Nerve) 손상",
+      "subspecialty": "상지 외상 / 신경손상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -162480,7 +162500,9 @@
           "reason": "견관절의 외회전과 하방 안정을 돕는 작은 근육으로 석회 침착이 거의 관찰되지 않습니다."
         }
       ],
-      "differential_general": "22Y-09: 동일 선지 구성으로 출제되었으며 복기본 오기와 무관하게 정답은 극상근임."
+      "differential_general": "22Y-09: 동일 선지 구성으로 출제되었으며 복기본 오기와 무관하게 정답은 극상근임.",
+      "theme_title": "주관증후군(Cubital Tunnel Syndrome)과 척골신경 포착",
+      "subspecialty": "주관절 / 신경"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -162610,7 +162632,9 @@
           "reason": "수근관 증후군은 관절낭 질환이 아닌 섬유수근관 내 신경 포착 증후군이므로 관절강 내 주사의 적응증이 아닙니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "수근관 증후군의 수근터널 유리술 적응증",
+      "subspecialty": "수부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -162738,7 +162762,9 @@
           "reason": "아킬레스건 반사(Ankle jerk reflex)는 S1 신경근이 매개하므로 L5-S1 병변에서 소실됩니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "주상골 골절(Scaphoid Fracture)과 코담배갑 압통 및 무혈성 괴사",
+      "subspecialty": "수부 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -162868,7 +162894,9 @@
           "reason": "제4·5 중수골 골절(Boxer 골절)이나 척측 수근골 손상 시 제4·5 수지와 척측 전완부를 안정시키기 위해 적용하는 부목입니다."
         }
       ],
-      "differential_general": "20Y-12: 선지 C가 설탕집게 부목으로 출제되었으며 동일하게 원위 요골 골절의 초기 고정을 다룸."
+      "differential_general": "20Y-12: 선지 C가 설탕집게 부목으로 출제되었으며 동일하게 원위 요골 골절의 초기 고정을 다룸.",
+      "theme_title": "회전근개 전층 파열의 확진 검사 (어깨 MRI)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -163004,7 +163032,9 @@
           "reason": "스트레칭 운동, 관절낭 팽창술, 관절경하 관절낭 유리술 등 보존적/관절경적 치료를 시행하며 인공관절 수술을 하지 않습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "대퇴골두 무혈성 괴사(AVN)의 인공고관절 전치환술(THA)",
+      "subspecialty": "고관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -163132,7 +163162,9 @@
           "reason": "S1 — 후외측 탈출 시 외측 주행 S1 신경근을 눌러 동일 소견을 유발할 수 있으나, 본 증례는 중심 탈출과 척수 높이 기전을 묻는 문항으로 출제되었습니다."
         }
       ],
-      "differential_general": "23Y-55/21Y-08: 기출 복기본에 중심 추간판 탈출증으로 L1-L2(원추부 천추 분절 압박)가 동일하게 정답 처리됨."
+      "differential_general": "23Y-55/21Y-08: 기출 복기본에 중심 추간판 탈출증으로 L1-L2(원추부 천추 분절 압박)가 동일하게 정답 처리됨.",
+      "theme_title": "퇴행성 슬관절염(OA)의 방사선 소견 및 체중부하 단순 X선",
+      "subspecialty": "슬관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -163264,7 +163296,9 @@
           "reason": "복와위에서 무릎을 굴곡시키고 고관절을 신전시켜 L2~L4 대퇴신경근의 압박이나 신경병증을 유발하는 검사입니다."
         }
       ],
-      "differential_general": "23Y-52: 동일한 증례와 선지로 출제되어 정답 Bowstring test."
+      "differential_general": "23Y-52: 동일한 증례와 선지로 출제되어 정답 Bowstring test.",
+      "theme_title": "반월상 연골판 파열(Meniscus Tear)의 맥머레이 검사(McMurray Test)",
+      "subspecialty": "슬관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -163398,7 +163432,9 @@
           "reason": "척수 원추부(T12~L2 척추 높이) 손상으로 대칭적 안장 감각 상실과 조기 괄약근 기능 부전이 나타나며 구해면체 반사가 통상 소실됩니다."
         }
       ],
-      "differential_general": "23Y-51: 불완전 척수 손상으로 동일 출제됨. 20Y-03 복기본에는 완전 척수 손상 오기가 있었음."
+      "differential_general": "23Y-51: 불완전 척수 손상으로 동일 출제됨. 20Y-03 복기본에는 완전 척수 손상 오기가 있었음.",
+      "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test)",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -163530,7 +163566,9 @@
           "reason": "상·하위 운동신경원이 함께 침범되며, 혀의 섬섬수축(fasciculation)과 연하 곤란 등 구음·연하 장애가 흔히 동반되나 본 증례는 혀 이상이 없습니다."
         }
       ],
-      "differential_general": "23Y-46: 동일 증례와 선지로 출제되어 정답 경추 척수증."
+      "differential_general": "23Y-46: 동일 증례와 선지로 출제되어 정답 경추 척수증.",
+      "theme_title": "후방십자인대(PCL) 파열의 후방 전위 검사와 슬와근 손상",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -163662,7 +163700,9 @@
           "reason": "대퇴골두 골괴사가 아니라 대퇴비구 충돌 증후군(FAI)이며, 초기에는 활동 제한, NSAIDs 등 보존적 치료를 우선 고려합니다."
         }
       ],
-      "differential_general": "23Y-19: 동일 방사선 사진으로 출제되어 정답 Alpha 각이 증가하였다."
+      "differential_general": "23Y-19: 동일 방사선 사진으로 출제되어 정답 Alpha 각이 증가하였다.",
+      "theme_title": "발목 염좌(Ankle Sprain)의 전거비인대(ATFL) 파열과 보존적 치료",
+      "subspecialty": "족부 및 족관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -163794,7 +163834,9 @@
           "reason": "금속(라이너) — 세라믹 표면 손상과 마모로 인해 실제 임상에서 제작·사용되지 않는 비표준 조합이나 기출에서는 금속-금속 부작용을 핵심으로 물었습니다."
         }
       ],
-      "differential_general": "23Y-20: 동일 선지 구성으로 출제되어 금속-금속의 부작용을 다룸."
+      "differential_general": "23Y-20: 동일 선지 구성으로 출제되어 금속-금속의 부작용을 다룸.",
+      "theme_title": "족저근막염(Plantar Fasciitis)의 아침 첫 발 뒤꿈치 통증",
+      "subspecialty": "족부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -163915,7 +163957,9 @@
           "reason": "골반강 내에서 폐쇄관을 통과해 대퇴 내측 근육군을 지배하며, 비구 분지(acetabular branch)가 원인대 동맥으로 연결되지만 주 혈류가 아닙니다."
         }
       ],
-      "differential_general": "22Y-36: 대퇴골두 혈류 공급 기전으로 동일 출제됨."
+      "differential_general": "22Y-36: 대퇴골두 혈류 공급 기전으로 동일 출제됨.",
+      "theme_title": "아킬레스건 파열(Achilles Rupture)의 톰슨 압착 검사(Thompson Test)",
+      "subspecialty": "족부 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -164037,7 +164081,9 @@
           "reason": "인공 골두 직경이 클수록(예: 32·36 mm) 탈구 저항 거리(jumping distance)가 증가하므로 탈구 발생률이 감소합니다."
         }
       ],
-      "differential_general": "22Y-40: 동일 선지 구성으로 출제되어 인공 고관절 탈구 역학을 다룸."
+      "differential_general": "22Y-40: 동일 선지 구성으로 출제되어 인공 고관절 탈구 역학을 다룸.",
+      "theme_title": "구획증후군(Compartment Syndrome)의 응급 근막절개술(Fasciotomy)",
+      "subspecialty": "외상 응급"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -164169,7 +164215,9 @@
           "reason": "세라믹 관절면은 생체 비활성도로 마모 입자가 극도로 적어 마모에 의한 골용해증이 가장 적은 관절면입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "장골 골절 후 지방색전증 증후군(Fat Embolism)의 3대 징후",
+      "subspecialty": "외상 합병증"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -164301,7 +164349,9 @@
           "reason": "상처 치유에는 적절한 습윤 환경(Moist wound dressing)이 필수적이며 건조 가피는 심부 농양 형성을 유발할 수 있습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "개방성 골절(Open Fracture)의 응급 처치: 생리식염수 세척 및 변연절제술",
+      "subspecialty": "외상 응급"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -164429,7 +164479,9 @@
           "reason": "뒤꿈치를 양측에서 쥐어짤 때(Squeeze test) 통증이 유발되며, 보행을 지속할수록 통증이 악화되는 점이 족저근막염과 다릅니다."
         }
       ],
-      "differential_general": "23Y-23: 선지가 한글 '족저건막염'으로 출제되었으며 동일 정답."
+      "differential_general": "23Y-23: 선지가 한글 '족저건막염'으로 출제되었으며 동일 정답.",
+      "theme_title": "소아 쇄골 골절의 8자 붕대(Figure-of-8 Bandage) 보존적 치료",
+      "subspecialty": "소아 정형외과"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -164552,7 +164604,9 @@
           "reason": "슬개건 반사는 L4 신경근이 매개하므로 정상이며, 아킬레스건 파열 시에는 발목 반사(S1)가 소실됩니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "소아 상완골 과상골절(Supracondylar Fx)과 볼크만 허혈성 구축",
+      "subspecialty": "소아 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -164663,7 +164717,9 @@
           "reason": "돌출된 제1중족골두(bunion) 부위가 신발 내부와 지속적으로 마찰 압박을 받아 활액낭염과 극심한 보행 통증을 흔히 유발합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "발달성 고관절 이형성증(DDH)의 파블릭 하네스(Pavlik Harness)",
+      "subspecialty": "소아 정형외과"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -164785,7 +164841,9 @@
           "reason": "외과 후방의 비골건 지대(peroneal retinaculum) 주변 구조물로 비골건 아탈구 시 손상될 수 있으나 전형적인 내번 염좌의 주 손상 인대는 아닙니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "소아 대퇴골두 무혈성 괴사(LCP병)의 임상 특징 및 무통성 파행",
+      "subspecialty": "소아 정형외과"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -164913,7 +164971,9 @@
           "reason": "파열된 굴곡건의 양 끝단은 근육 연축으로 인해 서로 멀어지므로 수술적 건 봉합 없이 단순 부목 고정만으로는 절대로 치유되지 않습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "골형성부전증(Osteogenesis Imperfecta)의 청색 공막과 콜라겐 유전자 변이",
+      "subspecialty": "소아 대사성"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -165041,7 +165101,9 @@
           "reason": "염증을 악화시키고 균혈증을 유발하며 심한 통증으로 인해 수동/능동 운동 자체가 불가능합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "골육종(Osteosarcoma)의 햇살 모양 골막 반응(Sunburst Pattern)",
+      "subspecialty": "골종양"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -165171,7 +165233,9 @@
           "reason": "장골 골절 후 24~72시간에 골수 지방이 혈류로 유입되어 호흡곤란, 저산소증, 점상출혈(petechiae), 뇌신경 장애의 3대 징후를 보이는 전신 색전 질환입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "유잉육종(Ewing Sarcoma)의 양파껍질 모양(Onion-skin) 방사선 소견",
+      "subspecialty": "골종양"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -165305,7 +165369,9 @@
           "reason": "장골능에 핀을 삽입해 벌어진 골반환을 전방에서 신속히 닫아 골반 용적을 줄임으로써 후복막 정맥총 출혈을 억제하는 표준 응급 처치입니다"
         }
       ],
-      "differential_general": "20Y-19: 동일 증례와 X선 소견에서 1차 응급 처치로 A. 외고정술이 출제됨."
+      "differential_general": "20Y-19: 동일 증례와 X선 소견에서 1차 응급 처치로 A. 외고정술이 출제됨.",
+      "theme_title": "골연골종(Osteochondroma)의 골단판 방향 버섯 모양 양성 돌출",
+      "subspecialty": "골종양"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -165437,7 +165503,9 @@
           "reason": "조직 결손 없이 감염 위험만 있는 창상에서 수일간 소독 후 닫아주는 방법이며, 2×2 cm의 실질적 결손이 있는 부위는 당겨서 봉합할 수 없습니다."
         }
       ],
-      "differential_general": "21Y-21: 복기본에 부분층 피부 이식(STSG)으로 표시되었으나 수부 결손에는 구축이 적은 전층 피부 이식(FTSG)이 표준임."
+      "differential_general": "21Y-21: 복기본에 부분층 피부 이식(STSG)으로 표시되었으나 수부 결손에는 구축이 적은 전층 피부 이식(FTSG)이 표준임.",
+      "theme_title": "거대세포종(Giant Cell Tumor)의 골단부 비누거품(Soap Bubble) 양상",
+      "subspecialty": "골종양"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -165564,7 +165632,9 @@
           "reason": "대부분 보존적 치료(팔걸이)가 원칙이며 수술적 절대 안정성 고정의 적응증이 아닙니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "화농성 관절염(Septic Arthritis)의 응급 관절 천자 및 세척술",
+      "subspecialty": "관절 감염"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -165622,8 +165692,8 @@
     "year": "26Y",
     "q_num": 36,
     "category": "짤",
-    "theme_title": "만성 골수염(Chronic Osteomyelitis)의 부골(Sequestrum)과 골포(Involucrum)",
-    "subspecialty": "감염 질환",
+    "theme_title": "골절의 직접유합(Direct Bone Healing)과 압박 금속 고정판(Compression Plate)",
+    "subspecialty": "골절 치료학",
     "stem": "골절의 치료 방법 중 다음과 같이 direct bone healing을 유도하는 치료 방법은?",
     "images": [
       "images/정형외과/26Y_Q36_fig1.png"
@@ -165677,7 +165747,9 @@
           "reason": "골절부 골막 혈류를 보존하며 다리를 놓듯 고정하는 생물학적 고정법(MIPO)으로 가골 형성에 의한 간접 골유합을 목표로 합니다."
         }
       ],
-      "differential_general": "23Y-30: 복기본에 골수내 금속정으로 오표기되어 있으나 직접 골유합(direct bone healing)은 압박 금속판 고정의 고유 기전임."
+      "differential_general": "23Y-30: 복기본에 골수내 금속정으로 오표기되어 있으나 직접 골유합(direct bone healing)은 압박 금속판 고정의 고유 기전임.",
+      "theme_title": "골절의 직접유합(Direct Bone Healing)과 압박 금속 고정판(Compression Plate)",
+      "subspecialty": "골절 치료학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -165793,7 +165865,9 @@
           "reason": "단순 비타민 D 보충은 골 건강 유지에 보조적으로 쓰이나 골용해성 전이암의 병적 골절 예방을 위한 단독 표적 치료제가 아닙니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "강직성 척추염(Ankylosing Spondylitis)의 천장관절염과 대나무 척추",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -165915,7 +165989,9 @@
           "reason": "관혈적 정복술은 부종과 관류가 안정된 후 또는 근막절개술과 병행하여 시행되는 최종 내고정 단계입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "요추 추간판 탈출증(L4-L5 HNP)의 하지직거상검사(SLR Test) 양성",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -166043,7 +166119,9 @@
           "reason": "녹농균을 포함한 광범위 항생제로 외상 초기 단순 예방 목적의 1차 선택제가 아닙니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "척추관 협착증(Spinal Stenosis)의 신경인성 간헐적 파행",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -166171,7 +166249,9 @@
           "reason": "비만은 기계적 하중을 증가시킬 수 있으나 국소 골절단 혈행 부전 자체의 직접 원인은 아닙니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "척추전방전위증(Spondylolisthesis)의 협부 결손(Pars Defect)",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -166292,7 +166372,9 @@
           "reason": "분쇄로 골편 간격이 불규칙하거나 넓어질 수 있으며, 간격이 좁을수록 단일 골절에서는 오히려 strain이 증가합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "골다공증(Osteoporosis)의 DXA 골밀도 진단 기준 (T-score <= -2.5)",
+      "subspecialty": "대사성 골질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -166350,8 +166432,8 @@
     "year": "26Y",
     "q_num": 42,
     "category": "반짤",
-    "theme_title": "골다공증성 척추 압박골절의 경피적 척추성형술(Vertebroplasty)",
-    "subspecialty": "척추 질환",
+    "theme_title": "경골 고평부 골절(Tibial Plateau Fracture)의 관혈적 정복 및 내고정(ORIF)",
+    "subspecialty": "슬관절 / 하지 외상",
     "stem": "(Tibia 관절면 침범한 골절 x-ray 사진 주고) 적절한 치료는?",
     "images": [
       "images/정형외과/26Y_Q42_fig1.png"
@@ -166405,7 +166487,9 @@
           "reason": "간부 골절에서는 표준적이나, 관절내 함몰 골편의 직접적 시각화 및 해부학적 관절면 정복이 필요한 고평부 골절 단독 처치로는 한계가 있습니다."
         }
       ],
-      "differential_general": "22Y-06: 경골 고평부 관절면 함몰 골절 증례로 동일 출제됨."
+      "differential_general": "22Y-06: 경골 고평부 관절면 함몰 골절 증례로 동일 출제됨.",
+      "theme_title": "경골 고평부 골절(Tibial Plateau Fracture)의 관혈적 정복 및 내고정(ORIF)",
+      "subspecialty": "슬관절 / 하지 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -166529,7 +166613,9 @@
           "reason": "임시 안정화는 도모할 수 있으나 골절부의 견고한 고정이 불가능하여 골수강 압력 변동과 지방 유출을 완벽히 막지 못합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "대퇴골 전자간 골절(Intertrochanteric Fx)의 골수강내 금속정 고정술",
+      "subspecialty": "고관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -166659,7 +166745,9 @@
           "reason": "골간단 골주(trabeculae)로 구성된 성숙 해면골 조직으로 성장판 연골보다 전단 강도가 큽니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "고관절 후방 탈구(Posterior Hip Dislocation)의 내전 및 내회전 변형",
+      "subspecialty": "고관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -166780,7 +166868,9 @@
           "reason": "보행기 이후 또는 정복 후 유지 치료에 주로 사용되며, 생후 3개월 영아의 초기 정복용 1차 치료로는 파블릭 보장구를 우선 적용합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "슬개골 골절(Patella Fracture)의 장력대 강선고정술(Tension Band Wiring)",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -166900,7 +166990,9 @@
       "title": "경골 간부 골절(Tibia Shaft Fx)의 합병증: 구획증후군 감시",
       "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
       "trigger": "【경골 간부 골절(Tibia Shaft Fx)의 합병증: 구획증후군 감시 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 7세 소아+고열(40℃)+CRP 5.03+관절 삼출액 → 응급 관절 절개 배액술이 필요한 세균성 고관절염.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 세균성 고관절염 (Septic arthritis).\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
-      "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계"
+      "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
+      "theme_title": "경골 간부 골절(Tibia Shaft Fx)의 합병증: 구획증후군 감시",
+      "subspecialty": "하지 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -167030,7 +167122,9 @@
           "reason": "슬관절 90도 굴곡 상태에서 경골 근위부를 후방으로 밀어 전위 정도를 평가하는 후방십자인대(PCL) 단독 파열의 가장 대표적인 검사입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "총비골신경 마비(Common Peroneal Nerve Palsy)와 족하수(Foot Drop)",
+      "subspecialty": "말초신경 손상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -167160,7 +167254,9 @@
           "reason": "무릎을 90도 굴곡하고 발을 고정한 상태에서 경골 근위부를 전방으로 당겨 전방 전위 정도를 평가하는 검사입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "지간신경종(Morton Neuroma)의 3-4 중족골간 압통 및 족지 압박 검사",
+      "subspecialty": "족부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -167279,7 +167375,9 @@
           "reason": "경골 간부 골절은 관절 외 골절로 하퇴부의 극심한 변형과 통증을 일으키며, 관절강 내 직접적인 관절혈증을 초래하지 않습니다."
         }
       ],
-      "differential_general": "20Y-23: 약어 선지(ACL, PCL 등)로 출제되어 정답은 동일하게 ACL."
+      "differential_general": "20Y-23: 약어 선지(ACL, PCL 등)로 출제되어 정답은 동일하게 ACL.",
+      "theme_title": "무지외반증(Hallux Valgus)의 제1중족족지관절 건막류(Bunion) 변형",
+      "subspecialty": "족부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -167408,7 +167506,9 @@
       "title": "당뇨발(Diabetic Foot) 감염의 말초동맥 평가 및 혈당 조절",
       "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
       "trigger": "【당뇨발(Diabetic Foot) 감염의 말초동맥 평가 및 혈당 조절 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: • [슬관절 신체진찰 핵심]:\n  슬관절 내 관절액(Joint effusion)의 존재 및 저류량을 확인하는 대표적인 신체진찰은 **무릎뼈 쓸림/부유 검사(Pat.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 무릎뼈 부유/쓸림 검사 (Patellar tap test / Ballottement test).\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
-      "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계"
+      "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
+      "theme_title": "당뇨발(Diabetic Foot) 감염의 말초동맥 평가 및 혈당 조절",
+      "subspecialty": "족부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -167476,8 +167576,8 @@
     "year": "26Y",
     "q_num": 51,
     "category": "반짤",
-    "theme_title": "청소년기 특발성 척추측만증(AIS)의 Cobb 각도 및 보조기 착용 기준",
-    "subspecialty": "척추 질환",
+    "theme_title": "슬관절 반월연골판(Meniscus) 및 십자인대 해부학적 구조 및 진찰",
+    "subspecialty": "슬관절 질환",
     "stem": "다음 해부학적 구조물의 이름은 무엇인가?",
     "images": [
       "images/정형외과/26Y_Q51_fig1.png"
@@ -167540,7 +167640,9 @@
           "reason": "슬개골 내측과 대퇴 활차구 사이에 위치하는 태생기 활액막 주름의 잔재로 비후 시 관절 연골 마찰과 활액막염을 유발합니다."
         }
       ],
-      "differential_general": "22Y-24: 관절경 사진에서 동일하게 반월상 연골판(Medial meniscus)을 묻는 문항으로 출제됨."
+      "differential_general": "22Y-24: 관절경 사진에서 동일하게 반월상 연골판(Medial meniscus)을 묻는 문항으로 출제됨.",
+      "theme_title": "슬관절 반월연골판(Meniscus) 및 십자인대 해부학적 구조 및 진찰",
+      "subspecialty": "슬관절 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -167609,8 +167711,8 @@
     "year": "26Y",
     "q_num": 52,
     "category": "짤",
-    "theme_title": "경추 척수증(Cervical Spondylotic Myelopathy)의 상위운동신경원 징후",
-    "subspecialty": "척추 질환",
+    "theme_title": "급성 통풍성 관절염(Acute Gouty Arthritis)의 관절천자 및 편광현미경 소견",
+    "subspecialty": "관절 대사 질환",
     "stem": "83 세 남성이 무릎 통증 및 열감으로 내원하였다. V/S stable 하였으며 신체검사상 삼출, 홍반 부종이 관찰되었다. 무릎 X-ray 와 관절천자 후 편광현미경 검사결과이다. 진단은?",
     "images": [
       "images/정형외과/26Y_Q52_fig1.png"
@@ -167673,7 +167775,9 @@
           "reason": "대퇴골두나 대퇴과부 골괴사로 골용해와 관절면 붕괴(crescent sign)를 일으키며, 관절천자상 결정체가 동반된 급성 가성패혈성 활액 소견은 나타나지 않습니다."
         }
       ],
-      "differential_general": "20Y-01: 20세 남성 새벽 무릎 통증 증례로 통풍이 출제되었으나, 본 83세 증례는 사진상 CPPD 결정이 확인되어 가성통풍임."
+      "differential_general": "20Y-01: 20세 남성 새벽 무릎 통증 증례로 통풍이 출제되었으나, 본 83세 증례는 사진상 CPPD 결정이 확인되어 가성통풍임.",
+      "theme_title": "급성 통풍성 관절염(Acute Gouty Arthritis)의 관절천자 및 편광현미경 소견",
+      "subspecialty": "관절 대사 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -167800,7 +167904,9 @@
           "reason": "관절 연골 간 접촉이 일부 유지된 불완전 탈구(아탈구)를 의미하며, 본 영상처럼 관절면 접촉이 완전히 소실된 완전 탈구와 감별됩니다."
         }
       ],
-      "differential_general": "23Y-44: 동일한 측면 방사선 사진으로 출제되어 정답 Anterior knee dislocation."
+      "differential_general": "23Y-44: 동일한 측면 방사선 사진으로 출제되어 정답 Anterior knee dislocation.",
+      "theme_title": "주관절 외측상과염의 유발 검사: 코젠 검사(Cozen Test)",
+      "subspecialty": "주관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -167926,7 +168032,9 @@
           "reason": "전방십자인대 손상에 동반되는 전외측 회전 불안정성을 일으키는 구조물로 피벗 시프트 검사(pivot shift test)에서 정복음이 유발됩니다."
         }
       ],
-      "differential_general": "23Y-37: 동일한 이학적 검사(Lachman test) 사진과 선지로 출제되어 정답은 ①(ACL rupture)."
+      "differential_general": "23Y-37: 동일한 이학적 검사(Lachman test) 사진과 선지로 출제되어 정답은 ①(ACL rupture).",
+      "theme_title": "드퀘르벵 건초염(De Quervain Disease)의 핑켈스타인 검사(Finkelstein Test)",
+      "subspecialty": "수부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -168059,7 +168167,9 @@
           "reason": "만성 신부전 환자에서 치명적인 부정맥을 유발하는 고칼륨혈증을 예방하기 위한 식이 조절법입니다."
         }
       ],
-      "differential_general": "23Y-45: 복기본에 정답이 ① 금연으로 잘못 표기되어 있으나 퇴행성 관절염의 표준 비약물 치료는 체중감량임.\n20Y-22: 같은 엑스레이에서 진단명을 묻는 문항으로 출제되어 정답 OA(퇴행성 관절염)."
+      "differential_general": "23Y-45: 복기본에 정답이 ① 금연으로 잘못 표기되어 있으나 퇴행성 관절염의 표준 비약물 치료는 체중감량임.\n20Y-22: 같은 엑스레이에서 진단명을 묻는 문항으로 출제되어 정답 OA(퇴행성 관절염).",
+      "theme_title": "듀피트렌 구축(Dupuytren Contracture)의 수장건막 결절 및 굴곡 변형",
+      "subspecialty": "수부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -168186,7 +168296,9 @@
           "reason": "관절 삼출이 생길 수 있으나 관절선 동통이 주증상이며 관절경이나 시상면/관상면 MRI에서 연골판 내 고신호 강도로 진단합니다."
         }
       ],
-      "differential_general": "23Y-35: 복기본에 ACL 파열로 잘못 표기되었으나 MRI 소견상 슬개골 외측 탈구에 의한 MPFL 손상이 명백함."
+      "differential_general": "23Y-35: 복기본에 ACL 파열로 잘못 표기되었으나 MRI 소견상 슬개골 외측 탈구에 의한 MPFL 손상이 명백함.",
+      "theme_title": "석회성 건염의 급성 흡수기 극심한 통증과 초음파하 주사 흡인 치료",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -168301,7 +168413,9 @@
           "reason": "골절면을 벌어지게 만드는 신연력으로, 대퇴사두근 수축에 의한 신연력을 극복하고 관절면 압박력으로 바꾸는 것이 장력대 고정술의 목적입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "견관절 충돌 증후군(Impingement Syndrome)의 니어 검사(Neer Test)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -168359,8 +168473,8 @@
     "year": "26Y",
     "q_num": 58,
     "category": "짤",
-    "theme_title": "슬개건염(Jumper's Knee)의 슬개골 하극 압통",
-    "subspecialty": "슬관절",
+    "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+    "subspecialty": "슬관절 외상",
     "stem": "다음과 같은 검사에서 양성이었다. 원인이 되는 구조물 은?",
     "images": [
       "images/정형외과/26Y_Q58_fig1.png"
@@ -168423,7 +168537,9 @@
           "reason": "경골의 과도한 내회전을 억제하는 외측 보조 인대로, ACL 파열 시 Segond 골절이나 전외측 회전 불안정성(pivot shift)과 연관됩니다."
         }
       ],
-      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음."
+      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음.",
+      "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -168562,7 +168678,9 @@
           "reason": "생검 통로 및 해부학적 경계가 무너진 상태에서의 무계획적 절제는 종양의 국소 재발률을 급증시킵니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "주두 점액낭염(Olecranon Bursitis)의 팔꿈치 후방 무통성 낭종",
+      "subspecialty": "주관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -168692,7 +168810,9 @@
           "reason": "제4·5 중수골 골절(Boxer 골절)이나 척측 수근골 손상 시 제4·5 수지와 척측 전완부를 안정시키기 위해 적용하는 부목입니다."
         }
       ],
-      "differential_general": "20Y-12: 선지 C가 설탕집게 부목으로 출제되었으며 동일하게 원위 요골 골절의 초기 고정을 다룸."
+      "differential_general": "20Y-12: 선지 C가 설탕집게 부목으로 출제되었으며 동일하게 원위 요골 골절의 초기 고정을 다룸.",
+      "theme_title": "회전근개 전층 파열의 확진 검사 (어깨 MRI)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -168764,8 +168884,8 @@
     "year": "23Y",
     "q_num": 2,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 30세 여성이 요골 경상돌기 주위의 통증으로 내원하였다...",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "드퀘르벵 건초염(De Quervain)의 수유부 요골 경상돌기 통증과 Finkelstein 검사",
+    "subspecialty": "수부 및 완관절",
     "stem": "30세 여성이 요골 경상돌기 주위의 통증으로 내원하였다. 2개월 전 출산하였고 최근 수유 중이라고 하였으며, 다음 그 림과 같이 엄지를 잡고 당기면서 손 전체를 척측으로 구부리 게 할 때 손목의 요측에 통증이 갑자기 증가하였다. 설명으로 옳은 것은?",
     "images": [
       "images/정형외과/23Y_Q02_fig1.png"
@@ -168819,7 +168939,9 @@
           "reason": "엄지 부목(thumb spica splint), 소염진통제, 휴식 등 비수술적 치료로 환자의 80% 이상에서 호전됩니다."
         }
       ],
-      "differential_general": "22Y-05: 19Y 기출 표기와 함께 동일한 증례(드퀘르벵 건초염)로 출제되어 정답 원리 동일."
+      "differential_general": "22Y-05: 19Y 기출 표기와 함께 동일한 증례(드퀘르벵 건초염)로 출제되어 정답 원리 동일.",
+      "theme_title": "드퀘르벵 건초염(De Quervain)의 수유부 요골 경상돌기 통증과 Finkelstein 검사",
+      "subspecialty": "수부 및 완관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -168945,7 +169067,9 @@
           "reason": "상완골 외과경(surgical neck) 골절이나 견관절 전방 탈구 시 손상되며, 삼각근 마비로 인한 견관절 외전 장애와 어깨 외측 감각 저하를 초래합니다."
         }
       ],
-      "differential_general": "21Y-18: 복기본에 정답이 정중신경으로 오표기되어 있으나 손목 신전 불능 소견상 요골신경 손상이 맞음."
+      "differential_general": "21Y-18: 복기본에 정답이 정중신경으로 오표기되어 있으나 손목 신전 불능 소견상 요골신경 손상이 맞음.",
+      "theme_title": "상완골 원위 1/3 나선형 골절과 요골신경(Radial Nerve) 손상",
+      "subspecialty": "상지 외상 / 신경손상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -169019,8 +169143,8 @@
     "year": "23Y",
     "q_num": 4,
     "category": "반짤",
-    "theme_title": "정형외과 과년도 빈출: 아침에 저린감이 더 심하고 손목이 부어 잘 움직이지 못 한다. 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "수근관 증후군(Carpal Tunnel Syndrome)의 정중신경 야간 저림과 Phalen 검사",
+    "subspecialty": "수부 및 완관절",
     "stem": "손목 터널 증후군에 대해서 맞는 것은?",
     "images": [],
     "options": [
@@ -169081,7 +169205,9 @@
           "reason": "요골 원위부 골절이나 류마티스 관절염과 연관될 수 있으나 대부분(과반수 이상)은 특정 원인을 알 수 없는 특발성입니다."
         }
       ],
-      "differential_general": "22Y-03: 선지 5개가 동일하게 출제되었으며 동일하게 ①이 정답 선지로 지정됨."
+      "differential_general": "22Y-03: 선지 5개가 동일하게 출제되었으며 동일하게 ①이 정답 선지로 지정됨.",
+      "theme_title": "수근관 증후군(Carpal Tunnel Syndrome)의 정중신경 야간 저림과 Phalen 검사",
+      "subspecialty": "수부 및 완관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -169211,7 +169337,9 @@
           "reason": "척측수근굴근으로 내측 상과와 척골에서 기시하여 손목 굴곡 및 척측 편위를 담당하며 외측 상과염과 무관합니다."
         }
       ],
-      "differential_general": "23Y-05: 사진과 선지가 동일하게 출제되어 정답 Extensor carpi radialis brevis."
+      "differential_general": "23Y-05: 사진과 선지가 동일하게 출제되어 정답 Extensor carpi radialis brevis.",
+      "theme_title": "외측 상과염(테니스 엘보)과 단요측수근신근(ECRB) 기시부 손상",
+      "subspecialty": "주관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -169342,7 +169470,9 @@
           "reason": "척측수근굴근으로 내측 상과와 척골에서 기시하여 손목 굴곡 및 척측 편위를 담당하며 외측 상과염과 무관합니다."
         }
       ],
-      "differential_general": "23Y-05: 사진과 선지가 동일하게 출제되어 정답 Extensor carpi radialis brevis."
+      "differential_general": "23Y-05: 사진과 선지가 동일하게 출제되어 정답 Extensor carpi radialis brevis.",
+      "theme_title": "외측 상과염(테니스 엘보)과 단요측수근신근(ECRB) 기시부 손상",
+      "subspecialty": "주관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -169411,8 +169541,8 @@
     "year": "23Y",
     "q_num": 7,
     "category": "탈",
-    "theme_title": "[단독 기출] 평소 자리에 앉아서 컴퓨터를 많이 하는 사무직인 50세 남",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "주두 점액낭염(Olecranon Bursitis)의 비감염성 주관절 후방 낭종 치료 원칙",
+    "subspecialty": "주관절",
     "stem": "평소 자리에 앉아서 컴퓨터를 많이 하는 사무직인 50세 남 자가 얼마 전부터 팔꿈치가 부어 내원하였다. 적절한 처치는? 4~5cm 정도의 달걀 모양의 낭종이었다. 감염을 시사하는 발적(erythema)은 없었다.",
     "images": [],
     "options": [
@@ -169473,7 +169603,9 @@
           "reason": "발적, 압통, 국소 열감이 동반되지 않아 패혈성(감염성) 점액낭염이 아니므로 불필요한 장상지 부목 고정과 예방적 항생제 투여는 시행하지 않습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "주두 점액낭염(Olecranon Bursitis)의 비감염성 주관절 후방 낭종 치료 원칙",
+      "subspecialty": "주관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -169539,8 +169671,8 @@
     "year": "23Y",
     "q_num": 8,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 척골신경 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "소아 주관절 골절 후 외반주 변형과 지연성 척골신경 마비(Tardy Ulnar Nerve Palsy)",
+    "subspecialty": "주관절 / 신경",
     "stem": "30세 남아가 손가락 감각이상 및 근력악화를 주소로 내원하였다. 8살 때 주관절 골절이 있었으나 적절한 치료를 받지는 않았다. 제1수지와 제2수지 사이에 근위축 소견도 보였다. 시진 상 소견과 x-ray는 다음과 같다. 이 때 손상된 신경 은? (빨간색 원 표시는 없었음)",
     "images": [
       "images/정형외과/23Y_Q08_fig1.png",
@@ -169604,7 +169736,9 @@
           "reason": "견관절 탈구 또는 상완골 외과경 골절 시 손상되어 삼각근 약화와 견관절 외측 감각 소실을 일으킵니다."
         }
       ],
-      "differential_general": "22Y-07: 동일 사진 및 소견으로 출제되어 정답은 동일하게 척골신경."
+      "differential_general": "22Y-07: 동일 사진 및 소견으로 출제되어 정답은 동일하게 척골신경.",
+      "theme_title": "소아 주관절 골절 후 외반주 변형과 지연성 척골신경 마비(Tardy Ulnar Nerve Palsy)",
+      "subspecialty": "주관절 / 신경"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -169734,7 +169868,9 @@
           "reason": "정중신경(요측수근굴근) 및 척골신경(척측수근굴근)이 주로 담당하며 요골신경 마비 평가와 무관합니다."
         }
       ],
-      "differential_general": "23Y-09: 야구공 던지다 골절된 증례로 동일하게 손목 신전이 출제됨."
+      "differential_general": "23Y-09: 야구공 던지다 골절된 증례로 동일하게 손목 신전이 출제됨.",
+      "theme_title": "상완골 간부 골절(Humerus Shaft Fracture) 합병증: 요골신경 마비와 손목 신전 불능",
+      "subspecialty": "상지 외상 / 신경손상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -169802,8 +169938,8 @@
     "year": "23Y",
     "q_num": 10,
     "category": "탈",
-    "theme_title": "[단독 기출] 다음은 어깨 운동에 관여하는 신경이다. 0~30도에서 거",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "견관절 초기 0~30도 외전 거상 담당 근육 및 신경: 극상근과 견갑상신경",
+    "subspecialty": "견관절",
     "stem": "다음은 어깨 운동에 관여하는 신경이다. 0~30도에서 거 상에 관여하는 신경은?",
     "images": [],
     "options": [
@@ -169864,7 +170000,9 @@
           "reason": "액와신경은 삼각근(deltoid)과 소원근을 지배하여 30~90도 이상의 주요 견관절 외전 운동을 담당합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "견관절 초기 0~30도 외전 거상 담당 근육 및 신경: 극상근과 견갑상신경",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -169930,8 +170068,8 @@
     "year": "23Y",
     "q_num": 11,
     "category": "탈",
-    "theme_title": "[단독 기출] 다음은 어깨운동에 관여하는 근육이다. 회전근개 파열에",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "회전근개(Rotator Cuff) 파열에서 가장 흔하게 손상되는 근육: 극상근(Supraspinatus)",
+    "subspecialty": "견관절",
     "stem": "다음은 어깨운동에 관여하는 근육이다. 회전근개 파열에서 가장 흔히 손상되는 근육은?",
     "images": [],
     "options": [
@@ -169992,7 +170130,9 @@
           "reason": "견갑골 하각에서 기시해 상완골 결절간구 내측순에 정지하며 상완골 내전 및 내회전에 관여하는 근육으로, 회전근개(rotator cuff)에 포함되지 않습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "회전근개(Rotator Cuff) 파열에서 가장 흔하게 손상되는 근육: 극상근(Supraspinatus)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -170058,8 +170198,8 @@
     "year": "23Y",
     "q_num": 12,
     "category": "탈",
-    "theme_title": "정형외과 단독 기출: 유착성 피막염 관련 진단 및 처치",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "당뇨 환자에서 병발한 동결견(유착성 관절낭염)의 전방향 능동·수동 관절운동 제한",
+    "subspecialty": "견관절",
     "stem": "52세 여자가 어깨 통증을 주소로 내원하였다. 5년 전부 터 당뇨병으로 약을 복용하고 있었다. 이학적 검사 상 능동운 동범위가 전방굴곡 90o ­ 외전 80o ­ 외회전 30o - 내회 전이 sacral level로 제한되었다. 수동운동범위도 능동운동범 위와 비슷하게 모든 방향에서 제한되었다. 다음은 어깨방사선 검사와 어깨자기공명검사이다. 진단은?",
     "images": [
       "images/정형외과/23Y_Q12_fig1.png",
@@ -170114,7 +170254,9 @@
           "reason": "상부 관절와순 전후방 병변으로 주로 투수나 상지 거상 외상 환자에서 O'Brien 검사 양성 및 관절와순 상부 파열 소견을 보이며, 전방향의 전반적인 수동 관절 구축은 유발하지 않습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "당뇨 환자에서 병발한 동결견(유착성 관절낭염)의 전방향 능동·수동 관절운동 제한",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -170172,8 +170314,8 @@
     "year": "23Y",
     "q_num": 13,
     "category": "탈",
-    "theme_title": "[단독 기출] 대 남자가 갑자기 어깨를 못 드는 것을 주소로 내원했",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "광범위 회전근개 파열 환자의 능동 거상 불능: 가성마비(Pseudoparalysis)",
+    "subspecialty": "견관절",
     "stem": "60대 남자가 갑자기 어깨를 못 드는 것을 주소로 내원했다. 이학적 검사에서 수동 관절가동범위는 문제가 없었으나 도 움 없이는 전혀 거상을 하지 못하였다. 이학적 검사에서 주관 절과 팔꿈치 부위에서 저린감을 호소했다. 어깨 방사선에서 골절이나 석회는 관찰되지 않았다. 어깨 초음파에서 조그만 석회 는 관찰되었으나 회전근개파열은 없었다. 이후 시행할 검사는?",
     "images": [],
     "options": [
@@ -170234,7 +170376,9 @@
           "reason": "어깨 자체의 회전근개 파열 없이 급성 거상 불능(삼각근 마비)과 상지 저림감이 나타난 경우 C5 경추 신경근병증(경추 추간판 탈출증 등)에 의한 가성 파열(pseudo-rupture)을 가장 먼저 의심하고 경추 단순 방사선 촬영을 시행해야 합니다"
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "광범위 회전근개 파열 환자의 능동 거상 불능: 가성마비(Pseudoparalysis)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -170300,8 +170444,8 @@
     "year": "23Y",
     "q_num": 14,
     "category": "탈",
-    "theme_title": "정형외과 단독 기출: 유착성 피막염 관련 진단 및 처치",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "유착성 관절낭염(오십견)의 야간통과 관절막 팽창 주사 요법",
+    "subspecialty": "견관절",
     "stem": "47세 여자가 4개월 전부터 지속되는 어깨통증을 주소로 내원했다. 평상시엔 괜찮은데 옷을 벗거나 옆으로 잘 때 통증 으로 잠에서 깼다. 이학적 검사에서 압통은 없었고 수동굴곡 은 제한되었다. 방사선검사에서 이상소견이 관찰되지 않았다. 진단은?",
     "images": [],
     "options": [
@@ -170353,7 +170497,9 @@
           "reason": "단순 방사선 전후면 및 축상면 검사에서 회전근개 힘줄 부위에 고음영의 석회 침착 결절이 뚜렷하게 관찰되어야 확진할 수 있습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "유착성 관절낭염(오십견)의 야간통과 관절막 팽창 주사 요법",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -170411,8 +170557,8 @@
     "year": "23Y",
     "q_num": 15,
     "category": "탈",
-    "theme_title": "정형외과 단독 기출: Hill Sachs lesion 관련 진단 및 처치",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "재발성 견관절 전방 탈구와 관절와 전하방 순 파열: 방카르트 병변(Bankart Lesion)",
+    "subspecialty": "견관절",
     "stem": "18세 남자가 좌측 견관절의 재발성 탈구로 내원하였다. CT 상에서 화살표가 가리키는 병변은?",
     "images": [
       "images/정형외과/23Y_Q15_fig1.png"
@@ -170475,7 +170621,9 @@
           "reason": "하관절상완인대(IGHL)가 관절와순이 아닌 상완골 경부 부착부에서 찢어져 떨어지는 병변(Humeral Avulsion of Glenohumeral Ligament)입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "재발성 견관절 전방 탈구와 관절와 전하방 순 파열: 방카르트 병변(Bankart Lesion)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -170541,8 +170689,8 @@
     "year": "23Y",
     "q_num": 16,
     "category": "탈",
-    "theme_title": "정형외과 단독 기출: 70세 남자 환자, 외래에 며칠전 갑자기 발생한 우측 ...",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "고령 환자의 급성 고관절 통증: 대퇴골두 연골하 취약 골절 및 AVN 감별",
+    "subspecialty": "고관절",
     "stem": "70세 남자 환자, 외래에 며칠전 갑자기 발생한 우측 고 관절 통증으로 내원. 올바른 설명은? (이하사진보다 화질이 매우매우 좋지 않아 사실상 병변 알아 보기어려움. 이하는 최대한 비슷한 사진. 우측 고관절 T1에 서 저음영, T2에서 고음영.)",
     "images": [
       "images/정형외과/23Y_Q16_fig1.png",
@@ -170607,7 +170755,9 @@
           "reason": "대퇴비구충돌증후군(FAI)은 주로 젊고 활동적인 성인에서 해부학적 골 충돌 및 비구순 파열로 서서히 발생하며 노인의 급성 골수 부종 증례와는 병인이 다릅니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "고령 환자의 급성 고관절 통증: 대퇴골두 연골하 취약 골절 및 AVN 감별",
+      "subspecialty": "고관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -170673,8 +170823,8 @@
     "year": "23Y",
     "q_num": 17,
     "category": "탈",
-    "theme_title": "[단독 기출] 대퇴비구충돌증후군에 대한 설명으로 맞는 것을 고르시오",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "대퇴비구 충돌 증후군(FAI)의 Cam 및 Pincer 병변과 관절순 파열 기전",
+    "subspecialty": "고관절",
     "stem": "대퇴비구충돌증후군에 대한 설명으로 맞는 것을 고르시오",
     "images": [],
     "options": [
@@ -170735,7 +170885,9 @@
           "reason": "초기에는 활동 제한, 물리치료, 소염진통제 투여 등 비수술적 보존 요법을 우선적으로 충분히 시행하는 것이 원칙입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "대퇴비구 충돌 증후군(FAI)의 Cam 및 Pincer 병변과 관절순 파열 기전",
+      "subspecialty": "고관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -170801,8 +170953,8 @@
     "year": "23Y",
     "q_num": 18,
     "category": "탈",
-    "theme_title": "[단독 기출] 대퇴부의 전경사각을 확인하는 검사법의 이름은?",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "대퇴골 전경사각(Femoral Anteversion) 측정을 위한 Craig 이학적 검사법",
+    "subspecialty": "소아 및 고관절",
     "stem": "대퇴부의 전경사각을 확인하는 검사법의 이름은?",
     "images": [],
     "options": [
@@ -170863,7 +171015,9 @@
           "reason": "복와위에서 무릎을 수동적으로 굴곡시킬 때 골반이 들리고 동측 고관절이 굴곡되는 현상으로 대퇴직근(rectus femoris)의 단축 및 구축을 평가합니다."
         }
       ],
-      "differential_general": "22Y-39: 전경사각 증가 시 안짱걸음(toe-in gait) 발생을 묻는 임상 문항으로 출제됨."
+      "differential_general": "22Y-39: 전경사각 증가 시 안짱걸음(toe-in gait) 발생을 묻는 임상 문항으로 출제됨.",
+      "theme_title": "대퇴골 전경사각(Femoral Anteversion) 측정을 위한 Craig 이학적 검사법",
+      "subspecialty": "소아 및 고관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -170993,7 +171147,9 @@
           "reason": "대퇴골두 골괴사가 아니라 대퇴비구 충돌 증후군(FAI)이며, 초기에는 활동 제한, NSAIDs 등 보존적 치료를 우선 고려합니다."
         }
       ],
-      "differential_general": "23Y-19: 동일 방사선 사진으로 출제되어 정답 Alpha 각이 증가하였다."
+      "differential_general": "23Y-19: 동일 방사선 사진으로 출제되어 정답 Alpha 각이 증가하였다.",
+      "theme_title": "발목 염좌(Ankle Sprain)의 전거비인대(ATFL) 파열과 보존적 치료",
+      "subspecialty": "족부 및 족관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -171125,7 +171281,9 @@
           "reason": "금속(라이너) — 세라믹 표면 손상과 마모로 인해 실제 임상에서 제작·사용되지 않는 비표준 조합이나 기출에서는 금속-금속 부작용을 핵심으로 물었습니다."
         }
       ],
-      "differential_general": "23Y-20: 동일 선지 구성으로 출제되어 금속-금속의 부작용을 다룸."
+      "differential_general": "23Y-20: 동일 선지 구성으로 출제되어 금속-금속의 부작용을 다룸.",
+      "theme_title": "족저근막염(Plantar Fasciitis)의 아침 첫 발 뒤꿈치 통증",
+      "subspecialty": "족부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -171193,8 +171351,8 @@
     "year": "23Y",
     "q_num": 21,
     "category": "탈",
-    "theme_title": "[단독 기출] 대 여성이 발의 통증을 호소하여 내원하였다. 방사선 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "부주상골 증후군(Accessory Navicular)과 후경골건(Tibialis Posterior) 부착부 건초염",
+    "subspecialty": "족부 및 족관절",
     "stem": "30대 여성이 발의 통증을 호소하여 내원하였다. 방사선 검사결과 부주상골에 이상이 발견되었다. 이곳에 부착하는 근육으로 옳은 것은?",
     "images": [],
     "options": [
@@ -171255,7 +171413,9 @@
           "reason": "종아리 앞쪽 구획에서 기시하여 발등 외측의 제5중족골 기저부에 부착해 발목 족배굴곡 및 외번을 돕는 제3비골근입니다."
         }
       ],
-      "differential_general": "22Y-29: 괄호 영문 표기 없이 한글(후경골건) 단답형 선지로 출제되어 정답은 동일하게 후경골건."
+      "differential_general": "22Y-29: 괄호 영문 표기 없이 한글(후경골건) 단답형 선지로 출제되어 정답은 동일하게 후경골건.",
+      "theme_title": "부주상골 증후군(Accessory Navicular)과 후경골건(Tibialis Posterior) 부착부 건초염",
+      "subspecialty": "족부 및 족관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -171321,8 +171481,8 @@
     "year": "23Y",
     "q_num": 22,
     "category": "반짤",
-    "theme_title": "[단독 기출] 당뇨 환자에서 감각신경병에 의해 보호기능의 상실로 발",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "당뇨병성 말초신경병증과 샤르코 관절병증(Charcot Arthropathy)의 무통성 붕괴",
+    "subspecialty": "족부 및 족관절",
     "stem": "당뇨병 환자에서 감각신경병증에 의한 보호감각(Protective sensation) 상실로 인해 발에 가장 빈번하게 발생하는 대표적 병변은?",
     "images": [],
     "options": [
@@ -171383,7 +171543,9 @@
           "reason": "급격한 편심성 수축에 의한 외상성 힘줄 파열로 당뇨 감각신경병증의 전형적 족부 궤양 병변과는 무관합니다."
         }
       ],
-      "differential_general": "22Y-30: 동일 문항으로 출제되어 정답은 동일하게 족저 궤양(ulceration)."
+      "differential_general": "22Y-30: 동일 문항으로 출제되어 정답은 동일하게 족저 궤양(ulceration).",
+      "theme_title": "당뇨병성 말초신경병증과 샤르코 관절병증(Charcot Arthropathy)의 무통성 붕괴",
+      "subspecialty": "족부 및 족관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -171504,7 +171666,9 @@
           "reason": "내과 후하방 굴근지대 아래에서 후경골신경이 압박되어 발바닥 전체의 저림과 감각 이상, Tinel 징후를 보입니다."
         }
       ],
-      "differential_general": "23Y-23: 선지가 한글 '족저건막염'으로 출제되었으며 동일 정답."
+      "differential_general": "23Y-23: 선지가 한글 '족저건막염'으로 출제되었으며 동일 정답.",
+      "theme_title": "소아 쇄골 골절의 8자 붕대(Figure-of-8 Bandage) 보존적 치료",
+      "subspecialty": "소아 정형외과"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -171566,8 +171730,8 @@
     "year": "23Y",
     "q_num": 24,
     "category": "반짤",
-    "theme_title": "정형외과 과년도 빈출: 지간신경 (Interdigital nerve 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "지간신경종(Morton Neuroma)의 제2-3 중족골간 신경 포착과 Mulder 압박 징후",
+    "subspecialty": "족부 및 족관절",
     "stem": "여성이 볼이 좁고 굽이 높은 구두를 신었을 때 둘째와 셋째 발가락 사이 공간의 찌릿한 통증과 압통을 호소하였다. 족지 압박 검사에서 딸깍하는 소리와 통증이 유발되었을 때 손상된 신경 구조물은?",
     "images": [],
     "options": [
@@ -171628,7 +171792,9 @@
           "reason": "비골근 지배 및 족배부 대부분의 피부 감각을 담당합니다."
         }
       ],
-      "differential_general": "22Y-27/20Y-21: 동일 증례로 출제되어 3회 이상 반복 출제된 족부 대표 기출 문항."
+      "differential_general": "22Y-27/20Y-21: 동일 증례로 출제되어 3회 이상 반복 출제된 족부 대표 기출 문항.",
+      "theme_title": "지간신경종(Morton Neuroma)의 제2-3 중족골간 신경 포착과 Mulder 압박 징후",
+      "subspecialty": "족부 및 족관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -171698,8 +171864,8 @@
     "year": "23Y",
     "q_num": 25,
     "category": "반짤",
-    "theme_title": "[단독 기출] 급성 족관절 염좌가 생겼다. 재발을 방지하기 위해 강화",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "급성 족관절 염좌 후 재발 방지를 위한 비골근(종아리근) 강화 운동",
+    "subspecialty": "족부 및 족관절",
     "stem": "급성 족관절 염좌가 생겼다. 재발을 방지하기 위해 강화 해야 하는 근육은? (괄호 치고 영어 이름 주지 않음)",
     "images": [],
     "options": [
@@ -171760,7 +171926,9 @@
           "reason": "아킬레스건을 통해 강력한 발목 족저굴곡을 담당하는 종아리 뒤쪽 근육으로, 발목 외측 염좌의 재발 방지를 위한 주된 강화 대상이 아닙니다."
         }
       ],
-      "differential_general": "22Y-28: 동일 문항으로 출제되어 정답은 동일하게 비골근."
+      "differential_general": "22Y-28: 동일 문항으로 출제되어 정답은 동일하게 비골근.",
+      "theme_title": "급성 족관절 염좌 후 재발 방지를 위한 비골근(종아리근) 강화 운동",
+      "subspecialty": "족부 및 족관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -171896,7 +172064,9 @@
           "reason": "비만은 기계적 하중을 증가시킬 수 있으나 국소 골절단 혈행 부전 자체의 직접 원인은 아닙니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "척추전방전위증(Spondylolisthesis)의 협부 결손(Pars Defect)",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -171964,8 +172134,8 @@
     "year": "23Y",
     "q_num": 27,
     "category": "탈",
-    "theme_title": "[단독 기출] 다음 중, 부목 고정의 효과로 가장 적절하지 않은 것은?",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "정형외과 응급 부목 고정(Splinting)의 원칙과 과도한 압박에 따른 합병증 예방",
+    "subspecialty": "외상 및 골절학",
     "stem": "다음 중, 부목 고정의 효과로 가장 적절하지 않은 것은?",
     "images": [],
     "options": [
@@ -172026,7 +172196,9 @@
           "reason": "골절부 안정화로 연부조직 추가 혈종 형성을 억제할 수는 있으나, 부목 자체가 근막 내압 상승을 막지 못하며 과도한 압박 시 악화될 수 있어 주의해야 합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "정형외과 응급 부목 고정(Splinting)의 원칙과 과도한 압박에 따른 합병증 예방",
+      "subspecialty": "외상 및 골절학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -172092,8 +172264,8 @@
     "year": "23Y",
     "q_num": 28,
     "category": "탈",
-    "theme_title": "[단독 기출] 다음 중 IM nailing으로 처치하기 가장 적절한 골절은 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "대퇴골 간부 골절(Femur Shaft Fracture)의 표준 수술법: 골수강내 금속정 고정술(IM Nailing)",
+    "subspecialty": "고관절 / 대퇴 외상",
     "stem": "다음 중 IM nailing으로 처치하기 가장 적절한 골절은 무엇인가?",
     "images": [],
     "options": [
@@ -172145,7 +172317,9 @@
           "reason": "경사 골절은 활주 전위의 위험이 있어 단순 골수정 단독보다 연동 나사못이나 해부학적 금속판 고정이 흔히 선택됩니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "대퇴골 간부 골절(Femur Shaft Fracture)의 표준 수술법: 골수강내 금속정 고정술(IM Nailing)",
+      "subspecialty": "고관절 / 대퇴 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -172203,8 +172377,8 @@
     "year": "23Y",
     "q_num": 29,
     "category": "탈",
-    "theme_title": "[단독 기출] 사진에서 나타나는 골절 치유 유형과 가장 거리가 먼 것",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "압박 금속판 고정에 의한 일차성 골유합(Direct Healing)과 가골 미형성 특징",
+    "subspecialty": "외상 및 골절학",
     "stem": "사진에서 나타나는 골절 치유 유형과 가장 거리가 먼 것은 무엇인가?(일차성 골유합)",
     "images": [],
     "options": [
@@ -172265,7 +172439,9 @@
           "reason": "절대적 안정 하에 진행되는 일차성 골유합에서는 방사선상 외가골(external callus) 형성이 관찰되지 않는 것이 특징입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "압박 금속판 고정에 의한 일차성 골유합(Direct Healing)과 가골 미형성 특징",
+      "subspecialty": "외상 및 골절학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -172331,8 +172507,8 @@
     "year": "23Y",
     "q_num": 30,
     "category": "짤",
-    "theme_title": "만성 골수염(Chronic Osteomyelitis)의 부골(Sequestrum)과 골포(Involucrum)",
-    "subspecialty": "감염 질환",
+    "theme_title": "골절의 직접유합(Direct Bone Healing)과 압박 금속 고정판(Compression Plate)",
+    "subspecialty": "골절 치료학",
     "stem": "골절의 치료 방법 중 다음과 같이 direct bone healing을 유도하는 치료 방법은?",
     "images": [
       "images/정형외과/23Y_Q30_fig1.png"
@@ -172386,7 +172562,9 @@
           "reason": "골절부 골막 혈류를 보존하며 다리를 놓듯 고정하는 생물학적 고정법(MIPO)으로 가골 형성에 의한 간접 골유합을 목표로 합니다."
         }
       ],
-      "differential_general": "23Y-30: 복기본에 골수내 금속정으로 오표기되어 있으나 직접 골유합(direct bone healing)은 압박 금속판 고정의 고유 기전임."
+      "differential_general": "23Y-30: 복기본에 골수내 금속정으로 오표기되어 있으나 직접 골유합(direct bone healing)은 압박 금속판 고정의 고유 기전임.",
+      "theme_title": "골절의 직접유합(Direct Bone Healing)과 압박 금속 고정판(Compression Plate)",
+      "subspecialty": "골절 치료학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -172449,8 +172627,8 @@
     "year": "23Y",
     "q_num": 31,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: Type 3b 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "개방성 골절의 Gustilo-Anderson 분류: 피부 결손으로 뼈를 덮지 못하는 Type 3B",
+    "subspecialty": "외상 및 골절학",
     "stem": "다음 외상의 Gustilo Anderson type은? 혈관 손상은 없고 피부 덮을 수 없었음",
     "images": [
       "images/정형외과/23Y_Q31_fig1.png",
@@ -172514,7 +172692,9 @@
           "reason": "연부조직 손상 정도와 무관하게 주요 동맥 손상이 동반되어 사지 구제를 위한 응급 혈관 재건술이 필수적인 경우입니다."
         }
       ],
-      "differential_general": "22Y-45: 동일 지문으로 출제되어 정답은 동일하게 Type 3b."
+      "differential_general": "22Y-45: 동일 지문으로 출제되어 정답은 동일하게 Type 3b.",
+      "theme_title": "개방성 골절의 Gustilo-Anderson 분류: 피부 결손으로 뼈를 덮지 못하는 Type 3B",
+      "subspecialty": "외상 및 골절학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -172582,8 +172762,8 @@
     "year": "23Y",
     "q_num": 32,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 심부 조직 배양 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "정형외과 수술 부위 감염(SSI)의 원인균 동정을 위한 심부 조직 생검 배양",
+    "subspecialty": "관절 및 골 감염",
     "stem": "경골 골절 수술 3일 뒤에 수술 부위에 감염이 생겼다. 배농루에서 농도 나왔다. 원인균을 알기 위해 배양해야 할 부 위는?",
     "images": [],
     "options": [
@@ -172644,7 +172824,9 @@
           "reason": "표재성 누공으로 배출된 농은 2차 오염 위험이 크며, 세척 전 심부에서 직접 흡인한 검체나 심부 조직 생검이 우선됩니다."
         }
       ],
-      "differential_general": "22Y-48: 동일 지문 및 선지로 출제되어 정답은 동일하게 심부 조직 배양."
+      "differential_general": "22Y-48: 동일 지문 및 선지로 출제되어 정답은 동일하게 심부 조직 배양.",
+      "theme_title": "정형외과 수술 부위 감염(SSI)의 원인균 동정을 위한 심부 조직 생검 배양",
+      "subspecialty": "관절 및 골 감염"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -172774,7 +172956,9 @@
           "reason": "조직 결손 없이 감염 위험만 있는 창상에서 수일간 소독 후 닫아주는 방법이며, 2×2 cm의 실질적 결손이 있는 부위는 당겨서 봉합할 수 없습니다."
         }
       ],
-      "differential_general": "21Y-21: 복기본에 부분층 피부 이식(STSG)으로 표시되었으나 수부 결손에는 구축이 적은 전층 피부 이식(FTSG)이 표준임."
+      "differential_general": "21Y-21: 복기본에 부분층 피부 이식(STSG)으로 표시되었으나 수부 결손에는 구축이 적은 전층 피부 이식(FTSG)이 표준임.",
+      "theme_title": "거대세포종(Giant Cell Tumor)의 골단부 비누거품(Soap Bubble) 양상",
+      "subspecialty": "골종양"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -172848,8 +173032,8 @@
     "year": "23Y",
     "q_num": 34,
     "category": "반짤",
-    "theme_title": "슬개건염(Jumper's Knee)의 슬개골 하극 압통",
-    "subspecialty": "슬관절",
+    "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+    "subspecialty": "슬관절 외상",
     "stem": "다음 관절경 사진에서 보이는 구조물 및 모식도에서 표 시된 구조물로 알맞은 것은?",
     "images": [
       "images/정형외과/23Y_Q34_fig1.png",
@@ -172914,7 +173098,9 @@
           "reason": "경골의 과도한 내회전을 억제하는 외측 보조 인대로, ACL 파열 시 Segond 골절이나 전외측 회전 불안정성(pivot shift)과 연관됩니다."
         }
       ],
-      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음."
+      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음.",
+      "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -173046,7 +173232,9 @@
           "reason": "반월상 연골판 파열은 관절선 통증과 잠김 증상이 특징이며 관상면/시상면 MRI에서 연골판 내 고신호 강도로 확인됩니다."
         }
       ],
-      "differential_general": "23Y-35: 복기본에 ACL 파열로 잘못 표기되었으나 MRI 소견상 슬개골 외측 탈구에 의한 MPFL 손상이 명백함."
+      "differential_general": "23Y-35: 복기본에 ACL 파열로 잘못 표기되었으나 MRI 소견상 슬개골 외측 탈구에 의한 MPFL 손상이 명백함.",
+      "theme_title": "석회성 건염의 급성 흡수기 극심한 통증과 초음파하 주사 흡인 치료",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -173108,8 +173296,8 @@
     "year": "23Y",
     "q_num": 36,
     "category": "반짤",
-    "theme_title": "슬개건염(Jumper's Knee)의 슬개골 하극 압통",
-    "subspecialty": "슬관절",
+    "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+    "subspecialty": "슬관절 외상",
     "stem": "다음과 같은 검사에서 양성 (no end point, mushroom)이었다. 원인이 되는 구조물은?",
     "images": [
       "images/정형외과/23Y_Q36_fig1.png",
@@ -173173,7 +173361,9 @@
           "reason": "경골의 과도한 내회전을 억제하는 외측 보조 인대로, ACL 파열 시 Segond 골절이나 전외측 회전 불안정성(pivot shift)과 연관됩니다."
         }
       ],
-      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음."
+      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음.",
+      "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -173315,7 +173505,9 @@
           "reason": "전방십자인대 손상에 동반되는 전외측 회전 불안정성을 일으키는 구조물로 피벗 시프트 검사(pivot shift test)에서 정복음이 유발됩니다."
         }
       ],
-      "differential_general": "23Y-37: 동일한 이학적 검사(Lachman test) 사진과 선지로 출제되어 정답은 ①(ACL rupture)."
+      "differential_general": "23Y-37: 동일한 이학적 검사(Lachman test) 사진과 선지로 출제되어 정답은 ①(ACL rupture).",
+      "theme_title": "드퀘르벵 건초염(De Quervain Disease)의 핑켈스타인 검사(Finkelstein Test)",
+      "subspecialty": "수부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -173384,8 +173576,8 @@
     "year": "23Y",
     "q_num": 38,
     "category": "짤",
-    "theme_title": "[단독 기출] 다음 중 슬관절 내 활액 양을 판별하기 위한 신체 진찰",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "슬관절 내 관절액 삼출 평가: 파동 검사(Fluctuation Test) 및 슬개골 도약 검사",
+    "subspecialty": "슬관절",
     "stem": "다음 중 슬관절 내 활액 양을 판별하기 위한 신체진찰 로 옳은 것은?",
     "images": [
       "images/정형외과/23Y_Q38_fig1.png",
@@ -173452,7 +173644,9 @@
       "title": "[단독 기출] 다음 중 슬관절 내 활액 양을 판별하기 위한 신체 진찰",
       "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
       "trigger": "【[단독 기출] 다음 중 슬관절 내 활액 양을 판별하기 위한 신체 진찰 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: • [슬관절 신체진찰 핵심]:\n  슬관절 내 관절액(Joint effusion)의 존재 및 저류량을 확인하는 대표적인 신체진찰은 **무릎뼈 쓸림/부유 검사(Pat.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 무릎뼈 부유/쓸림 검사 (Patellar tap test / Ballottement test).\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
-      "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계"
+      "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
+      "theme_title": "슬관절 내 관절액 삼출 평가: 파동 검사(Fluctuation Test) 및 슬개골 도약 검사",
+      "subspecialty": "슬관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -173520,8 +173714,8 @@
     "year": "23Y",
     "q_num": 39,
     "category": "탈",
-    "theme_title": "정형외과 단독 기출: 21세 남성이 무릎이 아파서 내원하였다...",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "점프 운동 선수에서 발생하는 슬개건염(Jumper's Knee)과 슬개골 하극 압통",
+    "subspecialty": "슬관절",
     "stem": "21세 남성이 무릎이 아파서 내원하였다. 배구선수로 활 동하고 있었고 평소에 앉았다가 점프하는 동작을 많이 한다 고 하였다. 8개월 전부터 시작되었고, 증상이 점점 심해져서 퍼포먼스가 떨어져 선수로 활동하기 힘들어져 코치와 함께 내원하였다. 검사결과는 다음과 같았다. 진단은? 관절가동범위 : 0도 ~ 130도 좌측 무릎 외측 직하방 압통 McMurray test (-) Anterior drawer test (-), Posterior drawer test (-), Pivot shift test (-), Varus/Valgus stress test (-/-),",
     "images": [],
     "options": [
@@ -173582,7 +173776,9 @@
           "reason": "무릎을 꿇는 자세를 반복할 때 슬개골 바로 앞쪽 점액낭에 체액이 차고 부어오르는 질환으로, 외측 하방 압통과는 거리가 멉니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "점프 운동 선수에서 발생하는 슬개건염(Jumper's Knee)과 슬개골 하극 압통",
+      "subspecialty": "슬관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -173648,8 +173844,8 @@
     "year": "23Y",
     "q_num": 40,
     "category": "탈",
-    "theme_title": "[단독 기출] Osteoarthritis를 경한 순서대로 배열한 것을 고르시오. ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "Kellgren-Lawrence(K-L) 분류법에 따른 퇴행성 슬관절염(OA)의 방사선학적 병기",
+    "subspecialty": "슬관절",
     "stem": "Osteoarthritis를 경한 순서대로 배열한 것을 고르시오. A B C D",
     "images": [
       "images/정형외과/23Y_Q40_fig1.png",
@@ -173715,7 +173911,9 @@
           "reason": "관절강이 완전히 소실된 가장 중증 단계인 D(Grade 4)부터 시작하여 중증도 순서가 정반대입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "Kellgren-Lawrence(K-L) 분류법에 따른 퇴행성 슬관절염(OA)의 방사선학적 병기",
+      "subspecialty": "슬관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -173781,8 +173979,8 @@
     "year": "23Y",
     "q_num": 41,
     "category": "탈",
-    "theme_title": "정형외과 단독 기출: 인공관절 치환술 관련 진단 및 처치",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "고령 말기 퇴행성 슬관절염의 외반/내반 변형과 인공 슬관절 전치환술(TKA)",
+    "subspecialty": "슬관절",
     "stem": "72세 여자 환자가 2년 전부터 시작된 무릎 통증으로 내원하였다. 활동을 할 경우 통증이 악화되어 멈춰서 쉬어야 했 다고 하였다. 무릎이 점점 더 바깥쪽으로 벌어진다고 하였다. 보존적 치료에도 호전이 없다고 하였다. X-ray 사진 및 시진 소견은 다음과 같다. 적절한 치료는? (사진은 KMLE에서 가 져왔습니다)",
     "images": [
       "images/정형외과/23Y_Q41_fig1.png",
@@ -173837,7 +174035,9 @@
           "reason": "70세 이상의 고령 환자에서 보존적 치료에 반응하지 않는 심한 말기 퇴행성 관절염(Kellgren-Lawrence grade 4)의 통증 완화와 기능 회복을 위한 표준 수술법입니다"
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "고령 말기 퇴행성 슬관절염의 외반/내반 변형과 인공 슬관절 전치환술(TKA)",
+      "subspecialty": "슬관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -173895,8 +174095,8 @@
     "year": "23Y",
     "q_num": 42,
     "category": "짤",
-    "theme_title": "[단독 기출] 반월연골판에 대한 설명으로 옳은 것은?",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "슬관절 반월연골판(Meniscus)의 혈관 분포(Red-Red zone)와 봉합술 적응증",
+    "subspecialty": "슬관절",
     "stem": "반월연골판에 대한 설명으로 옳은 것은?",
     "images": [],
     "options": [
@@ -173957,7 +174157,9 @@
           "reason": "젊고 활동적인 환자에서 혈류가 양호한 부위의 종파열 등 봉합 가능한 파열은 골관절염 예방을 위해 절제술보다 봉합술(repair)을 우선 고려합니다"
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "슬관절 반월연골판(Meniscus)의 혈관 분포(Red-Red zone)와 봉합술 적응증",
+      "subspecialty": "슬관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -174025,8 +174227,8 @@
     "year": "23Y",
     "q_num": 43,
     "category": "짤",
-    "theme_title": "골다공증성 척추 압박골절의 경피적 척추성형술(Vertebroplasty)",
-    "subspecialty": "척추 질환",
+    "theme_title": "경골 고평부 골절(Tibial Plateau Fracture)의 관혈적 정복 및 내고정(ORIF)",
+    "subspecialty": "슬관절 / 하지 외상",
     "stem": "다음 X-ray 영상과 같이 골절되었다. 적절한 치료는? (Proximal tibia 골절이었음. Fibula는 문제 없었음. 비슷한 사진 구글링)",
     "images": [
       "images/정형외과/23Y_Q43_fig1.png"
@@ -174080,7 +174282,9 @@
           "reason": "간부 골절에서는 표준적이나, 관절내 함몰 골편의 직접적 시각화 및 해부학적 관절면 정복이 필요한 고평부 골절 단독 처치로는 한계가 있습니다."
         }
       ],
-      "differential_general": "22Y-06: 경골 고평부 관절면 함몰 골절 증례로 동일 출제됨."
+      "differential_general": "22Y-06: 경골 고평부 관절면 함몰 골절 증례로 동일 출제됨.",
+      "theme_title": "경골 고평부 골절(Tibial Plateau Fracture)의 관혈적 정복 및 내고정(ORIF)",
+      "subspecialty": "슬관절 / 하지 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -174198,7 +174402,9 @@
           "reason": "관절 연골 간 접촉이 일부 유지된 불완전 탈구(아탈구)를 의미하며, 본 영상처럼 관절면 접촉이 완전히 소실된 완전 탈구와 감별됩니다."
         }
       ],
-      "differential_general": "23Y-44: 동일한 측면 방사선 사진으로 출제되어 정답 Anterior knee dislocation."
+      "differential_general": "23Y-44: 동일한 측면 방사선 사진으로 출제되어 정답 Anterior knee dislocation.",
+      "theme_title": "주관절 외측상과염의 유발 검사: 코젠 검사(Cozen Test)",
+      "subspecialty": "주관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -174325,7 +174531,9 @@
           "reason": "만성 신부전 환자에서 치명적인 부정맥을 유발하는 고칼륨혈증을 예방하기 위한 식이 조절법입니다."
         }
       ],
-      "differential_general": "23Y-45: 복기본에 정답이 ① 금연으로 잘못 표기되어 있으나 퇴행성 관절염의 표준 비약물 치료는 체중감량임.\n20Y-22: 같은 엑스레이에서 진단명을 묻는 문항으로 출제되어 정답 OA(퇴행성 관절염)."
+      "differential_general": "23Y-45: 복기본에 정답이 ① 금연으로 잘못 표기되어 있으나 퇴행성 관절염의 표준 비약물 치료는 체중감량임.\n20Y-22: 같은 엑스레이에서 진단명을 묻는 문항으로 출제되어 정답 OA(퇴행성 관절염).",
+      "theme_title": "듀피트렌 구축(Dupuytren Contracture)의 수장건막 결절 및 굴곡 변형",
+      "subspecialty": "수부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -174459,7 +174667,9 @@
           "reason": "상·하위 운동신경원이 함께 침범되며, 혀의 섬섬수축(fasciculation)과 연하 곤란 등 구음·연하 장애가 흔히 동반되나 본 증례는 혀 이상이 없습니다."
         }
       ],
-      "differential_general": "23Y-46: 동일 증례와 선지로 출제되어 정답 경추 척수증."
+      "differential_general": "23Y-46: 동일 증례와 선지로 출제되어 정답 경추 척수증.",
+      "theme_title": "후방십자인대(PCL) 파열의 후방 전위 검사와 슬와근 손상",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -174527,8 +174737,8 @@
     "year": "23Y",
     "q_num": 47,
     "category": "탈",
-    "theme_title": "정형외과 단독 기출: 전방 척추 추간판 절제술 및 유합술 관련 진단 및 처치",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "경추 척수증(Cervical Myelopathy)의 보행 장애와 상위운동신경원 징후(Hoffman/IRR)",
+    "subspecialty": "척추 질환",
     "stem": "65세 남성이 1년 전 발생한 보행장애로 내원하였다. Hoffman’s sign과 inverted radial reflex가 양성이었다. 경추 방사선 영상에서 심한 후만증이 나타났고 C4-5-6 level에서 척수가 눌리는 소견이 있었다. 적절한 치료는?",
     "images": [],
     "options": [
@@ -174589,7 +174799,9 @@
           "reason": "척수증은 척수가 구조적으로 눌리는 비가역적 진행성 질환이므로 보존적 치료로 시간을 지체하면 영구적 하지 마비가 남습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "경추 척수증(Cervical Myelopathy)의 보행 장애와 상위운동신경원 징후(Hoffman/IRR)",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -174655,8 +174867,8 @@
     "year": "23Y",
     "q_num": 48,
     "category": "탈",
-    "theme_title": "[단독 기출] Middle colume에 해당하는 것은?",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "척추 흉요추 골절의 Denis 3열 분류 체계: 중간열(Middle Column)의 해부학",
+    "subspecialty": "척추 질환",
     "stem": "Middle colume에 해당하는 것은?",
     "images": [],
     "options": [
@@ -174717,7 +174929,9 @@
           "reason": "척수와 마미 신경총이 주행하는 해부학적 공간 자체를 의미하며, 척추 손상의 기계적 안정성을 평가하는 Denis의 3주 구조물 분류에 속하지 않습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "척추 흉요추 골절의 Denis 3열 분류 체계: 중간열(Middle Column)의 해부학",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -174783,8 +174997,8 @@
     "year": "23Y",
     "q_num": 49,
     "category": "탈",
-    "theme_title": "[단독 기출] 경추 외상과 신경 이상이 의심되는 환자에서 가장 먼저 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "경추 외상 및 신경 손상 의심 환자의 초기 응급 영상: 경추 측면 단순 방사선 검사",
+    "subspecialty": "척추 질환 / 외상",
     "stem": "경추 외상과 신경 이상이 의심되는 환자에서 가장 먼저 촬영해야 할 영상은?",
     "images": [],
     "options": [
@@ -174845,7 +175059,9 @@
           "reason": "spine cross table lateral view — 급성 경추 손상 의심 환자에서 환자를 움직이지 않고 침상에서 즉각 불안정성 골절/탈구를 스크리닝하는 가장 표준적인 1차 검사입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "경추 외상 및 신경 손상 의심 환자의 초기 응급 영상: 경추 측면 단순 방사선 검사",
+      "subspecialty": "척추 질환 / 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -174911,8 +175127,8 @@
     "year": "23Y",
     "q_num": 50,
     "category": "탈",
-    "theme_title": "[단독 기출] C1-2 유합술을 시행한 후 가장 제한되는 운동은?",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "환축추 유합술(C1-C2 Fusion) 시행 후 가장 심각하게 제한되는 경추 회전 운동",
+    "subspecialty": "척추 질환",
     "stem": "C1-2 유합술을 시행한 후 가장 제한되는 운동은?",
     "images": [],
     "options": [
@@ -174973,7 +175189,9 @@
           "reason": "경추의 외측 굴곡(측굴)은 주로 C2 이하의 중하부 경추 후관절 및 구추관절(Luschka 관절)의 움직임에 의해 이루어집니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "환축추 유합술(C1-C2 Fusion) 시행 후 가장 심각하게 제한되는 경추 회전 운동",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -175101,7 +175319,9 @@
           "reason": "척수 원추부(T12~L2 척추 높이) 손상으로 대칭적 안장 감각 상실과 조기 괄약근 기능 부전이 나타나며 구해면체 반사가 통상 소실됩니다."
         }
       ],
-      "differential_general": "23Y-51: 불완전 척수 손상으로 동일 출제됨. 20Y-03 복기본에는 완전 척수 손상 오기가 있었음."
+      "differential_general": "23Y-51: 불완전 척수 손상으로 동일 출제됨. 20Y-03 복기본에는 완전 척수 손상 오기가 있었음.",
+      "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test)",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -175233,7 +175453,9 @@
           "reason": "복와위에서 무릎을 굴곡시키고 고관절을 신전시켜 L2~L4 대퇴신경근의 압박이나 신경병증을 유발하는 검사입니다."
         }
       ],
-      "differential_general": "23Y-52: 동일한 증례와 선지로 출제되어 정답 Bowstring test."
+      "differential_general": "23Y-52: 동일한 증례와 선지로 출제되어 정답 Bowstring test.",
+      "theme_title": "반월상 연골판 파열(Meniscus Tear)의 맥머레이 검사(McMurray Test)",
+      "subspecialty": "슬관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -175305,8 +175527,8 @@
     "year": "23Y",
     "q_num": 53,
     "category": "짤",
-    "theme_title": "[단독 기출] 다음 중 신경과 근육을 연결한 것으로 옳지 않은 것은?",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "상하지 말초신경과 고유 지배 근육 매핑: 요골신경, 정중신경, 비골신경",
+    "subspecialty": "말초신경 손상",
     "stem": "다음 중 신경과 근육을 연결한 것으로 옳지 않은 것은?",
     "images": [],
     "options": [
@@ -175367,7 +175589,9 @@
           "reason": "S1 신경근은 비복근과 가자미근(Gastrocnemius, Soleus)을 지배하여 발목의 족저굴곡(Ankle plantarflexion)을 담당합니다. (O)"
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "상하지 말초신경과 고유 지배 근육 매핑: 요골신경, 정중신경, 비골신경",
+      "subspecialty": "말초신경 손상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -175435,8 +175659,8 @@
     "year": "23Y",
     "q_num": 54,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 6-C7 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "경추 추간판 탈출증(C6-C7 HNP)과 C7 신경근 압박(삼두근 약화 및 중지 감각 저하)",
+    "subspecialty": "척추 질환",
     "stem": "좌측 상지에 뻗치는 통증으로 내원하였다. 세번째 손가락 에 감각이 없었다. 이학적 검사에서 주관절 신전이 안되고, 삼두근 반사가 저하되었다. 문제가 생긴 위치는?",
     "images": [],
     "options": [
@@ -175497,7 +175721,9 @@
           "reason": "T1 — C8 신경근 압박 부위로 4·5수지 감각 저하와 수지 굴곡근 및 골간근 약화(손가락 쥐는 힘 감소)를 초래합니다."
         }
       ],
-      "differential_general": "21Y-06: 동일 증례로 출제되었으며 당시 선지 번호는 ③(C6-C7)."
+      "differential_general": "21Y-06: 동일 증례로 출제되었으며 당시 선지 번호는 ③(C6-C7).",
+      "theme_title": "경추 추간판 탈출증(C6-C7 HNP)과 C7 신경근 압박(삼두근 약화 및 중지 감각 저하)",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -175627,7 +175853,9 @@
           "reason": "S1 — 후외측 탈출 시 외측 주행 S1 신경근을 눌러 동일 소견을 유발할 수 있으나, 본 증례는 중심 탈출과 척수 높이 기전을 묻는 문항으로 출제되었습니다."
         }
       ],
-      "differential_general": "23Y-55/21Y-08: 기출 복기본에 중심 추간판 탈출증으로 L1-L2(원추부 천추 분절 압박)가 동일하게 정답 처리됨."
+      "differential_general": "23Y-55/21Y-08: 기출 복기본에 중심 추간판 탈출증으로 L1-L2(원추부 천추 분절 압박)가 동일하게 정답 처리됨.",
+      "theme_title": "퇴행성 슬관절염(OA)의 방사선 소견 및 체중부하 단순 X선",
+      "subspecialty": "슬관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -175697,8 +175925,8 @@
     "year": "23Y",
     "q_num": 56,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 신경성 간헐적 파행 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "척추관 협착증(Spinal Stenosis)의 신경인성 간헐적 파행과 요추 굴곡 시 호전",
+    "subspecialty": "척추 질환",
     "stem": "척추관 협착증의 증상으로 ‘주로 양측하지의 통증, 저린 감, 근력약화가 나타나고 통증은 요배부, 둔부에서 시작하여 무릎 쪽으로 퍼지는 양상임. 통증이 걷는 중에 발생하여 앉거 나 쉬면 나아지는 것’을 이르는 말은?",
     "images": [],
     "options": [
@@ -175759,7 +175987,9 @@
           "reason": "말초동맥질환(PAD)에 의해 발생하며 허리를 굽히지 않고 서서 가만히 쉬기만 해도 수 분 내에 증상이 호전되고 족배동맥 맥박이 소실됩니다."
         }
       ],
-      "differential_general": "21Y-09/20Y-17: 3회 반복 출제된 척추관 협착증의 대표적인 핵심 증상 정의 문항."
+      "differential_general": "21Y-09/20Y-17: 3회 반복 출제된 척추관 협착증의 대표적인 핵심 증상 정의 문항.",
+      "theme_title": "척추관 협착증(Spinal Stenosis)의 신경인성 간헐적 파행과 요추 굴곡 시 호전",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -175829,8 +176059,8 @@
     "year": "23Y",
     "q_num": 57,
     "category": "반짤",
-    "theme_title": "[단독 기출] 다음 검사 양성인 사람에게 양성일 확률이 낮은 검사는?",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "요추 추간판 탈출증의 감별 검사: 하지직거상검사(SLR)와 대퇴신경신장검사(FST)",
+    "subspecialty": "척추 질환",
     "stem": "다음 검사 양성인 사람에게 양성일 확률이 낮은 검사는?",
     "images": [
       "images/정형외과/23Y_Q57_fig1.png"
@@ -175893,7 +176123,9 @@
           "reason": "사진에 제시된 하지직거상 검사(SLRT)의 동의어로, 앙와위에서 무릎을 편 채 다리를 들어 올려 요추 신경근(L4~S1) 자극 증상을 유발하는 검사입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "요추 추간판 탈출증의 감별 검사: 하지직거상검사(SLR)와 대퇴신경신장검사(FST)",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -175961,8 +176193,8 @@
     "year": "23Y",
     "q_num": 58,
     "category": "짤",
-    "theme_title": "[단독 기출] 경추 척수증과 디스크 탈출증 중 디스크 탈출을 더 시사",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "경추 척수증(Myelopathy)과 경추 신경근병증(Radiculopathy)의 감별 진단",
+    "subspecialty": "척추 질환",
     "stem": "경추 척수증과 디스크 탈출증 중 디스크 탈출을 더 시사 하는 것은?",
     "images": [],
     "options": [
@@ -176023,7 +176255,9 @@
           "reason": "요골 경상돌기 타진 시 완관절 신전 대신 손가락 굴곡이 일어나는 반사 역전 현상으로 경추 척수증의 대표적 반사 이상입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "경추 척수증(Myelopathy)과 경추 신경근병증(Radiculopathy)의 감별 진단",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -176091,8 +176325,8 @@
     "year": "22Y",
     "q_num": 1,
     "category": "탈",
-    "theme_title": "[단독 기출] 변형, 22Y 계통) 53 세 여성 6 개월 전부터 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "주관절 외측상과염(Tennis Elbow)의 손목 저항 신전 검사(Cozen Test)",
+    "subspecialty": "주관절",
     "stem": "53세 여성이 6개월 전부터 발생한 주관절 외측 통증을 주소로 내원하였다. 주먹을 쥐거나 손목을 저항에 대항하여 신전할 때 통증이 심해졌으며, 주관절 외측상과 부위에 뚜렷한 압통이 있었다. 손상된 주된 원인 힘줄은?",
     "images": [],
     "options": [
@@ -176153,7 +176387,9 @@
           "reason": "수근관의 지붕을 형성하는 섬유성 구조물로 수근관 증후군과 관련된 인대입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "주관절 외측상과염(Tennis Elbow)의 손목 저항 신전 검사(Cozen Test)",
+      "subspecialty": "주관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -176219,8 +176455,8 @@
     "year": "22Y",
     "q_num": 2,
     "category": "탈",
-    "theme_title": "[단독 기출] 상지 골절 중 가장 흔한 골절은? ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "성인 상지 골절 중 가장 흔한 원위 요골 골절(Colles Fracture)의 임상 특징",
+    "subspecialty": "수부 및 완관절",
     "stem": "성인의 상지 골절 중 일상생활 및 낙상 사고 시 가장 흔하게 발생하는 골절은?",
     "images": [],
     "options": [
@@ -176281,7 +176517,9 @@
           "reason": "젊은 활동성 성인에서 호발하는 수근골 다발 골절이나 전체 상지 골절 빈도에서는 원위 요골 골절이 압도적 1위입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "성인 상지 골절 중 가장 흔한 원위 요골 골절(Colles Fracture)의 임상 특징",
+      "subspecialty": "수부 및 완관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -176347,8 +176585,8 @@
     "year": "22Y",
     "q_num": 3,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 손목 터널 증후군에 대해서 맞는 것은? 아침에 저린감이...",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "수근관 증후군(Carpal Tunnel Syndrome)의 정중신경 야간 저림과 Phalen 검사",
+    "subspecialty": "수부 및 완관절",
     "stem": "손목 터널 증후군에 대해서 맞는 것은? 아침에 저린감이 더 심하고 손목이 부어 잘",
     "images": [],
     "options": [
@@ -176368,7 +176606,9 @@
       "trigger": "【정형외과 과년도 빈출: 손목 터널 증후군에 대해서 맞는 것은? 아침에 저린감이... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: • 6개년 중 2회 출제 (23Y-04, 22Y-03)\n• 임상 증례 요약: 손목 터널 증후군(Carpal Tunnel Syndrome, CTS)에 대해 옳은 설.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): [23Y Q04 & 22Y Q03] 수근관 증후군 (야간통 악화, 1~3수지 및 4수지 요측 저림, Phalen/Tinel 양성).\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "22Y-03: 선지 5개가 동일하게 출제되었으며 동일하게 ①이 정답 선지로 지정됨."
+      "differential_general": "22Y-03: 선지 5개가 동일하게 출제되었으며 동일하게 ①이 정답 선지로 지정됨.",
+      "theme_title": "수근관 증후군(Carpal Tunnel Syndrome)의 정중신경 야간 저림과 Phalen 검사",
+      "subspecialty": "수부 및 완관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -176395,8 +176635,8 @@
     "year": "22Y",
     "q_num": 4,
     "category": "탈",
-    "theme_title": "[단독 기출] 여성 환자가 4 개월 간 좌측 주관절 및 상완부 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "주관절 외측 통증 감별: 외측상과염 vs 요골관 증후군(Radial Tunnel Syndrome)",
+    "subspecialty": "주관절 / 신경",
     "stem": "여성 환자가 4개월간 좌측 주관절 및 상완부 통증을 호소하였다. 외측상과(Lateral epicondyle) 자체에는 압통이 없었으나 원위부 3~4cm 부위에 압통이 있었으며, 저항성 중지 신전 시 주관절 외측 통증이 악화되었다. 요골신경의 후골간신경(PIN)이 주관절 주위에서 가장 빈번하게 포착(Entrapment)되는 해부학적 구조물은?",
     "images": [],
     "options": [
@@ -176457,7 +176697,9 @@
           "reason": "회외근 원위부 출구는 신경이 근육을 빠져나오는 부위로 근위부 궁보다 압박 발생률이 낮습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "주관절 외측 통증 감별: 외측상과염 vs 요골관 증후군(Radial Tunnel Syndrome)",
+      "subspecialty": "주관절 / 신경"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -176523,8 +176765,8 @@
     "year": "22Y",
     "q_num": 5,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: (19Y) 30 세 여성이 요골 경상돌기 주위의 통증으...",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "드퀘르벵 건초염(De Quervain)의 수유부 요골 경상돌기 통증과 Finkelstein 검사",
+    "subspecialty": "수부 및 완관절",
     "stem": "(19Y) 30 세 여성이 요골 경상돌기 주위의 통증으로 내원하였다. 2 개월 전 출산하였고 최근 수유 중이라고 하였으며, 다음 그림과 같이 엄지를 잡고 당기면서 손 전체를 척측으로 구부리게 할 때 손목의 요측에 통증이 갑자기 증가하였다. 설명으로 옳은 것은?",
     "images": [],
     "options": [],
@@ -176538,7 +176780,9 @@
       "trigger": "【정형외과 과년도 빈출: (19Y) 30 세 여성이 요골 경상돌기 주위의 통증으... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 기준 지표: 출산 후 수유 여성+요골 경상돌기 통증+엄지 내전 척측 굴곡 시 통증(Finkelstein 양성) → 드퀘르벵 건초염 ① 국소 건초 내 스테로이드 주사를 자주 실시하는 것이 좋다 — 단기 통증 완화에 유효하나 반복 주사 시 피하지방 위축, 피부 탈색, 힘줄 파열 위험이 높아 권장되지 않습니다.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): [23Y Q02 & 22Y Q05] 드퀘르벵 건초염 (De Quervain tenosynovitis) / APL & EPB 이환.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "22Y-05: 19Y 기출 표기와 함께 동일한 증례(드퀘르벵 건초염)로 출제되어 정답 원리 동일."
+      "differential_general": "22Y-05: 19Y 기출 표기와 함께 동일한 증례(드퀘르벵 건초염)로 출제되어 정답 원리 동일.",
+      "theme_title": "드퀘르벵 건초염(De Quervain)의 수유부 요골 경상돌기 통증과 Finkelstein 검사",
+      "subspecialty": "수부 및 완관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -176567,8 +176811,8 @@
     "year": "22Y",
     "q_num": 6,
     "category": "탈",
-    "theme_title": "[단독 기출] 골절환자에서 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "분쇄 골절에서 골절부 혈종을 보존하는 최소침습 금속판 고정술(MIPO)",
+    "subspecialty": "외상 및 골절학",
     "stem": "고령의 환자가 대퇴골 원위부 분쇄 골절로 내원하였다. 골절부 혈종을 보존하고 연부조직 박리를 최소화하여 골유합을 촉진할 수 있는 가장 적절한 수술법은?",
     "images": [
       "images/정형외과/22Y_Q06_fig1.png"
@@ -176631,7 +176875,9 @@
           "reason": "연부조직 상태가 극도로 나쁜 개방성 골절의 임시 고정으로 쓰이나 영구적 관절면 정복 유지에는 금속판이 우수합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "분쇄 골절에서 골절부 혈종을 보존하는 최소침습 금속판 고정술(MIPO)",
+      "subspecialty": "외상 및 골절학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -176697,8 +176943,8 @@
     "year": "22Y",
     "q_num": 7,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 8 세 남아가 손가락 감각이상 및 근력악화를 주소로 내...",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "소아 주관절 골절 후 외반주 변형과 지연성 척골신경 마비(Tardy Ulnar Nerve Palsy)",
+    "subspecialty": "주관절 / 신경",
     "stem": "8 세 남아가 손가락 감각이상 및 근력악화를 주소로 내원하였다. 어릴 때 주관절 골절이 있었으나 적절한 치료를 받지는 않았다. 제1 수지와 제2 수지 사이에 근위축 소견도 보였다. 시진 상 소견과 x-ray 는 다음과 같다. 이 때 손상된 신경은? (빨간색 원 표시는 없었음) 정중신경",
     "images": [
       "images/정형외과/22Y_Q07_fig1.png",
@@ -176721,7 +176967,9 @@
       "trigger": "【정형외과 과년도 빈출: 8 세 남아가 손가락 감각이상 및 근력악화를 주소로 내... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 기준 지표: 어릴 적 팔꿈치 골절 후 외반주 변형+제1·2수지간 골간근 위축 → 지연성 척골신경 마비(Tardy ulnar nerve palsy) ① 정중신경 — 원위부 손상 시 무지구근(thenar) 위축과 1~3수지 감각 저하를 보이며, 근위부 손상 시 주관절 및 수지 굴곡 장애(benediction sign)를 초래합니다.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): [23Y Q08 & 22Y Q07] 지연성 척골신경 마비 (Tardy ulnar nerve palsy / Cubitus valgus).\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "22Y-07: 동일 사진 및 소견으로 출제되어 정답은 동일하게 척골신경."
+      "differential_general": "22Y-07: 동일 사진 및 소견으로 출제되어 정답은 동일하게 척골신경.",
+      "theme_title": "소아 주관절 골절 후 외반주 변형과 지연성 척골신경 마비(Tardy Ulnar Nerve Palsy)",
+      "subspecialty": "주관절 / 신경"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -176748,8 +176996,8 @@
     "year": "22Y",
     "q_num": 8,
     "category": "탈",
-    "theme_title": "[단독 기출] 어깨 통증을 유발하는 4 대 질환이 아닌 것은? ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "성인 견관절 통증을 유발하는 흔한 4대 질환(회전근개, 오십견, 석회성 건염, 충돌증후군)",
+    "subspecialty": "견관절",
     "stem": "성인에서 발생하는 흔한 어깨 통증의 4대 질환 범주에 속하지 않는 것은?",
     "images": [],
     "options": [
@@ -176810,7 +177058,9 @@
           "reason": "경추 C5-C6 신경근 압박으로 인한 연관통이 어깨와 승모근 부위로 방사되어 어깨 질환과 반드시 감별해야 하는 4대 질환입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "성인 견관절 통증을 유발하는 흔한 4대 질환(회전근개, 오십견, 석회성 건염, 충돌증후군)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -176896,7 +177146,9 @@
       "trigger": "【주관증후군(Cubital Tunnel Syndrome)과 척골신경 포착 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 견관절 석회성 건염(Calcific tendinitis)의 호발 부위 → 극상근(Supraspinatus tendon).\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 척골신경.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "22Y-09: 동일 선지 구성으로 출제되었으며 복기본 오기와 무관하게 정답은 극상근임."
+      "differential_general": "22Y-09: 동일 선지 구성으로 출제되었으며 복기본 오기와 무관하게 정답은 극상근임.",
+      "theme_title": "주관증후군(Cubital Tunnel Syndrome)과 척골신경 포착",
+      "subspecialty": "주관절 / 신경"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -176923,8 +177175,8 @@
     "year": "22Y",
     "q_num": 10,
     "category": "탈",
-    "theme_title": "[단독 기출] 부상 정도가 심하진 않지만 임상적으로 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "소아 골절의 골재형성력과 해부학적 위치별 수술적 정복 적응증",
+    "subspecialty": "소아 정형외과",
     "stem": "외상 후 골절 부위의 전위 정도가 심하지 않더라도, 방사선 소견에서 원위 요척관절(DRUJ)의 불안정성이 동반되어 반드시 응급 정복 및 내고정 수술을 시행해야 하는 골절은?",
     "images": [],
     "options": [
@@ -176985,7 +177237,9 @@
           "reason": "오구쇄골인대가 온전한 상태의 골절로 보존적 치료가 기본입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "소아 골절의 골재형성력과 해부학적 위치별 수술적 정복 적응증",
+      "subspecialty": "소아 정형외과"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -177051,8 +177305,8 @@
     "year": "22Y",
     "q_num": 11,
     "category": "탈",
-    "theme_title": "[단독 기출] 대 남성에서 호발하는 어깨 전방 탈골에 대한 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "청년기 외상성 견관절 전방 탈구 후 재발성 탈구와 방카르트 병변 봉합술",
+    "subspecialty": "견관절",
     "stem": "20대 남성에서 반복적인 어깨 전방 탈구로 내원하였다. 관절와(Glenoid)의 전하방 관절와순이 관절와 골연으로부터 찢어져 분리되는 대표적인 병변의 명칭은?",
     "images": [],
     "options": [
@@ -177113,7 +177367,9 @@
           "reason": "결절간구(Bicipital groove)를 주행하는 이두박근 장두 힘줄의 염증성 병변입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "청년기 외상성 견관절 전방 탈구 후 재발성 탈구와 방카르트 병변 봉합술",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -177179,8 +177435,8 @@
     "year": "22Y",
     "q_num": 12,
     "category": "탈",
-    "theme_title": "정형외과 과년도 빈출: 견갑하근 (Subscapularis) 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "견관절 회전근개 중 상완골 내회전(Internal Rotation) 전담 근육: 견갑하근(Subscapularis)",
+    "subspecialty": "견관절",
     "stem": "견관절 회전근개 근육 중 상완골의 내회전(Internal rotation)을 전담하는 핵심 근육은?",
     "images": [],
     "options": [
@@ -177241,7 +177497,9 @@
           "reason": "오구돌기에 부착하여 견갑골을 전하방으로 당기는 체간-견갑골 근육으로 회전근개에 속하지 않습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "견관절 회전근개 중 상완골 내회전(Internal Rotation) 전담 근육: 견갑하근(Subscapularis)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -177308,8 +177566,8 @@
     "year": "22Y",
     "q_num": 13,
     "category": "탈",
-    "theme_title": "정형외과 과년도 빈출: (Lift off test 사진, 오른쪽은 되는데 왼쪽...",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "견관절 회전근개 중 상완골 내회전(Internal Rotation) 전담 근육: 견갑하근(Subscapularis)",
+    "subspecialty": "견관절",
     "stem": "(Lift off test 사진, 오른쪽은 되는데 왼쪽은 안됨) 다음 검사는 어떤 근육의 이상을 보기 위한 것인가? Pectoralis minor",
     "images": [
       "images/정형외과/22Y_Q13_fig1.png"
@@ -177330,7 +177588,9 @@
       "trigger": "【정형외과 과년도 빈출: (Lift off test 사진, 오른쪽은 되는데 왼쪽... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 회전근개 4대 근육 중 상완골두의 유일한 내회전(Internal rotation)을 담당하는 대형 근육 → 견갑하근(Subscapularis).\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): [22Y Q12 & 22Y Q13] 견갑하근 (Subscapularis) - 어깨 내회전 담당.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "견관절 회전근개 중 상완골 내회전(Internal Rotation) 전담 근육: 견갑하근(Subscapularis)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -177371,7 +177631,9 @@
       "trigger": "【상완골 원위 1/3 나선형 골절과 요골신경(Radial Nerve) 손상 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 상완골 원위 1/3 나선골절(Holstein-Lewis)+손목·무지 신전 불능 → 요골신경 손상.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ② 요골신경.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "21Y-18: 복기본에 정답이 정중신경으로 오표기되어 있으나 손목 신전 불능 소견상 요골신경 손상이 맞음."
+      "differential_general": "21Y-18: 복기본에 정답이 정중신경으로 오표기되어 있으나 손목 신전 불능 소견상 요골신경 손상이 맞음.",
+      "theme_title": "상완골 원위 1/3 나선형 골절과 요골신경(Radial Nerve) 손상",
+      "subspecialty": "상지 외상 / 신경손상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -177404,8 +177666,8 @@
     "year": "22Y",
     "q_num": 15,
     "category": "탈",
-    "theme_title": "[단독 기출] 무릎을 굽혔다 폈다 할 때 탄발음이 들렸다. 이에 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "슬관절 내측 추벽 증후군(Plica Syndrome)의 굴신 시 탄발음(Snapping Knee)",
+    "subspecialty": "슬관절",
     "stem": "무릎을 굽혔다 펼 때 슬개골 내측에서 뚝뚝거리는 탄발음(Snapping)과 통증이 느껴졌다. 관절경 및 MRI에서 비후되어 활액막 주름을 형성하는 가장 흔한 병적 추벽은?",
     "images": [],
     "options": [
@@ -177466,7 +177728,9 @@
           "reason": "해부학적으로 명명되지 않는 가상의 위치입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "슬관절 내측 추벽 증후군(Plica Syndrome)의 굴신 시 탄발음(Snapping Knee)",
+      "subspecialty": "슬관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -177532,8 +177796,8 @@
     "year": "22Y",
     "q_num": 16,
     "category": "짤",
-    "theme_title": "경추 척수증(Cervical Spondylotic Myelopathy)의 상위운동신경원 징후",
-    "subspecialty": "척추 질환",
+    "theme_title": "급성 통풍성 관절염(Acute Gouty Arthritis)의 관절천자 및 편광현미경 소견",
+    "subspecialty": "관절 대사 질환",
     "stem": "(21Y) 83 세 남성 무릎 통증 및 열감으로 내원, V/S stable 하였으며 신체검사상 삼출, 홍반 부종 관찰. 무릎 X-ray 와 관절천자 후 편광현미경 검사결과이다. 진단은? 통풍",
     "images": [],
     "options": [
@@ -177552,7 +177816,9 @@
       "trigger": "【경추 척수증(Cervical Spondylotic Myelopathy)의 상위운동신경원 징후 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 83세 남성 무릎 급성 단관절염+X선 연골석회화증+편광현미경 양성 복굴절 마름모형 결정 → 가성통풍(CPPD).\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 경추 척수증.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "20Y-01: 20세 남성 새벽 무릎 통증 증례로 통풍이 출제되었으나, 본 83세 증례는 사진상 CPPD 결정이 확인되어 가성통풍임."
+      "differential_general": "20Y-01: 20세 남성 새벽 무릎 통증 증례로 통풍이 출제되었으나, 본 83세 증례는 사진상 CPPD 결정이 확인되어 가성통풍임.",
+      "theme_title": "급성 통풍성 관절염(Acute Gouty Arthritis)의 관절천자 및 편광현미경 소견",
+      "subspecialty": "관절 대사 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -177583,8 +177849,8 @@
     "year": "22Y",
     "q_num": 17,
     "category": "탈",
-    "theme_title": "[단독 기출] 골 전층이 손상되어 수술한 환자. ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "슬관절 연골 전층 결손의 자가 골연골 이식술(OATS / Mosaicplasty)",
+    "subspecialty": "슬관절",
     "stem": "무릎 대퇴 과부의 연골 전층(Full thickness) 손상이 관찰되었다. 비체중부하 부위에서 원통형 자가 골연골 기둥을 채취하여 결손부에 이식하는 치료법은?",
     "images": [
       "images/정형외과/22Y_Q17_fig1.png"
@@ -177647,7 +177913,9 @@
           "reason": "불규칙한 연골 가장자리만 다듬는 임시 대증 술식으로 결손 자체의 연골 재생을 유도하지 못합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "슬관절 연골 전층 결손의 자가 골연골 이식술(OATS / Mosaicplasty)",
+      "subspecialty": "슬관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -177713,8 +177981,8 @@
     "year": "22Y",
     "q_num": 18,
     "category": "반짤",
-    "theme_title": "슬개건염(Jumper's Knee)의 슬개골 하극 압통",
-    "subspecialty": "슬관절",
+    "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+    "subspecialty": "슬관절 외상",
     "stem": "무릎을 0 도에서 30 도 사이 각도로 움직이며 다음과 같이 시행하는 신체진찰을 통해 이상을 알 수 있는 구조물은? (비슷한 사진 구글링)",
     "images": [],
     "options": [],
@@ -177728,7 +177996,9 @@
       "trigger": "【슬개건염(Jumper's Knee)의 슬개골 하극 압통 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 무릎 20~30도 굴곡 라크만 검사 양성(경골 전방 전위 및 종말점 소실) → 전방십자인대(ACL) 파열.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 슬개건염.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음."
+      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음.",
+      "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -177764,8 +178034,8 @@
     "year": "22Y",
     "q_num": 19,
     "category": "짤",
-    "theme_title": "청소년기 특발성 척추측만증(AIS)의 Cobb 각도 및 보조기 착용 기준",
-    "subspecialty": "척추 질환",
+    "theme_title": "슬관절 반월연골판(Meniscus) 및 십자인대 해부학적 구조 및 진찰",
+    "subspecialty": "슬관절 질환",
     "stem": "(21Y) 이 사진은 어떤 조직의 손상을 파악하는 test 인가? Anterior cruciate ligament",
     "images": [
       "images/정형외과/22Y_Q19_fig1.png"
@@ -177784,7 +178054,9 @@
       "trigger": "【청소년기 특발성 척추측만증(AIS)의 Cobb 각도 및 보조기 착용 기준 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: • [핵심 족보]: Cobb 각도 20~40도이면서 성장이 남은 경우 보조기(밀워키/보스턴), 40~50도 이상 시 수술적 교정.\n• [치료 및 진단]: 실전 시.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 20~40도 보조기 착용.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "22Y-24: 관절경 사진에서 동일하게 반월상 연골판(Medial meniscus)을 묻는 문항으로 출제됨."
+      "differential_general": "22Y-24: 관절경 사진에서 동일하게 반월상 연골판(Medial meniscus)을 묻는 문항으로 출제됨.",
+      "theme_title": "슬관절 반월연골판(Meniscus) 및 십자인대 해부학적 구조 및 진찰",
+      "subspecialty": "슬관절 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -177812,8 +178084,8 @@
     "year": "22Y",
     "q_num": 20,
     "category": "반짤",
-    "theme_title": "슬개건염(Jumper's Knee)의 슬개골 하극 압통",
-    "subspecialty": "슬관절",
+    "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+    "subspecialty": "슬관절 외상",
     "stem": "(21Y) 다음과 같은 검사에서 양성(no end point, mushroom)이었다. 원인이 되는 구조물은? Anterior cruciate ligament",
     "images": [
       "images/정형외과/22Y_Q20_fig1.png"
@@ -177834,7 +178106,9 @@
       "trigger": "【슬개건염(Jumper's Knee)의 슬개골 하극 압통 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 무릎 20~30도 굴곡 라크만 검사 양성(경골 전방 전위 및 종말점 소실) → 전방십자인대(ACL) 파열.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 슬개건염.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음."
+      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음.",
+      "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -177916,8 +178190,8 @@
     "year": "22Y",
     "q_num": 22,
     "category": "짤",
-    "theme_title": "골다공증성 척추 압박골절의 경피적 척추성형술(Vertebroplasty)",
-    "subspecialty": "척추 질환",
+    "theme_title": "경골 고평부 골절(Tibial Plateau Fracture)의 관혈적 정복 및 내고정(ORIF)",
+    "subspecialty": "슬관절 / 하지 외상",
     "stem": "다음 X-ray 영상과 같이 손상되었다. 적절한 치료는? (proximal tibia 골절이었음. fibula 는 문제 없었음. 비슷한 사진 구글링) 부목",
     "images": [
       "images/정형외과/22Y_Q22_fig1.png"
@@ -177937,7 +178211,9 @@
       "trigger": "【골다공증성 척추 압박골절의 경피적 척추성형술(Vertebroplasty) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 경골 고평부 관절면 함몰 골절(Schatzker II, 26Y_Q42_fig1.png) → 관절면 해부학적 복원을 위한 ORIF.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 척추성형술.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "22Y-06: 경골 고평부 관절면 함몰 골절 증례로 동일 출제됨."
+      "differential_general": "22Y-06: 경골 고평부 관절면 함몰 골절 증례로 동일 출제됨.",
+      "theme_title": "경골 고평부 골절(Tibial Plateau Fracture)의 관혈적 정복 및 내고정(ORIF)",
+      "subspecialty": "슬관절 / 하지 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -177984,7 +178260,9 @@
       "trigger": "【석회성 건염의 급성 흡수기 극심한 통증과 초음파하 주사 흡인 치료 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 기준 지표: 축구 중 무릎 손상+축방향 MRI MPFL 파열 및 내측 슬개골·외측 대퇴과 골좌상 → 슬개골 탈구 ① Anterior cruciate ligament rupture — 관절혈증의 흔한 원인이지만 시상면 MRI에서 인대 연속성 소실로 진단하며, 본 축방향 단면의 슬개골 내측 및 대퇴과 골좌상 소견을 설명하지 못합니다.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 초음파하 세척 흡인술.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "23Y-35: 복기본에 ACL 파열로 잘못 표기되었으나 MRI 소견상 슬개골 외측 탈구에 의한 MPFL 손상이 명백함."
+      "differential_general": "23Y-35: 복기본에 ACL 파열로 잘못 표기되었으나 MRI 소견상 슬개골 외측 탈구에 의한 MPFL 손상이 명백함.",
+      "theme_title": "석회성 건염의 급성 흡수기 극심한 통증과 초음파하 주사 흡인 치료",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -178013,8 +178291,8 @@
     "year": "22Y",
     "q_num": 24,
     "category": "짤",
-    "theme_title": "청소년기 특발성 척추측만증(AIS)의 Cobb 각도 및 보조기 착용 기준",
-    "subspecialty": "척추 질환",
+    "theme_title": "슬관절 반월연골판(Meniscus) 및 십자인대 해부학적 구조 및 진찰",
+    "subspecialty": "슬관절 질환",
     "stem": "다음 관절경 사진에서 별표표(*)한 구조물로 알맞은 것은? Medial meniscus",
     "images": [
       "images/정형외과/22Y_Q24_fig1.png"
@@ -178035,7 +178313,9 @@
       "trigger": "【청소년기 특발성 척추측만증(AIS)의 Cobb 각도 및 보조기 착용 기준 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: • [핵심 족보]: Cobb 각도 20~40도이면서 성장이 남은 경우 보조기(밀워키/보스턴), 40~50도 이상 시 수술적 교정.\n• [치료 및 진단]: 실전 시.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 20~40도 보조기 착용.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "22Y-24: 관절경 사진에서 동일하게 반월상 연골판(Medial meniscus)을 묻는 문항으로 출제됨."
+      "differential_general": "22Y-24: 관절경 사진에서 동일하게 반월상 연골판(Medial meniscus)을 묻는 문항으로 출제됨.",
+      "theme_title": "슬관절 반월연골판(Meniscus) 및 십자인대 해부학적 구조 및 진찰",
+      "subspecialty": "슬관절 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -178116,7 +178396,9 @@
           "reason": ""
         }
       ],
-      "differential_general": "23Y-44: 동일한 측면 방사선 사진으로 출제되어 정답 Anterior knee dislocation."
+      "differential_general": "23Y-44: 동일한 측면 방사선 사진으로 출제되어 정답 Anterior knee dislocation.",
+      "theme_title": "주관절 외측상과염의 유발 검사: 코젠 검사(Cozen Test)",
+      "subspecialty": "주관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -178198,7 +178480,9 @@
       "trigger": "【소아 쇄골 골절의 8자 붕대(Figure-of-8 Bandage) 보존적 치료 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 아침 기상 후 첫발 디딜 때 종골 내측 결절 부위의 심한 통증 및 보행 시 호전 양상 → 족저근막염(Plantar fasciitis).\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 8자 붕대 고정.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "23Y-23: 선지가 한글 '족저건막염'으로 출제되었으며 동일 정답."
+      "differential_general": "23Y-23: 선지가 한글 '족저건막염'으로 출제되었으며 동일 정답.",
+      "theme_title": "소아 쇄골 골절의 8자 붕대(Figure-of-8 Bandage) 보존적 치료",
+      "subspecialty": "소아 정형외과"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -178227,8 +178511,8 @@
     "year": "22Y",
     "q_num": 27,
     "category": "반짤",
-    "theme_title": "정형외과 과년도 빈출: (20Y) 두번째와 세번째 발가락 사이 공간에 압통이 ...",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "지간신경종(Morton Neuroma)의 제2-3 중족골간 신경 포착과 Mulder 압박 징후",
+    "subspecialty": "족부 및 족관절",
     "stem": "(20Y) 두번째와 세번째 발가락 사이 공간에 압통이 있고, 좁은 신발을 신었을 때 통증이 있다. 손상된 구조물은?",
     "images": [],
     "options": [
@@ -178246,7 +178530,9 @@
       "trigger": "【정형외과 과년도 빈출: (20Y) 두번째와 세번째 발가락 사이 공간에 압통이 ... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 좁은 신발 착용 시 2-3 중족골간 압통 및 족지 압박 시 통증/탄발음 유발 → 지간신경(Interdigital nerve) 손상 / 몰톤 신경종.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): [23Y Q24 & 22Y Q27 & 20Y Q21] ① Interdigital nerve (지간신경) / 몰톤 신경종.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "22Y-27/20Y-21: 동일 증례로 출제되어 3회 이상 반복 출제된 족부 대표 기출 문항."
+      "differential_general": "22Y-27/20Y-21: 동일 증례로 출제되어 3회 이상 반복 출제된 족부 대표 기출 문항.",
+      "theme_title": "지간신경종(Morton Neuroma)의 제2-3 중족골간 신경 포착과 Mulder 압박 징후",
+      "subspecialty": "족부 및 족관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -178275,8 +178561,8 @@
     "year": "22Y",
     "q_num": 28,
     "category": "반짤",
-    "theme_title": "정형외과 과년도 빈출: 비골근 (Peroneus longus & brevis 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "급성 족관절 내번 염좌 후 만성 불안정성 예방을 위한 비골근(Peroneus) 강화",
+    "subspecialty": "족부 및 족관절",
     "stem": "급성 족관절 내번 염좌가 발생한 환자에서 족관절 불안정성의 만성 재발을 방지하기 위해 적극적으로 근력 강화 훈련을 시행해야 하는 핵심 근육은?",
     "images": [],
     "options": [
@@ -178337,7 +178623,9 @@
           "reason": "대퇴과부에서 기시하는 강력한 족저굴곡근으로 발목의 내외측 동적 안정화 근육이 아닙니다."
         }
       ],
-      "differential_general": "20Y-16: 영어 선지(A. Peroneus 등)로 출제되어 정답은 동일하게 Peroneus."
+      "differential_general": "20Y-16: 영어 선지(A. Peroneus 등)로 출제되어 정답은 동일하게 Peroneus.",
+      "theme_title": "급성 족관절 내번 염좌 후 만성 불안정성 예방을 위한 비골근(Peroneus) 강화",
+      "subspecialty": "족부 및 족관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -178409,8 +178697,8 @@
     "year": "22Y",
     "q_num": 29,
     "category": "탈",
-    "theme_title": "[단독 기출] 19Y) ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "부주상골 증후군(Accessory Navicular)과 후경골건의 견인성 통증",
+    "subspecialty": "족부 및 족관절",
     "stem": "발목 안쪽 부주상골(Accessory navicular) 부위의 통증과 발적으로 내원하였다. 주상골 내측 결절 및 부주상골에 부착하여 염증성 당김을 유발하는 힘줄은?",
     "images": [],
     "options": [
@@ -178471,7 +178759,9 @@
           "reason": "종골 후방 결절에 부착하는 인체 최대의 건입니다."
         }
       ],
-      "differential_general": "23Y-21: 5지선다 객관식(후경골근 Tibialis posterior)으로 출제되어 정답은 동일하게 후경골근."
+      "differential_general": "23Y-21: 5지선다 객관식(후경골근 Tibialis posterior)으로 출제되어 정답은 동일하게 후경골근.",
+      "theme_title": "부주상골 증후군(Accessory Navicular)과 후경골건의 견인성 통증",
+      "subspecialty": "족부 및 족관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -178537,8 +178827,8 @@
     "year": "22Y",
     "q_num": 30,
     "category": "짤",
-    "theme_title": "[단독 기출] 변형) ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "당뇨발 환자의 보호 감각 소실과 신경병성 족부 궤양(Diabetic Foot Ulcer)",
+    "subspecialty": "족부 질환",
     "stem": "당뇨병 환자에서 말초 감각신경병증에 의해 보호 감각(Protective sensation)이 소실되었을 때 발에 발생하는 핵심 합병증은?",
     "images": [],
     "options": [
@@ -178599,7 +178889,9 @@
           "reason": "궤양이 뼈까지 깊게 침범했을 때 발생하는 이차성 골 감염 합병증입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "당뇨발 환자의 보호 감각 소실과 신경병성 족부 궤양(Diabetic Foot Ulcer)",
+      "subspecialty": "족부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -178667,8 +178959,8 @@
     "year": "22Y",
     "q_num": 31,
     "category": "탈",
-    "theme_title": "[단독 기출] 변형) 35 세 남자, 오토바이 사고 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "척수 손상 환자에서 척수 쇼크(Spinal Shock) 종료 지표: 구해면체 반사의 회복",
+    "subspecialty": "척추 질환 / 외상",
     "stem": "35세 남성이 오토바이 사고 후 하지 근력과 감각이 완전 소실되어 응급실로 내원하였다. 이학적 검사 상 구해면체 반사(Bulbocavernosus reflex), 항문 반사, 심건 반사가 모두 소실되어 있었고 방광 기능도 마비되었다. 진단은?",
     "images": [],
     "options": [
@@ -178729,7 +179021,9 @@
           "reason": "경추 과신전 손상 시 상지가 하지보다 훨씬 심하게 마비되는 불완전 척수 손상입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "척수 손상 환자에서 척수 쇼크(Spinal Shock) 종료 지표: 구해면체 반사의 회복",
+      "subspecialty": "척추 질환 / 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -178795,8 +179089,8 @@
     "year": "22Y",
     "q_num": 32,
     "category": "반짤",
-    "theme_title": "정형외과 과년도 빈출: Poor (Grade 2 - 중력 배제 시 전 관절운동 가능) 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "도수 근력 평가(MMT) 등급 판정: 중력 제거 시 능동 관절운동 가능한 Poor (Grade 2)",
+    "subspecialty": "재활 및 진단학",
     "stem": "환자가 침대에서 옆으로 누운 자세에서는 중력을 이기지 못해 고관절 외전 운동을 전혀 할 수 없었으나, 바로 누운 자세(Supine)에서 마찰을 배제하자 고관절 외전 운동을 능동적으로 끝까지 수행할 수 있었다. 이때 도수근력검사(MMT) 등급은?",
     "images": [],
     "options": [
@@ -178857,7 +179151,9 @@
           "reason": "약간의 근수축만 촉지됨) — 관절의 실제 움직임은 없으나 근육의 미세한 수축이나 긴장도가 만져지는 등급입니다."
         }
       ],
-      "differential_general": "21Y-03: 동일 증례로 출제되어 정답은 동일하게 Poor(Grade 2)."
+      "differential_general": "21Y-03: 동일 증례로 출제되어 정답은 동일하게 Poor(Grade 2).",
+      "theme_title": "도수 근력 평가(MMT) 등급 판정: 중력 제거 시 능동 관절운동 가능한 Poor (Grade 2)",
+      "subspecialty": "재활 및 진단학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -178925,8 +179221,8 @@
     "year": "22Y",
     "q_num": 33,
     "category": "탈",
-    "theme_title": "[단독 기출] 변형) 51 세 남자, 하지의 동통을 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "요추 추간판 탈출증(HNP)의 기침 시 악화되는 방사통과 하지직거상검사(SLR)",
+    "subspecialty": "척추 질환",
     "stem": "51세 남성이 하지 방사통을 주소로 내원하였다. 통증은 보행 거리와 상관없이 일정하게 나타났으며 기침이나 재채기 시 악화되는 양상이었고, 하지 직거상 검사(SLRT)에서 40도 양성을 보였다. 가장 가능성이 높은 진단은?",
     "images": [],
     "options": [
@@ -178987,7 +179283,9 @@
           "reason": "둔부 이상근에 의해 좌골신경이 압박되는 질환으로 요통보다는 둔부 깊은 압통이 특징입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "요추 추간판 탈출증(HNP)의 기침 시 악화되는 방사통과 하지직거상검사(SLR)",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -179259,7 +179557,9 @@
       "trigger": "【아킬레스건 파열(Achilles Rupture)의 톰슨 압착 검사(Thompson Test) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 기준 지표: 대퇴골 경부 뒤쪽을 감아 돌아 환형을 이루며 대퇴골두에 주된 혈액을 공급하는 혈관 → 내측대퇴회선동맥(MFCA) ① 내측대퇴회선동맥 — 대퇴심동맥에서 분지하여 대퇴골 경부 후방을 감아 관절막외 동맥환을 형성하고 골단동맥을 내어 골두 혈류의 70~80% 이상을 공급합니다 → 정답.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 톰슨 검사.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "22Y-36: 대퇴골두 혈류 공급 기전으로 동일 출제됨."
+      "differential_general": "22Y-36: 대퇴골두 혈류 공급 기전으로 동일 출제됨.",
+      "theme_title": "아킬레스건 파열(Achilles Rupture)의 톰슨 압착 검사(Thompson Test)",
+      "subspecialty": "족부 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -179286,8 +179586,8 @@
     "year": "22Y",
     "q_num": 37,
     "category": "짤",
-    "theme_title": "[단독 기출] 다음 중 고관절에 대한 설명으로 옳은 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "고관절의 체중 부하 생역학과 외전근 레버암(Abductor Lever Arm)",
+    "subspecialty": "고관절",
     "stem": "고관절의 생역학(Biomechanics)에 대한 설명으로 옳은 것은?",
     "images": [],
     "options": [
@@ -179348,7 +179648,9 @@
           "reason": "모멘트 암이 길어지면 외전 토크 요구량이 커지므로 외전근에 걸리는 힘은 비례하여 증가합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "고관절의 체중 부하 생역학과 외전근 레버암(Abductor Lever Arm)",
+      "subspecialty": "고관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -179418,8 +179720,8 @@
     "year": "22Y",
     "q_num": 38,
     "category": "반짤",
-    "theme_title": "정형외과 과년도 빈출: 골격 견인술 (대퇴골 원위부 / 경골 근위부 골격 견인) 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "대퇴골 간부 분쇄 골절의 응급 처치: 골격 견인(Skeletal Traction) 및 ORIF",
+    "subspecialty": "고관절 / 대퇴 외상",
     "stem": "31세 여성이 교통사고 후 심한 서혜부 통증과 하지 가동 불능을 주소로 내원하였다. 방사선 검사 상 대퇴골 간부 분쇄 골절이 확인되었다. 수술실 들어가기 전 골절부 단축과 근육 경련을 완화하기 위해 즉시 시행해야 하는 응급 처치는?",
     "images": [
       "images/정형외과/22Y_Q38_fig1.png"
@@ -179482,7 +179784,9 @@
           "reason": "심각한 개방성 골절이나 중증 다발성 외상 환자의 손상 통제 수술(DCS) 시 선택되며 단순 폐쇄성 골절의 1차 임시 견인법이 아닙니다."
         }
       ],
-      "differential_general": "21Y-02: 동일 지문 및 사진으로 출제되어 동일한 치료 원칙이 적용됨."
+      "differential_general": "21Y-02: 동일 지문 및 사진으로 출제되어 동일한 치료 원칙이 적용됨.",
+      "theme_title": "대퇴골 간부 분쇄 골절의 응급 처치: 골격 견인(Skeletal Traction) 및 ORIF",
+      "subspecialty": "고관절 / 대퇴 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -179550,8 +179854,8 @@
     "year": "22Y",
     "q_num": 39,
     "category": "탈",
-    "theme_title": "[단독 기출] 다음중 맞는 것은? ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "대퇴골 전경사각(Femoral Anteversion)의 정상 범위와 과도한 전경 시 내족지 보행",
+    "subspecialty": "소아 및 고관절",
     "stem": "대퇴골두 경부 축과 대퇴골 과간 축이 이루는 각도(대퇴전경각, Femoral anteversion angle)에 관한 설명으로 옳은 것은?",
     "images": [],
     "options": [
@@ -179612,7 +179916,9 @@
           "reason": "정상 성인의 평균 전경각은 약 10~15도(남성 12도, 여성 15도 내외)입니다."
         }
       ],
-      "differential_general": "23Y-18: 대퇴전경사각을 측정하는 이학적 검사법(Craig's test)을 묻는 문제로 변형 출제됨."
+      "differential_general": "23Y-18: 대퇴전경사각을 측정하는 이학적 검사법(Craig's test)을 묻는 문제로 변형 출제됨.",
+      "theme_title": "대퇴골 전경사각(Femoral Anteversion)의 정상 범위와 과도한 전경 시 내족지 보행",
+      "subspecialty": "소아 및 고관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -179699,7 +180005,9 @@
       "trigger": "【구획증후군(Compartment Syndrome)의 응급 근막절개술(Fasciotomy) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 인공 고관절 탈구 역학 → 경간각이 작은(varus/high-offset) 스템으로 외전근 장력을 높여 탈구 예방.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 근막절개술.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "22Y-40: 동일 선지 구성으로 출제되어 인공 고관절 탈구 역학을 다룸."
+      "differential_general": "22Y-40: 동일 선지 구성으로 출제되어 인공 고관절 탈구 역학을 다룸.",
+      "theme_title": "구획증후군(Compartment Syndrome)의 응급 근막절개술(Fasciotomy)",
+      "subspecialty": "외상 응급"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -179728,8 +180036,8 @@
     "year": "22Y",
     "q_num": 41,
     "category": "짤",
-    "theme_title": "만성 골수염(Chronic Osteomyelitis)의 부골(Sequestrum)과 골포(Involucrum)",
-    "subspecialty": "감염 질환",
+    "theme_title": "골절의 직접유합(Direct Bone Healing)과 압박 금속 고정판(Compression Plate)",
+    "subspecialty": "골절 치료학",
     "stem": "(19Y) 골절의 치료 방법 중 다음과 같이 direct bone healing 을 유도하는 치료",
     "images": [],
     "options": [],
@@ -179743,7 +180051,9 @@
       "trigger": "【만성 골수염(Chronic Osteomyelitis)의 부골(Sequestrum)과 골포(Involucrum) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 절단원추(cutting cone)의 골절선 통과(직접 골유합) → 절대적 안정성을 제공하는 압박 금속 고정판.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 부골 절제술.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "23Y-30: 복기본에 골수내 금속정으로 오표기되어 있으나 직접 골유합(direct bone healing)은 압박 금속판 고정의 고유 기전임."
+      "differential_general": "23Y-30: 복기본에 골수내 금속정으로 오표기되어 있으나 직접 골유합(direct bone healing)은 압박 금속판 고정의 고유 기전임.",
+      "theme_title": "골절의 직접유합(Direct Bone Healing)과 압박 금속 고정판(Compression Plate)",
+      "subspecialty": "골절 치료학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -179794,7 +180104,9 @@
       "trigger": "【거대세포종(Giant Cell Tumor)의 골단부 비누거품(Soap Bubble) 양상 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 기준 지표: 개 물림 손등 2×2 cm 전층 결손(심부 건 미노출) → 철저한 세척 후 전층 피부 이식(FTSG) ① 전층 피부 이식(Full thickness skin graft) — 표피와 진피 전층을 포함하여 이차 수축이 적고 내구성이 우수하므로 관절 운동이 일어나는 손등의 2×2 cm 소형 피부 결손 재건에 적합합니다 → 정답.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 거대세포종.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "21Y-21: 복기본에 부분층 피부 이식(STSG)으로 표시되었으나 수부 결손에는 구축이 적은 전층 피부 이식(FTSG)이 표준임."
+      "differential_general": "21Y-21: 복기본에 부분층 피부 이식(STSG)으로 표시되었으나 수부 결손에는 구축이 적은 전층 피부 이식(FTSG)이 표준임.",
+      "theme_title": "거대세포종(Giant Cell Tumor)의 골단부 비누거품(Soap Bubble) 양상",
+      "subspecialty": "골종양"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -179850,7 +180162,9 @@
       "trigger": "【골연골종(Osteochondroma)의 골단판 방향 버섯 모양 양성 돌출 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 오토바이 사고+저혈압(BP 80/60)+불안정성 골반 골절(치골결합·천장관절 이개) → 응급 골반 외고정술.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 골연골종.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "20Y-19: 동일 증례와 X선 소견에서 1차 응급 처치로 A. 외고정술이 출제됨."
+      "differential_general": "20Y-19: 동일 증례와 X선 소견에서 1차 응급 처치로 A. 외고정술이 출제됨.",
+      "theme_title": "골연골종(Osteochondroma)의 골단판 방향 버섯 모양 양성 돌출",
+      "subspecialty": "골종양"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -179931,8 +180245,8 @@
     "year": "22Y",
     "q_num": 45,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: (계통 22Y) 다음 외상의 Guilstilo Ande...",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "개방성 골절의 Gustilo-Anderson 분류: 피부 결손으로 뼈를 덮지 못하는 Type 3B",
+    "subspecialty": "외상 및 골절학",
     "stem": "(계통 22Y) 다음 외상의 Guilstilo Anderson type 은? 혈관 손상은 없고 피부 덮을 수 없었음",
     "images": [],
     "options": [],
@@ -179946,7 +180260,9 @@
       "trigger": "【정형외과 과년도 빈출: (계통 22Y) 다음 외상의 Guilstilo Ande... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 개방성 골절+연부조직 결손으로 뼈를 직접 덮을 수 없음(피판술 필요)+혈관 손상 없음 → Gustilo-Anderson Type 3b.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): [23Y Q31 & 22Y Q45] ④ Type 3b (피부 결손으로 골막/뼈를 직접 덮을 수 없음).\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "22Y-45: 동일 지문으로 출제되어 정답은 동일하게 Type 3b."
+      "differential_general": "22Y-45: 동일 지문으로 출제되어 정답은 동일하게 Type 3b.",
+      "theme_title": "개방성 골절의 Gustilo-Anderson 분류: 피부 결손으로 뼈를 덮지 못하는 Type 3B",
+      "subspecialty": "외상 및 골절학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -179973,8 +180289,8 @@
     "year": "22Y",
     "q_num": 46,
     "category": "짤",
-    "theme_title": "만성 골수염(Chronic Osteomyelitis)의 부골(Sequestrum)과 골포(Involucrum)",
-    "subspecialty": "감염 질환",
+    "theme_title": "골절의 직접유합(Direct Bone Healing)과 압박 금속 고정판(Compression Plate)",
+    "subspecialty": "골절 치료학",
     "stem": "tibiofibular fracture 사진, 치료는? (선지 불확실)",
     "images": [
       "images/정형외과/22Y_Q46_fig1.png"
@@ -179996,7 +180312,9 @@
       "trigger": "【만성 골수염(Chronic Osteomyelitis)의 부골(Sequestrum)과 골포(Involucrum) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 절단원추(cutting cone)의 골절선 통과(직접 골유합) → 절대적 안정성을 제공하는 압박 금속 고정판.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 부골 절제술.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "23Y-30: 복기본에 골수내 금속정으로 오표기되어 있으나 직접 골유합(direct bone healing)은 압박 금속판 고정의 고유 기전임."
+      "differential_general": "23Y-30: 복기본에 골수내 금속정으로 오표기되어 있으나 직접 골유합(direct bone healing)은 압박 금속판 고정의 고유 기전임.",
+      "theme_title": "골절의 직접유합(Direct Bone Healing)과 압박 금속 고정판(Compression Plate)",
+      "subspecialty": "골절 치료학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -180026,8 +180344,8 @@
     "year": "22Y",
     "q_num": 47,
     "category": "탈",
-    "theme_title": "[단독 기출] 다리 다쳐서 수술함. 수술 다음날부터 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "하지 골절 수술 후 발생한 급성 구획증후군과 수동 신전통(Pain on Passive Stretch)",
+    "subspecialty": "외상 응급",
     "stem": "하퇴부 골절 수술을 받은 환자가 수술 다음날부터 하퇴부의 극심한 통증과 종창을 호소하였다. 진통제로 조절되지 않는 심한 통증이 발가락 수동 신전 시 극도로 악화되었고, 첫째와 둘째 발가락 사이의 감각 저하가 관찰되었다. 가장 먼저 의심해야 하는 진단은?",
     "images": [],
     "options": [
@@ -180088,7 +180406,9 @@
           "reason": "피부 및 피하조직의 감염으로 발적과 열감이 주증상이며 심부 근육 구획압 상승 및 수동 신전통은 없습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "하지 골절 수술 후 발생한 급성 구획증후군과 수동 신전통(Pain on Passive Stretch)",
+      "subspecialty": "외상 응급"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -180154,8 +180474,8 @@
     "year": "22Y",
     "q_num": 48,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: (새로) (open wound case) 경골 골절 수...",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "정형외과 수술 부위 감염(SSI)의 원인균 동정을 위한 심부 조직 생검 배양",
+    "subspecialty": "관절 및 골 감염",
     "stem": "(새로) (open wound case) 경골 골절 수술3 일 뒤에 수술 부위에 감염이 생겼다. 배농루에서 농도 나왔다. 원인균을 알기 위해 배양해야 할 부위는? 괴사 조직 배양",
     "images": [],
     "options": [
@@ -180174,7 +180494,9 @@
       "trigger": "【정형외과 과년도 빈출: (새로) (open wound case) 경골 골절 수... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 수술 후 골감염 및 누공 형성 시 원인균 규명 → 피부 상재균 오염을 배제하기 위해 수술실 심부 조직 배양이 표준.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): [23Y Q32 & 22Y Q48] ② 심부 조직 배양 (Deep tissue culture / 수술실 생검).\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "22Y-48: 동일 지문 및 선지로 출제되어 정답은 동일하게 심부 조직 배양."
+      "differential_general": "22Y-48: 동일 지문 및 선지로 출제되어 정답은 동일하게 심부 조직 배양.",
+      "theme_title": "정형외과 수술 부위 감염(SSI)의 원인균 동정을 위한 심부 조직 생검 배양",
+      "subspecialty": "관절 및 골 감염"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -180329,8 +180651,8 @@
     "year": "22Y",
     "q_num": 50,
     "category": "탈",
-    "theme_title": "[단독 기출] Pneumo tourniquet",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "수술용 공기압 지혈대(Pneumatic Tourniquet)의 안전 압력 및 허혈 시간 기준",
+    "subspecialty": "수술 술기 / 외상",
     "stem": "정형외과 사지 수술 시 사용하는 공기압 지혈대(Pneumatic tourniquet)에 대한 설명으로 옳은 것은?",
     "images": [],
     "options": [
@@ -180391,7 +180713,9 @@
           "reason": "1.5~2시간까지는 안전하게 가압할 수 있으며 30분 제한은 지나치게 짧아 대부분의 수술을 완수할 수 없습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "수술용 공기압 지혈대(Pneumatic Tourniquet)의 안전 압력 및 허혈 시간 기준",
+      "subspecialty": "수술 술기 / 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -180457,8 +180781,8 @@
     "year": "21Y",
     "q_num": 1,
     "category": "반짤",
-    "theme_title": "경추 척수증(Cervical Spondylotic Myelopathy)의 상위운동신경원 징후",
-    "subspecialty": "척추 질환",
+    "theme_title": "급성 통풍성 관절염(Acute Gouty Arthritis)의 관절천자 및 편광현미경 소견",
+    "subspecialty": "관절 대사 질환",
     "stem": "83 세 남성 무릎 통증 및 열감으로 내원, V/S stable 하였으며 신체검사상 삼출, 홍반 부종 관찰. 무릎 X-ray 와 관절천자 후 편광현미경 검사결과이다. 진단은? OA",
     "images": [
       "images/정형외과/21Y_Q01_fig1.png",
@@ -180480,7 +180804,9 @@
       "trigger": "【경추 척수증(Cervical Spondylotic Myelopathy)의 상위운동신경원 징후 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 83세 남성 무릎 급성 단관절염+X선 연골석회화증+편광현미경 양성 복굴절 마름모형 결정 → 가성통풍(CPPD).\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 경추 척수증.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "20Y-01: 20세 남성 새벽 무릎 통증 증례로 통풍이 출제되었으나, 본 83세 증례는 사진상 CPPD 결정이 확인되어 가성통풍임."
+      "differential_general": "20Y-01: 20세 남성 새벽 무릎 통증 증례로 통풍이 출제되었으나, 본 83세 증례는 사진상 CPPD 결정이 확인되어 가성통풍임.",
+      "theme_title": "급성 통풍성 관절염(Acute Gouty Arthritis)의 관절천자 및 편광현미경 소견",
+      "subspecialty": "관절 대사 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -180511,8 +180837,8 @@
     "year": "21Y",
     "q_num": 2,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 31 세 여성 교통사고 후 서혜부 통증으로 내원 함...",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "대퇴골 간부 분쇄 골절의 응급 처치: 골격 견인(Skeletal Traction) 및 ORIF",
+    "subspecialty": "고관절 / 대퇴 외상",
     "stem": "31 세 여성 교통사고 후 서혜부 통증으로 내원 함. 다리를 움직일 수 없었음. 적절한 치료? 금속내고정술",
     "images": [
       "images/정형외과/21Y_Q02_fig1.png"
@@ -180533,7 +180859,9 @@
       "trigger": "【정형외과 과년도 빈출: 31 세 여성 교통사고 후 서혜부 통증으로 내원 함... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 대퇴골 간부 분쇄 골절 환자에서 근육 경련에 의한 단축 전위를 정복하고 수술 전 통증을 조절하는 응급 처치 → 골격 견인술(Skeletal traction).\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): [22Y Q38 & 21Y Q02] 대퇴골 견인 (골격견인 Skeletal traction) 또는 관혈적 정복 및 내고정술.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "21Y-02: 동일 지문 및 사진으로 출제되어 동일한 치료 원칙이 적용됨."
+      "differential_general": "21Y-02: 동일 지문 및 사진으로 출제되어 동일한 치료 원칙이 적용됨.",
+      "theme_title": "대퇴골 간부 분쇄 골절의 응급 처치: 골격 견인(Skeletal Traction) 및 ORIF",
+      "subspecialty": "고관절 / 대퇴 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -180560,8 +180888,8 @@
     "year": "21Y",
     "q_num": 3,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 침대에 누운자세(Supine position)에서는 고...",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "도수 근력 평가(MMT) 등급 판정: 중력 제거 시 능동 관절운동 가능한 Poor (Grade 2)",
+    "subspecialty": "재활 및 진단학",
     "stem": "침대에 누운자세(Supine position)에서는 고관절의 외전운동 능동적으로 가능. 옆으로 누워서는 아무런 움직임 제한 없이도 움직일 수 없었음. 이때, 근력 평가를 한다면?",
     "images": [],
     "options": [
@@ -180581,7 +180909,9 @@
       "trigger": "【정형외과 과년도 빈출: 침대에 누운자세(Supine position)에서는 고... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 중력을 배제한 상태(Supine)에서 마찰을 줄였을 때 능동적으로 관절 전 범위를 운동할 수 있는 근력 평가 등급 → Poor (Grade 2).\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): [22Y Q32 & 21Y Q03] 근력 등급 Poor (Grade 2 - 중력 제거 시 능동 관절운동 가능).\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "21Y-03: 동일 증례로 출제되어 정답은 동일하게 Poor(Grade 2)."
+      "differential_general": "21Y-03: 동일 증례로 출제되어 정답은 동일하게 Poor(Grade 2).",
+      "theme_title": "도수 근력 평가(MMT) 등급 판정: 중력 제거 시 능동 관절운동 가능한 Poor (Grade 2)",
+      "subspecialty": "재활 및 진단학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -180631,7 +180961,9 @@
       "trigger": "【듀피트렌 구축(Dupuytren Contracture)의 수장건막 결절 및 굴곡 변형 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 60세 여성 무릎 내측 관절강 협착(골관절염) → 관절 부하를 줄이는 가장 효과적인 비약물적 예방법은 체중 감량.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 듀피트렌 구축.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "23Y-45: 복기본에 정답이 ① 금연으로 잘못 표기되어 있으나 퇴행성 관절염의 표준 비약물 치료는 체중감량임.\n20Y-22: 같은 엑스레이에서 진단명을 묻는 문항으로 출제되어 정답 OA(퇴행성 관절염)."
+      "differential_general": "23Y-45: 복기본에 정답이 ① 금연으로 잘못 표기되어 있으나 퇴행성 관절염의 표준 비약물 치료는 체중감량임.\n20Y-22: 같은 엑스레이에서 진단명을 묻는 문항으로 출제되어 정답 OA(퇴행성 관절염).",
+      "theme_title": "듀피트렌 구축(Dupuytren Contracture)의 수장건막 결절 및 굴곡 변형",
+      "subspecialty": "수부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -180662,8 +180994,8 @@
     "year": "21Y",
     "q_num": 5,
     "category": "기출",
-    "theme_title": "[단독 기출] 대 여성, 손목이 찌릿찌릿 설거지할때 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "수근관 증후군(Carpal Tunnel Syndrome)의 1~3수지 저림과 야간통 완화를 위한 손 털기(Flick Sign)",
+    "subspecialty": "수부 및 완관절",
     "stem": "50대 여성이 설거지를 하거나 손목을 구부릴 때 손가락이 찌릿찌릿 저리고, 밤에 손이 저려 잠에서 깨어 손을 터는 증상을 호소하였다. 엄지두덩의 근력 저하가 동반되었을 때 이 환자에서 양성을 보일 가능성이 가장 높은 진찰법은?",
     "images": [],
     "options": [
@@ -180724,7 +181056,9 @@
           "reason": "고관절을 굴곡, 외번, 외회전(FABER)시켜 서혜부나 천장관절 통증을 유발하는 고관절/천장관절 검사입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "수근관 증후군(Carpal Tunnel Syndrome)의 1~3수지 저림과 야간통 완화를 위한 손 털기(Flick Sign)",
+      "subspecialty": "수부 및 완관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -180790,8 +181124,8 @@
     "year": "21Y",
     "q_num": 6,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 좌측 상지에 뻗치는 통증으로 내원하였다...",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "경추 추간판 탈출증(C6-C7 HNP)과 C7 신경근 압박(삼두근 약화 및 중지 감각 저하)",
+    "subspecialty": "척추 질환",
     "stem": "좌측 상지에 뻗치는 통증으로 내원하였다. 세번째 손가락에 감각이 없었다. 이학적 검사에서 주관절 신전이 안되고, 삼두근 반사가 저하되었다. 문제가 생긴 위치? 경추 3-4 사이",
     "images": [],
     "options": [
@@ -180810,7 +181144,9 @@
       "trigger": "【정형외과 과년도 빈출: 좌측 상지에 뻗치는 통증으로 내원하였다... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 기준 지표: 좌측 상지 방사통+3수지 감각 저하+상완삼두근 신전 약화 및 삼두근 반사 저하 → C7 신경근 압박(C6-C7 HNP) ① C3-C4 — C4 신경근 압박 부위로 경부 통증 및 승모근·쇄골 상부의 감각 이상을 일으키며 상지 방사통은 드뭅니다.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): [23Y Q54 & 21Y Q06] ③ C6-C7 추간판 탈출증 (C7 신경근 압박).\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "21Y-06: 동일 증례로 출제되었으며 당시 선지 번호는 ③(C6-C7)."
+      "differential_general": "21Y-06: 동일 증례로 출제되었으며 당시 선지 번호는 ③(C6-C7).",
+      "theme_title": "경추 추간판 탈출증(C6-C7 HNP)과 C7 신경근 압박(삼두근 약화 및 중지 감각 저하)",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -180857,7 +181193,9 @@
       "trigger": "【반월상 연골판 파열(Meniscus Tear)의 맥머레이 검사(McMurray Test) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: SLR 양성 후 슬관절 굴곡 상태에서 슬와부 좌골신경 압박 시 통증 재유발 → 활시위 검사(Bowstring test).\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 맥머레이 검사.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "23Y-52: 동일한 증례와 선지로 출제되어 정답 Bowstring test."
+      "differential_general": "23Y-52: 동일한 증례와 선지로 출제되어 정답 Bowstring test.",
+      "theme_title": "반월상 연골판 파열(Meniscus Tear)의 맥머레이 검사(McMurray Test)",
+      "subspecialty": "슬관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -180950,7 +181288,9 @@
           "reason": "S1 — 후외측 탈출 시 외측 주행 S1 신경근을 눌러 동일 소견을 유발할 수 있으나, 본 증례는 중심 탈출과 척수 높이 기전을 묻는 문항으로 출제되었습니다."
         }
       ],
-      "differential_general": "23Y-55/21Y-08: 기출 복기본에 중심 추간판 탈출증으로 L1-L2(원추부 천추 분절 압박)가 동일하게 정답 처리됨."
+      "differential_general": "23Y-55/21Y-08: 기출 복기본에 중심 추간판 탈출증으로 L1-L2(원추부 천추 분절 압박)가 동일하게 정답 처리됨.",
+      "theme_title": "퇴행성 슬관절염(OA)의 방사선 소견 및 체중부하 단순 X선",
+      "subspecialty": "슬관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -181020,8 +181360,8 @@
     "year": "21Y",
     "q_num": 9,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 신경성 간헐적 파행 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "척추관 협착증(Spinal Stenosis)의 신경인성 간헐적 파행과 요추 굴곡 시 호전",
+    "subspecialty": "척추 질환",
     "stem": "척추관 협착증의 증상으로 ‘주로 양측하지의 통증, 저린감, 근력약화가 나타나고 통증은 요배부, 둔부에서 시작하여 무릎쪽으로 퍼지는 양상임. 통증이 걷는 중에 발생하여 앉거나 쉬면 나아지는 것’을 이르는 말은?",
     "images": [],
     "options": [
@@ -181082,7 +181422,9 @@
           "reason": "말초동맥질환(PAD)에 의해 발생하며 허리를 굽히지 않고 서서 가만히 쉬기만 해도 수 분 내에 증상이 호전되고 족배동맥 맥박이 소실됩니다."
         }
       ],
-      "differential_general": "21Y-09/20Y-17: 3회 반복 출제된 척추관 협착증의 대표적인 핵심 증상 정의 문항."
+      "differential_general": "21Y-09/20Y-17: 3회 반복 출제된 척추관 협착증의 대표적인 핵심 증상 정의 문항.",
+      "theme_title": "척추관 협착증(Spinal Stenosis)의 신경인성 간헐적 파행과 요추 굴곡 시 호전",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -181152,8 +181494,8 @@
     "year": "21Y",
     "q_num": 10,
     "category": "반짤",
-    "theme_title": "정형외과 과년도 빈출: Lactate 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "다발성 외상 환자의 조기 전인 고정(ETC) 수술 시기 결정 지표: 혈청 젖산(Lactate) 정상화",
+    "subspecialty": "외상 및 골절학",
     "stem": "다발성 외상 환자에서 적절한 수술 시기 결정하는데 가장 중요한 지표는?",
     "images": [],
     "options": [
@@ -181214,7 +181556,9 @@
           "reason": "출혈 정도와 수혈 필요성을 판단하는 수치이나 수액 소생술 중 혈액 희석 등에 영향을 받으므로 세포 산소화 회복의 직접적 척도가 아닙니다."
         }
       ],
-      "differential_general": "20Y-18: 동일 선지(A. Lactate 등)로 출제되어 정답은 동일하게 Lactate."
+      "differential_general": "20Y-18: 동일 선지(A. Lactate 등)로 출제되어 정답은 동일하게 Lactate.",
+      "theme_title": "다발성 외상 환자의 조기 전인 고정(ETC) 수술 시기 결정 지표: 혈청 젖산(Lactate) 정상화",
+      "subspecialty": "외상 및 골절학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -181344,7 +181688,9 @@
           "reason": "단무지외전근으로 정중신경의 지배를 받아 무지의 손바닥 직각 외전을 담당하며 수근관 증후군 시 위축됩니다."
         }
       ],
-      "differential_general": "20Y-15: 복기본에 Extensor pollicis brevis로 잘못 표기되었으나 방아쇠 수지의 병소는 A1 pulley가 맞음."
+      "differential_general": "20Y-15: 복기본에 Extensor pollicis brevis로 잘못 표기되었으나 방아쇠 수지의 병소는 A1 pulley가 맞음.",
+      "theme_title": "방아쇠 수지(Trigger Finger)의 병태생리: A1 활차(A1 Pulley) 건초염",
+      "subspecialty": "수부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -181414,8 +181760,8 @@
     "year": "21Y",
     "q_num": 12,
     "category": "반짤",
-    "theme_title": "[단독 기출] 다음 사진과 같이 골절의 불유합이 일어나는 가장 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "골절부 과도한 가동성으로 인한 비후성 불유합(Hypertrophic Nonunion)과 코끼리발 가골",
+    "subspecialty": "외상 및 골절학",
     "stem": "대퇴골 간부 골절 수술 후 9개월이 경과한 환자의 방사선 사진에서 금속정이 휘어져 있고 골절선 주변으로 코끼리발 모양의 거대한 가골(Elephant-foot callus) 형성이 관찰되었다. 이와 같은 비후성 불유합(Hypertrophic nonunion)이 발생하는 가장 흔한 원인은?",
     "images": [
       "images/정형외과/21Y_Q12_fig1.png"
@@ -181478,7 +181824,9 @@
           "reason": "감염성 불유합은 부비동, 골용해, 부골(sequestrum) 형성을 동반하는 감염 질환입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "골절부 과도한 가동성으로 인한 비후성 불유합(Hypertrophic Nonunion)과 코끼리발 가골",
+      "subspecialty": "외상 및 골절학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -181568,7 +181916,9 @@
       "trigger": "【견관절 전방 탈구 후 지속적 외전 제한: 회전근개 파열(Rotator Cuff Tear) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 60대 어깨 탈구 정복 후 삼각근 정상이나 능동 외전 불능+어깨 MRI 파열 소견 → 회전근개 파열.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 회전근개 파열.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "21Y-13/20Y-24: 동일 증례와 선지 구성으로 연속 출제된 빈출 문항."
+      "differential_general": "21Y-13/20Y-24: 동일 증례와 선지 구성으로 연속 출제된 빈출 문항.",
+      "theme_title": "견관절 전방 탈구 후 지속적 외전 제한: 회전근개 파열(Rotator Cuff Tear)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -181597,8 +181947,8 @@
     "year": "21Y",
     "q_num": 14,
     "category": "기출",
-    "theme_title": "[단독 기출] Tibia fracture 후 통증으로 내원, 부종, 수포, 주관절 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "경골 골절 후 긴장성 부종, 수포, 수동 신전통을 보이는 급성 구획증후군",
+    "subspecialty": "외상 응급",
     "stem": "경골 간부 골절로 깁스 고정 치료 중이던 환자가 심한 하지 통증을 호소하였다. 하퇴부에 긴장성 부종과 수포가 형성되었고 발가락 수동 신전 시 극심한 통증을 호소하였으나 족배동맥 맥박은 촉지되었다. 가장 우선적으로 시행해야 할 응급 처치는?",
     "images": [],
     "options": [
@@ -181659,7 +182009,9 @@
           "reason": "외부 압박 붕대는 구획 내 압력을 더욱 증가시켜 괴사를 촉진하는 금기 처치입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "경골 골절 후 긴장성 부종, 수포, 수동 신전통을 보이는 급성 구획증후군",
+      "subspecialty": "외상 응급"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -181725,8 +182077,8 @@
     "year": "21Y",
     "q_num": 15,
     "category": "기출",
-    "theme_title": "[단독 기출] Tibia 골절 후 심각한 통증으로 내원. 부종, 수포, ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "급성 구획증후군의 진단: 근막 구획 내압 측정(> 30 mmHg)과 응급 근막절개술",
+    "subspecialty": "외상 응급",
     "stem": "Tibia 골절 후 심각한 통증으로 내원. 부종, 수포, 이상감각 호소. 진단은?",
     "images": [
       "images/정형외과/21Y_Q15_fig1.png"
@@ -181789,7 +182141,9 @@
           "reason": "외상 수주~수개월 후 손상 정도에 비례하지 않는 작열통, 이질통, 피부 부종 및 자율신경 이상이 만성적으로 나타나는 복합부위 통증 증후군(CRPS)입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "급성 구획증후군의 진단: 근막 구획 내압 측정(> 30 mmHg)과 응급 근막절개술",
+      "subspecialty": "외상 응급"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -181855,8 +182209,8 @@
     "year": "21Y",
     "q_num": 16,
     "category": "기출",
-    "theme_title": "[단독 기출] A-B-C 순서대로 (distal femur 분쇄골절, Open ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "다발성 외상 환자의 손상 통제 정형외과(DCO) 치료 우선순위: ABCDE 소생술 후 임시 외고정",
+    "subspecialty": "외상 및 골절학",
     "stem": "다발성 외상 환자가 원위 대퇴골 분쇄 골절, 개방성 창상, 외상성 고관절 탈구를 주소로 내원하였다. 활력징후는 혈압 100/70 mmHg, 맥박 90회/분으로 안정적일 때, 대퇴골두의 비가역적 무혈성 괴사를 방지하기 위해 가장 먼저 시행해야 할 응급 처치는?",
     "images": [
       "images/정형외과/21Y_Q16_fig1.png",
@@ -181921,7 +182275,9 @@
           "reason": "탈구된 고관절을 방치한 채 부목만 대는 것은 대퇴골두 괴사를 방치하는 치명적 오류입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "다발성 외상 환자의 손상 통제 정형외과(DCO) 치료 우선순위: ABCDE 소생술 후 임시 외고정",
+      "subspecialty": "외상 및 골절학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -181987,8 +182343,8 @@
     "year": "21Y",
     "q_num": 17,
     "category": "반짤",
-    "theme_title": "정형외과 과년도 빈출: 인공고관절 전치환술 (Total hip arthroplasty 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "장기 스테로이드 투여 후 발생한 대퇴골두 무혈성 괴사(AVN)와 인공고관절 전치환술",
+    "subspecialty": "고관절",
     "stem": "60세 여성이 스테로이드를 6개월간 복용한 후 심한 좌측 고관절 통증과 보행 장애를 호소하여 내원하였다. 보존적 치료에 반응이 없었으며, MRI 및 방사선 검사 상 Ficat 4기의 대퇴골두 함몰 및 비구측 이차성 골관절염 소견이 관찰되었다. 가장 적절한 수술적 치료는?",
     "images": [],
     "options": [
@@ -182049,7 +182405,9 @@
           "reason": "초기 대퇴골두 무혈성 괴사에서 골내압 감소를 위해 적용되는 수술로 붕괴된 골두에서는 적응증이 되지 않습니다."
         }
       ],
-      "differential_general": "20Y-04: 선지 5개(A. 인공관절치환술, B. 경과관찰, C. 천공술 등) 중 인공관절치환술이 정답."
+      "differential_general": "20Y-04: 선지 5개(A. 인공관절치환술, B. 경과관찰, C. 천공술 등) 중 인공관절치환술이 정답.",
+      "theme_title": "장기 스테로이드 투여 후 발생한 대퇴골두 무혈성 괴사(AVN)와 인공고관절 전치환술",
+      "subspecialty": "고관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -182181,7 +182539,9 @@
           "reason": "상완골 외과경(surgical neck) 골절이나 견관절 전방 탈구 시 손상되며, 삼각근 마비로 인한 견관절 외전 장애와 어깨 외측 감각 저하를 초래합니다."
         }
       ],
-      "differential_general": "21Y-18: 복기본에 정답이 정중신경으로 오표기되어 있으나 손목 신전 불능 소견상 요골신경 손상이 맞음."
+      "differential_general": "21Y-18: 복기본에 정답이 정중신경으로 오표기되어 있으나 손목 신전 불능 소견상 요골신경 손상이 맞음.",
+      "theme_title": "상완골 원위 1/3 나선형 골절과 요골신경(Radial Nerve) 손상",
+      "subspecialty": "상지 외상 / 신경손상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -182255,8 +182615,8 @@
     "year": "21Y",
     "q_num": 19,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 좌측 중둔근 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "고관절 외전근 약화와 트렌델렌버그 검사(Trendelenburg Sign): 지지측 중둔근 손상",
+    "subspecialty": "고관절",
     "stem": "다음 이학적 검사에서 손상 받은 근육은?",
     "images": [
       "images/정형외과/21Y_Q19_fig1.png"
@@ -182310,7 +182670,9 @@
           "reason": "대퇴신경과 요추신경총의 지배를 받는 고관절 굴곡근으로 편측 약화 시 고관절 굴곡 장애를 보이며 골반 수평 기울기 검사의 대상이 아닙니다."
         }
       ],
-      "differential_general": "20Y-06: 동일 그림으로 출제되어 정답은 동일하게 좌측 중둔근."
+      "differential_general": "20Y-06: 동일 그림으로 출제되어 정답은 동일하게 좌측 중둔근.",
+      "theme_title": "고관절 외전근 약화와 트렌델렌버그 검사(Trendelenburg Sign): 지지측 중둔근 손상",
+      "subspecialty": "고관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -182393,7 +182755,9 @@
       "trigger": "【회전근개 전층 파열의 확진 검사 (어깨 MRI) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 80세 여성 낙상 후 원위 요골 골절(Colles 골절) → 전완부 회내·회외 억제를 위한 설탕집게 부목 고정.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① 견관절 MRI.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 정형외과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [],
-      "differential_general": "20Y-12: 선지 C가 설탕집게 부목으로 출제되었으며 동일하게 원위 요골 골절의 초기 고정을 다룸."
+      "differential_general": "20Y-12: 선지 C가 설탕집게 부목으로 출제되었으며 동일하게 원위 요골 골절의 초기 고정을 다룸.",
+      "theme_title": "회전근개 전층 파열의 확진 검사 (어깨 MRI)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -182486,7 +182850,9 @@
           "reason": "조직 결손 없이 감염 위험만 있는 창상에서 수일간 소독 후 닫아주는 방법이며, 2×2 cm의 실질적 결손이 있는 부위는 당겨서 봉합할 수 없습니다."
         }
       ],
-      "differential_general": "21Y-21: 복기본에 부분층 피부 이식(STSG)으로 표시되었으나 수부 결손에는 구축이 적은 전층 피부 이식(FTSG)이 표준임."
+      "differential_general": "21Y-21: 복기본에 부분층 피부 이식(STSG)으로 표시되었으나 수부 결손에는 구축이 적은 전층 피부 이식(FTSG)이 표준임.",
+      "theme_title": "거대세포종(Giant Cell Tumor)의 골단부 비누거품(Soap Bubble) 양상",
+      "subspecialty": "골종양"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -182560,8 +182926,8 @@
     "year": "21Y",
     "q_num": 22,
     "category": "기출",
-    "theme_title": "[단독 기출] 고관절 Femur head 수술 받은 사람, 통증을 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "대퇴골두 무혈성 괴사의 해부학적 기전: 내측대퇴회선동맥(MFCA) 심부 분지 손상",
+    "subspecialty": "고관절",
     "stem": "대퇴골두 무혈성 괴사(AVN)의 발생과 관련하여, 성인의 대퇴골두에 가장 많은 혈액을 공급하며 대퇴골두 골절 및 탈구 시 가장 흔하게 손상되는 핵심 혈관은?",
     "images": [
       "images/정형외과/21Y_Q22_fig1.png",
@@ -182625,7 +182991,9 @@
           "reason": "회선동맥들의 기원이 되는 대퇴부 주간선 혈관입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "대퇴골두 무혈성 괴사의 해부학적 기전: 내측대퇴회선동맥(MFCA) 심부 분지 손상",
+      "subspecialty": "고관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -182691,8 +183059,8 @@
     "year": "21Y",
     "q_num": 23,
     "category": "짤",
-    "theme_title": "슬개건염(Jumper's Knee)의 슬개골 하극 압통",
-    "subspecialty": "슬관절",
+    "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+    "subspecialty": "슬관절 외상",
     "stem": "다음과 같은 검사를 시행 했을 때, 양성 (no end point, mushroom)을 보였다. 원인이 되는 구조물은?",
     "images": [
       "images/정형외과/21Y_Q23_fig1.png"
@@ -182755,7 +183123,9 @@
           "reason": "경골의 과도한 내회전을 억제하는 외측 보조 인대로, ACL 파열 시 Segond 골절이나 전외측 회전 불안정성(pivot shift)과 연관됩니다."
         }
       ],
-      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음."
+      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음.",
+      "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -182832,8 +183202,8 @@
     "year": "21Y",
     "q_num": 24,
     "category": "반짤",
-    "theme_title": "슬개건염(Jumper's Knee)의 슬개골 하극 압통",
-    "subspecialty": "슬관절",
+    "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+    "subspecialty": "슬관절 외상",
     "stem": "남자가 경골이 후방전위되었다. 가장 손상받았을 확률이 높은 구조는?",
     "images": [],
     "options": [
@@ -182894,7 +183264,9 @@
           "reason": "경골의 과도한 내회전을 억제하는 외측 보조 인대로, ACL 파열 시 Segond 골절이나 전외측 회전 불안정성(pivot shift)과 연관됩니다."
         }
       ],
-      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음."
+      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음.",
+      "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -182971,8 +183343,8 @@
     "year": "21Y",
     "q_num": 25,
     "category": "기출",
-    "theme_title": "[단독 기출] 수년 전부터 어깨 통증 호소, MRI 상에서 광범위한 ",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "고령의 광범위 회전근개 파열 관절병증(CTA)과 역행성 견관절 전치환술(RSA)",
+    "subspecialty": "견관절",
     "stem": "72세 남성이 수년 전부터 지속된 어깨 통증과거상 불능으로 내원하였다. MRI 상 광범위한 회전근개 전층 파열과 심한 근육 지방변성이 있었고, 단순 방사선 사진에서 견봉-상완골두 간격이 6mm 미만으로 좁아져 상완골두가 상방 전위되어 있었다. 가장 적절한 수술적 치료법은?",
     "images": [
       "images/정형외과/21Y_Q25_fig1.png"
@@ -183035,7 +183407,9 @@
           "reason": "일시적인 대증 치료에 불과하며 반복 주사 시 남아있는 건 조직의 추가 파열과 관절 감염 위험을 증가시킵니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "고령의 광범위 회전근개 파열 관절병증(CTA)과 역행성 견관절 전치환술(RSA)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -183101,8 +183475,8 @@
     "year": "20Y",
     "q_num": 1,
     "category": "짤",
-    "theme_title": "경추 척수증(Cervical Spondylotic Myelopathy)의 상위운동신경원 징후",
-    "subspecialty": "척추 질환",
+    "theme_title": "급성 통풍성 관절염(Acute Gouty Arthritis)의 관절천자 및 편광현미경 소견",
+    "subspecialty": "관절 대사 질환",
     "stem": "20세남, 당일새벽에갑작스럽게발생한 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 무릎의통증및열감으로내원하였다. V/S \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 stable 하였으며 신체검사상, \u0001 \u0001 \u0001 삼출(effusion), 홍반이관찰되었다. 무릎 \u0001 \u0001 \u0001 \u0001 x선과 관절천자 후 편광현미경 검사 \u0001 \u0001 \u0001 \u0001 \u0001 결과이다.\u0001진단은?\u0001 \u0001",
     "images": [
       "images/정형외과/20Y_Q01_fig1.png"
@@ -183165,7 +183539,9 @@
           "reason": "대퇴골두나 대퇴과부 골괴사로 골용해와 관절면 붕괴(crescent sign)를 일으키며, 관절천자상 결정체가 동반된 급성 가성패혈성 활액 소견은 나타나지 않습니다."
         }
       ],
-      "differential_general": "20Y-01: 20세 남성 새벽 무릎 통증 증례로 통풍이 출제되었으나, 본 83세 증례는 사진상 CPPD 결정이 확인되어 가성통풍임."
+      "differential_general": "20Y-01: 20세 남성 새벽 무릎 통증 증례로 통풍이 출제되었으나, 본 83세 증례는 사진상 CPPD 결정이 확인되어 가성통풍임.",
+      "theme_title": "급성 통풍성 관절염(Acute Gouty Arthritis)의 관절천자 및 편광현미경 소견",
+      "subspecialty": "관절 대사 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -183237,8 +183613,8 @@
     "year": "20Y",
     "q_num": 2,
     "category": "기출",
-    "theme_title": "[단독 기출] 오토바이사고후응급실내원",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "척수 손상 급성기 척수 쇼크 평가: 구해면체 반사(Bulbocavernosus Reflex)의 유무",
+    "subspecialty": "척추 질환 / 외상",
     "stem": "35세남, 오토바이사고후응급실내원 \u0001 \u0001 \u0001 \u0001 \u0001 상하지 근력, 감각이 소실되어있었고 \u0001 \u0001 \u0001 \u0001 구해면체(bulbocavernous) reflex는 \u0001 \u0001 양성이었다.\u0001진단은?\u0001",
     "images": [],
     "options": [
@@ -183299,7 +183675,9 @@
           "reason": "구해면체 반사가 음성인 척수 쇼크 기간에만 적용되는 진술이며, 반사가 돌아온 시점에서는 신경학적 검진으로 완전 여부를 판정할 수 있습니다."
         }
       ],
-      "differential_general": "22Y-31: 구해면체 반사가 소실된 급성기 일시적 반사 차단 상태를 묻는 문제로 출제되어 정답은 척수성 쇼크(Spinal shock)."
+      "differential_general": "22Y-31: 구해면체 반사가 소실된 급성기 일시적 반사 차단 상태를 묻는 문제로 출제되어 정답은 척수성 쇼크(Spinal shock).",
+      "theme_title": "척수 손상 급성기 척수 쇼크 평가: 구해면체 반사(Bulbocavernosus Reflex)의 유무",
+      "subspecialty": "척추 질환 / 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -183427,7 +183805,9 @@
           "reason": "척수 원추부(T12~L2 척추 높이) 손상으로 대칭적 안장 감각 상실과 조기 괄약근 기능 부전이 나타나며 구해면체 반사가 통상 소실됩니다."
         }
       ],
-      "differential_general": "23Y-51: 불완전 척수 손상으로 동일 출제됨. 20Y-03 복기본에는 완전 척수 손상 오기가 있었음."
+      "differential_general": "23Y-51: 불완전 척수 손상으로 동일 출제됨. 20Y-03 복기본에는 완전 척수 손상 오기가 있었음.",
+      "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test)",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -183497,8 +183877,8 @@
     "year": "20Y",
     "q_num": 4,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 인공관절치환술\u0001 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "장기 스테로이드 투여 후 발생한 대퇴골두 무혈성 괴사(AVN)와 인공고관절 전치환술",
+    "subspecialty": "고관절",
     "stem": "60세 여, 스테로이드 투여 6개월 후 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 정형외과내원하였다. 보행시심한왼쪽 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 고관절 통증을 호소하였다. 약물치료후 \u0001 \u0001 \u0001 \u0001 반응이 없었다. 고관절 mri 결과다. \u0001 \u0001 \u0001 \u0001 \u0001 치료는?\u0001 \u0001 (화살표는\u0001없었음)\u0001",
     "images": [
       "images/정형외과/20Y_Q04_fig1.png"
@@ -183561,7 +183941,9 @@
           "reason": "초기 대퇴골두 무혈성 괴사에서 골내압 감소를 위해 적용되는 수술로 붕괴된 골두에서는 적응증이 되지 않습니다."
         }
       ],
-      "differential_general": "20Y-04: 선지 5개(A. 인공관절치환술, B. 경과관찰, C. 천공술 등) 중 인공관절치환술이 정답."
+      "differential_general": "20Y-04: 선지 5개(A. 인공관절치환술, B. 경과관찰, C. 천공술 등) 중 인공관절치환술이 정답.",
+      "theme_title": "장기 스테로이드 투여 후 발생한 대퇴골두 무혈성 괴사(AVN)와 인공고관절 전치환술",
+      "subspecialty": "고관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -183666,7 +184048,9 @@
           "reason": "상완골 원위 1/3 간부 나선골절(Holstein-Lewis 골절) 시 나선구에서 외측 근간중격을 관통하는 부위가 감돈되어 손목하수(wrist drop) 및 손목·무지 신전 불능을 유발합니다"
         }
       ],
-      "differential_general": "21Y-18: 복기본에 정답이 정중신경으로 오표기되어 있으나 손목 신전 불능 소견상 요골신경 손상이 맞음."
+      "differential_general": "21Y-18: 복기본에 정답이 정중신경으로 오표기되어 있으나 손목 신전 불능 소견상 요골신경 손상이 맞음.",
+      "theme_title": "상완골 원위 1/3 나선형 골절과 요골신경(Radial Nerve) 손상",
+      "subspecialty": "상지 외상 / 신경손상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -183716,8 +184100,8 @@
     "year": "20Y",
     "q_num": 6,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 우측\u0001??\u0001 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "고관절 외전근 약화와 트렌델렌버그 검사(Trendelenburg Sign): 지지측 중둔근 손상",
+    "subspecialty": "고관절",
     "stem": "다음\u0001이학적\u0001검사에서\u0001손상\u0001받은\u0001근육은?\u0001 \u0001",
     "images": [
       "images/정형외과/20Y_Q06_fig1.png"
@@ -183780,7 +184164,9 @@
           "reason": ""
         }
       ],
-      "differential_general": "20Y-06: 동일 그림으로 출제되어 정답은 동일하게 좌측 중둔근."
+      "differential_general": "20Y-06: 동일 그림으로 출제되어 정답은 동일하게 좌측 중둔근.",
+      "theme_title": "고관절 외전근 약화와 트렌델렌버그 검사(Trendelenburg Sign): 지지측 중둔근 손상",
+      "subspecialty": "고관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -183848,8 +184234,8 @@
     "year": "20Y",
     "q_num": 7,
     "category": "기출",
-    "theme_title": "정형외과 단독 기출: 제\u00011\u0001신전부\u0001국소\u0001스테로이드\u0001주사\u0001 관련 진단 및 처치",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "드퀘르벵 건초염(De Quervain)의 요골 경상돌기 건초염과 Finkelstein 검사",
+    "subspecialty": "수부 및 완관절",
     "stem": "32세여성이3개월전시작된우측손목 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 통증으로 내원하였다. 우측 요골 경상 \u0001 \u0001 \u0001 \u0001 \u0001 돌기에통증이있었으며, 엄지를신전할때 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 해당부위통증이있었다. 다음과같은 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 이학적검사시손목에통증이발생했다. \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 환자는2개월전출산후수유중이다. \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 처치는?\u0001 \u0001",
     "images": [
       "images/정형외과/20Y_Q07_fig1.png"
@@ -183912,7 +184298,9 @@
           "reason": "수근관 절개(개방)술은 정중신경이 포착되는 수근관 증후군의 수술적 치료법으로 요골 경상돌기 힘줄 병변의 치료와 무관합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "드퀘르벵 건초염(De Quervain)의 요골 경상돌기 건초염과 Finkelstein 검사",
+      "subspecialty": "수부 및 완관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -184040,7 +184428,9 @@
           "reason": "조직 결손 없이 감염 위험만 있는 창상에서 수일간 소독 후 닫아주는 방법이며, 2×2 cm의 실질적 결손이 있는 부위는 당겨서 봉합할 수 없습니다."
         }
       ],
-      "differential_general": "21Y-21: 복기본에 부분층 피부 이식(STSG)으로 표시되었으나 수부 결손에는 구축이 적은 전층 피부 이식(FTSG)이 표준임."
+      "differential_general": "21Y-21: 복기본에 부분층 피부 이식(STSG)으로 표시되었으나 수부 결손에는 구축이 적은 전층 피부 이식(FTSG)이 표준임.",
+      "theme_title": "거대세포종(Giant Cell Tumor)의 골단부 비누거품(Soap Bubble) 양상",
+      "subspecialty": "골종양"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -184114,8 +184504,8 @@
     "year": "20Y",
     "q_num": 9,
     "category": "기출",
-    "theme_title": "[단독 기출] 뒤꿈치통증으로내원. 후족부이외반이",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "후경골건 기능부전(PTTD)에 의한 성인 후천성 평발(Flatfoot)과 단일 발꿈치 들기 불능",
+    "subspecialty": "족부 및 족관절",
     "stem": "뒤꿈치통증으로내원. 후족부이외반이 \u0001 \u0001 \u0001 \u0001 \u0001 심했다. 까치발 들고(heel-raising) \u0001 \u0001 \u0001 유지하지 못했다. 경골 외측에 통증이 \u0001 \u0001 \u0001 \u0001 \u0001 심하였다. 문제가되는해부학적위치를 \u0001 \u0001 \u0001 \u0001 \u0001 지나가는\u0001구조물은?\u0001 \u0001",
     "images": [
       "images/정형외과/20Y_Q09_fig1.png"
@@ -184178,7 +184568,9 @@
           "reason": "종골 결절에 부착하여 발목의 강력한 족저굴곡을 일으키는 힘줄로 파열 시 Thompson 검사 양성을 보입니다."
         }
       ],
-      "differential_general": "22Y-29: 부주상골에 부착하는 힘줄(후경골건)을 묻는 문제로 변형 출제됨."
+      "differential_general": "22Y-29: 부주상골에 부착하는 힘줄(후경골건)을 묻는 문제로 변형 출제됨.",
+      "theme_title": "후경골건 기능부전(PTTD)에 의한 성인 후천성 평발(Flatfoot)과 단일 발꿈치 들기 불능",
+      "subspecialty": "족부 및 족관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -184244,8 +184636,8 @@
     "year": "20Y",
     "q_num": 10,
     "category": "기출",
-    "theme_title": "정형외과 단독 기출: 21세남성이고관절통증으로내원하였다...",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "군인의 행군 후 발생한 대퇴골두 스트레스 골절 및 대퇴골두 무혈성 괴사(AVN)",
+    "subspecialty": "고관절",
     "stem": "21세남성이고관절통증으로내원하였다. \u0001 \u0001 \u0001 \u0001 \u0001 직업은군인으로얼마전행군을한후에 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 통증이 시작되었다고 한다. 방사선 \u0001 \u0001 \u0001 \u0001 사진에서 골절 소견은 보이지 않았고, \u0001 \u0001 \u0001 \u0001 \u0001 MRI에서는골수부종소견이관찰된다. \u0001 \u0001 \u0001 \u0001 \u0001 이에대한설명으로옳은것은? (사진은 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 없었음)\u0001",
     "images": [],
     "options": [
@@ -184297,7 +184689,9 @@
           "reason": "골두 붕괴나 명확한 전위 골절이 없는 상태에서는 침습적인 수술을 시행하지 않고 보존적 비체중부하 치료를 우선 적용합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "군인의 행군 후 발생한 대퇴골두 스트레스 골절 및 대퇴골두 무혈성 괴사(AVN)",
+      "subspecialty": "고관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -184355,8 +184749,8 @@
     "year": "20Y",
     "q_num": 11,
     "category": "기출",
-    "theme_title": "[단독 기출] 어깨",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "견갑하근(Subscapularis) 파열의 이학적 검사: 복부 압박 검사(Belly-press Test)",
+    "subspecialty": "견관절",
     "stem": "우측 어깨 통증을 주소로 내원하였다. \u0001 \u0001 \u0001 \u0001 \u0001 사진과 같이 배꼽에 손을 올리고 \u0001 \u0001 \u0001 \u0001 \u0001 눌러보라고시켰을때, 손목을굴곡하고 \u0001 \u0001 \u0001 \u0001 \u0001 어깨의 신전근을 사용하여 결국에는 \u0001 \u0001 \u0001 \u0001 사진과 같이 팔꿈치가 허리에 닿았다. \u0001 \u0001 \u0001 \u0001 \u0001 원인이\u0001되는\u0001구조는?\u0001 \u0001",
     "images": [
       "images/정형외과/20Y_Q11_fig1.png"
@@ -184419,7 +184813,9 @@
           "reason": "상완골 대결절 중부에 부착하여 주관절을 체간에 붙인 상태에서 외회전력을 발생시키며, 파열 시 외회전 지연 징후(External rotation lag sign)를 보입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "견갑하근(Subscapularis) 파열의 이학적 검사: 복부 압박 검사(Belly-press Test)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -184549,7 +184945,9 @@
           "reason": "제4·5 중수골 골절(Boxer 골절)이나 척측 수근골 손상 시 제4·5 수지와 척측 전완부를 안정시키기 위해 적용하는 부목입니다."
         }
       ],
-      "differential_general": "20Y-12: 선지 C가 설탕집게 부목으로 출제되었으며 동일하게 원위 요골 골절의 초기 고정을 다룸."
+      "differential_general": "20Y-12: 선지 C가 설탕집게 부목으로 출제되었으며 동일하게 원위 요골 골절의 초기 고정을 다룸.",
+      "theme_title": "회전근개 전층 파열의 확진 검사 (어깨 MRI)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -184621,8 +185019,8 @@
     "year": "20Y",
     "q_num": 13,
     "category": "기출",
-    "theme_title": "[단독 기출] 엄지와검지사이의감각이소실되었고,",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "경추 6번 신경근병증(C6 Radiculopathy): 무지/인지 감각 저하와 상완요골근/이두근 약화",
+    "subspecialty": "척추 질환",
     "stem": "엄지와검지사이의감각이소실되었고, \u0001 \u0001 \u0001 \u0001 \u0001 손목의신전이잘안되었고이두근반사가 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 감소되어있었다. 다음중가장의심되는 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 경추간판\u0001탈출의\u0001위치는?\u0001",
     "images": [],
     "options": [
@@ -184683,7 +185081,9 @@
           "reason": "C8 신경근이 압박되어 넷째·다섯째 손가락 감각 저하와 수부 내재근(finger intrinsics) 약화가 발생합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "경추 6번 신경근병증(C6 Radiculopathy): 무지/인지 감각 저하와 상완요골근/이두근 약화",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -184749,8 +185149,8 @@
     "year": "20Y",
     "q_num": 14,
     "category": "짤",
-    "theme_title": "슬개건염(Jumper's Knee)의 슬개골 하극 압통",
-    "subspecialty": "슬관절",
+    "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+    "subspecialty": "슬관절 외상",
     "stem": "다음과 같은 검사를 시행하였을 때 \u0001 \u0001 \u0001 \u0001 \u0001 양성(no end-point, mushroom)을 \u0001 \u0001 \u0001 보였다.\u0001원인이\u0001되는\u0001구조물은?\u0001 \u0001",
     "images": [
       "images/정형외과/20Y_Q14_fig1.png"
@@ -184813,7 +185213,9 @@
           "reason": "경골의 과도한 내회전을 억제하는 외측 보조 인대로, ACL 파열 시 Segond 골절이나 전외측 회전 불안정성(pivot shift)과 연관됩니다."
         }
       ],
-      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음."
+      "differential_general": "22Y-20: 복기본에 슬개건염으로 표기되어 있으나 검사 사진과 선지상 Anterior cruciate ligament가 맞음.",
+      "theme_title": "전방십자인대(ACL) 파열의 라크만 검사(Lachman Test) 및 이학적 검진",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -184952,7 +185354,9 @@
           "reason": "단무지외전근으로 정중신경의 지배를 받아 무지의 손바닥 직각 외전을 담당하며 수근관 증후군 시 위축됩니다."
         }
       ],
-      "differential_general": "20Y-15: 복기본에 Extensor pollicis brevis로 잘못 표기되었으나 방아쇠 수지의 병소는 A1 pulley가 맞음."
+      "differential_general": "20Y-15: 복기본에 Extensor pollicis brevis로 잘못 표기되었으나 방아쇠 수지의 병소는 A1 pulley가 맞음.",
+      "theme_title": "방아쇠 수지(Trigger Finger)의 병태생리: A1 활차(A1 Pulley) 건초염",
+      "subspecialty": "수부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -185022,8 +185426,8 @@
     "year": "20Y",
     "q_num": 16,
     "category": "반짤",
-    "theme_title": "정형외과 과년도 빈출: Peroneus\u0001 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "급성 족관절 내번 염좌 후 만성 불안정성 예방을 위한 비골근(Peroneus) 강화",
+    "subspecialty": "족부 및 족관절",
     "stem": "(야마) 족관절염좌재활운동시강화하는 \u0001 \u0001 \u0001 \u0001 \u0001 근육은?\u0001",
     "images": [],
     "options": [
@@ -185084,7 +185488,9 @@
           "reason": "대퇴과부에서 기시하는 강력한 족저굴곡근으로 발목의 내외측 동적 안정화 근육이 아닙니다."
         }
       ],
-      "differential_general": "20Y-16: 영어 선지(A. Peroneus 등)로 출제되어 정답은 동일하게 Peroneus."
+      "differential_general": "20Y-16: 영어 선지(A. Peroneus 등)로 출제되어 정답은 동일하게 Peroneus.",
+      "theme_title": "급성 족관절 내번 염좌 후 만성 불안정성 예방을 위한 비골근(Peroneus) 강화",
+      "subspecialty": "족부 및 족관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -185156,8 +185562,8 @@
     "year": "20Y",
     "q_num": 17,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: 신경성\u0001간헐적\u0001파행\u0001 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "척추관 협착증(Spinal Stenosis)의 신경인성 간헐적 파행과 요추 굴곡 시 호전",
+    "subspecialty": "척추 질환",
     "stem": "척추관 협착증의증상으로, '주로양측 \u0001 \u0001 \u0001 \u0001 \u0001 하지의 통증, 저린감, 근력악화가 \u0001 \u0001 \u0001 \u0001 나타나고, 통증은 요배부, 둔부에서 \u0001 \u0001 \u0001 \u0001 시작하여 무릎쪽으로 퍼지는 양상임. \u0001 \u0001 \u0001 \u0001 통증이걷는중에발생하여앉거나쉬면 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 나아지는\u0001것'을\u0001이르는\u0001말은?\u0001",
     "images": [],
     "options": [
@@ -185218,7 +185624,9 @@
           "reason": "말초동맥질환(PAD)에 의해 발생하며 허리를 굽히지 않고 서서 가만히 쉬기만 해도 수 분 내에 증상이 호전되고 족배동맥 맥박이 소실됩니다."
         }
       ],
-      "differential_general": "21Y-09/20Y-17: 3회 반복 출제된 척추관 협착증의 대표적인 핵심 증상 정의 문항."
+      "differential_general": "21Y-09/20Y-17: 3회 반복 출제된 척추관 협착증의 대표적인 핵심 증상 정의 문항.",
+      "theme_title": "척추관 협착증(Spinal Stenosis)의 신경인성 간헐적 파행과 요추 굴곡 시 호전",
+      "subspecialty": "척추 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -185288,8 +185696,8 @@
     "year": "20Y",
     "q_num": 18,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: Lactate\u0001 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "다발성 외상 환자의 조기 전인 고정(ETC) 수술 시기 결정 지표: 혈청 젖산(Lactate) 정상화",
+    "subspecialty": "외상 및 골절학",
     "stem": "(야마) 적절한수술시기결정하는데에 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 가장\u0001중요한\u0001지표는?\u0001",
     "images": [],
     "options": [
@@ -185350,7 +185758,9 @@
           "reason": "출혈 정도와 수혈 필요성을 판단하는 수치이나 수액 소생술 중 혈액 희석 등에 영향을 받으므로 세포 산소화 회복의 직접적 척도가 아닙니다."
         }
       ],
-      "differential_general": "20Y-18: 동일 선지(A. Lactate 등)로 출제되어 정답은 동일하게 Lactate."
+      "differential_general": "20Y-18: 동일 선지(A. Lactate 등)로 출제되어 정답은 동일하게 Lactate.",
+      "theme_title": "다발성 외상 환자의 조기 전인 고정(ETC) 수술 시기 결정 지표: 혈청 젖산(Lactate) 정상화",
+      "subspecialty": "외상 및 골절학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -185455,7 +185865,9 @@
           "reason": "사지 골절용 부목으로는 확장된 골반환의 용적을 줄이거나 후복막 공간의 정맥총 출혈을 지혈할 수 없습니다."
         }
       ],
-      "differential_general": "20Y-19: 동일 증례와 X선 소견에서 1차 응급 처치로 A. 외고정술이 출제됨."
+      "differential_general": "20Y-19: 동일 증례와 X선 소견에서 1차 응급 처치로 A. 외고정술이 출제됨.",
+      "theme_title": "골연골종(Osteochondroma)의 골단판 방향 버섯 모양 양성 돌출",
+      "subspecialty": "골종양"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -185501,8 +185913,8 @@
     "year": "20Y",
     "q_num": 20,
     "category": "짤",
-    "theme_title": "[단독 기출] femur",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "대퇴골 원위부 골절 내고정 후 불유합: 금속 피로 파손과 가골 부전",
+    "subspecialty": "외상 및 골절학",
     "stem": "대퇴골 원위부 골절에 대해 금속정 내고정술을 시행한 후 방사선 추적 검사에서 금속정이 휘어져 있고 골절선이 불유합된 소견이 관찰되었다. 이와 같은 비후성 불유합이 일어나는 가장 주된 원인은?",
     "images": [],
     "options": [
@@ -185563,7 +185975,9 @@
           "reason": "감염성 불유합은 골용해, 부골(Sequestrum), 만성 농양 누공 형성을 특징으로 합니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "대퇴골 원위부 골절 내고정 후 불유합: 금속 피로 파손과 가골 부전",
+      "subspecialty": "외상 및 골절학"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -185631,8 +186045,8 @@
     "year": "20Y",
     "q_num": 21,
     "category": "짤",
-    "theme_title": "정형외과 과년도 빈출: Interdigital\u0001nerve\u0001 관련 진단 및 처치",
-    "subspecialty": "정형외과 과년도 빈출",
+    "theme_title": "지간신경종(Morton Neuroma)의 제2-3 중족골간 신경 포착과 Mulder 압박 징후",
+    "subspecialty": "족부 및 족관절",
     "stem": "좁은 신발 신으면 발에 통증이 있고, \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 2~3번째 사이에 물갈퀴 압통 있었다. \u0001 \u0001 \u0001 \u0001 \u0001 손상된\u0001구조물은?\u0001",
     "images": [],
     "options": [
@@ -185675,7 +186089,9 @@
           "reason": "발목 외측 및 발의 외측연 감각을 담당하는 순수 감각신경입니다."
         }
       ],
-      "differential_general": "22Y-27/20Y-21: 동일 증례로 출제되어 3회 이상 반복 출제된 족부 대표 기출 문항."
+      "differential_general": "22Y-27/20Y-21: 동일 증례로 출제되어 3회 이상 반복 출제된 족부 대표 기출 문항.",
+      "theme_title": "지간신경종(Morton Neuroma)의 제2-3 중족골간 신경 포착과 Mulder 압박 징후",
+      "subspecialty": "족부 및 족관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -185766,7 +186182,9 @@
           "reason": "알코올성 대퇴골두 무혈성 괴사나 급성 통풍 발작의 예방에는 필수적이나 퇴행성 슬관절염의 1차 비약물적 관리 지침은 아닙니다."
         }
       ],
-      "differential_general": "23Y-45: 복기본에 정답이 ① 금연으로 잘못 표기되어 있으나 퇴행성 관절염의 표준 비약물 치료는 체중감량임.\n20Y-22: 같은 엑스레이에서 진단명을 묻는 문항으로 출제되어 정답 OA(퇴행성 관절염)."
+      "differential_general": "23Y-45: 복기본에 정답이 ① 금연으로 잘못 표기되어 있으나 퇴행성 관절염의 표준 비약물 치료는 체중감량임.\n20Y-22: 같은 엑스레이에서 진단명을 묻는 문항으로 출제되어 정답 OA(퇴행성 관절염).",
+      "theme_title": "듀피트렌 구축(Dupuytren Contracture)의 수장건막 결절 및 굴곡 변형",
+      "subspecialty": "수부 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -185814,8 +186232,8 @@
     "year": "20Y",
     "q_num": 23,
     "category": "기출",
-    "theme_title": "[단독 기출] 젊은남성환자가축구하다가왼쪽무릎",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "축구 경기 중 발생한 급성 혈관절증(Hemarthrosis)과 전방십자인대(ACL) 파열",
+    "subspecialty": "슬관절 외상",
     "stem": "젊은남성환자가축구하다가왼쪽무릎 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 다쳐서내원하였다. 관절천자에서다량의 \u0001 \u0001 \u0001 \u0001 혈액\u0001나왔다.\u0001이상이\u0001생긴\u0001구조물은?\u0001 \u0001 (그나마\u0001비슷한\u0001사진..?\u0001 왼쪽 아래에서 기시해서 오른쪽 위로 \u0001 \u0001 \u0001 \u0001 \u0001 올라가는 인대가 위쪽에서 완전히 \u0001 \u0001 \u0001 \u0001 떨어져서\u0001너덜해진\u0001관절경\u0001사진이었음.)\u0001",
     "images": [
       "images/정형외과/20Y_Q23_fig1.png"
@@ -185869,7 +186287,9 @@
           "reason": "무릎에 내반력(varus stress)이 가해질 때 손상되는 외측 지지 인대로 단독 파열은 매우 드뭅니다."
         }
       ],
-      "differential_general": "26Y-49: 선지가 영어 전체 명칭(anterior cruciate ligament rupture) 4지선다로 출제되어 정답 동일."
+      "differential_general": "26Y-49: 선지가 영어 전체 명칭(anterior cruciate ligament rupture) 4지선다로 출제되어 정답 동일.",
+      "theme_title": "축구 경기 중 발생한 급성 혈관절증(Hemarthrosis)과 전방십자인대(ACL) 파열",
+      "subspecialty": "슬관절 외상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -185973,7 +186393,9 @@
           "reason": "삼각근 마비와 어깨 외측(군장 부위) 감각 저하를 초래하지만, 본 증례는 삼각근 근력과 외측 감각이 완전히 정상이므로 배제됩니다."
         }
       ],
-      "differential_general": "21Y-13/20Y-24: 동일 증례와 선지 구성으로 연속 출제된 빈출 문항."
+      "differential_general": "21Y-13/20Y-24: 동일 증례와 선지 구성으로 연속 출제된 빈출 문항.",
+      "theme_title": "견관절 전방 탈구 후 지속적 외전 제한: 회전근개 파열(Rotator Cuff Tear)",
+      "subspecialty": "견관절"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -186027,8 +186449,8 @@
     "year": "20Y",
     "q_num": 25,
     "category": "기출",
-    "theme_title": "[단독 기출] 환자",
-    "subspecialty": "정형외과 단독 기출",
+    "theme_title": "사지 골절 후 수동 신전 시 극심한 통증을 보이는 구획증후군의 응급 감압술",
+    "subspecialty": "외상 응급",
     "stem": "골절 환자 연부조직 손상을 보였다. \u0001 \u0001 \u0001 \u0001 \u0001 Pulse있었고 발적 있었으며 수동적 \u0001 \u0001 \u0001 \u0001 발목관절신전시통증호소하였다. 해야할 \u0001 \u0001 \u0001 \u0001 \u0001 처치는?\u0001 \u0001",
     "images": [
       "images/정형외과/20Y_Q25_fig1.png"
@@ -186082,7 +186504,9 @@
           "reason": "외고정 전 임시 정렬 보조는 될 수 있으나 구획 압력을 낮추지 못하며, 압박 드레싱이나 타이트한 석고는 오히려 구획 압력을 상승시킵니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "theme_title": "사지 골절 후 수동 신전 시 극심한 통증을 보이는 구획증후군의 응급 감압술",
+      "subspecialty": "외상 응급"
     },
     "is_multiple_choice": false,
     "required_count": 1,
