@@ -102,6 +102,8 @@
     btnCardToggleShuffle: document.getElementById('btn-card-toggle-shuffle'),
     btnMobileToggleShuffle: document.getElementById('btn-mobile-toggle-shuffle'),
     btnReshuffleNow: document.getElementById('btn-reshuffle-now'),
+    btnRevealAnswer: document.getElementById('btn-reveal-answer'),
+    optionsKbdTip: document.getElementById('options-kbd-tip'),
     searchInput: document.getElementById('search-input'),
 
     // Question Card
@@ -2434,6 +2436,20 @@
     if (dom.btnReshuffleNow) {
       dom.btnReshuffleNow.style.display = (state.shuffleOptions && !isAnswered && q.options && q.options.length > 1) ? 'inline-flex' : 'none';
     }
+    if (dom.btnRevealAnswer) {
+      if (isAnswered) {
+        dom.btnRevealAnswer.textContent = '🔄 다시 풀기';
+        dom.btnRevealAnswer.className = 'btn-reveal-answer is-retry';
+        dom.btnRevealAnswer.title = '이 문제 다시 풀기 (단축키 0 또는 R)';
+      } else {
+        dom.btnRevealAnswer.textContent = '💡 정답 보기';
+        dom.btnRevealAnswer.className = 'btn-reveal-answer';
+        dom.btnRevealAnswer.title = '즉시 정답 및 상세 해설 보기 (단축키 0)';
+      }
+    }
+    if (dom.optionsKbdTip) {
+      dom.optionsKbdTip.textContent = isAnswered ? '단축키: 0 다시풀기 · N 다음' : '단축키: 1 ~ 5 · 0 정답보기';
+    }
 
     // Header Badge & Tips
     if (dom.cardMultiBadge) {
@@ -2962,11 +2978,19 @@
           iconSpan.style.display = 'inline-block';
         }
       } else if (!isSelected && isTargetCorrect) {
-        // Correct option that user missed!
-        btn.classList.add('is-actual-correct', 'is-missed');
-        if (iconSpan) {
-          iconSpan.textContent = '💡 놓친 정답';
-          iconSpan.style.display = 'inline-block';
+        // Correct option that user missed or revealed directly!
+        if (answerRecord && answerRecord.isRevealed) {
+          btn.classList.add('is-actual-correct', 'is-revealed-correct');
+          if (iconSpan) {
+            iconSpan.textContent = '✓ 정답';
+            iconSpan.style.display = 'inline-block';
+          }
+        } else {
+          btn.classList.add('is-actual-correct', 'is-missed');
+          if (iconSpan) {
+            iconSpan.textContent = '💡 놓친 정답';
+            iconSpan.style.display = 'inline-block';
+          }
         }
       } else {
         // Neutral unselected distractor
@@ -3001,7 +3025,12 @@
     
     const correctDisplayLabels = config.correctIndices.map(i => formatOptionWithDisplayNum(q, i)).filter(Boolean).join(', ');
 
-    if (isCorrect) {
+    if (answerRecord && answerRecord.isRevealed) {
+      dom.feedbackBanner.className = 'feedback-banner reveal-only';
+      dom.feedbackIcon.textContent = '💡';
+      dom.feedbackStatus.textContent = '💡 정답 및 상세 해설 확인';
+      dom.feedbackDetail.textContent = `정답은 [${correctDisplayLabels || q.correct_answer}] 입니다. 아래 상세 해설과 감별 포인트를 복습하세요.`;
+    } else if (isCorrect) {
       dom.feedbackIcon.textContent = '🎉';
       dom.feedbackStatus.textContent = config.isMulti 
         ? `정답입니다! (복수 정답 ${config.requiredCount}개 모두 일치)` 
@@ -3059,6 +3088,47 @@
   /**
    * Reset / Retry Current Question
    */
+
+  /**
+   * Reveal Current Question Answer & Explanation Directly (Without Submitting First)
+   * Triggered by key '0' when unsolved, or clicking '#btn-reveal-answer'
+   */
+  function revealCurrentAnswerDirectly() {
+    const q = getCurrentQuestion();
+    if (!q) return;
+    if (state.userAnswers[q.id]) return;
+
+    const config = getQuestionAnswerConfig(q);
+    state.pendingSelections.clear();
+
+    if (config.isSubjective) {
+      state.userAnswers[q.id] = {
+        selectedIndices: [],
+        selectedIndex: -1,
+        isCorrect: true,
+        isSubjective: true,
+        isRevealed: true,
+        timestamp: Date.now()
+      };
+    } else {
+      state.userAnswers[q.id] = {
+        selectedIndices: [],
+        selectedIndex: -1,
+        correctIndices: config.correctIndices,
+        isCorrect: false,
+        isPartial: false,
+        isRevealed: true,
+        score: 0,
+        timestamp: Date.now()
+      };
+    }
+
+    saveStorage();
+    updateStats();
+    renderOptions(q);
+    revealAnswerAndExplanation(q, state.userAnswers[q.id], true);
+  }
+
   function resetCurrentQuestion() {
     const q = getCurrentQuestion();
     if (!q) return;
@@ -3068,9 +3138,8 @@
     if (dom.cardThemeTitle) {
       delete dom.cardThemeTitle.dataset.peeked;
     }
-    if (state.shuffleOptions) {
-      getDisplayOrder(q, true);
-    }
+    // Note: Preserve existing shuffled option order on retry
+    // (User requested: 선지섞기 켜진 상태에서 다시풀기 할 때 선지 다시 안 섞이도록)
     saveStorage();
     updateStats();
     renderCurrentQuestion();
@@ -4160,6 +4229,17 @@
     if (dom.btnReshuffleNow) {
       dom.btnReshuffleNow.addEventListener('click', reshuffleCurrentQuestionOptions);
     }
+    if (dom.btnRevealAnswer) {
+      dom.btnRevealAnswer.addEventListener('click', () => {
+        const q = getCurrentQuestion();
+        if (!q) return;
+        if (state.userAnswers[q.id]) {
+          resetCurrentQuestion();
+        } else {
+          revealCurrentAnswerDirectly();
+        }
+      });
+    }
 
     // Mobile Filter Drawer Toggle
     if (dom.btnToggleFilters) {
@@ -4493,7 +4573,16 @@
     } else if (e.key === 'b' || e.key === 'B') {
       e.preventDefault();
       toggleBookmark();
-    } else if (e.key === 'r' || e.key === 'R' || e.key === 'Backspace' || e.key === '0' || e.code === 'Digit0' || e.code === 'Numpad0') {
+    } else if (e.key === '0' || e.code === 'Digit0' || e.code === 'Numpad0') {
+      e.preventDefault();
+      const q = getCurrentQuestion();
+      if (!q) return;
+      if (state.userAnswers[q.id]) {
+        resetCurrentQuestion();
+      } else {
+        revealCurrentAnswerDirectly();
+      }
+    } else if (e.key === 'r' || e.key === 'R' || e.key === 'Backspace') {
       e.preventDefault();
       resetCurrentQuestion();
     } else if (e.key === 's' || e.key === 'S') {

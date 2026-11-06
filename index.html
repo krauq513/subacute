@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>subacute | 임상의학 기출 퀴즈 마스터</title>
   <meta name="description" content="subacute - 20Y ~ 26Y 임상의학 9개 분과 기출 문제 풀이 및 상세 해설 인터랙티브 CBT">
-  <link rel="stylesheet" href="style.css?v=20261106v19">
+  <link rel="stylesheet" href="style.css?v=20261106v20">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -280,9 +280,10 @@
           <div class="options-header">
             <span class="options-label" id="options-label">선지를 클릭하여 정답을 선택하세요</span>
             <div class="options-header-right">
+              <button type="button" class="btn-reveal-answer" id="btn-reveal-answer" title="즉시 정답 및 상세 해설 보기 (단축키 0)">💡 정답 보기</button>
               <button type="button" class="btn-shuffle-toggle" id="btn-card-toggle-shuffle" title="선지 순서 무작위 섞기 ON/OFF">🔀 선지 섞기</button>
               <button type="button" class="btn-reshuffle" id="btn-reshuffle-now" style="display: none;" title="현재 문제 선지 순서 다시 섞기">🔄 다시 섞기</button>
-              <span class="kbd-tip" id="options-kbd-tip">단축키: 숫자키 1 ~ 5</span>
+              <span class="kbd-tip" id="options-kbd-tip">단축키: 1 ~ 5 · 0 정답보기</span>
             </div>
           </div>
           <div class="options-list" id="options-list">
@@ -963,6 +964,6 @@
   <!-- Original Exam PDF Manifest -->
   <script src="data/pdf_manifest.js?v=20261106v5"></script>
   <!-- Main Application Logic -->
-  <script src="app.js?v=20261106v19"></script>
+  <script src="app.js?v=20261106v20"></script>
 </body>
 </html>
