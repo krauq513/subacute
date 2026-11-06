@@ -2001,6 +2001,97 @@
   /**
    * Render Current Question
    */
+  /**
+   * Format question identifier for clipboard sharing ([과목] 00Y-00)
+   */
+  function getFormattedQuestionNumber(q) {
+    if (!q) return '';
+    const subject = q.subject || '임상의학';
+    let year = q.year || '';
+    if (year && !year.endsWith('Y')) {
+      if (year.length === 4) year = year.slice(2) + 'Y';
+      else year = year + 'Y';
+    }
+    const qnum = String(q.q_num !== undefined && q.q_num !== null ? q.q_num : 1).padStart(2, '0');
+    return `[${subject}] ${year}-${qnum}`;
+  }
+
+  function fallbackCopyText(text, onSuccess, onFail) {
+    let textarea = null;
+    try {
+      textarea = document.createElement('textarea');
+      textarea.value = text;
+      textarea.style.position = 'fixed';
+      textarea.style.top = '0';
+      textarea.style.left = '0';
+      textarea.style.width = '2em';
+      textarea.style.height = '2em';
+      textarea.style.padding = '0';
+      textarea.style.border = 'none';
+      textarea.style.outline = 'none';
+      textarea.style.boxShadow = 'none';
+      textarea.style.background = 'transparent';
+      textarea.style.opacity = '0';
+      textarea.setAttribute('readonly', '');
+      document.body.appendChild(textarea);
+      textarea.focus();
+      textarea.select();
+      textarea.setSelectionRange(0, text.length);
+      const successful = document.execCommand('copy');
+      if (successful) {
+        if (onSuccess) onSuccess();
+      } else {
+        if (onFail) onFail();
+      }
+    } catch (err) {
+      if (onFail) onFail(err);
+    } finally {
+      if (textarea && textarea.parentNode) {
+        textarea.parentNode.removeChild(textarea);
+      }
+    }
+  }
+
+  function copyCurrentQuestionNumber() {
+    const q = getCurrentQuestion();
+    if (!q) {
+      showToast('⚠️ 복사할 문제 정보가 없습니다.');
+      return;
+    }
+    const formatted = getFormattedQuestionNumber(q);
+
+    const handleSuccess = () => {
+      showToast(`📋 문제 번호 복사됨: ${formatted}`);
+      if (dom.btnCopyQnum) {
+        const span = dom.btnCopyQnum.querySelector('span');
+        const origText = span ? span.textContent : '번호 복사';
+        dom.btnCopyQnum.classList.add('copied');
+        if (span) span.textContent = '복사됨!';
+        setTimeout(() => {
+          dom.btnCopyQnum.classList.remove('copied');
+          if (span) span.textContent = origText;
+        }, 1200);
+      }
+    };
+
+    const handleFail = (err) => {
+      console.warn('Clipboard write failed, showing prompt fallback:', err);
+      try {
+        window.prompt('클립보드 자동 복사가 지원되지 않는 브라우저입니다. 아래 문구를 복사(Ctrl+C)하세요:', formatted);
+      } catch (e) {
+        showToast('⚠️ 클립보드 복사 권한이 없습니다.');
+      }
+    };
+
+    if (navigator.clipboard && window.isSecureContext && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(formatted)
+        .then(handleSuccess)
+        .catch(() => fallbackCopyText(formatted, handleSuccess, handleFail));
+    } else {
+      fallbackCopyText(formatted, handleSuccess, handleFail);
+    }
+  }
+
   function renderCurrentQuestion() {
     const q = getCurrentQuestion();
     if (!q) {

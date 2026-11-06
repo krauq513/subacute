@@ -830,6 +830,12 @@ body {
 }
 
 
+
+.btn-copy-qnum svg,
+.btn-copy-qnum span {
+  pointer-events: none;
+}
+
 .btn-copy-qnum {
   display: inline-flex !important;
   align-items: center !important;
