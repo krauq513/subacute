@@ -167719,7 +167719,7 @@
     "year": "26Y",
     "q_num": 52,
     "category": "짤",
-    "theme_title": "급성 통풍성 관절염(Acute Gouty Arthritis)의 관절천자 및 편광현미경 소견",
+    "theme_title": "가성통풍(CPPD / Pseudogout)의 관절연골 석회화증 및 편광현미경 양성 복굴절 마름모형 결정",
     "subspecialty": "관절 대사 질환",
     "stem": "83 세 남성이 무릎 통증 및 열감으로 내원하였다. V/S stable 하였으며 신체검사상 삼출, 홍반 부종이 관찰되었다. 무릎 X-ray 와 관절천자 후 편광현미경 검사결과이다. 진단은?",
     "images": [
@@ -167732,11 +167732,11 @@
       "④ 가성통풍",
       "⑤ AVN"
     ],
-    "correct_option_index": 2,
-    "correct_answer": "③ 통풍",
+    "correct_option_index": 3,
+    "correct_answer": "④ 가성통풍",
     "explanation": {
-      "title": "경추 척수증(Cervical Spondylotic Myelopathy)의 상위운동신경원 징후",
-      "findings": "83세 남성 무릎 급성 단관절염+X선 연골석회화증+편광현미경 양성 복굴절 마름모형 결정 → 가성통풍(CPPD)",
+      "title": "가성통풍(CPPD / Pseudogout)과 통풍의 감별",
+      "findings": "83세 남성 무릎 급성 단관절염 + X선 연골석회화증(Chondrocalcinosis) + 편광현미경 약한 양성 복굴절 마름모형 결정 → 가성통풍(CPPD / Pseudogout)",
       "differential": "• ① OA ✗ [오답]: 체중 부하 시 서서히 악화되는 만성 기계적 관절통으로 관절강 협착과 골극이 특징이며, 급성 발적·열감 및 다량의 결정 유발 활액 삼출을 보이지 않습니다.\n• ② RA ✗ [오답]: 다발성 대칭성 소관절(손목, MCP, PIP) 침범과 조조강직이 전형적이며, 활액에서 특징적인 결정체는 관찰되지 않고 류마티스 인자/항CCP 항체 양성을 보입니다.\n• ③ 통풍 ✗ [오답]: 요산나트륨(MSU) 결정이 활액에 침착하여 발생하며, 편광현미경에서 강한 음성 복굴절을 보이는 바늘 모양(needle-shaped) 결정을 관찰할 수 있습니다.\n• ④ 가성통풍 ✓ [정답]: 피로인산칼슘(CPPD) 침착으로 발생하며, X선상 관절연골 석회화증(chondrocalcinosis)과 편광현미경의 약한 양성 복굴절을 띠는 평행사변형/마름모 결정을 확인합니다\n• ⑤ AVN ✗ [오답]: 대퇴골두나 대퇴과부 골괴사로 골용해와 관절면 붕괴(crescent sign)를 일으키며, 관절천자상 결정체가 동반된 급성 가성패혈성 활액 소견은 나타나지 않습니다.\n\n【핵심 감별 및 임상 가이드라인】\n20Y-01: 20세 남성 새벽 무릎 통증 증례로 통풍이 출제되었으나, 본 83세 증례는 사진상 CPPD 결정이 확인되어 가성통풍임.",
       "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
       "trigger": "【경추 척수증(Cervical Spondylotic Myelopathy)의 상위운동신경원 징후 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 83세 남성 무릎 급성 단관절염+X선 연골석회화증+편광현미경 양성 복굴절 마름모형 결정 → 가성통풍(CPPD).\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ④ 가성통풍.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
@@ -167784,13 +167784,13 @@
         }
       ],
       "differential_general": "20Y-01: 20세 남성 새벽 무릎 통증 증례로 통풍이 출제되었으나, 본 83세 증례는 사진상 CPPD 결정이 확인되어 가성통풍임.",
-      "theme_title": "급성 통풍성 관절염(Acute Gouty Arthritis)의 관절천자 및 편광현미경 소견",
+      "theme_title": "가성통풍(CPPD / Pseudogout)의 관절연골 석회화증 및 편광현미경 양성 복굴절 마름모형 결정",
       "subspecialty": "관절 대사 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      2
+      3
     ],
     "freq_count": 4,
     "rate": 67,
@@ -167848,7 +167848,7 @@
         "reason": "대퇴골두나 대퇴과부 골괴사로 골용해와 관절면 붕괴(crescent sign)를 일으키며, 관절천자상 결정체가 동반된 급성 가성패혈성 활액 소견은 나타나지 않습니다."
       }
     ],
-    "answer": "③ 통풍 (Gouty Arthritis)"
+    "answer": "④ 가성통풍 (Pseudogout / CPPD)"
   },
   {
     "id": "정형외과_26Y_Q53",
