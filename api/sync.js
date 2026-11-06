@@ -48,6 +48,7 @@ function mergeData(serverData, clientData) {
     '내과_26Y_Q45',
     '소아청소년과_22Y_Q44',
     '소아청소년과_26Y_Q38',
+    '소아청소년과_23Y_Q39',
     '영상의학과_26Y_Q07'
   ]);
   for (const [rid, rep] of reportMap.entries()) {
@@ -58,6 +59,8 @@ function mergeData(serverData, clientData) {
         rep.resolutionNote = '22Y 44번 원본 5지선다 복원 및 정답 ③ PDA(대형 좌-우 단락에 의한 심첨부 확장기잡음 및 P2 항진) 교정 완료';
       } else if (rep.questionId === '소아청소년과_26Y_Q38') {
         rep.resolutionNote = '출제 답안(② 머리 비율)과 교과서적 복수정답(③ 체표면적 비율) 감별 가이드라인 해설 추가 완료';
+      } else if (rep.questionId === '소아청소년과_23Y_Q39') {
+        rep.resolutionNote = '정답 ⑤(검사없이 추적관찰) 수정 및 단순 조기 유방 발육증 진단기준 해설 정렬 완료';
       } else if (rep.questionId === '영상의학과_26Y_Q07') {
         rep.resolutionNote = '활동성 폐결핵 X-ray에 대한 [옳지 않은 것] 부정형 문제 강조 및 ① 폐암 의심 정답 해설 보강 완료';
       } else if (rep.questionId === '내과_26Y_Q31') {
@@ -125,7 +128,12 @@ function mergeData(serverData, clientData) {
   const logMap = new Map();
   (serverData.editLogs || []).forEach(l => { if (l) logMap.set(l.id || `${l.timestamp}_${l.questionId}`, l); });
   (clientData.clientEditLogs || []).forEach(l => { if (l) logMap.set(l.id || `${l.timestamp}_${l.questionId}`, l); });
-  const mergedEditLogs = Array.from(logMap.values()).sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
+  // Purge permanently resolved questions from custom edits
+  for (const qId of resolvedQuestionIds) {
+    if (mergedEdits[qId]) delete mergedEdits[qId];
+  }
+
+    const mergedEditLogs = Array.from(logMap.values()).sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
 
   // 4. Profiles merge
   const profileMap = new Map();
@@ -229,7 +237,14 @@ function mergeData(serverData, clientData) {
     }
   });
 
-  return {
+  // Clear stale answers for permanently corrected questions across all profiles
+  for (const p of profileMap.values()) {
+    if (p.userAnswers && p.userAnswers['소아청소년과_23Y_Q39']) {
+      delete p.userAnswers['소아청소년과_23Y_Q39'];
+    }
+  }
+
+    return {
     reports: mergedReports,
     comments: mergedComments,
     customEdits: mergedEdits,

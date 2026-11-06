@@ -1354,6 +1354,16 @@
       return { isMulti: false, requiredCount: 1, correctIndices: [0], typeLabel: '단일 정답' };
     }
 
+    // Defensive check: if single choice and correct_option_index is defined, sync correct_option_indices
+    if (q.correct_option_index !== undefined && q.correct_option_index !== null) {
+      const singleIdx = Number(q.correct_option_index);
+      if (!Array.isArray(q.correct_option_indices) || q.correct_option_indices.length <= 1) {
+        if (!Array.isArray(q.correct_option_indices) || q.correct_option_indices[0] !== singleIdx) {
+          q.correct_option_indices = [singleIdx];
+        }
+      }
+    }
+
     // 1. Direct explicit configuration in question data (highest priority)
     if (Array.isArray(q.correct_option_indices) && q.correct_option_indices.length > 0) {
       const sorted = [...new Set(q.correct_option_indices.map(Number))].sort((a, b) => a - b);
@@ -2292,7 +2302,20 @@
     dom.optionsList.innerHTML = '';
     dom.optionsList.classList.toggle('has-image-options', !!q.is_image_options);
     const config = getQuestionAnswerConfig(q);
-    const answerRecord = state.userAnswers[q.id];
+    let answerRecord = state.userAnswers[q.id];
+    // Reconcile answer record if database answer changed
+    if (answerRecord && Array.isArray(answerRecord.correctIndices) &&
+        JSON.stringify(answerRecord.correctIndices) !== JSON.stringify(config.correctIndices)) {
+      const correctSet = new Set(config.correctIndices);
+      const selectedIndices = answerRecord.selectedIndices || (answerRecord.selectedIndex !== undefined ? [answerRecord.selectedIndex] : []);
+      const correctlySelected = selectedIndices.filter(i => correctSet.has(i));
+      const wronglySelected = selectedIndices.filter(i => !correctSet.has(i));
+      const missedCorrect = config.correctIndices.filter(i => !selectedIndices.includes(i));
+      answerRecord.correctIndices = [...config.correctIndices];
+      answerRecord.isCorrect = (wronglySelected.length === 0 && missedCorrect.length === 0);
+      answerRecord.isPartial = (!answerRecord.isCorrect && correctlySelected.length > 0);
+      answerRecord.score = answerRecord.isCorrect ? 1.0 : (correctlySelected.length / Math.max(1, config.correctIndices.length));
+    }
     const isAnswered = !!answerRecord;
     const order = getDisplayOrder(q);
 
@@ -3019,8 +3042,20 @@
   /**
    * Apply user custom edits onto allQuestions on initialization
    */
+  const PERMANENT_RESOLVED_CUSTOM_EDITS = new Set([
+    '소아청소년과_23Y_Q39'
+  ]);
+
   function applyCustomEdits() {
     if (!state.customEdits || Object.keys(state.customEdits).length === 0) return;
+    PERMANENT_RESOLVED_CUSTOM_EDITS.forEach(id => {
+      if (state.customEdits[id]) {
+        delete state.customEdits[id];
+        try {
+          localStorage.setItem(STORAGE_KEY_CUSTOM_EDITS, JSON.stringify(state.customEdits));
+        } catch (e) {}
+      }
+    });
     state.allQuestions.forEach(q => {
       const edit = state.customEdits[q.id];
       if (edit) {
@@ -3040,6 +3075,7 @@
         if (edit.correct_option_index !== undefined) {
           q.correct_option_index = edit.correct_option_index;
           q.correct_answer = q.options[edit.correct_option_index] || '';
+          q.correct_option_indices = [Number(edit.correct_option_index)];
         }
       }
     });
@@ -3152,6 +3188,7 @@
     q.options = newOptions;
     q.correct_option_index = newAnsIdx;
     q.correct_answer = newOptions[newAnsIdx] || '';
+    q.correct_option_indices = [newAnsIdx];
 
     // Save to customEdits
     state.customEdits[q.id] = {
@@ -3203,6 +3240,7 @@
     q.options = [...q._orig.options];
     q.correct_option_index = q._orig.correct_option_index;
     q.correct_answer = q._orig.correct_answer;
+    q.correct_option_indices = q._orig.correct_option_indices ? [...q._orig.correct_option_indices] : [Number(q._orig.correct_option_index)];
 
     delete state.customEdits[q.id];
     localStorage.setItem(STORAGE_KEY_CUSTOM_EDITS, JSON.stringify(state.customEdits));
