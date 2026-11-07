@@ -32829,7 +32829,7 @@
     "category": "탈",
     "theme_title": "동기능부전증후군(SSS): 빈맥-서맥 증후군(Tachy-brady syndrome)",
     "subspecialty": "심장내과 / 부정맥",
-    "stem": "66세 남성이 앉아 있다가 갑작스런 의식 소실로 응급실에 내원하였다. 환자의 vital sign은 다음과 같았다. 혈압 95/70 ­ 맥박 95 ­ 호흡수 22 ­ 체온 36.4 심전도를 촬영했을 때 다음 그림과 같았다고 할 때, 의식 소실의 이유는 무엇인가?",
+    "stem": "66세 남성이 앉아 있다가 갑작스런 의식 소실로 응급실에 내원하였다. 환자의 vital sign은 다음과 같았다. 혈압 95/70 - 맥박 95 - 호흡수 22 - 체온 36.4 심전도를 촬영했을 때 다음 그림과 같았다고 할 때, 의식 소실의 이유는 무엇인가?",
     "images": [
       "images/내과/23Y_Q03_fig1.png"
     ],
@@ -32949,7 +32949,7 @@
       }
     ],
     "answer": "①Tachycardia-bradycardia syndrome",
-    "question": "66세 남성이 앉아 있다가 갑작스런 의식 소실로 응급실에 내원하였다. 환자의 vital sign은 다음과 같았다. 혈압 95/70 ­ 맥박 95 ­ 호흡수 22 ­ 체온 36.4 심전도를 촬영했을 때 다음 그림과 같았다고 할 때, 의식 소실의 이유는 무엇인가?"
+    "question": "66세 남성이 앉아 있다가 갑작스런 의식 소실로 응급실에 내원하였다. 환자의 vital sign은 다음과 같았다. 혈압 95/70 - 맥박 95 - 호흡수 22 - 체온 36.4 심전도를 촬영했을 때 다음 그림과 같았다고 할 때, 의식 소실의 이유는 무엇인가?"
   },
   {
     "id": "내과_23Y_Q04",
@@ -37188,7 +37188,7 @@
       "①ENaC (Epithelial Sodium channel)",
       "②NCC (Sodium Chloride Cotransporter)",
       "③NKCC2 (Na+/K+/Cl- cotransporter 2)",
-      "④NHE3 (Sodium­hydrogen antiporter 3)",
+      "④NHE3 (Sodium-hydrogen antiporter 3)",
       "⑤SGLT2 (Sodium-Glucose Cotransporter 2)"
     ],
     "correct_option_index": 0,
@@ -37196,7 +37196,7 @@
     "explanation": {
       "title": "신세뇨관 산증(RTA Type 1 vs Type 2 vs Type 4)의 전해질 기전",
       "findings": "감초(글리시리진)에 의한 11β-HSD2 억제 → 코르티솔의 MR 자극으로 집합관 ENaC 활성화 및 Na 재흡수",
-      "differential": "• ① ENaC (Epithelial Sodium channel) ✓ [정답]: 글리시리진이 11β-HSD2를 억제하여 축적된 코르티솔이 무기질코르티코이드 수용체(MR)를 자극해 집합관 ENaC을 과활성화시킵니다\n• ② NCC (Sodium Chloride Cotransporter) ✗ [오답]: 원위세뇨관의 Na-Cl 공수송체로 티아지드계 이뇨제의 작용 표적이며, Gitelman 증후군에서 기능이 소실됩니다.\n• ③ NKCC2 (Na+/K+/Cl- cotransporter 2) ✗ [오답]: cotransporter 2) — 헨레고리 두꺼운 상행각의 Na-K-2Cl 공수송체로 루프 이뇨제의 작용 부위이며 Bartter 증후군과 연관됩니다.\n• ④ NHE3 (Sodium­hydrogen antiporter 3) ✗ [오답]: 근위세뇨관 내강막에서 Na+ 재흡수와 H+ 분비를 담당하는 나트륨-수소 교환체입니다.\n• ⑤ SGLT2 (Sodium-Glucose Cotransporter 2) ✗ [오답]: Glucose Cotransporter 2) — 근위세뇨관에서 포도당과 나트륨의 동반 재흡수를 매개하는 수송체로 당뇨병 치료제의 표적입니다.",
+      "differential": "• ① ENaC (Epithelial Sodium channel) ✓ [정답]: 글리시리진이 11β-HSD2를 억제하여 축적된 코르티솔이 무기질코르티코이드 수용체(MR)를 자극해 집합관 ENaC을 과활성화시킵니다\n• ② NCC (Sodium Chloride Cotransporter) ✗ [오답]: 원위세뇨관의 Na-Cl 공수송체로 티아지드계 이뇨제의 작용 표적이며, Gitelman 증후군에서 기능이 소실됩니다.\n• ③ NKCC2 (Na+/K+/Cl- cotransporter 2) ✗ [오답]: cotransporter 2) — 헨레고리 두꺼운 상행각의 Na-K-2Cl 공수송체로 루프 이뇨제의 작용 부위이며 Bartter 증후군과 연관됩니다.\n• ④ NHE3 (Sodium-hydrogen antiporter 3) ✗ [오답]: 근위세뇨관 내강막에서 Na+ 재흡수와 H+ 분비를 담당하는 나트륨-수소 교환체입니다.\n• ⑤ SGLT2 (Sodium-Glucose Cotransporter 2) ✗ [오답]: Glucose Cotransporter 2) — 근위세뇨관에서 포도당과 나트륨의 동반 재흡수를 매개하는 수송체로 당뇨병 치료제의 표적입니다.",
       "trap": "• RTA 중 유일하게 '고칼륨혈증'을 동반하는 아형은 'Type 4 RTA'입니다. 당뇨병 환자가 산증과 고칼륨혈증을 보일 때 반드시 의심해야 합니다.",
       "trigger": "【신세뇨관산증(RTA) 아형별 감별 공식】\n• Type 1 (원위부, Distal RTA):\n  - 기전: 집합관 H⁺ 분비 장애. 소변 pH > 5.5로 산성화 불가능. 저칼륨혈증, 신석회증/요로결석 흔함. 소변 AG 양성.\n• Type 2 (근위부, Proximal RTA):\n  - 기전: 근위세뇨관 HCO₃⁻ 재흡수 장애. Fanconi 증후군 동반, 골연화증, 저칼륨혈증.\n• Type 4 (고칼륨혈증성, Hypoaldosteronism):\n  - 기전: 알도스테론 결핍 또는 저항성 (당뇨병성 신병증 호발). 유일하게 '고칼륨혈증(Hyperkalemia)' 동반!",
       "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
@@ -37228,7 +37228,7 @@
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "NHE3 (Sodium­hydrogen antiporter 3)",
+          "text": "NHE3 (Sodium-hydrogen antiporter 3)",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "근위세뇨관 내강막에서 Na+ 재흡수와 H+ 분비를 담당하는 나트륨-수소 교환체입니다."
@@ -37285,7 +37285,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "NHE3 (Sodium­hydrogen antiporter 3)",
+        "text": "NHE3 (Sodium-hydrogen antiporter 3)",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "근위세뇨관 내강막에서 Na+ 재흡수와 H+ 분비를 담당하는 나트륨-수소 교환체입니다."
@@ -76424,26 +76424,26 @@
       "images/소아청소년과/26Y_Q15_fig1.png"
     ],
     "options": [
-      "① Duodenal atresia ­ surgical repair",
-      "② HPS ­ feeding 지속",
-      "③ NEC ­ NPO & 항생제",
+      "① Duodenal atresia - surgical repair",
+      "② HPS - feeding 지속",
+      "③ NEC - NPO & 항생제",
       "④ Colon intussusception - surgery"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① Duodenal atresia ­ surgical repair",
+    "correct_answer": "① Duodenal atresia - surgical repair",
     "explanation": {
       "title": "선천성 십이지장 폐쇄(Duodenal Atresia)와 Double-bubble sign",
       "theme_title": "선천성 십이지장 폐쇄(Duodenal Atresia)와 Double-bubble sign",
       "findings": "2세 아이가 담즙성(초록색) 구토를 주소로 내원. 흉복부 단순 방사선 사진에서 '이중 공기 음영(Double-bubble sign)' 확인.",
-      "differential": "• [진단 및 치료 알고리즘]:\n1. 신생아 및 영유아에서 담즙성 구토 + 단순 복부 X-선 상 위(Stomach)와 십이지장 근위부(Duodenal bulb)에 공기가 차고 원위부 장내 가스가 없는 'Double bubble sign'은 '선천성 십이지장 폐쇄/협착증(Duodenal atresia/stenosis)'의 전형적인 소견임.\n2. 다운증후군(Down syndrome)의 약 30%에서 동반됨.\n3. 치료: 비위관 감압 및 수액 전해질 교정 후 즉시 수술적 교정(십이지장-십이지장 문합술, Duodenoduodenostomy)을 시행함.\n\n• ① Duodenal atresia ­ surgical repair ✓ [정답]: 출생 직후 담즙성 구토와 복부 X-ray의 Double-bubble sign(위와 십이지장 구부의 확장 및 원위부 가스 소실)은 선천성 십이지장 폐쇄의 특징적 소견입니다.\n• ② HPS ­ feeding 지속 ✗ [오답]: 생후 2~3주경 비담즙성 사출성 구토와 Single-bubble sign을 보입니다.\n• ③ NEC ­ NPO & 항생제 ✗ [오답]: 담즙성 구토를 보이나 상부위장관 조영술에서 Corkscrew sign으로 확진합니다.\n• ④ Colon intussusception - surgery ✗ [오답]: 태변 배출 지연과 심한 하부 장관 팽만을 보입니다.",
+      "differential": "• [진단 및 치료 알고리즘]:\n1. 신생아 및 영유아에서 담즙성 구토 + 단순 복부 X-선 상 위(Stomach)와 십이지장 근위부(Duodenal bulb)에 공기가 차고 원위부 장내 가스가 없는 'Double bubble sign'은 '선천성 십이지장 폐쇄/협착증(Duodenal atresia/stenosis)'의 전형적인 소견임.\n2. 다운증후군(Down syndrome)의 약 30%에서 동반됨.\n3. 치료: 비위관 감압 및 수액 전해질 교정 후 즉시 수술적 교정(십이지장-십이지장 문합술, Duodenoduodenostomy)을 시행함.\n\n• ① Duodenal atresia - surgical repair ✓ [정답]: 출생 직후 담즙성 구토와 복부 X-ray의 Double-bubble sign(위와 십이지장 구부의 확장 및 원위부 가스 소실)은 선천성 십이지장 폐쇄의 특징적 소견입니다.\n• ② HPS - feeding 지속 ✗ [오답]: 생후 2~3주경 비담즙성 사출성 구토와 Single-bubble sign을 보입니다.\n• ③ NEC - NPO & 항생제 ✗ [오답]: 담즙성 구토를 보이나 상부위장관 조영술에서 Corkscrew sign으로 확진합니다.\n• ④ Colon intussusception - surgery ✗ [오답]: 태변 배출 지연과 심한 하부 장관 팽만을 보입니다.",
       "trap": "비후성 유문협착증(HPS)은 '비담즙성 구토'이고 Single bubble sign이며, 장중첩증은 초음파 Target sign임.",
-      "trigger": "① Duodenal atresia ­ surgical repair 핵심 소견 즉시 도출!",
+      "trigger": "① Duodenal atresia - surgical repair 핵심 소견 즉시 도출!",
       "kmle_link": "KMLE 소아청소년과 홍창의 소아과학 및 표준 임상 진료지침 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "Duodenal atresia ­ surgical repair",
+          "text": "Duodenal atresia - surgical repair",
           "is_correct": true,
           "tag": "정답",
           "reason": "출생 직후 담즙성 구토와 복부 X-ray의 Double-bubble sign(위와 십이지장 구부의 확장 및 원위부 가스 소실)은 선천성 십이지장 폐쇄의 특징적 소견입니다."
@@ -76451,7 +76451,7 @@
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "HPS ­ feeding 지속",
+          "text": "HPS - feeding 지속",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "생후 2~3주경 비담즙성 사출성 구토와 Single-bubble sign을 보입니다."
@@ -76459,7 +76459,7 @@
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "NEC ­ NPO & 항생제",
+          "text": "NEC - NPO & 항생제",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "담즙성 구토를 보이나 상부위장관 조영술에서 Corkscrew sign으로 확진합니다."
@@ -76491,7 +76491,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Duodenal atresia ­ surgical repair",
+        "text": "Duodenal atresia - surgical repair",
         "is_correct": true,
         "tag": "정답",
         "reason": "출생 직후 담즙성 구토와 복부 X-ray의 Double-bubble sign(위와 십이지장 구부의 확장 및 원위부 가스 소실)은 선천성 십이지장 폐쇄의 특징적 소견입니다."
@@ -76499,7 +76499,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "HPS ­ feeding 지속",
+        "text": "HPS - feeding 지속",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "생후 2~3주경 비담즙성 사출성 구토와 Single-bubble sign을 보입니다."
@@ -76507,7 +76507,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "NEC ­ NPO & 항생제",
+        "text": "NEC - NPO & 항생제",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "담즙성 구토를 보이나 상부위장관 조영술에서 Corkscrew sign으로 확진합니다."
@@ -76521,7 +76521,7 @@
         "reason": "태변 배출 지연과 심한 하부 장관 팽만을 보입니다."
       }
     ],
-    "answer": "① Duodenal atresia ­ surgical repair"
+    "answer": "① Duodenal atresia - surgical repair"
   },
   {
     "id": "소아청소년과_26Y_Q16",
@@ -84036,11 +84036,11 @@
       "images/소아청소년과/23Y_Q35_fig1.png"
     ],
     "options": [
-      "① Sinus tachycardia ­ 안심시키고 경과 관찰",
-      "② Ventricular tachycardia ­ Beta blocker",
+      "① Sinus tachycardia - 안심시키고 경과 관찰",
+      "② Ventricular tachycardia - Beta blocker",
       "③ Atrial fibrillation - Defibrillation",
       "④ PSVT - adenosine",
-      "⑤ Thyrotoxicosis ­ iodine"
+      "⑤ Thyrotoxicosis - iodine"
     ],
     "correct_option_index": 3,
     "correct_answer": "④ PSVT - adenosine",
@@ -84048,7 +84048,7 @@
       "title": "발작성 상심실성 빈맥 (PSVT)의 응급 처치 (아데노신 정맥 급속 투여)",
       "theme_title": "발작성 상심실성 빈맥 (PSVT)의 응급 처치 (아데노신 정맥 급속 투여)",
       "findings": "11세 남아 심박수 213회/분, 혈압 안정, 규칙적인 Narrow QRS 빈맥.",
-      "differential": "• [치료]: 안정형 PSVT는 미주신경 자극 후 1차 약물로 아데노신(Adenosine, 0.1 mg/kg)을 중심정맥에 가까운 정맥으로 급속 정주함.\n\n• ① Sinus tachycardia ­ 안심시키고 경과 관찰 ✗ [오답]: ① Sinus tachycardia - 안심시키고 경과 관찰 — 심박수 210회 이상 돌발성 빈맥은 동빈맥이 아닙니다.\n• ② Ventricular tachycardia ­ Beta blocker ✗ [오답]: ② Ventricular tachycardia - Beta blocker — QRS 폭이 좁으므로 심실빈맥이 아닙니다.\n• ③ Atrial fibrillation - Defibrillation ✗ [오답]: ③ Atrial fibrillation - Defibrillation — 심방세동 소견이 아니며 제세동 적응증이 아닙니다.\n• ④ PSVT - adenosine ✓ [정답]: ④ PSVT - adenosine — 안정한 Narrow QRS 발작성 상심실성 빈맥의 1차 표준 치료제는 아데노신입니다 → 정답.\n• ⑤ Thyrotoxicosis ­ iodine ✗ [오답]: ⑤ Sinus bradycardia - Atropine — 심박수 213회의 초빈맥 상태입니다.",
+      "differential": "• [치료]: 안정형 PSVT는 미주신경 자극 후 1차 약물로 아데노신(Adenosine, 0.1 mg/kg)을 중심정맥에 가까운 정맥으로 급속 정주함.\n\n• ① Sinus tachycardia - 안심시키고 경과 관찰 ✗ [오답]: ① Sinus tachycardia - 안심시키고 경과 관찰 — 심박수 210회 이상 돌발성 빈맥은 동빈맥이 아닙니다.\n• ② Ventricular tachycardia - Beta blocker ✗ [오답]: ② Ventricular tachycardia - Beta blocker — QRS 폭이 좁으므로 심실빈맥이 아닙니다.\n• ③ Atrial fibrillation - Defibrillation ✗ [오답]: ③ Atrial fibrillation - Defibrillation — 심방세동 소견이 아니며 제세동 적응증이 아닙니다.\n• ④ PSVT - adenosine ✓ [정답]: ④ PSVT - adenosine — 안정한 Narrow QRS 발작성 상심실성 빈맥의 1차 표준 치료제는 아데노신입니다 → 정답.\n• ⑤ Thyrotoxicosis - iodine ✗ [오답]: ⑤ Sinus bradycardia - Atropine — 심박수 213회의 초빈맥 상태입니다.",
       "trap": "유사 증상을 보이는 소아 질환의 연령별 호발 원인과 1차 검사/치료 원칙을 구별해야 합니다.",
       "trigger": "④ PSVT - adenosine 핵심 소견 즉시 도출!",
       "kmle_link": "KMLE 소아청소년과 홍창의 소아과학 및 표준 임상 진료지침 연계",
@@ -84056,7 +84056,7 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "Sinus tachycardia ­ 안심시키고 경과 관찰",
+          "text": "Sinus tachycardia - 안심시키고 경과 관찰",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "① Sinus tachycardia - 안심시키고 경과 관찰 — 심박수 210회 이상 돌발성 빈맥은 동빈맥이 아닙니다."
@@ -84064,7 +84064,7 @@
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "Ventricular tachycardia ­ Beta blocker",
+          "text": "Ventricular tachycardia - Beta blocker",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "② Ventricular tachycardia - Beta blocker — QRS 폭이 좁으므로 심실빈맥이 아닙니다."
@@ -84088,7 +84088,7 @@
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "Thyrotoxicosis ­ iodine",
+          "text": "Thyrotoxicosis - iodine",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "⑤ Sinus bradycardia - Atropine — 심박수 213회의 초빈맥 상태입니다."
@@ -84112,7 +84112,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Sinus tachycardia ­ 안심시키고 경과 관찰",
+        "text": "Sinus tachycardia - 안심시키고 경과 관찰",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "① Sinus tachycardia - 안심시키고 경과 관찰 — 심박수 210회 이상 돌발성 빈맥은 동빈맥이 아닙니다."
@@ -84120,7 +84120,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Ventricular tachycardia ­ Beta blocker",
+        "text": "Ventricular tachycardia - Beta blocker",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "② Ventricular tachycardia - Beta blocker — QRS 폭이 좁으므로 심실빈맥이 아닙니다."
@@ -84144,7 +84144,7 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "Thyrotoxicosis ­ iodine",
+        "text": "Thyrotoxicosis - iodine",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "⑤ Sinus bradycardia - Atropine — 심박수 213회의 초빈맥 상태입니다."
@@ -113286,18 +113286,18 @@
     "options": [
       "①Peripheral nerve - Multiple sclerosis",
       "②Muscle - Lambert eaton syndrome",
-      "③Lower motor neuron ­ Spino-bulbar musculoatrophy (SBMA, kennedy syndrome)",
+      "③Lower motor neuron - Spino-bulbar musculoatrophy (SBMA, kennedy syndrome)",
       "④Upper motor neuron - Tabes dorsalis",
-      "⑤Neuromuscular junction ­ Sarcoidosis에 의한 mononeuritis complex"
+      "⑤Neuromuscular junction - Sarcoidosis에 의한 mononeuritis complex"
     ],
     "correct_option_index": 2,
-    "correct_answer": "③Lower motor neuron ­ Spino-bulbar musculoatrophy (SBMA, kennedy syndrome)",
+    "correct_answer": "③Lower motor neuron - Spino-bulbar musculoatrophy (SBMA, kennedy syndrome)",
     "explanation": {
       "title": "신경축(Neural Axis) 병소 분류와 척수연수근위축증(SBMA/Kennedy 병)",
       "findings": "• [핵심 개념]: 신경계 병변의 축(Neural Axis) 수준 분류:\n  1. Upper Motor Neuron (UMN, 상위운동신경원): 뇌겉질, 겉질척수로, 척수 백색질.\n  2. Lower Motor Neuron (LMN, 하위운동신경원): 척수 전각세포(Anterior horn cell) 및 뇌신경 운동핵. 대표 질환: SBMA (Kennedy disease), SMA (척수근위축증), 소아마비.\n  3. Peripheral Nerve (말초신경): GBS, CMT, 당뇨병성 신경병증.\n  4. Neuromuscular Junction (NMJ, 신경근접합부): Myasthenia gravis, LEMS.\n  5. Muscle (근육): Muscular dystrophy, Polymyositis.\n• [SBMA 핵심 족보]: X-linked LMN 질환으로 안드로겐 수용체 삼핵산 반복 이상, 여성형 유방(Gynecomastia) 동반.",
-      "differential": "• ① Peripheral nerve - Multiple sclerosis ✗ [오답]: Multiple sclerosis — 다발성경화증은 뇌와 척수의 중추신경계(CNS) 수초를 침범하는 자가면역 탈수초 질환으로 말초신경 질환이 아닙니다.\n• ② Muscle - Lambert eaton syndrome ✗ [오답]: Lambert eaton syndrome — 람베르트-이튼 증후군은 시냅스 전 칼슘통로 자가항체에 의한 신경근육접합부(NMJ) 질환으로 일차 근육병증이 아닙니다.\n• ③ Lower motor neuron ­ Spino-bulbar musculoatrophy (SBMA, kennedy syndrome) ✓ [정답]: bulbar musculoatrophy (SBMA, kennedy syndrome) — 척수 전각세포와 뇌간 운동핵의 변성으로 연수 및 사지 근위축을 일으키는 대표적인 하위운동신경원(LMN) 질환입니다\n• ④ Upper motor neuron - Tabes dorsalis ✗ [오답]: Tabes dorsalis — 척수로는 신경매독에 의해 척수 후근 및 후삭(dorsal column)이 손상되는 감각신경계 병변으로 상위운동신경원 질환이 아닙니다.\n• ⑤ Neuromuscular junction ­ Sarcoidosis에 의한 mononeuritis complex ✗ [오답]: Sarcoidosis에 의한 mononeuritis complex — 다발단신경염은 여러 말초신경 줄기를 비대칭적으로 침범하는 말초신경(peripheral nerve) 질환입니다.",
+      "differential": "• ① Peripheral nerve - Multiple sclerosis ✗ [오답]: Multiple sclerosis — 다발성경화증은 뇌와 척수의 중추신경계(CNS) 수초를 침범하는 자가면역 탈수초 질환으로 말초신경 질환이 아닙니다.\n• ② Muscle - Lambert eaton syndrome ✗ [오답]: Lambert eaton syndrome — 람베르트-이튼 증후군은 시냅스 전 칼슘통로 자가항체에 의한 신경근육접합부(NMJ) 질환으로 일차 근육병증이 아닙니다.\n• ③ Lower motor neuron - Spino-bulbar musculoatrophy (SBMA, kennedy syndrome) ✓ [정답]: bulbar musculoatrophy (SBMA, kennedy syndrome) — 척수 전각세포와 뇌간 운동핵의 변성으로 연수 및 사지 근위축을 일으키는 대표적인 하위운동신경원(LMN) 질환입니다\n• ④ Upper motor neuron - Tabes dorsalis ✗ [오답]: Tabes dorsalis — 척수로는 신경매독에 의해 척수 후근 및 후삭(dorsal column)이 손상되는 감각신경계 병변으로 상위운동신경원 질환이 아닙니다.\n• ⑤ Neuromuscular junction - Sarcoidosis에 의한 mononeuritis complex ✗ [오답]: Sarcoidosis에 의한 mononeuritis complex — 다발단신경염은 여러 말초신경 줄기를 비대칭적으로 침범하는 말초신경(peripheral nerve) 질환입니다.",
       "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "【신경축(Neural Axis) 병소 분류와 척수연수근위축증(SBMA/Kennedy 병) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 기준 지표: • [핵심 개념]: 신경계 병변의 축(Neural Axis) 수준 분류:\n  1.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ③Lower motor neuron ­ Spino-bulbar musculoatrophy (SBMA, kennedy syndrome).\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
+      "trigger": "【신경축(Neural Axis) 병소 분류와 척수연수근위축증(SBMA/Kennedy 병) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 기준 지표: • [핵심 개념]: 신경계 병변의 축(Neural Axis) 수준 분류:\n  1.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ③Lower motor neuron - Spino-bulbar musculoatrophy (SBMA, kennedy syndrome).\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 신경과 기출 및 표준 교과서 가이드라인 연계",
       "option_explanations": [
         {
@@ -113319,7 +113319,7 @@
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "Lower motor neuron ­ Spino-bulbar musculoatrophy (SBMA, kennedy syndrome)",
+          "text": "Lower motor neuron - Spino-bulbar musculoatrophy (SBMA, kennedy syndrome)",
           "is_correct": true,
           "tag": "정답",
           "reason": "bulbar musculoatrophy (SBMA, kennedy syndrome) — 척수 전각세포와 뇌간 운동핵의 변성으로 연수 및 사지 근위축을 일으키는 대표적인 하위운동신경원(LMN) 질환입니다"
@@ -113335,7 +113335,7 @@
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "Neuromuscular junction ­ Sarcoidosis에 의한 mononeuritis complex",
+          "text": "Neuromuscular junction - Sarcoidosis에 의한 mononeuritis complex",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "Sarcoidosis에 의한 mononeuritis complex — 다발단신경염은 여러 말초신경 줄기를 비대칭적으로 침범하는 말초신경(peripheral nerve) 질환입니다."
@@ -113378,7 +113378,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Lower motor neuron ­ Spino-bulbar musculoatrophy (SBMA, kennedy syndrome)",
+        "text": "Lower motor neuron - Spino-bulbar musculoatrophy (SBMA, kennedy syndrome)",
         "is_correct": true,
         "tag": "정답",
         "reason": "bulbar musculoatrophy (SBMA, kennedy syndrome) — 척수 전각세포와 뇌간 운동핵의 변성으로 연수 및 사지 근위축을 일으키는 대표적인 하위운동신경원(LMN) 질환입니다"
@@ -113394,13 +113394,13 @@
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "Neuromuscular junction ­ Sarcoidosis에 의한 mononeuritis complex",
+        "text": "Neuromuscular junction - Sarcoidosis에 의한 mononeuritis complex",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "Sarcoidosis에 의한 mononeuritis complex — 다발단신경염은 여러 말초신경 줄기를 비대칭적으로 침범하는 말초신경(peripheral nerve) 질환입니다."
       }
     ],
-    "answer": "③Lower motor neuron ­ Spino-bulbar musculoatrophy (SBMA, kennedy syndrome)"
+    "answer": "③Lower motor neuron - Spino-bulbar musculoatrophy (SBMA, kennedy syndrome)"
   },
   {
     "id": "신경과_23Y_Q05",
@@ -144900,7 +144900,7 @@
     "category": "탈",
     "theme_title": "한국형 간이정신상태검사(MMSE) 세부 평가 영역: 주의집중 및 계산(집중력)",
     "subspecialty": "노인정신의학 / 치매",
-    "stem": "70대 노인 B씨는 물건을 자주 잃어버리고, 요일과 날짜 를 잊고, 길을 잃어버려서 병원에 내원하였다. MMSE검사를 시행한 결과는 다음과 같았다. 다음 표를 보고 어느 영역이 손상된 것인지 확인하시오. 답변 점수 100 ­ 7 93 0 1(O) 93 ­ 7 83 0(O) 1 86 ­ 7 76 0 1(O) 79 ­ 7 70 0(O) 1 72 ­ 7 61 0(O) 1 총점 2점 (＜5백분위수 미만)",
+    "stem": "70대 노인 B씨는 물건을 자주 잃어버리고, 요일과 날짜 를 잊고, 길을 잃어버려서 병원에 내원하였다. MMSE검사를 시행한 결과는 다음과 같았다. 다음 표를 보고 어느 영역이 손상된 것인지 확인하시오. 답변 점수 100 - 7 93 0 1(O) 93 - 7 83 0(O) 1 86 - 7 76 0 1(O) 79 - 7 70 0(O) 1 72 - 7 61 0(O) 1 총점 2점 (＜5백분위수 미만)",
     "images": [],
     "options": [
       "① 기억등록",
@@ -184913,7 +184913,7 @@
     "category": "탈",
     "theme_title": "당뇨 환자의 유착성 관절낭염(오십견, Adhesive Capsulitis) 관절운동 범위 제한",
     "subspecialty": "견관절",
-    "stem": "52세 여자가 어깨 통증을 주소로 내원하였다. 5년 전부 터 당뇨병으로 약을 복용하고 있었다. 이학적 검사 상 능동운 동범위가 전방굴곡 90º ­ 외전 80º ­ 외회전 30º - 내회 전이 sacral level로 제한되었다. 수동운동범위도 능동운동범 위와 비슷하게 모든 방향에서 제한되었다. 다음은 어깨방사선 검사와 어깨자기공명검사이다. 진단은?",
+    "stem": "52세 여자가 어깨 통증을 주소로 내원하였다. 5년 전부 터 당뇨병으로 약을 복용하고 있었다. 이학적 검사 상 능동운 동범위가 전방굴곡 90º - 외전 80º - 외회전 30º - 내회 전이 sacral level로 제한되었다. 수동운동범위도 능동운동범 위와 비슷하게 모든 방향에서 제한되었다. 다음은 어깨방사선 검사와 어깨자기공명검사이다. 진단은?",
     "images": [
       "images/정형외과/23Y_Q12_fig1.png",
       "images/정형외과/23Y_Q12_fig2.png"
@@ -185019,7 +185019,7 @@
       }
     ],
     "answer": "① 유착성 피막염",
-    "question": "52세 여자가 어깨 통증을 주소로 내원하였다. 5년 전부 터 당뇨병으로 약을 복용하고 있었다. 이학적 검사 상 능동운 동범위가 전방굴곡 90º ­ 외전 80º ­ 외회전 30º - 내회 전이 sacral level로 제한되었다. 수동운동범위도 능동운동범 위와 비슷하게 모든 방향에서 제한되었다. 다음은 어깨방사선 검사와 어깨자기공명검사이다. 진단은?"
+    "question": "52세 여자가 어깨 통증을 주소로 내원하였다. 5년 전부 터 당뇨병으로 약을 복용하고 있었다. 이학적 검사 상 능동운 동범위가 전방굴곡 90º - 외전 80º - 외회전 30º - 내회 전이 sacral level로 제한되었다. 수동운동범위도 능동운동범 위와 비슷하게 모든 방향에서 제한되었다. 다음은 어깨방사선 검사와 어깨자기공명검사이다. 진단은?"
   },
   {
     "id": "정형외과_23Y_Q13",
@@ -190226,71 +190226,71 @@
     "year": "23Y",
     "q_num": 53,
     "category": "짤",
-    "theme_title": "요천추 신경근 지배 근육 검사: L3/L4 신경근과 대퇴사두근(슬관절 신전근)",
+    "theme_title": "경추·요천추 신경근별 지배 근육(Myotome)·감각(Dermatome)·심부건반사(DTR) 완전 분석",
     "subspecialty": "척추 질환",
     "stem": "다음 중 신경과 근육을 연결한 것으로 옳지 않은 것은?",
     "images": [],
     "options": [
-      "① L2 ­ knee extensor",
-      "② C5 ­ elbow flexor",
-      "③ C7 ­ elbow extensor",
-      "④ L4 ­ dorsiflexion",
-      "⑤ S1 ­ plantarflexion"
+      "① L2 - knee extensor",
+      "② C5 - elbow flexor",
+      "③ C7 - elbow extensor",
+      "④ L4 - dorsiflexion",
+      "⑤ S1 - plantarflexion"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① L2 ­ knee extensor",
+    "correct_answer": "① L2 - knee extensor",
     "explanation": {
-      "title": "요천추 신경근 지배 근육 검사: L3/L4 신경근과 대퇴사두근(슬관절 신전근)",
-      "theme_title": "요천추 신경근 지배 근육 검사: L3/L4 신경근과 대퇴사두근(슬관절 신전근)",
+      "title": "경추·요천추 신경근별 지배 근육(Myotome)·감각(Dermatome)·심부건반사(DTR) 완전 분석",
+      "theme_title": "경추·요천추 신경근별 지배 근육(Myotome)·감각(Dermatome)·심부건반사(DTR) 완전 분석",
       "subspecialty": "척추 질환",
-      "findings": "경추 및 요천추 척수 신경근과 해당 신경근이 지배하는 핵심 주동근(Key muscle)의 신경학적 매칭 일치 여부를 판별하는 문항입니다.",
-      "differential": "• ① L2 ­ knee extensor ✓ [정답]: [옳지 않은 연결] 슬관절 신전근(Knee extensor)인 대퇴사두근(Quadriceps femoris)의 주 지배 신경근은 'L3 및 L4' (슬개건 반사 연관)입니다. L2 신경근의 핵심 지배 운동은 고관절 굴곡근(Hip flexor, 장요근 Iliopsoas)이므로 연결이 옳지 않습니다.\n• ② C5 ­ elbow flexor ✗ [오답]: 올바른 연결입니다. C5 신경근은 주관절 굴곡근(Elbow flexor, 상완이두근/상완근)을 지배합니다.\n• ③ C7 ­ elbow extensor ✗ [오답]: 올바른 연결입니다. C7 신경근은 주관절 신전근(Elbow extensor, 상완삼두근)을 지배합니다.\n• ④ L4 ­ dorsiflexion ✗ [오답]: 올바른 연결입니다. L4 신경근은 족관절 족배굴곡근(Ankle dorsiflexor, 전경골근 Tibialis anterior)을 지배합니다.\n• ⑤ S1 ­ plantarflexion ✗ [오답]: 올바른 연결입니다. S1 신경근은 족관절 족저굴곡근(Ankle plantarflexor, 비복근/가자미근)을 지배합니다.",
-      "trap": "요추 신경근 운동 매칭 공식: L2=고관절 굴곡(Iliopsoas), L3/L4=무릎 신전(Quadriceps), L4=발목 들어올림(Dorsiflexion), L5=엄지발가락 들어올림(Great toe extension), S1=발목 밟기(Plantarflexion). L2와 슬관절 신전근 연결은 명백한 오류입니다.",
-      "trigger": "【척수 신경근별 표준 핵심 근육(Key muscle) 핵심 족보 & 임상 가이드라인】\n• C5: 주관절 굴곡(Biceps)\n• C6: 손목 신전(ECRL/ECRB)\n• C7: 주관절 신전(Triceps)\n• L2: 고관절 굴곡(Hip flexor)\n• L3/L4: 슬관절 신전(Knee extensor, Quadriceps)\n• L4: 발목 족배굴곡(Ankle dorsiflexion)\n• L5: 엄지 족배굴곡(Extensor hallucis longus)\n• S1: 발목 족저굴곡(Ankle plantarflexion)\n• 1초 정답 도출 트리거: 옳지 않은 신경-근육 연결 → L2 - knee extensor (L2는 고관절 굴곡근).",
-      "kmle_link": "KMLE 15권 정형외과 / 척추 질환 총론",
+      "findings": "경추(C5~T1) 및 요천추(L2~S1) 척수 신경근과 각 신경근이 지배하는 핵심 주동근(Key muscle / Myotome)의 해부학적 짝짓기가 올바른지 묻는 빈출 문항입니다. L2 신경근은 장요근(Iliopsoas)을 통해 고관절 굴곡(Hip flexion)을 담당하며, 슬관절 신전(Knee extension, 대퇴사두근 Quadriceps femoris)은 L3 및 L4 신경근의 지배를 받으므로 ①번 연결이 틀렸습니다.",
+      "differential": "• ① L2 - knee extensor ✓ [정답]: 슬관절 신전근(Knee extensor, 대퇴사두근 Quadriceps femoris)은 L3 및 L4 신경근(대퇴신경, Femoral nerve)이 지배합니다. L2 신경근의 핵심 지배 근육(Key muscle)은 고관절 굴곡근(Hip flexor, 장요근 Iliopsoas)이므로 옳지 않은 연결입니다.\n• ② C5 - elbow flexor ✗ [오답]: C5 신경근은 어깨 외전근(삼각근)과 주관절 굴곡근(Elbow flexor: 상완이두근, 상완근)을 지배하며 이두근 반사(Biceps reflex)를 담당하므로 옳은 연결입니다.\n• ③ C7 - elbow extensor ✗ [오답]: C7 신경근은 주관절 신전근(Elbow extensor: 상완삼두근 Triceps brachii), 손목 굴곡근, 손가락 신전근을 지배하며 삼두근 반사(Triceps reflex)를 담당하므로 옳은 연결입니다.\n• ④ L4 - dorsiflexion ✗ [오답]: L4 신경근은 전경골근(Tibialis anterior)을 지배하여 족관절 족배굴곡(Ankle dorsiflexion) 및 내번(Inversion)을 담당하므로 옳은 연결입니다.\n• ⑤ S1 - plantarflexion ✗ [오답]: S1 신경근은 비복근 및 가자미근(Gastrocnemius-Soleus)을 지배하여 족관절 족저굴곡(Ankle plantarflexion) 및 아킬레스건 반사를 담당하므로 옳은 연결입니다.",
+      "trap": "하지 신경근 운동 검사(ASIA 척수손상 표준 Key muscle 및 정형외과 신경근 검진)에서 L2(고관절 굴곡, Iliopsoas)와 L3·L4(슬관절 신전, Quadriceps)를 한 단계씩 밀려 외우지 않도록 주의해야 합니다. 또한 L4(발목 족배굴곡, Heel walk) vs L5(엄지발가락 족배굴곡, EHL) vs S1(발목 족저굴곡, Toe walk)의 구분도 단골 출제 포인트입니다.",
+      "trigger": "【경추(C5~T1) 및 요천추(L2~S1) 신경근별 운동(Myotome) · 감각(Dermatome) · 반사(DTR) 완벽 압축정리】\n1. 경추 신경근 (Cervical Nerve Roots: C5 ~ T1)\n• C5 신경근 (C4-C5 추간판 탈출)\n  - 핵심 운동(Myotome): 어깨 외전(삼각근, Deltoid) 및 주관절 굴곡(Elbow flexor: 상완이두근 Biceps brachii)\n  - 감각(Dermatome): 어깨 가쪽 및 상완 외측 (Lateral arm)\n  - 심부건반사(DTR): 이두근 반사 (Biceps reflex)\n• C6 신경근 (C5-C6 추간판 탈출)\n  - 핵심 운동(Myotome): 손목 신전(Wrist extensor: 장·단요측수근신근 ECRL/ECRB) 및 주관절 굴곡 보조(완요골근)\n  - 감각(Dermatome): 전완 외측(요측) 및 엄지·검지 (1st, 2nd finger)\n  - 심부건반사(DTR): 완요골근 반사 (Brachioradialis reflex)\n• C7 신경근 (C6-C7 추간판 탈출, 경추 디스크 최다 호발)\n  - 핵심 운동(Myotome): 주관절 신전(Elbow extensor: 상완삼두근 Triceps brachii), 손목 굴곡(FCR), 손가락 신전(EDC)\n  - 감각(Dermatome): 가운데손가락 (3rd finger, 중지)\n  - 심부건반사(DTR): 삼두근 반사 (Triceps reflex)\n• C8 신경근 (C7-T1 추간판 탈출)\n  - 핵심 운동(Myotome): 손가락 굴곡(Finger flexor: 심수지굴근 FDP, 중지 원위지절 굴곡)\n  - 감각(Dermatome): 약지·새끼손가락 (4th, 5th finger) 및 전완 내측(척측) 하부\n  - 심부건반사(DTR): 특이 주 반사 없음 (Finger jerk 연관)\n• T1 신경근 (T1-T2 추간판 탈출)\n  - 핵심 운동(Myotome): 손가락 외전 및 내전(Finger abductor/adductor: 골간근 Interossei, 소지외전근 ADM)\n  - 감각(Dermatome): 전완 내측 상부 및 주관절 내측과 주위\n\n2. 요천추 신경근 (Lumbosacral Nerve Roots: L2 ~ S1)\n• L2 신경근 (L1-L2 / L2-L3 병변)\n  - 핵심 운동(Myotome): 고관절 굴곡(Hip flexor: 장요근 Iliopsoas)\n  - 감각(Dermatome): 대퇴 전면 및 내측 중간부 (Anterior-medial thigh)\n  - 심부건반사(DTR): 특이 심부건반사 없음\n• L3 신경근 (L2-L3 / L3-L4 병변)\n  - 핵심 운동(Myotome): 슬관절 신전(Knee extensor: 대퇴사두근 Quadriceps femoris — L3와 L4 공동 지배, ASIA 표준 Key muscle은 L3), 고관절 내전 보조\n  - 감각(Dermatome): 대퇴 전내측 하부 및 슬관절 내측 (Medial femoral condyle)\n  - 심부건반사(DTR): 슬개건 반사 (Patellar tendon reflex 보조)\n• L4 신경근 (L3-L4 후외측 탈출)\n  - 핵심 운동(Myotome): 족관절 족배굴곡 및 내번(Ankle dorsiflexor & inverter: 전경골근 Tibialis anterior) + 슬관절 신전(대퇴사두근) → 발뒤꿈치 보행(Heel walking) 불가\n  - 감각(Dermatome): 하퇴 내측(Medial calf), 내과(Medial malleolus), 발 내측연\n  - 심부건반사(DTR): 슬개건 반사 (Patellar tendon reflex / Knee jerk)\n• L5 신경근 (L4-L5 후외측 탈출, 요추 디스크 최다 호발)\n  - 핵심 운동(Myotome): 엄지발가락 신전(Great toe extensor: 장무지신근 EHL), 발가락 신전(EDL), 고관절 외전(중둔근)\n  - 감각(Dermatome): 하퇴 전외측, 발등(Dorsum of foot), 제1~2족지 사이 물갈퀴 공간(1st web space)\n  - 심부건반사(DTR): 표준 반사 없음 (내측 슬괵건 반사 연관)\n• S1 신경근 (L5-S1 후외측 탈출)\n  - 핵심 운동(Myotome): 족관절 족저굴곡(Ankle plantarflexor: 비복근·가자미근 Gastrocnemius/Soleus), 발 외번(장·단비골근), 고관절 신전(대둔근) → 발끝 보행(Toe walking, 까치발) 불가\n  - 감각(Dermatome): 하퇴 후면, 외과(Lateral malleolus), 발 외측연 및 발바닥(Sole), 제5족지\n  - 심부건반사(DTR): 아킬레스건 반사 (Achilles tendon reflex / Ankle jerk)\n\n3. 추간판 탈출 레벨과 침범 신경근 공식\n• 경추: 추간판 아래 번호 신경근 침범 (예: C5-C6 탈출 → C6 신경근, C6-C7 탈출 → C7 신경근)\n• 요추(일반적 후외측 탈출): 추간판 아래 번호 신경근(Traversing root) 침범 (예: L4-L5 탈출 → L5 신경근, L5-S1 탈출 → S1 신경근)",
+      "kmle_link": "KMLE 정형외과 척추 질환 총론: 경추·요천추 신경근병증(Radiculopathy)의 레벨별 운동·감각·반사 신경학적 검진",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "L2 ­ knee extensor",
+          "text": "L2 - knee extensor",
           "is_correct": true,
           "tag": "정답",
-          "reason": "슬관절 신전근(대퇴사두근)은 L3, L4 신경근 지배를 받으며, L2의 주동근은 고관절 굴곡근(장요근)이므로 잘못된 연결입니다."
+          "reason": "슬관절 신전근(Knee extensor, 대퇴사두근 Quadriceps femoris)은 L3 및 L4 신경근(대퇴신경, Femoral nerve)이 지배합니다. L2 신경근의 핵심 지배 근육(Key muscle)은 고관절 굴곡근(Hip flexor, 장요근 Iliopsoas)이므로 옳지 않은 연결입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "C5 ­ elbow flexor",
+          "text": "C5 - elbow flexor",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "C5는 상완이두근(팔꿈치 굴곡)을 지배하는 올바른 연결입니다."
+          "reason": "C5 신경근은 어깨 외전근(삼각근)과 주관절 굴곡근(Elbow flexor: 상완이두근, 상완근)을 지배하며 이두근 반사(Biceps reflex)를 담당하므로 옳은 연결입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "C7 ­ elbow extensor",
+          "text": "C7 - elbow extensor",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "C7은 상완삼두근(팔꿈치 신전)을 지배하는 올바른 연결입니다."
+          "reason": "C7 신경근은 주관절 신전근(Elbow extensor: 상완삼두근 Triceps brachii), 손목 굴곡근, 손가락 신전근을 지배하며 삼두근 반사(Triceps reflex)를 담당하므로 옳은 연결입니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "L4 ­ dorsiflexion",
+          "text": "L4 - dorsiflexion",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "L4는 전경골근(발목 족배굴곡)을 지배하는 올바른 연결입니다."
+          "reason": "L4 신경근은 전경골근(Tibialis anterior)을 지배하여 족관절 족배굴곡(Ankle dorsiflexion) 및 내번(Inversion)을 담당하므로 옳은 연결입니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "S1 ­ plantarflexion",
+          "text": "S1 - plantarflexion",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "S1은 비복근 및 가자미근(발목 족저굴곡)을 지배하는 올바른 연결입니다."
+          "reason": "S1 신경근은 비복근 및 가자미근(Gastrocnemius-Soleus)을 지배하여 족관절 족저굴곡(Ankle plantarflexion) 및 아킬레스건 반사를 담당하므로 옳은 연결입니다."
         }
       ],
-      "differential_general": "슬관절 신전근(대퇴사두근)은 L3-L4 신경근이 지배하므로 L2와 연결한 것은 옳지 않습니다."
+      "differential_general": "• 상지 신경근 요약: C5(주관절 굴곡, Biceps) / C6(손목 신전, ECRL·ECRB) / C7(주관절 신전, Triceps) / C8(손가락 굴곡, FDP) / T1(손가락 외전, ADM·골간근)\n• 하지 신경근 요약: L2(고관절 굴곡, Iliopsoas) / L3·L4(슬관절 신전, Quadriceps) / L4(족관절 족배굴곡, Tibialis anterior) / L5(엄지발가락 신전, EHL) / S1(족관절 족저굴곡, Gastrocnemius·Soleus)"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -190311,45 +190311,45 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "L2 ­ knee extensor",
+        "text": "L2 - knee extensor",
         "is_correct": true,
         "tag": "정답",
-        "reason": "슬관절 신전근(대퇴사두근)은 L3, L4 신경근 지배를 받으며, L2의 주동근은 고관절 굴곡근(장요근)이므로 잘못된 연결입니다."
+        "reason": "슬관절 신전근(Knee extensor, 대퇴사두근 Quadriceps femoris)은 L3 및 L4 신경근(대퇴신경, Femoral nerve)이 지배합니다. L2 신경근의 핵심 지배 근육(Key muscle)은 고관절 굴곡근(Hip flexor, 장요근 Iliopsoas)이므로 옳지 않은 연결입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "C5 ­ elbow flexor",
+        "text": "C5 - elbow flexor",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "C5는 상완이두근(팔꿈치 굴곡)을 지배하는 올바른 연결입니다."
+        "reason": "C5 신경근은 어깨 외전근(삼각근)과 주관절 굴곡근(Elbow flexor: 상완이두근, 상완근)을 지배하며 이두근 반사(Biceps reflex)를 담당하므로 옳은 연결입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "C7 ­ elbow extensor",
+        "text": "C7 - elbow extensor",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "C7은 상완삼두근(팔꿈치 신전)을 지배하는 올바른 연결입니다."
+        "reason": "C7 신경근은 주관절 신전근(Elbow extensor: 상완삼두근 Triceps brachii), 손목 굴곡근, 손가락 신전근을 지배하며 삼두근 반사(Triceps reflex)를 담당하므로 옳은 연결입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "L4 ­ dorsiflexion",
+        "text": "L4 - dorsiflexion",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "L4는 전경골근(발목 족배굴곡)을 지배하는 올바른 연결입니다."
+        "reason": "L4 신경근은 전경골근(Tibialis anterior)을 지배하여 족관절 족배굴곡(Ankle dorsiflexion) 및 내번(Inversion)을 담당하므로 옳은 연결입니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "S1 ­ plantarflexion",
+        "text": "S1 - plantarflexion",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "S1은 비복근 및 가자미근(발목 족저굴곡)을 지배하는 올바른 연결입니다."
+        "reason": "S1 신경근은 비복근 및 가자미근(Gastrocnemius-Soleus)을 지배하여 족관절 족저굴곡(Ankle plantarflexion) 및 아킬레스건 반사를 담당하므로 옳은 연결입니다."
       }
     ],
-    "answer": "① L2 ­ knee extensor"
+    "answer": "① L2 - knee extensor"
   },
   {
     "id": "정형외과_23Y_Q54",
@@ -190378,7 +190378,7 @@
       "findings": "좌측 상지 방사통 환자에서 제3수지(가운데 손가락) 감각 저하, 주관절 신전근(삼두근) 근력 약화, 삼두근 건반사(Triceps reflex) 저하가 관찰된 전형적인 C7 신경근병증 증례입니다.",
       "differential": "• ① C3-C4 ✗ [오답]: 경부 및 견갑대 상부 통증을 유발하며 수부 증상이 없습니다.\n• ② C4-C5 ✗ [오답]: C5 신경근을 압박하여 삼각근 위약 및 어깨 외측 감각 저하를 초래합니다.\n• ③ C5-C6 ✗ [오답]: C6 신경근 압박으로 상완이두근 건반사 저하, 손목 신전근 약화, 제1·2수지(엄지, 검지) 감각 저하를 유발합니다.\n• ④ C6-C7 ✓ [정답]: C6-C7 사이 추간판 탈출증은 'C7 신경근'을 압박합니다. C7 신경근 손상의 3대 특징은 ① 제3수지(가운데 손가락) 감각 이상, ② 상완삼두근 위약으로 인한 팔꿈치 신전 곤란, ③ 삼두근 건반사(Triceps reflex) 저하이므로 문제 위치는 C6-C7입니다.\n• ⑤ C7-T1 ✗ [오답]: C8 신경근 압박으로 제4·5수지 감각 저하 및 수부 내재근 약화를 초래합니다.",
       "trap": "경추 신경근 번호 규칙: 경추 신경근은 해당 번호 경추의 '상방'으로 나오므로, C6-C7 디스크가 탈출되면 아래쪽 척추체 번호를 따라 'C7 신경근'이 눌립니다. (요추와 동일하게 디스크 레벨의 하부 번호 신경근 손상).",
-      "trigger": "【경추 신경근병증(C-radiculopathy) 레벨 감별 핵심 족보 & 임상 가이드라인】\n• C5 (C4-C5): 어깨 외측 감각 / 삼각근 위약 / 이두근 반사.\n• C6 (C5-C6): 제1·2수지(엄지) 감각 / 손목 신전근 위약 / 상완요골근 반사.\n• C7 (C6-C7): 제3수지(중지) 감각 / 주관절 신전(삼두근) 위약 / 삼두근 건반사 저하.\n• C8 (C7-T1): 제4·5수지 감각 / 수지 굴곡근 및 내재근 위약.\n• 1초 정답 도출 트리거: 세 번째 손가락 감각 마비 + 삼두근 반사 저하 + 팔꿈치 신전 불능 → 병변 위치: C6-C7 (C7 radiculopathy).",
+      "trigger": "【경추(C5~T1) 및 요천추(L2~S1) 신경근별 운동(Myotome) · 감각(Dermatome) · 반사(DTR) 완벽 압축정리】\n1. 경추 신경근 (Cervical Nerve Roots: C5 ~ T1)\n• C5 신경근 (C4-C5 추간판 탈출)\n  - 핵심 운동(Myotome): 어깨 외전(삼각근, Deltoid) 및 주관절 굴곡(Elbow flexor: 상완이두근 Biceps brachii)\n  - 감각(Dermatome): 어깨 가쪽 및 상완 외측 (Lateral arm)\n  - 심부건반사(DTR): 이두근 반사 (Biceps reflex)\n• C6 신경근 (C5-C6 추간판 탈출)\n  - 핵심 운동(Myotome): 손목 신전(Wrist extensor: 장·단요측수근신근 ECRL/ECRB) 및 주관절 굴곡 보조(완요골근)\n  - 감각(Dermatome): 전완 외측(요측) 및 엄지·검지 (1st, 2nd finger)\n  - 심부건반사(DTR): 완요골근 반사 (Brachioradialis reflex)\n• C7 신경근 (C6-C7 추간판 탈출, 경추 디스크 최다 호발)\n  - 핵심 운동(Myotome): 주관절 신전(Elbow extensor: 상완삼두근 Triceps brachii), 손목 굴곡(FCR), 손가락 신전(EDC)\n  - 감각(Dermatome): 가운데손가락 (3rd finger, 중지)\n  - 심부건반사(DTR): 삼두근 반사 (Triceps reflex)\n• C8 신경근 (C7-T1 추간판 탈출)\n  - 핵심 운동(Myotome): 손가락 굴곡(Finger flexor: 심수지굴근 FDP, 중지 원위지절 굴곡)\n  - 감각(Dermatome): 약지·새끼손가락 (4th, 5th finger) 및 전완 내측(척측) 하부\n  - 심부건반사(DTR): 특이 주 반사 없음 (Finger jerk 연관)\n• T1 신경근 (T1-T2 추간판 탈출)\n  - 핵심 운동(Myotome): 손가락 외전 및 내전(Finger abductor/adductor: 골간근 Interossei, 소지외전근 ADM)\n  - 감각(Dermatome): 전완 내측 상부 및 주관절 내측과 주위\n\n2. 요천추 신경근 (Lumbosacral Nerve Roots: L2 ~ S1)\n• L2 신경근 (L1-L2 / L2-L3 병변)\n  - 핵심 운동(Myotome): 고관절 굴곡(Hip flexor: 장요근 Iliopsoas)\n  - 감각(Dermatome): 대퇴 전면 및 내측 중간부 (Anterior-medial thigh)\n  - 심부건반사(DTR): 특이 심부건반사 없음\n• L3 신경근 (L2-L3 / L3-L4 병변)\n  - 핵심 운동(Myotome): 슬관절 신전(Knee extensor: 대퇴사두근 Quadriceps femoris — L3와 L4 공동 지배, ASIA 표준 Key muscle은 L3), 고관절 내전 보조\n  - 감각(Dermatome): 대퇴 전내측 하부 및 슬관절 내측 (Medial femoral condyle)\n  - 심부건반사(DTR): 슬개건 반사 (Patellar tendon reflex 보조)\n• L4 신경근 (L3-L4 후외측 탈출)\n  - 핵심 운동(Myotome): 족관절 족배굴곡 및 내번(Ankle dorsiflexor & inverter: 전경골근 Tibialis anterior) + 슬관절 신전(대퇴사두근) → 발뒤꿈치 보행(Heel walking) 불가\n  - 감각(Dermatome): 하퇴 내측(Medial calf), 내과(Medial malleolus), 발 내측연\n  - 심부건반사(DTR): 슬개건 반사 (Patellar tendon reflex / Knee jerk)\n• L5 신경근 (L4-L5 후외측 탈출, 요추 디스크 최다 호발)\n  - 핵심 운동(Myotome): 엄지발가락 신전(Great toe extensor: 장무지신근 EHL), 발가락 신전(EDL), 고관절 외전(중둔근)\n  - 감각(Dermatome): 하퇴 전외측, 발등(Dorsum of foot), 제1~2족지 사이 물갈퀴 공간(1st web space)\n  - 심부건반사(DTR): 표준 반사 없음 (내측 슬괵건 반사 연관)\n• S1 신경근 (L5-S1 후외측 탈출)\n  - 핵심 운동(Myotome): 족관절 족저굴곡(Ankle plantarflexor: 비복근·가자미근 Gastrocnemius/Soleus), 발 외번(장·단비골근), 고관절 신전(대둔근) → 발끝 보행(Toe walking, 까치발) 불가\n  - 감각(Dermatome): 하퇴 후면, 외과(Lateral malleolus), 발 외측연 및 발바닥(Sole), 제5족지\n  - 심부건반사(DTR): 아킬레스건 반사 (Achilles tendon reflex / Ankle jerk)\n\n3. 추간판 탈출 레벨과 침범 신경근 공식\n• 경추: 추간판 아래 번호 신경근 침범 (예: C5-C6 탈출 → C6 신경근, C6-C7 탈출 → C7 신경근)\n• 요추(일반적 후외측 탈출): 추간판 아래 번호 신경근(Traversing root) 침범 (예: L4-L5 탈출 → L5 신경근, L5-S1 탈출 → S1 신경근)",
       "kmle_link": "KMLE 15권 정형외과 / 경추 질환",
       "option_explanations": [
         {
@@ -204970,7 +204970,7 @@
       "findings": "척수 신경근 레벨과 해당 신경근이 지배하는 핵심 운동 기능(Key muscle)의 연결이 틀린 것을 고르는 문항(23Y-53과 동일 기출)입니다.",
       "differential": "• ① C5-elbow flexor ✗ [오답]: C5 신경근은 주관절 굴곡근(Elbow flexor: 상완이두근, 상완근) 및 삼각근을 지배합니다. (옳은 연결)\n• ② C7-elbow extensor ✗ [오답]: C7 신경근은 주관절 신전근(Elbow extensor: 삼두박근) 및 손목 굴곡근을 지배합니다. (옳은 연결)\n• ③ L2-Knee extensor ✓ [정답]: L2 신경근의 대표 운동 기능은 고관절 굴곡근(Hip flexor: 장요근 Iliopsoas)이며, 슬관절 신전근(Knee extensor: 대퇴사두근 Quadriceps)은 L3-L4 신경근이 지배하므로 틀린 연결입니다.\n• ④ L4-dorsiflexion ✗ [오답]: L4 신경근은 족관절 배측굴곡근(Ankle dorsiflexor: 전경골근 Tibialis anterior)을 지배합니다. (옳은 연결)\n• ⑤ S1-plantarflexion ✗ [오답]: S1 신경근은 족관절 족저굴곡근(Ankle plantarflexor: 비복근·가자미근)을 지배합니다. (옳은 연결)",
       "trap": "ASIA 신경학적 분류 기준에서 L2 = 고관절 굴곡(장요근), L3 = 슬관절 신전(대퇴사두근), L4 = 족관절 배측굴곡(전경골근), L5 = 엄지발가락 신전(장무지신근), S1 = 족관절 족저굴곡입니다.",
-      "trigger": "신경과 근육 연결 중 옳지 않은 것 → C. L2 - Knee extensor (L2는 Hip flexor, Knee extensor는 L3-L4) 즉시 선택!",
+      "trigger": "【경추(C5~T1) 및 요천추(L2~S1) 신경근별 운동(Myotome) · 감각(Dermatome) · 반사(DTR) 완벽 압축정리】\n1. 경추 신경근 (Cervical Nerve Roots: C5 ~ T1)\n• C5 신경근 (C4-C5 추간판 탈출)\n  - 핵심 운동(Myotome): 어깨 외전(삼각근, Deltoid) 및 주관절 굴곡(Elbow flexor: 상완이두근 Biceps brachii)\n  - 감각(Dermatome): 어깨 가쪽 및 상완 외측 (Lateral arm)\n  - 심부건반사(DTR): 이두근 반사 (Biceps reflex)\n• C6 신경근 (C5-C6 추간판 탈출)\n  - 핵심 운동(Myotome): 손목 신전(Wrist extensor: 장·단요측수근신근 ECRL/ECRB) 및 주관절 굴곡 보조(완요골근)\n  - 감각(Dermatome): 전완 외측(요측) 및 엄지·검지 (1st, 2nd finger)\n  - 심부건반사(DTR): 완요골근 반사 (Brachioradialis reflex)\n• C7 신경근 (C6-C7 추간판 탈출, 경추 디스크 최다 호발)\n  - 핵심 운동(Myotome): 주관절 신전(Elbow extensor: 상완삼두근 Triceps brachii), 손목 굴곡(FCR), 손가락 신전(EDC)\n  - 감각(Dermatome): 가운데손가락 (3rd finger, 중지)\n  - 심부건반사(DTR): 삼두근 반사 (Triceps reflex)\n• C8 신경근 (C7-T1 추간판 탈출)\n  - 핵심 운동(Myotome): 손가락 굴곡(Finger flexor: 심수지굴근 FDP, 중지 원위지절 굴곡)\n  - 감각(Dermatome): 약지·새끼손가락 (4th, 5th finger) 및 전완 내측(척측) 하부\n  - 심부건반사(DTR): 특이 주 반사 없음 (Finger jerk 연관)\n• T1 신경근 (T1-T2 추간판 탈출)\n  - 핵심 운동(Myotome): 손가락 외전 및 내전(Finger abductor/adductor: 골간근 Interossei, 소지외전근 ADM)\n  - 감각(Dermatome): 전완 내측 상부 및 주관절 내측과 주위\n\n2. 요천추 신경근 (Lumbosacral Nerve Roots: L2 ~ S1)\n• L2 신경근 (L1-L2 / L2-L3 병변)\n  - 핵심 운동(Myotome): 고관절 굴곡(Hip flexor: 장요근 Iliopsoas)\n  - 감각(Dermatome): 대퇴 전면 및 내측 중간부 (Anterior-medial thigh)\n  - 심부건반사(DTR): 특이 심부건반사 없음\n• L3 신경근 (L2-L3 / L3-L4 병변)\n  - 핵심 운동(Myotome): 슬관절 신전(Knee extensor: 대퇴사두근 Quadriceps femoris — L3와 L4 공동 지배, ASIA 표준 Key muscle은 L3), 고관절 내전 보조\n  - 감각(Dermatome): 대퇴 전내측 하부 및 슬관절 내측 (Medial femoral condyle)\n  - 심부건반사(DTR): 슬개건 반사 (Patellar tendon reflex 보조)\n• L4 신경근 (L3-L4 후외측 탈출)\n  - 핵심 운동(Myotome): 족관절 족배굴곡 및 내번(Ankle dorsiflexor & inverter: 전경골근 Tibialis anterior) + 슬관절 신전(대퇴사두근) → 발뒤꿈치 보행(Heel walking) 불가\n  - 감각(Dermatome): 하퇴 내측(Medial calf), 내과(Medial malleolus), 발 내측연\n  - 심부건반사(DTR): 슬개건 반사 (Patellar tendon reflex / Knee jerk)\n• L5 신경근 (L4-L5 후외측 탈출, 요추 디스크 최다 호발)\n  - 핵심 운동(Myotome): 엄지발가락 신전(Great toe extensor: 장무지신근 EHL), 발가락 신전(EDL), 고관절 외전(중둔근)\n  - 감각(Dermatome): 하퇴 전외측, 발등(Dorsum of foot), 제1~2족지 사이 물갈퀴 공간(1st web space)\n  - 심부건반사(DTR): 표준 반사 없음 (내측 슬괵건 반사 연관)\n• S1 신경근 (L5-S1 후외측 탈출)\n  - 핵심 운동(Myotome): 족관절 족저굴곡(Ankle plantarflexor: 비복근·가자미근 Gastrocnemius/Soleus), 발 외번(장·단비골근), 고관절 신전(대둔근) → 발끝 보행(Toe walking, 까치발) 불가\n  - 감각(Dermatome): 하퇴 후면, 외과(Lateral malleolus), 발 외측연 및 발바닥(Sole), 제5족지\n  - 심부건반사(DTR): 아킬레스건 반사 (Achilles tendon reflex / Ankle jerk)\n\n3. 추간판 탈출 레벨과 침범 신경근 공식\n• 경추: 추간판 아래 번호 신경근 침범 (예: C5-C6 탈출 → C6 신경근, C6-C7 탈출 → C7 신경근)\n• 요추(일반적 후외측 탈출): 추간판 아래 번호 신경근(Traversing root) 침범 (예: L4-L5 탈출 → L5 신경근, L5-S1 탈출 → S1 신경근)",
       "kmle_link": "KMLE 정형외과 척추 진찰: ASIA 척수 신경근별 대표 근육(Key muscles)",
       "option_explanations": [
         {
@@ -215785,9 +215785,9 @@
     "year": "23Y",
     "q_num": 18,
     "category": "짤",
-    "theme_title": "[단독 기출] (사진 출처: 김응태P 실습 강의록 ­ 인계 기출 파일)",
+    "theme_title": "[단독 기출] (사진 출처: 김응태P 실습 강의록 - 인계 기출 파일)",
     "subspecialty": "인터벤션 영상의학",
-    "stem": "다음 시술명은? (사진 출처: 김응태P 실습 강의록 ­ 인계 기출 파일)",
+    "stem": "다음 시술명은? (사진 출처: 김응태P 실습 강의록 - 인계 기출 파일)",
     "images": [
       "images/영상의학과/23Y_Q18_fig1.png"
     ],
@@ -215801,11 +215801,11 @@
     "correct_option_index": 0,
     "correct_answer": "① PCN",
     "explanation": {
-      "title": "[단독 기출] (사진 출처: 김응태P 실습 강의록 ­ 인계 기출 파일)",
-      "findings": "기출 원문 (23Y-18):\n다음 시술명은?\n(사진 출처: 김응태P 실습 강의록 ­ 인계 기출 파일)\n① PCN\n② DJ stent\n③ PICC\n④ TIPS\n⑤ TACE",
+      "title": "[단독 기출] (사진 출처: 김응태P 실습 강의록 - 인계 기출 파일)",
+      "findings": "기출 원문 (23Y-18):\n다음 시술명은?\n(사진 출처: 김응태P 실습 강의록 - 인계 기출 파일)\n① PCN\n② DJ stent\n③ PICC\n④ TIPS\n⑤ TACE",
       "differential": "• ① PCN ✓ [정답]: 측복부를 경피적으로 천자하여 확장된 신우신배계(pelvicalyceal system) 내로 카테터를 삽입하고 조영제를 주입해 감압 및 배액을 시행하는 경피적 신루설치술(Percutaneous Nephrostomy) 소견입니다\n• ② DJ stent ✗ [오답]: 방광경이나 경피적 경로를 통해 신우에서 방광까지 요관 전장에 걸쳐 양 끝이 고리(pigtail) 모양으로 위치하는 내재 요관 부목(Double-J stent)입니다.\n• ③ PICC ✗ [오답]: 상지의 말초 정맥(척측피정맥 등)을 천자하여 중심정맥(상대정맥 하부)까지 도관을 위치시키는 말초삽입 중심정맥관입니다.\n• ④ TIPS ✗ [오답]: 경정맥을 통해 간정맥과 문맥 사이에 인공 스텐트 션트를 만들어 문맥압 항진증을 완화하는 경경정맥 간내문맥전신단락술입니다.\n• ⑤ TACE ✗ [오답]: 대퇴동맥을 통해 간동맥으로 접근하여 종양 영양 혈관에 항암제와 색전물질(Lipiodol)을 주입하는 간동맥화학색전술입니다.",
       "trap": "보기 소거법 적용.",
-      "trigger": "【[단독 기출] (사진 출처: 김응태P 실습 강의록 ­ 인계 기출 파일) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 기출 원문 (23Y-18):\n다음 시술명은?\n(사진 출처: 김응태P 실습 강의록 ­ 인계 기출 파일)\n① PCN\n② DJ stent\n③ PICC\n④ TIPS\n⑤ .\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① PCN.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
+      "trigger": "【[단독 기출] (사진 출처: 김응태P 실습 강의록 - 인계 기출 파일) 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 기출 원문 (23Y-18):\n다음 시술명은?\n(사진 출처: 김응태P 실습 강의록 - 인계 기출 파일)\n① PCN\n② DJ stent\n③ PICC\n④ TIPS\n⑤ .\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① PCN.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 영상의학 연계",
       "option_explanations": [
         {
@@ -217490,17 +217490,17 @@
       "images/영상의학과/23Y_Q31_fig1.png"
     ],
     "options": [
-      "① Intermediate collateral ­ poor prognosis",
-      "② Intermediate collateral ­ good prognosis",
-      "③ Good collateral ­ good prognosis",
-      "④ Poor collateral ­ poor prognosis"
+      "① Intermediate collateral - poor prognosis",
+      "② Intermediate collateral - good prognosis",
+      "③ Good collateral - good prognosis",
+      "④ Poor collateral - poor prognosis"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① Intermediate collateral ­ poor prognosis",
+    "correct_answer": "① Intermediate collateral - poor prognosis",
     "explanation": {
       "title": "급성 뇌졸중에서 측부 혈류 순환(Collateral)과 예후의 관계",
       "findings": "동맥기 및 지연기 CTA 영상에서 폐색된 MCA 원위부에 역행성 연질막 측부혈관(Leptomeningeal collaterals)이 거의 관찰되지 않음.",
-      "differential": "• ① Intermediate collateral ­ poor prognosis ✓ [정답]: 다단계 CTA(관상면 3개 시기)에서 폐색 반구의 측부혈관이 늦게까지 거의 채워지지 않거나 소실된 소견은 측부 불량이며, 경색 핵심이 빠르게 커져 최종 경색 용적이 크고 예후가 나쁩니다\n• ② Intermediate collateral ­ good prognosis ✗ [오답]: 중간 등급은 일부(50% 초과~100% 미만)만 채워지는 경우입니다. 이 경우 예후는 중간 수준이며 재관류 성공이 예후를 좌우합니다. 측부 등급이 중간이면서 예후 불량이라는 짝은 일반적이지 않습니다.\n• ③ Good collateral ­ good prognosis ✗ [오답]: 중간 측부는 재관류 치료를 빨리 하면 좋은 예후가 가능하지만, 이 영상은 중간 정도가 아닙니다.\n• ④ Poor collateral ­ poor prognosis ✗ [오답]: 폐색된 영역의 혈관이 지연기에 거의 정상처럼 채워지는 경우로 경색 진행이 느려 치료 가능 시간이 길고 예후가 좋습니다.\n\n【핵심 감별 및 임상 가이드라인】\n23Y-31: 다른 영상으로 출제되어 과거 수험생 자료에서 'Intermediate collateral - poor prognosis'로 표시됨(확실하지 않음). 이번 문항은 측부 불량이 예후 불량으로 이어지는 짝.",
+      "differential": "• ① Intermediate collateral - poor prognosis ✓ [정답]: 다단계 CTA(관상면 3개 시기)에서 폐색 반구의 측부혈관이 늦게까지 거의 채워지지 않거나 소실된 소견은 측부 불량이며, 경색 핵심이 빠르게 커져 최종 경색 용적이 크고 예후가 나쁩니다\n• ② Intermediate collateral - good prognosis ✗ [오답]: 중간 등급은 일부(50% 초과~100% 미만)만 채워지는 경우입니다. 이 경우 예후는 중간 수준이며 재관류 성공이 예후를 좌우합니다. 측부 등급이 중간이면서 예후 불량이라는 짝은 일반적이지 않습니다.\n• ③ Good collateral - good prognosis ✗ [오답]: 중간 측부는 재관류 치료를 빨리 하면 좋은 예후가 가능하지만, 이 영상은 중간 정도가 아닙니다.\n• ④ Poor collateral - poor prognosis ✗ [오답]: 폐색된 영역의 혈관이 지연기에 거의 정상처럼 채워지는 경우로 경색 진행이 느려 치료 가능 시간이 길고 예후가 좋습니다.\n\n【핵심 감별 및 임상 가이드라인】\n23Y-31: 다른 영상으로 출제되어 과거 수험생 자료에서 'Intermediate collateral - poor prognosis'로 표시됨(확실하지 않음). 이번 문항은 측부 불량이 예후 불량으로 이어지는 짝.",
       "trap": "측부 순환이 나쁠수록 허혈 손상이 빠르므로 재개통술을 하더라도 예후가 나쁨.",
       "trigger": "다단계 CTA에서 측부 순환이 전혀 보이지 않거나 지연기에도 조영되지 않는 군(Poor collateral) = 뇌경색 코어 급속 팽창, 출혈성 변환 위험 증가, 최종 불량한 예후(Poor prognosis)!",
       "kmle_link": "KMLE 신경과 - 급성 뇌경색 중재적 혈관재개통술(EVT)의 예후 인자",
@@ -217508,7 +217508,7 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "Intermediate collateral ­ poor prognosis",
+          "text": "Intermediate collateral - poor prognosis",
           "is_correct": true,
           "tag": "정답",
           "reason": "다단계 CTA(관상면 3개 시기)에서 폐색 반구의 측부혈관이 늦게까지 거의 채워지지 않거나 소실된 소견은 측부 불량이며, 경색 핵심이 빠르게 커져 최종 경색 용적이 크고 예후가 나쁩니다"
@@ -217516,7 +217516,7 @@
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "Intermediate collateral ­ good prognosis",
+          "text": "Intermediate collateral - good prognosis",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "중간 등급은 일부(50% 초과~100% 미만)만 채워지는 경우입니다. 이 경우 예후는 중간 수준이며 재관류 성공이 예후를 좌우합니다. 측부 등급이 중간이면서 예후 불량이라는 짝은 일반적이지 않습니다."
@@ -217524,7 +217524,7 @@
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "Good collateral ­ good prognosis",
+          "text": "Good collateral - good prognosis",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "중간 측부는 재관류 치료를 빨리 하면 좋은 예후가 가능하지만, 이 영상은 중간 정도가 아닙니다."
@@ -217532,7 +217532,7 @@
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "Poor collateral ­ poor prognosis",
+          "text": "Poor collateral - poor prognosis",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "폐색된 영역의 혈관이 지연기에 거의 정상처럼 채워지는 경우로 경색 진행이 느려 치료 가능 시간이 길고 예후가 좋습니다."
@@ -217563,7 +217563,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Intermediate collateral ­ poor prognosis",
+        "text": "Intermediate collateral - poor prognosis",
         "is_correct": true,
         "tag": "정답",
         "reason": "다단계 CTA(관상면 3개 시기)에서 폐색 반구의 측부혈관이 늦게까지 거의 채워지지 않거나 소실된 소견은 측부 불량이며, 경색 핵심이 빠르게 커져 최종 경색 용적이 크고 예후가 나쁩니다"
@@ -217571,7 +217571,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Intermediate collateral ­ good prognosis",
+        "text": "Intermediate collateral - good prognosis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "중간 등급은 일부(50% 초과~100% 미만)만 채워지는 경우입니다. 이 경우 예후는 중간 수준이며 재관류 성공이 예후를 좌우합니다. 측부 등급이 중간이면서 예후 불량이라는 짝은 일반적이지 않습니다."
@@ -217579,7 +217579,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Good collateral ­ good prognosis",
+        "text": "Good collateral - good prognosis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "중간 측부는 재관류 치료를 빨리 하면 좋은 예후가 가능하지만, 이 영상은 중간 정도가 아닙니다."
@@ -217587,7 +217587,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Poor collateral ­ poor prognosis",
+        "text": "Poor collateral - poor prognosis",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "폐색된 영역의 혈관이 지연기에 거의 정상처럼 채워지는 경우로 경색 진행이 느려 치료 가능 시간이 길고 예후가 좋습니다."
@@ -217596,7 +217596,7 @@
     "section": "신경",
     "section_q_num": 2,
     "q_label": "Q31",
-    "answer": "① Intermediate collateral ­ poor prognosis"
+    "answer": "① Intermediate collateral - poor prognosis"
   },
   {
     "id": "영상의학과_23Y_Q32",
@@ -218327,25 +218327,25 @@
     "stem": "Acute infarct 소견을 보는데 가장 도움이 되는 영상과 관련된 edema가 올바르게 나열된 것은?",
     "images": [],
     "options": [
-      "① DWI ­ cytotoxic edema",
-      "② CT ­ cytotoxic edema",
-      "③ T1 ­ cytotoxic edema",
-      "④ T2 ­ vasogenic edema"
+      "① DWI - cytotoxic edema",
+      "② CT - cytotoxic edema",
+      "③ T1 - cytotoxic edema",
+      "④ T2 - vasogenic edema"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① DWI ­ cytotoxic edema",
+    "correct_answer": "① DWI - cytotoxic edema",
     "explanation": {
       "title": "[단독 기출] Acute infarct 소견을 보는데 가장 도움이 되는 영상과 ",
-      "findings": "기출 원문 (23Y-38):\nAcute infarct 소견을 보는데 가장 도움이 되는 영상과 \n관련된 edema가 올바르게 나열된 것은?\n① DWI ­ cytotoxic edema\n② CT ­ cytotoxic edema\n③ T1 ­ cytotoxic edema\n④ T2 ­ vasogenic edema",
-      "differential": "• ① DWI ­ cytotoxic edema ✓ [정답]: cytotoxic edema — 초급성 뇌경색은 Na+/K+ 펌프 부전으로 세포 내 수분이 저류되는 세포독성 부종(cytotoxic edema)이 발생하며, 확산강조영상(DWI)이 수분 분자 확산 제한을 포착하여 가장 민감하게 진단함\n• ② CT ­ cytotoxic edema ✗ [오답]: cytotoxic edema — 비조영 CT는 급성 뇌경색 초기(발병 수시간 이내)에는 음영 변화가 미미하여 민감도가 매우 낮습니다.\n• ③ T1 ­ cytotoxic edema ✗ [오답]: cytotoxic edema — T1 강조영상은 급성기 초기 허혈 변화를 감지하기 어려우며 주로 만성기 뇌연화증 판독에 쓰입니다.\n• ④ T2 ­ vasogenic edema ✗ [오답]: vasogenic edema — T2 강조영상은 수분 저류를 고신호로 보이지만 종양 등에서 생기는 혈관성 부종이 주된 기전이 아니며 초급성기 민감도가 DWI보다 떨어집니다.",
+      "findings": "기출 원문 (23Y-38):\nAcute infarct 소견을 보는데 가장 도움이 되는 영상과 \n관련된 edema가 올바르게 나열된 것은?\n① DWI - cytotoxic edema\n② CT - cytotoxic edema\n③ T1 - cytotoxic edema\n④ T2 - vasogenic edema",
+      "differential": "• ① DWI - cytotoxic edema ✓ [정답]: cytotoxic edema — 초급성 뇌경색은 Na+/K+ 펌프 부전으로 세포 내 수분이 저류되는 세포독성 부종(cytotoxic edema)이 발생하며, 확산강조영상(DWI)이 수분 분자 확산 제한을 포착하여 가장 민감하게 진단함\n• ② CT - cytotoxic edema ✗ [오답]: cytotoxic edema — 비조영 CT는 급성 뇌경색 초기(발병 수시간 이내)에는 음영 변화가 미미하여 민감도가 매우 낮습니다.\n• ③ T1 - cytotoxic edema ✗ [오답]: cytotoxic edema — T1 강조영상은 급성기 초기 허혈 변화를 감지하기 어려우며 주로 만성기 뇌연화증 판독에 쓰입니다.\n• ④ T2 - vasogenic edema ✗ [오답]: vasogenic edema — T2 강조영상은 수분 저류를 고신호로 보이지만 종양 등에서 생기는 혈관성 부종이 주된 기전이 아니며 초급성기 민감도가 DWI보다 떨어집니다.",
       "trap": "보기 소거법 적용.",
-      "trigger": "【[단독 기출] Acute infarct 소견을 보는데 가장 도움이 되는 영상과  핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 기출 원문 (23Y-38):\nAcute infarct 소견을 보는데 가장 도움이 되는 영상과 \n관련된 edema가 올바르게 나열된 것은?\n① DWI ­ cytot.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① DWI ­ cytotoxic edema.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
+      "trigger": "【[단독 기출] Acute infarct 소견을 보는데 가장 도움이 되는 영상과  핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 기출 원문 (23Y-38):\nAcute infarct 소견을 보는데 가장 도움이 되는 영상과 \n관련된 edema가 올바르게 나열된 것은?\n① DWI - cytot.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① DWI - cytotoxic edema.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": "KMLE 영상의학 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "DWI ­ cytotoxic edema",
+          "text": "DWI - cytotoxic edema",
           "is_correct": true,
           "tag": "정답",
           "reason": "cytotoxic edema — 초급성 뇌경색은 Na+/K+ 펌프 부전으로 세포 내 수분이 저류되는 세포독성 부종(cytotoxic edema)이 발생하며, 확산강조영상(DWI)이 수분 분자 확산 제한을 포착하여 가장 민감하게 진단함"
@@ -218353,7 +218353,7 @@
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "CT ­ cytotoxic edema",
+          "text": "CT - cytotoxic edema",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "cytotoxic edema — 비조영 CT는 급성 뇌경색 초기(발병 수시간 이내)에는 음영 변화가 미미하여 민감도가 매우 낮습니다."
@@ -218361,7 +218361,7 @@
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "T1 ­ cytotoxic edema",
+          "text": "T1 - cytotoxic edema",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "cytotoxic edema — T1 강조영상은 급성기 초기 허혈 변화를 감지하기 어려우며 주로 만성기 뇌연화증 판독에 쓰입니다."
@@ -218369,7 +218369,7 @@
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "T2 ­ vasogenic edema",
+          "text": "T2 - vasogenic edema",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "vasogenic edema — T2 강조영상은 수분 저류를 고신호로 보이지만 종양 등에서 생기는 혈관성 부종이 주된 기전이 아니며 초급성기 민감도가 DWI보다 떨어집니다."
@@ -218396,7 +218396,7 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "DWI ­ cytotoxic edema",
+        "text": "DWI - cytotoxic edema",
         "is_correct": true,
         "tag": "정답",
         "reason": "cytotoxic edema — 초급성 뇌경색은 Na+/K+ 펌프 부전으로 세포 내 수분이 저류되는 세포독성 부종(cytotoxic edema)이 발생하며, 확산강조영상(DWI)이 수분 분자 확산 제한을 포착하여 가장 민감하게 진단함"
@@ -218404,7 +218404,7 @@
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "CT ­ cytotoxic edema",
+        "text": "CT - cytotoxic edema",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "cytotoxic edema — 비조영 CT는 급성 뇌경색 초기(발병 수시간 이내)에는 음영 변화가 미미하여 민감도가 매우 낮습니다."
@@ -218412,7 +218412,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "T1 ­ cytotoxic edema",
+        "text": "T1 - cytotoxic edema",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "cytotoxic edema — T1 강조영상은 급성기 초기 허혈 변화를 감지하기 어려우며 주로 만성기 뇌연화증 판독에 쓰입니다."
@@ -218420,7 +218420,7 @@
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "T2 ­ vasogenic edema",
+        "text": "T2 - vasogenic edema",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "vasogenic edema — T2 강조영상은 수분 저류를 고신호로 보이지만 종양 등에서 생기는 혈관성 부종이 주된 기전이 아니며 초급성기 민감도가 DWI보다 떨어집니다."
@@ -218429,7 +218429,7 @@
     "section": "신경",
     "section_q_num": 9,
     "q_label": "Q38",
-    "answer": "① DWI ­ cytotoxic edema"
+    "answer": "① DWI - cytotoxic edema"
   },
   {
     "id": "영상의학과_23Y_Q39",
@@ -219471,7 +219471,7 @@
     "category": "반짤",
     "theme_title": "[단독 기출] 건강검진 상에서 이상이 발견된 남자 (나이는 40대 후",
     "subspecialty": "흉부 영상의학",
-    "stem": "건강검진 상에서 이상이 발견된 남자 (나이는 40대 후 반?) 환자의 진단은 무엇인가? (답 불확실) (사진 출처: 구리 영상 땡시 자료 Pulmonary metastasis 사진 ­ 본 사진과 비슷하긴 하나 다른 사진이었음.)",
+    "stem": "건강검진 상에서 이상이 발견된 남자 (나이는 40대 후 반?) 환자의 진단은 무엇인가? (답 불확실) (사진 출처: 구리 영상 땡시 자료 Pulmonary metastasis 사진 - 본 사진과 비슷하긴 하나 다른 사진이었음.)",
     "images": [
       "images/영상의학과/23Y_Q48_fig1.png"
     ],
@@ -219486,7 +219486,7 @@
     "correct_answer": "① Pneumoconiosis",
     "explanation": {
       "title": "[단독 기출] 건강검진 상에서 이상이 발견된 남자 (나이는 40대 후",
-      "findings": "기출 원문 (23Y-48):\n건강검진 상에서 이상이 발견된 남자 (나이는 40대 후\n반?) 환자의 진단은 무엇인가? (답 불확실)\n(사진 출처: 구리 영상 땡시 자료 Pulmonary metastasis 사진 ­ \n본 사진과 비슷하긴 하나 다른 사진이었음.)\n① Pneumoconiosis\n② Sarcoidosis\n③ Hypersensitive pneumonitis\n④ Pulmonary metastasis\n⑤ Pulmonary tuberculosis",
+      "findings": "기출 원문 (23Y-48):\n건강검진 상에서 이상이 발견된 남자 (나이는 40대 후\n반?) 환자의 진단은 무엇인가? (답 불확실)\n(사진 출처: 구리 영상 땡시 자료 Pulmonary metastasis 사진 - \n본 사진과 비슷하긴 하나 다른 사진이었음.)\n① Pneumoconiosis\n② Sarcoidosis\n③ Hypersensitive pneumonitis\n④ Pulmonary metastasis\n⑤ Pulmonary tuberculosis",
       "differential": "• ① Pneumoconiosis ✓ [정답]: 건강검진에서 무증상으로 발견되는 양측 상·중폐야 위주의 1~3mm 크기 다발성 소결절 음영이 특징적입니다. 석탄광부나 석공 등 분진 노출 직업력에서 발생하며 진행 시 대괴사 섬유화(PMF)를 형성합니다\n• ② Sarcoidosis ✗ [오답]: 흉부 단순촬영에서 양측 폐문 림프절 비대(BHL)가 특징적인 1기 소견이며, 결절이 동반될 때는 주로 기관지혈관 다발을 따라 림프관 주위(perilymphatic)로 분포합니다.\n• ③ Hypersensitive pneumonitis ✗ [오답]: 아급성 과민성 폐렴은 분진이나 유기 항원 흡입 후 발생하며, 흉부 영상에서 미만성 중심소엽성 간유리음영 결절과 모자이크 관류(공기 포획)가 주 소견입니다.\n• ④ Pulmonary metastasis ✗ [오답]: 혈행성 폐 전이는 다양한 크기의 다발성 원형 결절(cannonball 양상)이 혈류가 풍부한 양측 하폐야에 호발하므로 상폐야 위주의 미세 결절 분포와 다릅니다.\n• ⑤ Pulmonary tuberculosis ✗ [오답]: 속립성 결핵(miliary TB)은 1~2mm 크기의 균일한 좁쌀 결절이 전 폐야에 미만성으로 퍼지며, 고열, 체중 감소 등 급성 전신 감염 증상이 뚜렷하게 동반됩니다.",
       "trap": "보기 소거법 적용.",
       "trigger": "【[단독 기출] 건강검진 상에서 이상이 발견된 남자 (나이는 40대 후 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: 기출 원문 (23Y-48):\n건강검진 상에서 이상이 발견된 남자 (나이는 40대 후\n반?) 환자의 진단은 무엇인가? (답 불확실)\n(사진 출처: 구리 영상 땡시 .\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ① Pneumoconiosis.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
@@ -219611,7 +219611,7 @@
     "category": "탈",
     "theme_title": "[단독 기출] 기침 가래 호소하는 환자. 진단은?",
     "subspecialty": "흉부 영상의학",
-    "stem": "기침 가래 호소하는 환자. 진단은? (사진 출처: 구리 영상 땡시 자료 IPF 사진 ­ 본 사진과 비슷하긴 하나 다른 사진이었음.)",
+    "stem": "기침 가래 호소하는 환자. 진단은? (사진 출처: 구리 영상 땡시 자료 IPF 사진 - 본 사진과 비슷하긴 하나 다른 사진이었음.)",
     "images": [
       "images/영상의학과/23Y_Q49_fig1.png"
     ],
@@ -246288,7 +246288,7 @@
     "category": "탈",
     "theme_title": "[단독 기출] 임신 30주인 25세 미분만부가 1주 전부터 하지 부종과 ",
     "subspecialty": "산부인과 단독 기출",
-    "stem": "임신 30주인 25세 미분만부가 1주 전부터 하지 부종과 숨이 찬다며 병원에 왔다. 혈압 120/80mmHg, 맥박 100회 /분, 호흡 22회/분, 체온 36.8℃이다. 골반검사에서 태아는 두위, 자궁목 1cm 확장, 30% 소실, 하강도 ­2이다. 가슴 X선 사진은 정상이다. 초음파 상에서 최대 양수수직깊이는 13cm였다. 전자태아심박동-자궁수축감시검사 사진은 다음과 같다. 처치는?",
+    "stem": "임신 30주인 25세 미분만부가 1주 전부터 하지 부종과 숨이 찬다며 병원에 왔다. 혈압 120/80mmHg, 맥박 100회 /분, 호흡 22회/분, 체온 36.8℃이다. 골반검사에서 태아는 두위, 자궁목 1cm 확장, 30% 소실, 하강도 -2이다. 가슴 X선 사진은 정상이다. 초음파 상에서 최대 양수수직깊이는 13cm였다. 전자태아심박동-자궁수축감시검사 사진은 다음과 같다. 처치는?",
     "images": [],
     "options": [
       "① 경과관찰",
@@ -248814,7 +248814,7 @@
     "category": "짤",
     "theme_title": "산부인과 과년도 빈출: Prolonged latent phase 관련 진단 및 처치",
     "subspecialty": "산부인과 과년도 빈출",
-    "stem": "임신 40주 다분만부 25세 여성이 규칙적인 진통으로 내원하였다. 자궁경부개대는 1cm, 자궁경부의 숙화 정도는 30%, 태아의 아두하강도는 ­1이었다. 16시간이 지난 후에 도 자궁경부가 그대로일 때, 진단은?",
+    "stem": "임신 40주 다분만부 25세 여성이 규칙적인 진통으로 내원하였다. 자궁경부개대는 1cm, 자궁경부의 숙화 정도는 30%, 태아의 아두하강도는 -1이었다. 16시간이 지난 후에 도 자궁경부가 그대로일 때, 진단은?",
     "images": [],
     "options": [
       "① Protracted active-phase dilatation",
