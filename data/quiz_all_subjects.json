@@ -194086,7 +194086,7 @@
       "theme_title": "요골관 증후군(Radial Tunnel Syndrome)의 포착 부위: Arcade of Frohse",
       "subspecialty": "주관절",
       "findings": "외측상과염과 유사하나 압통점이 외측상과 원위 3~4cm의 요골신경 주행부에 국한되며, 저항성 중지 신전(middle finger extension test) 시 심한 통증이 재현됩니다.",
-      "differential": "• ① Arcade of Frohse (회외근 근위부 건성 궁) ✓ [정답]: 회외근(supinator) 천층 근위부의 건성 섬유성 가장자리로, 후골간신경(PIN)이 요골관을 통과할 때 가장 흔하게 압박되는 핵심 구조물입니다.\n• ② Fibrous band anterior to radiocapitellar joint ✗ [오답]: 상완요골관절 전방 섬유 밴드로 요골관 압박 구조물 중 하나이나 최호발 부위는 아닙니다.\n• ③ Radial recurrent vessels (Leash of Henry) ✗ [오답]: 요골 되돌이 혈관망으로 후골간신경을 가로지르며 압박할 수 있으나 Frohse 궁에 비해 빈도가 낮습니다.\n• ④ Medial edge of ECRB ✗ [오답]: 단요측수근신건의 내측 건성 경계로 요골관 전벽을 이루며 부수적 압박 요인입니다.\n• ⑤ Distal edge of supinator ✗ [오답]: 회외근 원위부 경계로 신경이 빠져나오는 부위이나 근위부 Frohse 궁보다 압박 빈도가 낮습니다.",
+      "differential": "• ① Fibrous band anterior to radiocapitellar joint ✗ [오답]: 상완요골관절 전방 섬유 밴드로 요골관 압박 구조물 중 하나이나 최호발 부위는 아닙니다.\n• ② Radial recurrent vessels (Leash of Henry) ✗ [오답]: 요골 되돌이 혈관망으로 후골간신경을 가로지르며 압박할 수 있으나 Frohse 궁에 비해 빈도가 낮습니다.\n• ③ Medial edge of ECRB ✗ [오답]: 단요측수근신건의 내측 건성 경계로 요골관 전벽을 이루며 부수적 압박 요인입니다.\n• ④ Proximal edge of supinator (Arcade of Frohse) ✓ [정답]: 회외근(supinator) 천층 근위부의 건성 섬유성 가장자리로, 후골간신경(PIN)이 요골관을 통과할 때 가장 흔하게 압박되는 핵심 구조물입니다.\n• ⑤ Distal edge of supinator ✗ [오답]: 회외근 원위부 경계로 신경이 빠져나오는 부위이나 근위부 Frohse 궁보다 압박 빈도가 낮습니다.",
       "trap": "요골관 증후군은 통증만을 호소하는 감각/동통성 질환이며 운동 마비가 없는 반면, 후골간신경 증후군(PIN syndrome)은 통증 없이 손가락 신전 마비(finger drop)가 발생하는 순수 운동마비 질환이므로 혼동해서는 안 됩니다.",
       "trigger": "【요골관 증후군 핵심 족보 & 임상 가이드라인】\n• 병태생리/해부학: 요골신경 심부 운동분지(PIN)가 주관절 전외측 요골관 통과 시 기계적 압박. 최빈 포착점: 회외근 천층 근위 건성 테두리(Arcade of Frohse).\n• 핵심 진단 및 영상 소견: 외측상과 원위 3~5cm(요골두 전방) 압통, 저항성 전완 회외 및 저항성 3수지 신전 시 외측 전완부 심부 둔통 유발. 운동 마비 없음.\n• 표준 치료 원칙 및 알고리즘: 전완 회외 및 손목 굴곡 제한 보조기, 소염진통제, 활성 조절. 3~6개월 보존 치료 불응 시 요골관 감압술(Arcade of Frohse 절개).\n• 1초 정답 도출 트리거: 외측상과 원위 3~4cm 압통 + 저항성 중지 신전 시 통증 + 회외근 근위부 포착 → Arcade of Frohse.",
       "kmle_link": "KMLE 15권 정형외과 / 말초신경 질환",
@@ -194094,34 +194094,34 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "Arcade of Frohse (회외근 근위부 건성 궁)",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "회외근 천층 근위부 건성 궁으로 요골신경 후골간분지가 포착되는 가장 흔한 해부학적 구조물입니다."
+          "text": "Fibrous band anterior to radiocapitellar joint",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "상완요골관절 전방 섬유 밴드로 요골관 압박 요인이나 최호발 부위는 아닙니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "Fibrous band anterior to radiocapitellar joint",
+          "text": "Radial recurrent vessels (Leash of Henry)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "상완요골관절 전방 섬유 밴드는 포착 구조물 중 하나이나 최호발 부위가 아닙니다."
+          "reason": "요골 되돌이 혈관망으로 신경을 교차 압박할 수 있으나 Frohse 궁보다 빈도가 낮습니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "Radial recurrent vessels (Leash of Henry)",
+          "text": "Medial edge of ECRB",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "후골간신경을 가로지르는 되돌이 혈관망이나 Frohse 궁보다 빈도가 낮습니다."
+          "reason": "단요측수근신건의 내측 경계로 부수적 압박 요인입니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "Medial edge of ECRB",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "단요측수근신건의 내측 경계부는 보조적 압박 요인에 불과합니다."
+          "text": "Proximal edge of supinator (Arcade of Frohse)",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "회외근 천층 근위부의 건성 경계(Arcade of Frohse)로 후골간신경(PIN) 압박의 가장 흔한 원인입니다."
         },
         {
           "opt_idx": 4,
@@ -194129,7 +194129,7 @@
           "text": "Distal edge of supinator",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "회외근 원위 경계부는 Frohse 궁에 비해 압박 빈도가 현저히 낮습니다."
+          "reason": "회외근 원위부 경계이나 근위부 Frohse 궁보다 압박 빈도가 낮습니다."
         }
       ],
       "differential_general": "요골관 증후군에서 후골간신경 포착의 압도적 최호발 부위는 회외근 근위 건성 테두리인 Arcade of Frohse입니다."
@@ -194137,7 +194137,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      3
     ],
     "freq_count": 1,
     "rate": 17,
@@ -194151,34 +194151,34 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Arcade of Frohse (회외근 근위부 건성 궁)",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "회외근 천층 근위부 건성 궁으로 요골신경 후골간분지가 포착되는 가장 흔한 해부학적 구조물입니다."
+        "text": "Fibrous band anterior to radiocapitellar joint",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "상완요골관절 전방 섬유 밴드로 요골관 압박 요인이나 최호발 부위는 아닙니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Fibrous band anterior to radiocapitellar joint",
+        "text": "Radial recurrent vessels (Leash of Henry)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "상완요골관절 전방 섬유 밴드는 포착 구조물 중 하나이나 최호발 부위가 아닙니다."
+        "reason": "요골 되돌이 혈관망으로 신경을 교차 압박할 수 있으나 Frohse 궁보다 빈도가 낮습니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Radial recurrent vessels (Leash of Henry)",
+        "text": "Medial edge of ECRB",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "후골간신경을 가로지르는 되돌이 혈관망이나 Frohse 궁보다 빈도가 낮습니다."
+        "reason": "단요측수근신건의 내측 경계로 부수적 압박 요인입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Medial edge of ECRB",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "단요측수근신건의 내측 경계부는 보조적 압박 요인에 불과합니다."
+        "text": "Proximal edge of supinator (Arcade of Frohse)",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "회외근 천층 근위부의 건성 경계(Arcade of Frohse)로 후골간신경(PIN) 압박의 가장 흔한 원인입니다."
       },
       {
         "opt_idx": 4,
@@ -194186,7 +194186,7 @@
         "text": "Distal edge of supinator",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "회외근 원위 경계부는 Frohse 궁에 비해 압박 빈도가 현저히 낮습니다."
+        "reason": "회외근 원위부 경계이나 근위부 Frohse 궁보다 압박 빈도가 낮습니다."
       }
     ],
     "answer": "④ Proximal edge of supinator (Arcade of Frohse)"
@@ -194603,7 +194603,7 @@
       "theme_title": "어깨 통증 질환의 4대 범주 감별(충돌/회전근개, 오십견, 석회성건염, 퇴행성관절염)",
       "subspecialty": "견관절",
       "findings": "성인 외래에서 흔히 접하는 만성 어깨 통증의 4대 질환 범주는 회전근개 질환, 동결견(유착성 관절낭염), 석회성 건염, 경추 방사통(또는 관절염)이며, 어깨 탈구는 급성 외상성 불안정성 질환입니다.",
-      "differential": "• ① 어깨 전방 탈구 및 관절와순 파열 ✓ [정답]: 주로 20대 젊은 운동선수 등에서 고에너지 외상으로 발생하는 급성 외상성 불안정 질환으로, 중장년 성인 외래 만성 어깨 통증의 4대 비외상성 질환 범주에 속하지 않습니다.\n• ② 유착성 관절낭염 (동결견, 오십견) ✗ [오답]: 관절낭의 만성 섬유화 염증으로 전 방향의 능동 및 수동 운동 제한을 초래하는 대표 4대 질환입니다.\n• ③ 회전근개 파열 (Rotator cuff tear) ✗ [오답]: 극상근건을 중심으로 발생하는 성인 만성 어깨 통증의 가장 흔한 1위 원인 질환입니다.\n• ④ 석회성 건염 (Calcific tendonitis) ✗ [오답]: 하이드록시아파타이트 결정 침착 및 흡수기 화학 염증으로 응급실을 찾을 정도의 극심한 급성 통증을 유발하는 대표 질환입니다.\n• ⑤ 경추 신경병증 (Cervical radiculopathy) ✗ [오답]: 경추 추간판 탈출이나 협착으로 어깨 및 승모근 부위로 연관통이 방사되어 어깨 질환과 반드시 감별해야 하는 필수 질환군입니다.",
+      "differential": "• ① 경추 신경병증 (Cervical radiculopathy) ✗ [오답]: 경추 추간판 탈출이나 협착으로 어깨 및 승모근 부위로 연관통이 방사되어 어깨 질환과 반드시 감별해야 하는 필수 질환군입니다.\n• ② 유착성 관절낭염 (오십견, 동결견) ✗ [오답]: 관절낭의 만성 섬유화 염증으로 전 방향의 능동 및 수동 운동 제한을 초래하는 대표 4대 질환입니다.\n• ③ 회전근개 파열 (Rotator cuff tear) ✗ [오답]: 극상근건을 중심으로 발생하는 성인 만성 어깨 통증의 가장 흔한 1위 원인 질환입니다.\n• ④ 석회성 건염 (Calcific tendonitis) ✗ [오답]: 하이드록시아파타이트 결정 침착 및 흡수기 화학 염증으로 응급실을 찾을 정도의 극심한 통증을 유발하는 대표 4대 질환입니다.\n• ⑤ 어깨 전방탈구 ✓ [정답]: 주로 20대 젊은 운동선수 등에서 고에너지 외상으로 발생하는 급성 외상성 불안정 질환으로, 중장년 성인 외래 만성 어깨 통증의 4대 비외상성 질환 범주에 속하지 않습니다.",
       "trap": "중장년 환자가 어깨 통증으로 내원했을 때 능동 운동뿐만 아니라 의사가 검사하는 수동적 관절 운동(passive ROM)까지 모든 방향에서 심하게 제한되어 있다면 회전근개 파열보다는 유착성 관절낭염(동결견)을 우선 진단해야 합니다.",
       "trigger": "【성인 어깨 통증 4대 질환 감별 핵심 족보 & 임상 가이드라인】\n• 4대 질환 특징적 프로파일:\n  1. 회전근개 질환: 능동 외전 제한 있으나 수동 운동은 정상. 통증호(painful arc, 60~120도), Neer/Hawkins 충돌 양성.\n  2. 동결견(유착성 관절낭염): 전 방향의 능동 및 '수동' 관절 운동 범위 감소. 야간통 극심.\n  3. 석회성 건염: X선상 회전근개 부위 방사선 불투과성 석회 음영. 흡수기 급성 염증.\n  4. 경추 신경병증: Spurling 검사 양성, 목 움직임 시 어깨/상지로 방사통.\n• 1초 정답 도출 트리거: 성인 외래 만성 어깨 통증 4대 질환 범주가 아닌 외상성 급성 질환 → 견관절 전방 탈구.",
       "kmle_link": "KMLE 15권 정형외과 / 견관절 질환",
@@ -194611,42 +194611,42 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "어깨 전방 탈구 및 관절와순 파열",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "외상에 의해 급성으로 발생하는 관절 불안정 질환으로 성인 외래 만성 어깨 통증 4대 범주에 속하지 않습니다."
+          "text": "경추 신경병증",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "어깨 및 승모근 부위로 방사통을 유발하여 어깨 질환과 감별해야 하는 주요 4대 원인 질환에 포함됩니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "유착성 관절낭염 (동결견, 오십견)",
+          "text": "오십견",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "전 방향 관절 운동 제한을 유발하는 성인 어깨 통증의 대표적 4대 질환입니다."
+          "reason": "만성 염증과 관절낭 구축을 유발하는 대표 4대 어깨 통증 질환입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "회전근개 파열 (Rotator cuff tear)",
+          "text": "회전근개 파열",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "성인 만성 어깨 통증의 가장 흔한 원인 질환입니다."
+          "reason": "성인 만성 어깨 통증의 가장 흔한 1위 원인 질환입니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "석회성 건염 (Calcific tendonitis)",
+          "text": "석회성 건염",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "회전근개 내 칼슘 결정 침착으로 심한 화학적 통증을 일으키는 대표 질환입니다."
+          "reason": "극심한 급만성 통증을 유발하는 대표 4대 비외상성 어깨 질환입니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "경추 신경병증 (Cervical radiculopathy)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "경추 신경근 압박으로 어깨 부위 방사통을 일으켜 감별해야 하는 필수 질환입니다."
+          "text": "어깨 전방탈구",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "외상성 급성 관절 불안정성 질환으로 외래 만성 어깨 통증의 4대 비외상성 질환에 포함되지 않습니다."
         }
       ],
       "differential_general": "외상성 견관절 탈구는 만성 견관절 통증 4대 비외상성 질환(회전근개, 오십견, 석회건염, 경추병증)과 구별되는 외상 질환입니다."
@@ -194654,7 +194654,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      4
     ],
     "freq_count": 1,
     "rate": 17,
@@ -194668,42 +194668,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "어깨 전방 탈구 및 관절와순 파열",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "외상에 의해 급성으로 발생하는 관절 불안정 질환으로 성인 외래 만성 어깨 통증 4대 범주에 속하지 않습니다."
+        "text": "경추 신경병증",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "어깨 및 승모근 부위로 방사통을 유발하여 어깨 질환과 감별해야 하는 주요 4대 원인 질환에 포함됩니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "유착성 관절낭염 (동결견, 오십견)",
+        "text": "오십견",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "전 방향 관절 운동 제한을 유발하는 성인 어깨 통증의 대표적 4대 질환입니다."
+        "reason": "만성 염증과 관절낭 구축을 유발하는 대표 4대 어깨 통증 질환입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "회전근개 파열 (Rotator cuff tear)",
+        "text": "회전근개 파열",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "성인 만성 어깨 통증의 가장 흔한 원인 질환입니다."
+        "reason": "성인 만성 어깨 통증의 가장 흔한 1위 원인 질환입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "석회성 건염 (Calcific tendonitis)",
+        "text": "석회성 건염",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "회전근개 내 칼슘 결정 침착으로 심한 화학적 통증을 일으키는 대표 질환입니다."
+        "reason": "극심한 급만성 통증을 유발하는 대표 4대 비외상성 어깨 질환입니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "경추 신경병증 (Cervical radiculopathy)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "경추 신경근 압박으로 어깨 부위 방사통을 일으켜 감별해야 하는 필수 질환입니다."
+        "text": "어깨 전방탈구",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "외상성 급성 관절 불안정성 질환으로 외래 만성 어깨 통증의 4대 비외상성 질환에 포함되지 않습니다."
       }
     ],
     "answer": "⑤ 어깨 전방탈구",
@@ -195126,7 +195126,7 @@
       "theme_title": "견관절 회전근개 중 상완골 내회전을 전담하는 근육: 견갑하근(Subscapularis)",
       "subspecialty": "견관절",
       "findings": "견관절 4대 회전근개(SITS: 극상근, 극하근, 소원근, 견갑하근) 중 견갑골 전면에서 기시하여 상완골 소결절에 부착하며 견관절의 유일한 내회전(internal rotation)을 전담하는 대형 근육입니다.",
-      "differential": "• ① 견갑하근 (Subscapularis) ✓ [정답]: 견갑골 앞쪽 견갑하와에서 기시하여 상완골 소결절(lesser tuberosity)에 닿는 가장 크고 강력한 근육으로, 회전근개 중 유일하게 상완골의 강력한 내회전을 수행합니다.\n• ② 극상근 (Supraspinatus) ✗ [오답]: 견갑극 상와에서 기시하여 대결절 상부에 부착하며 외전(abduction) 초기(0~30도)를 담당합니다.\n• ③ 극하근 (Infraspinatus) ✗ [오답]: 견갑극 하와에서 기시하여 대결절 중간면에 부착하며 견관절의 주된 외회전(external rotation)을 수행합니다.\n• ④ 소원근 (Teres minor) ✗ [오답]: 견갑골 외측연에서 기시하여 대결절 하부에 부착하며 팔을 외전한 상태에서 외회전을 보조합니다.\n• ⑤ 소흉근 (Pectoralis minor) ✗ [오답]: 늑골에서 오구돌기에 부착하는 체간근으로 회전근개 근육군에 속하지 않습니다.",
+      "differential": "• ① 소흉근 (Pectoralis minor) ✗ [오답]: 늑골에서 오구돌기에 부착하는 체간근으로 회전근개 근육군에 속하지 않으며 견관절 내회전을 수행하지 않습니다.\n• ② 극상근 (Supraspinatus) ✗ [오답]: 견갑극 상와에서 기시하여 대결절 상부에 부착하며 외전(abduction) 초기(0~30도)를 담당합니다.\n• ③ 극하근 (Infraspinatus) ✗ [오답]: 견갑극 하와에서 기시하여 대결절 중간면에 부착하며 견관절의 주된 외회전(external rotation)을 수행합니다.\n• ④ 견갑하근 (Subscapularis) ✓ [정답]: 견갑골 앞쪽 견갑하와에서 기시하여 상완골 소결절(lesser tuberosity)에 닿는 가장 크고 강력한 근육으로, 회전근개 중 유일하게 상완골의 강력한 내회전을 수행합니다.\n• ⑤ 소원근 (Teres minor) ✗ [오답]: 견갑골 외측연에서 기시하여 대결절 하부에 부착하며 팔을 외전한 상태에서 외회전을 보조합니다.",
       "trap": "대흉근(pectoralis major)과 광배근(latissimus dorsi)도 강력한 내회전근이지만, 견관절 관절낭을 직접 둘러싸며 상완골두를 관절와에 밀착시키는 '회전근개(rotator cuff)' 근육군 중에서 내회전을 담당하는 것은 견갑하근이 유일합니다.",
       "trigger": "【회전근개 4대 근육 기능 매핑 핵심 족보 & 임상 가이드라인】\n• 회전근개 근육별 부착부 및 작용:\n  1. 견갑하근(Subscapularis): 소결절(lesser tuberosity) 부착 / 견관절 강력한 내회전(IR). 검사: Lift-off, Belly-press, Bear-hug.\n  2. 극상근(Supraspinatus): 대결절 상부 부착 / 외전(0~30도). 검사: Jobe test(Empty-can).\n  3. 극하근(Infraspinatus): 대결절 중간면 부착 / 외회전(ER). 검사: Hornblower, 외회전 지연 징후.\n  4. 소원근(Teres minor): 대결절 하부 부착 / 외회전 보조.\n• 1초 정답 도출 트리거: 회전근개 근육 중 상완골 내회전(Internal rotation) 전담 → 견갑하근(Subscapularis).",
       "kmle_link": "KMLE 15권 정형외과 / 견관절 질환",
@@ -195134,42 +195134,42 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "견갑하근 (Subscapularis)",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "견갑골 전면에서 기시하여 상완골 소결절에 부착하며 회전근개 중 유일하게 견관절 내회전을 수행하는 핵심 근육입니다."
+          "text": "소흉근 (Pectoralis minor)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "회전근개 근육군에 속하지 않으며 상완골 내회전을 담당하지 않습니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "극상근 (Supraspinatus)",
+          "text": "극상근 (supraspinatus)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "대결절 상부에 부착하며 견관절 외전 초기 동작을 수행합니다."
+          "reason": "대결절 상부에 붙어 외전(abduction)을 개시합니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "극하근 (Infraspinatus)",
+          "text": "극하근 (infraspinatus)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "대결절 중간면에 부착하여 견관절 외회전을 담당합니다."
+          "reason": "대결절 후외측에 부착하여 견관절 외회전(external rotation)을 주동합니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "소원근 (Teres minor)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "대결절 하부에 부착하며 외회전을 보조하는 근육입니다."
+          "text": "견갑하근 (subscapularis)",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "소결절에 부착하며 회전근개 중 유일하게 견관절 내회전(internal rotation)을 주동합니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "소흉근 (Pectoralis minor)",
+          "text": "소원근 (teres minor)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "오구돌기에 부착하는 전흉벽 근육으로 회전근개에 포함되지 않습니다."
+          "reason": "대결절 하부에 부착하며 외회전을 보조합니다."
         }
       ],
       "differential_general": "회전근개 4개 근육 중 소결절에 부착하여 유일하게 내회전을 전담하는 근육은 견갑하근입니다."
@@ -195177,7 +195177,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      3
     ],
     "freq_count": 1,
     "rate": 17,
@@ -195192,42 +195192,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "견갑하근 (Subscapularis)",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "견갑골 전면에서 기시하여 상완골 소결절에 부착하며 회전근개 중 유일하게 견관절 내회전을 수행하는 핵심 근육입니다."
+        "text": "소흉근 (Pectoralis minor)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "회전근개 근육군에 속하지 않으며 상완골 내회전을 담당하지 않습니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "극상근 (Supraspinatus)",
+        "text": "극상근 (supraspinatus)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "대결절 상부에 부착하며 견관절 외전 초기 동작을 수행합니다."
+        "reason": "대결절 상부에 붙어 외전(abduction)을 개시합니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "극하근 (Infraspinatus)",
+        "text": "극하근 (infraspinatus)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "대결절 중간면에 부착하여 견관절 외회전을 담당합니다."
+        "reason": "대결절 후외측에 부착하여 견관절 외회전(external rotation)을 주동합니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "소원근 (Teres minor)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "대결절 하부에 부착하며 외회전을 보조하는 근육입니다."
+        "text": "견갑하근 (subscapularis)",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "소결절에 부착하며 회전근개 중 유일하게 견관절 내회전(internal rotation)을 주동합니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "소흉근 (Pectoralis minor)",
+        "text": "소원근 (teres minor)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "오구돌기에 부착하는 전흉벽 근육으로 회전근개에 포함되지 않습니다."
+        "reason": "대결절 하부에 부착하며 외회전을 보조합니다."
       }
     ],
     "answer": "④ 견갑하근 (subscapularis)",
@@ -197361,7 +197361,7 @@
       "theme_title": "족관절 내번 염좌(Inversion Ankle Sprain)의 최호발 손상 인대: 전거비인대(ATFL)",
       "subspecialty": "족부 및 족관절",
       "findings": "발목 안쪽 부주상골(accessory navicular) 부위의 뼈 돌출과 통증, 발적이 나타나며, 주상골 내측 결절 및 부주상골에 부착하여 지속적으로 견인 스트레스를 가하는 주된 힘줄입니다.",
-      "differential": "• ① 후경골건 (Posterior tibial tendon) ✓ [정답]: 주상골(navicular) 내측 결절에 주 정지부를 가지므로 부주상골(Type II 연골결합)이 존재할 경우 후경골건 섬유가 비정상적으로 부착되어 보행 시 지속적인 당김 자극에 의한 염증과 골연골염 통증을 유발합니다.\n• ② 전경골건 (Anterior tibial tendon) ✗ [오답]: 내측 설상골과 제1 중족골 기저부에 부착하여 발목 족배굴곡을 수행합니다.\n• ③ 장비골근건 (Peroneus longus tendon) ✗ [오답]: 외과 후방을 돌아 족저부를 가로질러 제1 중족골 외측에 부착합니다.\n• ④ 단비골근건 (Peroneus brevis tendon) ✗ [오답]: 제5 중족골 기저부에 정지하며 외번을 담당합니다.\n• ⑤ 아킬레스건 (Achilles tendon) ✗ [오답]: 종골 후방 조면에 부착하는 최대 힘줄입니다.",
+      "differential": "• ① 전경골건 (Anterior tibial tendon) ✗ [오답]: 내측 설상골과 제1 중족골 기저부에 부착하여 발목 족배굴곡을 수행합니다.\n• ② 후경골건 (Posterior tibial tendon) ✓ [정답]: 주상골(navicular) 내측 결절에 주 정지부를 가지므로 부주상골(Type II 연골결합)이 존재할 경우 후경골건 섬유가 비정상적으로 부착되어 보행 시 지속적인 당김 자극에 의한 염증과 골연골염 통증을 유발합니다.\n• ③ 장비골근건 (Peroneus longus tendon) ✗ [오답]: 외과 후방을 돌아 족저부를 가로질러 제1 중족골 외측에 부착합니다.\n• ④ 단비골근건 (Peroneus brevis tendon) ✗ [오답]: 제5 중족골 기저부에 정지하며 외번을 담당합니다.\n• ⑤ 아킬레스건 (Achilles tendon) ✗ [오답]: 종골 후방 조면에 부착하는 최대 힘줄입니다.",
       "trap": "부주상골 증후군 환자에서 보존 치료 불응 시 부주상골 절제술을 시행할 때, 단순히 뼈만 떼어내고 후경골건을 방치하면 건 부착부가 상실되어 심각한 후천성 평발(flatfoot) 변형으로 진행하므로, 반드시 후경골건을 본래의 주상골 내측에 견고히 재부착시키는 키드너 술식(Kidner procedure)을 시행해야 합니다.",
       "trigger": "【부주상골 증후군(Accessory Navicular) 핵심 족보 & 임상 가イド라인】\n• 병태생리/해부학: 주상골 내측 이차 골화 중심의 불융합(Type II 연골결합 형태가 증상 최빈 유발). 후경골건(posterior tibial tendon)의 주 정지부 견인 손상.\n• 핵심 진단 및 영상 소견: 내측 주상골 돌출 부위의 국소 압통, 신발 마찰 시 통증 악화. 족부 단순 사위(oblique) X선에서 주상골 내측의 독립된 부골 관찰. 동반 평발(pes planus) 흔함.\n• 표준 치료: 깁스/보조기 4~6주, 족궁 지지 깔창(arch support). 불응 시 Kidner 술식(부주상골 절제 + 후경골건 주상골 하면 재건).\n• 1초 정답 도출 트리거: 부주상골(Accessory navicular)에 부착하여 통증을 유발하는 힘줄 → 후경골건 (Posterior tibial tendon).",
       "kmle_link": "KMLE 15권 정형외과 / 족부 질환",
@@ -197369,42 +197369,42 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "후경골건 (Posterior tibial tendon)",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "주상골 내측에 부착하는 힘줄로 부주상골이 있을 때 비정상 정지하여 지속적인 당김 통증을 유발합니다."
+          "text": "전경골건",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "내측 설상골과 제1 중족골 기저부에 부착합니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "전경골건 (Anterior tibial tendon)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "내측 설상골과 제1 중족골 기저부에 닿는 족배굴곡근입니다."
+          "text": "후경골건",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "주상골 결절 및 부주상골에 부착하여 염증과 통증을 유발하는 원인 힘줄입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "장비골근건 (Peroneus longus tendon)",
+          "text": "장비골근건",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "발바닥을 가로질러 주행하는 외측 근육 힘줄입니다."
+          "reason": "외과 후방을 지나 제1 중족골 외측 및 내측 설상골에 부착합니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "단비골근건 (Peroneus brevis tendon)",
+          "text": "단비골근건",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "제5 중족골 기저부에 닿는 외번 힘줄입니다."
+          "reason": "제5 중족골 기저부에 부착합니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "아킬레스건 (Achilles tendon)",
+          "text": "아킬레스건",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "종골에 닿는 강력한 족저굴곡건입니다."
+          "reason": "종골 후면에 부착하는 족저굴곡 힘줄입니다."
         }
       ],
       "differential_general": "부주상골에 부착하여 보행 시 당김 통증을 일으키는 핵심 힘줄은 후경골건(Posterior tibial tendon)입니다."
@@ -197412,7 +197412,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -197426,42 +197426,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "후경골건 (Posterior tibial tendon)",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "주상골 내측에 부착하는 힘줄로 부주상골이 있을 때 비정상 정지하여 지속적인 당김 통증을 유발합니다."
+        "text": "전경골건",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "내측 설상골과 제1 중족골 기저부에 부착합니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "전경골건 (Anterior tibial tendon)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "내측 설상골과 제1 중족골 기저부에 닿는 족배굴곡근입니다."
+        "text": "후경골건",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "주상골 결절 및 부주상골에 부착하여 염증과 통증을 유발하는 원인 힘줄입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "장비골근건 (Peroneus longus tendon)",
+        "text": "장비골근건",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "발바닥을 가로질러 주행하는 외측 근육 힘줄입니다."
+        "reason": "외과 후방을 지나 제1 중족골 외측 및 내측 설상골에 부착합니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "단비골근건 (Peroneus brevis tendon)",
+        "text": "단비골근건",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "제5 중족골 기저부에 닿는 외번 힘줄입니다."
+        "reason": "제5 중족골 기저부에 부착합니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "아킬레스건 (Achilles tendon)",
+        "text": "아킬레스건",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "종골에 닿는 강력한 족저굴곡건입니다."
+        "reason": "종골 후면에 부착하는 족저굴곡 힘줄입니다."
       }
     ],
     "answer": "② 후경골건",
@@ -197624,7 +197624,7 @@
       "theme_title": "급성 척수 손상 후 척수성 쇼크(Spinal Shock)와 구해면체 반사 소실",
       "subspecialty": "척추 질환",
       "findings": "35세 남성이 고속 오토바이 사고 후 하지의 모든 운동과 감각이 완전 마비되고, 구해면체 반사(Bulbocavernosus reflex), 항문 괄약근 긴장도 및 심건 반사가 일체 소실된 급성 척수 신경학적 상태입니다.",
-      "differential": "• ① 척수성 쇼크 (Spinal shock) ✓ [정답]: 급성 척수 손상 직후 척수 손상 부위 이하의 모든 운동, 감각 기능뿐만 아니라 최하위 천추 반사인 구해면체 반사(BCR)까지 일시적으로 완전 정지하는 생리학적 반사 소실 상태입니다.\n• ② 완전 척수 손상 (Complete spinal cord injury) ✗ [오답]: 척수성 쇼크가 종결되어 구해면체 반사가 돌아온 이후에도 최하위 천추(S4-S5) 감각과 운동이 결여되어 있을 때 비로소 최종 진단할 수 있습니다.\n• ③ 불완전 척수 손상 (Incomplete spinal cord injury) ✗ [오답]: 손상 레벨 이하 또는 천추 부위(Sacral sparing: 항문 주위 감각, 수의적 괄약근 수축)에 일부 기능이 보존된 상태입니다.\n• ④ 마미 증후군 (Cauda equina syndrome) ✗ [오답]: 요추 L2 이하 마미신경 다발 압박으로 안장 감각마비(saddle anesthesia)와 방광 마비가 오는 말초신경 질환입니다.\n• ⑤ 중심척수 증후군 (Central cord syndrome) ✗ [오답]: 경추 과신전 손상 시 상지가 하지보다 훨씬 심하게 마비되는 불완전 척수 손상입니다.",
+      "differential": "• ① 완전 척수 손상 (Complete spinal cord injury) ✗ [오답]: 척수성 쇼크가 종결되어 구해면체 반사(BCR)가 돌아온 이후에도 최하위 천추(S4-S5) 감각과 운동이 결여되어 있을 때 비로소 최종 진단할 수 있습니다.\n• ② 불완전 척수 손상 (Incomplete spinal cord injury) ✗ [오답]: 손상 레벨 이하 또는 천추 부위(Sacral sparing: 항문 주위 감각, 수의적 괄약근 수축)에 일부 기능이 보존된 상태입니다.\n• ③ 마미 증후군 (Cauda equina syndrome) ✗ [오답]: 요추 L2 이하 마미신경 다발 압박으로 안장 감각마비(saddle anesthesia)와 방광 마비가 오는 말초신경 질환입니다.\n• ④ 척수성 쇼크 (Spinal shock) ✓ [정답]: 급성 척수 손상 직후 척수 손상 부위 이하의 모든 운동, 감각 기능뿐만 아니라 최하위 천추 반사인 구해면체 반사(Bulbocavernosus reflex), 항문 반사가 일시적으로 완전 정지된 상태입니다. BCR 소실은 척수성 쇼크가 진행 중임을 의미합니다.\n• ⑤ 중심척수증후군 (Central cord syndrome) ✗ [오답]: 경추 과신전 손상 시 상지가 하지보다 훨씬 심하게 마비되는 불완전 척수 손상입니다.",
       "trap": "구해면체 반사(Bulbocavernosus reflex, BCR)가 소실되어 있는 동안(통상 외상 후 24~48시간)에는 완전 척수 손상인지 불완전 손상인지 예후를 절대 단정할 수 없으며, BCR이 회복된 시점에 비로소 신경학적 손상의 영구적 완전성 여부를 최종 판정해야 합니다.",
       "trigger": "【척수성 쇼크(Spinal Shock) 판정 프로토콜 핵심 족보 & 임상 가이드라인】\n• 척수성 쇼크 정의: 손상 부위 이하의 운동, 감각 및 모든 반사(DTR, BCR)의 일시적 완전 소실.\n• 척수성 쇼크 종결 지표: 구해면체 반사(BCR: 귀두/음핵 압박 또는 도뇨관 견인 시 항문 괄약근 수축)의 재출현 (대개 24~48시간 소요).\n• 신경학적 예후 판정 알고리즘:\n  - BCR 복구 후 천추 보존(sacral sparing) 없음 → 완전 척수 손상(Complete SCI, ASIA A), 신경 회복 가능성 <1~3% 극히 불량.\n  - BCR 복구 후 천추 보존(항문 감각/운동) 있음 → 불완전 손상(Incomplete SCI, ASIA B~D), 재활 치료 시 기능 회복 기대.\n• 1초 정답 도출 트리거: 척수 외상 직후 하지 완전 마비 + 구해면체 반사(BCR) 소실 상태 → 척수성 쇼크(Spinal shock).",
       "kmle_link": "KMLE 15권 정형외과 / 척추 손상",
@@ -197632,39 +197632,39 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "척수성 쇼크 (Spinal shock)",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "외상 직후 손상 레벨 이하의 운동, 감각뿐만 아니라 구해면체 반사를 포함한 모든 척수 반사가 일시 차단된 상태입니다."
+          "text": "완전 척수 손상",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "척수성 쇼크가 종결되어 반사(BCR)가 회복된 이후에야 비로소 확정 진단할 수 있습니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "완전 척수 손상 (Complete spinal cord injury)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "척수성 쇼크가 종결되어 반사가 회복된 이후에야 비로소 확정 진단할 수 있습니다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "불완전 척수 손상 (Incomplete spinal cord injury)",
+          "text": "불완전 척수 손상",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "천추 보존 기능(sacral sparing)이 일부 잔존하는 상태를 의미합니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "마미 증후군 (Cauda equina syndrome)",
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "마미 증후군",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "L2 이하 마미신경 다발 압박으로 인한 하위운동신경원 손상입니다."
         },
         {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "척수성 쇼크",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "외상 직후 손상 레벨 이하의 운동, 감각뿐만 아니라 구해면체 반사(BCR)를 포함한 모든 척수 반사가 일시 차단된 상태입니다."
+        },
+        {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "중심척수 증후군 (Central cord syndrome)",
+          "text": "중심척수증후군",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "상지 마비가 하지 마비보다 심한 불완전 척수 손상 형태입니다."
@@ -197675,7 +197675,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      3
     ],
     "freq_count": 1,
     "rate": 17,
@@ -197689,39 +197689,39 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "척수성 쇼크 (Spinal shock)",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "외상 직후 손상 레벨 이하의 운동, 감각뿐만 아니라 구해면체 반사를 포함한 모든 척수 반사가 일시 차단된 상태입니다."
+        "text": "완전 척수 손상",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "척수성 쇼크가 종결되어 반사(BCR)가 회복된 이후에야 비로소 확정 진단할 수 있습니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "완전 척수 손상 (Complete spinal cord injury)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "척수성 쇼크가 종결되어 반사가 회복된 이후에야 비로소 확정 진단할 수 있습니다."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "불완전 척수 손상 (Incomplete spinal cord injury)",
+        "text": "불완전 척수 손상",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "천추 보존 기능(sacral sparing)이 일부 잔존하는 상태를 의미합니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "마미 증후군 (Cauda equina syndrome)",
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "마미 증후군",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "L2 이하 마미신경 다발 압박으로 인한 하위운동신경원 손상입니다."
       },
       {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "척수성 쇼크",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "외상 직후 손상 레벨 이하의 운동, 감각뿐만 아니라 구해면체 반사(BCR)를 포함한 모든 척수 반사가 일시 차단된 상태입니다."
+      },
+      {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "중심척수 증후군 (Central cord syndrome)",
+        "text": "중심척수증후군",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "상지 마비가 하지 마비보다 심한 불완전 척수 손상 형태입니다."
@@ -197888,7 +197888,7 @@
       "theme_title": "요추 추간판 탈출증(HNP)과 척추관 협착증의 감별: 기침 시 악화되는 방사통",
       "subspecialty": "척추 질환",
       "findings": "51세 남성이 보행 거리와 무관하게 일정하게 지속되며 기침이나 재채기, 복압 상승 시 악화되는 하지 방사통과 함께 하지직거상 검사(SLRT) 40도 양성을 보였습니다.",
-      "differential": "• ① 요추간판 탈출증 (Herniated lumbar intervertebral disc) ✓ [정답]: 탈출된 수핵이 신경근을 직접 압박하고 화학적 염증을 일으켜 기침/배변 시 경막외 정맥압 상승으로 방사통이 급격히 악화되며, 젊거나 중년층에서 SLRT 양성을 전형적으로 보입니다.\n• ② 척추관 협착증 (Spinal stenosis) ✗ [오답]: 보행 시 둔부 및 하지 통증/저림이 악화되어 쪼그려 앉아 쉬어야 하는 신경인성 간헐적 파행(neurogenic intermittent claudication)을 보이며 SLRT는 대개 음성입니다.\n• ③ 척추전방전위증 (Spondylolisthesis) ✗ [오답]: 상위 척추체가 전방 전위되어 요통과 만성 협착 증상을 초래하며 계단형 척추 극돌기 촉지를 보입니다.\n• ④ 요추 분리증 (Spondylolysis) ✗ [오답]: 협부(pars interarticularis)의 편측 또는 양측 결손으로 허리 신전 시 국소 요통이 주증상입니다.\n• ⑤ 이상근 증후군 (Piriformis syndrome) ✗ [오답]: 둔부 이상근에 의한 좌골신경 포착으로 둔부 압통과 FAIR 검사 양성을 보이나 기침 악화 양상은 없습니다.",
+      "differential": "• ① 척추관 협착증 (Spinal stenosis) ✗ [오답]: 보행 시 둔부 및 하지 통증/저림이 악화되어 쪼그려 앉아 쉬어야 하는 신경인성 간헐적 파행(neurogenic intermittent claudication)을 보이며 SLRT는 대개 음성입니다.\n• ② 추간판 탈출증 (Herniated lumbar intervertebral disc) ✓ [정답]: 탈출된 수핵이 신경근을 직접 압박하고 화학적 염증을 일으켜 기침/배변 시 경막외 정맥압 상승으로 방사통이 급격히 악화되며, 젊거나 중년층에서 SLRT(하지 직거상 검사) 양성을 전형적으로 보입니다.\n• ③ 요추 분리증 (Spondylolysis) ✗ [오답]: 협부(pars interarticularis)의 편측 또는 양측 결손으로 허리 신전 시 국소 요통이 주증상입니다.\n• ④ 척추전방전위증 (Spondylolisthesis) ✗ [오답]: 상위 척추체가 전방 전위되어 요통과 만성 협착 증상을 초래하며 계단형 척추 극돌기 촉지를 보입니다.\n• ⑤ 이상근 증후군 (Piriformis syndrome) ✗ [오답]: 둔부 이상근에 의한 좌골신경 포착으로 둔부 압통과 FAIR 검사 양성을 보이나 기침 악화 양상은 없습니다.",
       "trap": "척추관 협착증 환자는 허리를 뒤로 젖히면(extension) 황색인대가 접혀 신경관이 좁아져 통증이 악화되고 허리를 굽히면(flexion) 완화되는 반면, 요추간판 탈출증 환자는 허리를 앞으로 굽힐 때 추간판 내압이 급상승하여 방사통이 악화됩니다.",
       "trigger": "【요추 추간판 탈출증(HNP) vs 척추관 협착증 감별 핵심 족보 & 임상 가이드라인】\n• 핵심 비교 지표:\n  1. 연령: HNP는 30~50대 활동성 성인 / 협착증은 60대 이상 고령.\n  2. 악화 요인: HNP는 허리 굴곡, 기침, 재채기, 복압 상승 / 협착증은 허리 신전, 보행 지속.\n  3. 완화 요인: HNP는 침상 안정 / 협착증은 허리 굽히기, 쪼그려 앉기, 카트 밀기(shopping cart sign).\n  4. 신체 검사: HNP는 SLRT 30~70도 양성 / 협착증은 SLRT 음성(정상), 보행 시 신경성 파행.\n• 1초 정답 도출 트리거: 기침/재채기 시 방사통 악화 + SLRT 40도 양성 → 요추간판 탈출증(HNP).",
       "kmle_link": "KMLE 15권 정형외과 / 척추 질환",
@@ -197896,42 +197896,42 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "요추간판 탈출증 (Herniated lumbar intervertebral disc)",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "복압 상승(기침) 시 추간판 내압 증가로 신경근 방사통이 악화되고 SLRT 양성을 보이는 대표적 척추 질환입니다."
+          "text": "척추관 협착증",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "보행 시 파행을 보이며 기침 시 방사통 악화와는 거리가 멉니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "척추관 협착증 (Spinal stenosis)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "보행 시 악화되고 허리를 굽히면 완화되는 신경인성 간헐적 파행이 특징입니다."
+          "text": "추간판 탈출증",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "기침 시 척수강 내압 상승으로 신경근 자극이 급증하며 SLRT 양성을 보입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "척추전방전위증 (Spondylolisthesis)",
+          "text": "요추 분리증",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "척추체의 전방 전위로 인한 만성 요통과 협착 증상을 유발합니다."
+          "reason": "관절간 협부 결손으로 요추 과신전 시 통증이 특징입니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "요추 분리증 (Spondylolysis)",
+          "text": "척추전방전위증",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "협부 결손으로 인한 허리 과신전 시 요통이 주소견입니다."
+          "reason": "척추체가 전방 전위되어 척추관 협착 및 만성 요통을 유발합니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "이상근 증후군 (Piriformis syndrome)",
+          "text": "이상근 증후군",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "둔부 이상근에 의한 말초 좌골신경 압박 질환입니다."
+          "reason": "둔부에서 좌골신경이 압박되는 질환으로 기침에 의한 악화는 없습니다."
         }
       ],
       "differential_general": "기침 시 하지 방사통이 악화되고 SLRT 양성을 보이는 질환은 요추 추간판 탈출증(HNP)입니다."
@@ -197939,7 +197939,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -197953,42 +197953,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "요추간판 탈출증 (Herniated lumbar intervertebral disc)",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "복압 상승(기침) 시 추간판 내압 증가로 신경근 방사통이 악화되고 SLRT 양성을 보이는 대표적 척추 질환입니다."
+        "text": "척추관 협착증",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "보행 시 파행을 보이며 기침 시 방사통 악화와는 거리가 멉니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "척추관 협착증 (Spinal stenosis)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "보행 시 악화되고 허리를 굽히면 완화되는 신경인성 간헐적 파행이 특징입니다."
+        "text": "추간판 탈출증",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "기침 시 척수강 내압 상승으로 신경근 자극이 급증하며 SLRT 양성을 보입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "척추전방전위증 (Spondylolisthesis)",
+        "text": "요추 분리증",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "척추체의 전방 전위로 인한 만성 요통과 협착 증상을 유발합니다."
+        "reason": "관절간 협부 결손으로 요추 과신전 시 통증이 특징입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "요추 분리증 (Spondylolysis)",
+        "text": "척추전방전위증",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "협부 결손으로 인한 허리 과신전 시 요통이 주소견입니다."
+        "reason": "척추체가 전방 전위되어 척추관 협착 및 만성 요통을 유발합니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "이상근 증후군 (Piriformis syndrome)",
+        "text": "이상근 증후군",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "둔부 이상근에 의한 말초 좌골신경 압박 질환입니다."
+        "reason": "둔부에서 좌골신경이 압박되는 질환으로 기침에 의한 악화는 없습니다."
       }
     ],
     "answer": "② 추간판 탈출증",
@@ -198544,7 +198544,7 @@
       "theme_title": "대퇴골 간부 분쇄 골절의 초기 정복 유지 및 근육 경련 방지: 골격 견인술",
       "subspecialty": "고관절 및 골반 외상",
       "findings": "31세 여성이 교통사고 후 대퇴골 간부 분쇄 골절로 인한 극심한 서혜부 및 대퇴부 통증, 하지 단축을 주소로 내원하여, 수술 전 대퇴 근육 경련을 억제하고 골편 단축을 방지하기 위한 응급 처치입니다.",
-      "differential": "• ① 골격 견인술 (대퇴골 원위부 / 경골 근위부 골격 견인) ✓ [정답]: 대퇴사두근과 햄스트링의 강력한 근육 경련에 대항하여 체중의 1/7(약 15~20파운드)에 달하는 충분한 무게를 지탱하려면 뼈에 직접 핀을 삽입하는 골격 견인(skeletal traction)이 필수적입니다.\n• ② 피부 견인술 (벅스 견인) ✗ [오답]: 벅스 견인은 2~3kg 이상의 무게를 달면 피부 괴사와 수포를 초래하므로 강력한 대퇴골 근육 경련을 이겨내지 못합니다.\n• ③ 도수정복 후 단하지 석고 붕대 고정 ✗ [오답]: 대퇴골 골절에 단하지 석고는 해부학적으로 고정이 불가능하며 골편 전위를 전혀 억제하지 못합니다.\n• ④ 응급 관혈적 금속판 내고정술 ✗ [오답]: 중증 분쇄 골절에서 수술실 준비 및 연부조직 종창 안정화 전 응급 침상 처치로 즉시 시행할 수 없습니다.\n• ⑤ 창외고정술 ✗ [오답]: 심한 개방창이나 혈역학적 불안정 다발성 외상이 아닌 단순 닫힌 골절의 수술 전 대기 처치로는 과도합니다.",
+      "differential": "• ① 금속내고정술 ✗ [오답]: 중증 분쇄 골절에서 수술실 준비 및 연부조직 종창 안정화 전 응급 침상 처치로 즉시 시행할 수 없습니다.\n• ② 부목 ✗ [오답]: 대퇴골은 강력한 대퇴사두근과 햄스트링의 경련으로 단순 부목 고정으로는 전위 억제나 길이 유지가 불가능합니다.\n• ③ 피부견인 ✗ [오답]: 벅스 견인 등 피부 견인은 2~3kg 이상의 무게를 달면 피부 괴사와 수포를 초래하므로 강력한 대퇴골 근육 경련을 이겨내지 못합니다.\n• ④ 대퇴골견인 (골격 견인) ✓ [정답]: 대퇴사두근과 햄스트링의 강력한 근육 경련에 대항하여 체중의 1/7(약 15~20파운드)에 달하는 충분한 무게를 지탱하려면 뼈에 직접 핀을 삽입하는 골격 견인(대퇴골 원위부 또는 경골 근위부)이 필수적입니다.\n• ⑤ 외고정 ✗ [오답]: 심한 개방창이나 혈역학적 불안정 다발성 외상이 아닌 단순 닫힌 골절의 수술 전 대기 처치로는 과도합니다.",
       "trap": "골격 견인 시 경골 근위부에 스타인만 핀(Steinmann pin)을 삽입할 때, 비골두(fibular head) 후방을 주행하는 총비골신경(common peroneal nerve) 손상을 방지하기 위해 반드시 '외측에서 내측(lateral to medial)'이 아니라 '내측에서 외측(medial to lateral)' 방향으로 핀을 삽입해야 신경 손상을 완벽히 방지할 수 있습니다.",
       "trigger": "【대퇴골 간부 골절 수술 전 견인 처치 핵심 족보 & 임상 가이드라인】\n• 골격 견인 vs 피부 견인 비교:\n  - 피부 견인 (Buck traction): 3~4kg 이하 허용. 소아 골절이나 고령 환자의 대퇴골 경부/전자간 골절 수술 전 임시 통증 조절.\n  - 골격 견인 (Skeletal traction): 체중의 10~15% (대개 7~10kg) 견인력 부하 가능. 성인 대퇴골 간부 분쇄 골절, 비구 골절의 단축 방지 표준.\n• 핀 삽입 부위: 경골 조면 2cm 후하방 (경골 근위부) 또는 대퇴 내전근 결절 상방 2cm (대퇴 원위부).\n• 1초 정답 도출 트리거: 성인 대퇴골 간부 분쇄 골절 + 수술 전 근육 경련 및 단축 방지 응급 처치 → 골격 견인술 (Skeletal traction).",
       "kmle_link": "KMLE 15권 정형외과 / 하지 골절 및 외상 처치",
@@ -198552,42 +198552,42 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "골격 견인술 (대퇴골 원위부 / 경골 근위부 골격 견인)",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "강력한 대퇴부 근육 경련을 억제하고 골편의 심각한 단축을 방어하기 위해 체중의 10% 이상 하중을 가할 수 있는 골격 견인술이 표준입니다."
+          "text": "금속내고정술",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "수술 전 연부조직 안정화 및 정밀 검사 후 진행하는 정규/지연 수술입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "피부 견인술 (벅스 견인)",
+          "text": "부목",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "허용 하중(3kg 내외)이 작아 성인 대퇴골 간부의 근육 장력을 이겨내지 못합니다."
+          "reason": "대퇴부의 강력한 근경련에 의한 단축 전위를 막지 못합니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "도수정복 후 단하지 석고 붕대 고정",
+          "text": "피부견인",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "대퇴골 골절에 단하지 깁스는 해부학적으로 적용 불가능합니다."
+          "reason": "견인력 한계(2~3kg)로 인해 대퇴골 골절의 근경련을 제어할 수 없습니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "응급 관혈적 금속판 내고정술",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "수술 전 환자 전신 상태 안정화 및 수술 계획 수립 전 즉각적 응급 침상 처치가 아닙니다."
+          "text": "대퇴골견인",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "충분한 견인력(체중의 1/7)을 가해 근경련을 억제하고 길이를 유지하는 골격 견인이 필수입니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "창외고정술",
+          "text": "외고정",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "폐쇄성 단독 골절의 표준 수술 전 임시 견인 처치로 부적합합니다."
+          "reason": "심한 개방성 골절이나 다발성 외상 등 특수 상황 외에는 초기 일차 견인으로 쓰지 않습니다."
         }
       ],
       "differential_general": "성인 대퇴골 간부 분쇄 골절 시 근육 경련에 의한 단축을 막는 필수 수술 전 처치는 골격 견인술(Skeletal traction)입니다."
@@ -198595,7 +198595,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      3
     ],
     "freq_count": 2,
     "rate": 33,
@@ -198611,42 +198611,42 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "골격 견인술 (대퇴골 원위부 / 경골 근위부 골격 견인)",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "강력한 대퇴부 근육 경련을 억제하고 골편의 심각한 단축을 방어하기 위해 체중의 10% 이상 하중을 가할 수 있는 골격 견인술이 표준입니다."
+        "text": "금속내고정술",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "수술 전 연부조직 안정화 및 정밀 검사 후 진행하는 정규/지연 수술입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "피부 견인술 (벅스 견인)",
+        "text": "부목",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "허용 하중(3kg 내외)이 작아 성인 대퇴골 간부의 근육 장력을 이겨내지 못합니다."
+        "reason": "대퇴부의 강력한 근경련에 의한 단축 전위를 막지 못합니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "도수정복 후 단하지 석고 붕대 고정",
+        "text": "피부견인",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "대퇴골 골절에 단하지 깁스는 해부학적으로 적용 불가능합니다."
+        "reason": "견인력 한계(2~3kg)로 인해 대퇴골 골절의 근경련을 제어할 수 없습니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "응급 관혈적 금속판 내고정술",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "수술 전 환자 전신 상태 안정화 및 수술 계획 수립 전 즉각적 응급 침상 처치가 아닙니다."
+        "text": "대퇴골견인",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "충분한 견인력(체중의 1/7)을 가해 근경련을 억제하고 길이를 유지하는 골격 견인이 필수입니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "창외고정술",
+        "text": "외고정",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "폐쇄성 단독 골절의 표준 수술 전 임시 견인 처치로 부적합합니다."
+        "reason": "심한 개방성 골절이나 다발성 외상 등 특수 상황 외에는 초기 일차 견인으로 쓰지 않습니다."
       }
     ],
     "answer": "④ 대퇴골견인",
