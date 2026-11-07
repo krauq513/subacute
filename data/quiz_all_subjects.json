@@ -119551,9 +119551,15 @@
     "category": "반짤",
     "theme_title": "저산소성 뇌손상 후 식물인간 상태(Vegetative State)의 감별",
     "subspecialty": "혼수 및 의식장애",
-    "stem": "35/M, 갑자기 발생한 심정지를 주소로 내원한 환자. 내원한 지 6 개월이 지났으며, 내원 당시 25 분 간의 심폐소생술 끝에 심박동이 돌아왔다. 이후 환자의식 지금까지 혼수상태이며 의사소통이 불가능하다. 환자의 뇌줄기 반사 및 자율 신경",
+    "stem": "35/M, 갑자기 발생한 심정지를 주소로 내원한 환자. 내원한 지 6개월이 지났으며, 내원 당시 25분 간의 심폐소생술 끝에 심박동이 돌아왔다. 이후 환자 의식 지금까지 혼수상태이며 의사소통이 불가능하다. 환자의 뇌줄기 반사 및 자율 신경 반사는 정상이고, 환자의 수면-각성 주기가 유지되는 상태라고 할 때 진단은 무엇인가?",
     "images": [],
-    "options": [],
+    "options": [
+      "① 뇌사",
+      "② 식물인간 상태",
+      "③ 무동무언증",
+      "④ 가성혼수",
+      "⑤ 최소 의식상태"
+    ],
     "correct_option_index": 1,
     "correct_answer": "② 식물인간 상태",
     "explanation": {
@@ -119586,7 +119592,8 @@
       "21Y-20"
     ],
     "option_explanations": [],
-    "answer": "② 식물인간 상태"
+    "answer": "② 식물인간 상태",
+    "question": "35/M, 갑자기 발생한 심정지를 주소로 내원한 환자. 내원한 지 6개월이 지났으며, 내원 당시 25분 간의 심폐소생술 끝에 심박동이 돌아왔다. 이후 환자 의식 지금까지 혼수상태이며 의사소통이 불가능하다. 환자의 뇌줄기 반사 및 자율 신경 반사는 정상이고, 환자의 수면-각성 주기가 유지되는 상태라고 할 때 진단은 무엇인가?"
   },
   {
     "id": "신경과_22Y_Q10",
@@ -122138,9 +122145,15 @@
     "category": "짤",
     "theme_title": "급성 뇌전증 발작의 1차 응급 치료제 (Lorazepam 정주)",
     "subspecialty": "뇌전증",
-    "stem": "19 세 여자 환자가 팔다리를 떨며 119 를 통해 응급실로 내원하였다. (19:30) 대학교 시험기간이라 잠을 못 잤다고 하였다. 시험 본 후 친구들과 식사하던 중에 한 곳을 응시하며 옷을 잡아당기는 행위를 반복적으로 하다가 팔다리 뻣뻣하게 굳은 후",
+    "stem": "19세 여자 환자가 팔다리를 떨며 119를 통해 응급실로 내원하였다. (19:30) 대학교 시험기간이라 잠을 못 잤다고 하였다. 시험 본 후 친구들과 식사하던 중에 한 곳을 응시하며 옷을 잡아당기는 행위를 반복적으로 하다가 팔다리 뻣뻣하게 굳은 후 떨며 쓰러졌으며 응급실 내원 당시에도 떨고 있었다. (증상 시작 19:05) 가장 우선적으로 해야 할 처치는?",
     "images": [],
-    "options": [],
+    "options": [
+      "① 뇌 영상(CT/MRI) 검사",
+      "② Lorazepam 투여",
+      "③ 뇌파 검사",
+      "④ 약물 복용력 알기 위해 TDM 시작",
+      "⑤ Clonazepam 투여"
+    ],
     "correct_option_index": 1,
     "correct_answer": "② Lorazepam 투여",
     "explanation": {
@@ -122169,7 +122182,8 @@
       "26Y-31"
     ],
     "option_explanations": [],
-    "answer": "② Lorazepam 투여"
+    "answer": "② Lorazepam 투여",
+    "question": "19세 여자 환자가 팔다리를 떨며 119를 통해 응급실로 내원하였다. (19:30) 대학교 시험기간이라 잠을 못 잤다고 하였다. 시험 본 후 친구들과 식사하던 중에 한 곳을 응시하며 옷을 잡아당기는 행위를 반복적으로 하다가 팔다리 뻣뻣하게 굳은 후 떨며 쓰러졌으며 응급실 내원 당시에도 떨고 있었다. (증상 시작 19:05) 가장 우선적으로 해야 할 처치는?"
   },
   {
     "id": "신경과_22Y_Q33",
@@ -122605,11 +122619,17 @@
     "category": "짤",
     "theme_title": "레비소체 치매(DLB)의 수면장애 및 인지 저하 복합 임상상",
     "subspecialty": "치매 및 인지장애",
-    "stem": "73/F(나이 부정확. 70 대였음.) 약 1 년 전부터 발생한 인지 능력이 저하되어 병원에 왔다. 기억력 감퇴는 서서히 진행되었다. 기저 질환 고혈압 외에 알고 있는 것 없다. 복용 중인 약물 없다. 집에서 검은색",
+    "stem": "73/F 약 1년 전부터 발생한 인지 능력이 저하되어 병원에 왔다. 기억력 감퇴는 서서히 진행되었다. 기저 질환 고혈압 외에 알고 있는 것 없다. 복용 중인 약물 없다. 집에서 검은색 형체가 지나다닌다고 하였다. 안과 진료에서 눈에 이상 없다고 하였다. 집에 뱀이 지나간다고 하고 가족이 돈을 안 갚는다고 가족과 다투기도 하였다. 가장 적절한 진단은? (보행 장애, 떨림 등 파킨슨 증상은 없었음)",
     "images": [],
-    "options": [],
-    "correct_option_index": 2,
-    "correct_answer": "③ 레비소체 치매",
+    "options": [
+      "① 알코올성 치매",
+      "② 혈관성 치매",
+      "③ 알츠하이머 치매",
+      "④ 루이소체 치매",
+      "⑤ 조현병"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ 루이소체 치매",
     "explanation": {
       "title": "레비소체 치매(DLB)의 수면장애 및 인지 저하 복합 임상상",
       "findings": "73세 여성의 진행성 인지 저하+생생하고 반복적인 환시(검은 형체, 뱀) → 레비소체 치매(DLB)",
@@ -122623,7 +122643,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      2
+      3
     ],
     "freq_count": 2,
     "rate": 33,
@@ -122636,7 +122656,8 @@
       "26Y-38"
     ],
     "option_explanations": [],
-    "answer": "③ 레비소체 치매"
+    "answer": "④ 루이소체 치매",
+    "question": "73/F 약 1년 전부터 발생한 인지 능력이 저하되어 병원에 왔다. 기억력 감퇴는 서서히 진행되었다. 기저 질환 고혈압 외에 알고 있는 것 없다. 복용 중인 약물 없다. 집에서 검은색 형체가 지나다닌다고 하였다. 안과 진료에서 눈에 이상 없다고 하였다. 집에 뱀이 지나간다고 하고 가족이 돈을 안 갚는다고 가족과 다투기도 하였다. 가장 적절한 진단은? (보행 장애, 떨림 등 파킨슨 증상은 없었음)"
   },
   {
     "id": "신경과_22Y_Q38",
@@ -124553,11 +124574,17 @@
     "category": "짤",
     "theme_title": "외측 연수 증후군(Wallenberg Syndrome)의 병소 위치 (숨뇌/Medulla)",
     "subspecialty": "뇌혈관질환",
-    "stem": "(야마) 70 세 남자가 1 주 전부터 시작된 어지럼증으로 병원에 왔다. 1 년 전부터 오른귀에서 귀울림이 들렸고, 1 주 전부터는 걸을 때 오른쪽으로 쏠리는 증세가 나타났다. 신경학적 진찰에서 안구운동장애는 없었고, 오른쪽 이마주름의 마비가 있었으며 입이 왼쪽으로 돌아갔다. 오른쪽 청력이",
+    "stem": "70세 남자가 1주 전부터 시작된 어지럼증으로 병원에 왔다. 1년 전부터 오른귀에서 귀울림이 들렸고, 1주 전부터는 걸을 때 오른쪽으로 쏠리는 증세가 나타났다. 신경학적 진찰에서 안구운동장애는 없었고, 오른쪽 이마주름의 마비가 있었으며 입이 왼쪽으로 돌아갔다. 오른쪽 청력이 감소되었고 롬버그 검사에서 오른쪽으로 넘어지는 경향을 보였다. 병터 부위는?",
     "images": [],
-    "options": [],
+    "options": [
+      "① 숨뇌",
+      "② 중뇌",
+      "③ 시상",
+      "④ 이마엽",
+      "⑤ 소뇌-뇌다리각"
+    ],
     "correct_option_index": 4,
-    "correct_answer": "⑤ 소뇌-다리각 (숨뇌 병변과 감별 필요)",
+    "correct_answer": "⑤ 소뇌-뇌다리각",
     "explanation": {
       "findings": "우측 이명·난청(CN VIII)+우측 말초 안면마비(CN VII)+우측 보행 쏠림(소뇌) → 소뇌-다리각(CPA) 병변",
       "title": "외측 연수 증후군(Wallenberg Syndrome)의 병소 위치 (숨뇌/Medulla)",
@@ -124586,7 +124613,8 @@
       "22Y-05"
     ],
     "option_explanations": [],
-    "answer": "⑤ 소뇌-다리각 (숨뇌 병변과 감별 필요)"
+    "answer": "⑤ 소뇌-뇌다리각",
+    "question": "70세 남자가 1주 전부터 시작된 어지럼증으로 병원에 왔다. 1년 전부터 오른귀에서 귀울림이 들렸고, 1주 전부터는 걸을 때 오른쪽으로 쏠리는 증세가 나타났다. 신경학적 진찰에서 안구운동장애는 없었고, 오른쪽 이마주름의 마비가 있었으며 입이 왼쪽으로 돌아갔다. 오른쪽 청력이 감소되었고 롬버그 검사에서 오른쪽으로 넘어지는 경향을 보였다. 병터 부위는?"
   },
   {
     "id": "신경과_21Y_Q07",
@@ -125790,11 +125818,17 @@
     "category": "짤",
     "theme_title": "시신경척수염 범주질환(NMOSD)의 진단 기준 및 항 AQP4 항체",
     "subspecialty": "탈수초성 질환",
-    "stem": "22 세 여자가 어제부터 다리가 마비되어 걸을 수 없게 되어 병원에 왔다. 1 년 전 오른쪽 눈이 일주일 동안 잘 보이지 않았고, 오른쪽 손이 한 달 간 저린 적이 있었다. 안저검사에서 오른쪽 시신경 위축이 관찰되었다. 양측 하지 근력은 2 등급(grade II), 깊은힘줄반사는 +++/+++이었고, 양발에서",
+    "stem": "22세 여자가 어제부터 다리가 마비되어 걸을 수 없게 되어 병원에 왔다. 1년 전 오른쪽 눈이 일주일 동안 잘 보이지 않았고, 오른쪽 손이 한 달간 저린 적이 있었다. 안저검사에서 오른쪽 시신경 위축이 관찰되었다. 양측 하지 근력은 2등급(Grade II), 깊은힘줄반사는 +++/+++이었고, 양발에서 바빈스키징후가 관찰되었다. 감각검사에서 배꼽 이하로 통각 및 진동각이 감소되었다. 진단은?",
     "images": [],
-    "options": [],
-    "correct_option_index": 3,
-    "correct_answer": "④ NMOSD (Neuromyelitis Optica Spectrum Disorder)",
+    "options": [
+      "① 다발경화증",
+      "② 선천근육퇴행위축",
+      "③ 중증근무력증",
+      "④ 길랑-바레 증후군",
+      "⑤ 근육위축가쪽경화증"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 다발경화증",
     "explanation": {
       "title": "시신경척수염 범주질환(NMOSD)의 진단 기준 및 항 AQP4 항체",
       "findings": "시신경염 과거력+급성 횡단척수염(하지마비, 바빈스키, 배꼽 이하 감각저하) → NMOSD, 항 AQP4 항체 확인",
@@ -125808,7 +125842,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      3
+      0
     ],
     "freq_count": 4,
     "rate": 67,
@@ -125825,7 +125859,8 @@
       "22Y-25"
     ],
     "option_explanations": [],
-    "answer": "④ NMOSD (Neuromyelitis Optica Spectrum Disorder)"
+    "answer": "① 다발경화증",
+    "question": "22세 여자가 어제부터 다리가 마비되어 걸을 수 없게 되어 병원에 왔다. 1년 전 오른쪽 눈이 일주일 동안 잘 보이지 않았고, 오른쪽 손이 한 달간 저린 적이 있었다. 안저검사에서 오른쪽 시신경 위축이 관찰되었다. 양측 하지 근력은 2등급(Grade II), 깊은힘줄반사는 +++/+++이었고, 양발에서 바빈스키징후가 관찰되었다. 감각검사에서 배꼽 이하로 통각 및 진동각이 감소되었다. 진단은?"
   },
   {
     "id": "신경과_21Y_Q18",
@@ -135246,63 +135281,20 @@
       "D. CPK와 같은 효소가 상승한다.",
       "E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다."
     ],
-    "correct_option_index": 0,
-    "correct_answer": "A. 가족력이 있는 것으로 알려져 있다.",
+    "correct_option_index": 1,
+    "correct_answer": "B. 신경전도검사에서 신경전도속도가 감소할 수 있다.",
     "explanation": {
-      "title": "신경과 임상 증례 및 기출 분석",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: 가족력이 있는 것으로 알려져 있다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 신경전도검사에서 신경전도속도가 감소할 수 있다.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: CPK와 같은 효소가 상승한다.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: 가족력이 있는 것으로 알려져 있다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 신경전도검사에서 신경전도속도가 감소할 수 있다.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: CPK와 같은 효소가 상승한다.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: 가족력이 있는 것으로 알려져 있다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 신경전도검사에서 신경전도속도가 감소할 수 있다.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: CPK와 같은 효소가 상승한다.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: 가족력이 있는 것으로 알려져 있다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 신경전도검사에서 신경전도속도가 감소할 수 있다.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: CPK와 같은 효소가 상승한다.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: 가족력이 있는 것으로 알려져 있다. ✓ : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: CPK와 같은 효소가 상승한다. ✗.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: 가족력이 있는 것으로 알려져 있다. ✓ : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 신경전도검사에서 신경전도속도가 감소할 수 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. acute onset이고, 양측의 proximal motor weakness가 나타난다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. CPK와 같은 효소가 상승한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 감별 질환/치료 특성: ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 감별 질환/치료 특성: ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다.에 합당한 특징적 소견이 결여되어 오답입니다. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 신경전도검사에서 신경전도속도가 감소할 수 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. acute onset이고, 양측의 proximal motor weakness가 나타난다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. CPK와 같은 효소가 상승한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 감별 질환/치료 특성: ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다.에 합당한 특징적 소견이 결여되어 오답입니다. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 신경전도검사에서 신경전도속도가 감소할 수 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. acute onset이고, 양측의 proximal motor weakness가 나타난다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. CPK와 같은 효소가 상승한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다.에 합당한 특징적 소견이 결여되어 오답입니다.",
-      "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "【신경과 일반: GBS(Guillan-Barre syndrome)에 대... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 치료 타임라인 기준:\n  - 급성 허혈성 뇌경색:\n    * 정맥내 혈전용해술(IV rt-PA): 증상 발생 후 4.5시간 이내 (혈압 < 185/110 mmHg 조절 필수).\n    * 동맥내 기계적 혈전제거술(EVT): 대혈관 폐색 확인 시 6~24시간 이내.\n  - 중증근무력증(MG): 아침보다 저녁에 심한 변동성 근력 약화, 안검하수/복시, 항 AChR 항체 양성, RNS 10% 이상 진폭 감퇴 -> Pyridostigmine 1차.\n  - 길랑-바레 증후군(GBS): 선행 감염 후 대칭성 상행성 위약감, DTR 소실, CSF 알부민-세포 해리 (단백 상승, 백혈구 정상 < 5) -> IVIG 0.4g/kg 5일간 (스테로이드 금기).\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): A. 가족력이 있는 것으로 알려져 있다..\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 중증도 진행 시 상위 침습적 중재술 또는 2차 약제로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 비전형적 증례 또는 절대 금기 조건을 확인하여 오진과 합병증 발생을 예방할 것.",
-      "kmle_link": "KMLE 신경과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "A. 가족력이 있는 것으로 알려져 있다.",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "가족력이 있는 것으로 알려져 있다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "B. 신경전도검사에서 신경전도속도가 감소할 수 있다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "신경전도검사에서 신경전도속도가 감소할 수 있다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "C. acute onset이고, 양측의 proximal motor weakness가 나타난다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "D. CPK와 같은 효소가 상승한다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "CPK와 같은 효소가 상승한다."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다."
-        }
-      ],
-      "differential_general": "• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: 가족력이 있는 것으로 알려져 있다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 신경전도검사에서 신경전도속도가 감소할 수 있다.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: CPK와 같은 효소가 상승한다.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: 가족력이 있는 것으로 알려져 있다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 신경전도검사에서 신경전도속도가 감소할 수 있다.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: CPK와 같은 효소가 상승한다.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: 가족력이 있는 것으로 알려져 있다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 신경전도검사에서 신경전도속도가 감소할 수 있다.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: acute onset이고, 양측의 proximal motor weakness가 나타난다. : acute onset이고, 양측의 proximal motor weakness가 나타난다.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: CPK와 같은 효소가 상승한다.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: 가족력이 있는 것으로 알려져 있다. ✓ : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: CPK와 같은 효소가 상승한다. ✗.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: 가족력이 있는 것으로 알려져 있다. ✓ : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 신경전도검사에서 신경전도속도가 감소할 수 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. acute onset이고, 양측의 proximal motor weakness가 나타난다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. CPK와 같은 효소가 상승한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 감별 질환/치료 특성: ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 감별 질환/치료 특성: ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다.에 합당한 특징적 소견이 결여되어 오답입니다. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 신경전도검사에서 신경전도속도가 감소할 수 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. acute onset이고, 양측의 proximal motor weakness가 나타난다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. CPK와 같은 효소가 상승한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 감별 질환/치료 특성: ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다.에 합당한 특징적 소견이 결여되어 오답입니다. 본 증례 환자의 소견과는 일치하지 않아 배제됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족력이 있는 것으로 알려져 있다. ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 신경전도검사에서 신경전도속도가 감소할 수 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 신경전도검사에서 신경전도속도가 감소할 수 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. acute onset이고, 양측의 proximal motor weakness가 나타난다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. acute onset이고, 양측의 proximal motor weakness가 나타난다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. CPK와 같은 효소가 상승한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. CPK와 같은 효소가 상승한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다.에 합당한 특징적 소견이 결여되어 오답입니다."
+      "title": "길랑-바레 증후군(GBS, AIDP)의 임상 특징 및 전기생리학적 검사 소견",
+      "findings": "감염 후 자가면역 기전으로 발생하는 급성 말초신경병증인 GBS의 특징을 묻는 문제입니다.",
+      "differential": "• A. 가족력 ✗ [오답]: GBS는 유전 질환이 아니며, C. jejuni, CMV, EBV 등 선행 감염 후 항체 교차반응에 의해 발생하는 급성 후천성 자가면역 신경병증입니다.\n• B. 신경전도속도 감소 ✓ [정답]: 가장 흔한 형태인 AIDP(급성 염증성 탈수초성 다발신경병증)에서는 광범위한 탈수초화로 인해 신경전도속도 지연, 전도 차단(conduction block), 잠복기 연장이 관찰됩니다.\n• C. proximal weakness ✗ [오답]: 전형적으로 하지 원위부(distal)에서 시작하여 상행(ascending)하는 대칭성 이완성 마비를 보입니다.\n• D. CPK 상승 ✗ [오답]: CPK 상승은 다발성근염 등 근육병증(myopathy)의 특징이며 말초신경병증인 GBS에서는 대개 정상입니다.\n• E. AMSAN ✗ [오답]: 가장 흔한 아형은 탈수초형인 AIDP(약 80~90%)입니다.",
+      "trap": "GBS 진단의 핵심은 뇌척수액의 알부민-세포 해리(단백 상승, 백혈구 정상)와 신경전도검사의 전도속도 감소입니다.",
+      "trigger": "【GBS 핵심 요약】 선행 감염(호흡기/소화기) 후 대칭성 상행성 이완성 마비 + DTR 소실 + 뇌척수액 단백 상승(세포 정상) + 신경전도속도 지연. 치료: IVIG 또는 혈장교환술 (스테로이드 단독 효과 없음).",
+      "kmle_link": "KMLE 13권 신경과 / 말초신경질환 / 길랑-바레 증후군"
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -135354,7 +135346,7 @@
         "reason": "가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다. : 가장 흔한 아형은 AMSAN(Acute motor sensory axonal neuropathy)이다."
       }
     ],
-    "answer": "A. 가족력이 있는 것으로 알려져 있다."
+    "answer": "B. 신경전도검사에서 신경전도속도가 감소할 수 있다."
   },
   {
     "id": "신경과_19Y_Q03",
@@ -137119,55 +137111,12 @@
     "correct_option_index": 0,
     "correct_answer": "A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축",
     "explanation": {
-      "title": "신경과 임상 증례 및 기출 분석",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 손바닥을 자극시킬 때 mentalis m. 수축.\n• ④ D. ✗ [오답]\n• ⑤ E. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 손바닥을 자극시킬 때 mentalis m. 수축.\n• ④ D. ✗ [오답]\n• ⑤ E. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 손바닥을 자극시킬 때 mentalis m. 수축.\n• ④ D. ✗ [오답]\n• ⑤ E. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 손바닥을 자극시킬 때 mentalis m. 수축.\n• ④ D. ✗ [오답]\n• ⑤ E. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 손바닥을 자극시킬 때 mentalis m. 수축 ✗.\n• ④ D. ✗ [오답]\n• ⑤ E. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]\n• ④ D. ✗ [오답]\n• ⑤ E. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 손바닥을 자극시킬 때 mentalis m. 수축에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. ✗ [오답]\n• ⑤ E. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 손바닥을 자극시킬 때 mentalis m. 수축에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E.에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 손바닥을 자극시킬 때 mentalis m. 수축에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E.에 합당한 특징적 소견이 결여되어 오답입니다.",
-      "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "【신경과 일반: (야마)23세 여자 안면 spasm 있어서 내원... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 임상 지표: 상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 중증도 진행 시 상위 침습적 중재술 또는 2차 약제로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 비전형적 증례 또는 절대 금기 조건을 확인하여 오진과 합병증 발생을 예방할 것.",
-      "kmle_link": "KMLE 신경과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "C. 손바닥을 자극시킬 때 mentalis m. 수축",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "손바닥을 자극시킬 때 mentalis m. 수축."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "D.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "E.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
-        }
-      ],
-      "differential_general": "• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 손바닥을 자극시킬 때 mentalis m. 수축.\n• ④ D. ✗ [오답]\n• ⑤ E. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 손바닥을 자극시킬 때 mentalis m. 수축.\n• ④ D. ✗ [오답]\n• ⑤ E. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning : 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 손바닥을 자극시킬 때 mentalis m. 수축.\n• ④ D. ✗ [오답]\n• ⑤ E. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 손바닥을 자극시킬 때 mentalis m. 수축 ✗.\n• ④ D. ✗ [오답]\n• ⑤ E. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]\n• ④ D. ✗ [오답]\n• ⑤ E. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 손바닥을 자극시킬 때 mentalis m. 수축에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. ✗ [오답]\n• ⑤ E. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 손바닥을 자극시킬 때 mentalis m. 수축에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E.에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 혈압 잴 때 cuff 감고 확장시키면 감은 쪽 손 이 수축 ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 발바닥을 뾰족한 물건으로 쓸어 올릴 때 엄 지발가락의 dorsiflexion과 발가락의 fanning에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 손바닥을 자극시킬 때 mentalis m. 수축 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 손바닥을 자극시킬 때 mentalis m. 수축에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E.에 합당한 특징적 소견이 결여되어 오답입니다."
+      "title": "저칼슘혈증(Hypocalcemia)에 의한 테타니(Tetany) 신체 진찰: Trousseau 징후",
+      "findings": "부갑상선 수술 후 또는 부갑상선기능저하증으로 인한 저칼슘혈증 환자에서 신경-근육 흥분성 증가로 나타나는 Trousseau sign을 확인하는 문제입니다.",
+      "differential": "• A. 혈압 커프 팽창 시 손 수축 ✓ [정답]: 혈압계 커프를 수축기 혈압 이상으로 3분간 가압했을 때 손가락이 모이고 손목이 굴곡되는 주근연축(Carpopedal spasm)이 유발되는 현상으로, 저칼슘혈증의 특징적인 트루소 징후(Trousseau sign)입니다.\n• B. 바빈스키 징후 ✗ [오답]: 상위운동신경원(UMN) 병변의 병적 반사입니다.\n• C. Palmomental reflex ✗ [오답]: 전두엽 유합 징후(frontal release sign)입니다.",
+      "trap": "부갑상선 수술 후 안면 경련(Chvostek sign)이나 손발 저림, 수포 연축이 오면 저칼슘혈증 응급 상황이므로 칼슘 정주(IV Calcium gluconate)가 필요합니다.",
+      "trigger": "【저칼슘혈증 2대 신체진찰 징후】\n• Chvostek sign: 이개 앞 안면신경 주행 부위 가볍게 칠 때 안면근육 수축\n• Trousseau sign: 상완 혈압계 커프 가압 시 손목 굴곡 및 손가락 모임 연축(Carpopedal spasm).",
+      "kmle_link": "KMLE 내과 / 내분비 / 부갑상선 질환 및 칼슘 대사 이상"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -139154,55 +139103,20 @@
       "C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.",
       "D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다."
     ],
-    "correct_option_index": 0,
-    "correct_answer": "A. ALS의 주된 증상은 tremor와 bradykinesia 이다.",
+    "correct_option_index": 3,
+    "correct_answer": "D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다.",
     "explanation": {
-      "title": "신경과 임상 증례 및 기출 분석",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: ALS의 주된 증상은 tremor와 bradykinesia 이다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. : Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. : 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: ALS의 주된 증상은 tremor와 bradykinesia 이다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. : Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. : 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: ALS의 주된 증상은 tremor와 bradykinesia 이다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. : 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: ALS의 주된 증상은 tremor와 bradykinesia 이다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ : 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다.에 합당한 특징적 소견이 결여되어 오답입니다.",
-      "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "【신경과 일반: (야마) Neuromuscular disorder에 관... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 임상 지표: 상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): A. ALS의 주된 증상은 tremor와 bradykinesia 이다..\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 중증도 진행 시 상위 침습적 중재술 또는 2차 약제로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 비전형적 증례 또는 절대 금기 조건을 확인하여 오진과 합병증 발생을 예방할 것.",
-      "kmle_link": "KMLE 신경과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "A. ALS의 주된 증상은 tremor와 bradykinesia 이다.",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "ALS의 주된 증상은 tremor와 bradykinesia 이다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. : Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. : 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다."
-        }
-      ],
-      "differential_general": "• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: ALS의 주된 증상은 tremor와 bradykinesia 이다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. : Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. : 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: ALS의 주된 증상은 tremor와 bradykinesia 이다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. : 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: ALS의 주된 증상은 tremor와 bradykinesia 이다. : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. : Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ : 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ : [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. ALS의 주된 증상은 tremor와 bradykinesia 이다. ✓ [정답]: [신경과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. Polymyopathy를 일으키는 주된 질환은 교 원성 질환이다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. Myogenic neuropathy는 neurogenic neuropathy와 달리 증상이 focal하고 fasciculation이 발생한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다.에 합당한 특징적 소견이 결여되어 오답입니다."
+      "title": "신경근육질환(Neuromuscular Disorder)의 양성 증상(Positive Symptoms) 분류",
+      "findings": "신경근육질환에서 신경 또는 근육의 자발적 과흥분으로 발생하는 양성 운동 증상과 양성 감각 증상을 올바르게 구분한 항목을 고르는 문제입니다.",
+      "differential": "• A. ALS 증상 ✗ [오답]: 근위축측삭경화증(ALS)은 UMN + LMN 복합 손상(근위축, 섬유속연축, 과반사)이 주증상이며, Tremor와 Bradykinesia는 파킨슨병의 특징입니다.\n• B. Polymyopathy 주원인 ✗ [오답]: 다발근육병증의 주원인은 특발성 염증성 근병증(다발근염, 피부근염)이나 유전성/대사성 질환입니다.\n• C. Myogenic vs Neurogenic ✗ [오답]: Fasciculation(섬유속연축)은 전각세포나 운동신경원 병변인 신경인성 질환(Neurogenic)의 전형적 특징입니다.\n• D. 양성 운동 및 감각 증상 ✓ [정답]: 운동계의 양성 증상(경련, 연축, 파동증)과 감각계의 양성 증상(통증, 저림, 이상감각, 이질통)을 정확히 기술하고 있습니다.",
+      "trap": "섬유속연축(Fasciculation)은 근육 자체 질환(Myogenic)이 아니라 운동신경세포(LMN) 손상의 결정적 징후입니다.",
+      "trigger": "LMN 손상 징후: 근위축(Atrophy), 섬유속연축(Fasciculation), 이완성 마비(Flaccid), 건반사 소실(Areflexia).",
+      "kmle_link": "KMLE 13권 신경과 / 신경계 진찰"
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      3
     ],
     "freq_count": 1,
     "rate": 17,
@@ -139246,7 +139160,7 @@
         "reason": "Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. : Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다. : 항문연(Anal verge)과 매우 인접하여 괄약근 침범이 있는 극하부 직장암에서는 복회음절제술(APR)이 요구됩니다."
       }
     ],
-    "answer": "A. ALS의 주된 증상은 tremor와 bradykinesia 이다."
+    "answer": "D. Neuromuscular disorder의 positive symptom으로 cramp, twitching, myokimia 등의 motor symptom이 있고 pain, tingling sensation, paresthesia, allodynia 등의 sensory symptom이 있다."
   },
   {
     "id": "신경과_19Y_Q37",
@@ -162363,11 +162277,17 @@
     "category": "짤",
     "theme_title": "제2형 양극성 장애(Bipolar II Disorder)의 진단 기준: 경조증 삽화와 주요우울삽화",
     "subspecialty": "기분장애 (양극성장애)",
-    "stem": "(21Y) 42 세 여자가 5 일 전부터 잠을 3 시간만 자면서 피곤한줄 모르고 머리가 잘 돌아가서 쉬지",
+    "stem": "42세 여자가 5일 전부터 잠을 3시간만 자면서 피곤한 줄 모르고 머리가 잘 돌아가서 쉬지 않고 계속 일한다고 왔다. 3일 전부터 남자와 동거 시작했다. 산만해서 행정적인 일을 처리하는데 조금 어려움이 있었지만 직장생활에 큰 어려움은 없었다. 과거력에서 30대에 우울증으로 지속적으로 진료를 받아왔다. DSM-5 진단명은?",
     "images": [],
-    "options": [],
-    "correct_option_index": 1,
-    "correct_answer": "제2형 양극성 장애",
+    "options": [
+      "① 제2형 양극성 장애",
+      "② 제1형 양극성 장애",
+      "③ 파괴적 기분조절 장애",
+      "④ 조현정동장애",
+      "⑤ 순환성 장애"
+    ],
+    "correct_option_index": 0,
+    "correct_answer": "① 제2형 양극성 장애",
     "explanation": {
       "title": "제2형 양극성 장애(Bipolar II Disorder)의 진단 기준: 경조증 삽화와 주요우울삽화",
       "findings": "과거 30대에 주요우울장애 치료력이 있는 42세 여성이, 5일 전부터 수면 욕구 감소(3시간 수면), 사고 촉진, 충동적 동거 시작 등 기분 고양과 에너지 증가를 보이고 있으나 직장생활에 심각한 기능 손상은 없는 '경조증 삽화(Hypomanic episode, 최소 4일 이상)'를 나타내고 있습니다. 조증 삽화 병력이 결코 없으면서 최소 1회의 경조증 삽화와 1회 이상의 주요우울삽화가 존재하므로 DSM-5 진단명은 '제2형 양극성 장애(Bipolar II Disorder)'입니다.",
@@ -162379,7 +162299,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      1
+      0
     ],
     "freq_count": 3,
     "rate": 50,
@@ -162394,7 +162314,8 @@
       "23Y-46"
     ],
     "option_explanations": [],
-    "answer": "제2형 양극성 장애"
+    "answer": "① 제2형 양극성 장애",
+    "question": "42세 여자가 5일 전부터 잠을 3시간만 자면서 피곤한 줄 모르고 머리가 잘 돌아가서 쉬지 않고 계속 일한다고 왔다. 3일 전부터 남자와 동거 시작했다. 산만해서 행정적인 일을 처리하는데 조금 어려움이 있었지만 직장생활에 큰 어려움은 없었다. 과거력에서 30대에 우울증으로 지속적으로 진료를 받아왔다. DSM-5 진단명은?"
   },
   {
     "id": "정신건강의학과_21Y_Q39",
@@ -172473,11 +172394,15 @@
     "category": "기출",
     "theme_title": "공황발작과 회피행동의 학습 이론: 고전적 조건형성(Classical Conditioning)",
     "subspecialty": "불안장애",
-    "stem": "밥을 먹다가 숨이 안쉬어지고 죽을듯한 느낌이 들었다. 그 이후로 두려워서 밥을 먹지 못했다. 관련된 이론은?",
+    "stem": "밥을 먹다가 숨이 안 쉬어지고 죽을 듯한 느낌이 들었다. 그 이후로 두려워서 밥을 먹지 못했다. 관련된 이론은?",
     "images": [],
-    "options": [],
+    "options": [
+      "① 고전적 조건화",
+      "② 신체화",
+      "③ 조작적 학습"
+    ],
     "correct_option_index": 0,
-    "correct_answer": "고전적 조건형성 (Classical Conditioning)",
+    "correct_answer": "① 고전적 조건화",
     "explanation": {
       "title": "공황발작과 회피행동의 학습 이론: 고전적 조건형성(Classical Conditioning)",
       "findings": "식사 도중 급성 호흡곤란과 질식감(공황발작)을 경험한 후, 식사 상황 자체가 두려움의 자극이 되어 밥을 먹지 못하는 회피 반응이 형성된 행동심리학적 기전을 설명하는 단답형 문항입니다.",
@@ -172500,7 +172425,8 @@
       "19Y-04"
     ],
     "option_explanations": [],
-    "answer": "고전적 조건형성 (Classical Conditioning)"
+    "answer": "① 고전적 조건화",
+    "question": "밥을 먹다가 숨이 안 쉬어지고 죽을 듯한 느낌이 들었다. 그 이후로 두려워서 밥을 먹지 못했다. 관련된 이론은?"
   },
   {
     "id": "정신건강의학과_19Y_Q05",
@@ -172860,9 +172786,13 @@
     "subspecialty": "수면각성장애",
     "stem": "낮에 너무 졸려 회사에서 자다가 혼났다. 증상에 대한 약물 중 신체적/심리적 의존성이 적은 약물은?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "모다피닐 (Modafinil)",
+    "options": [
+      "① Methylphenidate",
+      "② Modafinil",
+      "③ Valproate"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② Modafinil",
     "explanation": {
       "title": "기면증 및 주간 과다졸림증의 1차 치료제: 모다피닐(Modafinil)의 의존성 안전성",
       "findings": "직장에서 조절 불가능한 심각한 주간 졸림증을 호소하는 환자에게 투여할 수 있는 중추신경 각성제 중, 신체적·심리적 의존성 및 남용 위험이 가장 적은 1차 약제를 묻는 단답형 문항입니다.",
@@ -172874,7 +172804,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -172885,7 +172815,8 @@
       "19Y-08"
     ],
     "option_explanations": [],
-    "answer": "모다피닐 (Modafinil)"
+    "answer": "② Modafinil",
+    "question": "낮에 너무 졸려 회사에서 자다가 혼났다. 증상에 대한 약물 중 신체적/심리적 의존성이 적은 약물은?"
   },
   {
     "id": "정신건강의학과_19Y_Q09",
@@ -174389,11 +174320,17 @@
     "category": "기출",
     "theme_title": "양극성 장애의 대표적 기분조절제: 리튬(Lithium)의 치료 농도와 모니터링",
     "subspecialty": "기분장애 (양극성장애)",
-    "stem": "다음에서 설명하는 약은 무엇인가? 치료 반응률이 40-50%로 만족스럽지는 못하지만 가장 널리 사용하는 항조증 약물이며 치료시 혈중농도를 0.6-1.5mEq/L 로 유지해야 하므로 정기적인 검사가 필요하다. 급성기 조증에서는",
+    "stem": "다음에서 설명하는 약은 무엇인가? 치료 반응률이 40-50%로 만족스럽지는 못하지만 가장 널리 사용하는 항조증 약물이며 치료 시 혈중농도를 0.6-1.5mEq/L 로 유지해야 하므로 정기적인 검사가 필요하다. 급성기 조증에서는 1.0-1.5mEq/L 로 높게 한다.",
     "images": [],
-    "options": [],
+    "options": [
+      "① Lithium",
+      "② Valproate",
+      "③ Lamotrigine",
+      "④ Carbamazepine",
+      "⑤ Olanzapine"
+    ],
     "correct_option_index": 0,
-    "correct_answer": "리튬 (Lithium)",
+    "correct_answer": "① Lithium",
     "explanation": {
       "title": "양극성 장애의 대표적 기분조절제: 리튬(Lithium)의 치료 농도와 모니터링",
       "findings": "치료 반응률 40~50% 수준이나 가장 고전적으로 널리 사용되며, 치료 지수가 좁아 0.6~1.5 mEq/L의 혈중 농도 모니터링이 필수적인 대표 기분조절제를 묻는 단답형 문항입니다.",
@@ -174416,7 +174353,8 @@
       "19Y-22"
     ],
     "option_explanations": [],
-    "answer": "리튬 (Lithium)"
+    "answer": "① Lithium",
+    "question": "다음에서 설명하는 약은 무엇인가? 치료 반응률이 40-50%로 만족스럽지는 못하지만 가장 널리 사용하는 항조증 약물이며 치료 시 혈중농도를 0.6-1.5mEq/L 로 유지해야 하므로 정기적인 검사가 필요하다. 급성기 조증에서는 1.0-1.5mEq/L 로 높게 한다."
   },
   {
     "id": "정신건강의학과_19Y_Q23",
@@ -193671,14 +193609,14 @@
     "stem": "53세 여성이 6개월 전부터 발생한 주관절 외측 통증을 주소로 내원하였다. 주먹을 쥐거나 손목을 저항에 대항하여 신전할 때 통증이 심해졌으며, 주관절 외측상과 부위에 뚜렷한 압통이 있었다. 손상된 주된 원인 힘줄은?",
     "images": [],
     "options": [
-      "단요측수근신건 (Extensor carpi radialis brevis, ECRB)",
-      "장요측수근신건 (Extensor carpi radialis longus, ECRL)",
-      "장무지외전건 (Abductor pollicis longus, APL)",
-      "척측수근신건 (Extensor carpi ulnaris, ECU)",
-      "횡수근인대 (Transverse carpal ligament)"
+      "① ECRB",
+      "② ECRL",
+      "③ APL",
+      "④ ECB",
+      "⑤ Transverse carpal ligament"
     ],
     "correct_option_index": 0,
-    "correct_answer": "단요측수근신건 (Extensor carpi radialis brevis, ECRB)",
+    "correct_answer": "① ECRB",
     "explanation": {
       "title": "외측 상과염(테니스 엘보)과 단요측수근신건(ECRB) 기시부 손상",
       "theme_title": "외측 상과염(테니스 엘보)과 단요측수근신건(ECRB) 기시부 손상",
@@ -193787,7 +193725,7 @@
         "reason": "수근관 천장을 형성하는 구조물로 수근관 증후군과 관련된 인대입니다."
       }
     ],
-    "answer": "단요측수근신건 (Extensor carpi radialis brevis, ECRB)"
+    "answer": "① ECRB"
   },
   {
     "id": "정형외과_22Y_Q02",
@@ -193798,17 +193736,17 @@
     "category": "탈",
     "theme_title": "원위 요골 골절(Distal Radius Fracture / Colles Fracture)의 역학 및 발생 기전",
     "subspecialty": "수부 및 완관절",
-    "stem": "성인의 상지 골절 중 일상생활 및 낙상 사고 시 가장 흔하게 발생하는 골절은?",
+    "stem": "상지 골절 중 가장 흔한 골절은?",
     "images": [],
     "options": [
-      "원위 요골 골절 (Distal radius fracture, Colles fracture)",
-      "근위 요골 골절 (Radial head/neck fracture)",
-      "원위 척골 골절 (Distal ulna fracture)",
-      "근위 척골 주두 골절 (Olecranon fracture)",
-      "수근골 주상골 골절 (Scaphoid fracture)"
+      "① 원위 요골 골절",
+      "② 근위 요골 골절",
+      "③ 원위 척골 골절",
+      "④ 근위 척골 골절",
+      "⑤ 주상골 골절"
     ],
     "correct_option_index": 0,
-    "correct_answer": "원위 요골 골절 (Distal radius fracture, Colles fracture)",
+    "correct_answer": "① 원위 요골 골절",
     "explanation": {
       "title": "원위 요골 골절(Distal Radius Fracture / Colles Fracture)의 역학 및 발생 기전",
       "theme_title": "원위 요골 골절(Distal Radius Fracture / Colles Fracture)의 역학 및 발생 기전",
@@ -193917,7 +193855,8 @@
         "reason": "젊은 층 수근골 골절 최다 빈도이나 전체 상지 골절에서는 원위 요골 골절에 미치지 못합니다."
       }
     ],
-    "answer": "원위 요골 골절 (Distal radius fracture, Colles fracture)"
+    "answer": "① 원위 요골 골절",
+    "question": "상지 골절 중 가장 흔한 골절은?"
   },
   {
     "id": "정형외과_22Y_Q03",
@@ -194063,14 +194002,14 @@
     "stem": "여성 환자가 4개월간 좌측 주관절 및 상완부 통증을 호소하였다. 외측상과(Lateral epicondyle) 자체에는 압통이 없었으나 원위부 3~4cm 부위에 압통이 있었으며, 저항성 중지 신전 시 주관절 외측 통증이 악화되었다. 요골신경의 후골간신경(PIN)이 주관절 주위에서 가장 빈번하게 포착(Entrapment)되는 해부학적 구조물은?",
     "images": [],
     "options": [
-      "Arcade of Frohse (회외근 근위부 건성 궁)",
-      "Fibrous band anterior to radiocapitellar joint",
-      "Radial recurrent vessels (Leash of Henry)",
-      "Medial edge of ECRB",
-      "Distal edge of supinator"
+      "① Fibrous band anterior to radiocapitellar joint",
+      "② Radial recurrent vessels (Leash of Henry)",
+      "③ Medial edge of ECRB",
+      "④ Proximal edge of supinator (Arcade of Frohse)",
+      "⑤ Distal edge of supinator"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "Arcade of Frohse (회외근 근위부 건성 궁)",
+    "correct_option_index": 3,
+    "correct_answer": "④ Proximal edge of supinator (Arcade of Frohse)",
     "explanation": {
       "title": "요골관 증후군(Radial Tunnel Syndrome)의 포착 부위: Arcade of Frohse",
       "theme_title": "요골관 증후군(Radial Tunnel Syndrome)의 포착 부위: Arcade of Frohse",
@@ -194179,7 +194118,7 @@
         "reason": "회외근 원위 경계부는 Frohse 궁에 비해 압박 빈도가 현저히 낮습니다."
       }
     ],
-    "answer": "Arcade of Frohse (회외근 근위부 건성 궁)"
+    "answer": "④ Proximal edge of supinator (Arcade of Frohse)"
   },
   {
     "id": "정형외과_22Y_Q05",
@@ -194309,19 +194248,19 @@
     "category": "탈",
     "theme_title": "대퇴골 원위부 분쇄 골절의 생물학적 고정: 최소 침습적 금속판 고정술(MIPO)",
     "subspecialty": "골절학 및 합병증",
-    "stem": "고령의 환자가 대퇴골 원위부 분쇄 골절로 내원하였다. 골절부 혈종을 보존하고 연부조직 박리를 최소화하여 골유합을 촉진할 수 있는 가장 적절한 수술법은?",
+    "stem": "다음 골절환자에서 적절한 치료법은?",
     "images": [
       "images/정형외과/22Y_Q06_fig1.png"
     ],
     "options": [
-      "최소 침습적 금속판 고정술 (MIPO)",
-      "골수강 내 금속정 고정술 (Intramedullary nailing)",
-      "광범위 절개 금속판 압박 고정술 (Open ORIF)",
-      "석고 부목 단순 고정 (Splinting)",
-      "도수정복 및 단순 창외고정술 (External fixation)"
+      "① 최소 침습적 금속판 고정",
+      "② 골수강 내 금속정 고정술",
+      "③ 금속판 압박 고정술",
+      "④ 부목",
+      "⑤ 외고정"
     ],
     "correct_option_index": 0,
-    "correct_answer": "최소 침습적 금속판 고정술 (MIPO)",
+    "correct_answer": "① 최소 침습적 금속판 고정",
     "explanation": {
       "title": "대퇴골 원위부 분쇄 골절의 생물학적 고정: 최소 침습적 금속판 고정술(MIPO)",
       "theme_title": "대퇴골 원위부 분쇄 골절의 생물학적 고정: 최소 침습적 금속판 고정술(MIPO)",
@@ -194430,7 +194369,8 @@
         "reason": "개방창 임시 처치용이며 분쇄 관절 주변의 장기 최종 고정으로는 부적합합니다."
       }
     ],
-    "answer": "최소 침습적 금속판 고정술 (MIPO)"
+    "answer": "① 최소 침습적 금속판 고정",
+    "question": "다음 골절환자에서 적절한 치료법은?"
   },
   {
     "id": "정형외과_22Y_Q07",
@@ -194576,17 +194516,17 @@
     "category": "탈",
     "theme_title": "어깨 통증 질환의 4대 범주 감별(충돌/회전근개, 오십견, 석회성건염, 퇴행성관절염)",
     "subspecialty": "견관절",
-    "stem": "성인에서 발생하는 흔한 어깨 통증의 4대 질환 범주에 속하지 않는 것은?",
+    "stem": "어깨 통증을 유발하는 4대 질환이 아닌 것은?",
     "images": [],
     "options": [
-      "어깨 전방 탈구 및 관절와순 파열",
-      "유착성 관절낭염 (동결견, 오십견)",
-      "회전근개 파열 (Rotator cuff tear)",
-      "석회성 건염 (Calcific tendonitis)",
-      "경추 신경병증 (Cervical radiculopathy)"
+      "① 경추 신경병증",
+      "② 오십견",
+      "③ 회전근개 파열",
+      "④ 석회성 건염",
+      "⑤ 어깨 전방탈구"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "어깨 전방 탈구 및 관절와순 파열",
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 어깨 전방탈구",
     "explanation": {
       "title": "어깨 통증 질환의 4대 범주 감별(충돌/회전근개, 오십견, 석회성건염, 퇴행성관절염)",
       "theme_title": "어깨 통증 질환의 4대 범주 감별(충돌/회전근개, 오십견, 석회성건염, 퇴행성관절염)",
@@ -194695,7 +194635,8 @@
         "reason": "경추 신경근 압박으로 어깨 부위 방사통을 일으켜 감별해야 하는 필수 질환입니다."
       }
     ],
-    "answer": "어깨 전방 탈구 및 관절와순 파열"
+    "answer": "⑤ 어깨 전방탈구",
+    "question": "어깨 통증을 유발하는 4대 질환이 아닌 것은?"
   },
   {
     "id": "정형외과_22Y_Q09",
@@ -194838,74 +194779,73 @@
     "category": "탈",
     "theme_title": "원위 요골 골절과 원위 요척관절 탈구가 동반된 갈레아찌 골절(Galeazzi Fracture)",
     "subspecialty": "수부 및 완관절",
-    "stem": "외상 후 골절 부위의 전위 정도가 심하지 않더라도, 방사선 소견에서 원위 요척관절(DRUJ)의 불안정성이 동반되어 반드시 응급 정복 및 내고정 수술을 시행해야 하는 골절은?",
+    "stem": "부상 정도가 심하진 않지만 임상적으로 반드시 응급 수술을 해야 하는 골절은?",
     "images": [],
     "options": [
-      "갈레아찌 골절 (Galeazzi fracture - 요골 간부 골절 + DRUJ 탈구)",
-      "쇄골 간부 단순 골절",
-      "상완골 대결절 단순 골절",
-      "쇄골 근위부 불완전 골절",
-      "쇄골 원위부 제1형 골절"
+      "① 쇄골 간부 골절",
+      "② 갈레아찌 골절",
+      "③ 상완 대결절 골절",
+      "④ 쇄골 근위부 골절",
+      "⑤ 쇄골 원위부 골절"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "갈레아찌 골절 (Galeazzi fracture - 요골 간부 골절 + DRUJ 탈구)",
+    "correct_option_index": 1,
+    "correct_answer": "② 갈레아찌 골절",
     "explanation": {
-      "title": "원위 요골 골절과 원위 요척관절 탈구가 동반된 갈레아찌 골절(Galeazzi Fracture)",
-      "theme_title": "원위 요골 골절과 원위 요척관절 탈구가 동반된 갈레아찌 골절(Galeazzi Fracture)",
-      "subspecialty": "수부 및 완관절",
-      "findings": "요골 하부 1/3 간부 골절과 함께 원위 요척관절(DRUJ)의 탈구가 동반되어, 전위가 경미해 보여도 성인에서는 보존적 치료 시 100% 아탈구 재발과 전완부 회전 불능을 초래하므로 관혈적 정복 및 금속판 내고정이 필수적입니다.",
-      "differential": "• ① 갈레아찌 골절 (Galeazzi fracture - 요골 간부 골절 + DRUJ 탈구) ✓ [정답]: '필연의 골절(fracture of necessity)'이라 불리며, 단순 깁스로는 방형회내근(pronator quadratus)의 견인력 때문에 관절 탈구를 유지할 수 없어 반드시 견고한 금속판 내고정 및 DRUJ 안정화가 필요합니다.\n• ② 쇄골 간부 단순 골절 ✗ [오답]: 성인 쇄골 골절의 80%를 차지하며, 전위가 심하지 않으면 8자 붕대나 팔걸이(sling) 등 보존 치료로 95% 이상 유합됩니다.\n• ③ 상완골 대결절 단순 골절 ✗ [오답]: 회전근개 견인으로 전위될 수 있으나 3~5mm 미만의 비전위 골절은 팔걸이 보존 치료가 표준입니다.\n• ④ 쇄골 근위부 불완전 골절 ✗ [오답]: 흉쇄관절 안정성이 유지되므로 보존적 치료로 원활히 치유됩니다.\n• ⑤ 쇄골 원위부 제1형 골절 ✗ [오답]: 오구쇄골인대(CC ligament)가 온전하여 안정적인 골절로 비수술적 치료를 시행합니다.",
-      "trap": "몬테지아 골절(Monteggia fracture)은 척골 근위부 골절 + 요골두(PRUJ) 탈구인 반면, 갈레아찌 골절(Galeazzi fracture)은 요골 원위부 골절 + 척골두(DRUJ) 탈구이므로 두 골절-탈구의 골절 부위와 탈구 관절을 절대 뒤바꿔 혼동해서는 안 됩니다.",
-      "trigger": "【갈레아찌 골절(Galeazzi Fracture) 핵심 족보 & 임상 가이드라인】\n• 병태생리/해부학: 요골 원위 1/3 간부 골절 + 삼각섬유연골복합체(TFCC) 파열을 동반한 원위 요척관절(DRUJ) 탈구.\n• 핵심 진단 및 영상 소견: 손목 전후방 X선상 척골두 돌출, DRUJ 관절 간격 개대(>5mm), 원위 요골의 5mm 이상 단축. 측면상 척골두의 배측 또는 수근측 탈구.\n• 표준 치료 원칙 및 알고리즘: 성인에서는 비수술적 치료 절대 금기. 요골의 해부학적 길이와 회전각을 관혈적 정복 후 3.5mm 압박 금속판으로 고정 → 수술 후 DRUJ 안정성 평가(불안정 시 K-강선 횡고정 또는 TFCC 봉합).\n• 1초 정답 도출 트리거: 요골 간부 골절 + 원위 요척관절(DRUJ) 탈구/불안정성 동반 → 갈레아찌 골절(Galeazzi fracture).",
-      "kmle_link": "KMLE 15권 정형외과 / 상지 골절",
+      "title": "갈레아찌 골절(Galeazzi Fracture): DRUJ 탈구를 동반한 불안정 골절의 응급 수술 적응증",
+      "theme_title": "갈레아찌 골절(Galeazzi Fracture): DRUJ 탈구를 동반한 불안정 골절의 응급 수술 적응증",
+      "subspecialty": "수부 및 주관절",
+      "findings": "외상 후 전위가 심해 보이지 않더라도 원위 요척관절(DRUJ)의 탈구 및 인대 복합체 파열이 동반되는 갈레아찌 골절은 비수술적 치료 시 100%에 가깝게 재전위 및 심각한 전완부 회내/회외 운동 장애를 남기므로 성인에서 반드시 조기 해부학적 관혈적 정복 및 금속판 내고정술(ORIF)을 시행해야 합니다.",
+      "differential": "• ① 쇄골 간부 골절 ✗ [오답]: 신경혈관 손상이나 개방성 골절, 심한 단축이 없는 단순 쇄골 간부 골절은 팔걸이(Sling)나 8자 붕대를 이용한 보존적 치료가 기본 원칙입니다.\n• ② 갈레아찌 골절 ✓ [정답]: 요골 간부(중·원위 1/3 경계) 골절과 원위 요척관절(DRUJ)의 탈구가 동반된 골절로, 외견상 부상이 심해 보이지 않더라도 반드시 응급 관혈적 정복 및 금속판 내고정술(ORIF)을 시행해야 전완부 회전 기능과 관절 안정성을 보존할 수 있습니다.\n• ③ 상완 대결절 골절 ✗ [오답]: 전위가 5mm(회전근개 손상 의심 시 3mm) 미만인 경우 보존적 치료(벨포 보조기 등)로 양호하게 치유됩니다.\n• ④ 쇄골 근위부 골절 ✗ [오답]: 쇄골 골절 중 가장 드물며, 종격동 장기 압박 등의 합병증이 없는 한 대부분 비수술적 보존 치료를 시행합니다.\n• ⑤ 쇄골 원위부 골절 ✗ [오답]: 제1형(Neer type I)은 오구쇄골인대가 건재하여 비전위 상태이므로 팔걸이 보존적 치료 대상입니다.",
+      "trap": "단순 요골 골절처럼 보여 깁스(부목) 치료를 하면 DRUJ 탈구가 간과되어 만성 완관절 통증 및 전완부 회전 불능의 영구 장애가 남습니다. 몬테지아(Monteggia)와 갈레아찌(Galeazzi)는 성인에서 무조건 수술적 정복 대상입니다.",
+      "trigger": "【전완부 특수 골절 핵심 암기 공식】\n• MU-GR: Monteggia = Ulna fracture + Radial head dislocation / Galeazzi = Radius fracture + Distal Radioulnar Joint (DRUJ) dislocation.\n• 부상 정도가 심하지 않아 보여도 반드시 응급 내고정 수술 → 갈레아찌 골절(Galeazzi fracture).",
+      "kmle_link": "KMLE 15권 정형외과 / 상지 골절 / 갈레아찌 골절",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "갈레아찌 골절 (Galeazzi fracture - 요골 간부 골절 + DRUJ 탈구)",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "DRUJ 탈구가 동반되어 보존적 치료 시 반드시 재발하므로 해부학적 금속판 고정이 필수적인 골절-탈구입니다."
+          "text": "쇄골 간부 골절",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "대부분 팔걸이나 8자 붕대를 이용한 보존적 치료로 유합됩니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "쇄골 간부 단순 골절",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "단순 쇄골 골절은 전위가 적을 경우 보존적 팔걸이/8자 붕대로 우수하게 치유됩니다."
+          "text": "갈레아찌 골절",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "요골 골절에 DRUJ 탈구가 동반되어 비수술적 치료 시 불안정성이 심하므로 반드시 조기 관혈적 정복 및 내고정술이 요구됩니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "상완골 대결절 단순 골절",
+          "text": "상완 대결절 골절",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "전위 3mm 미만 시 비수술적 보존 치료가 가능합니다."
+          "reason": "전위가 심하지 않은 단순 골절은 보존적 치료를 시행합니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "쇄골 근위부 불완전 골절",
+          "text": "쇄골 근위부 골절",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "관절 안정성이 유지되어 보존적으로 유합됩니다."
+          "reason": "혈관 및 기도 압박 증상이 없다면 보존적 치료가 기본입니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "쇄골 원위부 제1형 골절",
+          "text": "쇄골 원위부 골절",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "오구쇄골인대가 건재하여 보존적 치료가 기본 원칙입니다."
+          "reason": "오구쇄골인대가 보존된 제1형 원위부 골절은 보존적 치료 대상입니다."
         }
-      ],
-      "differential_general": "갈레아찌 골절은 요골 간부 골절에 원위 요척관절(DRUJ) 탈구가 수반되어 반드시 수술적 정복과 금속판 고정이 요구됩니다."
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -194919,45 +194859,46 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "갈레아찌 골절 (Galeazzi fracture - 요골 간부 골절 + DRUJ 탈구)",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "DRUJ 탈구가 동반되어 보존적 치료 시 반드시 재발하므로 해부학적 금속판 고정이 필수적인 골절-탈구입니다."
+        "text": "쇄골 간부 골절",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "대부분 팔걸이나 8자 붕대를 이용한 보존적 치료로 유합됩니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "쇄골 간부 단순 골절",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "단순 쇄골 골절은 전위가 적을 경우 보존적 팔걸이/8자 붕대로 우수하게 치유됩니다."
+        "text": "갈레아찌 골절",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "요골 골절에 DRUJ 탈구가 동반되어 비수술적 치료 시 불안정성이 심하므로 반드시 조기 관혈적 정복 및 내고정술이 요구됩니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "상완골 대결절 단순 골절",
+        "text": "상완 대결절 골절",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "전위 3mm 미만 시 비수술적 보존 치료가 가능합니다."
+        "reason": "전위가 심하지 않은 단순 골절은 보존적 치료를 시행합니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "쇄골 근위부 불완전 골절",
+        "text": "쇄골 근위부 골절",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "관절 안정성이 유지되어 보존적으로 유합됩니다."
+        "reason": "혈관 및 기도 압박 증상이 없다면 보존적 치료가 기본입니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "쇄골 원위부 제1형 골절",
+        "text": "쇄골 원위부 골절",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "오구쇄골인대가 건재하여 보존적 치료가 기본 원칙입니다."
+        "reason": "오구쇄골인대가 보존된 제1형 원위부 골절은 보존적 치료 대상입니다."
       }
     ],
-    "answer": "갈레아찌 골절 (Galeazzi fracture - 요골 간부 골절 + DRUJ 탈구)"
+    "answer": "② 갈레아찌 골절",
+    "question": "부상 정도가 심하진 않지만 임상적으로 반드시 응급 수술을 해야 하는 골절은?"
   },
   {
     "id": "정형외과_22Y_Q11",
@@ -195098,17 +195039,17 @@
     "category": "탈",
     "theme_title": "견관절 회전근개 중 상완골 내회전을 전담하는 근육: 견갑하근(Subscapularis)",
     "subspecialty": "견관절",
-    "stem": "견관절 회전근개 근육 중 상완골의 내회전(Internal rotation)을 전담하는 핵심 근육은?",
+    "stem": "어깨에서 Internal rotation을 담당하는 근육은?",
     "images": [],
     "options": [
-      "견갑하근 (Subscapularis)",
-      "극상근 (Supraspinatus)",
-      "극하근 (Infraspinatus)",
-      "소원근 (Teres minor)",
-      "소흉근 (Pectoralis minor)"
+      "① 소흉근 (Pectoralis minor)",
+      "② 극상근 (supraspinatus)",
+      "③ 극하근 (infraspinatus)",
+      "④ 견갑하근 (subscapularis)",
+      "⑤ 소원근 (teres minor)"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "견갑하근 (Subscapularis)",
+    "correct_option_index": 3,
+    "correct_answer": "④ 견갑하근 (subscapularis)",
     "explanation": {
       "title": "견관절 회전근개 중 상완골 내회전을 전담하는 근육: 견갑하근(Subscapularis)",
       "theme_title": "견관절 회전근개 중 상완골 내회전을 전담하는 근육: 견갑하근(Subscapularis)",
@@ -195218,7 +195159,8 @@
         "reason": "오구돌기에 부착하는 전흉벽 근육으로 회전근개에 포함되지 않습니다."
       }
     ],
-    "answer": "견갑하근 (Subscapularis)"
+    "answer": "④ 견갑하근 (subscapularis)",
+    "question": "어깨에서 Internal rotation을 담당하는 근육은?"
   },
   {
     "id": "정형외과_22Y_Q13",
@@ -197195,17 +197137,17 @@
     "category": "반짤",
     "theme_title": "후경골건 기능부전(PTTD)에 의한 성인 후천성 평발 변형 및 까치발 검사",
     "subspecialty": "족부 및 족관절",
-    "stem": "급성 족관절 내번 염좌가 발생한 환자에서 족관절 불안정성의 만성 재발을 방지하기 위해 적극적으로 근력 강화 훈련을 시행해야 하는 핵심 근육은?",
+    "stem": "급성 족관절 염좌가 생겼다. 재발을 방지하기 위해 강화해야 하는 근육은?",
     "images": [],
     "options": [
-      "비골근 (Peroneus longus & brevis, 외번근)",
-      "가자미근 (Soleus)",
-      "장무지굴근 (Flexor hallucis longus)",
-      "후경골근 (Posterior tibialis)",
-      "비복근 (Gastrocnemius)"
+      "① 비골근",
+      "② 비장근",
+      "③ 장무지굴근",
+      "④ 후경골근",
+      "⑤ 비복근"
     ],
     "correct_option_index": 0,
-    "correct_answer": "비골근 (Peroneus longus & brevis, 외번근)",
+    "correct_answer": "① 비골근",
     "explanation": {
       "title": "후경골건 기능부전(PTTD)에 의한 성인 후천성 평발 변형 및 까치발 검사",
       "theme_title": "후경골건 기능부전(PTTD)에 의한 성인 후천성 평발 변형 및 까치발 검사",
@@ -197320,7 +197262,8 @@
         "reason": "무릎과 족관절을 가로지르는 강력한 족저굴곡근입니다."
       }
     ],
-    "answer": "비골근 (Peroneus longus & brevis, 외번근)"
+    "answer": "① 비골근",
+    "question": "급성 족관절 염좌가 생겼다. 재발을 방지하기 위해 강화해야 하는 근육은?"
   },
   {
     "id": "정형외과_22Y_Q29",
@@ -197331,17 +197274,17 @@
     "category": "탈",
     "theme_title": "족관절 내번 염좌(Inversion Ankle Sprain)의 최호발 손상 인대: 전거비인대(ATFL)",
     "subspecialty": "족부 및 족관절",
-    "stem": "발목 안쪽 부주상골(Accessory navicular) 부위의 통증과 발적으로 내원하였다. 주상골 내측 결절 및 부주상골에 부착하여 염증성 당김을 유발하는 힘줄은?",
+    "stem": "부주상골(Accessory navicular) 부위가 아파서 내원하였다. 이 위치에 붙은 힘줄의 이름은?",
     "images": [],
     "options": [
-      "후경골건 (Posterior tibial tendon)",
-      "전경골건 (Anterior tibial tendon)",
-      "장비골근건 (Peroneus longus tendon)",
-      "단비골근건 (Peroneus brevis tendon)",
-      "아킬레스건 (Achilles tendon)"
+      "① 전경골건",
+      "② 후경골건",
+      "③ 장비골근건",
+      "④ 단비골근건",
+      "⑤ 아킬레스건"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "후경골건 (Posterior tibial tendon)",
+    "correct_option_index": 1,
+    "correct_answer": "② 후경골건",
     "explanation": {
       "title": "족관절 내번 염좌(Inversion Ankle Sprain)의 최호발 손상 인대: 전거비인대(ATFL)",
       "theme_title": "족관절 내번 염좌(Inversion Ankle Sprain)의 최호발 손상 인대: 전거비인대(ATFL)",
@@ -197450,7 +197393,8 @@
         "reason": "종골에 닿는 강력한 족저굴곡건입니다."
       }
     ],
-    "answer": "후경골건 (Posterior tibial tendon)"
+    "answer": "② 후경골건",
+    "question": "부주상골(Accessory navicular) 부위가 아파서 내원하였다. 이 위치에 붙은 힘줄의 이름은?"
   },
   {
     "id": "정형외과_22Y_Q30",
@@ -197596,14 +197540,14 @@
     "stem": "35세 남성이 오토바이 사고 후 하지 근력과 감각이 완전 소실되어 응급실로 내원하였다. 이학적 검사 상 구해면체 반사(Bulbocavernosus reflex), 항문 반사, 심건 반사가 모두 소실되어 있었고 방광 기능도 마비되었다. 진단은?",
     "images": [],
     "options": [
-      "척수성 쇼크 (Spinal shock)",
-      "완전 척수 손상 (Complete spinal cord injury)",
-      "불완전 척수 손상 (Incomplete spinal cord injury)",
-      "마미 증후군 (Cauda equina syndrome)",
-      "중심척수 증후군 (Central cord syndrome)"
+      "① 완전 척수 손상",
+      "② 불완전 척수 손상",
+      "③ 마미 증후군",
+      "④ 척수성 쇼크",
+      "⑤ 중심척수증후군"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "척수성 쇼크 (Spinal shock)",
+    "correct_option_index": 3,
+    "correct_answer": "④ 척수성 쇼크",
     "explanation": {
       "title": "급성 척수 손상 후 척수성 쇼크(Spinal Shock)와 구해면체 반사 소실",
       "theme_title": "급성 척수 손상 후 척수성 쇼크(Spinal Shock)와 구해면체 반사 소실",
@@ -197712,7 +197656,7 @@
         "reason": "상지 마비가 하지 마비보다 심한 불완전 척수 손상 형태입니다."
       }
     ],
-    "answer": "척수성 쇼크 (Spinal shock)"
+    "answer": "④ 척수성 쇼크"
   },
   {
     "id": "정형외과_22Y_Q32",
@@ -197723,76 +197667,75 @@
     "category": "반짤",
     "theme_title": "고관절 외전근 근력 도수근력검사(MMT): 중력 제거 상태(Supine)에서만 가능한 Poor 등급",
     "subspecialty": "고관절 질환",
-    "stem": "환자가 침대에서 옆으로 누운 자세에서는 중력을 이기지 못해 고관절 외전 운동을 전혀 할 수 없었으나, 바로 누운 자세(Supine)에서 마찰을 배제하자 고관절 외전 운동을 능동적으로 끝까지 수행할 수 있었다. 이때 도수근력검사(MMT) 등급은?",
+    "stem": "환자가 침대에서 옆으로 누운 자세에서는 아무런 제한을 주지 않아도 고관절 외전 운동을 할 수 없었다. 바로 누운 자세(supine position) 에서는 고관절의 외전 운동을 능동적으로 할 수 있었고, 근수축도 보였다. 이때 근력 평가를 한다면?",
     "images": [
       "images/정형외과/22Y_Q32_fig1.png"
     ],
     "options": [
-      "Poor (Grade 2 - 중력 배제 시 전 관절운동 가능)",
-      "Normal (Grade 5)",
-      "Good (Grade 4)",
-      "Fair (Grade 3 - 중력에 대항하여 전 관절운동 가능)",
-      "Trace (Grade 1 - 약간의 근수축만 촉지됨)"
+      "① Normal",
+      "② Good",
+      "③ Fair",
+      "④ Poor",
+      "⑤ Trace"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "Poor (Grade 2 - 중력 배제 시 전 관절운동 가능)",
+    "correct_option_index": 3,
+    "correct_answer": "④ Poor",
     "explanation": {
-      "title": "고관절 외전근 근력 도수근력검사(MMT): 중력 제거 상태(Supine)에서만 가능한 Poor 등급",
-      "theme_title": "고관절 외전근 근력 도수근력검사(MMT): 중력 제거 상태(Supine)에서만 가능한 Poor 등급",
-      "subspecialty": "고관절 질환",
-      "findings": "환자가 옆으로 누운 자세(측와위)에서는 중력에 저항하여 다리를 들어올리지 못했으나, 바로 누운 자세(앙와위)에서 마찰을 배제하자 고관절 외전 운동을 끝까지 능동적으로 수행하였습니다.",
-      "differential": "• ① Poor (Grade 2 - 중력 배제 시 전 관절운동 가능) ✓ [정답]: 도수근력검사(MMT)에서 중력에 대항할 수는 없으나, 중력을 배제한 수평면(gravity-eliminated plane)에서는 관절의 완전한 능동적 관절가동범위(full ROM)를 수행할 수 있는 등급입니다.\n• ② Normal (Grade 5) ✗ [오답]: 중력 및 검사자의 최대 저항에 대항하여 정상적인 전 관절운동을 수행하는 정상 등급입니다.\n• ③ Good (Grade 4) ✗ [오답]: 중력 및 중등도의 저항에 대항하여 완전한 관절운동을 하는 등급입니다.\n• ④ Fair (Grade 3 - 중력에 대항하여 전 관절운동 가능) ✗ [오답]: 외인성 저항은 이기지 못하나 순수 중력에 대항하여 완전한 관절운동을 수행할 수 있는 등급입니다.\n• ⑤ Trace (Grade 1 - 약간의 근수축만 촉지됨) ✗ [오답]: 관절의 실제 움직임은 일어나지 않고 근육의 미세한 수축이나 긴장만 손끝으로 촉지되는 등급입니다.",
-      "trap": "중력에 대항하여 조금이라도 관절을 움직일 수 있다면(partial ROM against gravity) Poor(Grade 2)가 아니라 Poor+(Grade 2+) 또는 Fair-(Grade 3-)이며, 침대 시트와의 마찰력을 줄여주었을 때만 움직일 수 있는 것은 완벽한 순수 Grade 2(Poor)의 교과서적 정의입니다.",
-      "trigger": "【도수근력검사(MMT, Medical Research Council) 6단계 기준 핵심 족보 & 임상 가이드라인】\n• MMT 공식 등급 체계:\n  - Grade 5 (Normal): 중력 + 최대 저항 극복.\n  - Grade 4 (Good): 중력 + 중등도 저항 극복.\n  - Grade 3 (Fair): '중력'에 대항하여 완전한 ROM 수행 (외부 저항 없음) → 기능적 분수령!\n  - Grade 2 (Poor): '중력 배제' 상태에서만 완전한 ROM 수행 가능.\n  - Grade 1 (Trace): 관절 움직임 없음, 미세 근수축 촉지.\n  - Grade 0 (Zero): 근수축 완전 소실.\n• 1초 정답 도출 트리거: 중력 대항 불가 + 중력 배제(바로 누운 자세) 시에만 완전 관절운동 가능 → Poor (Grade 2).",
-      "kmle_link": "KMLE 15권 정형외과 / 정형외과적 진찰 및 근력 평가",
+      "title": "도수근력검사(Manual Muscle Testing, MMT) 평가: 중력 배제 하 능동 운동(Poor / Grade 2)",
+      "theme_title": "도수근력검사(Manual Muscle Testing, MMT) 평가: 중력 배제 하 능동 운동(Poor / Grade 2)",
+      "subspecialty": "진찰 및 신경학적 평가",
+      "findings": "측와위(side-lying)에서는 중력에 대항하여 외전 운동을 하지 못했으나, 중력이 배제되는 앙와위(supine position)에서는 능동적으로 전 관절 운동 범위를 수행하였으므로 Poor (Grade 2)에 해당합니다.",
+      "differential": "• ① Normal (Grade 5) ✗ [오답]: 중력 및 검사자의 최대 저항에 대항하여 정상적인 전 관절 운동을 수행하는 상태입니다.\n• ② Good (Grade 4) ✗ [오답]: 중력 및 중등도의 저항에 대항하여 전 관절 운동을 수행하는 상태입니다.\n• ③ Fair (Grade 3) ✗ [오답]: 저항 없이 오직 중력에만 대항하여 전 관절 운동을 수행하는 단계입니다. 옆으로 누운 자세(측와위)에서 외전하지 못했으므로 Fair 단계에 미치지 못합니다.\n• ④ Poor (Grade 2) ✓ [정답]: 중력이 배제된(gravity-eliminated) 상태에서 능동적으로 전 관절 운동 범위를 수행할 수 있는 단계입니다. 앙와위에서 바닥 마찰을 배제하고 외전 운동을 능동적으로 수행했으므로 Poor가 정확합니다.\n• ⑤ Trace (Grade 1) ✗ [오답]: 관절의 움직임은 전혀 발생하지 않고, 근육의 수축만 미세하게 촉지되는 단계입니다.",
+      "trap": "선지에 Grade 숫자나 친절한 설명이 주어지지 않고 오직 영문 명칭만 출제되므로, Fair(중력 대항)와 Poor(중력 배제)의 기준 분기점을 정확히 숙지해야 합니다.",
+      "trigger": "【도수근력검사(MMT) 6단계 완벽 정리】\n• 5 (Normal): 중력 + 최대 저항 극복\n• 4 (Good): 중력 + 중등도 저항 극복\n• 3 (Fair): 중력만 극복 (저항 없음) ★임상적 자립 보행/동작의 마지노선\n• 2 (Poor): 중력 배제(무중력) 상태에서 전 관절 운동 가능\n• 1 (Trace): 관절 움직임 없음, 근수축만 촉지됨\n• 0 (Zero): 근수축 전혀 없음",
+      "kmle_link": "KMLE 15권 정형외과 / 정형외과적 진찰 / 근력 평가(MMT)",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "Poor (Grade 2 - 중력 배제 시 전 관절운동 가능)",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "중력에 대항할 수는 없으나 중력이 제거된 평면에서는 완전한 관절 운동을 수행하는 Grade 2 등급입니다."
+          "text": "Normal",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "중력 및 최대 저항을 이겨내고 정상 운동 범위를 완료하는 등급(Grade 5)입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "Normal (Grade 5)",
+          "text": "Good",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "최대 저항에 대항하여 정상적인 전 관절 운동을 수행하는 정상 근력입니다."
+          "reason": "중력과 중간 정도의 저항을 이겨낼 수 있는 등급(Grade 4)입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "Good (Grade 4)",
+          "text": "Fair",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "중등도의 저항을 이겨내며 완전한 관절 운동을 하는 등급입니다."
+          "reason": "저항 없이 중력에만 대항하여 끝까지 운동할 수 있는 등급(Grade 3)입니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "Fair (Grade 3 - 중력에 대항하여 전 관절운동 가능)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "외부 저항 없이 순수 중력에만 대항하여 완전한 관절 운동을 하는 등급입니다."
+          "text": "Poor",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "중력을 배제한 자세에서 능동적으로 전 관절 가동 범위를 움직일 수 있는 등급(Grade 2)입니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "Trace (Grade 1 - 약간의 근수축만 촉지됨)",
+          "text": "Trace",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "관절 움직임 없이 근육의 미세 수축만 촉지되는 등급입니다."
+          "reason": "관절 운동은 없고 근육 수축만 미약하게 만져지는 등급(Grade 1)입니다."
         }
-      ],
-      "differential_general": "중력을 제거한 수평면에서만 능동적으로 전 관절운동이 가능한 근력 등급은 Poor(Grade 2)입니다."
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      3
     ],
     "freq_count": 2,
     "rate": 33,
@@ -197808,45 +197751,46 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Poor (Grade 2 - 중력 배제 시 전 관절운동 가능)",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "중력에 대항할 수는 없으나 중력이 제거된 평면에서는 완전한 관절 운동을 수행하는 Grade 2 등급입니다."
+        "text": "Normal",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "중력 및 최대 저항을 이겨내고 정상 운동 범위를 완료하는 등급(Grade 5)입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Normal (Grade 5)",
+        "text": "Good",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "최대 저항에 대항하여 정상적인 전 관절 운동을 수행하는 정상 근력입니다."
+        "reason": "중력과 중간 정도의 저항을 이겨낼 수 있는 등급(Grade 4)입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Good (Grade 4)",
+        "text": "Fair",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "중등도의 저항을 이겨내며 완전한 관절 운동을 하는 등급입니다."
+        "reason": "저항 없이 중력에만 대항하여 끝까지 운동할 수 있는 등급(Grade 3)입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Fair (Grade 3 - 중력에 대항하여 전 관절운동 가능)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "외부 저항 없이 순수 중력에만 대항하여 완전한 관절 운동을 하는 등급입니다."
+        "text": "Poor",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "중력을 배제한 자세에서 능동적으로 전 관절 가동 범위를 움직일 수 있는 등급(Grade 2)입니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "Trace (Grade 1 - 약간의 근수축만 촉지됨)",
+        "text": "Trace",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "관절 움직임 없이 근육의 미세 수축만 촉지되는 등급입니다."
+        "reason": "관절 운동은 없고 근육 수축만 미약하게 만져지는 등급(Grade 1)입니다."
       }
     ],
-    "answer": "Poor (Grade 2 - 중력 배제 시 전 관절운동 가능)"
+    "answer": "④ Poor",
+    "question": "환자가 침대에서 옆으로 누운 자세에서는 아무런 제한을 주지 않아도 고관절 외전 운동을 할 수 없었다. 바로 누운 자세(supine position) 에서는 고관절의 외전 운동을 능동적으로 할 수 있었고, 근수축도 보였다. 이때 근력 평가를 한다면?"
   },
   {
     "id": "정형외과_22Y_Q33",
@@ -197857,17 +197801,17 @@
     "category": "탈",
     "theme_title": "요추 추간판 탈출증(HNP)과 척추관 협착증의 감별: 기침 시 악화되는 방사통",
     "subspecialty": "척추 질환",
-    "stem": "51세 남성이 하지 방사통을 주소로 내원하였다. 통증은 보행 거리와 상관없이 일정하게 나타났으며 기침이나 재채기 시 악화되는 양상이었고, 하지 직거상 검사(SLRT)에서 40도 양성을 보였다. 가장 가능성이 높은 진단은?",
+    "stem": "51세 남자, 하지의 동통을 주소로 내원했다. 통증은 기침을 할 때 더 심해지는 양상이었고, 보행과 상관없이 나타났다. 하지 직거상 검사에서 양성이 나왔다. 가장 가능성이 높은 진단은?",
     "images": [],
     "options": [
-      "요추간판 탈출증 (Herniated lumbar intervertebral disc)",
-      "척추관 협착증 (Spinal stenosis)",
-      "척추전방전위증 (Spondylolisthesis)",
-      "요추 분리증 (Spondylolysis)",
-      "이상근 증후군 (Piriformis syndrome)"
+      "① 척추관 협착증",
+      "② 추간판 탈출증",
+      "③ 요추 분리증",
+      "④ 척추전방전위증",
+      "⑤ 이상근 증후군"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "요추간판 탈출증 (Herniated lumbar intervertebral disc)",
+    "correct_option_index": 1,
+    "correct_answer": "② 추간판 탈출증",
     "explanation": {
       "title": "요추 추간판 탈출증(HNP)과 척추관 협착증의 감별: 기침 시 악화되는 방사통",
       "theme_title": "요추 추간판 탈출증(HNP)과 척추관 협착증의 감별: 기침 시 악화되는 방사통",
@@ -197976,7 +197920,8 @@
         "reason": "둔부 이상근에 의한 말초 좌골신경 압박 질환입니다."
       }
     ],
-    "answer": "요추간판 탈출증 (Herniated lumbar intervertebral disc)"
+    "answer": "② 추간판 탈출증",
+    "question": "51세 남자, 하지의 동통을 주소로 내원했다. 통증은 기침을 할 때 더 심해지는 양상이었고, 보행과 상관없이 나타났다. 하지 직거상 검사에서 양성이 나왔다. 가장 가능성이 높은 진단은?"
   },
   {
     "id": "정형외과_22Y_Q34",
@@ -198510,19 +198455,19 @@
     "category": "반짤",
     "theme_title": "대퇴골 간부 분쇄 골절의 초기 정복 유지 및 근육 경련 방지: 골격 견인술",
     "subspecialty": "고관절 및 골반 외상",
-    "stem": "31세 여성이 교통사고 후 심한 서혜부 통증과 하지 가동 불능을 주소로 내원하였다. 방사선 검사 상 대퇴골 간부 분쇄 골절이 확인되었다. 수술실 들어가기 전 골절부 단축과 근육 경련을 완화하기 위해 즉시 시행해야 하는 응급 처치는?",
+    "stem": "31세 여성 교통사고 후 서혜부 통증으로 내원하였다. 다리를 움직일 수 없었음. 적절한 치료?",
     "images": [
       "images/정형외과/22Y_Q38_fig1.png"
     ],
     "options": [
-      "골격 견인술 (대퇴골 원위부 / 경골 근위부 골격 견인)",
-      "피부 견인술 (벅스 견인)",
-      "도수정복 후 단하지 석고 붕대 고정",
-      "응급 관헐적 금속판 내고정술",
-      "창외고정술"
+      "① 금속내고정술",
+      "② 부목",
+      "③ 피부견인",
+      "④ 대퇴골견인",
+      "⑤ 외고정"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "골격 견인술 (대퇴골 원위부 / 경골 근위부 골격 견인)",
+    "correct_option_index": 3,
+    "correct_answer": "④ 대퇴골견인",
     "explanation": {
       "title": "대퇴골 간부 분쇄 골절의 초기 정복 유지 및 근육 경련 방지: 골격 견인술",
       "theme_title": "대퇴골 간부 분쇄 골절의 초기 정복 유지 및 근육 경련 방지: 골격 견인술",
@@ -198633,7 +198578,8 @@
         "reason": "폐쇄성 단독 골절의 표준 수술 전 임시 견인 처치로 부적합합니다."
       }
     ],
-    "answer": "골격 견인술 (대퇴골 원위부 / 경골 근위부 골격 견인)"
+    "answer": "④ 대퇴골견인",
+    "question": "31세 여성 교통사고 후 서혜부 통증으로 내원하였다. 다리를 움직일 수 없었음. 적절한 치료?"
   },
   {
     "id": "정형외과_22Y_Q39",
@@ -198644,19 +198590,19 @@
     "category": "탈",
     "theme_title": "대퇴전경각(Femoral Anteversion Angle)의 과도한 증가와 안짱걸음(In-toeing Gait)",
     "subspecialty": "소아 정형외과",
-    "stem": "대퇴골두 경부 축과 대퇴골 과간 축이 이루는 각도(대퇴전경각, Femoral anteversion angle)에 관한 설명으로 옳은 것은?",
+    "stem": "다음 중 맞는 것은?",
     "images": [
       "images/정형외과/22Y_Q39_fig1.png"
     ],
     "options": [
-      "대퇴전경각이 정상치보다 과도하게 커지면 보행 시 안짱걸음(Toe-in gait)을 보인다.",
-      "대퇴전경각의 정식 명칭은 대퇴 경간각(Neck-shaft angle)이다.",
-      "정상 소아에서 성인으로 성장할수록 대퇴전경각의 수치는 점점 증가한다.",
-      "대퇴전경각을 임상적으로 진찰하는 대표적인 검사는 토마스 검사(Thomas test)이다.",
-      "정상 성인에서 대퇴전경각의 평균 수치는 약 35도이다."
+      "① A가 커지면 toe in gait를 한다.",
+      "② A의 정식 명칭은 대퇴 경간각이다.",
+      "③ 나이가 들수록 각도가 증가한다.",
+      "④ A를 측정하는 것이 Thomas test이다.",
+      "⑤ 성인에서 평균 각도는 30도이다."
     ],
     "correct_option_index": 0,
-    "correct_answer": "대퇴전경각이 정상치보다 과도하게 커지면 보행 시 안짱걸음(Toe-in gait)을 보인다.",
+    "correct_answer": "① A가 커지면 toe in gait를 한다.",
     "explanation": {
       "title": "대퇴전경각(Femoral Anteversion Angle)의 과도한 증가와 안짱걸음(In-toeing Gait)",
       "theme_title": "대퇴전경각(Femoral Anteversion Angle)의 과도한 증가와 안짱걸음(In-toeing Gait)",
@@ -198765,7 +198711,8 @@
         "reason": "성인의 정상 대퇴전경각은 약 10~15도입니다."
       }
     ],
-    "answer": "대퇴전경각이 정상치보다 과도하게 커지면 보행 시 안짱걸음(Toe-in gait)을 보인다."
+    "answer": "① A가 커지면 toe in gait를 한다.",
+    "question": "다음 중 맞는 것은?"
   },
   {
     "id": "정형외과_22Y_Q40",
@@ -199728,17 +199675,17 @@
     "category": "탈",
     "theme_title": "하퇴부 골절 수술 후 발생한 급성 구획증후군(Compartment Syndrome)과 응급 근막절개술",
     "subspecialty": "골절학 및 합병증",
-    "stem": "하퇴부 골절 수술을 받은 환자가 수술 다음날부터 하퇴부의 극심한 통증과 종창을 호소하였다. 진통제로 조절되지 않는 심한 통증이 발가락 수동 신전 시 극도로 악화되었고, 첫째와 둘째 발가락 사이의 감각 저하가 관찰되었다. 가장 먼저 의심해야 하는 진단은?",
+    "stem": "다리 다쳐서 수술함. 수술 다음날부터 다리가 붓고 감각이 사라짐. 진단은?",
     "images": [],
     "options": [
-      "급성 구획증후군 (Acute compartment syndrome)",
-      "볼크만 허혈성 구축 (Volkmann ischemic contracture)",
-      "심부정맥혈전증 (Deep vein thrombosis, DVT)",
-      "복합부위통증증후군 (CRPS Type I)",
-      "세균성 연조직염 (Cellulitis)"
+      "① 구획증후군",
+      "② 볼크만 허혈성 구축",
+      "③ 심부정맥혈전증",
+      "④ 복합부위통증증후군",
+      "⑤ 세균성 연조직염"
     ],
     "correct_option_index": 0,
-    "correct_answer": "급성 구획증후군 (Acute compartment syndrome)",
+    "correct_answer": "① 구획증후군",
     "explanation": {
       "title": "하퇴부 골절 수술 후 발생한 급성 구획증후군(Compartment Syndrome)과 응급 근막절개술",
       "theme_title": "하퇴부 골절 수술 후 발생한 급성 구획증후군(Compartment Syndrome)과 응급 근막절개술",
@@ -199847,7 +199794,8 @@
         "reason": "피부 표재 감염으로 심부 구획 내압 상승 소견이 없습니다."
       }
     ],
-    "answer": "급성 구획증후군 (Acute compartment syndrome)"
+    "answer": "① 구획증후군",
+    "question": "다리 다쳐서 수술함. 수술 다음날부터 다리가 붓고 감각이 사라짐. 진단은?"
   },
   {
     "id": "정형외과_22Y_Q48",
@@ -264282,63 +264230,20 @@
       "D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.",
       "E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다."
     ],
-    "correct_option_index": 0,
-    "correct_answer": "A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다.",
+    "correct_option_index": 1,
+    "correct_answer": "B. 카페인은 600mg 이하로 섭취하는 것이 좋다.",
     "explanation": {
-      "title": "산부인과 임상 증례 및 기출 분석",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 카페인은 600mg 이하로 섭취하는 것이 좋다.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 다태임신에서는 철을 60-100mg을 복용 할 수 있다.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 카페인은 600mg 이하로 섭취하는 것이 좋다.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 다태임신에서는 철을 60-100mg을 복용 할 수 있다.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 카페인은 600mg 이하로 섭취하는 것이 좋다.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 다태임신에서는 철을 60-100mg을 복용 할 수 있다.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 카페인은 600mg 이하로 섭취하는 것이 좋다.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 다태임신에서는 철을 60-100mg을 복용 할 수 있다.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 카페인은 600mg 이하로 섭취하는 것이 좋다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 카페인은 600mg 이하로 섭취하는 것이 좋다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 카페인은 600mg 이하로 섭취하는 것이 좋다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다.에 합당한 특징적 소견이 결여되어 오답입니다.",
-      "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "【산부인과 일반: (야마) 다음 중 틀린 것은?... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 임상 지표: 상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다..\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 중증도 진행 시 상위 침습적 중재술 또는 2차 약제로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 비전형적 증례 또는 절대 금기 조건을 확인하여 오진과 합병증 발생을 예방할 것.",
-      "kmle_link": "KMLE 산부인과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다.",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "B. 카페인은 600mg 이하로 섭취하는 것이 좋다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "카페인은 600mg 이하로 섭취하는 것이 좋다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "다태임신에서는 철을 60-100mg을 복용 할 수 있다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다."
-        }
-      ],
-      "differential_general": "• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 카페인은 600mg 이하로 섭취하는 것이 좋다.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 다태임신에서는 철을 60-100mg을 복용 할 수 있다.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 카페인은 600mg 이하로 섭취하는 것이 좋다.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 다태임신에서는 철을 60-100mg을 복용 할 수 있다.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 카페인은 600mg 이하로 섭취하는 것이 좋다.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 다태임신에서는 철을 60-100mg을 복용 할 수 있다.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. : 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 카페인은 600mg 이하로 섭취하는 것이 좋다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 카페인은 600mg 이하로 섭취하는 것이 좋다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다. ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 카페인은 600mg 이하로 섭취하는 것이 좋다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 카페인은 600mg 이하로 섭취하는 것이 좋다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 다태임신에서는 철을 60-100mg을 복용 할 수 있다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. 임신 시에는 총 1000mg의 철이 필요한 데 이 중 500mg은 모체적혈구량을 증가 시키는 데 사용된다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다.에 합당한 특징적 소견이 결여되어 오답입니다."
+      "title": "임산부 영양 및 복약 관리 기준: 카페인 섭취 상한선(200~300mg/day)",
+      "findings": "임신부의 올바른 영양 섭취 및 기형 예방 수칙 중 잘못된 것을 찾는 문제입니다.",
+      "differential": "• A. 신경관결손 기왕력 시 엽산 4mg ✓ [옳은 설명]: 고위험 산모(이전 NTD 임신력)는 임신 1개월 전부터 임신 12주까지 일반인(0.4mg)의 10배인 4mg/day 엽산 복용이 필수입니다.\n• B. 카페인 600mg 이하 ✗ [틀린 설명/정답]: 임신 중 안전한 카페인 일일 섭취 상한은 200~300mg 이하(커피 1~2잔 분량)이며, 600mg은 자연유산 및 태아 성장지연 위험을 급격히 높입니다.\n• C. 다태임신 철분 60~100mg ✓ [옳은 설명]: 다태임신은 혈액량 증가와 요구량이 커 60~100mg/day 철분 보충이 권장됩니다.\n• D. 총 철분 요구량 1,000mg ✓ [옳은 설명]: 임신 중 모체 적혈구 증가에 약 500mg, 태아 및 태반에 300mg, 기타 손실 200mg으로 총 1,000mg이 필요합니다.\n• E. 비타민 A 10,000 IU 이상 기형 위험 ✓ [옳은 설명]: 과도한 비타민 A는 두개안면 및 중추신경계 기형을 유발할 수 있어 10,000 IU/day 미만으로 제한합니다.",
+      "trap": "일반 산모 엽산은 0.4mg(400μg)이지만 신경관결손 기왕력 산모는 4mg(4000μg)입니다.",
+      "trigger": "【임산부 핵심 영양 수칙】\n• 엽산: 일반 산모 0.4mg/day, NTD 기왕력 고위험군 4.0mg/day\n• 철분: 단태아 30mg/day, 다태아 60~100mg/day (임신 2분기부터 권장)\n• 카페인: 200~300mg/day 이하\n• 비타민 A: 10,000 IU/day 초과 금기",
+      "kmle_link": "KMLE 산부인과 / 산과 / 산전 관리"
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -264390,7 +264295,7 @@
         "reason": "비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다. : 비타민A는 10,000IU 이상 섭취했을 경우 선천성 기형의 위험이 증가하므로 주의해 야 한다."
       }
     ],
-    "answer": "A. 가족 중 신경관 결손이 있으면 엽산을 4mg 복용하면 좋다."
+    "answer": "B. 카페인은 600mg 이하로 섭취하는 것이 좋다."
   },
   {
     "id": "산부인과_19Y_Q06",
@@ -267533,55 +267438,20 @@
       "C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다.",
       "D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다",
+    "correct_option_index": 3,
+    "correct_answer": "D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다",
     "explanation": {
-      "title": "산부인과 임상 증례 및 기출 분석",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 활동성 궤양 출혈, 출혈성 뇌졸중 급성기 또는 중증 혈소판 감소증 환자에서는 출혈 위험을 증폭시키므로 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 양측 신동맥 협착증, 임신, 고칼륨혈증(K > 5.5 mEq/L) 및 혈관부종 기왕력 환자에서는 투여가 금기입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 활동성 궤양 출혈, 출혈성 뇌졸중 급성기 또는 중증 혈소판 감소증 환자에서는 출혈 위험을 증폭시키므로 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 양측 신동맥 협착증, 임신, 고칼륨혈증(K > 5.5 mEq/L) 및 혈관부종 기왕력 환자에서는 투여가 금기입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 활동성 궤양 출혈, 출혈성 뇌졸중 급성기 또는 중증 혈소판 감소증 환자에서는 출혈 위험을 증폭시키므로 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 양측 신동맥 협착증, 임신, 고칼륨혈증(K > 5.5 mEq/L) 및 혈관부종 기왕력 환자에서는 투여가 금기입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 활동성 궤양 출혈, 출혈성 뇌졸중 급성기 또는 중증 혈소판 감소증 환자에서는 출혈 위험을 증폭시키므로 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 양측 신동맥 협착증, 임신, 고칼륨혈증(K > 5.5 mEq/L) 및 혈관부종 기왕력 환자에서는 투여가 금기입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ : 활동성 출혈 병변이나 출혈성 뇌졸중 급성기에는 투여가 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ : 양측 신동맥 협착증, 임신, 고칼륨혈증(K > 5.5 mEq/L) 및 혈관부종 기왕력 환자에서는 투여가 금기입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ : 활동성 출혈 병변이나 출혈성 뇌졸중 급성기에는 투여가 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 양측 신동맥 협착증, 임신, 고칼륨혈증(K > 5.5 mEq/L) 및 혈관부종 기왕력 환자에서는 투여가 금기입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 활동성 출혈 병변이나 출혈성 뇌졸중 급성기에는 투여가 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 활동성 출혈 병변이나 출혈성 뇌졸중 급성기에는 투여가 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 활동성 출혈 병변이나 출혈성 뇌졸중 급성기에는 투여가 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다에 합당한 특징적 소견이 결여되어 오답입니다.",
-      "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "【산부인과 일반: (야마) 임신 중 고혈압에 대해서 옳지 않은 것 은?... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 임상 지표: 상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다.\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 중증도 진행 시 상위 침습적 중재술 또는 2차 약제로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 비전형적 증례 또는 절대 금기 조건을 확인하여 오진과 합병증 발생을 예방할 것.",
-      "kmle_link": "KMLE 산부인과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "활동성 궤양 출혈, 출혈성 뇌졸중 급성기 또는 중증 혈소판 감소증 환자에서는 출혈 위험을 증폭시키므로 금기입니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "양측 신동맥 협착증, 임신, 고칼륨혈증(K > 5.5 mEq/L) 및 혈관부종 기왕력 환자에서는 투여가 금기입니다."
-        }
-      ],
-      "differential_general": "• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 활동성 궤양 출혈, 출혈성 뇌졸중 급성기 또는 중증 혈소판 감소증 환자에서는 출혈 위험을 증폭시키므로 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 양측 신동맥 협착증, 임신, 고칼륨혈증(K > 5.5 mEq/L) 및 혈관부종 기왕력 환자에서는 투여가 금기입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 활동성 궤양 출혈, 출혈성 뇌졸중 급성기 또는 중증 혈소판 감소증 환자에서는 출혈 위험을 증폭시키므로 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 양측 신동맥 협착증, 임신, 고칼륨혈증(K > 5.5 mEq/L) 및 혈관부종 기왕력 환자에서는 투여가 금기입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. : 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 활동성 궤양 출혈, 출혈성 뇌졸중 급성기 또는 중증 혈소판 감소증 환자에서는 출혈 위험을 증폭시키므로 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 양측 신동맥 협착증, 임신, 고칼륨혈증(K > 5.5 mEq/L) 및 혈관부종 기왕력 환자에서는 투여가 금기입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ : 활동성 출혈 병변이나 출혈성 뇌졸중 급성기에는 투여가 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ : 양측 신동맥 협착증, 임신, 고칼륨혈증(K > 5.5 mEq/L) 및 혈관부종 기왕력 환자에서는 투여가 금기입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ : 활동성 출혈 병변이나 출혈성 뇌졸중 급성기에는 투여가 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 양측 신동맥 협착증, 임신, 고칼륨혈증(K > 5.5 mEq/L) 및 혈관부종 기왕력 환자에서는 투여가 금기입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 활동성 출혈 병변이나 출혈성 뇌졸중 급성기에는 투여가 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 활동성 출혈 병변이나 출혈성 뇌졸중 급성기에는 투여가 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다 ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. 혈관 내피의 파괴에 의해 혈소판과 피브 린이 침착되어 hemolysis가 나타난다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 저용량 아스피린을 추가하면 전자간증으 로의 진행을 예방할 수 있다. ✗ [오답]: 활동성 출혈 병변이나 출혈성 뇌졸중 급성기에는 투여가 금기입니다.\n• ④ D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다에 합당한 특징적 소견이 결여되어 오답입니다."
+      "title": "임신 중 고혈압 치료 약제 및 금기 약물: ACE inhibitor 절대 금기",
+      "findings": "임신성 고혈압 질환의 병태생리와 치료 약물 중 금기 약제를 묻는 문제입니다.",
+      "differential": "• A. 태반조기박리 위험 증가 ✓ [옳은 설명]: 고혈압은 태반 혈관의 나선동맥 경색을 일으켜 태반조기박리 빈도를 3배 이상 증가시킵니다.\n• B. 미세혈관병성 용혈 ✓ [옳은 설명]: 전자간증의 중증 소견으로 혈관내피 손상과 혈소판/피브린 침착에 의한 용혈성 빈혈(HELLP 증후군)이 동반됩니다.\n• C. 저용량 아스피린 예방 ✓ [옳은 설명]: 고위험 산모에서 임신 12~16주경부터 저용량 아스피린(81~150mg)을 투여하면 전자간증 발생률을 크게 낮춥니다.\n• D. ACE 억제제 사용 ✗ [틀린 설명/정답]: ACE inhibitor 및 ARB는 태아의 신기능 부전, 양수과소증, 두개골 저형성, 태아 사망을 유발하므로 임신 전 기간 절대 금기(Class X/D)입니다.",
+      "trap": "임신 중 사용 가능한 대표적인 강압제는 Labetalol, Hydralazine, Nifedipine, Methyldopa입니다. ACEi/ARB는 절대로 쓰면 안 됩니다.",
+      "trigger": "【임신 중 고혈압 약제 사용 원칙】\n• 허용 약제: Labetalol, Hydralazine, oral Nifedipine, Methyldopa\n• 절대 금기: ACEi, ARB (태아 신장 무형성/양수과소증)",
+      "kmle_link": "KMLE 산부인과 / 산과 / 임신성 고혈압 질환"
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      3
     ],
     "freq_count": 5,
     "rate": 83,
@@ -267633,7 +267503,7 @@
         "reason": "양측 신동맥 협착증, 임신, 고칼륨혈증(K > 5.5 mEq/L) 및 혈관부종 기왕력 환자에서는 투여가 금기입니다."
       }
     ],
-    "answer": "A. 산모의 혈압이 높은 경우 태반조기박리가 3배 증가한다"
+    "answer": "D. 혈압을 낮추기 위해 ACE inhibitor를 사용 한다"
   },
   {
     "id": "산부인과_19Y_Q36",
@@ -271647,63 +271517,20 @@
       "D. Modified radical hysterectomy with pelvic lymph node dissection",
       "E. Radical hysterectomy with pelvic lymph node dissection"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다.",
+    "correct_option_index": 4,
+    "correct_answer": "E. Radical hysterectomy with pelvic lymph node dissection",
     "explanation": {
-      "title": "산부인과 임상 증례 및 기출 분석",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Simple hysterectomy ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 다시 laser conization을 한다.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Simple hysterectomy ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 다시 laser conization을 한다.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Simple hysterectomy ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 다시 laser conization을 한다.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Simple hysterectomy ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 다시 laser conization을 한다.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Simple hysterectomy ✗ [오답]: Simple hysterectomy ✗ : 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 다시 laser conization을 한다. ✗.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: Modified radical hysterectomy with pelvic lymph node dissection ✗ : 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: Radical hysterectomy with pelvic lymph node dissection ✗ : 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Simple hysterectomy ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. Simple hysterectomy ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. Simple hysterectomy에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 다시 laser conization을 한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. Modified radical hysterectomy with pelvic lymph node dissection에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. Radical hysterectomy with pelvic lymph node dissection에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. Simple hysterectomy ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. Simple hysterectomy에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 다시 laser conization을 한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. Modified radical hysterectomy with pelvic lymph node dissection에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. Radical hysterectomy with pelvic lymph node dissection에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. Simple hysterectomy ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. Simple hysterectomy에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 다시 laser conization을 한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. Modified radical hysterectomy with pelvic lymph node dissection에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. Radical hysterectomy with pelvic lymph node dissection에 합당한 특징적 소견이 결여되어 오답입니다.",
-      "trap": "임상적 함정: 유사 질환의 비전형적 양상 및 치료 금기 사항을 주의하십시오.",
-      "trigger": "【산부인과 일반: (야마) 산과력 3-0-4-3인 53세 여성이 성교 후... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 임상 지표: 상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다..\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 중증도 진행 시 상위 침습적 중재술 또는 2차 약제로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 비전형적 증례 또는 절대 금기 조건을 확인하여 오진과 합병증 발생을 예방할 것.",
-      "kmle_link": "KMLE 산부인과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [
-        {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다.",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "B. Simple hysterectomy",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "C. 다시 laser conization을 한다.",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "다시 laser conization을 한다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "D. Modified radical hysterectomy with pelvic lymph node dissection",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "E. Radical hysterectomy with pelvic lymph node dissection",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다."
-        }
-      ],
-      "differential_general": "• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Simple hysterectomy ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 다시 laser conization을 한다.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Simple hysterectomy ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 다시 laser conization을 한다.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Simple hysterectomy ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 다시 laser conization을 한다.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ : 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Simple hysterectomy ✗ [오답]: Simple hysterectomy ✗ : 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 다시 laser conization을 한다. ✗.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: Modified radical hysterectomy with pelvic lymph node dissection ✗ : 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: Radical hysterectomy with pelvic lymph node dissection ✗ : 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ : [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② B. Simple hysterectomy ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. Simple hysterectomy ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. Simple hysterectomy에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 다시 laser conization을 한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. Modified radical hysterectomy with pelvic lymph node dissection에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. Radical hysterectomy with pelvic lymph node dissection에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. Simple hysterectomy ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. Simple hysterectomy에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 다시 laser conization을 한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. Modified radical hysterectomy with pelvic lymph node dissection에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. Radical hysterectomy with pelvic lymph node dissection에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다. ✓ [정답]: [산부인과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② B. Simple hysterectomy ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, B. Simple hysterectomy에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ C. 다시 laser conization을 한다. ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, C. 다시 laser conization을 한다.에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ D. Modified radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, D. Modified radical hysterectomy with pelvic lymph node dissection에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ E. Radical hysterectomy with pelvic lymph node dissection ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, E. Radical hysterectomy with pelvic lymph node dissection에 합당한 특징적 소견이 결여되어 오답입니다."
+      "title": "침윤성 자궁경부암 Stage IB1(종괴 2cm)의 표준 수술 치료",
+      "findings": "자궁경부에 국한된 2cm 크기의 침윤성 편평세포암(FIGO 2018 병기 IB1) 환자의 1차 근치적 수술 치료법을 선택하는 문제입니다.",
+      "differential": "• A. 추적 관찰 ✗ [오답]: 2cm 크기의 침윤암이 확인되었으므로 적극적 근치 치료가 필수적입니다.\n• B. 단순 자궁적출술 ✗ [오답]: 단순 자궁적출술은 미세침윤암(Stage IA1)에만 적용되며 IB기에서는 재발률이 극히 높습니다.\n• C. 레이저 원추절제술 ✗ [오답]: 침윤 깊이와 종양 크기(2cm)로 볼 때 원추절제술로 완전 절제가 불가능합니다.\n• D. 변형 광범위 자궁절제술 ✗ [오답]: 파라메트륨(자궁방조직)을 충분히 절제하지 못합니다.\n• E. 광범위 자궁적출술 및 골반 림프절 절제술 ✓ [정답]: Stage IB1 자궁경부암의 표준 치료는 광범위 자궁적출술(Radical hysterectomy)과 골반 림프절 곽청술(Pelvic lymphadenectomy)입니다.",
+      "trap": "임신을 원하지 않는 53세 폐경 환자의 Stage IB1 경부암에서는 가임력 보존(trachelectomy)이 필요 없으므로 Radical hysterectomy + pelvic LND가 골드 스탠다드입니다.",
+      "trigger": "자궁경부암 IB1 병기(침윤 깊이 >5mm, 직경 ≤2cm)의 표준 치료 → Radical hysterectomy with pelvic lymph node dissection.",
+      "kmle_link": "KMLE 산부인과 / 부인암 / 자궁경부암의 병기 및 치료"
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      4
     ],
     "freq_count": 6,
     "rate": 100,
@@ -271768,7 +271595,7 @@
         "reason": "가임력을 보존하고자 하는 젊은 여성의 초기 질환이나 단순 기능성 자궁출혈에서는 우선적으로 약물 및 보존 수술이 시도됩니다."
       }
     ],
-    "answer": "A. 원추 절제술을 이미 시행했으므로 추가 치료 없이 정기적인 추적 관찰만 시행한 다."
+    "answer": "E. Radical hysterectomy with pelvic lymph node dissection"
   },
   {
     "id": "산부인과_19Y_Q75",

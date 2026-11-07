@@ -859,7 +859,7 @@
   async function loadQuestions() {
     if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
       try {
-        const res = await fetch('data/quiz_all_subjects.json?v=20261107v26', { cache: 'no-cache' });
+        const res = await fetch('data/quiz_all_subjects.json?v=20261107v27', { cache: 'no-cache' });
         if (res.ok) {
           const freshData = await res.json();
           if (Array.isArray(freshData) && freshData.length > 0) {
@@ -3272,7 +3272,41 @@
     '정형외과_23Y_Q48',
     '정형외과_23Y_Q49',
     '정형외과_23Y_Q52',
-    '정형외과_23Y_Q54'
+    '정형외과_23Y_Q54',
+    '정형외과_22Y_Q01',
+    '정형외과_22Y_Q02',
+    '정형외과_22Y_Q04',
+    '정형외과_22Y_Q05',
+    '정형외과_22Y_Q06',
+    '정형외과_22Y_Q08',
+    '정형외과_22Y_Q09',
+    '정형외과_22Y_Q10',
+    '정형외과_22Y_Q12',
+    '정형외과_22Y_Q28',
+    '정형외과_22Y_Q29',
+    '정형외과_22Y_Q31',
+    '정형외과_22Y_Q32',
+    '정형외과_22Y_Q33',
+    '정형외과_22Y_Q38',
+    '정형외과_22Y_Q39',
+    '정형외과_22Y_Q47',
+    '정신건강의학과_19Y_Q04',
+    '정신건강의학과_19Y_Q08',
+    '정신건강의학과_19Y_Q19',
+    '정신건강의학과_19Y_Q22',
+    '정신건강의학과_19Y_Q35',
+    '정신건강의학과_21Y_Q38',
+    '신경과_22Y_Q09',
+    '신경과_22Y_Q32',
+    '신경과_22Y_Q37',
+    '신경과_21Y_Q06',
+    '신경과_21Y_Q17',
+    '신경과_19Y_Q02',
+    '신경과_19Y_Q17',
+    '신경과_19Y_Q36',
+    '산부인과_19Y_Q05',
+    '산부인과_19Y_Q35',
+    '산부인과_19Y_Q74'
   ]);
 
   function applyCustomEdits() {
