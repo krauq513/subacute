@@ -857,6 +857,23 @@
    * Load Question Data
    */
   async function loadQuestions() {
+    if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
+      try {
+        const res = await fetch('data/quiz_all_subjects.json?v=20261107v23', { cache: 'no-cache' });
+        if (res.ok) {
+          const freshData = await res.json();
+          if (Array.isArray(freshData) && freshData.length > 0) {
+            state.allQuestions = freshData;
+            window.QUIZ_DATA = freshData;
+            applyCustomEdits();
+            return;
+          }
+        }
+      } catch (fetchErr) {
+        console.warn('Fresh JSON fetch skipped, falling back to window.QUIZ_DATA:', fetchErr);
+      }
+    }
+
     if (window.QUIZ_DATA && Array.isArray(window.QUIZ_DATA) && window.QUIZ_DATA.length > 0) {
       state.allQuestions = window.QUIZ_DATA;
       applyCustomEdits();
@@ -3247,7 +3264,15 @@
     '소아청소년과_22Y_Q40',
     '소아청소년과_22Y_Q47',
     '소아청소년과_22Y_Q48',
-    '소아청소년과_22Y_Q49'
+    '소아청소년과_22Y_Q49',
+    '정형외과_23Y_Q06',
+    '정형외과_23Y_Q35',
+    '정형외과_23Y_Q42',
+    '정형외과_23Y_Q45',
+    '정형외과_23Y_Q48',
+    '정형외과_23Y_Q49',
+    '정형외과_23Y_Q52',
+    '정형외과_23Y_Q54'
   ]);
 
   function applyCustomEdits() {
