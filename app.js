@@ -278,6 +278,22 @@
     btnPdfExternal: document.getElementById('btn-pdf-external'),
     pdfMobileBanner: document.getElementById('pdf-mobile-banner'),
     btnPdfMobileOpen: document.getElementById('btn-pdf-mobile-open'),
+    pdfCanvasViewer: document.getElementById('pdf-canvas-viewer'),
+    pdfCanvasToolbar: document.getElementById('pdf-canvas-toolbar'),
+    pdfCanvasPages: document.getElementById('pdf-canvas-pages'),
+    pdfCanvasScrollContainer: document.getElementById('pdf-canvas-scroll-container'),
+    pdfCanvasLoading: document.getElementById('pdf-canvas-loading'),
+    pdfLoadingText: document.getElementById('pdf-loading-text'),
+    btnPdfPrevPage: document.getElementById('btn-pdf-prev-page'),
+    btnPdfNextPage: document.getElementById('btn-pdf-next-page'),
+    pdfPageIndicator: document.getElementById('pdf-page-indicator'),
+    btnPdfZoomIn: document.getElementById('btn-pdf-zoom-in'),
+    btnPdfZoomOut: document.getElementById('btn-pdf-zoom-out'),
+    btnPdfZoomFit: document.getElementById('btn-pdf-zoom-fit'),
+    pdfZoomLevel: document.getElementById('pdf-zoom-level'),
+    btnPdfModeToggle: document.getElementById('btn-pdf-mode-toggle'),
+    btnPdfModeIcon: document.getElementById('btn-pdf-mode-icon'),
+    btnPdfModeLabel: document.getElementById('btn-pdf-mode-label'),
     btnPdfDownload: document.getElementById('btn-pdf-download'),
     pdfFrame: document.getElementById('pdf-frame'),
     pdfEmptyState: document.getElementById('pdf-empty-state'),
@@ -859,7 +875,7 @@
   async function loadQuestions() {
     if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
       try {
-        const res = await fetch('data/quiz_all_subjects.json?v=20261107v28', { cache: 'no-cache' });
+        const res = await fetch('data/quiz_all_subjects.json?v=20261107v29', { cache: 'no-cache' });
         if (res.ok) {
           const freshData = await res.json();
           if (Array.isArray(freshData) && freshData.length > 0) {
@@ -3886,11 +3902,41 @@
     }
   };
 
+  const STORAGE_KEY_PDF_MODE = 'KMLE_PDF_VIEWER_MODE_V1';
+
+  function isTabletOrMobileDevice() {
+    const ua = navigator.userAgent || '';
+    const isAndroid = /Android|SamsungBrowser/i.test(ua);
+    const isIOS = /iPhone|iPad|iPod/i.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    const isMobileUa = /webOS|BlackBerry|IEMobile|Opera Mini|Mobile/i.test(ua);
+    const hasTouch = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
+    const noPdfPlugin = !navigator.pdfViewerEnabled;
+    return isAndroid || isIOS || isMobileUa || (hasTouch && window.innerWidth <= 1366) || noPdfPlugin;
+  }
+
   let currentPdfState = {
     subject: '내과',
     year: '26Y',
     url: ''
   };
+
+  const pdfJsState = {
+    pdfDoc: null,
+    currentUrl: null,
+    currentScale: 1.0,
+    fitScale: 1.0,
+    currentPage: 1,
+    totalPages: 1,
+    pageContainers: [],
+    pageRenderTasks: {},
+    observer: null,
+    isLoading: false,
+    viewerMode: localStorage.getItem(STORAGE_KEY_PDF_MODE) || (isTabletOrMobileDevice() ? 'canvas' : 'iframe')
+  };
+
+  if (window.pdfjsLib) {
+    window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'vendor/pdfjs/pdf.worker.min.js';
+  }
 
   function getPdfManifest() {
     return window.PDF_MANIFEST || DEFAULT_PDF_MANIFEST;
@@ -3929,6 +3975,229 @@
     }
   }
 
+  function updatePdfModeToggleUI() {
+    if (!dom.btnPdfModeLabel || !dom.btnPdfModeIcon) return;
+    if (pdfJsState.viewerMode === 'canvas') {
+      dom.btnPdfModeIcon.textContent = '📱';
+      dom.btnPdfModeLabel.textContent = '태블릿 뷰어';
+      if (dom.btnPdfModeToggle) {
+        dom.btnPdfModeToggle.title = '현재 태블릿 고화질 캔버스 모드 (클릭 시 브라우저 내장 뷰어로 전환)';
+        dom.btnPdfModeToggle.classList.add('active');
+      }
+    } else {
+      dom.btnPdfModeIcon.textContent = '💻';
+      dom.btnPdfModeLabel.textContent = '브라우저 뷰어';
+      if (dom.btnPdfModeToggle) {
+        dom.btnPdfModeToggle.title = '현재 브라우저 기본 내장 모드 (클릭 시 태블릿 캔버스 뷰어로 전환)';
+        dom.btnPdfModeToggle.classList.remove('active');
+      }
+    }
+  }
+
+  function togglePdfViewerMode() {
+    const nextMode = pdfJsState.viewerMode === 'canvas' ? 'iframe' : 'canvas';
+    pdfJsState.viewerMode = nextMode;
+    try {
+      localStorage.setItem(STORAGE_KEY_PDF_MODE, nextMode);
+    } catch (e) {}
+    updatePdfModeToggleUI();
+    if (currentPdfState.url) {
+      loadPdfInViewer(currentPdfState.subject, currentPdfState.year);
+    }
+  }
+
+  function updatePdfPageIndicator() {
+    if (dom.pdfPageIndicator) {
+      dom.pdfPageIndicator.textContent = `${pdfJsState.currentPage} / ${pdfJsState.totalPages || 1}`;
+    }
+    if (dom.pdfZoomLevel) {
+      dom.pdfZoomLevel.textContent = `${Math.round(pdfJsState.currentScale * 100)}%`;
+    }
+  }
+
+  async function renderSinglePdfPage(pageNum) {
+    if (!pdfJsState.pdfDoc) return;
+    const container = pdfJsState.pageContainers[pageNum - 1];
+    if (!container || container.dataset.rendered === 'true') return;
+
+    const canvas = container.querySelector('canvas');
+    if (!canvas) return;
+
+    try {
+      // Cancel previous render task for this page if any
+      if (pdfJsState.pageRenderTasks[pageNum]) {
+        pdfJsState.pageRenderTasks[pageNum].cancel();
+      }
+
+      const page = await pdfJsState.pdfDoc.getPage(pageNum);
+      const viewport = page.getViewport({ scale: pdfJsState.currentScale });
+      const outputScale = window.devicePixelRatio || 1;
+
+      canvas.width = Math.floor(viewport.width * outputScale);
+      canvas.height = Math.floor(viewport.height * outputScale);
+      canvas.style.width = `${Math.floor(viewport.width)}px`;
+      canvas.style.height = `${Math.floor(viewport.height)}px`;
+
+      const ctx = canvas.getContext('2d');
+      const transform = outputScale !== 1 ? [outputScale, 0, 0, outputScale, 0, 0] : null;
+
+      const renderContext = {
+        canvasContext: ctx,
+        transform: transform,
+        viewport: viewport
+      };
+
+      const renderTask = page.render(renderContext);
+      pdfJsState.pageRenderTasks[pageNum] = renderTask;
+      await renderTask.promise;
+      delete pdfJsState.pageRenderTasks[pageNum];
+      container.dataset.rendered = 'true';
+    } catch (err) {
+      if (err && err.name !== 'RenderingCancelledException') {
+        console.warn(`PDF page ${pageNum} render error:`, err);
+      }
+    }
+  }
+
+  async function renderAllPdfCanvasPages(scale = null) {
+    if (!pdfJsState.pdfDoc || !dom.pdfCanvasPages) return;
+
+    if (scale) {
+      pdfJsState.currentScale = scale;
+    }
+
+    // Cancel all active page render tasks
+    Object.keys(pdfJsState.pageRenderTasks).forEach(k => {
+      try { pdfJsState.pageRenderTasks[k].cancel(); } catch (e) {}
+    });
+    pdfJsState.pageRenderTasks = {};
+
+    updatePdfPageIndicator();
+
+    // Mark all as needing re-render at new scale
+    pdfJsState.pageContainers.forEach((container, idx) => {
+      container.dataset.rendered = 'false';
+    });
+
+    // Render currently visible pages first, then rest
+    const current = pdfJsState.currentPage || 1;
+    const renderOrder = [current];
+    for (let offset = 1; offset <= pdfJsState.totalPages; offset++) {
+      if (current - offset >= 1) renderOrder.push(current - offset);
+      if (current + offset <= pdfJsState.totalPages) renderOrder.push(current + offset);
+    }
+
+    for (const pNum of renderOrder) {
+      await renderSinglePdfPage(pNum);
+    }
+  }
+
+  async function loadPdfWithPdfJs(fileUrl) {
+    if (!window.pdfjsLib) {
+      console.warn('PDF.js library not loaded, falling back to iframe');
+      if (dom.pdfFrame) {
+        dom.pdfFrame.style.display = 'block';
+        dom.pdfFrame.src = fileUrl;
+      }
+      if (dom.pdfCanvasViewer) dom.pdfCanvasViewer.style.display = 'none';
+      return;
+    }
+
+    if (dom.pdfCanvasLoading) dom.pdfCanvasLoading.style.display = 'flex';
+    if (dom.pdfCanvasPages) dom.pdfCanvasPages.innerHTML = '';
+    pdfJsState.pageContainers = [];
+
+    try {
+      const loadingTask = window.pdfjsLib.getDocument({
+        url: fileUrl,
+        cMapPacked: true
+      });
+      const pdfDoc = await loadingTask.promise;
+      pdfJsState.pdfDoc = pdfDoc;
+      pdfJsState.currentUrl = fileUrl;
+      pdfJsState.totalPages = pdfDoc.numPages;
+      pdfJsState.currentPage = 1;
+
+      // Calculate initial fit scale
+      const firstPage = await pdfDoc.getPage(1);
+      const unscaledViewport = firstPage.getViewport({ scale: 1.0 });
+      const containerWidth = (dom.pdfCanvasScrollContainer ? dom.pdfCanvasScrollContainer.clientWidth : window.innerWidth) - 36;
+      const calculatedFit = Math.min(Math.max((containerWidth / unscaledViewport.width), 0.55), 2.5);
+      pdfJsState.fitScale = calculatedFit;
+      pdfJsState.currentScale = calculatedFit;
+
+      // Build page card skeletons
+      const frag = document.createDocumentFragment();
+      for (let i = 1; i <= pdfDoc.numPages; i++) {
+        const pageCard = document.createElement('div');
+        pageCard.className = 'pdf-page-card';
+        pageCard.id = `pdf-page-card-${i}`;
+        pageCard.dataset.page = String(i);
+        pageCard.dataset.rendered = 'false';
+
+        const badge = document.createElement('div');
+        badge.className = 'pdf-page-badge';
+        badge.textContent = `${i} / ${pdfDoc.numPages}`;
+        pageCard.appendChild(badge);
+
+        const canvas = document.createElement('canvas');
+        canvas.className = 'pdf-page-canvas';
+        pageCard.appendChild(canvas);
+
+        frag.appendChild(pageCard);
+        pdfJsState.pageContainers.push(pageCard);
+      }
+      dom.pdfCanvasPages.appendChild(frag);
+
+      // Setup IntersectionObserver for auto page indicator tracking
+      if (pdfJsState.observer) {
+        pdfJsState.observer.disconnect();
+      }
+      pdfJsState.observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+            const pNum = parseInt(entry.target.dataset.page, 10);
+            if (pNum) {
+              pdfJsState.currentPage = pNum;
+              updatePdfPageIndicator();
+            }
+          }
+        });
+      }, {
+        root: dom.pdfCanvasScrollContainer,
+        threshold: [0.1, 0.5, 0.8]
+      });
+
+      pdfJsState.pageContainers.forEach(card => {
+        pdfJsState.observer.observe(card);
+      });
+
+      // Render pages
+      if (dom.pdfCanvasLoading) dom.pdfCanvasLoading.style.display = 'none';
+      await renderAllPdfCanvasPages(pdfJsState.currentScale);
+    } catch (err) {
+      console.error('Failed to load PDF via PDF.js:', err);
+      if (dom.pdfCanvasLoading) dom.pdfCanvasLoading.style.display = 'none';
+      // Graceful fallback to native iframe
+      if (dom.pdfCanvasViewer) dom.pdfCanvasViewer.style.display = 'none';
+      if (dom.pdfFrame) {
+        dom.pdfFrame.style.display = 'block';
+        dom.pdfFrame.src = fileUrl;
+      }
+    }
+  }
+
+  function scrollToPdfPage(pageNum) {
+    if (!pdfJsState.pageContainers || pdfJsState.pageContainers.length === 0) return;
+    const target = Math.max(1, Math.min(pageNum, pdfJsState.totalPages));
+    const card = pdfJsState.pageContainers[target - 1];
+    if (card && dom.pdfCanvasScrollContainer) {
+      card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      pdfJsState.currentPage = target;
+      updatePdfPageIndicator();
+    }
+  }
+
   function loadPdfInViewer(subject, year, qNumHint = null) {
     const manifest = getPdfManifest();
     const subjectFiles = manifest[subject];
@@ -3942,29 +4211,9 @@
       dom.pdfActiveDocBadge.textContent = `${subject} · ${year}`;
     }
 
-    const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768;
-
-    if (dom.pdfMobileBanner) {
-      dom.pdfMobileBanner.style.display = (fileUrl && isMobileDevice) ? 'flex' : 'none';
-    }
+    updatePdfModeToggleUI();
 
     if (fileUrl) {
-      if (dom.pdfFrame) {
-        dom.pdfFrame.style.display = 'block';
-        if (isMobileDevice && (window.location.protocol === 'http:' || window.location.protocol === 'https:')) {
-          // Mobile Web: Embed Google Docs Touch PDF Viewer to allow scrolling & avoid forced auto-download
-          const fullPdfUrl = new URL(fileUrl, window.location.href).href;
-          const gviewUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(fullPdfUrl)}&embedded=true`;
-          if (!dom.pdfFrame.src.includes(encodeURIComponent(fullPdfUrl))) {
-            dom.pdfFrame.src = gviewUrl;
-          }
-        } else {
-          // PC Desktop or local file mode: keep original crisp high-performance browser native PDF view
-          if (!dom.pdfFrame.src.endsWith(fileUrl)) {
-            dom.pdfFrame.src = fileUrl;
-          }
-        }
-      }
       if (dom.pdfEmptyState) {
         dom.pdfEmptyState.style.display = 'none';
       }
@@ -3977,17 +4226,47 @@
         dom.btnPdfDownload.setAttribute('download', `${subject}_${year}_기말고사_원본.pdf`);
         dom.btnPdfDownload.style.display = 'inline-flex';
       }
+      if (dom.pdfMobileBanner) {
+        dom.pdfMobileBanner.style.display = 'none'; // Replaced by native inline canvas viewer
+      }
+
+      if (pdfJsState.viewerMode === 'canvas') {
+        // High-DPI Canvas Viewer (PDF.js: Zero download required on Samsung Tablet / Mobile)
+        if (dom.pdfFrame) {
+          dom.pdfFrame.style.display = 'none';
+          dom.pdfFrame.src = 'about:blank'; // Prevent Samsung Internet from triggering file download
+        }
+        if (dom.pdfCanvasViewer) {
+          dom.pdfCanvasViewer.style.display = 'flex';
+        }
+        loadPdfWithPdfJs(fileUrl);
+      } else {
+        // Desktop Native Browser View (Iframe plugin)
+        if (dom.pdfCanvasViewer) {
+          dom.pdfCanvasViewer.style.display = 'none';
+        }
+        if (dom.pdfFrame) {
+          dom.pdfFrame.style.display = 'block';
+          if (!dom.pdfFrame.src.endsWith(fileUrl)) {
+            dom.pdfFrame.src = fileUrl;
+          }
+        }
+      }
+
       if (dom.pdfStatusDesc) {
         if (qNumHint) {
-          dom.pdfStatusDesc.innerHTML = `<strong>${subject} ${year} (현재 문항: ${qNumHint})</strong> 시험지입니다. 브라우저 PDF 검색(<strong>Ctrl + F</strong>)으로 문항 번호나 키워드를 바로 찾을 수 있습니다.`;
+          dom.pdfStatusDesc.innerHTML = `<strong>${subject} ${year} (현재 문항: ${qNumHint})</strong> 시험지입니다. 핀치 줌으로 확대하여 볼 수 있습니다.`;
         } else {
-          dom.pdfStatusDesc.innerHTML = `<strong>${subject} ${year}</strong> 학년말고사 원본 시험지입니다. <strong>Ctrl + F</strong>로 문제 번호나 키워드를 검색하세요.`;
+          dom.pdfStatusDesc.innerHTML = `<strong>${subject} ${year}</strong> 학년말고사 원본 시험지입니다.`;
         }
       }
     } else {
       if (dom.pdfFrame) {
         dom.pdfFrame.style.display = 'none';
         dom.pdfFrame.src = 'about:blank';
+      }
+      if (dom.pdfCanvasViewer) {
+        dom.pdfCanvasViewer.style.display = 'none';
       }
       if (dom.pdfEmptyState) {
         dom.pdfEmptyState.style.display = 'flex';
@@ -4059,6 +4338,14 @@
     if (dom.pdfModal && dom.pdfModal.open) {
       dom.pdfModal.close();
     }
+    // Cancel render tasks and free memory
+    if (pdfJsState.observer) {
+      pdfJsState.observer.disconnect();
+    }
+    Object.keys(pdfJsState.pageRenderTasks).forEach(k => {
+      try { pdfJsState.pageRenderTasks[k].cancel(); } catch (e) {}
+    });
+    pdfJsState.pageRenderTasks = {};
   }
 
   /**
@@ -4556,6 +4843,42 @@
         if (currentPdfState.url) {
           window.open(currentPdfState.url, '_blank');
         }
+      });
+    }
+
+    // Mode Toggle Button (Canvas vs Iframe)
+    if (dom.btnPdfModeToggle) {
+      dom.btnPdfModeToggle.addEventListener('click', () => {
+        togglePdfViewerMode();
+      });
+    }
+
+    // PDF Canvas Toolbar Controls
+    if (dom.btnPdfPrevPage) {
+      dom.btnPdfPrevPage.addEventListener('click', () => {
+        scrollToPdfPage(pdfJsState.currentPage - 1);
+      });
+    }
+    if (dom.btnPdfNextPage) {
+      dom.btnPdfNextPage.addEventListener('click', () => {
+        scrollToPdfPage(pdfJsState.currentPage + 1);
+      });
+    }
+    if (dom.btnPdfZoomIn) {
+      dom.btnPdfZoomIn.addEventListener('click', () => {
+        const nextScale = Math.min(pdfJsState.currentScale + 0.2, 3.0);
+        renderAllPdfCanvasPages(nextScale);
+      });
+    }
+    if (dom.btnPdfZoomOut) {
+      dom.btnPdfZoomOut.addEventListener('click', () => {
+        const nextScale = Math.max(pdfJsState.currentScale - 0.2, 0.5);
+        renderAllPdfCanvasPages(nextScale);
+      });
+    }
+    if (dom.btnPdfZoomFit) {
+      dom.btnPdfZoomFit.addEventListener('click', () => {
+        renderAllPdfCanvasPages(pdfJsState.fitScale || 1.0);
       });
     }
 
