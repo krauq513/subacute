@@ -859,7 +859,7 @@
   async function loadQuestions() {
     if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
       try {
-        const res = await fetch('data/quiz_all_subjects.json?v=20261107v27', { cache: 'no-cache' });
+        const res = await fetch('data/quiz_all_subjects.json?v=20261107v28', { cache: 'no-cache' });
         if (res.ok) {
           const freshData = await res.json();
           if (Array.isArray(freshData) && freshData.length > 0) {
@@ -3306,7 +3306,44 @@
     '신경과_19Y_Q36',
     '산부인과_19Y_Q05',
     '산부인과_19Y_Q35',
-    '산부인과_19Y_Q74'
+    '산부인과_19Y_Q74',
+    '진단검사의학과_22Y_Q16',
+    '진단검사의학과_22Y_Q22',
+    '진단검사의학과_22Y_Q27',
+    '진단검사의학과_21Y_수혈_Q04',
+    '진단검사의학과_21Y_수혈_Q06',
+    '내과_22Y_Q04',
+    '내과_22Y_Q17',
+    '내과_22Y_Q21',
+    '내과_22Y_Q26',
+    '내과_22Y_Q58',
+    '내과_21Y_Q09',
+    '내과_21Y_Q19',
+    '내과_20Y_Q25',
+    '내과_20Y_Q32',
+    '외과_22Y_Q02',
+    '외과_22Y_Q07',
+    '외과_19Y_Q11',
+    '소아청소년과_22Y_Q13',
+    '소아청소년과_22Y_Q37',
+    '소아청소년과_22Y_Q20',
+    '소아청소년과_22Y_Q22',
+    '소아청소년과_20Y_Q32',
+    '소아청소년과_20Y_Q40',
+    '신경과_20Y_Q17',
+    '신경과_19Y_Q14',
+    '영상의학과_20Y_Q40',
+    '산부인과_22Y_Q16',
+    '산부인과_22Y_Q20',
+    '산부인과_20Y_부인과_Q23',
+    '산부인과_19Y_Q13',
+    '산부인과_19Y_Q36',
+    '산부인과_19Y_Q44',
+    '산부인과_19Y_Q50',
+    '산부인과_19Y_Q57',
+    '산부인과_19Y_Q75',
+    '산부인과_19Y_Q80',
+    '산부인과_19Y_Q91'
   ]);
 
   function applyCustomEdits() {

@@ -14331,17 +14331,17 @@
     "category": "탈",
     "theme_title": "그물적혈구(Reticulocyte) 평가와 다염성(Polychromasia)의 관계",
     "subspecialty": "진단혈액학",
-    "stem": "(21 계통Y) 그물적혈구에 관한 설명으로 옳은 것은? Immature reticulocyte fraction (IRF)는",
+    "stem": "(21 계통Y) 그물적혈구(Reticulocyte)에 관한 설명으로 옳은 것은?",
     "images": [],
     "options": [
-      "① megakaryopoiesis 를 반영한다 심한 빈혈시 그물적혈구 생산이 증가하",
-      "② 므로 그물적혈구는 성숙한 적혈구가 되기 전",
-      "③ 에 핵과 핵산이 남아있는 상태다. peripheral blood smear 검사시",
-      "④ polychromasia 로 그물적혈구 비율을 추 정할 수 있다. 그물적혈구는 세포 탄성에 따라서 성숙",
-      "⑤ 도를 판단할 수 있다."
+      "① Immature reticulocyte fraction (IRF)는 megakaryopoiesis를 반영한다.",
+      "② 심한 빈혈 시 그물적혈구 생산이 증가하므로 백혈구 조혈능을 평가할 수 있다.",
+      "③ 그물적혈구는 성숙한 적혈구가 되기 전에 핵과 핵산이 모두 남아있는 상태다.",
+      "④ peripheral blood smear 검사 시 polychromasia로 그물적혈구 비율을 추정할 수 있다.",
+      "⑤ 그물적혈구는 세포 탄성에 따라서 성숙도를 판단할 수 있다."
     ],
-    "correct_option_index": 2,
-    "correct_answer": "③ 에 핵과 핵산이 남아있는 상태다. peripheral blood smear 검사시",
+    "correct_option_index": 3,
+    "correct_answer": "④ peripheral blood smear 검사 시 polychromasia로 그물적혈구 비율을 추정할 수 있다.",
     "explanation": {
       "title": "그물적혈구(Reticulocyte) 평가와 다염성(Polychromasia)의 관계",
       "findings": "PBS 상 대형의 푸른빛 적혈구 관찰. 리보솜 RNA가 염기성 색소에 염색되어 나타남.",
@@ -14444,9 +14444,10 @@
       }
     ],
     "correct_option_indices": [
-      2
+      3
     ],
-    "answer": "③ 에 핵과 핵산이 남아있는 상태다. peripheral blood smear 검사시"
+    "answer": "④ peripheral blood smear 검사 시 polychromasia로 그물적혈구 비율을 추정할 수 있다.",
+    "question": "(21 계통Y) 그물적혈구(Reticulocyte)에 관한 설명으로 옳은 것은?"
   },
   {
     "id": "진단검사의학과_22Y_Q17",
@@ -15099,17 +15100,17 @@
     "category": "탈",
     "theme_title": "진단검사의학과 과년도 빈출: 참고범위설정에 관련한 설명 중 옳지 않은 것 은? 일반...",
     "subspecialty": "진단검사의학과 과년도 빈출",
-    "stem": "참고범위설정에 관련한 설명 중 옳지 않은 것은? 일반적으로 30 명 이상의 건강한 사람",
+    "stem": "참고범위(Reference range) 설정에 관련한 설명 중 옳지 않은 것은?",
     "images": [],
     "options": [
-      "① 들의 결과를 이용한다. 참고범위 설정을 위한 대상자가 건강",
-      "② 한지 알기 위하여 우선 설문지를 배포 한다. 일반적으로 순위 분포를 이용하여 2.5",
-      "③ 와 97.5 percentile 값으로 결정한다. 대상자 검사결과의 빈도가 정규 분포",
-      "④ 를 이룬다면 평균값과 표준편차를 이 용해 내부 95% 값을 결정할 수 있다. 참고범위를 적용하려는 환자가 일반",
-      "⑤ 사람들과 같을 것이라는 전제가 있다."
+      "① 일반적으로 30명 이상의 건강한 사람들의 결과를 이용한다.",
+      "② 참고범위 설정을 위한 대상자가 건강한지 알기 위하여 우선 설문지를 배포한다.",
+      "③ 일반적으로 순위 분포를 이용하여 2.5와 97.5 percentile 값으로 결정한다.",
+      "④ 대상자 검사 결과의 빈도가 정규 분포를 이룬다면 평균값과 표준편차를 이용해 내부 95% 값을 결정할 수 있다.",
+      "⑤ 참고범위를 적용하려는 환자가 일반 사람들과 같을 것이라는 전제가 있다."
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 들의 결과를 이용한다. 참고범위 설정을 위한 대상자가 건강",
+    "correct_answer": "① 일반적으로 30명 이상의 건강한 사람들의 결과를 이용한다.",
     "explanation": {
       "title": "[과년도 빈출] 참고범위설정(Reference Range) 설정 원칙 및 120명 vs 정규분포 변형",
       "findings": "1. 22Y vs 21Y 출제 변형 분석 및 정답 비교:\n   • [22Y Q22 정답]: ① 일반적으로 30 명 이상의 건강한 사람들의 결과를 이용한다 (X - 오답 선지)\n     - CLSI C28-A3 가이드라인에 따르면, 정규분포를 가정하지 않는 비모수적 방법(Non-parametric method)으로 하위 2.5%와 상위 97.5%를 90% 신뢰구간으로 결정하기 위해서는 최소 120명(권장 120~150명 이상)의 건강한 참고 대상자가 필수적입니다. 30명은 이미 확립된 기존 참고범위를 자체 검사실에서 확인(Verification/Transference)할 때 필요한 최소 표본 수에 불과합니다.\n   • [21Y Q24 정답]: ⑤ 대상자 검사 결과의 빈도 분포가 정규 분포를 이루지 않는다면 평균값과 표준편차를 이용해 내부 95% 값을 결정할 수 있다 (X - 오답 선지)\n     - 가우시안 정규분포를 이룰 때에만 모수적 방법(Parametric)인 평균 ± 1.96 SD로 중앙 95%를 결정할 수 있습니다. 정규분포를 이루지 않는다면 절대로 평균과 표준편차를 쓸 수 없으며, 비모수적 순위분포인 2.5th~97.5th 백분위수 값을 취해야 합니다 (22Y에서는 이 선지가 '정규 분포를 이룬다면'으로 수정되어 올바른 선지로 출제됨).",
@@ -15214,7 +15215,8 @@
     "correct_option_indices": [
       0
     ],
-    "answer": "① 들의 결과를 이용한다. 참고범위 설정을 위한 대상자가 건강"
+    "answer": "① 일반적으로 30명 이상의 건강한 사람들의 결과를 이용한다.",
+    "question": "참고범위(Reference range) 설정에 관련한 설명 중 옳지 않은 것은?"
   },
   {
     "id": "진단검사의학과_22Y_Q23",
@@ -15732,17 +15734,17 @@
     "category": "짤",
     "theme_title": "진단검사의학과 과년도 빈출: (Y 변형) PPD 피부반응검사와 IGRA 에 대한 설...",
     "subspecialty": "진단검사의학과 과년도 빈출",
-    "stem": "(Y 변형) PPD 피부반응검사와 IGRA 에 대한 설명으로 옳지 않은 것은? IGRA 는 과거 결핵균에 감작된 T 림프구",
+    "stem": "(Y 변형) PPD 피부반응검사와 IGRA(Interferon-Gamma Release Assay)에 대한 설명으로 옳지 않은 것은?",
     "images": [],
     "options": [
-      "① 에 결핵균 항원을 자극하여 분비되는 인 터페론 감마를 측정한다. IGRA 는 지연성 과민반응을 이용하여 체",
-      "② 내에서 APC 에 의하여 T 세포에 항원이 전달 인지 증식되어 과민 반응을 일으키 는 과정의 면역 반응을 전반적으로 평가 하는 방법이다. IGRA 검사는 한번의 방문으로 진단가능",
-      "③ 하다. IGRA 검사는 결핵균 항원만 이용하므로",
-      "④ PPD 검사보다 위양성률이 낮다. PPD 피부반응 검사와 IGRA 모두 잠복결",
-      "⑤ 핵과 활동성결핵을 감별할 수 없다."
+      "① IGRA는 과거 결핵균에 감작된 T 림프구에 결핵균 항원을 자극하여 분비되는 인터페론 감마를 측정한다.",
+      "② IGRA는 지연성 과민반응을 이용하여 체내에서 APC에 의해 T세포에 항원이 전달/증식되어 과민반응을 일으키는 과정을 평가하는 방법이다.",
+      "③ IGRA 검사는 한 번의 혈액 채취 방문으로 진단 가능하다.",
+      "④ IGRA 검사는 결핵균 특이 항원(ESAT-6, CFP-10)만 이용하므로 PPD 검사보다 위양성률이 낮다.",
+      "⑤ PPD 피부반응 검사와 IGRA 모두 잠복결핵과 활동성결핵을 감별할 수 없다."
     ],
-    "correct_option_index": 0,
-    "correct_answer": "PPD 검사는 BCG 접종력의 영향을 받지 않는다 (X - PPD는 위양성을 보이며, IGRA가 BCG 영향을 안 받음)",
+    "correct_option_index": 1,
+    "correct_answer": "② IGRA는 지연성 과민반응을 이용하여 체내에서 APC에 의해 T세포에 항원이 전달/증식되어 과민반응을 일으키는 과정을 평가하는 방법이다.",
     "explanation": {
       "title": "[과년도 빈출] PPD 피부반응검사와 IGRA 원리 및 BCG 위양성 감별 (발문 변형)",
       "findings": "• [22Y Q27 & 21Y Q02 & 20Y Q11 & 19Y Q06] 4개년 연속 출제!\n  - 지문: PPD 피부반응검사(TST)와 IGRA에 대한 설명으로 옳은 것은?\n  - 정답: IGRA는 BCG 백신 균주에 없는 결핵균 특이 항원(ESAT-6, CFP-10)을 사용하므로 BCG 접종자에서 위양성이 없음.",
@@ -15849,9 +15851,10 @@
       }
     ],
     "correct_option_indices": [
-      0
+      1
     ],
-    "answer": "PPD 검사는 BCG 접종력의 영향을 받지 않는다 (X - PPD는 위양성을 보이며, IGRA가 BCG 영향을 안 받음)"
+    "answer": "② IGRA는 지연성 과민반응을 이용하여 체내에서 APC에 의해 T세포에 항원이 전달/증식되어 과민반응을 일으키는 과정을 평가하는 방법이다.",
+    "question": "(Y 변형) PPD 피부반응검사와 IGRA(Interferon-Gamma Release Assay)에 대한 설명으로 옳지 않은 것은?"
   },
   {
     "id": "진단검사의학과_22Y_Q28",
@@ -40729,9 +40732,15 @@
     "category": "짤",
     "theme_title": "급성 심장막 압전(Cardiac Tamponade)의 Beck 3징 및 응급 심낭천자",
     "subspecialty": "심장내과 / 심낭질환",
-    "stem": "54 세 여자가 하루전부터 숨이 차서 응급실에 내원하였다. 1 년전부터 유방암 치료받음. BP 70/40mmHg, HR 110/min, RR 22/min 체온 36.4 이다. 가슴 청진에서 심음이 작게 들리고 호흡 음은 정상이다. 경정맥의 높이가 복장각에서 8cm 높이에서 측정됨. 심초음파 결과는 다음과 같다. 치료는? (*당해 임종평 4 차 한양대 Y)",
+    "stem": "54세 여자가 하루 전부터 숨이 차서 응급실에 내원하였다. 1년 전부터 유방암 치료를 받았다. BP 70/40 mmHg, HR 110회/분, RR 22회/분, 체온 36.4℃이다. 가슴 청진에서 심음이 작게 들리고 호흡음은 정상이다. 경정맥압이 상승되어 있다. 심초음파상 다량의 심낭삼출 및 우심방/우심실 허탈 소견이 관찰되었다. 가장 적절한 치료는?",
     "images": [],
-    "options": [],
+    "options": [
+      "① 응급 심낭천자 (Emergency pericardiocentesis)",
+      "② 가슴관(흉관) 삽입술",
+      "③ 고용량 루프 이뇨제 정주",
+      "④ 전신 글루코코르티코이드 투여",
+      "⑤ 침상 안정 및 경과관찰"
+    ],
     "correct_option_index": 0,
     "correct_answer": "① 응급 심낭천자 (Emergency pericardiocentesis)",
     "explanation": {
@@ -40760,7 +40769,8 @@
       "26Y-05"
     ],
     "option_explanations": [],
-    "answer": "① 응급 심낭천자 (Emergency pericardiocentesis)"
+    "answer": "① 응급 심낭천자 (Emergency pericardiocentesis)",
+    "question": "54세 여자가 하루 전부터 숨이 차서 응급실에 내원하였다. 1년 전부터 유방암 치료를 받았다. BP 70/40 mmHg, HR 110회/분, RR 22회/분, 체온 36.4℃이다. 가슴 청진에서 심음이 작게 들리고 호흡음은 정상이다. 경정맥압이 상승되어 있다. 심초음파상 다량의 심낭삼출 및 우심방/우심실 허탈 소견이 관찰되었다. 가장 적절한 치료는?"
   },
   {
     "id": "내과_22Y_Q05",
@@ -42198,11 +42208,17 @@
     "category": "탈",
     "theme_title": "대량 기흉(Large Pneumothorax)의 응급 처치: 흉관 삽입술(Chest Tube)",
     "subspecialty": "호흡기내과 / 흉막질환",
-    "stem": "(좌폐에 pneumothorax 있는 흉부 X-ray 사진 주어짐, 사이즈 매우 컸음 - 유사한 사진 구글링)",
+    "stem": "좌폐에 종괴가 발견되어 경피적 폐 세침흡인생검(PCNA)을 시행받은 환자가 시술 직후 심한 흉통과 호흡곤란을 호소하였다. 흉부 X-ray 촬영 결과 좌측 폐의 광범위한 기흉(Pneumothorax) 및 폐 허탈 소견이 확인되었다. 가장 적절한 처치는?",
     "images": [],
-    "options": [],
+    "options": [
+      "① 가슴관(흉관) 삽입술 (Chest tube insertion)",
+      "② 기관지 동맥 색전술",
+      "③ 화학적 흉막유착술",
+      "④ 흉강천자 (Thoracentesis)",
+      "⑤ 산소 흡입 후 경과관찰"
+    ],
     "correct_option_index": 0,
-    "correct_answer": "흉관 삽입술 (Chest tube insertion)",
+    "correct_answer": "① 가슴관(흉관) 삽입술 (Chest tube insertion)",
     "explanation": {
       "title": "대량 기흉(Large Pneumothorax)의 응급 처치: 흉관 삽입술(Chest Tube)",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -42227,7 +42243,8 @@
       "22Y-17"
     ],
     "option_explanations": [],
-    "answer": "흉관 삽입술 (Chest tube insertion)"
+    "answer": "① 가슴관(흉관) 삽입술 (Chest tube insertion)",
+    "question": "좌폐에 종괴가 발견되어 경피적 폐 세침흡인생검(PCNA)을 시행받은 환자가 시술 직후 심한 흉통과 호흡곤란을 호소하였다. 흉부 X-ray 촬영 결과 좌측 폐의 광범위한 기흉(Pneumothorax) 및 폐 허탈 소견이 확인되었다. 가장 적절한 처치는?"
   },
   {
     "id": "내과_22Y_Q18",
@@ -42562,11 +42579,17 @@
     "category": "탈",
     "theme_title": "수면내시경 중 진정제 과다 유발 저산소혈증 대처: 기도 확보 및 플루마제닐",
     "subspecialty": "소화기내과 / 내시경",
-    "stem": "(Y) 수면내시경 도중 산소포화도가 75%로 떨어졌다. 산소를 공급했으나 변화가 없다. 취할 조치로 옳은 것은?",
+    "stem": "(Y) 미다졸람을 이용한 수면내시경 도중 환자의 산소포화도가 75%로 급격히 떨어졌다. 기도 확보 후 고농도 산소를 공급하였으나 산소포화도가 회복되지 않는다. 취할 조치로 가장 옳은 것은?",
     "images": [],
-    "options": [],
+    "options": [
+      "① 수면제 길항제(Flumazenil)를 정맥 투여한다.",
+      "② 산소 농도만 추가로 올린다.",
+      "③ 일단 경과를 관찰하며 그대로 내시경 검사를 진행한다.",
+      "④ 표준 12유도 심전도 검사를 시행한다.",
+      "⑤ 즉시 흉부 압박 심폐소생술을 시작한다."
+    ],
     "correct_option_index": 0,
-    "correct_answer": "플루마제닐 (Flumazenil) 투여",
+    "correct_answer": "① 수면제 길항제(Flumazenil)를 정맥 투여한다.",
     "explanation": {
       "title": "수면내시경 중 진정제 과다 유발 저산소혈증 대처: 기도 확보 및 플루마제닐",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -42591,7 +42614,8 @@
       "22Y-21"
     ],
     "option_explanations": [],
-    "answer": "플루마제닐 (Flumazenil) 투여"
+    "answer": "① 수면제 길항제(Flumazenil)를 정맥 투여한다.",
+    "question": "(Y) 미다졸람을 이용한 수면내시경 도중 환자의 산소포화도가 75%로 급격히 떨어졌다. 기도 확보 후 고농도 산소를 공급하였으나 산소포화도가 회복되지 않는다. 취할 조치로 가장 옳은 것은?"
   },
   {
     "id": "내과_22Y_Q22",
@@ -43067,11 +43091,17 @@
     "category": "탈",
     "theme_title": "십이지장 게실(Duodenal Diverticulum) 및 담관염 합병증 (Lemmel 증후군)",
     "subspecialty": "소화기내과 / 췌장담도",
-    "stem": "58 세 여자 환자가 초음파에서 간 결절이 보여 내원하였다. HBV 보유자로 과거 B 형 간염을 진단받았으나 치료받지 않았다. 최근 시행한 복부 CT 검사에서 간 좌엽에 7.5cm 크기의 동맥기 조영증강, 정맥기/문맥기 조영감소되는 병변이 관찰되었다. 영상검사에서 기타 이상소견은 관찰되지 않았다. 혈액검사 Hb 12.8 WBC 8,000 PLT 175,000 AST/ALT 29/36 Total bilirubin 1.3mg/dL, albumin 3.8mg/dL, PT(INR) 1.13, prothrombin time 82% AFP 546ng/mL (복수, 간성뇌증 소견 제시되지 않음.)",
+    "stem": "58세 여자 환자가 초음파에서 간 결절이 보여 내원하였다. HBV 보유자로 과거 B형 간염을 진단받았으나 치료받지 않았다. 복부 CT에서 간 좌엽에 7.5cm 크기의 동맥기 조영증강, 문맥기 조영감소 병변(간세포암종)이 관찰되었다. 혈액검사: Hb 12.8, WBC 8,000, PLT 175,000, AST/ALT 29/36, TBil 1.3, Alb 3.8, PT(INR) 1.13, AFP 546 ng/mL. 복수나 간성뇌증은 없었다. 환자의 장기적인 생존율을 위한 가장 적절한 치료는?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "간절제술 (Hepatectomy)",
+    "options": [
+      "① 경동맥 화학색전술 (TACE)",
+      "② 고주파 열치료술 (RFA)",
+      "③ 근치적 간 절제술 (Hepatectomy)",
+      "④ 간 이식술 (Liver transplantation)",
+      "⑤ 정위적 체부 방사선 요법 (SBRT)"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 근치적 간 절제술 (Hepatectomy)",
     "explanation": {
       "title": "십이지장 게실(Duodenal Diverticulum) 및 담관염 합병증 (Lemmel 증후군)",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -43085,7 +43115,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 1,
     "rate": 17,
@@ -43096,7 +43126,8 @@
       "22Y-26"
     ],
     "option_explanations": [],
-    "answer": "간절제술 (Hepatectomy)"
+    "answer": "③ 근치적 간 절제술 (Hepatectomy)",
+    "question": "58세 여자 환자가 초음파에서 간 결절이 보여 내원하였다. HBV 보유자로 과거 B형 간염을 진단받았으나 치료받지 않았다. 복부 CT에서 간 좌엽에 7.5cm 크기의 동맥기 조영증강, 문맥기 조영감소 병변(간세포암종)이 관찰되었다. 혈액검사: Hb 12.8, WBC 8,000, PLT 175,000, AST/ALT 29/36, TBil 1.3, Alb 3.8, PT(INR) 1.13, AFP 546 ng/mL. 복수나 간성뇌증은 없었다. 환자의 장기적인 생존율을 위한 가장 적절한 치료는?"
   },
   {
     "id": "내과_22Y_Q27",
@@ -46963,11 +46994,17 @@
     "category": "반짤",
     "theme_title": "급성 통풍 관절염(Acute Gout)의 확진: 편광현미경 요산 결정 확인",
     "subspecialty": "류마티스내과 / 결정관절염",
-    "stem": "(야마) 28 세 남자가 오른쪽 발목 아래의 관절통 때문에 내원하였다. 5 일 전부터 오른쪽 엄지 발가락이 붓고 압통 있었다.",
+    "stem": "(야마) 28세 남자가 오른쪽 발목 아래의 관절통 때문에 내원하였다. 5일 전부터 오른쪽 엄지발가락 중족지관절이 심하게 붓고 극심한 압통이 있었다. 3개월 전에도 비슷한 압통이 있었으나 수일 내 호전된 병력이 있다. 이 환자에서 확진을 위해 가장 필요한 검사는?",
     "images": [],
-    "options": [],
+    "options": [
+      "① 관절액 천자 및 편광현미경 검사",
+      "② 혈청 C-반응단백 (CRP)",
+      "③ 혈청 류마티스인자 (Rheumatoid factor)",
+      "④ 혈청 요산 농도 (Serum uric acid)",
+      "⑤ 항 CCP 항체 (ACPA)"
+    ],
     "correct_option_index": 0,
-    "correct_answer": "[23Y Q59 & 22Y Q58] ① 관절액검사 (편광현미경 / 요산 결정 확인)",
+    "correct_answer": "① 관절액 천자 및 편광현미경 검사",
     "explanation": {
       "title": "급성 통풍 관절염(Acute Gout)의 확진: 편광현미경 요산 결정 확인",
       "findings": "제1 중족지관절의 급성 재발성 관절염(통풍 의심) → 확진을 위해 편광현미경으로 요산염 결정을 확인하는 관절액검사",
@@ -46996,7 +47033,8 @@
       "21Y-58"
     ],
     "option_explanations": [],
-    "answer": "[23Y Q59 & 22Y Q58] ① 관절액검사 (편광현미경 / 요산 결정 확인)"
+    "answer": "① 관절액 천자 및 편광현미경 검사",
+    "question": "(야마) 28세 남자가 오른쪽 발목 아래의 관절통 때문에 내원하였다. 5일 전부터 오른쪽 엄지발가락 중족지관절이 심하게 붓고 극심한 압통이 있었다. 3개월 전에도 비슷한 압통이 있었으나 수일 내 호전된 병력이 있다. 이 환자에서 확진을 위해 가장 필요한 검사는?"
   },
   {
     "id": "내과_22Y_Q59",
@@ -48298,11 +48336,17 @@
     "category": "기출",
     "theme_title": "혈역학적 불안정 심실빈맥(VT) 환자의 응급 처치: 직류 동기화 심율동전환",
     "subspecialty": "심장내과 / 부정맥",
-    "stem": "어떤 환자가 쓰러져서 왔다. 심전도는 다음과 같았다. BP 90/60, HR 54 숔과 심실빈맥이 계속 되어 ECMO 를 받았다. 다음으로 응급으로 곧 바로 시행해야 할 처치는? (답 논란) 심전도: STEMI 후 절묘하게 V fib 이 계속됨 II, III, aVF ST elevation aVL ST depression TnI: 0.020 인가로 정상",
+    "stem": "흉통 후 실신하여 응급실로 이송된 환자이다. 심전도상 II, III, aVF 유도에서 ST절 상승 및 심실세동(V-fib)이 반복되어 심폐소생술 및 체외막산소공급(ECMO)을 시행받았다. 활력징후 BP 90/60 mmHg, HR 54회/분. 이 환자에게 곧바로 시행해야 할 가장 적절한 응급 처치는?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "응급 관상동맥 조영술 (CAG) 및 재관류술",
+    "options": [
+      "① 베타차단제 정주",
+      "② 삽입형 제세동기(ICD) 삽입술",
+      "③ 일시적 심박동조율기 삽입",
+      "④ 응급 관상동맥 중재술 (Primary PCI)",
+      "⑤ 아미오다론 유지 요법"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ 응급 관상동맥 중재술 (Primary PCI)",
     "explanation": {
       "title": "혈역학적 불안정 심실빈맥(VT) 환자의 응급 처치: 직류 동기화 심율동전환",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -48316,7 +48360,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      3
     ],
     "freq_count": 1,
     "rate": 17,
@@ -48327,7 +48371,8 @@
       "21Y-09"
     ],
     "option_explanations": [],
-    "answer": "응급 관상동맥 조영술 (CAG) 및 재관류술"
+    "answer": "④ 응급 관상동맥 중재술 (Primary PCI)",
+    "question": "흉통 후 실신하여 응급실로 이송된 환자이다. 심전도상 II, III, aVF 유도에서 ST절 상승 및 심실세동(V-fib)이 반복되어 심폐소생술 및 체외막산소공급(ECMO)을 시행받았다. 활력징후 BP 90/60 mmHg, HR 54회/분. 이 환자에게 곧바로 시행해야 할 가장 적절한 응급 처치는?"
   },
   {
     "id": "내과_21Y_Q10",
@@ -49349,13 +49394,19 @@
     "category": "기출",
     "theme_title": "상대정맥 증후군(SVC Syndrome)의 임상 징후 및 응급 영상 진단/중재",
     "subspecialty": "호흡기내과 & 종양학",
-    "stem": "(변형야마) 얼굴이 붓고 두통 있으며 호흡곤란 동반되어 찍은 Chest PA 에서 이상소견 보여 시행한 CT, PET-CT 소견이다. Brain MRI, Bone scan 상 이상 소견 없었음. 필요한 치료는? (없는 사진이라서 소세포암에 맞는 사진 긁어왔습니다. 병기설정에는 하단 설명 참고해 푸시면 됩니다.)",
+    "stem": "(변형야마) 얼굴이 붓고 두통과 호흡곤란을 호소한 환자의 흉부 CT 및 PET-CT에서 우폐 상엽 종괴와 동측 종격동 및 용골하(subcarinal) 림프절 전이가 관찰되었다. 조직검사상 소세포폐암(Small cell lung cancer, 제한 병기)으로 확진되었다. 뇌 MRI 및 뼈 스캔상 원격 전이는 없었다. 가장 적절한 표준 치료는?",
     "images": [
       "images/내과/21Y_Q19_fig1.png"
     ],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "스텐트 삽입술 (Superior Vena Cava Stenting)",
+    "options": [
+      "① 단독 항암화학요법",
+      "② 복합 항암화학방사선 동시요법 (CCRT)",
+      "③ 우폐 전절제술",
+      "④ 정기적 경과관찰",
+      "⑤ 고식적(완화적) 방사선 단독 치료"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 복합 항암화학방사선 동시요법 (CCRT)",
     "explanation": {
       "title": "상대정맥 증후군(SVC Syndrome)의 임상 징후 및 응급 영상 진단/중재",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -49369,7 +49420,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -49380,7 +49431,8 @@
       "21Y-19"
     ],
     "option_explanations": [],
-    "answer": "스텐트 삽입술 (Superior Vena Cava Stenting)"
+    "answer": "② 복합 항암화학방사선 동시요법 (CCRT)",
+    "question": "(변형야마) 얼굴이 붓고 두통과 호흡곤란을 호소한 환자의 흉부 CT 및 PET-CT에서 우폐 상엽 종괴와 동측 종격동 및 용골하(subcarinal) 림프절 전이가 관찰되었다. 조직검사상 소세포폐암(Small cell lung cancer, 제한 병기)으로 확진되었다. 뇌 MRI 및 뼈 스캔상 원격 전이는 없었다. 가장 적절한 표준 치료는?"
   },
   {
     "id": "내과_21Y_Q20",
@@ -56638,14 +56690,14 @@
     "stem": "55세 남자가 건강검진 대장내시경에서 구불결장에 10mm 크기의 단일 유경성 용종이 발견되어 용종절제술을 받았다. 조직검사상 고도 이형성이 없는 관상 선종(Tubular adenoma)일 때 다음 추적 대장내시경 검사 시기는?",
     "images": [],
     "options": [
-      "3년 후 (크기 10mm 이상 선종은 고위험군)",
-      "5년 후",
-      "1년 후",
-      "6개월 후",
-      "10년 후"
+      "① 3년 후",
+      "② 5년 후",
+      "③ 1년 후",
+      "④ 6개월 후",
+      "⑤ 10년 후"
     ],
     "correct_option_index": 0,
-    "correct_answer": "3년 후 (크기 10mm 이상 선종은 고위험군)",
+    "correct_answer": "① 3년 후",
     "explanation": {
       "title": "[단독 기출] (야마) 55 세 남자 환자의 건강검진 대장내시경에서 ",
       "findings": "구불결장 10mm 선종+조직검사상 고도 이형성(High-grade dysplasia) → 고위험 선종으로 3년 후 추적 대장내시경",
@@ -56752,7 +56804,7 @@
         "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
       }
     ],
-    "answer": "3년 후 (크기 10mm 이상 선종은 고위험군)"
+    "answer": "① 3년 후"
   },
   {
     "id": "내과_20Y_Q26",
@@ -57540,10 +57592,10 @@
     "stem": "심장관련 증상때문에 CAG 및 스텐트삽입 환자, 처음 Cr 13.6/1.2 정도였는데 시술 후 BUN/Cr 81.0/10.8 로 엄청 높아짐. 원인은?",
     "images": [],
     "options": [
-      "① 조영제로 인한 급성 신세뇨관 산증",
+      "① 조영제로 인한 급성 신세뇨관 괴사",
       "② 콜레스테롤 색전증",
-      "③ 약물로 인한 renal cortical necrosis",
-      "④ 스텐트 시술 중 천공??"
+      "③ 약물로 인한 신피질 괴사",
+      "④ 스텐트 시술 중 혈관 천공"
     ],
     "correct_option_index": 1,
     "correct_answer": "② 콜레스테롤 색전증",
@@ -66128,14 +66180,14 @@
       "images/외과/22Y_Q02_fig1.png"
     ],
     "options": [
-      "IV fluid hydration (단독 보존요법)",
-      "IV antibiotics (단독 항생제 치료)",
-      "Endoscopic nasobiliary drainage (ENBD)",
-      "Percutaneous transhepatic biliary drainage (PTBD)",
-      "Laparoscopic cholecystectomy (복강경 담낭절제술)"
+      "① IV 수액 요법 (Fluid hydration)",
+      "② IV 항생제 투여 (Antibiotics)",
+      "③ 내시경적 경비 담즙 배액술 (ENBD)",
+      "④ 경피경간 담즙 배액술 (PTBD)",
+      "⑤ 복강경 담낭절제술 (Laparoscopic cholecystectomy)"
     ],
     "correct_option_index": 4,
-    "correct_answer": "Laparoscopic cholecystectomy (복강경 담낭절제술)",
+    "correct_answer": "⑤ 복강경 담낭절제술 (Laparoscopic cholecystectomy)",
     "explanation": {
       "title": "급성 담낭염(Acute Cholecystitis)의 진단 및 복강경 담낭절제술",
       "findings": "우상복부 통증+Murphy sign+백혈구·CRP 상승+담낭 CT 소견 → 급성 담낭염, 조기 복강경 담낭절제술이 표준",
@@ -66170,7 +66222,7 @@
       "19Y-18"
     ],
     "option_explanations": [],
-    "answer": "Laparoscopic cholecystectomy (복강경 담낭절제술)"
+    "answer": "⑤ 복강경 담낭절제술 (Laparoscopic cholecystectomy)"
   },
   {
     "id": "외과_22Y_Q03",
@@ -66480,14 +66532,14 @@
       "images/외과/22Y_Q07_fig1.png"
     ],
     "options": [
-      "췌장액 유출 (Pancreatic fistula)",
-      "유미성 복수 (Chylous ascites, 림프관 손상)",
-      "소화관 내용물 유출 (Bowel anastomosis leak)",
-      "활동성 복강 내 출혈 (Intraabdominal bleeding)",
-      "복강 내 농양 (Intraabdominal abscess)"
+      "① 췌장액 유출 (Pancreatic fistula)",
+      "② 유미성 복수 (Chylous ascites)",
+      "③ 소화관 내용물 유출 (Bowel anastomosis leak)",
+      "④ 활동성 복강 내 출혈 (Intraabdominal bleeding)",
+      "⑤ 복강 내 농양 (Intraabdominal abscess)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "췌장액 유출 (Pancreatic fistula)",
+    "correct_answer": "① 췌장액 유출 (Pancreatic fistula)",
     "explanation": {
       "title": "위원위부절제술 후 배액관 소견 (유미성 복수 vs 췌장액 유출)",
       "findings": "위원위부절제 및 림프절 곽청 후 배액관의 우윳빛(유백색) 액체 → 유미성 복수(Chylous ascites, 중성지방 > 110mg/dL)",
@@ -66518,7 +66570,7 @@
       "20Y-09"
     ],
     "option_explanations": [],
-    "answer": "췌장액 유출 (Pancreatic fistula)"
+    "answer": "① 췌장액 유출 (Pancreatic fistula)"
   },
   {
     "id": "외과_22Y_Q08",
@@ -74493,14 +74545,14 @@
     "stem": "56 세 여성 직장-S상결장 이행부 암(rectosigmoid junction cancer) 환자이다. 종양 절제 후 결장과 직장을 복막반전부(peritoneal reflection) 상방에서 문합하는 수술 이름은?",
     "images": [],
     "options": [
-      "Anterior resection (AR, 전방절제술)",
-      "Low anterior resection (LAR, 저위전방절제술)",
-      "Abdominoperineal resection (APR, 복회음절제술)",
-      "Hartmann operation (하트만 수술)",
-      "Transanal excision (경항문 국소절제술)"
+      "① Anterior resection (AR, 전방절제술)",
+      "② Low anterior resection (LAR, 저위전방절제술)",
+      "③ Abdominoperineal resection (APR, 복회음절제술)",
+      "④ Hartmann operation",
+      "⑤ Transanal excision (경항문 국소절제술)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "Anterior resection (AR, 전방절제술)",
+    "correct_answer": "① Anterior resection (AR, 전방절제술)",
     "explanation": {
       "title": "직장-S상결장 이행부 암의 수술명 (Anterior Resection)",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -74529,7 +74581,7 @@
       "23Y-12"
     ],
     "option_explanations": [],
-    "answer": "Anterior resection (AR, 전방절제술)"
+    "answer": "① Anterior resection (AR, 전방절제술)"
   },
   {
     "id": "외과_19Y_Q12",
@@ -88253,14 +88305,14 @@
     "stem": "24 개월 미만 유아에서 obesity 정의로 옳은 것은?",
     "images": [],
     "options": [
-      "① BMI >95 percentile",
-      "② BMI> 85 percentile",
+      "① BMI > 95 percentile",
+      "② BMI > 85 percentile",
       "③ Obesity index > 15 Percentile",
       "④ Waist circumference > 95 percentile",
-      "⑤ Weight for height >95 Percentile (홍창의 19p, 24 개월 미만도 해당하는지 모르겠음) (김용주 교수님 강의록)"
+      "⑤ Weight for height > 95 Percentile"
     ],
     "correct_option_index": 4,
-    "correct_answer": "⑤ Weight for height >95 Percentile (홍창의 19p, 24 개월 미만도 해당하는지 모르겠음) (김용주 교수님 강의록)",
+    "correct_answer": "⑤ Weight for height > 95 Percentile",
     "explanation": {
       "title": "영유아 비만(Obesity)의 연령별 진단 기준 (24개월 미만: 신장별 체중)",
       "theme_title": "영유아 비만(Obesity)의 연령별 진단 기준 (24개월 미만: 신장별 체중)",
@@ -88367,7 +88419,7 @@
         "reason": "24개월 미만 영유아에서는 체질량지수(BMI) 대신 신장별 체중(Weight-for-length/height) 95백분위수 이상을 비만으로 정의합니다"
       }
     ],
-    "answer": "⑤ Weight for height >95 Percentile (홍창의 19p, 24 개월 미만도 해당하는지 모르겠음) (김용주 교수님 강의록)"
+    "answer": "⑤ Weight for height > 95 Percentile"
   },
   {
     "id": "소아청소년과_22Y_Q14",
@@ -89126,7 +89178,7 @@
     ],
     "options": [],
     "correct_option_index": 0,
-    "correct_answer": "① 티록신결합글로불린(TBG) 결핍 — 신생아 선별검사상 총 T4는 낮으나 활성형인 유리 T4(Free T4)와 TSH가 정상이고 갑상선 스캔도 정상이므로, 갑상선 기능은 정상인 TBG 결핍증입니다(치료 불필요) → 정답.",
+    "correct_answer": "TBG 결핍 (티록신결합글로불린 결핍증, Thyroxine-binding globulin deficiency)",
     "explanation": {
       "title": "선천성 갑상샘 질환 선별검사: 티록신결합글로불린(TBG) 결핍증 감별",
       "theme_title": "선천성 갑상샘 질환 선별검사: 티록신결합글로불린(TBG) 결핍증 감별",
@@ -89150,7 +89202,7 @@
       "22Y-20"
     ],
     "option_explanations": [],
-    "answer": "① 티록신결합글로불린(TBG) 결핍 — 신생아 선별검사상 총 T4는 낮으나 활성형인 유리 T4(Free T4)와 TSH가 정상이고 갑상선 스캔도 정상이므로, 갑상선 기능은 정상인 TBG 결핍증입니다(치료 불필요) → 정답."
+    "answer": "TBG 결핍 (티록신결합글로불린 결핍증, Thyroxine-binding globulin deficiency)"
   },
   {
     "id": "소아청소년과_22Y_Q21",
@@ -89278,7 +89330,7 @@
     "images": [],
     "options": [],
     "correct_option_index": 0,
-    "correct_answer": "① 부갑상샘저하증(Hypoparathyroidism) — 무열성 전신 경련 환아에서 심한 저칼슘혈증(Ca 5.8)과 고인산혈증(P 10.6)이 있으면서 PTH가 6.8 pg/mL로 부적절하게 감소해 있으므로 원발성 부갑상샘저하증입니다 → 정답.",
+    "correct_answer": "부갑상선기능저하증 (Hypoparathyroidism)",
     "explanation": {
       "title": "소아 저칼슘혈증(Hypocalcemia)에 의한 경련 및 특발성 부갑상샘저하증",
       "theme_title": "소아 저칼슘혈증(Hypocalcemia)에 의한 경련 및 특발성 부갑상샘저하증",
@@ -89302,7 +89354,7 @@
       "22Y-22"
     ],
     "option_explanations": [],
-    "answer": "① 부갑상샘저하증(Hypoparathyroidism) — 무열성 전신 경련 환아에서 심한 저칼슘혈증(Ca 5.8)과 고인산혈증(P 10.6)이 있으면서 PTH가 6.8 pg/mL로 부적절하게 감소해 있으므로 원발성 부갑상샘저하증입니다 → 정답."
+    "answer": "부갑상선기능저하증 (Hypoparathyroidism)"
   },
   {
     "id": "소아청소년과_22Y_Q23",
@@ -91106,13 +91158,13 @@
     "images": [],
     "options": [
       "① 주로 상복부 통증을 호소한다.",
-      "② 6 세 이전에 흔하다.",
-      "③ 주로 식사 전에 아프다",
-      "④ 일상생활 (학교 수업 등) 을 할 수 없을 정도로 아프지는 않다.",
-      "⑤ 설사, 변비와 같이 동반되는 경우가 많다.. *Most often periumbilical,, Onset >6yrs. The pain interrupts normal life activity, Usually no relation with meals (김용주P 강의록)"
+      "② 6세 이전에 흔하다.",
+      "③ 주로 식사 전에 아프다.",
+      "④ 일상생활 (학교 수업 등)을 할 수 없을 정도로 아프지는 않다.",
+      "⑤ 설사, 변비와 같이 동반되는 경우가 많다."
     ],
     "correct_option_index": 3,
-    "correct_answer": "④ 일상생활 (학교 수업 등) 을 할 수 없을 정도로 아프지는 않다.",
+    "correct_answer": "④ 일상생활 (학교 수업 등)을 할 수 없을 정도로 아프지는 않다.",
     "explanation": {
       "title": "소아 만성 기능성 복통 증후군 (Functional Abdominal Pain)의 특성",
       "theme_title": "소아 만성 기능성 복통 증후군 (Functional Abdominal Pain)의 특성",
@@ -91225,7 +91277,7 @@
         "reason": "제시된 환아의 임상 양상 및 검사 기준에 부합하지 않는 감별 선지입니다."
       }
     ],
-    "answer": "④ 일상생활 (학교 수업 등) 을 할 수 없을 정도로 아프지는 않다."
+    "answer": "④ 일상생활 (학교 수업 등)을 할 수 없을 정도로 아프지는 않다."
   },
   {
     "id": "소아청소년과_22Y_Q38",
@@ -101053,11 +101105,16 @@
     "category": "기출",
     "theme_title": "가와사키병의 관상동맥류 예방 표준 용량 (IVIG 2 g/kg + 아스피린)",
     "subspecialty": "소아심장학",
-    "stem": "위와 동일한 문제",
+    "stem": "생후 18개월 남아가 6일간 지속된 39℃의 고열, 양안 결막 충혈, 딸기 혀, 손발 부종, BCG 접종 부위 발적을 주소로 내원하였다. 심초음파상 관상동맥 확장은 없었다. 가와사키병(Kawasaki disease) 환아에서 관상동맥 합병증을 예방하기 위한 1차 표준 치료는?",
     "images": [],
-    "options": [],
+    "options": [
+      "① 정맥 면역글로불린(IVIG) 및 아스피린 투여",
+      "② 글루코코르티코이드 단독 투여",
+      "③ 3세대 세팔로스포린 항생제 투여",
+      "④ 면역억제제 투여 후 경과관찰"
+    ],
     "correct_option_index": 0,
-    "correct_answer": "① 정맥 면역글로불린(IVIG) 2 g/kg 및 아스피린 투여 — 전형적인 가와사키병 환아에서 관상동맥 합병증을 예방하기 위한 1차 표준 치료는 고용량 정맥 면역글로불린(2 g/kg, 10~12시간 정주)과 아스피린 병합 투여입니다 → 정답.",
+    "correct_answer": "① 정맥 면역글로불린(IVIG) 및 아스피린 투여",
     "explanation": {
       "theme_title": "선천 대사이상 치료 전략: 호르몬 결핍증의 최종산물 보충 요법",
       "subspecialty": "소아내분비학 / 대사이상",
@@ -101149,7 +101206,8 @@
         "reason": "조효소 투여 — 비타민 보조 인자 반응성 결핍증 치료법입니다."
       }
     ],
-    "answer": "① 정맥 면역글로불린(IVIG) 2 g/kg 및 아스피린 투여 — 전형적인 가와사키병 환아에서 관상동맥 합병증을 예방하기 위한 1차 표준 치료는 고용량 정맥 면역글로불린(2 g/kg, 10~12시간 정주)과 아스피린 병합 투여입니다 → 정답."
+    "answer": "① 정맥 면역글로불린(IVIG) 및 아스피린 투여",
+    "question": "생후 18개월 남아가 6일간 지속된 39℃의 고열, 양안 결막 충혈, 딸기 혀, 손발 부종, BCG 접종 부위 발적을 주소로 내원하였다. 심초음파상 관상동맥 확장은 없었다. 가와사키병(Kawasaki disease) 환아에서 관상동맥 합병증을 예방하기 위한 1차 표준 치료는?"
   },
   {
     "id": "소아청소년과_20Y_Q33",
@@ -101948,11 +102006,16 @@
     "category": "기출",
     "theme_title": "전염성 단핵구증(Infectious Mononucleosis)의 비장 파열 예방 및 관리",
     "subspecialty": "소아감염학",
-    "stem": "infectious mononucleosis 문제?",
+    "stem": "15세 청소년이 발열, 인후통, 경부 림프절 비대 및 피로감을 주소로 내원하여 전염성 단핵구증(Infectious Mononucleosis, EBV 감염)으로 진단받았다. 복부 진찰상 비장 비대가 확인되었다. 환자에게 안내해야 할 핵심 치료 및 생활 수칙으로 가장 적절한 것은?",
     "images": [],
-    "options": [],
+    "options": [
+      "① 비장 파열 위험이 있으므로 비장 비대가 소실될 때까지 격렬한 운동이나 접촉성 스포츠를 엄격히 제한한다.",
+      "② 인후통 완화를 위해 아목시실린(Amoxicillin) 항생제를 즉시 복용한다.",
+      "③ 바이러스 증식을 억제하기 위해 정맥 아시클로버(Acyclovir)를 투여한다.",
+      "④ 비장 파열을 예방하기 위해 조기 비장 적출술을 시행한다."
+    ],
     "correct_option_index": 0,
-    "correct_answer": "① 비장 파열 위험이 있으므로 비장비대가 소실될 때까지 격렬한 신체활동이나 접촉성 운동을 피한다. — EBV에 의한 전염성 단핵구증은 비장비대가 흔히 동반되며 외상에 의한 비장 파열 위험이 높으므로 발병 후 최소 3~4주간(또는 비장비대 소실 시까지) 격렬한 신체활동과 접촉성 운동을 피해야 합니다 → 정답.",
+    "correct_answer": "① 비장 파열 위험이 있으므로 비장 비대가 소실될 때까지 격렬한 운동이나 접촉성 스포츠를 엄격히 제한한다.",
     "explanation": {
       "title": "전염성 단핵구증(Infectious Mononucleosis)의 비장 파열 예방 및 관리",
       "theme_title": "전염성 단핵구증(Infectious Mononucleosis)의 비장 파열 예방 및 관리",
@@ -101976,7 +102039,8 @@
       "20Y-40"
     ],
     "option_explanations": [],
-    "answer": "① 비장 파열 위험이 있으므로 비장비대가 소실될 때까지 격렬한 신체활동이나 접촉성 운동을 피한다. — EBV에 의한 전염성 단핵구증은 비장비대가 흔히 동반되며 외상에 의한 비장 파열 위험이 높으므로 발병 후 최소 3~4주간(또는 비장비대 소실 시까지) 격렬한 신체활동과 접촉성 운동을 피해야 합니다 → 정답."
+    "answer": "① 비장 파열 위험이 있으므로 비장 비대가 소실될 때까지 격렬한 운동이나 접촉성 스포츠를 엄격히 제한한다.",
+    "question": "15세 청소년이 발열, 인후통, 경부 림프절 비대 및 피로감을 주소로 내원하여 전염성 단핵구증(Infectious Mononucleosis, EBV 감염)으로 진단받았다. 복부 진찰상 비장 비대가 확인되었다. 환자에게 안내해야 할 핵심 치료 및 생활 수칙으로 가장 적절한 것은?"
   },
   {
     "id": "소아청소년과_20Y_Q41",
@@ -131612,14 +131676,14 @@
     "stem": "60세 여성이 아침에 일어난 후 물체가 둘로 보이는 복시를 주소로 내원하였다. 환자는 우측을 주시할 때 우안 외전 및 좌안 내전이 모두 되지 않는 우측 수평 주시 마비를 보였고, 좌측을 주시할 때에는 좌안 외전은 가능하나 우안 내전이 되지 않는 안쪽눈근육마비(INO)를 보여 원앤하프 증후군(One-and-a-half syndrome)으로 진단되었다. 이 환자의 병변 부위를 보여주는 영상은?",
     "images": [],
     "options": [
-      "우측 교뇌 후하부 병변 (Right pontine tegmentum - PPRF/외전신경핵 및 MLF 침범)",
-      "단순포진 바이러스 뇌염 (HSV encephalitis)",
-      "거미막밑출혈 (Subarachnoid hemorrhage)",
-      "소뇌교각부종양 (CPA tumor)",
-      "중뇌 수도관 확장 (Cerebral aqueduct dilation)"
+      "① 우측 교뇌 피개 병변 (Right pontine tegmentum)",
+      "② 단순포진 바이러스 뇌염 (HSV encephalitis)",
+      "③ 거미막밑출혈 (Subarachnoid hemorrhage)",
+      "④ 소뇌교각부종양 (CPA tumor)",
+      "⑤ 중뇌 수도관 확장 (Cerebral aqueduct dilation)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "우측 교뇌 후하부 병변 (Right pontine tegmentum - PPRF/외전신경핵 및 MLF 침범)",
+    "correct_answer": "① 우측 교뇌 피개 병변 (Right pontine tegmentum)",
     "explanation": {
       "title": "[단독 기출] . ",
       "findings": "동측 수평 주시 마비 + 반대측 주시 시 동측 내전 마비(원앤하프 증후군) → 우측 교뇌 후하부 병변(PPRF/외전핵 + MLF)",
@@ -131726,7 +131790,7 @@
         "reason": "폐쇄성 수두증 소견입니다."
       }
     ],
-    "answer": "우측 교뇌 후하부 병변 (Right pontine tegmentum - PPRF/외전신경핵 및 MLF 침범)"
+    "answer": "① 우측 교뇌 피개 병변 (Right pontine tegmentum)"
   },
   {
     "id": "신경과_20Y_Q18",
@@ -136803,11 +136867,17 @@
     "category": "기출",
     "theme_title": "신경과 일반: 다음 중 NOAC을 쓰는 경우는? 선지 워낙 복잡하게 ...",
     "subspecialty": "신경과 일반",
-    "stem": "다음 중 NOAC을 쓰는 경우는? 선지 워낙 복잡하게 나와있어서 자세하게 외우",
+    "stem": "다음 중 비판막성 심방세동(Non-valvular AF) 환자에서 뇌경색 예방을 위해 직접 경구 항응고제(DOAC/NOAC)를 투여하는 가장 적절한 임상 상황은?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "비판막성 심방세동 (Non-valvular Atrial Fibrillation)",
+    "options": [
+      "① 3년 전 승모판 치환술(기계판막)을 받고 와파린 복용 중 뇌경색이 발생한 환자",
+      "② 51세 남자, 심방세동 없이 발생한 순수 열공성 뇌경색(Lacunar infarction) 환자",
+      "③ 2시간 전 구음장애와 좌측 편마비가 발생하였으며 심방세동이 확인된 급성 뇌경색 환자",
+      "④ 2년 전 고혈압 진단을 받고 아스피린을 복용 중인 정상 동율동 환자",
+      "⑤ 20대에 모야모야병 진단을 받고 아스피린 복용 중 재발한 허혈성 뇌경색 환자"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 2시간 전 구음장애와 좌측 편마비가 발생하였으며 심방세동이 확인된 급성 뇌경색 환자",
     "explanation": {
       "title": "신경과 임상 증례 및 기출 분석",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -136821,7 +136891,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 1,
     "rate": 17,
@@ -136832,7 +136902,8 @@
       "19Y-14"
     ],
     "option_explanations": [],
-    "answer": "비판막성 심방세동 (Non-valvular Atrial Fibrillation)"
+    "answer": "③ 2시간 전 구음장애와 좌측 편마비가 발생하였으며 심방세동이 확인된 급성 뇌경색 환자",
+    "question": "다음 중 비판막성 심방세동(Non-valvular AF) 환자에서 뇌경색 예방을 위해 직접 경구 항응고제(DOAC/NOAC)를 투여하는 가장 적절한 임상 상황은?"
   },
   {
     "id": "신경과_19Y_Q15",
@@ -240906,18 +240977,18 @@
     "category": "기출",
     "theme_title": "[MSK] Fluffy periostitis and subosteal bone resorption(hyperthyrodism 소견..)",
     "subspecialty": "근골격 영상의학",
-    "stem": "35세 여자, 평소 소화장애 있음. 손 끝이 딱딱해져서 내원함. 옳은 것을 고르시오. (선지 모두 영어) x-ray 사진으로 위 사진처럼 손가락 끝과 피부 쪽에 뭔가 있었음. 관절 주변에는 없었음. (scleroderma예상)",
+    "stem": "35세 여자 환자가 평소 연하곤란 등 소화장애가 있었으며, 수개월 전부터 손가락 끝 피부가 단단해지고 뻣뻣해져 내원하였다. 양손 단순 X선 검사상 말단지골의 연부조직 비후 및 석회 침착 소견(전신경화증, Scleroderma)이 관찰되었다. 이 질환에서 관찰되는 전형적인 방사선학적 소견은?",
     "images": [
       "images/영상의학과/20Y_Q40_fig1.png"
     ],
     "options": [
-      "Fluffy periostitis and subosteal bone resorption(hyperthyrodism 소견..)",
-      "skin thickening and soft tissue mineralization",
-      "periarticular osteopenia with soft tissue mineralization",
-      "osteophyte, joint space narrowing, subchondral sclerosis"
+      "① Fluffy periostitis and subperiosteal bone resorption",
+      "② Skin thickening and soft tissue mineralization (Calcinosis cutis)",
+      "③ Periarticular osteopenia with marginal erosions",
+      "④ Osteophyte, joint space narrowing, and subchondral sclerosis"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "Fluffy periostitis and subosteal bone resorption(hyperthyrodism 소견..)",
+    "correct_option_index": 1,
+    "correct_answer": "② Skin thickening and soft tissue mineralization (Calcinosis cutis)",
     "explanation": {
       "title": "[단독 기출] 세 여자, 평소 소화장애 있음. 손 끝이 ",
       "findings": "35세 여성 소화장애(식도운동장애) 및 수지경화증, 손 X선상 원위 지골 연부조직 석회화 → 전신경화증(Systemic sclerosis)",
@@ -240964,7 +241035,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -241011,7 +241082,8 @@
     "section": "MSK",
     "section_q_num": 4,
     "q_label": "Q40",
-    "answer": "Fluffy periostitis and subosteal bone resorption(hyperthyrodism 소견..)"
+    "answer": "② Skin thickening and soft tissue mineralization (Calcinosis cutis)",
+    "question": "35세 여자 환자가 평소 연하곤란 등 소화장애가 있었으며, 수개월 전부터 손가락 끝 피부가 단단해지고 뻣뻣해져 내원하였다. 양손 단순 X선 검사상 말단지골의 연부조직 비후 및 석회 침착 소견(전신경화증, Scleroderma)이 관찰되었다. 이 질환에서 관찰되는 전형적인 방사선학적 소견은?"
   },
   {
     "id": "영상의학과_20Y_Q41",
@@ -258534,11 +258606,17 @@
     "category": "반짤",
     "theme_title": "산부인과 일반: 20 세 대학생이 3 시간 전부터 시작된 극심한 좌 하...",
     "subspecialty": "산부인과 일반",
-    "stem": "20 세 대학생이 3 시간 전부터 시작된 극심한 좌 하복부 통증으로 응급실 방분하였다. 활력징후 110/70-75-24-36.9 였고, 마지막 생리일은 2 주 전이었고, 성경험은 있었다. 응급실에서 시행 한 CT 소견이 다음과 같다면, 올바른 진단은?",
+    "stem": "20세 여성이 3시간 전부터 갑작스럽게 시작된 극심한 좌하복부 통증으로 응급실을 방문하였다. 활력징후: 110/70 mmHg, 맥박 75회/분, 호흡 24회/분, 체온 36.9℃. 마지막 월경은 2주 전이었다. 응급실에서 시행한 골반 CT에서 좌측 난소의 낭성 종괴 및 혈류 소실, 꼬임 소견이 관찰되었다. 가장 적절한 진단은?",
     "images": [],
-    "options": [],
+    "options": [
+      "① 난소 낭종 염전 (Ovarian cyst torsion)",
+      "② 난소 기형종 (Ovarian teratoma)",
+      "③ 내배엽동종양 (Endodermal sinus tumor)",
+      "④ 자궁내막 증식증 (Endometrial hyperplasia)",
+      "⑤ 급성 골반염 (Pelvic inflammatory disease)"
+    ],
     "correct_option_index": 0,
-    "correct_answer": "난소 낭종 염전 (Ovarian Cyst Torsion)",
+    "correct_answer": "① 난소 낭종 염전 (Ovarian cyst torsion)",
     "explanation": {
       "title": "산부인과 임상 증례 및 기출 분석",
       "findings": "20세 여성 급성 좌하복부 통증+CT상 지방/석회화 동반 난소 종괴 → 난소 기형종 및 이에 동반된 염전",
@@ -258569,7 +258647,8 @@
       "20Y-부인과23"
     ],
     "option_explanations": [],
-    "answer": "난소 낭종 염전 (Ovarian Cyst Torsion)"
+    "answer": "① 난소 낭종 염전 (Ovarian cyst torsion)",
+    "question": "20세 여성이 3시간 전부터 갑작스럽게 시작된 극심한 좌하복부 통증으로 응급실을 방문하였다. 활력징후: 110/70 mmHg, 맥박 75회/분, 호흡 24회/분, 체온 36.9℃. 마지막 월경은 2주 전이었다. 응급실에서 시행한 골반 CT에서 좌측 난소의 낭성 종괴 및 혈류 소실, 꼬임 소견이 관찰되었다. 가장 적절한 진단은?"
   },
   {
     "id": "산부인과_22Y_Q17",
@@ -258968,11 +259047,17 @@
     "category": "탈",
     "theme_title": "산부인과 일반: 60...",
     "subspecialty": "산부인과 일반",
-    "stem": "60. 27 세 여자가 질출혈과 객혈을 주소로 내원하였다. 내진에서 자궁은 거위알 크기였고, 흉부 X 선 검사에서 왼쪽 폐에 동전 크기의 혹이 관찰되었다.",
+    "stem": "27세 여자가 분만 후 지속되는 질출혈과 객혈을 주소로 내원하였다. 내진상 자궁은 거위알 크기로 증대되어 있었고, 흉부 X선 검사에서 좌측 폐에 다발성 결절 소견(폐 전이)이 관찰되었다. 혈청 β-hCG는 150,000 mIU/mL로 매우 높았다. 고위험 임신융모종양(Choriocarcinoma, High-risk GTN)으로 진단된 이 환자에게 시행해야 할 표준 치료는?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "융모암 (Choriocarcinoma)",
+    "options": [
+      "① 자궁소파술 (D&C)",
+      "② 메토트렉세이트 단독 항암화학요법 (Single-agent MTX)",
+      "③ 복합 항암화학요법 (Multi-agent chemotherapy, EMA-CO)",
+      "④ 응급 근치적 전자궁적출술",
+      "⑤ 골반강 방사선 치료"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 복합 항암화학요법 (Multi-agent chemotherapy, EMA-CO)",
     "explanation": {
       "title": "산부인과 임상 증례 및 기출 분석",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -258986,7 +259071,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 1,
     "rate": 17,
@@ -258997,7 +259082,8 @@
       "22Y-20"
     ],
     "option_explanations": [],
-    "answer": "융모암 (Choriocarcinoma)"
+    "answer": "③ 복합 항암화학요법 (Multi-agent chemotherapy, EMA-CO)",
+    "question": "27세 여자가 분만 후 지속되는 질출혈과 객혈을 주소로 내원하였다. 내진상 자궁은 거위알 크기로 증대되어 있었고, 흉부 X선 검사에서 좌측 폐에 다발성 결절 소견(폐 전이)이 관찰되었다. 혈청 β-hCG는 150,000 mIU/mL로 매우 높았다. 고위험 임신융모종양(Choriocarcinoma, High-risk GTN)으로 진단된 이 환자에게 시행해야 할 표준 치료는?"
   },
   {
     "id": "산부인과_22Y_Q21",
@@ -265142,11 +265228,17 @@
     "category": "기출",
     "theme_title": "산부인과 일반: (야마) 진통억제제 중 다음과 같은 특성을 가 지는 것...",
     "subspecialty": "산부인과 일반",
-    "stem": "(야마) 진통억제제 중 다음과 같은 특성을 가 지는 것은?",
+    "stem": "(야마) 조기진통 억제제(Tocolytics) 중 칼슘 길항 작용을 가지며, 과량 투여 시 호흡 부전 및 심부건반사 소실을 유발할 수 있고, 미숙아에서 뇌성마비 예방(태아 신경보호 효과, neuroprotection)을 위해 투여하는 약제는?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "아토시반 (Atosiban, 옥시토신 수용체 길항제)",
+    "options": [
+      "① 리토드린 (Ritodrine)",
+      "② 황산마그네슘 (Magnesium sulfate, MgSO4)",
+      "③ 테르부탈린 (Terbutaline)",
+      "④ 니페디핀 (Nifedipine)",
+      "⑤ 아토시반 (Atosiban)"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 황산마그네슘 (Magnesium sulfate, MgSO4)",
     "explanation": {
       "title": "산부인과 임상 증례 및 기출 분석",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -265160,7 +265252,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -265171,7 +265263,8 @@
       "19Y-13"
     ],
     "option_explanations": [],
-    "answer": "아토시반 (Atosiban, 옥시토신 수용체 길항제)"
+    "answer": "② 황산마그네슘 (Magnesium sulfate, MgSO4)",
+    "question": "(야마) 조기진통 억제제(Tocolytics) 중 칼슘 길항 작용을 가지며, 과량 투여 시 호흡 부전 및 심부건반사 소실을 유발할 수 있고, 미숙아에서 뇌성마비 예방(태아 신경보호 효과, neuroprotection)을 위해 투여하는 약제는?"
   },
   {
     "id": "산부인과_19Y_Q14",
@@ -267514,11 +267607,17 @@
     "category": "짤",
     "theme_title": "산부인과 일반: (야마) 다음 사진은 fetal biometry 중 어...",
     "subspecialty": "산부인과 일반",
-    "stem": "(야마) 다음 사진은 fetal biometry 중 어느 부 위를 측정하는 것인가? (한글보기였음)",
+    "stem": "(야마) 태아 초음파 계측(Fetal biometry)에서 위포(Stomach bubble)와 제대정맥(Umbilical vein)의 문맥동(Portal sinus) 분지가 관찰되는 횡단면에서 측정하는 태아 지표는?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "복부 둘레 (Abdominal Circumference, AC)",
+    "options": [
+      "① 두위 (Head circumference, HC)",
+      "② 복위 (Abdominal circumference, AC)",
+      "③ 대퇴골 길이 (Femur length, FL)",
+      "④ 양두정골 간격 (Biparietal diameter, BPD)",
+      "⑤ 두둔길이 (Crown-rump length, CRL)"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 복위 (Abdominal circumference, AC)",
     "explanation": {
       "title": "산부인과 임상 증례 및 기출 분석",
       "findings": "초음파상 척추, 위(stomach bubble), 문맥 J자 분지가 관찰되는 복부 횡단면 → 복부둘레(AC), 태아 체중 및 성장지연 평가",
@@ -267532,7 +267631,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 2,
     "rate": 33,
@@ -267545,7 +267644,8 @@
       "26Y-39"
     ],
     "option_explanations": [],
-    "answer": "복부 둘레 (Abdominal Circumference, AC)"
+    "answer": "② 복위 (Abdominal circumference, AC)",
+    "question": "(야마) 태아 초음파 계측(Fetal biometry)에서 위포(Stomach bubble)와 제대정맥(Umbilical vein)의 문맥동(Portal sinus) 분지가 관찰되는 횡단면에서 측정하는 태아 지표는?"
   },
   {
     "id": "산부인과_19Y_Q37",
@@ -268254,11 +268354,16 @@
     "category": "기출",
     "theme_title": "산부인과 일반: 임신 25주에 50g OGTT, 100g OGTT 이상...",
     "subspecialty": "산부인과 일반",
-    "stem": "임신 25주에 50g OGTT, 100g OGTT 이상소견",
+    "stem": "임신 25주에 임신성 당뇨병(GDM)으로 진단받은 산모가 4주간의 식이요법 및 운동요법을 철저히 시행한 후 자가 혈당을 측정하였다. 공복 혈당이 103~110 mg/dL(목표 <95), 식후 2시간 혈당이 130~170 mg/dL(목표 <120)로 목표치에 도달하지 못하였다. 다음으로 시행해야 할 적절한 치료는?",
     "images": [],
-    "options": [],
+    "options": [
+      "① 인슐린 투여 (Insulin therapy)",
+      "② 경구 혈당강하제 (Sulfonylurea)",
+      "③ 식이 및 운동 강도를 더 높이며 경과관찰",
+      "④ 즉시 유도분만 시행"
+    ],
     "correct_option_index": 0,
-    "correct_answer": "임신성 당뇨병 (Gestational Diabetes Mellitus, GDM)",
+    "correct_answer": "① 인슐린 투여 (Insulin therapy)",
     "explanation": {
       "title": "산부인과 임상 증례 및 기출 분석",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -268283,7 +268388,8 @@
       "19Y-44"
     ],
     "option_explanations": [],
-    "answer": "임신성 당뇨병 (Gestational Diabetes Mellitus, GDM)"
+    "answer": "① 인슐린 투여 (Insulin therapy)",
+    "question": "임신 25주에 임신성 당뇨병(GDM)으로 진단받은 산모가 4주간의 식이요법 및 운동요법을 철저히 시행한 후 자가 혈당을 측정하였다. 공복 혈당이 103~110 mg/dL(목표 <95), 식후 2시간 혈당이 130~170 mg/dL(목표 <120)로 목표치에 도달하지 못하였다. 다음으로 시행해야 할 적절한 치료는?"
   },
   {
     "id": "산부인과_19Y_Q45",
@@ -268921,11 +269027,17 @@
     "category": "기출",
     "theme_title": "산부인과 일반: 38세 여성...",
     "subspecialty": "산부인과 일반",
-    "stem": "38세 여성. 4년째 임신 안됨. 부인은 정상. 남 성 정자 : 1.00ml. OOO. OOO. 활동도 10-15% 정도. Morphology 4%. 불임을 치료하기 위한 시도로 옳은 것은?",
+    "stem": "38세 여성 환자가 4년간의 원발성 불임을 주소로 내원하였다. 여성의 배란 및 난관 기능은 정상이었으나, 남편의 정액 검사 결과 정액량 1.0mL, 정자 운동성 10~15%, 엄격 기준 정상 형태 정자 4%로 중증의 정자무력/기형정자증이 확인되었다. 이 부부의 임신을 위해 가장 적절한 난임 시술법은?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "난자세포질내 정자주입술 (ICSI)",
+    "options": [
+      "① 배란일 맞추어 자연 임신 시도",
+      "② 세포질내 정자주입술 (ICSI)",
+      "③ 고식적 체외수정 및 배아이식 (Conventional IVF-ET)",
+      "④ 자궁내 인공수정 (IUI)",
+      "⑤ 고환 생검"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 세포질내 정자주입술 (ICSI)",
     "explanation": {
       "title": "산부인과 임상 증례 및 기출 분석",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -268939,7 +269051,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -268950,7 +269062,8 @@
       "19Y-50"
     ],
     "option_explanations": [],
-    "answer": "난자세포질내 정자주입술 (ICSI)"
+    "answer": "② 세포질내 정자주입술 (ICSI)",
+    "question": "38세 여성 환자가 4년간의 원발성 불임을 주소로 내원하였다. 여성의 배란 및 난관 기능은 정상이었으나, 남편의 정액 검사 결과 정액량 1.0mL, 정자 운동성 10~15%, 엄격 기준 정상 형태 정자 4%로 중증의 정자무력/기형정자증이 확인되었다. 이 부부의 임신을 위해 가장 적절한 난임 시술법은?"
   },
   {
     "id": "산부인과_19Y_Q51",
@@ -269699,11 +269812,17 @@
     "category": "기출",
     "theme_title": "산부인과 일반: (야마) 산과력 0-0-0-0인 40세 여자가 불규칙 ...",
     "subspecialty": "산부인과 일반",
-    "stem": "(야마) 산과력 0-0-0-0인 40세 여자가 불규칙 한 질출혈을 주소로 내원하였다. 내원 전날 저",
+    "stem": "(야마) 산과력 0-0-0-0인 40세 여자가 불규칙한 질출혈을 주소로 내원하였다. 내원 전날 저녁부터 소량의 질출혈이 있었으나 내원 당시에는 멎었다. 활력징후는 안정적이었다. 가임기 여성의 비정상 질출혈 감별을 위해 가장 먼저 우선적으로 시행해야 할 검사는?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "자궁내막 생검 (Endometrial Biopsy)",
+    "options": [
+      "① 혈청 프로게스테론 농도 측정",
+      "② 자궁난관조영술 (HSG)",
+      "③ 자궁내막 흡인 생검",
+      "④ 소변 human chorionic gonadotropin (소변 hCG 검사)",
+      "⑤ 진단적 자궁경 검사"
+    ],
+    "correct_option_index": 3,
+    "correct_answer": "④ 소변 human chorionic gonadotropin (소변 hCG 검사)",
     "explanation": {
       "title": "산부인과 임상 증례 및 기출 분석",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -269717,7 +269836,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      3
     ],
     "freq_count": 1,
     "rate": 17,
@@ -269728,7 +269847,8 @@
       "19Y-57"
     ],
     "option_explanations": [],
-    "answer": "자궁내막 생검 (Endometrial Biopsy)"
+    "answer": "④ 소변 human chorionic gonadotropin (소변 hCG 검사)",
+    "question": "(야마) 산과력 0-0-0-0인 40세 여자가 불규칙한 질출혈을 주소로 내원하였다. 내원 전날 저녁부터 소량의 질출혈이 있었으나 내원 당시에는 멎었다. 활력징후는 안정적이었다. 가임기 여성의 비정상 질출혈 감별을 위해 가장 먼저 우선적으로 시행해야 할 검사는?"
   },
   {
     "id": "산부인과_19Y_Q58",
@@ -271606,11 +271726,17 @@
     "category": "짤",
     "theme_title": "[단독 기출] 수신증을 동반한 진행성 자궁경부암(Stage IIIB)의 동시항암방사선요법",
     "subspecialty": "산부인과 일반",
-    "stem": "(야마) 산과력 4-0-5-4인 64세 여성이 몇 달 전부터 시작된 우측 옆구리 통증과 우측 다리 부종을 주소로 내원하였다. 자궁경부 전체뿐만 아니라 양측 자궁조직까지 침윤된 자궁경부 편평상피세포암이 확인되었다. 응급실에서 찍",
+    "stem": "(야마) 64세 여성이 수개월 전부터 시작된 우측 옆구리 통증과 우측 하지 부종을 주소로 내원하였다. 자궁경부 생검상 침윤성 편평상피세포암이 확인되었고, 복부 CT에서 암종이 양측 골반강 벽까지 침윤되고 우측 요관 폐쇄로 인한 수신증(Hydronephrosis, Stage IIIB)이 관찰되었다. 가장 적절한 표준 치료는?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "동시항암화학방사선치료 (CCRT, Stage IIIB)",
+    "options": [
+      "① 광범위 전자궁적출술 및 골반림프절 곽청술",
+      "② 동시 항암화학방사선요법 (CCRT)",
+      "③ 단순 전자궁적출술",
+      "④ 전자궁적출술 및 양측 난소난관절제술",
+      "⑤ 단독 면역요법"
+    ],
+    "correct_option_index": 1,
+    "correct_answer": "② 동시 항암화학방사선요법 (CCRT)",
     "explanation": {
       "title": "[단독 기출] 수신증을 동반한 진행성 자궁경부암(Stage IIIB)의 동시항암방사선요법",
       "findings": "자궁방조직 침윤+우측 수신증 동반 자궁경부암(Stage IIIB) → 동시항암방사선요법(CCRT)",
@@ -271624,7 +271750,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 2,
     "rate": 33,
@@ -271637,7 +271763,8 @@
       "20Y-부인과34"
     ],
     "option_explanations": [],
-    "answer": "동시항암화학방사선치료 (CCRT, Stage IIIB)"
+    "answer": "② 동시 항암화학방사선요법 (CCRT)",
+    "question": "(야마) 64세 여성이 수개월 전부터 시작된 우측 옆구리 통증과 우측 하지 부종을 주소로 내원하였다. 자궁경부 생검상 침윤성 편평상피세포암이 확인되었고, 복부 CT에서 암종이 양측 골반강 벽까지 침윤되고 우측 요관 폐쇄로 인한 수신증(Hydronephrosis, Stage IIIB)이 관찰되었다. 가장 적절한 표준 치료는?"
   },
   {
     "id": "산부인과_19Y_Q76",
@@ -272143,11 +272270,16 @@
     "category": "짤",
     "theme_title": "산부인과 일반: (변형) 다음 그림에 관해 틀린 것을 고르시오...",
     "subspecialty": "산부인과 일반",
-    "stem": "(변형) 다음 그림에 관해 틀린 것을 고르시오.",
+    "stem": "원발성 질암(Vaginal cancer)에 관한 임상적 설명 중 옳지 않은 것은?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "후기 감속 (Late Deceleration) - 자궁태반 기능부전",
+    "options": [
+      "① 질 상부 1/3의 후벽에 가장 흔히 발생한다.",
+      "② 수술 후 절제연 양성이나 림프절 전이 시 방사선 요법이 효과적이다.",
+      "③ 수술적 절제보다 전신 항암화학 단독 요법이 1차 치료로 더 우수하다.",
+      "④ Pap smear에서 위음성이 흔하므로 의심 병변에 대한 육안 시진과 생검이 필수적이다."
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 수술적 절제보다 전신 항암화학 단독 요법이 1차 치료로 더 우수하다.",
     "explanation": {
       "title": "산부인과 임상 증례 및 기출 분석",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -272161,7 +272293,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 2,
     "rate": 33,
@@ -272174,7 +272306,8 @@
       "20Y-부인과38"
     ],
     "option_explanations": [],
-    "answer": "후기 감속 (Late Deceleration) - 자궁태반 기능부전"
+    "answer": "③ 수술적 절제보다 전신 항암화학 단독 요법이 1차 치료로 더 우수하다.",
+    "question": "원발성 질암(Vaginal cancer)에 관한 임상적 설명 중 옳지 않은 것은?"
   },
   {
     "id": "산부인과_19Y_Q81",
@@ -273162,11 +273295,17 @@
     "category": "기출",
     "theme_title": "산부인과 일반: (야마) NST에서 reactive이고, 30분 간 측...",
     "subspecialty": "산부인과 일반",
-    "stem": "(야마) NST에서 reactive이고, 30분 간 측정시 30초 이상 태아의 호흡이 지속되는 것이 2회 였으며, 태아의 움직임은 30분동안 2회 관찰",
+    "stem": "(야마) 임신 34주 산모에서 시행한 태아생체물리학적점수(BPP) 검사 결과이다. NST: 반응성(Reactive), 30분간 관찰 시 30초 이상 지속되는 태아 호흡 운동 2회 관찰, 태아의 신체 움직임 2회 관찰(3회 미만), 태아 사지 굴곡/신전 근긴장도 미관찰, 양수 단일 최대 수직 깊이(Single deepest pocket) 2.5cm. 이 태아의 BPP 점수는 몇 점인가?",
     "images": [],
-    "options": [],
-    "correct_option_index": 0,
-    "correct_answer": "태아생체물리학적점수 (BPP) 정상 (8~10점)",
+    "options": [
+      "① 2점",
+      "② 4점",
+      "③ 6점",
+      "④ 8점",
+      "⑤ 10점"
+    ],
+    "correct_option_index": 2,
+    "correct_answer": "③ 6점",
     "explanation": {
       "title": "산부인과 임상 증례 및 기출 분석",
       "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
@@ -273180,7 +273319,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 1,
     "rate": 17,
@@ -273191,7 +273330,8 @@
       "19Y-91"
     ],
     "option_explanations": [],
-    "answer": "태아생체물리학적점수 (BPP) 정상 (8~10점)"
+    "answer": "③ 6점",
+    "question": "(야마) 임신 34주 산모에서 시행한 태아생체물리학적점수(BPP) 검사 결과이다. NST: 반응성(Reactive), 30분간 관찰 시 30초 이상 지속되는 태아 호흡 운동 2회 관찰, 태아의 신체 움직임 2회 관찰(3회 미만), 태아 사지 굴곡/신전 근긴장도 미관찰, 양수 단일 최대 수직 깊이(Single deepest pocket) 2.5cm. 이 태아의 BPP 점수는 몇 점인가?"
   },
   {
     "id": "산부인과_19Y_Q92",
@@ -283490,17 +283630,17 @@
     "category": "반짤",
     "theme_title": "수혈 후 비예기항체(Unexpected Antibodies) 형성 위험과 관리",
     "subspecialty": "수혈의학 및 검사실안전",
-    "stem": "(Y) 2 급 미생물 취급 실험실이 갖추어야 할 사항 으로 옳지 않은 것은? 검사실 문을 열어두면 안된다",
+    "stem": "(Y) 2급 미생물 취급 실험실이 갖추어야 할 사항으로 옳지 않은 것은?",
     "images": [],
     "options": [
-      "① 긴머리는 오염을 일으킬 가능성이 높으므로",
-      "② 뒤로 잡아매야 한다. 검사실 안에서 상관없는 다른 작업을 할 때",
-      "③ 에도 장갑을 벗지 말아야 한다. 장갑을 벗고나서, 검사실 나갈 때, 오염물질",
-      "④ 을 만진 후 반드시 손을 씻어야 한다. 검사실 안에서는 보호복을 착용하고 발가락",
-      "⑤ 과 발뒤꿈치가 안보이는 신발을 신어야한다."
+      "① 검사실 문을 열어두면 안 된다.",
+      "② 긴 머리는 오염을 일으킬 가능성이 높으므로 뒤로 단정히 묶어야 한다.",
+      "③ 검사실 안에서 상관없는 다른 작업을 할 때에도 장갑을 벗지 말아야 한다.",
+      "④ 장갑을 벗고 나서, 검사실을 나갈 때, 오염물질을 만진 후에는 반드시 손을 씻어야 한다.",
+      "⑤ 검사실 안에서는 보호복을 착용하고 발가락과 발뒤꿈치가 안 보이는 신발을 신어야 한다."
     ],
-    "correct_option_index": 4,
-    "correct_answer": "⑤ 과 발뒤꿈치가 안보이는 신발을 신어야한다.",
+    "correct_option_index": 2,
+    "correct_answer": "③ 검사실 안에서 상관없는 다른 작업을 할 때에도 장갑을 벗지 말아야 한다.",
     "explanation": {
       "title": "수혈 후 비예기항체(Unexpected Antibodies) 형성 위험과 관리",
       "findings": "안전 수혈 지침의 핵심 임상 원칙 숙지.",
@@ -283597,7 +283737,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      4
+      2
     ],
     "raw_questions": [
       "21Y-수혈04",
@@ -283613,7 +283753,8 @@
     ],
     "freq_count": 4,
     "rate": 67,
-    "answer": "⑤ 과 발뒤꿈치가 안보이는 신발을 신어야한다."
+    "answer": "③ 검사실 안에서 상관없는 다른 작업을 할 때에도 장갑을 벗지 말아야 한다.",
+    "question": "(Y) 2급 미생물 취급 실험실이 갖추어야 할 사항으로 옳지 않은 것은?"
   },
   {
     "id": "진단검사의학과_21Y_수혈_Q05",
@@ -283767,17 +283908,17 @@
     "category": "기출",
     "theme_title": "수혈 전 필수 면역혈액학 검사 항목: 불규칙항체 선별검사",
     "subspecialty": "수혈의학 및 검사실안전",
-    "stem": "F-WBC 에 대한 설명으로 옳은 것은? 방사선을 쪼이면 비슷한 효과를 얻을 수 있다",
+    "stem": "백혈구여과제거혈액(Leukoreduced blood, F-WBC)에 대한 설명으로 옳은 것은?",
     "images": [],
     "options": [
-      "① frbrile reaction 을 줄이기 위해서는 pre-storage",
-      "② 를 이용하는 것 보다 bed side filter 가 더 효과 가 좋다 wbc 를 전부 없앨 수 있다",
-      "③ 동종 면역 반응이 증가할 수 있다",
-      "④ 혈소판 부전 수혈증을 줄일 수 있는 효과가 있",
-      "⑤ 다"
+      "① 방사선을 조사하면 백혈구 제거와 동일한 효과를 얻을 수 있다.",
+      "② 발열성 비용혈 수혈반응(FNHTR)을 줄이기 위해서는 pre-storage보다 bedside filter가 더 효과가 좋다.",
+      "③ 여과 필터를 이용하면 혈액 내 백혈구를 100% 완전 무결하게 제거할 수 있다.",
+      "④ 백혈구 제거 혈액을 수혈하면 HLA 동종면역(Alloimmunization) 반응이 증가한다.",
+      "⑤ 수혈 후 동종면역에 의한 혈소판 수혈 불응증(Platelet refractoriness) 발생을 줄일 수 있다."
     ],
-    "correct_option_index": 1,
-    "correct_answer": "② 를 이용하는 것 보다 bed side filter 가 더 효과 가 좋다 wbc 를 전부 없앨 수 있다",
+    "correct_option_index": 4,
+    "correct_answer": "⑤ 수혈 후 동종면역에 의한 혈소판 수혈 불응증(Platelet refractoriness) 발생을 줄일 수 있다.",
     "explanation": {
       "title": "수혈 전 필수 면역혈액학 검사 항목: 불규칙항체 선별검사",
       "findings": "수혈 부작용(용혈성 수혈반응) 예방을 위한 필수 표준 패키지 규정.",
@@ -283874,7 +284015,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      1
+      4
     ],
     "raw_questions": [
       "21Y-수혈06"
@@ -283884,7 +284025,8 @@
     ],
     "freq_count": 1,
     "rate": 17,
-    "answer": "② 를 이용하는 것 보다 bed side filter 가 더 효과 가 좋다 wbc 를 전부 없앨 수 있다"
+    "answer": "⑤ 수혈 후 동종면역에 의한 혈소판 수혈 불응증(Platelet refractoriness) 발생을 줄일 수 있다.",
+    "question": "백혈구여과제거혈액(Leukoreduced blood, F-WBC)에 대한 설명으로 옳은 것은?"
   },
   {
     "id": "진단검사의학과_21Y_수혈_Q07",
@@ -288725,14 +288867,14 @@
     "stem": "20세 대학생이 3시간 전부터 시작된 극심한 좌하복부 통증으로 응급실을 방문하였다. 이 여성의 활력징후는 110/70 mmHg - 74회 - 24회 - 36.9℃였고 마지막 생리일은 2주 전이었고, 성경험은 있었다. 응급실에서 시행한 CT 소견이 다음과 같다면(난소 낭종 파열, 활력징후 안정) 이 여성에서의 가장 적절한 처치는?",
     "images": [],
     "options": [
-      "① 입원하여 항생제 치료",
+      "① 입원하여 정맥 항생제 치료",
       "② 경구피임제 투여",
-      "③ 시험적 개복술 혹은 복강경수술",
-      "④ 초음파 영상 하에 needle aspiration",
-      "⑤ 진통제 투여 및 경과 관찰 (보존적 치료)"
+      "③ 시험적 개복술 혹은 복강경 수술",
+      "④ 초음파 유도하 바늘 흡인술",
+      "⑤ 진통제 투여 및 보존적 경과관찰"
     ],
     "correct_option_index": 4,
-    "correct_answer": "⑤ 진통제 투여 및 경과 관찰 (보존적 치료)",
+    "correct_answer": "⑤ 진통제 투여 및 보존적 경과관찰",
     "explanation": {
       "title": "테마 52. 난소 낭종 염전(Ovarian Cyst Torsion) - 성숙낭종기형종(Teratoma)",
       "findings": "골반 초음파 및 CT상 지방 음영과 석회화 치아 결절, 급성 염전 호발 양성 난소 종양 → 성숙 낭성 기형종(Mature cystic teratoma)",
@@ -288845,7 +288987,7 @@
     ],
     "freq_count": 4,
     "rate": 67,
-    "answer": "⑤ 진통제 투여 및 경과 관찰 (보존적 치료)"
+    "answer": "⑤ 진통제 투여 및 보존적 경과관찰"
   },
   {
     "id": "산부인과_20Y_부인과_Q24",
