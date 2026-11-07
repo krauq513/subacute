@@ -196701,7 +196701,7 @@
     "year": "22Y",
     "q_num": 24,
     "category": "짤",
-    "theme_title": "슬관절 관절경 관찰 소견: 내측 반월연골판(Medial Meniscus) 해부학적 구조",
+    "theme_title": "슬관절 관절경 관찰 소견: 전방십자인대(Anterior Cruciate Ligament, ACL) 해부학적 구조",
     "subspecialty": "슬관절 질환",
     "stem": "다음 관절경 사진에서 별표(*)한 구조물로 알맞은 것은?",
     "images": [
@@ -196714,25 +196714,25 @@
       "④ Posterior cruciate ligament",
       "⑤ Patellar tendon"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Medial meniscus",
+    "correct_option_index": 2,
+    "correct_answer": "③ Anterior cruciate ligament",
     "explanation": {
-      "title": "슬관절 관절경 관찰 소견: 내측 반월연골판(Medial Meniscus) 해부학적 구조",
-      "theme_title": "슬관절 관절경 관찰 소견: 내측 반월연골판(Medial Meniscus) 해부학적 구조",
+      "title": "슬관절 관절경 관찰 소견: 전방십자인대(Anterior Cruciate Ligament, ACL) 해부학적 구조",
+      "theme_title": "슬관절 관절경 관찰 소견: 전방십자인대(Anterior Cruciate Ligament, ACL) 해부학적 구조",
       "subspecialty": "슬관절 질환",
-      "findings": "슬관절 관절경 수술 시 전외측 삽입구를 통해 대퇴 내과와 경골 내측 고평부 사이를 관찰하였을 때, 관절연골 사이에 위치한 반달 모양의 섬유연골성 내측 반월연골판(medial meniscus)입니다.",
-      "differential": "• ① Medial meniscus ✓ [정답]: 대퇴골 내과와 경골 내측 고평부 사이에 위치한 초승달(C자) 모양의 섬유연골 구조물로 내측 반월상연골판(Medial meniscus)에 해당합니다.\n• ② Lateral meniscus ✗ [오답]: 외측 반월상연골판(Lateral meniscus)은 외측 구획에 위치하며 더 원형(O자 모양)에 가깝습니다.\n• ③ Anterior cruciate ligament ✗ [오답]: 전방십자인대(ACL)는 과간절흔(intercondylar notch) 내에서 경골 전방과 대퇴골 외과 내측면을 연결하는 인대입니다.\n• ④ Posterior cruciate ligament ✗ [오답]: 후방십자인대(PCL)는 과간절흔 후방에 위치합니다.\n• ⑤ Patellar tendon ✗ [오답]: 슬개건(Patellar tendon)은 관절강 외부 전방에 위치하여 슬개골 하극과 경골 조면을 연결합니다.",
-      "trap": "내측 반월연골판의 후각부(posterior horn)는 관절경 시야의 사각지대에 위치하여 탐침자(probe)로 당겨보지 않으면 연골하 닻 파열(root tear)이나 후방 변연부 파열을 놓치기 쉬우므로, 반드시 탐침자를 이용한 동적 견인 검사가 필수적입니다.",
-      "trigger": "【반월상연골판 해부학 및 관절경 소견 대조 핵심 족보 & 임상 가이드라인】\n• 내측 vs 외측 반월상연골판 해부학 대조:\n  - 내측(MM): 반월형('C'자 모양, 반경 큼), 후각부가 전각부보다 넓음. MCL 심부와 강하게 유착 → 가동성 적음(손상 최다 호발).\n  - 외측(LM): 원형('O'자 모양, 거의 완전한 원), 전각/체부/후각 폭이 균일. 슬와건(popliteus tendon) 주행으로 외측 관절낭 유착 없음 → 가동성 큼.\n• 혈관 분포: 외측 10~30%만 혈관 분포(Red-Red zone, 봉합 치유 가능), 내측 2/3는 무혈관 구역(White-White zone, 절제술 시행).\n• 1초 정답 도출 트리거: 관절경 사진에서 대퇴 내과 하부의 초승달형 섬유연골 구조물 지칭 → Medial meniscus.",
-      "kmle_link": "KMLE 15권 정형외과 / 슬관절 질환",
+      "findings": "슬관절 관절경 시야에서 과간절흔(intercondylar notch)을 관찰하였을 때 대퇴골 외과 내측면에서 경골 과간 융기 전방으로 주행하는 전방십자인대(ACL)의 주행 및 연속성을 탐침자(probe)로 확인하는 모습입니다.",
+      "differential": "• ① Medial meniscus ✗ [오답]: 대퇴골 내과와 경골 내측 고평부 사이에 위치한 초승달(C자) 모양의 섬유연골 구조물입니다.\\n• ② Lateral meniscus ✗ [오답]: 외측 반월상연골판(Lateral meniscus)은 외측 구획에 위치하며 더 원형(O자 모양)에 가깝습니다.\\n• ③ Anterior cruciate ligament ✓ [정답]: 슬관절 과간절흔(intercondylar notch) 중앙에서 대퇴골 외과 내측면과 경골 전방 과간 융기를 연결하는 전방십자인대(Anterior Cruciate Ligament, ACL)입니다. 관절경 수술 시 탐침자(probe)를 걸어 긴장도를 확인하며 파열 유무를 진단합니다.\\n• ④ Posterior cruciate ligament ✗ [오답]: 후방십자인대(PCL)는 과간절흔 후내측 깊숙이 위치합니다.\\n• ⑤ Patellar tendon ✗ [오답]: 슬개건(Patellar tendon)은 관절강 외부 전방에 위치하여 슬개골 하극과 경골 조면을 연결합니다.",
+      "trap": "반월상연골판(Meniscus)은 대퇴과와 경골 사이에 끼어 있는 평평한 섬유연골이며, 과간절흔 공간에 두껍게 밧줄처럼 뻗어 있는 인대는 전방십자인대(ACL)입니다.",
+      "trigger": "【전방십자인대 관절경 핵심 포인트】\\n• 관절경 시야에서 과간절흔(intercondylar notch) 중앙을 비스듬히 가로지르는 굵은 인대 구조물 지칭 및 탐침자(probe) 검사 → 전방십자인대(Anterior Cruciate Ligament, ACL).",
+      "kmle_link": "KMLE 15권 정형외과 / 슬관절 질환 / 전방십자인대 손상",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
           "text": "Medial meniscus",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "대퇴골 내과와 경골 내측 고평부 사이에 위치한 초승달(C자) 모양의 섬유연골 구조물로 내측 반월상연골판(Medial meniscus)에 해당합니다."
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "대퇴골 내과와 경골 고평부 사이의 C자형 섬유연골입니다."
         },
         {
           "opt_idx": 1,
@@ -196740,15 +196740,15 @@
           "text": "Lateral meniscus",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "외측 반월상연골판(Lateral meniscus)은 외측 구획에 위치하며 더 원형(O자 모양)에 가깝습니다."
+          "reason": "외측 관절 구획에 위치하는 O자형 섬유연골입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
           "text": "Anterior cruciate ligament",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "전방십자인대(ACL)는 과간절흔(intercondylar notch) 내에서 경골 전방과 대퇴골 외과 내측면을 연결하는 인대입니다."
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "과간절흔 중앙을 주행하며 탐침자로 긴장도를 확인하고 있는 전방십자인대(ACL)입니다."
         },
         {
           "opt_idx": 3,
@@ -196756,7 +196756,7 @@
           "text": "Posterior cruciate ligament",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "후방십자인대(PCL)는 과간절흔 후방에 위치합니다."
+          "reason": "전방십자인대보다 후내측 깊은 곳에 위치합니다."
         },
         {
           "opt_idx": 4,
@@ -196764,15 +196764,15 @@
           "text": "Patellar tendon",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "슬개건(Patellar tendon)은 관절강 외부 전방에 위치하여 슬개골 하극과 경골 조면을 연결합니다."
+          "reason": "관절낭 외 전방 구조물입니다."
         }
       ],
-      "differential_general": "관절경 상 대퇴 내과 하부 관절면에 위치하는 초승달형 구조물은 내측 반월상연골판(Medial meniscus)입니다."
+      "differential_general": "관절경 시야에서 과간절흔 중앙을 주행하는 구조물은 전방십자인대(ACL)입니다."
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 2,
     "rate": 33,
@@ -196790,9 +196790,9 @@
         "opt_idx": 0,
         "opt_num": "①",
         "text": "Medial meniscus",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "대퇴골 내과와 경골 내측 고평부 사이에 위치한 초승달(C자) 모양의 섬유연골 구조물로 내측 반월상연골판(Medial meniscus)에 해당합니다."
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "대퇴골 내과와 경골 고평부 사이의 C자형 섬유연골입니다."
       },
       {
         "opt_idx": 1,
@@ -196800,15 +196800,15 @@
         "text": "Lateral meniscus",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "외측 반월상연골판(Lateral meniscus)은 외측 구획에 위치하며 더 원형(O자 모양)에 가깝습니다."
+        "reason": "외측 관절 구획에 위치하는 O자형 섬유연골입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
         "text": "Anterior cruciate ligament",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "전방십자인대(ACL)는 과간절흔(intercondylar notch) 내에서 경골 전방과 대퇴골 외과 내측면을 연결하는 인대입니다."
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "과간절흔 중앙을 주행하며 탐침자로 긴장도를 확인하고 있는 전방십자인대(ACL)입니다."
       },
       {
         "opt_idx": 3,
@@ -196816,7 +196816,7 @@
         "text": "Posterior cruciate ligament",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "후방십자인대(PCL)는 과간절흔 후방에 위치합니다."
+        "reason": "전방십자인대보다 후내측 깊은 곳에 위치합니다."
       },
       {
         "opt_idx": 4,
@@ -196824,10 +196824,10 @@
         "text": "Patellar tendon",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "슬개건(Patellar tendon)은 관절강 외부 전방에 위치하여 슬개골 하극과 경골 조면을 연결합니다."
+        "reason": "관절낭 외 전방 구조물입니다."
       }
     ],
-    "answer": "① Medial meniscus"
+    "answer": "③ Anterior cruciate ligament"
   },
   {
     "id": "정형외과_22Y_Q25",
