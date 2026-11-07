@@ -190062,7 +190062,14 @@
           "reason": "동맥 재건이 필요한 혈관 손상이 동반된 경우입니다."
         }
       ],
-      "differential_general": "혈관 손상 없이 광범위한 연부조직 결손으로 뼈를 덮을 수 없는 개방성 골절은 Gustilo-Anderson Type 3b입니다."
+      "differential_general": "혈관 손상 없이 광범위한 연부조직 결손으로 뼈를 덮을 수 없는 개방성 골절은 Gustilo-Anderson Type 3b입니다.",
+      "images": [
+        {
+          "url": "images/정형외과/22Y_Q45_fig3.png",
+          "caption": "Gustilo-Anderson 개방성 골절 분류 기준표",
+          "description": "상처 크기, 연부조직 결손 및 골막 박리(피판술 필요 여부), 주요 혈관 손상에 따른 분류 기준"
+        }
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -199476,8 +199483,7 @@
     "stem": "(계통 22Y) 다음 외상의 Gustilo-Anderson type은? (혈관 손상은 없고 피부를 덮을 수 없었음)",
     "images": [
       "images/정형외과/22Y_Q45_fig1.png",
-      "images/정형외과/22Y_Q45_fig2.png",
-      "images/정형외과/22Y_Q45_fig3.png"
+      "images/정형외과/22Y_Q45_fig2.png"
     ],
     "options": [
       "① Type 1",
@@ -199539,7 +199545,14 @@
           "reason": "동맥 재건이 필요한 혈관 손상이 동반된 경우입니다."
         }
       ],
-      "differential_general": "혈관 손상 없이 광범위한 연부조직 결손으로 뼈를 덮을 수 없는 개방성 골절은 Gustilo-Anderson Type 3b입니다."
+      "differential_general": "혈관 손상 없이 광범위한 연부조직 결손으로 뼈를 덮을 수 없는 개방성 골절은 Gustilo-Anderson Type 3b입니다.",
+      "images": [
+        {
+          "url": "images/정형외과/22Y_Q45_fig3.png",
+          "caption": "Gustilo-Anderson 개방성 골절 분류 기준표",
+          "description": "상처 크기, 연부조직 결손 및 골막 박리(피판술 필요 여부), 주요 혈관 손상에 따른 분류 기준"
+        }
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
