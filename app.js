@@ -875,7 +875,7 @@
   async function loadQuestions() {
     if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
       try {
-        const res = await fetch('data/quiz_all_subjects.json?v=20261107v35', { cache: 'no-cache' });
+        const res = await fetch('data/quiz_all_subjects.json?v=20261107v36', { cache: 'no-cache' });
         if (res.ok) {
           const freshData = await res.json();
           if (Array.isArray(freshData) && freshData.length > 0) {
@@ -3294,6 +3294,7 @@
     '정형외과_21Y_Q08',
     '정형외과_21Y_Q16',
     '정형외과_20Y_Q02',
+    '정형외과_19Y_Q11',
     '정형외과_22Y_Q01',
     '정형외과_22Y_Q02',
     '정형외과_22Y_Q04',

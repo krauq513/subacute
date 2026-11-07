@@ -192884,52 +192884,52 @@
     "year": "23Y",
     "q_num": 53,
     "category": "짤",
-    "theme_title": "경추·요천추 신경근별 지배 근육(Myotome)·감각(Dermatome)·심부건반사(DTR) 완전 분석",
+    "theme_title": "척수 신경근(Myotome)과 대표 지배 근육·운동 작용의 연결: L2 신경근(고관절 굴곡근)",
     "subspecialty": "척추 질환",
     "stem": "다음 중 신경과 근육을 연결한 것으로 옳지 않은 것은?",
     "images": [],
     "options": [
-      "① L2 - knee extensor",
-      "② C5 - elbow flexor",
-      "③ C7 - elbow extensor",
+      "① C5 - elbow flexor",
+      "② C7 - elbow extensor",
+      "③ L2 - Knee extensor",
       "④ L4 - dorsiflexion",
       "⑤ S1 - plantarflexion"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① L2 - knee extensor",
+    "correct_option_index": 2,
+    "correct_answer": "③ L2 - Knee extensor",
     "explanation": {
-      "title": "경추·요천추 신경근별 지배 근육(Myotome)·감각(Dermatome)·심부건반사(DTR) 완전 분석",
-      "theme_title": "경추·요천추 신경근별 지배 근육(Myotome)·감각(Dermatome)·심부건반사(DTR) 완전 분석",
+      "title": "척수 신경근(Myotome)과 대표 지배 근육·운동 작용의 연결: L2 신경근(고관절 굴곡근)",
+      "theme_title": "척수 신경근(Myotome)과 대표 지배 근육·운동 작용의 연결: L2 신경근(고관절 굴곡근)",
       "subspecialty": "척추 질환",
-      "findings": "경추(C5~T1) 및 요천추(L2~S1) 척수 신경근과 각 신경근이 지배하는 핵심 주동근(Key muscle / Myotome)의 해부학적 짝짓기가 올바른지 묻는 빈출 문항입니다. L2 신경근은 장요근(Iliopsoas)을 통해 고관절 굴곡(Hip flexion)을 담당하며, 슬관절 신전(Knee extension, 대퇴사두근 Quadriceps femoris)은 L3 및 L4 신경근의 지배를 받으므로 ①번 연결이 틀렸습니다.",
-      "differential": "• ① L2 - knee extensor ✓ [정답]: 슬관절 신전근(Knee extensor, 대퇴사두근 Quadriceps femoris)은 L3 및 L4 신경근(대퇴신경, Femoral nerve)이 지배합니다. L2 신경근의 핵심 지배 근육(Key muscle)은 고관절 굴곡근(Hip flexor, 장요근 Iliopsoas)이므로 옳지 않은 연결입니다.\n• ② C5 - elbow flexor ✗ [오답]: C5 신경근은 어깨 외전근(삼각근)과 주관절 굴곡근(Elbow flexor: 상완이두근, 상완근)을 지배하며 이두근 반사(Biceps reflex)를 담당하므로 옳은 연결입니다.\n• ③ C7 - elbow extensor ✗ [오답]: C7 신경근은 주관절 신전근(Elbow extensor: 상완삼두근 Triceps brachii), 손목 굴곡근, 손가락 신전근을 지배하며 삼두근 반사(Triceps reflex)를 담당하므로 옳은 연결입니다.\n• ④ L4 - dorsiflexion ✗ [오답]: L4 신경근은 전경골근(Tibialis anterior)을 지배하여 족관절 족배굴곡(Ankle dorsiflexion) 및 내번(Inversion)을 담당하므로 옳은 연결입니다.\n• ⑤ S1 - plantarflexion ✗ [오답]: S1 신경근은 비복근 및 가자미근(Gastrocnemius-Soleus)을 지배하여 족관절 족저굴곡(Ankle plantarflexion) 및 아킬레스건 반사를 담당하므로 옳은 연결입니다.",
-      "trap": "하지 신경근 운동 검사(ASIA 척수손상 표준 Key muscle 및 정형외과 신경근 검진)에서 L2(고관절 굴곡, Iliopsoas)와 L3·L4(슬관절 신전, Quadriceps)를 한 단계씩 밀려 외우지 않도록 주의해야 합니다. 또한 L4(발목 족배굴곡, Heel walk) vs L5(엄지발가락 족배굴곡, EHL) vs S1(발목 족저굴곡, Toe walk)의 구분도 단골 출제 포인트입니다.",
-      "trigger": "【경추(C5~T1) 및 요천추(L2~S1) 신경근별 운동(Myotome) · 감각(Dermatome) · 반사(DTR) 완벽 압축정리】\n1. 경추 신경근 (Cervical Nerve Roots: C5 ~ T1)\n• C5 신경근 (C4-C5 추간판 탈출)\n  - 핵심 운동(Myotome): 어깨 외전(삼각근, Deltoid) 및 주관절 굴곡(Elbow flexor: 상완이두근 Biceps brachii)\n  - 감각(Dermatome): 어깨 가쪽 및 상완 외측 (Lateral arm)\n  - 심부건반사(DTR): 이두근 반사 (Biceps reflex)\n• C6 신경근 (C5-C6 추간판 탈출)\n  - 핵심 운동(Myotome): 손목 신전(Wrist extensor: 장·단요측수근신근 ECRL/ECRB) 및 주관절 굴곡 보조(완요골근)\n  - 감각(Dermatome): 전완 외측(요측) 및 엄지·검지 (1st, 2nd finger)\n  - 심부건반사(DTR): 완요골근 반사 (Brachioradialis reflex)\n• C7 신경근 (C6-C7 추간판 탈출, 경추 디스크 최다 호발)\n  - 핵심 운동(Myotome): 주관절 신전(Elbow extensor: 상완삼두근 Triceps brachii), 손목 굴곡(FCR), 손가락 신전(EDC)\n  - 감각(Dermatome): 가운데손가락 (3rd finger, 중지)\n  - 심부건반사(DTR): 삼두근 반사 (Triceps reflex)\n• C8 신경근 (C7-T1 추간판 탈출)\n  - 핵심 운동(Myotome): 손가락 굴곡(Finger flexor: 심수지굴근 FDP, 중지 원위지절 굴곡)\n  - 감각(Dermatome): 약지·새끼손가락 (4th, 5th finger) 및 전완 내측(척측) 하부\n  - 심부건반사(DTR): 특이 주 반사 없음 (Finger jerk 연관)\n• T1 신경근 (T1-T2 추간판 탈출)\n  - 핵심 운동(Myotome): 손가락 외전 및 내전(Finger abductor/adductor: 골간근 Interossei, 소지외전근 ADM)\n  - 감각(Dermatome): 전완 내측 상부 및 주관절 내측과 주위\n\n2. 요천추 신경근 (Lumbosacral Nerve Roots: L2 ~ S1)\n• L2 신경근 (L1-L2 / L2-L3 병변)\n  - 핵심 운동(Myotome): 고관절 굴곡(Hip flexor: 장요근 Iliopsoas)\n  - 감각(Dermatome): 대퇴 전면 및 내측 중간부 (Anterior-medial thigh)\n  - 심부건반사(DTR): 특이 심부건반사 없음\n• L3 신경근 (L2-L3 / L3-L4 병변)\n  - 핵심 운동(Myotome): 슬관절 신전(Knee extensor: 대퇴사두근 Quadriceps femoris — L3와 L4 공동 지배, ASIA 표준 Key muscle은 L3), 고관절 내전 보조\n  - 감각(Dermatome): 대퇴 전내측 하부 및 슬관절 내측 (Medial femoral condyle)\n  - 심부건반사(DTR): 슬개건 반사 (Patellar tendon reflex 보조)\n• L4 신경근 (L3-L4 후외측 탈출)\n  - 핵심 운동(Myotome): 족관절 족배굴곡 및 내번(Ankle dorsiflexor & inverter: 전경골근 Tibialis anterior) + 슬관절 신전(대퇴사두근) → 발뒤꿈치 보행(Heel walking) 불가\n  - 감각(Dermatome): 하퇴 내측(Medial calf), 내과(Medial malleolus), 발 내측연\n  - 심부건반사(DTR): 슬개건 반사 (Patellar tendon reflex / Knee jerk)\n• L5 신경근 (L4-L5 후외측 탈출, 요추 디스크 최다 호발)\n  - 핵심 운동(Myotome): 엄지발가락 신전(Great toe extensor: 장무지신근 EHL), 발가락 신전(EDL), 고관절 외전(중둔근)\n  - 감각(Dermatome): 하퇴 전외측, 발등(Dorsum of foot), 제1~2족지 사이 물갈퀴 공간(1st web space)\n  - 심부건반사(DTR): 표준 반사 없음 (내측 슬괵건 반사 연관)\n• S1 신경근 (L5-S1 후외측 탈출)\n  - 핵심 운동(Myotome): 족관절 족저굴곡(Ankle plantarflexor: 비복근·가자미근 Gastrocnemius/Soleus), 발 외번(장·단비골근), 고관절 신전(대둔근) → 발끝 보행(Toe walking, 까치발) 불가\n  - 감각(Dermatome): 하퇴 후면, 외과(Lateral malleolus), 발 외측연 및 발바닥(Sole), 제5족지\n  - 심부건반사(DTR): 아킬레스건 반사 (Achilles tendon reflex / Ankle jerk)\n\n3. 추간판 탈출 레벨과 침범 신경근 공식\n• 경추: 추간판 아래 번호 신경근 침범 (예: C5-C6 탈출 → C6 신경근, C6-C7 탈출 → C7 신경근)\n• 요추(일반적 후외측 탈출): 추간판 아래 번호 신경근(Traversing root) 침범 (예: L4-L5 탈출 → L5 신경근, L5-S1 탈출 → S1 신경근)",
+      "findings": "척수 신경근 레벨과 해당 신경근이 지배하는 핵심 근육 및 운동 작용(Myotome)의 짝짓기를 묻는 기출 문제입니다.",
+      "differential": "• ① C5 - elbow flexor ✗ [오답]: C5 신경근은 주관절 굴곡근(Elbow flexor: 상완이두근) 및 삼각근을 지배합니다. (옳은 연결)\n• ② C7 - elbow extensor ✗ [오답]: C7 신경근은 주관절 신전근(Elbow extensor: 상완삼두근) 및 손목 굴곡근을 지배합니다. (옳은 연결)\n• ③ L2 - Knee extensor ✓ [정답]: L2 신경근의 핵심 운동 기능은 고관절 굴곡(Hip flexor: 장요근 Iliopsoas)이며, 슬관절 신전(Knee extensor: 대퇴사두근 Quadriceps)은 L3·L4 신경근이 지배하므로 잘못된 연결입니다.\n• ④ L4 - dorsiflexion ✗ [오답]: L4 신경근은 족관절 배측굴곡근(Ankle dorsiflexor: 전경골근 Tibialis anterior)을 지배합니다. (옳은 연결)\n• ⑤ S1 - plantarflexion ✗ [오답]: S1 신경근은 족관절 족저굴곡근(Ankle plantarflexor: 비복근·가자미근)을 지배합니다. (옳은 연결)",
+      "trap": "L2는 고관절 굴곡(장요근), L3는 슬관절 신전(대퇴사두근), L4는 족관절 배측굴곡(전경골근), L5는 엄지발가락 신전(장무지신근), S1은 족관절 족저굴곡(비복근/가자미근)입니다. L2와 Knee extensor(L3)의 연결 오류를 찾아내는 것이 핵심입니다.",
+      "trigger": "【척수 신경근(Nerve Root)별 대표 근육 및 운동 작용(Myotome) 핵심 압축정리】\n\n1. 경추 신경근 (Cervical Roots: C5 ~ T1)\n• C5: 삼각근(Deltoid), 상완이두근(Biceps) → 어깨 외전(Shoulder abduction), 주관절 굴곡(Elbow flexion)\n• C6: 장·단요측수근신근(ECRL/ECRB), 완요골근 → 손목 신전(Wrist extension), 주관절 굴곡 보조\n• C7: 상완삼두근(Triceps), 요측수근굴근(FCR), 수지신근(EDC) → 주관절 신전(Elbow extension), 손목 굴곡(Wrist flexion), 손가락 신전\n• C8: 심수지굴근(FDP), 천수지굴근(FDS) → 손가락 굴곡(Finger flexion, 원위지절 굴곡)\n• T1: 골간근(Interossei), 소지외전근(ADM) → 손가락 외전 및 내전(Finger abduction / adduction)\n\n2. 요천추 신경근 (Lumbosacral Roots: L2 ~ S1)\n• L2: 장요근(Iliopsoas) → 고관절 굴곡(Hip flexion)\n• L3: 대퇴사두근(Quadriceps femoris) → 슬관절 신전(Knee extension)\n• L4: 전경골근(Tibialis anterior) → 족관절 배측굴곡(Ankle dorsiflexion), 발뒤꿈치 보행(Heel walking)\n• L5: 장무지신근(EHL), 장지신근(EDL) → 엄지발가락 신전(Great toe extension / dorsiflexion)\n• S1: 비복근·가자미근(Gastrocnemius/Soleus), 비골근(Peroneus) → 족관절 족저굴곡(Ankle plantarflexion), 까치발/발끝 보행(Toe walking)\n\n★ 1초 정답 도출 트리거: L2의 올바른 연결은 고관절 굴곡근(Hip flexor: 장요근)입니다. 슬관절 신전근(Knee extensor)은 L3·L4이므로 ③ L2 - Knee extensor는 옳지 않은 연결입니다!",
       "kmle_link": "KMLE 정형외과 척추 질환 총론: 경추·요천추 신경근병증(Radiculopathy)의 레벨별 운동·감각·반사 신경학적 검진",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "L2 - knee extensor",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "슬관절 신전근(Knee extensor, 대퇴사두근 Quadriceps femoris)은 L3 및 L4 신경근(대퇴신경, Femoral nerve)이 지배합니다. L2 신경근의 핵심 지배 근육(Key muscle)은 고관절 굴곡근(Hip flexor, 장요근 Iliopsoas)이므로 옳지 않은 연결입니다."
+          "text": "C5 - elbow flexor",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "C5 신경근은 상완이두근(Biceps)을 지배하여 주관절 굴곡(Elbow flexion) 및 어깨 외전을 수행합니다. (옳은 연결)"
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "C5 - elbow flexor",
+          "text": "C7 - elbow extensor",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "C5 신경근은 어깨 외전근(삼각근)과 주관절 굴곡근(Elbow flexor: 상완이두근, 상완근)을 지배하며 이두근 반사(Biceps reflex)를 담당하므로 옳은 연결입니다."
+          "reason": "C7 신경근은 상완삼두근(Triceps)을 지배하여 주관절 신전(Elbow extension)을 수행합니다. (옳은 연결)"
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "C7 - elbow extensor",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "C7 신경근은 주관절 신전근(Elbow extensor: 상완삼두근 Triceps brachii), 손목 굴곡근, 손가락 신전근을 지배하며 삼두근 반사(Triceps reflex)를 담당하므로 옳은 연결입니다."
+          "text": "L2 - Knee extensor",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "L2 신경근의 대표 운동 기능은 고관절 굴곡(Hip flexor: 장요근 Iliopsoas)이며, 슬관절 신전(Knee extensor: 대퇴사두근)은 L3·L4 신경근이 담당하므로 옳지 않은 연결입니다."
         },
         {
           "opt_idx": 3,
@@ -192937,7 +192937,7 @@
           "text": "L4 - dorsiflexion",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "L4 신경근은 전경골근(Tibialis anterior)을 지배하여 족관절 족배굴곡(Ankle dorsiflexion) 및 내번(Inversion)을 담당하므로 옳은 연결입니다."
+          "reason": "L4 신경근은 전경골근(Tibialis anterior)을 지배하여 족관절 배측굴곡(Ankle dorsiflexion)을 수행합니다. (옳은 연결)"
         },
         {
           "opt_idx": 4,
@@ -192945,7 +192945,7 @@
           "text": "S1 - plantarflexion",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "S1 신경근은 비복근 및 가자미근(Gastrocnemius-Soleus)을 지배하여 족관절 족저굴곡(Ankle plantarflexion) 및 아킬레스건 반사를 담당하므로 옳은 연결입니다."
+          "reason": "S1 신경근은 비복근·가자미근(Gastrocnemius/Soleus)을 지배하여 족관절 족저굴곡(Ankle plantarflexion)을 수행합니다. (옳은 연결)"
         }
       ],
       "differential_general": "• 상지 신경근 요약: C5(주관절 굴곡, Biceps) / C6(손목 신전, ECRL·ECRB) / C7(주관절 신전, Triceps) / C8(손가락 굴곡, FDP) / T1(손가락 외전, ADM·골간근)\n• 하지 신경근 요약: L2(고관절 굴곡, Iliopsoas) / L3·L4(슬관절 신전, Quadriceps) / L4(족관절 족배굴곡, Tibialis anterior) / L5(엄지발가락 신전, EHL) / S1(족관절 족저굴곡, Gastrocnemius·Soleus)"
@@ -192953,7 +192953,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 2,
     "rate": 33,
@@ -192969,26 +192969,26 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "L2 - knee extensor",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "슬관절 신전근(Knee extensor, 대퇴사두근 Quadriceps femoris)은 L3 및 L4 신경근(대퇴신경, Femoral nerve)이 지배합니다. L2 신경근의 핵심 지배 근육(Key muscle)은 고관절 굴곡근(Hip flexor, 장요근 Iliopsoas)이므로 옳지 않은 연결입니다."
+        "text": "C5 - elbow flexor",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "C5 신경근은 상완이두근(Biceps)을 지배하여 주관절 굴곡(Elbow flexion) 및 어깨 외전을 수행합니다. (옳은 연결)"
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "C5 - elbow flexor",
+        "text": "C7 - elbow extensor",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "C5 신경근은 어깨 외전근(삼각근)과 주관절 굴곡근(Elbow flexor: 상완이두근, 상완근)을 지배하며 이두근 반사(Biceps reflex)를 담당하므로 옳은 연결입니다."
+        "reason": "C7 신경근은 상완삼두근(Triceps)을 지배하여 주관절 신전(Elbow extension)을 수행합니다. (옳은 연결)"
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "C7 - elbow extensor",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "C7 신경근은 주관절 신전근(Elbow extensor: 상완삼두근 Triceps brachii), 손목 굴곡근, 손가락 신전근을 지배하며 삼두근 반사(Triceps reflex)를 담당하므로 옳은 연결입니다."
+        "text": "L2 - Knee extensor",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "L2 신경근의 대표 운동 기능은 고관절 굴곡(Hip flexor: 장요근 Iliopsoas)이며, 슬관절 신전(Knee extensor: 대퇴사두근)은 L3·L4 신경근이 담당하므로 옳지 않은 연결입니다."
       },
       {
         "opt_idx": 3,
@@ -192996,7 +192996,7 @@
         "text": "L4 - dorsiflexion",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "L4 신경근은 전경골근(Tibialis anterior)을 지배하여 족관절 족배굴곡(Ankle dorsiflexion) 및 내번(Inversion)을 담당하므로 옳은 연결입니다."
+        "reason": "L4 신경근은 전경골근(Tibialis anterior)을 지배하여 족관절 배측굴곡(Ankle dorsiflexion)을 수행합니다. (옳은 연결)"
       },
       {
         "opt_idx": 4,
@@ -193004,10 +193004,10 @@
         "text": "S1 - plantarflexion",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "S1 신경근은 비복근 및 가자미근(Gastrocnemius-Soleus)을 지배하여 족관절 족저굴곡(Ankle plantarflexion) 및 아킬레스건 반사를 담당하므로 옳은 연결입니다."
+        "reason": "S1 신경근은 비복근·가자미근(Gastrocnemius/Soleus)을 지배하여 족관절 족저굴곡(Ankle plantarflexion)을 수행합니다. (옳은 연결)"
       }
     ],
-    "answer": "① L2 - knee extensor"
+    "answer": "③ L2 - Knee extensor"
   },
   {
     "id": "정형외과_23Y_Q54",
@@ -208045,68 +208045,68 @@
     "year": "19Y",
     "q_num": 11,
     "category": "짤",
-    "theme_title": "척수 신경근(Myotome)과 대표 지배 근육의 짝짓기: L2 신경근(고관절 굴곡근)",
+    "theme_title": "척수 신경근(Myotome)과 대표 지배 근육·운동 작용의 연결: L2 신경근(고관절 굴곡근)",
     "subspecialty": "척추 질환",
     "stem": "다음중 신경과 근육을 연결한 것으로 옳지 않은 것은? (6년째 야마 타는 듯)",
     "images": [],
     "options": [
-      "A. C5-elbow flexor",
-      "B. C7-elbow extensor",
-      "C. L2-Knee extensor",
-      "D. L4-dorsiflexion",
-      "E. S1-plantarflexion"
+      "① C5 - elbow flexor",
+      "② C7 - elbow extensor",
+      "③ L2 - Knee extensor",
+      "④ L4 - dorsiflexion",
+      "⑤ S1 - plantarflexion"
     ],
     "correct_option_index": 2,
-    "correct_answer": "C. L2-Knee extensor",
+    "correct_answer": "③ L2 - Knee extensor",
     "explanation": {
-      "title": "척수 신경근(Myotome)과 대표 지배 근육의 짝짓기: L2 신경근(고관절 굴곡근)",
-      "theme_title": "척수 신경근(Myotome)과 대표 지배 근육의 짝짓기: L2 신경근(고관절 굴곡근)",
+      "title": "척수 신경근(Myotome)과 대표 지배 근육·운동 작용의 연결: L2 신경근(고관절 굴곡근)",
+      "theme_title": "척수 신경근(Myotome)과 대표 지배 근육·운동 작용의 연결: L2 신경근(고관절 굴곡근)",
       "subspecialty": "척추 질환",
-      "findings": "척수 신경근 레벨과 해당 신경근이 지배하는 핵심 운동 기능(Key muscle)의 연결이 틀린 것을 고르는 문항(23Y-53과 동일 기출)입니다.",
-      "differential": "• ① C5-elbow flexor ✗ [오답]: C5 신경근은 주관절 굴곡근(Elbow flexor: 상완이두근, 상완근) 및 삼각근을 지배합니다. (옳은 연결)\n• ② C7-elbow extensor ✗ [오답]: C7 신경근은 주관절 신전근(Elbow extensor: 삼두박근) 및 손목 굴곡근을 지배합니다. (옳은 연결)\n• ③ L2-Knee extensor ✓ [정답]: L2 신경근의 대표 운동 기능은 고관절 굴곡근(Hip flexor: 장요근 Iliopsoas)이며, 슬관절 신전근(Knee extensor: 대퇴사두근 Quadriceps)은 L3-L4 신경근이 지배하므로 틀린 연결입니다.\n• ④ L4-dorsiflexion ✗ [오답]: L4 신경근은 족관절 배측굴곡근(Ankle dorsiflexor: 전경골근 Tibialis anterior)을 지배합니다. (옳은 연결)\n• ⑤ S1-plantarflexion ✗ [오답]: S1 신경근은 족관절 족저굴곡근(Ankle plantarflexor: 비복근·가자미근)을 지배합니다. (옳은 연결)",
-      "trap": "ASIA 신경학적 분류 기준에서 L2 = 고관절 굴곡(장요근), L3 = 슬관절 신전(대퇴사두근), L4 = 족관절 배측굴곡(전경골근), L5 = 엄지발가락 신전(장무지신근), S1 = 족관절 족저굴곡입니다.",
-      "trigger": "【경추(C5~T1) 및 요천추(L2~S1) 신경근별 운동(Myotome) · 감각(Dermatome) · 반사(DTR) 완벽 압축정리】\n1. 경추 신경근 (Cervical Nerve Roots: C5 ~ T1)\n• C5 신경근 (C4-C5 추간판 탈출)\n  - 핵심 운동(Myotome): 어깨 외전(삼각근, Deltoid) 및 주관절 굴곡(Elbow flexor: 상완이두근 Biceps brachii)\n  - 감각(Dermatome): 어깨 가쪽 및 상완 외측 (Lateral arm)\n  - 심부건반사(DTR): 이두근 반사 (Biceps reflex)\n• C6 신경근 (C5-C6 추간판 탈출)\n  - 핵심 운동(Myotome): 손목 신전(Wrist extensor: 장·단요측수근신근 ECRL/ECRB) 및 주관절 굴곡 보조(완요골근)\n  - 감각(Dermatome): 전완 외측(요측) 및 엄지·검지 (1st, 2nd finger)\n  - 심부건반사(DTR): 완요골근 반사 (Brachioradialis reflex)\n• C7 신경근 (C6-C7 추간판 탈출, 경추 디스크 최다 호발)\n  - 핵심 운동(Myotome): 주관절 신전(Elbow extensor: 상완삼두근 Triceps brachii), 손목 굴곡(FCR), 손가락 신전(EDC)\n  - 감각(Dermatome): 가운데손가락 (3rd finger, 중지)\n  - 심부건반사(DTR): 삼두근 반사 (Triceps reflex)\n• C8 신경근 (C7-T1 추간판 탈출)\n  - 핵심 운동(Myotome): 손가락 굴곡(Finger flexor: 심수지굴근 FDP, 중지 원위지절 굴곡)\n  - 감각(Dermatome): 약지·새끼손가락 (4th, 5th finger) 및 전완 내측(척측) 하부\n  - 심부건반사(DTR): 특이 주 반사 없음 (Finger jerk 연관)\n• T1 신경근 (T1-T2 추간판 탈출)\n  - 핵심 운동(Myotome): 손가락 외전 및 내전(Finger abductor/adductor: 골간근 Interossei, 소지외전근 ADM)\n  - 감각(Dermatome): 전완 내측 상부 및 주관절 내측과 주위\n\n2. 요천추 신경근 (Lumbosacral Nerve Roots: L2 ~ S1)\n• L2 신경근 (L1-L2 / L2-L3 병변)\n  - 핵심 운동(Myotome): 고관절 굴곡(Hip flexor: 장요근 Iliopsoas)\n  - 감각(Dermatome): 대퇴 전면 및 내측 중간부 (Anterior-medial thigh)\n  - 심부건반사(DTR): 특이 심부건반사 없음\n• L3 신경근 (L2-L3 / L3-L4 병변)\n  - 핵심 운동(Myotome): 슬관절 신전(Knee extensor: 대퇴사두근 Quadriceps femoris — L3와 L4 공동 지배, ASIA 표준 Key muscle은 L3), 고관절 내전 보조\n  - 감각(Dermatome): 대퇴 전내측 하부 및 슬관절 내측 (Medial femoral condyle)\n  - 심부건반사(DTR): 슬개건 반사 (Patellar tendon reflex 보조)\n• L4 신경근 (L3-L4 후외측 탈출)\n  - 핵심 운동(Myotome): 족관절 족배굴곡 및 내번(Ankle dorsiflexor & inverter: 전경골근 Tibialis anterior) + 슬관절 신전(대퇴사두근) → 발뒤꿈치 보행(Heel walking) 불가\n  - 감각(Dermatome): 하퇴 내측(Medial calf), 내과(Medial malleolus), 발 내측연\n  - 심부건반사(DTR): 슬개건 반사 (Patellar tendon reflex / Knee jerk)\n• L5 신경근 (L4-L5 후외측 탈출, 요추 디스크 최다 호발)\n  - 핵심 운동(Myotome): 엄지발가락 신전(Great toe extensor: 장무지신근 EHL), 발가락 신전(EDL), 고관절 외전(중둔근)\n  - 감각(Dermatome): 하퇴 전외측, 발등(Dorsum of foot), 제1~2족지 사이 물갈퀴 공간(1st web space)\n  - 심부건반사(DTR): 표준 반사 없음 (내측 슬괵건 반사 연관)\n• S1 신경근 (L5-S1 후외측 탈출)\n  - 핵심 운동(Myotome): 족관절 족저굴곡(Ankle plantarflexor: 비복근·가자미근 Gastrocnemius/Soleus), 발 외번(장·단비골근), 고관절 신전(대둔근) → 발끝 보행(Toe walking, 까치발) 불가\n  - 감각(Dermatome): 하퇴 후면, 외과(Lateral malleolus), 발 외측연 및 발바닥(Sole), 제5족지\n  - 심부건반사(DTR): 아킬레스건 반사 (Achilles tendon reflex / Ankle jerk)\n\n3. 추간판 탈출 레벨과 침범 신경근 공식\n• 경추: 추간판 아래 번호 신경근 침범 (예: C5-C6 탈출 → C6 신경근, C6-C7 탈출 → C7 신경근)\n• 요추(일반적 후외측 탈출): 추간판 아래 번호 신경근(Traversing root) 침범 (예: L4-L5 탈출 → L5 신경근, L5-S1 탈출 → S1 신경근)",
+      "findings": "척수 신경근 레벨과 해당 신경근이 지배하는 핵심 근육 및 운동 작용(Myotome)의 짝짓기를 묻는 기출 문제입니다.",
+      "differential": "• ① C5 - elbow flexor ✗ [오답]: C5 신경근은 주관절 굴곡근(Elbow flexor: 상완이두근) 및 삼각근을 지배합니다. (옳은 연결)\n• ② C7 - elbow extensor ✗ [오답]: C7 신경근은 주관절 신전근(Elbow extensor: 상완삼두근) 및 손목 굴곡근을 지배합니다. (옳은 연결)\n• ③ L2 - Knee extensor ✓ [정답]: L2 신경근의 핵심 운동 기능은 고관절 굴곡(Hip flexor: 장요근 Iliopsoas)이며, 슬관절 신전(Knee extensor: 대퇴사두근 Quadriceps)은 L3·L4 신경근이 지배하므로 잘못된 연결입니다.\n• ④ L4 - dorsiflexion ✗ [오답]: L4 신경근은 족관절 배측굴곡근(Ankle dorsiflexor: 전경골근 Tibialis anterior)을 지배합니다. (옳은 연결)\n• ⑤ S1 - plantarflexion ✗ [오답]: S1 신경근은 족관절 족저굴곡근(Ankle plantarflexor: 비복근·가자미근)을 지배합니다. (옳은 연결)",
+      "trap": "L2는 고관절 굴곡(장요근), L3는 슬관절 신전(대퇴사두근), L4는 족관절 배측굴곡(전경골근), L5는 엄지발가락 신전(장무지신근), S1은 족관절 족저굴곡(비복근/가자미근)입니다. L2와 Knee extensor(L3)의 연결 오류를 찾아내는 것이 핵심입니다.",
+      "trigger": "【척수 신경근(Nerve Root)별 대표 근육 및 운동 작용(Myotome) 핵심 압축정리】\n\n1. 경추 신경근 (Cervical Roots: C5 ~ T1)\n• C5: 삼각근(Deltoid), 상완이두근(Biceps) → 어깨 외전(Shoulder abduction), 주관절 굴곡(Elbow flexion)\n• C6: 장·단요측수근신근(ECRL/ECRB), 완요골근 → 손목 신전(Wrist extension), 주관절 굴곡 보조\n• C7: 상완삼두근(Triceps), 요측수근굴근(FCR), 수지신근(EDC) → 주관절 신전(Elbow extension), 손목 굴곡(Wrist flexion), 손가락 신전\n• C8: 심수지굴근(FDP), 천수지굴근(FDS) → 손가락 굴곡(Finger flexion, 원위지절 굴곡)\n• T1: 골간근(Interossei), 소지외전근(ADM) → 손가락 외전 및 내전(Finger abduction / adduction)\n\n2. 요천추 신경근 (Lumbosacral Roots: L2 ~ S1)\n• L2: 장요근(Iliopsoas) → 고관절 굴곡(Hip flexion)\n• L3: 대퇴사두근(Quadriceps femoris) → 슬관절 신전(Knee extension)\n• L4: 전경골근(Tibialis anterior) → 족관절 배측굴곡(Ankle dorsiflexion), 발뒤꿈치 보행(Heel walking)\n• L5: 장무지신근(EHL), 장지신근(EDL) → 엄지발가락 신전(Great toe extension / dorsiflexion)\n• S1: 비복근·가자미근(Gastrocnemius/Soleus), 비골근(Peroneus) → 족관절 족저굴곡(Ankle plantarflexion), 까치발/발끝 보행(Toe walking)\n\n★ 1초 정답 도출 트리거: L2의 올바른 연결은 고관절 굴곡근(Hip flexor: 장요근)입니다. 슬관절 신전근(Knee extensor)은 L3·L4이므로 ③ L2 - Knee extensor는 옳지 않은 연결입니다!",
       "kmle_link": "KMLE 정형외과 척추 진찰: ASIA 척수 신경근별 대표 근육(Key muscles)",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "C5-elbow flexor",
+          "text": "C5 - elbow flexor",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "C5 신경근은 주관절 굴곡근(Elbow flexor: 상완이두근, 상완근) 및 삼각근을 지배합니다. (옳은 연결)"
+          "reason": "C5 신경근은 상완이두근(Biceps)을 지배하여 주관절 굴곡(Elbow flexion) 및 어깨 외전을 수행합니다. (옳은 연결)"
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "C7-elbow extensor",
+          "text": "C7 - elbow extensor",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "C7 신경근은 주관절 신전근(Elbow extensor: 삼두박근) 및 손목 굴곡근을 지배합니다. (옳은 연결)"
+          "reason": "C7 신경근은 상완삼두근(Triceps)을 지배하여 주관절 신전(Elbow extension)을 수행합니다. (옳은 연결)"
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "L2-Knee extensor",
+          "text": "L2 - Knee extensor",
           "is_correct": true,
           "tag": "정답",
-          "reason": "L2 신경근의 대표 운동 기능은 고관절 굴곡근(Hip flexor: 장요근 Iliopsoas)이며, 슬관절 신전근(Knee extensor: 대퇴사두근 Quadriceps)은 L3-L4 신경근이 지배하므로 틀린 연결입니다."
+          "reason": "L2 신경근의 대표 운동 기능은 고관절 굴곡(Hip flexor: 장요근 Iliopsoas)이며, 슬관절 신전(Knee extensor: 대퇴사두근)은 L3·L4 신경근이 담당하므로 옳지 않은 연결입니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "L4-dorsiflexion",
+          "text": "L4 - dorsiflexion",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "L4 신경근은 족관절 배측굴곡근(Ankle dorsiflexor: 전경골근 Tibialis anterior)을 지배합니다. (옳은 연결)"
+          "reason": "L4 신경근은 전경골근(Tibialis anterior)을 지배하여 족관절 배측굴곡(Ankle dorsiflexion)을 수행합니다. (옳은 연결)"
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "S1-plantarflexion",
+          "text": "S1 - plantarflexion",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "S1 신경근은 족관절 족저굴곡근(Ankle plantarflexor: 비복근·가자미근)을 지배합니다. (옳은 연결)"
+          "reason": "S1 신경근은 비복근·가자미근(Gastrocnemius/Soleus)을 지배하여 족관절 족저굴곡(Ankle plantarflexion)을 수행합니다. (옳은 연결)"
         }
       ]
     },
@@ -208129,45 +208129,45 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "C5-elbow flexor",
+        "text": "C5 - elbow flexor",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "C5 신경근은 주관절 굴곡근(Elbow flexor: 상완이두근, 상완근) 및 삼각근을 지배합니다. (옳은 연결)"
+        "reason": "C5 신경근은 상완이두근(Biceps)을 지배하여 주관절 굴곡(Elbow flexion) 및 어깨 외전을 수행합니다. (옳은 연결)"
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "C7-elbow extensor",
+        "text": "C7 - elbow extensor",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "C7 신경근은 주관절 신전근(Elbow extensor: 삼두박근) 및 손목 굴곡근을 지배합니다. (옳은 연결)"
+        "reason": "C7 신경근은 상완삼두근(Triceps)을 지배하여 주관절 신전(Elbow extension)을 수행합니다. (옳은 연결)"
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "L2-Knee extensor",
+        "text": "L2 - Knee extensor",
         "is_correct": true,
         "tag": "정답",
-        "reason": "L2 신경근의 대표 운동 기능은 고관절 굴곡근(Hip flexor: 장요근 Iliopsoas)이며, 슬관절 신전근(Knee extensor: 대퇴사두근 Quadriceps)은 L3-L4 신경근이 지배하므로 틀린 연결입니다."
+        "reason": "L2 신경근의 대표 운동 기능은 고관절 굴곡(Hip flexor: 장요근 Iliopsoas)이며, 슬관절 신전(Knee extensor: 대퇴사두근)은 L3·L4 신경근이 담당하므로 옳지 않은 연결입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "L4-dorsiflexion",
+        "text": "L4 - dorsiflexion",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "L4 신경근은 족관절 배측굴곡근(Ankle dorsiflexor: 전경골근 Tibialis anterior)을 지배합니다. (옳은 연결)"
+        "reason": "L4 신경근은 전경골근(Tibialis anterior)을 지배하여 족관절 배측굴곡(Ankle dorsiflexion)을 수행합니다. (옳은 연결)"
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "S1-plantarflexion",
+        "text": "S1 - plantarflexion",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "S1 신경근은 족관절 족저굴곡근(Ankle plantarflexor: 비복근·가자미근)을 지배합니다. (옳은 연결)"
+        "reason": "S1 신경근은 비복근·가자미근(Gastrocnemius/Soleus)을 지배하여 족관절 족저굴곡(Ankle plantarflexion)을 수행합니다. (옳은 연결)"
       }
     ],
-    "answer": "C. L2-Knee extensor"
+    "answer": "③ L2 - Knee extensor"
   },
   {
     "id": "정형외과_19Y_Q12",
