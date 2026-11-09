@@ -875,7 +875,7 @@
   async function loadQuestions() {
     if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
       try {
-        const res = await fetch('data/quiz_all_subjects.json?v=20261107v36', { cache: 'no-cache' });
+        const res = await fetch('data/quiz_all_subjects.json?v=20261109v37', { cache: 'no-cache' });
         if (res.ok) {
           const freshData = await res.json();
           if (Array.isArray(freshData) && freshData.length > 0) {
@@ -3332,6 +3332,8 @@
     '산부인과_19Y_Q05',
     '산부인과_19Y_Q35',
     '산부인과_19Y_Q74',
+    '진단검사의학과_26Y_Q01',
+    '산부인과_26Y_Q30',
     '진단검사의학과_22Y_Q16',
     '진단검사의학과_22Y_Q22',
     '진단검사의학과_22Y_Q27',
