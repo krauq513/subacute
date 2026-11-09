@@ -875,7 +875,7 @@
   async function loadQuestions() {
     if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
       try {
-        const res = await fetch('data/quiz_all_subjects.json?v=20261109v37', { cache: 'no-cache' });
+        const res = await fetch('data/quiz_all_subjects.json?v=20261109v38', { cache: 'no-cache' });
         if (res.ok) {
           const freshData = await res.json();
           if (Array.isArray(freshData) && freshData.length > 0) {
@@ -3370,7 +3370,16 @@
     '산부인과_19Y_Q57',
     '산부인과_19Y_Q75',
     '산부인과_19Y_Q80',
-    '산부인과_19Y_Q91'
+    '산부인과_19Y_Q91',
+    '정형외과_23Y_Q06',
+    '정형외과_23Y_Q45',
+    '정형외과_23Y_Q55',
+    '정형외과_23Y_Q56',
+    '정형외과_23Y_Q58',
+    '정형외과_23Y_Q12',
+    '내과_23Y_Q03',
+    '산부인과_23Y_Q04',
+    '산부인과_26Y_Q57'
   ]);
 
   function applyCustomEdits() {

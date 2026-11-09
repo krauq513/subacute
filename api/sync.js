@@ -33,7 +33,18 @@ function mergeData(serverData, clientData) {
     'rep_1793514411231_i4heg',
     'rep_1793513521429_8y5q2',
     'rep_1793509070690_6uszt',
-    'rep_1793490107805_c7lvw'
+    'rep_1793490107805_c7lvw',
+    'rep_1794047371553_nh090',
+    'rep_1794020253933_d0dby',
+    'rep_1794016551773_thjep',
+    'rep_1793979480318_5vzp0',
+    'rep_1793979454570_d99ct',
+    'rep_1793979436606_p61x3',
+    'rep_1793781832219_6a77j',
+    'rep_1793781577640_aut6l',
+    'rep_1793781392972_z89jl',
+    'rep_1793781200631_q4ay7',
+    'rep_test_init'
   ]);
   const resolvedQuestionIds = new Set([
     '내과_26Y_Q18',
@@ -68,7 +79,18 @@ function mergeData(serverData, clientData) {
     '소아청소년과_22Y_Q47',
     '소아청소년과_22Y_Q48',
     '소아청소년과_22Y_Q49',
-    '영상의학과_26Y_Q07'
+    '영상의학과_26Y_Q07',
+    '정형외과_23Y_Q45',
+    '정형외과_22Y_Q07',
+    '정형외과_23Y_Q38',
+    '정형외과_23Y_Q37',
+    '정형외과_23Y_Q36',
+    '정형외과_23Y_Q06',
+    '산부인과_23Y_Q14',
+    '산부인과_23Y_Q06',
+    '산부인과_23Y_Q04',
+    '산부인과_26Y_Q57',
+    '산부인과_26Y_Q02'
   ]);
   for (const [rid, rep] of reportMap.entries()) {
     if (resolvedReportIds.has(rid) || resolvedQuestionIds.has(rep.questionId)) {
@@ -98,6 +120,28 @@ function mergeData(serverData, clientData) {
         rep.resolutionNote = '심초음파 사진 상하 2분할 통합 및 단일 고화질 이미지 배치 완료';
       } else if (rep.questionId === '내과_26Y_Q45') {
         rep.resolutionNote = '해설 선지 번호 및 비타민D 표기(25(OH)D, 1,25(OH)2D) 누락 교정 완료';
+      } else if (rep.questionId === '정형외과_23Y_Q45') {
+        rep.resolutionNote = '무릎 X-ray 상하 2분할 사진을 1440x1046 단일 고화질 이미지로 수직 통합 및 캐시 갱신 완료';
+      } else if (rep.questionId === '정형외과_22Y_Q07') {
+        rep.resolutionNote = '선지 내 힌트 문구 제거 및 5지선다 정렬 완료';
+      } else if (rep.questionId === '정형외과_23Y_Q38') {
+        rep.resolutionNote = '4개 신체진찰 사진을 개별 선지 카드(image-option-card)로 분리 및 4지선다 이미지 선지 UI 구현 완료';
+      } else if (rep.questionId === '정형외과_23Y_Q37') {
+        rep.resolutionNote = '슬관절 검사 사진 1440x1213 단일 통합 고화질 이미지 교정 및 캐시 갱신 완료';
+      } else if (rep.questionId === '정형외과_23Y_Q36') {
+        rep.resolutionNote = 'Lachman 검사 사진 1440x939 단일 통합 고화질 이미지 교정 및 캐시 갱신 완료';
+      } else if (rep.questionId === '정형외과_23Y_Q06') {
+        rep.resolutionNote = '정답 ③(요골관 증후군) 수정 및 저항성 회외전 검사·Arcade of Frohse 후골간신경 포착 심층 해설 추가 완료';
+      } else if (rep.questionId === '산부인과_23Y_Q04') {
+        rep.resolutionNote = '원본 시험지 사진 미수록 문항 안내 문구 및 32주 이전 중증 양수과다증 인도메타신 표준 치료 해설 보강 완료';
+      } else if (rep.questionId === '산부인과_23Y_Q06') {
+        rep.resolutionNote = '임신 중 모체 혈역학 생리(총 혈액량 32~34주 정점 후 분만까지 고평부 유지) 표준 해설 완료';
+      } else if (rep.questionId === '산부인과_23Y_Q14') {
+        rep.resolutionNote = '거대아 분만 후 자궁이완증 1차 옥시토신 투여 및 산후출혈 감별 표준 해설 완료';
+      } else if (rep.questionId === '산부인과_26Y_Q57') {
+        rep.resolutionNote = '내배엽동종양(Yolk sac tumor)의 Schiller-Duval body 및 Stage IA BEP 항암치료 핵심 가이드라인 교정 완료';
+      } else if (rep.questionId === '산부인과_26Y_Q02') {
+        rep.resolutionNote = '클라우드 동기화 시스템 정상 연동 확인 완료';
       } else {
         rep.resolutionNote = '발문 오분류 선지 제거 및 정답/오답 해설 1:1 정렬 수정 완료';
       }
