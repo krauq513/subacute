@@ -218201,14 +218201,14 @@
       "images/영상의학과/23Y_Q12_fig5.png"
     ],
     "options": [
-      "① ( )",
-      "② ( )",
-      "③ ( )",
-      "④ ( )",
-      "⑤ ( )"
+      "①",
+      "②",
+      "③",
+      "④",
+      "⑤"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① ( )",
+    "correct_answer": "①",
     "explanation": {
       "title": "담낭 질환 영상 판독 및 수술 vs 경과관찰 적응증 감별",
       "findings": "담낭 초음파 및 복부 CT 영상에서 5가지 대표적 담낭 병변(담낭 용종, 급성 담석성 담낭염, 기종성 담낭염, 담낭 천공, 석회화 담낭)이 각 선지의 사진으로 제시된 문제입니다.",
@@ -218329,7 +218329,7 @@
       "images/영상의학과/23Y_Q12_fig4.png",
       "images/영상의학과/23Y_Q12_fig5.png"
     ],
-    "answer": "① ( )"
+    "answer": "①"
   },
   {
     "id": "영상의학과_23Y_Q13",
@@ -219485,13 +219485,13 @@
       "images/영상의학과/23Y_Q22_fig4.png"
     ],
     "options": [
-      "① ( )",
-      "② ( )",
-      "③ ( )",
-      "④ ( )"
+      "①",
+      "②",
+      "③",
+      "④"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① ( )",
+    "correct_answer": "①",
     "explanation": {
       "title": "[단독 기출] 전신홍반루푸스(SLE)의 영상 소견 및 골수염 감별",
       "findings": "전신홍반루푸스(SLE) 환자에서 동반될 수 있는 다양한 전신/근골격계 영상 소견(NPSLE 뇌 병변, 자쿠 관절병증 및 슬개골 탈구, 연부조직 석회화 등)과 세균 감염증인 골수염(Osteomyelitis)의 감별 문제입니다.",
@@ -219592,7 +219592,7 @@
       "images/영상의학과/23Y_Q22_fig3.png",
       "images/영상의학과/23Y_Q22_fig4.png"
     ],
-    "answer": "① ( )",
+    "answer": "①",
     "option_labels_post": null
   },
   {
@@ -232747,21 +232747,16 @@
     "category": "기출",
     "theme_title": "악성 골종양의 판독: 골육종의 일광선형 골막반응",
     "subspecialty": "근골격 영상의학",
-    "stem": "다음 중 malignant의 가능성이 가장 큰 것은? (4개 영상 중 방사상 골막반응 소견)",
-    "images": [
-      "images/영상의학과/21Y_Q25_fig1.png",
-      "images/영상의학과/21Y_Q25_fig2.png",
-      "images/영상의학과/21Y_Q25_fig3.png",
-      "images/영상의학과/21Y_Q25_fig4.png"
-    ],
+    "stem": "다음 중 malignant의 가능성이 가장 큰 것은?",
+    "images": [],
     "options": [
-      "① 골피질 파괴와 일광선형(Sunburst) 골막반응을 보이는 병변",
-      "② 경계가 뚜렷하고 골경화 테두리를 가진 병변",
-      "③ 부드러운 연골성 골기질을 가진 외골종",
-      "④ 피질골 팽창만 보이는 단순 골낭종"
+      "①",
+      "②",
+      "③",
+      "④"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 골피질 파괴와 일광선형(Sunburst) 골막반응을 보이는 병변",
+    "correct_answer": "①",
     "explanation": {
       "title": "악성 골종양의 판독: 골육종의 일광선형 골막반응",
       "findings": "피질골의 파괴와 함께 연부조직으로 침습하며 수직/방사상으로 뻗어나가는 일광선형(Sunburst pattern) 골막반응을 보이는 증례가 악성 골종양(골육종)의 가장 명백한 특징임.",
@@ -232852,7 +232847,14 @@
         "reason": "해당 소견은 본 증례의 핵심 판독 특징과 일치하지 않는 감별 소견입니다."
       }
     ],
-    "answer": "① 골피질 파괴와 일광선형(Sunburst) 골막반응을 보이는 병변"
+    "answer": "①",
+    "is_image_options": true,
+    "option_images": [
+      "images/영상의학과/21Y_Q25_fig1.png",
+      "images/영상의학과/21Y_Q25_fig2.png",
+      "images/영상의학과/21Y_Q25_fig3.png",
+      "images/영상의학과/21Y_Q25_fig4.png"
+    ]
   },
   {
     "id": "영상의학과_21Y_Q26",
