@@ -90,7 +90,8 @@ function mergeData(serverData, clientData) {
     '산부인과_23Y_Q06',
     '산부인과_23Y_Q04',
     '산부인과_26Y_Q57',
-    '산부인과_26Y_Q02'
+    '산부인과_26Y_Q02',
+    '내과_23Y_Q46'
   ]);
   for (const [rid, rep] of reportMap.entries()) {
     if (resolvedReportIds.has(rid) || resolvedQuestionIds.has(rep.questionId)) {
@@ -140,7 +141,8 @@ function mergeData(serverData, clientData) {
         rep.resolutionNote = '거대아 분만 후 자궁이완증 1차 옥시토신 투여 및 산후출혈 감별 표준 해설 완료';
       } else if (rep.questionId === '산부인과_26Y_Q57') {
         rep.resolutionNote = '내배엽동종양(Yolk sac tumor)의 Schiller-Duval body 및 Stage IA BEP 항암치료 핵심 가이드라인 교정 완료';
-      } else if (rep.questionId === '산부인과_26Y_Q02') {
+      } else if (rep.questionId === '산부인과_26Y_Q02',
+    '내과_23Y_Q46') {
         rep.resolutionNote = '클라우드 동기화 시스템 정상 연동 확인 완료';
       } else {
         rep.resolutionNote = '발문 오분류 선지 제거 및 정답/오답 해설 1:1 정렬 수정 완료';
