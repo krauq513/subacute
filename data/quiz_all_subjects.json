@@ -39196,23 +39196,23 @@
       "④ 정상",
       "⑤ 당뇨병"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Impaired glucose tolerance",
+    "correct_option_index": 2,
+    "correct_answer": "③ Impaired glucose tolerance + Impaired fasting glucose",
     "explanation": {
       "title": "당뇨병 전단계(Prediabetes): 공복혈당장애(IFG) + 내당능장애(IGT)",
-      "findings": "공복 혈당 110 mg/dL(100~125)+부하 2시간 154 mg/dL(140~199) → 공복혈당장애 및 내당능장애 동반",
-      "differential": "• ① Impaired glucose tolerance ✗ [오답]: 75g 경구당부하 120분 혈당이 154 mg/dL로 내당능장애 기준(140~199)에 부합하나, 공복 혈당 또한 110 mg/dL로 상승하여 단독 진단은 불완전합니다.\n• ② Impaired fasting glucose ✗ [오답]: 공복 혈당이 110 mg/dL로 공복혈당장애 기준(100~125)에 해당하지만, 부하 2시간 혈당 역시 내당능장애 영역에 속하므로 두 장애가 함께 있습니다.\n• ③ Impaired glucose tolerance + Impaired fasting glucose ✓ [정답]: 공복 혈당 110 mg/dL(IFG: 100~125)와 2시간 당부하 혈당 154 mg/dL(IGT: 140~199)를 동시에 만족하므로 병합 진단임\n• ④ 정상 ✗ [오답]: 공복 혈당 100 mg/dL 미만, 75g 당부하 2시간 혈당 140 mg/dL 미만, 당화혈색소 5.7% 미만이어야 정상으로 분류됩니다.\n• ⑤ 당뇨병 ✗ [오답]: 공복 혈당 126 mg/dL 이상, 75g 당부하 2시간 혈당 200 mg/dL 이상, 혹은 당화혈색소 6.5% 이상일 때 진단할 수 있습니다.",
-      "trap": "• 공복혈당장애(100~125)와 내당능장애(140~199)의 수치 기준을 혼동하지 않아야 합니다. 두 가지 모두 만족하는 복합군이 당뇨병 이행 위험이 가장 높습니다.",
-      "trigger": "【당뇨병 전단계(Prediabetes) 3대 진단 기준 (ADA/KDA)】\n• 1. 공복혈당장애(Impaired Fasting Glucose, IFG):\n  - 공복 혈당 100 ~ 125 mg/dL.\n• 2. 내당능장애(Impaired Glucose Tolerance, IGT):\n  - 75g 경구당부하검사(OGTT) 2시간 후 혈당 140 ~ 199 mg/dL.\n• 3. 당화혈색소(HbA1c):\n  - 5.7 ~ 6.4%.\n• 증례 적용: 공복 110 (IFG) + 2시간 154 (IGT) → IFG + IGT 복합 당뇨병 전단계!",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "findings": "• 75g OGTT 0분(공복 혈당, FPG): 110 mg/dL (100 ~ 125 mg/dL → 공복혈당장애(IFG) 기준 만족)\n• 75g OGTT 120분(부하 후 2시간 혈당, 2-h PG): 154 mg/dL (140 ~ 199 mg/dL → 내당능장애(IGT) 기준 만족)\n• HbA1c: 6.0% (5.7 ~ 6.4% → 당뇨병 전단계 영역 부합)\n→ 공복혈당장애(IFG)와 내당능장애(IGT)가 동시에 동반된 복합 당뇨병 전단계(Prediabetes)",
+      "differential": "• ① Impaired glucose tolerance ✗ [오답]: 75g OGTT 2시간 혈당이 154 mg/dL로 내당능장애(140 ~ 199 mg/dL) 기준에 부합하나, 공복 혈당 역시 110 mg/dL로 공복혈당장애(100 ~ 125 mg/dL)에 해당하므로 IGT 단독 진단은 환자의 전체 대사 이상을 포괄하지 못하는 불완전한 진단입니다.\n• ② Impaired fasting glucose ✗ [오답]: 공복 혈당이 110 mg/dL로 공복혈당장애(100 ~ 125 mg/dL) 기준에 속하지만, 2시간 부하 혈당 역시 154 mg/dL로 내당능장애 영역에 위치하므로 IFG 단독 진단 역시 불완전합니다.\n• ③ Impaired glucose tolerance + Impaired fasting glucose ✓ [정답]: 공복 혈당 110 mg/dL(IFG 기준: 100 ~ 125 mg/dL)와 75g 경구당부하 2시간 혈당 154 mg/dL(IGT 기준: 140 ~ 199 mg/dL)를 모두 만족하므로, 두 이상 소견을 모두 명시한 복합 병합 진단이 가장 정확하고 완전한 정답입니다.\n• ④ 정상 ✗ [오답]: 정상 판정을 받으려면 공복 혈당 < 100 mg/dL, 75g OGTT 2시간 혈당 < 140 mg/dL, HbA1c < 5.7%를 모두 만족해야 합니다.\n• ⑤ 당뇨병 ✗ [오답]: 당뇨병으로 진단하려면 공복 혈당 ≥ 126 mg/dL, 75g OGTT 2시간 혈당 ≥ 200 mg/dL, 또는 HbA1c ≥ 6.5% 중 하나 이상을 만족해야 합니다.",
+      "trap": "• IFG와 IGT는 서로 다른 병태생리를 지닙니다. IFG는 주로 간의 인슐린 저항성과 기저 분비 저하, IGT는 골격근의 인슐린 저항성과 식후 초기 인슐린 분비 결손이 주 기전입니다.\n• 두 장애가 모두 동반된 경우 단독 장애군보다 제2형 당뇨병으로의 진행 위험(연간 10 ~ 15%)과 심혈관 질환 위험이 현저히 높으므로 두 소견을 모두 병기하여 집중적인 관리가 필요합니다.",
+      "trigger": "【당뇨병 전단계(Prediabetes) 3대 진단 기준 (ADA/KDA 가이드라인)】\n1. 공복혈당장애 (Impaired Fasting Glucose, IFG):\n   - 공복 혈당 (FPG): 100 ~ 125 mg/dL\n2. 내당능장애 (Impaired Glucose Tolerance, IGT):\n   - 75g OGTT 2시간 혈당 (2-h PG): 140 ~ 199 mg/dL\n3. 당화혈색소 (HbA1c):\n   - 5.7 ~ 6.4%\n※ 증례 적용: 공복 110 mg/dL(IFG 충족) + 2시간 154 mg/dL(IGT 충족) + HbA1c 6.0% → IFG + IGT 복합 진단!",
+      "kmle_link": "KMLE 내과 내분비학 당뇨병 진단 가이드라인 (ADA / 대한당뇨병학회 표준)",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
           "text": "Impaired glucose tolerance",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "75g 경구당부하 120분 혈당이 154 mg/dL로 내당능장애 기준(140~199)에 부합하나, 공복 혈당 또한 110 mg/dL로 상승하여 단독 진단은 불완전합니다."
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "75g OGTT 2시간 혈당 154 mg/dL로 내당능장애(140 ~ 199 mg/dL)에 해당하나, 공복 혈당 역시 110 mg/dL로 공복혈당장애(100 ~ 125 mg/dL) 기준을 만족하므로 단독 진단은 불완전합니다."
         },
         {
           "opt_idx": 1,
@@ -39220,15 +39220,15 @@
           "text": "Impaired fasting glucose",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "공복 혈당이 110 mg/dL로 공복혈당장애 기준(100~125)에 해당하지만, 부하 2시간 혈당 역시 내당능장애 영역에 속하므로 두 장애가 함께 있습니다."
+          "reason": "공복 혈당 110 mg/dL로 공복혈당장애(100 ~ 125 mg/dL)에 해당하나, 2시간 부하 혈당 역시 154 mg/dL로 내당능장애(140 ~ 199 mg/dL) 영역에 속하므로 단독 진단은 불완전합니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
           "text": "Impaired glucose tolerance + Impaired fasting glucose",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "공복 혈당 110 mg/dL(IFG: 100~125)와 2시간 당부하 혈당 154 mg/dL(IGT: 140~199)를 동시에 만족하므로 병합 진단임"
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "공복 혈당 110 mg/dL(IFG: 100 ~ 125 mg/dL)와 75g OGTT 2시간 혈당 154 mg/dL(IGT: 140 ~ 199 mg/dL)를 동시에 만족하므로 두 장애가 병합된 진단이 가장 정확합니다."
         },
         {
           "opt_idx": 3,
@@ -39236,7 +39236,7 @@
           "text": "정상",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "공복 혈당 100 mg/dL 미만, 75g 당부하 2시간 혈당 140 mg/dL 미만, 당화혈색소 5.7% 미만이어야 정상으로 분류됩니다."
+          "reason": "공복 혈당 < 100 mg/dL, 75g OGTT 2시간 혈당 < 140 mg/dL, 당화혈색소 < 5.7%여야 정상으로 분류됩니다."
         },
         {
           "opt_idx": 4,
@@ -39244,7 +39244,7 @@
           "text": "당뇨병",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "공복 혈당 126 mg/dL 이상, 75g 당부하 2시간 혈당 200 mg/dL 이상, 혹은 당화혈색소 6.5% 이상일 때 진단할 수 있습니다."
+          "reason": "공복 혈당 ≥ 126 mg/dL, 75g OGTT 2시간 혈당 ≥ 200 mg/dL, 또는 당화혈색소 ≥ 6.5% 이상이어야 당뇨병으로 진단할 수 있습니다."
         }
       ],
       "differential_general": ""
@@ -39252,7 +39252,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 1,
     "rate": 17,
@@ -39267,9 +39267,9 @@
         "opt_idx": 0,
         "opt_num": "①",
         "text": "Impaired glucose tolerance",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "75g 경구당부하 120분 혈당이 154 mg/dL로 내당능장애 기준(140~199)에 부합하나, 공복 혈당 또한 110 mg/dL로 상승하여 단독 진단은 불완전합니다."
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "75g OGTT 2시간 혈당 154 mg/dL로 내당능장애(140 ~ 199 mg/dL)에 해당하나, 공복 혈당 역시 110 mg/dL로 공복혈당장애(100 ~ 125 mg/dL) 기준을 만족하므로 단독 진단은 불완전합니다."
       },
       {
         "opt_idx": 1,
@@ -39277,15 +39277,15 @@
         "text": "Impaired fasting glucose",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "공복 혈당이 110 mg/dL로 공복혈당장애 기준(100~125)에 해당하지만, 부하 2시간 혈당 역시 내당능장애 영역에 속하므로 두 장애가 함께 있습니다."
+        "reason": "공복 혈당 110 mg/dL로 공복혈당장애(100 ~ 125 mg/dL)에 해당하나, 2시간 부하 혈당 역시 154 mg/dL로 내당능장애(140 ~ 199 mg/dL) 영역에 속하므로 단독 진단은 불완전합니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
         "text": "Impaired glucose tolerance + Impaired fasting glucose",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "공복 혈당 110 mg/dL(IFG: 100~125)와 2시간 당부하 혈당 154 mg/dL(IGT: 140~199)를 동시에 만족하므로 병합 진단임"
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "공복 혈당 110 mg/dL(IFG: 100 ~ 125 mg/dL)와 75g OGTT 2시간 혈당 154 mg/dL(IGT: 140 ~ 199 mg/dL)를 동시에 만족하므로 두 장애가 병합된 진단이 가장 정확합니다."
       },
       {
         "opt_idx": 3,
@@ -39293,7 +39293,7 @@
         "text": "정상",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "공복 혈당 100 mg/dL 미만, 75g 당부하 2시간 혈당 140 mg/dL 미만, 당화혈색소 5.7% 미만이어야 정상으로 분류됩니다."
+        "reason": "공복 혈당 < 100 mg/dL, 75g OGTT 2시간 혈당 < 140 mg/dL, 당화혈색소 < 5.7%여야 정상으로 분류됩니다."
       },
       {
         "opt_idx": 4,
@@ -39301,10 +39301,10 @@
         "text": "당뇨병",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "공복 혈당 126 mg/dL 이상, 75g 당부하 2시간 혈당 200 mg/dL 이상, 혹은 당화혈색소 6.5% 이상일 때 진단할 수 있습니다."
+        "reason": "공복 혈당 ≥ 126 mg/dL, 75g OGTT 2시간 혈당 ≥ 200 mg/dL, 또는 당화혈색소 ≥ 6.5% 이상이어야 당뇨병으로 진단할 수 있습니다."
       }
     ],
-    "answer": "① Impaired glucose tolerance"
+    "answer": "③ Impaired glucose tolerance + Impaired fasting glucose"
   },
   {
     "id": "내과_23Y_Q53",
