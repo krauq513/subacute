@@ -92,7 +92,8 @@ function mergeData(serverData, clientData) {
     '산부인과_26Y_Q57',
     '산부인과_26Y_Q02',
     '내과_23Y_Q46',
-    '내과_23Y_Q52'
+    '내과_23Y_Q52',
+    '내과_23Y_Q54'
   ]);
   for (const [rid, rep] of reportMap.entries()) {
     if (resolvedReportIds.has(rid) || resolvedQuestionIds.has(rep.questionId)) {
@@ -142,8 +143,10 @@ function mergeData(serverData, clientData) {
         rep.resolutionNote = '거대아 분만 후 자궁이완증 1차 옥시토신 투여 및 산후출혈 감별 표준 해설 완료';
       } else if (rep.questionId === '산부인과_26Y_Q57') {
         rep.resolutionNote = '내배엽동종양(Yolk sac tumor)의 Schiller-Duval body 및 Stage IA BEP 항암치료 핵심 가이드라인 교정 완료';
-      } else if (['산부인과_26Y_Q02', '내과_23Y_Q46', '내과_23Y_Q52'].includes(rep.questionId)) {
-        if (rep.questionId === '내과_23Y_Q52') {
+      } else if (['산부인과_26Y_Q02', '내과_23Y_Q46', '내과_23Y_Q52', '내과_23Y_Q54'].includes(rep.questionId)) {
+        if (rep.questionId === '내과_23Y_Q54') {
+          rep.resolutionNote = '정답 ③(나이) 일치화 및 Harris-Benedict 식 음(-)의 계수 기초에너지요구량 해설 보강 완료';
+        } else if (rep.questionId === '내과_23Y_Q52') {
           rep.resolutionNote = '정답 ③(IFG + IGT 복합 진단) 일치화 및 ADA/KDA 당뇨병 전단계 진단 기준 심층 해설 보강 완료';
         } else if (rep.questionId === '내과_23Y_Q46') {
           rep.resolutionNote = '정답 ①(MDS 고위험군 중앙생존 1년 미만) 교정 및 IPSS 진단 기준 해설 완료';

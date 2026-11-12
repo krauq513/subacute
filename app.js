@@ -875,7 +875,7 @@
   async function loadQuestions() {
     if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
       try {
-        const res = await fetch('data/quiz_all_subjects.json?v=20261113v2', { cache: 'no-cache' });
+        const res = await fetch('data/quiz_all_subjects.json?v=20261113v3', { cache: 'no-cache' });
         if (res.ok) {
           const freshData = await res.json();
           if (Array.isArray(freshData) && freshData.length > 0) {
@@ -3381,7 +3381,8 @@
     '산부인과_23Y_Q04',
     '산부인과_26Y_Q57',
     '내과_23Y_Q46',
-    '내과_23Y_Q52'
+    '내과_23Y_Q52',
+    '내과_23Y_Q54'
   ]);
 
   function applyCustomEdits() {
