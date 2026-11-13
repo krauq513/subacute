@@ -875,7 +875,7 @@
   async function loadQuestions() {
     if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
       try {
-        const res = await fetch('data/quiz_all_subjects.json?v=20261113v9', { cache: 'no-cache' });
+        const res = await fetch('data/quiz_all_subjects.json?v=20261113v10', { cache: 'no-cache' });
         if (res.ok) {
           const freshData = await res.json();
           if (Array.isArray(freshData) && freshData.length > 0) {
@@ -3423,7 +3423,45 @@
     '내과_22Y_Q56',
     '내과_22Y_Q58',
     '내과_22Y_Q59',
-    '내과_22Y_Q60'
+    '내과_22Y_Q60',
+    '내과_21Y_Q01',
+    '내과_21Y_Q03',
+    '내과_21Y_Q04',
+    '내과_21Y_Q05',
+    '내과_21Y_Q06',
+    '내과_21Y_Q07',
+    '내과_21Y_Q09',
+    '내과_21Y_Q11',
+    '내과_21Y_Q12',
+    '내과_21Y_Q13',
+    '내과_21Y_Q16',
+    '내과_21Y_Q17',
+    '내과_21Y_Q18',
+    '내과_21Y_Q19',
+    '내과_21Y_Q20',
+    '내과_21Y_Q21',
+    '내과_21Y_Q22',
+    '내과_21Y_Q23',
+    '내과_21Y_Q25',
+    '내과_21Y_Q27',
+    '내과_21Y_Q28',
+    '내과_21Y_Q29',
+    '내과_21Y_Q31',
+    '내과_21Y_Q34',
+    '내과_21Y_Q35',
+    '내과_21Y_Q36',
+    '내과_21Y_Q37',
+    '내과_21Y_Q38',
+    '내과_21Y_Q42',
+    '내과_21Y_Q45',
+    '내과_21Y_Q46',
+    '내과_21Y_Q47',
+    '내과_21Y_Q50',
+    '내과_21Y_Q51',
+    '내과_21Y_Q52',
+    '내과_21Y_Q53',
+    '내과_21Y_Q55',
+    '내과_21Y_Q57'
   ]);
 
   function applyCustomEdits() {
