@@ -6549,3 +6549,80 @@ dialog.pdf-viewer-modal::backdrop {
     gap: 1rem;
   }
 }
+
+/* ==========================================================================
+   Stem Markdown Table Styling (for questions with tabular clinical data)
+   ========================================================================== */
+.stem-text .table-responsive {
+  white-space: normal;
+  margin: 1rem 0 1.25rem 0;
+  border: 1px solid var(--border-medium, #cbd5e1);
+  border-radius: var(--radius-md, 10px);
+  background: var(--bg-card, #ffffff);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  overflow-x: auto;
+}
+
+.stem-text .quiz-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+}
+
+.stem-text .quiz-table th {
+  background: #f1f5f9;
+  color: #0f172a;
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid #cbd5e1;
+  white-space: nowrap;
+}
+
+.stem-text .quiz-table td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid var(--border-light, #e2e8f0);
+  color: var(--text-primary, #1e293b);
+}
+
+.stem-text .quiz-table th:not(:first-child),
+.stem-text .quiz-table td:not(:first-child) {
+  text-align: center;
+}
+
+.stem-text .quiz-table tbody tr:nth-child(even) {
+  background: #f8fafc;
+}
+
+.stem-text .quiz-table tbody tr:hover {
+  background: #eff6ff;
+}
+
+.stem-text .quiz-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+[data-theme="dark"] .stem-text .table-responsive {
+  background: #1e293b;
+  border-color: #334155;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .stem-text .quiz-table th {
+  background: #0f172a;
+  color: #f1f5f9;
+  border-bottom-color: #475569;
+}
+
+[data-theme="dark"] .stem-text .quiz-table td {
+  border-bottom-color: #334155;
+  color: #cbd5e1;
+}
+
+[data-theme="dark"] .stem-text .quiz-table tbody tr:nth-child(even) {
+  background: #1e293b;
+}
+
+[data-theme="dark"] .stem-text .quiz-table tbody tr:hover {
+  background: #334155;
+}

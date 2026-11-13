@@ -875,7 +875,7 @@
   async function loadQuestions() {
     if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
       try {
-        const res = await fetch('data/quiz_all_subjects.json?v=20261113v5', { cache: 'no-cache' });
+        const res = await fetch('data/quiz_all_subjects.json?v=20261113v6', { cache: 'no-cache' });
         if (res.ok) {
           const freshData = await res.json();
           if (Array.isArray(freshData) && freshData.length > 0) {
@@ -2284,8 +2284,12 @@
       });
     }
 
-    // Stem Text
-    dom.cardStem.textContent = q.stem;
+    // Stem Text (Supports Markdown Tables & Rich Text)
+    if (q.stem && q.stem.includes('|')) {
+      dom.cardStem.innerHTML = renderRichText(q.stem);
+    } else {
+      dom.cardStem.textContent = q.stem;
+    }
 
     // Images (Hide stem gallery if images are used directly as options)
     if (q.images && q.images.length > 0 && !q.is_image_options) {
