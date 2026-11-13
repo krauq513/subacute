@@ -875,7 +875,7 @@
   async function loadQuestions() {
     if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
       try {
-        const res = await fetch('data/quiz_all_subjects.json?v=20261113v11', { cache: 'no-cache' });
+        const res = await fetch('data/quiz_all_subjects.json?v=20261113v12', { cache: 'no-cache' });
         if (res.ok) {
           const freshData = await res.json();
           if (Array.isArray(freshData) && freshData.length > 0) {
@@ -3470,7 +3470,56 @@
   '내과_20Y_Q51',
   '내과_20Y_Q52',
   '내과_20Y_Q53',
-  '내과_20Y_Q39'
+  '내과_20Y_Q39',
+  '내과_19Y_호흡기_Q01',
+  '내과_19Y_호흡기_Q02',
+  '내과_19Y_호흡기_Q03',
+  '내과_19Y_호흡기_Q04',
+  '내과_19Y_호흡기_Q05',
+  '내과_19Y_호흡기_Q06',
+  '내과_19Y_호흡기_Q07',
+  '내과_19Y_호흡기_Q08',
+  '내과_19Y_호흡기_Q09',
+  '내과_19Y_호흡기_Q10',
+  '내과_19Y_신장_Q01',
+  '내과_19Y_신장_Q02',
+  '내과_19Y_신장_Q03',
+  '내과_19Y_신장_Q04',
+  '내과_19Y_신장_Q05',
+  '내과_19Y_신장_Q06',
+  '내과_19Y_신장_Q07',
+  '내과_19Y_신장_Q08',
+  '내과_19Y_신장_Q09',
+  '내과_19Y_신장_Q10',
+  '내과_19Y_감염_Q01',
+  '내과_19Y_감염_Q02',
+  '내과_19Y_감염_Q03',
+  '내과_19Y_감염_Q04',
+  '내과_19Y_감염_Q05',
+  '내과_19Y_내분비_Q01',
+  '내과_19Y_내분비_Q02',
+  '내과_19Y_내분비_Q03',
+  '내과_19Y_내분비_Q04',
+  '내과_19Y_내분비_Q05',
+  '내과_19Y_혈종_Q01',
+  '내과_19Y_혈종_Q00',
+  '내과_19Y_혈종_Q02',
+  '내과_19Y_혈종_Q03',
+  '내과_19Y_혈종_Q04',
+  '내과_19Y_류마_Q01',
+  '내과_19Y_류마_Q02',
+  '내과_19Y_류마_Q03',
+  '내과_19Y_류마_Q04',
+  '내과_19Y_심장_Q01',
+  '내과_19Y_심장_Q02',
+  '내과_19Y_심장_Q03',
+  '내과_19Y_심장_Q04',
+  '내과_19Y_심장_Q05',
+  '내과_19Y_심장_Q06',
+  '내과_19Y_심장_Q07',
+  '내과_19Y_심장_Q08',
+  '내과_19Y_심장_Q09',
+  '내과_19Y_심장_Q10'
 ]);
 
   function applyCustomEdits() {
