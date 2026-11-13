@@ -95,7 +95,10 @@ function mergeData(serverData, clientData) {
     '내과_23Y_Q52',
     '내과_23Y_Q54',
     '내과_23Y_Q55',
-    '내과_23Y_Q60'
+    '내과_23Y_Q60',
+    '내과_22Y_Q03',
+    '내과_22Y_Q05',
+    '내과_22Y_Q06'
   ]);
   for (const [rid, rep] of reportMap.entries()) {
     if (resolvedReportIds.has(rid) || resolvedQuestionIds.has(rep.questionId)) {
