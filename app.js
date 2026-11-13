@@ -875,7 +875,7 @@
   async function loadQuestions() {
     if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
       try {
-        const res = await fetch('data/quiz_all_subjects.json?v=20261113v8', { cache: 'no-cache' });
+        const res = await fetch('data/quiz_all_subjects.json?v=20261113v9', { cache: 'no-cache' });
         if (res.ok) {
           const freshData = await res.json();
           if (Array.isArray(freshData) && freshData.length > 0) {
@@ -3391,7 +3391,39 @@
     '내과_23Y_Q60',
     '내과_22Y_Q03',
     '내과_22Y_Q05',
-    '내과_22Y_Q06'
+    '내과_22Y_Q06',
+    '내과_22Y_Q01',
+    '내과_22Y_Q02',
+    '내과_22Y_Q04',
+    '내과_22Y_Q07',
+    '내과_22Y_Q08',
+    '내과_22Y_Q09',
+    '내과_22Y_Q13',
+    '내과_22Y_Q17',
+    '내과_22Y_Q20',
+    '내과_22Y_Q21',
+    '내과_22Y_Q22',
+    '내과_22Y_Q23',
+    '내과_22Y_Q26',
+    '내과_22Y_Q28',
+    '내과_22Y_Q29',
+    '내과_22Y_Q30',
+    '내과_22Y_Q33',
+    '내과_22Y_Q35',
+    '내과_22Y_Q38',
+    '내과_22Y_Q41',
+    '내과_22Y_Q44',
+    '내과_22Y_Q47',
+    '내과_22Y_Q49',
+    '내과_22Y_Q50',
+    '내과_22Y_Q51',
+    '내과_22Y_Q52',
+    '내과_22Y_Q53',
+    '내과_22Y_Q54',
+    '내과_22Y_Q56',
+    '내과_22Y_Q58',
+    '내과_22Y_Q59',
+    '내과_22Y_Q60'
   ]);
 
   function applyCustomEdits() {

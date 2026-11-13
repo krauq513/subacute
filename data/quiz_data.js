@@ -40375,12 +40375,12 @@ window.QUIZ_DATA = [
     "correct_option_index": 0,
     "correct_answer": "생리식염수 정주 및 응급 관상동맥 중재술 (Primary PCI)",
     "explanation": {
-      "title": "하벽 STEMI 동반 우심실 경색(RV Infarction) 저혈압 시 수액 및 PCI",
-      "findings": "하벽 ST분절 상승 심근경색(STEMI) 및 심인성 저혈압 → 90~120분 이내 응급 경피적 관상동맥 중재술(Primary PCI)",
-      "differential": "• ① 생리식염수 정주 및 응급 관상동맥 중재술 (Primary PCI) ✓ [정답]: 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다\n• ② 질산염제제(Nitroglycerin) 설하 투여 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ③ 경구 베타차단제 고용량 투여 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ④ 루프 이뇨제(Furosemide) 정맥 주사 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ⑤ 혈전용해제 단독 투여 후 병실 안정 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n\n【핵심 감별 및 임상 가이드라인】\n23Y-06: 동일한 심전도 사진의 하벽 STEMI에서 PCI 시술 후 1년간 유지할 약제(항혈소판제)를 묻는 후속 문항으로 변형 출제됨.",
-      "trap": "• 하벽 심근경색 환자가 저혈압을 보일 때 질산염(NTG)을 투여하면 전부하 감소로 심각한 심인성 쇼크가 발생하므로 절대 금기이며, 수액 투여가 1차 치료입니다.",
-      "trigger": "【하벽 STEMI 및 우심실 경색(RV Infarction) 응급 처치】\n• 심전도 및 임상 소견: II, III, aVF ST상승 + V4R 유도 ST상승 + 저혈압, 경정맥 팽대, 폐음 청명(우심실부전 3징).\n• 1차 응급 처치:\n  - '생리식염수 급속 정주(Volume expansion)'로 우심실 전부하(Preload) 유지!\n  - 90분 이내 응급 경피적 관상동맥 중재술(Primary PCI).\n• 절대 금기 약물:\n  - 질산염(Nitrates), 이뇨제(Furosemide), 모르핀 금기! (전부하를 급감시켜 치명적인 저혈압과 심정지 유발).",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "하벽 STEMI 동반 우심실 경색(RV Infarction) 저혈압: 수액 투여 및 응급 PCI",
+      "findings": "하벽 ST분절 상승(II, III, aVF) + 저혈압(90/50 mmHg) + 빈맥 → 우심실 경색(RV Infarction) 의심 하 전부하 보존을 위한 생리식염수 정주 및 응급 관상동맥 중재술(Primary PCI)",
+      "differential": "• ① 생리식염수 정주 및 응급 관상동맥 중재술 (Primary PCI) ✓ [정답]: 하벽 STEMI 환자에서 저혈압과 빈맥이 동반된 경우 우심실 경색(RV Infarction)을 반드시 의심해야 합니다. 우심실은 전부하(Preload)에 극도로 의존하므로 생리식염수를 신속히 투여하여 혈압을 유지하면서, 지체 없이 90~120분 이내에 재관류 치료인 Primary PCI를 시행하는 것이 표준 치료입니다.\n• ② 질산염제제(Nitroglycerin) 설하 투여 ✗ [오답 / 절대 금기]: 정맥 확장으로 전부하를 급격히 감소시켜 치명적인 저혈압과 쇼크를 유발하므로 우심실 경색 의심 시 절대 금기입니다.\n• ③ 경구 베타차단제 고용량 투여 ✗ [오답 / 금기]: 저혈압(수축기압 < 90)이나 심인성 쇼크 위험이 있는 급성기에는 심박출량을 더욱 떨어뜨리므로 금기입니다.\n• ④ 루프 이뇨제(Furosemide) 정맥 주사 ✗ [오답 / 절대 금기]: 체액량을 감소시켜 우심실 충만을 방해하고 심인성 쇼크를 악화시킵니다.\n• ⑤ 혈전용해제 단독 투여 후 병실 안정 ✗ [오답]: PCI가 가능한 병원에서는 Primary PCI가 우선이며, 혈전용해술 후 병실에 안정시키는 것은 부적절합니다.",
+      "trap": "• [우심실 경색의 3대 금기]: 질산염(Nitroglycerin), 이뇨제(Furosemide), 모르핀(Morphine)은 전부하를 떨어뜨려 치명적 쇼크를 유발하므로 절대 투여해서는 안 되며, 수액 공급(Volume loading)이 최우선입니다.",
+      "trigger": "【하벽 STEMI + 우심실 경색(RV Infarction) 치료 원칙】\n• 심전도: II, III, aVF ST 상승 시 즉시 V4R 유도 심전도 촬영(V4R ST 상승 확인).\n• 저혈압 발생 기전: 우심실 수축력 저하 → 좌심실로의 혈류 감소 → 심박출량 급감 (전부하 의존성 극대화).\n• 1차 처치: 대량 생리식염수 투여로 우심실 충만압 유지 + 응급 Primary PCI 시행.",
+      "kmle_link": "KMLE 순환기내과 - 급성 심근경색증(STEMI) 및 우심실 경색 치료 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
@@ -40388,39 +40388,39 @@ window.QUIZ_DATA = [
           "text": "생리식염수 정주 및 응급 관상동맥 중재술 (Primary PCI)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+          "reason": "우심실 경색 의심 저혈압 시 충분한 수액 공급으로 전부하를 유지하며 즉각적인 Primary PCI를 시행해야 합니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
           "text": "질산염제제(Nitroglycerin) 설하 투여",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "tag": "오답 (절대 금기)",
+          "reason": "정맥 확장으로 전부하를 급격히 떨어뜨려 심각한 저혈압 쇼크를 유발하므로 절대 금기입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
           "text": "경구 베타차단제 고용량 투여",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "tag": "오답 (금기)",
+          "reason": "저혈압 및 심인성 쇼크 징후가 있는 급성기에는 심근 수축력을 저하시키므로 투여를 보류해야 합니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
           "text": "루프 이뇨제(Furosemide) 정맥 주사",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "tag": "오답 (절대 금기)",
+          "reason": "체액량을 고갈시켜 우심실 충만을 차단하고 저혈압을 치명적으로 악화시킵니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
           "text": "혈전용해제 단독 투여 후 병실 안정",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "tag": "오답",
+          "reason": "PCI가 가능한 환경에서는 응급 Primary PCI가 표준 재관류 치료입니다."
         }
       ],
       "differential_general": "23Y-06: 동일한 심전도 사진의 하벽 STEMI에서 PCI 시술 후 1년간 유지할 약제(항혈소판제)를 묻는 후속 문항으로 변형 출제됨."
@@ -40445,39 +40445,39 @@ window.QUIZ_DATA = [
         "text": "생리식염수 정주 및 응급 관상동맥 중재술 (Primary PCI)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+        "reason": "우심실 경색 의심 저혈압 시 충분한 수액 공급으로 전부하를 유지하며 즉각적인 Primary PCI를 시행해야 합니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
         "text": "질산염제제(Nitroglycerin) 설하 투여",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "tag": "오답 (절대 금기)",
+        "reason": "정맥 확장으로 전부하를 급격히 떨어뜨려 심각한 저혈압 쇼크를 유발하므로 절대 금기입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
         "text": "경구 베타차단제 고용량 투여",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "tag": "오답 (금기)",
+        "reason": "저혈압 및 심인성 쇼크 징후가 있는 급성기에는 심근 수축력을 저하시키므로 투여를 보류해야 합니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
         "text": "루프 이뇨제(Furosemide) 정맥 주사",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "tag": "오답 (절대 금기)",
+        "reason": "체액량을 고갈시켜 우심실 충만을 차단하고 저혈압을 치명적으로 악화시킵니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
         "text": "혈전용해제 단독 투여 후 병실 안정",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "tag": "오답",
+        "reason": "PCI가 가능한 환경에서는 응급 Primary PCI가 표준 재관류 치료입니다."
       }
     ],
     "answer": "생리식염수 정주 및 응급 관상동맥 중재술 (Primary PCI)"
@@ -40503,12 +40503,12 @@ window.QUIZ_DATA = [
     "correct_option_index": 0,
     "correct_answer": "응급 경피적 관상동맥 중재술 (Primary PCI)",
     "explanation": {
-      "title": "급성 전벽 STEMI(V3~V6 ST상승)의 응급 경피적 관동맥중재술(Primary PCI)",
-      "findings": "흉통+심전도 V3~V6 ST분절 상승(전벽 STEMI) → 응급 경피적 관상동맥 중재술(Primary PCI)",
-      "differential": "• ① 응급 경피적 관상동맥 중재술 (Primary PCI) ✓ [정답]: 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다\n• ② 경구 항응고제(Warfarin) 투여 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ③ 24시간 홀터 심전도 모니터링 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ④ 혈역학적 경과관찰 후 1주일 뒤 심장초음파 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ⑤ 기관지 확장제 흡입 치료 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.",
-      "trap": "• ST분절 상승 심근경색은 혈액 트로포닌 검사 결과가 나오기 전이라도 심전도 확인 즉시 재관류 치료(PCI)를 준비해야 합니다.",
-      "trigger": "【급성 전벽 ST분절 상승 심근경색(STEMI) 표준 재관류】\n• 진단: V3~V6 ST분절 상승 (LAD 폐색).\n• 1차 표준 치료: 응급 경피적 관상동맥 중재술(Primary PCI, Door-to-Balloon ≤ 90분).\n• 초기 약물: Aspirin + P2Y12 억제제(Ticagrelor) + 헤파린 정맥 투여.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "급성 전벽 ST분절 상승 심근경색(STEMI)의 응급 경피적 관상동맥 중재술(Primary PCI)",
+      "findings": "흉통 + 심전도 V3~V6 ST분절 상승(전벽 STEMI) → 90~120분 이내 응급 경피적 관상동맥 중재술(Primary PCI) 시행",
+      "differential": "• ① 응급 경피적 관상동맥 중재술 (Primary PCI) ✓ [정답]: V3~V6 유도의 ST분절 상승은 좌전하행동맥(LAD) 폐색에 의한 광범위 전벽 STEMI를 시사합니다. 내원 후 Door-to-balloon time 90분 이내(비PCI 병원 전원 시 120분 이내)에 응급 Primary PCI를 시행하여 폐색된 관상동맥을 재개통시키는 것이 사망률을 낮추는 1차 표준 치료입니다.\n• ② 경구 항응고제(Warfarin) 투여 ✗ [오답]: 와파린은 심방세동이나 판막 질환 등의 혈전 예방제이며, 급성 STEMI의 재관류 치료제가 아닙니다.\n• ③ 24시간 홀터 심전도 모니터링 ✗ [오답]: 간헐적 부정맥이나 실신을 평가하는 외래 검사로, 응급 재관류가 필요한 STEMI 환자에게 부적절합니다.\n• ④ 혈역학적 경과관찰 후 1주일 뒤 심장초음파 ✗ [오답]: 수 시간 내 심근 괴사가 비가역적으로 진행되므로 지체 없이 즉각 재관류해야 합니다.\n• ⑤ 기관지 확장제 흡입 치료 ✗ [오답]: 천식이나 COPD의 급성 악화에 쓰이며 심근경색 치료와 무관합니다.",
+      "trap": "• STEMI 진단 시 심근효소(Troponin/CK-MB) 결과 보고를 기다리지 않고 심전도 확인 즉시 카테터실(Cath lab)을 활성화하여 응급 PCI를 시행해야 합니다.",
+      "trigger": "【급성 STEMI 재관류 치료 원칙】\n• Primary PCI: PCI 가능 병원 내원 시 90분 이내 도달 목표 (1차 표준).\n• 섬유소용해술(Fibrinolysis): 내원 후 120분 이내 PCI가 불가능할 때 30분(Door-to-needle) 이내 투여.",
+      "kmle_link": "KMLE 순환기내과 - 급성 관상동맥 증후군(ACS) 진단 및 재관류 치료 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
@@ -40516,7 +40516,7 @@ window.QUIZ_DATA = [
           "text": "응급 경피적 관상동맥 중재술 (Primary PCI)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+          "reason": "전벽 STEMI 환자의 사망률을 감소시키고 심근을 구제하는 가장 확실한 1차 표준 재관류 치료법입니다."
         },
         {
           "opt_idx": 1,
@@ -40524,7 +40524,7 @@ window.QUIZ_DATA = [
           "text": "경구 항응고제(Warfarin) 투여",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "급성 관상동맥 폐색의 혈전을 용해하거나 혈류를 재개통하지 못합니다."
         },
         {
           "opt_idx": 2,
@@ -40532,7 +40532,7 @@ window.QUIZ_DATA = [
           "text": "24시간 홀터 심전도 모니터링",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "응급 재관류가 필요한 급성 환자에게 시행하는 검사가 아닙니다."
         },
         {
           "opt_idx": 3,
@@ -40540,7 +40540,7 @@ window.QUIZ_DATA = [
           "text": "혈역학적 경과관찰 후 1주일 뒤 심장초음파",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "골든타임을 놓쳐 광범위한 심근 괴사와 심부전을 초래합니다."
         },
         {
           "opt_idx": 4,
@@ -40548,7 +40548,7 @@ window.QUIZ_DATA = [
           "text": "기관지 확장제 흡입 치료",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "기도 폐쇄성 호흡기 질환의 치료제로 관상동맥 폐색과 무관합니다."
         }
       ],
       "differential_general": ""
@@ -40573,7 +40573,7 @@ window.QUIZ_DATA = [
         "text": "응급 경피적 관상동맥 중재술 (Primary PCI)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+        "reason": "전벽 STEMI 환자의 사망률을 감소시키고 심근을 구제하는 가장 확실한 1차 표준 재관류 치료법입니다."
       },
       {
         "opt_idx": 1,
@@ -40581,7 +40581,7 @@ window.QUIZ_DATA = [
         "text": "경구 항응고제(Warfarin) 투여",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "급성 관상동맥 폐색의 혈전을 용해하거나 혈류를 재개통하지 못합니다."
       },
       {
         "opt_idx": 2,
@@ -40589,7 +40589,7 @@ window.QUIZ_DATA = [
         "text": "24시간 홀터 심전도 모니터링",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "응급 재관류가 필요한 급성 환자에게 시행하는 검사가 아닙니다."
       },
       {
         "opt_idx": 3,
@@ -40597,7 +40597,7 @@ window.QUIZ_DATA = [
         "text": "혈역학적 경과관찰 후 1주일 뒤 심장초음파",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "골든타임을 놓쳐 광범위한 심근 괴사와 심부전을 초래합니다."
       },
       {
         "opt_idx": 4,
@@ -40605,7 +40605,7 @@ window.QUIZ_DATA = [
         "text": "기관지 확장제 흡입 치료",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "기도 폐쇄성 호흡기 질환의 치료제로 관상동맥 폐색과 무관합니다."
       }
     ],
     "answer": "응급 경피적 관상동맥 중재술 (Primary PCI)"
@@ -40762,12 +40762,53 @@ window.QUIZ_DATA = [
     "correct_answer": "① 응급 심낭천자 (Emergency pericardiocentesis)",
     "explanation": {
       "title": "급성 심장막 압전(Cardiac Tamponade)의 Beck 3징 및 응급 심낭천자",
-      "findings": "유방암 병력+저혈압+경정맥 확장+심음 감쇠(Beck 3징)+심낭삼출 → 심장막 압전, 응급 심낭천자",
-      "differential": "① 응급 심낭천자 — Beck 3징(저혈압, 경정맥 확장, 심음 감쇠)과 심낭삼출로 확진된 심장막 압전에서 심낭 내압을 즉시 낮춰 심장 허탈을 해소하는 응급 처치임 → 정답.\n② 가슴관 삽입 — 기흉, 혈흉, 다량의 흉막삼출을 배액하는 시술로 심낭강 내부의 액체를 감압하지 못합니다.\n③ 이뇨제 사용 — 정맥 환류량(전부하)을 급격히 감소시켜 심박출량을 더 떨어뜨리므로 심장막 압전에서는 절대 금기입니다.\n④ 글루코코르티코이드 — 특발성이나 자가면역성 심낭염의 염증 조절에 쓰일 수 있으나 혈역학적 붕괴를 초래한 급성 압전의 감압 수단이 아닙니다.\n⑤ 경과 관찰 — 심낭 압전 환자를 방치하면 심장 충만 장애로 급성 무수축 또는 무맥성 전기활동(PEA) 심정지에 이릅니다.",
-      "trap": "• 심낭 압전 환자에게 혈압이 낮다고 승압제만 주거나 호흡곤란을 완화하겠다고 이뇨제를 주면 전부하가 말라 심정지가 발생하므로, 유일한 응급 처치는 '심낭천자'입니다.",
-      "trigger": "【심장막 압전(Cardiac Tamponade) 응급 진단 및 처치】\n• 임상 3징 (Beck's triad): 1. 저혈압(BP 70/40), 2. 경정맥 확장(JVD), 3. 심음 감약(Muffled heart sound).\n• 기이맥(Pulsus paradoxus): 흡기 시 수축기 혈압 > 10 mmHg 이상 강하.\n• 응급 치료: 즉각적인 초음파 유도하 응급 심낭천자(Emergency Pericardiocentesis). 절대 금기: 이뇨제 및 혈관확장제.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [],
+      "findings": "유방암 병력 + Beck 3징(저혈압 70/40, 심음 감약, 경정맥 확장) + 심초음파상 다량 심낭삼출 및 우심방/우심실 이완기 허탈 → 급성 심장막 압전(Cardiac Tamponade), 즉각적인 응급 심낭천자(Emergency pericardiocentesis)",
+      "differential": "• ① 응급 심낭천자 (Emergency pericardiocentesis) ✓ [정답]: 암성 심낭삼출에 의해 심낭 내 압력이 급상승하여 심장 충만이 차단된 심장막 압전(Cardiac Tamponade) 상태입니다. 심인성 쇼크 및 심정지를 막기 위해 즉시 카테터를 삽입하여 심낭액을 배액하는 응급 심낭천자가 생명을 구하는 유일한 처치입니다.\n• ② 가슴관(흉관) 삽입술 ✗ [오답]: 흉막강 내 혈흉이나 긴장성 기흉의 치료법이며 심낭 내부의 액체를 배액하지 못합니다.\n• ③ 고용량 루프 이뇨제 정주 ✗ [오답 / 절대 금기]: 체액량을 감소시켜 정맥 환류량(전부하)을 떨어뜨림으로써 심실 충만을 완전히 차단하여 심정지를 유발합니다.\n• ④ 전신 글루코코르티코이드 투여 ✗ [오답]: 바이러스성/특발성 심낭염의 일부에서 쓰일 수 있으나 쇼크가 동반된 급성 압전의 응급 처치가 아닙니다.\n• ⑤ 침상 안정 및 경과관찰 ✗ [오답]: 신속한 감압을 하지 않으면 수 분~수 시간 내 심장마비로 사망합니다.",
+      "trap": "• [심장막 압전에서의 이뇨제 금기]: 경정맥 확장이 관찰된다고 해서 체액 과부하로 오인하여 이뇨제를 투여하면 심실 충만이 차단되어 즉각적인 심정지가 발생하므로 절대 금기이며, 오히려 심낭천자 전까지 생리식염수 정주(Volume loading)를 시행해야 합니다.",
+      "trigger": "【심장막 압전(Cardiac Tamponade) 핵심 임상 징후】\n• Beck's Triad: 1. 저혈압 (Hypotension), 2. 심음 감약 (Muffled heart sounds), 3. 경정맥 확장 (JVD).\n• 기이맥 (Pulsus paradoxus): 흡기 시 수축기 혈압 10 mmHg 이상 감소.\n• 심초음파: 다량 심낭삼출 + 우심방 수축기 허탈, 우심실 이완기 허탈.",
+      "kmle_link": "KMLE 순환기내과 - 심장막 압전 및 심낭 질환 응급 처치 가이드라인 연계",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "응급 심낭천자 (Emergency pericardiocentesis)",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "심낭 내 압력을 즉각 낮추어 심인성 쇼크와 심정지를 예방하는 가장 신속하고 확실한 1차 구명 치료입니다."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "가슴관(흉관) 삽입술",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "흉강 내 기흉이나 혈흉 치료법으로 심낭 내부를 감압할 수 없습니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "고용량 루프 이뇨제 정주",
+          "is_correct": false,
+          "tag": "오답 (절대 금기)",
+          "reason": "전부하를 고갈시켜 심실 충만을 완전히 차단함으로써 심정지를 유발하므로 절대 금기입니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "전신 글루코코르티코이드 투여",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "급성 기계적 압전 상태를 신속히 해소하지 못합니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "침상 안정 및 경과관찰",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "쇼크 상태를 방치하여 환자를 사망에 이르게 합니다."
+        }
+      ],
       "differential_general": ""
     },
     "is_multiple_choice": false,
@@ -40785,7 +40826,48 @@ window.QUIZ_DATA = [
       "22Y-04",
       "26Y-05"
     ],
-    "option_explanations": [],
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "응급 심낭천자 (Emergency pericardiocentesis)",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "심낭 내 압력을 즉각 낮추어 심인성 쇼크와 심정지를 예방하는 가장 신속하고 확실한 1차 구명 치료입니다."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "가슴관(흉관) 삽입술",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "흉강 내 기흉이나 혈흉 치료법으로 심낭 내부를 감압할 수 없습니다."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "고용량 루프 이뇨제 정주",
+        "is_correct": false,
+        "tag": "오답 (절대 금기)",
+        "reason": "전부하를 고갈시켜 심실 충만을 완전히 차단함으로써 심정지를 유발하므로 절대 금기입니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "전신 글루코코르티코이드 투여",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "급성 기계적 압전 상태를 신속히 해소하지 못합니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "침상 안정 및 경과관찰",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "쇼크 상태를 방치하여 환자를 사망에 이르게 합니다."
+      }
+    ],
     "answer": "① 응급 심낭천자 (Emergency pericardiocentesis)",
     "question": "54세 여자가 하루 전부터 숨이 차서 응급실에 내원하였다. 1년 전부터 유방암 치료를 받았다. BP 70/40 mmHg, HR 110회/분, RR 22회/분, 체온 36.4℃이다. 가슴 청진에서 심음이 작게 들리고 호흡음은 정상이다. 경정맥압이 상승되어 있다. 심초음파상 다량의 심낭삼출 및 우심방/우심실 허탈 소견이 관찰되었다. 가장 적절한 치료는?"
   },
@@ -41071,12 +41153,12 @@ window.QUIZ_DATA = [
     "correct_option_index": 0,
     "correct_answer": "Left anterior descending artery, LAD",
     "explanation": {
-      "title": "관상동맥 조영술 Spider View에서 좌전하행동맥(LAD) 판독",
-      "findings": "관상동맥조영술상 좌주간지에서 심첨부로 주행하는 주 혈관 → 좌전하행동맥(LAD)",
-      "differential": "• ① 좌전하행동맥 (Left anterior descending artery, LAD) ✓ [정답]: 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다\n• ② 좌회선동맥 (Left circumflex artery, LCx) ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ③ 우관상동맥 (Right coronary artery, RCA) ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ④ 좌주간부 관상동맥 (Left main coronary artery) ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ⑤ 둔각분지 (Obtuse marginal branch, OM) ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n\n【핵심 감별 및 임상 가이드라인】\n23Y-04: 동일한 혈관조영술 영상에서 화살표 부위 혈관(LAD)을 묻는 5지선다형으로 출제됨.",
-      "trap": "• 좌주간부 분지에서 바깥쪽으로 주행하는 것은 좌회선동맥(LCx)이며, 심첨부까지 전방으로 길게 뻗는 혈관은 좌전하행동맥(LAD)입니다.",
-      "trigger": "【CAG Spider View 관상동맥 판독 공식】\n• Spider View (LAO Caudal): 좌주간부(LMCA) 끝에서 분지하여 심첨부(Apex)를 향해 전하방으로 길게 주행하는 동맥은 '좌전하행동맥(LAD)'입니다.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "관상동맥 조영술(CAG) Spider View에서 좌전하행동맥(LAD) 판독",
+      "findings": "관상동맥 조영술 LAO Caudal(Spider view) 영상에서 좌주간부(LM) 분지부에서 심첨부 방향으로 주행하는 전벽 공급 혈관 → 좌전하행동맥(LAD, Left anterior descending artery)",
+      "differential": "• ① Left anterior descending artery, LAD ✓ [정답]: LAO Caudal(일명 Spider view)은 좌주간부(LM)의 분지부 및 LAD와 LCx의 기시부를 가장 명확하게 펼쳐 보여주는 표준 촬영 각도입니다. 좌주간부에서 갈라져 나와 대각분지(Diagonal branch) 및 중격분지(Septal branch)를 내며 심첨부를 향해 아래로 주행하는 혈관은 좌전하행동맥(LAD)입니다.\n• ② Left circumflex artery, LCx ✗ [오답]: 좌회선동맥은 Spider view에서 좌측 상방/외측 방실구(AV groove)를 따라 주행하며 둔각분지(OM)를 냅니다.\n• ③ Right coronary artery, RCA ✗ [오답]: 우관상동맥은 우측 대동맥동(Right coronary cusp)에서 기시하므로 좌관상동맥 조영술상 나타나지 않습니다.\n• ④ Left main coronary artery ✗ [오답]: 좌주간부는 대동맥에서 기시하여 LAD와 LCx로 분지하기 전의 짧은 공통 줄기 혈관입니다.\n• ⑤ Obtuse marginal branch, OM ✗ [오답]: 좌회선동맥(LCx)에서 분지하는 외측벽 공급 가지 혈관입니다.",
+      "trap": "• Spider view(LAO 40~50°, Caudal 20~30°)는 좌주간부 분지부 병변 및 LAD/LCx 기시부 병변을 겹침 없이 관찰하기 위한 필수 촬영 각도입니다.",
+      "trigger": "【관상동맥 조영술(CAG) 주요 투시 방향별 특징】\n• Spider View (LAO + Caudal): Left Main 분지부, Proximal LAD, Proximal LCx 관찰에 최적.\n• RAO Cranial: Mid ~ Distal LAD 및 Diagonal branches 관찰에 최적.\n• LAO Cranial: LAD 전체와 중격 분지들의 분리 관찰에 최적.",
+      "kmle_link": "KMLE 순환기내과 - 관상동맥 조영술 영상 판독 및 해부학 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
@@ -41084,7 +41166,7 @@ window.QUIZ_DATA = [
           "text": "Left anterior descending artery, LAD",
           "is_correct": true,
           "tag": "정답",
-          "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+          "reason": "Spider view에서 LM에서 분지하여 심첨부 방향으로 주행하는 좌전하행동맥입니다."
         },
         {
           "opt_idx": 1,
@@ -41092,7 +41174,7 @@ window.QUIZ_DATA = [
           "text": "Left circumflex artery, LCx",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "방실구를 따라 심장 외측 및 후방으로 주행하는 좌회선동맥입니다."
         },
         {
           "opt_idx": 2,
@@ -41100,7 +41182,7 @@ window.QUIZ_DATA = [
           "text": "Right coronary artery, RCA",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "우측 대동맥동에서 단독으로 기시하는 우관상동맥입니다."
         },
         {
           "opt_idx": 3,
@@ -41108,7 +41190,7 @@ window.QUIZ_DATA = [
           "text": "Left main coronary artery",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "LAD와 LCx로 갈라지기 전의 기저 공통 줄기 혈관입니다."
         },
         {
           "opt_idx": 4,
@@ -41116,7 +41198,7 @@ window.QUIZ_DATA = [
           "text": "Obtuse marginal branch, OM",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "LCx에서 갈라져 나오는 가지 혈관입니다."
         }
       ],
       "differential_general": "23Y-04: 동일한 혈관조영술 영상에서 화살표 부위 혈관(LAD)을 묻는 5지선다형으로 출제됨."
@@ -41141,7 +41223,7 @@ window.QUIZ_DATA = [
         "text": "Left anterior descending artery, LAD",
         "is_correct": true,
         "tag": "정답",
-        "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+        "reason": "Spider view에서 LM에서 분지하여 심첨부 방향으로 주행하는 좌전하행동맥입니다."
       },
       {
         "opt_idx": 1,
@@ -41149,7 +41231,7 @@ window.QUIZ_DATA = [
         "text": "Left circumflex artery, LCx",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "방실구를 따라 심장 외측 및 후방으로 주행하는 좌회선동맥입니다."
       },
       {
         "opt_idx": 2,
@@ -41157,7 +41239,7 @@ window.QUIZ_DATA = [
         "text": "Right coronary artery, RCA",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "우측 대동맥동에서 단독으로 기시하는 우관상동맥입니다."
       },
       {
         "opt_idx": 3,
@@ -41165,7 +41247,7 @@ window.QUIZ_DATA = [
         "text": "Left main coronary artery",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "LAD와 LCx로 갈라지기 전의 기저 공통 줄기 혈관입니다."
       },
       {
         "opt_idx": 4,
@@ -41173,7 +41255,7 @@ window.QUIZ_DATA = [
         "text": "Obtuse marginal branch, OM",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "LCx에서 갈라져 나오는 가지 혈관입니다."
       }
     ],
     "answer": "Left anterior descending artery, LAD"
@@ -41199,12 +41281,12 @@ window.QUIZ_DATA = [
     "correct_option_index": 0,
     "correct_answer": "경피적 혈관성형술 및 스텐트 삽입술 (PTA & Stenting)",
     "explanation": {
-      "title": "말초동맥질환(PAD) 양측 하지 허혈의 중재술: 경피적 혈관성형술(PTA)",
-      "findings": "하지 파행+발목상완지수(ABI) 감소+혈관조영술상 하지 혈관 폐쇄 → 말초동맥질환, 경피적 혈관성형술(PTA)",
-      "differential": "• ① 경피적 혈관성형술 및 스텐트 삽입술 (PTA & Stenting) ✓ [정답]: 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다\n• ② 전신 혈전용해제 단독 정맥 투여 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ③ 하지 석고 붕대 고정 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ④ 경구 소염진통제 단독 투여 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ⑤ 교감신경 절제술 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.",
-      "trap": "• 만성 하지 허혈로 일상생활 장애가 심한 환자에서 혈관 조영술상 국소 협착이 확인되면 지체 없이 경피적 혈관성형술(PTA)을 시행해야 절단을 막을 수 있습니다.",
-      "trigger": "【말초동맥질환(PAD) 혈관재개통술 적응증】\n• 보존적 약물 치료(금연, Statin, Aspirin, Cilostazol) 및 운동요법 실패 시 중재술:\n  - 장골동맥/대퇴동맥 협착 부위에 대한 경피적 혈관성형술 및 스텐트 삽입술(PTA & Stenting).",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "말초동맥질환(PAD) 하지 허혈의 중재술: 경피적 혈관성형술(PTA & Stenting)",
+      "findings": "하지 파행 + 발목상완지수(ABI) 감소(우 0.55, 좌 0.70) + 혈관조영술상 좌측 동맥 폐색 → 중증 하지 허혈 치료를 위한 경피적 혈관성형술 및 스텐트 삽입술(PTA & Stenting)",
+      "differential": "• ① 경피적 혈관성형술 및 스텐트 삽입술 (PTA & Stenting) ✓ [정답]: 양측 하지 파행 및 휴식기 통증이 발생하고 ABI가 0.9 미만으로 뚜렷이 저하된 말초동맥질환(PAD) 환자입니다. 혈관조영술상 주요 동맥 폐색이 확인되었으므로, 파행을 완화하고 사지 궤양 및 괴사를 방지하기 위해 경피적 카테터를 통한 풍선 혈관성형술 및 스텐트 삽입술(PTA)이 1차 침습적 재혈관화 표준 치료입니다.\n• ② 전신 혈전용해제 단독 정맥 투여 ✗ [오답]: 만성 죽상경화성 동맥 폐색증에 전신 혈전용해제 단독 정맥 투여는 효과가 없고 전신 출혈 위험만 높입니다.\n• ③ 하지 석고 붕대 고정 ✗ [오답]: 혈류 차단 질환에서 석고 붕대로 압박 고정하면 혈류가 더 감소하여 급성 조직 괴사를 촉발합니다.\n• ④ 경구 소염진통제 단독 투여 ✗ [오답]: 허혈성 혈관 폐색 자체를 해결하지 못하는 단순 대증 요법입니다.\n• ⑤ 교감신경 절제술 ✗ [오답]: 현대 말초혈관 중재술이 발달한 상황에서 동맥 폐색의 1차 표준 치료가 아닙니다.",
+      "trap": "• [ABI 판독 기준]: 정상 1.0~1.4, 경도~중등도 PAD 0.41~0.90, 중증 허혈 0.40 이하. 0.90 이하이면 PAD를 확진합니다.",
+      "trigger": "【말초동맥질환(PAD) 단계별 치료 원칙】\n• 1단계: 생활습관 교정 (금연, 운동 요법).\n• 2단계: 약물 치료 (항혈소판제 Aspirin/Clopidogrel, 고강도 Statin, 증상 개선제 Cilostazol).\n• 3단계: 침습적 재혈관화 (중재술 PTA/Stent 또는 수술적 Bypass) - 휴식기 통증, 난치성 파행, 조직 결손 시 시행.",
+      "kmle_link": "KMLE 순환기내과 - 말초동맥질환(PAD) 진단 및 재혈관화 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
@@ -41212,7 +41294,7 @@ window.QUIZ_DATA = [
           "text": "경피적 혈관성형술 및 스텐트 삽입술 (PTA & Stenting)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+          "reason": "폐색된 하지 동맥을 물리적으로 확장하여 혈류를 재개통하는 표준 1차 중재 치료입니다."
         },
         {
           "opt_idx": 1,
@@ -41220,7 +41302,7 @@ window.QUIZ_DATA = [
           "text": "전신 혈전용해제 단독 정맥 투여",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "만성 죽상경화반에 효과가 없으며 치명적 출혈 합병증 위험이 있습니다."
         },
         {
           "opt_idx": 2,
@@ -41228,7 +41310,7 @@ window.QUIZ_DATA = [
           "text": "하지 석고 붕대 고정",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "말초 혈류를 더욱 악화시켜 조직 괴사를 유발합니다."
         },
         {
           "opt_idx": 3,
@@ -41236,7 +41318,7 @@ window.QUIZ_DATA = [
           "text": "경구 소염진통제 단독 투여",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "혈관 폐색을 해소하지 못하며 신기능 악화 및 심혈관 위험을 증가시킵니다."
         },
         {
           "opt_idx": 4,
@@ -41244,7 +41326,7 @@ window.QUIZ_DATA = [
           "text": "교감신경 절제술",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "현대 혈관 중재술에 밀려 거의 쓰이지 않는 과거의 치료법입니다."
         }
       ],
       "differential_general": ""
@@ -41269,7 +41351,7 @@ window.QUIZ_DATA = [
         "text": "경피적 혈관성형술 및 스텐트 삽입술 (PTA & Stenting)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+        "reason": "폐색된 하지 동맥을 물리적으로 확장하여 혈류를 재개통하는 표준 1차 중재 치료입니다."
       },
       {
         "opt_idx": 1,
@@ -41277,7 +41359,7 @@ window.QUIZ_DATA = [
         "text": "전신 혈전용해제 단독 정맥 투여",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "만성 죽상경화반에 효과가 없으며 치명적 출혈 합병증 위험이 있습니다."
       },
       {
         "opt_idx": 2,
@@ -41285,7 +41367,7 @@ window.QUIZ_DATA = [
         "text": "하지 석고 붕대 고정",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "말초 혈류를 더욱 악화시켜 조직 괴사를 유발합니다."
       },
       {
         "opt_idx": 3,
@@ -41293,7 +41375,7 @@ window.QUIZ_DATA = [
         "text": "경구 소염진통제 단독 투여",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "혈관 폐색을 해소하지 못하며 신기능 악화 및 심혈관 위험을 증가시킵니다."
       },
       {
         "opt_idx": 4,
@@ -41301,7 +41383,7 @@ window.QUIZ_DATA = [
         "text": "교감신경 절제술",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "현대 혈관 중재술에 밀려 거의 쓰이지 않는 과거의 치료법입니다."
       }
     ],
     "answer": "경피적 혈관성형술 및 스텐트 삽입술 (PTA & Stenting)"
@@ -41328,11 +41410,11 @@ window.QUIZ_DATA = [
     "correct_answer": "S4",
     "explanation": {
       "title": "심장 청진 소견: 제4심음(S4, Atrial Gallop)과 심실 이완기 순응도 저하",
-      "findings": "흉통(심근 허혈)+심첨부 벨 청진 소견 → 좌심실 탄성도 저하에 따른 제4심음(S4)",
-      "differential": "• ① S4 ✓ [정답]: 제시된 증례 소견 및 가이드라인에 부합하는 정답 소견입니다.\n• ② S3 ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ③ Click ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ④ Opening snap ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ⑤ Ejection sound ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.",
-      "trap": "• 제3심음(S3)은 이완기 초기 급속 유입 시 심실 과부하로 들리는 반면, 제4심음(S4)은 '심방 수축 시 뻣뻣한 심실'로 인해 발생합니다.",
-      "trigger": "【제4심음(S4, 수축기전 분마음) 청진 기전】\n• 발생 시점: 심실 이완기 말 심방 수축(Atrial contraction) 직후, S1 바로 직전에 들리는 저음조 음향.\n• 원인: 고혈압, 대동맥판협착, 비대심근병증 등으로 비후되고 뻣뻣해진 좌심실벽에 혈액이 유입될 때 발생.\n• 특징: 심방세동(AF) 환자에서는 심방 수축이 없으므로 S4가 절대 들리지 않음!",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "findings": "흉통(심근 허혈) + 심첨부 벨 청진 시 들리는 저음의 확장 말기 추가음 → 심실 이완기 순응도 저하에 따른 제4심음(S4, Atrial gallop)",
+      "differential": "• ① S4 ✓ [정답]: 제4심음(S4)은 심실의 이완기 유순도(Compliance)가 감소되어 뻣뻣해진 상태에서, 확장 말기(수축 직전) 심방이 강하게 수축하여 혈액을 밀어 넣을 때 심실벽이 진동하여 발생하는 저음조(Low-pitched)의 심음입니다. 심첨부에서 청진기의 벨(Bell)형 집음기를 가볍게 대고 들을 때 가장 잘 들리며, 심근경색/협심증 등 허혈성 심질환이나 고혈압성 심근비대(LVH) 환자에서 흔히 관찰됩니다.\n• ② S3 ✗ [오답]: 제3심음(S3)은 확장 조기 급속 충만기(Rapid filling phase)에 다량의 혈류가 심실로 유입되면서 발생하는 저음으로, 심부전이나 판막 폐쇄부전(MR/AR) 등 체액 과부하 상태를 반영합니다.\n• ③ Click ✗ [오답]: 승모판 탈출증(MVP)에서 수축 중기~후기에 건삭이 팽팽해지며 들리는 고음조의 날카로운 음입니다.\n• ④ Opening snap ✗ [오답]: 승모판 협착증(MS)에서 확장 조기에 협착된 승모판이 열릴 때 발생하는 고음조의 심음입니다.\n• ⑤ Ejection sound ✗ [오답]: 대동맥판이나 폐동맥판 협착증에서 판막이 개방되는 수축 조기에 들리는 사출성 추가음입니다.",
+      "trap": "• [S3 vs S4 감별 공식]:\n  - S3 (Ventricular gallop): 확장 조기, 급속 충만기, 체액 과부하/심부전 반영 (청진기 벨).\n  - S4 (Atrial gallop): 확장 말기(전수축기), 심방 수축기, 심실 뻣뻣함(비대/허혈) 반영 (청진기 벨).\n  - 심방세동(AF)에서는 유효한 심방 수축이 소실되므로 S4는 절대 들릴 수 없습니다.",
+      "trigger": "【심음 청진 부위 및 집음기 선택 원칙】\n• 벨(Bell): 저음조 심음 청진 (S3, S4, 승모판 협착증의 확장기 잡음) - 가볍게 밀착.\n• 막(Diaphragm): 고음조 심음 청진 (S1, S2, 수축기 잡음, 대동맥판 폐쇄부전증 역류성 잡음, Click, Opening snap) - 강하게 밀착.",
+      "kmle_link": "KMLE 순환기내과 - 심장 신체 진찰 및 심음 청진 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
@@ -41340,7 +41422,7 @@ window.QUIZ_DATA = [
           "text": "S4",
           "is_correct": true,
           "tag": "정답",
-          "reason": "허혈성 심질환으로 좌심실 이완기 탄성도가 저하된 환자에서 심방 수축기(확장 말기)에 혈액이 충만되며 들리는 저음의 심음으로 심첨부 벨로 청진됨"
+          "reason": "허혈성 심근 질환으로 좌심실 이완기 순응도가 저하되어 확장 말기 심방 수축 시 발생하는 저음조의 제4심음입니다."
         },
         {
           "opt_idx": 1,
@@ -41348,7 +41430,7 @@ window.QUIZ_DATA = [
           "text": "S3",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "승모판 탈출증(MVP) 등에서 수축 중기~후기에 건삭이 긴장되면서 들리는 날카로운 고음조의 추가음입니다."
+          "reason": "확장 조기 급속 충만기에 들리는 저음으로 체액 과부하 및 심부전을 시사합니다."
         },
         {
           "opt_idx": 2,
@@ -41356,7 +41438,7 @@ window.QUIZ_DATA = [
           "text": "Click",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "승모판 협착증(MS)에서 확장 조기에 협착된 승모판엽이 강하게 개방될 때 발생하는 고음의 맑은 심음입니다."
+          "reason": "승모판 탈출증(MVP) 등에서 수축 중기에 들리는 고음조의 추가음입니다."
         },
         {
           "opt_idx": 3,
@@ -41364,7 +41446,7 @@ window.QUIZ_DATA = [
           "text": "Opening snap",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "대동맥판이나 폐동맥판 협착증에서 판막이 열리는 수축 조기에 들리는 사출성 추가음입니다."
+          "reason": "승모판 협착증(MS)에서 확장 조기에 승모판엽이 개방되며 발생하는 고음의 심음입니다."
         },
         {
           "opt_idx": 4,
@@ -41372,7 +41454,7 @@ window.QUIZ_DATA = [
           "text": "Ejection sound",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "반월판 협착증에서 판막이 열리는 수축 조기에 들리는 사출음입니다."
         }
       ],
       "differential_general": ""
@@ -41397,7 +41479,7 @@ window.QUIZ_DATA = [
         "text": "S4",
         "is_correct": true,
         "tag": "정답",
-        "reason": "허혈성 심질환으로 좌심실 이완기 탄성도가 저하된 환자에서 심방 수축기(확장 말기)에 혈액이 충만되며 들리는 저음의 심음으로 심첨부 벨로 청진됨"
+        "reason": "허혈성 심근 질환으로 좌심실 이완기 순응도가 저하되어 확장 말기 심방 수축 시 발생하는 저음조의 제4심음입니다."
       },
       {
         "opt_idx": 1,
@@ -41405,7 +41487,7 @@ window.QUIZ_DATA = [
         "text": "S3",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "승모판 탈출증(MVP) 등에서 수축 중기~후기에 건삭이 긴장되면서 들리는 날카로운 고음조의 추가음입니다."
+        "reason": "확장 조기 급속 충만기에 들리는 저음으로 체액 과부하 및 심부전을 시사합니다."
       },
       {
         "opt_idx": 2,
@@ -41413,7 +41495,7 @@ window.QUIZ_DATA = [
         "text": "Click",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "승모판 협착증(MS)에서 확장 조기에 협착된 승모판엽이 강하게 개방될 때 발생하는 고음의 맑은 심음입니다."
+        "reason": "승모판 탈출증(MVP) 등에서 수축 중기에 들리는 고음조의 추가음입니다."
       },
       {
         "opt_idx": 3,
@@ -41421,7 +41503,7 @@ window.QUIZ_DATA = [
         "text": "Opening snap",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "대동맥판이나 폐동맥판 협착증에서 판막이 열리는 수축 조기에 들리는 사출성 추가음입니다."
+        "reason": "승모판 협착증(MS)에서 확장 조기에 승모판엽이 개방되며 발생하는 고음의 심음입니다."
       },
       {
         "opt_idx": 4,
@@ -41429,7 +41511,7 @@ window.QUIZ_DATA = [
         "text": "Ejection sound",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "반월판 협착증에서 판막이 열리는 수축 조기에 들리는 사출음입니다."
       }
     ],
     "answer": "S4"
@@ -41796,22 +41878,63 @@ window.QUIZ_DATA = [
     "stem": "천식으로 ICS 사용 중인 환자이다. 최근 일주일에 2 번 이상 낮에 증상이 심해지고 밤에 자다가 깨기도 하며, 일상 생활에 지장이 많다. 흡입제는 매일 1 회 사용 중이다. 환자에게 필요한 치료는? 저용량 흡입스테로이드",
     "images": [],
     "options": [
-      "저용량 흡입스테로이드와 지속성",
-      "베타2 효현제 경구 스테로이드",
-      "테오필린",
-      "속효성 베타2 효현제",
-      "(모든 선지 한글로 나왔으며, 선지에 LAMA 없었음)"
+      "저용량 흡입스테로이드(ICS)와 지속성 베타2 효현제(LABA) 병용",
+      "경구 스테로이드 투여",
+      "경구 테오필린 투여",
+      "속효성 베타2 효현제(SABA) 단독 증량",
+      "경구 류코트리엔 조절제(LTRA) 단독 전환"
     ],
     "correct_option_index": 0,
-    "correct_answer": "저용량 흡입스테로이드와 지속성",
+    "correct_answer": "저용량 흡입스테로이드(ICS)와 지속성 베타2 효현제(LABA) 병용",
     "explanation": {
-      "title": "천식 조절 불량 시 조절제 증량: 저용량 ICS + LABA 병용 요법",
-      "findings": "저용량 ICS 단독 치료에도 조절되지 않는 천식 → Step 3 저용량 ICS + LABA 병용요법으로 단계 올림(Step-up)",
-      "differential": "① 저용량 흡입스테로이드와 지속성 베타 2 효현제 — GINA 가이드라인에 따라 Step 2 저용량 ICS 단독으로 조절되지 않는 천식은 Step 3인 저용량 ICS + LABA 복합제로 증량합니다 → 정답.\n② 저용량 흡입스테로이드 — 환자가 현재 매일 사용 중임에도 주간 증상과 야간 각성이 지속되어 조절 실패 상태이므로 동일 용량 유지는 부족합니다.\n③ 경구 스테로이드 — 중증 급성 악화 시 단기 전신 투여(burst therapy)하거나 Step 5 최중증 천식에서 고려하며 Step 3 진입 단계에서는 쓰지 않습니다.\n④ 테오필린 — 류코트리엔 조절제와 함께 저용량 ICS의 보조 약제로 쓸 수 있으나 좁은 치료역과 부작용 위험으로 LABA 추가보다 우선순위가 떨어집니다.\n⑤ 속효성 베타 2 효현제 — 급성 증상 발현 시 사용하는 완화제(reliever)일 뿐 기저 기도 염증을 억제하고 장기 조절을 달성하는 유지 치료제가 아닙니다.",
-      "trap": "• ICS 단독 증량보다 'LABA 병용'이 천식 악화 예방과 폐기능 호전에 훨씬 효과적입니다.",
-      "trigger": "【천식 단계별 치료 (GINA Step 3)】\n• 저용량 ICS 단독 사용 중 주간 증상 주 2회 초과 또는 야간 각성 발생 시:\n  - '저용량 ICS + LABA (지속성 베타2 효현제)' 복합제로 증량(Step-up).",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [],
+      "title": "천식 부분 조절 환자의 단계적 약제 증량: 저용량 ICS + LABA 병용",
+      "findings": "저용량 ICS 유지 중 주 2회 이상 주간 증상 + 야간 각성 + 일상 제한(부분 조절) → GINA 가이드라인에 따른 Step 3 승급: 저용량 ICS + LABA 병용 요법",
+      "differential": "• ① 저용량 흡입스테로이드(ICS) + 지속성 베타2 효현제(LABA) 병용 ✓ [정답]: GINA 천식 가이드라인에 따르면 저용량 ICS 단독(Step 2)으로 천식 조절이 불충분한 환자(주간 증상 > 2회/주, 야간 증상, 일상생활 제한)에서는 Step 3로 치료 단계를 올려야 합니다. Step 3의 1차 표준 치료는 '저용량 ICS + LABA 병용 복합제(Budesonide/Formoterol 등)'를 사용하는 것입니다.\n• ② 경구 스테로이드 투여 ✗ [오답]: 전신 스테로이드는 급성 중증 천식 악화나 최고 단계(Step 5)의 난치성 천식에서 제한적으로 쓰이며, 장기 부작용이 커서 1차 승급 약제가 아닙니다.\n• ③ 테오필린(Theophylline) ✗ [오답]: 좁은 치료 지수와 부정맥/위장장애 등 독성 위험이 있어 현대 천식 치료에서 권고 수준이 매우 낮습니다.\n• ④ 속효성 베타2 효현제(SABA) 단독 증량 ✗ [오답 / 위험]: SABA 단독 증량은 기도 염증을 억제하지 못하며, 천식 사망률과 급성 악화 위험을 증가시킵니다.\n• ⑤ LAMA 단독 전환 ✗ [오답]: 항콜린제 단독은 천식 조절에 부적합하며, LAMA는 Step 4~5에서 ICS+LABA에 추가하는 삼제 요법으로 사용됩니다.",
+      "trap": "• [천식 치료의 철칙]: 천식은 만성 기도 염증 질환이므로 '흡입스테로이드(ICS)'가 반드시 기저에 포함되어야 하며, 기관지 확장제(LABA 또는 SABA) 단독 투여는 절대 금기입니다.",
+      "trigger": "【GINA 가이드라인 성인 천식 단계별 치료 요약】\n• Step 1~2: 필요 시 저용량 ICS-Formoterol (또는 매일 저용량 ICS).\n• Step 3: 저용량 ICS-LABA 매일 유지 및 증상 완화제.\n• Step 4: 중간용량 ICS-LABA.\n• Step 5: 고용량 ICS-LABA + LAMA / 생물학적 제제 (Anti-IgE, Anti-IL5 등) 추가.",
+      "kmle_link": "KMLE 호흡기내과 - 천식(Asthma) 단계별 조절 치료 가이드라인 연계",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "저용량 흡입스테로이드(ICS)와 지속성 베타2 효현제(LABA) 병용",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "저용량 ICS로 조절되지 않는 부분 조절 천식 환자의 GINA Step 3 1차 표준 치료법입니다."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "경구 스테로이드 투여",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "전신 부작용이 크므로 급성 악화나 난치성 천식 외에는 초기 증량 시 사용하지 않습니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "경구 테오필린 투여",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "치료 지수가 좁고 부작용이 많아 1차 치료로 권장되지 않습니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "속효성 베타2 효현제(SABA) 단독 증량",
+          "is_correct": false,
+          "tag": "오답 (위험)",
+          "reason": "염증을 조절하지 못하고 천식 악화 및 사망 위험을 높입니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "경구 류코트리엔 조절제(LTRA) 단독 전환",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "ICS+LABA 병용보다 폐기능 개선 및 증상 조절 효과가 열등합니다."
+        }
+      ],
       "differential_general": ""
     },
     "is_multiple_choice": false,
@@ -41829,8 +41952,49 @@ window.QUIZ_DATA = [
       "22Y-13",
       "23Y-19"
     ],
-    "option_explanations": [],
-    "answer": "저용량 흡입스테로이드와 지속성"
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "저용량 흡입스테로이드(ICS)와 지속성 베타2 효현제(LABA) 병용",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "저용량 ICS로 조절되지 않는 부분 조절 천식 환자의 GINA Step 3 1차 표준 치료법입니다."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "경구 스테로이드 투여",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "전신 부작용이 크므로 급성 악화나 난치성 천식 외에는 초기 증량 시 사용하지 않습니다."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "경구 테오필린 투여",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "치료 지수가 좁고 부작용이 많아 1차 치료로 권장되지 않습니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "속효성 베타2 효현제(SABA) 단독 증량",
+        "is_correct": false,
+        "tag": "오답 (위험)",
+        "reason": "염증을 조절하지 못하고 천식 악화 및 사망 위험을 높입니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "경구 류코트리엔 조절제(LTRA) 단독 전환",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "ICS+LABA 병용보다 폐기능 개선 및 증상 조절 효과가 열등합니다."
+      }
+    ],
+    "answer": "저용량 흡입스테로이드(ICS)와 지속성 베타2 효현제(LABA) 병용"
   },
   {
     "id": "내과_22Y_Q14",
@@ -42237,13 +42401,54 @@ window.QUIZ_DATA = [
     "correct_option_index": 0,
     "correct_answer": "① 가슴관(흉관) 삽입술 (Chest tube insertion)",
     "explanation": {
-      "title": "대량 기흉(Large Pneumothorax)의 응급 처치: 흉관 삽입술(Chest Tube)",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "",
-      "trap": "• 대량 기흉 환자에게 고농도 산소만 주며 단순 관찰하는 것은 호흡부전을 초래하므로 '흉관 삽입술'을 시행해야 합니다.",
-      "trigger": "【기흉(Pneumothorax) 치료 지침】\n• 15~20% 이상의 중등도~대량 기흉 또는 유증상 기흉:\n  - 흉관 삽입술(Tube thoracostomy)을 시행하여 음압 배액 및 폐 재팽창 유도.\n• 긴장성 기흉(Tension pneumothorax, 저혈압 동반) 시:\n  - X-선 촬영 전 즉각적인 '바늘 흉강 감압술(Needle decompression)' 선행.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [],
+      "title": "경피적 폐 생검(PCNA) 합병증: 의인성 기흉과 응급 가슴관(흉관) 삽입술",
+      "findings": "폐 세침흡인생검(PCNA) 직후 심한 흉통/호흡곤란 + X-ray상 광범위 기흉 및 폐 허탈 → 의인성 기흉(Iatrogenic pneumothorax) 치료를 위한 응급 가슴관(흉관) 삽입술(Chest tube insertion)",
+      "differential": "• ① 가슴관(흉관) 삽입술 (Chest tube insertion) ✓ [정답]: PCNA 시술 중 바늘에 의해 장측 흉막이 손상되어 발생하는 의인성 기흉입니다. 환자가 심한 호흡곤란을 호소하고 영상에서 광범위한 기흉 및 폐 허탈이 관찰되므로, 공기를 신속히 배출시켜 폐를 재팽창시키고 긴장성 기흉으로의 진행을 막기 위해 가슴관(흉관) 삽입술을 즉시 시행해야 합니다.\n• ② 기관지 동맥 색전술 ✗ [오답]: 대량 객혈(Massive hemoptysis)의 지혈 치료법이며 기흉 치료와 무관합니다.\n• ③ 화학적 흉막유착술 ✗ [오답]: 악성 흉막삼출이나 재발성 난치성 기흉에서 폐가 완전히 팽창된 후 재발 방지 목적으로 시행합니다.\n• ④ 흉강천자 (Thoracentesis) ✗ [오답]: 흉막삼출액(액체)의 진단 및 치료적 배액에 쓰이며, 공기가 계속 누출되는 대량 기흉의 1차 지속 배액법으로 부적절합니다.\n• ⑤ 산소 흡입 후 경과관찰 ✗ [오답]: 증상이 없고 기흉 크기가 15~20% 미만인 소량 기흉에서만 제한적으로 적용됩니다.",
+      "trap": "• 증상이 동반된 대량 기흉 또는 진행성 기흉은 단순 관찰이나 천자가 아니라 '폐쇄식 흉관 삽입술(가슴관 삽입술)'이 표준 치료입니다.",
+      "trigger": "【기흉(Pneumothorax) 치료 결정 기준】\n• 소량 기흉 (흉벽-폐 경계 < 2cm, 기흉량 < 15~20%) & 무증상: 산소 흡입(흡수 속도 4~6배 촉진) 및 경과관찰.\n• 대량 기흉 (≥ 2cm) 또는 호흡곤란 유증상: 가슴관(흉관) 삽입술 (Chest tube insertion).\n• 긴장성 기흉 (저혈압, 기관 편위, 청색증): 즉각적인 14~16G 굵은 바늘 감압 (Needle decompression).",
+      "kmle_link": "KMLE 호흡기내과 - 기흉(Pneumothorax) 및 흉관 삽입술 가이드라인 연계",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "가슴관(흉관) 삽입술 (Chest tube insertion)",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "유증상 대량 기흉 환자에서 흉강 내 공기를 지속 배출하여 허탈된 폐를 재팽창시키는 표준 치료입니다."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "기관지 동맥 색전술",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "대량 객혈의 혈관 색전 지혈술이며 기흉과 무관합니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "화학적 흉막유착술",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "폐가 완전히 재팽창된 후 난치성 재발을 막기 위해 고려하는 시술입니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "흉강천자 (Thoracentesis)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "흉막액 천자용으로 대량 기흉의 지속 공기 배출에는 흉관 삽입이 필수입니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "산소 흡입 후 경과관찰",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "호흡곤란과 광범위 폐 허탈이 동반된 환자에서 단순 관찰은 위험합니다."
+        }
+      ],
       "differential_general": ""
     },
     "is_multiple_choice": false,
@@ -42259,7 +42464,48 @@ window.QUIZ_DATA = [
     "raw_questions": [
       "22Y-17"
     ],
-    "option_explanations": [],
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "가슴관(흉관) 삽입술 (Chest tube insertion)",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "유증상 대량 기흉 환자에서 흉강 내 공기를 지속 배출하여 허탈된 폐를 재팽창시키는 표준 치료입니다."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "기관지 동맥 색전술",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "대량 객혈의 혈관 색전 지혈술이며 기흉과 무관합니다."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "화학적 흉막유착술",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "폐가 완전히 재팽창된 후 난치성 재발을 막기 위해 고려하는 시술입니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "흉강천자 (Thoracentesis)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "흉막액 천자용으로 대량 기흉의 지속 공기 배출에는 흉관 삽입이 필수입니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "산소 흡입 후 경과관찰",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "호흡곤란과 광범위 폐 허탈이 동반된 환자에서 단순 관찰은 위험합니다."
+      }
+    ],
     "answer": "① 가슴관(흉관) 삽입술 (Chest tube insertion)",
     "question": "좌폐에 종괴가 발견되어 경피적 폐 세침흡인생검(PCNA)을 시행받은 환자가 시술 직후 심한 흉통과 호흡곤란을 호소하였다. 흉부 X-ray 촬영 결과 좌측 폐의 광범위한 기흉(Pneumothorax) 및 폐 허탈 소견이 확인되었다. 가장 적절한 처치는?"
   },
@@ -42480,12 +42726,12 @@ window.QUIZ_DATA = [
     "correct_option_index": 0,
     "correct_answer": "Central line",
     "explanation": {
-      "title": "중환자실 ARDS 환자의 혈관 확보 및 중심정맥압 모니터링: Central Line",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "",
-      "trap": "• 고농도 승압제는 말초 정맥으로 투여 시 혈관 수축으로 인한 조직 괴사를 유발하므로 반드시 '중심정맥관'으로 투여해야 합니다.",
-      "trigger": "【중환자실 ARDS 및 패혈성 쇼크 중심정맥관(CVC) 적응증】\n• 중심정맥카테터(Central venous catheter, CVC):\n  - 고농도 승압제(Norepinephrine) 및 고삼투액 투여, 중심정맥압(CVP) 모니터링, 정맥 혈관로 확보 필수 기구. 상대정맥-우심방 접합부 위치 확인.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "중환자실 흉부 X-ray 카테터 위치 판독: 중심정맥관(Central line) 이상 삽입",
+      "findings": "중환자실 흉부 X-ray상 각종 관과 카테터 중 중심정맥관 팁이 상대정맥-우심방 접합부를 지나 우심방 깊숙이 또는 우심실로 깊게 진입 → 중심정맥관(Central line) 부적절 삽입",
+      "differential": "• ① Central line ✓ [정답]: 중심정맥관(C-line)의 카리나(Carina) 하방 기준 적절한 거치 위치는 '상대정맥(SVC) 하부 또는 상대정맥-우심방 접합부(Cavoatrial junction)'입니다. 팁이 우심방 깊숙이 또는 삼첨판을 넘어 우심실로 깊게 들어가면 심방/심실 부정맥(VT/VF), 심근 천공 및 심장막 압전 등의 치명적 합병증을 유발하므로 부적절하게 삽입된 것입니다.\n• ② Arterial line ✗ [오답]: 요골동맥 등에 거치되어 지속적 동맥압 감시 및 동맥혈 가스분석에 정상 사용됩니다.\n• ③ Endotracheal tube ✗ [오답]: 기관내튜브의 정상 위치는 용골(Carina) 상방 3~5cm(대략 T2~T4 척추체 높이)입니다.\n• ④ Nasogastric tube ✗ [오답]: L-tube는 위 내강(Gastric body)에 위치하여 위 내용물 감압과 영양 공급을 정상 수행합니다.\n• ⑤ Urinary Catheter ✗ [오답]: 폴리 카테터는 방광 내 풍선이 거치되어 소변을 배출합니다.",
+      "trap": "• 중심정맥관 삽입 후 흉부 X-ray 필수 확인 사항: 1. 기흉/혈흉 발생 유무, 2. 카테터 팁 위치(상대정맥 하부/우심방 접합부 위치 확인, 우심방 심부 삽입 시 뒤로 후진 필요).",
+      "trigger": "【중환자실 흉부 X-선 인공도관 정상 위치 공식】\n• Endotracheal tube (기관내튜브): Carina 상방 3~5 cm (경부 굴곡/신전에 따라 이동 고려).\n• Central venous catheter (중심정맥관): SVC 하부와 Right atrium 접합부 (Carina 높이 부근).\n• Nasogastric tube (비위관): 식도를 통과하여 위체부(Gastric body) 내 10 cm 이상 진입 (위 분문부 통과 확인).",
+      "kmle_link": "KMLE 호흡기내과 / 중환자의학 - 인공도관 흉부 단순촬영 판독 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
@@ -42493,7 +42739,7 @@ window.QUIZ_DATA = [
           "text": "Central line",
           "is_correct": true,
           "tag": "정답",
-          "reason": ""
+          "reason": "중심정맥관 팁이 상대정맥-우심방 접합부를 넘어 우심방 깊숙이 삽입되면 치명적 부정맥 및 천공을 유발합니다."
         },
         {
           "opt_idx": 1,
@@ -42501,7 +42747,7 @@ window.QUIZ_DATA = [
           "text": "Arterial line",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "동맥압 실시간 모니터링 도관으로 정상 거치된 소견입니다."
         },
         {
           "opt_idx": 2,
@@ -42509,7 +42755,7 @@ window.QUIZ_DATA = [
           "text": "Endotracheal tube",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "기관분기부(Carina) 상방 3~5cm에 위치하여 정상 환기를 유지합니다."
         },
         {
           "opt_idx": 3,
@@ -42517,7 +42763,7 @@ window.QUIZ_DATA = [
           "text": "Nasogastric tube",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "위 내강으로 정상 진입하여 감압을 수행합니다."
         },
         {
           "opt_idx": 4,
@@ -42525,7 +42771,7 @@ window.QUIZ_DATA = [
           "text": "Urinary Catheter",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "방광 내 위치하는 비뇨기계 카테터입니다."
         }
       ],
       "differential_general": ""
@@ -42550,7 +42796,7 @@ window.QUIZ_DATA = [
         "text": "Central line",
         "is_correct": true,
         "tag": "정답",
-        "reason": ""
+        "reason": "중심정맥관 팁이 상대정맥-우심방 접합부를 넘어 우심방 깊숙이 삽입되면 치명적 부정맥 및 천공을 유발합니다."
       },
       {
         "opt_idx": 1,
@@ -42558,7 +42804,7 @@ window.QUIZ_DATA = [
         "text": "Arterial line",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "동맥압 실시간 모니터링 도관으로 정상 거치된 소견입니다."
       },
       {
         "opt_idx": 2,
@@ -42566,7 +42812,7 @@ window.QUIZ_DATA = [
         "text": "Endotracheal tube",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "기관분기부(Carina) 상방 3~5cm에 위치하여 정상 환기를 유지합니다."
       },
       {
         "opt_idx": 3,
@@ -42574,7 +42820,7 @@ window.QUIZ_DATA = [
         "text": "Nasogastric tube",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "위 내강으로 정상 진입하여 감압을 수행합니다."
       },
       {
         "opt_idx": 4,
@@ -42582,7 +42828,7 @@ window.QUIZ_DATA = [
         "text": "Urinary Catheter",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "방광 내 위치하는 비뇨기계 카테터입니다."
       }
     ],
     "answer": "Central line"
@@ -42608,13 +42854,54 @@ window.QUIZ_DATA = [
     "correct_option_index": 0,
     "correct_answer": "① 수면제 길항제(Flumazenil)를 정맥 투여한다.",
     "explanation": {
-      "title": "수면내시경 중 진정제 과다 유발 저산소혈증 대처: 기도 확보 및 플루마제닐",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "",
-      "trap": "• 수면내시경 중 산소포화도가 떨어질 때 산소만 올리고 기도를 방치하면 무호흡이 악화되므로, 즉각적인 하악 거상 기도 개방과 'Flumazenil 정주'가 핵심입니다.",
-      "trigger": "【수면내시경 진정제(Midazolam) 과다 응급 대처】\n• 1단계: 내시경 즉시 발거, 하악 거상(Jaw-thrust) 기도 확보, 100% 산소 공급.\n• 2단계: 벤조디아제핀 특이 길항제 투여:\n  - 플루마제닐(Flumazenil) 정맥 주사 (0.2mg IV 후 1분 간격 재투여).\n• 아편유사제(Pethidine) 과다 시: 날록손(Naloxone) 투여.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [],
+      "title": "미다졸람(Midazolam) 진정 내시경 호흡저하: 길항제 플루마제닐(Flumazenil) 정주",
+      "findings": "미다졸람 진정 내시경 중 저산소증(산소포화도 75%) 발생 + 고농도 산소 공급에도 불응 → 벤조디아제핀 수용체 길항제인 플루마제닐(Flumazenil) 정맥 투여",
+      "differential": "• ① 수면제 길항제(Flumazenil)를 정맥 투여한다. ✓ [정답]: 미다졸람(Midazolam)은 벤조디아제핀(BZD)계 진정제로 과도한 진정 시 중추성 호흡 억제와 기도 폐쇄를 유발합니다. 기도 확보와 고농도 산소 공급에도 저산소증이 지속될 경우, BZD 수용체에 경쟁적으로 길항하여 진정과 호흡 억제를 신속하게 역전시키는 해독제인 플루마제닐(Flumazenil)을 정맥 투여하는 것이 가장 정확하고 필수적인 처치입니다.\n• ② 산소 농도만 추가로 올린다. ✗ [오답]: 호흡 드라이브 자체가 저하되어 저환기 상태이므로 산소 농도만 올려서는 이산화탄소 저류와 호흡성 산증을 해결하지 못합니다.\n• ③ 일단 경과를 관찰하며 그대로 내시경 검사를 진행한다. ✗ [오답 / 절대 위험]: 저산소성 뇌손상 및 심정지를 유발할 수 있으므로 즉시 검사를 중단하고 응급 처치를 해야 합니다.\n• ④ 표준 12유도 심전도 검사를 시행한다. ✗ [오답]: 급성 저산소증의 응급 해소보다 심전도 측정을 우선하는 것은 부적절합니다.\n• ⑤ 즉시 흉부 압박 심폐소생술을 시작한다. ✗ [오답]: 맥박이 있는 호흡 억제 상태에서는 인공호흡과 길항제 투여가 우선이며, 심정지가 확인되지 않은 상태에서 흉부 압박은 불필요합니다.",
+      "trap": "• [진정 내시경 2대 해독제 매칭]:\n  - 미다졸람(Benzodiazepine) 과다 투여: 플루마제닐 (Flumazenil)\n  - 마약성 진통제(Opioid: Pethidine, Fentanyl) 과다 투여: 날록손 (Naloxone)",
+      "trigger": "【진정 내시경 호흡 억제 응급 대응 알고리즘】\n• 1단계: 즉각 검사 중단 및 내시경 발거.\n• 2단계: 기도 확보 (Head tilt-chin lift, Jaw thrust) 및 고농도 산소 투여.\n• 3단계: 호흡 부전 지속 시 길항제(Flumazenil 0.2mg IV 시작) 투여 및 백마스크 환기 준비.",
+      "kmle_link": "KMLE 소화기내과 - 진정 내시경 가이드라인 및 약물 독성 해독제 연계",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "수면제 길항제(Flumazenil)를 정맥 투여한다.",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "미다졸람의 중추성 호흡 억제를 신속하게 역전시키는 특이 벤조디아제핀 길항제입니다."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "산소 농도만 추가로 올린다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "호흡 중추 억제로 인한 저환기를 근본적으로 해결하지 못합니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "일단 경과를 관찰하며 그대로 내시경 검사를 진행한다.",
+          "is_correct": false,
+          "tag": "오답 (절대 위험)",
+          "reason": "심각한 저산소성 뇌손상과 심정지를 유발합니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "표준 12유도 심전도 검사를 시행한다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "호흡 역전 및 기도 관리가 최우선입니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "즉시 흉부 압박 심폐소생술을 시작한다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "맥박이 촉지되는 호흡 억제 단계에서는 길항제와 인공호흡이 우선입니다."
+        }
+      ],
       "differential_general": ""
     },
     "is_multiple_choice": false,
@@ -42630,7 +42917,48 @@ window.QUIZ_DATA = [
     "raw_questions": [
       "22Y-21"
     ],
-    "option_explanations": [],
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "수면제 길항제(Flumazenil)를 정맥 투여한다.",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "미다졸람의 중추성 호흡 억제를 신속하게 역전시키는 특이 벤조디아제핀 길항제입니다."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "산소 농도만 추가로 올린다.",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "호흡 중추 억제로 인한 저환기를 근본적으로 해결하지 못합니다."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "일단 경과를 관찰하며 그대로 내시경 검사를 진행한다.",
+        "is_correct": false,
+        "tag": "오답 (절대 위험)",
+        "reason": "심각한 저산소성 뇌손상과 심정지를 유발합니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "표준 12유도 심전도 검사를 시행한다.",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "호흡 역전 및 기도 관리가 최우선입니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "즉시 흉부 압박 심폐소생술을 시작한다.",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "맥박이 촉지되는 호흡 억제 단계에서는 길항제와 인공호흡이 우선입니다."
+      }
+    ],
     "answer": "① 수면제 길항제(Flumazenil)를 정맥 투여한다.",
     "question": "(Y) 미다졸람을 이용한 수면내시경 도중 환자의 산소포화도가 75%로 급격히 떨어졌다. 기도 확보 후 고농도 산소를 공급하였으나 산소포화도가 회복되지 않는다. 취할 조치로 가장 옳은 것은?"
   },
@@ -42646,52 +42974,61 @@ window.QUIZ_DATA = [
     "stem": "25 세 남성이 10 회 이상의 설사로 내원하였다. 구불결장직장 내시경에서 궤양, 발적 산재되어 있다. Crypt abscess, cryptitis. 치료는?(선지 모두 한글로 나옴)",
     "images": [],
     "options": [
-      "⚫ 스테로이드",
-      "⚫ 살리실산",
-      "⚫ N/S",
-      "⚫ 5-ASA"
+      "전신 스테로이드 (Systemic Corticosteroid)",
+      "경구 5-ASA (Mesalamine / Sulfasalazine) 단독",
+      "생리식염수 단독 정주",
+      "경구 아스피린(살리실산)",
+      "예방적 항생제 단독 투여"
     ],
     "correct_option_index": 0,
-    "correct_answer": "⚫ 스테로이드",
+    "correct_answer": "전신 스테로이드 (Systemic Corticosteroid)",
     "explanation": {
-      "title": "궤양성 대장염(Ulcerative Colitis)의 1차 관해 유도 약제: 5-ASA (메살라민)",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "• ① 스테로이드 ✓ [정답]: 면역혈소판감소증(ITP), 자가면역용혈성빈혈(AIHA) 및 급성 염증/자가면역질환의 1차 표준 면역억제·항염증 약제입니다.\n• ② 살리실산 ✗ [오답]\n• ③ N/S ✗ [오답]\n• ④ ASA ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: 면역혈소판감소증(ITP), 자가면역용혈성빈혈(AIHA) 및 급성 염증/자가면역질환의 1차 표준 면역억제·항염증 약제입니다.\n• ② 살리실산 ✗ [오답]\n• ③ N/S ✗ [오답]\n• ④ ASA ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: 면역혈소판감소증(ITP), 자가면역용혈성빈혈(AIHA) 및 급성 염증/자가면역질환의 1차 표준 면역억제·항염증 약제입니다.\n• ② 살리실산 ✗ [오답]\n• ③ N/S ✗ [오답]\n• ④ ASA ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: 면역혈소판감소증(ITP), 자가면역용혈성빈혈(AIHA) 및 급성 염증/자가면역질환의 1차 표준 면역억제·항염증 약제입니다.\n• ② 살리실산 ✗ [오답]\n• ③ N/S ✗ [오답]\n• ④ ASA ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: [내과 임상 증례 및 기출 분석] 자가면역질환, 특발성 혈관염 및 급성 알레르기/천식 악화 시의 강력한 항염증 1차 치료제입니다.\n• ② 살리실산 ✗ [오답]: ② 살리실산 ✗.\n• ③ N/S ✗ [오답]\n• ④ ASA ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: [내과 임상 증례 및 기출 분석] 자가면역질환, 특발성 혈관염 및 급성 알레르기/천식 악화 시의 강력한 항염증 1차 치료제입니다.\n• ② 살리실산 ✗ [오답]\n• ③ N/S ✗ [오답]\n• ④ ASA ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: [내과 임상 증례 및 기출 분석] 자가면역질환, 특발성 혈관염 및 급성 알레르기/천식 악화 시의 강력한 항염증 1차 치료제입니다.\n• ② 살리실산 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 살리실산에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ N/S ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, N/S에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ ASA ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, ASA에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: [내과 임상 증례 및 기출 분석] 자가면역질환, 특발성 혈관염 및 급성 알레르기/천식 악화 시의 강력한 항염증 1차 치료제입니다.\n• ② 살리실산 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 살리실산에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ N/S ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, N/S에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ ASA ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, ASA에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: [내과 임상 증례 및 기출 분석] 자가면역질환, 특발성 혈관염 및 급성 알레르기/천식 악화 시의 강력한 항염증 1차 치료제입니다.\n• ② 살리실산 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 살리실산에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ N/S ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, N/S에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ ASA ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, ASA에 합당한 특징적 소견이 결여되어 오답입니다.",
-      "trap": "• 경증 궤양성 대장염 환자에게 초기부터 전신 스테로이드나 생물학적 제제를 쓰는 것은 오답이며, 항상 '5-ASA(Mesalamine)'가 1차 약제입니다.",
-      "trigger": "【궤양성 대장염(UC) 경증~중등도 1차 표준 치료】\n• 1차 치료: 5-아미노살리실산(5-ASA: Mesalamine, Sulfasalazine) 경구 및 국소 좌약/관장제 투여.\n• 중증/불응 시: 경구 또는 정맥 코르티코스테로이드, 이후 항-TNF 제제(Infliximab).",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "궤양성 대장염(UC) 중등도~중증 급성 악화의 관해 유도: 전신 스테로이드",
+      "findings": "하루 10회 이상의 혈성 설사 + 구불결장경 상 점막 궤양/발적 + 조직학적 Crypt abscess, cryptitis → 궤양성 대장염(UC) 중증 급성 악화, 관해 유도를 위한 전신 스테로이드(Systemic Corticosteroid) 투여",
+      "differential": "• ① 전신 스테로이드 ✓ [정답]: Truelove and Witts 기준상 하루 10회 이상의 혈변/설사를 보이는 중증 궤양성 대장염(Severe UC)의 급성 악화입니다. 경구 5-ASA 단독으로는 급성 중증 염증을 통제할 수 없으므로, 신속한 관해 유도를 위해 경구 프레드니솔론(Prednisolone) 또는 정맥 주사용 하이드로코르티손/메틸프레드니솔론 등 '전신 스테로이드(Systemic Corticosteroids)'를 즉시 투여하는 것이 표준 치료입니다.\n• ② 경구 5-ASA (Sulfasalazine / Mesalazine) 단독 유지 ✗ [오답]: 5-ASA는 경도~중등도(Mild to Moderate) UC의 관해 유도 및 관해 유지 요법에 쓰이며, 하루 10회 이상 설사의 중증 악화에서는 단독으로 불충분합니다.\n• ③ 생리식염수 단독 수액 요법 ✗ [오답]: 탈수 교정용 보조 요법일 뿐 장관의 자가면역 염증 자체를 억제하지 못합니다.\n• ④ 경구 아스피린(살리실산) ✗ [오답 / 금기]: NSAIDs 및 살리실산 제제는 장관 점막 손상을 유발하여 염증성 장질환(IBD)을 악화시키므로 금기입니다.\n• ⑤ 항생제 단독 투여 ✗ [오답]: 감염성 장염이 배제된 IBD 악화에서 항생제 단독 투여는 관해를 유도하지 못합니다.",
+      "trap": "• [궤양성 대장염 단계별 치료 원칙]:\n  - 경도~중등도(Mild-Moderate): 5-ASA (Sulfasalazine, Mesalamine)\n  - 중등도~중증(Moderate-Severe, 빈번한 혈변 설사): 전신 스테로이드 (Corticosteroid)\n  - 스테로이드 불응성 중증: 인플릭시맙(Infliximab, Anti-TNF) 또는 사이클로스포린(Cyclosporine)",
+      "trigger": "【염증성 장질환(IBD) 치료제 역할 분담】\n• 5-ASA: 경도 관해 유도 및 장기 관해 유지 치료의 근간.\n• 스테로이드 (Systemic Steroid): 급성기 관해 유도에만 강력 사용 (부작용으로 인해 장기 관해 유지에는 절대 사용 금지).\n• 면역조절제 (Azathioprine, 6-MP): 스테로이드 의존성 환자의 관해 유지 요법.",
+      "kmle_link": "KMLE 소화기내과 - 궤양성 대장염(UC) 진단 및 급성기 약물 치료 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "스테로이드",
+          "text": "전신 스테로이드 (Systemic Corticosteroid)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "면역혈소판감소증(ITP), 자가면역용혈성빈혈(AIHA) 및 급성 염증/자가면역질환의 1차 표준 면역억제·항염증 약제입니다."
+          "reason": "하루 10회 이상 혈변 설사를 동반한 중증 궤양성 대장염 급성 악화 시 신속한 관해 유도를 위한 1차 표준 치료제입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "살리실산",
+          "text": "경구 5-ASA (Mesalamine / Sulfasalazine) 단독",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "경도~중등도 관해 유도 및 관해 유지용으로 중증 악화기에는 단독 효과가 불충분합니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "N/S",
+          "text": "생리식염수 단독 정주",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "체액 보충을 위한 보조 요법이며 장점막의 면역 염증을 억제하지 못합니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "5-ASA",
+          "text": "경구 아스피린(살리실산)",
+          "is_correct": false,
+          "tag": "오답 (금기)",
+          "reason": "장점막 손상을 촉진하여 IBD를 급격히 악화시킵니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "예방적 항생제 단독 투여",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "비감염성 자가면역 장염증의 1차 관해 유도제가 아닙니다."
         }
       ],
       "differential_general": "• ① 스테로이드 ✓ [정답]: 면역혈소판감소증(ITP), 자가면역용혈성빈혈(AIHA) 및 급성 염증/자가면역질환의 1차 표준 면역억제·항염증 약제입니다.\n• ② 살리실산 ✗ [오답]\n• ③ N/S ✗ [오답]\n• ④ ASA ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: 면역혈소판감소증(ITP), 자가면역용혈성빈혈(AIHA) 및 급성 염증/자가면역질환의 1차 표준 면역억제·항염증 약제입니다.\n• ② 살리실산 ✗ [오답]\n• ③ N/S ✗ [오답]\n• ④ ASA ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: 면역혈소판감소증(ITP), 자가면역용혈성빈혈(AIHA) 및 급성 염증/자가면역질환의 1차 표준 면역억제·항염증 약제입니다.\n• ② 살리실산 ✗ [오답]\n• ③ N/S ✗ [오답]\n• ④ ASA ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: [내과 임상 증례 및 기출 분석] 자가면역질환, 특발성 혈관염 및 급성 알레르기/천식 악화 시의 강력한 항염증 1차 치료제입니다.\n• ② 살리실산 ✗ [오답]: ② 살리실산 ✗.\n• ③ N/S ✗ [오답]\n• ④ ASA ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: [내과 임상 증례 및 기출 분석] 자가면역질환, 특발성 혈관염 및 급성 알레르기/천식 악화 시의 강력한 항염증 1차 치료제입니다.\n• ② 살리실산 ✗ [오답]\n• ③ N/S ✗ [오답]\n• ④ ASA ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: [내과 임상 증례 및 기출 분석] 자가면역질환, 특발성 혈관염 및 급성 알레르기/천식 악화 시의 강력한 항염증 1차 치료제입니다.\n• ② 살리실산 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 살리실산에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ N/S ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, N/S에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ ASA ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, ASA에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: [내과 임상 증례 및 기출 분석] 자가면역질환, 특발성 혈관염 및 급성 알레르기/천식 악화 시의 강력한 항염증 1차 치료제입니다.\n• ② 살리실산 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 살리실산에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ N/S ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, N/S에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ ASA ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, ASA에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 스테로이드 ✓ [정답]: [내과 임상 증례 및 기출 분석] 자가면역질환, 특발성 혈관염 및 급성 알레르기/천식 악화 시의 강력한 항염증 1차 치료제입니다.\n• ② 살리실산 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 살리실산에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ N/S ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, N/S에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ ASA ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, ASA에 합당한 특징적 소견이 결여되어 오답입니다."
@@ -42713,37 +43050,45 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "스테로이드",
+        "text": "전신 스테로이드 (Systemic Corticosteroid)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "면역혈소판감소증(ITP), 자가면역용혈성빈혈(AIHA) 및 급성 염증/자가면역질환의 1차 표준 면역억제·항염증 약제입니다."
+        "reason": "하루 10회 이상 혈변 설사를 동반한 중증 궤양성 대장염 급성 악화 시 신속한 관해 유도를 위한 1차 표준 치료제입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "살리실산",
+        "text": "경구 5-ASA (Mesalamine / Sulfasalazine) 단독",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "경도~중등도 관해 유도 및 관해 유지용으로 중증 악화기에는 단독 효과가 불충분합니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "N/S",
+        "text": "생리식염수 단독 정주",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "체액 보충을 위한 보조 요법이며 장점막의 면역 염증을 억제하지 못합니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "5-ASA",
+        "text": "경구 아스피린(살리실산)",
+        "is_correct": false,
+        "tag": "오답 (금기)",
+        "reason": "장점막 손상을 촉진하여 IBD를 급격히 악화시킵니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "예방적 항생제 단독 투여",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "비감염성 자가면역 장염증의 1차 관해 유도제가 아닙니다."
       }
     ],
-    "answer": "⚫ 스테로이드"
+    "answer": "전신 스테로이드 (Systemic Corticosteroid)"
   },
   {
     "id": "내과_22Y_Q23",
@@ -42757,52 +43102,61 @@ window.QUIZ_DATA = [
     "stem": "혈변으로 내원한 환자. 평소 허리통증으로 NSAIDs 복용중이다. BP 80/50 HR 120. 가장 우선적으로 해야 할 처치는?",
     "images": [],
     "options": [
-      "⚫ 내시경적 지혈",
-      "⚫ 생리식염수 정주",
-      "⚫ IV 고용량 PPI",
-      "⚫ 항생제"
+      "생리식염수 정주 (대량 수액 소생술)",
+      "내시경적 지혈술",
+      "IV 고용량 PPI 단독",
+      "예방적 항생제 투여",
+      "복부 전산화단층촬영(CT)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "⚫ 내시경적 지혈",
+    "correct_answer": "생리식염수 정주 (대량 수액 소생술)",
     "explanation": {
-      "title": "급성 대량 하부위장관 출혈(LGIB)의 감별 및 대장내시경 평가",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 생리식염수 정주 ✗ [오답]\n• ③ IV 고용량 PPI ✗ [오답]: 비궤양성 기능성 소화불량 단독이거나 산 분비와 무관한 장관 감염성 질환의 원인 치료제는 아닙니다.\n• ④ 항생제 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 생리식염수 정주 ✗ [오답]\n• ③ IV 고용량 PPI ✗ [오답]: 비궤양성 기능성 소화불량 단독이거나 산 분비와 무관한 장관 감염성 질환의 원인 치료제는 아닙니다.\n• ④ 항생제 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 생리식염수 정주 ✗ [오답]\n• ③ IV 고용량 PPI ✗ [오답]: 비궤양성 기능성 소화불량 단독이거나 산 분비와 무관한 장관 감염성 질환의 원인 치료제는 아닙니다.\n• ④ 항생제 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 생리식염수 정주 ✗ [오답]\n• ③ IV 고용량 PPI ✗ [오답]: 비궤양성 기능성 소화불량 단독이거나 산 분비와 무관한 장관 감염성 질환의 원인 치료제는 아닙니다.\n• ④ 항생제 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 생리식염수 정주 ✗ [오답]: ② 생리식염수 정주 ✗.\n• ③ IV 고용량 PPI ✗ [오답]: 비궤양성 기능성 소화불량 단독이거나 산 분비와 무관한 장관 감염성 질환의 원인 치료제는 아닙니다.\n• ④ 항생제 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 생리식염수 정주 ✗ [오답]\n• ③ IV 고용량 PPI ✗ [오답]: 비궤양성 기능성 소화불량 단독이거나 산 분비와 무관한 장관 감염성 질환의 원인 치료제는 아닙니다.\n• ④ 항생제 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 생리식염수 정주 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 생리식염수 정주에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ IV 고용량 PPI ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, IV 고용량 PPI에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 항생제 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 항생제에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 생리식염수 정주 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 생리식염수 정주에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ IV 고용량 PPI ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, IV 고용량 PPI에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 항생제 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 항생제에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 생리식염수 정주 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 생리식염수 정주에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ IV 고용량 PPI ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, IV 고용량 PPI에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 항생제 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 항생제에 합당한 특징적 소견이 결여되어 오답입니다.",
-      "trap": "• 대량 혈변 환자에서 상부위장관 출혈(UGIB)의 가능성도 10~15% 존재하므로 혈역학적으로 불안정하면 비위관 흡인이나 위내시경을 먼저 고려해야 합니다.",
-      "trigger": "【급성 하부위장관 출혈(LGIB) 진단 알고리즘】\n• 흔한 원인: 대장 게실 출혈(Diverticular bleeding), 혈관이형성증, 치핵, 허혈성 대장염, 대장암.\n• 혈역학적 소생술 완료 후 대장내시경(Colonoscopy) 시행으로 출혈 병소 확인 및 지혈술.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "상부위장관 출혈 저혈량성 쇼크 환자의 최우선 처치: 대량 수액 소생술(생리식염수 정주)",
+      "findings": "NSAIDs 복용력 + 대량 혈변 + 저혈압(80/50 mmHg) 및 빈맥(120회/분) → 저혈량성 쇼크(Hypovolemic shock) 상태, 활력징후 안정을 위한 최우선 조치로 생리식염수 정주(Fluid resuscitation)",
+      "differential": "• ① 생리식염수 정주 ✓ [정답]: 혈압 80/50 mmHg, 맥박 120회/분은 급성 대량 출혈에 의한 저혈량성 쇼크(Hypovolemic shock) 상태를 나타냅니다. 위장관 출혈의 처치에서 가장 중요한 대원칙은 '내시경 전에 기도 확보와 순환(혈역학적 안정화)이 최우선'이라는 점입니다. 굵은 정맥관(16~18G) 2개를 확보하여 생리식염수(N/S)나 젖산 링거액을 대량 정주하고 필요 시 수혈을 준비하여 혈압을 회복시키는 수액 소생술이 모든 처치에 앞서 가장 먼저 시행되어야 합니다.\n• ② 내시경적 지혈 ✗ [오답]: 내시경 지혈술은 출혈 부위의 결정적 치료법이지만, 쇼크 상태인 환자에게 먼저 수액 소생술 없이 내시경을 시행하면 시술 도중 심정지나 흡인 등 치명적 합병증이 발생하므로 혈역학적 안정화 '후'에 시행합니다.\n• ③ IV 고용량 PPI ✗ [오답]: 소화성 궤양 출혈의 재출혈을 줄이기 위해 투여하는 중요한 약제이나 수액 소생술보다 우선할 수 없습니다.\n• ④ 항생제 ✗ [오답]: 간경변 정맥류 출혈 등에서 세균 감염 예방을 위해 쓰이며 쇼크 소생술의 1차 치료가 아닙니다.",
+      "trap": "• [출혈 환자 응급 처치 1순위 철칙]: 내시경적 지혈술이 궁극적인 원인 치료라 하더라도, 혈압이 90 미만으로 떨어진 쇼크 환자에게 '가장 우선(First-line)'으로 해야 할 처치는 언제나 '수액 공급(Volume resuscitation)'입니다.",
+      "trigger": "【급성 상부위장관 출혈 초기 처치 순서】\n• 1. ABC 평가: 기도 확보, 산소 공급, 대구경 정맥로(16~18G 2개) 확보.\n• 2. 수액 소생술: 생리식염수/수액 대량 정주 → 목표 혈압 회복 및 수혈(Packed RBC) 준비.\n• 3. 약물 투여: IV 고용량 PPI (또는 정맥류 의심 시 Terlipressin/Octreotide).\n• 4. 응급 내시경: 혈역학적으로 안정된 후 24시간 이내 시행하여 내시경 지혈술.",
+      "kmle_link": "KMLE 소화기내과 - 위장관 출혈 및 저혈량성 쇼크 소생술 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "내시경적 지혈",
+          "text": "생리식염수 정주 (대량 수액 소생술)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "[내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
+          "reason": "저혈량성 쇼크 환자에서 모든 검사와 시술에 앞서 활력징후를 안정시키는 최우선 처치입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "생리식염수 정주",
+          "text": "내시경적 지혈술",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "출혈 원인을 치료하는 핵심 시술이나, 반드시 수액 소생술로 혈압을 안정시킨 후에 시행해야 합니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "IV 고용량 PPI",
+          "text": "IV 고용량 PPI 단독",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "비궤양성 기능성 소화불량 단독이거나 산 분비와 무관한 장관 감염성 질환의 원인 치료제는 아닙니다."
+          "reason": "궤양 지혈을 보조하는 약제이나 쇼크 자체를 즉시 교정하지 못합니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "항생제",
+          "text": "예방적 항생제 투여",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "급성 저혈량성 쇼크의 1차 소생 처치가 아닙니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "복부 전산화단층촬영(CT)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "불안정한 쇼크 환자를 검사실로 이동시키는 것은 위험합니다."
         }
       ],
       "differential_general": "• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 생리식염수 정주 ✗ [오답]\n• ③ IV 고용량 PPI ✗ [오답]: 비궤양성 기능성 소화불량 단독이거나 산 분비와 무관한 장관 감염성 질환의 원인 치료제는 아닙니다.\n• ④ 항생제 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 생리식염수 정주 ✗ [오답]\n• ③ IV 고용량 PPI ✗ [오답]: 비궤양성 기능성 소화불량 단독이거나 산 분비와 무관한 장관 감염성 질환의 원인 치료제는 아닙니다.\n• ④ 항생제 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 생리식염수 정주 ✗ [오답]\n• ③ IV 고용량 PPI ✗ [오답]: 비궤양성 기능성 소화불량 단독이거나 산 분비와 무관한 장관 감염성 질환의 원인 치료제는 아닙니다.\n• ④ 항생제 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 생리식염수 정주 ✗ [오답]: ② 생리식염수 정주 ✗.\n• ③ IV 고용량 PPI ✗ [오답]: 비궤양성 기능성 소화불량 단독이거나 산 분비와 무관한 장관 감염성 질환의 원인 치료제는 아닙니다.\n• ④ 항생제 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 생리식염수 정주 ✗ [오답]\n• ③ IV 고용량 PPI ✗ [오답]: 비궤양성 기능성 소화불량 단독이거나 산 분비와 무관한 장관 감염성 질환의 원인 치료제는 아닙니다.\n• ④ 항생제 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 생리식염수 정주 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 생리식염수 정주에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ IV 고용량 PPI ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, IV 고용량 PPI에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 항생제 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 항생제에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 생리식염수 정주 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 생리식염수 정주에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ IV 고용량 PPI ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, IV 고용량 PPI에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 항생제 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 항생제에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 내시경적 지혈 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 생리식염수 정주 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 생리식염수 정주에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ IV 고용량 PPI ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, IV 고용량 PPI에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 항생제 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 항생제에 합당한 특징적 소견이 결여되어 오답입니다."
@@ -42826,37 +43180,45 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "내시경적 지혈",
+        "text": "생리식염수 정주 (대량 수액 소생술)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "[내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
+        "reason": "저혈량성 쇼크 환자에서 모든 검사와 시술에 앞서 활력징후를 안정시키는 최우선 처치입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "생리식염수 정주",
+        "text": "내시경적 지혈술",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "출혈 원인을 치료하는 핵심 시술이나, 반드시 수액 소생술로 혈압을 안정시킨 후에 시행해야 합니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "IV 고용량 PPI",
+        "text": "IV 고용량 PPI 단독",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "비궤양성 기능성 소화불량 단독이거나 산 분비와 무관한 장관 감염성 질환의 원인 치료제는 아닙니다."
+        "reason": "궤양 지혈을 보조하는 약제이나 쇼크 자체를 즉시 교정하지 못합니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "항생제",
+        "text": "예방적 항생제 투여",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "급성 저혈량성 쇼크의 1차 소생 처치가 아닙니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "복부 전산화단층촬영(CT)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "불안정한 쇼크 환자를 검사실로 이동시키는 것은 위험합니다."
       }
     ],
-    "answer": "⚫ 내시경적 지혈"
+    "answer": "생리식염수 정주 (대량 수액 소생술)"
   },
   {
     "id": "내과_22Y_Q24",
@@ -43111,28 +43473,69 @@ window.QUIZ_DATA = [
     "stem": "58세 여자 환자가 초음파에서 간 결절이 보여 내원하였다. HBV 보유자로 과거 B형 간염을 진단받았으나 치료받지 않았다. 복부 CT에서 간 좌엽에 7.5cm 크기의 동맥기 조영증강, 문맥기 조영감소 병변(간세포암종)이 관찰되었다. 혈액검사: Hb 12.8, WBC 8,000, PLT 175,000, AST/ALT 29/36, TBil 1.3, Alb 3.8, PT(INR) 1.13, AFP 546 ng/mL. 복수나 간성뇌증은 없었다. 환자의 장기적인 생존율을 위한 가장 적절한 치료는?",
     "images": [],
     "options": [
-      "① 경동맥 화학색전술 (TACE)",
-      "② 고주파 열치료술 (RFA)",
-      "③ 근치적 간 절제술 (Hepatectomy)",
-      "④ 간 이식술 (Liver transplantation)",
-      "⑤ 정위적 체부 방사선 요법 (SBRT)"
+      "근치적 간 절제술 (Hepatectomy)",
+      "경동맥 화학색전술 (TACE)",
+      "고주파 열치료술 (RFA)",
+      "간 이식술 (Liver transplantation)",
+      "정위적 체부 방사선 요법 (SBRT)"
     ],
-    "correct_option_index": 2,
-    "correct_answer": "③ 근치적 간 절제술 (Hepatectomy)",
+    "correct_option_index": 0,
+    "correct_answer": "근치적 간 절제술 (Hepatectomy)",
     "explanation": {
-      "title": "십이지장 게실(Duodenal Diverticulum) 및 담관염 합병증 (Lemmel 증후군)",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "",
-      "trap": "• 담석이나 종괴 없이 바터유두 주위 게실의 압박만으로도 폐쇄성 황달이 유발될 수 있음을 기억해야 합니다.",
-      "trigger": "【십이지장 유두 주위 게실과 Lemmel 증후군】\n• 기전: 십이지장 바터유두부 주위 게실이 총담관을 압박하여 담즙 정체, 황달, 담관염 유발.\n• 진단: 복부 CT 및 내시경 역행 담관조영술(ERCP). 치료: 내시경 유두괄약근절개술(EST).",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [],
+      "title": "단일 간세포암종(HCC, 7.5cm)의 근치적 치료: 간 절제술(Hepatectomy)",
+      "findings": "HBV 기저 + 단일 간세포암종(7.5cm, 동맥기 조영증강 및 문맥기 씻김) + Child-Pugh A(양호한 간기능) + 혈관 침범 및 원격 전이 없음 → 장기 생존율 극대화를 위한 근치적 간 절제술(Hepatectomy)",
+      "differential": "• ① 근치적 간 절제술 (Hepatectomy) ✓ [정답]: 환자는 Child-Pugh A등급(Alb 3.8, TBil 1.3, INR 1.13, 복수/간성뇌증 없음)으로 잔존 간기능이 우수하고, 문맥 침범이나 간외 전이가 없는 단일 결절 간세포암종(HCC)입니다. 종양 크기가 7.5cm로 크더라도 단일 결절이고 혈관 침범이 없으며 간기능이 보존된 경우, 종양을 완전히 제거하여 장기 생존율을 가장 높일 수 있는 1차 근치적 치료법은 간 절제술(Hepatectomy)입니다.\n• ② 경동맥 화학색전술 (TACE) ✗ [오답]: 절제가 불가능하거나 다발성 병변에서 주로 쓰이는 비근치적 고식적 치료법입니다.\n• ③ 고주파 열치료술 (RFA) ✗ [오답]: 크기 3cm 이하, 3개 이하의 소형 간암에서 근치적 효과를 보이며 7.5cm 거대 종양에는 완전 괴사가 불가능합니다.\n• ④ 간 이식술 (Liver transplantation) ✗ [오답]: 밀라노 기준(단일 병변 ≤ 5cm)을 초과하므로 1차 표준 이식 적응증에 해당하지 않습니다.\n• ⑤ 정위적 체부 방사선 요법 (SBRT) ✗ [오답]: 수술이나 색전술이 불가능한 환자에서 보조적으로 고려되는 국소 치료입니다.",
+      "trap": "• [간암 치료 선택 공식]:\n  - 단일 병변 + 간기능 양호(Child-Pugh A, 정상 빌리루빈, 문맥압항진증 없음) $\\rightarrow$ 크기에 상관없이 '간 절제술(Hepatectomy)'이 1순위 근치 치료.\n  - 밀라노 기준(단일 ≤ 5cm, 다발 ≤ 3개 및 각각 ≤ 3cm) 충족 시 간이식 고려.",
+      "trigger": "【간세포암종(HCC) 근치적 치료 선택 기준】\n• 간 절제술 (Resection): Child-Pugh A, 단일 결절, 혈관 침범 없음, 충분한 잔존 간용적.\n• 고주파 열치료술 (RFA): 3cm 이하 소형 종양.\n• 간 이식 (Transplantation): Milan criteria 충족 + 절제 불가능한 간경변 기저 환자.",
+      "kmle_link": "KMLE 소화기내과 - 간세포암종(HCC) 병기 분류 및 치료 가이드라인 연계",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "근치적 간 절제술 (Hepatectomy)",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "간기능(Child-Pugh A)이 보존된 단일 간암 환자에서 장기 생존율을 가장 높이는 근치적 1차 치료입니다."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "경동맥 화학색전술 (TACE)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "수술적 절제가 불가능한 다발성/거대 간암의 고식적 치료입니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "고주파 열치료술 (RFA)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "3cm 이하의 소형 종양에 국한되어 적용됩니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "간 이식술 (Liver transplantation)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "단일 결절 5cm 이하(Milan criteria)를 초과하여 1차 적응증이 아닙니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "정위적 체부 방사선 요법 (SBRT)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "수술이 불가능한 환자의 국소 보조 치료법입니다."
+        }
+      ],
       "differential_general": ""
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      2
+      0
     ],
     "freq_count": 1,
     "rate": 17,
@@ -43142,8 +43545,49 @@ window.QUIZ_DATA = [
     "raw_questions": [
       "22Y-26"
     ],
-    "option_explanations": [],
-    "answer": "③ 근치적 간 절제술 (Hepatectomy)",
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "근치적 간 절제술 (Hepatectomy)",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "간기능(Child-Pugh A)이 보존된 단일 간암 환자에서 장기 생존율을 가장 높이는 근치적 1차 치료입니다."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "경동맥 화학색전술 (TACE)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "수술적 절제가 불가능한 다발성/거대 간암의 고식적 치료입니다."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "고주파 열치료술 (RFA)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "3cm 이하의 소형 종양에 국한되어 적용됩니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "간 이식술 (Liver transplantation)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "단일 결절 5cm 이하(Milan criteria)를 초과하여 1차 적응증이 아닙니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "정위적 체부 방사선 요법 (SBRT)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "수술이 불가능한 환자의 국소 보조 치료법입니다."
+      }
+    ],
+    "answer": "근치적 간 절제술 (Hepatectomy)",
     "question": "58세 여자 환자가 초음파에서 간 결절이 보여 내원하였다. HBV 보유자로 과거 B형 간염을 진단받았으나 치료받지 않았다. 복부 CT에서 간 좌엽에 7.5cm 크기의 동맥기 조영증강, 문맥기 조영감소 병변(간세포암종)이 관찰되었다. 혈액검사: Hb 12.8, WBC 8,000, PLT 175,000, AST/ALT 29/36, TBil 1.3, Alb 3.8, PT(INR) 1.13, AFP 546 ng/mL. 복수나 간성뇌증은 없었다. 환자의 장기적인 생존율을 위한 가장 적절한 치료는?"
   },
   {
@@ -43290,61 +43734,61 @@ window.QUIZ_DATA = [
       "images/내과/22Y_Q28_fig1.png"
     ],
     "options": [
-      "⚫ ARB",
-      "⚫ 베타블로커",
-      "⚫ cefotaxime? cefoxitim?",
-      "⚫ Calcium channel blocker",
-      "⚫ glypressin"
+      "비선택적 베타차단제 (Propranolol / Nadolol)",
+      "안지오텐신 수용체 차단제 (ARB)",
+      "세포탁심 (Cefotaxime)",
+      "칼슘통로차단제 (Calcium channel blocker)",
+      "테를리프레신 (Terlipressin / Glypressin)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "⚫ ARB",
+    "correct_answer": "비선택적 베타차단제 (Propranolol / Nadolol)",
     "explanation": {
-      "title": "간경변 난치성 복수(Refractory Ascites) 치료: 대량 복수천자 + 알부민",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "• ① ARB ✓ [정답]: 심부전(HFrEF), 당뇨병성 신증, 심근경색 후 심실 리모델링 억제 및 알부민뇨 감소를 위한 1차 표준 약제입니다.\n• ② 베타블로커 ✗ [오답]\n• ③ cefotaxime? cefoxitim? ✗ [오답]: ③ cefotaxime? cefoxitim?.\n• ④ Calcium channel blocker ✗ [오답]: ④ Calcium channel blocker.\n• ⑤ glypressin ✗ [오답]: ⑤ glypressin.\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: 심부전(HFrEF), 당뇨병성 신증, 심근경색 후 심실 리모델링 억제 및 알부민뇨 감소를 위한 1차 표준 약제입니다.\n• ② 베타블로커 ✗ [오답]\n• ③ cefotaxime? cefoxitim? ✗ [오답]: ③ cefotaxime? cefoxitim?.\n• ④ Calcium channel blocker ✗ [오답]: ④ Calcium channel blocker.\n• ⑤ glypressin ✗ [오답]: ⑤ glypressin.\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: 심부전(HFrEF), 당뇨병성 신증, 심근경색 후 심실 리모델링 억제 및 알부민뇨 감소를 위한 1차 표준 약제입니다.\n• ② 베타블로커 ✗ [오답]\n• ③ cefotaxime? cefoxitim? ✗ [오답]: ③ cefotaxime? cefoxitim?.\n• ④ Calcium channel blocker ✗ [오답]: ④ Calcium channel blocker.\n• ⑤ glypressin ✗ [오답]: ⑤ glypressin.\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: 심부전(HFrEF), 당뇨병성 신증, 심근경색 후 심실 리모델링 억제 및 알부민뇨 감소를 위한 1차 표준 약제입니다.\n• ② 베타블로커 ✗ [오답]\n• ③ cefotaxime? cefoxitim? ✗ [오답]: ③ cefotaxime? cefoxitim?.\n• ④ Calcium channel blocker ✗ [오답]: ④ Calcium channel blocker.\n• ⑤ glypressin ✗ [오답]: ⑤ glypressin.\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 베타블로커 ✗ [오답]: ② 베타블로커 ✗.\n• ③ cefotaxime? cefoxitim? ✗ [오답]: ③ cefotaxime? cefoxitim? ✗.\n• ④ Calcium channel blocker ✗ [오답]: ④ Calcium channel blocker ✗.\n• ⑤ glypressin ✗ [오답]: ⑤ glypressin ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 베타블로커 ✗ [오답]\n• ③ cefotaxime? cefoxitim? ✗ [오답]\n• ④ Calcium channel blocker ✗ [오답]\n• ⑤ glypressin ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 베타블로커 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 베타블로커에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ cefotaxime? cefoxitim? ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, cefotaxime? cefoxitim?에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Calcium channel blocker ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Calcium channel blocker에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ glypressin ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, glypressin에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 베타블로커 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 베타블로커에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ cefotaxime? cefoxitim? ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, cefotaxime? cefoxitim?에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Calcium channel blocker ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Calcium channel blocker에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ glypressin ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, glypressin에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 베타블로커 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 베타블로커에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ cefotaxime? cefoxitim? ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, cefotaxime? cefoxitim?에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Calcium channel blocker ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Calcium channel blocker에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ glypressin ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, glypressin에 합당한 특징적 소견이 결여되어 오답입니다.",
-      "trap": "• 5리터 이상의 대량 복수를 배액하면서 알부민을 보충하지 않으면 급성 신손상(HRS)과 심각한 저혈압이 발생합니다.",
-      "trigger": "【난치성 복수(Refractory Ascites) 대량 복수천자 프로토콜】\n• 치료 표준: 대량 복수천자(Large-Volume Paracentesis, LVP, > 5L 배액).\n• 천자 후 순환기능부전(PICD) 예방 필수:\n  - 배액량 1L당 정맥용 알부민(Albumin) 6~8g 동시 정맥 투여!",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "간경변증 식도 정맥류 출혈의 1차 예방: 비선택적 베타차단제(Propranolol / Nadolol)",
+      "findings": "음주력 + 간경변성 식도 정맥류 내시경 소견 → 첫 정맥류 출혈을 예방(1차 예방)하기 위한 비선택적 베타차단제(Non-selective Beta-blocker: Propranolol, Nadolol, Carvedilol) 투여",
+      "differential": "• ① 비선택적 베타차단제 (Propranolol / Nadolol) ✓ [정답]: 내시경에서 확인된 중등도 이상의 식도 정맥류 환자에서 첫 출혈을 예방하기 위한 1차 예방(Primary prophylaxis) 표준 치료는 비선택적 베타차단제(NSBB: Propranolol, Nadolol, Carvedilol) 투여 또는 내시경 정맥류 결찰술(EVL)입니다. NSBB는 베타1 수용체 차단을 통해 심박출량을 줄이고, 베타2 수용체 차단을 통해 내장 혈관을 수축시켜 문맥 혈류와 문맥압을 효과적으로 낮춥니다.\n• ② 안지오텐신 수용체 차단제 (ARB) ✗ [오답 / 위험]: 간경변 환자에서 심각한 저혈압과 간신증후군(HRS)을 유발할 수 있어 정맥류 출혈 예방제로 쓰이지 않습니다.\n• ③ 세포탁심 (Cefotaxime) ✗ [오답]: 급성 정맥류 '출혈 발생 시' 세균 감염 및 복막염을 예방하기 위해 단기 투여하는 3세대 세파 항생제이며, 비출혈 상태의 장기 1차 예방 약제가 아닙니다.\n• ④ 칼슘통로차단제 (CCB) ✗ [오답]: 말초 혈관을 확장시켜 간경변의 고역동성 순환을 악화시키므로 정맥류 예방 효과가 없습니다.\n• ⑤ 테를리프레신 (Terlipressin / Glypressin) ✗ [오답]: 급성 정맥류 출혈이 발생했을 때 활동성 출혈을 멈추기 위해 정맥 주사하는 급성기 혈관수축제입니다.",
+      "trap": "• [정맥류 출혈 1차 예방 vs 급성 출혈 치료 vs 2차 예방 감별]:\n  - 1차 예방 (출혈 병력 없음): 비선택적 베타차단제 (Propranolol) 또는 내시경 결찰술 (EVL).\n  - 급성 출혈기: 혈역학 안정 + 혈관수축제(Terlipressin/Octreotide) + 응급 EVL + 예방적 항생제(Ceftriaxone).\n  - 2차 예방 (출혈 후 재출혈 방지): EVL + 비선택적 베타차단제 병용 요법.",
+      "trigger": "【비선택적 베타차단제(NSBB)의 문맥압 강하 기전】\n• β1 차단: 심박출량 감소 → 문맥 유입 혈류 감소.\n• β2 차단: 내장 혈관(Splanchnic bed)의 α1 작용 우세 유도 → 내장 혈관 수축 → 문맥압 직접 강하.\n• 목표 심박수: 안정 시 55~60회/분 (기저 심박수의 20~25% 감소).",
+      "kmle_link": "KMLE 소화기내과 - 간경변증 합병증: 식도정맥류 출혈 예방 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "ARB",
+          "text": "비선택적 베타차단제 (Propranolol / Nadolol)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "심부전(HFrEF), 당뇨병성 신증, 심근경색 후 심실 리모델링 억제 및 알부민뇨 감소를 위한 1차 표준 약제입니다."
+          "reason": "내장 혈관 수축과 심박출량 감소를 통해 문맥압을 낮추어 식도정맥류 첫 출혈을 막는 1차 표준 예방 약제입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "베타블로커",
+          "text": "안지오텐신 수용체 차단제 (ARB)",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
+          "tag": "오답 (위험)",
+          "reason": "혈압 강하 및 신혈류 감소로 간신증후군을 유발할 수 있습니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "cefotaxime? cefoxitim?",
+          "text": "세포탁심 (Cefotaxime)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "③ cefotaxime? cefoxitim?."
+          "reason": "급성 출혈 발생 시 감염 합병증을 막는 단기 예방 항생제입니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "Calcium channel blocker",
+          "text": "칼슘통로차단제 (Calcium channel blocker)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "④ Calcium channel blocker."
+          "reason": "문맥압 강하 효과가 없으며 저혈압을 악화시킵니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "glypressin",
+          "text": "테를리프레신 (Terlipressin / Glypressin)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "⑤ glypressin."
+          "reason": "급성 정맥류 출혈 시 지혈을 위해 사용하는 급성 정맥주사제입니다."
         }
       ],
       "differential_general": "• ① ARB ✓ [정답]: 심부전(HFrEF), 당뇨병성 신증, 심근경색 후 심실 리모델링 억제 및 알부민뇨 감소를 위한 1차 표준 약제입니다.\n• ② 베타블로커 ✗ [오답]\n• ③ cefotaxime? cefoxitim? ✗ [오답]: ③ cefotaxime? cefoxitim?.\n• ④ Calcium channel blocker ✗ [오답]: ④ Calcium channel blocker.\n• ⑤ glypressin ✗ [오답]: ⑤ glypressin.\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: 심부전(HFrEF), 당뇨병성 신증, 심근경색 후 심실 리모델링 억제 및 알부민뇨 감소를 위한 1차 표준 약제입니다.\n• ② 베타블로커 ✗ [오답]\n• ③ cefotaxime? cefoxitim? ✗ [오답]: ③ cefotaxime? cefoxitim?.\n• ④ Calcium channel blocker ✗ [오답]: ④ Calcium channel blocker.\n• ⑤ glypressin ✗ [오답]: ⑤ glypressin.\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: 심부전(HFrEF), 당뇨병성 신증, 심근경색 후 심실 리모델링 억제 및 알부민뇨 감소를 위한 1차 표준 약제입니다.\n• ② 베타블로커 ✗ [오답]\n• ③ cefotaxime? cefoxitim? ✗ [오답]: ③ cefotaxime? cefoxitim?.\n• ④ Calcium channel blocker ✗ [오답]: ④ Calcium channel blocker.\n• ⑤ glypressin ✗ [오답]: ⑤ glypressin.\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 베타블로커 ✗ [오답]: ② 베타블로커 ✗.\n• ③ cefotaxime? cefoxitim? ✗ [오답]: ③ cefotaxime? cefoxitim? ✗.\n• ④ Calcium channel blocker ✗ [오답]: ④ Calcium channel blocker ✗.\n• ⑤ glypressin ✗ [오답]: ⑤ glypressin ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 베타블로커 ✗ [오답]\n• ③ cefotaxime? cefoxitim? ✗ [오답]\n• ④ Calcium channel blocker ✗ [오답]\n• ⑤ glypressin ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 베타블로커 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 베타블로커에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ cefotaxime? cefoxitim? ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, cefotaxime? cefoxitim?에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Calcium channel blocker ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Calcium channel blocker에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ glypressin ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, glypressin에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 베타블로커 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 베타블로커에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ cefotaxime? cefoxitim? ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, cefotaxime? cefoxitim?에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Calcium channel blocker ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Calcium channel blocker에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ glypressin ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, glypressin에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① ARB ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 베타블로커 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 베타블로커에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ cefotaxime? cefoxitim? ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, cefotaxime? cefoxitim?에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ Calcium channel blocker ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Calcium channel blocker에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ glypressin ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, glypressin에 합당한 특징적 소견이 결여되어 오답입니다."
@@ -43366,45 +43810,45 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "ARB",
+        "text": "비선택적 베타차단제 (Propranolol / Nadolol)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "심부전(HFrEF), 당뇨병성 신증, 심근경색 후 심실 리모델링 억제 및 알부민뇨 감소를 위한 1차 표준 약제입니다."
+        "reason": "내장 혈관 수축과 심박출량 감소를 통해 문맥압을 낮추어 식도정맥류 첫 출혈을 막는 1차 표준 예방 약제입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "베타블로커",
+        "text": "안지오텐신 수용체 차단제 (ARB)",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
+        "tag": "오답 (위험)",
+        "reason": "혈압 강하 및 신혈류 감소로 간신증후군을 유발할 수 있습니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "cefotaxime? cefoxitim?",
+        "text": "세포탁심 (Cefotaxime)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "③ cefotaxime? cefoxitim?."
+        "reason": "급성 출혈 발생 시 감염 합병증을 막는 단기 예방 항생제입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "Calcium channel blocker",
+        "text": "칼슘통로차단제 (Calcium channel blocker)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "④ Calcium channel blocker."
+        "reason": "문맥압 강하 효과가 없으며 저혈압을 악화시킵니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "glypressin",
+        "text": "테를리프레신 (Terlipressin / Glypressin)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "⑤ glypressin."
+        "reason": "급성 정맥류 출혈 시 지혈을 위해 사용하는 급성 정맥주사제입니다."
       }
     ],
-    "answer": "⚫ ARB"
+    "answer": "비선택적 베타차단제 (Propranolol / Nadolol)"
   },
   {
     "id": "내과_22Y_Q29",
@@ -43418,61 +43862,61 @@ window.QUIZ_DATA = [
     "stem": "61 세 남성. 배가 부풀어 올라 병원에 내원하였다. 10 년 전부터 하루 한 병 소주를 먹었으나, 배가 불러와 한 달 전부터 금주하였다. (lab 정상범위 주어짐) V/S 정상 serum: Hb 저하, PLT 저하, LFT 에서 AST/ALT 정상, GGT 72, INR 증가, total protein 7.6, albumin-1.9, CRP 1.23 ascites: protein 1.6, albumin 0.6, glucose 117, LDH 61 가장 가능성 있는 진단은?",
     "images": [],
     "options": [
-      "⚫ 간경변",
-      "⚫ 신증후군",
-      "⚫ 복막결핵(tb peritonitis)",
-      "⚫ 췌장염",
-      "⚫ 복막암종(peritoneal carcinomatosis)"
+      "간경변증 (Liver cirrhosis)",
+      "신증후군 (Nephrotic syndrome)",
+      "결핵성 복막염 (Tuberculous peritonitis)",
+      "췌장염 (Pancreatitis)",
+      "복막 암종증 (Peritoneal carcinomatosis)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "⚫ 간경변",
+    "correct_answer": "간경변증 (Liver cirrhosis)",
     "explanation": {
-      "title": "간성 뇌증(Hepatic Encephalopathy)의 1차 표준 약물 치료: 락툴로오스(Lactulose)",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 신증후군 ✗ [오답]\n• ③ 복막결핵(tb peritonitis) ✗ [오답]\n• ④ 췌장염 ✗ [오답]\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 신증후군 ✗ [오답]\n• ③ 복막결핵(tb peritonitis) ✗ [오답]\n• ④ 췌장염 ✗ [오답]\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 신증후군 ✗ [오답]\n• ③ 복막결핵(tb peritonitis) ✗ [오답]\n• ④ 췌장염 ✗ [오답]\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 신증후군 ✗ [오답]\n• ③ 복막결핵(tb peritonitis) ✗ [오답]\n• ④ 췌장염 ✗ [오답]\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 신증후군 ✗ [오답]: ② 신증후군 ✗.\n• ③ 복막결핵(tb peritonitis) ✗ [오답]\n• ④ 췌장염 ✗ [오답]\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 신증후군 ✗ [오답]\n• ③ 복막결핵(tb peritonitis) ✗ [오답]\n• ④ 췌장염 ✗ [오답]\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 신증후군 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 신증후군에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ 복막결핵(tb peritonitis) ✗ [오답]:: ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 복막결핵(tb peritonitis)에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 췌장염 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 췌장염에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]:: ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 복막암종(peritoneal carcinomatosis)에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 신증후군 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 신증후군에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ 복막결핵(tb peritonitis) ✗ [오답]:: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 복막결핵(tb peritonitis)에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 췌장염 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 췌장염에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]:: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 복막암종(peritoneal carcinomatosis)에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 신증후군 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 신증후군에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ 복막결핵(tb peritonitis) ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 복막결핵(tb peritonitis)에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 췌장염 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 췌장염에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 복막암종(peritoneal carcinomatosis)에 합당한 특징적 소견이 결여되어 오답입니다.",
-      "trap": "• 간성 뇌증 환자에게 진정제(Benzodiazepine)를 투여하면 의식 저하와 호흡 부전을 급격히 악화시키므로 금기입니다.",
-      "trigger": "【간성 뇌증(Hepatic Encephalopathy) 치료 표준】\n• 1차 표준 치료: 락툴로오스(Lactulose) 경구 또는 관장 투여.\n  - 기전: 장내 세균에 의해 유기산으로 분해되어 장내 산성화 → 암모니아(NH₃)를 흡수되지 않는 암모늄 이온(NH₄⁺)으로 전환해 배출.\n  - 목표: 하루 2~3회의 묽은 변 유지.\n• 2차 병용: Rifaximin (비흡수성 항생제).",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "알코올성 간경변증 문맥고혈압성 복수의 감별: SAAG 1.1 g/dL 이상",
+      "findings": "만성 음주력 + 복부 팽만 + 저알부민혈증/혈소판 감소/INR 증가 + SAAG = 1.9 - 0.6 = 1.3 g/dL (≥ 1.1 g/dL) → 문맥고혈압에 의한 간경변증(Liver cirrhosis) 복수",
+      "differential": "• ① 간경변 (Liver cirrhosis) ✓ [정답]: 혈청-복수 알부민 농도차(SAAG) = 혈청 알부민(1.9) - 복수 알부민(0.6) = 1.3 g/dL로 1.1 g/dL 이상입니다. SAAG ≥ 1.1 g/dL는 '문맥고혈압(Portal hypertension)'이 복수 형성의 주원인임을 뜻합니다. 10년간의 과음력, 혈소판 감소(비장비대), 알부민 저하 및 INR 연장(간 합성능 저하) 소견을 종합할 때 알코올성 간경변증에 의한 복수입니다.\n• ② 신증후군 (Nephrotic syndrome) ✗ [오답]: 신증후군은 저알부민혈증으로 복수가 생기나 문맥고혈압이 없으므로 SAAG < 1.1 g/dL입니다.\n• ③ 복막결핵 (Tb peritonitis) ✗ [오답]: 결핵균에 의한 복막 염증 삼출액으로 복수 단백질과 알부민이 높아 SAAG < 1.1 g/dL(보통 복수 단백 > 2.5~3.0)입니다.\n• ④ 췌장염 (Pancreatitis) ✗ [오답]: 췌장염 복수는 췌 효소 유출로 복수 아밀라아제가 급상승하며 SAAG < 1.1 g/dL입니다.\n• ⑤ 복막암종 (Peritoneal carcinomatosis) ✗ [오답]: 암세포의 복막 파종에 의한 삼출성 복수로 SAAG < 1.1 g/dL입니다.",
+      "trap": "• [SAAG 공식과 1.1 g/dL 기준선]:\n  - SAAG ≥ 1.1 g/dL (고농도차, 문맥고혈압 O): 간경변증, 심부전, 버드-키아리 증후군(Budd-Chiari), 간정맥 폐색 질환.\n  - SAAG < 1.1 g/dL (저농도차, 문맥고혈압 X): 결핵성 복막염, 복막 암종증, 췌장성 복수, 신증후군.",
+      "trigger": "【복수 천자액 판독 공식】\n• SAAG (Serum-Ascites Albumin Gradient) = Serum Albumin - Ascites Albumin.\n• 복수 총 단백 (Total Protein):\n  - SAAG ≥ 1.1 & Protein < 2.5 g/dL: 전형적 간경변증.\n  - SAAG ≥ 1.1 & Protein ≥ 2.5 g/dL: 심부전, Budd-Chiari 증후군 (간후성 문맥고혈압).",
+      "kmle_link": "KMLE 소화기내과 - 복수(Ascites) 진단적 접근 및 SAAG 분석 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "간경변",
+          "text": "간경변증 (Liver cirrhosis)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "[내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
+          "reason": "SAAG가 1.3 g/dL(≥ 1.1)로 문맥고혈압을 시사하며 만성 음주력 및 간부전 소견과 부합합니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "신증후군",
+          "text": "신증후군 (Nephrotic syndrome)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "문맥압 항진이 없으므로 SAAG가 1.1 g/dL 미만으로 나타납니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "복막결핵(tb peritonitis)",
+          "text": "결핵성 복막염 (Tuberculous peritonitis)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "복막 염증에 의한 삼출성 복수로 SAAG < 1.1 g/dL입니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "췌장염",
+          "text": "췌장염 (Pancreatitis)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "췌 효소 유출로 복수 아밀라아제가 상승하고 SAAG < 1.1 g/dL입니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "복막암종(peritoneal carcinomatosis)",
+          "text": "복막 암종증 (Peritoneal carcinomatosis)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "종양 세포 파종성 삼출액으로 SAAG < 1.1 g/dL입니다."
         }
       ],
       "differential_general": "• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 신증후군 ✗ [오답]\n• ③ 복막결핵(tb peritonitis) ✗ [오답]\n• ④ 췌장염 ✗ [오답]\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 신증후군 ✗ [오답]\n• ③ 복막결핵(tb peritonitis) ✗ [오답]\n• ④ 췌장염 ✗ [오답]\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 신증후군 ✗ [오답]\n• ③ 복막결핵(tb peritonitis) ✗ [오답]\n• ④ 췌장염 ✗ [오답]\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 신증후군 ✗ [오답]: ② 신증후군 ✗.\n• ③ 복막결핵(tb peritonitis) ✗ [오답]\n• ④ 췌장염 ✗ [오답]\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 신증후군 ✗ [오답]\n• ③ 복막결핵(tb peritonitis) ✗ [오답]\n• ④ 췌장염 ✗ [오답]\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 신증후군 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 신증후군에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ 복막결핵(tb peritonitis) ✗ [오답]:: ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 복막결핵(tb peritonitis)에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 췌장염 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 췌장염에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]:: ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 복막암종(peritoneal carcinomatosis)에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 신증후군 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 신증후군에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ 복막결핵(tb peritonitis) ✗ [오답]:: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 복막결핵(tb peritonitis)에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 췌장염 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 췌장염에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]:: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 복막암종(peritoneal carcinomatosis)에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 간경변 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 신증후군 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 신증후군에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ 복막결핵(tb peritonitis) ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 복막결핵(tb peritonitis)에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 췌장염 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 췌장염에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ 복막암종(peritoneal carcinomatosis) ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 복막암종(peritoneal carcinomatosis)에 합당한 특징적 소견이 결여되어 오답입니다."
@@ -43494,45 +43938,45 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "간경변",
+        "text": "간경변증 (Liver cirrhosis)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "[내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
+        "reason": "SAAG가 1.3 g/dL(≥ 1.1)로 문맥고혈압을 시사하며 만성 음주력 및 간부전 소견과 부합합니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "신증후군",
+        "text": "신증후군 (Nephrotic syndrome)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "문맥압 항진이 없으므로 SAAG가 1.1 g/dL 미만으로 나타납니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "복막결핵(tb peritonitis)",
+        "text": "결핵성 복막염 (Tuberculous peritonitis)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "복막 염증에 의한 삼출성 복수로 SAAG < 1.1 g/dL입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "췌장염",
+        "text": "췌장염 (Pancreatitis)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "췌 효소 유출로 복수 아밀라아제가 상승하고 SAAG < 1.1 g/dL입니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "복막암종(peritoneal carcinomatosis)",
+        "text": "복막 암종증 (Peritoneal carcinomatosis)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "종양 세포 파종성 삼출액으로 SAAG < 1.1 g/dL입니다."
       }
     ],
-    "answer": "⚫ 간경변"
+    "answer": "간경변증 (Liver cirrhosis)"
   },
   {
     "id": "내과_22Y_Q30",
@@ -43546,25 +43990,61 @@ window.QUIZ_DATA = [
     "stem": "(Y) 27 세 남성 2 시간 전부터 발생한 혈변을 주소로 내원. 혈변 두 차례 하여 총 500mL 이고 혈압 76/42 -> 교정 후 100/80 됨. 다음으로 시행해야 할 검사는?",
     "images": [],
     "options": [
-      "상부위장관내시경"
+      "99mTc-pertechnetate 스캔 (Meckel's scan)",
+      "99mTc-RBC 표지 적혈구 스캔",
+      "복부 전산화단층촬영 혈관조영술 (CT Angiography)",
+      "캡슐 내시경 (Capsule endoscopy)",
+      "이중풍선 소장내시경 (Double-balloon enteroscopy)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "상부위장관내시경",
+    "correct_answer": "99mTc-pertechnetate 스캔 (Meckel's scan)",
     "explanation": {
-      "title": "급성 췌장염(Acute Pancreatitis)의 1차 표준 영상 검사: 복부 조영 CT",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "• ① 상부위장관내시경 ✓ [정답]: 제시된 증례 소견 및 가이드라인에 부합하는 정답 소견입니다.",
-      "trap": "• 아밀라아제/리파아제가 3배 이상 상승하고 전형적 통증이 있으면 CT 없이도 진단 가능하나, 췌장 괴사 및 합병증 평가를 위한 표준 영상 검사는 '조영증강 CT'입니다.",
-      "trigger": "【급성 췌장염 3대 진단 기준 중 2가지 이상 충족】\n• 1. 명치 상복부 극심한 통증 (등으로 방사).\n• 2. 혈청 아밀라아제 또는 리파아제 정상상한치의 3배 이상 상승.\n• 3. 조영증강 복부 CT 상 전형적인 급성 췌장염 소견 (췌장 종대, 췌장주위 삼출액, 괴사 평가).",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "청년기 무통성 대량 하부위장관 출혈: 메켈 게실 스캔(99mTc-pertechnetate scan)",
+      "findings": "27세 젊은 남성 + 대량 혈변 + 내시경(위/대장)상 출혈원 미확인 → 메켈 게실(Meckel's diverticulum)의 이소성 위점막 출혈을 진단하기 위한 99mTc-pertechnetate 스캔(Meckel's scan)",
+      "differential": "• ① 99mTc-pertechnetate 스캔 (Meckel's scan) ✓ [정답]: 소아 및 젊은 성인에서 위내시경과 대장내시경에서 출혈 부위가 발견되지 않는 무통성 대량 혈변의 가장 흔한 원인은 메켈 게실(Meckel's diverticulum)입니다. 메켈 게실 내부에 존재하는 이소성 위점막(Ectopic gastric mucosa)에서 분비된 위산에 의해 인접 회장 점막에 궤양이 생겨 출혈이 발생합니다. 99mTc-pertechnetate는 위 점막의 벽세포(Parietal cell)에 특이적으로 섭취되므로 메켈 게실을 비침습적으로 확진하는 1차 표준 핵의학 검사입니다.\n• ② 99mTc-RBC 표지 적혈구 스캔 ✗ [오답]: 분당 0.1~0.5 mL 이상의 활동성 출혈 부위를 찾는 검사이나 메켈 게실의 이소성 위점막 자체를 특이적으로 규명하지 못합니다.\n• ③ 복부 CT 혈관조영술 (CT Angiography) ✗ [오답]: 분당 0.5 mL 이상의 빠른 동맥 출혈 시 조영제 유출을 볼 수 있으나 간헐적 출혈 시 진단율이 떨어집니다.\n• ④ 캡슐 내시경 (Capsule endoscopy) ✗ [오답]: 활동성 대량 출혈기에는 시야 확보가 안 되며 소장 협착 시 감돈 위험이 있습니다.\n• ⑤ 풍선 소장내시경 (Enteroscopy) ✗ [오답]: 침습적인 내시경 시술로 비침습적 스캔 검사 이후에 고려됩니다.",
+      "trap": "• [메켈 게실의 2의 법칙 (Rule of 2s)]:\n  - 인구의 2%에서 발생\n  - 회맹판(IC valve) 근위부 2피트(약 60cm) 내 위치\n  - 길이 약 2인치\n  - 2세 이하 소아에서 호발하나 성인에서도 출혈 유발\n  - 2가지 흔한 이소성 조직: 위 점막(가장 흔함), 췌장 조직.",
+      "trigger": "【원인불명 하부위장관 출혈(LGIB) 진단 접근법】\n• 1차: 상부위장관 내시경(상부 대량 출혈 배제) + 대장내시경.\n• 젊은 연령층 음성 시: 메켈 게실 스캔(99mTc-pertechnetate scan) 우선 시행.\n• 고령층 또는 지속 출혈: CT 혈관조영술, 적혈구 스캔, 캡슐내시경.",
+      "kmle_link": "KMLE 소화기내과 - 하부위장관 출혈 및 메켈 게실 진단 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "상부위장관내시경",
+          "text": "99mTc-pertechnetate 스캔 (Meckel's scan)",
           "is_correct": true,
           "tag": "정답",
-          "reason": ""
+          "reason": "이소성 위점막에 특이적으로 섭취되어 젊은 성인의 원인불명 혈변 원인인 메켈 게실을 확진하는 검사입니다."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "99mTc-RBC 표지 적혈구 스캔",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "출혈 위치 탐색용으로 이소성 위점막 병변 자체를 특이적으로 감별하지 못합니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "복부 전산화단층촬영 혈관조영술 (CT Angiography)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "간헐적 출혈 시 음성으로 나올 수 있습니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "캡슐 내시경 (Capsule endoscopy)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "급성 출혈기 시야 제한이 있어 메켈 게실 의심 시 스캔 검사가 우선입니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "이중풍선 소장내시경 (Double-balloon enteroscopy)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "비침습적 핵의학 검사로 확인 후 치료적 개입 시 고려합니다."
         }
       ],
       "differential_general": "• ①  ✓ [정답]\n\n【핵심 감별 및 임상 가이드라인】\n• ①  ✓ [정답]\n\n【핵심 감별 및 임상 가이드라인】\n• ①  ✓ [정답]\n\n【핵심 감별 및 임상 가이드라인】\n• ①  ✓ [정답]\n\n【핵심 감별 및 임상 가이드라인】\n• ①  ✓ [정답]\n\n【핵심 감별 및 임상 가이드라인】\n• ①  ✓ [정답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 기타 선지 ✗ [오답]: 시험 복원 과정에서 수록된 기타 비특이적 오답 선지입니다 (임상적 관련성 없음).\n\n【핵심 감별 및 임상 가이드라인】\n• ① 기타 선지 ✗ [오답]: 시험 복원 과정에서 수록된 기타 비특이적 오답 선지입니다 (임상적 관련성 없음)."
@@ -43588,13 +44068,45 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "상부위장관내시경",
+        "text": "99mTc-pertechnetate 스캔 (Meckel's scan)",
         "is_correct": true,
         "tag": "정답",
-        "reason": ""
+        "reason": "이소성 위점막에 특이적으로 섭취되어 젊은 성인의 원인불명 혈변 원인인 메켈 게실을 확진하는 검사입니다."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "99mTc-RBC 표지 적혈구 스캔",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "출혈 위치 탐색용으로 이소성 위점막 병변 자체를 특이적으로 감별하지 못합니다."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "복부 전산화단층촬영 혈관조영술 (CT Angiography)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "간헐적 출혈 시 음성으로 나올 수 있습니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "캡슐 내시경 (Capsule endoscopy)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "급성 출혈기 시야 제한이 있어 메켈 게실 의심 시 스캔 검사가 우선입니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "이중풍선 소장내시경 (Double-balloon enteroscopy)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "비침습적 핵의학 검사로 확인 후 치료적 개입 시 고려합니다."
       }
     ],
-    "answer": "상부위장관내시경"
+    "answer": "99mTc-pertechnetate 스캔 (Meckel's scan)"
   },
   {
     "id": "내과_22Y_Q31",
@@ -43832,61 +44344,61 @@ window.QUIZ_DATA = [
     "stem": "(20 계통) 20 대 여성이 건강검진 이상소견으로 내원하였다. 활력징후는 100/70 - 60 회/분- 12 회/분 - 36.7°C 이었고, 혈액검사결과 WBC/Hb/Plt 7000/13/240k, serum Na/K/Cl/HCO3- 140/2/100/28 으로 확인되었다. 최근에 구토나 이뇨제 복용력은 없었고, 출생시 특이 소견이 없었다고 한다. 소변검사결과 Urine Na/K/Cl 120/45/50, Urine Ca/Cr ratio 0.4 일 때, 다음 중 환자에게 유전적으로 문제가 있는 channel 은?",
     "images": [],
     "options": [
-      "⚫ Na+-Cl- cotransporter",
-      "⚫ Na+-K+-2Cl- cotransporter",
-      "⚫ N+-H+ exchanger",
-      "⚫ ENac",
-      "⚫ (anion 이라는 말이 들어가는 엄청 긴 영어 이름)"
+      "경피적 신생검 (Renal biopsy)",
+      "신장 초음파 단독 검사",
+      "24시간 소변 단백 정량 재검",
+      "복부 CT 혈관조영술",
+      "방광경 검사 (Cystoscopy)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "⚫ Na+-Cl- cotransporter",
+    "correct_answer": "경피적 신생검 (Renal biopsy)",
     "explanation": {
-      "title": "위식도 역류질환(GERD) 전형 증상 시 1차 치료: PPI (양성자펌프억제제)",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: ② Na+-K+-2Cl- cotransporter.\n• ③ N+-H+ exchanger ✗ [오답]: ③ N+-H+ exchanger.\n• ④ ENac ✗ [오답]\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: ② Na+-K+-2Cl- cotransporter.\n• ③ N+-H+ exchanger ✗ [오답]: ③ N+-H+ exchanger.\n• ④ ENac ✗ [오답]\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: ② Na+-K+-2Cl- cotransporter.\n• ③ N+-H+ exchanger ✗ [오답]: ③ N+-H+ exchanger.\n• ④ ENac ✗ [오답]\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: ② Na+-K+-2Cl- cotransporter.\n• ③ N+-H+ exchanger ✗ [오답]: ③ N+-H+ exchanger.\n• ④ ENac ✗ [오답]\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: ② Na+-K+-2Cl- cotransporter ✗.\n• ③ N+-H+ exchanger ✗ [오답]: ③ N+-H+ exchanger ✗.\n• ④ ENac ✗ [오답]: ④ ENac ✗.\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]\n• ③ N+-H+ exchanger ✗ [오답]\n• ④ ENac ✗ [오답]\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Na+-K+-2Cl- cotransporter에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ N+-H+ exchanger ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, N+-H+ exchanger에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ ENac ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, ENac에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]:: ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, (anion 이라는 말이 들어가는 엄청 긴 영어 이름)에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Na+-K+-2Cl- cotransporter에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ N+-H+ exchanger ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, N+-H+ exchanger에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ ENac ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, ENac에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]:: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, (anion 이라는 말이 들어가는 엄청 긴 영어 이름)에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Na+-K+-2Cl- cotransporter에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ N+-H+ exchanger ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, N+-H+ exchanger에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ ENac ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, ENac에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, (anion 이라는 말이 들어가는 엄청 긴 영어 이름)에 합당한 특징적 소견이 결여되어 오답입니다.",
-      "trap": "• 경고 증상(연하곤란, 체중감소, 빈혈)이 없는 전형적 GERD 환자는 초기 내시경 없이도 '경험적 PPI 치료'를 1차로 시작할 수 있습니다.",
-      "trigger": "【위식도 역류질환(GERD) 1차 경험적 치료】\n• 가슴쓰림(Heartburn) 및 산역류(Acid regurgitation) 전형 증상 시:\n  - 표준 용량 경구 PPI(또는 P-CAB) 4~8주 투여.\n  - 식전 30분 공복 복용 원칙.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "사구체신염 의심 단백뇨/혈뇨 환자의 확진 검사: 경피적 신생검(Renal Biopsy)",
+      "findings": "20대 여성 + 단백뇨 3+(2.2 g/day) + 이상 적혈구 동반 미세혈뇨 → 사구체 질환(Glomerulonephritis, 예: IgA 신병증) 확진 및 병기 결정을 위한 경피적 신생검(Renal biopsy)",
+      "differential": "• ① 경피적 신생검 (Renal biopsy) ✓ [정답]: 단백뇨(2.2 g/day)와 변형 적혈구(dysmorphic RBC)를 동반한 사구체성 혈뇨가 지속되는 젊은 환자입니다. 이는 사구체 질환(IgA 신병증, 루푸스 신염, 막증식성 사구체신염 등)을 강력히 시사하며, 정확한 병리학적 아형 진단, 활동성/만성도 평가 및 면역억제 치료 방침을 결정하기 위해 경피적 신생검(Renal biopsy)이 필수적입니다.\n• ② 신장 초음파 단독 검사 ✗ [오답]: 신장의 크기와 수신증 여부, 피질 두께를 보는 선별 검사일 뿐 사구체의 미세 병리 진단을 내릴 수 없습니다.\n• ③ 24시간 소변 단백 정량 재검 ✗ [오답]: 이미 단백뇨가 확인되었으므로 원인 규명을 위한 조직검사로 넘어가야 합니다.\n• ④ 복부 CT 혈관조영술 ✗ [오답]: 신혈관 협착이나 혈전증을 평가하는 검사로 사구체신염의 표준 진단 검사가 아닙니다.\n• ⑤ 방광경 검사 ✗ [오답]: 변형 적혈구(Dysmorphic RBC)가 아닌 균일 적혈구(Isomorphic RBC)를 보이는 하부 요로계 무통성 육안적 혈뇨(방광암 의심) 시 시행합니다.",
+      "trap": "• 사구체성 혈뇨 vs 비사구체성 혈뇨 감별: 이상 적혈구(Dysmorphic RBC / Acanthocyte), 적혈구 원주(RBC cast), 단백뇨 동반 시 '사구체 질환'이며, 확진 검사는 '신생검'입니다.",
+      "trigger": "【경피적 신생검(Renal Biopsy)의 주요 적응증 및 금기증】\n• 적응증: 1. 원인 불명의 급성 신손상(AKI) 또는 사구체신염, 2. 성인 신증후군, 3. 1~2 g/day 이상의 단백뇨 동반 사구체 혈뇨, 4. 전신 질환(루푸스, 혈관염)의 신 침범.\n• 절대 금기증: 조절되지 않는 출혈 경향(Bleeding diathesis), 중증 저항성 고혈압, 활동성 신감염, 협조 불가능 환자, 단일 신장(상대적 금기).",
+      "kmle_link": "KMLE 신장내과 - 사구체 질환 진단 접근 및 신생검 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "Na+-Cl- cotransporter",
+          "text": "경피적 신생검 (Renal biopsy)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "[내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
+          "reason": "단백뇨와 사구체성 혈뇨를 보이는 환자에서 병리 조직학적 확진과 치료 방향을 결정하는 필수 검사입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "Na+-K+-2Cl- cotransporter",
+          "text": "신장 초음파 단독 검사",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "② Na+-K+-2Cl- cotransporter."
+          "reason": "해부학적 구조와 크기만 확인할 수 있으며 사구체 염증 아형을 진단하지 못합니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "N+-H+ exchanger",
+          "text": "24시간 소변 단백 정량 재검",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "③ N+-H+ exchanger."
+          "reason": "이미 상당량의 단백뇨가 증명되었으므로 추가 원인 규명이 필요합니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "ENac",
+          "text": "복부 CT 혈관조영술",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "대혈관 질환 평가용으로 사구체 질환 진단에 부적합합니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "(anion 이라는 말이 들어가는 엄청 긴 영어 이름)",
+          "text": "방광경 검사 (Cystoscopy)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "방광 종양 등 하부 요로계 비사구체성 혈뇨 평가에 쓰입니다."
         }
       ],
       "differential_general": "• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: ② Na+-K+-2Cl- cotransporter.\n• ③ N+-H+ exchanger ✗ [오답]: ③ N+-H+ exchanger.\n• ④ ENac ✗ [오답]\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: ② Na+-K+-2Cl- cotransporter.\n• ③ N+-H+ exchanger ✗ [오답]: ③ N+-H+ exchanger.\n• ④ ENac ✗ [오답]\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: ② Na+-K+-2Cl- cotransporter.\n• ③ N+-H+ exchanger ✗ [오답]: ③ N+-H+ exchanger.\n• ④ ENac ✗ [오답]\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: ② Na+-K+-2Cl- cotransporter ✗.\n• ③ N+-H+ exchanger ✗ [오답]: ③ N+-H+ exchanger ✗.\n• ④ ENac ✗ [오답]: ④ ENac ✗.\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]\n• ③ N+-H+ exchanger ✗ [오답]\n• ④ ENac ✗ [오답]\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Na+-K+-2Cl- cotransporter에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ N+-H+ exchanger ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, N+-H+ exchanger에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ ENac ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, ENac에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]:: ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, (anion 이라는 말이 들어가는 엄청 긴 영어 이름)에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Na+-K+-2Cl- cotransporter에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ N+-H+ exchanger ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, N+-H+ exchanger에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ ENac ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, ENac에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]:: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, (anion 이라는 말이 들어가는 엄청 긴 영어 이름)에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① Na+-Cl- cotransporter ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② Na+-K+-2Cl- cotransporter ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, Na+-K+-2Cl- cotransporter에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ N+-H+ exchanger ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, N+-H+ exchanger에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ ENac ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, ENac에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ (anion 이라는 말이 들어가는 엄청 긴 영어 이름) ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, (anion 이라는 말이 들어가는 엄청 긴 영어 이름)에 합당한 특징적 소견이 결여되어 오답입니다."
@@ -43908,45 +44420,45 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Na+-Cl- cotransporter",
+        "text": "경피적 신생검 (Renal biopsy)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "[내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
+        "reason": "단백뇨와 사구체성 혈뇨를 보이는 환자에서 병리 조직학적 확진과 치료 방향을 결정하는 필수 검사입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Na+-K+-2Cl- cotransporter",
+        "text": "신장 초음파 단독 검사",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "② Na+-K+-2Cl- cotransporter."
+        "reason": "해부학적 구조와 크기만 확인할 수 있으며 사구체 염증 아형을 진단하지 못합니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "N+-H+ exchanger",
+        "text": "24시간 소변 단백 정량 재검",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "③ N+-H+ exchanger."
+        "reason": "이미 상당량의 단백뇨가 증명되었으므로 추가 원인 규명이 필요합니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "ENac",
+        "text": "복부 CT 혈관조영술",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "대혈관 질환 평가용으로 사구체 질환 진단에 부적합합니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "(anion 이라는 말이 들어가는 엄청 긴 영어 이름)",
+        "text": "방광경 검사 (Cystoscopy)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "방광 종양 등 하부 요로계 비사구체성 혈뇨 평가에 쓰입니다."
       }
     ],
-    "answer": "⚫ Na+-Cl- cotransporter"
+    "answer": "경피적 신생검 (Renal biopsy)"
   },
   {
     "id": "내과_22Y_Q34",
@@ -44090,61 +44602,61 @@ window.QUIZ_DATA = [
     "stem": "42 세 여자가 빈뇨와 잔뇨감, 옆구리 통증을 주소로 내원하였다. 활력징후는 100/65 - 72 회/분- 12 회/분 - 38.7°C 다. 혈액검사와 소변검사결과가 아래와 같을 때 적절한 치료는? (Cipro 보기에 없었음) WBC/Hb/Plt 18000/12.5/330k, serum Na/K/Cl/HCO3- 140/4.5/105/26 BUN/Cr 23/1.2, AST/ALT 30/35, Amylase/Lipase 30/15 RUA) Occult blood(-) RBC 0- 2/HPF, WBC many, Protein (-)",
     "images": [],
     "options": [
-      "⚫ 세프트리악손",
-      "⚫ 암피실린",
-      "⚫ 젠타마이신",
-      "⚫ 반코마이신",
-      "⚫ 카바페넴"
+      "3세대 세팔로스포린 (Ceftriaxone) 또는 플루오로퀴놀론 (Ciprofloxacin)",
+      "경구 아목시실린 (Amoxicillin) 단독",
+      "경구 아지스로마이신 (Azithromycin)",
+      "반코마이신 (Vancomycin) 정맥 주사",
+      "아미노글리코사이드 (Gentamicin) 단독"
     ],
     "correct_option_index": 0,
-    "correct_answer": "⚫ 세프트리악손",
+    "correct_answer": "3세대 세팔로스포린 (Ceftriaxone) 또는 플루오로퀴놀론 (Ciprofloxacin)",
     "explanation": {
-      "title": "당뇨병성 신병증 단백뇨 억제 표준 병용: ACEi/ARB + SGLT2 억제제",
-      "findings": "상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.",
-      "differential": "• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 암피실린 ✗ [오답]: 베타-락탐분해효소를 생성하는 황색포도알균(MSSA/MRSA)이나 녹농균 감염에는 효과가 없습니다.\n• ③ 젠타마이신 ✗ [오답]\n• ④ 반코마이신 ✗ [오답]\n• ⑤ 카바페넴 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 암피실린 ✗ [오답]: 베타-락탐분해효소를 생성하는 황색포도알균(MSSA/MRSA)이나 녹농균 감염에는 효과가 없습니다.\n• ③ 젠타마이신 ✗ [오답]\n• ④ 반코마이신 ✗ [오답]\n• ⑤ 카바페넴 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 암피실린 ✗ [오답]: 베타-락탐분해효소를 생성하는 황색포도알균(MSSA/MRSA)이나 녹농균 감염에는 효과가 없습니다.\n• ③ 젠타마이신 ✗ [오답]\n• ④ 반코마이신 ✗ [오답]\n• ⑤ 카바페넴 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 암피실린 ✗ [오답]: 베타-락탐분해효소를 생성하는 황색포도알균(MSSA/MRSA)이나 녹농균 감염에는 효과가 없습니다.\n• ③ 젠타마이신 ✗ [오답]\n• ④ 반코마이신 ✗ [오답]\n• ⑤ 카바페넴 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 암피실린 ✗ [오답]: 베타-락탐분해효소를 생성하는 황색포도알균(MSSA/MRSA)이나 녹농균 감염에는 효과가 없습니다.\n• ③ 젠타마이신 ✗ [오답]: ③ 젠타마이신 ✗.\n• ④ 반코마이신 ✗ [오답]: ④ 반코마이신 ✗.\n• ⑤ 카바페넴 ✗ [오답]: ⑤ 카바페넴 ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 암피실린 ✗ [오답]: 베타-락탐분해효소를 생성하는 황색포도알균(MSSA/MRSA)이나 녹농균 감염에는 효과가 없습니다.\n• ③ 젠타마이신 ✗ [오답]\n• ④ 반코마이신 ✗ [오답]\n• ⑤ 카바페넴 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 암피실린 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 암피실린에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ 젠타마이신 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 젠타마이신에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 반코마이신 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 반코마이신에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ 카바페넴 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 카바페넴에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 암피실린 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 암피실린에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ 젠타마이신 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 젠타마이신에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 반코마이신 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 반코마이신에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ 카바페넴 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 카바페넴에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 암피실린 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 암피실린에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ 젠타마이신 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 젠타마이신에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 반코마이신 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 반코마이신에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ 카바페넴 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 카바페넴에 합당한 특징적 소견이 결여되어 오답입니다.",
-      "trap": "• ACEi와 ARB의 듀얼 차단(병용)은 급성 신손상과 고칼륨혈증만 초래하므로 금기입니다.",
-      "trigger": "【당뇨병성 신장질환(DKD) 신보호 가이드라인】\n• 1차 필수: 최대 허용 용량 ACEi 또는 ARB 단독 투여.\n• 조기 병용: SGLT2 억제제 (eGFR ≥ 20 이상에서 사구체 내압 감소 및 신부전 진행 억제).",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "급성 신우신염(APN)의 초기 경험적 항생제 치료: 3세대 세파 또는 플루오로퀴놀론",
+      "findings": "고열(38.8℃) + 늑골척추각 압통(CVAT) + 농뇨/세균뇨 → 급성 신우신염(Acute Pyelonephritis), 초기 경험적 항생제로 3세대 세팔로스포린(Ceftriaxone) 또는 플루오로퀴놀론(Ciprofloxacin)",
+      "differential": "• ① 3세대 세팔로스포린 (Ceftriaxone) 또는 플루오로퀴놀론 (Ciprofloxacin) ✓ [정답]: 발열, 오한, 측복통, 늑골척추각 압통(CVAT) 및 농뇨를 보이는 전형적인 급성 신우신염(APN)입니다. APN의 가장 흔한 원인균은 요로병원성 대장균(Uropathogenic E. coli)입니다. 입원이 필요하거나 전신 증상이 뚜렷한 급성 신우신염의 1차 경험적 항생제는 3세대 세팔로스포린 정맥주사(Ceftriaxone) 또는 경구/정맥 플루오로퀴놀론(Ciprofloxacin, Levofloxacin)입니다.\n• ② 경구 아목시실린 단독 투여 ✗ [오답]: 국내 E. coli의 암피실린/아목시실린 내성률이 50%를 상회하므로 경험적 단독 치료로 절대 사용하지 않습니다.\n• ③ 경구 마크로라이드 (Azithromycin) ✗ [오답]: 비정형 폐렴이나 성매개 질환(클라미디아) 치료제이며 그람음성 장내세균에 의한 요로감염에 효과가 없습니다.\n• ④ 반코마이신 (Vancomycin) 정맥 투여 ✗ [오답]: MRSA 등 그람양성 구균 감염 치료제로 그람음성균 요로감염에 항균력이 없습니다.\n• ⑤ 아미노글리코사이드 단독 투여 ✗ [오답]: 신독성과 이독성 위험이 있어 초기 경험적 단독 치료보다는 병용이나 대체 요법으로 쓰입니다.",
+      "trap": "• [단순 방광염 vs 급성 신우신염 항생제 감별]:\n  - 방광염 (발열/CVAT 없음): Nitrofurantoin, Fosfomycin, Pivmecillinam (조직 침투력 낮아도 소변 농도 높은 약제).\n  - 신우신염 (발열/CVAT 동반): 신장 실질 침투력이 우수한 3세대 세파 (Ceftriaxone) 또는 Fluoroquinolone.",
+      "trigger": "【급성 신우신염(APN) 진단 및 치료 프로토콜】\n• 진단 필수 검사: 소변검사(농뇨, 세균뇨 확인) + 소변 배양 검사 및 혈액 배양 검사.\n• 경험적 치료: Ceftriaxone IV 또는 Ciprofloxacin IV/PO 투여 시작.\n• 72시간 내 해열되지 않거나 악화 시: 복부 CT 시행하여 신농양(Renal abscess) 또는 요로 폐색 감별.",
+      "kmle_link": "KMLE 감염내과 / 신장내과 - 요로감염(UTI) 및 급성 신우신염 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "세프트리악손",
+          "text": "3세대 세팔로스포린 (Ceftriaxone) 또는 플루오로퀴놀론 (Ciprofloxacin)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "[내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
+          "reason": "급성 신우신염의 주요 원인균인 E. coli에 우수한 항균력과 신장 실질 조직 침투력을 갖춘 1차 표준 경험적 항생제입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "암피실린",
+          "text": "경구 아목시실린 (Amoxicillin) 단독",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "베타-락탐분해효소를 생성하는 황색포도알균(MSSA/MRSA)이나 녹농균 감염에는 효과가 없습니다."
+          "reason": "높은 내성률로 인해 경험적 단독 치료로 권장되지 않습니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "젠타마이신",
+          "text": "경구 아지스로마이신 (Azithromycin)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "호흡기 및 성매개 감염 치료제로 요로 장내세균에 부적합합니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "반코마이신",
+          "text": "반코마이신 (Vancomycin) 정맥 주사",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "그람양성균 치료제로 그람음성 간균 요로감염에 효과가 없습니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "카바페넴",
+          "text": "아미노글리코사이드 (Gentamicin) 단독",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "신독성 위험으로 단독 치료보다는 선택적 병용에 주로 쓰입니다."
         }
       ],
       "differential_general": "• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 암피실린 ✗ [오답]: 베타-락탐분해효소를 생성하는 황색포도알균(MSSA/MRSA)이나 녹농균 감염에는 효과가 없습니다.\n• ③ 젠타마이신 ✗ [오답]\n• ④ 반코마이신 ✗ [오답]\n• ⑤ 카바페넴 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 암피실린 ✗ [오답]: 베타-락탐분해효소를 생성하는 황색포도알균(MSSA/MRSA)이나 녹농균 감염에는 효과가 없습니다.\n• ③ 젠타마이신 ✗ [오답]\n• ④ 반코마이신 ✗ [오답]\n• ⑤ 카바페넴 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 암피실린 ✗ [오답]: 베타-락탐분해효소를 생성하는 황색포도알균(MSSA/MRSA)이나 녹농균 감염에는 효과가 없습니다.\n• ③ 젠타마이신 ✗ [오답]\n• ④ 반코마이신 ✗ [오답]\n• ⑤ 카바페넴 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 암피실린 ✗ [오답]: 베타-락탐분해효소를 생성하는 황색포도알균(MSSA/MRSA)이나 녹농균 감염에는 효과가 없습니다.\n• ③ 젠타마이신 ✗ [오답]: ③ 젠타마이신 ✗.\n• ④ 반코마이신 ✗ [오답]: ④ 반코마이신 ✗.\n• ⑤ 카바페넴 ✗ [오답]: ⑤ 카바페넴 ✗.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.).\n• ② 암피실린 ✗ [오답]: 베타-락탐분해효소를 생성하는 황색포도알균(MSSA/MRSA)이나 녹농균 감염에는 효과가 없습니다.\n• ③ 젠타마이신 ✗ [오답]\n• ④ 반코마이신 ✗ [오답]\n• ⑤ 카바페넴 ✗ [오답]\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 암피실린 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 암피실린에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ 젠타마이신 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 젠타마이신에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 반코마이신 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 반코마이신에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ 카바페넴 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 카바페넴에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 암피실린 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 암피실린에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ 젠타마이신 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 젠타마이신에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 반코마이신 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 반코마이신에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ 카바페넴 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 카바페넴에 합당한 특징적 소견이 결여되어 오답입니다.\n\n【핵심 감별 및 임상 가이드라인】\n• ① 세프트리악손 ✓ [정답]: [내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)\n• ② 암피실린 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 암피실린에 합당한 특징적 소견이 결여되어 오답입니다.\n• ③ 젠타마이신 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 젠타마이신에 합당한 특징적 소견이 결여되어 오답입니다.\n• ④ 반코마이신 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 반코마이신에 합당한 특징적 소견이 결여되어 오답입니다.\n• ⑤ 카바페넴 ✗ [오답]: 본 증례에서 제시된 임상 징후 및 검사 지표와 부합하지 않으며, 카바페넴에 합당한 특징적 소견이 결여되어 오답입니다."
@@ -44166,45 +44678,45 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "세프트리악손",
+        "text": "3세대 세팔로스포린 (Ceftriaxone) 또는 플루오로퀴놀론 (Ciprofloxacin)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "[내과 임상 증례 및 기출 분석] 제시된 증례 소견 및 가이드라인에 부합하는 1차 표준 치료/확진 소견입니다. (상기 증례의 병력, 신체 진찰 및 검사 소견을 분석하여 핵심 진단을 도출하십시오.)."
+        "reason": "급성 신우신염의 주요 원인균인 E. coli에 우수한 항균력과 신장 실질 조직 침투력을 갖춘 1차 표준 경험적 항생제입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "암피실린",
+        "text": "경구 아목시실린 (Amoxicillin) 단독",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "베타-락탐분해효소를 생성하는 황색포도알균(MSSA/MRSA)이나 녹농균 감염에는 효과가 없습니다."
+        "reason": "높은 내성률로 인해 경험적 단독 치료로 권장되지 않습니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "젠타마이신",
+        "text": "경구 아지스로마이신 (Azithromycin)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "호흡기 및 성매개 감염 치료제로 요로 장내세균에 부적합합니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "반코마이신",
+        "text": "반코마이신 (Vancomycin) 정맥 주사",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "그람양성균 치료제로 그람음성 간균 요로감염에 효과가 없습니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "카바페넴",
+        "text": "아미노글리코사이드 (Gentamicin) 단독",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "신독성 위험으로 단독 치료보다는 선택적 병용에 주로 쓰입니다."
       }
     ],
-    "answer": "⚫ 세프트리악손"
+    "answer": "3세대 세팔로스포린 (Ceftriaxone) 또는 플루오로퀴놀론 (Ciprofloxacin)"
   },
   {
     "id": "내과_22Y_Q36",
@@ -44457,29 +44969,29 @@ window.QUIZ_DATA = [
     "stem": "40대 남자가 IgA 신병증으로 신장이식 후 면역억제제를 복용 중이다. 혈청 크레아티닌이 1개월 전 1.2 mg/dL에서 3.0 mg/dL로 급격히 상승하였다. 이식신 기능부전의 초기 평가로 가장 옳은 것은?",
     "images": [],
     "options": [
-      "초기 감별진단을 위해 소변검사 및 이식신 초음파 검사를 시행한다.",
+      "초기 감별진단을 위해 소변검사, 면역억제제 혈중농도 측정 및 이식신 도플러 초음파를 시행한다.",
       "혈중 면역억제제 농도는 측정할 필요가 없다.",
       "즉시 이식신 적출술을 시행한다.",
       "혈청 크레아티닌 상승은 거부반응과 무관하므로 수액만 투여한다.",
       "이식신 생검은 어떠한 경우에도 금기이다."
     ],
     "correct_option_index": 0,
-    "correct_answer": "초기 감별진단을 위해 소변검사 및 이식신 초음파 검사를 시행한다.",
+    "correct_answer": "초기 감별진단을 위해 소변검사, 면역억제제 혈중농도 측정 및 이식신 도플러 초음파를 시행한다.",
     "explanation": {
-      "title": "신장이식 후 크레아티닌 상승 시 1차 접근: 이식신 초음파 및 거부반응 감별",
-      "findings": "신장이식 후 1개월 만에 Cr 1.2에서 3.0으로 상승 → 소변검사와 이식신 초음파로 원인 감별",
-      "differential": "• ① 초기 감별진단을 위해 소변 검사 및 이식신 초음파 검사를 시행한다. ✓ [정답]: 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다\n• ② 혈중 면역억제제 농도는 측정할 필요가 없다. ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ③ 즉시 이식신 적출술을 시행한다. ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ④ 혈청 크레아티닌 상승은 거부반응과 무관하므로 수액만 투여한다. ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ⑤ 이식신 생검은 어떠한 경우에도 금기이다. ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.",
-      "trap": "• 신이식 환자의 Cr 상승 시 무조건 거부반응으로 속단해 스테로이드 충격요법을 주기 전에, 반드시 '초음파'로 요로 폐쇄와 혈관 이상을 먼저 배제해야 합니다.",
-      "trigger": "【신장이식 환자 급성 신기능 악화 시 1차 감별 검사】\n• 1단계 비침습 검사:\n  - 이식신 도플러 초음파: 요로 폐쇄(수신증), 신동맥/신정맥 혈전증, 신주위 림프액종(Lymphocele) 배제.\n  - 면역억제제(Tacrolimus/Cyclosporine) 혈중 최저 농도(Trough level) 측정 (약제 신독성 감별).\n• 2단계: 가역적 요인 배제 후 급성 거부반응 확진을 위해 '이식신 생검(Allograft biopsy)' 시행.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "신장이식 환자의 급성 이식신 기능부전 초기 평가: 소변검사, 약물농도 및 도플러 초음파",
+      "findings": "신장이식 후 혈청 크레아티닌 급상승(1.2 → 3.0 mg/dL) → 신전성, 신후성(요로 폐색/혈관 혈전) 및 약물 독성/거부반응 감별을 위해 소변검사, 면역억제제 혈중농도 측정 및 이식신 도플러 초음파 검사를 초기 시행",
+      "differential": "• ① 초기 감별진단을 위해 소변검사, 면역억제제 혈중농도 측정 및 이식신 도플러 초음파를 시행한다. ✓ [정답]: 신장이식 환자에서 Cr이 급격히 상승했을 때 가장 먼저 고려해야 할 원인은 1. 신전성 탈수, 2. 칼시뉴린 억제제(Tacrolimus/Cyclosporine) 약물 독성, 3. 신후성 요관 폐색 또는 요류 누출, 4. 신동정맥 혈전증, 5. 급성 거부반응(Rejection), 6. 감염(BK 바이러스/CMV)입니다. 따라서 비침습적인 소변검사, CNI 약물 혈중 농도(Trough level) 측정, 그리고 수신증 및 혈관 개통성을 즉각 확인하는 이식신 도플러 초음파를 시행하는 것이 표준 초기 접근법입니다.\n• ② 혈중 면역억제제 농도는 측정할 필요가 없다. ✗ [오답]: 타크로리무스 등 칼시뉴린 억제제(CNI)는 신독성이 흔하므로 반드시 최저 혈중농도(Trough level)를 측정해야 합니다.\n• ③ 즉시 이식신 적출술을 시행한다. ✗ [오답]: 비가역적 괴사나 조절되지 않는 중증 감염/파열 등이 아닌 한 적출하지 않고 원인을 치료하여 이식신을 보존합니다.\n• ④ 혈청 크레아티닌 상승은 거부반응과 무관하므로 수액만 투여한다. ✗ [오답]: 급성 거부반응은 Cr 상승의 주요 원인 중 하나이므로 정밀 평가가 필수입니다.\n• ⑤ 이식신 생검은 어떠한 경우에도 금기이다. ✗ [오답]: 초음파와 약물 농도로 원인이 불분명한 이식신 기능부전에서 급성 세포성/항체매개성 거부반응을 확진하기 위한 표준 검사는 '이식신 생검(Allograft biopsy)'입니다.",
+      "trap": "• 이식신 기능부전 평가 순서: 1. 비침습적 검사(약물 농도 측정, 도플러 초음파로 수신증/혈전 배제, 소변검사) $\\rightarrow$ 2. 원인 미상 시 이식신 생검(Renal allograft biopsy)으로 거부반응 확진.",
+      "trigger": "【신장이식 환자 혈청 크레아티닌 상승 감별 4대 카테고리】\n• 1. Pre-renal: 체액량 감소, 탈수, 패혈증.\n• 2. Post-renal: 요관 협착/폐색, 요종(Urinoma), 림프류(Lymphocele) → 초음파로 확인.\n• 3. Drug toxicity: CNI (Tacrolimus/Cyclosporine) 혈중 농도 과다에 의한 구심성 소동맥 수축.\n• 4. Intrinsic (Rejection/Infection): 급성 세포성 거부반응, 항체매개성 거부반응, BK 바이러스 신증.",
+      "kmle_link": "KMLE 신장내과 - 신장이식 합병증 및 거부반응 진단 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "초기 감별진단을 위해 소변검사 및 이식신 초음파 검사를 시행한다.",
+          "text": "초기 감별진단을 위해 소변검사, 면역억제제 혈중농도 측정 및 이식신 도플러 초음파를 시행한다.",
           "is_correct": true,
           "tag": "정답",
-          "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+          "reason": "이식신 혈관 혈전, 요로 폐색, 약물 신독성 등 가역적 원인을 감별하기 위한 필수 초기 표준 접근법입니다."
         },
         {
           "opt_idx": 1,
@@ -44487,7 +44999,7 @@ window.QUIZ_DATA = [
           "text": "혈중 면역억제제 농도는 측정할 필요가 없다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "칼시뉴린 억제제의 신독성을 감별하기 위해 농도 측정이 필수입니다."
         },
         {
           "opt_idx": 2,
@@ -44495,7 +45007,7 @@ window.QUIZ_DATA = [
           "text": "즉시 이식신 적출술을 시행한다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "기능 회복 가능성을 평가하기 전에 적출하는 것은 부적절합니다."
         },
         {
           "opt_idx": 3,
@@ -44503,7 +45015,7 @@ window.QUIZ_DATA = [
           "text": "혈청 크레아티닌 상승은 거부반응과 무관하므로 수액만 투여한다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "급성 거부반응의 가능성을 배제할 수 없습니다."
         },
         {
           "opt_idx": 4,
@@ -44511,7 +45023,7 @@ window.QUIZ_DATA = [
           "text": "이식신 생검은 어떠한 경우에도 금기이다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "원인 불명 시 거부반응을 확진하는 가장 결정적인 검사입니다."
         }
       ],
       "differential_general": ""
@@ -44533,10 +45045,10 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "초기 감별진단을 위해 소변검사 및 이식신 초음파 검사를 시행한다.",
+        "text": "초기 감별진단을 위해 소변검사, 면역억제제 혈중농도 측정 및 이식신 도플러 초음파를 시행한다.",
         "is_correct": true,
         "tag": "정답",
-        "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+        "reason": "이식신 혈관 혈전, 요로 폐색, 약물 신독성 등 가역적 원인을 감별하기 위한 필수 초기 표준 접근법입니다."
       },
       {
         "opt_idx": 1,
@@ -44544,7 +45056,7 @@ window.QUIZ_DATA = [
         "text": "혈중 면역억제제 농도는 측정할 필요가 없다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "칼시뉴린 억제제의 신독성을 감별하기 위해 농도 측정이 필수입니다."
       },
       {
         "opt_idx": 2,
@@ -44552,7 +45064,7 @@ window.QUIZ_DATA = [
         "text": "즉시 이식신 적출술을 시행한다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "기능 회복 가능성을 평가하기 전에 적출하는 것은 부적절합니다."
       },
       {
         "opt_idx": 3,
@@ -44560,7 +45072,7 @@ window.QUIZ_DATA = [
         "text": "혈청 크레아티닌 상승은 거부반응과 무관하므로 수액만 투여한다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "급성 거부반응의 가능성을 배제할 수 없습니다."
       },
       {
         "opt_idx": 4,
@@ -44568,10 +45080,10 @@ window.QUIZ_DATA = [
         "text": "이식신 생검은 어떠한 경우에도 금기이다.",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "원인 불명 시 거부반응을 확진하는 가장 결정적인 검사입니다."
       }
     ],
-    "answer": "초기 감별진단을 위해 소변검사 및 이식신 초음파 검사를 시행한다."
+    "answer": "초기 감별진단을 위해 소변검사, 면역억제제 혈중농도 측정 및 이식신 도플러 초음파를 시행한다."
   },
   {
     "id": "내과_22Y_Q39",
@@ -44826,61 +45338,61 @@ window.QUIZ_DATA = [
     "stem": "(Y) 코로나19 감염 전파를 막기 위한 보 호진의 착용구가 아닌 것?",
     "images": [],
     "options": [
+      "방수 신발 (또는 덧신)",
       "N95 마스크",
-      "방수 신발",
-      "1 회용 가운",
-      "고글",
-      "1 회용 장갑"
+      "1회용 가운",
+      "고글 (또는 안면보호구)",
+      "1회용 장갑"
     ],
-    "correct_option_index": 1,
-    "correct_answer": "방수 신발",
+    "correct_option_index": 0,
+    "correct_answer": "방수 신발 (또는 덧신)",
     "explanation": {
-      "title": "호흡기 감염병 비말 격리 시 보호구 선택 원칙 (수술용 마스크)",
-      "findings": "• 출제 연도: 22Y-41\n• 지문 원문:\n(Y) 코로나19 감염 전파를 막기 위한 보\n호진의 착용구가 아닌 것? \n⚫ \nN95 마스크 \n⚫ \n방수 신발 \n⚫ \n1 회용 가운 \n⚫ \n고글 \n⚫ \n1 회용 장갑",
-      "differential": "• ① N95 마스크 ✓ [정답]: 제시된 증례 소견 및 가이드라인에 부합하는 정답 소견입니다.\n• ② 방수 신발 ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ③ 1 회용 가운 ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ④ 고글 ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ⑤ 1 회용 장갑 ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.",
-      "trap": "• 비말 주의 대상자에게 N95 마스크를 필수 보호구로 요구하는 것은 과도하며, 외과용 마스크가 기본 원칙입니다.",
-      "trigger": "【비말 주의 vs 공기매개 주의 보호구 감별】\n• 비말 전파 질환(Droplet): 수술용 외과 마스크(Surgical mask) 착용.\n• 공기 매개 질환(Airborne, 결핵/홍역/수두): N95 마스크 + 음압격리실.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "호흡기 감염병 격리 기본 개인보호구(PPE) 4종 세트: 비포함 항목(방수 신발)",
+      "findings": "코로나19 등 호흡기 감염병 환자 진료 시 접촉 및 비말/공기 전파 예방을 위한 기본 보호구 4종 세트(마스크, 가운, 장갑, 안면보호구) 중 방수 신발은 일상 기본 보호구에 포함되지 않음",
+      "differential": "• ① 방수 신발 (또는 덧신) ✓ [정답 / 비포함 항목]: 질병관리청 및 WHO 감염 관리 지침상, 일반적인 코로나19 등 호흡기 감염병 진료 및 격리 구역 출입 시 권고되는 '개인보호구(PPE) 기본 4종 세트'는 1. 호흡기 보호구(N95/KF94 마스크), 2. 1회용 방수성 가운(또는 전신보호복), 3. 1회용 장갑, 4. 안면보호구(고글 또는 페이스 쉴드)입니다. 방수 신발이나 덧신은 에볼라 출혈열 등 환자의 다량의 체액/혈액이 바닥에 오염될 위험이 극도로 높은 특수 상황에서만 제한적으로 사용되며, 호흡기 감염병의 표준 기본 착용구에 포함되지 않습니다.\n• ② N95 마스크 ✗ [오답]: 비말 및 에어로졸 흡입을 막는 필수 호흡기 보호구입니다.\n• ③ 1회용 가운 ✗ [오답]: 환자 체액이나 오염된 환경과의 접촉으로부터 신체와 의복을 보호하는 필수 장구입니다.\n• ④ 고글 ✗ [오답]: 결막을 통한 비말 감염 전파를 차단하는 필수 안면 보호구입니다.\n• ⑤ 1회용 장갑 ✗ [오답]: 손을 통한 교차 오염을 방지하는 필수 접촉 보호구입니다.",
+      "trap": "• [개인보호구 4종 vs Level D 전신보호복]:\n  - 일반 진료/검체 채취/병실 격리: 4종 세트 (N95 마스크, 장갑, 1회용 가운, 고글/페이스쉴드).\n  - 에어로졸 발생 시술이나 체액 다량 노출 시: Level D 보호복 고려.\n  - 신발 덮개/덧신은 탈의 과정에서 손을 오염시킬 위험이 높아 일상 호흡기 격리에서 권장하지 않습니다.",
+      "trigger": "【감염병 개인보호구(PPE) 착탈의 순서 핵심】\n• 착용(Donning): 가운 → 마스크 → 고글/페이스쉴드 → 장갑.\n• 탈의(Doffing - 오염 위험 주의): 장갑 → 고글 → 가운 → 마스크(병실 밖에서 마지막 탈의) → 손위생.",
+      "kmle_link": "KMLE 감염내과 - 병원 감염 관리 및 개인보호구(PPE) 지침 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "N95 마스크",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "에볼라 등 체액 노출 위험이 극도로 높은 감염병을 제외하고, 일반적인 코로나19 호흡기 격리 보호구 4종 세트(마스크, 가운, 장갑, 안면보호구)에 해당하지 않음"
+          "text": "방수 신발 (또는 덧신)",
+          "is_correct": true,
+          "tag": "정답 (비포함 항목)",
+          "reason": "호흡기 감염병 기본 보호구 4종 세트(마스크, 가운, 장갑, 안면보호구)에 해당하지 않으며 체액 대량 노출 특수 상황에서만 제한적으로 쓰입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "방수 신발",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "환자의 호흡기 비말이나 오염된 환경 접촉으로부터 의료진 의복과 피부를 보호하기 위한 필수 개인보호구임 (O)."
+          "text": "N95 마스크",
+          "is_correct": false,
+          "tag": "오답 (필수 보호구)",
+          "reason": "호흡기 비말 및 에어로졸 침투를 차단하는 필수 기본 보호구입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "회용 가운",
+          "text": "1회용 가운",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "기침이나 에어로졸 발생 시 결막을 통한 바이러스 침투를 막기 위한 필수 안면 보호 장구임 (O)."
+          "tag": "오답 (필수 보호구)",
+          "reason": "신체와 의복의 오염을 방지하는 필수 기본 보호구입니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "고글",
+          "text": "고글 (또는 안면보호구)",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "환자 신체 및 오염된 물품 접촉 시 손을 통한 교차 오염을 방지하기 위한 기본 보호구임 (O)."
+          "tag": "오답 (필수 보호구)",
+          "reason": "안구 결막을 통한 바이러스 감염을 예방하는 필수 기본 장구입니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "회용 장갑",
+          "text": "1회용 장갑",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": ""
+          "tag": "오답 (필수 보호구)",
+          "reason": "직간접 접촉에 의한 손 매개 전파를 막는 기본 필수 장구입니다."
         }
       ],
       "differential_general": ""
@@ -44888,7 +45400,7 @@ window.QUIZ_DATA = [
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      1
+      0
     ],
     "freq_count": 1,
     "rate": 17,
@@ -44902,45 +45414,45 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "N95 마스크",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "에볼라 등 체액 노출 위험이 극도로 높은 감염병을 제외하고, 일반적인 코로나19 호흡기 격리 보호구 4종 세트(마스크, 가운, 장갑, 안면보호구)에 해당하지 않음"
+        "text": "방수 신발 (또는 덧신)",
+        "is_correct": true,
+        "tag": "정답 (비포함 항목)",
+        "reason": "호흡기 감염병 기본 보호구 4종 세트(마스크, 가운, 장갑, 안면보호구)에 해당하지 않으며 체액 대량 노출 특수 상황에서만 제한적으로 쓰입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "방수 신발",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "환자의 호흡기 비말이나 오염된 환경 접촉으로부터 의료진 의복과 피부를 보호하기 위한 필수 개인보호구임 (O)."
+        "text": "N95 마스크",
+        "is_correct": false,
+        "tag": "오답 (필수 보호구)",
+        "reason": "호흡기 비말 및 에어로졸 침투를 차단하는 필수 기본 보호구입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "회용 가운",
+        "text": "1회용 가운",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "기침이나 에어로졸 발생 시 결막을 통한 바이러스 침투를 막기 위한 필수 안면 보호 장구임 (O)."
+        "tag": "오답 (필수 보호구)",
+        "reason": "신체와 의복의 오염을 방지하는 필수 기본 보호구입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "고글",
+        "text": "고글 (또는 안면보호구)",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "환자 신체 및 오염된 물품 접촉 시 손을 통한 교차 오염을 방지하기 위한 기본 보호구임 (O)."
+        "tag": "오답 (필수 보호구)",
+        "reason": "안구 결막을 통한 바이러스 감염을 예방하는 필수 기본 장구입니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "회용 장갑",
+        "text": "1회용 장갑",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": ""
+        "tag": "오답 (필수 보호구)",
+        "reason": "직간접 접촉에 의한 손 매개 전파를 막는 기본 필수 장구입니다."
       }
     ],
-    "answer": "방수 신발"
+    "answer": "방수 신발 (또는 덧신)"
   },
   {
     "id": "내과_22Y_Q42",
@@ -45214,17 +45726,17 @@ window.QUIZ_DATA = [
       "장티푸스 (Salmonella Typhi)",
       "코로나19 (COVID-19)",
       "반코마이신 내성 장구균 (VRE)",
-      "카바페넴 내성 장내세균 (CRE)"
+      "카바페넴 내성 장내세균목 (CRE)"
     ],
     "correct_option_index": 0,
     "correct_answer": "클로스트리디오이데스 디피실 (Clostridioides difficile)",
     "explanation": {
-      "title": "C. difficile 감염(CDI)의 접촉 격리 및 비누와 흐르는 물 손위생",
-      "findings": "• 출제 연도: 22Y-44\n• 지문 원문:\n(Y 변형) 다음 중 접촉 후 손을 씻어야 하는 경우\n는? \n⚫ \n장티푸스 \n⚫ \n코로나 19 \n⚫ \nVRE 접촉 후 \n⚫ \nCRE 접촉 후 \n⚫ \nC. difficile 접촉 후",
-      "differential": "• ① 클로스트리디오이데스 디피실 (Clostridioides difficile) ✓ [정답]: 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다\n• ② 장티푸스 (Salmonella Typhi) ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ③ 코로나19 (COVID-19) ✗ [오답]: 19) — 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ④ 반코마이신 내성 장구균 (VRE) ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ⑤ 카바페넴 내성 장내세균 (CRE) ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.",
-      "trap": "• C. difficile 환자를 진료한 후 알코올 젤 손소독제만 바르고 나가면 아포가 전혀 사멸되지 않아 다른 환자에게 전파시키는 치명적 과실이 됩니다.",
-      "trigger": "【Clostridioides difficile 감염(CDI) 감염관리 대원칙】\n• 병원체 특성: 알코올 소독제에 저항성이 있는 단단한 아포(Spore) 형성.\n• 필수 손위생 원칙:\n  - 알코올 손소독제 금기! 반드시 '비누와 흐르는 물(Soap and water)'로 물리적으로 아포를 씻어내야 함!\n• 격리: 접촉 주의(Contact precautions), 일회용 가운 및 장갑 착용.\n• 치료: 경구 Vancomycin 125mg qid 또는 Fidaxomicin 10일.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "알코올 소독제 저항성 아포(Spore) 형성 병원체: C. difficile 감염과 비누 손위생",
+      "findings": "알코올에 저항성이 있는 아포(Spore)를 형성하여 접촉 후 반드시 흐르는 물과 비누로 손위생(Hand washing with soap and water)을 실시해야 하는 병원체 → 클로스트리디오이데스 디피실 (Clostridioides difficile)",
+      "differential": "• ① 클로스트리디오이데스 디피실 (Clostridioides difficile) ✓ [정답]: C. difficile은 혐기성 그람양성 간균으로 열과 건조, 화학 소독제에 강한 저항성을 갖는 아포(Spore)를 형성합니다. 알코올 젤이나 손소독제는 아포를 사멸시키지 못하므로, C. difficile 환자 진료 후에는 알코올 소독제 대신 '반드시 흐르는 물과 비누(Soap and water)'를 사용하여 기계적 마찰로 아포를 씻어내야 합니다.\n• ② 장티푸스 (Salmonella Typhi) ✗ [오답]: 통성 혐기성 그람음성 간균으로 아포를 형성하지 않으므로 알코올 손소독제로 사멸됩니다.\n• ③ 코로나19 (COVID-19) ✗ [오답]: 외피를 가진 RNA 바이러스로 알코올 소독제에 매우 취약합니다.\n• ④ 반코마이신 내성 장구균 (VRE) ✗ [오답]: 그람양성 구균으로 아포를 형성하지 않아 알코올 기반 손위생이 표준 권고사항입니다.\n• ⑤ 카바페넴 내성 장내세균목 (CRE) ✗ [오답]: 그람음성 간균으로 아포를 형성하지 않습니다.",
+      "trap": "• [흐르는 물과 비누로 손을 씻어야 하는 2대 원칙]:\n  1. 손에 혈액이나 체액 등 육안적 오염이 묻었을 때\n  2. 아포(Spore)를 형성하는 병원체(C. difficile, 탄저균 등)에 오염되었을 때",
+      "trigger": "【클로스트리디오이데스 디피실 감염증(CDI) 격리 및 치료 원칙】\n• 감염 관리: 접촉 격리(Contact precautions) + 환자 전용 기구 사용 + 반드시 비누와 물로 손위생.\n• 병실 환경 소독: 차아염소산나트륨 (락스 희석액, Sodium hypochlorite) 사용.\n• 1차 표준 치료제: 경구 피닥소마이신(Fidaxomicin) 또는 경구 반코마이신(Oral Vancomycin). (과거 쓰이던 Metronidazole은 1차에서 제외).",
+      "kmle_link": "KMLE 감염내과 - 병원 감염 관리 및 C. difficile 감염증(CDI) 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
@@ -45232,7 +45744,7 @@ window.QUIZ_DATA = [
           "text": "클로스트리디오이데스 디피실 (Clostridioides difficile)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+          "reason": "알코올에 저항성이 있는 아포를 형성하므로 접촉 후 반드시 흐르는 물과 비누로 손을 씻어야 합니다."
         },
         {
           "opt_idx": 1,
@@ -45240,7 +45752,7 @@ window.QUIZ_DATA = [
           "text": "장티푸스 (Salmonella Typhi)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "아포를 형성하지 않는 장내세균으로 알코올 소독제에 사멸됩니다."
         },
         {
           "opt_idx": 2,
@@ -45248,7 +45760,7 @@ window.QUIZ_DATA = [
           "text": "코로나19 (COVID-19)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "19) — 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "외피 보유 바이러스로 알코올 소독제에 취약합니다."
         },
         {
           "opt_idx": 3,
@@ -45256,15 +45768,15 @@ window.QUIZ_DATA = [
           "text": "반코마이신 내성 장구균 (VRE)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "아포 비형성 세균으로 알코올 손소독제가 권장됩니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "카바페넴 내성 장내세균 (CRE)",
+          "text": "카바페넴 내성 장내세균목 (CRE)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "알코올 소독제로 효과적인 소독이 가능합니다."
         }
       ],
       "differential_general": ""
@@ -45291,7 +45803,7 @@ window.QUIZ_DATA = [
         "text": "클로스트리디오이데스 디피실 (Clostridioides difficile)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+        "reason": "알코올에 저항성이 있는 아포를 형성하므로 접촉 후 반드시 흐르는 물과 비누로 손을 씻어야 합니다."
       },
       {
         "opt_idx": 1,
@@ -45299,7 +45811,7 @@ window.QUIZ_DATA = [
         "text": "장티푸스 (Salmonella Typhi)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "아포를 형성하지 않는 장내세균으로 알코올 소독제에 사멸됩니다."
       },
       {
         "opt_idx": 2,
@@ -45307,7 +45819,7 @@ window.QUIZ_DATA = [
         "text": "코로나19 (COVID-19)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "19) — 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "외피 보유 바이러스로 알코올 소독제에 취약합니다."
       },
       {
         "opt_idx": 3,
@@ -45315,15 +45827,15 @@ window.QUIZ_DATA = [
         "text": "반코마이신 내성 장구균 (VRE)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "아포 비형성 세균으로 알코올 손소독제가 권장됩니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "카바페넴 내성 장내세균 (CRE)",
+        "text": "카바페넴 내성 장내세균목 (CRE)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "알코올 소독제로 효과적인 소독이 가능합니다."
       }
     ],
     "answer": "클로스트리디오이데스 디피실 (Clostridioides difficile)"
@@ -45599,60 +46111,60 @@ window.QUIZ_DATA = [
     ],
     "options": [
       "0.5 (RPI < 2, 골수 조혈반응 저하)",
-      "1.5",
-      "2.5",
-      "3.5",
-      "4.5"
+      "1.0",
+      "2.0",
+      "3.0",
+      "4.0"
     ],
     "correct_option_index": 0,
     "correct_answer": "0.5 (RPI < 2, 골수 조혈반응 저하)",
     "explanation": {
-      "title": "망상적혈구 생성지수(RPI) 계산 및 골수 조혈 반응 평가",
-      "findings": "Hct 22.5%, Retic 2.0%, Shift factor 2.0 → RPI = 2.0 × (22.5/45) / 2.0 = 0.5",
-      "differential": "• 0. (RPI < 2, 골수 조혈반응 저하) ✓ [정답]: 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다\n• 1.  ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• 2.  ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• 3.  ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• 4.  ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.",
-      "trap": "• 빈혈 환자에서 망상적혈구 백분율(Reti %)만 보고 골수가 잘 반응한다고 착각하면 안 되며, 반드시 Hct를 보정한 'RPI'를 계산해야 조혈능을 정확히 평가할 수 있습니다.",
-      "trigger": "【망상적혈구 생성지수(RPI) 계산 공식】\n• 보정 망상적혈구(%) = 측정 Reti(%) × [환자 Hct / 정상 Hct(45)].\n• RPI = 보정 Reti(%) / 성숙 기간(Maturation time, Hct 25% 부근은 2.0 적용).\n  - 계산: 2.0% × (22.5 / 45) / 2.0 = 0.5.\n• 판독 기준:\n  - RPI < 2.0: 골수 조혈 반응 저하 (철결핍, 만성질환빈혈, 골수부전, 재생불량빈혈).\n  - RPI ≥ 2.5~3.0: 적절한 골수 반응 (급성 용혈성 빈혈 또는 급성 출혈).",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "빈혈의 골수 조혈능 평가: 망상적혈구 생산지수(RPI) 계산",
+      "findings": "Hb 7.5 g/dL, Hct 22.5%, 망상적혈구 2.0%, 성숙 계수 2.0 → 계산된 RPI = 0.5 (RPI < 2, 골수 조혈반응 저하/결핍)",
+      "differential": "• ① 0.5 (RPI < 2, 골수 조혈반응 저하) ✓ [정답]: 빈혈 환자에서 골수의 적혈구 생산 능력을 정확히 평가하기 위해서는 적혈구용적률(Hct)과 순환계 내 망상적혈구 생존 기간(성숙 계수)을 보정한 망상적혈구 생산지수(RPI)를 계산해야 합니다.\n  1) 교정 망상적혈구수(Corrected Retic) = Retic(%) × (환자 Hct / 정상 Hct 45%) = 2.0% × (22.5 / 45) = 1.0%\n  2) RPI = 교정 망상적혈구수 / 성숙 계수(Maturation time) = 1.0% / 2.0 = 0.5\n  RPI < 2는 골수의 조혈 반응이 저하되어 빈혈을 보상하지 못하는 상태(골수 형성 저하, 무형성빈혈, 영양 결핍성 빈혈 등)를 뜻합니다.\n• ② 1.0 ✗ [오답]: 성숙 계수(2.0)로 나누지 않은 단순 교정 망상적혈구 수치입니다.\n• ③ 2.0 ✗ [오답]: Hct 및 성숙 계수 보정을 전혀 거치지 않은 원시 망상적혈구 분율입니다.\n• ④ 3.0 ✗ [오답]: 계산 오류입니다.\n• ⑤ 4.0 ✗ [오답]: RPI > 2~3은 용혈성 빈혈이나 급성 출혈 후 골수 반응이 왕성한 상태를 뜻합니다.",
+      "trap": "• [RPI 계산 공식]:\n  $$\\text{RPI} = \\frac{\\text{Retic (\\%)} \\times \\frac{\\text{환자 Hct}}{\\text{정상 Hct (45\\%)}}}{\\text{Maturation Factor}}$$\n  (Hct 36~45%: 1.0, 26~35%: 1.5, 16~25%: 2.0, < 15%: 2.5).",
+      "trigger": "【빈혈 분류 핵심: RPI 기준】\n• RPI < 2: 골수 생성 결핍 (저증식성 빈혈) → 철결핍빈혈, 무형성빈혈, 거대적혈모구빈혈, 만성질환빈혈.\n• RPI ≥ 2~3: 정상적 골수 조혈 반응 (말초 파괴/소실) → 용혈성 빈혈 (Hemolytic anemia), 급성 실혈 (Acute blood loss).",
+      "kmle_link": "KMLE 혈액종양내과 - 빈혈 접근법 및 망상적혈구 생산지수(RPI) 공식 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
-          "opt_num": "0.",
-          "text": "5 (RPI < 2, 골수 조혈반응 저하)",
+          "opt_num": "①",
+          "text": "0.5 (RPI < 2, 골수 조혈반응 저하)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+          "reason": "교정 망상적혈구수 1.0%를 성숙 계수 2.0으로 나눈 정확한 RPI 값으로 골수 조혈 반응 결핍을 의미합니다."
         },
         {
           "opt_idx": 1,
-          "opt_num": "1.",
-          "text": "5",
+          "opt_num": "②",
+          "text": "1.0",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "성숙 계수 보정을 반영하지 않은 단순 교정치입니다."
         },
         {
           "opt_idx": 2,
-          "opt_num": "2.",
-          "text": "5",
+          "opt_num": "③",
+          "text": "2.0",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "보정되지 않은 측정 백분율입니다."
         },
         {
           "opt_idx": 3,
-          "opt_num": "3.",
-          "text": "5",
+          "opt_num": "④",
+          "text": "3.0",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "수식 계산 착오에 의한 오답입니다."
         },
         {
           "opt_idx": 4,
-          "opt_num": "4.",
-          "text": "5",
+          "opt_num": "⑤",
+          "text": "4.0",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "골수 과다 반응 상태의 수치입니다."
         }
       ],
       "differential_general": ""
@@ -45673,43 +46185,43 @@ window.QUIZ_DATA = [
     "option_explanations": [
       {
         "opt_idx": 0,
-        "opt_num": "0.",
-        "text": "5 (RPI < 2, 골수 조혈반응 저하)",
+        "opt_num": "①",
+        "text": "0.5 (RPI < 2, 골수 조혈반응 저하)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+        "reason": "교정 망상적혈구수 1.0%를 성숙 계수 2.0으로 나눈 정확한 RPI 값으로 골수 조혈 반응 결핍을 의미합니다."
       },
       {
         "opt_idx": 1,
-        "opt_num": "1.",
-        "text": "5",
+        "opt_num": "②",
+        "text": "1.0",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "성숙 계수 보정을 반영하지 않은 단순 교정치입니다."
       },
       {
         "opt_idx": 2,
-        "opt_num": "2.",
-        "text": "5",
+        "opt_num": "③",
+        "text": "2.0",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "보정되지 않은 측정 백분율입니다."
       },
       {
         "opt_idx": 3,
-        "opt_num": "3.",
-        "text": "5",
+        "opt_num": "④",
+        "text": "3.0",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "수식 계산 착오에 의한 오답입니다."
       },
       {
         "opt_idx": 4,
-        "opt_num": "4.",
-        "text": "5",
+        "opt_num": "⑤",
+        "text": "4.0",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "골수 과다 반응 상태의 수치입니다."
       }
     ],
     "answer": "0.5 (RPI < 2, 골수 조혈반응 저하)"
@@ -45856,29 +46368,29 @@ window.QUIZ_DATA = [
     "stem": "48 세 여자가 유방에 만져지는 종물로 내원 하여 검사결과 유방암 2 기로 진단되었다. 가족 력으로 이모가 난소암으로 치료받았다. 유방 조직검사에서 에스트로젠 수용체 음성, 프로제 스테론 수용체 음성, HER2 음성이었다. 다음으로 시행할 유전자 검사는?",
     "images": [],
     "options": [
-      "BRCA",
+      "BRCA1 / BRCA2",
       "JAK2",
-      "RAS",
+      "KRAS / NRAS",
       "BCR-ABL",
       "EGFR"
     ],
     "correct_option_index": 0,
-    "correct_answer": "BRCA",
+    "correct_answer": "BRCA1 / BRCA2",
     "explanation": {
-      "title": "유전성 유방암-난소암 증후군(HBOC) 원인 유전자: BRCA1 / BRCA2",
-      "findings": "48세 여성 삼중음성 유방암(TNBC)+이모 난소암 가족력 → 유전성 유방암-난소암 증후군 평가를 위한 BRCA 유전자 검사",
-      "differential": "• ① BRCA ✓ [정답]: 제시된 증례 소견 및 가이드라인에 부합하는 정답 소견입니다.\n• ② JAK2 ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ③ RAS ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ④ BCR-ABL ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ⑤ EGFR ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.",
-      "trap": "• 젊은 연령 유방암 환자에서 가족력이 있다면 반드시 'BRCA1/2 유전자 검사'를 시행하여 반대측 유방암 및 난소암 위험을 평가해야 합니다.",
-      "trigger": "【유전성 유방암-난소암(HBOC) 유전자 검사】\n• BRCA1 / BRCA2 유전자 돌연변이:\n  - 상염색체 우성 유전, DNA 손상 복구 유전자 손상.\n  - 유방암(평생 위험도 70~80%), 난소암(20~40%) 및 췌장암, 전립선암 위험 증가.\n• 위험 감소 수술: 양측 예방적 난소난관절제술(RRSO) 및 유방절제술 고려.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "삼중음성 유방암 및 난소암 가족력: BRCA1/2 유전자 검사",
+      "findings": "48세 젊은 연령 + 삼중음성 유방암(ER-, PR-, HER2-) + 난소암 가족력(이모) → 유전성 유방암-난소암 증후군(HBOC) 확인을 위한 BRCA1 / BRCA2 유전자 검사",
+      "differential": "• ① BRCA (BRCA1 / BRCA2) ✓ [정답]: 50세 이하에서 진단된 삼중음성 유방암(Triple-negative breast cancer, TNBC)이면서 가족 중 난소암 병력이 있는 환자는 '유전성 유방암-난소암 증후군(Hereditary Breast and Ovarian Cancer, HBOC)'의 고위험군입니다. BRCA1/2 생식세포 유전자 변이(Germline mutation) 검사는 환자의 반대측 유방암 및 난소암 위험도 평가, PARP 억제제(Olaparib) 등 표적 치료 적응증 결정, 가족 구성원의 유전 상담을 위해 필수적으로 시행되어야 합니다.\n• ② JAK2 ✗ [오답]: 진성 적혈구증가증(PV), 본태성 혈소판증가증(ET) 등 골수증식종양(MPN) 진단용 유전자 검사입니다.\n• ③ RAS (KRAS/NRAS) ✗ [오답]: 전이성 대장암에서 항EGFR 항체(Cetuximab) 사용 전 내성 돌연변이를 확인하기 위한 종양 유전자 검사입니다.\n• ④ BCR-ABL ✗ [오답]: 만성 골수성 백혈병(CML)과 Ph+ ALL의 필라델피아 염색체 융합유전자 검사입니다.\n• ⑤ EGFR ✗ [오답]: 비소세포폐암(폐선암) 환자에서 EGFR TKI 표적치료제 반응성을 평가하기 위한 검사입니다.",
+      "trap": "• [BRCA 유전자 검사 보험 급여 주요 적응증]:\n  1. 유방암 또는 난소암 가족력이 있는 유방암 환자\n  2. 40세 이하 발병 유방암\n  3. 양측성 유방암\n  4. 60세 이하 진단된 삼중음성 유방암 (TNBC)\n  5. 남성 유방암.",
+      "trigger": "【유전성 암 증후군 대표 유전자】\n• BRCA1 / BRCA2: 유전성 유방암-난소암 증후군 (HBOC) - DNA 이중가닥 절단 상동재조합 결함.\n• MLH1 / MSH2 / MSH6 / PMS2: 린치 증후군 (Lynch syndrome, HNPCC) - 대장암, 자궁내막암, 난소암.\n• APC: 가족성 선종성 용종증 (FAP).\n• TP53: 리-프라우메니 증후군 (Li-Fraumeni).",
+      "kmle_link": "KMLE 혈액종양내과 - 암 유전학 및 유전성 유방암(BRCA) 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "BRCA",
+          "text": "BRCA1 / BRCA2",
           "is_correct": true,
           "tag": "정답",
-          "reason": "50세 이하 삼중음성 유방암(ER/PR/HER2 음성) 및 난소암 가족력이 있으므로 유전성 유방암 유발 돌연변이인 BRCA1/2 유전자 검사가 필수적임"
+          "reason": "삼중음성 유방암 및 난소암 가족력이 있는 환자에서 유전성 유방암-난소암 증후군(HBOC)을 확진하는 검사입니다."
         },
         {
           "opt_idx": 1,
@@ -45886,15 +46398,15 @@ window.QUIZ_DATA = [
           "text": "JAK2",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "전이성 대장암 등에서 항EGFR 단클론항체(Cetuximab 등)의 치료 반응성을 예측하기 위해 시행하는 체세포 유전자 변이 검사입니다."
+          "reason": "골수증식종양(MPN: PV, ET, MF) 진단에 사용되는 유전자 변이 검사입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "RAS",
+          "text": "KRAS / NRAS",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "ABL — 만성 골수성 백혈병(CML)과 필라델피아 염색체 양성 ALL에서 진단 및 표적치료제 반응 평가에 사용되는 융합유전자 검사입니다."
+          "reason": "전이성 대장암의 항EGFR 표적치료 내성 여부를 판별하는 검사입니다."
         },
         {
           "opt_idx": 3,
@@ -45902,7 +46414,7 @@ window.QUIZ_DATA = [
           "text": "BCR-ABL",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "비소세포폐암(폐선암) 환자에서 티로신 키나아제 억제제(Gefitinib, Osimertinib 등) 표적치료 적응증을 평가하기 위한 검사입니다."
+          "reason": "만성 골수성 백혈병(CML) 진단 및 글리벡 반응 평가를 위한 융합유전자 검사입니다."
         },
         {
           "opt_idx": 4,
@@ -45910,7 +46422,7 @@ window.QUIZ_DATA = [
           "text": "EGFR",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "비소세포폐암 표적항암제(TKI) 적응증을 평가하는 검사입니다."
         }
       ],
       "differential_general": ""
@@ -45932,10 +46444,10 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "BRCA",
+        "text": "BRCA1 / BRCA2",
         "is_correct": true,
         "tag": "정답",
-        "reason": "50세 이하 삼중음성 유방암(ER/PR/HER2 음성) 및 난소암 가족력이 있으므로 유전성 유방암 유발 돌연변이인 BRCA1/2 유전자 검사가 필수적임"
+        "reason": "삼중음성 유방암 및 난소암 가족력이 있는 환자에서 유전성 유방암-난소암 증후군(HBOC)을 확진하는 검사입니다."
       },
       {
         "opt_idx": 1,
@@ -45943,15 +46455,15 @@ window.QUIZ_DATA = [
         "text": "JAK2",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "전이성 대장암 등에서 항EGFR 단클론항체(Cetuximab 등)의 치료 반응성을 예측하기 위해 시행하는 체세포 유전자 변이 검사입니다."
+        "reason": "골수증식종양(MPN: PV, ET, MF) 진단에 사용되는 유전자 변이 검사입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "RAS",
+        "text": "KRAS / NRAS",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "ABL — 만성 골수성 백혈병(CML)과 필라델피아 염색체 양성 ALL에서 진단 및 표적치료제 반응 평가에 사용되는 융합유전자 검사입니다."
+        "reason": "전이성 대장암의 항EGFR 표적치료 내성 여부를 판별하는 검사입니다."
       },
       {
         "opt_idx": 3,
@@ -45959,7 +46471,7 @@ window.QUIZ_DATA = [
         "text": "BCR-ABL",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "비소세포폐암(폐선암) 환자에서 티로신 키나아제 억제제(Gefitinib, Osimertinib 등) 표적치료 적응증을 평가하기 위한 검사입니다."
+        "reason": "만성 골수성 백혈병(CML) 진단 및 글리벡 반응 평가를 위한 융합유전자 검사입니다."
       },
       {
         "opt_idx": 4,
@@ -45967,10 +46479,10 @@ window.QUIZ_DATA = [
         "text": "EGFR",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "비소세포폐암 표적항암제(TKI) 적응증을 평가하는 검사입니다."
       }
     ],
-    "answer": "BRCA"
+    "answer": "BRCA1 / BRCA2"
   },
   {
     "id": "내과_22Y_Q50",
@@ -45986,25 +46498,25 @@ window.QUIZ_DATA = [
       "images/내과/22Y_Q50_fig1.png"
     ],
     "options": [
-      "2점 (Low-intermediate risk, 연령 0점, ECOG 1점, LDH 1점, Extranodal 0점, Stage 0점)",
+      "2점 (Low-intermediate risk: ECOG 1점, LDH 1점)",
       "1점",
       "3점",
       "4점",
       "5점"
     ],
     "correct_option_index": 0,
-    "correct_answer": "2점 (Low-intermediate risk, 연령 0점, ECOG 1점, LDH 1점, Extranodal 0점, Stage 0점)",
+    "correct_answer": "2점 (Low-intermediate risk: ECOG 1점, LDH 1점)",
     "explanation": {
-      "findings": "57세 여성 DLBCL+ECOG 2+LDH 상승+PET상 횡격막 상부 국한(Stage II) → IPI 점수 2점",
-      "differential": "• ① 2점 (Low-intermediate risk, 연령 0점, ECOG 1점, LDH 1점, Extranodal 0점, Stage 0점) ✓ [정답]: intermediate risk, 연령 0점, ECOG 1점, LDH 1점, Extranodal 0점, Stage 0점) — 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다\n• ② 1점 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ③ 3점 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ④ 4점 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ⑤ 5점 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.",
+      "findings": "57세(0점) + ECOG 2(1점) + LDH 상승(1점) + Extranodal 0개(0점) + Stage II(0점) → IPI = 2점 (Low-intermediate risk)",
+      "differential": "• ① 2점 (Low-intermediate risk, 연령 0점, ECOG 1점, LDH 1점, Extranodal 0점, Stage 0점) ✓ [정답]: 비호지킨 림프종(DLBCL)의 국제 예후 지수(IPI)는 5개 위험 인자(APLES)로 산정합니다:\n  1. Age (> 60세): 57세이므로 0점\n  2. Performance status (ECOG ≥ 2): ECOG 2이므로 1점\n  3. LDH (> 정상치): LDH 상승(452 U/L)이므로 1점\n  4. Extranodal involvement (> 1곳): 골수 침범 없음(0곳)이므로 0점\n  5. Stage (Ann Arbor III or IV): Stage II이므로 0점\n  따라서 총 IPI 점수는 $0 + 1 + 1 + 0 + 0 =$ 2점(Low-intermediate risk group)입니다.\n• ② 1점 ✗ [오답]: ECOG 2점을 누락한 계산 착오입니다.\n• ③ 3점 ✗ [오답]: 나이나 병기를 잘못 포함시킨 과다 산정입니다.\n• ④ 4점 ✗ [오답]: High-intermediate군 수치입니다.\n• ⑤ 5점 ✗ [오답]: High risk군 수치입니다.",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "2점 (Low-intermediate risk, 연령 0점, ECOG 1점, LDH 1점, Extranodal 0점, Stage 0점)",
+          "text": "2점 (Low-intermediate risk: ECOG 1점, LDH 1점)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "intermediate risk, 연령 0점, ECOG 1점, LDH 1점, Extranodal 0점, Stage 0점) — 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+          "reason": "ECOG 2(1점)와 LDH 상승(1점)의 2개 인자만 충족하여 총 2점(Low-intermediate risk)입니다."
         },
         {
           "opt_idx": 1,
@@ -46012,7 +46524,7 @@ window.QUIZ_DATA = [
           "text": "1점",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "위험 인자 하나를 누락한 계산입니다."
         },
         {
           "opt_idx": 2,
@@ -46020,7 +46532,7 @@ window.QUIZ_DATA = [
           "text": "3점",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "해당 증례의 인자 기준을 초과한 점수입니다."
         },
         {
           "opt_idx": 3,
@@ -46028,7 +46540,7 @@ window.QUIZ_DATA = [
           "text": "4점",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "고위험군에 해당하는 점수입니다."
         },
         {
           "opt_idx": 4,
@@ -46036,14 +46548,14 @@ window.QUIZ_DATA = [
           "text": "5점",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "모든 위험 인자를 가졌을 때의 최고 점수입니다."
         }
       ],
       "differential_general": "",
-      "title": "미만성 거대 B세포 림프종(DLBCL) IPI 예후 점수 2점: Low-intermediate",
-      "trap": "• 환자 나이가 57세이므로 나이 기준(>60세)은 0점입니다. 조건 하나하나를 엄격히 대조해야 점수 오차를 피할 수 있습니다.",
-      "trigger": "【DLBCL 국제예후지수(IPI) 5대 인자 합산】\n• 5대 불량 인자 (각 1점): 1. 나이 > 60세, 2. ECOG PS ≥ 2, 3. LDH 상승, 4. 림프절외 침범 ≥ 2곳, 5. 병기 III or IV.\n• 위험군: 0~1점(Low), 2점(Low-intermediate), 3점(High-intermediate), 4~5점(High).\n• 증례: ECOG 2점(1) + LDH 상승(1) = 총점 2점 → Low-intermediate!",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계"
+      "title": "미만성 거대 B세포 림프종(DLBCL) 예후 지표: IPI 점수 2점 산정",
+      "trap": "• [IPI 5대 예후 인자 암기 공식: APLES]:\n  - Age > 60세 (1점)\n  - Performance ECOG ≥ 2 (1점)\n  - LDH > normal (1점)\n  - Extranodal sites > 1개 (1점)\n  - Stage III or IV (1점)\n  (총 0~1점: Low risk, 2점: Low-intermediate, 3점: High-intermediate, 4~5점: High risk).",
+      "trigger": "【DLBCL 치료 표준 병용 요법】\n• 1차 표준 치료: R-CHOP 요법 (Rituximab + Cyclophosphamide + Doxorubicin + Vincristine + Prednisone).\n• CD20 양성 표적치료제인 리툭시맙(Rituximab) 병용으로 전반적 생존율 획기적 개선.",
+      "kmle_link": "KMLE 혈액종양내과 - 비호지킨 림프종(DLBCL) 병기 및 IPI 예후 평가 가이드라인 연계"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -46062,10 +46574,10 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "2점 (Low-intermediate risk, 연령 0점, ECOG 1점, LDH 1점, Extranodal 0점, Stage 0점)",
+        "text": "2점 (Low-intermediate risk: ECOG 1점, LDH 1점)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "intermediate risk, 연령 0점, ECOG 1점, LDH 1점, Extranodal 0점, Stage 0점) — 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+        "reason": "ECOG 2(1점)와 LDH 상승(1점)의 2개 인자만 충족하여 총 2점(Low-intermediate risk)입니다."
       },
       {
         "opt_idx": 1,
@@ -46073,7 +46585,7 @@ window.QUIZ_DATA = [
         "text": "1점",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "위험 인자 하나를 누락한 계산입니다."
       },
       {
         "opt_idx": 2,
@@ -46081,7 +46593,7 @@ window.QUIZ_DATA = [
         "text": "3점",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "해당 증례의 인자 기준을 초과한 점수입니다."
       },
       {
         "opt_idx": 3,
@@ -46089,7 +46601,7 @@ window.QUIZ_DATA = [
         "text": "4점",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "고위험군에 해당하는 점수입니다."
       },
       {
         "opt_idx": 4,
@@ -46097,10 +46609,10 @@ window.QUIZ_DATA = [
         "text": "5점",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "모든 위험 인자를 가졌을 때의 최고 점수입니다."
       }
     ],
-    "answer": "2점 (Low-intermediate risk, 연령 0점, ECOG 1점, LDH 1점, Extranodal 0점, Stage 0점)"
+    "answer": "2점 (Low-intermediate risk: ECOG 1점, LDH 1점)"
   },
   {
     "id": "내과_22Y_Q51",
@@ -46123,12 +46635,12 @@ window.QUIZ_DATA = [
     "correct_option_index": 0,
     "correct_answer": "도파민 작용제 (Bromocriptine / Cabergoline)",
     "explanation": {
-      "title": "프로락틴 분비 뇌하수체 거대선종(Prolactinoma) 1차 약물 치료: 도파민 작용제",
-      "findings": "무증상 뇌하수체 거대 프로락틴종 → 지문 제시 기준 경과관찰(교과서적 표준은 도파민 작용제 투여)",
-      "differential": "• ① 도파민 작용제 (Bromocriptine / Cabergoline) ✓ [정답]: 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다\n• ② 경접형동 접근 뇌하수체 종양 절제술 (TSA) ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ③ 단순 경과관찰 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ④ 뇌하수체 방사선 수술 (Gamma-knife) ✗ [오답]: knife) — 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ⑤ 외부 방사선 분할 조사 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.",
-      "trap": "• 다른 뇌하수체 거대선종(GH, ACTH 등)은 수술이 1차이지만, 프로락틴종은 거대선종이라도 '수술이 아닌 도파민 작용제(Cabergoline)'가 1차 치료입니다.",
-      "trigger": "【프로락틴종(Prolactinoma) 치료 대원칙】\n• 뇌하수체 선종 중 유일하게 거대선종(Macroadenoma, >1cm)이라도 '약물 치료가 1차 표준 선택'!\n• 1차 표준 약제:\n  - 도파민 작용제(Dopamine agonist: Cabergoline 또는 Bromocriptine).\n  - 효과: 80~90% 환자에서 프로락틴 정상화 및 종양 크기 극적 축소, 시야 장애 회복.\n• 수술(TSA): 도파민 작용제에 불응하거나 불내성인 경우에만 2차로 고려.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "뇌하수체 프로락틴종(Prolactinoma)의 1차 표준 치료: 도파민 작용제(Cabergoline)",
+      "findings": "뇌하수체 거대선종(Macroadenoma) + 혈청 프로락틴 현저한 상승 + 시야 결손/신경학적 증상 없음 → 거대선종이어도 1차 표준 치료는 도파민 작용제(Bromocriptine / Cabergoline)",
+      "differential": "• ① 도파민 작용제 (Bromocriptine / Cabergoline) ✓ [정답]: 프로락틴 분비 뇌하수체 선종(Prolactinoma)은 크기가 10mm를 넘는 거대선종(Macroadenoma)이라 할지라도 '도파민 작용제(Dopamine agonist: Cabergoline, Bromocriptine)' 약물 요법이 1차 표준 치료입니다. 도파민 작용제는 프로락틴 분비를 억제할 뿐 아니라 종양 크기를 80~90% 이상 드라마틱하게 축소시키므로, 급격한 시력 소실이나 출혈(뇌하수체 졸중) 등 응급 상황이 아니라면 수술보다 약물 치료를 먼저 시행합니다.\n• ② 경접형동 접근 뇌하수체 종양 절제술 (TSA) ✗ [오답]: 다른 기능성 뇌하수체 종양(GH 분비 선종, ACTH 분비 쿠싱병)은 수술이 1차이지만, 프로락틴종은 약물 치료에 불응하거나 부작용으로 약물을 쓸 수 없는 경우, 또는 시신경 압박으로 급성 시력 소실 시에 2차로 시행합니다.\n• ③ 단순 경과관찰 ✗ [오답]: 거대선종을 방치하면 종양 증식으로 시신경 교차 압박 및 범뇌하수체 기능저하증을 초래합니다.\n• ④ 뇌하수체 방사선 수술 (Gamma-knife) ✗ [오답]: 수술과 약물에 모두 실패한 잔여 종양의 3차 보조 치료입니다.\n• ⑤ 외부 방사선 분할 조사 ✗ [오답]: 침습성 악성 종양이나 난치성 종양의 최후 치료입니다.",
+      "trap": "• [뇌하수체 선종 1차 치료 단골 함정]:\n  - 프로락틴종 (Prolactinoma): 크기에 상관없이 무조건 '도파민 작용제(약물)'가 1차!\n  - 성장호르몬 분비 선종 (말단비대증) & ACTH 분비 선종 (쿠싱병): 무조건 '경접형동 수술(TSA)'이 1차!",
+      "trigger": "【프로락틴종(Prolactinoma) 약제 특성】\n• 카베르골린 (Cabergoline): D2 수용체 고선택성, 주 1~2회 복용, 효과 우수 및 위장관 부작용 적음 (1차 선택제).\n• 브로모크립틴 (Bromocriptine): 매일 복용, 오심/기립성 저혈압 흔함, 임신 희망 시 전통적으로 선호.",
+      "kmle_link": "KMLE 내분비내과 - 뇌하수체 질환 및 프로락틴종 치료 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
@@ -46136,7 +46648,7 @@ window.QUIZ_DATA = [
           "text": "도파민 작용제 (Bromocriptine / Cabergoline)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+          "reason": "거대선종이라도 종양 크기 축소와 호르몬 정상화 효과가 탁월하여 1차 표준 치료로 우선 적용됩니다."
         },
         {
           "opt_idx": 1,
@@ -46144,7 +46656,7 @@ window.QUIZ_DATA = [
           "text": "경접형동 접근 뇌하수체 종양 절제술 (TSA)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "약물 치료 불응성이거나 급성 신경학적 결손 발생 시 2차로 고려합니다."
         },
         {
           "opt_idx": 2,
@@ -46152,7 +46664,7 @@ window.QUIZ_DATA = [
           "text": "단순 경과관찰",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "거대선종의 진행성 압박 위험으로 치료가 필요합니다."
         },
         {
           "opt_idx": 3,
@@ -46160,7 +46672,7 @@ window.QUIZ_DATA = [
           "text": "뇌하수체 방사선 수술 (Gamma-knife)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "knife) — 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "약물과 수술 후 잔여 병변의 보조 치료입니다."
         },
         {
           "opt_idx": 4,
@@ -46168,7 +46680,7 @@ window.QUIZ_DATA = [
           "text": "외부 방사선 분할 조사",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "치료 효과 발현이 수년 이상 걸리며 범뇌하수체 기능저하증을 유발합니다."
         }
       ],
       "differential_general": ""
@@ -46193,7 +46705,7 @@ window.QUIZ_DATA = [
         "text": "도파민 작용제 (Bromocriptine / Cabergoline)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+        "reason": "거대선종이라도 종양 크기 축소와 호르몬 정상화 효과가 탁월하여 1차 표준 치료로 우선 적용됩니다."
       },
       {
         "opt_idx": 1,
@@ -46201,7 +46713,7 @@ window.QUIZ_DATA = [
         "text": "경접형동 접근 뇌하수체 종양 절제술 (TSA)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "약물 치료 불응성이거나 급성 신경학적 결손 발생 시 2차로 고려합니다."
       },
       {
         "opt_idx": 2,
@@ -46209,7 +46721,7 @@ window.QUIZ_DATA = [
         "text": "단순 경과관찰",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "거대선종의 진행성 압박 위험으로 치료가 필요합니다."
       },
       {
         "opt_idx": 3,
@@ -46217,7 +46729,7 @@ window.QUIZ_DATA = [
         "text": "뇌하수체 방사선 수술 (Gamma-knife)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "knife) — 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "약물과 수술 후 잔여 병변의 보조 치료입니다."
       },
       {
         "opt_idx": 4,
@@ -46225,7 +46737,7 @@ window.QUIZ_DATA = [
         "text": "외부 방사선 분할 조사",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "치료 효과 발현이 수년 이상 걸리며 범뇌하수체 기능저하증을 유발합니다."
       }
     ],
     "answer": "도파민 작용제 (Bromocriptine / Cabergoline)"
@@ -46242,61 +46754,61 @@ window.QUIZ_DATA = [
     "stem": "38세 남성이 갑상선 중독증 증상으로 내원하였다. 갑상선 초음파상 좌엽에 3.3cm 단일 결절이 있었고, TSH < 0.019 μIU/mL, 유리 T4 2.68 ng/dL였으며 갑상선 스캔상 좌엽 결절에 섭취가 집중된 열결절(Hot nodule)을 보였다. 치료는?",
     "images": [],
     "options": [
-      "방사성 요오드 치료 (Radioactive iodine) 또는 수술",
-      "메티마졸(Methimazole) 평생 단독 유지요법",
-      "단순 경과관찰",
-      "프로필티오우라실(PTU) 고용량 평생 단독요법",
-      "레보티록신 투여"
+      "중독성 선종 (Toxic adenoma) - 방사성 요오드 치료 또는 수술",
+      "그레이브스병 (Graves' disease) - 항갑상선제 평생 투여",
+      "아급성 갑상선염 (Subacute thyroiditis) - 소염진통제 및 경과관찰",
+      "무통성 갑상선염 (Painless thyroiditis) - 베타차단제 증량",
+      "갑상선 유두암 (Papillary thyroid carcinoma) - 전절제술"
     ],
     "correct_option_index": 0,
-    "correct_answer": "방사성 요오드 치료 (Radioactive iodine) 또는 수술",
+    "correct_answer": "중독성 선종 (Toxic adenoma) - 방사성 요오드 치료 또는 수술",
     "explanation": {
-      "title": "중독성 갑상선 결절(Toxic Adenoma)의 확진 및 방사성 요오드 치료/수술",
-      "findings": "단일 갑상선 결절(3.3cm)+TSH 억제 및 T3/fT4 상승 → 독성 선종(Toxic adenoma), 근치 치료인 방사성요오드",
-      "differential": "• ① 방사성 요오드 치료 (Radioactive iodine) 또는 수술 ✓ [정답]: 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다\n• ② 메티마졸(Methimazole) 평생 단독 유지요법 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ③ 단순 경과관찰 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ④ 프로필티오우라실(PTU) 고용량 평생 단독요법 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ⑤ 레보티록신 투여 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.",
-      "trap": "• 그레이브스병은 전체 갑상선 조직이 미만성으로 섭취를 증가시키는 반면, 독성 선종은 '단일 결절만 까맣게 섭취하는 열결절' 소견으로 감별합니다.",
-      "trigger": "【중독성 자율기능 결절(Toxic Adenoma) 진단 및 치료】\n• 진단: TSH 억제, Free T4 상승 + 갑상선 스캔 상 단일 열결절(Hot nodule, 결절 부위만 방사능 섭취 증가, 나머지 정상 갑상선 조직 섭취 억제).\n• 표준 치료:\n  - 항갑상선제는 일시적 증상 조절용이며, 근본 치료는 '방사성 요오드 치료(RAI)' 또는 '편엽 절제술(Lobectomy)'.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "중독성 선종(Toxic Adenoma) 확진 및 치료: 방사성 요오드 치료 또는 수술",
+      "findings": "갑상선 중독증 + 초음파상 2.5cm 단일 결절 + 스캔상 결절 부위 방사능 섭취 집중 및 정상 조직 섭취 억제(Hot nodule) → 중독성 선종(Toxic adenoma), 방사성 요오드 치료(131-I) 또는 수술적 절제",
+      "differential": "• ① 중독성 선종 (Toxic adenoma) - 방사성 요오드 치료 또는 수술 ✓ [정답]: 결절 부위가 자율적으로 과도한 갑상선 호르몬을 분비하여 뇌하수체 TSH를 억제함으로써 정상 갑상선 조직의 요오드 섭취가 완전히 차단된 전형적인 '열결절(Hot nodule, Toxic adenoma)' 소견입니다. 중독성 선종은 항갑상선제를 중단하면 100% 재발하므로, 완치를 위한 근치적 치료로 방사성 요오드 치료(131-I ablation) 또는 결절을 포함한 갑상선 엽절제술(Lobectomy)을 시행합니다.\n• ② 그레이브스병 (Graves' disease) ✗ [오답]: 스캔상 양측 갑상선 전반에 미만성(Diffuse) 섭취 증가를 보이며 안병증이나 TSH 수용체 항체 양성을 동반합니다.\n• ③ 아급성 갑상선염 (Subacute thyroiditis) ✗ [오답]: 바이러스 감염 후 전경부 통증, 압통이 동반되며 스캔상 요오드 섭취율이 1% 미만으로 극도로 떨어집니다.\n• ④ 무통성 갑상선염 (Painless thyroiditis) ✗ [오답]: 자가면역성 파괴성 갑상선염으로 스캔상 섭취율이 전반적으로 억제됩니다.\n• ⑤ 갑상선 유두암 (Papillary thyroid carcinoma) ✗ [오답]: 스캔상 결절 부위에 방사능 섭취가 결손되는 '냉결절(Cold nodule)'로 주로 나타납니다.",
+      "trap": "• [Hot nodule의 암 발생 위험도]: Hot nodule은 거의 대부분 양성 종양(악성 위험 < 1%)이므로 세침흡인세포검사(FNAB)를 원칙적으로 시행하지 않고 곧바로 방사성 요오드 또는 수술로 치료합니다.",
+      "trigger": "【갑상선 중독증 스캔(99mTc / 123-I Scan) 패턴 감별】\n• 섭취율 증가 (호르몬 합성 과다):\n  - 미만성 균일 섭취: 그레이브스병 (Graves' disease).\n  - 단일 국소 결절 섭취 집중 + 나머지 억제: 중독성 선종 (Toxic adenoma).\n  - 다발성 결절 섭취: 중독성 다결절성 갑상선종 (Plummer's disease).\n• 섭취율 현저 저하 (파괴성 갑상선염/외인성):\n  - 아급성 갑상선염 (통증 O, ESR 급상승), 무통성/산후 갑상선염, 인위적 복용.",
+      "kmle_link": "KMLE 내분비내과 - 갑상선 결절 및 기능항진증 감별진단 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "방사성 요오드 치료 (Radioactive iodine) 또는 수술",
+          "text": "중독성 선종 (Toxic adenoma) - 방사성 요오드 치료 또는 수술",
           "is_correct": true,
           "tag": "정답",
-          "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+          "reason": "단일 열결절(Hot nodule) 소견으로 자율 분비 선종을 확진하며, 완치를 위해 방사성 요오드 투여 또는 수술적 절제를 시행합니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "메티마졸(Methimazole) 평생 단독 유지요법",
+          "text": "그레이브스병 (Graves' disease) - 항갑상선제 평생 투여",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "갑상선 전반의 미만성 섭취 증가 소견을 보입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "단순 경과관찰",
+          "text": "아급성 갑상선염 (Subacute thyroiditis) - 소염진통제 및 경과관찰",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "경부 압통을 동반하며 스캔상 섭취율이 전반적으로 저하됩니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "프로필티오우라실(PTU) 고용량 평생 단독요법",
+          "text": "무통성 갑상선염 (Painless thyroiditis) - 베타차단제 증량",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "파괴성 갑상선염으로 스캔상 섭취율이 매우 낮습니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "레보티록신 투여",
+          "text": "갑상선 유두암 (Papillary thyroid carcinoma) - 전절제술",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "갑상선암은 대부분 스캔상 방사능 섭취가 없는 냉결절(Cold nodule)입니다."
         }
       ],
       "differential_general": ""
@@ -46318,45 +46830,45 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "방사성 요오드 치료 (Radioactive iodine) 또는 수술",
+        "text": "중독성 선종 (Toxic adenoma) - 방사성 요오드 치료 또는 수술",
         "is_correct": true,
         "tag": "정답",
-        "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+        "reason": "단일 열결절(Hot nodule) 소견으로 자율 분비 선종을 확진하며, 완치를 위해 방사성 요오드 투여 또는 수술적 절제를 시행합니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "메티마졸(Methimazole) 평생 단독 유지요법",
+        "text": "그레이브스병 (Graves' disease) - 항갑상선제 평생 투여",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "갑상선 전반의 미만성 섭취 증가 소견을 보입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "단순 경과관찰",
+        "text": "아급성 갑상선염 (Subacute thyroiditis) - 소염진통제 및 경과관찰",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "경부 압통을 동반하며 스캔상 섭취율이 전반적으로 저하됩니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "프로필티오우라실(PTU) 고용량 평생 단독요법",
+        "text": "무통성 갑상선염 (Painless thyroiditis) - 베타차단제 증량",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "파괴성 갑상선염으로 스캔상 섭취율이 매우 낮습니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "레보티록신 투여",
+        "text": "갑상선 유두암 (Papillary thyroid carcinoma) - 전절제술",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "갑상선암은 대부분 스캔상 방사능 섭취가 없는 냉결절(Cold nodule)입니다."
       }
     ],
-    "answer": "방사성 요오드 치료 (Radioactive iodine) 또는 수술"
+    "answer": "중독성 선종 (Toxic adenoma) - 방사성 요오드 치료 또는 수술"
   },
   {
     "id": "내과_22Y_Q53",
@@ -46370,61 +46882,61 @@ window.QUIZ_DATA = [
     "stem": "관절염 등으로 장기간 스테로이드를 복용한 환자에서 의인성 쿠싱증후군 및 2차성 부신기능부전을 평가하기 위해 시상하부-뇌하수체-부신 축의 예비능을 확인하는 가장 적절한 진단 검사는?",
     "images": [],
     "options": [
-      "Rapid ACTH stimulation test",
-      "야간 1mg 덱사메타손 억제검사",
-      "24시간 소변 유리 코르티솔 검사",
-      "고용량 덱사메타손 억제검사",
-      "혈청 ACTH 측정 단독"
+      "급속 ACTH 자극검사 (Rapid ACTH stimulation test)",
+      "야간 1mg 덱사메타손 억제검사 (Overnight 1mg DST)",
+      "24시간 소변 유리 코르티솔 검사 (24hr UFC)",
+      "고용량 덱사메타손 억제검사 (High-dose DST)",
+      "혈청 ACTH 단독 측정"
     ],
     "correct_option_index": 0,
-    "correct_answer": "Rapid ACTH stimulation test",
+    "correct_answer": "급속 ACTH 자극검사 (Rapid ACTH stimulation test)",
     "explanation": {
-      "title": "장기 스테로이드 복용 후 2차 부신기능부전 확진: 신속 ACTH 자극검사",
-      "findings": "쿠싱 증후군 의심 환자의 선별 평가 → 야간 덱사메타손 억제검사(Overnight DST)",
-      "differential": "• ① 신속 ACTH 자극검사 (Rapid ACTH stimulation test) ✓ [정답]: 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다\n• ② 야간 1mg 덱사메타손 억제검사 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ③ 24시간 소변 유리 코르티솔 검사 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ④ 고용량 덱사메타손 억제검사 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ⑤ 혈청 ACTH 측정 단독 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.",
-      "trap": "• 아침 기저 코르티솔 검사만으로는 경계선 수치에서 부신기능부전을 배제할 수 없으므로 반드시 'ACTH 자극검사'로 부신의 예비능을 확인해야 합니다.",
-      "trigger": "【부신기능부전(Adrenal Insufficiency) 확진 검사 표준】\n• 1차 표준 확진 검사:\n  - 신속 ACTH 자극검사(Rapid ACTH stimulation test / Synacthen test).\n  - Cosyntropin 250 mcg 정맥 주사 후 30분, 60분 혈청 코르티솔 측정.\n  - 정상: 자극 후 최고 코르티솔 ≥ 18~20 mcg/dL. 미달 시 부신기능부전 확진.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "장기 스테로이드 복용 후 2차 부신기능부전 확진: 급속 ACTH 자극검사",
+      "findings": "장기 외인성 스테로이드 복용력 + HPA axis 억제에 따른 2차성 부신피질기능부전 평가 → 부신피질의 분비 예비능을 직접 평가하는 급속 ACTH 자극검사(Rapid ACTH stimulation test)",
+      "differential": "• ① 급속 ACTH 자극검사 (Rapid ACTH stimulation test) ✓ [정답]: 장기간 글루코코르티코이드를 복용한 환자는 시상하부-뇌하수체-부신(HPA) 축이 억제되어 부신피질이 위축됩니다. 감량 또는 중단 시 부신기능부전(Adrenal insufficiency)이 발생할 위험이 높으므로, 합성 ACTH(Cosyntropin 250 mcg)를 정맥 주사한 후 30분, 60분에 혈청 코르티솔을 측정하는 '급속 ACTH 자극검사'를 시행합니다. 주사 후 최고 코르티솔 농도가 18 mcg/dL 이상으로 상승하면 정상 예비능으로 판정합니다.\n• ② 야간 1mg 덱사메타손 억제검사 (Overnight 1mg DST) ✗ [오답]: 코르티솔 과다 분비 질환인 쿠싱증후군(Cushing's syndrome)의 선별 검사입니다.\n• ③ 24시간 소변 유리 코르티솔 검사 (24hr UFC) ✗ [오답]: 역시 쿠싱증후군의 확진 선별 검사입니다.\n• ④ 고용량 덱사메타손 억제검사 (High-dose DST) ✗ [오답]: 이미 확진된 쿠싱증후군에서 뇌하수체 원인(쿠싱병)과 이소성 ACTH 증후군을 감별하기 위한 검사입니다.\n• ⑤ 혈청 ACTH 단독 측정 ✗ [오답]: 1차성과 2차성 부신기능부전을 감별하는 보조 지표이나 부신피질의 자극 예비능 자체를 평가하지 못합니다.",
+      "trap": "• [쿠싱증후군 vs 부신기능부전 검사 감별 공식]:\n  - 코르티솔 과다(쿠싱증후군): 억제 검사 (Dexamethasone suppression test, 24hr UFC).\n  - 코르티솔 결핍(부신기능부전): 자극 검사 (Rapid ACTH stimulation test).",
+      "trigger": "【급속 ACTH 자극검사(Cosyntropin test) 판독】\n• 방법: Cosyntropin 250 μg IV/IM 투여 후 30분, 60분 혈청 Cortisol 측정.\n• 정상 반응: 기저치와 무관하게 자극 후 Peak Cortisol ≥ 18 μg/dL (또는 500 nmol/L).\n• 비정상 (부신기능부전): Peak Cortisol < 18 μg/dL (원발성 및 만성 속발성 모두 부신 위축으로 반응 불량).",
+      "kmle_link": "KMLE 내분비내과 - 부신기능부전 진단 및 ACTH 자극검사 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "Rapid ACTH stimulation test",
+          "text": "급속 ACTH 자극검사 (Rapid ACTH stimulation test)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+          "reason": "외인성 스테로이드로 위축된 부신피질의 호르몬 합성 및 분비 예비능을 평가하는 표준 확진 검사입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "야간 1mg 덱사메타손 억제검사",
+          "text": "야간 1mg 덱사메타손 억제검사 (Overnight 1mg DST)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "쿠싱증후군 선별용 억제 검사로 결핍증 진단에 부적합합니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "24시간 소변 유리 코르티솔 검사",
+          "text": "24시간 소변 유리 코르티솔 검사 (24hr UFC)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "코르티솔 과다 분비를 평가하는 검사입니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "고용량 덱사메타손 억제검사",
+          "text": "고용량 덱사메타손 억제검사 (High-dose DST)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "쿠싱병의 원인 부위를 감별하는 검사입니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "혈청 ACTH 측정 단독",
+          "text": "혈청 ACTH 단독 측정",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "부신의 자극 반응 예비능을 증명하지 못합니다."
         }
       ],
       "differential_general": ""
@@ -46446,45 +46958,45 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Rapid ACTH stimulation test",
+        "text": "급속 ACTH 자극검사 (Rapid ACTH stimulation test)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+        "reason": "외인성 스테로이드로 위축된 부신피질의 호르몬 합성 및 분비 예비능을 평가하는 표준 확진 검사입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "야간 1mg 덱사메타손 억제검사",
+        "text": "야간 1mg 덱사메타손 억제검사 (Overnight 1mg DST)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "쿠싱증후군 선별용 억제 검사로 결핍증 진단에 부적합합니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "24시간 소변 유리 코르티솔 검사",
+        "text": "24시간 소변 유리 코르티솔 검사 (24hr UFC)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "코르티솔 과다 분비를 평가하는 검사입니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "고용량 덱사메타손 억제검사",
+        "text": "고용량 덱사메타손 억제검사 (High-dose DST)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "쿠싱병의 원인 부위를 감별하는 검사입니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "혈청 ACTH 측정 단독",
+        "text": "혈청 ACTH 단독 측정",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "부신의 자극 반응 예비능을 증명하지 못합니다."
       }
     ],
-    "answer": "Rapid ACTH stimulation test"
+    "answer": "급속 ACTH 자극검사 (Rapid ACTH stimulation test)"
   },
   {
     "id": "내과_22Y_Q54",
@@ -46509,12 +47021,12 @@ window.QUIZ_DATA = [
     "correct_option_index": 0,
     "correct_answer": "보호 압력 감각 (Protective sensation / Pressure)",
     "explanation": {
-      "title": "당뇨병성 말초신경병증 선별을 위한 10g 모노필라멘트 검사 (보호 감각)",
-      "findings": "65세 남성 당뇨 합병증 선별을 위한 발 감각 검사 → 10g 모노필라멘트를 이용한 압각(보호감각) 평가",
-      "differential": "• ① 보호 압력 감각 (Protective sensation / Pressure) ✓ [정답]: 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다\n• ② 고유 수용성 감각 (Proprioception) ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ③ 통각 (Pinprick pain) ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ④ 온도 감각 (Temperature) ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ⑤ 진동 감각 (Vibration) ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.",
-      "trap": "• 모노필라멘트는 진동 감각이나 온도 감각이 아니라 '발의 상처를 인지하는 보호 압력 감각'을 평가하는 도구입니다.",
-      "trigger": "【당뇨병성 족부 궤양 예방을 위한 신경학적 선별】\n• 10g 세메스-와인스타인 모노필라멘트(Semmes-Weinstein Monofilament):\n  - 족부 궤양 및 절단 위험을 초래하는 '보호 압력 감각(Protective Sensation)' 소실 여부를 선별하는 가장 표준적인 검사.\n  - 발바닥 주요 부위 10곳 중 감각 소실 부위 확인.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "당뇨병성 말초신경병증 선별 검사: 10g 모노필라멘트 검사와 보호 감각",
+      "findings": "당뇨병 환자의 발바닥에 10g 세메스-와인스타인 모노필라멘트를 적용하여 발 궤양 발생을 막는 보호 압력 감각(Loss of protective sensation) 소실 여부를 선별",
+      "differential": "• ① 보호 압력 감각 (Protective sensation / Pressure) ✓ [정답]: 10g 세메스-와인스타인 모노필라멘트(Semmes-Weinstein monofilament) 검사는 당뇨병 환자에서 족부 궤양(Diabetic foot ulcer) 및 절단 위험을 예측하는 '보호 압력 감각(Loss of Protective Sensation, LOPS)'의 소실 여부를 평가하는 가장 간단하고 표준적인 선별 검사입니다. 나일론 필라멘트가 휠 때까지 10g의 압력을 가했을 때 감각을 인지하지 못하면 신발이나 이물에 의한 압박 손상을 자각하지 못해 궤양이 발생할 고위험군으로 판정합니다.\n• ② 고유 수용성 감각 (Proprioception) ✗ [오답]: 관절의 위치 감각(Position sense)으로 엄지발가락을 위아래로 움직여 평가합니다.\n• ③ 통각 (Pinprick pain) ✗ [오답]: 핀이나 바늘 끝으로 찔러 작은 신경섬유(Small fiber) 손상을 평가합니다.\n• ④ 온도 감각 (Temperature) ✗ [오답]: 차가운 금속 막대나 알코올 솜 등을 대어 작은 신경섬유 기능을 평가합니다.\n• ⑤ 진동 감각 (Vibration) ✗ [오답]: 128Hz 음차(Tuning fork)를 엄지발가락 돌출 부위에 대어 큰 신경섬유(Large fiber) 기능을 평가합니다.",
+      "trap": "• [당뇨병 족부 검진 필수 2대 검사]:\n  1. 10g 모노필라멘트 검사 (보호 압력 감각 소실 확인)\n  2. 128Hz 음차 진동 감각 검사 (또는 발목 반사/핀찌름 검사).",
+      "trigger": "【당뇨병성 신경병증 선별 가이드라인 (ADA)】\n• 선별 주기: 제2형 당뇨병은 진단 즉시, 제1형 당뇨병은 진단 5년 후부터 매년 정기 검진.\n• 10g 모노필라멘트 적용 부위: 엄지발가락 바닥, 3번/5번 중족골두 바닥 등 최소 3~10곳 평가.\n• 예방 교육: 매일 발 관찰, 편안한 신발 착용, 맨발 보행 금지, 발톱 일자 깎기.",
+      "kmle_link": "KMLE 내분비내과 - 당뇨병 합병증: 당뇨발 및 말초신경병증 평가 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
@@ -46522,7 +47034,7 @@ window.QUIZ_DATA = [
           "text": "보호 압력 감각 (Protective sensation / Pressure)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+          "reason": "족부 궤양의 주요 위험 인자인 보호 감각(LOPS) 소실을 선별하기 위한 10g 압력 검사입니다."
         },
         {
           "opt_idx": 1,
@@ -46530,7 +47042,7 @@ window.QUIZ_DATA = [
           "text": "고유 수용성 감각 (Proprioception)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "관절 위치 감각 검사로 평가합니다."
         },
         {
           "opt_idx": 2,
@@ -46538,7 +47050,7 @@ window.QUIZ_DATA = [
           "text": "통각 (Pinprick pain)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "핀찌름 검사로 평가합니다."
         },
         {
           "opt_idx": 3,
@@ -46546,7 +47058,7 @@ window.QUIZ_DATA = [
           "text": "온도 감각 (Temperature)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "온각/냉각 자극 도구로 평가합니다."
         },
         {
           "opt_idx": 4,
@@ -46554,7 +47066,7 @@ window.QUIZ_DATA = [
           "text": "진동 감각 (Vibration)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "128Hz 음차 진동 검사로 평가합니다."
         }
       ],
       "differential_general": ""
@@ -46579,7 +47091,7 @@ window.QUIZ_DATA = [
         "text": "보호 압력 감각 (Protective sensation / Pressure)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+        "reason": "족부 궤양의 주요 위험 인자인 보호 감각(LOPS) 소실을 선별하기 위한 10g 압력 검사입니다."
       },
       {
         "opt_idx": 1,
@@ -46587,7 +47099,7 @@ window.QUIZ_DATA = [
         "text": "고유 수용성 감각 (Proprioception)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "관절 위치 감각 검사로 평가합니다."
       },
       {
         "opt_idx": 2,
@@ -46595,7 +47107,7 @@ window.QUIZ_DATA = [
         "text": "통각 (Pinprick pain)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "핀찌름 검사로 평가합니다."
       },
       {
         "opt_idx": 3,
@@ -46603,7 +47115,7 @@ window.QUIZ_DATA = [
         "text": "온도 감각 (Temperature)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "온각/냉각 자극 도구로 평가합니다."
       },
       {
         "opt_idx": 4,
@@ -46611,7 +47123,7 @@ window.QUIZ_DATA = [
         "text": "진동 감각 (Vibration)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "128Hz 음차 진동 검사로 평가합니다."
       }
     ],
     "answer": "보호 압력 감각 (Protective sensation / Pressure)"
@@ -46756,45 +47268,45 @@ window.QUIZ_DATA = [
     "stem": "35 세 여성 환자가 관절통을 주소로 내원하였다. 6 년 전부터 양측 손목에 통증이 있어왔으며, 2 개월 전부터 양측 손목의 통증과 부종, 오른쪽 팔목의 부종, 오른쪽 2번째 MCP의 통증을 느끼기 시작하였다. 검사결과 CBC Hb 12.6, WBC 9200, Platelet 17500, ESR 40 CRP 4, ANA (-)로 나타났을 때, 환자에게 가장 적절한 진단은?",
     "images": [],
     "options": [
-      "통풍",
       "류마티스 관절염",
       "골관절염",
+      "통풍",
       "강직성 척추염",
-      "반응성 관절염?"
+      "반응성 관절염"
     ],
     "correct_option_index": 0,
-    "correct_answer": "통풍",
+    "correct_answer": "류마티스 관절염",
     "explanation": {
-      "title": "류마티스 관절염 vs 통풍 vs 골관절염 감별진단",
-      "findings": "양측 손목 및 MCP 관절염+염증수치 상승(RA 의심) → 높은 특이도로 확진을 돕는 항시트룰린화단백질항체(ACPA)",
-      "differential": "• ① 통풍 ✓ [정답]: 제시된 증례 소견 및 가이드라인에 부합하는 정답 소견입니다.\n• ② 류마티스 관절염 ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ③ 골관절염 ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ④ 강직성 척추염 ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ⑤ 반응성 관절염? ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.",
-      "trap": "• 6년간 지속된 양측 손목 통증과 조조강직 환자는 통풍이 아니라 류마티스 관절염을 진단해야 합니다.",
-      "trigger": "【다발관절통 감별 공식】\n• RA: 만성 대칭성 수부 소관절(PIP/MCP), 조조강직 > 1시간, 여성 호발.\n• Gout: 급성 단관절염(엄지발가락), 극심한 통증, 남성 호발.\n• OA: 고령, 체중부하 관절 및 수부 DIP 관절, 운동 시 악화, 짧은 조조강직(<30분).",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "만성 다발관절통 감별진단: 류마티스 관절염(Rheumatoid Arthritis)",
+      "findings": "35세 여성 + 6년 지속된 양측 손목 통증 및 최근 양측 손목/오른쪽 2번째 MCP 부종/통증 + ESR/CRP 상승 + ANA 음성 → 만성 대칭성 소관절염, 류마티스 관절염(Rheumatoid Arthritis)",
+      "differential": "• ① 류마티스 관절염 (Rheumatoid arthritis) ✓ [정답]: 35세 가임기 여성에서 6년간 양측 손목과 2번째 MCP(중수수지관절)를 침범하는 만성 대칭성 다발소관절염 소견이며, 염증 표지자(ESR 40, CRP 4)가 뚜렷이 상승되어 있습니다. 전형적인 류마티스 관절염(RA)의 호발 연령 및 임상 양상에 완벽히 부합합니다.\n• ② 골관절염 (Osteoarthritis) ✗ [오답]: 퇴행성 관절염으로 주로 고령에서 호발하며 체중 부하 관절(무릎, 고관절) 및 손의 원위지관절(DIP, Heberden 결절)을 주로 침범하고, 적혈구침강속도(ESR)나 CRP 등 전신 염증 수치는 대개 정상입니다.\n• ③ 통풍 (Gout) ✗ [오답]: 주로 중년 남성에서 첫 번째 중족지관절(엄지발가락)에 발생하는 급성 단관절염(Monoarthritis)이 특징이며, 젊은 여성에서 대칭성 수부 만성 다발관절염으로 시작하는 경우는 극히 드뭅니다.\n• ④ 강직성 척추염 (Ankylosing spondylitis) ✗ [오답]: 20~30대 젊은 남성에서 천장관절염 및 척추의 염증성 요통, 비대칭성 하지 대관절염이 특징입니다.\n• ⑤ 반응성 관절염 (Reactive arthritis) ✗ [오답]: 요도염이나 감염성 장염 후 발생하는 급성 비대칭성 하지 소수관절염(Oligoarthritis)입니다.",
+      "trap": "• [원래 답 오류 교정]: 기존 덤프에서 1번 보기가 통풍으로 잘못 기재되어 정답 인덱스가 0번으로 지정되었던 오류를 바로잡았습니다. 본 문제는 6년간 손목과 MCP 관절염을 앓고 있는 젊은 여성으로 정답은 명백히 '류마티스 관절염'입니다.",
+      "trigger": "【염증성 관절염 vs 비염증성 관절염 감별 포인트】\n• 류마티스 관절염 (RA): 30~50대 여성, 대칭성 수부 소관절(PIP, MCP, Wrist, DIP 침범 제외), 조조강직 1시간 이상, ESR/CRP 상승.\n• 골관절염 (OA): 고령, 비염증성, 체중부하 관절 및 DIP/PIP 침범, 짧은 조조강직(< 30분), 운동 시 악화.",
+      "kmle_link": "KMLE 류마티스내과 - 관절통 감별진단 및 류마티스 관절염 분류 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "통풍",
+          "text": "류마티스 관절염",
           "is_correct": true,
           "tag": "정답",
-          "reason": "류마티스 관절염(RA)에 대한 특이도가 95~98%로 매우 높아 조기 진단 및 골 미란 진행 예측에 가장 결정적인 1차 필수 자가항체 검사입니다"
+          "reason": "젊은 여성의 만성 대칭성 손목 및 MCP 소관절염, 염증 수치 상승 소견으로 전형적인 류마티스 관절염입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "류마티스 관절염",
+          "text": "골관절염",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "항핵항체는 이미 혈액검사에서 음성(-)으로 확인되었으며 전신홍반루푸스(SLE) 선별검사이므로 재검할 필요가 없습니다."
+          "reason": "고령에서 주로 호발하며 DIP 관절을 침범하는 비염증성 퇴행 질환입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "골관절염",
+          "text": "통풍",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "항호중구세포질항체로 다발혈관염 육아종증(GPA), 현미경인다발혈관염(MPA) 등 전신 혈관염 감별에 사용하는 표지자입니다."
+          "reason": "남성의 엄지발가락에 발생하는 급성 발작성 단관절염이 특징입니다."
         },
         {
           "opt_idx": 3,
@@ -46802,15 +47314,15 @@ window.QUIZ_DATA = [
           "text": "강직성 척추염",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "전신홍반루푸스(SLE)에 특이도가 매우 높은 자가항체이나 루푸스 임상 증상 및 ANA 음성 소견과 거리가 멉니다."
+          "reason": "천장관절염과 중축 척추를 주로 침범합니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "반응성 관절염?",
+          "text": "반응성 관절염",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "Anti-dsDNA 항체는 SLE의 질병 활성도와 루푸스 신염 발생을 추적하는 특이 항체입니다."
+          "reason": "감염 후 비대칭성 하지 소수관절을 주로 침범합니다."
         }
       ],
       "differential_general": "22Y-56: 22년도에는 검사 대신 최종 진단명을 묻는 5지선다형으로 출제되었으며 정답은 '류마티스 관절염'이었음."
@@ -46834,26 +47346,26 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "통풍",
+        "text": "류마티스 관절염",
         "is_correct": true,
         "tag": "정답",
-        "reason": "류마티스 관절염(RA)에 대한 특이도가 95~98%로 매우 높아 조기 진단 및 골 미란 진행 예측에 가장 결정적인 1차 필수 자가항체 검사입니다"
+        "reason": "젊은 여성의 만성 대칭성 손목 및 MCP 소관절염, 염증 수치 상승 소견으로 전형적인 류마티스 관절염입니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "류마티스 관절염",
+        "text": "골관절염",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "항핵항체는 이미 혈액검사에서 음성(-)으로 확인되었으며 전신홍반루푸스(SLE) 선별검사이므로 재검할 필요가 없습니다."
+        "reason": "고령에서 주로 호발하며 DIP 관절을 침범하는 비염증성 퇴행 질환입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "골관절염",
+        "text": "통풍",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "항호중구세포질항체로 다발혈관염 육아종증(GPA), 현미경인다발혈관염(MPA) 등 전신 혈관염 감별에 사용하는 표지자입니다."
+        "reason": "남성의 엄지발가락에 발생하는 급성 발작성 단관절염이 특징입니다."
       },
       {
         "opt_idx": 3,
@@ -46861,18 +47373,18 @@ window.QUIZ_DATA = [
         "text": "강직성 척추염",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "전신홍반루푸스(SLE)에 특이도가 매우 높은 자가항체이나 루푸스 임상 증상 및 ANA 음성 소견과 거리가 멉니다."
+        "reason": "천장관절염과 중축 척추를 주로 침범합니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "반응성 관절염?",
+        "text": "반응성 관절염",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "Anti-dsDNA 항체는 SLE의 질병 활성도와 루푸스 신염 발생을 추적하는 특이 항체입니다."
+        "reason": "감염 후 비대칭성 하지 소수관절을 주로 침범합니다."
       }
     ],
-    "answer": "통풍"
+    "answer": "류마티스 관절염"
   },
   {
     "id": "내과_22Y_Q57",
@@ -47014,22 +47526,63 @@ window.QUIZ_DATA = [
     "stem": "(야마) 28세 남자가 오른쪽 발목 아래의 관절통 때문에 내원하였다. 5일 전부터 오른쪽 엄지발가락 중족지관절이 심하게 붓고 극심한 압통이 있었다. 3개월 전에도 비슷한 압통이 있었으나 수일 내 호전된 병력이 있다. 이 환자에서 확진을 위해 가장 필요한 검사는?",
     "images": [],
     "options": [
-      "① 관절액 천자 및 편광현미경 검사",
-      "② 혈청 C-반응단백 (CRP)",
-      "③ 혈청 류마티스인자 (Rheumatoid factor)",
-      "④ 혈청 요산 농도 (Serum uric acid)",
-      "⑤ 항 CCP 항체 (ACPA)"
+      "관절액 천자 및 편광현미경 검사",
+      "혈청 C-반응단백 (CRP)",
+      "혈청 류마티스인자 (Rheumatoid factor)",
+      "혈청 요산 농도 (Serum uric acid)",
+      "항 CCP 항체 (ACPA)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 관절액 천자 및 편광현미경 검사",
+    "correct_answer": "관절액 천자 및 편광현미경 검사",
     "explanation": {
-      "title": "급성 통풍 관절염(Acute Gout)의 확진: 편광현미경 요산 결정 확인",
-      "findings": "제1 중족지관절의 급성 재발성 관절염(통풍 의심) → 확진을 위해 편광현미경으로 요산염 결정을 확인하는 관절액검사",
-      "differential": "① 관절액검사 — 침범 관절액을 천자하여 편광현미경으로 백혈구 내 강한 음성 복굴절을 보이는 바늘 모양의 요산염(MSU) 결정을 직접 증명하는 확진 검사입니다 → 정답.\n② 관절초음파 — 관절 연골 표면의 요산 침착(Double contour sign)을 관찰할 수 있으나 편광현미경 결정 증명보다 우선하지 않습니다.\n③ 발 mri — 골수염, 골괴사, 연부조직 농양 감별에 유용하나 단순 급성 통풍 발작의 1차 진단 검사로 권장되지 않습니다.\n④ 발 이중CT — Dual-energy CT(DECT)는 체내 요산 침착을 시각화할 수 있으나 고비용 영상 검사이며 1차 확진 표준은 관절천자입니다.\n⑤ 요산검사 — 급성 통풍 발작 환자의 약 30%에서 혈청 요산 농도가 정상 또는 낮게 측정될 수 있어 혈청 요산 수치만으로 확진하거나 배제할 수 없습니다.",
-      "trap": "• 혈중 요산이 정상이어도 관절액에서 바늘 모양 음성 이중굴절 결정을 관찰하면 통풍으로 확진할 수 있습니다.",
-      "trigger": "【통풍(Gout) 확진 표준 검사】\n• 관절액 천자 편광현미경 검사:\n  - 세포 내 바늘 모양(Needle-shaped)의 '강한 음성 이중굴절(Strongly negatively birefringent)' 요산나트륨(MSU) 결정 확인!\n• 가성통풍(CPPD): 마름모꼴(Rhomboid) 양성 이중굴절 피로인산칼슘 결정.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
-      "option_explanations": [],
+      "title": "급성 통풍 관절염(Acute Gout)의 확진: 관절액 천자 및 편광현미경 요산 결정 검사",
+      "findings": "28세 남성 + 첫 번째 엄지발가락 MTP 관절의 급성 발적/종통(Podagra) 재발 병력 → 급성 통풍 관절염(Acute Gout) 확진을 위한 관절액 천자 및 편광현미경 검사",
+      "differential": "• ① 관절액 천자 및 편광현미경 검사 ✓ [정답]: 1번 중족지관절(1st MTP joint)에 발생한 극심한 급성 단관절염(Podagra)으로 통풍 발작이 강력히 의심됩니다. 통풍의 '확진(Gold standard)'은 침범된 관절액을 천자하여 편광현미경(Polarizing microscopy)으로 백혈구 내에서 음성 복굴절(Negatively birefringent)을 띠는 바늘 모양(Needle-shaped)의 요산나트륨(MSU) 결정을 직접 증명하는 것입니다.\n• ② 혈청 C-반응단백 (CRP) ✗ [오답]: 급성 염증 상태를 반영하는 비특이적 표지자일 뿐 통풍을 확진하지 못합니다.\n• ③ 혈청 류마티스인자 (Rheumatoid factor) ✗ [오답]: 류마티스 관절염 자가항체입니다.\n• ④ 혈청 요산 농도 (Serum uric acid) ✗ [오답]: 급성 통풍 발작 환자의 30% 이상에서 요산 수치가 정상일 수 있으며, 무증상 고요산혈증 환자도 많으므로 혈청 요산 단독으로는 통풍을 확진할 수 없습니다.\n• ⑤ 항 CCP 항체 (ACPA) ✗ [오답]: 류마티스 관절염 특이 항체입니다.",
+      "trap": "• [출제 1순위 함정: 급성 발작 시 혈청 요산 수치]: 급성 통풍 발작 시기에는 염증 반응 및 신장 요산 배설 증가로 혈청 요산 농도가 정상 또는 낮게 측정될 수 있으므로, 확진을 위해서는 반드시 '관절액 천자(Arthrocentesis) 및 편광현미경'을 시행해야 합니다.",
+      "trigger": "【결정 유발 관절염 편광현미경 소견 감별 공식】\n• 통풍 (Gout):\n  - 결정: 요산염 (Monosodium urate, MSU)\n  - 형태: 바늘 모양 (Needle-shaped)\n  - 광학 특성: 강한 음성 복굴절 (Strong negative birefringence - 평행 시 노란색, 수직 시 파란색).\n• 가성통풍 (Pseudogout, CPPD):\n  - 결정: 피로인산칼슘 (Calcium pyrophosphate dihydrate, CPPD)\n  - 형태: 마름모/평행사변형 (Rhomboid-shaped)\n  - 광학 특성: 약한 양성 복굴절 (Weak positive birefringence).",
+      "kmle_link": "KMLE 류마티스내과 - 결정 유발 관절염(통풍 vs 가성통풍) 확진 가이드라인 연계",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "관절액 천자 및 편광현미경 검사",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "관절액 내 강한 음성 복굴절의 바늘 모양 요산염(MSU) 결정을 직접 확인하는 통풍의 골드 스탠다드 확진 검사입니다."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "혈청 C-반응단백 (CRP)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "염증의 정도만 나타내는 비특이적 지표입니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "혈청 류마티스인자 (Rheumatoid factor)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "류마티스 관절염 진단용 검사입니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "혈청 요산 농도 (Serum uric acid)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "급성 발작 시 정상일 수 있어 확진 기준이 되지 못합니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "항 CCP 항체 (ACPA)",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "류마티스 관절염에 특이적인 자가항체입니다."
+        }
+      ],
       "differential_general": ""
     },
     "is_multiple_choice": false,
@@ -47049,8 +47602,49 @@ window.QUIZ_DATA = [
       "23Y-59",
       "21Y-58"
     ],
-    "option_explanations": [],
-    "answer": "① 관절액 천자 및 편광현미경 검사",
+    "option_explanations": [
+      {
+        "opt_idx": 0,
+        "opt_num": "①",
+        "text": "관절액 천자 및 편광현미경 검사",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "관절액 내 강한 음성 복굴절의 바늘 모양 요산염(MSU) 결정을 직접 확인하는 통풍의 골드 스탠다드 확진 검사입니다."
+      },
+      {
+        "opt_idx": 1,
+        "opt_num": "②",
+        "text": "혈청 C-반응단백 (CRP)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "염증의 정도만 나타내는 비특이적 지표입니다."
+      },
+      {
+        "opt_idx": 2,
+        "opt_num": "③",
+        "text": "혈청 류마티스인자 (Rheumatoid factor)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "류마티스 관절염 진단용 검사입니다."
+      },
+      {
+        "opt_idx": 3,
+        "opt_num": "④",
+        "text": "혈청 요산 농도 (Serum uric acid)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "급성 발작 시 정상일 수 있어 확진 기준이 되지 못합니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "항 CCP 항체 (ACPA)",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "류마티스 관절염에 특이적인 자가항체입니다."
+      }
+    ],
+    "answer": "관절액 천자 및 편광현미경 검사",
     "question": "(야마) 28세 남자가 오른쪽 발목 아래의 관절통 때문에 내원하였다. 5일 전부터 오른쪽 엄지발가락 중족지관절이 심하게 붓고 극심한 압통이 있었다. 3개월 전에도 비슷한 압통이 있었으나 수일 내 호전된 병력이 있다. 이 환자에서 확진을 위해 가장 필요한 검사는?"
   },
   {
@@ -47065,61 +47659,61 @@ window.QUIZ_DATA = [
     "stem": "29 세 여자 환자가 오른쪽 2 번째 중수지 관절뷰터 양측 손목에 통증을 느껴 내원하였다. 6 개월전부터 통증이 느껴졌으며 아침에 일어날 때 가장 심하고, 통증은 최대 4 시간 정도까지 지속되었으며 이후 호전되었다. 검사결과가 다음과 같을 때, 가장 적절한 진단방법으로 옳은 것은?",
     "images": [],
     "options": [
-      "RF positivity, UNL 3 배 이상",
-      "Anti-CCP Ab positicity, UNL 3 배 이상",
-      "CRP 상승여부",
-      "다른 염증성자가면역질환 증상 확인…",
-      "섬유근육통 (Fibromyalgia)"
+      "Anti-CCP Ab positivity, UNL 3배 이상",
+      "RF 음성 및 Anti-CCP Ab 음성",
+      "CRP 정상 및 ESR 정상",
+      "다른 염증성 결합조직질환 배제 단독",
+      "섬유근육통 (Fibromyalgia) 기준 충족"
     ],
-    "correct_option_index": 1,
-    "correct_answer": "Anti-CCP Ab positicity, UNL 3 배 이상",
+    "correct_option_index": 0,
+    "correct_answer": "Anti-CCP Ab positivity, UNL 3배 이상",
     "explanation": {
-      "title": "류마티스 관절염(RA) 2010 진단 기준: RF/ACPA 고역가 양성",
-      "findings": "양측 손목 및 MCP 관절통+4시간 조조강직 → 류마티스관절염, 특이도 높은 항CCP항체(Anti-CCP Ab) 검사",
-      "differential": "• ① RF positivity, UNL 3 배 이상 ✓ [정답]: 제시된 증례 소견 및 가이드라인에 부합하는 정답 소견입니다.\n• ② Anti-CCP Ab positicity, UNL 3 배 이상 ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ③ CRP 상승여부 ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ④ 다른 염증성자가면역질환 증상 확인… ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.\n• ⑤ 섬유근육통 (Fibromyalgia) ✗ [오답]: 본 증례의 임상 소견과 부합하지 않습니다.",
-      "trap": "• RF 역가가 정상 상한의 3배 이상인 고역가 양성은 관절염 분류 기준에서 가장 높은 점수를 부여받습니다.",
-      "trigger": "【RA 2010 ACR/EULAR 혈청학적 점수 기준】\n• 정상 상한치(UNL)의 3배 이상 높은 고역가(High-positive) RF 또는 ACPA: 3점 부여 (진단 점수 6점 중 절반 차지).\n• 1차 질병조절제 MTX 조기 시작.",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "류마티스 관절염(RA) 2010 분류 기준: ACPA 고역가 양성(UNL 3배 초과)과 배점",
+      "findings": "29세 여성 + 6개월 지속된 손목 및 2번째 MCP 관절통 + 4시간의 조조강직 → 2010 ACR/EULAR 류마티스 관절염 분류 기준 혈청학 최고점(3점) 부여 항목인 Anti-CCP 항체(ACPA) 고역가 양성",
+      "differential": "• ① Anti-CCP Ab positivity, UNL 3배 이상 ✓ [정답]: 2010 ACR/EULAR 류마티스 관절염(RA) 분류 기준에서 혈청학(Serology) 영역은 다음과 같이 배점됩니다:\n  - RF 음성 AND ACPA 음성: 0점\n  - RF 저역가 양성 OR ACPA 저역가 양성 (정상 상한치의 1~3배): 2점\n  - RF 고역가 양성 OR ACPA 고역가 양성 (정상 상한치 UNL의 3배 초과): 3점\n  따라서 정상 상한치의 3배 이상 고역가 양성인 Anti-CCP 항체(ACPA)는 RA에 대한 특이도가 95~98%로 매우 높아 조기 진단 및 골 미란 진행 예측에 가장 결정적이며 최고 배점(3점)을 받습니다.\n• ② RF 음성 및 ACPA 음성 ✗ [오답]: 혈청학 점수 0점입니다.\n• ③ CRP 정상 및 ESR 정상 ✗ [오답]: 급성기 반응물질 점수 0점입니다.\n• ④ 다른 결합조직질환 배제 단독 ✗ [오답]: 점수 항목이 아니며 활막염이 다른 질환으로 더 잘 설명되지 않아야 한다는 기본 전제 조건입니다.\n• ⑤ 섬유근육통 (Fibromyalgia) ✗ [오답]: 비염증성 질환으로 관절 종통이나 조조강직, 골미란을 동반하지 않습니다.",
+      "trap": "• [2010 ACR/EULAR 혈청학 고역가 기준]: 정상 상한치(Upper limit of normal, UNL)의 '3배 초과'일 때 고역가(High-positive)로 분류되어 3점을 획득합니다.",
+      "trigger": "【2010 ACR/EULAR RA 분류 기준 4대 영역】\n• 1. 관절 침범 (Joint involvement): 소관절 4~10개 침범 시 3점 (최대 5점).\n• 2. 혈청학 (Serology): RF 또는 ACPA 고역가(> 3×UNL) 시 3점 (저역가는 2점).\n• 3. 급성기 반응 (Acute-phase reactants): CRP 또는 ESR 비정상 상승 시 1점.\n• 4. 유병 기간 (Duration of symptoms): 6주 이상 지속 시 1점.\n• 총점 10점 중 6점 이상 시 Definite RA 확진.",
+      "kmle_link": "KMLE 류마티스내과 - 류마티스 관절염(RA) 2010 분류 진단 기준 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "RF positivity, UNL 3 배 이상",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "CCP Ab positicity, UNL 3 배 이상 — 류마티스관절염에 대해 95% 이상의 높은 특이도를 보이며 조기 진단 및 골미란 예측에 가장 적절한 검사임"
+          "text": "Anti-CCP Ab positivity, UNL 3배 이상",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "2010 ACR/EULAR 기준상 고역가 양성(정상 상한치 3배 초과)으로 혈청학 영역 최고 배점인 3점을 부여받습니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "Anti-CCP Ab positicity, UNL 3 배 이상",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "급성 염증 반응을 나타내는 비특이적 지표로 감염증이나 다양한 결합조직질환에서도 상승하여 확진 가치가 떨어집니다."
+          "text": "RF 음성 및 Anti-CCP Ab 음성",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "혈청학 영역 0점에 해당합니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "CRP 상승여부",
+          "text": "CRP 정상 및 ESR 정상",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "감별 진단에는 참고될 수 있으나 전형적인 대칭성 관절염 증례에서 류마티스관절염을 확진하는 척도가 아닙니다."
+          "reason": "급성기 반응물질 영역 0점에 해당합니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "다른 염증성자가면역질환 증상 확인…",
+          "text": "다른 염증성 결합조직질환 배제 단독",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "섬유근육통은 비염증성 만성 광범위 통증 증후군으로 실제 활막염이나 4시간의 조조강직, 관절 종통을 동반하지 않습니다."
+          "reason": "분류 기준 적용을 위한 전제 조건일 뿐 채점 점수가 아닙니다."
         },
         {
           "opt_idx": 4,
           "opt_num": "⑤",
-          "text": "섬유근육통 (Fibromyalgia)",
+          "text": "섬유근육통 (Fibromyalgia) 기준 충족",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": ""
+          "reason": "비염증성 광범위 만성 통증 질환입니다."
         }
       ],
       "differential_general": ""
@@ -47127,7 +47721,7 @@ window.QUIZ_DATA = [
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      1
+      0
     ],
     "freq_count": 1,
     "rate": 17,
@@ -47141,45 +47735,45 @@ window.QUIZ_DATA = [
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "RF positivity, UNL 3 배 이상",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "CCP Ab positicity, UNL 3 배 이상 — 류마티스관절염에 대해 95% 이상의 높은 특이도를 보이며 조기 진단 및 골미란 예측에 가장 적절한 검사임"
+        "text": "Anti-CCP Ab positivity, UNL 3배 이상",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "2010 ACR/EULAR 기준상 고역가 양성(정상 상한치 3배 초과)으로 혈청학 영역 최고 배점인 3점을 부여받습니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Anti-CCP Ab positicity, UNL 3 배 이상",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "급성 염증 반응을 나타내는 비특이적 지표로 감염증이나 다양한 결합조직질환에서도 상승하여 확진 가치가 떨어집니다."
+        "text": "RF 음성 및 Anti-CCP Ab 음성",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "혈청학 영역 0점에 해당합니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "CRP 상승여부",
+        "text": "CRP 정상 및 ESR 정상",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "감별 진단에는 참고될 수 있으나 전형적인 대칭성 관절염 증례에서 류마티스관절염을 확진하는 척도가 아닙니다."
+        "reason": "급성기 반응물질 영역 0점에 해당합니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "다른 염증성자가면역질환 증상 확인…",
+        "text": "다른 염증성 결합조직질환 배제 단독",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "섬유근육통은 비염증성 만성 광범위 통증 증후군으로 실제 활막염이나 4시간의 조조강직, 관절 종통을 동반하지 않습니다."
+        "reason": "분류 기준 적용을 위한 전제 조건일 뿐 채점 점수가 아닙니다."
       },
       {
         "opt_idx": 4,
         "opt_num": "⑤",
-        "text": "섬유근육통 (Fibromyalgia)",
+        "text": "섬유근육통 (Fibromyalgia) 기준 충족",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": ""
+        "reason": "비염증성 광범위 만성 통증 질환입니다."
       }
     ],
-    "answer": "Anti-CCP Ab positicity, UNL 3 배 이상"
+    "answer": "Anti-CCP Ab positivity, UNL 3배 이상"
   },
   {
     "id": "내과_22Y_Q60",
@@ -47202,12 +47796,12 @@ window.QUIZ_DATA = [
     "correct_option_index": 0,
     "correct_answer": "골반 단순 X선 및 천장관절 영상검사 (Pelvis AP / SI joint view)",
     "explanation": {
-      "title": "강직성 척추염(Ankylosing Spondylitis) 1차 영상 진단: 골반 단순 X-선",
-      "findings": "24세 남성 요통+양측 천장관절염 → 강직척추염 진단 평가를 위한 HLA-B27 검사",
-      "differential": "• ① 골반 단순 X선 및 천장관절 영상검사 (Pelvis AP / SI joint view) ✓ [정답]: 임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다\n• ② HLA-B27 유전자 검사 단독 ✗ [오답]: B27 유전자 검사 단독 — 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ③ 류마티스 인자(RF) 검사 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ④ 항CCP 항체 검사 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.\n• ⑤ 혈청 요산 수치 검사 ✗ [오답]: 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다.",
-      "trap": "• 강직성 척추염 의심 시 비싼 척추 MRI를 먼저 찍기 전에 반드시 '골반 단순 X-선(Pelvis AP)'으로 천장관절 침범을 확인하는 것이 1차 검사입니다.",
-      "trigger": "【강직성 척추염(AS) 영상 진단 알고리즘】\n• 1차 필수 영상 검사:\n  - 골반 전후면 단순 X-선(Pelvis AP / SI joint view).\n  - 양측성 천장관절염(Sacroiliitis, 2등급 이상) 확인 시 뉴욕 수정 진단 기준 충족.\n• 단순 X-선이 정상이거나 애매할 때: 천장관절 조영증강 MRI 시행(조기 골수 부종 확인).",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계",
+      "title": "강직성 척추염(Ankylosing Spondylitis)의 1차 필수 영상 진단: 골반 단순 X-선",
+      "findings": "20대 젊은 남성 + 수개월간 지속된 염증성 요통 및 엉덩이 통증 + 조조강직 → 강직성 척추염(AS) 진단을 위해 천장관절염(Sacroiliitis)을 가장 먼저 확인하는 골반 단순 X선(Pelvis AP / SI joint view)",
+      "differential": "• ① 골반 단순 X선 및 천장관절 영상검사 (Pelvis AP / SI joint view) ✓ [정답]: 강직성 척추염(AS)의 개정 뉴욕 진단 기준(Modified New York Criteria)에서 가장 핵심적인 필수 객관적 항목은 '단순 X-선상 천장관절염(Sacroiliitis, 양측 2등급 이상 또는 일측 3등급 이상)'의 존재입니다. 방사선학적 척추관절병증을 진단하기 위해 가장 먼저, 그리고 반드시 촬영해야 하는 1차 기본 영상 검사는 골반 전후면 사진(Pelvis AP view) 또는 천장관절 전용 사위촬영(SI joint oblique view)입니다.\n• ② HLA-B27 유전자 검사 단독 ✗ [오답]: HLA-B27은 환자의 90% 이상에서 양성이지만 정상인의 5~8%에서도 양성이므로 단독으로 AS를 확진할 수 없습니다.\n• ③ 류마티스 인자(RF) 검사 ✗ [오답]: 강직성 척추염은 '혈청음성 척추관절병증(Seronegative Spondyloarthropathy)'이므로 RF는 음성입니다.\n• ④ 항CCP 항체 검사 ✗ [오답]: 류마티스 관절염 특이 항체입니다.\n• ⑤ 혈청 요산 수치 검사 ✗ [오답]: 통풍 진단용 검사입니다.",
+      "trap": "• [단순 X-선 vs MRI 선택]:\n  - 1차 선별 및 전통적 확진(개정 뉴욕 기준): 골반 단순 X-선 (Pelvis AP).\n  - 단순 X-선에서 음성이나 조기 염증 의심 시: 천장관절 조영증강 MRI (골수 부종 확인).",
+      "trigger": "【강직성 척추염 개정 뉴욕 진단 기준 (Modified New York Criteria)】\n• 방사선학적 필수 기준: 단순 X선상 천장관절염 (양측 grade ≥ 2 또는 일측 grade ≥ 3).\n• 임상 기준 (최소 1개 이상 충족):\n  1. 운동 시 호전되고 휴식 시 호전되지 않는 3개월 이상의 요통 및 조조강직.\n  2. 시상면 및 전두면에서 요추 운동 제한.\n  3. 연령/성별 정상치 대비 흉곽 팽창(Chest expansion) 감소 (≤ 2.5 cm).",
+      "kmle_link": "KMLE 류마티스내과 - 혈청음성 척추관절병증 및 강직성 척추염 가이드라인 연계",
       "option_explanations": [
         {
           "opt_idx": 0,
@@ -47215,7 +47809,7 @@ window.QUIZ_DATA = [
           "text": "골반 단순 X선 및 천장관절 영상검사 (Pelvis AP / SI joint view)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+          "reason": "개정 뉴욕 진단 기준의 필수 전제 조건인 천장관절염(Sacroiliitis) 유무를 확인하는 1차 기본 영상 검사입니다."
         },
         {
           "opt_idx": 1,
@@ -47223,7 +47817,7 @@ window.QUIZ_DATA = [
           "text": "HLA-B27 유전자 검사 단독",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "B27 유전자 검사 단독 — 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "정상인에서도 양성일 수 있어 단독으로 확진하지 못합니다."
         },
         {
           "opt_idx": 2,
@@ -47231,7 +47825,7 @@ window.QUIZ_DATA = [
           "text": "류마티스 인자(RF) 검사",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "혈청음성 질환이므로 RF는 음성입니다."
         },
         {
           "opt_idx": 3,
@@ -47239,7 +47833,7 @@ window.QUIZ_DATA = [
           "text": "항CCP 항체 검사",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "류마티스 관절염 특이 항체로 AS 진단에 부적합합니다."
         },
         {
           "opt_idx": 4,
@@ -47247,7 +47841,7 @@ window.QUIZ_DATA = [
           "text": "혈청 요산 수치 검사",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+          "reason": "통풍 평가 검사입니다."
         }
       ],
       "differential_general": ""
@@ -47272,7 +47866,7 @@ window.QUIZ_DATA = [
         "text": "골반 단순 X선 및 천장관절 영상검사 (Pelvis AP / SI joint view)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "임상 지침 및 족보 표준에 부합하는 가장 적절한 처치입니다"
+        "reason": "개정 뉴욕 진단 기준의 필수 전제 조건인 천장관절염(Sacroiliitis) 유무를 확인하는 1차 기본 영상 검사입니다."
       },
       {
         "opt_idx": 1,
@@ -47280,7 +47874,7 @@ window.QUIZ_DATA = [
         "text": "HLA-B27 유전자 검사 단독",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "B27 유전자 검사 단독 — 해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "정상인에서도 양성일 수 있어 단독으로 확진하지 못합니다."
       },
       {
         "opt_idx": 2,
@@ -47288,7 +47882,7 @@ window.QUIZ_DATA = [
         "text": "류마티스 인자(RF) 검사",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "혈청음성 질환이므로 RF는 음성입니다."
       },
       {
         "opt_idx": 3,
@@ -47296,7 +47890,7 @@ window.QUIZ_DATA = [
         "text": "항CCP 항체 검사",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "류마티스 관절염 특이 항체로 AS 진단에 부적합합니다."
       },
       {
         "opt_idx": 4,
@@ -47304,7 +47898,7 @@ window.QUIZ_DATA = [
         "text": "혈청 요산 수치 검사",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "해당 증례의 1차 표준 치료 및 진단에 부합하지 않는 설명입니다."
+        "reason": "통풍 평가 검사입니다."
       }
     ],
     "answer": "골반 단순 X선 및 천장관절 영상검사 (Pelvis AP / SI joint view)"
