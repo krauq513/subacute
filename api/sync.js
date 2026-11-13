@@ -93,7 +93,8 @@ function mergeData(serverData, clientData) {
     '산부인과_26Y_Q02',
     '내과_23Y_Q46',
     '내과_23Y_Q52',
-    '내과_23Y_Q54'
+    '내과_23Y_Q54',
+    '내과_23Y_Q55'
   ]);
   for (const [rid, rep] of reportMap.entries()) {
     if (resolvedReportIds.has(rid) || resolvedQuestionIds.has(rep.questionId)) {
@@ -143,8 +144,10 @@ function mergeData(serverData, clientData) {
         rep.resolutionNote = '거대아 분만 후 자궁이완증 1차 옥시토신 투여 및 산후출혈 감별 표준 해설 완료';
       } else if (rep.questionId === '산부인과_26Y_Q57') {
         rep.resolutionNote = '내배엽동종양(Yolk sac tumor)의 Schiller-Duval body 및 Stage IA BEP 항암치료 핵심 가이드라인 교정 완료';
-      } else if (['산부인과_26Y_Q02', '내과_23Y_Q46', '내과_23Y_Q52', '내과_23Y_Q54'].includes(rep.questionId)) {
-        if (rep.questionId === '내과_23Y_Q54') {
+      } else if (['산부인과_26Y_Q02', '내과_23Y_Q46', '내과_23Y_Q52', '내과_23Y_Q54', '내과_23Y_Q55'].includes(rep.questionId)) {
+        if (rep.questionId === '내과_23Y_Q55') {
+          rep.resolutionNote = '누락된 DXA 골밀도 검사 소견 표(L1~L4, 대퇴골) 복원 및 T-score -2.5 이하 골다공증 판정 해설 보강 완료';
+        } else if (rep.questionId === '내과_23Y_Q54') {
           rep.resolutionNote = '정답 ③(나이) 일치화 및 Harris-Benedict 식 음(-)의 계수 기초에너지요구량 해설 보강 완료';
         } else if (rep.questionId === '내과_23Y_Q52') {
           rep.resolutionNote = '정답 ③(IFG + IGT 복합 진단) 일치화 및 ADA/KDA 당뇨병 전단계 진단 기준 심층 해설 보강 완료';

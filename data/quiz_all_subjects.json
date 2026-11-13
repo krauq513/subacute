@@ -39568,39 +39568,39 @@
     "subject": "내과",
     "year": "23Y",
     "q_num": 55,
-    "category": "반짤",
+    "category": "표문항",
     "theme_title": "폐경 후 여성 골밀도 검사(DEXA) T-점수 판독 및 골다공증(Osteoporosis)",
     "subspecialty": "내분비내과 / 골대사",
-    "stem": "70세 여자가 골밀도 검사를 위해 병원에 왔다. 골밀도 소견은 다음과 같다. 이에 대한 적절한 해석과 진단은? Z score T score L1",
+    "stem": "70세 여자가 골밀도 검사를 위해 병원에 왔다. 골밀도 소견은 다음과 같다. 이에 대한 적절한 해석과 진단은?\n\n[골밀도 검사 소견 (DXA)]\n| 부위 (Region) | Z-score | T-score |\n| :- | :- | :- |\n| L1 | -2.5 | -2.9 |\n| L2 | -2.4 | -2.7 |\n| L3 | -2.3 | -2.5 |\n| L4 | -2.1 | -2.3 |\n| L1~L4 평균 | -2.3 | -2.6 |\n| 대퇴골경부 (Femur neck) | -2.3 | -2.4 |\n| 대퇴골전체 (Femur total) | -2.1 | -2.1 |",
     "images": [],
     "options": [
-      "① Osteoporosis",
-      "② Osteopenia",
+      "① T-score -2.6, 골다공증 (Osteoporosis)",
+      "② T-score -2.1, 골감소증 (Osteopenia)",
       "③ Z-score -2.5, 골다공증",
       "④ Z-score -2.1, 정상",
       "⑤ T-score -1.8, 골감소증"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① Osteoporosis",
+    "correct_answer": "① T-score -2.6, 골다공증 (Osteoporosis)",
     "explanation": {
-      "findings": "70세 폐경 후 여성+요추 T-score -2.5 이하(L1 -2.9, L1~L4 평균 -2.6) → 골다공증(Osteoporosis)",
-      "differential": "• ① T-score -2.9 (또는 -2.6), 골다공증 (Osteoporosis) ✓ [정답]: score -2.9 (또는 -2.6), 골다공증 (Osteoporosis) — 70세 폐경 후 여성은 T-score로 판정하며, 요추 최저치(L1 -2.9) 및 평균(-2.6)이 -2.5 이하이므로 골다공증임\n• ② T-score -2.1, 골감소증 (Osteopenia) ✗ [오답]: score -2.1, 골감소증 (Osteopenia) — 대퇴골 수치(-2.1)만 반영한 것이며, 요추와 대퇴골 중 더 낮은 T-score 부위를 기준으로 삼아야 하므로 오진입니다.\n• ③ Z-score -2.5, 골다공증 ✗ [오답]: score -2.5, 골다공증 — Z-score는 소아·청소년, 폐경 전 여성, 50세 미만 남성에서 동연령대와 비교할 때 사용하며 폐경 후 여성의 진단 기준이 아닙니다.\n• ④ Z-score -2.1, 정상 ✗ [오답]: score -2.1, 정상 — 폐경 후 여성에서 골다공증 진단 기준은 Z-score가 아닌 T-score이며, Z-score -2.0 이하도 연령 기대치 이하에 해당합니다.\n• ⑤ T-score -1.8, 골감소증 ✗ [오답]: score -1.8, 골감소증 — 요추 및 대퇴골 어느 부위의 실제 측정값과도 일치하지 않는 임의의 수치 조합입니다.",
+      "findings": "70세 폐경 후 여성의 골밀도(DEXA) 판정은 T-score를 기준으로 하며, 요추 최저치(L1 -2.9) 및 L1~L4 평균(-2.6)이 -2.5 이하이므로 골다공증(Osteoporosis)으로 진단함",
+      "differential": "• ① T-score -2.6, 골다공증 (Osteoporosis) ✓ [정답]: 70세 폐경 후 여성은 T-score를 기준으로 판정합니다. 요추 L1~L4 평균 T-score가 -2.6(최저치 L1 -2.9)으로 -2.5 이하이므로 골다공증(Osteoporosis)에 해당합니다.\n• ② T-score -2.1, 골감소증 (Osteopenia) ✗ [오답]: 대퇴골 전체 T-score(-2.1)만 반영한 해석입니다. 요추와 대퇴골 중 더 낮은 수치를 기준으로 진단해야 하므로 요추에서 이미 -2.5 이하인 환자를 골감소증으로 진단하는 것은 오진입니다.\n• ③ Z-score -2.5, 골다공증 ✗ [오답]: Z-score는 소아·청소년, 폐경 전 여성, 50세 미만 남성에서 동연령대 대조군과 비교할 때 사용하며, 70세 폐경 후 여성의 골다공증 진단 기준이 아닙니다.\n• ④ Z-score -2.1, 정상 ✗ [오답]: 폐경 후 여성의 진단 지표는 T-score이며, Z-score 역시 -2.0 이하이면 '연령 기대치 이하(below expected range for age)'로 정상 범주가 아닙니다.\n• ⑤ T-score -1.8, 골감소증 ✗ [오답]: 환자의 요추 및 대퇴골 검사 수치 어느 부위와도 일치하지 않는 임의의 오답 선지입니다.",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "Osteoporosis",
+          "text": "T-score -2.6, 골다공증 (Osteoporosis)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "score -2.9 (또는 -2.6), 골다공증 (Osteoporosis) — 70세 폐경 후 여성은 T-score로 판정하며, 요추 최저치(L1 -2.9) 및 평균(-2.6)이 -2.5 이하이므로 골다공증임"
+          "reason": "70세 폐경 후 여성은 T-score로 판정하며, 요추 최저치(L1 -2.9) 및 L1~L4 평균(-2.6)이 -2.5 이하이므로 골다공증임"
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "Osteopenia",
+          "text": "T-score -2.1, 골감소증 (Osteopenia)",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "score -2.1, 골감소증 (Osteopenia) — 대퇴골 수치(-2.1)만 반영한 것이며, 요추와 대퇴골 중 더 낮은 T-score 부위를 기준으로 삼아야 하므로 오진입니다."
+          "reason": "대퇴골 전체 수치(-2.1)만 반영한 것이며, 요추와 대퇴골 중 더 낮은 T-score 부위를 기준으로 삼아야 하므로 오진입니다."
         },
         {
           "opt_idx": 2,
@@ -39608,7 +39608,7 @@
           "text": "Z-score -2.5, 골다공증",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "score -2.5, 골다공증 — Z-score는 소아·청소년, 폐경 전 여성, 50세 미만 남성에서 동연령대와 비교할 때 사용하며 폐경 후 여성의 진단 기준이 아닙니다."
+          "reason": "Z-score는 소아·청소년, 폐경 전 여성, 50세 미만 남성에서 동연령대와 비교할 때 사용하며 폐경 후 여성의 진단 기준이 아닙니다."
         },
         {
           "opt_idx": 3,
@@ -39616,7 +39616,7 @@
           "text": "Z-score -2.1, 정상",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "score -2.1, 정상 — 폐경 후 여성에서 골다공증 진단 기준은 Z-score가 아닌 T-score이며, Z-score -2.0 이하도 연령 기대치 이하에 해당합니다."
+          "reason": "폐경 후 여성에서 골다공증 진단 기준은 Z-score가 아닌 T-score이며, Z-score -2.0 이하도 연령 기대치 이하에 해당합니다."
         },
         {
           "opt_idx": 4,
@@ -39624,14 +39624,14 @@
           "text": "T-score -1.8, 골감소증",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "score -1.8, 골감소증 — 요추 및 대퇴골 어느 부위의 실제 측정값과도 일치하지 않는 임의의 수치 조합입니다."
+          "reason": "요추 및 대퇴골 어느 부위의 실제 측정값과도 일치하지 않는 임의의 수치 조합입니다."
         }
       ],
       "differential_general": "",
-      "title": "폐경 후 여성 골밀도 검사(DEXA) T-점수 판독 및 골다공증(Osteoporosis)",
-      "trap": "• 폐경 후 여성에서는 젊은 정상 성인 대조군과 비교한 'T-score'를 기준으로 진단해야 하며, 동연령 대조군인 'Z-score'를 골다공증 진단 기준으로 사용하면 안 됩니다.",
-      "trigger": "【골밀도(BMD, DEXA) T-score 판독 기준 (WHO)】\n• 폐경 후 여성 및 50세 이상 남성: T-score 기준 판독.\n  - 정상: T-score ≥ -1.0.\n  - 골감소증(Osteopenia): -2.5 < T-score < -1.0.\n  - 골다공증(Osteoporosis): T-score ≤ -2.5 (요추, 대퇴골 경부, 전체 대퇴골 중 최저치 기준).\n  - 중증 골다공증: T-score ≤ -2.5 AND 골다공증성 골절 동반.\n• 1차 표준 치료제:\n  - 비스포스포네이트(Alendronate, Risedronate, Zoledronate) 또는 Denosumab (RANKL 억제제).",
-      "kmle_link": "KMLE 내과 기출 및 표준 교과서 가이드라인 연계"
+      "title": "폐경 후 여성 골밀도 검사(DXA) T-score 판독 및 골다공증(Osteoporosis)",
+      "trap": "• 1. 대상군별 판독 기준: 폐경 후 여성 및 50세 이상 남성은 'T-score', 폐경 전 여성 및 50세 미만 남성·소아는 'Z-score'를 적용합니다.\n• 2. 최저치 기준 원칙: 요추(L1~L4 평균)와 대퇴골(Femur neck, Total hip) 중 가장 낮은 T-score 부위를 기준으로 최종 진단을 결정합니다.",
+      "trigger": "【골밀도(BMD, DXA) 판정 기준 (WHO 가이드라인)】\n• 1. 폐경 후 여성 및 50세 이상 남성 (T-score 기준):\n  - 정상 (Normal): T-score ≥ -1.0\n  - 골감소증 (Osteopenia): -2.5 < T-score < -1.0\n  - 골다공증 (Osteoporosis): T-score ≤ -2.5 (요추 또는 대퇴골 중 최저치)\n  - 중증 골다공증: T-score ≤ -2.5 AND 골다공증성 골절 동반\n• 2. 골다공증 1차 치료제:\n  - 비스포스포네이트 (Alendronate, Risedronate, Zoledronate) 또는 데노수맙 (Denosumab, RANKL 억제제)",
+      "kmle_link": "KMLE 내과 내분비학 골대사 질환 및 골밀도(DXA) 판정 표준 가이드라인"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -39652,18 +39652,18 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Osteoporosis",
+        "text": "T-score -2.6, 골다공증 (Osteoporosis)",
         "is_correct": true,
         "tag": "정답",
-        "reason": "score -2.9 (또는 -2.6), 골다공증 (Osteoporosis) — 70세 폐경 후 여성은 T-score로 판정하며, 요추 최저치(L1 -2.9) 및 평균(-2.6)이 -2.5 이하이므로 골다공증임"
+        "reason": "70세 폐경 후 여성은 T-score로 판정하며, 요추 최저치(L1 -2.9) 및 L1~L4 평균(-2.6)이 -2.5 이하이므로 골다공증임"
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "Osteopenia",
+        "text": "T-score -2.1, 골감소증 (Osteopenia)",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "score -2.1, 골감소증 (Osteopenia) — 대퇴골 수치(-2.1)만 반영한 것이며, 요추와 대퇴골 중 더 낮은 T-score 부위를 기준으로 삼아야 하므로 오진입니다."
+        "reason": "대퇴골 전체 수치(-2.1)만 반영한 것이며, 요추와 대퇴골 중 더 낮은 T-score 부위를 기준으로 삼아야 하므로 오진입니다."
       },
       {
         "opt_idx": 2,
@@ -39671,7 +39671,7 @@
         "text": "Z-score -2.5, 골다공증",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "score -2.5, 골다공증 — Z-score는 소아·청소년, 폐경 전 여성, 50세 미만 남성에서 동연령대와 비교할 때 사용하며 폐경 후 여성의 진단 기준이 아닙니다."
+        "reason": "Z-score는 소아·청소년, 폐경 전 여성, 50세 미만 남성에서 동연령대와 비교할 때 사용하며 폐경 후 여성의 진단 기준이 아닙니다."
       },
       {
         "opt_idx": 3,
@@ -39679,7 +39679,7 @@
         "text": "Z-score -2.1, 정상",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "score -2.1, 정상 — 폐경 후 여성에서 골다공증 진단 기준은 Z-score가 아닌 T-score이며, Z-score -2.0 이하도 연령 기대치 이하에 해당합니다."
+        "reason": "폐경 후 여성에서 골다공증 진단 기준은 Z-score가 아닌 T-score이며, Z-score -2.0 이하도 연령 기대치 이하에 해당합니다."
       },
       {
         "opt_idx": 4,
@@ -39687,10 +39687,10 @@
         "text": "T-score -1.8, 골감소증",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "score -1.8, 골감소증 — 요추 및 대퇴골 어느 부위의 실제 측정값과도 일치하지 않는 임의의 수치 조합입니다."
+        "reason": "요추 및 대퇴골 어느 부위의 실제 측정값과도 일치하지 않는 임의의 수치 조합입니다."
       }
     ],
-    "answer": "① Osteoporosis"
+    "answer": "① T-score -2.6, 골다공증 (Osteoporosis)"
   },
   {
     "id": "내과_23Y_Q56",
