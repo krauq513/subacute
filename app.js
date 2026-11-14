@@ -46,6 +46,7 @@
     bookmarks: new Set(),
     lastSubjectMap: {}, // subject -> last viewed question id in that subject
     pendingSelections: new Set(), // Set of selected option indices (0-based ORIGINAL indices) for multi-answer questions
+    eliminatedOptions: {}, // qId -> Set of eliminated original option indices
     shuffleOptions: localStorage.getItem(STORAGE_KEY_SHUFFLE) === 'true',
     shuffledOrders: {}, // qId -> number[] (displayIdx -> originalIdx)
     isSectionFilterExpanded: false, // Collapsed by default
@@ -2697,6 +2698,21 @@
       const { prefix: origPrefix, label: labelText } = parseOptionText(optText, origIdx);
       const numPrefix = state.shuffleOptions ? (CIRCLE_NUMS[displayIdx] || `${displayIdx + 1}.`) : origPrefix;
 
+      const isEliminated = !!(state.eliminatedOptions && state.eliminatedOptions[q.id] && state.eliminatedOptions[q.id].has(origIdx));
+      if (isEliminated) {
+        btn.classList.add('is-eliminated');
+      }
+
+      // Eliminate / Exclude button HTML
+      const elimBtnHtml = !isAnswered ? `
+        <span role="button" tabindex="0" class="btn-eliminate-option ${isEliminated ? 'active' : ''}" 
+              title="${isEliminated ? '선지 배제 해제 (클릭 시 복원)' : '이 선지 배제/소거 (취소선)'}" 
+              aria-label="${isEliminated ? '선지 배제 해제' : '선지 배제'}">
+          <span class="eliminate-icon">${isEliminated ? '↩' : '✕'}</span>
+          <span class="eliminate-text">${isEliminated ? '해제' : '배제'}</span>
+        </span>
+      ` : '';
+
       const isPending = !isAnswered && config.isMulti && state.pendingSelections.has(origIdx);
       if (isPending) {
         btn.classList.add('is-selected-pending');
@@ -2725,6 +2741,7 @@
               ${labelText ? `<span class="image-opt-paren">${labelText}</span>` : ''}
             </div>
             <div class="image-opt-right">
+              ${elimBtnHtml}
               <span class="option-status-icon"></span>
               <span class="option-kbd-hint">${displayIdx + 1}</span>
             </div>
@@ -2749,14 +2766,37 @@
             <span class="option-label">${labelText}</span>
           </div>
           <div class="option-right">
+            ${elimBtnHtml}
             <span class="option-status-icon"></span>
             <span class="option-kbd-hint">${displayIdx + 1}</span>
           </div>
         `;
       }
 
+      const elimBtn = btn.querySelector('.btn-eliminate-option');
+      if (elimBtn) {
+        elimBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          e.preventDefault();
+          toggleEliminateOption(q, origIdx);
+        });
+        elimBtn.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.stopPropagation();
+            e.preventDefault();
+            toggleEliminateOption(q, origIdx);
+          }
+        });
+      }
+
       btn.addEventListener('click', () => {
         if (!state.userAnswers[q.id]) {
+          // If option is currently eliminated, clicking it safely un-eliminates it without submitting
+          if (state.eliminatedOptions && state.eliminatedOptions[q.id] && state.eliminatedOptions[q.id].has(origIdx)) {
+            toggleEliminateOption(q, origIdx);
+            return;
+          }
+
           if (config.isMulti) {
             togglePendingSelection(q, origIdx, config);
           } else {
@@ -2797,6 +2837,30 @@
   /**
    * Toggle Multi-Choice Option Selection
    */
+  /**
+   * Toggle Option Elimination (소거법 / 선지 배제)
+   */
+  function toggleEliminateOption(q, origIdx) {
+    if (state.userAnswers[q.id]) return;
+
+    if (!state.eliminatedOptions) {
+      state.eliminatedOptions = {};
+    }
+    if (!state.eliminatedOptions[q.id]) {
+      state.eliminatedOptions[q.id] = new Set();
+    }
+    const set = state.eliminatedOptions[q.id];
+    if (set.has(origIdx)) {
+      set.delete(origIdx);
+    } else {
+      set.add(origIdx);
+      if (state.pendingSelections && state.pendingSelections.has(origIdx)) {
+        state.pendingSelections.delete(origIdx);
+      }
+    }
+    renderOptions(q);
+  }
+
   function togglePendingSelection(q, optIdx, config) {
     if (state.userAnswers[q.id]) return;
 
@@ -3078,6 +3142,7 @@
       const origIdx = btn.dataset.origIdx !== undefined ? Number(btn.dataset.origIdx) : idx;
       btn.classList.add('disabled');
       btn.classList.remove('is-selected-pending');
+      btn.classList.remove('is-eliminated');
       const isSelected = selectedSet.has(origIdx);
       const isTargetCorrect = correctSet.has(origIdx);
       const iconSpan = btn.querySelector('.option-status-icon');
@@ -3263,6 +3328,9 @@
     if (!q) return;
 
     state.pendingSelections.clear();
+    if (state.eliminatedOptions && state.eliminatedOptions[q.id]) {
+      delete state.eliminatedOptions[q.id];
+    }
     if (!state.deletedAnswers) state.deletedAnswers = {};
     state.deletedAnswers[q.id] = Date.now();
     delete state.userAnswers[q.id];
@@ -5567,6 +5635,11 @@
         e.preventDefault();
         const order = getDisplayOrder(q);
         const origIdx = order[keyNum - 1] !== undefined ? order[keyNum - 1] : (keyNum - 1);
+        // If option is eliminated, safely toggle elimination instead of submitting
+        if (state.eliminatedOptions && state.eliminatedOptions[q.id] && state.eliminatedOptions[q.id].has(origIdx)) {
+          toggleEliminateOption(q, origIdx);
+          return;
+        }
         if (config.isMulti) {
           togglePendingSelection(q, origIdx, config);
         } else {

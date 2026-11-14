@@ -1416,6 +1416,104 @@ body {
   border-radius: 4px;
 }
 
+
+/* Option Right & Elimination Button */
+.option-right {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-shrink: 0;
+  margin-left: 0.5rem;
+}
+
+.image-opt-right {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  flex-shrink: 0;
+}
+
+.btn-eliminate-option {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.22rem;
+  padding: 0.2rem 0.52rem;
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm, 6px);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  user-select: none;
+  line-height: 1.2;
+  flex-shrink: 0;
+}
+
+.btn-eliminate-option:hover {
+  color: #ef4444;
+  border-color: rgba(239, 68, 68, 0.45);
+  background: rgba(239, 68, 68, 0.08);
+  transform: translateY(-1px);
+}
+
+.btn-eliminate-option .eliminate-icon {
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.btn-eliminate-option .eliminate-text {
+  font-size: 0.75rem;
+  letter-spacing: -0.2px;
+}
+
+/* Option Button Eliminated State */
+.option-btn.is-eliminated {
+  opacity: 0.48;
+  background: var(--bg-surface) !important;
+  border-color: var(--border-light) !important;
+}
+
+.option-btn.is-eliminated:hover {
+  opacity: 0.75;
+  border-color: rgba(239, 68, 68, 0.35) !important;
+}
+
+.option-btn.is-eliminated .option-label,
+.option-btn.is-eliminated .option-num,
+.option-btn.is-eliminated .image-opt-paren {
+  text-decoration: line-through;
+  text-decoration-thickness: 1.8px;
+  text-decoration-color: #ef4444;
+  color: var(--text-muted) !important;
+}
+
+.option-btn.is-eliminated .image-opt-img {
+  filter: grayscale(0.85) opacity(0.45);
+}
+
+.option-btn.is-eliminated .btn-eliminate-option,
+.btn-eliminate-option.active {
+  color: #ffffff !important;
+  background: #ef4444 !important;
+  border-color: #ef4444 !important;
+  box-shadow: 0 1px 3px rgba(239, 68, 68, 0.3);
+}
+
+.option-btn.is-eliminated .btn-eliminate-option:hover,
+.btn-eliminate-option.active:hover {
+  background: #dc2626 !important;
+  border-color: #dc2626 !important;
+}
+
+/* When question is answered, hide eliminate button */
+.option-btn.disabled .btn-eliminate-option {
+  display: none !important;
+}
+
 /* Option Button Hover & States */
 .option-btn:hover:not(.disabled) {
   border-color: var(--border-focus);
