@@ -999,8 +999,8 @@
 
     // Update Document Title (Browser Tab)
     document.title = (curSub === 'ALL')
-      ? 'subacute | 임상의학 기출 퀴즈 마스터'
-      : `subacute | ${curSub} 기출 퀴즈`;
+      ? 'subacute v4.5'
+      : `subacute v4.5 · ${curSub}`;
 
     // Sync counts and active class on subject pills
     updateSubjectTabCounts();
@@ -1017,13 +1017,11 @@
 
     // Update Header Brand
     if (dom.brandTitle) {
-      dom.brandTitle.textContent = (curSub === 'ALL')
-        ? 'subacute (임상의학 기출 퀴즈 마스터 v4.4)'
-        : `subacute v4.4 · ${meta.icon} ${meta.title}`;
+      dom.brandTitle.textContent = 'subacute v4.5';
     }
     if (dom.brandSubtitle) {
-      dom.brandSubtitle.textContent = `20Y ~ 26Y 실전 기출 • ${subQuestions.length}문항 (v4.4)`;
-      dom.brandSubtitle.title = `20Y ~ 26Y 실전 기출 완전 정복 • ${subQuestions.length}문항 (${meta.desc})`;
+      dom.brandSubtitle.textContent = (curSub === 'ALL') ? '전과목 통합' : curSub;
+      dom.brandSubtitle.title = (curSub === 'ALL') ? '전과목 통합 기출' : `${curSub} (${subQuestions.length}문항)`;
     }
 
     // Dynamic Year Tabs
