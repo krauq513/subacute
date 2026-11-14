@@ -1,14 +1,7 @@
 // Vercel Serverless Function: api/sync.js
 // Handles real-time cross-client synchronization for profiles, error reports, comments, and edits
 
-import { put, head } from '@vercel/blob';
-
-const BLOB_PATH = 'sync/global_sync_v1.json';
-const BLOB_URL = 'https://mz2fhtrx42zn4hgx.public.blob.vercel-storage.com/sync/global_sync_v1.json';
-const TOKEN = process.env.BLOB_READ_WRITE_TOKEN || 'vercel_blob_rw_mZ2FhTrX42ZN4HGX_mEOi9kpT0W8W9oeGrYlsJOIP8s2ZEw';
-
-const GITHUB_TOKEN = process.env.GITHUB_SYNC_TOKEN;
-const GIST_ID = process.env.GITHUB_GIST_ID || '88f570fe24ad4ac41f02b0e7592a547c';
+import { fetchGistData, saveGistData } from '../lib/gist.js';
 
 function mergeData(serverData, clientData) {
   // 1. Reports merge
@@ -537,10 +530,10 @@ function mergeData(serverData, clientData) {
     }
   }
 
-  // Helper to find matching profile in map by ID or case-insensitive trimmed name
+  // Match profiles strictly by ID (name fallback only for legacy entries without an ID)
   function findExistingProfile(map, cp) {
     if (cp.id && map.has(cp.id)) return { key: cp.id, profile: map.get(cp.id) };
-    if (cp.name) {
+    if (!cp.id && cp.name) {
       const norm = cp.name.trim().toLowerCase();
       for (const [k, p] of map.entries()) {
         if (p && p.name && p.name.trim().toLowerCase() === norm) {
@@ -561,30 +554,39 @@ function mergeData(serverData, clientData) {
     } else {
       const { key, profile: sp } = match;
       const useCpForPosition = Number(cp.updatedAt || 0) >= Number(sp.updatedAt || 0);
+      const effectiveResetAt = Math.max(Number(sp.resetAt || 0), Number(cp.resetAt || 0));
 
-      // Handle profile reset or answer-level timestamp merge
-      let mergedAnswers = {};
-      if (cp.resetAt && Number(cp.resetAt) > Number(sp.resetAt || 0) && Number(cp.resetAt) > Number(sp.updatedAt || 0)) {
-        mergedAnswers = { ...(cp.userAnswers || {}) };
-      } else {
-        mergedAnswers = { ...(sp.userAnswers || {}) };
-        if (cp.userAnswers && typeof cp.userAnswers === 'object') {
-          for (const [qId, cAns] of Object.entries(cp.userAnswers)) {
-            const sAns = mergedAnswers[qId];
-            if (!sAns) {
-              mergedAnswers[qId] = cAns;
-            } else {
-              const cTime = Number(cAns.timestamp || 0);
-              const sTime = Number(sAns.timestamp || 0);
-              if (cTime >= sTime) {
-                mergedAnswers[qId] = cAns;
-              }
+      // Merge per-question single deletions (keeps max delete timestamp per qId)
+      const mergedDeletedAnswers = {};
+      for (const srcDeleted of [sp.deletedAnswers, cp.deletedAnswers]) {
+        if (srcDeleted && typeof srcDeleted === 'object') {
+          for (const [qId, delTs] of Object.entries(srcDeleted)) {
+            const tsNum = Number(delTs || 0);
+            if (tsNum >= effectiveResetAt && tsNum > (mergedDeletedAnswers[qId] || 0)) {
+              mergedDeletedAnswers[qId] = tsNum;
             }
           }
         }
       }
 
-      // Union merge of bookmarks across all devices
+      // Handle profile reset and answer-level timestamp merge safely
+      const mergedAnswers = {};
+      const allAnswerSources = [sp.userAnswers, cp.userAnswers];
+      allAnswerSources.forEach(src => {
+        if (!src || typeof src !== 'object') return;
+        for (const [qId, ans] of Object.entries(src)) {
+          if (!ans) continue;
+          const ansTime = Number(ans.timestamp || 0);
+          if (effectiveResetAt > 0 && ansTime < effectiveResetAt) continue;
+          if ((mergedDeletedAnswers[qId] || 0) > ansTime) continue;
+          const existing = mergedAnswers[qId];
+          if (!existing || ansTime >= Number(existing.timestamp || 0)) {
+            mergedAnswers[qId] = ans;
+          }
+        }
+      });
+
+      // Union merge of bookmarks across devices
       const mergedBookmarks = Array.from(new Set([
         ...(Array.isArray(sp.bookmarks) ? sp.bookmarks : []),
         ...(Array.isArray(cp.bookmarks) ? cp.bookmarks : [])
@@ -600,19 +602,20 @@ function mergeData(serverData, clientData) {
         }
       }
 
-      const newerTime = Math.max(Number(sp.updatedAt || 0), Number(cp.updatedAt || 0), Date.now());
+      const newerTime = Math.max(Number(sp.updatedAt || 0), Number(cp.updatedAt || 0)) || Date.now();
 
       profileMap.set(key, {
         id: sp.id || cp.id,
         name: cp.name || sp.name,
         avatar: cp.avatar || sp.avatar || '🩺',
         userAnswers: mergedAnswers,
+        deletedAnswers: mergedDeletedAnswers,
         bookmarks: mergedBookmarks,
-        lastQuestionId: useCpForPosition ? (cp.lastQuestionId || sp.lastQuestionId) : (sp.lastQuestionId || cp.lastQuestionId),
+        lastQuestionId: useCpForPosition ? (cp.lastQuestionId !== undefined ? cp.lastQuestionId : sp.lastQuestionId) : (sp.lastQuestionId !== undefined ? sp.lastQuestionId : cp.lastQuestionId),
         lastSubjectMap: mergedSubjectMap,
         filters: useCpForPosition ? (cp.filters || sp.filters) : (sp.filters || cp.filters),
         shuffleOptions: cp.shuffleOptions !== undefined ? cp.shuffleOptions : sp.shuffleOptions,
-        resetAt: Math.max(Number(sp.resetAt || 0), Number(cp.resetAt || 0)),
+        resetAt: effectiveResetAt,
         createdAt: sp.createdAt || cp.createdAt || Date.now(),
         updatedAt: newerTime
       });
@@ -636,111 +639,6 @@ function mergeData(serverData, clientData) {
   };
 }
 
-async function fetchCurrentGlobalData() {
-  // 1. Primary: GitHub Gist Storage (unlimited, zero-cost, persistent)
-  if (GITHUB_TOKEN && GIST_ID) {
-    try {
-      const resp = await fetch(`https://api.github.com/gists/${GIST_ID}?t=${Date.now()}`, {
-        headers: {
-          'Authorization': `token ${GITHUB_TOKEN}`,
-          'User-Agent': 'Subacute-Sync-Engine',
-          'Accept': 'application/vnd.github.v3+json'
-        },
-        cache: 'no-store'
-      });
-      if (resp.ok) {
-        const gist = await resp.json();
-        const fileObj = gist.files && gist.files['global_sync_v1.json'];
-        if (fileObj && fileObj.content) {
-          const parsed = JSON.parse(fileObj.content);
-          if (parsed && typeof parsed === 'object') {
-            return parsed;
-          }
-        }
-      }
-    } catch (err) {
-      console.warn('GitHub Gist fetch error, fallback to blob:', err.message);
-    }
-  }
-
-  // 2. Secondary: Vercel Blob Storage
-  try {
-    const resp = await fetch(`${BLOB_URL}?t=${Date.now()}`, { cache: 'no-store' });
-    if (resp.ok) {
-      return await resp.json();
-    }
-  } catch (err) {}
-
-  try {
-    const meta = await head(BLOB_PATH, { token: TOKEN });
-    if (meta && meta.url) {
-      const resp = await fetch(`${meta.url}?t=${Date.now()}`, { cache: 'no-store' });
-      if (resp.ok) {
-        return await resp.json();
-      }
-    }
-  } catch (err) {}
-
-  return {
-    reports: [],
-    comments: {},
-    customEdits: {},
-    editLogs: [],
-    profiles: [],
-    syncedAt: new Date().toISOString()
-  };
-}
-
-async function saveCurrentGlobalData(merged) {
-  let saved = false;
-
-  // 1. Primary: GitHub Gist Storage
-  if (GITHUB_TOKEN && GIST_ID) {
-    try {
-      const payload = {
-        files: {
-          'global_sync_v1.json': {
-            content: JSON.stringify(merged)
-          }
-        }
-      };
-      const resp = await fetch(`https://api.github.com/gists/${GIST_ID}`, {
-        method: 'PATCH',
-        headers: {
-          'Authorization': `token ${GITHUB_TOKEN}`,
-          'User-Agent': 'Subacute-Sync-Engine',
-          'Content-Type': 'application/json',
-          'Accept': 'application/vnd.github.v3+json'
-        },
-        body: JSON.stringify(payload)
-      });
-      if (resp.ok) {
-        saved = true;
-      } else {
-        console.warn('Gist save responded with status:', resp.status);
-      }
-    } catch (err) {
-      console.warn('Gist save error:', err.message);
-    }
-  }
-
-  // 2. Secondary: Vercel Blob Storage (if available)
-  try {
-    await put(BLOB_PATH, JSON.stringify(merged), {
-      access: 'public',
-      addRandomSuffix: false,
-      allowOverwrite: true,
-      contentType: 'application/json',
-      token: TOKEN
-    });
-    saved = true;
-  } catch (err) {
-    // Gracefully handle suspended Blob store
-  }
-
-  return saved;
-}
-
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
@@ -752,17 +650,17 @@ export default async function handler(req, res) {
 
   try {
     if (req.method === 'GET') {
-      const current = await fetchCurrentGlobalData();
+      const current = await fetchGistData();
       return res.status(200).json({ success: true, ...current });
     }
 
     if (req.method === 'POST') {
       const body = typeof req.body === 'string' ? JSON.parse(req.body) : (req.body || {});
-      const current = await fetchCurrentGlobalData();
+      const current = await fetchGistData();
       const merged = mergeData(current, body);
 
-      // Save merged state reliably
-      await saveCurrentGlobalData(merged);
+      // Save merged state to GitHub Gist (zero Vercel Blob usage)
+      await saveGistData(merged);
 
       return res.status(200).json({ success: true, ...merged });
     }

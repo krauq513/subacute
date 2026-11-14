@@ -1,0 +1,11 @@
+node_modules
+.git
+.env*
+__pycache__
+*.pyc
+*.py
+README.md
+data/quiz_all_subjects.json
+data/quiz_lab_med.json
+data/quiz_영상의학과.json
+data/pdf_manifest.json

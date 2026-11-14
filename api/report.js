@@ -1,42 +1,9 @@
 // Vercel Serverless Function: api/report.js
-// Handles user issue reports for quiz questions and syncs to global blob storage
+// Handles user issue reports for quiz questions and syncs to GitHub Gist (zero Vercel Blob usage)
 
-import { put, head } from '@vercel/blob';
-
-const BLOB_PATH = 'sync/global_sync_v1.json';
-const BLOB_URL = 'https://mz2fhtrx42zn4hgx.public.blob.vercel-storage.com/sync/global_sync_v1.json';
-const TOKEN = process.env.BLOB_READ_WRITE_TOKEN || 'vercel_blob_rw_mZ2FhTrX42ZN4HGX_mEOi9kpT0W8W9oeGrYlsJOIP8s2ZEw';
-
-async function fetchCurrentGlobalData() {
-  try {
-    const resp = await fetch(`${BLOB_URL}?t=${Date.now()}`, { cache: 'no-store' });
-    if (resp.ok) {
-      return await resp.json();
-    }
-  } catch (err) {}
-
-  try {
-    const meta = await head(BLOB_PATH, { token: TOKEN });
-    if (meta && meta.url) {
-      const resp = await fetch(`${meta.url}?t=${Date.now()}`, { cache: 'no-store' });
-      if (resp.ok) {
-        return await resp.json();
-      }
-    }
-  } catch (err) {}
-
-  return {
-    reports: [],
-    comments: {},
-    customEdits: {},
-    editLogs: [],
-    profiles: [],
-    syncedAt: new Date().toISOString()
-  };
-}
+import { fetchGistData, saveGistData } from '../lib/gist.js';
 
 export default async function handler(req, res) {
-  // CORS Headers
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
@@ -66,24 +33,22 @@ export default async function handler(req, res) {
 
       console.log('🚨 [USER_ISSUE_REPORT]:', JSON.stringify(reportItem));
 
-      // Append to global blob storage
-      const current = await fetchCurrentGlobalData();
-      const existingReports = current.reports || [];
+      const current = await fetchGistData();
+      const existingReports = Array.isArray(current.reports) ? current.reports : [];
       if (!existingReports.some(r => r.id === reportItem.id)) {
         existingReports.unshift(reportItem);
       }
       current.reports = existingReports;
       current.syncedAt = new Date().toISOString();
 
-      await put(BLOB_PATH, JSON.stringify(current), {
-        access: 'public',
-        addRandomSuffix: false,
-        allowOverwrite: true,
-        contentType: 'application/json',
-        token: TOKEN
-      });
+      await saveGistData(current);
 
-      return res.status(200).json({ success: true, message: 'Report received and saved successfully', report: reportItem, totalReports: current.reports.length });
+      return res.status(200).json({
+        success: true,
+        message: 'Report received and saved successfully',
+        report: reportItem,
+        totalReports: current.reports.length
+      });
     } catch (err) {
       console.error('Error saving report:', err);
       return res.status(400).json({ success: false, error: 'Invalid JSON or storage error' });
@@ -92,8 +57,9 @@ export default async function handler(req, res) {
 
   if (req.method === 'GET') {
     try {
-      const current = await fetchCurrentGlobalData();
-      return res.status(200).json({ status: 'ready', reports: current.reports || [], total: (current.reports || []).length });
+      const current = await fetchGistData();
+      const reports = Array.isArray(current.reports) ? current.reports : [];
+      return res.status(200).json({ status: 'ready', reports, total: reports.length });
     } catch (e) {
       return res.status(200).json({ status: 'ready', reports: [], total: 0 });
     }

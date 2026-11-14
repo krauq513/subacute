@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>subacute | 임상의학 기출 퀴즈 마스터</title>
   <meta name="description" content="subacute - 20Y ~ 26Y 임상의학 9개 분과 기출 문제 풀이 및 상세 해설 인터랙티브 CBT">
-  <link rel="stylesheet" href="style.css?v=20261114v12">
+  <link rel="stylesheet" href="style.css?v=20261114v32">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -27,7 +27,7 @@
         <div class="header-stats-group">
           <div class="stat-pill" id="stat-pill-progress" role="button" tabindex="0" title="과목별 학습 진행도 한눈에 보기 (클릭)">
             <span class="stat-label">진행도 📊</span>
-            <span class="stat-val" id="stat-progress">0 / 2551</span>
+            <span class="stat-val" id="stat-progress">0 / 2552</span>
             <div class="stat-mini-bar">
               <div class="stat-mini-bar-fill" id="stat-bar-fill" style="width: 0%;"></div>
             </div>
@@ -60,6 +60,14 @@
             <span class="sync-dot"></span>
             <span class="sync-text" id="sync-status-text">클라우드 연동</span>
           </div>
+          <button id="btn-open-progress" class="btn-icon-text btn-progress-header" type="button" aria-label="과목별 진도 보기" title="프로필에 들어가지 않고 과목별 학습 진도 한눈에 보기">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="20" x2="18" y2="10"></line>
+              <line x1="12" y1="20" x2="12" y2="4"></line>
+              <line x1="6" y1="20" x2="6" y2="14"></line>
+            </svg>
+            <span>과목별 진도</span>
+          </button>
           <button id="btn-open-pdf-viewer" class="btn-icon-text btn-pdf-header" type="button" aria-label="원본 시험지 PDF 보기" title="과목/연도별 원본 시험지 PDF 열기">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
@@ -92,7 +100,7 @@
         <span class="mf-dot">·</span>
         <span class="mf-year" id="mf-year">전체연도</span>
         <span class="mf-dot">·</span>
-        <span class="mf-count" id="mf-count">211문항</span>
+        <span class="mf-count" id="mf-count">247문항</span>
         <span class="mf-badge" id="mf-extra-badge" style="display: none;"></span>
       </div>
       <div class="mobile-filter-actions">
@@ -109,16 +117,16 @@
       <div class="filter-group subject-group">
         <span class="filter-label">임상과목:</span>
         <div class="pill-tabs subject-tabs" id="subject-tabs">
-          <button class="pill-tab subject-pill active" data-subject="진단검사의학과">🩺 진단검사 (211)</button>
-          <button class="pill-tab subject-pill" data-subject="내과">🫀 내과 (308)</button>
-          <button class="pill-tab subject-pill" data-subject="외과">🔪 외과 (124)</button>
-          <button class="pill-tab subject-pill" data-subject="산부인과">🤰 산부인과 (353)</button>
+          <button class="pill-tab subject-pill active" data-subject="진단검사의학과">🩺 진단검사 (247)</button>
+          <button class="pill-tab subject-pill" data-subject="내과">🫀 내과 (357)</button>
+          <button class="pill-tab subject-pill" data-subject="외과">🔪 외과 (125)</button>
+          <button class="pill-tab subject-pill" data-subject="산부인과">🤰 산부인과 (421)</button>
           <button class="pill-tab subject-pill" data-subject="소아청소년과">👶 소아과 (264)</button>
           <button class="pill-tab subject-pill" data-subject="신경과">🧠 신경과 (269)</button>
           <button class="pill-tab subject-pill" data-subject="정신건강의학과">🧩 정신과 (323)</button>
           <button class="pill-tab subject-pill" data-subject="정형외과">🦴 정형외과 (247)</button>
-          <button class="pill-tab subject-pill" data-subject="영상의학과">🩻 영상의학과 (239)</button>
-          <button class="pill-tab subject-pill" data-subject="ALL">🌐 전과목 통합 (2,338)</button>
+          <button class="pill-tab subject-pill" data-subject="영상의학과">🩻 영상의학과 (299)</button>
+          <button class="pill-tab subject-pill" data-subject="ALL">🌐 전과목 통합 (2,551)</button>
         </div>
       </div>
 
@@ -126,11 +134,11 @@
       <div class="filter-group">
         <span class="filter-label">출제연도:</span>
         <div class="pill-tabs" id="year-tabs">
-          <button class="pill-tab active" data-year="ALL">전체 (211)</button>
+          <button class="pill-tab active" data-year="ALL">전체 (247)</button>
           <button class="pill-tab" data-year="26Y">26Y (47)</button>
           <button class="pill-tab" data-year="23Y">23Y (50)</button>
           <button class="pill-tab" data-year="22Y">22Y (50)</button>
-          <button class="pill-tab" data-year="21Y">21Y (14)</button>
+          <button class="pill-tab" data-year="21Y">21Y (50)</button>
           <button class="pill-tab" data-year="20Y">20Y (50)</button>
         </div>
       </div>
@@ -154,7 +162,7 @@
       <div class="filter-group">
         <span class="filter-label">기출 유형:</span>
         <div class="pill-tabs" id="type-tabs">
-          <button class="pill-tab active" data-type="ALL">전체 (211)</button>
+          <button class="pill-tab active" data-type="ALL">전체 (247)</button>
           <button class="pill-tab" data-type="짤" title="기출 발문과 선지가 100% 동일하게 반복 출제된 문제">⚡ 짤 (완전일치 160)</button>
           <button class="pill-tab" data-type="반짤" title="문제 유형이나 발문 조건, 선지가 살짝 변형되어 출제된 문제">🔄 반짤 (변형기출 13)</button>
           <button class="pill-tab" data-type="탈" title="이전 기출에 없던 완전히 새로운 신유형/신규 출제 문제">✨ 탈 (신규·탈족 38)</button>
@@ -259,7 +267,7 @@
           <div class="intel-history-row" id="card-history-row">
             <span class="intel-history-label">기출 연계 이력:</span>
             <div class="intel-history-chips" id="card-history-chips">
-              <!-- Dynamically populated: e.g. [26Y-04 (현재)] [23Y-34] [22Y-02] ... -->
+              <!-- Dynamically populated: e.g. [26Y-04] [23Y-34] [22Y-02] ... -->
             </div>
           </div>
         </section>
@@ -545,7 +553,7 @@
                 <div class="profile-resume-bar-track" title="전체 풀이 진도">
                   <div class="profile-resume-bar-fill" id="resume-bar-fill" style="width: 0%;"></div>
                 </div>
-                <div class="profile-resume-stats" id="resume-stats-text">총 0 / 2,267문항 풀이 · 정답률 0% · 북마크 0개</div>
+                <div class="profile-resume-stats" id="resume-stats-text">총 0 / 2,551문항 풀이 · 정답률 0% · 북마크 0개</div>
               </div>
             </div>
             <button type="button" class="btn-resume-now" id="btn-resume-last" autofocus>
@@ -670,7 +678,7 @@
         <section class="progress-overall-banner" id="progress-overall-banner">
           <div class="progress-overall-row-main">
             <div class="progress-overall-label-wrap">
-              <span class="progress-overall-chip">🩺 전체 종합 진도</span>
+              <span class="progress-overall-chip" id="progress-overall-chip">🩺 전체 종합 진도</span>
               <strong class="progress-overall-rate" id="progress-overall-rate">0.0%</strong>
             </div>
             <div class="progress-overall-bar-container">
@@ -1056,12 +1064,12 @@
   <div class="toast-message" id="toast-message" style="display: none;"></div>
 
   <!-- Load Quiz Dataset (Embedded for instant local file:// execution without CORS) -->
-  <script src="data/quiz_data.js?v=20261114v12"></script>
+  <script src="data/quiz_data.js?v=20261114v38"></script>
   <!-- Original Exam PDF Manifest -->
   <script src="vendor/pdfjs/pdf.min.js"></script>
   <!-- Original Exam PDF Manifest -->
   <script src="data/pdf_manifest.js?v=20261106v5"></script>
   <!-- Main Application Logic -->
-  <script src="app.js?v=20261114v12"></script>
+  <script src="app.js?v=20261114v32"></script>
 </body>
 </html>

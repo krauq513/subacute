@@ -37,9 +37,12 @@
     pendingDeletedCommentIds: [],
     pendingDeletedProfileIds: [],
     activeProfileId: null,
+    profileMutationSeq: 0,
+    isInitializing: true,
     selectedNewAvatar: '🩺',
     autoOpenProfileModal: localStorage.getItem(STORAGE_KEY_AUTO_OPEN_PROFILE) !== 'false',
     userAnswers: {},   // qId -> { selectedIndices, selectedIndex, correctIndices, isCorrect, isPartial, score, timestamp }
+    deletedAnswers: {}, // qId -> timestamp when single question was reset
     bookmarks: new Set(),
     lastSubjectMap: {}, // subject -> last viewed question id in that subject
     pendingSelections: new Set(), // Set of selected option indices (0-based ORIGINAL indices) for multi-answer questions
@@ -71,10 +74,12 @@
     statBarFill: document.getElementById('stat-bar-fill'),
     statAccuracy: document.getElementById('stat-accuracy'),
     statBookmarks: document.getElementById('stat-bookmarks'),
+    btnOpenProgress: document.getElementById('btn-open-progress'),
     btnOpenGrid: document.getElementById('btn-open-grid'),
 
     // Progress Overview Modal
     progressModal: document.getElementById('progress-modal'),
+    progressOverallChip: document.getElementById('progress-overall-chip'),
     btnCloseProgress: document.getElementById('btn-close-progress'),
     btnCloseProgressBottom: document.getElementById('btn-close-progress-bottom'),
     btnProgressAllSubjects: document.getElementById('btn-progress-all-subjects'),
@@ -347,12 +352,22 @@
   const CloudSyncManager = {
     syncTimer: null,
     isSyncing: false,
+    pendingResync: false,
+    pendingResyncSilent: true,
     lastSyncTime: null,
     AUTO_SYNC_INTERVAL_MS: 180000, // 3 minutes
 
-    async sync({ silent = false, isInitial = false } = {}) {
-      if (this.isSyncing) return;
+    async sync({ silent = false, isInitial = false, force = false } = {}) {
+      if (this.isSyncing) {
+        if (force) {
+          this.pendingResync = true;
+          this.pendingResyncSilent = this.pendingResyncSilent && silent;
+        }
+        return;
+      }
       this.isSyncing = true;
+      let shouldResyncAfter = false;
+      const syncStartSeq = state.profileMutationSeq || 0;
       if (!silent) {
         this.updateIndicator('syncing');
       }
@@ -362,6 +377,7 @@
         const active = getActiveProfile();
         if (active) {
           active.userAnswers = { ...state.userAnswers };
+          active.deletedAnswers = { ...(state.deletedAnswers || {}) };
           active.bookmarks = [...state.bookmarks];
           active.shuffleOptions = !!state.shuffleOptions;
           const currentQ = getCurrentQuestion();
@@ -399,7 +415,6 @@
         const data = await resp.json();
         if (data && data.success) {
           state.pendingDeletedCommentIds = [];
-          state.pendingDeletedProfileIds = [];
 
           // 2. Merge server reports
           if (Array.isArray(data.reports)) {
@@ -433,26 +448,31 @@
             } catch (e) {}
           }
 
-          // 5. Merge server profiles (Preserving active profile across devices by ID or Name)
-          if (Array.isArray(data.profiles) && data.profiles.length > 0) {
-            const currentActiveId = state.activeProfileId;
-            const currentActiveProfile = state.profiles.find(p => p.id === currentActiveId);
-            const currentActiveName = currentActiveProfile ? currentActiveProfile.name : null;
-            state.profiles = data.profiles;
-            let updatedActive = state.profiles.find(p => p.id === currentActiveId);
-            if (!updatedActive && currentActiveName) {
-              const norm = currentActiveName.trim().toLowerCase();
-              updatedActive = state.profiles.find(p => p && p.name && p.name.trim().toLowerCase() === norm);
+          // 5. Apply server profiles ONLY if no local profile/answer mutations occurred while fetch was in flight
+          if (state.profileMutationSeq !== syncStartSeq) {
+            shouldResyncAfter = true;
+          } else {
+            state.pendingDeletedProfileIds = [];
+            if (Array.isArray(data.profiles) && data.profiles.length > 0) {
+              const currentActiveId = state.activeProfileId;
+              const currentActiveProfile = state.profiles.find(p => p.id === currentActiveId);
+              const currentActiveName = currentActiveProfile ? currentActiveProfile.name : null;
+              state.profiles = data.profiles;
+              let updatedActive = state.profiles.find(p => p.id === currentActiveId);
+              if (!updatedActive && currentActiveId === 'profile_default' && currentActiveName) {
+                const norm = currentActiveName.trim().toLowerCase();
+                updatedActive = state.profiles.find(p => p && p.name && p.name.trim().toLowerCase() === norm);
+              }
+              if (!updatedActive) {
+                updatedActive = state.profiles[0];
+              }
+              state.activeProfileId = updatedActive.id;
+              loadProfileIntoMemory(updatedActive);
+              try {
+                localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(state.profiles));
+                localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, state.activeProfileId);
+              } catch (e) {}
             }
-            if (!updatedActive) {
-              updatedActive = state.profiles[0];
-            }
-            state.activeProfileId = updatedActive.id;
-            loadProfileIntoMemory(updatedActive);
-            try {
-              localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(state.profiles));
-              localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, state.activeProfileId);
-            } catch (e) {}
           }
 
           // 6. Refresh UI components
@@ -472,6 +492,9 @@
           // Refresh open modals
           if (dom.profileModal && dom.profileModal.open) {
             renderProfileModal();
+          }
+          if (dom.progressModal && dom.progressModal.open) {
+            renderProgressModal();
           }
           if (dom.commentModal && dom.commentModal.open && curQ) {
             renderCommentList(curQ);
@@ -493,6 +516,12 @@
         this.updateIndicator('offline');
       } finally {
         this.isSyncing = false;
+        if (shouldResyncAfter || this.pendingResync) {
+          const nextSilent = this.pendingResync ? this.pendingResyncSilent : true;
+          this.pendingResync = false;
+          this.pendingResyncSilent = true;
+          setTimeout(() => this.sync({ silent: nextSilent, force: true }), 50);
+        }
       }
     },
 
@@ -594,7 +623,7 @@
 
     // Restore last viewed question for active profile on reconnect / startup
     const activeProfile = getActiveProfile();
-    const lastId = (activeProfile && activeProfile.lastQuestionId) || localStorage.getItem(STORAGE_KEY_LAST_ID);
+    const lastId = activeProfile ? (activeProfile.lastQuestionId || null) : null;
     if (lastId) {
       const targetQ = state.allQuestions.find(q => q.id === lastId);
       if (targetQ) {
@@ -616,11 +645,17 @@
           state.currentIndex = idx;
         }
       }
+    } else {
+      state.currentIndex = 0;
+      applyFilters();
+      updateSubjectUI();
+      syncFilterButtonsUI();
     }
 
     renderCurrentQuestion();
     updateStats();
     updateHeaderProfileUI();
+    state.isInitializing = false;
 
     // Show Profile / Continue modal automatically once per session if enabled
     if (state.autoOpenProfileModal && !sessionStorage.getItem(SESSION_KEY_WELCOME_SHOWN)) {
@@ -634,21 +669,24 @@
     return state.profiles.find(p => p.id === state.activeProfileId) || state.profiles[0];
   }
 
-  function createProfileObject({ id, name, avatar, userAnswers, bookmarks, lastQuestionId, lastSubjectMap, filters, shuffleOptions }) {
+  function createProfileObject({ id, name, avatar, userAnswers, deletedAnswers, bookmarks, lastQuestionId, lastSubjectMap, filters, shuffleOptions, resetAt, createdAt, updatedAt }) {
     const now = Date.now();
     return {
       id: id || `profile_${now}_${Math.random().toString(36).slice(2, 7)}`,
       name: (name || '기본 프로필').trim(),
       avatar: avatar || '🩺',
-      createdAt: now,
-      updatedAt: now,
+      createdAt: createdAt || now,
+      updatedAt: updatedAt || now,
+      resetAt: Number(resetAt || 0),
       userAnswers: userAnswers && typeof userAnswers === 'object' ? { ...userAnswers } : {},
+      deletedAnswers: deletedAnswers && typeof deletedAnswers === 'object' ? { ...deletedAnswers } : {},
       bookmarks: Array.isArray(bookmarks) ? [...bookmarks] : [],
       lastQuestionId: lastQuestionId || null,
       lastSubjectMap: lastSubjectMap && typeof lastSubjectMap === 'object' ? { ...lastSubjectMap } : {},
       filters: {
         subject: (filters && filters.subject) || '진단검사의학과',
         year: (filters && filters.year) || 'ALL',
+        section: (filters && filters.section) || 'ALL',
         type: (filters && filters.type) || 'ALL',
         onlyFrequent: !!(filters && filters.onlyFrequent),
         onlyImages: !!(filters && filters.onlyImages),
@@ -660,7 +698,7 @@
   }
 
   /**
-   * Load local storage data (with automatic migration from single-profile keys)
+   * Load local storage data (strictly isolated per profile; one-time legacy upgrade only when no profiles exist)
    */
   function loadStorage() {
     try {
@@ -680,11 +718,11 @@
       }
 
       if (loadedProfiles.length === 0) {
-        // Migrate existing single-user storage into initial default profile
+        // One-time migration from legacy single-profile keys into initial default profile
         let legacyAnswers = {};
         let legacyBookmarks = [];
         try {
-          const sa = localStorage.getItem(STORAGE_KEY_ANSWERS);
+          const sa = localStorage.getItem(STORAGE_KEY_ANSWERS) || localStorage.getItem('KMLE_QUESTION_ANSWERS_V1');
           if (sa) legacyAnswers = JSON.parse(sa) || {};
           const sb = localStorage.getItem(STORAGE_KEY_BOOKMARKS);
           if (sb) legacyBookmarks = JSON.parse(sb) || [];
@@ -710,43 +748,17 @@
           shuffleOptions: legacyShuffle
         });
         loadedProfiles = [defaultProfile];
+        localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(loadedProfiles));
+        localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, defaultProfile.id);
       }
 
-      // Check for any legacy local answers not yet reflected in profiles
+      // Remove shared legacy keys so progress/bookmarks/lastId never leak across profiles on reload
       try {
-        const sa = localStorage.getItem(STORAGE_KEY_ANSWERS) || localStorage.getItem('KMLE_QUESTION_ANSWERS_V1');
-        if (sa) {
-          const parsedAnswers = JSON.parse(sa);
-          if (parsedAnswers && typeof parsedAnswers === 'object' && Object.keys(parsedAnswers).length > 0) {
-            const targetProfile = loadedProfiles.find(p => p.id === 'profile_default') || loadedProfiles[0];
-            if (targetProfile) {
-              if (!targetProfile.userAnswers) targetProfile.userAnswers = {};
-              let hasNew = false;
-              for (const [qId, ans] of Object.entries(parsedAnswers)) {
-                if (!targetProfile.userAnswers[qId]) {
-                  targetProfile.userAnswers[qId] = ans;
-                  hasNew = true;
-                }
-              }
-              if (hasNew) {
-                targetProfile.updatedAt = Date.now();
-              }
-            }
-          }
-        }
-
-        const sb = localStorage.getItem(STORAGE_KEY_BOOKMARKS);
-        if (sb) {
-          const parsedBm = JSON.parse(sb);
-          if (Array.isArray(parsedBm) && parsedBm.length > 0) {
-            const targetProfile = loadedProfiles.find(p => p.id === 'profile_default') || loadedProfiles[0];
-            if (targetProfile) {
-              const bmSet = new Set(Array.isArray(targetProfile.bookmarks) ? targetProfile.bookmarks : []);
-              parsedBm.forEach(b => bmSet.add(b));
-              targetProfile.bookmarks = Array.from(bmSet);
-            }
-          }
-        }
+        localStorage.removeItem(STORAGE_KEY_ANSWERS);
+        localStorage.removeItem(STORAGE_KEY_BOOKMARKS);
+        localStorage.removeItem(STORAGE_KEY_LAST_ID);
+        localStorage.removeItem(STORAGE_KEY_SUBJECT);
+        localStorage.removeItem(STORAGE_KEY_SHUFFLE);
       } catch (err) {}
 
       state.profiles = loadedProfiles;
@@ -786,6 +798,9 @@
     state.userAnswers = profile.userAnswers && typeof profile.userAnswers === 'object'
       ? { ...profile.userAnswers }
       : {};
+    state.deletedAnswers = profile.deletedAnswers && typeof profile.deletedAnswers === 'object'
+      ? { ...profile.deletedAnswers }
+      : {};
     state.bookmarks = new Set(Array.isArray(profile.bookmarks) ? profile.bookmarks : []);
     state.lastSubjectMap = profile.lastSubjectMap && typeof profile.lastSubjectMap === 'object'
       ? { ...profile.lastSubjectMap }
@@ -794,6 +809,7 @@
     const pf = profile.filters || {};
     state.filters.subject = pf.subject || '진단검사의학과';
     state.filters.year = pf.year || 'ALL';
+    state.filters.section = pf.section || 'ALL';
     state.filters.type = pf.type || 'ALL';
     state.filters.onlyFrequent = !!pf.onlyFrequent;
     state.filters.onlyImages = !!pf.onlyImages;
@@ -830,14 +846,25 @@
   }
 
   /**
-   * Save state to local storage (both active profile & legacy keys)
+   * Save state to local storage strictly scoped to the active profile
    */
-  function saveStorage() {
+  function saveStorage(options = {}) {
     try {
+      const skipTimestamp = !!(options && options.skipTimestamp) || !!state.isInitializing;
       const currentQ = getCurrentQuestion();
       const active = getActiveProfile();
       if (active) {
+        // Prune deletedAnswers entries superseded by a newer solved answer
+        if (state.deletedAnswers && typeof state.deletedAnswers === 'object') {
+          for (const [qId, delTs] of Object.entries(state.deletedAnswers)) {
+            const ans = state.userAnswers[qId];
+            if (ans && Number(ans.timestamp || 0) >= Number(delTs || 0)) {
+              delete state.deletedAnswers[qId];
+            }
+          }
+        }
         active.userAnswers = { ...state.userAnswers };
+        active.deletedAnswers = { ...(state.deletedAnswers || {}) };
         active.bookmarks = [...state.bookmarks];
         active.shuffleOptions = !!state.shuffleOptions;
         if (!active.lastSubjectMap || typeof active.lastSubjectMap !== 'object') {
@@ -856,27 +883,23 @@
         active.filters = {
           subject: state.filters.subject,
           year: state.filters.year,
+          section: state.filters.section || 'ALL',
           type: state.filters.type,
           onlyFrequent: !!state.filters.onlyFrequent,
           onlyImages: !!state.filters.onlyImages,
           onlyIncorrect: !!state.filters.onlyIncorrect,
           onlyBookmarked: !!state.filters.onlyBookmarked
         };
-        active.updatedAt = Date.now();
+        if (!skipTimestamp) {
+          active.updatedAt = Date.now();
+          state.profileMutationSeq = (state.profileMutationSeq || 0) + 1;
+        }
         localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(state.profiles));
         localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, active.id);
       }
 
-      // Sync legacy keys for backward compatibility
-      localStorage.setItem(STORAGE_KEY_ANSWERS, JSON.stringify(state.userAnswers));
-      localStorage.setItem(STORAGE_KEY_BOOKMARKS, JSON.stringify([...state.bookmarks]));
-      localStorage.setItem(STORAGE_KEY_SUBJECT, state.filters.subject);
-      localStorage.setItem(STORAGE_KEY_SHUFFLE, String(state.shuffleOptions));
-      if (currentQ) {
-        localStorage.setItem(STORAGE_KEY_LAST_ID, currentQ.id);
-      }
       updateHeaderProfileUI();
-      if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.scheduleDebouncedSync) {
+      if (!state.isInitializing && typeof CloudSyncManager !== 'undefined' && CloudSyncManager.scheduleDebouncedSync) {
         CloudSyncManager.scheduleDebouncedSync(3000);
       }
     } catch (e) {
@@ -888,23 +911,8 @@
    * Load Question Data
    */
   async function loadQuestions() {
-    if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
-      try {
-        const res = await fetch('data/quiz_all_subjects.json?v=20261114v4', { cache: 'no-cache' });
-        if (res.ok) {
-          const freshData = await res.json();
-          if (Array.isArray(freshData) && freshData.length > 0) {
-            state.allQuestions = freshData;
-            window.QUIZ_DATA = freshData;
-            applyCustomEdits();
-            return;
-          }
-        }
-      } catch (fetchErr) {
-        console.warn('Fresh JSON fetch skipped, falling back to window.QUIZ_DATA:', fetchErr);
-      }
-    }
-
+    // Prefer window.QUIZ_DATA loaded from versioned data/quiz_data.js?v=...
+    // to avoid a redundant ~19MB download of data/quiz_all_subjects.json on every page load.
     if (window.QUIZ_DATA && Array.isArray(window.QUIZ_DATA) && window.QUIZ_DATA.length > 0) {
       state.allQuestions = window.QUIZ_DATA;
       applyCustomEdits();
@@ -915,19 +923,10 @@
       const res = await fetch('data/quiz_all_subjects.json');
       if (!res.ok) throw new Error('Network response not ok');
       state.allQuestions = await res.json();
+      window.QUIZ_DATA = state.allQuestions;
       applyCustomEdits();
     } catch (err) {
-      console.warn('Fetch fallback to quiz_lab_med.json or window.QUIZ_DATA:', err);
-      try {
-        const fallbackRes = await fetch('data/quiz_lab_med.json');
-        if (fallbackRes.ok) {
-          state.allQuestions = await fallbackRes.json();
-        }
-      } catch (e2) {
-        if (window.QUIZ_DATA) {
-          state.allQuestions = window.QUIZ_DATA;
-        }
-      }
+      console.warn('Quiz JSON fallback failed:', err);
     }
   }
 
@@ -940,9 +939,27 @@
     '신경과': { icon: '🧠', title: '신경과 기출 퀴즈', desc: '뇌졸중·뇌전증·이상운동질환·말초신경근육·치매' },
     '정신건강의학과': { icon: '🧩', title: '정신건강의학과 기출 퀴즈', desc: '조현병·기분장애·불안장애·물질관련장애·소아청소년/노인' },
     '정형외과': { icon: '🦴', title: '정형외과 기출 퀴즈', desc: '상지·하지·척추·골절외상·소아정형' },
-    '영상의학과': { icon: '🩻', title: '영상의학과 기출 퀴즈', desc: '흉부·복부·근골격(MSK)·신경·인터벤션·유방 세부분야 239문항' },
-    'ALL': { icon: '🩺', title: 'subacute (임상의학 기출 퀴즈 마스터)', desc: '20Y ~ 26Y 9개 임상 분과 2,338문항 통합 CBT' }
+    '영상의학과': { icon: '🩻', title: '영상의학과 기출 퀴즈', desc: '흉부·복부·근골격(MSK)·신경·인터벤션·유방 세부분야' },
+    'ALL': { icon: '🩺', title: 'subacute (임상의학 기출 퀴즈 마스터)', desc: '20Y ~ 26Y 9개 임상 분과 통합 CBT' }
   };
+
+  /**
+   * Sync subject pill button counts from loaded state.allQuestions
+   */
+  function updateSubjectTabCounts() {
+    if (!dom.subjectTabs || !Array.isArray(state.allQuestions) || state.allQuestions.length === 0) return;
+    const subCounts = {};
+    state.allQuestions.forEach(q => {
+      if (q && q.subject) subCounts[q.subject] = (subCounts[q.subject] || 0) + 1;
+    });
+    const totalCount = state.allQuestions.length;
+    dom.subjectTabs.querySelectorAll('.subject-pill').forEach(btn => {
+      const sub = btn.dataset.subject;
+      const count = (sub === 'ALL') ? totalCount : (subCounts[sub] || 0);
+      const baseLabel = btn.textContent.replace(/\s*\([\d,]+\)\s*$/, '').trim();
+      btn.textContent = `${baseLabel} (${count.toLocaleString()})`;
+    });
+  }
 
   /**
    * Update Subject UI and re-render dynamic toolbars
@@ -956,7 +973,8 @@
       ? 'subacute | 임상의학 기출 퀴즈 마스터'
       : `subacute | ${curSub} 기출 퀴즈`;
 
-    // Update active class on subject pills
+    // Sync counts and active class on subject pills
+    updateSubjectTabCounts();
     if (dom.subjectTabs) {
       dom.subjectTabs.querySelectorAll('.subject-pill').forEach(btn => {
         btn.classList.toggle('active', btn.dataset.subject === curSub);
@@ -1650,6 +1668,14 @@
     return false;
   }
 
+  function shouldShowSectionNumber(q) {
+    if (!q || !q.section || q.section_q_num === undefined || q.section_q_num === null) return false;
+    if (q.subject === '영상의학과') {
+      return q.year === '22Y' || q.year === '21Y';
+    }
+    return true;
+  }
+
   /**
    * Parse and organize cross-year question linkages for question q.
    * Returns a sorted array of consolidated chip items, one per year:
@@ -1780,9 +1806,7 @@
       // Format label
       let label = '';
       if (targetQ) {
-        const isRad = (targetQ.subject === '영상의학과');
-        const showSection = isRad ? (targetQ.year === '22Y' && targetQ.section && targetQ.section_q_num) : (targetQ.section && targetQ.section_q_num);
-        if (showSection) {
+        if (shouldShowSectionNumber(targetQ)) {
           label = `${targetQ.year} (${targetQ.section} ${String(targetQ.section_q_num).padStart(2, '0')}번)`;
           targetRaw = `${targetQ.year}-${targetQ.section}${String(targetQ.section_q_num).padStart(2, '0')}`;
         } else if (targetQ.q_label && !targetQ.q_label.startsWith('Q')) {
@@ -1838,7 +1862,6 @@
       // 1. Subject filter
       if (state.filters.subject !== 'ALL' && state.filters.subject !== target.subject) {
         state.filters.subject = target.subject;
-        localStorage.setItem(STORAGE_KEY_SUBJECT, target.subject);
       }
 
       // 2. Year filter: if restricted and doesn't match target, relax to ALL
@@ -1912,8 +1935,8 @@
       scrollToQuestionIntel();
 
       let targetLabel = '';
-      if (target.year === '22Y' && target.section && target.section_q_num) {
-        targetLabel = `22Y (${target.section} ${String(target.section_q_num).padStart(2, '0')}번)`;
+      if (shouldShowSectionNumber(target)) {
+        targetLabel = `${target.year} (${target.section} ${String(target.section_q_num).padStart(2, '0')}번)`;
       } else {
         targetLabel = `${target.year}-${String(target.q_num).padStart(2, '0')}`;
       }
@@ -2181,9 +2204,7 @@
     }
     if (dom.cardQnum) {
       dom.cardQnum.style.display = '';
-      const isRad = (q.subject === '영상의학과');
-      const showSection = isRad ? (q.year === '22Y' && q.section && q.section_q_num) : (q.section && q.section_q_num);
-      if (showSection) {
+      if (shouldShowSectionNumber(q)) {
         dom.cardQnum.textContent = `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`;
       } else if (q.q_label) {
         dom.cardQnum.textContent = q.q_label;
@@ -2284,15 +2305,15 @@
         if (item.isCurrent) {
           const chip = document.createElement('span');
           chip.className = 'intel-chip current';
-          chip.innerHTML = `${item.label} <span class="chip-now">현재</span>`;
-          chip.title = '현재 학습 중인 기출 문항';
+          chip.textContent = item.label;
+          chip.title = `현재 학습 중인 기출 문항 (${item.label})`;
           dom.cardHistoryChips.appendChild(chip);
         } else if (item.targetQ) {
           const chip = document.createElement('button');
           chip.type = 'button';
           chip.className = 'intel-chip linked';
-          chip.innerHTML = `${item.label} <span class="chip-arrow">↗ 문제 바꾸기</span>`;
-          chip.title = `클릭 시 [${item.label}] 기출 문제로 즉시 문제 바꾸기`;
+          chip.textContent = item.label;
+          chip.title = `클릭 시 [${item.label}] 기출 문제로 즉시 이동`;
           chip.addEventListener('click', () => {
             jumpToQuestionObject(item.targetQ, item.targetRaw);
           });
@@ -3188,6 +3209,8 @@
     if (!q) return;
 
     state.pendingSelections.clear();
+    if (!state.deletedAnswers) state.deletedAnswers = {};
+    state.deletedAnswers[q.id] = Date.now();
     delete state.userAnswers[q.id];
     if (dom.cardThemeTitle) {
       delete dom.cardThemeTitle.dataset.peeked;
@@ -3204,14 +3227,12 @@
    */
   function toggleShuffleMode() {
     state.shuffleOptions = !state.shuffleOptions;
-    try {
-      localStorage.setItem(STORAGE_KEY_SHUFFLE, String(state.shuffleOptions));
-    } catch (e) {}
 
     const q = getCurrentQuestion();
     if (state.shuffleOptions && q) {
       getDisplayOrder(q, true);
     }
+    saveStorage();
     renderCurrentQuestion();
     showToast(state.shuffleOptions
       ? '🔀 선지 순서 섞기가 켜졌습니다! (단축키 S)'
@@ -3226,11 +3247,9 @@
     if (!q) return;
     if (!state.shuffleOptions) {
       state.shuffleOptions = true;
-      try {
-        localStorage.setItem(STORAGE_KEY_SHUFFLE, 'true');
-      } catch (e) {}
     }
     getDisplayOrder(q, true);
+    saveStorage();
     renderCurrentQuestion();
     showToast('🔄 현재 문제의 선지 순서를 다시 섞었습니다.');
   }
@@ -3288,7 +3307,6 @@
   function switchToSubject(newSub) {
     if (!newSub) return;
     state.filters.subject = newSub;
-    localStorage.setItem(STORAGE_KEY_SUBJECT, newSub);
     state.filters.year = 'ALL';
     state.filters.section = 'ALL';
     state.isSectionFilterExpanded = false; // Always collapsed by default
@@ -3310,8 +3328,51 @@
         renderGrid();
       }
     }
+    saveStorage();
     updateStats();
     scrollToQuestionIntel();
+  }
+
+  /**
+   * Compute per-subject progress metrics for any answers/bookmarks map without mutating active state
+   */
+  function getSubjectStatsForAnswers(answersObj, bookmarksCollection) {
+    const answers = answersObj && typeof answersObj === 'object' ? answersObj : {};
+    const bookmarkSet = bookmarksCollection instanceof Set
+      ? bookmarksCollection
+      : new Set(Array.isArray(bookmarksCollection) ? bookmarksCollection : []);
+    const allQuestions = state.allQuestions || [];
+    const results = [];
+
+    SUBJECT_ORDER.forEach(sub => {
+      const subQuestions = allQuestions.filter(q => q.subject === sub);
+      const subTotal = subQuestions.length;
+      if (subTotal === 0) return;
+
+      let subAnswered = 0;
+      let subCorrect = 0;
+      let subWrong = 0;
+      let subBookmarks = 0;
+
+      subQuestions.forEach(q => {
+        const rec = answers[q.id];
+        if (rec) {
+          subAnswered++;
+          if (rec.isCorrect) subCorrect++;
+          else subWrong++;
+        }
+        if (bookmarkSet.has(q.id)) {
+          subBookmarks++;
+        }
+      });
+
+      const subRatePct = subTotal > 0 ? ((subAnswered / subTotal) * 100).toFixed(1) : '0.0';
+      const subAccPct = subAnswered > 0 ? Math.round((subCorrect / subAnswered) * 100) : 0;
+      const meta = SUBJECT_META[sub] || { icon: '🩺', title: sub };
+      results.push({ sub, meta, subTotal, subAnswered, subCorrect, subWrong, subBookmarks, subRatePct, subAccPct });
+    });
+
+    return results;
   }
 
   /**
@@ -3319,6 +3380,13 @@
    */
   function renderProgressModal() {
     if (!dom.progressSubjectGrid) return;
+
+    const active = getActiveProfile();
+    if (dom.progressOverallChip) {
+      const pAvatar = (active && active.avatar) || '🩺';
+      const pName = (active && active.name) || '기본 프로필';
+      dom.progressOverallChip.textContent = `${pAvatar} ${pName} · 전체 종합 진도`;
+    }
 
     const allQuestions = state.allQuestions || [];
     const totalQCount = allQuestions.length;
@@ -3353,32 +3421,9 @@
     // Render individual subject cards
     dom.progressSubjectGrid.innerHTML = '';
 
-    SUBJECT_ORDER.forEach(sub => {
-      const subQuestions = allQuestions.filter(q => q.subject === sub);
-      const subTotal = subQuestions.length;
-      if (subTotal === 0) return;
-
-      let subAnswered = 0;
-      let subCorrect = 0;
-      let subWrong = 0;
-      let subBookmarks = 0;
-
-      subQuestions.forEach(q => {
-        const rec = state.userAnswers[q.id];
-        if (rec) {
-          subAnswered++;
-          if (rec.isCorrect) subCorrect++;
-          else subWrong++;
-        }
-        if (state.bookmarks && state.bookmarks.has(q.id)) {
-          subBookmarks++;
-        }
-      });
-
-      const subRatePct = subTotal > 0 ? ((subAnswered / subTotal) * 100).toFixed(1) : '0.0';
-      const subAccPct = subAnswered > 0 ? Math.round((subCorrect / subAnswered) * 100) : 0;
+    getSubjectStatsForAnswers(state.userAnswers, state.bookmarks).forEach(stat => {
+      const { sub, meta, subTotal, subAnswered, subCorrect, subWrong, subBookmarks, subRatePct, subAccPct } = stat;
       const isCurrent = (state.filters.subject === sub);
-      const meta = SUBJECT_META[sub] || { icon: '🩺', title: sub };
 
       let rateTagClass = 'none';
       let rateTagText = '미응시';
@@ -3835,8 +3880,7 @@
     if (dom.editTargetSubject) dom.editTargetSubject.textContent = q.subject || '임상의학';
     if (dom.editTargetYear) dom.editTargetYear.textContent = q.year || '기출';
     if (dom.editTargetQnum) {
-      const showSec = (q.subject === '영상의학과') ? (q.year === '22Y' && q.section && q.section_q_num) : (q.section && q.section_q_num);
-      dom.editTargetQnum.textContent = showSec
+      dom.editTargetQnum.textContent = shouldShowSectionNumber(q)
         ? `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`
         : `Q${String(q.q_num || '').padStart(2, '0')}`;
     }
@@ -4036,8 +4080,7 @@
     if (dom.commentTargetSubject) dom.commentTargetSubject.textContent = q.subject || '임상의학';
     if (dom.commentTargetYear) dom.commentTargetYear.textContent = q.year || '기출';
     if (dom.commentTargetQnum) {
-      const showSec = (q.subject === '영상의학과') ? (q.year === '22Y' && q.section && q.section_q_num) : (q.section && q.section_q_num);
-      dom.commentTargetQnum.textContent = showSec
+      dom.commentTargetQnum.textContent = shouldShowSectionNumber(q)
         ? `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`
         : `Q${String(q.q_num || '').padStart(2, '0')}`;
     }
@@ -4744,8 +4787,7 @@
     if (!qNumHint) {
       const q = getCurrentQuestion();
       if (q && q.subject === sub && q.year === yr) {
-        const showSec = (q.subject === '영상의학과') ? (q.year === '22Y' && q.section && q.section_q_num) : (q.section && q.section_q_num);
-        qNumHint = showSec
+        qNumHint = shouldShowSectionNumber(q)
           ? `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`
           : (q.qnum || `Q${String(q.q_num || '').padStart(2, '0')}`);
       }
@@ -5093,7 +5135,21 @@
       const pName = active ? active.name : '현재 프로필';
       if (confirm(`'${pName}' 프로필의 모든 문제 풀이 기록과 정답 통계를 초기화하시겠습니까?`)) {
         state.userAnswers = {};
+        state.deletedAnswers = {};
+        state.lastSubjectMap = {};
+        state.currentIndex = 0;
+        if (active) {
+          active.userAnswers = {};
+          active.deletedAnswers = {};
+          active.lastQuestionId = null;
+          active.lastSubjectMap = {};
+          active.resetAt = Date.now();
+          active.updatedAt = Date.now();
+        }
         saveStorage();
+        if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+          CloudSyncManager.sync({ silent: true, force: true });
+        }
         updateStats();
         renderGrid();
         renderCurrentQuestion();
@@ -5446,6 +5502,9 @@
    * ==========================================================================
    */
   function setupProgressModalEvents() {
+    if (dom.btnOpenProgress) {
+      dom.btnOpenProgress.addEventListener('click', openProgressModal);
+    }
     if (dom.statPillProgress) {
       dom.statPillProgress.addEventListener('click', openProgressModal);
       dom.statPillProgress.addEventListener('keydown', e => {
@@ -5630,7 +5689,7 @@
     answerKeys.forEach(k => {
       if (answers[k] && answers[k].isCorrect) correctCount++;
     });
-    const total = state.allQuestions.length || 2267;
+    const total = state.allQuestions.length || 2552;
     const pct = total > 0 ? Math.round((answeredCount / total) * 100) : 0;
     const acc = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
     const bCount = Array.isArray(profile && profile.bookmarks) ? profile.bookmarks.length : 0;
@@ -5723,6 +5782,42 @@
       }
     }
 
+    function renderProfileSubjectDrawer(drawerEl, prof, isCurrent) {
+      if (!drawerEl || !prof) return;
+      const ansSource = isCurrent ? state.userAnswers : (prof.userAnswers || {});
+      const bmSource = isCurrent ? state.bookmarks : (prof.bookmarks || []);
+      const subjectStats = getSubjectStatsForAnswers(ansSource, bmSource);
+
+      const gridHtml = subjectStats.map(s => {
+        const rateNum = Number(s.subRatePct);
+        const accLabel = s.subAnswered > 0 ? `정답 ${s.subAccPct}%` : '미응시';
+        const accClass = s.subAnswered > 0 ? (s.subAccPct >= 80 ? 'high' : s.subAccPct >= 60 ? 'mid' : 'low') : 'none';
+        return `
+          <div class="drawer-sub-card">
+            <div class="drawer-sub-head">
+              <span class="drawer-sub-name">${s.meta.icon} ${escapeHtml(s.sub)}</span>
+              <strong class="drawer-sub-pct">${s.subRatePct}%</strong>
+            </div>
+            <div class="drawer-sub-bar-track">
+              <div class="drawer-sub-bar-fill${rateNum >= 100 ? ' complete' : ''}" style="width: ${s.subRatePct}%;"></div>
+            </div>
+            <div class="drawer-sub-meta">
+              <span>${s.subAnswered}/${s.subTotal}</span>
+              <span class="drawer-sub-acc ${accClass}">${accLabel}</span>
+            </div>
+          </div>
+        `;
+      }).join('');
+
+      drawerEl.innerHTML = `
+        <div class="drawer-header-note">
+          <span>📊 <strong>${escapeHtml(prof.name)}</strong> 과목별 진도 (전환 없이 조회)</span>
+          <span class="drawer-sub-legend">✓ 정답 / 총문항</span>
+        </div>
+        <div class="drawer-subject-grid">${gridHtml}</div>
+      `;
+    }
+
     if (dom.profileList) {
       dom.profileList.innerHTML = '';
       state.profiles.forEach(prof => {
@@ -5736,16 +5831,19 @@
         card.setAttribute('tabindex', '0');
         card.setAttribute('title', `'${prof.name}' 프로필 선택 및 마지막 학습 위치로 이어하기`);
         card.addEventListener('click', (e) => {
-          if (e.target.closest('.btn-profile-action') || e.target.closest('.btn-icon-action') || e.target.closest('.btn-profile-select')) return;
+          if (e.target.closest('.btn-profile-action') || e.target.closest('.btn-icon-action') || e.target.closest('.btn-profile-select') || e.target.closest('.btn-profile-progress') || e.target.closest('.profile-subject-drawer')) return;
           switchAndResumeProfile(prof.id);
         });
         card.addEventListener('keydown', (e) => {
           if (e.key === 'Enter' || e.key === ' ') {
-            if (e.target.closest('.btn-profile-action') || e.target.closest('.btn-icon-action') || e.target.closest('.btn-profile-select')) return;
+            if (e.target.closest('.btn-profile-action') || e.target.closest('.btn-icon-action') || e.target.closest('.btn-profile-select') || e.target.closest('.btn-profile-progress') || e.target.closest('.profile-subject-drawer')) return;
             e.preventDefault();
             switchAndResumeProfile(prof.id);
           }
         });
+
+        const topRow = document.createElement('div');
+        topRow.className = 'profile-card-top-row';
 
         const left = document.createElement('div');
         left.className = 'profile-item-left';
@@ -5769,6 +5867,36 @@
 
         const actions = document.createElement('div');
         actions.className = 'profile-item-actions';
+
+        const drawer = document.createElement('div');
+        drawer.className = 'profile-subject-drawer';
+        drawer.style.display = 'none';
+        drawer.addEventListener('click', (e) => e.stopPropagation());
+
+        const btnProgress = document.createElement('button');
+        btnProgress.type = 'button';
+        btnProgress.className = 'btn-profile-progress';
+        btnProgress.setAttribute('aria-expanded', 'false');
+        btnProgress.textContent = '📊 진도';
+        btnProgress.title = `'${prof.name}' 프로필로 들어가지 않고 과목별 진도 펼치기`;
+        btnProgress.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const isOpen = drawer.style.display !== 'none';
+          if (isOpen) {
+            drawer.style.display = 'none';
+            btnProgress.classList.remove('is-open');
+            btnProgress.setAttribute('aria-expanded', 'false');
+            btnProgress.textContent = '📊 진도';
+          } else {
+            renderProfileSubjectDrawer(drawer, prof, isCurrent);
+            drawer.style.display = 'block';
+            btnProgress.classList.add('is-open');
+            btnProgress.setAttribute('aria-expanded', 'true');
+            btnProgress.textContent = '📊 닫기';
+            card.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+          }
+        });
+        actions.appendChild(btnProgress);
 
         const btnSelect = document.createElement('button');
         btnSelect.type = 'button';
@@ -5823,8 +5951,10 @@
         }
 
         actions.appendChild(iconGroup);
-        card.appendChild(left);
-        card.appendChild(actions);
+        topRow.appendChild(left);
+        topRow.appendChild(actions);
+        card.appendChild(topRow);
+        card.appendChild(drawer);
         dom.profileList.appendChild(card);
       });
     }
@@ -5837,33 +5967,21 @@
     const targetProfile = state.profiles.find(p => p.id === profileId);
     if (!targetProfile) return;
 
-    // First save current active profile before switching
+    // First save current active profile before switching without bumping its timestamp
     if (state.activeProfileId && state.activeProfileId !== profileId) {
-      saveStorage();
+      saveStorage({ skipTimestamp: true });
     }
 
     state.activeProfileId = targetProfile.id;
+    state.profileMutationSeq = (state.profileMutationSeq || 0) + 1;
     loadProfileIntoMemory(targetProfile);
 
-    let targetQId = targetProfile.lastQuestionId;
-    if (targetSubjectOverride) {
-      state.filters.subject = targetSubjectOverride;
-      state.filters.year = 'ALL';
-      state.filters.type = 'ALL';
-      state.filters.onlyFrequent = false;
-      state.filters.onlyImages = false;
-      state.filters.onlyIncorrect = false;
-      state.filters.onlyBookmarked = false;
-      targetQId = (targetProfile.lastSubjectMap && targetProfile.lastSubjectMap[targetSubjectOverride]) || null;
-    }
-
-    syncFilterButtonsUI();
-    updateSubjectUI();
-
-    if (targetQId) {
-      const targetQ = state.allQuestions.find(q => q.id === targetQId);
-      if (targetQ) {
-        state.filters.subject = targetQ.subject;
+    const prevInit = state.isInitializing;
+    state.isInitializing = true;
+    try {
+      let targetQId = targetProfile.lastQuestionId;
+      if (targetSubjectOverride) {
+        state.filters.subject = targetSubjectOverride;
         state.filters.year = 'ALL';
         state.filters.section = 'ALL';
         state.filters.type = 'ALL';
@@ -5871,26 +5989,49 @@
         state.filters.onlyImages = false;
         state.filters.onlyIncorrect = false;
         state.filters.onlyBookmarked = false;
-        state.filters.searchQuery = '';
+        targetQId = (targetProfile.lastSubjectMap && targetProfile.lastSubjectMap[targetSubjectOverride]) || null;
       }
-      applyFilters();
-      syncFilterButtonsUI();
-      updateSubjectUI();
-      const idx = state.filteredQuestions.findIndex(q => q.id === targetQId);
-      state.currentIndex = idx !== -1 ? idx : 0;
-    } else {
-      applyFilters();
-      syncFilterButtonsUI();
-      updateSubjectUI();
-      state.currentIndex = 0;
-    }
 
-    renderCurrentQuestion();
-    updateStats();
-    renderGrid();
-    saveStorage();
+      syncFilterButtonsUI();
+      updateSubjectUI();
+
+      if (targetQId) {
+        const targetQ = state.allQuestions.find(q => q.id === targetQId);
+        if (targetQ) {
+          state.filters.subject = targetQ.subject;
+          state.filters.year = 'ALL';
+          state.filters.section = 'ALL';
+          state.filters.type = 'ALL';
+          state.filters.onlyFrequent = false;
+          state.filters.onlyImages = false;
+          state.filters.onlyIncorrect = false;
+          state.filters.onlyBookmarked = false;
+          state.filters.searchQuery = '';
+        }
+        applyFilters();
+        syncFilterButtonsUI();
+        updateSubjectUI();
+        const idx = state.filteredQuestions.findIndex(q => q.id === targetQId);
+        state.currentIndex = idx !== -1 ? idx : 0;
+      } else {
+        applyFilters();
+        syncFilterButtonsUI();
+        updateSubjectUI();
+        state.currentIndex = 0;
+      }
+
+      renderCurrentQuestion();
+      updateStats();
+      renderGrid();
+      saveStorage({ skipTimestamp: true });
+    } finally {
+      state.isInitializing = prevInit;
+    }
+    if (dom.progressModal && dom.progressModal.open) {
+      renderProgressModal();
+    }
     if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
-      CloudSyncManager.sync({ silent: true });
+      CloudSyncManager.sync({ silent: true, force: true });
     }
     closeProfileModal();
     scrollToQuestionIntel();
@@ -5915,26 +6056,26 @@
       name,
       avatar: state.selectedNewAvatar || '🩺',
       userAnswers: {},
+      deletedAnswers: {},
       bookmarks: copyBookmarks && active ? [...active.bookmarks] : [],
       lastQuestionId: null,
       lastSubjectMap: {},
       filters: {
         subject: state.filters.subject || '진단검사의학과',
         year: 'ALL',
+        section: 'ALL',
         type: 'ALL'
       },
       shuffleOptions: state.shuffleOptions
     });
 
     state.profiles.push(newProfile);
+    state.profileMutationSeq = (state.profileMutationSeq || 0) + 1;
     if (dom.inputProfileName) dom.inputProfileName.value = '';
     if (dom.chkCopyBookmarks) dom.chkCopyBookmarks.checked = false;
 
     switchAndResumeProfile(newProfile.id);
     showToast(`🎉 새 프로필 '${newProfile.name}'이(가) 생성되었습니다!`);
-    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
-      CloudSyncManager.sync({ silent: true });
-    }
   }
 
   function renameProfile(profileId) {
@@ -5951,7 +6092,7 @@
     prof.updatedAt = Date.now();
     saveStorage();
     if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
-      CloudSyncManager.sync({ silent: true });
+      CloudSyncManager.sync({ silent: true, force: true });
     }
     renderProfileModal();
     updateHeaderProfileUI();
@@ -5965,6 +6106,7 @@
       return;
     }
     prof.userAnswers = {};
+    prof.deletedAnswers = {};
     prof.lastQuestionId = null;
     prof.lastSubjectMap = {};
     prof.resetAt = Date.now();
@@ -5972,15 +6114,19 @@
 
     if (prof.id === state.activeProfileId) {
       state.userAnswers = {};
+      state.deletedAnswers = {};
       state.lastSubjectMap = {};
       state.currentIndex = 0;
       renderCurrentQuestion();
       updateStats();
       renderGrid();
+      if (dom.progressModal && dom.progressModal.open) {
+        renderProgressModal();
+      }
     }
     saveStorage();
     if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
-      CloudSyncManager.sync({ silent: true });
+      CloudSyncManager.sync({ silent: true, force: true });
     }
     renderProfileModal();
     showToast(`🔄 '${prof.name}' 프로필의 풀이 기록이 초기화되었습니다.`);
@@ -6005,6 +6151,8 @@
       loadProfileIntoMemory(nextActive);
       syncFilterButtonsUI();
       updateSubjectUI();
+      applyFilters();
+      state.currentIndex = 0;
       renderCurrentQuestion();
       updateStats();
       renderGrid();
@@ -6013,7 +6161,7 @@
     renderProfileModal();
     showToast(`🗑️ '${prof.name}' 프로필이 삭제되었습니다.`);
     if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
-      CloudSyncManager.sync({ silent: true });
+      CloudSyncManager.sync({ silent: true, force: true });
     }
   }
 
@@ -6072,8 +6220,7 @@
    */
   function getQuestionDisplayLabel(q) {
     if (!q) return '';
-    const showSec = (q.subject === '영상의학과') ? (q.year === '22Y' && q.section && q.section_q_num) : (q.section && q.section_q_num);
-    if (showSec) {
+    if (shouldShowSectionNumber(q)) {
       return `${q.section} Q${String(q.section_q_num).padStart(2, '0')} (#${String(q.q_num).padStart(2, '0')})`;
     }
     return `Q${String(q.q_num).padStart(2, '0')}`;
@@ -6699,8 +6846,7 @@
       }
 
       btn.textContent = `${idx + 1}`;
-      const showSec = (q.subject === '영상의학과') ? (q.year === '22Y' && q.section && q.section_q_num !== undefined && q.section_q_num !== null) : (q.section && q.section_q_num !== undefined && q.section_q_num !== null);
-      if (showSec) {
+      if (shouldShowSectionNumber(q)) {
         btn.title = `[#${idx + 1} | ${q.year} ${q.section} ${String(q.section_q_num).padStart(2, '0')}번] ${q.theme_title || ''}`;
       } else {
         btn.title = `[#${idx + 1} | ${q.year} Q${String(q.q_num || '').padStart(2, '0')}]: ${q.theme_title || ''}`;

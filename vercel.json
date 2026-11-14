@@ -7,7 +7,25 @@
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=60, stale-while-revalidate=86400"
+          "value": "public, max-age=300, s-maxage=604800, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/original_pdf/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=300, s-maxage=604800, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/vendor/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, s-maxage=31536000, stale-while-revalidate=604800"
         }
       ]
     },
@@ -16,12 +34,39 @@
       "headers": [
         {
           "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=31536000, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/style.css",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=31536000, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/app.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=31536000, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "headers": [
+        {
+          "key": "Cache-Control",
           "value": "public, max-age=0, must-revalidate"
         }
       ]
     },
     {
-      "source": "/(.*)\\.(html|js|css)",
+      "source": "/index.html",
       "headers": [
         {
           "key": "Cache-Control",

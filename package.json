@@ -14,9 +14,5 @@
     "vercel"
   ],
   "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "@vercel/blob": "^2.8.2",
-    "pdfjs-dist": "^3.11.174"
-  }
+  "license": "MIT"
 }
