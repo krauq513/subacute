@@ -274597,9 +274597,9 @@
     "year": "23Y",
     "q_num": 48,
     "category": "반짤",
-    "theme_title": "진폐증(Pneumoconiosis) 및 규폐증(Silicosis)의 흉부 영상 소견",
+    "theme_title": "다발성 폐 결절의 감별 진단: 혈행성 폐 전이(Pulmonary Metastasis)",
     "subspecialty": "흉부 영상의학",
-    "stem": "건강검진 상에서 이상이 발견된 남자 (나이는 40대 후 반?) 환자의 진단은 무엇인가? (답 불확실) (사진 출처: 구리 영상 땡시 자료 Pulmonary metastasis 사진 - 본 사진과 비슷하긴 하나 다른 사진이었음.)",
+    "stem": "건강검진 상에서 이상이 발견된 남자 (나이는 40대 후반) 환자의 진단은 무엇인가? (사진 출처: 구리 영상 땡시 자료 Pulmonary metastasis 사진 - 본 사진과 비슷하긴 하나 다른 사진이었음.)",
     "images": [
       "images/영상의학과/23Y_Q48_fig1.png"
     ],
@@ -274610,23 +274610,25 @@
       "④ Pulmonary metastasis",
       "⑤ Pulmonary tuberculosis"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Pneumoconiosis",
+    "correct_option_index": 3,
+    "correct_answer": "④ Pulmonary metastasis",
     "explanation": {
-      "title": "진폐증(Pneumoconiosis) 및 규폐증(Silicosis)의 흉부 영상 소견",
-      "findings": "분진 노출 직업력(광산, 석재, 유리 공장 등) 환자의 흉부 X선 및 CT 소견:\n• 1. 다발성 소결절(Multiple small nodules): 양측 폐의 '상폐야 및 중폐야(Upper and middle lung zone)'에 우세하게 분포하는 2~5mm 크기의 둥근 미세 결절.\n• 2. 진행성 광범위 섬유화(Progressive Massive Fibrosis, PMF): 미세 결절들이 융합되어 상폐야에 거대한 종괴형 섬유화 덩어리 형성.\n• 3. 림프절 석회화: 폐문부 및 종격동 림프절의 변연부를 따라 계란 껍질처럼 둥글게 석회화되는 달걀 껍질 석회화(Eggshell calcification of lymph nodes, 규폐증의 매우 특이적 소견).",
-      "differential": "• ① Pneumoconiosis ✓ [정답]: 중상폐야 우세의 다발성 미세 결절과 림프절의 달걀 껍질 석회화 소견은 직업성 분진 흡입에 의한 진폐증/규폐증의 전형적 특징입니다.\n• ② Sarcoidosis ✗ [오답]: 유육종증은 양측 폐문 림프절 비대(BHL)와 기관지혈관속(Bronchovascular bundle)을 따르는 결절이 주 소견입니다.\n• ③ Hypersensitive pneumonitis ✗ [오답]: 과민성 폐장염은 젖빛유리 음영(GGO)과 소엽 중심성 저흡수 음영(Mosaic attenuation)이 특징입니다.\n• ④ Pulmonary metastasis ✗ [오답]: 혈행성 폐 전이는 크기가 다양한 경계가 명확한 결절(Cannonball lesion)이 혈류가 많은 '하폐야(Lower lobe)'에 우세합니다.\n• ⑤ Pulmonary tuberculosis ✗ [오답]: 결핵은 상엽 첨후구역의 공동 형성 및 Tree-in-bud 소견을 보입니다.",
-      "trap": "• 결절의 위치 감별:\n  - 상폐야 우세 = 진폐증(Pneumoconiosis), 규폐증, 결핵!\n  - 하폐야 우세 = 혈행성 폐전이(Metastasis), IPF, 석면폐증(Asbestosis)!",
-      "trigger": "【진폐증/규폐증 영상 2대 징후】\n• Upper zone dominant nodules + Eggshell calcification of lymph nodes = 진폐증!",
-      "kmle_link": "KMLE 직업환경의학/호흡기 - 진폐증 및 규폐증의 방사선학적 분류",
+      "title": "혈행성 폐 전이(Pulmonary Metastasis)의 흉부 영상 소견",
+      "theme_title": "다발성 폐 결절의 감별 진단: 혈행성 폐 전이(Pulmonary Metastasis)",
+      "subspecialty": "흉부 영상의학",
+      "findings": "흉부 단순 X선 및 CT에서 양측 폐야 전반(특히 혈류량이 풍부한 중·하폐야)에 걸쳐 다양한 크기의 경계가 명확한 다발성 원형 결절(Cannonball lesion)들이 관찰되는 혈행성 폐 전이(Pulmonary metastasis) 소견입니다.",
+      "differential": "• ① Pneumoconiosis ✗ [오답]: 진폐증/규폐증은 주로 상폐야 및 중폐야에 2~5mm 소결절이 우세하게 분포하며, 림프절의 달걀 껍질 석회화(Eggshell calcification) 또는 융합된 PMF 종괴를 형성합니다.\n• ② Sarcoidosis ✗ [오답]: 유육종증은 양측 폐문 림프절 비대(BHL)와 기관지혈관속(Bronchovascular bundle) 및 엽간열(Fissure)을 따라 미세 결절들이 림프 경로(Perilymphatic distribution)로 배열됩니다.\n• ③ Hypersensitive pneumonitis ✗ [오답]: 과민성 폐장염은 원심성 젖빛유리 음영(GGO), 소엽 중심성 저흡수 음영 및 모자이크 관류(Mosaic perfusion)가 주 소견입니다.\n• ④ Pulmonary metastasis ✓ [정답]: 혈행성 파종에 의한 전이암은 양측 폐야(특히 기저부/하폐야)에 크기가 다양하고 경계가 뚜렷한 원형 결절(다발성 폐결절, Cannonball / hematogenous metastases) 소견을 나타냅니다.\n• ⑤ Pulmonary tuberculosis ✗ [오답]: 결핵은 상엽 첨후구역 및 하엽 상구역의 공동 형성, 경화 및 기관지 파종을 시사하는 Tree-in-bud 소견을 보입니다.",
+      "trap": "• 결절의 위치 및 크기 감별:\n  - 상폐야 우세 = 진폐증(Pneumoconiosis), 규폐증, 결핵!\n  - 하폐야 우세 = 혈행성 폐전이(Metastasis), 특발성 폐섬유증(IPF)!\n  - 균일한 미세 좁쌀 결절 = 속립성 결핵(Miliary TB), 규폐증\n  - 크기가 다양하고 둥근 뚜렷한 결절 = 혈행성 폐 전이(Cannonball lesion)",
+      "trigger": "【혈행성 폐 전이(Pulmonary Metastasis) 핵심 족보 & 임상 가이드라인】\n• 병태생리/해부학: 원발암(위장관암, 유방암, 신세포암, 육종 등)에서 혈류를 타고 폐포 모세혈관으로 파종되어 형성.\n• 핵심 영상 소견: 양측 폐야에 크기가 불균일하고 경계가 매끄러운 다발성 결절(Multiple round nodules / Cannonball lesion), 중·하폐야 우세 분포.\n• 1초 정답 도출 트리거: 40~50대 무증상 검진 + 크기 다양한 다발성 원형 결절 = Pulmonary metastasis.",
+      "kmle_link": "KMLE 호흡기학/영상의학 - 다발성 폐결절의 감별 진단(전이암, 결핵, 진폐증, 유육종증)",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
           "text": "Pneumoconiosis",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "상폐야 우세의 미세 결절들과 림프절 달걀껍질 석회화는 전형적인 진폐증/규폐증 소견입니다."
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "진폐증은 상폐야 우세의 미세 결절과 림프절 달걀껍질 석회화가 특징적입니다."
         },
         {
           "opt_idx": 1,
@@ -274634,7 +274636,7 @@
           "text": "Sarcoidosis",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "양측 폐문 림프절 비대(BHL)가 선행하는 육아종 질환입니다."
+          "reason": "유육종증은 양측 폐문 림프절 비대(BHL)와 기관지혈관속 주위 림프성 결절을 보입니다."
         },
         {
           "opt_idx": 2,
@@ -274642,15 +274644,15 @@
           "text": "Hypersensitive pneumonitis",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "원심성 GGO 및 모자이크 관류 음영을 나타냅니다."
+          "reason": "과민성 폐장염은 젖빛유리 음영(GGO)과 모자이크 관류 음영을 나타냅니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
           "text": "Pulmonary metastasis",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "폐전이 결절은 혈류가 풍부한 하폐야에 호발합니다."
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "크기가 다양한 다발성 경계 명확 원형 결절(Cannonball lesion)이 중·하폐야에 산재하는 혈행성 폐 전이 소견입니다."
         },
         {
           "opt_idx": 4,
@@ -274658,15 +274660,15 @@
           "text": "Pulmonary tuberculosis",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "공동 및 기관지 파종 결절을 보입니다."
+          "reason": "결핵은 상엽 첨후구역의 공동 및 기관지 파종(Tree-in-bud) 소견을 보입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "크기가 불균일하고 경계가 명확한 다발성 원형 결절은 혈류를 통한 원발암의 혈행성 폐 전이를 강력히 시사합니다."
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      3
     ],
     "freq_count": 4,
     "rate": 67,
@@ -274686,9 +274688,9 @@
         "opt_idx": 0,
         "opt_num": "①",
         "text": "Pneumoconiosis",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "상폐야 우세의 미세 결절들과 림프절 달걀껍질 석회화는 전형적인 진폐증/규폐증 소견입니다."
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "진폐증은 상폐야 우세의 미세 결절과 림프절 달걀껍질 석회화가 특징적입니다."
       },
       {
         "opt_idx": 1,
@@ -274696,7 +274698,7 @@
         "text": "Sarcoidosis",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "양측 폐문 림프절 비대(BHL)가 선행하는 육아종 질환입니다."
+        "reason": "유육종증은 양측 폐문 림프절 비대(BHL)와 기관지혈관속 주위 림프성 결절을 보입니다."
       },
       {
         "opt_idx": 2,
@@ -274704,15 +274706,15 @@
         "text": "Hypersensitive pneumonitis",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "원심성 GGO 및 모자이크 관류 음영을 나타냅니다."
+        "reason": "과민성 폐장염은 젖빛유리 음영(GGO)과 모자이크 관류 음영을 나타냅니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
         "text": "Pulmonary metastasis",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "폐전이 결절은 혈류가 풍부한 하폐야에 호발합니다."
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "크기가 다양한 다발성 경계 명확 원형 결절(Cannonball lesion)이 중·하폐야에 산재하는 혈행성 폐 전이 소견입니다."
       },
       {
         "opt_idx": 4,
@@ -274720,13 +274722,14 @@
         "text": "Pulmonary tuberculosis",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "공동 및 기관지 파종 결절을 보입니다."
+        "reason": "결핵은 상엽 첨후구역의 공동 및 기관지 파종(Tree-in-bud) 소견을 보입니다."
       }
     ],
     "section": "흉부",
     "section_q_num": null,
     "q_label": "Q48",
-    "answer": "① Pneumoconiosis"
+    "answer": "④ Pulmonary metastasis",
+    "question": "건강검진 상에서 이상이 발견된 남자 (나이는 40대 후반) 환자의 진단은 무엇인가? (사진 출처: 구리 영상 땡시 자료 Pulmonary metastasis 사진 - 본 사진과 비슷하긴 하나 다른 사진이었음.)"
   },
   {
     "id": "영상의학과_23Y_Q49",
