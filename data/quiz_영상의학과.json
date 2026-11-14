@@ -29877,7 +29877,14 @@
           "reason": "B는 근육과 피부 쪽으로 길게 뻗어 나온 누관(Sinus tract)이고 C가 뼈 중심부 골수강 내 농양(Abscess)이므로 B와 C가 서로 뒤바뀌어 틀렸습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "images": [
+        {
+          "url": "images/영상의학과/osteomyelitis_schema.png",
+          "caption": "급성 및 만성 골수염(Osteomyelitis)의 병태생리 해부학 모식도",
+          "description": "• Acute: 골내 농양(Intra-osseous abscess), 골막 거상(Elevated periosteum), 골막하 농양(Sub-periosteal abscess), 배농공(Cloaca)\n• Chronic: 괴사된 죽은 뼈(Sequestrum), 감싸는 신생골 외피(Involucrum), 배농 구멍(Cloaca), 피부로 이어지는 누관(Sinus tract)"
+        }
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -30496,7 +30503,14 @@
           "reason": "B는 골수강 내에 고립된 저신호 괴사 골편(sequestrum)이 아니라 피질골 밖 연부조직에 형성된 고신호 액체 저류(abscess)이므로 구조물 명칭이 잘못 짝지어졌습니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "images": [
+        {
+          "url": "images/영상의학과/osteomyelitis_schema.png",
+          "caption": "급성 및 만성 골수염(Osteomyelitis)의 병태생리 해부학 모식도",
+          "description": "• Acute: 골내 농양(Intra-osseous abscess), 골막 거상(Elevated periosteum), 골막하 농양(Sub-periosteal abscess), 배농공(Cloaca)\n• Chronic: 괴사된 죽은 뼈(Sequestrum), 감싸는 신생골 외피(Involucrum), 배농 구멍(Cloaca), 피부로 이어지는 누관(Sinus tract)"
+        }
+      ]
     },
     "option_explanations": [
       {
@@ -30557,13 +30571,13 @@
     ],
     "options": [
       "① 10~20대에서만 발생하고 고령에서는 발생하지 않는다.",
-      "② 주로 골단에 호발한다.",
-      "③ 동일한 장골 내에서 건너뜀 전이를 일으킬 수 있으므로 주의를 요한다.",
+      "② 주로 골단(Epiphysis)에 호발한다.",
+      "③ 동일한 장골(Long bone) 내에서 건너뜀 전이(Skip metastasis)를 일으킬 수 있으므로 주의를 요한다.",
       "④ 척추체와 쇄골에서 가장 호발한다.",
       "⑤ 순수 골융해성 병변만을 보이며 혈행성 전이는 발생하지 않는다."
     ],
     "correct_option_index": 2,
-    "correct_answer": "③ 동일한 장골 내에서 건너뜀 전이를 일으킬 수 있으므로 주의를 요한다.",
+    "correct_answer": "③ 동일한 장골(Long bone) 내에서 건너뜀 전이(Skip metastasis)를 일으킬 수 있으므로 주의를 요한다.",
     "answer": "③ 동일한 장골 내에서 건너뜀 전이를 일으킬 수 있으므로 주의를 요한다.",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -30693,14 +30707,14 @@
       "images/영상의학과/19Y_Q10_fig1.png"
     ],
     "options": [
-      "① A: ASIS - 봉공근, B: AIIS - 대퇴직근, C: 소전자 - 장요근, D: 대전자 - 중둔근",
+      "① A: ASIS - 봉공근(Sartorius), B: AIIS - 대퇴직근(Rectus femoris), C: 소전자 - 장요근(Iliopsoas), D: 대전자 - 중둔근(Gluteus medius)",
       "② A: AIIS - 대퇴직근, B: ASIS - 봉공근, C: 대전자 - 장요근, D: 소전자 - 중둔근",
       "③ A: 장골능 - 대둔근, B: 치골결절 - 박근, C: 소전자 - 대퇴이두근, D: 대전자 - 장요근",
       "④ A: ASIS - 장요근, B: AIIS - 중둔근, C: 좌골결절 - 대퇴직근, D: 대전자 - 봉공근",
       "⑤ A: 좌골결절 - 햄스트링, B: ASIS - 대퇴근막장근, C: 소전자 - 중둔근, D: 대전자 - 이상근"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① A: ASIS - 봉공근, B: AIIS - 대퇴직근, C: 소전자 - 장요근, D: 대전자 - 중둔근",
+    "correct_answer": "① A: ASIS - 봉공근(Sartorius), B: AIIS - 대퇴직근(Rectus femoris), C: 소전자 - 장요근(Iliopsoas), D: 대전자 - 중둔근(Gluteus medius)",
     "answer": "① A: ASIS - 봉공근, B: AIIS - 대퇴직근, C: 소전자 - 장요근, D: 대전자 - 중둔근",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -30969,14 +30983,14 @@
       "images/영상의학과/19Y_Q15_fig1.png"
     ],
     "options": [
-      "① 류마티스 관절염",
-      "② 골관절염",
-      "③ 통풍성 관절염",
-      "④ 골괴사증",
-      "⑤ 가성통풍"
+      "① 류마티스 관절염 (Rheumatoid arthritis)",
+      "② 골관절염 (Osteoarthritis)",
+      "③ 통풍성 관절염 (Gouty arthritis)",
+      "④ 골괴사증 (Osteonecrosis)",
+      "⑤ 가성통풍 (CPPD)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 류마티스 관절염",
+    "correct_answer": "① 류마티스 관절염 (Rheumatoid arthritis)",
     "answer": "① 류마티스 관절염",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -31110,14 +31124,14 @@
       "images/영상의학과/19Y_Q16_fig1.png"
     ],
     "options": [
-      "① 강직척추염",
-      "② 류마티스 관절염",
-      "③ 미만성 특발성 골격 과골증",
-      "④ 화농성 척추염",
-      "⑤ 퇴행성 척추증"
+      "① 강직척추염 (Ankylosing spondylitis)",
+      "② 류마티스 관절염 (Rheumatoid arthritis)",
+      "③ 미만성 특발성 골격 과골증 (DISH)",
+      "④ 화농성 척추염 (Pyogenic spondylitis)",
+      "⑤ 퇴행성 척추증 (Spondylosis deformans)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 강직척추염",
+    "correct_answer": "① 강직척추염 (Ankylosing spondylitis)",
     "answer": "① 강직척추염",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -31382,14 +31396,14 @@
       "images/영상의학과/19Y_Q17_fig1.png"
     ],
     "options": [
-      "① 골관절염",
-      "② 류마티스 관절염",
-      "③ 화농성 관절염",
-      "④ 통풍성 관절염",
-      "⑤ 골괴사증"
+      "① 골관절염 (Osteoarthritis)",
+      "② 류마티스 관절염 (Rheumatoid arthritis)",
+      "③ 화농성 관절염 (Septic arthritis)",
+      "④ 통풍성 관절염 (Gouty arthritis)",
+      "⑤ 골괴사증 (Avascular necrosis)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 골관절염",
+    "correct_answer": "① 골관절염 (Osteoarthritis)",
     "answer": "① 골관절염",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -31517,14 +31531,14 @@
     "stem": "뼈의 일반촬영검사(Plain radiography)에 대한 설명으로 가장 바른 것은?",
     "images": [],
     "options": [
-      "① 일반촬영검사에서는 앞쪽 피질골과 골수강, 뒤쪽 피질골이 겹쳐서 중첩된 음영을 보인다.",
+      "① 일반촬영검사에서는 앞쪽 피질골(Cortical bone)과 골수강(Bone marrow trabeculae), 뒤쪽 피질골이 겹쳐서 중첩된 음영(Summation)을 보인다.",
       "② 정상에 비해 검게 보이는 경우를 음영의 증가, 하얗게 보이는 경우를 음영의 감소라 부른다.",
       "③ 과거에 주로 사용된 방법으로 현재는 모든 골격계 질환에서 CT와 MRI로 완전히 대치되었다.",
-      "④ 국소적으로 음영이 감소된 소견은 골 형성의 증가를 의미한다.",
+      "④ 국소적으로 음영이 감소된 소견은 골 형성(Bone formation)의 증가를 의미한다.",
       "⑤ 피질골에 생긴 골종양은 일반촬영으로 전혀 인지할 수 없어 항상 Bone scan이나 MRI를 먼저 시행해야 한다."
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 일반촬영검사에서는 앞쪽 피질골과 골수강, 뒤쪽 피질골이 겹쳐서 중첩된 음영을 보인다.",
+    "correct_answer": "① 일반촬영검사에서는 앞쪽 피질골(Cortical bone)과 골수강(Bone marrow trabeculae), 뒤쪽 피질골이 겹쳐서 중첩된 음영(Summation)을 보인다.",
     "answer": "① 일반촬영검사에서는 앞쪽 피질골과 골수강, 뒤쪽 피질골이 겹쳐서 중첩된 음영을 보인다.",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -31652,14 +31666,14 @@
       "images/영상의학과/19Y_Q18_fig1.png"
     ],
     "options": [
-      "① 통풍성 관절염",
-      "② 류마티스 관절염",
-      "③ 골관절염",
-      "④ 골괴사증",
-      "⑤ 화농성 관절염"
+      "① 통풍성 관절염 (Gouty arthritis)",
+      "② 류마티스 관절염 (Rheumatoid arthritis)",
+      "③ 골관절염 (Osteoarthritis)",
+      "④ 골괴사증 (Osteonecrosis)",
+      "⑤ 화농성 관절염 (Septic arthritis)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 통풍성 관절염",
+    "correct_answer": "① 통풍성 관절염 (Gouty arthritis)",
     "answer": "① 통풍성 관절염",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -31786,9 +31800,9 @@
     "images": [],
     "options": [
       "① 단순 단기간(3일 이내) 항생제 및 수액 투여",
-      "② 만성 신부전 환자에서 혈관통로 마련 전 장기간 혈액투석",
-      "③ 항암화학요법 약제의 장기적 반복 주입",
-      "④ 단장증후군 환자 등에서 장기적인 완전비경구영양",
+      "② 만성 신부전 환자에서 혈관통로 마련 전 장기간 혈액투석(Hemodialysis)",
+      "③ 항암화학요법(Chemotherapy) 약제의 장기적 반복 주입",
+      "④ 단장증후군 환자 등에서 장기적인 완전비경구영양(Total Parenteral Nutrition, TPN)",
       "⑤ 잦은 채혈과 수혈이 필요한 중증 골수부전 환자"
     ],
     "correct_option_index": 0,
@@ -31918,14 +31932,14 @@
     "stem": "대동맥 질환에서 혈관내 스텐트 그라프트 설치술(EVAR, TEVAR)의 적응증이 아닌 것은?",
     "images": [],
     "options": [
-      "① 드베이키 1형/스탠포드 A형 급성 대동맥 박리",
-      "② 관통성 동맥경화성 궤양",
-      "③ 외상성 흉부 대동맥 손상",
-      "④ 신동맥 하부 복부 대동맥류",
-      "⑤ 스탠포드 B형 대동맥 박리"
+      "① 드베이키 1형/스탠포드 A형 급성 대동맥 박리 (Type A aortic dissection)",
+      "② 관통성 동맥경화성 궤양 (Penetrating atherosclerotic ulcer, PAU)",
+      "③ 외상성 흉부 대동맥 손상 (Traumatic aortic injury)",
+      "④ 신동맥 하부 복부 대동맥류 (Infrarenal abdominal aortic aneurysm)",
+      "⑤ 스탠포드 B형 대동맥 박리 (Type B aortic dissection with complication)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 드베이키 1형/스탠포드 A형 급성 대동맥 박리",
+    "correct_answer": "① 드베이키 1형/스탠포드 A형 급성 대동맥 박리 (Type A aortic dissection)",
     "answer": "① 드베이키 1형/스탠포드 A형 급성 대동맥 박리",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -32062,14 +32076,14 @@
     "stem": "CT 혈관조영술(CTA)이 널리 사용되고 있으나, 혈관 내 압력차 측정 및 진단과 동시에 풍선확장술(PTA) 등의 치료를 직접 시행하기 위해 재래식 카테터 혈관조영술(Conventional angiography)이 결정적으로 요구되는 질환은?",
     "images": [],
     "options": [
-      "① 신혈관성 고혈압",
-      "② 단순 복부 대동맥류",
-      "③ 무증상성 흉부 대동맥 박리",
-      "④ 단순 심부정맥 혈전증",
-      "⑤ 대동맥 죽상판 형성"
+      "① 신혈관성 고혈압 (Renovascular hypertension)",
+      "② 단순 복부 대동맥류 (Abdominal aortic aneurysm)",
+      "③ 무증상성 흉부 대동맥 박리 (Aortic dissection)",
+      "④ 단순 심부정맥 혈전증 (Deep vein thrombosis)",
+      "⑤ 대동맥 죽상판 형성 (Aortic atheroma)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 신혈관성 고혈압",
+    "correct_answer": "① 신혈관성 고혈압 (Renovascular hypertension)",
     "answer": "① 신혈관성 고혈압",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -32199,14 +32213,14 @@
       "images/영상의학과/19Y_Q19_fig1.png"
     ],
     "options": [
-      "① 유로키나아제, 조직 플라스미노겐 활성제",
-      "② 헤파린, 와파린",
-      "③ 아스피린, 클로피도그렐",
-      "④ 프로타민, 비타민 K",
-      "⑤ 에피네프린, 노르에피네프린"
+      "① 유로키나아제 (Urokinase), 조직 플라스미노겐 활성제 (tPA)",
+      "② 헤파린 (Heparin), 와파린 (Warfarin)",
+      "③ 아스피린 (Aspirin), 클로피도그렐 (Clopidogrel)",
+      "④ 프로타민 (Protamine), 비타민 K (Vitamin K)",
+      "⑤ 에피네프린 (Epinephrine), 노르에피네프린 (Norepinephrine)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 유로키나아제, 조직 플라스미노겐 활성제",
+    "correct_answer": "① 유로키나아제 (Urokinase), 조직 플라스미노겐 활성제 (tPA)",
     "answer": "① 유로키나아제, 조직 플라스미노겐 활성제",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -32334,14 +32348,14 @@
       "images/영상의학과/19Y_Q20_fig1.png"
     ],
     "options": [
-      "① 경피적 농양 배액술",
-      "② 내시경적 역행성 담췌관조영술",
-      "③ 간동맥 화학색전술",
-      "④ 응급 간 반절제술",
-      "⑤ 고주파 열치료술"
+      "① 경피적 농양 배액술 (Percutaneous catheter drainage, PCD)",
+      "② 내시경적 역행성 담췌관조영술 (ERCP)",
+      "③ 간동맥 화학색전술 (TACE)",
+      "④ 응급 간 반절제술 (Hemihepatectomy)",
+      "⑤ 고주파 열치료술 (RFA)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 경피적 농양 배액술",
+    "correct_answer": "① 경피적 농양 배액술 (Percutaneous catheter drainage, PCD)",
     "answer": "① 경피적 농양 배액술",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -32471,14 +32485,14 @@
       "images/영상의학과/19Y_Q23_fig1.png"
     ],
     "options": [
-      "① 경피경간 담즙배액술",
-      "② 간동맥 색전술",
-      "③ 경피적 농양 배액술",
-      "④ 복수 천자술",
-      "⑤ 간조직 생검술"
+      "① 경피경간 담즙배액술 (Percutaneous transhepatic biliary drainage, PTBD)",
+      "② 간동맥 색전술 (TAE)",
+      "③ 경피적 농양 배액술 (PCD)",
+      "④ 복수 천자술 (Paracentesis)",
+      "⑤ 간조직 생검술 (Liver biopsy)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 경피경간 담즙배액술",
+    "correct_answer": "① 경피경간 담즙배액술 (Percutaneous transhepatic biliary drainage, PTBD)",
     "answer": "① 경피경간 담즙배액술",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -32607,14 +32621,14 @@
       "images/영상의학과/19Y_Q22_fig1.png"
     ],
     "options": [
-      "① 담관염이 동반된 급성 담도 폐쇄",
-      "② 단순 무증상성 담낭 결석",
-      "③ 만성 담낭염",
+      "① 담관염(화농성 감염)이 동반된 급성 담도 폐쇄 (Acute suppurative cholangitis with biliary obstruction)",
+      "② 단순 무증상성 담낭 결석 (Asymptomatic gallstone)",
+      "③ 만성 담낭염 (Chronic cholecystitis)",
       "④ 국소 림프절 비대를 동반하지 않은 초기 간외담관암",
-      "⑤ 선천성 총담관 낭종"
+      "⑤ 선천성 총담관 낭종 (Type 1 choledochal cyst)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 담관염이 동반된 급성 담도 폐쇄",
+    "correct_answer": "① 담관염(화농성 감염)이 동반된 급성 담도 폐쇄 (Acute suppurative cholangitis with biliary obstruction)",
     "answer": "① 담관염이 동반된 급성 담도 폐쇄",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -32744,14 +32758,14 @@
       "images/영상의학과/19Y_Q24_fig1.png"
     ],
     "options": [
-      "① A: 자궁내막",
-      "② B: 자궁내막-근층 결합대",
-      "③ C: 외측 자궁근층",
-      "④ D: 자궁 장막하층",
-      "⑤ E: 자궁경부 외구"
+      "① A: 자궁내막(Endometrium)",
+      "② B: 자궁내막-근층 결합대 (Junctional zone)",
+      "③ C: 외측 자궁근층(Outer myometrium)",
+      "④ D: 자궁 장막하층(Subserosa)",
+      "⑤ E: 자궁경부 외구(External os)"
     ],
     "correct_option_index": 1,
-    "correct_answer": "② B: 자궁내막-근층 결합대",
+    "correct_answer": "② B: 자궁내막-근층 결합대 (Junctional zone)",
     "answer": "② B: 자궁내막-근층 결합대",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -32876,19 +32890,19 @@
     "category": "기출",
     "theme_title": "성숙 낭성 기형종(Mature Cystic Teratoma / Dermoid Cyst)의 골반 CT 소견",
     "subspecialty": "비뇨생식 영상의학",
-    "stem": "급성 복통으로 내원한 여성 환자의 골반 CT 영상이다. 좌측 부속기에 지방(Fat) 저음영 성분과 낭성 성분을 포함한 종괴가 관찰될 때, 가장 적절한 진단은?",
+    "stem": "급성 하복부 통증과 고열, 질 분비물 증가로 내원한 가임기 여성의 골반 CT 영상이다. 양측 부속기 부위의 복합 낭성 종괴에 대한 가장 적절한 진단은?",
     "images": [
       "images/영상의학과/19Y_Q25_fig1.png"
     ],
     "options": [
-      "① 성숙 낭성 기형종",
-      "② 장액성 낭선종",
-      "③ 점액성 낭선종",
-      "④ 난관난소농양",
-      "⑤ 단순 난소 낭종"
+      "① 난관난소농양 (Tubo-ovarian abscess, TOA)",
+      "② 성숙 낭성 기형종 (Mature cystic teratoma)",
+      "③ 장액성 낭선종 (Serous cystadenoma)",
+      "④ 점액성 낭선종 (Mucinous cystadenoma)",
+      "⑤ 단순 난소 낭종 (Simple ovarian cyst)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 성숙 낭성 기형종",
+    "correct_answer": "① 난관난소농양 (Tubo-ovarian abscess, TOA)",
     "answer": "① 성숙 낭성 기형종",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -33022,14 +33036,14 @@
       "images/영상의학과/19Y_Q27_fig1.png"
     ],
     "options": [
-      "① 크론병",
-      "② 궤양성 대장염",
-      "③ 장결핵",
-      "④ 허혈성 대장염",
-      "⑤ 위막성 대장염"
+      "① 크론병 (Crohn's disease)",
+      "② 궤양성 대장염 (Ulcerative colitis)",
+      "③ 장결핵 (Intestinal tuberculosis)",
+      "④ 허혈성 대장염 (Ischemic colitis)",
+      "⑤ 위막성 대장염 (Pseudomembranous colitis)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 크론병",
+    "correct_answer": "① 크론병 (Crohn's disease)",
     "answer": "① 크론병",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -33163,14 +33177,14 @@
       "images/영상의학과/19Y_Q28_fig1.png"
     ],
     "options": [
-      "① 고환 염전",
-      "② 급성 부고환-고환염",
-      "③ 고환 종양",
-      "④ 외상성 고환 파열",
-      "⑤ 정계정맥류"
+      "① 고환 염전 (Testicular torsion)",
+      "② 급성 부고환-고환염 (Epididymo-orchitis)",
+      "③ 고환 종양 (Testis tumor)",
+      "④ 외상성 고환 파열 (Testis rupture)",
+      "⑤ 정계정맥류 (Varicocele)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 고환 염전",
+    "correct_answer": "① 고환 염전 (Testicular torsion)",
     "answer": "① 고환 염전",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -33302,14 +33316,14 @@
       "images/영상의학과/19Y_Q29_fig1.png"
     ],
     "options": [
-      "① 췌장관 선암종",
-      "② 췌관내유두상점액종양",
-      "③ 급성 췌장염",
-      "④ 만성 석회화 췌장염",
-      "⑤ 췌장 신경내분비종양"
+      "① 췌장관 선암종 (Pancreatic ductal adenocarcinoma)",
+      "② 췌관내유두상점액종양 (IPMN)",
+      "③ 급성 췌장염 (Acute pancreatitis)",
+      "④ 만성 석회화 췌장염 (Chronic calcifying pancreatitis)",
+      "⑤ 췌장 신경내분비종양 (Pancreatic NET)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 췌장관 선암종",
+    "correct_answer": "① 췌장관 선암종 (Pancreatic ductal adenocarcinoma)",
     "answer": "① 췌장관 선암종",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -33439,14 +33453,14 @@
       "images/영상의학과/19Y_Q29_fig2.png"
     ],
     "options": [
-      "① 투명세포형 신세포암",
-      "② 혈관근지방종",
-      "③ 신우 요로상피암",
-      "④ 단순 신낭종",
-      "⑤ 신장 지방종"
+      "① 투명세포형 신세포암 (Clear cell renal cell carcinoma, ccRCC)",
+      "② 혈관근지방종 (Angiomyolipoma, AML)",
+      "③ 신우 요로상피암 (Transitional cell carcinoma, TCC)",
+      "④ 단순 신낭종 (Simple renal cyst, Bosniak I)",
+      "⑤ 신장 지방종 (Renal lipoma)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 투명세포형 신세포암",
+    "correct_answer": "① 투명세포형 신세포암 (Clear cell renal cell carcinoma, ccRCC)",
     "answer": "① 투명세포형 신세포암",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -33576,14 +33590,14 @@
       "images/영상의학과/19Y_Q30_fig1.png"
     ],
     "options": [
-      "① 난관난소농양",
-      "② 충수돌기염 주위 농양",
-      "③ 유피낭종",
-      "④ 회장 게실 농양",
-      "⑤ 자궁내막종"
+      "① 난관난소농양 (Tubo-ovarian abscess, TOA)",
+      "② 충수돌기염 주위 농양 (Periappendiceal abscess)",
+      "③ 유피낭종 (Dermoid cyst / Mature teratoma)",
+      "④ 회장 게실 농양 (Ileal diverticular abscess)",
+      "⑤ 자궁내막종 (Endometrioma)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 난관난소농양",
+    "correct_answer": "① 난관난소농양 (Tubo-ovarian abscess, TOA)",
     "answer": "① 난관난소농양",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -33711,14 +33725,14 @@
       "images/영상의학과/19Y_Q30_fig2.png"
     ],
     "options": [
-      "① 내부 파편 에코 및 격벽 형성",
-      "② 무에코성 내부",
-      "③ 얇고 매끄러운 벽",
-      "④ 후방 음향 증강",
-      "⑤ 둥글거나 난원형의 윤곽"
+      "① 내부 파편 에코 및 격벽 형성 (Internal debris / Septation)",
+      "② 무에코성 내부 (Anechoic lesion)",
+      "③ 얇고 매끄러운 벽 (Thin and imperceptible wall)",
+      "④ 후방 음향 증강 (Posterior acoustic enhancement)",
+      "⑤ 둥글거나 난원형의 윤곽 (Round or oval contour)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 내부 파편 에코 및 격벽 형성",
+    "correct_answer": "① 내부 파편 에코 및 격벽 형성 (Internal debris / Septation)",
     "answer": "① 내부 파편 에코 및 격벽 형성",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -33844,14 +33858,14 @@
     "stem": "간의 쿠이노(Couinaud) 8분절 해부학 체계에서, 간 구역(Section)과 구성 분절(Segment)의 연결로 옳은 것은?",
     "images": [],
     "options": [
-      "① 좌외측 구역: Segment 2 + Segment 3",
-      "② 좌내측 구역: Segment 1 + Segment 2",
-      "③ 우후 구역: Segment 5 + Segment 6",
-      "④ 우전 구역: Segment 6 + Segment 7",
-      "⑤ 미상엽: Segment 4"
+      "① 좌외측 구역 (Left lateral section): Segment 2 + Segment 3",
+      "② 좌내측 구역 (Left medial section): Segment 1 + Segment 2",
+      "③ 우후 구역 (Right posterior section): Segment 5 + Segment 6",
+      "④ 우전 구역 (Right anterior section): Segment 6 + Segment 7",
+      "⑤ 미상엽 (Caudate lobe): Segment 4"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 좌외측 구역: Segment 2 + Segment 3",
+    "correct_answer": "① 좌외측 구역 (Left lateral section): Segment 2 + Segment 3",
     "answer": "① 좌외측 구역: Segment 2 + Segment 3",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -33979,14 +33993,14 @@
       "images/영상의학과/19Y_Q33_fig1.png"
     ],
     "options": [
-      "① 겸상인대",
-      "② 정맥관삭",
-      "③ 위간인대",
-      "④ 비신인대",
-      "⑤ 관상인대"
+      "① 겸상인대 (Falciform ligament)",
+      "② 정맥관삭 (Ligamentum venosum)",
+      "③ 위간인대 (Gastrohepatic ligament)",
+      "④ 비신인대 (Splenorenal / Lienorenal ligament)",
+      "⑤ 관상인대 (Coronary ligament)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 겸상인대",
+    "correct_answer": "① 겸상인대 (Falciform ligament)",
     "answer": "① 겸상인대",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -34116,14 +34130,14 @@
       "images/영상의학과/19Y_Q34_fig1.png"
     ],
     "options": [
-      "① 급성 담낭염",
-      "② 급성 췌장염",
-      "③ 총담관 낭종",
-      "④ 담관암",
-      "⑤ 담낭 선근종증"
+      "① 급성 담낭염 (Acute cholecystitis)",
+      "② 급성 췌장염 (Acute pancreatitis)",
+      "③ 총담관 낭종 (Choledochal cyst)",
+      "④ 담관암 (Cholangiocarcinoma)",
+      "⑤ 담낭 선근종증 (Adenomyomatosis)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 급성 담낭염",
+    "correct_answer": "① 급성 담낭염 (Acute cholecystitis)",
     "answer": "① 급성 담낭염",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -34251,14 +34265,14 @@
       "images/영상의학과/19Y_Q34_fig2.png"
     ],
     "options": [
-      "① 간세포암",
-      "② 간내 담관암",
-      "③ 간혈관종",
-      "④ 화농성 간농양",
-      "⑤ 국소 결절성 과형성"
+      "① 간세포암 (Hepatocellular carcinoma, HCC)",
+      "② 간내 담관암 (Intrahepatic cholangiocarcinoma, CCC)",
+      "③ 간혈관종 (Cavernous hemangioma)",
+      "④ 화농성 간농양 (Pyogenic liver abscess)",
+      "⑤ 국소 결절성 과형성 (Focal nodular hyperplasia, FNH)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 간세포암",
+    "correct_answer": "① 간세포암 (Hepatocellular carcinoma, HCC)",
     "answer": "① 간세포암",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -34388,14 +34402,14 @@
       "images/영상의학과/19Y_Q36_fig1.png"
     ],
     "options": [
-      "① S상 결장 염전",
-      "② 맹장 염전",
-      "③ 장중첩증",
-      "④ 마비성 장폐색",
-      "⑤ 대장 게실염"
+      "① S상 결장 염전 (Sigmoid volvulus)",
+      "② 맹장 염전 (Cecal volvulus)",
+      "③ 장중첩증 (Intussusception)",
+      "④ 마비성 장폐색 (Paralytic ileus)",
+      "⑤ 대장 게실염 (Colonic diverticulitis)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① S상 결장 염전",
+    "correct_answer": "① S상 결장 염전 (Sigmoid volvulus)",
     "answer": "① S상 결장 염전",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -34525,14 +34539,14 @@
     "stem": "60세 남성이 만성 기침과 객담 및 체중 감소로 내원하였다. 흉부 X-선에서 폐문 종괴 및 기관지 폐쇄에 의한 무기폐(Atelectasis) 소견이 관찰될 때, 가장 먼저 의심해야 할 원인 질환은?",
     "images": [],
     "options": [
-      "① 원발성 폐암",
-      "② 단순 기관지 천식",
-      "③ 대엽성 폐렴",
-      "④ 폐 과오종",
-      "⑤ 폐쇄성 수면무호흡증"
+      "① 원발성 폐암 (Primary lung cancer / Bronchogenic carcinoma)",
+      "② 단순 기관지 천식 (Bronchial asthma)",
+      "③ 대엽성 폐렴 (Lobar pneumonia)",
+      "④ 폐 과오종 (Pulmonary hamartoma)",
+      "⑤ 폐쇄성 수면무호흡증 (Obstructive sleep apnea)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 원발성 폐암",
+    "correct_answer": "① 원발성 폐암 (Primary lung cancer / Bronchogenic carcinoma)",
     "answer": "① 원발성 폐암",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -34664,14 +34678,14 @@
       "images/영상의학과/19Y_Q02_fig1.png"
     ],
     "options": [
-      "① 횡격막 평탄화",
-      "② 횡격막 거상",
-      "③ 심음영 소실",
-      "④ 기종격동",
-      "⑤ 공기-액체층 형성"
+      "① 횡격막 평탄화 (Diaphragm flattening)",
+      "② 횡격막 거상 (Diaphragm elevation)",
+      "③ 심음영 소실 (Silhouette sign)",
+      "④ 기종격동 (Pneumomediastinum)",
+      "⑤ 공기-액체층 형성 (Air-fluid level)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 횡격막 평탄화",
+    "correct_answer": "① 횡격막 평탄화 (Diaphragm flattening)",
     "answer": "① 횡격막 평탄화",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -34805,14 +34819,14 @@
       "images/영상의학과/19Y_Q03_fig1.png"
     ],
     "options": [
-      "① 흉막 삼출",
-      "② 대엽성 폐렴",
-      "③ 단순 기흉",
-      "④ 폐기종",
-      "⑤ 간질성 폐섬유증"
+      "① 흉막 삼출 (Pleural effusion)",
+      "② 대엽성 폐렴 (Lobar pneumonia)",
+      "③ 단순 기흉 (Simple pneumothorax)",
+      "④ 폐기종 (Pulmonary emphysema)",
+      "⑤ 간질성 폐섬유증 (Interstitial lung fibrosis)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 흉막 삼출",
+    "correct_answer": "① 흉막 삼출 (Pleural effusion)",
     "answer": "① 흉막 삼출",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -34942,14 +34956,14 @@
       "images/영상의학과/19Y_Q37_fig1.png"
     ],
     "options": [
-      "① 폐동맥 내강 내의 부분적 또는 완전한 조영 결손",
+      "① 폐동맥 내강 내의 부분적 또는 완전한 조영 결손 (Intraluminal filling defect)",
       "② 종격동 및 폐문 림프절 비대",
       "③ 주기관지 내 이물질 폐색",
       "④ 양측 미만성 간유리 음영",
       "⑤ 상행 대동맥벽 석회화"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 폐동맥 내강 내의 부분적 또는 완전한 조영 결손",
+    "correct_answer": "① 폐동맥 내강 내의 부분적 또는 완전한 조영 결손 (Intraluminal filling defect)",
     "answer": "① 폐동맥 내강 내의 부분적 또는 완전한 조영 결손",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -35079,14 +35093,14 @@
       "images/영상의학과/19Y_Q38_fig1.png"
     ],
     "options": [
-      "① 좌하엽",
-      "② 좌상엽 설부",
-      "③ 우중엽",
-      "④ 우하엽",
-      "⑤ 좌상엽 첨후구역"
+      "① 좌하엽 (Left lower lobe, LLL)",
+      "② 좌상엽 설부 (Lingular segment of LUL)",
+      "③ 우중엽 (Right middle lobe, RML)",
+      "④ 우하엽 (Right lower lobe, RLL)",
+      "⑤ 좌상엽 첨후구역 (Apico-posterior segment of LUL)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 좌하엽",
+    "correct_answer": "① 좌하엽 (Left lower lobe, LLL)",
     "answer": "① 좌하엽",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -35216,14 +35230,14 @@
       "images/영상의학과/19Y_Q04_fig1.png"
     ],
     "options": [
-      "① 특발성 폐섬유증",
-      "② 심인성 폐부종",
-      "③ 급성 세균성 대엽성 폐렴",
-      "④ 폐포단백증",
-      "⑤ 과민성 폐렴"
+      "① 특발성 폐섬유증 (Idiopathic pulmonary fibrosis, IPF / UIP pattern)",
+      "② 심인성 폐부종 (Cardiogenic pulmonary edema)",
+      "③ 급성 세균성 대엽성 폐렴 (Acute bacterial lobar pneumonia)",
+      "④ 폐포단백증 (Pulmonary alveolar proteinosis)",
+      "⑤ 과민성 폐렴 (Hypersensitivity pneumonitis, HP)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 특발성 폐섬유증",
+    "correct_answer": "① 특발성 폐섬유증 (Idiopathic pulmonary fibrosis, IPF / UIP pattern)",
     "answer": "① 특발성 폐섬유증",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -35357,14 +35371,14 @@
       "images/영상의학과/19Y_Q05_fig1.png"
     ],
     "options": [
-      "① 객담 항산균 도말 및 배양 검사",
-      "② 경피적 폐 생검",
-      "③ 개흉 폐 생검",
-      "④ 흉막 천자",
-      "⑤ 관상동맥 조영술"
+      "① 객담 항산균 도말 및 배양 검사 (Sputum AFB stain & culture)",
+      "② 경피적 폐 생검 (Percutaneous needle lung biopsy)",
+      "③ 개흉 폐 생검 (Open lung biopsy)",
+      "④ 흉막 천자 (Thoracentesis)",
+      "⑤ 관상동맥 조영술 (Coronary angiography)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 객담 항산균 도말 및 배양 검사",
+    "correct_answer": "① 객담 항산균 도말 및 배양 검사 (Sputum AFB stain & culture)",
     "answer": "① 객담 항산균 도말 및 배양 검사",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -35494,14 +35508,14 @@
       "images/영상의학과/19Y_Q06_fig1.png"
     ],
     "options": [
-      "① 폐첨부 흉막하 기포의 파열",
-      "② 늑골 골절에 의한 폐 실질 열상",
+      "① 폐첨부 흉막하 기포(Bleb/Bulla)의 파열",
+      "② 늑골(갈비뼈) 골절에 의한 폐 실질 열상",
       "③ 기관지 확장증에 의한 기도 파열",
       "④ 폐농양의 흉막강 내 파열",
       "⑤ 횡격막 결손을 통한 탈장"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 폐첨부 흉막하 기포의 파열",
+    "correct_answer": "① 폐첨부 흉막하 기포(Bleb/Bulla)의 파열",
     "answer": "① 폐첨부 흉막하 기포의 파열",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -35635,14 +35649,14 @@
     "stem": "표준 흉부 후전 단순촬영(Chest PA)을 시행할 때 지켜야 할 촬영 원칙 및 정상 해부학적 판독 기준으로 옳지 않은 것은?",
     "images": [],
     "options": [
-      "① 폐 하부를 완전히 포함하기 위해 요추 3번째까지 반드시 포함하여 촬영해야 한다.",
-      "② 견갑골이 폐 상부를 가리지 않도록 양 어깨를 앞으로 말아 흉강 밖으로 빼고 촬영한다.",
-      "③ 서있기 힘든 환자에서는 심장이 전방에 위치하여 실제 크기보다 확대되어 보인다.",
-      "④ 정상 성인에서 좌측 폐문은 우측 폐문보다 약 1~2cm 더 높게 위치한다.",
-      "⑤ 정상 성인에서 우측 횡격막은 간에 의해 좌측보다 약 1~3cm 더 높다."
+      "① 폐 하부를 완전히 포함하기 위해 요추 3번째(L3)까지 반드시 포함하여 촬영해야 한다.",
+      "② 견갑골(Scapula)이 폐 상부를 가리지 않도록 양 어깨를 앞으로 말아 흉강 밖으로 빼고 촬영한다.",
+      "③ 서있기 힘든 환자(AP view)에서는 심장이 전방에 위치하여 실제 크기보다 확대되어 보인다.",
+      "④ 정상 성인에서 좌측 폐문(Left hilum)은 우측 폐문보다 약 1~2cm 더 높게 위치한다.",
+      "⑤ 정상 성인에서 우측 횡격막(Right hemidiaphragm)은 간에 의해 좌측보다 약 1~3cm 더 높다."
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 폐 하부를 완전히 포함하기 위해 요추 3번째까지 반드시 포함하여 촬영해야 한다.",
+    "correct_answer": "① 폐 하부를 완전히 포함하기 위해 요추 3번째(L3)까지 반드시 포함하여 촬영해야 한다.",
     "answer": "① 폐 하부를 완전히 포함하기 위해 요추 3번째까지 반드시 포함하여 촬영해야 한다.",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -35772,14 +35786,14 @@
       "images/영상의학과/19Y_Q40_fig1.png"
     ],
     "options": [
-      "① 활동성 폐결핵",
-      "② 패혈성 색전성 폐렴",
-      "③ 단순 대엽성 폐렴",
-      "④ 비전염성 결핵성 반흔 치유 병변",
-      "⑤ 폐포자충 폐렴"
+      "① 활동성 폐결핵 (Active pulmonary tuberculosis with bronchogenic spread)",
+      "② 패혈성 색전성 폐렴 (Septic pulmonary embolism)",
+      "③ 단순 대엽성 폐렴 (Bacterial lobar pneumonia)",
+      "④ 비전염성 결핵성 반흔 치유 병변 (Healed inactive TB scar)",
+      "⑤ 폐포자충 폐렴 (Pneumocystis jirovecii pneumonia, PCP)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 활동성 폐결핵",
+    "correct_answer": "① 활동성 폐결핵 (Active pulmonary tuberculosis with bronchogenic spread)",
     "answer": "① 활동성 폐결핵",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -35916,14 +35930,14 @@
       "images/영상의학과/19Y_Q01_fig1.png"
     ],
     "options": [
-      "① 경피적 세침 흡인 생검을 시행하기에 가장 안전하고 적합한 위치이다.",
-      "② 우상엽 무기폐로 인해 소수평열이 상방으로 편위된다.",
+      "① 경피적 세침 흡인 생검(PCNA)을 시행하기에 가장 안전하고 적합한 위치이다.",
+      "② 우상엽 무기폐로 인해 소수평열(Minor fissure)이 상방으로 편위된다.",
       "③ 중심부 종괴의 아래쪽 볼록한 윤곽과 무기폐의 오목한 상방 편위가 합쳐져 역S자 형태를 이룬다.",
-      "④ 주기관지 침범 여부를 확인하기 위해 굴곡성 기관지경 검사가 필수적이다.",
-      "⑤ 우중엽과 우하엽의 보상성 과팽창이 동반될 수 있다."
+      "④ 주기관지 침범 여부를 확인하기 위해 굴곡성 기관지경 검사(Bronchoscopy)가 필수적이다.",
+      "⑤ 우중엽과 우하엽의 보상성 과팽창(Compensatory hyperinflation)이 동반될 수 있다."
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 경피적 세침 흡인 생검을 시행하기에 가장 안전하고 적합한 위치이다.",
+    "correct_answer": "① 경피적 세침 흡인 생검(PCNA)을 시행하기에 가장 안전하고 적합한 위치이다.",
     "answer": "① 경피적 세침 흡인 생검을 시행하기에 가장 안전하고 적합한 위치이다.",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -36059,14 +36073,14 @@
       "images/영상의학과/19Y_Q42_fig1.png"
     ],
     "options": [
-      "① 폐 과오종",
-      "② 원발성 폐선암",
-      "③ 균구종",
-      "④ 유결핵종",
-      "⑤ 유암종"
+      "① 폐 과오종 (Pulmonary hamartoma)",
+      "② 원발성 폐선암 (Lung adenocarcinoma)",
+      "③ 균구종 (Fungus ball / Aspergilloma)",
+      "④ 유결핵종 (Tuberculoma)",
+      "⑤ 유암종 (Bronchial carcinoid)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 폐 과오종",
+    "correct_answer": "① 폐 과오종 (Pulmonary hamartoma)",
     "answer": "① 폐 과오종",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -36193,9 +36207,9 @@
     "images": [],
     "options": [
       "① 과거에 촬영한 흉부 단순 X-선 및 CT 사진을 확보하여 크기 변화 비교",
-      "② 객담 세포진 검사",
-      "③ 객담 세균 배양 검사",
-      "④ 즉각적인 경피적 폐 생검",
+      "② 객담 세포진 검사 (Sputum cytology)",
+      "③ 객담 세균 배양 검사 (Sputum culture)",
+      "④ 즉각적인 경피적 폐 생검 (Percutaneous needle biopsy)",
       "⑤ 전신 PET-CT 촬영"
     ],
     "correct_option_index": 0,
@@ -36331,14 +36345,14 @@
       "images/영상의학과/19Y_Q44_fig1.png"
     ],
     "options": [
-      "① 폐결핵",
-      "② 바이러스성 폐렴",
-      "③ 마이코플라스마 폐렴",
-      "④ 진폐증",
-      "⑤ 유육종증"
+      "① 폐결핵 (Pulmonary tuberculosis)",
+      "② 바이러스성 폐렴 (Viral pneumonia)",
+      "③ 마이코플라스마 폐렴 (Mycoplasma pneumonia)",
+      "④ 진폐증 (Pneumoconiosis)",
+      "⑤ 유육종증 (Sarcoidosis)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 폐결핵",
+    "correct_answer": "① 폐결핵 (Pulmonary tuberculosis)",
     "answer": "① 폐결핵",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -36470,18 +36484,19 @@
     "category": "기출",
     "theme_title": "다발성 폐 결절의 감별 진단: 혈행성 폐 전이(Pulmonary Metastasis)",
     "subspecialty": "흉부 영상의학",
-    "stem": "다음 흉부 X-선 영상에서 가장 의심되는 진단명은?",
+    "stem": "과거 폐결핵을 앓았던 환자의 흉부 CT 영상이다. 우상엽의 기존 섬유성 공동 내부에 둥근 균 덩어리(Fungus ball)가 들어차 있고, 공동 벽과 덩어리 사이에 초승달 모양의 공기 음영(Air-crescent sign / Monod sign)이 관찰될 때, 가장 합당한 진단은?",
     "images": [
       "images/영상의학과/19Y_Q45_fig1.png"
     ],
     "options": [
-      "① Metastatic tumor",
-      "② TB",
-      "③ Aspergillosis",
-      "④ Asbestosis"
+      "① 폐 아스페르길루스종 (Pulmonary aspergilloma / Fungus ball)",
+      "② 공동성 폐암 (Cavitary bronchogenic carcinoma)",
+      "③ 활동성 결핵성 공동 (Active tuberculous cavity)",
+      "④ 폐농양 (Lung abscess)",
+      "⑤ 석면폐증 (Asbestosis)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① Metastatic tumor",
+    "correct_answer": "① 폐 아스페르길루스종 (Pulmonary aspergilloma / Fungus ball)",
     "answer": "① Metastatic tumor",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -36592,24 +36607,24 @@
     "category": "기출",
     "theme_title": "급성 경막하 출혈(Acute Subdural Hemorrhage, SDH)의 뇌 CT 소견",
     "subspecialty": "신경 영상의학",
-    "stem": "두부 외상 후 내원한 환자의 뇌 비조영 CT 영상이다. 대뇌낫(Falx cerebri)을 따라 편측에 위치한 길쭉한 고음영(Hyperdense) 출혈 병변에 대한 가장 알맞은 진단과 출혈 공간은?",
+    "stem": "두부 외상 후 의식 명료기(Lucid interval)를 거쳐 혼수에 빠진 환자의 뇌 비조영 CT 영상이다. 두개골 내판과 경막 사이에 위치하며 봉합선(Cranial suture)을 넘지 않는 볼록렌즈 모양(Biconvex / Lenticular)의 고음영 병변에 대한 진단과 출혈 공간은?",
     "images": [
       "images/영상의학과/19Y_Q46_fig1.png"
     ],
     "options": [
-      "① 경막외 공간의 급성 출혈",
-      "② 경막외 공간의 아급성 출혈",
-      "③ 경막하 공간의 급성 출혈",
-      "④ 경막하 공간의 아급성 출혈",
-      "⑤ 지주막하 공간의 급성 출혈"
+      "① 경막외 공간의 급성 출혈 (Epidural space - Acute hemorrhage)",
+      "② 경막외 공간의 아급성 출혈 (Epidural space - Subacute hemorrhage)",
+      "③ 경막하 공간의 급성 출혈 (Subdural space - Acute hemorrhage)",
+      "④ 경막하 공간의 아급성 출혈 (Subdural space - Subacute hemorrhage)",
+      "⑤ 지주막하 공간의 급성 출혈 (Subarachnoid space - Acute hemorrhage)"
     ],
-    "correct_option_index": 2,
-    "correct_answer": "③ 경막하 공간의 급성 출혈",
+    "correct_option_index": 0,
+    "correct_answer": "① 경막외 공간의 급성 출혈 (Epidural space - Acute hemorrhage)",
     "answer": "③ 경막하 공간의 급성 출혈",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      2
+      0
     ],
     "freq_count": 2,
     "rate": 33,
@@ -36734,14 +36749,14 @@
       "images/영상의학과/19Y_Q45_fig2.png"
     ],
     "options": [
-      "① 두개내 정맥 – 디옥시헤모글로빈",
-      "② 두개내 정맥 – 메트헤모글로빈",
-      "③ 중대뇌동맥 – 옥시헤모글로빈",
-      "④ 후대뇌동맥 – 옥시헤모글로빈",
-      "⑤ 두개내 정맥 – 헤모시데린"
+      "① 두개내 정맥 (Intracranial vein) – 디옥시헤모글로빈 (Deoxyhemoglobin)",
+      "② 두개내 정맥 (Intracranial vein) – 메트헤모글로빈 (Methemoglobin)",
+      "③ 중대뇌동맥 (MCA) – 옥시헤모글로빈 (Oxyhemoglobin)",
+      "④ 후대뇌동맥 (PCA) – 옥시헤모글로빈 (Oxyhemoglobin)",
+      "⑤ 두개내 정맥 (Intracranial vein) – 헤모시데린 (Hemosiderin)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 두개내 정맥 – 디옥시헤모글로빈",
+    "correct_answer": "① 두개내 정맥 (Intracranial vein) – 디옥시헤모글로빈 (Deoxyhemoglobin)",
     "answer": "① 두개내 정맥 – 디옥시헤모글로빈",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -36867,14 +36882,14 @@
     "stem": "뇌 자기공명영상(MRI)의 기본 원리 및 정상 조직 신호 강도에 대한 설명으로 옳은 것은?",
     "images": [],
     "options": [
-      "① T1 강조영상에서 정상 뇌하수체 후엽은 높은 신호강도로 보인다.",
-      "② T1 강조영상에서 뇌의 회백질이 백색질보다 신호강도가 더 높다.",
+      "① T1 강조영상에서 정상 뇌하수체 후엽(Posterior pituitary)은 높은 신호강도(T1 bright spot)로 보인다.",
+      "② T1 강조영상에서 뇌의 회백질(Gray matter)이 백색질(White matter)보다 신호강도가 더 높다.",
       "③ T2 강조영상에서 뇌의 회백질이 백색질보다 신호강도가 더 낮다.",
-      "④ T1 강조영상에서 뇌척수액은 밝은 고신호로 보인다.",
+      "④ T1 강조영상에서 뇌척수액(CSF)은 밝은 고신호로 보인다.",
       "⑤ 일반적인 T2 강조 스핀에코 영상에서 빠른 혈류를 가진 뇌동맥은 밝은 고신호로 보인다."
     ],
     "correct_option_index": 0,
-    "correct_answer": "① T1 강조영상에서 정상 뇌하수체 후엽은 높은 신호강도로 보인다.",
+    "correct_answer": "① T1 강조영상에서 정상 뇌하수체 후엽(Posterior pituitary)은 높은 신호강도(T1 bright spot)로 보인다.",
     "answer": "① T1 강조영상에서 정상 뇌하수체 후엽은 높은 신호강도로 보인다.",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -37004,14 +37019,14 @@
       "images/영상의학과/19Y_Q58_fig1.png"
     ],
     "options": [
-      "① 뇌혈관연축 - 혈관확장제 동맥 내 투여 또는 풍선성형술",
-      "② 혈전색전증 - 고용량 혈전용해제 전신 투여",
-      "③ 동맥 박리 - 응급 스텐트 삽입술",
-      "④ 뇌혈관기형 파열 - 응급 개두술",
-      "⑤ 수두증 악화 - 뇌실외배액술"
+      "① 뇌혈관연축 (Vasospasm) - 혈관확장제 동맥 내 투여 (Intravascular vasodilator infusion) 또는 풍선성형술",
+      "② 혈전색전증 (Thromboembolism) - 고용량 혈전용해제 전신 투여",
+      "③ 동맥 박리 (Arterial dissection) - 응급 스텐트 삽입술",
+      "④ 뇌혈관기형 파열 (AVM rupture) - 응급 개두술",
+      "⑤ 수두증 악화 (Hydrocephalus) - 뇌실외배액술 (EVD)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 뇌혈관연축 - 혈관확장제 동맥 내 투여 또는 풍선성형술",
+    "correct_answer": "① 뇌혈관연축 (Vasospasm) - 혈관확장제 동맥 내 투여 (Intravascular vasodilator infusion) 또는 풍선성형술",
     "answer": "① 뇌혈관연축 - 혈관확장제 동맥 내 투여 또는 풍선성형술",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -37143,14 +37158,14 @@
       "images/영상의학과/19Y_Q47_fig1.png"
     ],
     "options": [
-      "① 급성/아급성 중대뇌동맥 뇌경색",
-      "② 만성 낭성 중대뇌동맥 뇌경색",
-      "③ 급성 뇌실질내 출혈",
-      "④ 뇌동정맥 기형",
-      "⑤ 교모세포종"
+      "① 급성/아급성 중대뇌동맥 뇌경색 (Acute/Subacute MCA territory infarction)",
+      "② 만성 낭성 중대뇌동맥 뇌경색 (Chronic encephalomalacic infarction)",
+      "③ 급성 뇌실질내 출혈 (Acute intracerebral hemorrhage)",
+      "④ 뇌동정맥 기형 (Arteriovenous malformation, AVM)",
+      "⑤ 교모세포종 (Glioblastoma)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 급성/아급성 중대뇌동맥 뇌경색",
+    "correct_answer": "① 급성/아급성 중대뇌동맥 뇌경색 (Acute/Subacute MCA territory infarction)",
     "answer": "① 급성/아급성 중대뇌동맥 뇌경색",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -37280,14 +37295,14 @@
       "images/영상의학과/19Y_Q47_fig2.png"
     ],
     "options": [
-      "① 두개내 지방종",
-      "② 뇌수막종",
-      "③ 유표피낭종",
-      "④ 천막연 석회화",
-      "⑤ 저등급 신경교종"
+      "① 두개내 지방종 (Intracranial lipoma)",
+      "② 뇌수막종 (Meningioma)",
+      "③ 유표피낭종 (Epidermoid cyst)",
+      "④ 천막연 석회화 (Tentorial calcification)",
+      "⑤ 저등급 신경교종 (Low-grade glioma)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 두개내 지방종",
+    "correct_answer": "① 두개내 지방종 (Intracranial lipoma)",
     "answer": "① 두개내 지방종",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -37415,14 +37430,14 @@
       "images/영상의학과/19Y_Q59_fig1.png"
     ],
     "options": [
-      "① 급성 뇌실질내 출혈",
-      "② 중대뇌동맥 뇌경색",
-      "③ 출혈성 뇌경색",
-      "④ 기저핵 생리적 석회화",
-      "⑤ 뇌농양"
+      "① 급성 뇌실질내 출혈 (Acute intracerebral hemorrhage, Thalamic ICH)",
+      "② 중대뇌동맥 뇌경색 (Acute MCA infarction)",
+      "③ 출혈성 뇌경색 (Hemorrhagic infarction)",
+      "④ 기저핵 생리적 석회화 (Basal ganglia calcification)",
+      "⑤ 뇌농양 (Brain abscess)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 급성 뇌실질내 출혈",
+    "correct_answer": "① 급성 뇌실질내 출혈 (Acute intracerebral hemorrhage, Thalamic ICH)",
     "answer": "① 급성 뇌실질내 출혈",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -37550,14 +37565,14 @@
       "images/영상의학과/19Y_Q49_fig1.png"
     ],
     "options": [
-      "① 전정신경초종",
-      "② 뇌동정맥 기형",
-      "③ 급성 교뇌 경색",
-      "④ 유표피낭종",
-      "⑤ 삼차신경통"
+      "① 전정신경초종 (Vestibular schwannoma / Acoustic neuroma)",
+      "② 뇌동정맥 기형 (Arteriovenous malformation, AVM)",
+      "③ 급성 교뇌 경색 (Acute pontine infarction)",
+      "④ 유표피낭종 (Epidermoid cyst)",
+      "⑤ 삼차신경통 (Trigeminal neuralgia)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 전정신경초종",
+    "correct_answer": "① 전정신경초종 (Vestibular schwannoma / Acoustic neuroma)",
     "answer": "① 전정신경초종",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -37689,14 +37704,14 @@
       "images/영상의학과/19Y_Q50_fig1.png"
     ],
     "options": [
-      "① 갑상선 실질 조직 내 높은 요오드 함량",
-      "② 악하선의 가돌리늄 섭취",
+      "① 갑상선 실질 조직 내 높은 요오드 함량 (High intrinsic iodine concentration)",
+      "② 악하선의 가돌리늄 섭취 (Gadolinium uptake)",
       "③ 갑상선 실질의 높은 칼슘 석회화 침착",
       "④ 갑상선 내 지방 조직의 고밀도 구성",
       "⑤ 갑상선 호르몬의 빠른 혈류 흐름"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 갑상선 실질 조직 내 높은 요오드 함량",
+    "correct_answer": "① 갑상선 실질 조직 내 높은 요오드 함량 (High intrinsic iodine concentration)",
     "answer": "① 갑상선 실질 조직 내 높은 요오드 함량",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -37822,14 +37837,14 @@
     "stem": "구강저 종창과 삼킬 때의 이물감 및 우측 턱밑 부종으로 내원한 25세 남성의 경부 조영증강 시상면(Sagittal) CT 영상이다. 설하선(Sublingual gland)에서 기원하여 악설골근(Mylohyoid muscle)의 후방 또는 틈새를 뚫고 악하공간(Submandibular space)으로 탈출한 꼬리 징후(Tail sign)를 보이는 낭성 병변에 대한 가장 합당한 진단은?",
     "images": [],
     "options": [
-      "① 몰입성 하마종",
-      "② 설암",
-      "③ 설편도염",
-      "④ 갑상설관 낭종",
-      "⑤ 갑상선암 경부 전이"
+      "① 몰입성 하마종 (Plunging ranula)",
+      "② 설암 (Tongue cancer)",
+      "③ 설편도염 (Lingual tonsillitis)",
+      "④ 갑상설관 낭종 (Thyroglossal duct cyst)",
+      "⑤ 갑상선암 경부 전이 (Metastatic thyroid cancer)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 몰입성 하마종",
+    "correct_answer": "① 몰입성 하마종 (Plunging ranula)",
     "answer": "① 몰입성 하마종",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -37955,14 +37970,14 @@
     "stem": "선별 유방촬영술(Screening mammography)을 시행할 때 양측 유방의 조직을 최대한 많이 포함하여 사각지대를 최소화하기 위해 기본으로 촬영하는 2가지 표준 촬영 투영법(Standard views)의 조합은?",
     "images": [],
     "options": [
-      "① 내외사위 촬영 + 상하위 촬영",
-      "② 외내사위 촬영 + 상하위 촬영",
-      "③ 외내사위 촬영 + 하상위 촬영",
-      "④ 외측-내측 촬영 + 상하위 촬영",
-      "⑤ 과도신장 상하위 촬영 + 내외사위 촬영"
+      "① 내외사위 촬영(MLO) + 상하위 촬영(CC)",
+      "② 외내사위 촬영(LMO) + 상하위 촬영(CC)",
+      "③ 외내사위 촬영(LMO) + 하상위 촬영(FB)",
+      "④ 외측-내측 촬영(ML) + 상하위 촬영(CC)",
+      "⑤ 과도신장 상하위 촬영(XCCL) + 내외사위 촬영(MLO)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 내외사위 촬영 + 상하위 촬영",
+    "correct_answer": "① 내외사위 촬영(MLO) + 상하위 촬영(CC)",
     "answer": "① 내외사위 촬영 + 상하위 촬영",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -38096,14 +38111,14 @@
       "images/영상의학과/19Y_Q57_fig3.png"
     ],
     "options": [
-      "① 불규칙한 모양과 침상 경계를 보이며 수직 성장하는 고형 결절",
-      "② 얇은 벽을 가진 완전한 무에코성 단순 낭종",
-      "③ 난원형의 평행 주행 매끄러운 섬유선종 의심 결절",
-      "④ 굵은 팝콘 모양의 퇴행성 섬유선종 석회화",
-      "⑤ 유방 내 정상 림프절"
+      "① 불규칙한 모양과 침상 경계를 보이며 수직 성장(Taller-than-wide)하는 고형 결절 (BI-RADS 4C/5)",
+      "② 얇은 벽을 가진 완전한 무에코성 단순 낭종 (BI-RADS 2)",
+      "③ 난원형의 평행 주행 매끄러운 섬유선종 의심 결절 (BI-RADS 3)",
+      "④ 굵은 팝콘 모양의 퇴행성 섬유선종 석회화 (BI-RADS 2)",
+      "⑤ 유방 내 정상 림프절 (BI-RADS 2)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 불규칙한 모양과 침상 경계를 보이며 수직 성장하는 고형 결절",
+    "correct_answer": "① 불규칙한 모양과 침상 경계를 보이며 수직 성장(Taller-than-wide)하는 고형 결절 (BI-RADS 4C/5)",
     "answer": "① 불규칙한 모양과 침상 경계를 보이며 수직 성장하는 고형 결절",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -38231,14 +38246,14 @@
     "stem": "좌측 유방촬영술 MLO(내외사위상) 및 CC(상하위상) 영상이다. MLO 상 유두 상방(Superior)에 위치하고, CC 상 유두 외측(Lateral)에 관찰되는 종괴의 유방 내 사분면(Quadrant) 위치는?",
     "images": [],
     "options": [
-      "① 상외측 사분면",
-      "② 상내측 사분면",
-      "③ 하외측 사분면",
-      "④ 하내측 사분면",
-      "⑤ 유두하 중앙부"
+      "① 상외측 사분면 (Upper outer quadrant, UOQ)",
+      "② 상내측 사분면 (Upper inner quadrant, UIQ)",
+      "③ 하외측 사분면 (Lower outer quadrant, LOQ)",
+      "④ 하내측 사분면 (Lower inner quadrant, LIQ)",
+      "⑤ 유두하 중앙부 (Subareolar region)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 상외측 사분면",
+    "correct_answer": "① 상외측 사분면 (Upper outer quadrant, UOQ)",
     "answer": "① 상외측 사분면",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -38366,14 +38381,14 @@
     "stem": "52세 여성의 유방 초음파 영상이다. 결절의 종횡비가 세로로 긴 수직 성장 형태(Not parallel / Taller-than-wide)를 보이고 경계가 침상(Spiculated)이며 심한 저에코를 나타낼 때, 초음파 기술 용어(Descriptors)로 옳은 것은?",
     "images": [],
     "options": [
-      "① 형태 - 불규칙형, 방향성 - 비평행",
-      "② 방향성 - 피부에 평행, 형태 - 난원형",
-      "③ 경계 - 명확함, 에코 - 고에코",
-      "④ 경계 - 두꺼운 고에코 테두리, 후방 음향 - 증강",
-      "⑤ 형태 - 원형, 방향성 - 평행"
+      "① 형태(Shape) - 불규칙형 (Irregular), 방향성(Orientation) - 비평행 (Non-parallel / Taller-than-wide)",
+      "② 방향성(Orientation) - 피부에 평행 (Parallel), 형태 - 난원형 (Oval)",
+      "③ 경계(Margin) - 명확함 (Circumscribed), 에코 - 고에코 (Hyperechoic)",
+      "④ 경계 - 두꺼운 고에코 테두리 (Echogenic halo), 후방 음향 - 증강 (Enhancement)",
+      "⑤ 형태 - 원형 (Round), 방향성 - 평행 (Parallel)"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 형태 - 불규칙형, 방향성 - 비평행",
+    "correct_answer": "① 형태(Shape) - 불규칙형 (Irregular), 방향성(Orientation) - 비평행 (Non-parallel / Taller-than-wide)",
     "answer": "① 형태 - 불규칙형, 방향성 - 비평행",
     "is_multiple_choice": false,
     "required_count": 1,
@@ -38506,10 +38521,10 @@
     ],
     "options": [
       "① 전형적인 양성 석회화 소견이므로 추가 검사나 조직 검사 없이 1~2년 후 정기 검진을 시행한다.",
-      "② 상피내 유관암 또는 침윤성 유관암의 가능성을 강력히 시사한다.",
+      "② 상피내 유관암(DCIS) 또는 침윤성 유관암(IDC)의 가능성을 강력히 시사한다.",
       "③ 유방 초음파 검사를 병행하여 동반된 종괴 유무를 확인해야 한다.",
-      "④ 입체정위 유방 생검 또는 중심부 바늘생검을 통한 병리 조직학적 확진이 필수적이다.",
-      "⑤ 치밀 유방 환자에서도 석회화는 유방촬영술에서 매우 예민하게 발견된다."
+      "④ 입체정위 유방 생검(Stereotactic biopsy) 또는 중심부 바늘생검(Core biopsy)을 통한 병리 조직학적 확진이 필수적이다.",
+      "⑤ 치밀 유방(Dense breast) 환자에서도 석회화는 유방촬영술에서 매우 예민하게 발견된다."
     ],
     "correct_option_index": 0,
     "correct_answer": "① 전형적인 양성 석회화 소견이므로 추가 검사나 조직 검사 없이 1~2년 후 정기 검진을 시행한다.",
