@@ -1765,7 +1765,9 @@
       // Format label
       let label = '';
       if (targetQ) {
-        if (targetQ.section && targetQ.section_q_num) {
+        const isRad = (targetQ.subject === '영상의학과');
+        const showSection = isRad ? (targetQ.year === '22Y' && targetQ.section && targetQ.section_q_num) : (targetQ.section && targetQ.section_q_num);
+        if (showSection) {
           label = `${targetQ.year} (${targetQ.section} ${String(targetQ.section_q_num).padStart(2, '0')}번)`;
           targetRaw = `${targetQ.year}-${targetQ.section}${String(targetQ.section_q_num).padStart(2, '0')}`;
         } else if (targetQ.q_label && !targetQ.q_label.startsWith('Q')) {
@@ -2164,12 +2166,12 @@
     }
     if (dom.cardQnum) {
       dom.cardQnum.style.display = '';
-      if (q.section && q.section_q_num) {
+      const isRad = (q.subject === '영상의학과');
+      const showSection = isRad ? (q.year === '22Y' && q.section && q.section_q_num) : (q.section && q.section_q_num);
+      if (showSection) {
         dom.cardQnum.textContent = `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`;
       } else if (q.q_label) {
         dom.cardQnum.textContent = q.q_label;
-      } else if (q.section && q.section_q_num) {
-        dom.cardQnum.textContent = `${q.section} Q${String(q.section_q_num).padStart(2, '0')}`;
       } else {
         dom.cardQnum.textContent = `Q${String(q.q_num).padStart(2, '0')}`;
       }
@@ -3564,7 +3566,8 @@
     if (dom.editTargetSubject) dom.editTargetSubject.textContent = q.subject || '임상의학';
     if (dom.editTargetYear) dom.editTargetYear.textContent = q.year || '기출';
     if (dom.editTargetQnum) {
-      dom.editTargetQnum.textContent = (q.section && q.section_q_num)
+      const showSec = (q.subject === '영상의학과') ? (q.year === '22Y' && q.section && q.section_q_num) : (q.section && q.section_q_num);
+      dom.editTargetQnum.textContent = showSec
         ? `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`
         : `Q${String(q.q_num || '').padStart(2, '0')}`;
     }
@@ -3764,7 +3767,8 @@
     if (dom.commentTargetSubject) dom.commentTargetSubject.textContent = q.subject || '임상의학';
     if (dom.commentTargetYear) dom.commentTargetYear.textContent = q.year || '기출';
     if (dom.commentTargetQnum) {
-      dom.commentTargetQnum.textContent = (q.section && q.section_q_num)
+      const showSec = (q.subject === '영상의학과') ? (q.year === '22Y' && q.section && q.section_q_num) : (q.section && q.section_q_num);
+      dom.commentTargetQnum.textContent = showSec
         ? `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`
         : `Q${String(q.q_num || '').padStart(2, '0')}`;
     }
@@ -4471,7 +4475,8 @@
     if (!qNumHint) {
       const q = getCurrentQuestion();
       if (q && q.subject === sub && q.year === yr) {
-        qNumHint = (q.section && q.section_q_num)
+        const showSec = (q.subject === '영상의학과') ? (q.year === '22Y' && q.section && q.section_q_num) : (q.section && q.section_q_num);
+        qNumHint = showSec
           ? `${q.section} ${String(q.section_q_num).padStart(2, '0')}번`
           : (q.qnum || `Q${String(q.q_num || '').padStart(2, '0')}`);
       }
@@ -5768,7 +5773,8 @@
    */
   function getQuestionDisplayLabel(q) {
     if (!q) return '';
-    if (q.section && q.section_q_num) {
+    const showSec = (q.subject === '영상의학과') ? (q.year === '22Y' && q.section && q.section_q_num) : (q.section && q.section_q_num);
+    if (showSec) {
       return `${q.section} Q${String(q.section_q_num).padStart(2, '0')} (#${String(q.q_num).padStart(2, '0')})`;
     }
     return `Q${String(q.q_num).padStart(2, '0')}`;
@@ -6394,7 +6400,8 @@
       }
 
       btn.textContent = `${idx + 1}`;
-      if (q.section && q.section_q_num !== undefined) {
+      const showSec = (q.subject === '영상의학과') ? (q.year === '22Y' && q.section && q.section_q_num !== undefined && q.section_q_num !== null) : (q.section && q.section_q_num !== undefined && q.section_q_num !== null);
+      if (showSec) {
         btn.title = `[#${idx + 1} | ${q.year} ${q.section} ${String(q.section_q_num).padStart(2, '0')}번] ${q.theme_title || ''}`;
       } else {
         btn.title = `[#${idx + 1} | ${q.year} Q${String(q.q_num || '').padStart(2, '0')}]: ${q.theme_title || ''}`;
