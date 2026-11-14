@@ -56,6 +56,7 @@ window.PDF_MANIFEST = {
     "26Y": "original_pdf/정형외과_26Y.pdf"
   },
   "영상의학과": {
+    "19Y": "original_pdf/영상의학과_19Y.pdf",
     "20Y": "original_pdf/영상의학과_20Y.pdf",
     "21Y": "original_pdf/영상의학과_21Y.pdf",
     "22Y": "original_pdf/영상의학과_22Y.pdf",

@@ -58,6 +58,7 @@
       onlyImages: false,
       onlyIncorrect: false,
       onlyBookmarked: false,
+      onlyCommented: false,
       searchQuery: ''
     }
   };
@@ -118,6 +119,16 @@
     filterImages: document.getElementById('filter-images'),
     filterIncorrect: document.getElementById('filter-incorrect'),
     filterBookmarked: document.getElementById('filter-bookmarked'),
+    filterCommented: document.getElementById('filter-commented'),
+    gridQuickFilters: document.getElementById('grid-quick-filters'),
+    btnGridFilterAll: document.getElementById('btn-grid-filter-all'),
+    btnGridFilterComment: document.getElementById('btn-grid-filter-comment'),
+    btnGridFilterBookmark: document.getElementById('btn-grid-filter-bookmark'),
+    btnGridFilterWrong: document.getElementById('btn-grid-filter-wrong'),
+    gridCntAll: document.getElementById('grid-cnt-all'),
+    gridCntComment: document.getElementById('grid-cnt-comment'),
+    gridCntBookmark: document.getElementById('grid-cnt-bookmark'),
+    gridCntWrong: document.getElementById('grid-cnt-wrong'),
     btnToggleShuffle: document.getElementById('btn-toggle-shuffle'),
     btnCardToggleShuffle: document.getElementById('btn-card-toggle-shuffle'),
     btnMobileToggleShuffle: document.getElementById('btn-mobile-toggle-shuffle'),
@@ -815,6 +826,7 @@
     state.filters.onlyImages = !!pf.onlyImages;
     state.filters.onlyIncorrect = !!pf.onlyIncorrect;
     state.filters.onlyBookmarked = !!pf.onlyBookmarked;
+    state.filters.onlyCommented = !!pf.onlyCommented;
     state.filters.searchQuery = '';
     if (dom.searchInput) dom.searchInput.value = '';
   }
@@ -824,6 +836,7 @@
     if (dom.filterImages) dom.filterImages.classList.toggle('active', !!state.filters.onlyImages);
     if (dom.filterIncorrect) dom.filterIncorrect.classList.toggle('active', !!state.filters.onlyIncorrect);
     if (dom.filterBookmarked) dom.filterBookmarked.classList.toggle('active', !!state.filters.onlyBookmarked);
+    if (dom.filterCommented) dom.filterCommented.classList.toggle('active', !!state.filters.onlyCommented);
     if (dom.btnToggleShuffle) {
       dom.btnToggleShuffle.classList.toggle('active', !!state.shuffleOptions);
       dom.btnToggleShuffle.textContent = state.shuffleOptions ? '🔀 선지 섞기 ON' : '🔀 선지 섞기';
@@ -888,7 +901,8 @@
           onlyFrequent: !!state.filters.onlyFrequent,
           onlyImages: !!state.filters.onlyImages,
           onlyIncorrect: !!state.filters.onlyIncorrect,
-          onlyBookmarked: !!state.filters.onlyBookmarked
+          onlyBookmarked: !!state.filters.onlyBookmarked,
+      onlyCommented: !!state.filters.onlyCommented
         };
         if (!skipTimestamp) {
           active.updatedAt = Date.now();
@@ -964,6 +978,21 @@
   /**
    * Update Subject UI and re-render dynamic toolbars
    */
+  
+  function updateCommentFilterCount() {
+    const curSub = (state.filters && state.filters.subject) || 'ALL';
+    const subQuestions = (curSub === 'ALL')
+      ? state.allQuestions
+      : state.allQuestions.filter(q => q.subject === curSub);
+    const commentCount = subQuestions.filter(q => state.comments && state.comments[q.id] && state.comments[q.id].length > 0).length;
+    if (dom.filterCommented) {
+      dom.filterCommented.textContent = `💬 댓글 문제만 (${commentCount})`;
+    }
+    if (dom.gridCntComment) {
+      dom.gridCntComment.textContent = String(commentCount);
+    }
+  }
+
   function updateSubjectUI() {
     const curSub = state.filters.subject;
     const meta = SUBJECT_META[curSub] || SUBJECT_META['ALL'];
@@ -1011,6 +1040,7 @@
     if (dom.filterImages) {
       dom.filterImages.textContent = `📷 사진 문제만 (${imgCount})`;
     }
+    updateCommentFilterCount();
 
     applyFilters();
     renderCurrentQuestion();
@@ -1320,6 +1350,7 @@
     if (state.filters && state.filters.onlyImages) extraCount++;
     if (state.filters && state.filters.onlyIncorrect) extraCount++;
     if (state.filters && state.filters.onlyBookmarked) extraCount++;
+    if (state.filters && state.filters.onlyCommented) extraCount++;
     if (state.filters && state.filters.searchQuery) extraCount++;
 
     if (dom.mfExtraBadge) {
@@ -1336,7 +1367,7 @@
    * Filter Questions based on active settings
    */
   function applyFilters() {
-    const { subject, year, type, onlyFrequent, onlyImages, onlyIncorrect, onlyBookmarked, searchQuery } = state.filters;
+    const { subject, year, type, onlyFrequent, onlyImages, onlyIncorrect, onlyBookmarked, onlyCommented, searchQuery } = state.filters;
     const query = searchQuery.trim().toLowerCase();
 
     state.filteredQuestions = state.allQuestions.filter(q => {
@@ -1379,6 +1410,12 @@
       // Bookmarked only filter
       if (onlyBookmarked && !state.bookmarks.has(q.id)) {
         return false;
+      }
+
+      // Commented only filter (댓글이 있는 문제만)
+      if (onlyCommented) {
+        const comms = state.comments && state.comments[q.id];
+        if (!comms || comms.length === 0) return false;
       }
 
       // Search query filter
@@ -1436,13 +1473,15 @@
     // 1. Direct explicit configuration in question data (highest priority)
     if (Array.isArray(q.correct_option_indices) && q.correct_option_indices.length > 0) {
       const sorted = [...new Set(q.correct_option_indices.map(Number))].sort((a, b) => a - b);
-      const isMulti = sorted.length > 1 || !!q.is_multiple_choice;
       const req = q.required_count || sorted.length;
+      const allowAny = (req === 1 && sorted.length > 1);
+      const isMulti = allowAny ? false : (sorted.length > 1 || !!q.is_multiple_choice);
       return {
         isMulti,
+        allowAny,
         requiredCount: req,
         correctIndices: sorted,
-        typeLabel: isMulti ? `복수 정답 (${req}개)` : '단일 정답'
+        typeLabel: allowAny ? '복수 정답 인정' : (isMulti ? `복수 정답 (${req}개)` : '단일 정답')
       };
     }
 
@@ -1671,7 +1710,7 @@
   function shouldShowSectionNumber(q) {
     if (!q || !q.section || q.section_q_num === undefined || q.section_q_num === null) return false;
     if (q.subject === '영상의학과') {
-      return q.year === '22Y' || q.year === '21Y';
+      return q.year === '22Y' || q.year === '21Y' || q.year === '19Y';
     }
     return true;
   }
@@ -2414,6 +2453,8 @@
     // Update Bottom Nav Comments Indicator Badge
     if (typeof updateNavCommentBadge === 'function') {
       updateNavCommentBadge(q);
+    updateCommentFilterCount();
+    if (dom.gridModal && dom.gridModal.style.display !== 'none') renderGrid();
     }
 
     // If Comment Modal is currently open, update its displayed question context and comments list
@@ -2482,15 +2523,18 @@
     let answerRecord = state.userAnswers[q.id];
     // Reconcile answer record if database answer changed
     if (answerRecord && Array.isArray(answerRecord.correctIndices) &&
-        JSON.stringify(answerRecord.correctIndices) !== JSON.stringify(config.correctIndices)) {
+        (JSON.stringify(answerRecord.correctIndices) !== JSON.stringify(config.correctIndices) ||
+         (config.allowAny && answerRecord.isPartial))) {
       const correctSet = new Set(config.correctIndices);
       const selectedIndices = answerRecord.selectedIndices || (answerRecord.selectedIndex !== undefined ? [answerRecord.selectedIndex] : []);
       const correctlySelected = selectedIndices.filter(i => correctSet.has(i));
       const wronglySelected = selectedIndices.filter(i => !correctSet.has(i));
       const missedCorrect = config.correctIndices.filter(i => !selectedIndices.includes(i));
       answerRecord.correctIndices = [...config.correctIndices];
-      answerRecord.isCorrect = (wronglySelected.length === 0 && missedCorrect.length === 0);
-      answerRecord.isPartial = (!answerRecord.isCorrect && correctlySelected.length > 0);
+      answerRecord.isCorrect = config.allowAny
+        ? (wronglySelected.length === 0 && correctlySelected.length >= 1)
+        : (wronglySelected.length === 0 && missedCorrect.length === 0);
+      answerRecord.isPartial = config.allowAny ? false : (!answerRecord.isCorrect && correctlySelected.length > 0);
       answerRecord.score = answerRecord.isCorrect ? 1.0 : (correctlySelected.length / Math.max(1, config.correctIndices.length));
     }
     const isAnswered = !!answerRecord;
@@ -2808,8 +2852,10 @@
     const wronglySelected = selectedIndices.filter(i => !correctSet.has(i));
     const missedCorrect = correctIndices.filter(i => !selectedSet.has(i));
 
-    const isFullyCorrect = (wronglySelected.length === 0 && missedCorrect.length === 0);
-    const isPartial = (!isFullyCorrect && correctlySelected.length > 0);
+    const isFullyCorrect = config.allowAny
+      ? (wronglySelected.length === 0 && correctlySelected.length >= 1)
+      : (wronglySelected.length === 0 && missedCorrect.length === 0);
+    const isPartial = config.allowAny ? false : (!isFullyCorrect && correctlySelected.length > 0);
     const score = isFullyCorrect ? 1.0 : (correctlySelected.length / Math.max(1, correctIndices.length));
 
     // Save answer state
@@ -3060,6 +3106,12 @@
             iconSpan.textContent = '✓ 정답';
             iconSpan.style.display = 'inline-block';
           }
+        } else if (config.allowAny && answerRecord && answerRecord.isCorrect) {
+          btn.classList.add('is-actual-correct', 'is-revealed-correct');
+          if (iconSpan) {
+            iconSpan.textContent = '✓ 공동 정답';
+            iconSpan.style.display = 'inline-block';
+          }
         } else {
           btn.classList.add('is-actual-correct', 'is-missed');
           if (iconSpan) {
@@ -3107,10 +3159,14 @@
       dom.feedbackDetail.textContent = `정답은 [${correctDisplayLabels || q.correct_answer}] 입니다. 아래 상세 해설과 감별 포인트를 복습하세요.`;
     } else if (isCorrect) {
       dom.feedbackIcon.textContent = '🎉';
-      dom.feedbackStatus.textContent = config.isMulti 
-        ? `정답입니다! (복수 정답 ${config.requiredCount}개 모두 일치)` 
-        : '정답입니다!';
-      dom.feedbackDetail.textContent = '모든 정답을 완벽하게 맞히셨습니다. 아래 해설에서 핵심 임상 포인트를 복습하세요.';
+      dom.feedbackStatus.textContent = config.allowAny
+        ? '정답입니다! (복수 정답 모두 인정)'
+        : (config.isMulti
+            ? `정답입니다! (복수 정답 ${config.requiredCount}개 모두 일치)`
+            : '정답입니다!');
+      dom.feedbackDetail.textContent = config.allowAny
+        ? `인정 정답은 [${correctDisplayLabels || q.correct_answer}] 입니다. 아래 해설에서 핵심 임상 포인트를 복습하세요.`
+        : '모든 정답을 완벽하게 맞히셨습니다. 아래 해설에서 핵심 임상 포인트를 복습하세요.';
     } else if (isPartial) {
       dom.feedbackIcon.textContent = '⚠️';
       const rightCount = selectedIndices.filter(i => correctSet.has(i)).length;
@@ -3763,11 +3819,30 @@
   '신경과_26Y_Q38',
   '신경과_26Y_Q41',
   '신경과_26Y_Q42',
+  '영상의학과_19Y_Q45',
+  '영상의학과_19Y_Q50',
+  '영상의학과_20Y_Q07',
+  '영상의학과_20Y_Q23',
+  '영상의학과_20Y_Q24',
+  '영상의학과_20Y_Q27',
+  '영상의학과_20Y_Q28',
   '영상의학과_20Y_Q40',
+  '영상의학과_21Y_Q03',
+  '영상의학과_21Y_Q04',
+  '영상의학과_21Y_Q25',
+  '영상의학과_21Y_Q27',
+  '영상의학과_21Y_Q42',
   '영상의학과_22Y_Q12',
+  '영상의학과_22Y_Q39',
+  '영상의학과_22Y_Q44',
+  '영상의학과_23Y_Q21',
   '영상의학과_23Y_Q26',
+  '영상의학과_23Y_Q33',
   '영상의학과_23Y_Q34',
+  '영상의학과_23Y_Q46',
   '영상의학과_23Y_Q48',
+  '영상의학과_26Y_Q07',
+  '영상의학과_26Y_Q14',
   '영상의학과_26Y_Q32',
   '영상의학과_26Y_Q33',
   '영상의학과_26Y_Q37',
@@ -4339,6 +4414,7 @@
       "26Y": "original_pdf/신경과_26Y.pdf"
     },
     "영상의학과": {
+      "19Y": "original_pdf/영상의학과_19Y.pdf",
       "20Y": "original_pdf/영상의학과_20Y.pdf",
       "21Y": "original_pdf/영상의학과_21Y.pdf",
       "22Y": "original_pdf/영상의학과_22Y.pdf",
@@ -5049,7 +5125,70 @@
       state.currentIndex = 0;
       applyFilters();
       renderCurrentQuestion();
+      renderGrid();
     });
+
+    // Special Filter: Commented Only (댓글 있는 문제만)
+    if (dom.filterCommented) {
+      dom.filterCommented.addEventListener('click', () => {
+        state.filters.onlyCommented = !state.filters.onlyCommented;
+        dom.filterCommented.classList.toggle('active', state.filters.onlyCommented);
+        state.currentIndex = 0;
+        applyFilters();
+        renderCurrentQuestion();
+        renderGrid();
+      });
+    }
+
+    // Grid Modal Quick Filter Pills
+    if (dom.btnGridFilterAll) {
+      dom.btnGridFilterAll.addEventListener('click', () => {
+        state.filters.onlyCommented = false;
+        state.filters.onlyBookmarked = false;
+        state.filters.onlyIncorrect = false;
+        syncFilterButtonsUI();
+        state.currentIndex = 0;
+        applyFilters();
+        renderCurrentQuestion();
+        renderGrid();
+      });
+    }
+    if (dom.btnGridFilterComment) {
+      dom.btnGridFilterComment.addEventListener('click', () => {
+        state.filters.onlyCommented = !state.filters.onlyCommented;
+        state.filters.onlyBookmarked = false;
+        state.filters.onlyIncorrect = false;
+        syncFilterButtonsUI();
+        state.currentIndex = 0;
+        applyFilters();
+        renderCurrentQuestion();
+        renderGrid();
+      });
+    }
+    if (dom.btnGridFilterBookmark) {
+      dom.btnGridFilterBookmark.addEventListener('click', () => {
+        state.filters.onlyBookmarked = !state.filters.onlyBookmarked;
+        state.filters.onlyCommented = false;
+        state.filters.onlyIncorrect = false;
+        syncFilterButtonsUI();
+        state.currentIndex = 0;
+        applyFilters();
+        renderCurrentQuestion();
+        renderGrid();
+      });
+    }
+    if (dom.btnGridFilterWrong) {
+      dom.btnGridFilterWrong.addEventListener('click', () => {
+        state.filters.onlyIncorrect = !state.filters.onlyIncorrect;
+        state.filters.onlyCommented = false;
+        state.filters.onlyBookmarked = false;
+        syncFilterButtonsUI();
+        state.currentIndex = 0;
+        applyFilters();
+        renderCurrentQuestion();
+        renderGrid();
+      });
+    }
 
     // Shuffle Options Mode Toggle & Reshuffle
     if (dom.btnToggleShuffle) {
@@ -6827,6 +6966,37 @@
     dom.questionGrid.innerHTML = '';
     const currentQ = getCurrentQuestion();
 
+    // Calculate counts in current subject scope
+    const curSub = state.filters.subject;
+    const subScope = (curSub === 'ALL')
+      ? state.allQuestions
+      : state.allQuestions.filter(q => q.subject === curSub);
+
+    let commentCount = 0;
+    let bookmarkCount = 0;
+    let wrongCount = 0;
+
+    subScope.forEach(q => {
+      const qComms = state.comments && state.comments[q.id];
+      if (qComms && qComms.length > 0) commentCount++;
+      if (state.bookmarks.has(q.id)) bookmarkCount++;
+      const ans = state.userAnswers[q.id];
+      if (ans && !ans.isCorrect) wrongCount++;
+    });
+
+    if (dom.gridCntAll) dom.gridCntAll.textContent = String(subScope.length);
+    if (dom.gridCntComment) dom.gridCntComment.textContent = String(commentCount);
+    if (dom.gridCntBookmark) dom.gridCntBookmark.textContent = String(bookmarkCount);
+    if (dom.gridCntWrong) dom.gridCntWrong.textContent = String(wrongCount);
+
+    if (dom.btnGridFilterAll) {
+      const isCustom = state.filters.onlyCommented || state.filters.onlyBookmarked || state.filters.onlyIncorrect;
+      dom.btnGridFilterAll.classList.toggle('active', !isCustom);
+      if (dom.btnGridFilterComment) dom.btnGridFilterComment.classList.toggle('active', !!state.filters.onlyCommented);
+      if (dom.btnGridFilterBookmark) dom.btnGridFilterBookmark.classList.toggle('active', !!state.filters.onlyBookmarked);
+      if (dom.btnGridFilterWrong) dom.btnGridFilterWrong.classList.toggle('active', !!state.filters.onlyIncorrect);
+    }
+
     state.filteredQuestions.forEach((q, idx) => {
       const btn = document.createElement('button');
       btn.className = 'grid-item-btn';
@@ -6846,10 +7016,14 @@
       }
 
       btn.textContent = `${idx + 1}`;
+      const qComms = state.comments && state.comments[q.id];
+      const commCount = (qComms && qComms.length) || 0;
+      const commSuffix = commCount > 0 ? ` • 💬 댓글 ${commCount}개` : '';
+
       if (shouldShowSectionNumber(q)) {
-        btn.title = `[#${idx + 1} | ${q.year} ${q.section} ${String(q.section_q_num).padStart(2, '0')}번] ${q.theme_title || ''}`;
+        btn.title = `[#${idx + 1} | ${q.year} ${q.section} ${String(q.section_q_num).padStart(2, '0')}번] ${q.theme_title || ''}${commSuffix}`;
       } else {
-        btn.title = `[#${idx + 1} | ${q.year} Q${String(q.q_num || '').padStart(2, '0')}]: ${q.theme_title || ''}`;
+        btn.title = `[#${idx + 1} | ${q.year} Q${String(q.q_num || '').padStart(2, '0')}]: ${q.theme_title || ''}${commSuffix}`;
       }
 
       if (state.bookmarks.has(q.id)) {
@@ -6857,6 +7031,15 @@
         star.className = 'grid-star';
         star.textContent = '★';
         btn.appendChild(star);
+      }
+
+      if (commCount > 0) {
+        const commBadge = document.createElement('span');
+        commBadge.className = 'grid-comment';
+        commBadge.textContent = '💬';
+        commBadge.title = `댓글 ${commCount}개`;
+        btn.appendChild(commBadge);
+        btn.classList.add('has-comments');
       }
 
       btn.addEventListener('click', () => {

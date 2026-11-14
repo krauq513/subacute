@@ -2416,6 +2416,63 @@ body {
   font-size: 0.65rem;
 }
 
+
+.dot-comment {
+  font-size: 0.78rem;
+  line-height: 1;
+}
+
+.grid-quick-filters {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.65rem 1.5rem 0.5rem 1.5rem;
+  flex-wrap: wrap;
+  border-bottom: 1px solid var(--border-light);
+  background: var(--bg-surface);
+}
+
+.grid-filter-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.28rem 0.65rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-radius: 9999px;
+  border: 1px solid var(--border-light);
+  background: #ffffff;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.grid-filter-pill:hover {
+  background: var(--bg-surface-hover);
+  border-color: var(--primary);
+  color: var(--text-primary);
+}
+
+.grid-filter-pill.active {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.grid-filter-pill.active span {
+  color: #ffffff;
+}
+
+.grid-item-btn .grid-comment {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  font-size: 0.62rem;
+  line-height: 1;
+  pointer-events: none;
+}
+
 .modal-footer {
   padding: 1rem 1.5rem;
   border-top: 1px solid var(--border-light);
