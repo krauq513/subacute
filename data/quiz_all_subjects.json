@@ -276209,60 +276209,70 @@
     ],
     "options": [
       "① Ovarian cyst",
-      "② Ovarian teratoma.",
+      "② Ovarian teratoma",
       "③ Uterine myoma",
       "④ Endometrioma",
       "⑤ Cystadenocarcinoma"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Ovarian cyst",
+    "correct_option_index": 1,
+    "correct_answer": "② Ovarian teratoma",
     "explanation": {
       "title": "난소 성숙 기형종(Ovarian Mature Teratoma / Dermoid Cyst)의 CT 판독",
-      "findings": "골반 CT 판독:\n• 종괴 특징: 골반강 내에 위치하며 내부에 음의 Hounsfield Unit(-50~-100 HU)을 나타내는 명확한 지방 성분(Fat attenuation) 관찰.\n• 동반 소견: 낭종 벽에 돌출하는 결절(Rokitansky nodule / Dermoid plug) 및 뼈/치아 성분에 해당하는 조밀한 석회화 음영.\n• 진단: 난소의 성숙 낭성 기형종(Mature cystic teratoma / Ovarian dermoid cyst).",
-      "differential": "• ① Ovarian cyst (또는 Ovarian teratoma) ✓ [정답]: 내부 지방 음영과 석회화 결절을 포함하는 전형적인 난소 유피낭종(기형종)입니다.\n• ② 자궁근종 ✗ [오답]: 자궁 실질에서 기원하는 균일한 평활근 종괴입니다.\n• ③ 자궁내막종 ✗ [오답]: T1 고신호의 농축된 혈종(초콜릿 낭종) 양상을 보입니다.\n• ④ 난관수종 ✗ [오답]: 소시지 모양의 순수 액체 저류관입니다.",
-      "trap": "• 난소 종괴 내부에 '지방 음영(Fat)'이 보이면 무조건 'Ovarian teratoma(기형종)'입니다.",
-      "trigger": "【난소 기형종 1초 공식】\n• Pelvic cystic mass + Fat density + Tooth calcification = Ovarian teratoma!",
-      "kmle_link": "KMLE 산부인과 - 난소 양성 종양의 영상 감별",
+      "theme_title": "난소 성숙 기형종(Ovarian Mature Teratoma / Dermoid Cyst)의 CT 판독",
+      "subspecialty": "비뇨생식 영상의학",
+      "findings": "골반 조영증강 CT 판독:\n• 종괴 특징: 골반강 내에 위치하며 내부에 음의 Hounsfield Unit(-50~-100 HU)을 나타내는 명확한 지방 성분(Fat attenuation) 관찰.\n• 동반 소견: 낭종 벽에 돌출하는 결절(Rokitansky nodule / Dermoid plug) 및 뼈/치아 성분에 해당하는 조밀한 석회화 음영.\n• 최종 진단: 난소의 성숙 낭성 기형종(Mature cystic teratoma / Ovarian dermoid cyst).",
+      "differential": "• ① Ovarian cyst ✗ [오답]: 단순 난소 낭종은 균일한 액체 저류 소견만을 보이며 내부 지방 음영이나 석회화를 동반하지 않습니다.\n• ② Ovarian teratoma ✓ [정답]: 종괴 내 뚜렷한 저음영의 지방 성분(Fat density)과 석회화 결절을 보이는 난소 성숙 기형종(유피낭종, Dermoid cyst)의 결정적 특징입니다.\n• ③ Uterine myoma ✗ [오답]: 자궁 실질에서 발생하는 고형 근육종으로 지방 조직을 함유하지 않습니다.\n• ④ Endometrioma ✗ [오답]: 출혈성 혈종이 농축된 초콜릿 낭종으로 지방 음영이 관찰되지 않습니다.\n• ⑤ Cystadenocarcinoma ✗ [오답]: 두꺼운 격막과 불규칙한 고형 종괴 조영증강을 보이는 악성 낭선암종 소견과 일치하지 않습니다.",
+      "trap": "골반 CT에서 종괴 내부에 까맣게 보이는 '지방 음영(Fat density, 음의 HU)'이나 치아/골 성분의 '석회화'가 보이면 1초 만에 'Ovarian teratoma(기형종)'를 골라야 합니다. 단순 낭종(Ovarian cyst)과 혼동해서는 안 됩니다.",
+      "trigger": "【난소 기형종(Dermoid Cyst) 1초 공식】\n• Pelvic cystic mass + Fat density(-50~-100 HU) + Tooth/bone calcification = Ovarian teratoma!",
+      "kmle_link": "KMLE 산부인과/영상의학 - 난소 양성 종양의 영상 감별(기형종, 장액성/점액성 낭종, 자궁내막종)",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "Ovarian cyst (또는 Ovarian teratoma)",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "지방 음영과 석회화 결절을 포함하는 난소 기형종(유피낭종) 소견입니다."
+          "text": "Ovarian cyst",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "단순 난소 낭종은 균일한 순수 액체 음영(0~20 HU)만을 나타내며, 내부 지방 성분이나 석회화 결절을 동반하지 않습니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "자궁근종",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "고형 자궁 근육 종괴입니다."
+          "text": "Ovarian teratoma",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "골반강 내 종괴 내부에 뚜렷한 지방 음영(Fat attenuation)과 벽 결절(Rokitansky 결절) 및 석회화를 보이는 성숙 낭성 기형종(Dermoid cyst)의 전형적인 CT 소견입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "자궁내막종",
+          "text": "Uterine myoma",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "지방 음영이 없는 출혈성 낭종입니다."
+          "reason": "자궁근종은 자궁 실질에서 기원하는 고형 평활근 종괴로 지방 성분을 포함하지 않습니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "난관수종",
+          "text": "Endometrioma",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "관상 액체 저류입니다."
+          "reason": "자궁내막종(초콜릿 낭종)은 농축된 혈종으로 MRI T1 고신호/T2 음영감소가 특징이며 지방 음영을 보이지 않습니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "Cystadenocarcinoma",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "낭선암종은 두꺼운 격막, 불규칙한 고형 결절 조영증강 및 복수를 동반하는 악성 상피성 종양입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "골반 CT상 종괴 내부의 명확한 음의 감쇠 계수(지방 음영)와 석회화는 난소 기형종(Dermoid cyst)의 결정적 특징입니다."
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -276277,38 +276287,46 @@
       {
         "opt_idx": 0,
         "opt_num": "①",
-        "text": "Ovarian cyst (또는 Ovarian teratoma)",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "지방 음영과 석회화 결절을 포함하는 난소 기형종(유피낭종) 소견입니다."
+        "text": "Ovarian cyst",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "단순 난소 낭종은 균일한 순수 액체 음영(0~20 HU)만을 나타내며, 내부 지방 성분이나 석회화 결절을 동반하지 않습니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
-        "text": "자궁근종",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "고형 자궁 근육 종괴입니다."
+        "text": "Ovarian teratoma",
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "골반강 내 종괴 내부에 뚜렷한 지방 음영(Fat attenuation)과 벽 결절(Rokitansky 결절) 및 석회화를 보이는 성숙 낭성 기형종(Dermoid cyst)의 전형적인 CT 소견입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "자궁내막종",
+        "text": "Uterine myoma",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "지방 음영이 없는 출혈성 낭종입니다."
+        "reason": "자궁근종은 자궁 실질에서 기원하는 고형 평활근 종괴로 지방 성분을 포함하지 않습니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
-        "text": "난관수종",
+        "text": "Endometrioma",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "관상 액체 저류입니다."
+        "reason": "자궁내막종(초콜릿 낭종)은 농축된 혈종으로 MRI T1 고신호/T2 음영감소가 특징이며 지방 음영을 보이지 않습니다."
+      },
+      {
+        "opt_idx": 4,
+        "opt_num": "⑤",
+        "text": "Cystadenocarcinoma",
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "낭선암종은 두꺼운 격막, 불규칙한 고형 결절 조영증강 및 복수를 동반하는 악성 상피성 종양입니다."
       }
     ],
     "internal_index": "22Y-복부01",
-    "answer": "① Ovarian cyst"
+    "answer": "② Ovarian teratoma"
   },
   {
     "id": "영상의학과_22Y_Q13",
