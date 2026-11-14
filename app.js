@@ -875,7 +875,7 @@
   async function loadQuestions() {
     if (window.location && window.location.protocol && window.location.protocol.startsWith('http')) {
       try {
-        const res = await fetch('data/quiz_all_subjects.json?v=20261114v2', { cache: 'no-cache' });
+        const res = await fetch('data/quiz_all_subjects.json?v=20261114v3', { cache: 'no-cache' });
         if (res.ok) {
           const freshData = await res.json();
           if (Array.isArray(freshData) && freshData.length > 0) {
@@ -2921,7 +2921,7 @@
       }
 
       if (!src) return;
-      const resolvedSrc = src.includes('?') ? src : (src + '?v=20261114v2');
+      const resolvedSrc = src.includes('?') ? src : (src + '?v=20261114v3');
 
       const card = document.createElement('div');
       card.className = 'exp-figure-card';
