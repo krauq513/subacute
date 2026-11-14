@@ -1716,26 +1716,15 @@
       ],
       "differential_general": "Rh 유전자는 1번 염색체에 위치하며 단백질 항원을 직접 코딩함."
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
       "26Y",
-      "23Y",
-      "22Y",
-      "21Y",
-      "20Y"
+      "23Y"
     ],
     "raw_questions": [
       "26Y-14",
-      "26Y-43",
-      "26Y-47",
-      "23Y-12",
-      "23Y-15",
-      "23Y-38",
-      "22Y-48",
-      "21Y-미생물02",
-      "21Y-수혈11",
-      "20Y-40"
+      "23Y-15"
     ],
     "option_explanations": [
       {
@@ -4179,25 +4168,17 @@
       ],
       "differential_general": "단일유전자 질환, 염색체 질환, 다인자성 복합 질환."
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "26Y",
-      "23Y",
-      "22Y",
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "26Y-34",
-      "26Y-37",
-      "23Y-35",
-      "22Y-40",
       "21Y-유전01",
-      "21Y-유전03",
-      "20Y-12",
-      "20Y-15",
-      "20Y-42"
+      "20Y-12"
     ],
     "option_explanations": [
       {
@@ -4558,25 +4539,19 @@
       ],
       "differential_general": "유전성 암 증후군(Lynch, FAP, Li-Fraumeni - 생식세포 변이)."
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
       "26Y",
-      "23Y",
       "22Y",
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "26Y-37",
-      "26Y-34",
-      "23Y-35",
       "22Y-40",
-      "21Y-유전01",
       "21Y-유전03",
-      "20Y-12",
-      "20Y-15",
-      "20Y-42"
+      "20Y-15"
     ],
     "option_explanations": [
       {
@@ -5074,19 +5049,16 @@
       ],
       "differential_general": "급성 용혈(ABO 불일치), 지연 용혈(비예기항체 아나므네스 반응)."
     },
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "22Y",
-      "21Y",
       "20Y"
     ],
     "raw_questions": [
       "26Y-41",
-      "22Y-37",
       "22Y-41",
-      "21Y-유전07",
       "20Y-21"
     ],
     "option_explanations": [
@@ -5335,26 +5307,13 @@
       ],
       "differential_general": "ABO 항원(신생아기 미발달, 흡착 항원 아님), Lewis 항원(출생 시 음성)."
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "26Y",
-      "23Y",
-      "22Y",
-      "21Y",
-      "20Y"
+      "26Y"
     ],
     "raw_questions": [
-      "26Y-43",
-      "26Y-14",
-      "26Y-47",
-      "23Y-12",
-      "23Y-15",
-      "23Y-38",
-      "22Y-48",
-      "21Y-미생물02",
-      "21Y-수혈11",
-      "20Y-40"
+      "26Y-43"
     ],
     "option_explanations": [
       {
@@ -5771,26 +5730,15 @@
       ],
       "differential_general": "Sanger 시퀀싱(단일 유전자 검증용 골드스탠다드), WES(원인 불명 희귀질환 2차 검사)."
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
       "26Y",
-      "23Y",
-      "22Y",
-      "21Y",
-      "20Y"
+      "23Y"
     ],
     "raw_questions": [
       "26Y-47",
-      "26Y-14",
-      "26Y-43",
-      "23Y-12",
-      "23Y-15",
-      "23Y-38",
-      "22Y-48",
-      "21Y-미생물02",
-      "21Y-수혈11",
-      "20Y-40"
+      "23Y-38"
     ],
     "option_explanations": [
       {
@@ -7418,10 +7366,9 @@
       ],
       "differential_general": "1. 혈액배양병 고무마개 소독 원칙:\n• 배양병의 고무마개(뚜껑)는 포비돈 요오드(베타딘)를 사용하면 고무가 변성·부식되므로 70% Isopropyl alcohol로만 닦고 말림!\n2. 혈액배양 채혈 및 피부 소독 표준 지침:\n• 환자 피부: 70% 알코올로 먼저 유분을 제거한 후, 2% 클로르헥시딘 또는 10% 포비돈 요오드로 중심에서 외측으로 원을 그리며 소독하고 완전히 건조(1~2분)시킴.\n• 채혈량: 성인은 1쌍당 16~20mL(호기성 8~10mL, 혐기성 8~10mL), 최소 2~3쌍을 서로 다른 정맥에서 채혈."
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "26Y",
       "23Y",
       "22Y",
       "21Y",
@@ -7429,14 +7376,8 @@
     ],
     "raw_questions": [
       "23Y-12",
-      "26Y-14",
-      "26Y-43",
-      "26Y-47",
-      "23Y-15",
-      "23Y-38",
       "22Y-48",
       "21Y-미생물02",
-      "21Y-수혈11",
       "20Y-40"
     ],
     "option_explanations": [
@@ -7685,9 +7626,7 @@
     "raw_questions": [
       "23Y-14",
       "21Y-혈액01",
-      "21Y-혈액05",
-      "20Y-02",
-      "20Y-06"
+      "20Y-02"
     ],
     "option_explanations": [
       {
@@ -7807,26 +7746,15 @@
       ],
       "differential_general": "Rh 유전자는 1번 염색체에 위치하며 단백질 항원을 직접 코딩함."
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
       "26Y",
-      "23Y",
-      "22Y",
-      "21Y",
-      "20Y"
+      "23Y"
     ],
     "raw_questions": [
       "23Y-15",
-      "26Y-14",
-      "26Y-43",
-      "26Y-47",
-      "23Y-12",
-      "23Y-38",
-      "22Y-48",
-      "21Y-미생물02",
-      "21Y-수혈11",
-      "20Y-40"
+      "26Y-14"
     ],
     "option_explanations": [
       {
@@ -10419,24 +10347,14 @@
       ],
       "differential_general": "1. 결핵균 항산균 염색법 비교:\n• Auramine-rhodamine 형광염색: 저배율(250~400배)에서 넓은 시야를 신속히 관찰할 수 있어, 1,000배 유침렌즈로 300시야 이상을 봐야 하는 Ziehl-Neelsen(Z-N) 염색보다 판독시간이 훨씬 짧고 민감도가 10% 이상 높음 (스크리닝 검사로 표준 권장)!\n2. 오답 선지 완벽 정복:\n• ① Nocardia, Cryptosporidium은 '부분 항산성(Partial acid-fast)'을 보여 Z-N 염색에서 붉은색 양성으로 나타남.\n• ② 결핵균 세포벽에는 지질 성분인 미콜산(Mycolic acid)이 풍부함 (LPS는 그람음성균 특유 성분).\n• ④ 항산균 양성은 NTM(비결핵항산균)일 수도 있으므로 분자진단(TB-PCR) 필수."
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "26Y",
       "23Y",
-      "22Y",
-      "21Y",
       "20Y"
     ],
     "raw_questions": [
       "23Y-35",
-      "26Y-34",
-      "26Y-37",
-      "22Y-40",
-      "21Y-유전01",
-      "21Y-유전03",
-      "20Y-12",
-      "20Y-15",
       "20Y-42"
     ],
     "option_explanations": [
@@ -10796,26 +10714,15 @@
       ],
       "differential_general": "Sanger 시퀀싱(단일 유전자 검증용 골드스탠다드), WES(원인 불명 희귀질환 2차 검사)."
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
       "26Y",
-      "23Y",
-      "22Y",
-      "21Y",
-      "20Y"
+      "23Y"
     ],
     "raw_questions": [
       "23Y-38",
-      "26Y-14",
-      "26Y-43",
-      "26Y-47",
-      "23Y-12",
-      "23Y-15",
-      "22Y-48",
-      "21Y-미생물02",
-      "21Y-수혈11",
-      "20Y-40"
+      "26Y-47"
     ],
     "option_explanations": [
       {
@@ -12100,17 +12007,14 @@
       "trigger": "【진단검사의학과 과년도 빈출: 병원 검사실에서 시행하는 정량검사의 측정 원리 및 분석... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 병태생리 및 핵심 징후: • [검사실 정량검사 원리]:\n  분석물질의 분자량, 이온 전하, 화학적 반응성, 단백질 구조 등에 따라 흡광광도법, 형광분석법, 화학발광면역측정법, 이온선택전극.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ④ 분석물질의 물리화학적 특성과 관계없이 동일한 측정 원리가 모든 검사에 적용된다..\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": ""
     },
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
       "23Y",
-      "22Y",
       "21Y"
     ],
     "raw_questions": [
       "23Y-48",
-      "22Y-19",
-      "21Y-화학01",
       "21Y-화학06"
     ],
     "option_explanations": [
@@ -14778,18 +14682,15 @@
       "trigger": "【진단검사의학과 과년도 빈출: 진단검사의학 검사실의 정밀도(Precision) 평가 ... 핵심 임상 가이드라인 & Cutoff 기준치】\n• 핵심 진단 및 정량적 평가 기준:\n  - 주요 기준 지표: • [변이계수 CV의 정의 및 해석]:\n  $CV(\\%) = (SD / \\text{Mean}) \\times 100$\n  변이계수는 평균 대비 산포도(표준편차)의 상대적 크기를 나타내므로, **변이계수(CV) 값이 작을수록 반복 측정값들이 촘촘하게 모여 있어 정밀도(Precision)가 높고**,   변이계수 값이 클수록 정밀도가 낮음을 의미합니다.\n• 단계별 진단 및 치료 프로토콜 (Algorithmic Plan):\n  - 1차 선택 (표준 권고사항): ④ 변이계수(CV) 값이 클수록 측정의 정밀도(Precision)가 높음을 의미한다..\n  - 2차 대안 / 불응 시 대처: 초기 반응 평가 후 호전이 없거나 합병증 동반 시 침습적 정밀 검사 또는 상위 중재술로 신속 전환.\n• 근접 감별 사례 및 실전 주의사항:\n  - 감별 핵심: 비전형적 증례 또는 금기 조건을 반드시 확인하여 오진 및 부작용을 방지할 것.",
       "kmle_link": ""
     },
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "23Y",
       "22Y",
       "21Y"
     ],
     "raw_questions": [
       "22Y-19",
-      "23Y-48",
-      "21Y-화학01",
-      "21Y-화학06"
+      "21Y-화학01"
     ],
     "option_explanations": [
       {
@@ -17116,20 +17017,15 @@
       ],
       "differential_general": "1. 바이러스 분자진단 특성:\n• 단백질 검출(항원검사)보다 유전자 증폭(PCR)이 민감도가 수백~수천 배 높음."
     },
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "26Y",
       "22Y",
-      "21Y",
-      "20Y"
+      "21Y"
     ],
     "raw_questions": [
       "22Y-37",
-      "26Y-41",
-      "22Y-41",
-      "21Y-유전07",
-      "20Y-21"
+      "21Y-유전07"
     ],
     "option_explanations": [
       {
@@ -17520,25 +17416,19 @@
       ],
       "differential_general": "유전성 암 증후군(Lynch, FAP, Li-Fraumeni - 생식세포 변이)."
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
       "26Y",
-      "23Y",
       "22Y",
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "22Y-40",
-      "26Y-34",
       "26Y-37",
-      "23Y-35",
-      "21Y-유전01",
       "21Y-유전03",
-      "20Y-12",
-      "20Y-15",
-      "20Y-42"
+      "20Y-15"
     ],
     "option_explanations": [
       {
@@ -17666,19 +17556,16 @@
       ],
       "differential_general": "• cis-AB: O형 또는 A형/B형 적혈구 제제 선택 수혈\n• Weak D: 헌혈자일 때는 Rh(+), 수혈자일 때는 원칙적으로 Rh(-) 혈액 수혈\n• 비예기항체 선별: 환자 혈청 + 선별용 O형 적혈구 패널"
     },
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "22Y",
-      "21Y",
       "20Y"
     ],
     "raw_questions": [
       "22Y-41",
       "26Y-41",
-      "22Y-37",
-      "21Y-유전07",
       "20Y-21"
     ],
     "option_explanations": [
@@ -18566,10 +18453,9 @@
       ],
       "differential_general": "1. 혈액배양병 고무마개 소독 원칙:\n• 배양병의 고무마개(뚜껑)는 포비돈 요오드(베타딘)를 사용하면 고무가 변성·부식되므로 70% Isopropyl alcohol로만 닦고 말림!\n2. 혈액배양 채혈 및 피부 소독 표준 지침:\n• 환자 피부: 70% 알코올로 먼저 유분을 제거한 후, 2% 클로르헥시딘 또는 10% 포비돈 요오드로 중심에서 외측으로 원을 그리며 소독하고 완전히 건조(1~2분)시킴.\n• 채혈량: 성인은 1쌍당 16~20mL(호기성 8~10mL, 혐기성 8~10mL), 최소 2~3쌍을 서로 다른 정맥에서 채혈."
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "26Y",
       "23Y",
       "22Y",
       "21Y",
@@ -18577,14 +18463,8 @@
     ],
     "raw_questions": [
       "22Y-48",
-      "26Y-14",
-      "26Y-43",
-      "26Y-47",
       "23Y-12",
-      "23Y-15",
-      "23Y-38",
       "21Y-미생물02",
-      "21Y-수혈11",
       "20Y-40"
     ],
     "option_explanations": [
@@ -19090,9 +18970,7 @@
     "raw_questions": [
       "20Y-02",
       "23Y-14",
-      "21Y-혈액01",
-      "21Y-혈액05",
-      "20Y-06"
+      "21Y-혈액01"
     ],
     "option_explanations": [
       {
@@ -19603,19 +19481,15 @@
       ],
       "differential_general": "1. CRAB 증후군 판독:\n• HyperCalcemia, Renal failure (Cr 2.3), Anemia (Hb 저하), Bone lesion\n• 총단백 - 알부민 = 7.2 g/dL (단클론 감마글로불린병증 시사)"
     },
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "23Y",
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-06",
-      "23Y-14",
-      "21Y-혈액01",
-      "21Y-혈액05",
-      "20Y-02"
+      "21Y-혈액05"
     ],
     "option_explanations": [
       {
@@ -20316,25 +20190,17 @@
       ],
       "differential_general": "1. 유전질환의 광의적 분류:\n• 단일유전자 질환(멘델 유전), 염색체 이상 질환, 다인자 질환(환경+유전), 미토콘드리아 유전질환, 체세포 유전질환(암)"
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "26Y",
-      "23Y",
-      "22Y",
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-12",
       "26Y-34",
-      "26Y-37",
-      "23Y-35",
-      "22Y-40",
-      "21Y-유전01",
-      "21Y-유전03",
-      "20Y-15",
-      "20Y-42"
+      "21Y-유전01"
     ],
     "option_explanations": [
       {
@@ -20708,25 +20574,19 @@
       ],
       "differential_general": "유전성 암 증후군(Lynch, FAP, Li-Fraumeni - 생식세포 변이)."
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
       "26Y",
-      "23Y",
       "22Y",
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-15",
-      "26Y-34",
       "26Y-37",
-      "23Y-35",
       "22Y-40",
-      "21Y-유전01",
-      "21Y-유전03",
-      "20Y-12",
-      "20Y-42"
+      "21Y-유전03"
     ],
     "option_explanations": [
       {
@@ -21399,20 +21259,17 @@
       ],
       "differential_general": "급성 용혈(ABO 불일치), 지연 용혈(비예기항체 아나므네스 반응)."
     },
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "22Y",
-      "21Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-21",
       "26Y-41",
-      "22Y-37",
-      "22Y-41",
-      "21Y-유전07"
+      "22Y-41"
     ],
     "option_explanations": [
       {
@@ -23766,10 +23623,9 @@
       ],
       "differential_general": "1. 혈액배양 채혈량 및 소독 원칙:\n• 성인: 2~3쌍, 쌍당 20 mL (양성률은 채혈량에 정비례)\n• 소아: 체중 비례 (1~3 mL)\n• 피부 소독: 70% 알코올(탈지) -> 2% 클로르헥시딘 또는 포비돈 요오드(소독)"
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "26Y",
       "23Y",
       "22Y",
       "21Y",
@@ -23777,15 +23633,9 @@
     ],
     "raw_questions": [
       "20Y-40",
-      "26Y-14",
-      "26Y-43",
-      "26Y-47",
       "23Y-12",
-      "23Y-15",
-      "23Y-38",
       "22Y-48",
-      "21Y-미생물02",
-      "21Y-수혈11"
+      "21Y-미생물02"
     ],
     "option_explanations": [
       {
@@ -24037,25 +23887,15 @@
       ],
       "differential_general": "1. 결핵균 항산균 염색법 비교:\n• Auramine-rhodamine 형광염색: 저배율(250~400배)에서 넓은 시야를 신속히 관찰할 수 있어, 1,000배 유침렌즈로 300시야 이상을 봐야 하는 Ziehl-Neelsen(Z-N) 염색보다 판독시간이 훨씬 짧고 민감도가 10% 이상 높음 (스크리닝 검사로 표준 권장)!\n2. 오답 선지 완벽 정복:\n• ① Nocardia, Cryptosporidium은 '부분 항산성(Partial acid-fast)'을 보여 Z-N 염색에서 붉은색 양성으로 나타남.\n• ② 결핵균 세포벽에는 지질 성분인 미콜산(Mycolic acid)이 풍부함 (LPS는 그람음성균 특유 성분).\n• ④ 항산균 양성은 NTM(비결핵항산균)일 수도 있으므로 분자진단(TB-PCR) 필수."
     },
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "26Y",
       "23Y",
-      "22Y",
-      "21Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-42",
-      "26Y-34",
-      "26Y-37",
-      "23Y-35",
-      "22Y-40",
-      "21Y-유전01",
-      "21Y-유전03",
-      "20Y-12",
-      "20Y-15"
+      "23Y-35"
     ],
     "option_explanations": [
       {
@@ -30726,7 +30566,6 @@
     ],
     "raw_questions": [
       "26Y-46",
-      "26Y-47",
       "23Y-51"
     ],
     "option_explanations": [
@@ -30849,16 +30688,13 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "26Y",
-      "23Y"
+      "26Y"
     ],
     "raw_questions": [
-      "26Y-47",
-      "26Y-46",
-      "23Y-51"
+      "26Y-47"
     ],
     "option_explanations": [
       {
@@ -33829,17 +33665,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
       "23Y",
-      "21Y",
-      "20Y"
+      "21Y"
     ],
     "raw_questions": [
       "23Y-09",
-      "21Y-07",
-      "20Y-01"
+      "21Y-07"
     ],
     "option_explanations": [
       {
@@ -39139,8 +38973,7 @@
     ],
     "raw_questions": [
       "23Y-51",
-      "26Y-46",
-      "26Y-47"
+      "26Y-46"
     ],
     "option_explanations": [
       {
@@ -48650,17 +48483,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
       "23Y",
-      "21Y",
-      "20Y"
+      "21Y"
     ],
     "raw_questions": [
       "21Y-07",
-      "23Y-09",
-      "20Y-01"
+      "23Y-09"
     ],
     "option_explanations": [
       {
@@ -54865,17 +54696,13 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "23Y",
-      "21Y",
       "20Y"
     ],
     "raw_questions": [
-      "20Y-01",
-      "23Y-09",
-      "21Y-07"
+      "20Y-01"
     ],
     "option_explanations": [
       {
@@ -78904,15 +78731,17 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
       "26Y",
+      "23Y",
       "22Y",
       "20Y"
     ],
     "raw_questions": [
       "26Y-10",
+      "23Y-42",
       "22Y-24",
       "20Y-27"
     ],
@@ -79435,15 +79264,13 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "26Y",
-      "19Y"
+      "26Y"
     ],
     "raw_questions": [
-      "26Y-14",
-      "19Y-18"
+      "26Y-14"
     ],
     "option_explanations": [
       {
@@ -80050,7 +79877,6 @@
     ],
     "raw_questions": [
       "26Y-19",
-      "23Y-12",
       "23Y-37",
       "23Y-38"
     ],
@@ -82240,7 +82066,6 @@
     ],
     "raw_questions": [
       "26Y-36",
-      "19Y-19",
       "19Y-27"
     ],
     "option_explanations": [
@@ -82820,17 +82645,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
       "23Y",
-      "22Y",
-      "20Y"
+      "22Y"
     ],
     "raw_questions": [
       "23Y-01",
-      "22Y-01",
-      "20Y-01"
+      "22Y-01"
     ],
     "option_explanations": [
       {
@@ -84266,17 +84089,13 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "26Y",
       "23Y"
     ],
     "raw_questions": [
-      "23Y-12",
-      "26Y-19",
-      "23Y-37",
-      "23Y-38"
+      "23Y-12"
     ],
     "option_explanations": [
       {
@@ -87446,7 +87265,6 @@
     "raw_questions": [
       "23Y-37",
       "26Y-19",
-      "23Y-12",
       "23Y-38"
     ],
     "option_explanations": [
@@ -87570,7 +87388,6 @@
     "raw_questions": [
       "23Y-38",
       "26Y-19",
-      "23Y-12",
       "23Y-37"
     ],
     "option_explanations": [
@@ -88015,7 +87832,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "freq_count": 4,
-    "rate": 17,
+    "rate": 67,
     "freq_years": [
       "26Y",
       "23Y",
@@ -88023,8 +87840,8 @@
       "20Y"
     ],
     "raw_questions": [
-      "26Y-10",
       "23Y-42",
+      "26Y-10",
       "22Y-24",
       "20Y-27"
     ],
@@ -89202,17 +89019,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
       "23Y",
-      "22Y",
-      "20Y"
+      "22Y"
     ],
     "raw_questions": [
       "22Y-01",
-      "23Y-01",
-      "20Y-01"
+      "23Y-01"
     ],
     "option_explanations": [
       {
@@ -91939,16 +91754,18 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
       "26Y",
+      "23Y",
       "22Y",
       "20Y"
     ],
     "raw_questions": [
       "22Y-24",
       "26Y-10",
+      "23Y-42",
       "20Y-27"
     ],
     "option_explanations": [
@@ -100073,17 +99890,13 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "23Y",
-      "22Y",
       "20Y"
     ],
     "raw_questions": [
-      "20Y-01",
-      "23Y-01",
-      "22Y-01"
+      "20Y-01"
     ],
     "option_explanations": [
       {
@@ -102258,7 +102071,6 @@
     ],
     "raw_questions": [
       "20Y-20",
-      "19Y-05",
       "19Y-10"
     ],
     "option_explanations": [
@@ -103024,16 +102836,18 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
       "26Y",
+      "23Y",
       "22Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-27",
       "26Y-10",
+      "23Y-42",
       "22Y-24"
     ],
     "option_explanations": [
@@ -105136,16 +104950,13 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-05",
-      "20Y-20",
-      "19Y-10"
+      "19Y-05"
     ],
     "option_explanations": [
       {
@@ -105717,8 +105528,7 @@
     ],
     "raw_questions": [
       "19Y-10",
-      "20Y-20",
-      "19Y-05"
+      "20Y-20"
     ],
     "option_explanations": [
       {
@@ -106587,15 +106397,13 @@
     "correct_option_indices": [
       4
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "26Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-18",
-      "26Y-14"
+      "19Y-18"
     ],
     "option_explanations": [
       {
@@ -106701,16 +106509,13 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "26Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-19",
-      "26Y-36",
-      "19Y-27"
+      "19Y-19"
     ],
     "option_explanations": [
       {
@@ -107666,8 +107471,7 @@
     ],
     "raw_questions": [
       "19Y-27",
-      "26Y-36",
-      "19Y-19"
+      "26Y-36"
     ],
     "option_explanations": [
       {
@@ -149258,8 +149062,7 @@
       "23Y"
     ],
     "raw_questions": [
-      "23Y-12",
-      "23Y-40"
+      "23Y-12"
     ],
     "option_explanations": [
       {
@@ -152721,8 +152524,7 @@
       "23Y"
     ],
     "raw_questions": [
-      "23Y-40",
-      "23Y-12"
+      "23Y-40"
     ],
     "option_explanations": [
       {
@@ -157582,23 +157384,13 @@
     "correct_option_indices": [
       4
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "22Y",
-      "21Y",
-      "20Y",
-      "19Y"
+      "22Y"
     ],
     "raw_questions": [
-      "22Y-31",
-      "22Y-36",
-      "21Y-06",
-      "21Y-11",
-      "21Y-50",
-      "20Y-32",
-      "20Y-47",
-      "19Y-16"
+      "22Y-31"
     ],
     "option_explanations": [
       {
@@ -158235,23 +158027,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
       "22Y",
-      "21Y",
-      "20Y",
-      "19Y"
+      "21Y"
     ],
     "raw_questions": [
       "22Y-36",
-      "22Y-31",
-      "21Y-06",
-      "21Y-11",
-      "21Y-50",
-      "20Y-32",
-      "20Y-47",
-      "19Y-16"
+      "21Y-11"
     ],
     "option_explanations": [
       {
@@ -158381,11 +158165,8 @@
     ],
     "raw_questions": [
       "22Y-37",
-      "22Y-38",
       "21Y-07",
-      "21Y-08",
-      "20Y-28",
-      "20Y-29"
+      "20Y-28"
     ],
     "option_explanations": [
       {
@@ -158515,10 +158296,7 @@
     ],
     "raw_questions": [
       "22Y-38",
-      "22Y-37",
-      "21Y-07",
       "21Y-08",
-      "20Y-28",
       "20Y-29"
     ],
     "option_explanations": [
@@ -160794,23 +160572,13 @@
     "correct_option_indices": [
       4
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "22Y",
-      "21Y",
-      "20Y",
-      "19Y"
+      "21Y"
     ],
     "raw_questions": [
-      "21Y-06",
-      "22Y-31",
-      "22Y-36",
-      "21Y-11",
-      "21Y-50",
-      "20Y-32",
-      "20Y-47",
-      "19Y-16"
+      "21Y-06"
     ],
     "option_explanations": [
       {
@@ -160941,10 +160709,7 @@
     "raw_questions": [
       "21Y-07",
       "22Y-37",
-      "22Y-38",
-      "21Y-08",
-      "20Y-28",
-      "20Y-29"
+      "20Y-28"
     ],
     "option_explanations": [
       {
@@ -161074,10 +160839,7 @@
     ],
     "raw_questions": [
       "21Y-08",
-      "22Y-37",
       "22Y-38",
-      "21Y-07",
-      "20Y-28",
       "20Y-29"
     ],
     "option_explanations": [
@@ -161455,23 +161217,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
       "22Y",
-      "21Y",
-      "20Y",
-      "19Y"
+      "21Y"
     ],
     "raw_questions": [
       "21Y-11",
-      "22Y-31",
-      "22Y-36",
-      "21Y-06",
-      "21Y-50",
-      "20Y-32",
-      "20Y-47",
-      "19Y-16"
+      "22Y-36"
     ],
     "option_explanations": [
       {
@@ -166230,23 +165984,15 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "22Y",
       "21Y",
-      "20Y",
-      "19Y"
+      "20Y"
     ],
     "raw_questions": [
       "21Y-50",
-      "22Y-31",
-      "22Y-36",
-      "21Y-06",
-      "21Y-11",
-      "20Y-32",
-      "20Y-47",
-      "19Y-16"
+      "20Y-47"
     ],
     "option_explanations": [
       {
@@ -170440,10 +170186,7 @@
     "raw_questions": [
       "20Y-28",
       "22Y-37",
-      "22Y-38",
-      "21Y-07",
-      "21Y-08",
-      "20Y-29"
+      "21Y-07"
     ],
     "option_explanations": [
       {
@@ -170574,11 +170317,8 @@
     ],
     "raw_questions": [
       "20Y-29",
-      "22Y-37",
       "22Y-38",
-      "21Y-07",
-      "21Y-08",
-      "20Y-28"
+      "21Y-08"
     ],
     "option_explanations": [
       {
@@ -170947,23 +170687,13 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "22Y",
-      "21Y",
-      "20Y",
-      "19Y"
+      "20Y"
     ],
     "raw_questions": [
-      "20Y-32",
-      "22Y-31",
-      "22Y-36",
-      "21Y-06",
-      "21Y-11",
-      "21Y-50",
-      "20Y-47",
-      "19Y-16"
+      "20Y-32"
     ],
     "option_explanations": [
       {
@@ -172854,23 +172584,15 @@
     "correct_option_indices": [
       4
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "22Y",
       "21Y",
-      "20Y",
-      "19Y"
+      "20Y"
     ],
     "raw_questions": [
       "20Y-47",
-      "22Y-31",
-      "22Y-36",
-      "21Y-06",
-      "21Y-11",
-      "21Y-50",
-      "20Y-32",
-      "19Y-16"
+      "21Y-50"
     ],
     "option_explanations": [
       {
@@ -176134,23 +175856,13 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "22Y",
-      "21Y",
-      "20Y",
       "19Y"
     ],
     "raw_questions": [
-      "19Y-16",
-      "22Y-31",
-      "22Y-36",
-      "21Y-06",
-      "21Y-11",
-      "21Y-50",
-      "20Y-32",
-      "20Y-47"
+      "19Y-16"
     ],
     "option_explanations": [
       {
@@ -214849,15 +214561,13 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "26Y",
-      "23Y"
+      "26Y"
     ],
     "raw_questions": [
-      "26Y-06",
-      "23Y-50"
+      "26Y-06"
     ],
     "option_explanations": [
       {
@@ -215218,22 +214928,13 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "26Y",
-      "23Y",
-      "22Y",
-      "21Y",
-      "20Y"
+      "26Y"
     ],
     "raw_questions": [
-      "26Y-09",
-      "23Y-40",
-      "22Y-04",
-      "22Y-05",
-      "21Y-부인과05",
-      "20Y-부인과10"
+      "26Y-09"
     ],
     "option_explanations": [
       {
@@ -226923,10 +226624,9 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "26Y",
       "23Y",
       "22Y",
       "21Y",
@@ -226934,7 +226634,6 @@
     ],
     "raw_questions": [
       "23Y-40",
-      "26Y-09",
       "22Y-04",
       "22Y-05",
       "21Y-부인과05",
@@ -228246,15 +227945,13 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "26Y",
       "23Y"
     ],
     "raw_questions": [
-      "23Y-50",
-      "26Y-06"
+      "23Y-50"
     ],
     "option_explanations": [
       {
@@ -230034,10 +229731,9 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "26Y",
       "23Y",
       "22Y",
       "21Y",
@@ -230045,7 +229741,6 @@
     ],
     "raw_questions": [
       "22Y-04",
-      "26Y-09",
       "23Y-40",
       "22Y-05",
       "21Y-부인과05",
@@ -230163,10 +229858,9 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "26Y",
       "23Y",
       "22Y",
       "21Y",
@@ -230174,7 +229868,6 @@
     ],
     "raw_questions": [
       "22Y-05",
-      "26Y-09",
       "23Y-40",
       "22Y-04",
       "21Y-부인과05",
@@ -247186,21 +246879,19 @@
     ],
     "raw_questions": [
       "21Y-부인과05",
-      "26Y-09",
       "23Y-40",
       "22Y-04",
       "22Y-05",
       "20Y-부인과10"
     ],
     "freq_years": [
-      "26Y",
       "23Y",
       "22Y",
       "21Y",
       "20Y"
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "answer": "2) GnRH agonist 는 short protocol 이 long protocol 보다 임신률이 높다.",
     "index": 2001
   },
@@ -260896,26 +260587,13 @@
       0
     ],
     "raw_questions": [
-      "21Y-수혈11",
-      "26Y-14",
-      "26Y-43",
-      "26Y-47",
-      "23Y-12",
-      "23Y-15",
-      "23Y-38",
-      "22Y-48",
-      "21Y-미생물02",
-      "20Y-40"
+      "21Y-수혈11"
     ],
     "freq_years": [
-      "26Y",
-      "23Y",
-      "22Y",
-      "21Y",
-      "20Y"
+      "21Y"
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 1,
+    "rate": 17,
     "answer": "방사선을 쪼이면 비슷한 효과를 얻을 수 있다",
     "index": 2132
   },
@@ -261107,17 +260785,14 @@
     ],
     "raw_questions": [
       "21Y-화학01",
-      "23Y-48",
-      "22Y-19",
-      "21Y-화학06"
+      "22Y-19"
     ],
     "freq_years": [
-      "23Y",
       "22Y",
       "21Y"
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 2,
+    "rate": 33,
     "answer": "변이계수가 낮을수록 정확한 검사를 할 수 있다.",
     "index": 2136
   },
@@ -261341,17 +261016,14 @@
     ],
     "raw_questions": [
       "21Y-화학06",
-      "23Y-48",
-      "22Y-19",
-      "21Y-화학01"
+      "23Y-48"
     ],
     "freq_years": [
       "23Y",
-      "22Y",
       "21Y"
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 2,
+    "rate": 33,
     "answer": "회귀곡선의 기울기가 낮을수록 검사의 정밀도가 높다.",
     "index": 2141
   },
@@ -261393,23 +261065,15 @@
     "raw_questions": [
       "21Y-유전01",
       "26Y-34",
-      "26Y-37",
-      "23Y-35",
-      "22Y-40",
-      "21Y-유전03",
-      "20Y-12",
-      "20Y-15",
-      "20Y-42"
+      "20Y-12"
     ],
     "freq_years": [
       "26Y",
-      "23Y",
-      "22Y",
       "21Y",
       "20Y"
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 3,
+    "rate": 50,
     "answer": "유전질환(genetic disorder)은 환경적 영향을 받지 않는다.",
     "index": 2142
   },
@@ -261498,24 +261162,18 @@
     ],
     "raw_questions": [
       "21Y-유전03",
-      "26Y-34",
       "26Y-37",
-      "23Y-35",
       "22Y-40",
-      "21Y-유전01",
-      "20Y-12",
-      "20Y-15",
-      "20Y-42"
+      "20Y-15"
     ],
     "freq_years": [
       "26Y",
-      "23Y",
       "22Y",
       "21Y",
       "20Y"
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "answer": "Somatic variant 의 경우 50%의 확률로 자손에게 전달된다.",
     "index": 2144
   },
@@ -261702,19 +261360,14 @@
     ],
     "raw_questions": [
       "21Y-유전07",
-      "26Y-41",
-      "22Y-37",
-      "22Y-41",
-      "20Y-21"
+      "22Y-37"
     ],
     "freq_years": [
-      "26Y",
       "22Y",
-      "21Y",
-      "20Y"
+      "21Y"
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 2,
+    "rate": 33,
     "answer": "단백질을 검사하는 방법이다.",
     "index": 2148
   },
@@ -261805,25 +261458,18 @@
     ],
     "raw_questions": [
       "21Y-미생물02",
-      "26Y-14",
-      "26Y-43",
-      "26Y-47",
       "23Y-12",
-      "23Y-15",
-      "23Y-38",
       "22Y-48",
-      "21Y-수혈11",
       "20Y-40"
     ],
     "freq_years": [
-      "26Y",
       "23Y",
       "22Y",
       "21Y",
       "20Y"
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "answer": "Gram negative 균이 나오면 피부상재균일 확률이 높다",
     "index": 2150
   },
@@ -262261,9 +261907,7 @@
     "raw_questions": [
       "21Y-혈액01",
       "23Y-14",
-      "21Y-혈액05",
-      "20Y-02",
-      "20Y-06"
+      "20Y-02"
     ],
     "freq_years": [
       "23Y",
@@ -262453,18 +262097,14 @@
     ],
     "raw_questions": [
       "21Y-혈액05",
-      "23Y-14",
-      "21Y-혈액01",
-      "20Y-02",
       "20Y-06"
     ],
     "freq_years": [
-      "23Y",
       "21Y",
       "20Y"
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 2,
+    "rate": 33,
     "answer": "ALL",
     "index": 2163
   },
@@ -263731,21 +263371,19 @@
     ],
     "raw_questions": [
       "20Y-부인과10",
-      "26Y-09",
       "23Y-40",
       "22Y-04",
       "22Y-05",
       "21Y-부인과05"
     ],
     "freq_years": [
-      "26Y",
       "23Y",
       "22Y",
       "21Y",
       "20Y"
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "answer": "GnRH agonist 는 short protocol 이 long protocol 보다 임신률이 높다.",
     "index": 2176
   },
@@ -270872,7 +270510,8 @@
       "23Y-44",
       "22Y-03",
       "21Y-36",
-      "19Y-40"
+      "19Y-40",
+      "19Y-44"
     ],
     "option_explanations": [
       {
@@ -271236,13 +270875,21 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "26Y"
+      "26Y",
+      "22Y",
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
-      "26Y-09"
+      "26Y-09",
+      "26Y-10",
+      "22Y-02",
+      "21Y-34",
+      "21Y-40",
+      "20Y-04"
     ],
     "option_explanations": [
       {
@@ -271379,8 +271026,10 @@
     ],
     "raw_questions": [
       "26Y-10",
+      "26Y-09",
       "22Y-02",
       "21Y-34",
+      "21Y-40",
       "20Y-04"
     ],
     "option_explanations": [
@@ -271861,16 +271510,14 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
       "26Y",
-      "23Y",
       "20Y"
     ],
     "raw_questions": [
       "26Y-14",
-      "23Y-20",
       "20Y-27"
     ],
     "option_explanations": [
@@ -271981,7 +271628,14 @@
           "reason": "외상성 대동맥 파열(대부분 좌측 쇄골하동맥 직하방 대동맥 협부 발생)은 다발성 외상 환자에서 개흉술의 사망률이 높아 TEVAR 스텐트 그라프트 치료가 일차 표준입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "images": [
+        {
+          "url": "images/영상의학과/20Y_Q23_fig1.png",
+          "caption": "대동맥 질환의 혈관내 스텐트그라프트(EVAR/TEVAR) 5대 적응증 강의 슬라이드",
+          "description": "Indications of Endovascular Interventions for Aortic Disease: 1) TAA(흉부 대동맥류), 2) AAA(복부 대동맥류), 3) Complicated Type B dissection(합병증 동반 B형 박리), 4) Traumatic aortic injury/rupture(외상성 파열), 5) PAU(관통성 죽상경화 궤양)"
+        }
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -272903,17 +272557,15 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "26Y",
-      "21Y",
       "20Y",
       "19Y"
     ],
     "raw_questions": [
       "26Y-22",
-      "21Y-46",
       "20Y-30",
       "19Y-49"
     ],
@@ -274233,7 +273885,7 @@
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "prominent column of Bertin (불확실)",
+          "text": "prominent column of Bertin",
           "is_correct": true,
           "tag": "정답",
           "reason": "주변 신장 피질과 동일한 에코를 유지하면서 신장 외측 윤곽 변형 없이 신동(renal sinus) 방향으로 파고들고 정상 혈류 분포를 보이는 소견은 대표적 정상 변이인 베르탱 기둥 비대(prominent column of Bertin)에 부합합니다."
@@ -274739,15 +274391,13 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "26Y",
-      "21Y"
+      "26Y"
     ],
     "raw_questions": [
-      "26Y-37",
-      "21Y-07"
+      "26Y-37"
     ],
     "option_explanations": [
       {
@@ -275822,21 +275472,13 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "26Y",
-      "22Y",
-      "21Y",
-      "20Y",
-      "19Y"
+      "26Y"
     ],
     "raw_questions": [
-      "26Y-46",
-      "22Y-33",
-      "21Y-23",
-      "20Y-42",
-      "19Y-05"
+      "26Y-46"
     ],
     "option_explanations": [
       {
@@ -277904,17 +277546,19 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "22Y",
-      "21Y"
+      "21Y",
+      "19Y"
     ],
     "raw_questions": [
       "23Y-14",
       "22Y-12",
-      "21Y-14"
+      "21Y-14",
+      "19Y-19"
     ],
     "option_explanations": [
       {
@@ -278668,17 +278312,19 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "26Y",
       "23Y",
+      "22Y",
+      "21Y",
       "20Y"
     ],
     "raw_questions": [
       "23Y-20",
-      "26Y-14",
-      "20Y-27"
+      "22Y-44",
+      "21Y-30",
+      "20Y-26"
     ],
     "option_explanations": [
       {
@@ -278764,15 +278410,39 @@
           "text": "Pulmonary embolism을 예방할 수 있다.",
           "is_correct": true,
           "tag": "정답",
-          "reason": "신정맥 하방 하대정맥에 거치하는 IVC 필터는 하지나 골반의 심부정맥혈전증(DVT)에서 떨어져 나온 거대 색전이 우심방을 거쳐 폐동맥으로 유입되는 것을 막아 치명적인 폐색전증(Pulmonary embolism)을 예방하는 것이 목적입니다."
+          "reason": "하대정맥 필터(IVC filter)는 하지 및 골반 심부정맥 혈전증(DVT) 환자에서 떨어져 나온 혈전이 하대정맥을 타고 폐동맥으로 유입되어 치명적인 폐색전증(Pulmonary embolism)을 유발하는 것을 물리적으로 차단·예방하는 기구입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "(조금 긴 선지 4개 더 있었는데 답이 너무 명확해서 볼 필요 없었음.)",
+          "text": "대퇴동맥 혈관 협착을 영구적으로 확장한다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "IVC 필터는 이미 발생한 혈전을 녹이거나 하지 DVT 자체를 치료하는 시술이 아니며, 오히려 필터 하방 혈류 정체로 DVT 위험이 증가할 수 있어 금기가 해소되면 가급적 회수(Retrieval)하는 것이 원칙입니다."
+          "reason": "대퇴동맥 협착 확장은 풍선혈관성형술(PTA) 또는 동맥 스텐트의 역할입니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "문맥고혈압 출혈 시 간정맥과 문맥을 연결한다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "간정맥과 간문맥을 연결해 문맥압을 낮추는 시술은 TIPS(경경정맥 간내문맥전신단락술)입니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "관상동맥 내 급성 혈전을 용해한다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "급성 혈전을 직접 용해하는 것은 혈전용해제(CDT 등)이며 IVC 필터는 색전을 물리적으로 포획합니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "심방세동 환자에서 뇌동맥류 파열을 막는다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "뇌동맥류 파열 예방은 코일색전술/클립결찰술이며 IVC 필터와 무관합니다."
         }
       ],
       "differential_general": ""
@@ -279285,7 +278955,8 @@
     ],
     "raw_questions": [
       "23Y-25",
-      "22Y-34"
+      "22Y-34",
+      "22Y-35"
     ],
     "option_explanations": [
       {
@@ -280247,15 +279918,39 @@
           "text": "Acute infarction",
           "is_correct": true,
           "tag": "정답",
-          "reason": "조영증강 전 비조영 뇌 CT에서 좌측 중대뇌동맥(MCA)이 혈전 폐색으로 인해 주변보다 하얗게 보이는 Dense MCA sign은 초급성 뇌경색(Acute infarction)의 결정적인 조기 허혈 징후입니다."
+          "reason": "조영증강 전 비조영 뇌 CT에서 좌측 중대뇌동맥(MCA M1)의 고음영 혈관 징후(Hyperdense MCA sign) 또는 초기 뇌실질 저음영·피질-피질하 경계 소실은 초급성/급성 뇌경색(Acute infarction)의 전형적인 소견입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "(다른 선지 불확실. 답 명확했음.)",
+          "text": "Chronic meningitis",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "본 소견은 뇌실질 밖 뇌기저수조를 채우는 지주막하출혈이나 단순 혈관 석회화가 아니라 급성 혈전이 MCA 내강을 폐색하여 발생한 초급성 허혈성 뇌경색이므로 다른 비허혈성 질환과 명확히 구별됩니다."
+          "reason": "만성 수막염에서는 기저조 조영증강이나 수두증 등이 주 소견이며, 비조영 CT에서 혈관 내부의 고음영 혈전 징후가 나타나지 않습니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "Epidural hematoma",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "경막외 출혈은 두개골 내판에 접한 양볼록 렌즈 모양의 뇌외(Extra-axial) 고음영 혈종으로 나타납니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "Glioblastoma multiforme",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "교모세포종은 전형적으로 불규칙한 고리 조영증강과 중심부 괴사, 주변 혈관인성 부종을 보이는 종괴입니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "Arachnoid cyst",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "지주막 낭종은 경계가 매끈하고 뇌척수액(CSF)과 동일한 저음영을 보이는 양성 낭성 병변입니다."
         }
       ],
       "differential_general": ""
@@ -281082,13 +280777,15 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "23Y"
+      "23Y",
+      "21Y"
     ],
     "raw_questions": [
-      "23Y-40"
+      "23Y-40",
+      "21Y-35"
     ],
     "option_explanations": [
       {
@@ -281198,13 +280895,17 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
-      "23Y"
+      "23Y",
+      "21Y",
+      "19Y"
     ],
     "raw_questions": [
-      "23Y-41"
+      "23Y-41",
+      "21Y-37",
+      "19Y-43"
     ],
     "option_explanations": [
       {
@@ -281292,7 +280993,7 @@
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "Scapular의 medial portion이 흉곽 바깥쪽에 있어 폐야 를 가리지 않아야 한다.",
+          "text": "Scapular의 medial portion이 흉곽 바깥쪽에 있어 폐야를 가리지 않아야 한다.",
           "is_correct": false,
           "tag": "오답 감별",
           "reason": "정규 흉부 PA 촬영 시 환자가 손을 허리에 올리고 어깨를 앞으로 말아 촬영하므로, 견갑골 내측연이 폐야 바깥쪽으로 완전히 빠져 폐 병변을 가리지 않는 것이 정상 조건입니다."
@@ -281351,7 +281052,7 @@
       {
         "opt_idx": 2,
         "opt_num": "③",
-        "text": "Scapular의 medial portion이 흉곽 바깥쪽에 있어 폐야 를 가리지 않아야 한다.",
+        "text": "Scapular의 medial portion이 흉곽 바깥쪽에 있어 폐야를 가리지 않아야 한다.",
         "is_correct": false,
         "tag": "오답 감별",
         "reason": "정규 흉부 PA 촬영 시 환자가 손을 허리에 올리고 어깨를 앞으로 말아 촬영하므로, 견갑골 내측연이 폐야 바깥쪽으로 완전히 빠져 폐 병변을 가리지 않는 것이 정상 조건입니다."
@@ -281570,7 +281271,8 @@
       "26Y-06",
       "22Y-03",
       "21Y-36",
-      "19Y-40"
+      "19Y-40",
+      "19Y-44"
     ],
     "option_explanations": [
       {
@@ -281766,15 +281468,39 @@
           "text": "폐암",
           "is_correct": true,
           "tag": "정답",
-          "reason": "우측 상폐야에 직경 3cm를 크게 웃도는 조밀하고 경계가 불규칙한 종괴가 관찰되며 종격동·폐문부로 인접해 있어 원발성 폐암(Lung cancer)에 합당한 전형적 흉부 X선 소견입니다."
+          "reason": "흉부 단순 X선에서 우상폐야/폐문부에 경계가 불규칙하고 침상 돌기를 동반한 큰 연부조직 음영 종괴가 관찰되므로 원발성 폐암(Lung cancer)을 가장 우선적으로 의심해야 합니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "(다른 선지 불확실. 답 명확했음.)",
+          "text": "기흉",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "양성 과오종(팝콘 석회화, 지방)이나 단순 염증성 육아종은 대개 경계가 매끄럽고 3cm 미만의 작은 결절 형태를 보이며, 본 영상처럼 거대하고 침윤성인 상엽 종괴 양상과는 구별됩니다."
+          "reason": "기흉은 장측 흉막선 바깥쪽의 무혈관성 투과도 증가(검은 공기 공간)가 특징이며 종괴를 형성하지 않습니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "급성 폐부종",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "급성 폐부종은 양측 폐문 주위 대칭성 폐포성 침윤(나비날개 음영), Kerley B 선, 심비대 등이 특징입니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "흉막 삼출",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "흉막 삼출은 늑골횡격막동(CP angle) 둔화와 상방 오목한 메니스커스 징후로 나타납니다."
+        },
+        {
+          "opt_idx": 4,
+          "opt_num": "⑤",
+          "text": "대동맥 박리",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "대동맥 박리는 상종격동의 미만성 확장이나 대동맥궁 석회화의 내측 전위(Calcium sign) 등이 시사 소견입니다."
         }
       ],
       "differential_general": ""
@@ -282398,7 +282124,7 @@
       "title": "우상엽 무기폐(RUL Atelectasis)와 중심성 폐암 및 체외 인공물 방향 판독",
       "findings": "• **[모달리티 및 영상 소견 판독]**: 우상엽 무기폐(RUL atelectasis) 및 중심성 폐암을 시사하는 흉부 X선 증례입니다. 우측 폐문이 상방으로 당겨지면서 좌측 폐문이 오른쪽보다 상대적으로 낮아지고(②), 소수평열이 올라가며 우상엽에 무기폐(④)와 중심성 종괴(③) 소견이 동반됩니다.\n• **[정답 도출 과정]**: 기출 복기 코멘트 및 원본 기출 정답 표기상 단추 2개 등 체외 인공물(Artifact) 음영은 좌측이 아닌 **오른쪽 폐야**에 보였으므로 옳지 않은 선지는 **① 좌측에 인공물질에 의한 음영이 있다.**입니다.",
       "differential": "• ① 좌측에 인공물질에 의한 음영이 있다. ✓ [정답]: 인공물질(단추)은 좌측이 아니라 우측 폐야에 관찰되었습니다.\n• ② 좌측 폐문 하방 위치(우측 폐문 상방 견인), ③ 우상엽 중심성 폐암 의심, ④ 우상엽 무기폐는 모두 부합하는 소견입니다.",
-      "trap": "복기 문제에서는 첨부된 참고 그림과 실제 시험 문제 사진이 다를 수 있어 선지 간 모순처럼 보일 수 있습니다. 정상 폐문 높이(좌측 > 우측), 체외 인공물(단추) 감별, 우상엽 허탈 시 수평 열구 상승이라는 해부학 원칙을 정확히 이해하고 기출 답안 ④를 기억해 두어야 합니다.",
+      "trap": "복기 문제에서는 첨부된 참고 그림과 실제 시험 문제 사진이 다를 수 있어 선지 간 모순처럼 보일 수 있습니다. 정상 폐문 높이(좌측 > 우측), 체외 인공물(단추) 감별, 우상엽 허탈 시 수평 열구 상승이라는 해부학 원칙을 정확히 이해하고 기출 답안 ①를 기억해 두어야 합니다.",
       "trigger": "【핵심 영상 판독 정리 & 감별 알고리즘】\n• 1. 정상 폐문(Hilum) 높이 법칙:\n  - 정상인 약 97%에서 좌측 폐문이 우측보다 1~2 cm 높음 (좌측 폐동맥이 좌측 주기관지 위로 주행하기 때문).\n  - 나머지 약 3%는 양측 높이가 같으며, 좌측 폐문이 우측보다 낮다면 우상엽 무기폐(우측 상승) 또는 좌하엽 무기폐(좌측 하강)를 의심.\n• 2. 체외 인공물(Artifact) 감별:\n  - 단추·전극·머리카락은 폐혈관 주행과 무관한 둥글고 균일한 경계를 보이며, 외측 흉벽이나 측면 촬영에서 폐 밖으로 분리됨.\n• 3. 중심성 종괴 vs 무기폐:\n  - 무기폐는 용적 감소(열구 이동, 기관 편위, 횡격막 상승)가 핵심이며, 동반된 폐문 종괴는 조영 CT로 확인.",
       "kmle_link": "KMLE 흉부영상의학 - 정상 폐문부 랜드마크 및 무기폐 견인 징후",
       "option_explanations": [
@@ -282452,8 +282178,10 @@
     ],
     "raw_questions": [
       "22Y-02",
+      "26Y-09",
       "26Y-10",
       "21Y-34",
+      "21Y-40",
       "20Y-04"
     ],
     "option_explanations": [
@@ -282589,7 +282317,8 @@
       "26Y-06",
       "23Y-44",
       "21Y-36",
-      "19Y-40"
+      "19Y-40",
+      "19Y-44"
     ],
     "option_explanations": [
       {
@@ -283794,18 +283523,20 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "22Y",
-      "21Y"
+      "21Y",
+      "19Y"
     ],
     "raw_questions": [
       "22Y-12",
       "22Y-복부01",
       "23Y-14",
-      "21Y-14"
+      "21Y-14",
+      "19Y-19"
     ],
     "option_explanations": [
       {
@@ -286599,10 +286330,9 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "26Y",
       "22Y",
       "21Y",
       "20Y",
@@ -286610,7 +286340,6 @@
     ],
     "raw_questions": [
       "22Y-33",
-      "26Y-46",
       "21Y-23",
       "20Y-42",
       "19Y-05"
@@ -286733,7 +286462,8 @@
     ],
     "raw_questions": [
       "22Y-34",
-      "23Y-25"
+      "23Y-25",
+      "22Y-35"
     ],
     "option_explanations": [
       {
@@ -286853,13 +286583,16 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "23Y",
       "22Y"
     ],
     "raw_questions": [
-      "22Y-35"
+      "22Y-35",
+      "23Y-25",
+      "22Y-34"
     ],
     "option_explanations": [
       {
@@ -288058,9 +287791,10 @@
       0,
       3
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
+      "23Y",
       "22Y",
       "21Y",
       "20Y"
@@ -288068,6 +287802,7 @@
     "raw_questions": [
       "22Y-44",
       "22Y-인터벤션02",
+      "23Y-20",
       "21Y-30",
       "20Y-26"
     ],
@@ -289107,10 +288842,10 @@
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "세 이하 여성의 1차 검진에서 주로 권고된다",
+          "text": "30세 이하 여성의 1차 검진에서 주로 권고된다",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "선지 원문('세 이하', 20~30세 이하 젊은 여성)은 치밀 유방 빈도가 높고 방사선 감수성이 커서 유방촬영술이 1차 선별검사로 권고되지 않으며, 증상 시 유방초음파를 우선 시행합니다(유방촬영술 선별검사는 40세 이상 권장)."
+          "reason": "30세 이하(특히 30세 미만)의 젊은 여성은 치밀 유선 조직 비율이 높고 방사선 감수성이 크므로, 1차 검사로 유방촬영술 대신 유방초음파(Breast US)를 우선 시행합니다."
         },
         {
           "opt_idx": 2,
@@ -289238,10 +288973,10 @@
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "MHz 이하의 저주파 탐촉자를 주로 사용한다",
+          "text": "5Hz 이하의 저주파를 사용한다",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "유방은 피부 바로 아래 위치한 표재성 장기이므로 심부 장기에 쓰는 2~5 MHz 저주파가 아니라, 투과 깊이는 얕지만 공간 해상도가 뛰어난 고주파(7.5~15 MHz) 선형 탐촉자를 사용합니다."
+          "reason": "기출 원문의 \"5Hz 이하\"는 복부 등 심부 장기 평가에 쓰이는 3.5~5 MHz 이하의 저주파 탐촉자(단위 표기 오기 포함) 개념을 지칭한 오답 선지입니다. 표재성 장기인 유방의 초음파 검사에서는 고해상도 영상을 위해 반드시 7.5~15 MHz 이상의 고주파 선형 탐촉자(High-frequency linear probe)를 사용합니다."
         },
         {
           "opt_idx": 2,
@@ -289683,15 +289418,13 @@
     "correct_option_indices": [
       1
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "26Y",
       "21Y"
     ],
     "raw_questions": [
-      "21Y-07",
-      "26Y-37"
+      "21Y-07"
     ],
     "option_explanations": [
       {
@@ -290622,17 +290355,19 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
       "23Y",
       "22Y",
-      "21Y"
+      "21Y",
+      "19Y"
     ],
     "raw_questions": [
       "21Y-14",
       "23Y-14",
-      "22Y-12"
+      "22Y-12",
+      "19Y-19"
     ],
     "option_explanations": [
       {
@@ -291826,10 +291561,9 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "26Y",
       "22Y",
       "21Y",
       "20Y",
@@ -291837,7 +291571,6 @@
     ],
     "raw_questions": [
       "21Y-23",
-      "26Y-46",
       "22Y-33",
       "20Y-42",
       "19Y-05"
@@ -292299,7 +292032,41 @@
       "differential_general": "상행 대동맥류(발살바동 확장 동반) → Marfan syndrome (Cystic medial necrosis) / 하행·복부 대동맥류 → Atherosclerosis / 신동맥·경동맥 String-of-beads → FMD.",
       "trap": "조직학적 병태생리(Cystic medial necrosis)와 임상 질환명(Marfan syndrome)을 혼동하거나, 복부 대동맥류 1순위 원인인 Atherosclerosis를 상행 대동맥류 원인으로 고르는 실수를 피해야 합니다.",
       "trigger": "상행 대동맥류(Ascending TAA) + 가장 흔한 원인/유전성 질환 → Marfan syndrome (조직학적 기전: Cystic medial necrosis).",
-      "kmle_link": "KMLE 외과학/순환기내과학: 흉부 대동맥류(상행: 마르판 증후군·낭포성 중층 괴사, 하행: 죽상경화증), 복부 대동맥류(신동맥 하방 AAA: 죽상경화증, ≥5.5 cm 시 수술/EVAR)."
+      "kmle_link": "KMLE 외과학/순환기내과학: 흉부 대동맥류(상행: 마르판 증후군·낭포성 중층 괴사, 하행: 죽상경화증), 복부 대동맥류(신동맥 하방 AAA: 죽상경화증, ≥5.5 cm 시 수술/EVAR).",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "Marfan syndrome",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "마르판 증후군(Marfan syndrome)은 FBN1 유전자 돌연변이로 인해 대동맥 중막 탄성섬유 변성(낭포성 중층 괴사, Cystic medial necrosis)을 일으켜 상행 대동맥 근부 및 상행 대동맥류(Ascending aortic aneurysm)와 대동맥 박리를 유발하는 가장 대표적인 원인 질환입니다."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "Atherosclerosis",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "죽상경화증(Atherosclerosis)은 하행 흉부 대동맥류(Descending TAA) 및 특히 신동맥 하부 복부 대동맥류(Abdominal aortic aneurysm, AAA)의 가장 흔한 원인이며, 상행 대동맥 근부 국한 동맥류는 마르판 증후군 및 낭포성 중층 괴사가 전형적입니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "Takayasu's arteritis",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "타카야수 동맥염(Takayasu arteritis)은 젊은 여성에서 대동맥궁 및 주요 분지 혈관의 육아종성 혈관염과 협착·폐색(무맥병)을 주로 유발하며, 상행 대동맥류의 가장 흔한 원인은 아닙니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "Fibromuscular dysplasia",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "섬유근성 이형성증(Fibromuscular dysplasia, FMD)은 젊은 여성의 신동맥·경동맥 등에 진주목걸이 모양(String-of-beads sign) 협착을 일으키는 비죽상경화·비염증성 혈관질환으로 상행 대동맥류의 주원인이 아닙니다."
+        }
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -292703,15 +292470,17 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
+      "23Y",
       "22Y",
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "21Y-30",
+      "23Y-20",
       "22Y-44",
       "20Y-26"
     ],
@@ -293236,8 +293005,10 @@
     ],
     "raw_questions": [
       "21Y-34",
+      "26Y-09",
       "26Y-10",
       "22Y-02",
+      "21Y-40",
       "20Y-04"
     ],
     "option_explanations": [
@@ -293365,13 +293136,15 @@
     "correct_option_indices": [
       4
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
+      "23Y",
       "21Y"
     ],
     "raw_questions": [
-      "21Y-35"
+      "21Y-35",
+      "23Y-40"
     ],
     "option_explanations": [
       {
@@ -293512,7 +293285,8 @@
       "26Y-06",
       "23Y-44",
       "22Y-03",
-      "19Y-40"
+      "19Y-40",
+      "19Y-44"
     ],
     "option_explanations": [
       {
@@ -293639,14 +293413,16 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
+      "23Y",
       "21Y",
       "19Y"
     ],
     "raw_questions": [
       "21Y-37",
+      "23Y-41",
       "19Y-43"
     ],
     "option_explanations": [
@@ -294043,13 +293819,21 @@
     "correct_option_indices": [
       3
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "21Y"
+      "26Y",
+      "22Y",
+      "21Y",
+      "20Y"
     ],
     "raw_questions": [
-      "21Y-40"
+      "21Y-40",
+      "26Y-09",
+      "26Y-10",
+      "22Y-02",
+      "21Y-34",
+      "20Y-04"
     ],
     "option_explanations": [
       {
@@ -294242,34 +294026,34 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "우상, 좌상, 좌중엽에 결절이 있고 활동성 결핵에 합당하다",
+          "text": "우상, 좌상, 좌중엽에 nodule이 있다.",
           "is_correct": true,
           "tag": "정답",
-          "reason": "우상엽·좌상엽·좌중엽에 분포하는 다발성 결절성 침윤과 좌상엽의 뚜렷한 공동(Cavity)은 기관지성 파종을 동반한 활동성 폐결핵(Active pulmonary TB)의 전형적 소견이므로 정답입니다."
+          "reason": "제시된 흉부 X선 영상 소견상 우상엽, 좌상엽, 좌중엽에 다발성 결절(Multiple nodules)이 분포하며 좌상부 폐야에 공동(Cavity)이 동반되어 있어 활동성 폐결핵을 시사하는 정확한 기술입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "왼쪽에 다량의 흉수가 주병변이다",
+          "text": "왼쪽에 흉수가 있다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "대량의 흉수(Massive pleural effusion)는 하폐야를 균일하게 하얗게 채우며 메니스커스 징후와 늑골횡격막각 소실, 반대측 종격동 편위를 보이므로 상·중엽 결절 및 공동 소견과 맞지 않습니다."
+          "reason": "좌측 늑골횡격막동(CP angle) 둔화나 메니스커스 징후 등 흉수(Pleural effusion) 소견은 주소견이 아닙니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "폐경결 부종이 주소견이다",
+          "text": "폐경결 부종이 있다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "폐경결 부종(Pulmonary edema)은 양측 폐문 주위에서 대칭적으로 퍼지는 나비 날개형 침윤과 심비대·Kerley B line을 보이며, 상엽 공동이나 다발성 결절을 만들지 않습니다."
+          "reason": "양측 폐문 주위 대칭성 나비날개 음영이나 심비대·Kerley B 선 등 폐부종(Pulmonary edema) 양상과 거리가 멉니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "단순 기흉 소견이다",
+          "text": "좌측에 긴장성 기흉이 있다.",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "단순 기흉(Simple pneumothorax)은 주변부 폐 혈관 음영이 없는 무혈관 공기 공간과 장측 흉막선이 특징이므로 실질 내 다발성 결절 및 공동과는 전혀 다른 소견입니다."
+          "reason": "무혈관성 흉강 투과도 증가, 장측 흉막선 및 반대측 종격동 편위 같은 긴장성 기흉 소견은 관찰되지 않습니다."
         }
       ],
       "differential_general": ""
@@ -294608,7 +294392,9 @@
     "theme_title": "뇌 MRI 핵심 4대 시퀀스(DWI - T2WI - T1WI - FLAIR) 판독",
     "subspecialty": "신경영상의학 (Neuroradiology)",
     "stem": "58세 남성의 Brain MRI이다. 각 sequence의 이름이 옳게 나열된 것은? (4개 영상)",
-    "images": [],
+    "images": [
+      "images/영상의학과/21Y_Q45_fig1.png"
+    ],
     "options": [
       "① FLAIR – T2WI – T1WI - T2 gradient echo image",
       "② DWI – T2WI – T1WI - T2 gradient echo image",
@@ -294805,19 +294591,13 @@
     "correct_option_indices": [
       4
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 1,
+    "rate": 17,
     "freq_years": [
-      "26Y",
-      "21Y",
-      "20Y",
-      "19Y"
+      "21Y"
     ],
     "raw_questions": [
-      "21Y-46",
-      "26Y-22",
-      "20Y-30",
-      "19Y-49"
+      "21Y-46"
     ],
     "option_explanations": [
       {
@@ -295858,9 +295638,11 @@
     ],
     "raw_questions": [
       "20Y-04",
+      "26Y-09",
       "26Y-10",
       "22Y-02",
-      "21Y-34"
+      "21Y-34",
+      "21Y-40"
     ],
     "option_explanations": [
       {
@@ -298042,9 +297824,7 @@
     "theme_title": "대동맥 스텐트그라프트 삽입술(EVAR / TEVAR)의 5대 핵심 적응증",
     "subspecialty": "인터벤션 영상의학",
     "stem": "(주관식) 대동맥 질환 중 스텐트 그라프트(Stent-graft, EVAR/TEVAR) 시술을 시행할 수 있는 적응 질환 3가지를 기술하시오.",
-    "images": [
-      "images/영상의학과/20Y_Q23_fig1.png"
-    ],
+    "images": [],
     "options": [
       "① 흉부 대동맥류(TAA), 복부 대동맥류(AAA), 합병증 동반 B형 대동맥 박리 (외상성 대동맥 손상·PAU 포함)",
       "② 급성 스탠포드 A형 대동맥 박리, 대동맥 판막 폐쇄부전, 단순 죽상경화증",
@@ -298064,37 +297844,44 @@
         {
           "opt_idx": 0,
           "opt_num": "①",
-          "text": "대동맥 스텐트그라프트 삽입술",
+          "text": "흉부 대동맥류(TAA), 복부 대동맥류(AAA), 합병증 동반 B형 대동맥 박리 (외상성 대동맥 손상·PAU 포함)",
           "is_correct": true,
           "tag": "정답",
-          "reason": "대동맥 스텐트그라프트 삽입술(EVAR/TEVAR)은 흉부/복부 대동맥류(TAA/AAA), 합병증 동반 B형 대동맥 박리, 외상성 대동맥 파열 및 관통성 죽상경화 궤양(PAU)의 내막 결손을 차단하는 표준 혈관내 중재시술입니다."
+          "reason": "강의 슬라이드(Indications of Endovascular Interventions for Aortic Disease)에 제시된 5대 적응증은 TAA(흉부 대동맥류), AAA(복부 대동맥류), 합병증을 동반한 Stanford B형 대동맥 박리, 외상성 대동맥 손상/파열(Traumatic aortic injury), 관통성 죽상경화 궤양(PAU)입니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
-          "text": "단순 경과관찰",
+          "text": "급성 스탠포드 A형 대동맥 박리, 대동맥 판막 폐쇄부전, 단순 죽상경화증",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "파열 위험이 있는 크기 이상의 대동맥류나 합병증 동반 B형 박리, 외상성 대동맥 손상 및 PAU는 치명적 대동맥 파열로 이어질 수 있으므로 단순 경과관찰 대상이 아닙니다."
+          "reason": "상행 대동맥을 침범한 급성 Stanford A형 대동맥 박리는 치명적인 심장압전·대동맥판 역류·관상동맥 폐쇄 위험 때문에 혈관내 시술이 아닌 응급 개흉 수술 적응증입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
-          "text": "개흉 대동맥 치환술",
+          "text": "무증상 소형 동맥류(<3 cm), 심낭 압전, 상행 대동맥 근부 파열",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "개흉 대동맥 치환술은 상행 대동맥을 침범한 Stanford A형 박리나 해부학적 스텐트 거치 부위(Landing zone)가 부적합할 때 시행하며, B형 박리·외상성 손상·신하부 AAA 등에서는 덜 침습적인 EVAR/TEVAR가 우선 선호됩니다."
+          "reason": "크기가 작은 무증상 대동맥류는 경과관찰 대상이며, 심낭 압전이나 상행 대동맥 근부 파열은 즉각적 외과 수술이 필요합니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
-          "text": "혈전용해제 투여",
+          "text": "단순 대동맥 석회화, 말초 정맥류, 본태성 고혈압",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "대동맥류, 대동맥 박리 및 외상성 대동맥 파열 환자에게 혈전용해제를 투여하면 대량 출혈과 파열을 유발하므로 절대 금기입니다."
+          "reason": "대동맥 석회화나 정맥류, 고혈압 단독 소견은 스텐트그라프트(EVAR/TEVAR) 시술 적응증이 아닙니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "images": [
+        {
+          "url": "images/영상의학과/20Y_Q23_fig1.png",
+          "caption": "대동맥 질환의 혈관내 스텐트그라프트(EVAR/TEVAR) 5대 적응증 강의 슬라이드",
+          "description": "Indications of Endovascular Interventions for Aortic Disease: 1) TAA(흉부 대동맥류), 2) AAA(복부 대동맥류), 3) Complicated Type B dissection(합병증 동반 B형 박리), 4) Traumatic aortic injury/rupture(외상성 파열), 5) PAU(관통성 죽상경화 궤양)"
+        }
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -298471,15 +298258,17 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
+      "23Y",
       "22Y",
       "21Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-26",
+      "23Y-20",
       "22Y-44",
       "21Y-30"
     ],
@@ -298549,24 +298338,56 @@
       "differential_general": "BRTO 효과: Gastric varix 소실(O), Hepatic encephalopathy 호전(O) / 부작용: 문맥압 상승(↑) → Esophageal varix, 복수, 간기능 저하(황달) 악화 가능.",
       "trap": "Gastric varix와 Esophageal varix에 대한 BRTO의 정반대 영향을 혼동하지 마세요. Gastric varix는 BRTO의 직접 치료 표적으로 확실히 소실·호전되며, 문맥압 상승으로 악화될 수 있는 것은 Esophageal varix입니다.",
       "trigger": "BRTO 기대 효과 아닌 것 → Gastric varix 악화(X, 직접 치료하여 소실됨).",
-      "kmle_link": "KMLE 소화기내과학: 위정맥류(GV) 출혈 지혈/예방 1차 인터벤션 = BRTO (vs TIPS는 문맥압 직접 강하로 식도·위정맥류 모두 완화하나 간성뇌증 악화)."
+      "kmle_link": "KMLE 소화기내과학: 위정맥류(GV) 출혈 지혈/예방 1차 인터벤션 = BRTO (vs TIPS는 문맥압 직접 강하로 식도·위정맥류 모두 완화하나 간성뇌증 악화).",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "Gastric & esophageal varix가 악화된다.",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "BRTO(풍선폐쇄 역행성 경정맥 폐쇄술)는 위-신장 단락(Gastrorenal shunt)을 풍선으로 차단한 뒤 경화제를 주입해 위정맥류(Gastric varix)를 직접 혈전·폐색시켜 호전/소실시키는 치료법입니다. 시술 후 문맥압 상승으로 식도정맥류가 악화될 수는 있어도 위정맥류(Gastric varix) 자체가 악화되지는 않으므로 ①이 옳지 않은 설명입니다."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "Hepatic encephalopathy가 완화된다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "BRTO로 큰 문맥-전신 단락을 폐쇄하면 간을 우회해 체순환으로 빠져나가던 장관 유래 암모니아 등 독성 물질이 다시 간 실질(간문맥 혈류)로 유입·해독되므로 간성뇌증(Hepatic encephalopathy)이 호전됩니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "문맥 고혈압이 상승한다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "기존의 저저항 배출로(Gastrorenal shunt)를 막으면 간문맥계로 되돌아가는 혈류량이 증가하면서 문맥압(Portal hypertension)이 상승할 수 있습니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "황달이 악화된다.",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "단락 폐쇄로 간문맥압이 상승하고 일부 비대상성 간경변 환자에서는 복수·식도정맥류 또는 일시적 간기능 악화·황달이 악화될 수 있는 점이 BRTO의 잠재적 단점으로 꼽힙니다."
+        }
+      ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
       0
     ],
-    "freq_count": 3,
-    "rate": 50,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
       "26Y",
-      "23Y",
       "20Y"
     ],
     "raw_questions": [
       "20Y-27",
-      "26Y-14",
-      "23Y-20"
+      "26Y-14"
     ],
     "option_explanations": [
       {
@@ -298930,18 +298751,16 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "26Y",
-      "21Y",
       "20Y",
       "19Y"
     ],
     "raw_questions": [
       "20Y-30",
       "26Y-22",
-      "21Y-46",
       "19Y-49"
     ],
     "option_explanations": [
@@ -300375,10 +300194,9 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "26Y",
       "22Y",
       "21Y",
       "20Y",
@@ -300386,7 +300204,6 @@
     ],
     "raw_questions": [
       "20Y-42",
-      "26Y-46",
       "22Y-33",
       "21Y-23",
       "19Y-05"
@@ -301015,10 +300832,9 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 5,
-    "rate": 83,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
-      "26Y",
       "22Y",
       "21Y",
       "20Y",
@@ -301027,7 +300843,6 @@
     "raw_questions": [
       "19Y-05",
       "19Y-MSK05",
-      "26Y-46",
       "22Y-33",
       "21Y-23",
       "20Y-42"
@@ -302031,7 +301846,14 @@
           "reason": "스탠포드 B형 대동맥 박리는 원칙적으로 혈압·맥박 조절을 우선하지만, 장기 관류 저하(Malperfusion), 절박 파열, 조절되지 않는 통증 등의 합병증이 동반되면 TEVAR가 표준 중재 치료입니다."
         }
       ],
-      "differential_general": ""
+      "differential_general": "",
+      "images": [
+        {
+          "url": "images/영상의학과/20Y_Q23_fig1.png",
+          "caption": "대동맥 질환의 혈관내 스텐트그라프트(EVAR/TEVAR) 5대 적응증 강의 슬라이드",
+          "description": "Indications of Endovascular Interventions for Aortic Disease: 1) TAA(흉부 대동맥류), 2) AAA(복부 대동맥류), 3) Complicated Type B dissection(합병증 동반 B형 박리), 4) Traumatic aortic injury/rupture(외상성 파열), 5) PAU(관통성 죽상경화 궤양)"
+        }
+      ]
     },
     "option_explanations": [
       {
@@ -302922,14 +302744,20 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 4,
+    "rate": 67,
     "freq_years": [
+      "23Y",
+      "22Y",
+      "21Y",
       "19Y"
     ],
     "raw_questions": [
       "19Y-19",
-      "19Y-복부02"
+      "19Y-복부02",
+      "23Y-14",
+      "22Y-12",
+      "21Y-14"
     ],
     "section": "복부",
     "section_q_num": 2,
@@ -305822,7 +305650,8 @@
       "26Y-06",
       "23Y-44",
       "22Y-03",
-      "21Y-36"
+      "21Y-36",
+      "19Y-44"
     ],
     "section": "흉부",
     "section_q_num": 10,
@@ -306226,15 +306055,17 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 2,
-    "rate": 33,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
+      "23Y",
       "21Y",
       "19Y"
     ],
     "raw_questions": [
       "19Y-43",
       "19Y-흉부13",
+      "23Y-41",
       "21Y-37"
     ],
     "section": "흉부",
@@ -306363,14 +306194,23 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 1,
-    "rate": 17,
+    "freq_count": 5,
+    "rate": 83,
     "freq_years": [
+      "26Y",
+      "23Y",
+      "22Y",
+      "21Y",
       "19Y"
     ],
     "raw_questions": [
       "19Y-44",
-      "19Y-흉부14"
+      "19Y-흉부14",
+      "26Y-06",
+      "23Y-44",
+      "22Y-03",
+      "21Y-36",
+      "19Y-40"
     ],
     "section": "흉부",
     "section_q_num": 14,
@@ -306520,7 +306360,41 @@
       "differential_general": "크기가 다양한 다발성 결절(Cannonball) → 혈행성 폐전이(Metastasis) / 1~3mm 균일 미세 결절 → 속립성 결핵(Miliary TB) / 기존 공동 내 둥근 덩어리 → Aspergilloma.",
       "trap": "결절의 개수가 많다고 무조건 속립성 결핵(Miliary TB)으로 오인하지 않도록 결절 크기의 균일성(1~3 mm 좁쌀 vs 다양한 크기의 큰 대포알 결절)을 반드시 비교해야 합니다.",
       "trigger": "흉부 X선 양측 폐에 크기가 다양한 다발성 둥근 결절(Cannonball lesion) → 혈행성 폐전이(Metastatic tumor).",
-      "kmle_link": "KMLE 호흡기/종양내과학: 다발성 폐전이(대장·신장·육종·융모막암), 대포알 전이(Cannonball lesion) vs 속립성 결핵."
+      "kmle_link": "KMLE 호흡기/종양내과학: 다발성 폐전이(대장·신장·육종·융모막암), 대포알 전이(Cannonball lesion) vs 속립성 결핵.",
+      "option_explanations": [
+        {
+          "opt_idx": 0,
+          "opt_num": "①",
+          "text": "Metastatic tumor",
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "양측 전 폐야에 걸쳐 크기와 크기가 다양하며 경계가 비교적 뚜렷한 다발성 원형 결절 및 종괴(Multiple variable-sized well-defined nodules, Cannonball metastases)가 광범위하게 흩어져 있어 대장·직장암, 신세포암, 간세포암 등에서 기원한 혈행성 폐 전이(Metastatic tumor)에 전형적입니다."
+        },
+        {
+          "opt_idx": 1,
+          "opt_num": "②",
+          "text": "TB",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "속립성 결핵(Miliary TB)은 1~3 mm 크기의 균일하고 매우 미세한 결절이 전 폐야에 고르게 퍼지며, 재활성 폐결핵은 주로 상엽에 공동이나 반점상 경화·석회화를 동반합니다."
+        },
+        {
+          "opt_idx": 2,
+          "opt_num": "③",
+          "text": "Aspergillosis",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "아스페르길루스증(특히 Aspergilloma)은 주로 기존 상엽 공동 내에 단발성 균 덩어리와 공기 반월 징후(Air-crescent sign)를 형성합니다."
+        },
+        {
+          "opt_idx": 3,
+          "opt_num": "④",
+          "text": "Asbestosis",
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "석면폐증(Asbestosis)은 양측 하폐야의 망상 간질성 섬유화와 특징적인 흉막반(Pleural plaque) 석회화가 주소견입니다."
+        }
+      ]
     },
     "option_explanations": [
       {
@@ -306993,11 +306867,10 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "26Y",
-      "21Y",
       "20Y",
       "19Y"
     ],
@@ -307005,7 +306878,6 @@
       "19Y-49",
       "19Y-신경04",
       "26Y-22",
-      "21Y-46",
       "20Y-30"
     ],
     "section": "신경",
