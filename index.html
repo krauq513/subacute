@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>subacute | 임상의학 기출 퀴즈 마스터</title>
   <meta name="description" content="subacute - 20Y ~ 26Y 임상의학 9개 분과 기출 문제 풀이 및 상세 해설 인터랙티브 CBT">
-  <link rel="stylesheet" href="style.css?v=20261114v7">
+  <link rel="stylesheet" href="style.css?v=20261114v8">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
@@ -654,51 +654,44 @@
     </div>
   </dialog>
 
-  <!-- Progress Overview by Subject Modal Dialog -->
+  <!-- Progress Overview by Subject Modal Dialog (Compact) -->
   <dialog id="progress-modal" class="custom-modal progress-dialog" closedby="any" aria-labelledby="progress-modal-title">
     <div class="custom-modal-inner progress-modal-inner">
       <div class="modal-header progress-modal-header">
         <div class="modal-title-group">
           <h2 id="progress-modal-title">📊 과목별 학습 진행도 한눈에 보기</h2>
-          <span class="modal-subtitle">과목별 풀이 현황, 정답률, 북마크 수를 확인하고 카드를 클릭하여 해당 과목을 바로 풀 수 있습니다</span>
+          <span class="modal-subtitle">과목 카드를 클릭하면 해당 과목으로 즉시 전환되어 학습을 이어갑니다</span>
         </div>
         <button type="button" class="modal-close" id="btn-close-progress" aria-label="진행도 창 닫기">✕</button>
       </div>
 
       <div class="progress-modal-body">
-        <!-- Overall Summary Banner -->
+        <!-- Overall Summary Banner (Compact Horizontal Strip) -->
         <section class="progress-overall-banner" id="progress-overall-banner">
-          <div class="progress-overall-top">
-            <div class="progress-overall-title-row">
-              <span class="progress-overall-chip">🩺 전체 9개 과목 종합 학습 진도</span>
-              <span class="progress-overall-rate" id="progress-overall-rate">0.0% 달성</span>
+          <div class="progress-overall-row-main">
+            <div class="progress-overall-label-wrap">
+              <span class="progress-overall-chip">🩺 전체 종합 진도</span>
+              <strong class="progress-overall-rate" id="progress-overall-rate">0.0%</strong>
             </div>
-            <div class="progress-overall-bar-wrap">
+            <div class="progress-overall-bar-container">
               <div class="progress-overall-bar-track">
                 <div class="progress-overall-bar-fill" id="progress-overall-bar-fill" style="width: 0%;"></div>
               </div>
+              <div class="progress-overall-subline">
+                <span id="progress-total-answered" class="highlight-blue">0 / 2,551문항</span>
+                <span class="dot-divider">•</span>
+                <span id="progress-total-score">✓ 0 · ✗ 0</span>
+              </div>
             </div>
-          </div>
-          <div class="progress-overall-stats-grid">
-            <div class="overall-stat-item">
-              <span class="overall-stat-label">총 문항 수</span>
-              <span class="overall-stat-val" id="progress-total-questions">2,551</span>
-            </div>
-            <div class="overall-stat-item">
-              <span class="overall-stat-label">푼 문제</span>
-              <span class="overall-stat-val highlight-blue" id="progress-total-answered">0 / 2,551</span>
-            </div>
-            <div class="overall-stat-item">
-              <span class="overall-stat-label">종합 정답률</span>
-              <span class="overall-stat-val highlight-green" id="progress-total-accuracy">0%</span>
-            </div>
-            <div class="overall-stat-item">
-              <span class="overall-stat-label">정답 / 오답</span>
-              <span class="overall-stat-val" id="progress-total-score">0 / 0</span>
-            </div>
-            <div class="overall-stat-item">
-              <span class="overall-stat-label">북마크</span>
-              <span class="overall-stat-val highlight-amber" id="progress-total-bookmarks">★ 0</span>
+            <div class="progress-overall-meta-badges">
+              <div class="overall-badge-item">
+                <span class="badge-label">정답률</span>
+                <span class="badge-val highlight-green" id="progress-total-accuracy">0%</span>
+              </div>
+              <div class="overall-badge-item">
+                <span class="badge-label">북마크</span>
+                <span class="badge-val highlight-amber" id="progress-total-bookmarks">★ 0</span>
+              </div>
             </div>
           </div>
         </section>
@@ -706,8 +699,8 @@
         <!-- Subject Progress Grid -->
         <section class="progress-subjects-section">
           <div class="progress-section-heading-row">
-            <h3>과목별 상세 현황</h3>
-            <span class="progress-section-hint">💡 원하는 과목 카드를 클릭하면 즉시 해당 과목 문제 풀기로 이동합니다</span>
+            <h3>과목별 상세 현황 (9개 분과)</h3>
+            <span class="progress-section-hint">💡 카드 클릭 시 해당 과목으로 이동</span>
           </div>
           <div class="progress-subject-grid" id="progress-subject-grid">
             <!-- Dynamically populated subject cards -->
@@ -717,7 +710,7 @@
 
       <div class="modal-footer progress-modal-footer">
         <button type="button" class="btn-secondary" id="btn-progress-all-subjects">
-          🌐 모든 과목 통합 풀기 (2,551문항)
+          🌐 전체 과목 통합 풀기 (2,551문항)
         </button>
         <button type="button" class="btn-primary" id="btn-close-progress-bottom">
           닫기
@@ -1063,12 +1056,12 @@
   <div class="toast-message" id="toast-message" style="display: none;"></div>
 
   <!-- Load Quiz Dataset (Embedded for instant local file:// execution without CORS) -->
-  <script src="data/quiz_data.js?v=20261114v7"></script>
+  <script src="data/quiz_data.js?v=20261114v8"></script>
   <!-- Original Exam PDF Manifest -->
   <script src="vendor/pdfjs/pdf.min.js"></script>
   <!-- Original Exam PDF Manifest -->
   <script src="data/pdf_manifest.js?v=20261106v5"></script>
   <!-- Main Application Logic -->
-  <script src="app.js?v=20261114v7"></script>
+  <script src="app.js?v=20261114v8"></script>
 </body>
 </html>

@@ -3395,37 +3395,29 @@
       card.innerHTML = `
         <div class="progress-card-top">
           <div class="progress-card-title">
-            <span>${meta.icon}</span>
-            <span>${sub}</span>
+            <span class="sub-icon">${meta.icon}</span>
+            <span class="sub-name">${sub}</span>
           </div>
-          ${isCurrent ? '<span class="progress-current-badge">현재 학습 중</span>' : ''}
+          <div class="progress-card-top-right">
+            ${isCurrent ? '<span class="progress-current-badge">학습중</span>' : ''}
+            <strong class="progress-card-rate-num">${subRatePct}%</strong>
+          </div>
         </div>
         <div class="progress-card-bar-wrap">
           <div class="progress-card-bar-track">
             <div class="progress-card-bar-fill${Number(subRatePct) >= 100 ? ' complete' : ''}" style="width: ${subRatePct}%;"></div>
           </div>
         </div>
-        <div class="progress-card-details">
-          <div class="progress-detail-row">
-            <span class="progress-detail-label">진행률</span>
-            <span class="progress-detail-val">${subAnswered} / ${subTotal} (${subRatePct}%)</span>
+        <div class="progress-card-compact-stats">
+          <div class="compact-stat-row">
+            <span class="stat-count">${subAnswered} / ${subTotal}문제</span>
+            <span class="progress-rate-tag ${rateTagClass}">${rateTagText}</span>
           </div>
-          <div class="progress-detail-row">
-            <span class="progress-detail-label">정답 / 오답</span>
-            <span class="progress-detail-val">✓ ${subCorrect} · ✗ ${subWrong}</span>
-          </div>
-          <div class="progress-detail-row">
-            <span class="progress-detail-label">북마크</span>
-            <span class="progress-detail-val">★ ${subBookmarks}개</span>
+          <div class="compact-stat-row sub-row">
+            <span class="score-split">✓ ${subCorrect} · ✗ ${subWrong}</span>
+            <span class="bookmark-count">★ ${subBookmarks}</span>
           </div>
         </div>
-        <div class="progress-card-badge-row">
-          <span class="progress-rate-tag ${rateTagClass}">${rateTagText}</span>
-        </div>
-        <button type="button" class="progress-card-footer-btn">
-          <span>${meta.icon} 이 과목 풀기</span>
-          <span style="font-size: 0.9em;">➔</span>
-        </button>
       `;
 
       card.addEventListener('click', () => {
