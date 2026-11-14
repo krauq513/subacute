@@ -66,11 +66,26 @@
     brandSubtitle: document.getElementById('brand-subtitle'),
 
     // Stats
+    statPillProgress: document.getElementById('stat-pill-progress'),
     statProgress: document.getElementById('stat-progress'),
     statBarFill: document.getElementById('stat-bar-fill'),
     statAccuracy: document.getElementById('stat-accuracy'),
     statBookmarks: document.getElementById('stat-bookmarks'),
     btnOpenGrid: document.getElementById('btn-open-grid'),
+
+    // Progress Overview Modal
+    progressModal: document.getElementById('progress-modal'),
+    btnCloseProgress: document.getElementById('btn-close-progress'),
+    btnCloseProgressBottom: document.getElementById('btn-close-progress-bottom'),
+    btnProgressAllSubjects: document.getElementById('btn-progress-all-subjects'),
+    progressOverallRate: document.getElementById('progress-overall-rate'),
+    progressOverallBarFill: document.getElementById('progress-overall-bar-fill'),
+    progressTotalQuestions: document.getElementById('progress-total-questions'),
+    progressTotalAnswered: document.getElementById('progress-total-answered'),
+    progressTotalAccuracy: document.getElementById('progress-total-accuracy'),
+    progressTotalScore: document.getElementById('progress-total-score'),
+    progressTotalBookmarks: document.getElementById('progress-total-bookmarks'),
+    progressSubjectGrid: document.getElementById('progress-subject-grid'),
 
     // Filters
     filterToolbar: document.getElementById('filter-toolbar'),
@@ -3256,6 +3271,195 @@
     dom.statBookmarks.textContent = `${bookmarkCount}`;
   }
 
+  /**
+   * ==========================================================================
+   * Progress Overview Modal Engine & Subject Switcher
+   * ==========================================================================
+   */
+
+  const SUBJECT_ORDER = [
+    '내과', '외과', '산부인과', '소아청소년과', '정신건강의학과',
+    '신경과', '영상의학과', '정형외과', '진단검사의학과'
+  ];
+
+  /**
+   * Switch active subject filter and restore last question position
+   */
+  function switchToSubject(newSub) {
+    if (!newSub) return;
+    state.filters.subject = newSub;
+    localStorage.setItem(STORAGE_KEY_SUBJECT, newSub);
+    state.filters.year = 'ALL';
+    state.filters.section = 'ALL';
+    state.isSectionFilterExpanded = false; // Always collapsed by default
+    state.filters.type = 'ALL';
+    state.filters.onlyFrequent = false;
+    state.filters.onlyImages = false;
+    if (dom.filterFrequent) dom.filterFrequent.classList.remove('active');
+    if (dom.filterImages) dom.filterImages.classList.remove('active');
+    state.currentIndex = 0;
+    updateSubjectUI();
+
+    // Restore last saved question in this subject for the active profile
+    const savedSubQId = state.lastSubjectMap && state.lastSubjectMap[newSub];
+    if (savedSubQId) {
+      const savedIdx = state.filteredQuestions.findIndex(q => q.id === savedSubQId);
+      if (savedIdx !== -1 && savedIdx !== state.currentIndex) {
+        state.currentIndex = savedIdx;
+        renderCurrentQuestion();
+        renderGrid();
+      }
+    }
+    updateStats();
+    scrollToQuestionIntel();
+  }
+
+  /**
+   * Render Subject Progress Modal with live statistics
+   */
+  function renderProgressModal() {
+    if (!dom.progressSubjectGrid) return;
+
+    const allQuestions = state.allQuestions || [];
+    const totalQCount = allQuestions.length;
+    let totalAnswered = 0;
+    let totalCorrect = 0;
+    let totalWrong = 0;
+    let totalBookmarks = 0;
+
+    allQuestions.forEach(q => {
+      const rec = state.userAnswers[q.id];
+      if (rec) {
+        totalAnswered++;
+        if (rec.isCorrect) totalCorrect++;
+        else totalWrong++;
+      }
+      if (state.bookmarks && state.bookmarks.has(q.id)) {
+        totalBookmarks++;
+      }
+    });
+
+    const overallRatePct = totalQCount > 0 ? ((totalAnswered / totalQCount) * 100).toFixed(1) : '0.0';
+    const overallAccPct = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
+
+    if (dom.progressOverallRate) dom.progressOverallRate.textContent = `${overallRatePct}% 달성`;
+    if (dom.progressOverallBarFill) dom.progressOverallBarFill.style.width = `${overallRatePct}%`;
+    if (dom.progressTotalQuestions) dom.progressTotalQuestions.textContent = `${totalQCount.toLocaleString()}문항`;
+    if (dom.progressTotalAnswered) dom.progressTotalAnswered.textContent = `${totalAnswered.toLocaleString()} / ${totalQCount.toLocaleString()}문항`;
+    if (dom.progressTotalAccuracy) dom.progressTotalAccuracy.textContent = `${overallAccPct}%`;
+    if (dom.progressTotalScore) dom.progressTotalScore.textContent = `✓ ${totalCorrect.toLocaleString()} / ✗ ${totalWrong.toLocaleString()}`;
+    if (dom.progressTotalBookmarks) dom.progressTotalBookmarks.textContent = `★ ${totalBookmarks.toLocaleString()}개`;
+
+    // Render individual subject cards
+    dom.progressSubjectGrid.innerHTML = '';
+
+    SUBJECT_ORDER.forEach(sub => {
+      const subQuestions = allQuestions.filter(q => q.subject === sub);
+      const subTotal = subQuestions.length;
+      if (subTotal === 0) return;
+
+      let subAnswered = 0;
+      let subCorrect = 0;
+      let subWrong = 0;
+      let subBookmarks = 0;
+
+      subQuestions.forEach(q => {
+        const rec = state.userAnswers[q.id];
+        if (rec) {
+          subAnswered++;
+          if (rec.isCorrect) subCorrect++;
+          else subWrong++;
+        }
+        if (state.bookmarks && state.bookmarks.has(q.id)) {
+          subBookmarks++;
+        }
+      });
+
+      const subRatePct = subTotal > 0 ? ((subAnswered / subTotal) * 100).toFixed(1) : '0.0';
+      const subAccPct = subAnswered > 0 ? Math.round((subCorrect / subAnswered) * 100) : 0;
+      const isCurrent = (state.filters.subject === sub);
+      const meta = SUBJECT_META[sub] || { icon: '🩺', title: sub };
+
+      let rateTagClass = 'none';
+      let rateTagText = '미응시';
+      if (subAnswered > 0) {
+        if (subAccPct >= 80) { rateTagClass = 'high'; rateTagText = `정답률 ${subAccPct}%`; }
+        else if (subAccPct >= 60) { rateTagClass = 'mid'; rateTagText = `정답률 ${subAccPct}%`; }
+        else { rateTagClass = 'low'; rateTagText = `정답률 ${subAccPct}%`; }
+      }
+
+      const card = document.createElement('div');
+      card.className = `progress-subject-card${isCurrent ? ' is-current' : ''}`;
+      card.title = `[${sub}] 과목으로 이동하여 문제 풀기`;
+
+      card.innerHTML = `
+        <div class="progress-card-top">
+          <div class="progress-card-title">
+            <span>${meta.icon}</span>
+            <span>${sub}</span>
+          </div>
+          ${isCurrent ? '<span class="progress-current-badge">현재 학습 중</span>' : ''}
+        </div>
+        <div class="progress-card-bar-wrap">
+          <div class="progress-card-bar-track">
+            <div class="progress-card-bar-fill${Number(subRatePct) >= 100 ? ' complete' : ''}" style="width: ${subRatePct}%;"></div>
+          </div>
+        </div>
+        <div class="progress-card-details">
+          <div class="progress-detail-row">
+            <span class="progress-detail-label">진행률</span>
+            <span class="progress-detail-val">${subAnswered} / ${subTotal} (${subRatePct}%)</span>
+          </div>
+          <div class="progress-detail-row">
+            <span class="progress-detail-label">정답 / 오답</span>
+            <span class="progress-detail-val">✓ ${subCorrect} · ✗ ${subWrong}</span>
+          </div>
+          <div class="progress-detail-row">
+            <span class="progress-detail-label">북마크</span>
+            <span class="progress-detail-val">★ ${subBookmarks}개</span>
+          </div>
+        </div>
+        <div class="progress-card-badge-row">
+          <span class="progress-rate-tag ${rateTagClass}">${rateTagText}</span>
+        </div>
+        <button type="button" class="progress-card-footer-btn">
+          <span>${meta.icon} 이 과목 풀기</span>
+          <span style="font-size: 0.9em;">➔</span>
+        </button>
+      `;
+
+      card.addEventListener('click', () => {
+        selectSubjectAndClose(sub);
+      });
+
+      dom.progressSubjectGrid.appendChild(card);
+    });
+  }
+
+  function selectSubjectAndClose(sub) {
+    closeProgressModal();
+    if (state.filters.subject === sub) {
+      showToast(`📌 현재 [${sub}] 과목을 학습하고 있습니다.`);
+      return;
+    }
+    switchToSubject(sub);
+    showToast(`⚡ [${sub}] 과목으로 전환되었습니다.`);
+  }
+
+  function openProgressModal() {
+    if (!dom.progressModal) return;
+    renderProgressModal();
+    if (!dom.progressModal.open) {
+      dom.progressModal.showModal();
+    }
+  }
+
+  function closeProgressModal() {
+    if (dom.progressModal && dom.progressModal.open) {
+      dom.progressModal.close();
+    }
+  }
+
 
   /**
    * ==========================================================================
@@ -4641,31 +4845,7 @@
       dom.subjectTabs.addEventListener('click', e => {
         const btn = e.target.closest('.subject-pill');
         if (!btn) return;
-        const newSub = btn.dataset.subject;
-        state.filters.subject = newSub;
-        localStorage.setItem(STORAGE_KEY_SUBJECT, newSub);
-        state.filters.year = 'ALL';
-        state.filters.section = 'ALL';
-        state.isSectionFilterExpanded = false; // Always collapsed by default
-        state.filters.type = 'ALL';
-        state.filters.onlyFrequent = false;
-        state.filters.onlyImages = false;
-        if (dom.filterFrequent) dom.filterFrequent.classList.remove('active');
-        if (dom.filterImages) dom.filterImages.classList.remove('active');
-        state.currentIndex = 0;
-        updateSubjectUI();
-
-        // Restore last saved question in this subject for the active profile
-        const savedSubQId = state.lastSubjectMap && state.lastSubjectMap[newSub];
-        if (savedSubQId) {
-          const savedIdx = state.filteredQuestions.findIndex(q => q.id === savedSubQId);
-          if (savedIdx !== -1 && savedIdx !== state.currentIndex) {
-            state.currentIndex = savedIdx;
-            renderCurrentQuestion();
-            renderGrid();
-          }
-        }
-        scrollToQuestionIntel();
+        switchToSubject(btn.dataset.subject);
       });
     }
 
@@ -5066,6 +5246,9 @@
       });
     }
 
+    // Progress Overview Modal Events
+    setupProgressModalEvents();
+
     // Profile & Continue Modal Events
     setupProfileModalEvents();
 
@@ -5089,6 +5272,10 @@
     }
     // If typing in input or when modal dialogs are open, ignore global quiz shortcuts
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+      return;
+    }
+    if (dom.progressModal && dom.progressModal.open) {
+      if (e.key === 'Escape') closeProgressModal();
       return;
     }
     if (dom.profileModal && dom.profileModal.open) {
@@ -5185,6 +5372,53 @@
       closeGridModal();
       closeLightbox();
       closeReportModal();
+    }
+  }
+
+  /**
+   * ==========================================================================
+   * Progress Overview Modal Events Setup
+   * ==========================================================================
+   */
+  function setupProgressModalEvents() {
+    if (dom.statPillProgress) {
+      dom.statPillProgress.addEventListener('click', openProgressModal);
+      dom.statPillProgress.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          openProgressModal();
+        }
+      });
+    }
+
+    if (dom.btnCloseProgress) {
+      dom.btnCloseProgress.addEventListener('click', closeProgressModal);
+    }
+    if (dom.btnCloseProgressBottom) {
+      dom.btnCloseProgressBottom.addEventListener('click', closeProgressModal);
+    }
+
+    if (dom.btnProgressAllSubjects) {
+      dom.btnProgressAllSubjects.addEventListener('click', () => {
+        selectSubjectAndClose('ALL');
+      });
+    }
+
+    // Modern Web Guidance fallback for backdrop click
+    if (dom.progressModal) {
+      const outside = (e, dialog) => {
+        const r = dialog.getBoundingClientRect();
+        return e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom;
+      };
+      let pressedOutside = false;
+      dom.progressModal.addEventListener('pointerdown', e => {
+        pressedOutside = outside(e, dom.progressModal);
+      });
+      dom.progressModal.addEventListener('pointerup', e => {
+        if (pressedOutside && outside(e, dom.progressModal)) {
+          closeProgressModal();
+        }
+      });
     }
   }
 
