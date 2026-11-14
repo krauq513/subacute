@@ -9671,23 +9671,23 @@
       "③ Good collateral - good prognosis",
       "④ Poor collateral - poor prognosis"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Intermediate collateral - poor prognosis",
+    "correct_option_index": 2,
+    "correct_answer": "③ Good collateral - good prognosis",
     "explanation": {
       "title": "다위상 CTA(Multiphasic CTA)의 측부 순환 등급과 임상 예후",
-      "findings": "급성 뇌경색 환자의 다위상 CTA(Multiphasic CTA) 3단계 영상 판독:\n• 1단계(동맥기): 폐색된 MCA 영역에 혈관 조영이 결손됨.\n• 2단계(정맥기/지연기): 반대측 정상 혈관에 비해 측부 혈관의 출현이 1 phase 지연되어 나타나며, 조영 강도가 중등도로 유지되거나 감소되어 있음 (Intermediate / Fair collateral).\n• 3단계(후기 지연기): 혈류가 충분히 도달하지 못해 최종 관류 결손이 지속됨.\n• 임상적 의의: Intermediate collateral 환자에서 신속한 재개통이 이루어지지 않을 경우 궁극적으로 불량한 예후(Poor prognosis)로 이어질 위험이 높습니다.",
-      "differential": "• ① Intermediate collateral - poor prognosis ✓ [정답]: 동맥기 대비 지연기 조영이 지연되고 불완전하여 intermediate collateral에 해당하며, 예후가 불량함을 시사합니다.\n• ② Intermediate collateral - good prognosis ✗ [오답]: 불완전한 측부 순환은 불량한 임상 예후와 직결됩니다.\n• ③ Good collateral - good prognosis ✗ [오답]: 정상측과 동일한 밀도로 빠르게 차오르는 good collateral 소견이 아닙니다.\n• ④ Poor collateral - poor prognosis ✗ [오답]: 혈관이 전혀 보이지 않는 최악의 등급(Poor)보다는 일부 지연 조영이 보이나 예후는 불량합니다.",
-      "trap": "• 측부 혈관이 풍부(Good)할수록 경색 부위가 작고 재개통 후 예후가 양호하지만, 측부 순환이 지연되고 희박(Intermediate~Poor)하면 뇌세포 괴사가 급속히 진행하여 예후가 불량합니다.",
-      "trigger": "【CTA Collateral 등급】\n• 1단계 내 완전 보충 = Good!\n• 1 phase 지연 및 불완전 보충 = Intermediate (Poor prognosis)!\n• 전 단계 결손 = Poor!",
-      "kmle_link": "KMLE 신경과/영상의학 - 급성 뇌졸중의 측부 순환 등급 분류",
+      "findings": "급성 뇌경색 의심 환자의 다위상 CTA(Multiphasic CTA) 판독:\n• 1단계(동맥기)~2단계(정맥기): 대뇌 주혈관 폐색 부위의 원위부 피질 혈관망으로 반대측 정상 혈관과 거의 대등한 수준의 풍부하고 신속한 측부 혈류 조영이 관찰됨 (Good collateral).\n• 임상적 의의: Good collateral은 경색의 진행을 늦추고 허혈성 반음영(ischemic penumbra) 조직을 오랜 시간 생존시키므로, 신속한 혈전제거술 및 재개통 치료 시 매우 양호한 임상 예후(Good prognosis)를 나타냅니다.",
+      "differential": "• ① Intermediate collateral - poor prognosis ✗ [오답]: 측부 혈관 조영이 지연되거나 희박한 intermediate 등급이 아니며, 본 증례는 정상측과 유사하게 풍부한 good collateral입니다.\n• ② Intermediate collateral - good prognosis ✗ [오답]: intermediate 등급은 예후가 불량한 경우가 많으며, 등급 자체도 틀립니다.\n• ③ Good collateral - good prognosis ✓ [정답]: 동맥기 및 정맥기에서 폐색 원위부 혈관망이 반대측 정상 혈관과 거의 동등한 밀도로 신속하게 차오르는 Good collateral 소견으로, 뇌세포 괴사를 지연시켜 양호한 임상 예후(Good prognosis)를 보장합니다.\n• ④ Poor collateral - poor prognosis ✗ [오답]: 측부 순환이 아예 보이지 않는 완전 결손 상태가 아닙니다.",
+      "trap": "• 다위상 CTA에서 측부 순환 평가는 단순 동맥기뿐 아니라 정맥기/지연기까지의 혈류 도달 시간과 밀도를 종합 평가합니다. 반대측 정상측과 동등한 밀도와 속도를 보이면 Good collateral로 예후가 양호합니다.",
+      "trigger": "【다위상 CTA Collateral 판정 & 예후 공식】\n• Good collateral = 반대측과 동등한 풍부한 혈관망 ➔ Good prognosis!\n• Intermediate collateral = 1단계 지연 및 불완전 조영 ➔ Poor prognosis 위험!\n• Poor collateral = 전 단계 혈관 결손 ➔ Poor prognosis!",
+      "kmle_link": "KMLE 신경과/영상의학 - 급성 허혈성 뇌졸중의 다위상 CTA 측부 순환 평가와 혈전제거술(EVT) 적응증",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
           "text": "Intermediate collateral - poor prognosis",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "지연기에 불완전하게 혈류가 차오르는 중간 등급의 측부 순환으로 불량한 예후를 시사합니다."
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "지연기에 조영이 1 phase 지연되거나 불완전한 intermediate 등급이 아니며, 본 증례는 조영이 풍부한 good collateral입니다."
         },
         {
           "opt_idx": 1,
@@ -9695,15 +9695,15 @@
           "text": "Intermediate collateral - good prognosis",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "중간 등급의 측부 순환은 예후가 양호하지 않습니다."
+          "reason": "측부 순환 등급이 intermediate인 경우 일반적으로 예후가 불량하며, 본 증례의 등급 자체도 양호(good)합니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
           "text": "Good collateral - good prognosis",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "완벽한 조영을 보이는 양호한 측부 순환이 아닙니다."
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "다위상 CTA에서 폐색된 혈관 원위부로 측부 혈관이 반대측 정상 혈관과 유사한 수준으로 신속하고 풍부하게 조영(Good collateral)되어 허혈성 반음영(penumbra)을 보존하므로 임상 예후가 양호(Good prognosis)합니다."
         },
         {
           "opt_idx": 3,
@@ -9711,15 +9711,15 @@
           "text": "Poor collateral - poor prognosis",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "측부 혈관이 아예 보이지 않는 완전 결손은 아닙니다."
+          "reason": "혈관 조영이 전혀 보이지 않는 결손(Poor collateral)이 아니며, 풍부한 측부 혈관망이 명확히 확인됩니다."
         }
       ],
-      "differential_general": "23Y-31: 다른 영상으로 출제되어 과거 수험생 자료에서 'Intermediate collateral - poor prognosis'로 표시됨(확실하지 않음). 이번 문항은 측부 불량이 예후 불량으로 이어지는 짝."
+      "differential_general": "23Y-31 문항: 다위상 CTA에서 폐색 원위부로 풍부하고 신속한 혈관 조영이 확인되어 Good collateral - good prognosis가 확실한 정답입니다."
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 4,
     "rate": 67,
@@ -9739,9 +9739,9 @@
         "opt_idx": 0,
         "opt_num": "①",
         "text": "Intermediate collateral - poor prognosis",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "지연기에 불완전하게 혈류가 차오르는 중간 등급의 측부 순환으로 불량한 예후를 시사합니다."
+        "is_correct": false,
+        "tag": "오답 감별",
+        "reason": "지연기에 조영이 1 phase 지연되거나 불완전한 intermediate 등급이 아니며, 본 증례는 조영이 풍부한 good collateral입니다."
       },
       {
         "opt_idx": 1,
@@ -9749,15 +9749,15 @@
         "text": "Intermediate collateral - good prognosis",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "중간 등급의 측부 순환은 예후가 양호하지 않습니다."
+        "reason": "측부 순환 등급이 intermediate인 경우 일반적으로 예후가 불량하며, 본 증례의 등급 자체도 양호(good)합니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
         "text": "Good collateral - good prognosis",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "완벽한 조영을 보이는 양호한 측부 순환이 아닙니다."
+        "is_correct": true,
+        "tag": "정답",
+        "reason": "다위상 CTA에서 폐색된 혈관 원위부로 측부 혈관이 반대측 정상 혈관과 유사한 수준으로 신속하고 풍부하게 조영(Good collateral)되어 허혈성 반음영(penumbra)을 보존하므로 임상 예후가 양호(Good prognosis)합니다."
       },
       {
         "opt_idx": 3,
@@ -9765,13 +9765,13 @@
         "text": "Poor collateral - poor prognosis",
         "is_correct": false,
         "tag": "오답 감별",
-        "reason": "측부 혈관이 아예 보이지 않는 완전 결손은 아닙니다."
+        "reason": "혈관 조영이 전혀 보이지 않는 결손(Poor collateral)이 아니며, 풍부한 측부 혈관망이 명확히 확인됩니다."
       }
     ],
     "section": "신경",
     "section_q_num": null,
     "q_label": "Q31",
-    "answer": "① Intermediate collateral - poor prognosis"
+    "answer": "③ Good collateral - good prognosis"
   },
   {
     "id": "영상의학과_23Y_Q32",
