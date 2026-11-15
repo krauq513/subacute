@@ -987,10 +987,15 @@
    * Load Question Data
    */
   async function loadQuestions() {
-    // Prefer window.QUIZ_DATA loaded from versioned data/quiz_data.js?v=...
+    // Prefer window.QUIZ_DATA or window.ALL_QUESTIONS loaded from versioned data/quiz_data.js?v=...
     // to avoid a redundant ~19MB download of data/quiz_all_subjects.json on every page load.
-    if (window.QUIZ_DATA && Array.isArray(window.QUIZ_DATA) && window.QUIZ_DATA.length > 0) {
-      state.allQuestions = window.QUIZ_DATA;
+    const preloaded = (window.QUIZ_DATA && Array.isArray(window.QUIZ_DATA) && window.QUIZ_DATA.length > 0)
+      ? window.QUIZ_DATA
+      : (window.ALL_QUESTIONS && Array.isArray(window.ALL_QUESTIONS) && window.ALL_QUESTIONS.length > 0 ? window.ALL_QUESTIONS : null);
+    if (preloaded) {
+      window.QUIZ_DATA = preloaded;
+      window.ALL_QUESTIONS = preloaded;
+      state.allQuestions = preloaded;
       applyCustomEdits();
       return;
     }

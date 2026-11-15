@@ -311695,3 +311695,5 @@ window.ALL_QUESTIONS = [
     "internal_index": "19Y-유방05"
   }
 ];
+
+window.QUIZ_DATA = window.ALL_QUESTIONS;
