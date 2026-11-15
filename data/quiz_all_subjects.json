@@ -182222,20 +182222,17 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "23Y",
-      "22Y",
-      "19Y"
+      "22Y"
     ],
     "raw_questions": [
       "26Y-09",
       "23Y-05",
-      "23Y-06",
-      "22Y-01",
-      "19Y-13"
+      "22Y-01"
     ],
     "option_explanations": [
       {
@@ -189589,20 +189586,17 @@
     "correct_option_indices": [
       2
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "23Y",
-      "22Y",
-      "19Y"
+      "22Y"
     ],
     "raw_questions": [
       "26Y-09",
       "23Y-05",
-      "23Y-06",
-      "22Y-01",
-      "19Y-13"
+      "22Y-01"
     ],
     "option_explanations": [
       {
@@ -189726,19 +189720,14 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "26Y",
       "23Y",
-      "22Y",
       "19Y"
     ],
     "raw_questions": [
-      "26Y-09",
-      "23Y-05",
       "23Y-06",
-      "22Y-01",
       "19Y-13"
     ],
     "option_explanations": [
@@ -196815,20 +196804,17 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 3,
+    "rate": 50,
     "freq_years": [
       "26Y",
       "23Y",
-      "22Y",
-      "19Y"
+      "22Y"
     ],
     "raw_questions": [
       "26Y-09",
       "23Y-05",
-      "23Y-06",
-      "22Y-01",
-      "19Y-13"
+      "22Y-01"
     ],
     "option_explanations": [
       {
@@ -211919,19 +211905,14 @@
     "correct_option_indices": [
       0
     ],
-    "freq_count": 4,
-    "rate": 67,
+    "freq_count": 2,
+    "rate": 33,
     "freq_years": [
-      "26Y",
       "23Y",
-      "22Y",
       "19Y"
     ],
     "raw_questions": [
-      "26Y-09",
-      "23Y-05",
       "23Y-06",
-      "22Y-01",
       "19Y-13"
     ],
     "option_explanations": [
