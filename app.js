@@ -392,6 +392,17 @@
           active.deletedAnswers = { ...(state.deletedAnswers || {}) };
           active.bookmarks = [...state.bookmarks];
           active.shuffleOptions = !!state.shuffleOptions;
+          active.filters = {
+            subject: state.filters.subject,
+            year: state.filters.year,
+            section: state.filters.section || 'ALL',
+            type: state.filters.type,
+            onlyFrequent: !!state.filters.onlyFrequent,
+            onlyImages: !!state.filters.onlyImages,
+            onlyIncorrect: !!state.filters.onlyIncorrect,
+            onlyBookmarked: !!state.filters.onlyBookmarked,
+            onlyCommented: !!state.filters.onlyCommented
+          };
           const currentQ = getCurrentQuestion();
           if (currentQ) {
             active.lastQuestionId = currentQ.id;
@@ -469,6 +480,14 @@
               const currentActiveId = state.activeProfileId;
               const currentActiveProfile = state.profiles.find(p => p.id === currentActiveId);
               const currentActiveName = currentActiveProfile ? currentActiveProfile.name : null;
+              const prevQ = getCurrentQuestion();
+              const prevQId = prevQ ? prevQ.id : null;
+              const prevSubject = state.filters.subject;
+              const prevFilterSig = JSON.stringify(state.filters);
+              const prevAnswerSig = JSON.stringify(state.userAnswers);
+              const prevBookmarkCount = state.bookmarks ? state.bookmarks.size : 0;
+              const prevResetAt = Number((currentActiveProfile && currentActiveProfile.resetAt) || 0);
+
               state.profiles = data.profiles;
               let updatedActive = state.profiles.find(p => p.id === currentActiveId);
               if (!updatedActive && currentActiveId === 'profile_default' && currentActiveName) {
@@ -484,6 +503,40 @@
                 localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(state.profiles));
                 localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, state.activeProfileId);
               } catch (e) {}
+
+              if (!isInitial && !state.isInitializing) {
+                const activeSwitched = updatedActive.id !== currentActiveId;
+                const wasResetOnServer = Number(updatedActive.resetAt || 0) > prevResetAt;
+                const stateChanged =
+                  activeSwitched ||
+                  wasResetOnServer ||
+                  prevFilterSig !== JSON.stringify(state.filters) ||
+                  prevAnswerSig !== JSON.stringify(state.userAnswers) ||
+                  prevBookmarkCount !== state.bookmarks.size;
+
+                if (stateChanged) {
+                  const prevInit = state.isInitializing;
+                  state.isInitializing = true;
+                  try {
+                    syncFilterButtonsUI();
+                    updateSubjectUI();
+                    const targetQIdAfterSync = (activeSwitched || wasResetOnServer || prevSubject !== state.filters.subject)
+                      ? (updatedActive.lastQuestionId || null)
+                      : prevQId;
+                    if (targetQIdAfterSync) {
+                      const nextIdx = state.filteredQuestions.findIndex(q => q.id === targetQIdAfterSync);
+                      if (nextIdx !== -1) state.currentIndex = nextIdx;
+                    } else if (activeSwitched || wasResetOnServer) {
+                      state.currentIndex = 0;
+                    }
+                    renderCurrentQuestion();
+                    updateStats();
+                    renderGrid();
+                  } finally {
+                    state.isInitializing = prevInit;
+                  }
+                }
+              }
             }
           }
 
@@ -647,6 +700,7 @@
         state.filters.onlyImages = false;
         state.filters.onlyIncorrect = false;
         state.filters.onlyBookmarked = false;
+        state.filters.onlyCommented = false;
         state.filters.searchQuery = '';
         applyFilters();
         updateSubjectUI();
@@ -681,7 +735,7 @@
     return state.profiles.find(p => p.id === state.activeProfileId) || state.profiles[0];
   }
 
-  function createProfileObject({ id, name, avatar, userAnswers, deletedAnswers, bookmarks, lastQuestionId, lastSubjectMap, filters, shuffleOptions, resetAt, createdAt, updatedAt }) {
+  function createProfileObject({ id, name, avatar, userAnswers, deletedAnswers, bookmarks, bookmarksResetAt, lastQuestionId, lastSubjectMap, filters, shuffleOptions, resetAt, createdAt, updatedAt }) {
     const now = Date.now();
     return {
       id: id || `profile_${now}_${Math.random().toString(36).slice(2, 7)}`,
@@ -690,6 +744,7 @@
       createdAt: createdAt || now,
       updatedAt: updatedAt || now,
       resetAt: Number(resetAt || 0),
+      bookmarksResetAt: Number(bookmarksResetAt || 0),
       userAnswers: userAnswers && typeof userAnswers === 'object' ? { ...userAnswers } : {},
       deletedAnswers: deletedAnswers && typeof deletedAnswers === 'object' ? { ...deletedAnswers } : {},
       bookmarks: Array.isArray(bookmarks) ? [...bookmarks] : [],
@@ -703,7 +758,8 @@
         onlyFrequent: !!(filters && filters.onlyFrequent),
         onlyImages: !!(filters && filters.onlyImages),
         onlyIncorrect: !!(filters && filters.onlyIncorrect),
-        onlyBookmarked: !!(filters && filters.onlyBookmarked)
+        onlyBookmarked: !!(filters && filters.onlyBookmarked),
+        onlyCommented: !!(filters && filters.onlyCommented)
       },
       shuffleOptions: !!shuffleOptions
     };
@@ -817,6 +873,14 @@
     state.lastSubjectMap = profile.lastSubjectMap && typeof profile.lastSubjectMap === 'object'
       ? { ...profile.lastSubjectMap }
       : {};
+    if (state.allQuestions && state.allQuestions.length > 0) {
+      for (const [sub, qId] of Object.entries(state.lastSubjectMap)) {
+        const qObj = state.allQuestions.find(item => item.id === qId);
+        if (qObj && qObj.subject && sub !== 'ALL' && qObj.subject !== sub) {
+          delete state.lastSubjectMap[sub];
+        }
+      }
+    }
     state.shuffleOptions = !!profile.shuffleOptions;
     const pf = profile.filters || {};
     state.filters.subject = pf.subject || '진단검사의학과';
@@ -888,9 +952,6 @@
           active.lastQuestionId = currentQ.id;
           if (currentQ.subject) {
             active.lastSubjectMap[currentQ.subject] = currentQ.id;
-          }
-          if (state.filters.subject) {
-            active.lastSubjectMap[state.filters.subject] = currentQ.id;
           }
           state.lastSubjectMap = { ...active.lastSubjectMap };
         }
@@ -5840,10 +5901,13 @@
 
   function openProfileModal() {
     if (!dom.profileModal) return;
-    saveStorage();
+    saveStorage({ skipTimestamp: true });
     renderProfileModal();
     if (!dom.profileModal.open) {
       dom.profileModal.showModal();
+    }
+    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync && !CloudSyncManager.isSyncing) {
+      CloudSyncManager.sync({ silent: true, force: true });
     }
   }
 
@@ -6190,49 +6254,57 @@
     state.isInitializing = true;
     try {
       let targetQId = targetProfile.lastQuestionId;
-      if (targetSubjectOverride) {
-        state.filters.subject = targetSubjectOverride;
+      const clearSecondaryFilters = () => {
         state.filters.year = 'ALL';
         state.filters.section = 'ALL';
+        state.isSectionFilterExpanded = false;
         state.filters.type = 'ALL';
         state.filters.onlyFrequent = false;
         state.filters.onlyImages = false;
         state.filters.onlyIncorrect = false;
         state.filters.onlyBookmarked = false;
+        state.filters.onlyCommented = false;
+        state.filters.searchQuery = '';
+        if (dom.searchInput) dom.searchInput.value = '';
+      };
+
+      if (targetSubjectOverride) {
+        state.filters.subject = targetSubjectOverride;
+        clearSecondaryFilters();
         targetQId = (targetProfile.lastSubjectMap && targetProfile.lastSubjectMap[targetSubjectOverride]) || null;
+        if (targetQId) {
+          const overrideQ = state.allQuestions.find(q => q.id === targetQId);
+          if (overrideQ && targetSubjectOverride !== 'ALL' && overrideQ.subject !== targetSubjectOverride) {
+            targetQId = null;
+          }
+        }
+      } else if (targetQId) {
+        const targetQ = state.allQuestions.find(q => q.id === targetQId);
+        if (targetQ) {
+          state.filters.subject = targetQ.subject;
+          clearSecondaryFilters();
+        } else {
+          targetQId = null;
+          clearSecondaryFilters();
+        }
+      } else {
+        clearSecondaryFilters();
       }
 
+      state.currentIndex = 0;
       syncFilterButtonsUI();
       updateSubjectUI();
 
       if (targetQId) {
-        const targetQ = state.allQuestions.find(q => q.id === targetQId);
-        if (targetQ) {
-          state.filters.subject = targetQ.subject;
-          state.filters.year = 'ALL';
-          state.filters.section = 'ALL';
-          state.filters.type = 'ALL';
-          state.filters.onlyFrequent = false;
-          state.filters.onlyImages = false;
-          state.filters.onlyIncorrect = false;
-          state.filters.onlyBookmarked = false;
-          state.filters.searchQuery = '';
-        }
-        applyFilters();
-        syncFilterButtonsUI();
-        updateSubjectUI();
         const idx = state.filteredQuestions.findIndex(q => q.id === targetQId);
-        state.currentIndex = idx !== -1 ? idx : 0;
-      } else {
-        applyFilters();
-        syncFilterButtonsUI();
-        updateSubjectUI();
-        state.currentIndex = 0;
+        if (idx !== -1) {
+          state.currentIndex = idx;
+          renderCurrentQuestion();
+          updateStats();
+          renderGrid();
+        }
       }
 
-      renderCurrentQuestion();
-      updateStats();
-      renderGrid();
       saveStorage({ skipTimestamp: true });
     } finally {
       state.isInitializing = prevInit;
@@ -6319,6 +6391,17 @@
     prof.deletedAnswers = {};
     prof.lastQuestionId = null;
     prof.lastSubjectMap = {};
+    prof.filters = {
+      subject: (prof.filters && prof.filters.subject) || '진단검사의학과',
+      year: 'ALL',
+      section: 'ALL',
+      type: 'ALL',
+      onlyFrequent: false,
+      onlyImages: false,
+      onlyIncorrect: false,
+      onlyBookmarked: false,
+      onlyCommented: false
+    };
     prof.resetAt = Date.now();
     prof.updatedAt = Date.now();
 
@@ -6326,10 +6409,20 @@
       state.userAnswers = {};
       state.deletedAnswers = {};
       state.lastSubjectMap = {};
+      state.filters.year = 'ALL';
+      state.filters.section = 'ALL';
+      state.isSectionFilterExpanded = false;
+      state.filters.type = 'ALL';
+      state.filters.onlyFrequent = false;
+      state.filters.onlyImages = false;
+      state.filters.onlyIncorrect = false;
+      state.filters.onlyBookmarked = false;
+      state.filters.onlyCommented = false;
+      state.filters.searchQuery = '';
+      if (dom.searchInput) dom.searchInput.value = '';
       state.currentIndex = 0;
-      renderCurrentQuestion();
-      updateStats();
-      renderGrid();
+      syncFilterButtonsUI();
+      updateSubjectUI();
       if (dom.progressModal && dom.progressModal.open) {
         renderProgressModal();
       }

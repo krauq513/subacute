@@ -605,23 +605,33 @@ function mergeData(serverData, clientData) {
         }
       });
 
-      // Union merge of bookmarks across devices
+      const effectiveBookmarksResetAt = Math.max(Number(sp.bookmarksResetAt || 0), Number(cp.bookmarksResetAt || 0));
+      const spTime = Number(sp.updatedAt || 0);
+      const cpTime = Number(cp.updatedAt || 0);
+      const spBookmarksValid = effectiveBookmarksResetAt === 0 || spTime >= effectiveBookmarksResetAt;
+      const cpBookmarksValid = effectiveBookmarksResetAt === 0 || cpTime >= effectiveBookmarksResetAt;
+
+      // Union merge of bookmarks across devices (respecting explicit bookmarksResetAt)
       const mergedBookmarks = Array.from(new Set([
-        ...(Array.isArray(sp.bookmarks) ? sp.bookmarks : []),
-        ...(Array.isArray(cp.bookmarks) ? cp.bookmarks : [])
+        ...(spBookmarksValid && Array.isArray(sp.bookmarks) ? sp.bookmarks : []),
+        ...(cpBookmarksValid && Array.isArray(cp.bookmarks) ? cp.bookmarks : [])
       ]));
 
-      // Merge subject map taking the latest position per subject
-      const mergedSubjectMap = { ...(sp.lastSubjectMap || {}) };
-      if (cp.lastSubjectMap && typeof cp.lastSubjectMap === 'object') {
+      // Merge subject map taking the latest position per subject, discarding pre-reset stale positions
+      const spPosValid = effectiveResetAt === 0 || spTime >= effectiveResetAt;
+      const cpPosValid = effectiveResetAt === 0 || cpTime >= effectiveResetAt;
+      const mergedSubjectMap = spPosValid ? { ...(sp.lastSubjectMap || {}) } : {};
+      if (cpPosValid && cp.lastSubjectMap && typeof cp.lastSubjectMap === 'object') {
         for (const [sub, cVal] of Object.entries(cp.lastSubjectMap)) {
           if (!mergedSubjectMap[sub] || useCpForPosition) {
             mergedSubjectMap[sub] = cVal;
           }
         }
       }
+      const spLastQ = spPosValid ? sp.lastQuestionId : null;
+      const cpLastQ = cpPosValid ? cp.lastQuestionId : null;
 
-      const newerTime = Math.max(Number(sp.updatedAt || 0), Number(cp.updatedAt || 0)) || Date.now();
+      const newerTime = Math.max(spTime, cpTime) || Date.now();
 
       profileMap.set(key, {
         id: sp.id || cp.id,
@@ -630,7 +640,8 @@ function mergeData(serverData, clientData) {
         userAnswers: mergedAnswers,
         deletedAnswers: mergedDeletedAnswers,
         bookmarks: mergedBookmarks,
-        lastQuestionId: useCpForPosition ? (cp.lastQuestionId !== undefined ? cp.lastQuestionId : sp.lastQuestionId) : (sp.lastQuestionId !== undefined ? sp.lastQuestionId : cp.lastQuestionId),
+        bookmarksResetAt: effectiveBookmarksResetAt,
+        lastQuestionId: useCpForPosition ? (cpLastQ !== undefined ? cpLastQ : spLastQ) : (spLastQ !== undefined ? spLastQ : cpLastQ),
         lastSubjectMap: mergedSubjectMap,
         filters: useCpForPosition ? (cp.filters || sp.filters) : (sp.filters || cp.filters),
         shuffleOptions: cp.shuffleOptions !== undefined ? cp.shuffleOptions : sp.shuffleOptions,
