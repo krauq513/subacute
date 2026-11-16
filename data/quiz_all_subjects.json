@@ -315873,13 +315873,13 @@
       "④ Epidural space – subacute hemorrhage",
       "⑤ Subarachnoid space – acute hemorrhage"
     ],
-    "correct_option_index": 2,
-    "correct_answer": "③ Epidural space – acute hemorrhage",
-    "answer": "③ Epidural space – acute hemorrhage",
+    "correct_option_index": 0,
+    "correct_answer": "① Subdural space – acute hemorrhage",
+    "answer": "① Subdural space – acute hemorrhage",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      2
+      0
     ],
     "freq_count": 1,
     "rate": 33,
@@ -315894,7 +315894,7 @@
     "q_label": "신경 01번",
     "explanation": {
       "title": "급성 경막하 출혈(Acute Subdural Hemorrhage, SDH)의 뇌 CT 소견",
-      "findings": "• **[모달리티 및 영상 소견 판독]**: 비조영 뇌 CT(Non-contrast CT) 축상면에서 대뇌낫(Falx cerebri) 좌측 경계를 따라 정중선 구조물을 넘지 못하고 직선상으로 매끈하게 뻗어 있는 밝은 고음영(60~80 HU) 급성 혈종이 관찰됩니다(Interhemispheric / Falx acute subdural hemorrhage).\n• **[원문 복기 노트]**: 19Y HWP 원본 시험지('신경 1번')의 학생 복기 메모에는 '실제 시험에는 흰색 병변 안에 점처럼 까만 부위가 있었음'이라는 언급과 함께 아급성(Subacute)에 밑줄이 있었으나, 실제 문제에 첨부된 Falx SDH CT 영상(고음영 급성 혈종)을 기준으로 급성 경막하 출혈(Acute SDH)을 정답으로 교정하였습니다.\n• **[정답 도출 과정]**: 대뇌낫·천막을 넘지 못하며 뇌 표면을 따라 뻗는 균일한 고음영 혈종이므로 ③ 경막하 공간의 급성 출혈이 정답입니다.",
+      "findings": "• **[모달리티 및 영상 소견 판독]**: 비조영 뇌 CT(Non-contrast CT) 축상면에서 대뇌낫(Falx cerebri) 좌측 경계를 따라 정중선 구조물을 넘지 못하고 직선상으로 매끈하게 뻗어 있는 밝은 고음영(60~80 HU) 급성 혈종이 관찰됩니다(Interhemispheric / Falx acute subdural hemorrhage).\n• **[원문 복기 노트]**: 19Y HWP 원본 시험지('신경 1번')의 학생 복기 메모에는 '실제 시험에는 흰색 병변 안에 점처럼 까만 부위가 있었음'이라는 언급과 함께 아급성(Subacute)에 밑줄이 있었으나, 실제 문제에 첨부된 Falx SDH CT 영상(균일한 고음영 급성 혈종)을 기준으로 급성 경막하 출혈(Acute SDH)을 정답으로 선정했습니다.\n• **[정답 도출 과정]**: 대뇌낫·천막을 넘지 못하며 경막하 공간(Subdural space)을 따라 뻗는 균일한 고음영 혈종이므로 **① Subdural space – acute hemorrhage**가 정답입니다.",
       "differential": "• ① 경막외 공간의 급성 출혈 ✗ [오답]: 경막외 공간의 급성 출혈(Acute EDH)은 중경막동맥 손상으로 두개골 내판과 경막 사이에 발생해 양면 볼록렌즈 형태(Biconvex)를 띠며 두개골 봉합선을 넘지 못하나 대뇌낫(Falx)이나 정맥동은 건널 수 있습니다. 본 증례처럼 대뇌낫을 따라 뻗는 균일한 고음영 혈종은 경막하 공간 병변입니다.\n• ② 경막외 공간의 아급성 출혈 ✗ [오답]: 경막외 공간의 아급성 출혈은 볼록렌즈 형태를 보이면서 시간 경과에 따라 CT 감쇠도가 낮아져 뇌실질과 유사한 등음영(Isodense)으로 변화합니다.\n• ③ 경막하 공간의 급성 출혈 ✓ [정답]: 정답입니다. 비조영 뇌 CT에서 대뇌낫(Falx cerebri)을 따라 편측으로 길게 뻗어 있는 밝은 고음영(Hyperdense) 혈종은 교정맥(Bridging vein) 파열로 인한 급성 경막하 출혈(Acute subdural hemorrhage, SDH)의 전형적 소견입니다. 경막하 출혈은 두개골 봉합선을 넘을 수 있으나 대뇌낫이나 소뇌천막 경계는 넘지 못합니다.\n• ④ 경막하 공간의 아급성 출혈 ✗ [오답]: 경막하 공간의 아급성 출혈(Subacute SDH)은 대개 수상 후 1~3주 경과하여 혈종 음영이 낮아지면서 인접 뇌실질과 비슷한 등음영(Isodense)으로 보이는 시기입니다. (※ 참고: 19Y 학생 복기 원문에는 '흰색 병변 안에 점처럼 까만 부위가 있었음'이라는 메모와 함께 아급성에 밑줄이 있었으나, 첨부된 대뇌낫(Falx) SDH CT 영상 소견을 기준으로 급성 경막하 출혈(Acute SDH)로 정립하였습니다.)\n• ⑤ 지주막하 공간의 급성 출혈 ✗ [오답]: 지주막하 공간의 급성 출혈(Acute SAH)은 대뇌 피질 뇌구(Sulci), 실비우스 열, 기저조(Basal cistern) 내부로 고음영 혈액이 퍼져 들어가므로 대뇌낫 한쪽 면을 따라 매끈하게 형성되는 경막하 혈종과 감별됩니다.",
       "trap": "대뇌낫(Falx cerebri)을 따라 한쪽에만 길쭉하게 뻗은 고음영 띠는 전형적인 대뇌낫 경막하 출혈(Falx SDH)이며, 봉합선을 넘지 못하는 EDH와 경계 제한 구조물을 혼동하지 않도록 주의해야 합니다.",
       "trigger": "【핵심 영상 판독 정리 & 감별 알고리즘】\n• 1. SDH vs EDH 경계 제한:\n  - 경막하 출혈(SDH): 교정맥 파열, 초승달형(Crescentic) 또는 대뇌낫 따라 분포, 봉합선 넘음, 대뇌낫/천막 못 넘음.\n  - 경막외 출혈(EDH): 중경막동맥 파열 + 두개골 골절, 볼록렌즈형(Biconvex), 봉합선 못 넘음, 대뇌낫 넘을 수 있음.\n• 2. CT 시간 경과별 혈종 감쇠도:\n  - 급성(Acute, ~3일): 밝은 고음영(Hyperdense, 60~80 HU)\n  - 아급성(Subacute, 1~3주): 뇌실질과 유사한 등음영(Isodense)\n  - 만성(Chronic, >3주): 뇌척수액에 가까운 저음영(Hypodense)",
@@ -315902,28 +315902,28 @@
       "option_explanations": [
         {
           "option": "① Subdural space – acute hemorrhage",
-          "is_correct": false,
-          "reason": "Subdural space - acute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+          "is_correct": true,
+          "reason": "정답입니다. 비조영 CT에서 대뇌낫(Falx cerebri)을 따라 편측에 매끈한 경계로 길게 고인 균일한 고음영 혈종은 대뇌반구간 급성 경막하 출혈(Acute SDH)의 전형적 소견입니다."
         },
         {
           "option": "② Subdural space – subacute hemorrhage",
           "is_correct": false,
-          "reason": "Subdural space - subacute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+          "reason": "아급성 경막하 출혈(Subacute SDH, 1~3주)은 혈종이 용해되면서 뇌실질과 비슷한 등음영(isodense)으로 변하나, 본 CT에서는 뇌실질보다 훨씬 밝은 고음영을 띠므로 급성기에 해당합니다(단, 복기 메모의 '흰색 안에 까만 점' swirl sign이 실제 시험 사진에 있었다면 아급성/재출혈 가능성 참고)."
         },
         {
           "option": "③ Epidural space – acute hemorrhage",
-          "is_correct": true,
-          "reason": "Epidural space - acute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+          "is_correct": false,
+          "reason": "경막외 출혈(EDH)은 두개골 내면과 경막 사이에 동맥혈이 고여 봉합선을 넘지 못하는 양면볼록 렌즈 모양(biconvex)을 띠며, 대뇌낫을 따라 직선상으로 고이지 않습니다."
         },
         {
           "option": "④ Epidural space – subacute hemorrhage",
           "is_correct": false,
-          "reason": "Epidural space - subacute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+          "reason": "아급성 경막외 출혈 역시 두개골 내면의 렌즈형 종괴 형태를 보이며 대뇌낫 주위 경막하 공간 병변이 아닙니다."
         },
         {
           "option": "⑤ Subarachnoid space – acute hemorrhage",
           "is_correct": false,
-          "reason": "Subarachnoid space - acute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+          "reason": "지주막하 출혈(SAH)은 대뇌 고랑(sulci)과 기저수조(basal cistern) 사이로 깃털처럼 퍼져 들어가며, 대뇌낫 한쪽 면을 따라 반듯한 선형 띠로 고이지 않습니다."
         }
       ],
       "differential_general": ""
@@ -315931,28 +315931,28 @@
     "option_explanations": [
       {
         "option": "① Subdural space – acute hemorrhage",
-        "is_correct": false,
-        "reason": "Subdural space - acute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        "is_correct": true,
+        "reason": "정답입니다. 비조영 CT에서 대뇌낫(Falx cerebri)을 따라 편측에 매끈한 경계로 길게 고인 균일한 고음영 혈종은 대뇌반구간 급성 경막하 출혈(Acute SDH)의 전형적 소견입니다."
       },
       {
         "option": "② Subdural space – subacute hemorrhage",
         "is_correct": false,
-        "reason": "Subdural space - subacute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        "reason": "아급성 경막하 출혈(Subacute SDH, 1~3주)은 혈종이 용해되면서 뇌실질과 비슷한 등음영(isodense)으로 변하나, 본 CT에서는 뇌실질보다 훨씬 밝은 고음영을 띠므로 급성기에 해당합니다(단, 복기 메모의 '흰색 안에 까만 점' swirl sign이 실제 시험 사진에 있었다면 아급성/재출혈 가능성 참고)."
       },
       {
         "option": "③ Epidural space – acute hemorrhage",
-        "is_correct": true,
-        "reason": "Epidural space - acute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        "is_correct": false,
+        "reason": "경막외 출혈(EDH)은 두개골 내면과 경막 사이에 동맥혈이 고여 봉합선을 넘지 못하는 양면볼록 렌즈 모양(biconvex)을 띠며, 대뇌낫을 따라 직선상으로 고이지 않습니다."
       },
       {
         "option": "④ Epidural space – subacute hemorrhage",
         "is_correct": false,
-        "reason": "Epidural space - subacute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        "reason": "아급성 경막외 출혈 역시 두개골 내면의 렌즈형 종괴 형태를 보이며 대뇌낫 주위 경막하 공간 병변이 아닙니다."
       },
       {
         "option": "⑤ Subarachnoid space – acute hemorrhage",
         "is_correct": false,
-        "reason": "Subarachnoid space - acute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        "reason": "지주막하 출혈(SAH)은 대뇌 고랑(sulci)과 기저수조(basal cistern) 사이로 깃털처럼 퍼져 들어가며, 대뇌낫 한쪽 면을 따라 반듯한 선형 띠로 고이지 않습니다."
       }
     ],
     "index": 2539,
