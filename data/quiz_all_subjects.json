@@ -313521,13 +313521,13 @@
       "③ Dermoid cyst",
       "④ Ileal abscess"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Tubo-ovarian abscess",
-    "answer": "① Tubo-ovarian abscess",
+    "correct_option_index": 2,
+    "correct_answer": "③ Dermoid cyst",
+    "answer": "③ Dermoid cyst",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 1,
     "rate": 17,
@@ -313542,79 +313542,55 @@
     "q_label": "복부 07번",
     "explanation": {
       "title": "공기-음영(Air-fluid level)을 동반한 난관난소농양(TOA)",
-      "findings": "• **[모달리티 및 영상 소견 판독]**: 조영증강 골반 CT 축상면에서 자궁 후방 부속기 영역에 두껍고 뚜렷하게 조영증강되는 벽을 가진 둥근 낭성 종괴가 관찰됩니다. 종괴 내부에는 상부의 검게 보이는 가스층(Gas)과 하부의 회색 액체·고름층(Fluid)이 수평 경계면을 이루는 명확한 공기-액체층(Air-fluid level)이 확인되며, 주변 골반 지방층에 염증성 선상 침윤이 동반되어 있습니다.\n• **[병태생리 및 감별 포인트]**: 폐쇄된 난관과 난소에 세균(특히 혐기성균이나 장내 세균)이 감염되어 농양을 형성할 때 가스가 생성되거나 인접 장관과 미세 누공이 형성되면 낭종 내에 공기-액체층이 나타납니다. 이는 자궁내막종이나 기형종이 아닌 감염성 농양임을 시사하는 매우 특이적인 소견입니다.\n• **[정답 도출 과정]**: 가임기 여성의 발열·하복부 압통 및 자궁 후방 부속기 종괴 내 공기-액체층 소견으로 ① 난관난소농양(TOA)을 선택합니다.",
+      "findings": "• **[모달리티 및 영상 소견 판독]**: 조영증강 골반 CT 축상면(`19Y_Q30_fig1.png`)에서 골반강 중앙에 경계가 매끈하고 얇은 벽을 가진 큰 원형 낭성 종괴가 관찰되며, 내부에 상·하로 뚜렷하게 나뉜 **지방-액체 층(Fat-fluid level)**이 확인됩니다. 상부 어두운 층의 감약 계수는 장관 내 공기(직장/S상결장 내강)처럼 완전히 새까만 공기 음영(-1,000 HU)이 아니라 **피하지방층과 동일한 지방 음영(-20 ~ -120 HU)**을 보이며, 주변 골반 지방 침윤이나 두꺼운 조영 벽 같은 급성 염증 징후도 뚜렷하지 않습니다.\n• **[병태생리 및 감별 포인트]**: 난소 유피낭종(**Dermoid cyst**, 성숙 낭성 기형종) 내부의 피지(sebum) 성분이 체온에서 액화되어 장액성 수분 위로 떠오르면 수평 경계를 이루는 특이적인 지방-액체 층(fat-fluid level)을 형성합니다. 복기 지문 괄호에는 'air-fluid level'로 기록되었으나 실제 영상은 농양의 공기-액체 층이 아니라 기형종의 지방-액체 층입니다.\n• **[정답 도출 과정]**: 매끈한 골반 낭성 종괴 내 지방-액체 층 및 염증성 침윤 부재 소견에 따라 정답은 **③ Dermoid cyst**입니다.",
       "differential": "• ① 난관난소농양 (Tubo-ovarian abscess, TOA) ✓ [정답]: 발열과 하복부 압통이 있는 가임기 여성의 골반 CT에서 자궁 후방 부속기 부위에 두꺼운 조영증강 벽과 내부 공기-액체층(Air-fluid level), 주변 염증성 지방 침윤이 관찰되어 난관난소농양(TOA)에 정확히 부합합니다.\n• ② 충수돌기염 주위 농양 (Periappendiceal abscess) ✗ [오답]: 충수돌기염 주위 농양은 우하복부 맹장 하단(RLQ)에 중심을 두고 비후된 충수나 충수결석(Appendicolith)이 관찰되므로 자궁 후방 부속기에 위치한 본 농양과는 해부학적 중심 위치가 다릅니다.\n• ③ 유피낭종 (Dermoid cyst / Mature teratoma) ✗ [오답]: 유피낭종(성숙 기형종)에서 보이는 수평 층위는 공기(-1000 HU)가 아니라 지방(-50~-100 HU)에 의한 지방-액체층이며, 석회화나 치아가 동반되고 발열이나 두꺼운 염증성 벽이 없습니다.\n• ④ 회장 게실 농양 (Ileal diverticular abscess) ✗ [오답]: 회장 게실 농양은 소장(특히 회장 말단) 벽 외측의 게실 염증으로 장간막 측에 생기며 매우 드문 질환이므로, 부속기 중심의 발열성 낭성 종괴에서는 난관난소농양이 훨씬 우선입니다.\n• ⑤ 자궁내막종 (Endometrioma) ✗ [오답]: 자궁내막종은 반복적인 월경혈 축적으로 인한 혈종 낭종으로 CT상 고음영 또는 액체-액체층을 보일 수 있으나, 내부에 세균성 가스에 의한 공기-액체층을 형성하지는 않습니다.",
       "trap": "유피낭종(기형종)에서도 비중이 가벼운 액화 지방이 상부에 뜨면서 '지방-액체층(Fat-fluid level)'을 만들 수 있는데, CT에서 상층의 HU가 지방(-50~-100 HU)인지 순수 공기(-1000 HU)인지 감쇠도를 확인하면 오진을 막을 수 있습니다.",
       "trigger": "【핵심 영상 판독 정리 & 감별 알고리즘】\n• 1. 골반 내 층위(Fluid-fluid / Air-fluid / Fat-fluid level) 감별:\n  - Air-fluid level (상층 -1000 HU 순수 검정 + 두꺼운 조영증강 벽 + 발열): 난관난소농양(TOA), 충수주위 농양, 게실 농양.\n  - Fat-fluid level (상층 -50~-100 HU 지방 + 석회화/치아 + 무열): 성숙 낭성 기형종(Dermoid cyst).\n  - Fluid-fluid level (혈액 성분 침강): 자궁내막종(Endometrioma) 또는 출혈성 난소 낭종.\n• 2. 골반 농양 원인 감별: 부속기(자궁 옆/뒤) 중심 + 자궁천골인대 비후 = TOA vs 우하복부(RLQ) 충수 위치 + 충수 결석 = 충수주위 농양.",
       "kmle_link": "KMLE 산부인과 - 골반염 합병증(난관난소농양의 영상 진단)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "Tubo-ovarian abscess",
+          "option": "① Tubo-ovarian abscess",
+          "is_correct": false,
+          "reason": "난관난소농양(TOA)은 두껍고 불규칙하게 조영증강되는 벽, 주변 골반 지방층의 지저분한 염증성 침윤, 고열·심한 압통이 동반되며, 본 CT처럼 얇은 벽과 피하지방 동일 음영의 지방-액체 층(fat-fluid level)을 보이지 않습니다."
+        },
+        {
+          "option": "② Periappendical abscess",
+          "is_correct": false,
+          "reason": "충수주위 농양(Periappendical abscess)은 우하복부(RLQ) 맹장·충수 돌기 주위에 생기는 국소 염증성 액체 저류와 주변 지방 침윤을 보이며 중앙 골반강의 매끈한 지방-액체 층 낭종과 다릅니다."
+        },
+        {
+          "option": "③ Dermoid cyst",
           "is_correct": true,
-          "tag": "정답",
-          "reason": "Tubo-ovarian abscess 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+          "reason": "정답입니다. 난소 유피낭종(Dermoid cyst)은 내부 피지·지방 성분이 액체 위에 떠서 수평 경계(fat-fluid level)를 형성하며, 상부 층이 장내 가스보다 덜 어둡고 피하지방과 동일한 지방 음영을 보이는 것이 특징입니다."
         },
         {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "Periappendical abscess",
+          "option": "④ Ileal abscess",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "Periappendical abscess 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "Dermoid cyst",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "Dermoid cyst 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "Ileal abscess",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "Ileal abscess 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+          "reason": "회장 농양(Ileal abscess)은 크론병이나 장 천공 등과 연관되어 소장 벽 비후·주변 장간막 침윤 및 장관 내 가스와 유사한 공기-액체 층을 보이는 염증성 병변으로 본 소견과 맞지 않습니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "Tubo-ovarian abscess",
+        "option": "① Tubo-ovarian abscess",
+        "is_correct": false,
+        "reason": "난관난소농양(TOA)은 두껍고 불규칙하게 조영증강되는 벽, 주변 골반 지방층의 지저분한 염증성 침윤, 고열·심한 압통이 동반되며, 본 CT처럼 얇은 벽과 피하지방 동일 음영의 지방-액체 층(fat-fluid level)을 보이지 않습니다."
+      },
+      {
+        "option": "② Periappendical abscess",
+        "is_correct": false,
+        "reason": "충수주위 농양(Periappendical abscess)은 우하복부(RLQ) 맹장·충수 돌기 주위에 생기는 국소 염증성 액체 저류와 주변 지방 침윤을 보이며 중앙 골반강의 매끈한 지방-액체 층 낭종과 다릅니다."
+      },
+      {
+        "option": "③ Dermoid cyst",
         "is_correct": true,
-        "tag": "정답",
-        "reason": "Tubo-ovarian abscess 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        "reason": "정답입니다. 난소 유피낭종(Dermoid cyst)은 내부 피지·지방 성분이 액체 위에 떠서 수평 경계(fat-fluid level)를 형성하며, 상부 층이 장내 가스보다 덜 어둡고 피하지방과 동일한 지방 음영을 보이는 것이 특징입니다."
       },
       {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "Periappendical abscess",
+        "option": "④ Ileal abscess",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "Periappendical abscess 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "Dermoid cyst",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "Dermoid cyst 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "Ileal abscess",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "Ileal abscess 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        "reason": "회장 농양(Ileal abscess)은 크론병이나 장 천공 등과 연관되어 소장 벽 비후·주변 장간막 침윤 및 장관 내 가스와 유사한 공기-액체 층을 보이는 염증성 병변으로 본 소견과 맞지 않습니다."
       }
     ],
     "index": 2517,
