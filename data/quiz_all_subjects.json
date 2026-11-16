@@ -312929,13 +312929,13 @@
       "③ serous cystadenoma",
       "④ mucinous cystadenoma"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① tubo-ovarian abscess",
-    "answer": "① tubo-ovarian abscess",
+    "correct_option_index": 1,
+    "correct_answer": "② mature cystic teratoma",
+    "answer": "② mature cystic teratoma",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 67,
@@ -312950,79 +312950,55 @@
     "q_label": "복부 02번",
     "explanation": {
       "title": "성숙 낭성 기형종(Mature Cystic Teratoma / Dermoid Cyst)의 골반 CT 소견",
-      "findings": "• **[모달리티 및 영상 소견 판독]**: 골반 조영증강 CT 축상면에서 좌측 자궁부속기(Adnexa)에 경계가 명확한 큰 낭성 종괴가 관찰되며, 종괴 내부에 피하 지방과 동일한 매우 낮은 음영의 지방 성분(Fat attenuation, -20 ~ -120 HU) 및 내측의 둥근 결절 구조(Rokitansky nodule)가 확인됩니다.\n• **[병태생리 및 임상 주의]**: 난소 성숙 낭성 기형종(유피낭종, Dermoid cyst)은 외배엽·중배엽·내배엽 유래의 성숙 조직을 포함하며 가임기 여성의 가장 흔한 양성 난소 종양입니다. 종괴의 무게중심으로 인해 난소 염전(Ovarian torsion)을 일으켜 급성 하복부 통증으로 응급 내원할 수 있습니다.\n• **[정답 도출 과정]**: 19Y HWP 원본 시험지('복부 2번') 및 첨부된 CT 영상의 지방 음영 소견을 근거로 ① 성숙 낭성 기형종(Mature cystic teratoma)이 정답입니다.",
+      "findings": "• **[모달리티 및 영상 소견 판독]**: 골반 조영증강 CT 축상면에서 좌측 자궁부속기(Adnexa)에 경계가 명확한 큰 낭성 종괴가 관찰되며, 종괴 내부 앞쪽에 피하지방과 동일한 매우 어두운 지방 음영(Fat attenuation, -20 ~ -120 HU)과 지방-액체 층(Fat-fluid level), 그리고 내측의 둥근 결절 구조(Rokitansky nodule / floating fat ball)가 확인됩니다.\n• **[병태생리 및 임상 주의]**: 난소 성숙 낭성 기형종(유피낭종, Dermoid cyst)은 외배엽·중배엽·내배엽 유래의 성숙 조직(지방, 모발, 치아/석회화 등)을 포함하며 가임기 여성의 가장 흔한 양성 난소 종양입니다. 종괴의 무게중심으로 인해 난소 염전(Ovarian torsion)을 일으켜 급성 하복부 통증으로 응급 내원할 수 있습니다.\n• **[정답 도출 과정]**: 골반 CT상 낭성 종괴 내부의 명확한 지방 음영(fat-fluid level) 및 Rokitansky nodule 소견에 따라 정답은 **② mature cystic teratoma**입니다.",
       "differential": "• ① 성숙 낭성 기형종 ✓ [정답]: 정답입니다. 골반 조영 CT에서 좌측 부속기 낭성 종괴 내부에 지방(Fat) 저음영 성분과 지방-액체층(Fat-fluid level) 및 로키탄스키 결절(Rokitansky nodule) 양상의 내부 고형/석회화 성분이 관찰되며, 이는 난소 성숙 낭성 기형종(Mature cystic teratoma / Dermoid cyst)의 특이적 진단 소견입니다.\n• ② 장액성 낭선종 ✗ [오답]: 장액성 낭선종(Serous cystadenoma)은 얇은 벽을 가진 단순 물 음영(0~20 HU)의 단방성 또는 소수 격벽의 낭종으로 나타나며 내부에 지방 음영이 관찰되지 않습니다.\n• ③ 점액성 낭선종 ✗ [오답]: 점액성 낭선종(Mucinous cystadenoma)은 흔히 크기가 큰 다방성(Multilocular) 낭종으로 각 방마다 점액 농도에 따른 감쇠도 차이(Stained glass appearance)를 보이지만 내부 지방 성분은 없습니다.\n• ④ 난관난소농양 ✗ [오답]: 난관난소농양(Tubo-ovarian abscess)은 두껍고 강하게 조영증강되는 벽과 주변 골반 지방 침윤(Fat stranding), 내강 내 가스가 동반되는 급성 감염성 병변으로, 기형종에서 보이는 순수 지방-액체층 및 피지 성분과 감별됩니다.\n• ⑤ 단순 난소 낭종 ✗ [오답]: 단순 난소 낭종(Simple ovarian cyst)은 격벽이나 고형 결절, 지방 음영이 전혀 없는 균일한 물 음영의 단방성 낭종입니다.",
       "trap": "CT에서 지방-액체층(Fat-fluid level)이 보일 때 위층의 검은 음영을 장관/농양 내 공기(Gas, -1000 HU)로 오인하면 난관난소농양(TOA)으로 오답을 선택하기 쉽습니다. 피하지방과 비슷한 어두운 음영인지, 주변 염증 침윤(Fat stranding)이 있는지를 함께 확인해야 합니다.",
       "trigger": "【핵심 영상 판독 정리 & 감별 알고리즘】\n• 난소 성숙 낭성 기형종(Mature Cystic Teratoma) 영상 특이 소견 3가지:\n  1. 낭종 내 지방 성분(Fat attenuation, CT상 -20 ~ -120 HU) 존재 → 기형종에 사실상 특이적(Pathognomonic)\n  2. 지방-액체층(Fat-fluid level) 또는 떠다니는 지방 구슬(Floating fat balls)\n  3. 로키탄스키 결절(Rokitansky nodule / Dermoid plug) 및 내부 치아·뼈 형태 석회화(Calcification)",
       "kmle_link": "KMLE 부인과 - 양성 난소 종양(성숙 낭성 기형종 및 난소 염전)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "tubo-ovarian abscess",
+          "option": "① tubo-ovarian abscess",
+          "is_correct": false,
+          "reason": "난관난소농양(TOA)은 두껍고 불규칙하게 조영증강되는 벽과 주변 골반 지방 침윤, 자궁천골인대 비후 및 다방성 고름 액체 저류를 보이나, 본 CT처럼 종괴 내부에 피하지방과 같은 음의 HU 지방 음영과 지방-액체 층을 형성하지는 않습니다."
+        },
+        {
+          "option": "② mature cystic teratoma",
           "is_correct": true,
-          "tag": "정답",
-          "reason": "tubo-ovarian abscess 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+          "reason": "정답입니다. 골반 CT에서 낭성 난소 종괴 내부에 피하지방과 동일한 어두운 지방 음영(fat attenuation), 지방-액체 층(fat-fluid level) 및 내부 결절(Rokitansky nodule)이 관찰되는 것은 성숙 낭성 기형종(Mature cystic teratoma)의 확진 소견입니다."
         },
         {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "mature cystic teratoma",
+          "option": "③ serous cystadenoma",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "mature cystic teratoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+          "reason": "장액성 낭선종(Serous cystadenoma)은 얇고 매끈한 벽을 가진 단방성 맑은 물 음영(0~20 HU) 낭종으로 내부 지방 음영이나 석회화 결절이 없습니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "serous cystadenoma",
+          "option": "④ mucinous cystadenoma",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "serous cystadenoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "mucinous cystadenoma",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "mucinous cystadenoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+          "reason": "점액성 낭선종(Mucinous cystadenoma)은 크기가 매우 크고 다방성(multilocular)이며 격막과 각 방마다 서로 다른 점액 음영(stained-glass appearance)을 보이지만 내부 지방 음영은 관찰되지 않습니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "tubo-ovarian abscess",
+        "option": "① tubo-ovarian abscess",
+        "is_correct": false,
+        "reason": "난관난소농양(TOA)은 두껍고 불규칙하게 조영증강되는 벽과 주변 골반 지방 침윤, 자궁천골인대 비후 및 다방성 고름 액체 저류를 보이나, 본 CT처럼 종괴 내부에 피하지방과 같은 음의 HU 지방 음영과 지방-액체 층을 형성하지는 않습니다."
+      },
+      {
+        "option": "② mature cystic teratoma",
         "is_correct": true,
-        "tag": "정답",
-        "reason": "tubo-ovarian abscess 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        "reason": "정답입니다. 골반 CT에서 낭성 난소 종괴 내부에 피하지방과 동일한 어두운 지방 음영(fat attenuation), 지방-액체 층(fat-fluid level) 및 내부 결절(Rokitansky nodule)이 관찰되는 것은 성숙 낭성 기형종(Mature cystic teratoma)의 확진 소견입니다."
       },
       {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "mature cystic teratoma",
+        "option": "③ serous cystadenoma",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "mature cystic teratoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        "reason": "장액성 낭선종(Serous cystadenoma)은 얇고 매끈한 벽을 가진 단방성 맑은 물 음영(0~20 HU) 낭종으로 내부 지방 음영이나 석회화 결절이 없습니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "serous cystadenoma",
+        "option": "④ mucinous cystadenoma",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "serous cystadenoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "mucinous cystadenoma",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "mucinous cystadenoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        "reason": "점액성 낭선종(Mucinous cystadenoma)은 크기가 매우 크고 다방성(multilocular)이며 격막과 각 방마다 서로 다른 점액 음영(stained-glass appearance)을 보이지만 내부 지방 음영은 관찰되지 않습니다."
       }
     ],
     "index": 2512,
