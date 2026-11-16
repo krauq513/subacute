@@ -7405,3 +7405,65 @@ dialog.pdf-viewer-modal::backdrop {
 [data-theme="dark"] .progress-subject-card.is-current {
   background: rgba(59, 130, 246, 0.12);
 }
+
+/* ==========================================================================
+   임상과목 시험 일정 상태 색 구분 (끝난 과목 / 바로 다음 시험 / 아직 안 본 과목)
+   ========================================================================== */
+.subject-pill[data-exam]::after {
+  content: attr(data-exam);
+  font-size: 0.66rem;
+  font-weight: 800;
+  padding: 0.05rem 0.38rem;
+  border-radius: 999px;
+  margin-left: 0.15rem;
+  line-height: 1.3;
+}
+
+/* 바로 다음 시험 (같은 날 과목 모두): 주황 강조 */
+.subject-pill.exam-next:not(.active) {
+  background: rgba(249, 115, 22, 0.14) !important;
+  border-color: #f97316 !important;
+  color: #c2410c !important;
+  box-shadow: 0 0 0 2px rgba(249, 115, 22, 0.25) !important;
+}
+.subject-pill.exam-next::after {
+  background: #f97316;
+  color: #ffffff;
+}
+.subject-pill.exam-next.active {
+  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.55), 0 2px 8px rgba(79, 70, 229, 0.3) !important;
+}
+
+/* 아직 안 본 과목: 파랑 */
+.subject-pill.exam-upcoming:not(.active) {
+  background: rgba(59, 130, 246, 0.08) !important;
+  border-color: rgba(59, 130, 246, 0.55) !important;
+  color: #1d4ed8 !important;
+}
+.subject-pill.exam-upcoming::after {
+  background: rgba(59, 130, 246, 0.18);
+  color: #1d4ed8;
+}
+
+/* 끝난 과목: 회색으로 흐리게 */
+.subject-pill.exam-done:not(.active) {
+  background: rgba(148, 163, 184, 0.12) !important;
+  border-color: rgba(148, 163, 184, 0.4) !important;
+  color: #94a3b8 !important;
+  opacity: 0.7;
+}
+.subject-pill.exam-done::after {
+  background: rgba(148, 163, 184, 0.25);
+  color: #64748b;
+}
+.subject-pill.active::after {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+
+/* 다크 테마 가독성 */
+[data-theme="dark"] .subject-pill.exam-next:not(.active) { color: #fdba74 !important; }
+[data-theme="dark"] .subject-pill.exam-upcoming:not(.active) { color: #93c5fd !important; }
+[data-theme="dark"] .subject-pill.exam-upcoming::after { color: #bfdbfe; background: rgba(59, 130, 246, 0.3); }
+[data-theme="dark"] .subject-pill.exam-done:not(.active) { color: #64748b !important; }
+[data-theme="dark"] .subject-pill.exam-done::after { color: #94a3b8; }

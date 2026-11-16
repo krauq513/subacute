@@ -1027,7 +1027,48 @@
   /**
    * Sync subject pill button counts from loaded state.allQuestions
    */
+  // 2026 학년말고사 일정 (KST). end 시각이 지나면 '끝난 과목'으로 자동 전환
+  const EXAM_SCHEDULE = {
+    '진단검사의학과': { label: '11/16', end: '2026-11-16T23:00:00+09:00' },
+    '정형외과':       { label: '11/16', end: '2026-11-16T23:00:00+09:00' },
+    '외과':           { label: '11/17', end: '2026-11-17T11:00:00+09:00' },
+    '영상의학과':     { label: '11/17', end: '2026-11-17T15:00:00+09:00' },
+    '신경과':         { label: '11/18', end: '2026-11-18T11:00:00+09:00' },
+    '산부인과':       { label: '11/19', end: '2026-11-19T12:00:00+09:00' },
+    '내과':           { label: '11/20', end: '2026-11-20T15:00:00+09:00' },
+    '소아청소년과':   { label: '11/23', end: '2026-11-23T14:00:00+09:00' },
+    '정신건강의학과': { label: '11/23', end: '2026-11-23T16:00:00+09:00' }
+  };
+
+  function applyExamScheduleClasses() {
+    if (!dom.subjectTabs) return;
+    const now = Date.now();
+    const remaining = Object.entries(EXAM_SCHEDULE)
+      .filter(([, v]) => new Date(v.end).getTime() > now);
+    // 바로 다음 시험일: 남은 과목 중 가장 이른 날짜 (같은 날짜 과목은 모두 포함)
+    let nextLabel = null;
+    if (remaining.length) {
+      remaining.sort((a, b) => new Date(a[1].end) - new Date(b[1].end));
+      nextLabel = remaining[0][1].label;
+    }
+    dom.subjectTabs.querySelectorAll('.subject-pill').forEach(btn => {
+      const sub = btn.dataset.subject;
+      btn.classList.remove('exam-done', 'exam-next', 'exam-upcoming');
+      const info = EXAM_SCHEDULE[sub];
+      if (!info) { btn.removeAttribute('data-exam'); return; }
+      let status;
+      if (new Date(info.end).getTime() <= now) status = 'done';
+      else if (info.label === nextLabel) status = 'next';
+      else status = 'upcoming';
+      btn.classList.add(`exam-${status}`);
+      btn.dataset.exam = status === 'done' ? '완료' : info.label;
+      btn.title = status === 'done' ? `${sub} 시험 완료` : `${sub} 시험 ${info.label}`;
+    });
+  }
+  setInterval(applyExamScheduleClasses, 60 * 1000);
+
   function updateSubjectTabCounts() {
+    applyExamScheduleClasses();
     if (!dom.subjectTabs || !Array.isArray(state.allQuestions) || state.allQuestions.length === 0) return;
     const subCounts = {};
     state.allQuestions.forEach(q => {
