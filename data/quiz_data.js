@@ -317083,7 +317083,15 @@ window.ALL_QUESTIONS = [
       }
     ],
     "index": 2550,
-    "internal_index": "19Y-유방02"
+    "internal_index": "19Y-유방02",
+    "is_image_options": true,
+    "option_images": [
+      "images/영상의학과/19Y_Q51_fig1.png",
+      "images/영상의학과/19Y_Q52_fig1.png",
+      "images/영상의학과/19Y_Q53_fig1.png",
+      "images/영상의학과/19Y_Q54_fig1.png",
+      null
+    ]
   },
   {
     "id": "영상의학과_19Y_Q58",
