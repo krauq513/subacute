@@ -311048,20 +311048,19 @@ window.ALL_QUESTIONS = [
     "category": "반짤",
     "theme_title": "정상 골반 단순 X선 근육 기시·정지 해부학 및 견열골절 호발 부위",
     "subspecialty": "근골격 영상의학",
-    "stem": "정상 골반 단순촬영(Pelvis plain film) 영상이다. 견열 골절(Avulsion fracture) 호발 부위인 A~D 각각에 부착하는 구조물로 옳게 짝지어진 것은?",
+    "stem": "Normal pelvis의 plain film이다. A~D 각각에 부착하는 구조물로 옳은 것은?",
     "images": [
       "images/영상의학과/19Y_Q10_fig1.png"
     ],
     "options": [
-      "① A: ASIS - 봉공근(Sartorius), B: AIIS - 대퇴직근(Rectus femoris), C: 소전자 - 장요근(Iliopsoas), D: 대전자 - 중둔근(Gluteus medius)",
-      "② A: AIIS - 대퇴직근, B: ASIS - 봉공근, C: 대전자 - 장요근, D: 소전자 - 중둔근",
-      "③ A: 장골능 - 대둔근, B: 치골결절 - 박근, C: 소전자 - 대퇴이두근, D: 대전자 - 장요근",
-      "④ A: ASIS - 장요근, B: AIIS - 중둔근, C: 좌골결절 - 대퇴직근, D: 대전자 - 봉공근",
-      "⑤ A: 좌골결절 - 햄스트링, B: ASIS - 대퇴근막장근, C: 소전자 - 중둔근, D: 대전자 - 이상근"
+      "① A: rectus femoris, B: iliopsoas, C: sartorius, D: gluteus medius",
+      "② A: sartorius, B: iliopsoas, C: rectus femoris, D: gluteus medius",
+      "③ A: rectus femoris, B: gluteus medius, C: sartorius, D: iliopsoas",
+      "④ A: iliopsoas, B: rectus femoris, C: sartorius, D: gluteus medius"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① A: ASIS - 봉공근(Sartorius), B: AIIS - 대퇴직근(Rectus femoris), C: 소전자 - 장요근(Iliopsoas), D: 대전자 - 중둔근(Gluteus medius)",
-    "answer": "① A: ASIS - 봉공근, B: AIIS - 대퇴직근, C: 소전자 - 장요근, D: 대전자 - 중둔근",
+    "correct_answer": "① A: rectus femoris, B: iliopsoas, C: sartorius, D: gluteus medius",
+    "answer": "① A: rectus femoris, B: iliopsoas, C: sartorius, D: gluteus medius",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
@@ -311082,95 +311081,55 @@ window.ALL_QUESTIONS = [
     "q_label": "MSK 03번",
     "explanation": {
       "title": "정상 골반 X-선 단순촬영의 근육 부착부 해부학 (Pelvis Plain Film)",
-      "findings": "※ **[영상 표지(A~D) 판독 참고]**: 실제 첨부된 골반 AP 영상의 노란색 상자는 **A: 우측 전하장골극(AIIS)**, **B: 우측 소전자(Lesser trochanter)**, **C: 좌측 전상장골극(ASIS)**, **D: 좌측 대전자(Greater trochanter)**를 가리키고 있으나, 기출 선지 ①은 족보 텍스트 복원 순서(`A: ASIS, B: AIIS, C: 소전자, D: 대전자`)로 기술되어 있으므로 해부학적 부위와 부착 근육의 짝(`ASIS-봉공근`, `AIIS-대퇴직근`, `소전자-장요근`, `대전자-중둔근`) 중심으로 정리하시기 바랍니다.\n• **[모달리티 및 영상 소견 판독]**: 정상 성인의 골반 전후면 단순 X-선 촬영(Pelvis AP plain film)에서 성장기 청소년 및 운동선수에서 견열 골절(Avulsion fracture)이 호발하는 4개의 주요 골돌기 부착 부위가 표시되어 있습니다. 장골능 전상방의 전상장골극(ASIS)에는 봉공근(Sartorius)이, 비구 바로 위쪽 전하장골극(AIIS)에는 대퇴직근(Rectus femoris)이, 대퇴골 근위부 내측 소전자(Lesser trochanter)에는 장요근(Iliopsoas)이, 외측 대전자(Greater trochanter)에는 중둔근(Gluteus medius)이 부착합니다.\n• **[병태생리 및 감별 포인트]**: 청소년기에는 골단판(Apophysis)이 근육 힘줄보다 약해 갑작스러운 근육 수축 시 골편이 뜯어지는 견열 골절이 발생합니다. 좌골결절(Ischial tuberosity)에는 햄스트링(Hamstring)이, 장골능에는 복근/내·외복사근이 부착하므로 각 돌기의 위치와 부착 근육을 1대1로 매칭해야 합니다.\n• **[정답 도출 과정]**: 골반 4대 견열 골절 호발 부위와 부착 근육의 짝이 모두 정확히 일치하는 ①번이 정답입니다.",
+      "findings": "• **[모달리티 및 영상 소견 판독]**: 정상 골반 전후면 단순 X선(`19Y_Q10_fig1.png`)에 4개의 근육 부착 골돌기가 표시되어 있습니다. **(A)**는 비구 바로 위쪽 우측 **전하장골극(AIIS)**, **(B)**는 대퇴골 근위부 내측 **소전자(Lesser trochanter)**, **(C)**는 좌측 장골능 전상방 최외측 돌출부인 **전상장골극(ASIS)**, **(D)**는 대퇴골 근위부 외측 **대전자(Greater trochanter)**입니다.\n• **[병태생리 및 감별 포인트]**: 청소년기·운동선수의 골반 견열 골절(Avulsion fracture) 호발 부위로, **AIIS(A)**에는 대퇴직근(**rectus femoris**), **소전자(B)**에는 장요근(**iliopsoas**), **ASIS(C)**에는 봉공근(**sartorius**), **대전자(D)**에는 중둔근(**gluteus medius**)이 부착합니다.\n• **[정답 도출 과정]**: 19Y 원안 정답(`A-rectus femoris, B-iliopsoas, C-sartorius, D-gluteus medius`) 및 첨부 영상 표지와 정확히 일치하는 **①**이 정답입니다.",
       "differential": "• ① A: ASIS - 봉공근(Sartorius), B: AIIS - 대퇴직근(Rectus femoris), C: 소전자 - 장요근(Iliopsoas), D: 대전자 - 중둔근(Gluteus medius) ✓ [정답]: 전상장골극(ASIS)은 봉공근(Sartorius), 전하장골극(AIIS)은 대퇴직근(Rectus femoris), 대퇴골 내측 소전자는 장요근(Iliopsoas), 외측 대전자는 중둔근(Gluteus medius)의 기시·정지 부위와 정확히 일치합니다.\n• ② A: AIIS - 대퇴직근, B: ASIS - 봉공근, C: 대전자 - 장요근, D: 소전자 - 중둔근 ✗ [오답]: ASIS에는 대퇴직근이 아니라 봉공근이, AIIS에는 봉공근이 아니라 대퇴직근이 붙으며, 소전자(장요근)와 대전자(중둔근)의 부착 근육도 서로 뒤바뀌어 있어 해부학적으로 틀린 연결입니다.\n• ③ A: 장골능 - 대둔근, B: 치골결절 - 박근, C: 소전자 - 대퇴이두근, D: 대전자 - 장요근 ✗ [오답]: 장골능에는 복벽 근육(외복사근 등)이 붙으며, 박근은 치골지에 부착합니다. 또한 대퇴골 소전자에는 대퇴이두근(좌골결절 기시)이 아닌 장요근이 정지하므로 짝이 맞지 않습니다.\n• ④ A: ASIS - 장요근, B: AIIS - 중둔근, C: 좌골결절 - 대퇴직근, D: 대전자 - 봉공근 ✗ [오답]: ASIS에 부착하는 것은 장요근이 아니라 봉공근이며, 좌골결절에는 대퇴직근(AIIS 기시)이 아닌 햄스트링 근육군이 기시하므로 모든 연결이 어긋납니다.\n• ⑤ A: 좌골결절 - 햄스트링, B: ASIS - 대퇴근막장근, C: 소전자 - 중둔근, D: 대전자 - 이상근 ✗ [오답]: 소전자에는 중둔근이 아닌 장요근이 정지하며, 중둔근은 대전자에 정지합니다. 좌골결절은 햄스트링 기시부가 맞지만 나머지 C, D의 부착 근육 조합이 틀렸습니다.",
       "trap": "ASIS(봉공근)와 AIIS(대퇴직근), 소전자(장요근)와 대전자(중둔근·소둔근)의 부착 근육을 서로 뒤바꿔 출제하는 함정이 빈번하며, 치유기 견열 골절을 골종양으로 오인하지 않도록 주의해야 합니다.",
       "trigger": "【핵심 영상 판독 정리 & 감별 알고리즘】\n• 1. 골반·근위 대퇴골 견열 골절(Avulsion fracture) 5대 공식:\n  - ASIS(전상장골극) → 봉공근(Sartorius), 대퇴근막장근(TFL)\n  - AIIS(전하장골극) → 대퇴직근(Rectus femoris, 직두)\n  - 좌골결절(Ischial tuberosity) → 햄스트링(Hamstring)\n  - 대퇴골 소전자(Lesser trochanter) → 장요근(Iliopsoas)\n  - 대퇴골 대전자(Greater trochanter) → 중둔근/소둔근(Gluteus medius/minimus)\n• 2. 판독 팁: 스포츠 손상 후 비대칭 피질 골편이 보일 때 좌골결절과 AIIS 위치는 전후 X-선에서 겹쳐 보일 수 있으므로 임상 압통 부위와 대조 판독.",
       "kmle_link": "KMLE 정형외과 - 골반 및 고관절 손상(청소년기 골반 견열골절)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "A: ASIS - 봉공근(Sartorius), B: AIIS - 대퇴직근(Rectus femoris), C: 소전자 - 장요근(Iliopsoas), D: 대전자 - 중둔근(Gluteus medius)",
+          "option": "① A: rectus femoris, B: iliopsoas, C: sartorius, D: gluteus medius",
           "is_correct": true,
-          "tag": "정답",
-          "reason": "전상장골극(ASIS)은 봉공근(Sartorius), 전하장골극(AIIS)은 대퇴직근(Rectus femoris), 대퇴골 내측 소전자는 장요근(Iliopsoas), 외측 대전자는 중둔근(Gluteus medius)의 기시·정지 부위와 정확히 일치합니다."
+          "reason": "정답입니다. 영상에서 (A) 우측 전하장골극(AIIS)=rectus femoris, (B) 우측 소전자=iliopsoas, (C) 좌측 전상장골극(ASIS)=sartorius, (D) 좌측 대전자=gluteus medius로 모두 정확히 일치합니다."
         },
         {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "A: AIIS - 대퇴직근, B: ASIS - 봉공근, C: 대전자 - 장요근, D: 소전자 - 중둔근",
+          "option": "② A: sartorius, B: iliopsoas, C: rectus femoris, D: gluteus medius",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "ASIS에는 대퇴직근이 아니라 봉공근이, AIIS에는 봉공근이 아니라 대퇴직근이 붙으며, 소전자(장요근)와 대전자(중둔근)의 부착 근육도 서로 뒤바뀌어 있어 해부학적으로 틀린 연결입니다."
+          "reason": "A(AIIS)에 sartorius가, C(ASIS)에 rectus femoris가 배치되어 ASIS와 AIIS의 부착 근육이 서로 뒤바뀌었습니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "A: 장골능 - 대둔근, B: 치골결절 - 박근, C: 소전자 - 대퇴이두근, D: 대전자 - 장요근",
+          "option": "③ A: rectus femoris, B: gluteus medius, C: sartorius, D: iliopsoas",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "장골능에는 복벽 근육(외복사근 등)이 붙으며, 박근은 치골지에 부착합니다. 또한 대퇴골 소전자에는 대퇴이두근(좌골결절 기시)이 아닌 장요근이 정지하므로 짝이 맞지 않습니다."
+          "reason": "B(소전자)에는 iliopsoas가, D(대전자)에는 gluteus medius가 부착해야 하므로 B와 D의 부착 근육이 서로 뒤바뀌었습니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "A: ASIS - 장요근, B: AIIS - 중둔근, C: 좌골결절 - 대퇴직근, D: 대전자 - 봉공근",
+          "option": "④ A: iliopsoas, B: rectus femoris, C: sartorius, D: gluteus medius",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "ASIS에 부착하는 것은 장요근이 아니라 봉공근이며, 좌골결절에는 대퇴직근(AIIS 기시)이 아닌 햄스트링 근육군이 기시하므로 모든 연결이 어긋납니다."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "A: 좌골결절 - 햄스트링, B: ASIS - 대퇴근막장근, C: 소전자 - 중둔근, D: 대전자 - 이상근",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "소전자에는 중둔근이 아닌 장요근이 정지하며, 중둔근은 대전자에 정지합니다. 좌골결절은 햄스트링 기시부가 맞지만 나머지 C, D의 부착 근육 조합이 틀렸습니다."
+          "reason": "A(AIIS)에 iliopsoas가, B(소전자)에 rectus femoris가 배치되어 해부학적 부착 위치가 서로 뒤바뀌었습니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "A: ASIS - 봉공근(Sartorius), B: AIIS - 대퇴직근(Rectus femoris), C: 소전자 - 장요근(Iliopsoas), D: 대전자 - 중둔근(Gluteus medius)",
+        "option": "① A: rectus femoris, B: iliopsoas, C: sartorius, D: gluteus medius",
         "is_correct": true,
-        "tag": "정답",
-        "reason": "전상장골극(ASIS)은 봉공근(Sartorius), 전하장골극(AIIS)은 대퇴직근(Rectus femoris), 대퇴골 내측 소전자는 장요근(Iliopsoas), 외측 대전자는 중둔근(Gluteus medius)의 기시·정지 부위와 정확히 일치합니다."
+        "reason": "정답입니다. 영상에서 (A) 우측 전하장골극(AIIS)=rectus femoris, (B) 우측 소전자=iliopsoas, (C) 좌측 전상장골극(ASIS)=sartorius, (D) 좌측 대전자=gluteus medius로 모두 정확히 일치합니다."
       },
       {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "A: AIIS - 대퇴직근, B: ASIS - 봉공근, C: 대전자 - 장요근, D: 소전자 - 중둔근",
+        "option": "② A: sartorius, B: iliopsoas, C: rectus femoris, D: gluteus medius",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "ASIS에는 대퇴직근이 아니라 봉공근이, AIIS에는 봉공근이 아니라 대퇴직근이 붙으며, 소전자(장요근)와 대전자(중둔근)의 부착 근육도 서로 뒤바뀌어 있어 해부학적으로 틀린 연결입니다."
+        "reason": "A(AIIS)에 sartorius가, C(ASIS)에 rectus femoris가 배치되어 ASIS와 AIIS의 부착 근육이 서로 뒤바뀌었습니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "A: 장골능 - 대둔근, B: 치골결절 - 박근, C: 소전자 - 대퇴이두근, D: 대전자 - 장요근",
+        "option": "③ A: rectus femoris, B: gluteus medius, C: sartorius, D: iliopsoas",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "장골능에는 복벽 근육(외복사근 등)이 붙으며, 박근은 치골지에 부착합니다. 또한 대퇴골 소전자에는 대퇴이두근(좌골결절 기시)이 아닌 장요근이 정지하므로 짝이 맞지 않습니다."
+        "reason": "B(소전자)에는 iliopsoas가, D(대전자)에는 gluteus medius가 부착해야 하므로 B와 D의 부착 근육이 서로 뒤바뀌었습니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "A: ASIS - 장요근, B: AIIS - 중둔근, C: 좌골결절 - 대퇴직근, D: 대전자 - 봉공근",
+        "option": "④ A: iliopsoas, B: rectus femoris, C: sartorius, D: gluteus medius",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "ASIS에 부착하는 것은 장요근이 아니라 봉공근이며, 좌골결절에는 대퇴직근(AIIS 기시)이 아닌 햄스트링 근육군이 기시하므로 모든 연결이 어긋납니다."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "A: 좌골결절 - 햄스트링, B: ASIS - 대퇴근막장근, C: 소전자 - 중둔근, D: 대전자 - 이상근",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "소전자에는 중둔근이 아닌 장요근이 정지하며, 중둔근은 대전자에 정지합니다. 좌골결절은 햄스트링 기시부가 맞지만 나머지 C, D의 부착 근육 조합이 틀렸습니다."
+        "reason": "A(AIIS)에 iliopsoas가, B(소전자)에 rectus femoris가 배치되어 해부학적 부착 위치가 서로 뒤바뀌었습니다."
       }
     ],
     "index": 2496,
