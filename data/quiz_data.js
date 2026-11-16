@@ -311762,19 +311762,19 @@ window.ALL_QUESTIONS = [
     "stem": "뼈의 일반촬영검사에 대한 설명으로 가장 바른 것은 무엇인가?",
     "images": [],
     "options": [
-      "① 일반촬영검사에서는 앞쪽 피질골(cortical bone)과 골수강(bone marrow trabeculi), 뒤쪽 피질골이 겹쳐서 중첩된 음영을 보인다.",
-      "② 뼈의 일반촬영검사에서는 정상에 비해 검게 보이는 경우 음영의 증가, 하얗게 보이는 경우 음영의 감소라 이른다.",
-      "③ 뼈의 일반촬영검사는 이전에 주로 사용된 진단방법으로 현재는 대부분의 경우 CT와 MRI로 대치되었다.",
-      "④ 뼈의 일반촬영검사상 부분적으로 그 음영이 감소된 경우 뼈의 증가된 형성을 의미한다.",
+      "① 뼈의 일반촬영검사에서는 정상에 비해 검게 보이는 경우 음영의 증가, 하얗게 보이는 경우 음영의 감소라 이른다.",
+      "② 뼈의 일반촬영검사에서는 이전에 주로 사용된 진단방법으로 현재는 대부분의 경우 CT와 MRI로 대치되었다.",
+      "③ 뼈의 일반촬영검사상 부분적으로 그 음영이 감소된 경우 뼈의 증가된 형성을 의미한다.",
+      "④ 일반촬영검사에서는 앞쪽 피질골(cortical bone)과 골수강(bonemarrow trabeculi), 뒤쪽 피질골이 겹쳐서 중첩된 음영을 보인다.",
       "⑤ 피질에 생긴 골종양의 경우 일반촬영으로는 병변을 인지하기 어려워 병변의 존재를 알기 위해서는 bone scan이나 MRI를 시행한다."
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① 일반촬영검사에서는 앞쪽 피질골(cortical bone)과 골수강(bone marrow trabeculi), 뒤쪽 피질골이 겹쳐서 중첩된 음영을 보인다.",
-    "answer": "① 일반촬영검사에서는 앞쪽 피질골(cortical bone)과 골수강(bone marrow trabeculi), 뒤쪽 피질골이 겹쳐서 중첩된 음영을 보인다.",
+    "correct_option_index": 3,
+    "correct_answer": "④ 일반촬영검사에서는 앞쪽 피질골(cortical bone)과 골수강(bonemarrow trabeculi), 뒤쪽 피질골이 겹쳐서 중첩된 음영을 보인다.",
+    "answer": "④ 일반촬영검사에서는 앞쪽 피질골(cortical bone)과 골수강(bonemarrow trabeculi), 뒤쪽 피질골이 겹쳐서 중첩된 음영을 보인다.",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      3
     ],
     "freq_count": 1,
     "rate": 17,
@@ -311789,50 +311789,35 @@ window.ALL_QUESTIONS = [
     "q_label": "MSK 09번",
     "explanation": {
       "title": "뼈의 단순 X-선 일반촬영(Plain Radiography) 기본 물리 원리",
-      "findings": "• **[모달리티 및 영상 소견 판독]**: 뼈의 일반촬영검사(Plain radiography)는 3차원 입체 구조물인 뼈에 X-선을 일방향으로 투과시켜 2차원 필름/검출기에 투영하는 방식입니다. 따라서 앞쪽 피질골(Anterior cortex), 내부 해면골 및 골수강(Bone marrow trabeculae), 뒤쪽 피질골(Posterior cortex)이 한 평면에 겹쳐 투영되는 음영 중첩(Summation effect)이 필연적으로 발생합니다.\n• **[병태생리 및 감별 포인트]**: 방사선 투과도 해석에서 X-선 흡수가 적어 검게 보이는 것은 음영 감소(Radiolucency, 골파괴/골다공증), X-선 흡수가 많아 하얗게 보이는 것은 음영 증가(Radiopacity, 골형성/골경화)라고 부릅니다. 일반촬영은 여전히 모든 골격계 질환의 1차 선별검사이며 피질골 종양이나 골절 평가에 필수적입니다.\n• **[정답 도출 과정]**: 단순 X-선 촬영의 2차원 중첩 원리를 정확히 기술한 ①번이 정답입니다.",
+      "findings": "• **[모달리티 및 영상 소견 판독]**: 뼈의 일반촬영검사(Plain radiography)는 3차원 입체 구조물인 뼈에 X-선을 일방향으로 투과시켜 2차원 필름/검출기에 투영하는 방식입니다. 따라서 앞쪽 피질골(Anterior cortex), 내부 해면골 및 골수강(Bone marrow trabeculae), 뒤쪽 피질골(Posterior cortex)이 한 평면에 겹쳐 투영되는 음영 중첩(Summation effect)이 필연적으로 발생합니다.\n• **[병태생리 및 감별 포인트]**: 방사선 투과도 해석에서 X-선 흡수가 적어 검게 보이는 것은 음영 감소(Radiolucency, 골파괴/골다공증), X-선 흡수가 많아 하얗게 보이는 것은 음영 증가(Radiopacity, 골형성/골경화)라고 부릅니다. 일반촬영은 여전히 모든 골격계 질환의 1차 선별검사이며 피질골 종양이나 골절 평가에 필수적입니다.\n• **[정답 도출 과정]**: 단순 X-선 촬영의 2차원 중첩 원리를 정확히 기술한 ④번이 정답입니다.",
       "differential": "• ① 일반촬영검사에서는 앞쪽 피질골(Cortical bone)과 골수강(Bone marrow trabeculae), 뒤쪽 피질골이 겹쳐서 중첩된 음영(Summation)을 보인다. ✓ [정답]: 단순 X-선 촬영은 X-선 빔이 통과하는 경로상의 앞쪽 피질골, 해면골(골수강), 뒤쪽 피질골이 한 평면에 투영되어 서로 겹치는 음영 중첩(Summation)을 보이는 것이 물리적 기본 특성입니다.\n• ② 정상에 비해 검게 보이는 경우를 음영의 증가, 하얗게 보이는 경우를 음영의 감소라 부른다. ✗ [오답]: 정상보다 검게(Radiolucent) 보이는 것은 X-선 투과가 증가한 음영의 감소(골밀도 감소·골융해)이며, 하얗게(Radiopaque) 보이는 것이 X-선 흡수가 많은 음영의 증가(골경화)입니다.\n• ③ 과거에 주로 사용된 방법으로 현재는 모든 골격계 질환에서 CT와 MRI로 완전히 대치되었다. ✗ [오답]: CT와 MRI의 발전에도 불구하고 단순 X-선 촬영은 낮은 비용, 빠른 검사, 골절 선별 및 골종양의 변연·기질·골막반응 평가에서 여전히 가장 먼저 시행하는 1차 표준 검사입니다.\n• ④ 국소적으로 음영이 감소된 소견은 골 형성(Bone formation)의 증가를 의미한다. ✗ [오답]: 국소적으로 음영이 감소된 소견(골융해성 병변, Osteolytic lesion)은 뼈 조직이 녹거나 파괴됨을 의미하며, 골 형성 증가 시에는 반대로 하얀 음영 증가(Osteoblastic/sclerotic)가 보입니다.\n• ⑤ 피질골에 생긴 골종양은 일반촬영으로 전혀 인지할 수 없어 항상 Bone scan이나 MRI를 먼저 시행해야 한다. ✗ [오답]: 피질골에 생긴 골종양(예: 유골골종, 비골화성 섬유종 등)은 단순촬영에서 피질 비후나 투과성 병소로 잘 관찰되므로, 먼저 일반촬영을 시행해 병변을 확인한 뒤 필요시 CT/MRI로 넘어갑니다.",
       "trap": "방사선 음영 표현에서 '하얗게 보임 = 음영 증가(Radiopacity/Increased density)', '검게 보임 = 음영 감소(Radiolucency/Decreased density)'를 거꾸로 해석하거나, CT/MRI 발전으로 X-선이 완전히 대체되었다는 오답 선지에 속기 쉽습니다.",
       "trigger": "【핵심 영상 판독 정리 & 감별 알고리즘】\n• 1. 단순 X-선 촬영(Plain radiography) 물리 및 판독 원칙:\n  - 음영 중첩(Summation): 전·후 피질골과 해면골이 2차원으로 겹치므로 최소 2방향 직각 촬영(AP + Lateral)이 필수.\n  - 음영 용어: 하얗다 = 음영 증가(Radiopaque, 골경화/골형성/석회화), 검다 = 음영 감소(Radiolucent, 골융해/골파괴/공기).\n  - 임상 위상: 골종양의 내부 기질(Matrix), 이행대(Zone of transition), 골막반응 평가에는 MRI보다도 단순촬영이 기본이 되는 1차 검사.",
       "kmle_link": "KMLE 영상의학 총론 - X선 영상 형성 원리 및 방사선 음영",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "일반촬영검사에서는 앞쪽 피질골(cortical bone)과 골수강(bone marrow trabeculi), 뒤쪽 피질골이 겹쳐서 중첩된 음영을 보인다.",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "단순 X-선 촬영은 X-선 빔이 통과하는 경로상의 앞쪽 피질골, 해면골(골수강), 뒤쪽 피질골이 한 평면에 투영되어 서로 겹치는 음영 중첩(Summation)을 보이는 것이 물리적 기본 특성입니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "뼈의 일반촬영검사에서는 정상에 비해 검게 보이는 경우 음영의 증가, 하얗게 보이는 경우 음영의 감소라 이른다.",
+          "option": "① 뼈의 일반촬영검사에서는 정상에 비해 검게 보이는 경우 음영의 증가, 하얗게 보이는 경우 음영의 감소라 이른다.",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "정상보다 검게(Radiolucent) 보이는 것은 X-선 투과가 증가한 음영의 감소(골밀도 감소·골융해)이며, 하얗게(Radiopaque) 보이는 것이 X-선 흡수가 많은 음영의 증가(골경화)입니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "뼈의 일반촬영검사는 이전에 주로 사용된 진단방법으로 현재는 대부분의 경우 CT와 MRI로 대치되었다.",
+          "option": "② 뼈의 일반촬영검사에서는 이전에 주로 사용된 진단방법으로 현재는 대부분의 경우 CT와 MRI로 대치되었다.",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "뼈의 일반촬영검사는 이전에 주로 사용된 진단방법으로 현재는 대부분의 경우 CT와 MRI로 대치되었다. 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "뼈의 일반촬영검사상 부분적으로 그 음영이 감소된 경우 뼈의 증가된 형성을 의미한다.",
+          "option": "③ 뼈의 일반촬영검사상 부분적으로 그 음영이 감소된 경우 뼈의 증가된 형성을 의미한다.",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "뼈의 일반촬영검사상 부분적으로 그 음영이 감소된 경우 뼈의 증가된 형성을 의미한다. 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "피질에 생긴 골종양의 경우 일반촬영으로는 병변을 인지하기 어려워 병변의 존재를 알기 위해서는 bone scan이나 MRI를 시행한다.",
+          "option": "④ 일반촬영검사에서는 앞쪽 피질골(cortical bone)과 골수강(bonemarrow trabeculi), 뒤쪽 피질골이 겹쳐서 중첩된 음영을 보인다.",
+          "is_correct": true,
+          "reason": "단순 X-선 촬영은 X-선 빔이 통과하는 경로상의 앞쪽 피질골, 해면골(골수강), 뒤쪽 피질골이 한 평면에 투영되어 서로 겹치는 음영 중첩(Summation)을 보이는 것이 물리적 기본 특성입니다."
+        },
+        {
+          "option": "⑤ 피질에 생긴 골종양의 경우 일반촬영으로는 병변을 인지하기 어려워 병변의 존재를 알기 위해서는 bone scan이나 MRI를 시행한다.",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "피질에 생긴 골종양의 경우 일반촬영으로는 병변을 인지하기 어려워 병변의 존재를 알기 위해서는 bone scan이나 MRI를 시행한다. 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         }
       ],
@@ -311840,43 +311825,28 @@ window.ALL_QUESTIONS = [
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "일반촬영검사에서는 앞쪽 피질골(cortical bone)과 골수강(bone marrow trabeculi), 뒤쪽 피질골이 겹쳐서 중첩된 음영을 보인다.",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "단순 X-선 촬영은 X-선 빔이 통과하는 경로상의 앞쪽 피질골, 해면골(골수강), 뒤쪽 피질골이 한 평면에 투영되어 서로 겹치는 음영 중첩(Summation)을 보이는 것이 물리적 기본 특성입니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "뼈의 일반촬영검사에서는 정상에 비해 검게 보이는 경우 음영의 증가, 하얗게 보이는 경우 음영의 감소라 이른다.",
+        "option": "① 뼈의 일반촬영검사에서는 정상에 비해 검게 보이는 경우 음영의 증가, 하얗게 보이는 경우 음영의 감소라 이른다.",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "정상보다 검게(Radiolucent) 보이는 것은 X-선 투과가 증가한 음영의 감소(골밀도 감소·골융해)이며, 하얗게(Radiopaque) 보이는 것이 X-선 흡수가 많은 음영의 증가(골경화)입니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "뼈의 일반촬영검사는 이전에 주로 사용된 진단방법으로 현재는 대부분의 경우 CT와 MRI로 대치되었다.",
+        "option": "② 뼈의 일반촬영검사에서는 이전에 주로 사용된 진단방법으로 현재는 대부분의 경우 CT와 MRI로 대치되었다.",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "뼈의 일반촬영검사는 이전에 주로 사용된 진단방법으로 현재는 대부분의 경우 CT와 MRI로 대치되었다. 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "뼈의 일반촬영검사상 부분적으로 그 음영이 감소된 경우 뼈의 증가된 형성을 의미한다.",
+        "option": "③ 뼈의 일반촬영검사상 부분적으로 그 음영이 감소된 경우 뼈의 증가된 형성을 의미한다.",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "뼈의 일반촬영검사상 부분적으로 그 음영이 감소된 경우 뼈의 증가된 형성을 의미한다. 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "피질에 생긴 골종양의 경우 일반촬영으로는 병변을 인지하기 어려워 병변의 존재를 알기 위해서는 bone scan이나 MRI를 시행한다.",
+        "option": "④ 일반촬영검사에서는 앞쪽 피질골(cortical bone)과 골수강(bonemarrow trabeculi), 뒤쪽 피질골이 겹쳐서 중첩된 음영을 보인다.",
+        "is_correct": true,
+        "reason": "단순 X-선 촬영은 X-선 빔이 통과하는 경로상의 앞쪽 피질골, 해면골(골수강), 뒤쪽 피질골이 한 평면에 투영되어 서로 겹치는 음영 중첩(Summation)을 보이는 것이 물리적 기본 특성입니다."
+      },
+      {
+        "option": "⑤ 피질에 생긴 골종양의 경우 일반촬영으로는 병변을 인지하기 어려워 병변의 존재를 알기 위해서는 bone scan이나 MRI를 시행한다.",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "피질에 생긴 골종양의 경우 일반촬영으로는 병변을 인지하기 어려워 병변의 존재를 알기 위해서는 bone scan이나 MRI를 시행한다. 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       }
     ],
@@ -312619,17 +312589,17 @@ window.ALL_QUESTIONS = [
       "images/영상의학과/19Y_Q23_fig1.png"
     ],
     "options": [
-      "① PTBD",
-      "② ERCP",
+      "① ERCP",
+      "② PTBD",
       "③ PCD"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① PTBD",
-    "answer": "① PTBD",
+    "correct_option_index": 1,
+    "correct_answer": "② PTBD",
+    "answer": "② PTBD",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -312644,34 +312614,25 @@ window.ALL_QUESTIONS = [
     "q_label": "인터벤션 06번",
     "explanation": {
       "title": "폐쇄성 황달 환자의 경피경간 담즙배액술(PTBD)",
-      "findings": "※ **[영상 대조 참고]**: 첨부된 투시 담관조영(PTBD cholangiography) 영상은 간 실질을 경유해 삽입된 돼지꼬리(Pigtail) 배액 카테터가 확장된 담도에 위치해 조영제가 충만되는 시술 장면을 보여줍니다.\n• **[모달리티 및 영상 소견 판독]**: 복부 영상(CT/MRCP)에서 간문부(Hilar) 담도 협착 또는 담관 결석에 의한 폐쇄 상방으로 양측 간내담관(IHBD)이 나뭇가지처럼 심하게 확장되어 있으며, 투시(Fluoroscopy) 영상에서는 우측 또는 좌측 늑간을 통해 간 실질을 천자하고 확장된 간내담관 내로 돼지꼬리 모양(Pigtail) 배액 카테터가 거치되어 조영제가 담도 내로 주입되는 소견이 관찰됩니다.\n• **[병태생리 및 감별 포인트]**: 폐쇄성 황달 환자에서 내시경적 담도 배액술(ERBD/ENBD)이 해부학적으로 어렵거나 간문부 악성 협착(Klatskin 종양)처럼 근위부 담관이 분리 폐쇄된 경우, 경피경간 담즙배액술(PTBD)을 시행해 체외(또는 십이지장 내외부)로 담즙을 감압시킵니다.\n• **[정답 도출 과정]**: 간내담관 확장과 간문부 폐쇄를 해소하는 투시 유도 담도 배액 시술은 ① 경피경간 담즙배액술(PTBD)입니다.",
+      "findings": "※ **[영상 대조 참고]**: 첨부된 투시 담관조영(PTBD cholangiography) 영상은 간 실질을 경유해 삽입된 돼지꼬리(Pigtail) 배액 카테터가 확장된 담도에 위치해 조영제가 충만되는 시술 장면을 보여줍니다.\n• **[모달리티 및 영상 소견 판독]**: 복부 영상(CT/MRCP)에서 간문부(Hilar) 담도 협착 또는 담관 결석에 의한 폐쇄 상방으로 양측 간내담관(IHBD)이 나뭇가지처럼 심하게 확장되어 있으며, 투시(Fluoroscopy) 영상에서는 우측 또는 좌측 늑간을 통해 간 실질을 천자하고 확장된 간내담관 내로 돼지꼬리 모양(Pigtail) 배액 카테터가 거치되어 조영제가 담도 내로 주입되는 소견이 관찰됩니다.\n• **[병태생리 및 감별 포인트]**: 폐쇄성 황달 환자에서 내시경적 담도 배액술(ERBD/ENBD)이 해부학적으로 어렵거나 간문부 악성 협착(Klatskin 종양)처럼 근위부 담관이 분리 폐쇄된 경우, 경피경간 담즙배액술(PTBD)을 시행해 체외(또는 십이지장 내외부)로 담즙을 감압시킵니다.\n• **[정답 도출 과정]**: 간내담관 확장과 간문부 폐쇄를 해소하는 투시 유도 담도 배액 시술은 ② 경피경간 담즙배액술(PTBD)입니다.",
       "differential": "• ① 경피경간 담즙배액술 (Percutaneous transhepatic biliary drainage, PTBD) ✓ [정답]: 간문부 담도 협착과 상부 간내담관의 심한 확장으로 인한 폐쇄성 황달을 해소하기 위해 간 실질을 경피적으로 천자하여 담관에 카테터를 거치하는 시술은 경피경간 담즙배액술(PTBD)입니다.\n• ② 간동맥 색전술 (TAE) ✗ [오답]: 간동맥 색전술(TAE)은 간암이나 간출혈 시 간동맥 분지를 색전 물질로 막는 혈관 내 시술이므로 담도 폐쇄에 의한 황달을 해결할 수 없습니다.\n• ③ 경피적 농양 배액술 (PCD) ✗ [오답]: 경피적 농양 배액술(PCD)은 복강이나 간 실질 내에 국한된 농양 주머니에 배액관을 넣는 시술로, 담관 나무(Biliary tree) 내부를 감압하는 PTBD와 목적 및 표적이 다릅니다.\n• ④ 복수 천자술 (Paracentesis) ✗ [오답]: 복수 천자술(Paracentesis)은 복강 내에 고인 복수를 바늘로 뽑아내는 시술로, 확장된 간내담관 내의 울체된 담즙을 배액하지 못합니다.\n• ⑤ 간조직 생검술 (Liver biopsy) ✗ [오답]: 간조직 생검술(Liver biopsy)은 간 실질이나 종괴의 조직을 소량 채취해 병리 진단을 얻는 시술이지, 폐쇄성 황달의 담즙 정체를 해소하는 치료적 감압술이 아닙니다.",
       "trap": "농양강에 카테터를 넣는 PCD와 간내담관을 천자해 담즙을 빼내는 PTBD, 그리고 간암의 혈관을 막는 TAE의 투시 및 CT 유도 시술 명칭을 정확히 구별해야 합니다.",
       "trigger": "【핵심 영상 판독 정리 & 감별 알고리즘】\n• 1. 폐쇄성 황달 담도 감압 인터벤션 선택:\n  - 원위부 총담관 폐쇄(결석, 췌두부암): 내시경적 배액(ERCP: ENBD/ERBD) 우선.\n  - 근위부/간문부 폐쇄(Klatskin 종양), 위절제술 과거력 등으로 내시경 접근 불가, 패혈성 담관염 응급 감압: 경피경간 담즙배액술(PTBD) 선택.\n• 2. PTBD 투시 소견: 21G Chiba 바늘로 말초 간내담관 천자 → 조영제 주입해 확장된 담관 나무(Biliary tree) 확인 → 유도철사 통과 후 8~10Fr Pigtail 카테터 거치.",
       "kmle_link": "KMLE 소화기내과/인터벤션 - 담도 폐쇄의 중재적 치료(PTBD)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "PTBD",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "PTBD 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "ERCP",
+          "option": "① ERCP",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "ERCP 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "PCD",
+          "option": "② PTBD",
+          "is_correct": true,
+          "reason": "PTBD 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        },
+        {
+          "option": "③ PCD",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "PCD 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         }
       ],
@@ -312679,27 +312640,18 @@ window.ALL_QUESTIONS = [
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "PTBD",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "PTBD 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "ERCP",
+        "option": "① ERCP",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "ERCP 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "PCD",
+        "option": "② PTBD",
+        "is_correct": true,
+        "reason": "PTBD 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+      },
+      {
+        "option": "③ PCD",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "PCD 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       }
     ],
@@ -312720,16 +312672,16 @@ window.ALL_QUESTIONS = [
       "images/영상의학과/19Y_Q22_fig1.png"
     ],
     "options": [
-      "① 담도염이 동반된 담도폐쇄",
-      "② 급성담낭염"
+      "① 급성담낭염",
+      "② 담도염이 동반된 담도폐쇄"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① 담도염이 동반된 담도폐쇄",
-    "answer": "① 담도염이 동반된 담도폐쇄",
+    "correct_option_index": 1,
+    "correct_answer": "② 담도염이 동반된 담도폐쇄",
+    "answer": "② 담도염이 동반된 담도폐쇄",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 2,
     "rate": 33,
@@ -312753,40 +312705,28 @@ window.ALL_QUESTIONS = [
       "kmle_link": "KMLE 소화기내과 - 담관염의 진단과 응급 치료(담도 배액술)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "담도염이 동반된 담도폐쇄",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "담도염이 동반된 담도폐쇄 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+          "option": "① 급성담낭염",
+          "is_correct": false,
+          "reason": "급성담낭염 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "급성담낭염",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "급성담낭염 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+          "option": "② 담도염이 동반된 담도폐쇄",
+          "is_correct": true,
+          "reason": "담도염이 동반된 담도폐쇄 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "담도염이 동반된 담도폐쇄",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "담도염이 동반된 담도폐쇄 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        "option": "① 급성담낭염",
+        "is_correct": false,
+        "reason": "급성담낭염 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "급성담낭염",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "급성담낭염 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        "option": "② 담도염이 동반된 담도폐쇄",
+        "is_correct": true,
+        "reason": "담도염이 동반된 담도폐쇄 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       }
     ],
     "index": 2510,
@@ -312924,18 +312864,18 @@ window.ALL_QUESTIONS = [
       "images/영상의학과/19Y_Q25_fig1.png"
     ],
     "options": [
-      "① tubo-ovarian abscess",
-      "② mature cystic teratoma",
-      "③ serous cystadenoma",
-      "④ mucinous cystadenoma"
+      "① mature cystic teratoma",
+      "② serous cystadenoma",
+      "③ mucinous cystadenoma",
+      "④ tubo-ovarian abscess"
     ],
-    "correct_option_index": 1,
-    "correct_answer": "② mature cystic teratoma",
-    "answer": "② mature cystic teratoma",
+    "correct_option_index": 0,
+    "correct_answer": "① mature cystic teratoma",
+    "answer": "① mature cystic teratoma",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      1
+      0
     ],
     "freq_count": 1,
     "rate": 67,
@@ -312950,55 +312890,55 @@ window.ALL_QUESTIONS = [
     "q_label": "복부 02번",
     "explanation": {
       "title": "성숙 낭성 기형종(Mature Cystic Teratoma / Dermoid Cyst)의 골반 CT 소견",
-      "findings": "• **[모달리티 및 영상 소견 판독]**: 골반 조영증강 CT 축상면에서 좌측 자궁부속기(Adnexa)에 경계가 명확한 큰 낭성 종괴가 관찰되며, 종괴 내부 앞쪽에 피하지방과 동일한 매우 어두운 지방 음영(Fat attenuation, -20 ~ -120 HU)과 지방-액체 층(Fat-fluid level), 그리고 내측의 둥근 결절 구조(Rokitansky nodule / floating fat ball)가 확인됩니다.\n• **[병태생리 및 임상 주의]**: 난소 성숙 낭성 기형종(유피낭종, Dermoid cyst)은 외배엽·중배엽·내배엽 유래의 성숙 조직(지방, 모발, 치아/석회화 등)을 포함하며 가임기 여성의 가장 흔한 양성 난소 종양입니다. 종괴의 무게중심으로 인해 난소 염전(Ovarian torsion)을 일으켜 급성 하복부 통증으로 응급 내원할 수 있습니다.\n• **[정답 도출 과정]**: 골반 CT상 낭성 종괴 내부의 명확한 지방 음영(fat-fluid level) 및 Rokitansky nodule 소견에 따라 정답은 **② mature cystic teratoma**입니다.",
+      "findings": "• **[모달리티 및 영상 소견 판독]**: 골반 조영증강 CT 축상면에서 좌측 자궁부속기(Adnexa)에 경계가 명확한 큰 낭성 종괴가 관찰되며, 종괴 내부 앞쪽에 피하지방과 동일한 매우 어두운 지방 음영(Fat attenuation, -20 ~ -120 HU)과 지방-액체 층(Fat-fluid level), 그리고 내측의 둥근 결절 구조(Rokitansky nodule / floating fat ball)가 확인됩니다.\n• **[병태생리 및 임상 주의]**: 난소 성숙 낭성 기형종(유피낭종, Dermoid cyst)은 외배엽·중배엽·내배엽 유래의 성숙 조직(지방, 모발, 치아/석회화 등)을 포함하며 가임기 여성의 가장 흔한 양성 난소 종양입니다. 종괴의 무게중심으로 인해 난소 염전(Ovarian torsion)을 일으켜 급성 하복부 통증으로 응급 내원할 수 있습니다.\n• **[정답 도출 과정]**: 골반 CT상 낭성 종괴 내부의 명확한 지방 음영(fat-fluid level) 및 Rokitansky nodule 소견에 따라 정답은 **① mature cystic teratoma**입니다.",
       "differential": "• ① 성숙 낭성 기형종 ✓ [정답]: 정답입니다. 골반 조영 CT에서 좌측 부속기 낭성 종괴 내부에 지방(Fat) 저음영 성분과 지방-액체층(Fat-fluid level) 및 로키탄스키 결절(Rokitansky nodule) 양상의 내부 고형/석회화 성분이 관찰되며, 이는 난소 성숙 낭성 기형종(Mature cystic teratoma / Dermoid cyst)의 특이적 진단 소견입니다.\n• ② 장액성 낭선종 ✗ [오답]: 장액성 낭선종(Serous cystadenoma)은 얇은 벽을 가진 단순 물 음영(0~20 HU)의 단방성 또는 소수 격벽의 낭종으로 나타나며 내부에 지방 음영이 관찰되지 않습니다.\n• ③ 점액성 낭선종 ✗ [오답]: 점액성 낭선종(Mucinous cystadenoma)은 흔히 크기가 큰 다방성(Multilocular) 낭종으로 각 방마다 점액 농도에 따른 감쇠도 차이(Stained glass appearance)를 보이지만 내부 지방 성분은 없습니다.\n• ④ 난관난소농양 ✗ [오답]: 난관난소농양(Tubo-ovarian abscess)은 두껍고 강하게 조영증강되는 벽과 주변 골반 지방 침윤(Fat stranding), 내강 내 가스가 동반되는 급성 감염성 병변으로, 기형종에서 보이는 순수 지방-액체층 및 피지 성분과 감별됩니다.\n• ⑤ 단순 난소 낭종 ✗ [오답]: 단순 난소 낭종(Simple ovarian cyst)은 격벽이나 고형 결절, 지방 음영이 전혀 없는 균일한 물 음영의 단방성 낭종입니다.",
       "trap": "CT에서 지방-액체층(Fat-fluid level)이 보일 때 위층의 검은 음영을 장관/농양 내 공기(Gas, -1000 HU)로 오인하면 난관난소농양(TOA)으로 오답을 선택하기 쉽습니다. 피하지방과 비슷한 어두운 음영인지, 주변 염증 침윤(Fat stranding)이 있는지를 함께 확인해야 합니다.",
       "trigger": "【핵심 영상 판독 정리 & 감별 알고리즘】\n• 난소 성숙 낭성 기형종(Mature Cystic Teratoma) 영상 특이 소견 3가지:\n  1. 낭종 내 지방 성분(Fat attenuation, CT상 -20 ~ -120 HU) 존재 → 기형종에 사실상 특이적(Pathognomonic)\n  2. 지방-액체층(Fat-fluid level) 또는 떠다니는 지방 구슬(Floating fat balls)\n  3. 로키탄스키 결절(Rokitansky nodule / Dermoid plug) 및 내부 치아·뼈 형태 석회화(Calcification)",
       "kmle_link": "KMLE 부인과 - 양성 난소 종양(성숙 낭성 기형종 및 난소 염전)",
       "option_explanations": [
         {
-          "option": "① tubo-ovarian abscess",
-          "is_correct": false,
-          "reason": "난관난소농양(TOA)은 두껍고 불규칙하게 조영증강되는 벽과 주변 골반 지방 침윤, 자궁천골인대 비후 및 다방성 고름 액체 저류를 보이나, 본 CT처럼 종괴 내부에 피하지방과 같은 음의 HU 지방 음영과 지방-액체 층을 형성하지는 않습니다."
-        },
-        {
-          "option": "② mature cystic teratoma",
+          "option": "① mature cystic teratoma",
           "is_correct": true,
           "reason": "정답입니다. 골반 CT에서 낭성 난소 종괴 내부에 피하지방과 동일한 어두운 지방 음영(fat attenuation), 지방-액체 층(fat-fluid level) 및 내부 결절(Rokitansky nodule)이 관찰되는 것은 성숙 낭성 기형종(Mature cystic teratoma)의 확진 소견입니다."
         },
         {
-          "option": "③ serous cystadenoma",
+          "option": "② serous cystadenoma",
           "is_correct": false,
           "reason": "장액성 낭선종(Serous cystadenoma)은 얇고 매끈한 벽을 가진 단방성 맑은 물 음영(0~20 HU) 낭종으로 내부 지방 음영이나 석회화 결절이 없습니다."
         },
         {
-          "option": "④ mucinous cystadenoma",
+          "option": "③ mucinous cystadenoma",
           "is_correct": false,
           "reason": "점액성 낭선종(Mucinous cystadenoma)은 크기가 매우 크고 다방성(multilocular)이며 격막과 각 방마다 서로 다른 점액 음영(stained-glass appearance)을 보이지만 내부 지방 음영은 관찰되지 않습니다."
+        },
+        {
+          "option": "④ tubo-ovarian abscess",
+          "is_correct": false,
+          "reason": "난관난소농양(TOA)은 두껍고 불규칙하게 조영증강되는 벽과 주변 골반 지방 침윤, 자궁천골인대 비후 및 다방성 고름 액체 저류를 보이나, 본 CT처럼 종괴 내부에 피하지방과 같은 음의 HU 지방 음영과 지방-액체 층을 형성하지는 않습니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "option": "① tubo-ovarian abscess",
-        "is_correct": false,
-        "reason": "난관난소농양(TOA)은 두껍고 불규칙하게 조영증강되는 벽과 주변 골반 지방 침윤, 자궁천골인대 비후 및 다방성 고름 액체 저류를 보이나, 본 CT처럼 종괴 내부에 피하지방과 같은 음의 HU 지방 음영과 지방-액체 층을 형성하지는 않습니다."
-      },
-      {
-        "option": "② mature cystic teratoma",
+        "option": "① mature cystic teratoma",
         "is_correct": true,
         "reason": "정답입니다. 골반 CT에서 낭성 난소 종괴 내부에 피하지방과 동일한 어두운 지방 음영(fat attenuation), 지방-액체 층(fat-fluid level) 및 내부 결절(Rokitansky nodule)이 관찰되는 것은 성숙 낭성 기형종(Mature cystic teratoma)의 확진 소견입니다."
       },
       {
-        "option": "③ serous cystadenoma",
+        "option": "② serous cystadenoma",
         "is_correct": false,
         "reason": "장액성 낭선종(Serous cystadenoma)은 얇고 매끈한 벽을 가진 단방성 맑은 물 음영(0~20 HU) 낭종으로 내부 지방 음영이나 석회화 결절이 없습니다."
       },
       {
-        "option": "④ mucinous cystadenoma",
+        "option": "③ mucinous cystadenoma",
         "is_correct": false,
         "reason": "점액성 낭선종(Mucinous cystadenoma)은 크기가 매우 크고 다방성(multilocular)이며 격막과 각 방마다 서로 다른 점액 음영(stained-glass appearance)을 보이지만 내부 지방 음영은 관찰되지 않습니다."
+      },
+      {
+        "option": "④ tubo-ovarian abscess",
+        "is_correct": false,
+        "reason": "난관난소농양(TOA)은 두껍고 불규칙하게 조영증강되는 벽과 주변 골반 지방 침윤, 자궁천골인대 비후 및 다방성 고름 액체 저류를 보이나, 본 CT처럼 종괴 내부에 피하지방과 같은 음의 HU 지방 음영과 지방-액체 층을 형성하지는 않습니다."
       }
     ],
     "index": 2512,
@@ -313017,19 +312957,20 @@ window.ALL_QUESTIONS = [
       "images/영상의학과/19Y_Q27_fig1.png"
     ],
     "options": [
-      "① crohns' dz",
-      "② Tb",
-      "③ UC",
-      "④ ischemic colitis",
-      "⑤ peritoneal carcinomatosis"
+      "A. Tb",
+      "B. crohns' dz",
+      "C. UC",
+      "D. ischemic colitis",
+      "E. peritoneal carcinomatosis",
+      "F. pseudomembranous colitis"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① crohns' dz",
-    "answer": "① crohns' dz",
+    "correct_option_index": 1,
+    "correct_answer": "B. crohns' dz",
+    "answer": "B. crohns' dz",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 4,
     "rate": 67,
@@ -313057,88 +312998,68 @@ window.ALL_QUESTIONS = [
       "kmle_link": "KMLE 소화기내과 - 염증성 장질환(크론병과 궤양성 대장염의 영상 감별)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "crohns' dz",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "crohns' dz 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "Tb",
+          "option": "A. Tb",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Tb 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "UC",
+          "option": "B. crohns' dz",
+          "is_correct": true,
+          "reason": "crohns' dz 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        },
+        {
+          "option": "C. UC",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "UC 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "ischemic colitis",
+          "option": "D. ischemic colitis",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "ischemic colitis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "peritoneal carcinomatosis",
+          "option": "E. peritoneal carcinomatosis",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "peritoneal carcinomatosis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        },
+        {
+          "option": "F. pseudomembranous colitis",
+          "is_correct": false,
+          "reason": "위막성 대장염(Pseudomembranous colitis)은 항생제 사용 후 C. difficile 감염으로 대장 점막에 위막이 형성되며 대장 벽 비후(accordion sign)를 보이나 말단 회장 조약돌 점막·누공 양상과는 다릅니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "crohns' dz",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "crohns' dz 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "Tb",
+        "option": "A. Tb",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Tb 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "UC",
+        "option": "B. crohns' dz",
+        "is_correct": true,
+        "reason": "crohns' dz 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+      },
+      {
+        "option": "C. UC",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "UC 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "ischemic colitis",
+        "option": "D. ischemic colitis",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "ischemic colitis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "peritoneal carcinomatosis",
+        "option": "E. peritoneal carcinomatosis",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "peritoneal carcinomatosis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+      },
+      {
+        "option": "F. pseudomembranous colitis",
+        "is_correct": false,
+        "reason": "위막성 대장염(Pseudomembranous colitis)은 항생제 사용 후 C. difficile 감염으로 대장 점막에 위막이 형성되며 대장 벽 비후(accordion sign)를 보이나 말단 회장 조약돌 점막·누공 양상과는 다릅니다."
       }
     ],
     "index": 2513,
@@ -313278,18 +313199,18 @@ window.ALL_QUESTIONS = [
       "images/영상의학과/19Y_Q29_fig1.png"
     ],
     "options": [
-      "① Pancreatic adenocarcinoma",
-      "② IPMN",
+      "① IPMN",
+      "② Pancreatic adenocarcinoma",
       "③ acute pancreatitis",
       "④ chronic pancreatitis"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Pancreatic adenocarcinoma",
-    "answer": "① Pancreatic adenocarcinoma",
+    "correct_option_index": 1,
+    "correct_answer": "② Pancreatic adenocarcinoma",
+    "answer": "② Pancreatic adenocarcinoma",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 2,
     "rate": 33,
@@ -313306,42 +313227,30 @@ window.ALL_QUESTIONS = [
     "q_label": "복부 05번",
     "explanation": {
       "title": "췌장관 선암종(Pancreatic Adenocarcinoma)의 다위상 CT 소견",
-      "findings": "※ **[영상 대조 참고]**: 문항에는 췌장 두부로 기술되어 있으나, 실제 첨부된 복부 조영 CT에서는 **췌장 체·미부(Pancreatic body/tail)**에 비장 혈관과 연접한 저혈관성 종괴가 관찰됩니다.\n• **[모달리티 및 영상 소견 판독]**: 췌장 다위상(Multiphasic) 조영증강 CT에서 췌장 실질기/문맥기에 정상 췌장 실질이 밝게 조영증강되는 것과 대조적으로, 경계가 불규칙하고 조영증강이 저하된 저음영(Hypovascular) 종괴가 확인됩니다. 종괴 상류(미부 방향)의 주췌관(Main pancreatic duct)이 급격히 끊기며 균일하게 확장되고, 췌두부 침범 시 총담관이 함께 늘어나는 이중관 징후(Double duct sign)와 원위부 췌실질 위축, 비장정맥·상장간막동맥 등 주변 혈관 침범이 흔히 동반됩니다.\n• **[병태생리 및 감별 포인트]**: 췌장관 선암종(PDAC)은 풍부한 섬유화 간질(Desmoplastic reaction)과 낮은 미세혈관 밀도 때문에 췌장 실질기에서 뚜렷한 저음영 종괴로 보입니다. 반면 췌장 신경내분비종양(NET)은 동맥기에서 강하게 조영증강되는 고혈관성(Hypervascular) 종괴로 감별됩니다.\n• **[정답 도출 과정]**: 65세 남성의 체중 감소와 상복부 통증, 저음영 췌장 종괴 및 주췌관 확장 소견으로 ① 췌장관 선암종을 도출합니다.",
+      "findings": "※ **[영상 대조 참고]**: 문항에는 췌장 두부로 기술되어 있으나, 실제 첨부된 복부 조영 CT에서는 **췌장 체·미부(Pancreatic body/tail)**에 비장 혈관과 연접한 저혈관성 종괴가 관찰됩니다.\n• **[모달리티 및 영상 소견 판독]**: 췌장 다위상(Multiphasic) 조영증강 CT에서 췌장 실질기/문맥기에 정상 췌장 실질이 밝게 조영증강되는 것과 대조적으로, 경계가 불규칙하고 조영증강이 저하된 저음영(Hypovascular) 종괴가 확인됩니다. 종괴 상류(미부 방향)의 주췌관(Main pancreatic duct)이 급격히 끊기며 균일하게 확장되고, 췌두부 침범 시 총담관이 함께 늘어나는 이중관 징후(Double duct sign)와 원위부 췌실질 위축, 비장정맥·상장간막동맥 등 주변 혈관 침범이 흔히 동반됩니다.\n• **[병태생리 및 감별 포인트]**: 췌장관 선암종(PDAC)은 풍부한 섬유화 간질(Desmoplastic reaction)과 낮은 미세혈관 밀도 때문에 췌장 실질기에서 뚜렷한 저음영 종괴로 보입니다. 반면 췌장 신경내분비종양(NET)은 동맥기에서 강하게 조영증강되는 고혈관성(Hypervascular) 종괴로 감별됩니다.\n• **[정답 도출 과정]**: 65세 남성의 체중 감소와 상복부 통증, 저음영 췌장 종괴 및 주췌관 확장 소견으로 ② 췌장관 선암종을 도출합니다.",
       "differential": "• ① 췌장관 선암종 (Pancreatic ductal adenocarcinoma) ✓ [정답]: 체중 감소를 동반한 고령 환자에서 다위상 CT상 정상 실질보다 덜 조영증강되는 저음영 종괴, 주췌관·총담관의 동시 확장(Double duct sign) 및 실질 위축이 관찰되는 것은 췌장관 선암종의 전형적 소견입니다.\n• ② 췌관내유두상점액종양 (IPMN) ✗ [오답]: 췌관내유두상점액종양(IPMN)은 점액을 생성하는 유두상 종양이 췌관과 직접 교통하는 낭성 병변으로 관찰되며, 저음영 침윤성 고형 종괴와 급격한 관 폐쇄 양상과는 구별됩니다.\n• ③ 급성 췌장염 (Acute pancreatitis) ✗ [오답]: 급성 췌장염은 췌장 실질의 미만성 종대와 경계 불명확화, 췌장 주위 지방 침윤(Peripancreatic fat stranding) 및 액체 저류가 특징이며 국소 저혈관성 종괴나 만성적 체중 감소와는 맞지 않습니다.\n• ④ 만성 석회화 췌장염 (Chronic calcifying pancreatitis) ✗ [오답]: 만성 석회화 췌장염은 췌장 실질 내 다발성 점상 석회화와 염주 모양으로 불규칙하게 구불구불 확장된 주췌관이 보이지만, 단일 저음영 종괴에 의한 급격한 관 단절과는 다릅니다.\n• ⑤ 췌장 신경내분비종양 (Pancreatic NET) ✗ [오답]: 췌장 신경내분비종양(PanNET)은 혈관이 매우 풍부하여 동맥기(Arterial phase)에서 주변 췌장 실질보다 훨씬 밝게 조영증강되는 경계가 명확한 고음영 결절로 나타나므로 저음영 선암종과 반대입니다.",
       "trap": "췌장관 선암종은 섬유화가 많아 '저음영(Hypovascular)' 종괴로 보이고, 신경내분비종양(NET)은 '과혈관성 고음영(Hypervascular)' 종괴로 보인다는 조영증강 패턴의 정반대 특성을 혼동하지 말아야 합니다.",
       "trigger": "【핵심 영상 판독 정리 & 감별 알고리즘】\n• 1. 췌장 다위상 CT 종괴 감별 3대장:\n  - 췌장관 선암종(PDAC): 경계 불명확한 저혈관성 저음영(Hypovascular) + 주췌관 단절 및 확장(Double duct sign) + 원위부 췌실질 위축 + 혈관 침범(SMA/CA/SMV).\n  - 췌장 신경내분비종양(PanNET): 경계가 비교적 명확한 동맥기 강한 조영증강(Hypervascular) 고형 종괴.\n  - IPMN(췌관내유두상점액종양): 고형 종괴 없이 주췌관 또는 분지췌관과 연결된 낭성 확장(Grape-like).\n• 2. 절제 가능성 판정 핵심: 상장간막동맥(SMA) 및 복강동맥(Celiac axis) 180도 이상 침범 여부 확인.",
       "kmle_link": "KMLE 소화기내과 - 췌장 종양(췌장선암종의 영상의학적 진단)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "Pancreatic adenocarcinoma",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "Pancreatic adenocarcinoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "IPMN",
+          "option": "① IPMN",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "IPMN 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "acute pancreatitis",
+          "option": "② Pancreatic adenocarcinoma",
+          "is_correct": true,
+          "reason": "Pancreatic adenocarcinoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        },
+        {
+          "option": "③ acute pancreatitis",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "acute pancreatitis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "chronic pancreatitis",
+          "option": "④ chronic pancreatitis",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "chronic pancreatitis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         }
       ],
@@ -313349,35 +313258,23 @@ window.ALL_QUESTIONS = [
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "Pancreatic adenocarcinoma",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "Pancreatic adenocarcinoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "IPMN",
+        "option": "① IPMN",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "IPMN 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "acute pancreatitis",
+        "option": "② Pancreatic adenocarcinoma",
+        "is_correct": true,
+        "reason": "Pancreatic adenocarcinoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+      },
+      {
+        "option": "③ acute pancreatitis",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "acute pancreatitis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "chronic pancreatitis",
+        "option": "④ chronic pancreatitis",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "chronic pancreatitis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       }
     ],
@@ -313609,18 +313506,18 @@ window.ALL_QUESTIONS = [
       "images/영상의학과/19Y_Q30_fig2.png"
     ],
     "options": [
-      "① Internal debris",
-      "② anechoic lesion",
-      "③ Thin rim",
-      "④ Posterior enhancement"
+      "① anechoic lesion",
+      "② Thin rim",
+      "③ Posterior enhancement",
+      "④ Internal debris"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Internal debris",
-    "answer": "① Internal debris",
+    "correct_option_index": 3,
+    "correct_answer": "④ Internal debris",
+    "answer": "④ Internal debris",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      3
     ],
     "freq_count": 1,
     "rate": 17,
@@ -313642,72 +313539,48 @@ window.ALL_QUESTIONS = [
       "kmle_link": "KMLE 소화기내과 - 간의 양성 낭성 병변(단순 간낭종의 초음파 기준)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "Internal debris",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "Internal debris 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "anechoic lesion",
+          "option": "① anechoic lesion",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "anechoic lesion 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "Thin rim",
+          "option": "② Thin rim",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Thin rim 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "Posterior enhancement",
+          "option": "③ Posterior enhancement",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Posterior enhancement 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        },
+        {
+          "option": "④ Internal debris",
+          "is_correct": true,
+          "reason": "Internal debris 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "Internal debris",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "Internal debris 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "anechoic lesion",
+        "option": "① anechoic lesion",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "anechoic lesion 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "Thin rim",
+        "option": "② Thin rim",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Thin rim 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "Posterior enhancement",
+        "option": "③ Posterior enhancement",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Posterior enhancement 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+      },
+      {
+        "option": "④ Internal debris",
+        "is_correct": true,
+        "reason": "Internal debris 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       }
     ],
     "index": 2518,
@@ -313724,19 +313597,19 @@ window.ALL_QUESTIONS = [
     "stem": "간의 section과 segment의 matching으로 옳은 것은?",
     "images": [],
     "options": [
-      "① Lt. lateral segment : segment 2 + segment 3",
-      "② Lt. Lateral segment: segment 1 + segment 2 + segment 3",
-      "③ Lt. Medial segment: segment 1 + segment 2 + segment 3",
+      "① Lt. Lateral segment: segment 1 + segment 2 + segment 3",
+      "② Lt. Medial segment: segment 1 + segment 2 + segment 3",
+      "③ Lt. lateral segment : segment 2 + segment 3",
       "④ Rt. Posterior segment: segment 5 + segment 6 + segment 7",
       "⑤ Lt. Anterior section: segment 5"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Lt. lateral segment : segment 2 + segment 3",
-    "answer": "① Lt. lateral segment : segment 2 + segment 3",
+    "correct_option_index": 2,
+    "correct_answer": "③ Lt. lateral segment : segment 2 + segment 3",
+    "answer": "③ Lt. lateral segment : segment 2 + segment 3",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 1,
     "rate": 17,
@@ -313758,43 +313631,28 @@ window.ALL_QUESTIONS = [
       "kmle_link": "KMLE 외과/영상의학 - 간담도 해부학(쿠이노 간 분절 체계)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "Lt. lateral segment : segment 2 + segment 3",
+          "option": "① Lt. Lateral segment: segment 1 + segment 2 + segment 3",
+          "is_correct": false,
+          "reason": "쿠이노 해부학에서 좌간정맥 및 겸상인대 왼쪽에 위치한 좌외측 구역(Left lateral section)은 문맥 분기면 위쪽의 S2와 아래쪽의 S3 두 분절로 구성됩니다."
+        },
+        {
+          "option": "② Lt. Medial segment: segment 1 + segment 2 + segment 3",
+          "is_correct": false,
+          "reason": "쿠이노 해부학에서 좌간정맥 및 겸상인대 왼쪽에 위치한 좌외측 구역(Left lateral section)은 문맥 분기면 위쪽의 S2와 아래쪽의 S3 두 분절로 구성됩니다."
+        },
+        {
+          "option": "③ Lt. lateral segment : segment 2 + segment 3",
           "is_correct": true,
-          "tag": "정답",
           "reason": "쿠이노 해부학에서 좌간정맥 및 겸상인대 왼쪽에 위치한 좌외측 구역(Left lateral section)은 문맥 분기면 위쪽의 S2와 아래쪽의 S3 두 분절로 구성됩니다."
         },
         {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "Lt. Lateral segment: segment 1 + segment 2 + segment 3",
+          "option": "④ Rt. Posterior segment: segment 5 + segment 6 + segment 7",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "쿠이노 해부학에서 좌간정맥 및 겸상인대 왼쪽에 위치한 좌외측 구역(Left lateral section)은 문맥 분기면 위쪽의 S2와 아래쪽의 S3 두 분절로 구성됩니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "Lt. Medial segment: segment 1 + segment 2 + segment 3",
+          "option": "⑤ Lt. Anterior section: segment 5",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "쿠이노 해부학에서 좌간정맥 및 겸상인대 왼쪽에 위치한 좌외측 구역(Left lateral section)은 문맥 분기면 위쪽의 S2와 아래쪽의 S3 두 분절로 구성됩니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "Rt. Posterior segment: segment 5 + segment 6 + segment 7",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "쿠이노 해부학에서 좌간정맥 및 겸상인대 왼쪽에 위치한 좌외측 구역(Left lateral section)은 문맥 분기면 위쪽의 S2와 아래쪽의 S3 두 분절로 구성됩니다."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "Lt. Anterior section: segment 5",
-          "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Lt. Anterior section: segment 5 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         }
       ],
@@ -313802,43 +313660,28 @@ window.ALL_QUESTIONS = [
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "Lt. lateral segment : segment 2 + segment 3",
+        "option": "① Lt. Lateral segment: segment 1 + segment 2 + segment 3",
+        "is_correct": false,
+        "reason": "쿠이노 해부학에서 좌간정맥 및 겸상인대 왼쪽에 위치한 좌외측 구역(Left lateral section)은 문맥 분기면 위쪽의 S2와 아래쪽의 S3 두 분절로 구성됩니다."
+      },
+      {
+        "option": "② Lt. Medial segment: segment 1 + segment 2 + segment 3",
+        "is_correct": false,
+        "reason": "쿠이노 해부학에서 좌간정맥 및 겸상인대 왼쪽에 위치한 좌외측 구역(Left lateral section)은 문맥 분기면 위쪽의 S2와 아래쪽의 S3 두 분절로 구성됩니다."
+      },
+      {
+        "option": "③ Lt. lateral segment : segment 2 + segment 3",
         "is_correct": true,
-        "tag": "정답",
         "reason": "쿠이노 해부학에서 좌간정맥 및 겸상인대 왼쪽에 위치한 좌외측 구역(Left lateral section)은 문맥 분기면 위쪽의 S2와 아래쪽의 S3 두 분절로 구성됩니다."
       },
       {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "Lt. Lateral segment: segment 1 + segment 2 + segment 3",
+        "option": "④ Rt. Posterior segment: segment 5 + segment 6 + segment 7",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "쿠이노 해부학에서 좌간정맥 및 겸상인대 왼쪽에 위치한 좌외측 구역(Left lateral section)은 문맥 분기면 위쪽의 S2와 아래쪽의 S3 두 분절로 구성됩니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "Lt. Medial segment: segment 1 + segment 2 + segment 3",
+        "option": "⑤ Lt. Anterior section: segment 5",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "쿠이노 해부학에서 좌간정맥 및 겸상인대 왼쪽에 위치한 좌외측 구역(Left lateral section)은 문맥 분기면 위쪽의 S2와 아래쪽의 S3 두 분절로 구성됩니다."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "Rt. Posterior segment: segment 5 + segment 6 + segment 7",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "쿠이노 해부학에서 좌간정맥 및 겸상인대 왼쪽에 위치한 좌외측 구역(Left lateral section)은 문맥 분기면 위쪽의 S2와 아래쪽의 S3 두 분절로 구성됩니다."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "Lt. Anterior section: segment 5",
-        "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Lt. Anterior section: segment 5 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       }
     ],
@@ -313994,18 +313837,18 @@ window.ALL_QUESTIONS = [
       "images/영상의학과/19Y_Q34_fig1.png"
     ],
     "options": [
-      "① Acute cholecystitis",
-      "② Acute pancreatitis",
-      "③ Choledochal cyst",
+      "① Acute pancreatitis",
+      "② Choledochal cyst",
+      "③ Acute cholecystitis",
       "④ Cholangiocarcinoma"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Acute cholecystitis",
-    "answer": "① Acute cholecystitis",
+    "correct_option_index": 2,
+    "correct_answer": "③ Acute cholecystitis",
+    "answer": "③ Acute cholecystitis",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 1,
     "rate": 17,
@@ -314020,42 +313863,30 @@ window.ALL_QUESTIONS = [
     "q_label": "복부 11번",
     "explanation": {
       "title": "급성 담낭염(Acute Cholecystitis)의 초음파 소견",
-      "findings": "• **[모달리티 및 영상 소견 판독]**: 우상복부 간담도 초음파(Hepatobiliary US)에서 팽창된 담낭 내부에 후방 음향 음영(Posterior acoustic shadowing)을 동반한 고에코성 담석(특히 담낭 경부/담낭관 감돈석)과 중력 방향에 층을 이룬 담낭 슬러지가 보입니다. 담낭벽이 3mm 이상 두꺼워지면서 벽 내 부종으로 인한 층상 저에코(Striated/layered wall thickening)가 관찰되고, 담낭 주위 액체 저류(Pericholecystic fluid) 및 초음파 탐촉자로 담낭을 직접 압박할 때 심한 압통(Sonographic Murphy's sign 양성)이 확인됩니다.\n• **[병태생리 및 감별 포인트]**: 담석이 담낭 경부나 담낭관을 막아 담즙 배출이 차단되면 담낭 내압 상승과 정맥·림프 울혈, 이차 세균 감염으로 급성 결석성 담낭염이 발생합니다. 담석 감돈 + 벽 비후(>3mm) + 담낭 팽창 + Sonographic Murphy's sign 양성은 초음파 진단의 최고 특이 소견입니다.\n• **[정답 도출 과정]**: 제시된 초음파 4대 징후와 우상복부 통증·발열 임상상에서 ① 급성 담낭염이 확진됩니다.",
+      "findings": "• **[모달리티 및 영상 소견 판독]**: 우상복부 간담도 초음파(Hepatobiliary US)에서 팽창된 담낭 내부에 후방 음향 음영(Posterior acoustic shadowing)을 동반한 고에코성 담석(특히 담낭 경부/담낭관 감돈석)과 중력 방향에 층을 이룬 담낭 슬러지가 보입니다. 담낭벽이 3mm 이상 두꺼워지면서 벽 내 부종으로 인한 층상 저에코(Striated/layered wall thickening)가 관찰되고, 담낭 주위 액체 저류(Pericholecystic fluid) 및 초음파 탐촉자로 담낭을 직접 압박할 때 심한 압통(Sonographic Murphy's sign 양성)이 확인됩니다.\n• **[병태생리 및 감별 포인트]**: 담석이 담낭 경부나 담낭관을 막아 담즙 배출이 차단되면 담낭 내압 상승과 정맥·림프 울혈, 이차 세균 감염으로 급성 결석성 담낭염이 발생합니다. 담석 감돈 + 벽 비후(>3mm) + 담낭 팽창 + Sonographic Murphy's sign 양성은 초음파 진단의 최고 특이 소견입니다.\n• **[정답 도출 과정]**: 제시된 초음파 4대 징후와 우상복부 통증·발열 임상상에서 ③ 급성 담낭염이 확진됩니다.",
       "differential": "• ① 급성 담낭염 (Acute cholecystitis) ✓ [정답]: 우상복부 통증과 발열 환자의 초음파에서 담낭 경부 감돈석, 3mm 이상의 담낭벽 비후, 담낭 주위 액체 저류 및 초음파 머피 징후 양성이 모두 확인되므로 급성 담낭염에 정확히 부합합니다.\n• ② 급성 췌장염 (Acute pancreatitis) ✗ [오답]: 급성 췌장염은 췌장 실질 종대와 주위 지방 침윤 및 혈청 아밀라아제·리파아제 상승이 주 소견이며, 담낭 경부 감돈석과 초음파 머피 징후 양성 소견을 설명하지 못합니다.\n• ③ 총담관 낭종 (Choledochal cyst) ✗ [오답]: 총담관 낭종은 간외담관(총담관)이 방추형이나 낭형으로 선천성 확장을 보이는 질환으로, 담낭 내부의 결석 감돈 및 급성 담낭벽 비후 소견과는 병변 위치와 기전이 다릅니다.\n• ④ 담관암 (Cholangiocarcinoma) ✗ [오답]: 담관암은 주로 폐쇄성 황달을 유발하며 담관 벽의 국소적 비후/협착과 상부 담관 확장을 보일 뿐, 담낭 경부 결석 감돈과 급성 염증성 머피 징후를 전형적으로 보이지 않습니다.\n• ⑤ 담낭 선근종증 (Adenomyomatosis) ✗ [오답]: 담낭 선근종증은 담낭벽 비후 내부에 Rokitansky-Aschoff 동에 의한 작은 무에코 낭종이나 혜성꼬리 인공물(Comet-tail artifact)이 보이는 양성 과형성 병변으로, 급성 발열이나 머피 징후가 없습니다.",
       "trap": "담낭벽 비후(>3mm) 자체는 급성 간염, 저알부민혈증, 심부전, 담낭 선근종증 등에서도 나타나는 비특이 소견이므로, 반드시 '담석 감돈 + Sonographic Murphy's sign + 담낭 주위 체액 저류'와 함께 종합해 급성 담낭염을 진단해야 합니다.",
       "trigger": "【핵심 영상 판독 정리 & 감별 알고리즘】\n• 1. 급성 담낭염(Acute cholecystitis) 초음파 핵심 소견:\n  ① 담석(특히 경부 감돈석) + 후방 음향 음영.\n  ② 담낭벽 비후 (>3mm, 부종에 의한 층상 구조).\n  ③ 담낭 팽창 (단경 >4cm, 장경 >8~10cm).\n  ④ 담낭 주위 체액 저류 (Pericholecystic fluid) & 벽 혈류 증가(도플러).\n  ⑤ Sonographic Murphy's sign 양성 (가장 예민·특이).\n• 2. 감별: 담낭 선근종증은 벽 비후 내 혜성꼬리 인공물(Comet-tail artifact / Rokitansky-Aschoff sinus) 특징.",
       "kmle_link": "KMLE 외과/소화기내과 - 담도 질환(급성 담낭염의 초음파 진단 기준)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "Acute cholecystitis",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "Acute cholecystitis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "Acute pancreatitis",
+          "option": "① Acute pancreatitis",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Acute pancreatitis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "Choledochal cyst",
+          "option": "② Choledochal cyst",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Choledochal cyst 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "Cholangiocarcinoma",
+          "option": "③ Acute cholecystitis",
+          "is_correct": true,
+          "reason": "Acute cholecystitis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        },
+        {
+          "option": "④ Cholangiocarcinoma",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Cholangiocarcinoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         }
       ],
@@ -314063,35 +313894,23 @@ window.ALL_QUESTIONS = [
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "Acute cholecystitis",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "Acute cholecystitis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "Acute pancreatitis",
+        "option": "① Acute pancreatitis",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Acute pancreatitis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "Choledochal cyst",
+        "option": "② Choledochal cyst",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Choledochal cyst 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "Cholangiocarcinoma",
+        "option": "③ Acute cholecystitis",
+        "is_correct": true,
+        "reason": "Acute cholecystitis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+      },
+      {
+        "option": "④ Cholangiocarcinoma",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Cholangiocarcinoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       }
     ],
@@ -315011,20 +314830,18 @@ window.ALL_QUESTIONS = [
     "category": "짤",
     "theme_title": "특발성 폐섬유증(IPF/UIP) 흉부 X선 및 HRCT 소견",
     "subspecialty": "흉부 영상의학",
-    "stem": "수개월간 서서히 진행하는 호흡곤란과 마른 기침으로 내원한 67세 남성의 흉부 HRCT 영상이다. 양측 폐 기저부 및 흉막하(Subpleural/Basal) 부위에 우세한 망상 음영(Reticulation)과 견인성 기관지확장증(Traction bronchiectasis), 다층성 벌집폐(Honeycombing)가 관찰될 때, 가장 합당한 진단은?",
+    "stem": "진단명으로 옳은 것은?(한글보기)",
     "images": [
       "images/영상의학과/19Y_Q04_fig1.png"
     ],
     "options": [
-      "① 특발성 폐섬유증 (Idiopathic pulmonary fibrosis, IPF / UIP pattern)",
-      "② 심인성 폐부종 (Cardiogenic pulmonary edema)",
-      "③ 급성 세균성 대엽성 폐렴 (Acute bacterial lobar pneumonia)",
-      "④ 폐포단백증 (Pulmonary alveolar proteinosis)",
-      "⑤ 과민성 폐렴 (Hypersensitivity pneumonitis, HP)"
+      "A. IPF",
+      "B. Pulmonary edema",
+      "C. Pneumonia"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 특발성 폐섬유증 (Idiopathic pulmonary fibrosis, IPF / UIP pattern)",
-    "answer": "① 특발성 폐섬유증",
+    "correct_answer": "A. IPF",
+    "answer": "A. IPF",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
@@ -315056,88 +314873,38 @@ window.ALL_QUESTIONS = [
       "kmle_link": "KMLE 호흡기내과 - 간질성 폐질환(특발성 폐섬유증 IPF의 HRCT 진단)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "특발성 폐섬유증 (Idiopathic pulmonary fibrosis, IPF / UIP pattern)",
+          "option": "A. IPF",
           "is_correct": true,
-          "tag": "정답",
-          "reason": "특발성 폐섬유증 (Idiopathic pulmonary fibrosis, IPF / UIP pattern) 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+          "reason": "정답입니다. 양측 폐 기저부 및 흉막하 우세의 망상 음영, 견인성 기관지확장증, 벌집폐(Honeycombing) 소견을 보이는 특발성 폐섬유증(UIP/IPF)에 해당합니다."
         },
         {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "심인성 폐부종 (Cardiogenic pulmonary edema)",
+          "option": "B. Pulmonary edema",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "심인성 폐부종 (Cardiogenic pulmonary edema) 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+          "reason": "심인성 폐부종은 중심성 나비 날개 모양 폐포 침윤, Kerley B 선, 심비대 및 흉막삼출을 보이며 벌집폐를 만들지 않습니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "급성 세균성 대엽성 폐렴 (Acute bacterial lobar pneumonia)",
+          "option": "C. Pneumonia",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "급성 세균성 대엽성 폐렴은 특정 폐엽을 채우는 급성 경화와 공기기관지 음영을 보이며, 수개월에 걸쳐 양측 하부 흉막하에 벌집폐와 견인성 기관지확장증을 형성하지 않습니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "폐포단백증 (Pulmonary alveolar proteinosis)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "폐포단백증 (Pulmonary alveolar proteinosis) 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "과민성 폐렴 (Hypersensitivity pneumonitis, HP)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "과민성 폐렴(HP)은 흡입 항원 노출력과 함께 상·중폐야 우세 분포, 경계 불명확한 소엽중심성 간유리 결절 및 호기 CT상 모자이크 공기포획(Air trapping)이 주 소견입니다."
+          "reason": "폐렴은 특정 폐엽 또는 분절에 급성 경결(consolidation)과 기관지 공기조영상을 보이며 양측 기저부 만성 섬유화 패턴과 다릅니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "특발성 폐섬유증 (Idiopathic pulmonary fibrosis, IPF / UIP pattern)",
+        "option": "A. IPF",
         "is_correct": true,
-        "tag": "정답",
-        "reason": "특발성 폐섬유증 (Idiopathic pulmonary fibrosis, IPF / UIP pattern) 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        "reason": "정답입니다. 양측 폐 기저부 및 흉막하 우세의 망상 음영, 견인성 기관지확장증, 벌집폐(Honeycombing) 소견을 보이는 특발성 폐섬유증(UIP/IPF)에 해당합니다."
       },
       {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "심인성 폐부종 (Cardiogenic pulmonary edema)",
+        "option": "B. Pulmonary edema",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "심인성 폐부종 (Cardiogenic pulmonary edema) 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        "reason": "심인성 폐부종은 중심성 나비 날개 모양 폐포 침윤, Kerley B 선, 심비대 및 흉막삼출을 보이며 벌집폐를 만들지 않습니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "급성 세균성 대엽성 폐렴 (Acute bacterial lobar pneumonia)",
+        "option": "C. Pneumonia",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "급성 세균성 대엽성 폐렴은 특정 폐엽을 채우는 급성 경화와 공기기관지 음영을 보이며, 수개월에 걸쳐 양측 하부 흉막하에 벌집폐와 견인성 기관지확장증을 형성하지 않습니다."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "폐포단백증 (Pulmonary alveolar proteinosis)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "폐포단백증 (Pulmonary alveolar proteinosis) 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "과민성 폐렴 (Hypersensitivity pneumonitis, HP)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "과민성 폐렴(HP)은 흡입 항원 노출력과 함께 상·중폐야 우세 분포, 경계 불명확한 소엽중심성 간유리 결절 및 호기 CT상 모자이크 공기포획(Air trapping)이 주 소견입니다."
+        "reason": "폐렴은 특정 폐엽 또는 분절에 급성 경결(consolidation)과 기관지 공기조영상을 보이며 양측 기저부 만성 섬유화 패턴과 다릅니다."
       }
     ],
     "index": 2529,
@@ -315151,20 +314918,17 @@ window.ALL_QUESTIONS = [
     "category": "짤",
     "theme_title": "활동성 폐결핵 의심 시 1차 확진 검사: 객담 항산균(AFB) 검사",
     "subspecialty": "흉부 영상의학",
-    "stem": "기침과 미열로 내원한 28세 여성의 흉부 X-선에서 우상엽의 경화 및 다발성 결절 침윤이 관찰되어 활동성 폐결핵이 의심된다. 결핵균의 배출 여부를 확인하고 진단을 확정하기 위해 가장 우선적으로 시행해야 할 기본 처치(검사)는?",
+    "stem": "진단을 위해 해야할 처치는?",
     "images": [
       "images/영상의학과/19Y_Q05_fig1.png"
     ],
     "options": [
-      "① 객담 항산균 도말 및 배양 검사 (Sputum AFB stain & culture)",
-      "② 경피적 폐 생검 (Percutaneous needle lung biopsy)",
-      "③ 개흉 폐 생검 (Open lung biopsy)",
-      "④ 흉막 천자 (Thoracentesis)",
-      "⑤ 관상동맥 조영술 (Coronary angiography)"
+      "A. 객담검사(AFB stain)",
+      "B. 흉부CT"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 객담 항산균 도말 및 배양 검사 (Sputum AFB stain & culture)",
-    "answer": "① 객담 항산균 도말 및 배양 검사",
+    "correct_answer": "A. 객담검사(AFB stain)",
+    "answer": "A. 객담검사(AFB stain)",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
@@ -315192,88 +314956,28 @@ window.ALL_QUESTIONS = [
       "kmle_link": "KMLE 호흡기내과 - 폐결핵(활동성 결핵의 진단 알고리즘)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "객담 항산균 도말 및 배양 검사 (Sputum AFB stain & culture)",
+          "option": "A. 객담검사(AFB stain)",
           "is_correct": true,
-          "tag": "정답",
-          "reason": "기침·미열과 우상엽 결절성 침윤으로 활동성 폐결핵이 의심될 때는 전염력(도말 양성 여부) 평가와 균 배양·약제감수성 확진을 위해 가장 먼저 비침습적인 객담 항산균(AFB) 도말 및 배양 검사를 시행해야 합니다."
+          "reason": "정답입니다. 활동성 폐결핵이 의심될 때 결핵균 검출 및 전염성 확인을 위해 가장 먼저 시행해야 할 기본 검사는 객담 항산균 도말 및 배양 검사(AFB stain & culture)입니다."
         },
         {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "경피적 폐 생검 (Percutaneous needle lung biopsy)",
+          "option": "B. 흉부CT",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "경피적 폐 생검 (Percutaneous needle lung biopsy) 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "개흉 폐 생검 (Open lung biopsy)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "개흉 폐 생검 (Open lung biopsy) 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "흉막 천자 (Thoracentesis)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "흉막 천자(Thoracentesis)는 흉막강 내에 흉수가 고여 결핵성 흉막염이 의심될 때 흉수 ADA와 세포 감별을 위해 시행하는 시술이며, 폐 실질 병변의 균 배출을 확인하는 검사가 아닙니다."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "관상동맥 조영술 (Coronary angiography)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "관상동맥 조영술은 협심증이나 심근경색 등 허혈성 심질환을 진단하고 스텐트 시술을 하기 위한 혈관 검사로 폐결핵 진단과는 전혀 관련이 없습니다."
+          "reason": "흉부 CT는 병변의 미세 구조나 공동·활동성 여부(Tree-in-bud)를 정밀 평가하는 데 유용하지만, 폐결핵 미생물학적 확진을 위한 1차 기본 검사는 객담 검사입니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "객담 항산균 도말 및 배양 검사 (Sputum AFB stain & culture)",
+        "option": "A. 객담검사(AFB stain)",
         "is_correct": true,
-        "tag": "정답",
-        "reason": "기침·미열과 우상엽 결절성 침윤으로 활동성 폐결핵이 의심될 때는 전염력(도말 양성 여부) 평가와 균 배양·약제감수성 확진을 위해 가장 먼저 비침습적인 객담 항산균(AFB) 도말 및 배양 검사를 시행해야 합니다."
+        "reason": "정답입니다. 활동성 폐결핵이 의심될 때 결핵균 검출 및 전염성 확인을 위해 가장 먼저 시행해야 할 기본 검사는 객담 항산균 도말 및 배양 검사(AFB stain & culture)입니다."
       },
       {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "경피적 폐 생검 (Percutaneous needle lung biopsy)",
+        "option": "B. 흉부CT",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "경피적 폐 생검 (Percutaneous needle lung biopsy) 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "개흉 폐 생검 (Open lung biopsy)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "개흉 폐 생검 (Open lung biopsy) 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "흉막 천자 (Thoracentesis)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "흉막 천자(Thoracentesis)는 흉막강 내에 흉수가 고여 결핵성 흉막염이 의심될 때 흉수 ADA와 세포 감별을 위해 시행하는 시술이며, 폐 실질 병변의 균 배출을 확인하는 검사가 아닙니다."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "관상동맥 조영술 (Coronary angiography)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "관상동맥 조영술은 협심증이나 심근경색 등 허혈성 심질환을 진단하고 스텐트 시술을 하기 위한 혈관 검사로 폐결핵 진단과는 전혀 관련이 없습니다."
+        "reason": "흉부 CT는 병변의 미세 구조나 공동·활동성 여부(Tree-in-bud)를 정밀 평가하는 데 유용하지만, 폐결핵 미생물학적 확진을 위한 1차 기본 검사는 객담 검사입니다."
       }
     ],
     "index": 2530,
@@ -315287,24 +314991,21 @@ window.ALL_QUESTIONS = [
     "category": "짤",
     "theme_title": "기흉(Pneumothorax) 발생 원인 감별 (폐기포 파열 vs 갈비뼈 골절)",
     "subspecialty": "흉부 영상의학",
-    "stem": "외상의 병력이 없는 22세 키 크고 마른 여성 환자가 휴식 중 갑자기 발생한 좌측 흉통과 호흡곤란으로 내원하였다. 흉부 X-선에서 좌측 기흉(Pneumothorax)이 확인되었을 때, 발생 원인으로 가장 합당한 것은?",
+    "stem": "젊은 여자. 원인이라고 생각되는 것은?",
     "images": [
       "images/영상의학과/19Y_Q06_fig1.png"
     ],
     "options": [
-      "① 폐첨부 흉막하 기포(Bleb/Bulla)의 파열",
-      "② 늑골(갈비뼈) 골절에 의한 폐 실질 열상",
-      "③ 기관지 확장증에 의한 기도 파열",
-      "④ 폐농양의 흉막강 내 파열",
-      "⑤ 횡격막 결손을 통한 탈장"
+      "A. 갈비뼈 골절",
+      "B. 기포 파열"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① 폐첨부 흉막하 기포(Bleb/Bulla)의 파열",
-    "answer": "① 폐첨부 흉막하 기포의 파열",
+    "correct_option_index": 1,
+    "correct_answer": "B. 기포 파열",
+    "answer": "B. 기포 파열",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 4,
     "rate": 83,
@@ -315332,88 +315033,28 @@ window.ALL_QUESTIONS = [
       "kmle_link": "KMLE 흉부외과/호흡기내과 - 흉막 질환(자연 기흉의 원인과 치료)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "폐첨부 흉막하 기포(Bleb/Bulla)의 파열",
+          "option": "A. 갈비뼈 골절",
+          "is_correct": false,
+          "reason": "갈비뼈(늑골) 골절에 의한 외상성 기흉은 명확한 흉부 둔상·골절 소견이 동반될 때 발생합니다."
+        },
+        {
+          "option": "B. 기포 파열",
           "is_correct": true,
-          "tag": "정답",
-          "reason": "기저 폐질환이나 외상이 없는 키 크고 마른 젊은 성인에서 갑자기 발생하는 원발성 자연 기흉은 거의 대부분 폐첨부(Apex) 흉막하에 존재하던 작은 기포(Bleb 또는 Bulla)가 파열되면서 유발됩니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "늑골(갈비뼈) 골절에 의한 폐 실질 열상",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "늑골 골절에 의한 폐 실질 열상은 흉부 둔상이나 교통사고 같은 외상성 기흉의 기전이므로, 외상 병력이 전혀 없는 환자의 자발성 기흉 원인과 맞지 않습니다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "기관지 확장증에 의한 기도 파열",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "기관지 확장증 자체는 만성 기침과 화농성 객담을 유발하는 기도 확장 질환이며, 급성 기도 파열로 원발성 자연 기흉을 일으키는 대표 기전이 아닙니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "폐농양의 흉막강 내 파열",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "폐농양의 흉막강 내 파열은 기흉 단독이 아니라 고름과 공기가 섞인 농기흉(Pyopneumothorax) 및 패혈증, 공기-액체층을 유발하며, 건강한 젊은 여성에서 발열 없이 생기지 않습니다."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "횡격막 결손을 통한 탈장",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "횡격막 결손을 통한 탈장(선천성 보흐달렉 탈장이나 외상성 탈장)은 복강 내 장기가 흉강으로 올라와 장내 가스 음영이 보이는 상태이지 흉막강 내 유리 공기인 기흉이 아닙니다."
+          "reason": "정답입니다. 외상력 없는 젊은 성인의 자발성 기흉(원발성 자연기흉)은 폐첨부 흉막하 기포(subpleural bleb/bulla) 파열이 가장 흔한 원인입니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "폐첨부 흉막하 기포(Bleb/Bulla)의 파열",
+        "option": "A. 갈비뼈 골절",
+        "is_correct": false,
+        "reason": "갈비뼈(늑골) 골절에 의한 외상성 기흉은 명확한 흉부 둔상·골절 소견이 동반될 때 발생합니다."
+      },
+      {
+        "option": "B. 기포 파열",
         "is_correct": true,
-        "tag": "정답",
-        "reason": "기저 폐질환이나 외상이 없는 키 크고 마른 젊은 성인에서 갑자기 발생하는 원발성 자연 기흉은 거의 대부분 폐첨부(Apex) 흉막하에 존재하던 작은 기포(Bleb 또는 Bulla)가 파열되면서 유발됩니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "늑골(갈비뼈) 골절에 의한 폐 실질 열상",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "늑골 골절에 의한 폐 실질 열상은 흉부 둔상이나 교통사고 같은 외상성 기흉의 기전이므로, 외상 병력이 전혀 없는 환자의 자발성 기흉 원인과 맞지 않습니다."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "기관지 확장증에 의한 기도 파열",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "기관지 확장증 자체는 만성 기침과 화농성 객담을 유발하는 기도 확장 질환이며, 급성 기도 파열로 원발성 자연 기흉을 일으키는 대표 기전이 아닙니다."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "폐농양의 흉막강 내 파열",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "폐농양의 흉막강 내 파열은 기흉 단독이 아니라 고름과 공기가 섞인 농기흉(Pyopneumothorax) 및 패혈증, 공기-액체층을 유발하며, 건강한 젊은 여성에서 발열 없이 생기지 않습니다."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "횡격막 결손을 통한 탈장",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "횡격막 결손을 통한 탈장(선천성 보흐달렉 탈장이나 외상성 탈장)은 복강 내 장기가 흉강으로 올라와 장내 가스 음영이 보이는 상태이지 흉막강 내 유리 공기인 기흉이 아닙니다."
+        "reason": "정답입니다. 외상력 없는 젊은 성인의 자발성 기흉(원발성 자연기흉)은 폐첨부 흉막하 기포(subpleural bleb/bulla) 파열이 가장 흔한 원인입니다."
       }
     ],
     "index": 2531,
@@ -315804,17 +315445,17 @@ window.ALL_QUESTIONS = [
       "images/영상의학과/19Y_Q42_fig1.png"
     ],
     "options": [
-      "① Hamartoma",
-      "② Cancer",
+      "① Cancer",
+      "② Hamartoma",
       "③ Fungus ball"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Hamartoma",
-    "answer": "① Hamartoma",
+    "correct_option_index": 1,
+    "correct_answer": "② Hamartoma",
+    "answer": "② Hamartoma",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -315836,27 +315477,18 @@ window.ALL_QUESTIONS = [
       "kmle_link": "KMLE 호흡기내과 - 고립성 폐결절(양성 폐결절 과오종의 영상 진단)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "Hamartoma",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "Hamartoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "Cancer",
+          "option": "① Cancer",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Cancer 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "Fungus ball",
+          "option": "② Hamartoma",
+          "is_correct": true,
+          "reason": "Hamartoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        },
+        {
+          "option": "③ Fungus ball",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Fungus ball 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         }
       ],
@@ -315864,27 +315496,18 @@ window.ALL_QUESTIONS = [
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "Hamartoma",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "Hamartoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "Cancer",
+        "option": "① Cancer",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Cancer 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "Fungus ball",
+        "option": "② Hamartoma",
+        "is_correct": true,
+        "reason": "Hamartoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+      },
+      {
+        "option": "③ Fungus ball",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Fungus ball 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       }
     ],
@@ -315899,18 +315522,18 @@ window.ALL_QUESTIONS = [
     "category": "짤",
     "theme_title": "고립성 폐결절(SPN) 발견 시 제1원칙: 이전 흉부 영상 비교",
     "subspecialty": "흉부 영상의학",
-    "stem": "건강검진 흉부 단순촬영에서 65세 남성의 폐 실질 내에 경계가 명확한 1.5cm 크기의 고립성 폐결절(Solitary pulmonary nodule, SPN)이 우연히 발견되었다. 이 결절의 성장 속도와 양악성 여부를 판정하기 위해 가장 먼저 시행해야 할 원칙적 조치는?",
+    "stem": "65세 남자가 SPN이 있었다. (SPN사진) 진단에 있어서 가장 우선으로 해야할 것은?",
     "images": [],
     "options": [
-      "① 과거에 촬영한 흉부 단순 X-선 및 CT 사진을 확보하여 크기 변화 비교",
-      "② 객담 세포진 검사 (Sputum cytology)",
-      "③ 객담 세균 배양 검사 (Sputum culture)",
-      "④ 즉각적인 경피적 폐 생검 (Percutaneous needle biopsy)",
-      "⑤ 전신 PET-CT 촬영"
+      "A. 예전 X-ray 가져와서 비교",
+      "B. Sputum cytology 검사",
+      "C. Sputum culture",
+      "D. Percutaneous Lung biopsy",
+      "E. 흉부 CT"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 과거에 촬영한 흉부 단순 X-선 및 CT 사진을 확보하여 크기 변화 비교",
-    "answer": "① 과거에 촬영한 흉부 단순 X-선 및 CT 사진을 확보하여 크기 변화 비교",
+    "correct_answer": "A. 예전 X-ray 가져와서 비교",
+    "answer": "A. 예전 X-ray 가져와서 비교",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
@@ -315940,88 +315563,58 @@ window.ALL_QUESTIONS = [
       "kmle_link": "KMLE 호흡기내과 - 고립성 폐결절(SPN의 단계별 진단 접근법)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "과거에 촬영한 흉부 단순 X-선 및 CT 사진을 확보하여 크기 변화 비교",
+          "option": "A. 예전 X-ray 가져와서 비교",
           "is_correct": true,
-          "tag": "정답",
-          "reason": "고립성 폐결절이 발견되면 과거 촬영된 흉부 X-선이나 CT를 구해 크기 변화와 부피 배가 시간(VDT)을 비교하는 것이 가장 먼저 해야 할 1차 원칙이며, 고형 결절이 2년 이상 변함없으면 양성으로 확정할 수 있습니다."
+          "reason": "정답입니다. 고립성 폐결절(SPN) 발견 시 불필요한 침습적 시술을 피하고 결절의 배가 시간(성장 여부)을 확인하기 위해 과거 흉부 X-ray와 비교하는 것이 최우선입니다(2년 이상 크기 변화 없으면 양성 시사)."
         },
         {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "객담 세포진 검사 (Sputum cytology)",
+          "option": "B. Sputum cytology 검사",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "객담 세포진 검사는 말초 폐 실질에 위치한 1.5cm 고립성 결절에 대한 민감도가 극도로 낮아(중심성 편평상피암에서만 일부 유용) 초기 표준 평가법으로 부적합합니다."
+          "reason": "객담 세포진 검사는 중심성 편평세포암에서는 도움이 되나 말초 고립성 폐결절의 1차 감별 민감도가 낮습니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "객담 세균 배양 검사 (Sputum culture)",
+          "option": "C. Sputum culture",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "객담 세균 배양 검사는 폐렴이나 결핵 감염을 확인할 때 쓰이나, 무증상 성인의 우연한 1.5cm SPN 양악성 판정이나 성장 속도 평가에 우선 시행하는 검사가 아닙니다."
+          "reason": "객담 배양 검사는 감염성 결핵·폐렴 감별용이며 무증상 SPN의 최우선 감별 단계가 아닙니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "즉각적인 경피적 폐 생검 (Percutaneous needle biopsy)",
+          "option": "D. Percutaneous Lung biopsy",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "경피적 폐 생검은 기흉·출혈 위험이 따르는 침습적 시술이므로, 과거 영상 비교와 흉부 CT·PET-CT를 통해 양성 가능성을 먼저 배제한 뒤에 필요시 시행해야 합니다."
+          "reason": "경피적 폐 생검은 과거 영상과 비교하거나 CT 추적·PET 평가를 거친 뒤 악성 의심 시 시행하는 침습적 검사입니다."
         },
         {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "전신 PET-CT 촬영",
+          "option": "E. 흉부 CT",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "전신 PET-CT는 고가이며 고립성 폐결절의 크기(≥8~10mm)와 성상(CT 확인) 평가, 과거 영상 비교 후에도 악성 여부가 불확실한 중등도 위험군에서 시행하는 이차 정밀검사입니다."
+          "reason": "흉부 CT는 결절의 석회화 양상·경계·크기를 정밀 평가하는 필수 검사이나, 2년 이상 안정성 여부를 즉시 가릴 수 있는 과거 X-ray 비교가 가장 우선입니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "과거에 촬영한 흉부 단순 X-선 및 CT 사진을 확보하여 크기 변화 비교",
+        "option": "A. 예전 X-ray 가져와서 비교",
         "is_correct": true,
-        "tag": "정답",
-        "reason": "고립성 폐결절이 발견되면 과거 촬영된 흉부 X-선이나 CT를 구해 크기 변화와 부피 배가 시간(VDT)을 비교하는 것이 가장 먼저 해야 할 1차 원칙이며, 고형 결절이 2년 이상 변함없으면 양성으로 확정할 수 있습니다."
+        "reason": "정답입니다. 고립성 폐결절(SPN) 발견 시 불필요한 침습적 시술을 피하고 결절의 배가 시간(성장 여부)을 확인하기 위해 과거 흉부 X-ray와 비교하는 것이 최우선입니다(2년 이상 크기 변화 없으면 양성 시사)."
       },
       {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "객담 세포진 검사 (Sputum cytology)",
+        "option": "B. Sputum cytology 검사",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "객담 세포진 검사는 말초 폐 실질에 위치한 1.5cm 고립성 결절에 대한 민감도가 극도로 낮아(중심성 편평상피암에서만 일부 유용) 초기 표준 평가법으로 부적합합니다."
+        "reason": "객담 세포진 검사는 중심성 편평세포암에서는 도움이 되나 말초 고립성 폐결절의 1차 감별 민감도가 낮습니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "객담 세균 배양 검사 (Sputum culture)",
+        "option": "C. Sputum culture",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "객담 세균 배양 검사는 폐렴이나 결핵 감염을 확인할 때 쓰이나, 무증상 성인의 우연한 1.5cm SPN 양악성 판정이나 성장 속도 평가에 우선 시행하는 검사가 아닙니다."
+        "reason": "객담 배양 검사는 감염성 결핵·폐렴 감별용이며 무증상 SPN의 최우선 감별 단계가 아닙니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "즉각적인 경피적 폐 생검 (Percutaneous needle biopsy)",
+        "option": "D. Percutaneous Lung biopsy",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "경피적 폐 생검은 기흉·출혈 위험이 따르는 침습적 시술이므로, 과거 영상 비교와 흉부 CT·PET-CT를 통해 양성 가능성을 먼저 배제한 뒤에 필요시 시행해야 합니다."
+        "reason": "경피적 폐 생검은 과거 영상과 비교하거나 CT 추적·PET 평가를 거친 뒤 악성 의심 시 시행하는 침습적 검사입니다."
       },
       {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "전신 PET-CT 촬영",
+        "option": "E. 흉부 CT",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "전신 PET-CT는 고가이며 고립성 폐결절의 크기(≥8~10mm)와 성상(CT 확인) 평가, 과거 영상 비교 후에도 악성 여부가 불확실한 중등도 위험군에서 시행하는 이차 정밀검사입니다."
+        "reason": "흉부 CT는 결절의 석회화 양상·경계·크기를 정밀 평가하는 필수 검사이나, 2년 이상 안정성 여부를 즉시 가릴 수 있는 과거 X-ray 비교가 가장 우선입니다."
       }
     ],
     "index": 2536,
@@ -316274,19 +315867,19 @@ window.ALL_QUESTIONS = [
       "images/영상의학과/19Y_Q46_fig1.png"
     ],
     "options": [
-      "① Epidural space - acute hemorrhage",
-      "② Subdural space - acute hemorrhage",
-      "③ Subdural space - subacute hemorrhage",
-      "④ Epidural space - subacute hemorrhage",
-      "⑤ Subarachnoid space - acute hemorrhage"
+      "① Subdural space – acute hemorrhage",
+      "② Subdural space – subacute hemorrhage",
+      "③ Epidural space – acute hemorrhage",
+      "④ Epidural space – subacute hemorrhage",
+      "⑤ Subarachnoid space – acute hemorrhage"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Epidural space - acute hemorrhage",
-    "answer": "① Epidural space - acute hemorrhage",
+    "correct_option_index": 2,
+    "correct_answer": "③ Epidural space – acute hemorrhage",
+    "answer": "③ Epidural space – acute hemorrhage",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 1,
     "rate": 33,
@@ -316308,43 +315901,28 @@ window.ALL_QUESTIONS = [
       "kmle_link": "KMLE 신경외과 - 두부 손상(경막하출혈과 경막외출혈의 영상 감별)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "Epidural space - acute hemorrhage",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "Epidural space - acute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "Subdural space - acute hemorrhage",
+          "option": "① Subdural space – acute hemorrhage",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Subdural space - acute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "Subdural space - subacute hemorrhage",
+          "option": "② Subdural space – subacute hemorrhage",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Subdural space - subacute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "Epidural space - subacute hemorrhage",
+          "option": "③ Epidural space – acute hemorrhage",
+          "is_correct": true,
+          "reason": "Epidural space - acute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        },
+        {
+          "option": "④ Epidural space – subacute hemorrhage",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Epidural space - subacute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "Subarachnoid space - acute hemorrhage",
+          "option": "⑤ Subarachnoid space – acute hemorrhage",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Subarachnoid space - acute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         }
       ],
@@ -316352,43 +315930,28 @@ window.ALL_QUESTIONS = [
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "Epidural space - acute hemorrhage",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "Epidural space - acute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "Subdural space - acute hemorrhage",
+        "option": "① Subdural space – acute hemorrhage",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Subdural space - acute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "Subdural space - subacute hemorrhage",
+        "option": "② Subdural space – subacute hemorrhage",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Subdural space - subacute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "Epidural space - subacute hemorrhage",
+        "option": "③ Epidural space – acute hemorrhage",
+        "is_correct": true,
+        "reason": "Epidural space - acute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+      },
+      {
+        "option": "④ Epidural space – subacute hemorrhage",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Epidural space - subacute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "Subarachnoid space - acute hemorrhage",
+        "option": "⑤ Subarachnoid space – acute hemorrhage",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Subarachnoid space - acute hemorrhage 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       }
     ],
@@ -316408,18 +315971,18 @@ window.ALL_QUESTIONS = [
       "images/영상의학과/19Y_Q45_fig2.png"
     ],
     "options": [
-      "① Intracranial vein - deoxyhemoglobin",
-      "② intracranial vein - methemoglobin",
+      "① intracranial vein - methemoglobin",
+      "② Intracranial vein - deoxyhemoglobin",
       "③ PCA - oxyhemoglobin",
       "④ MCA - oxyhemoglobin"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Intracranial vein - deoxyhemoglobin",
-    "answer": "① Intracranial vein - deoxyhemoglobin",
+    "correct_option_index": 1,
+    "correct_answer": "② Intracranial vein - deoxyhemoglobin",
+    "answer": "② Intracranial vein - deoxyhemoglobin",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -316441,35 +316004,23 @@ window.ALL_QUESTIONS = [
       "kmle_link": "KMLE 영상의학 - 뇌 MRI 기법(SWI 및 자화율 인공물 원리)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "Intracranial vein - deoxyhemoglobin",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "Intracranial vein - deoxyhemoglobin 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "intracranial vein - methemoglobin",
+          "option": "① intracranial vein - methemoglobin",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "intracranial vein - methemoglobin 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "PCA - oxyhemoglobin",
+          "option": "② Intracranial vein - deoxyhemoglobin",
+          "is_correct": true,
+          "reason": "Intracranial vein - deoxyhemoglobin 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        },
+        {
+          "option": "③ PCA - oxyhemoglobin",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "PCA - oxyhemoglobin 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "MCA - oxyhemoglobin",
+          "option": "④ MCA - oxyhemoglobin",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "MCA - oxyhemoglobin 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         }
       ],
@@ -316477,35 +316028,23 @@ window.ALL_QUESTIONS = [
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "Intracranial vein - deoxyhemoglobin",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "Intracranial vein - deoxyhemoglobin 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "intracranial vein - methemoglobin",
+        "option": "① intracranial vein - methemoglobin",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "intracranial vein - methemoglobin 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "PCA - oxyhemoglobin",
+        "option": "② Intracranial vein - deoxyhemoglobin",
+        "is_correct": true,
+        "reason": "Intracranial vein - deoxyhemoglobin 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+      },
+      {
+        "option": "③ PCA - oxyhemoglobin",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "PCA - oxyhemoglobin 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "MCA - oxyhemoglobin",
+        "option": "④ MCA - oxyhemoglobin",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "MCA - oxyhemoglobin 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       }
     ],
@@ -316523,19 +316062,19 @@ window.ALL_QUESTIONS = [
     "stem": "MRI에 대해 맞는 설명은?",
     "images": [],
     "options": [
-      "① T1 뇌하수체 후엽이 높은 신호로 보인다.",
-      "② T1에서 뇌의 회백질이 백색질보다 신호가 높다.",
-      "③ T2에서 뇌의 회색질이 백색질보다 신호가 낮다.",
-      "④ T1에서 뇌척수액이 신호강도가 높다.",
-      "⑤ T2 뇌동맥이 고신호로 보인다."
+      "① T1에서 뇌의 회백질이 백색질보다 신호가 높다.",
+      "② T2에서 뇌의 회색질이 백색질보다 신호가 낮다.",
+      "③ T1에서 뇌척수액이 신호강도가 높다.",
+      "④ T2 뇌동맥이 고신호로 보인다.",
+      "⑤ T1 뇌하수체 후엽이 높은 신호로 보인다."
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① T1 뇌하수체 후엽이 높은 신호로 보인다.",
-    "answer": "① T1 뇌하수체 후엽이 높은 신호로 보인다.",
+    "correct_option_index": 4,
+    "correct_answer": "⑤ T1 뇌하수체 후엽이 높은 신호로 보인다.",
+    "answer": "⑤ T1 뇌하수체 후엽이 높은 신호로 보인다.",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      4
     ],
     "freq_count": 1,
     "rate": 33,
@@ -316557,88 +316096,58 @@ window.ALL_QUESTIONS = [
       "kmle_link": "KMLE 영상의학 총론 - MRI 기본 펄스열 및 신호 강도 원리",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "T1 뇌하수체 후엽이 높은 신호로 보인다.",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "정상 뇌하수체 후엽(신경뇌하수체)은 항이뇨호르몬(바소프레신) 신경분비 과립이 T1 이완 시간을 단축시켜, T1 강조 시상면 MRI에서 전엽 뒤쪽에 뚜렷한 밝은 고신호 점(T1 bright spot)으로 보이는 것이 정상 소견입니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "T1에서 뇌의 회백질이 백색질보다 신호가 높다.",
+          "option": "① T1에서 뇌의 회백질이 백색질보다 신호가 높다.",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "T1 강조영상에서는 수초(Myelin) 지질 함량이 높은 백색질(White matter)이 수분 함량이 더 높은 회백질(Gray matter)보다 신호 강도가 높아 더 밝게 관찰됩니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "T2에서 뇌의 회색질이 백색질보다 신호가 낮다.",
+          "option": "② T2에서 뇌의 회색질이 백색질보다 신호가 낮다.",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "T2 강조영상에서는 수분 함량이 더 많은 뇌 피질의 회백질이 지질이 풍부한 백색질보다 신호 강도가 더 높아 밝게 보이며, 이것이 정상 회백질-백색질 대조도입니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "T1에서 뇌척수액이 신호강도가 높다.",
+          "option": "③ T1에서 뇌척수액이 신호강도가 높다.",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "T1 강조영상에서는 수초(Myelin) 지질 함량이 높은 백색질(White matter)이 수분 함량이 더 높은 회백질(Gray matter)보다 신호 강도가 높아 더 밝게 관찰됩니다."
         },
         {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "T2 뇌동맥이 고신호로 보인다.",
+          "option": "④ T2 뇌동맥이 고신호로 보인다.",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "T1 강조영상에서 순수 물 성분인 뇌척수액(CSF)은 T1 이완 시간이 매우 길어 뇌실과 뇌구 내에서 어두운 저신호(검게)로 보이며, 밝은 고신호로 보이는 것은 T2 강조영상입니다."
+        },
+        {
+          "option": "⑤ T1 뇌하수체 후엽이 높은 신호로 보인다.",
+          "is_correct": true,
+          "reason": "정상 뇌하수체 후엽(신경뇌하수체)은 항이뇨호르몬(바소프레신) 신경분비 과립이 T1 이완 시간을 단축시켜, T1 강조 시상면 MRI에서 전엽 뒤쪽에 뚜렷한 밝은 고신호 점(T1 bright spot)으로 보이는 것이 정상 소견입니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "T1 뇌하수체 후엽이 높은 신호로 보인다.",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "정상 뇌하수체 후엽(신경뇌하수체)은 항이뇨호르몬(바소프레신) 신경분비 과립이 T1 이완 시간을 단축시켜, T1 강조 시상면 MRI에서 전엽 뒤쪽에 뚜렷한 밝은 고신호 점(T1 bright spot)으로 보이는 것이 정상 소견입니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "T1에서 뇌의 회백질이 백색질보다 신호가 높다.",
+        "option": "① T1에서 뇌의 회백질이 백색질보다 신호가 높다.",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "T1 강조영상에서는 수초(Myelin) 지질 함량이 높은 백색질(White matter)이 수분 함량이 더 높은 회백질(Gray matter)보다 신호 강도가 높아 더 밝게 관찰됩니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "T2에서 뇌의 회색질이 백색질보다 신호가 낮다.",
+        "option": "② T2에서 뇌의 회색질이 백색질보다 신호가 낮다.",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "T2 강조영상에서는 수분 함량이 더 많은 뇌 피질의 회백질이 지질이 풍부한 백색질보다 신호 강도가 더 높아 밝게 보이며, 이것이 정상 회백질-백색질 대조도입니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "T1에서 뇌척수액이 신호강도가 높다.",
+        "option": "③ T1에서 뇌척수액이 신호강도가 높다.",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "T1 강조영상에서는 수초(Myelin) 지질 함량이 높은 백색질(White matter)이 수분 함량이 더 높은 회백질(Gray matter)보다 신호 강도가 높아 더 밝게 관찰됩니다."
       },
       {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "T2 뇌동맥이 고신호로 보인다.",
+        "option": "④ T2 뇌동맥이 고신호로 보인다.",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "T1 강조영상에서 순수 물 성분인 뇌척수액(CSF)은 T1 이완 시간이 매우 길어 뇌실과 뇌구 내에서 어두운 저신호(검게)로 보이며, 밝은 고신호로 보이는 것은 T2 강조영상입니다."
+      },
+      {
+        "option": "⑤ T1 뇌하수체 후엽이 높은 신호로 보인다.",
+        "is_correct": true,
+        "reason": "정상 뇌하수체 후엽(신경뇌하수체)은 항이뇨호르몬(바소프레신) 신경분비 과립이 T1 이완 시간을 단축시켜, T1 강조 시상면 MRI에서 전엽 뒤쪽에 뚜렷한 밝은 고신호 점(T1 bright spot)으로 보이는 것이 정상 소견입니다."
       }
     ],
     "index": 2541,
@@ -316652,24 +316161,21 @@ window.ALL_QUESTIONS = [
     "category": "짤",
     "theme_title": "뇌동맥류 코일색전술 후 지연성 뇌혈관연축(Vasospasm)과 동맥 내 혈관확장제",
     "subspecialty": "인터벤션/신경 영상의학",
-    "stem": "뇌동맥류 파열에 의한 지주막하 출혈(SAH)로 코일색전술을 시행받은 환자에서 7일째 신경학적 악화가 발생하였다. 뇌혈관조영술(TFCA) 추적 검사에서 두개내 주동맥들이 미만성으로 심하게 좁아져 있을 때, 이 현상의 원인 및 적절한 인터벤션 치료는?",
+    "stem": "최근 뇌출혈로 시술을 받은 사람의 며칠 후 추적관찰 사진이다. 다음 현상의 원인과 치료로 알맞은 것은? (혈관이 전반적으로 좁아져 있는 모습)",
     "images": [
       "images/영상의학과/19Y_Q58_fig1.png"
     ],
     "options": [
-      "① 뇌혈관연축 (Vasospasm) - 혈관확장제 동맥 내 투여 (Intravascular vasodilator infusion) 또는 풍선성형술",
-      "② 혈전색전증 (Thromboembolism) - 고용량 혈전용해제 전신 투여",
-      "③ 동맥 박리 (Arterial dissection) - 응급 스텐트 삽입술",
-      "④ 뇌혈관기형 파열 (AVM rupture) - 응급 개두술",
-      "⑤ 수두증 악화 (Hydrocephalus) - 뇌실외배액술 (EVD)"
+      "① Thromboembolism - thrombolysis",
+      "② vasospasm- intravascular vasodilater"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① 뇌혈관연축 (Vasospasm) - 혈관확장제 동맥 내 투여 (Intravascular vasodilator infusion) 또는 풍선성형술",
-    "answer": "① 뇌혈관연축 - 혈관확장제 동맥 내 투여 또는 풍선성형술",
+    "correct_option_index": 1,
+    "correct_answer": "② vasospasm- intravascular vasodilater",
+    "answer": "② vasospasm- intravascular vasodilater",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 3,
     "rate": 50,
@@ -316695,88 +316201,28 @@ window.ALL_QUESTIONS = [
       "kmle_link": "KMLE 신경외과 - 뇌혈관 질환(지주막하 출혈의 합병증과 뇌혈관연축 치료)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "뇌혈관연축 (Vasospasm) - 혈관확장제 동맥 내 투여 (Intravascular vasodilator infusion) 또는 풍선성형술",
+          "option": "① Thromboembolism - thrombolysis",
+          "is_correct": false,
+          "reason": "혈전색전증(Thromboembolism)은 혈관 한 분절이 갑자기 끊어지는 폐색(filling defect)을 보이며, 지주막하 출혈 수일 후 혈관 전체가 가늘어지는 소견과는 다릅니다."
+        },
+        {
+          "option": "② vasospasm- intravascular vasodilater",
           "is_correct": true,
-          "tag": "정답",
-          "reason": "지주막하 출혈(SAH) 후 4~14일(특히 7일째 전후)에 두개내 주동맥들이 미만성으로 좁아지며 신경학적 악화를 일으키는 것은 뇌혈관연축(Vasospasm)이며, 내과적 치료 불응 시 카테터로 혈관확장제를 동맥 내 주입하거나 풍선성형술을 시행합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "혈전색전증 (Thromboembolism) - 고용량 혈전용해제 전신 투여",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "혈전색전증은 코일 이탈이나 혈전에 의해 특정 혈관 가지가 급격히 끊기며 국소 조영 결손을 보이고, 특히 동맥류 파열 환자에게 고용량 혈전용해제를 전신 투여하면 치명적 재출혈을 유발해 금기입니다."
-        },
-        {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "동맥 박리 (Arterial dissection) - 응급 스텐트 삽입술",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "동맥 박리는 내막 피판이나 이중 내강, 불규칙한 협착 후 확장 등이 카테터 조작 직후나 외상과 연관되어 국소적으로 나타나므로, 7일째 발생한 주동맥의 미만성 평활 연축과 기전이 다릅니다."
-        },
-        {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "뇌혈관기형 파열 (AVM rupture) - 응급 개두술",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "뇌동정맥 기형(AVM) 파열은 선천적인 비정상 혈관 덩어리(Nidus)와 조기 정맥 배액이 혈관조영술에서 관찰되어야 하므로, 동맥류 코일색전술 후 7일째 동맥이 가늘어지는 소견과 맞지 않습니다."
-        },
-        {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "수두증 악화 (Hydrocephalus) - 뇌실외배액술 (EVD)",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "수두증 악화는 비조영 뇌 CT에서 뇌실 확장과 뇌실 주위 부종으로 진단되며 혈관조영술에서 동맥 내경이 미만성으로 좁아지는 현상의 원인이 아닙니다."
+          "reason": "정답입니다. 지주막하 출혈 후 수일 내 발생하는 뇌혈관연축(vasospasm)으로 인한 광범위 혈관 협착에는 혈관내 혈관확장제(intravascular vasodilator) 투여 등을 시행합니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "뇌혈관연축 (Vasospasm) - 혈관확장제 동맥 내 투여 (Intravascular vasodilator infusion) 또는 풍선성형술",
+        "option": "① Thromboembolism - thrombolysis",
+        "is_correct": false,
+        "reason": "혈전색전증(Thromboembolism)은 혈관 한 분절이 갑자기 끊어지는 폐색(filling defect)을 보이며, 지주막하 출혈 수일 후 혈관 전체가 가늘어지는 소견과는 다릅니다."
+      },
+      {
+        "option": "② vasospasm- intravascular vasodilater",
         "is_correct": true,
-        "tag": "정답",
-        "reason": "지주막하 출혈(SAH) 후 4~14일(특히 7일째 전후)에 두개내 주동맥들이 미만성으로 좁아지며 신경학적 악화를 일으키는 것은 뇌혈관연축(Vasospasm)이며, 내과적 치료 불응 시 카테터로 혈관확장제를 동맥 내 주입하거나 풍선성형술을 시행합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "혈전색전증 (Thromboembolism) - 고용량 혈전용해제 전신 투여",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "혈전색전증은 코일 이탈이나 혈전에 의해 특정 혈관 가지가 급격히 끊기며 국소 조영 결손을 보이고, 특히 동맥류 파열 환자에게 고용량 혈전용해제를 전신 투여하면 치명적 재출혈을 유발해 금기입니다."
-      },
-      {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "동맥 박리 (Arterial dissection) - 응급 스텐트 삽입술",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "동맥 박리는 내막 피판이나 이중 내강, 불규칙한 협착 후 확장 등이 카테터 조작 직후나 외상과 연관되어 국소적으로 나타나므로, 7일째 발생한 주동맥의 미만성 평활 연축과 기전이 다릅니다."
-      },
-      {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "뇌혈관기형 파열 (AVM rupture) - 응급 개두술",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "뇌동정맥 기형(AVM) 파열은 선천적인 비정상 혈관 덩어리(Nidus)와 조기 정맥 배액이 혈관조영술에서 관찰되어야 하므로, 동맥류 코일색전술 후 7일째 동맥이 가늘어지는 소견과 맞지 않습니다."
-      },
-      {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "수두증 악화 (Hydrocephalus) - 뇌실외배액술 (EVD)",
-        "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "수두증 악화는 비조영 뇌 CT에서 뇌실 확장과 뇌실 주위 부종으로 진단되며 혈관조영술에서 동맥 내경이 미만성으로 좁아지는 현상의 원인이 아닙니다."
+        "reason": "정답입니다. 지주막하 출혈 후 수일 내 발생하는 뇌혈관연축(vasospasm)으로 인한 광범위 혈관 협착에는 혈관내 혈관확장제(intravascular vasodilator) 투여 등을 시행합니다."
       }
     ],
     "index": 2542,
@@ -316901,17 +316347,17 @@ window.ALL_QUESTIONS = [
       "images/영상의학과/19Y_Q47_fig2.png"
     ],
     "options": [
-      "① Lipoma",
-      "② Tentorial edge",
-      "③ Calcification"
+      "① Tentorial edge",
+      "② Calcification",
+      "③ Lipoma"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Lipoma",
-    "answer": "① Lipoma",
+    "correct_option_index": 2,
+    "correct_answer": "③ Lipoma",
+    "answer": "③ Lipoma",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 1,
     "rate": 17,
@@ -316926,63 +316372,45 @@ window.ALL_QUESTIONS = [
     "q_label": "신경 06번",
     "explanation": {
       "title": "두개내 지방종(Intracranial Lipoma)의 CT 음의 감쇠도",
-      "findings": "• **[모달리티 및 영상 소견 판독]**: 뇌 비조영 CT에서 뇌실 주위, 뇌량(Corpus callosum) 주변 또는 기저조(사구체조 등 정중선 뇌조) 위치에 경계가 매우 명확하고 매끄러운 결절성 종괴가 관찰됩니다. 종괴 내부의 감쇠도를 측정하면 물(0 HU)이나 뇌척수액(0~15 HU)보다 훨씬 낮고 두피 피하지방과 동일한 매우 어두운 음의 감쇠도(-50 ~ -100 HU)를 띠며, 변연부에 곡선형 석회화가 동반되기도 합니다.\n• **[병태생리 및 감별 포인트]**: 두개내 지방종(Intracranial lipoma)은 신생 종양이 아니라 원시 수막(Meninx primitiva)이 정상적으로 흡수되지 않고 지방 조직으로 분화하면서 발생한 선천성 기형으로, 대부분 뇌량 주위나 사구체조·안장위조 등 정중선 뇌지주막하 공간에 호발합니다. CT상 -50 ~ -100 HU의 지방 밀도가 확진 열쇠이며, 기뇌증(공기, -1000 HU)이나 유표피낭종(물과 비슷한 0~20 HU)과 HU 및 MRI 지방억제 영상으로 명확히 구별됩니다.\n• **[정답 도출 과정]**: 뇌량·뇌조 부위의 경계 명확한 -50 ~ -100 HU 음의 감쇠도 종괴 소견으로 ① 두개내 지방종이 정답입니다.",
+      "findings": "• **[모달리티 및 영상 소견 판독]**: 뇌 비조영 CT에서 뇌실 주위, 뇌량(Corpus callosum) 주변 또는 기저조(사구체조 등 정중선 뇌조) 위치에 경계가 매우 명확하고 매끄러운 결절성 종괴가 관찰됩니다. 종괴 내부의 감쇠도를 측정하면 물(0 HU)이나 뇌척수액(0~15 HU)보다 훨씬 낮고 두피 피하지방과 동일한 매우 어두운 음의 감쇠도(-50 ~ -100 HU)를 띠며, 변연부에 곡선형 석회화가 동반되기도 합니다.\n• **[병태생리 및 감별 포인트]**: 두개내 지방종(Intracranial lipoma)은 신생 종양이 아니라 원시 수막(Meninx primitiva)이 정상적으로 흡수되지 않고 지방 조직으로 분화하면서 발생한 선천성 기형으로, 대부분 뇌량 주위나 사구체조·안장위조 등 정중선 뇌지주막하 공간에 호발합니다. CT상 -50 ~ -100 HU의 지방 밀도가 확진 열쇠이며, 기뇌증(공기, -1000 HU)이나 유표피낭종(물과 비슷한 0~20 HU)과 HU 및 MRI 지방억제 영상으로 명확히 구별됩니다.\n• **[정답 도출 과정]**: 뇌량·뇌조 부위의 경계 명확한 -50 ~ -100 HU 음의 감쇠도 종괴 소견으로 ③ 두개내 지방종이 정답입니다.",
       "differential": "• ① 두개내 지방종 (Intracranial lipoma) ✓ [정답]: 뇌량 또는 정중선 뇌조 부위에 경계가 명확하며 피하지방과 같은 음의 감쇠도(-50 ~ -100 HU)를 보이는 비조영증강 병변은 선천성 두개내 지방종(Intracranial lipoma)의 확진적 CT 소견입니다.\n• ② 뇌수막종 (Meningioma) ✗ [오답]: 뇌수막종은 경막에 기저를 둔 경계가 명확한 축외 종양으로, 비조영 CT에서 뇌실질과 등음영~고음영(+40~+60 HU)을 보이고 조영증강 시 균일하고 강하게 밝아지므로 음의 지방 음영과 전혀 다릅니다.\n• ③ 유표피낭종 (Epidermoid cyst) ✗ [오답]: 유표피낭종(Epidermoid cyst)은 주로 소뇌교각부 등에 위치하며 비조영 CT에서 뇌척수액과 비슷한 0~+20 HU의 물 음영을 띠고 DWI에서 확산 제한 고신호를 보이므로 -50~-100 HU가 아닙니다.\n• ④ 천막연 석회화 (Tentorial calcification) ✗ [오답]: 천막연 석회화는 칼슘 침착으로 인해 +100~+1000 HU의 매우 밝은 백색 고음영으로 관찰되므로 음의 감쇠도를 띠는 검은 병변과 정반대입니다.\n• ⑤ 저등급 신경교종 (Low-grade glioma) ✗ [오답]: 저등급 신경교종은 뇌실질 내부에 침윤하는 경계가 불명확한 종양으로 비조영 CT에서 +20~+35 HU 정도의 경도 저음영~등음영을 보일 뿐, 지방 수준의 음의 HU 값을 나타내지 않습니다.",
       "trap": "비조영 CT에서 지방종(-50~-100 HU)과 공기(-1000 HU, 기뇌증), 뇌척수액/유표피낭종(0~20 HU)이 모두 검은 저음영으로 보일 수 있으므로, 두피 지방과 음영을 비교하거나 HU 범위(-50~-100)를 확인해 지방종을 감별해야 합니다.",
       "trigger": "【핵심 영상 판독 정리 & 감별 알고리즘】\n• 1. CT 감쇠 계수(Hounsfield Unit, HU) 기준표:\n  - 공기(Pneumocephalus): -1000 HU (완전한 칠흑).\n  - 지방(Intracranial lipoma / Dermoid): -50 ~ -100 HU (두피 피하지방과 동일 음영).\n  - 뇌척수액 / 유표피낭종 / 거미막낭종: 0 ~ +20 HU.\n  - 뇌실질: +30 ~ +40 HU / 급성 혈종: +60 ~ +80 HU / 석회화·뼈: +100 ~ +1000 HU.\n• 2. 두개내 지방종 호발 위치: 뇌량 주위(Pericallosal, 약 50%, 뇌량 무형성 동반 흔함) > 사구체조(Quadrigeminal cistern) > 안장위조.",
       "kmle_link": "KMLE 영상의학 - 신경계 질환(두개내 지방 함유 병변의 CT 감별)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "Lipoma",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "Lipoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "Tentorial edge",
+          "option": "① Tentorial edge",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Tentorial edge 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "Calcification",
+          "option": "② Calcification",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Calcification 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        },
+        {
+          "option": "③ Lipoma",
+          "is_correct": true,
+          "reason": "Lipoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "Lipoma",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "Lipoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "Tentorial edge",
+        "option": "① Tentorial edge",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Tentorial edge 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "Calcification",
+        "option": "② Calcification",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Calcification 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+      },
+      {
+        "option": "③ Lipoma",
+        "is_correct": true,
+        "reason": "Lipoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       }
     ],
     "index": 2544,
@@ -317135,18 +316563,18 @@ window.ALL_QUESTIONS = [
       "images/영상의학과/19Y_Q49_fig1.png"
     ],
     "options": [
-      "① acoustic schwannoma",
-      "② arteriovenous malformation",
+      "① arteriovenous malformation",
+      "② acoustic schwannoma",
       "③ acute pontine infarction",
       "④ epidermoid cyst"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① acoustic schwannoma",
-    "answer": "① acoustic schwannoma",
+    "correct_option_index": 1,
+    "correct_answer": "② acoustic schwannoma",
+    "answer": "② acoustic schwannoma",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 3,
     "rate": 50,
@@ -317172,35 +316600,23 @@ window.ALL_QUESTIONS = [
       "kmle_link": "KMLE 이비인후과/신경외과 - 두개저 종양(전정신경초종의 영상 진단)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "acoustic schwannoma",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "acoustic schwannoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "arteriovenous malformation",
+          "option": "① arteriovenous malformation",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "arteriovenous malformation 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "acute pontine infarction",
+          "option": "② acoustic schwannoma",
+          "is_correct": true,
+          "reason": "acoustic schwannoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        },
+        {
+          "option": "③ acute pontine infarction",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "acute pontine infarction 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "epidermoid cyst",
+          "option": "④ epidermoid cyst",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "epidermoid cyst 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         }
       ],
@@ -317208,35 +316624,23 @@ window.ALL_QUESTIONS = [
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "acoustic schwannoma",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "acoustic schwannoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "arteriovenous malformation",
+        "option": "① arteriovenous malformation",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "arteriovenous malformation 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "acute pontine infarction",
+        "option": "② acoustic schwannoma",
+        "is_correct": true,
+        "reason": "acoustic schwannoma 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+      },
+      {
+        "option": "③ acute pontine infarction",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "acute pontine infarction 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "epidermoid cyst",
+        "option": "④ epidermoid cyst",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "epidermoid cyst 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       }
     ],
@@ -317256,18 +316660,18 @@ window.ALL_QUESTIONS = [
       "images/영상의학과/19Y_Q50_fig1.png"
     ],
     "options": [
-      "① Thyroid gland, iodine uptake",
-      "② submandibular gland, iodine uptake",
+      "① submandibular gland, iodine uptake",
+      "② Thyroid gland, iodine uptake",
       "③ Submandibular gland, gadolinium uptake",
       "④ Thyroid gland, gadolinium uptake"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① Thyroid gland, iodine uptake",
-    "answer": "① Thyroid gland, iodine uptake",
+    "correct_option_index": 1,
+    "correct_answer": "② Thyroid gland, iodine uptake",
+    "answer": "② Thyroid gland, iodine uptake",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -317282,42 +316686,30 @@ window.ALL_QUESTIONS = [
     "q_label": "신경 09번",
     "explanation": {
       "title": "경부 조영전 CT에서 정상 갑상선(Thyroid Gland)의 고음영 기전",
-      "findings": "• **[모달리티 및 영상 소견 판독]**: 경부 비조영 CT(Non-contrast neck CT) 축상면에서 기관(Trachea)의 양쪽 전외측에 나비 모양으로 자리 잡은 정상 갑상선 양엽(Thyroid lobes)과 협부가 인접한 흉쇄유돌근이나 띠근육(약 40~50 HU)에 비해 조영제를 전혀 투여하지 않았음에도 불구하고 현저히 밝고 균일한 고음영(80~120 HU)으로 관찰됩니다.\n• **[병태생리 및 감별 포인트]**: 갑상선 여포 세포는 갑상선 호르몬(T3, T4) 합성을 위해 혈중 요오드(Iodine, 원자번호 Z=53)를 능동적으로 포획해 여포강 내 티로글로불린에 고농도로 저장합니다. 높은 원자번호를 가진 요오드가 광전 효과를 통해 X-선을 강하게 흡수하므로, 비조영 CT에서도 정상 갑상선은 근육보다 두 배 가까이 높은 고음영을 띱니다. 반대로 갑상선기능저하증이나 아미오다론·항갑상선제 복용, 염증 등으로 요오드 저장량이 고갈되면 비조영 CT에서 갑상선 음영이 근육 수준으로 어두워집니다.\n• **[정답 도출 과정]**: 비조영 경부 CT에서 정상 갑상선이 밝게 보이는 물리적·생리적 이유는 ① 갑상선 실질 내 높은 요오드 함량입니다.",
+      "findings": "• **[모달리티 및 영상 소견 판독]**: 경부 비조영 CT(Non-contrast neck CT) 축상면에서 기관(Trachea)의 양쪽 전외측에 나비 모양으로 자리 잡은 정상 갑상선 양엽(Thyroid lobes)과 협부가 인접한 흉쇄유돌근이나 띠근육(약 40~50 HU)에 비해 조영제를 전혀 투여하지 않았음에도 불구하고 현저히 밝고 균일한 고음영(80~120 HU)으로 관찰됩니다.\n• **[병태생리 및 감별 포인트]**: 갑상선 여포 세포는 갑상선 호르몬(T3, T4) 합성을 위해 혈중 요오드(Iodine, 원자번호 Z=53)를 능동적으로 포획해 여포강 내 티로글로불린에 고농도로 저장합니다. 높은 원자번호를 가진 요오드가 광전 효과를 통해 X-선을 강하게 흡수하므로, 비조영 CT에서도 정상 갑상선은 근육보다 두 배 가까이 높은 고음영을 띱니다. 반대로 갑상선기능저하증이나 아미오다론·항갑상선제 복용, 염증 등으로 요오드 저장량이 고갈되면 비조영 CT에서 갑상선 음영이 근육 수준으로 어두워집니다.\n• **[정답 도출 과정]**: 비조영 경부 CT에서 정상 갑상선이 밝게 보이는 물리적·생리적 이유는 ② 갑상선 실질 내 높은 요오드 함량입니다.",
       "differential": "• ① 갑상선 실질 조직 내 높은 요오드 함량 (High intrinsic iodine concentration) ✓ [정답]: 정상 갑상선 실질은 갑상선 호르몬 합성을 위해 원자번호가 큰(Z=53) 요오드(Iodine)를 여포 내에 고농도로 농축·저장하므로, 조영제를 주사하지 않은 비조영 CT에서도 X-선 흡수가 커 80~120 HU의 고음영으로 보입니다.\n• ② 악하선의 가돌리늄 섭취 (Gadolinium uptake) ✗ [오답]: 가돌리늄(Gadolinium)은 MRI 조영제 성분이며 체내에서 정상적으로 악하선이나 갑상선에 농축되지 않으므로, 비조영 CT에서 갑상선이 밝게 보이는 원인과 무관합니다.\n• ③ 갑상선 실질의 높은 칼슘 석회화 침착 ✗ [오답]: 갑상선 실질 전체가 균일하게 80~120 HU로 밝은 것은 정상적인 요오드 함량 때문이지 병적인 칼슘 석회화 침착 때문이 아니며, 칼슘 석회화는 +200 HU 이상으로 국소적·점상 또는 굵은 음영을 보입니다.\n• ④ 갑상선 내 지방 조직의 고밀도 구성 ✗ [오답]: 지방 조직은 CT에서 물보다도 훨씬 낮은 음의 감쇠도(-50~-100 HU)를 띠어 검게 보이며, 정상 갑상선 실질은 지방으로 구성되어 있지도 않습니다.\n• ⑤ 갑상선 호르몬의 빠른 혈류 흐름 ✗ [오답]: 혈류 흐름의 빠르기 자체는 비조영 CT의 감쇠 계수(HU)를 높이지 못하며, 경동맥·경정맥 같은 대혈관조차 비조영 CT에서는 40~50 HU의 근육과 비슷한 음영으로만 보입니다.",
       "trap": "경부 비조영 CT에서 갑상선이 워낙 하얗게 보여 조영증강 CT로 착각하거나, 높은 원자번호(Z=53)의 내인성 요오드 대신 칼슘 석회화나 가돌리늄 때문이라고 오인하지 않도록 주의해야 합니다.",
       "trigger": "【핵심 영상 판독 정리 & 감별 알고리즘】\n• 1. 비조영 CT에서 정상적으로 고음영을 띠는 주요 구조 및 기전:\n  - 정상 갑상선(80~120 HU): 내인성 요오드(Iodine, Z=53) 고농축 저장 → 조영 전/후 감별 팁: 경동맥/내경정맥 혈관이 근육과 비슷하게 어두우면 비조영 CT.\n  - 급성 혈종(60~80 HU): 혈구 내 철·단백 농축.\n  - 정상 피질골/석회화(>200~1000 HU): 칼슘(Ca, Z=20) 밀도.\n• 2. 갑상선 비조영 CT 음영 감소 원인: 그레이브스병/갑상선염/요오드 고갈 시 정상 고음영 소실.",
       "kmle_link": "KMLE 영상의학 - 두경부 영상(정상 갑상선의 CT 음영 특성)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "Thyroid gland, iodine uptake",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "Thyroid gland, iodine uptake 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "submandibular gland, iodine uptake",
+          "option": "① submandibular gland, iodine uptake",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "submandibular gland, iodine uptake 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "Submandibular gland, gadolinium uptake",
+          "option": "② Thyroid gland, iodine uptake",
+          "is_correct": true,
+          "reason": "Thyroid gland, iodine uptake 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        },
+        {
+          "option": "③ Submandibular gland, gadolinium uptake",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Submandibular gland, gadolinium uptake 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "Thyroid gland, gadolinium uptake",
+          "option": "④ Thyroid gland, gadolinium uptake",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Thyroid gland, gadolinium uptake 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         }
       ],
@@ -317325,35 +316717,23 @@ window.ALL_QUESTIONS = [
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "Thyroid gland, iodine uptake",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "Thyroid gland, iodine uptake 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "submandibular gland, iodine uptake",
+        "option": "① submandibular gland, iodine uptake",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "submandibular gland, iodine uptake 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "Submandibular gland, gadolinium uptake",
+        "option": "② Thyroid gland, iodine uptake",
+        "is_correct": true,
+        "reason": "Thyroid gland, iodine uptake 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+      },
+      {
+        "option": "③ Submandibular gland, gadolinium uptake",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Submandibular gland, gadolinium uptake 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "Thyroid gland, gadolinium uptake",
+        "option": "④ Thyroid gland, gadolinium uptake",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Thyroid gland, gadolinium uptake 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       }
     ],
@@ -317371,19 +316751,19 @@ window.ALL_QUESTIONS = [
     "stem": "삼킬 때 이물감으로 내원한 남환. Sagittal CT. 진단은?",
     "images": [],
     "options": [
-      "① plunging ranula",
-      "② Tongue cancer",
+      "① Tongue cancer",
+      "② plunging ranula",
       "③ lingual tonsilitis",
       "④ thyroglossal cyst",
       "⑤ thyroid cancer"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "① plunging ranula",
-    "answer": "① plunging ranula",
+    "correct_option_index": 1,
+    "correct_answer": "② plunging ranula",
+    "answer": "② plunging ranula",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      1
     ],
     "freq_count": 1,
     "rate": 17,
@@ -317398,50 +316778,35 @@ window.ALL_QUESTIONS = [
     "q_label": "신경 10번",
     "explanation": {
       "title": "악설골근을 통과하는 몰입성 하마종(Plunging Ranula)의 CT 소견",
-      "findings": "• **[모달리티 및 영상 소견 판독]**: 경부 조영증강 CT 시상면(Sagittal) 및 축상면에서 구강저(Oral floor)의 설하공간(Sublingual space)에 위치한 얇은 벽의 낭성 병변이 구강저 바닥을 이루는 악설골근(Mylohyoid muscle)의 뒤쪽 자유연(Posterior free edge)을 돌아 돌아가거나 근육 내 결손 틈새를 뚫고 아래쪽의 악하공간(Submandibular space)으로 연속되어 내려가는 아령 모양(Dumbbell shape)을 보입니다. 이때 악하공간의 주된 낭성 부위에서 설하선 쪽으로 좁아지며 연결되는 가느다란 부리 모양의 꼬리 징후(Tail sign)가 특징적입니다.\n• **[병태생리 및 감별 포인트]**: 하마종(Ranula)은 설하선 관의 폐쇄나 파열로 점액이 유출되어 생긴 가성낭종(Pseudocyst)입니다. 설하공간에만 머물면 단순 하마종(Simple ranula), 악설골근을 넘어서 악하공간·부인두공간으로 탈출하면 몰입성 하마종(Plunging/diving ranula)이라 부릅니다. 정중선 설골 주변의 갑상설관 낭종(TGDC)이나 흉쇄유돌근 앞쪽의 제2새열낭종과 꼬리 징후 및 위치로 감별됩니다.\n• **[정답 도출 과정]**: 설하선 기원 낭종이 악설골근을 넘어 악하공간으로 꼬리 징후(Tail sign)를 보이며 탈출한 소견은 ① 몰입성 하마종(Plunging ranula)입니다.",
+      "findings": "• **[모달리티 및 영상 소견 판독]**: 경부 조영증강 CT 시상면(Sagittal) 및 축상면에서 구강저(Oral floor)의 설하공간(Sublingual space)에 위치한 얇은 벽의 낭성 병변이 구강저 바닥을 이루는 악설골근(Mylohyoid muscle)의 뒤쪽 자유연(Posterior free edge)을 돌아 돌아가거나 근육 내 결손 틈새를 뚫고 아래쪽의 악하공간(Submandibular space)으로 연속되어 내려가는 아령 모양(Dumbbell shape)을 보입니다. 이때 악하공간의 주된 낭성 부위에서 설하선 쪽으로 좁아지며 연결되는 가느다란 부리 모양의 꼬리 징후(Tail sign)가 특징적입니다.\n• **[병태생리 및 감별 포인트]**: 하마종(Ranula)은 설하선 관의 폐쇄나 파열로 점액이 유출되어 생긴 가성낭종(Pseudocyst)입니다. 설하공간에만 머물면 단순 하마종(Simple ranula), 악설골근을 넘어서 악하공간·부인두공간으로 탈출하면 몰입성 하마종(Plunging/diving ranula)이라 부릅니다. 정중선 설골 주변의 갑상설관 낭종(TGDC)이나 흉쇄유돌근 앞쪽의 제2새열낭종과 꼬리 징후 및 위치로 감별됩니다.\n• **[정답 도출 과정]**: 설하선 기원 낭종이 악설골근을 넘어 악하공간으로 꼬리 징후(Tail sign)를 보이며 탈출한 소견은 ② 몰입성 하마종(Plunging ranula)입니다.",
       "differential": "• ① 몰입성 하마종 (Plunging ranula) ✓ [정답]: 설하선에서 기원한 점액 낭종이 악설골근의 후방이나 근틈새를 통과해 악하공간으로 빠져나오면서 설하공간과 연결되는 좁은 꼬리 징후(Tail sign)를 형성하는 것은 몰입성 하마종(Plunging ranula)의 확진 소견입니다.\n• ② 설암 (Tongue cancer) ✗ [오답]: 설암(Tongue cancer)은 조영증강 CT에서 경계가 불규칙하고 침윤성으로 조영증강되는 고형 종괴와 동측 경부 림프절 전이로 나타나므로, 얇은 벽의 저음영 낭성 병변과는 전혀 다릅니다.\n• ③ 설편도염 (Lingual tonsillitis) ✗ [오답]: 설편도염은 혀 뿌리(Tongue base) 정중 및 양측 편도 조직의 비후와 조영증강을 보이는 염증성 비대이지, 악설골근을 뚫고 악하공간으로 내려오는 낭종이 아닙니다.\n• ④ 갑상설관 낭종 (Thyroglossal duct cyst) ✗ [오답]: 갑상설관 낭종(TGDC)은 맹공에서 갑상선까지 내려오는 정중선 경로(주로 설골 부위)에 위치하며 띠근육과 밀접하게 접하므로, 설하선과 연결된 편측성 꼬리 징후를 보이지 않습니다.\n• ⑤ 갑상선암 경부 전이 (Metastatic thyroid cancer) ✗ [오답]: 갑상선암 경부 전이는 낭성 변화를 동반할 수 있으나 주로 내경정맥 사슬(Level III/IV)을 따라 다발성 림프절 형태로 위치하며 미세석회화나 조영증강 고형 벽결절을 보여 하마종과 구별됩니다.",
       "trap": "악하공간에 큰 낭종이 보일 때 설하공간과 이어지는 좁은 '꼬리 징후(Tail sign)'를 놓치면 제2새열낭종이나 림프관 기형으로 오인하기 쉬우므로, 반드시 축상면·시상면에서 악설골근 후방 연결부를 추적해야 합니다.",
       "trigger": "【핵심 영상 판독 정리 & 감별 알고리즘】\n• 1. 경부 대표 낭성 종괴 3대장 CT 감별:\n  - 몰입성 하마종(Plunging ranula): 편측 구강저·악하공간, 악설골근 뒤/틈새를 통과해 설하공간과 연결되는 'Tail sign(꼬리 징후)' 특징.\n  - 갑상설관 낭종(TGDC): 정중선(Midline) 또는 설골(Hyoid bone) 바로 아래 띠근육(Strap muscle) 내부/인접 위치.\n  - 제2새열낭종(2nd branchial cleft cyst): 턱모서리(Mandibular angle) 아래, 흉쇄유돌근(SCM) 전내측, 경동맥초 외측, 악하선 후방 (설하공간 연결 없음).\n• 2. 치료: 단순 절개 배액 시 재발 흔해 설하선 절제술(Sublingual gland excision)이 근치 치료.",
       "kmle_link": "KMLE 이비인후과 - 구강/침샘 질환(하마종의 임상 소견 및 수술)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "plunging ranula",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "plunging ranula 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-        },
-        {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "Tongue cancer",
+          "option": "① Tongue cancer",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "Tongue cancer 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "lingual tonsilitis",
+          "option": "② plunging ranula",
+          "is_correct": true,
+          "reason": "plunging ranula 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+        },
+        {
+          "option": "③ lingual tonsilitis",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "lingual tonsilitis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "thyroglossal cyst",
+          "option": "④ thyroglossal cyst",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "thyroglossal cyst 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         },
         {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "thyroid cancer",
+          "option": "⑤ thyroid cancer",
           "is_correct": false,
-          "tag": "오답 감별",
           "reason": "thyroid cancer 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
         }
       ],
@@ -317449,43 +316814,28 @@ window.ALL_QUESTIONS = [
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "plunging ranula",
-        "is_correct": true,
-        "tag": "정답",
-        "reason": "plunging ranula 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
-      },
-      {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "Tongue cancer",
+        "option": "① Tongue cancer",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "Tongue cancer 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "lingual tonsilitis",
+        "option": "② plunging ranula",
+        "is_correct": true,
+        "reason": "plunging ranula 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
+      },
+      {
+        "option": "③ lingual tonsilitis",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "lingual tonsilitis 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "thyroglossal cyst",
+        "option": "④ thyroglossal cyst",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "thyroglossal cyst 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       },
       {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "thyroid cancer",
+        "option": "⑤ thyroid cancer",
         "is_correct": false,
-        "tag": "오답 감별",
         "reason": "thyroid cancer 항목에 대해 제시된 영상 소견 및 병태생리적 감별 기준에 따라 판단합니다."
       }
     ],
@@ -317500,18 +316850,18 @@ window.ALL_QUESTIONS = [
     "category": "반짤",
     "theme_title": "선별 유방촬영술(Mammography) 표준 2대 촬영법: MLO & CC View",
     "subspecialty": "유방 영상의학",
-    "stem": "선별 유방촬영술(Screening mammography)을 시행할 때 양측 유방의 조직을 최대한 많이 포함하여 사각지대를 최소화하기 위해 기본으로 촬영하는 2가지 표준 촬영 투영법(Standard views)의 조합은?",
+    "stem": "유방 촬영시 Standard view가 맞는 것은?",
     "images": [],
     "options": [
-      "① 내외사위 촬영(MLO) + 상하위 촬영(CC)",
-      "② 외내사위 촬영(LMO) + 상하위 촬영(CC)",
-      "③ 외내사위 촬영(LMO) + 하상위 촬영(FB)",
-      "④ 외측-내측 촬영(ML) + 상하위 촬영(CC)",
-      "⑤ 과도신장 상하위 촬영(XCCL) + 내외사위 촬영(MLO)"
+      "① Medialateral oblique view",
+      "② Exaggerated craniocaudal view",
+      "③ Caudocranial view",
+      "④ Lateromedial oblique view",
+      "⑤ Mediolateral view"
     ],
     "correct_option_index": 0,
-    "correct_answer": "① 내외사위 촬영(MLO) + 상하위 촬영(CC)",
-    "answer": "① 내외사위 촬영 + 상하위 촬영",
+    "correct_answer": "① Medialateral oblique view",
+    "answer": "① Medialateral oblique view",
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
@@ -317534,95 +316884,65 @@ window.ALL_QUESTIONS = [
     "q_label": "유방 01번",
     "explanation": {
       "title": "유방촬영술(Mammography)의 2대 표준 촬영법 (MLO & CC View)",
-      "findings": "• **[모달리티 및 영상 소견 판독]**: 선별 유방촬영술(Screening mammography)은 양측 유방 각각에 대해 내외사위 촬영(Mediolateral oblique, MLO view)과 상하위 촬영(Craniocaudal, CC view)의 2가지 표준 투영법을 기본으로 시행합니다. MLO 촬영은 대흉근(Pectoralis major muscle)의 주행 방향과 평행하게 엑스선 관구를 약 45도 기울여 촬영하므로 유방 상외측 사분면(Axillary tail)과 액와부 조직을 가장 넓게 포함하며, CC 촬영은 위에서 아래로 압박해 내측 유방 조직(Medial breast)을 놓치지 않고 포착합니다.\n• **[병태생리 및 감별 포인트]**: 이 두 직각에 가까운 상호 보완적 표준 촬영(MLO + CC)을 조합해야 유방의 모든 사분면을 사각지대 없이 3차원적으로 재구성하여 병변의 위치를 정확히 국소화할 수 있습니다. 과도신장 상하위 촬영(XCCL)이나 압박확대 촬영(Spot compression/magnification)은 표준 선별 촬영이 아니라 이상 소견 발견 시 시행하는 추가 진단 촬영(Diagnostic view)입니다.\n• **[정답 도출 과정]**: 선별 유방촬영술의 2가지 기본 표준 촬영 조합은 ① 내외사위 촬영(MLO) + 상하위 촬영(CC)입니다.",
+      "findings": "• **[모달리티 및 영상 소견 판독]**: 유방촬영술(Mammography)의 기본 표준 촬영법(Standard views)은 **MLO(Mediolateral oblique, 내외사위상)**와 **CC(Craniocaudal, 상하위상)**입니다.\n• **[정답 도출 과정]**: 보기 중 표준 유방촬영 투영법에 해당하는 것은 **① Medialateral oblique view**(MLO)입니다.",
       "differential": "• ① 내외사위 촬영(MLO) + 상하위 촬영(CC) ✓ [정답]: 선별 유방촬영술에서는 유방 실질과 액와꼬리를 가장 넓게 포함하는 내외사위 촬영(MLO)과 내측 유방 조직을 빠뜨리지 않고 보여주는 상하위 촬영(CC)을 결합해 양측 유방당 2장씩 총 4장을 촬영하는 것이 국제 표준입니다.\n• ② 외내사위 촬영(LMO) + 상하위 촬영(CC) ✗ [오답]: LMO(Lateromedial oblique)는 X-선 빔이 외측에서 내측으로 들어가 내측의 두꺼운 대흉근과 유방 조직을 효과적으로 압박·포함하기 어려우므로 선별검사의 표준 촬영법이 아닙니다.\n• ③ 외내사위 촬영(LMO) + 하상위 촬영(FB) ✗ [오답]: LMO와 하상위 촬영(FB, From below / Caudocranial)의 조합은 특수 보조 투영법(예: 유방 상부 표재성 병변이나 흉벽 기형 환자)일 뿐 일반 선별검사의 2대 표준 조합이 아닙니다.\n• ④ 외측-내측 촬영(ML) + 상하위 촬영(CC) ✗ [오답]: 외측-내측(ML) 촬영은 진측면(True lateral) 보조 촬영으로 석회화 겹침을 풀거나 삼각측량(Triangulation)으로 위치를 보정할 때 추가로 찍는 영상이지 기본 MLO를 대체하지 않습니다.\n• ⑤ 과도신장 상하위 촬영(XCCL) + 내외사위 촬영(MLO) ✗ [오답]: 과도신장 상하위 촬영(XCCL)은 일반 CC에서 잘 보이지 않는 극외측 또는 액와부 근처 병변이 의심될 때 추가하는 진단적 보조 촬영법이므로 기본 선별 조합이 아닙니다.",
       "trap": "유방촬영술의 표준 내외사위상 약어는 'MLO(Mediolateral oblique)'이지 'LMO(Lateromedial oblique)'가 아니며, 상하위상 역시 'CC(Craniocaudal)'임을 약어 철자까지 정확히 구분해야 합니다.",
       "trigger": "【핵심 영상 판독 정리 & 감별 알고리즘】\n• 1. 유방촬영술(Mammography) 2대 표준 촬영법:\n  ① 내외사위상(MLO: Mediolateral oblique): 내측 상방→외측 하방 45도 사선 투영, 가장 많은 유방 조직(특히 상외측 & 액와꼬리) 포함. 품질 기준: 대흉근이 유두 수준(PNL)까지 사선으로 내려오고 유방하 주름(IMF) 포함.\n  ② 상하위상(CC: Craniocaudal): 위→아래 수직 투영, 내측 유방 조직 포함 및 내·외측 위치 판정 필수.\n• 2. 추가 진단 촬영: 진측면상(True lateral: ML/LM), 과도신장 CC(XCCL, 극외측 병변), 압박확대(Spot magnification, 미세석회화 형태 평가).",
       "kmle_link": "KMLE 외과/영상의학 - 유방 질환(유방촬영술의 기본 원리와 판독)",
       "option_explanations": [
         {
-          "opt_idx": 0,
-          "opt_num": "①",
-          "text": "내외사위 촬영(MLO) + 상하위 촬영(CC)",
+          "option": "① Medialateral oblique view",
           "is_correct": true,
-          "tag": "정답",
-          "reason": "선별 유방촬영술에서는 유방 실질과 액와꼬리를 가장 넓게 포함하는 내외사위 촬영(MLO)과 내측 유방 조직을 빠뜨리지 않고 보여주는 상하위 촬영(CC)을 결합해 양측 유방당 2장씩 총 4장을 촬영하는 것이 국제 표준입니다."
+          "reason": "정답입니다. 내외사위상(MLO)은 상하위상(CC)과 함께 유방촬영술의 2대 기본 표준 촬영(Standard view)으로, 유방 조직과 액와 꼬리까지 가장 넓게 포함합니다."
         },
         {
-          "opt_idx": 1,
-          "opt_num": "②",
-          "text": "외내사위 촬영(LMO) + 상하위 촬영(CC)",
+          "option": "② Exaggerated craniocaudal view",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "선별 유방촬영술에서는 유방 실질과 액와꼬리를 가장 넓게 포함하는 내외사위 촬영(MLO)과 내측 유방 조직을 빠뜨리지 않고 보여주는 상하위 촬영(CC)을 결합해 양측 유방당 2장씩 총 4장을 촬영하는 것이 국제 표준입니다."
+          "reason": "Exaggerated craniocaudal view(XCCL)는 유방 외측 깊은 병변을 추가로 보기 위해 시행하는 보조(additional) 촬영입니다."
         },
         {
-          "opt_idx": 2,
-          "opt_num": "③",
-          "text": "외내사위 촬영(LMO) + 하상위 촬영(FB)",
+          "option": "③ Caudocranial view",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "LMO(Lateromedial oblique)는 X-선 빔이 외측에서 내측으로 들어가 내측의 두꺼운 대흉근과 유방 조직을 효과적으로 압박·포함하기 어려우므로 선별검사의 표준 촬영법이 아닙니다."
+          "reason": "Caudocranial view는 특수 목적(남성 유방, 척추후만증 환자 등)에서 아래에서 위로 찍는 변형 보조 촬영입니다."
         },
         {
-          "opt_idx": 3,
-          "opt_num": "④",
-          "text": "외측-내측 촬영(ML) + 상하위 촬영(CC)",
+          "option": "④ Lateromedial oblique view",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "선별 유방촬영술에서는 유방 실질과 액와꼬리를 가장 넓게 포함하는 내외사위 촬영(MLO)과 내측 유방 조직을 빠뜨리지 않고 보여주는 상하위 촬영(CC)을 결합해 양측 유방당 2장씩 총 4장을 촬영하는 것이 국제 표준입니다."
+          "reason": "Lateromedial oblique(LMO) view는 내측 병변 확인을 위한 특수 보조 촬영입니다."
         },
         {
-          "opt_idx": 4,
-          "opt_num": "⑤",
-          "text": "과도신장 상하위 촬영(XCCL) + 내외사위 촬영(MLO)",
+          "option": "⑤ Mediolateral view",
           "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "선별 유방촬영술에서는 유방 실질과 액와꼬리를 가장 넓게 포함하는 내외사위 촬영(MLO)과 내측 유방 조직을 빠뜨리지 않고 보여주는 상하위 촬영(CC)을 결합해 양측 유방당 2장씩 총 4장을 촬영하는 것이 국제 표준입니다."
+          "reason": "Mediolateral(ML) view는 90도 측면 촬영으로, 석회화 층 형성(milk of calcium) 확인이나 병변 위치 결정에 쓰는 보조 촬영입니다."
         }
       ],
       "differential_general": ""
     },
     "option_explanations": [
       {
-        "opt_idx": 0,
-        "opt_num": "①",
-        "text": "내외사위 촬영(MLO) + 상하위 촬영(CC)",
+        "option": "① Medialateral oblique view",
         "is_correct": true,
-        "tag": "정답",
-        "reason": "선별 유방촬영술에서는 유방 실질과 액와꼬리를 가장 넓게 포함하는 내외사위 촬영(MLO)과 내측 유방 조직을 빠뜨리지 않고 보여주는 상하위 촬영(CC)을 결합해 양측 유방당 2장씩 총 4장을 촬영하는 것이 국제 표준입니다."
+        "reason": "정답입니다. 내외사위상(MLO)은 상하위상(CC)과 함께 유방촬영술의 2대 기본 표준 촬영(Standard view)으로, 유방 조직과 액와 꼬리까지 가장 넓게 포함합니다."
       },
       {
-        "opt_idx": 1,
-        "opt_num": "②",
-        "text": "외내사위 촬영(LMO) + 상하위 촬영(CC)",
+        "option": "② Exaggerated craniocaudal view",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "선별 유방촬영술에서는 유방 실질과 액와꼬리를 가장 넓게 포함하는 내외사위 촬영(MLO)과 내측 유방 조직을 빠뜨리지 않고 보여주는 상하위 촬영(CC)을 결합해 양측 유방당 2장씩 총 4장을 촬영하는 것이 국제 표준입니다."
+        "reason": "Exaggerated craniocaudal view(XCCL)는 유방 외측 깊은 병변을 추가로 보기 위해 시행하는 보조(additional) 촬영입니다."
       },
       {
-        "opt_idx": 2,
-        "opt_num": "③",
-        "text": "외내사위 촬영(LMO) + 하상위 촬영(FB)",
+        "option": "③ Caudocranial view",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "LMO(Lateromedial oblique)는 X-선 빔이 외측에서 내측으로 들어가 내측의 두꺼운 대흉근과 유방 조직을 효과적으로 압박·포함하기 어려우므로 선별검사의 표준 촬영법이 아닙니다."
+        "reason": "Caudocranial view는 특수 목적(남성 유방, 척추후만증 환자 등)에서 아래에서 위로 찍는 변형 보조 촬영입니다."
       },
       {
-        "opt_idx": 3,
-        "opt_num": "④",
-        "text": "외측-내측 촬영(ML) + 상하위 촬영(CC)",
+        "option": "④ Lateromedial oblique view",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "선별 유방촬영술에서는 유방 실질과 액와꼬리를 가장 넓게 포함하는 내외사위 촬영(MLO)과 내측 유방 조직을 빠뜨리지 않고 보여주는 상하위 촬영(CC)을 결합해 양측 유방당 2장씩 총 4장을 촬영하는 것이 국제 표준입니다."
+        "reason": "Lateromedial oblique(LMO) view는 내측 병변 확인을 위한 특수 보조 촬영입니다."
       },
       {
-        "opt_idx": 4,
-        "opt_num": "⑤",
-        "text": "과도신장 상하위 촬영(XCCL) + 내외사위 촬영(MLO)",
+        "option": "⑤ Mediolateral view",
         "is_correct": false,
-        "tag": "오답 감별",
-        "reason": "선별 유방촬영술에서는 유방 실질과 액와꼬리를 가장 넓게 포함하는 내외사위 촬영(MLO)과 내측 유방 조직을 빠뜨리지 않고 보여주는 상하위 촬영(CC)을 결합해 양측 유방당 2장씩 총 4장을 촬영하는 것이 국제 표준입니다."
+        "reason": "Mediolateral(ML) view는 90도 측면 촬영으로, 석회화 층 형성(milk of calcium) 확인이나 병변 위치 결정에 쓰는 보조 촬영입니다."
       }
     ],
     "index": 2549,
