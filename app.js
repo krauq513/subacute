@@ -1895,16 +1895,7 @@
           }
         }
 
-        // 5. Cross-subject match in target year if needed
-        if (!targetQ) {
-          for (const t of tags) {
-            targetQ = state.allQuestions.find(cand =>
-              cand.year === yr &&
-              cand.raw_questions && cand.raw_questions.includes(t)
-            );
-            if (targetQ) break;
-          }
-        }
+        // Never cross-match across different subjects when target year is not in this subject's DB
       }
 
       // Format label
@@ -2135,14 +2126,7 @@
       );
     }
 
-    // 5. Cross-subject match in targetYear
-    if (!target) {
-      target = state.allQuestions.find(cand =>
-        cand.year === targetYear &&
-        cand.raw_questions && cand.raw_questions.includes(rawItem)
-      );
-    }
-
+    // Do not fall back across unrelated subjects when targetYear is absent for curSub
     if (!target) {
       showToast(`⚠️ [${rawItem}] 문제는 현재 5개년(20Y~26Y) 기출 DB에 포함되어 있지 않습니다.`);
       return;
@@ -3485,8 +3469,8 @@
    */
 
   const SUBJECT_ORDER = [
-    '내과', '외과', '산부인과', '소아청소년과', '정신건강의학과',
-    '신경과', '영상의학과', '정형외과', '진단검사의학과'
+    '외과', '영상의학과', '신경과', '산부인과', '내과',
+    '소아청소년과', '정신건강의학과', '진단검사의학과', '정형외과'
   ];
 
   /**
