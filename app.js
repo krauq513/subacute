@@ -367,6 +367,7 @@
     pendingResync: false,
     pendingResyncSilent: true,
     lastSyncTime: null,
+    lastSyncedMutationSeq: 0,
     AUTO_SYNC_INTERVAL_MS: 180000, // 3 minutes
 
     async sync({ silent = false, isInitial = false, force = false } = {}) {
@@ -568,6 +569,7 @@
             renderReportHistoryList();
           }
 
+          this.lastSyncedMutationSeq = syncStartSeq;
           this.lastSyncTime = Date.now();
           this.updateIndicator('online');
           if (!silent && !isInitial) {
@@ -590,16 +592,13 @@
       }
     },
 
-    scheduleDebouncedSync(delayMs = 180000) {
-      // Background auto-sync throttled to 3 minutes
+    scheduleDebouncedSync(delayMs = 3000) {
       const elapsed = Date.now() - (this.lastSyncTime || 0);
-      if (elapsed < this.AUTO_SYNC_INTERVAL_MS) {
-        return;
-      }
+      const waitMs = elapsed < 10000 ? Math.max(delayMs, 10000 - elapsed) : delayMs;
       if (this.syncTimer) clearTimeout(this.syncTimer);
       this.syncTimer = setTimeout(() => {
         this.sync({ silent: true });
-      }, 5000);
+      }, waitMs);
     },
 
     async init() {
@@ -624,20 +623,28 @@
         this.sync({ silent: true });
       }, this.AUTO_SYNC_INTERVAL_MS);
 
-      // 3. Tab visibility sync (throttled to 3 minutes)
+      // 3. Tab visibility sync (flush unsynced mutations on hide; refresh on visible after 15s)
       document.addEventListener('visibilitychange', () => {
-        if (document.visibilityState === 'visible') {
+        if (document.visibilityState === 'hidden') {
+          if ((state.profileMutationSeq || 0) !== this.lastSyncedMutationSeq) {
+            if (this.syncTimer) {
+              clearTimeout(this.syncTimer);
+              this.syncTimer = null;
+            }
+            this.sync({ silent: true, force: true });
+          }
+        } else if (document.visibilityState === 'visible') {
           const elapsed = Date.now() - (this.lastSyncTime || 0);
-          if (elapsed >= this.AUTO_SYNC_INTERVAL_MS) {
+          if (elapsed >= 15000) {
             this.sync({ silent: true });
           }
         }
       });
 
-      // 4. Window focus sync (throttled to 3 minutes)
+      // 4. Window focus sync (throttled to 15 seconds)
       window.addEventListener('focus', () => {
         const elapsed = Date.now() - (this.lastSyncTime || 0);
-        if (elapsed >= this.AUTO_SYNC_INTERVAL_MS) {
+        if (elapsed >= 15000) {
           this.sync({ silent: true });
         }
       });

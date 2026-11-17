@@ -33,7 +33,7 @@ export default async function handler(req, res) {
 
       console.log('🚨 [USER_ISSUE_REPORT]:', JSON.stringify(reportItem));
 
-      const current = await fetchGistData();
+      const current = await fetchGistData({ throwOnError: true });
       const existingReports = Array.isArray(current.reports) ? current.reports : [];
       if (!existingReports.some(r => r.id === reportItem.id)) {
         existingReports.unshift(reportItem);
@@ -57,7 +57,7 @@ export default async function handler(req, res) {
 
   if (req.method === 'GET') {
     try {
-      const current = await fetchGistData();
+      const current = await fetchGistData({ throwOnError: true });
       const reports = Array.isArray(current.reports) ? current.reports : [];
       return res.status(200).json({ status: 'ready', reports, total: reports.length });
     } catch (e) {

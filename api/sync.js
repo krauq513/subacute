@@ -527,7 +527,10 @@ function mergeData(serverData, clientData) {
     if (mergedEdits[qId]) delete mergedEdits[qId];
   }
 
-    const mergedEditLogs = Array.from(logMap.values()).sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0));
+  // Cap editLogs to most recent 30 entries to avoid Gist payload bloat
+  const mergedEditLogs = Array.from(logMap.values())
+    .sort((a, b) => (b.timestamp || 0) - (a.timestamp || 0))
+    .slice(0, 30);
 
   // 4. Profiles merge
   const profileMap = new Map();
@@ -680,13 +683,13 @@ export default async function handler(req, res) {
 
   try {
     if (req.method === 'GET') {
-      const current = await fetchGistData();
+      const current = await fetchGistData({ throwOnError: true });
       return res.status(200).json({ success: true, ...current });
     }
 
     if (req.method === 'POST') {
       const body = typeof req.body === 'string' ? JSON.parse(req.body) : (req.body || {});
-      const current = await fetchGistData();
+      const current = await fetchGistData({ throwOnError: true });
       const merged = mergeData(current, body);
 
       // Save merged state to GitHub Gist (zero Vercel Blob usage)
