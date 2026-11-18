@@ -222941,7 +222941,7 @@ window.ALL_QUESTIONS = [
           "reason": "테르부탈린 역시 베타2 교감신경작용제로 단기간 급성 자궁수축 억제에 쓰이지만, 칼슘 길항 기전이나 태아 신경보호 효과와는 무관하다."
         }
       ],
-      "differential_general": "23Y-24: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n22Y-44: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n21Y-48: 진통 억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n20Y-70: 진통억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n19Y-13: (야마) 진통억제제 중 다음과 같은 특성을 가지는 것은? -> 정답: 황산마그네슘"
+      "differential_general": "23Y-24: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n22Y-44: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n21Y-48: 진통 억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n20Y-70: 진통억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n19Y-13: (야마) 진통억제제 중 다음과 같은 특성을 가지는 것은? - 칼슘길항작용 - 과량 시 호흡부전 - 태아 neuroprotective -> 정답: 황산마그네슘"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -225668,7 +225668,7 @@ window.ALL_QUESTIONS = [
     "category": "탈",
     "theme_title": "테마 50. 단일융모막 쌍태임신과 쌍태아 수혈증후군(TTTS Stage I)의 경과관찰 · 추적",
     "subspecialty": "산과학",
-    "stem": "35세 24주 단일융모막 쌍태임신 산모의 초음파 소견이다. 치료는?",
+    "stem": "35세 24주 단일융모막 쌍태임신 산모의 초음파 소견이다. 치료는?\n| 구분 | 태아체중 | AFV | 성별 | 방광 | 탯줄동맥도플러 | MCA |\n| 태아 1 | 200(10분위) | 2 | 여 | 보임 | 보임 | 보임 |\n| 태아 2 | 800(70) | 8 | 남 | 보임 | 보임 | 보임 |",
     "images": [],
     "options": [
       "사이막절개술",
@@ -225728,7 +225728,7 @@ window.ALL_QUESTIONS = [
           "reason": "한쪽 태아의 심각한 구조적 기형이나 염색체 이상이 동반된 경우 고려할 수 있으나 TTTS 1기의 치료 적응증이 아닙니다."
         }
       ],
-      "differential_general": "23Y-28: 25주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? [초음파 소견] • 여아: 예측 태아몸무게 10백분위수, 최대양수주머니 수직깊이 2cm, 탯줄동 -> 정답: 추적관찰\n22Y-57: 25 주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? -> 정답: 추적관찰\n21Y-52: 쌍둥이를 임신한 임신 20 주인 33 세 미분만부 산전진찰을 위해 병원에 왔다. 초음파 검사 결과는 다음과 같았다. 적절한 처치는? -> 정답: 추적관찰"
+      "differential_general": "23Y-28: 25주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? | 구분 | 예측 태아몸무게 | 최대양수주머니 수직깊이 | 탯줄동맥도플러초음파 | 정맥관도플러초 -> 정답: 추적관찰\n22Y-57: 25 주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? -> 정답: 추적관찰\n21Y-52: 쌍둥이를 임신한 임신 20 주인 33 세 미분만부 산전진찰을 위해 병원에 왔다. 초음파 검사 결과는 다음과 같았다. 적절한 처치는? -> 정답: 추적관찰"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -225793,7 +225793,7 @@ window.ALL_QUESTIONS = [
     ],
     "answer": "경과관찰",
     "image": null,
-    "box": "[초음파 소견]\n• 태아 1: 태아체중 200 (10분위), AFV 2, 성별 여, 방광 보임, 탯줄동맥도플러 보임, MCA 보임\n• 태아 2: 태아체중 800 (70), AFV 8, 성별 남, 방광 보임, 탯줄동맥도플러 보임, MCA 보임",
+    "box": "[초음파 소견]\n• 태아 1: 태아체중 200(10분위), AFV 2, 성별 여, 방광 보임, 탯줄동맥도플러 보임, MCA 보임\n• 태아 2: 태아체중 800(70), AFV 8, 성별 남, 방광 보임, 탯줄동맥도플러 보임, MCA 보임",
     "index": 1818
   },
   {
@@ -228276,7 +228276,7 @@ window.ALL_QUESTIONS = [
     "category": "탈",
     "theme_title": "임신 중 자궁경부 고등급 상피내병변(HSIL) - 침윤 배제 시 분만 6주 후 재평가·치료",
     "subspecialty": "부인종양학",
-    "stem": "26세 0-0-0-0 기혼 여성, 임신 7주, 산전 진찰에서 자궁경부 검사에 이상이 있어 내원하였다. 자궁경부암 선별검사에서 HSIL, 조직검사에서 LSIL로 확인되었다.",
+    "stem": "26세 0-0-0-0 기혼 여성, 임신 7주, 산전 진찰에서 자궁경부 검사에 이상이 있어 내원하였다. 자궁경부암 선별검사에서 HSIL, 조직검사에서 LSIL로 확인되었다.\n- Colposcopy 사진 주어짐\n- HPV: 18번 양성",
     "images": [],
     "options": [
       "분만 6주 뒤로 치료를 미룬다",
@@ -228519,7 +228519,7 @@ window.ALL_QUESTIONS = [
     "category": "짤",
     "theme_title": "테마 111. 난소 악성 생식세포종양 - 난황낭종(Yolk Sac / Endodermal Sinus Tumor, AFP 상승·Schiller-Duval Body)과 보조 항암요법",
     "subspecialty": "부인종양학",
-    "stem": "17세 여학생이 복부통증이 있어 응급실로 왔다. 수술 소견에서 혈복강이 심하였고, 종양 표지자 검사가 다음과 같을 때, 환자에게 적절한 치료가 아닌 것은?",
+    "stem": "17세 여학생이 복부통증이 있어 응급실로 왔다. 수술 소견에서 혈복강이 심하였고, 종양 표지자 검사가 다음과 같을 때, 환자에게 적절한 치료가 아닌 것은?\n| 검사 항목 | 결과 |\n| CA 125 | 216.6 IU/ml |\n| CA 19-9 | 11.7 IU/ml |\n| AFP | 14472 ng/ml |\n| β-hCG | <0.1 mIU/ml |",
     "images": [],
     "options": [
       "Unilateral oopherectomy",
@@ -228648,7 +228648,8 @@ window.ALL_QUESTIONS = [
     "answer": "Stage IA이기 때문에 항암요법을 시행하지 않는다.",
     "question": "17세 여학생이 복부통증이 있어 응급실로 왔다. 수술 소견에서 혈복강이 심하였고, 종양 표지자 검사가 다음과 같을 때, 환자에게 적절한 치료 및 설명이 아닌 것은?\n\n• CA 125: 216.6 IU/mL\n• CA 19-9: 11.7 IU/mL\n• AFP: 14,472 ng/mL\n• β-hCG: < 0.1 mIU/mL",
     "image": null,
-    "index": 1840
+    "index": 1840,
+    "box": "• CA 125: 216.6 IU/ml\n• CA 19-9: 11.7 IU/ml\n• AFP: 14472 ng/ml\n• β-hCG: <0.1 mIU/ml"
   },
   {
     "id": "산부인과_26Y_Q58",
@@ -232184,7 +232185,7 @@ window.ALL_QUESTIONS = [
           "reason": "리토드린과 동일한 베타 아드레날린 수용체 작용제입니다."
         }
       ],
-      "differential_general": "23Y-24: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n22Y-44: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n21Y-48: 진통 억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n20Y-70: 진통억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n19Y-13: (야마) 진통억제제 중 다음과 같은 특성을 가지는 것은? -> 정답: 황산마그네슘"
+      "differential_general": "23Y-24: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n22Y-44: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n21Y-48: 진통 억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n20Y-70: 진통억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n19Y-13: (야마) 진통억제제 중 다음과 같은 특성을 가지는 것은? - 칼슘길항작용 - 과량 시 호흡부전 - 태아 neuroprotective -> 정답: 황산마그네슘"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -232612,7 +232613,7 @@ window.ALL_QUESTIONS = [
     "category": "반짤",
     "theme_title": "테마 50. 단일융모막 쌍태임신과 쌍태아 수혈증후군(TTTS Stage I)의 경과관찰 · 추적",
     "subspecialty": "산과학",
-    "stem": "25주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는?\n[초음파 소견]\n• 여아: 예측 태아몸무게 10백분위수, 최대양수주머니 수직깊이 2cm, 탯줄동맥도플러 정상, 정맥관도플러 정상\n• 남아: 예측 태아몸무게 70백분위수, 최대양수주머니 수직깊이 7cm, 탯줄동맥도플러 정상, 정맥관도플러 정상",
+    "stem": "25주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는?\n| 구분 | 예측 태아몸무게 | 최대양수주머니 수직깊이 | 탯줄동맥도플러초음파 | 정맥관도플러초음파 |\n| 여 | 10백분위수 | 2cm | 정상 | 정상 |\n| 남 | 70백분위수 | 7cm | 정상 | 정상 |",
     "images": [],
     "options": [
       "추적관찰",
@@ -232672,7 +232673,7 @@ window.ALL_QUESTIONS = [
           "reason": "단일융모막 쌍태임신의 TTTS Stage II 이상에서 태반 혈관 문합을 응고 차단하는 근치적 표준 치료입니다."
         }
       ],
-      "differential_general": "23Y-28: 25주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? [초음파 소견] • 여아: 예측 태아몸무게 10백분위수, 최대양수주머니 수직깊이 2cm, 탯줄동 -> 정답: 추적관찰\n22Y-57: 25 주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? -> 정답: 추적관찰\n21Y-52: 쌍둥이를 임신한 임신 20 주인 33 세 미분만부 산전진찰을 위해 병원에 왔다. 초음파 검사 결과는 다음과 같았다. 적절한 처치는? -> 정답: 추적관찰"
+      "differential_general": "23Y-28: 25주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? | 구분 | 예측 태아몸무게 | 최대양수주머니 수직깊이 | 탯줄동맥도플러초음파 | 정맥관도플러초 -> 정답: 추적관찰\n22Y-57: 25 주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? -> 정답: 추적관찰\n21Y-52: 쌍둥이를 임신한 임신 20 주인 33 세 미분만부 산전진찰을 위해 병원에 왔다. 초음파 검사 결과는 다음과 같았다. 적절한 처치는? -> 정답: 추적관찰"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -233767,7 +233768,7 @@ window.ALL_QUESTIONS = [
     "category": "탈",
     "theme_title": "테마 91. 자궁경부 저등급 상피내병변(LSIL/CIN 1) 및 조직생검 음성(ASC-H)의 추적관찰",
     "subspecialty": "부인종양학",
-    "stem": "??세 여성이 자궁경부암 검사 소견 이상으로 내원. 가장 적절한 치료는?",
+    "stem": "??세 여성이 자궁경부암 검사 소견 이상으로 내원. 가장 적절한 치료는?\n| Cytology | HPV | Punch biopsy | Endometrial biopsy |\n| ASC-H | 58 | Chronic cervicitis, No malignancy | No malignancy |",
     "images": [],
     "options": [
       "경과관찰",
@@ -233856,7 +233857,8 @@ window.ALL_QUESTIONS = [
     ],
     "answer": "6개월 후 pap smear, HPV, biopsy 시행",
     "image": null,
-    "index": 1880
+    "index": 1880,
+    "box": "• Cytology: ASC-H / HPV: 58\n• Punch biopsy: Chronic cervicitis, No malignancy\n• Endometrial biopsy: No malignancy"
   },
   {
     "id": "산부인과_23Y_Q38",
@@ -233922,7 +233924,7 @@ window.ALL_QUESTIONS = [
           "reason": "골반강 외부 복막(대망, Omentum)에 육안적 전이가 있으나 최대 직경이 2cm 이하(본 증례 1.5cm)인 경우 후복막 림프절 전이 유무와 관계없이 FIGO Stage IIIB에 해당합니다"
         }
       ],
-      "differential_general": "22Y-19: 62/F. 난소암 Debulking surgery 하고 결과. 병기는? Bilateral ovary and salpinx. Salpingooophorec -> 정답: IIIB\n21Y-25: 56 세 여성 난소암 종양감축술 받은 뒤 병리 검사결과가 다음과 같다. 병기설정은? Serous adenocarcinoma, moderately diff -> 정답: IIIA1(i)\n20Y-41: 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사 결과가 다음과 같다. Stage는? -> 정답: IIIA1(i)\n19Y-82: (야마) 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사결과가 다음과 같다. Stage는? Serous adenoc -> 정답: IIIA1(i)",
+      "differential_general": "22Y-19: 62/F. 난소암 Debulking surgery 하고 결과. 병기는? Bilateral ovary and salpinx. Salpingooophorec -> 정답: IIIB\n21Y-25: 56 세 여성 난소암 종양감축술 받은 뒤 병리 검사결과가 다음과 같다. 병기설정은? Serous adenocarcinoma, moderately diff -> 정답: IIIA1(i)\n20Y-41: 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사 결과가 다음과 같다. Stage는? • Serous adenocar -> 정답: IIIA1(i)\n19Y-82: (야마) 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사결과가 다음과 같다. Stage는? Serous adenoc -> 정답: IIIA1(i)",
       "title": "테마 109. 상피성 난소암 FIGO 병기설정 (IIIA1(i) 후복막 림프절 ≤10mm vs IIIB 복강/대망 ≤2cm 전이)",
       "trap": "핵심 정답('IIIB')과 유사 질환 감별 포인트를 혼동하지 않도록 주의하십시오. (양측 난소암 수술 후 골반 림프절 7mm 양성+골반 밖 대망(Omentum) 1.5cm 육안적 전이 → FIGO Stage IIIB)",
       "trigger": "【상피성 난소암 FIGO 병기설정 (IIIA1(i) 후복막 림프절 ≤10mm vs IIIB 복강/대망 ≤2cm 전이)】\n• 핵심 결론: IIIB\n• 감별 요약: 양측 난소암 수술 후 골반 림프절 7mm 양성+골반 밖 대망(Omentum) 1.5cm 육안적 전이 → FIGO Stage IIIB",
@@ -238869,7 +238871,7 @@ window.ALL_QUESTIONS = [
     "category": "탈",
     "theme_title": "테마 103. 가임기 여성의 초기 Grade 1 근층 침범 없는 자궁내막암 - 고용량 프로게스테론 가임력 보존 치료",
     "subspecialty": "부인종양학",
-    "stem": "(탈) 34세 산과력 0-0-0-0인 환자, 월경 간 질출혈 반복되어 내원하였다. 자궁내막 두께는 19mm였다. 치료는?",
+    "stem": "(탈) 34세 산과력 0-0-0-0인 환자, 월경 간 질출혈 반복되어 내원하였다. 자궁내막 두께는 19mm였다. 치료는?\n• 조직형: 자궁내막양 샘암\n• MRI: 자궁내막에 1.0 x 1.0 cm의 high signal intensity를 보이는 병변이 있었으며, 자궁근육층으로의 침범은 관찰되지 않음.\n• CT: Abdominal lymph node에 비대 없음. 다른 장기로의 전이 확인되지 않음.\n• PET-CT: 자궁내막에 high metabolic activity 보이는 병변 있었으며 다른 곳에서는 이상 없음.",
     "images": [],
     "options": [
       "복강경 단순자궁적출",
@@ -239450,7 +239452,7 @@ window.ALL_QUESTIONS = [
           "reason": "Stage IIIC는 골반 외 복막 전이의 최대 직경이 2 cm를 초과할 때 부여하므로 대망 전이가 1 cm인 본 증례보다 높은 병기이다."
         }
       ],
-      "differential_general": "22Y-19: 62/F. 난소암 Debulking surgery 하고 결과. 병기는? Bilateral ovary and salpinx. Salpingooophorec -> 정답: IIIB\n21Y-25: 56 세 여성 난소암 종양감축술 받은 뒤 병리 검사결과가 다음과 같다. 병기설정은? Serous adenocarcinoma, moderately diff -> 정답: IIIA1(i)\n20Y-41: 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사 결과가 다음과 같다. Stage는? -> 정답: IIIA1(i)\n19Y-82: (야마) 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사결과가 다음과 같다. Stage는? Serous adenoc -> 정답: IIIA1(i)"
+      "differential_general": "22Y-19: 62/F. 난소암 Debulking surgery 하고 결과. 병기는? Bilateral ovary and salpinx. Salpingooophorec -> 정답: IIIB\n21Y-25: 56 세 여성 난소암 종양감축술 받은 뒤 병리 검사결과가 다음과 같다. 병기설정은? Serous adenocarcinoma, moderately diff -> 정답: IIIA1(i)\n20Y-41: 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사 결과가 다음과 같다. Stage는? • Serous adenocar -> 정답: IIIA1(i)\n19Y-82: (야마) 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사결과가 다음과 같다. Stage는? Serous adenoc -> 정답: IIIA1(i)"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -242769,7 +242771,7 @@ window.ALL_QUESTIONS = [
           "reason": "리토드린과 동일한 베타 아드레날린 수용체 작용제입니다."
         }
       ],
-      "differential_general": "23Y-24: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n22Y-44: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n21Y-48: 진통 억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n20Y-70: 진통억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n19Y-13: (야마) 진통억제제 중 다음과 같은 특성을 가지는 것은? -> 정답: 황산마그네슘"
+      "differential_general": "23Y-24: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n22Y-44: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n21Y-48: 진통 억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n20Y-70: 진통억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n19Y-13: (야마) 진통억제제 중 다음과 같은 특성을 가지는 것은? - 칼슘길항작용 - 과량 시 호흡부전 - 태아 neuroprotective -> 정답: 황산마그네슘"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -244438,7 +244440,7 @@ window.ALL_QUESTIONS = [
           "reason": "태아경 레이저 혈관문합 응고술(FLOC)은 Quintero Stage II~IV의 중증 TTTS에서 시행하는 근치적 치료이며, Stage I에서는 추적관찰이 우선입니다."
         }
       ],
-      "differential_general": "23Y-28: 25주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? [초음파 소견] • 여아: 예측 태아몸무게 10백분위수, 최대양수주머니 수직깊이 2cm, 탯줄동 -> 정답: 추적관찰\n22Y-57: 25 주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? -> 정답: 추적관찰\n21Y-52: 쌍둥이를 임신한 임신 20 주인 33 세 미분만부 산전진찰을 위해 병원에 왔다. 초음파 검사 결과는 다음과 같았다. 적절한 처치는? -> 정답: 추적관찰"
+      "differential_general": "23Y-28: 25주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? | 구분 | 예측 태아몸무게 | 최대양수주머니 수직깊이 | 탯줄동맥도플러초음파 | 정맥관도플러초 -> 정답: 추적관찰\n22Y-57: 25 주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? -> 정답: 추적관찰\n21Y-52: 쌍둥이를 임신한 임신 20 주인 33 세 미분만부 산전진찰을 위해 병원에 왔다. 초음파 검사 결과는 다음과 같았다. 적절한 처치는? -> 정답: 추적관찰"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -246307,7 +246309,7 @@ window.ALL_QUESTIONS = [
     "category": "기출",
     "theme_title": "테마 63. 조기진통 억제제(Tocolytics) - 황산마그네슘(MgSO4)의 칼슘길항·호흡부전·태아 신경보호",
     "subspecialty": "산과학",
-    "stem": "(야마) 진통억제제 중 다음과 같은 특성을 가지는 것은?",
+    "stem": "(야마) 진통억제제 중 다음과 같은 특성을 가지는 것은?\n- 칼슘길항작용\n- 과량 시 호흡부전\n- 태아 neuroprotective",
     "images": [],
     "options": [
       "Ritodrine",
@@ -246349,7 +246351,7 @@ window.ALL_QUESTIONS = [
           "reason": "Terbutaline은 단시간 작용하는 베타2 작용제로 급성 자궁과다수축 억제에 쓰이며 칼슘 길항이나 태아 신경보호와는 무관합니다."
         }
       ],
-      "differential_general": "23Y-24: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n22Y-44: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n21Y-48: 진통 억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n20Y-70: 진통억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n19Y-13: (야마) 진통억제제 중 다음과 같은 특성을 가지는 것은? -> 정답: 황산마그네슘"
+      "differential_general": "23Y-24: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n22Y-44: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n21Y-48: 진통 억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n20Y-70: 진통억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n19Y-13: (야마) 진통억제제 중 다음과 같은 특성을 가지는 것은? - 칼슘길항작용 - 과량 시 호흡부전 - 태아 neuroprotective -> 정답: 황산마그네슘"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -249748,7 +249750,7 @@ window.ALL_QUESTIONS = [
     "category": "기출",
     "theme_title": "임신성 당뇨병(GDM) 식이·운동요법 혈당 조절 실패 시 인슐린(Insulin) 치료",
     "subspecialty": "산과학",
-    "stem": "임신 25주에 50g OGTT, 100g OGTT 이상소견으로 임신성 당뇨 진단. 식이요법과 운동요법 진행 후 4주 후 재검함. 해야할 것은?",
+    "stem": "임신 25주에 50g OGTT, 100g OGTT 이상소견으로 임신성 당뇨 진단. 식이요법과 운동요법 진행 후 4주 후 재검함. 해야할 것은?\n| 구분 | 공복 | 식후2hr |\n| 날짜1 | 95 | 128 |\n| 날짜2 | 107 | 150 |\n| 날짜3 | 103 | 130 |\n| 날짜4 | 110 | 170 |",
     "images": [],
     "options": [
       "인슐린",
@@ -254405,7 +254407,7 @@ window.ALL_QUESTIONS = [
           "reason": "FIGO IIIB는 림프절 전이 여부와 무관하게 골반 밖 복막/대망 전이 크기가 2 cm 이하인 병기입니다(지문의 Omentum (+)가 2 cm 이하 복막 전이를 의미한다면 IIIB 가능성도 존재)."
         }
       ],
-      "differential_general": "22Y-19: 62/F. 난소암 Debulking surgery 하고 결과. 병기는? Bilateral ovary and salpinx. Salpingooophorec -> 정답: IIIB\n21Y-25: 56 세 여성 난소암 종양감축술 받은 뒤 병리 검사결과가 다음과 같다. 병기설정은? Serous adenocarcinoma, moderately diff -> 정답: IIIA1(i)\n20Y-41: 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사 결과가 다음과 같다. Stage는? -> 정답: IIIA1(i)\n19Y-82: (야마) 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사결과가 다음과 같다. Stage는? Serous adenoc -> 정답: IIIA1(i)"
+      "differential_general": "22Y-19: 62/F. 난소암 Debulking surgery 하고 결과. 병기는? Bilateral ovary and salpinx. Salpingooophorec -> 정답: IIIB\n21Y-25: 56 세 여성 난소암 종양감축술 받은 뒤 병리 검사결과가 다음과 같다. 병기설정은? Serous adenocarcinoma, moderately diff -> 정답: IIIA1(i)\n20Y-41: 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사 결과가 다음과 같다. Stage는? • Serous adenocar -> 정답: IIIA1(i)\n19Y-82: (야마) 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사결과가 다음과 같다. Stage는? Serous adenoc -> 정답: IIIA1(i)"
     },
     "is_multiple_choice": false,
     "required_count": 1,
@@ -257041,7 +257043,7 @@ window.ALL_QUESTIONS = [
     "category": "짤",
     "theme_title": "테마 48. 자궁내장치(IUD) 삽입 상태 임신 시 유산·감염 예방을 위한 IUD 조기 제거 (질경/초음파 유도)",
     "subspecialty": "산과학",
-    "stem": "30 세 산과력 0-0-1-0 여성이 무월경으로 내원하여 hCG 검사를 시행한 결과 양성이었다. 이어서 시행한 초음파 검사에서 임신 11 주 상태이고, 검사 결과는 다음과 같다. 1 년전 자궁내장치 시술을 받았다고 했으나, 질경 검사에서는 자궁내장치의 실이 보이지 않았다. 적절한 조치는?",
+    "stem": "30 세 산과력 0-0-1-0 여성이 무월경으로 내원하여 hCG 검사를 시행한 결과 양성이었다. 이어서 시행한 초음파 검사에서 임신 11 주 상태이고, 검사 결과는 다음과 같다. 1 년전 자궁내장치 시술을 받았다고 했으나, 질경 검사에서는 자궁내장치의 실이 보이지 않았다. 적절한 조치는?\n- 체온 36.3 도, 혈압 110/90, 심박수(정상), 호흡수 20\n- 혈색소 10.3, 백혈구 7800/mm^3, 혈소판 380000",
     "images": [
       "images/산부인과/21Y_Q10_fig1.png"
     ],
@@ -259125,7 +259127,7 @@ window.ALL_QUESTIONS = [
           "reason": "IIB2는 난소암 병기 체계에 존재하지 않는 분류입니다(난소암 IIB는 골반 내 다른 복막 조직 침범을 의미)."
         }
       ],
-      "differential_general": "22Y-19: 62/F. 난소암 Debulking surgery 하고 결과. 병기는? Bilateral ovary and salpinx. Salpingooophorec -> 정답: IIIB\n21Y-25: 56 세 여성 난소암 종양감축술 받은 뒤 병리 검사결과가 다음과 같다. 병기설정은? Serous adenocarcinoma, moderately diff -> 정답: IIIA1(i)\n20Y-41: 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사 결과가 다음과 같다. Stage는? -> 정답: IIIA1(i)\n19Y-82: (야마) 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사결과가 다음과 같다. Stage는? Serous adenoc -> 정답: IIIA1(i)"
+      "differential_general": "22Y-19: 62/F. 난소암 Debulking surgery 하고 결과. 병기는? Bilateral ovary and salpinx. Salpingooophorec -> 정답: IIIB\n21Y-25: 56 세 여성 난소암 종양감축술 받은 뒤 병리 검사결과가 다음과 같다. 병기설정은? Serous adenocarcinoma, moderately diff -> 정답: IIIA1(i)\n20Y-41: 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사 결과가 다음과 같다. Stage는? • Serous adenocar -> 정답: IIIA1(i)\n19Y-82: (야마) 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사결과가 다음과 같다. Stage는? Serous adenoc -> 정답: IIIA1(i)"
     },
     "option_explanations": [
       {
@@ -262177,7 +262179,7 @@ window.ALL_QUESTIONS = [
       ],
       "differential": "• ① 리토드린 ✗ [오답]: 리토드린은 베타2 교감신경 작용제로 자궁을 이완시키나 빈맥·폐부종·고혈당이 부작용이며 태아 신경보호 효과는 없습니다.\n• ② 황산마그네슘 ✓ [정답]: 황산마그네슘은 칼슘길항 기전으로 작용하고 과량 시 호흡억제를 유발하며 조산아 뇌 신경보호 효과가 입증되어 정답입니다.\n• ③ Terbutaline ✗ [오답]: Terbutaline은 리토드린과 같은 베타2 작용제로 일시적 자궁이완제로 쓰일 뿐 칼슘길항제나 태아 신경보호제가 아닙니다.",
       "title": "테마 63. 조기진통 억제제(Tocolytics) - 황산마그네슘(MgSO4)의 칼슘길항·호흡부전·태아 신경보호",
-      "differential_general": "23Y-24: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n22Y-44: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n21Y-48: 진통 억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n20Y-70: 진통억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n19Y-13: (야마) 진통억제제 중 다음과 같은 특성을 가지는 것은? -> 정답: 황산마그네슘"
+      "differential_general": "23Y-24: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n22Y-44: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n21Y-48: 진통 억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n20Y-70: 진통억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n19Y-13: (야마) 진통억제제 중 다음과 같은 특성을 가지는 것은? - 칼슘길항작용 - 과량 시 호흡부전 - 태아 neuroprotective -> 정답: 황산마그네슘"
     },
     "option_explanations": [
       {
@@ -262691,7 +262693,7 @@ window.ALL_QUESTIONS = [
       "trap": "두 태아의 체중 차이(400 g vs 900 g)와 양수 깊이 차이(2 cm vs 8 cm)만 보고 성급히 TTTS로 오진해 태아경 레이저절제술이나 양수감압술을 고르지 않도록 '성별 다름' 단서를 확인해야 합니다.",
       "differential": "• ① 추적관찰 ✓ [정답]: 성별이 다른 이융모막 쌍태임신이라 TTTS가 아니며 양측 도플러도 정상이므로 면밀한 초음파 추적관찰이 정답입니다.\n• ② 양수감압술 ✗ [오답]: 양수감압술은 산모 호흡곤란·조산 위험이 큰 심한 양수과다증이나 TTTS 보조 치료에 쓰이며 SVP 8 cm에서는 불필요합니다.\n• ③ 양수주입술 ✗ [오답]: 양수주입술은 심한 양수과소증에서 제대압박 완화 등을 위해 고려하며 SVP 2 cm 및 정상 도플러 상태에서는 적응증이 아닙니다.\n• ④ 사이막절개술 ✗ [오답]: 사이막절개술은 과거 TTTS에서 시도되던 시술로 현재 거의 쓰이지 않으며 이융모막 쌍태아에는 해당하지 않습니다.\n• ⑤ 혈관문합 태아경 레이저절제술 ✗ [오답]: 혈관문합 태아경 레이저절제술은 단일융모막(MCDA) 쌍태아의 중증 TTTS 표준 치료이므로 이란성 쌍태아에는 부적절합니다.",
       "title": "테마 50. 단일융모막 쌍태임신과 쌍태아 수혈증후군(TTTS Stage I)의 경과관찰 · 추적",
-      "differential_general": "23Y-28: 25주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? [초음파 소견] • 여아: 예측 태아몸무게 10백분위수, 최대양수주머니 수직깊이 2cm, 탯줄동 -> 정답: 추적관찰\n22Y-57: 25 주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? -> 정답: 추적관찰\n21Y-52: 쌍둥이를 임신한 임신 20 주인 33 세 미분만부 산전진찰을 위해 병원에 왔다. 초음파 검사 결과는 다음과 같았다. 적절한 처치는? -> 정답: 추적관찰"
+      "differential_general": "23Y-28: 25주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? | 구분 | 예측 태아몸무게 | 최대양수주머니 수직깊이 | 탯줄동맥도플러초음파 | 정맥관도플러초 -> 정답: 추적관찰\n22Y-57: 25 주 산모, 쌍둥이 산전진찰 위해 병원 내원. 처치는? -> 정답: 추적관찰\n21Y-52: 쌍둥이를 임신한 임신 20 주인 33 세 미분만부 산전진찰을 위해 병원에 왔다. 초음파 검사 결과는 다음과 같았다. 적절한 처치는? -> 정답: 추적관찰"
     },
     "option_explanations": [
       {
@@ -268952,7 +268954,7 @@ window.ALL_QUESTIONS = [
     "category": "짤",
     "theme_title": "테마 109. 상피성 난소암 FIGO 병기설정 (IIIA1(i) 후복막 림프절 ≤10mm vs IIIB 복강/대망 ≤2cm 전이)",
     "subspecialty": "부인종양학",
-    "stem": "다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사 결과가 다음과 같다. Stage는?",
+    "stem": "다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사 결과가 다음과 같다. Stage는?\n• Serous adenocarcinoma moderately differentiated\n• right & left ovary 둘다 침범\n• Capsule 침범\n• Washing cytology (+)\n• Pelvic LN mets (+) 7mm\n• Para aortic LN mets (-)\n• Omentum (-)",
     "images": [],
     "options": [
       "IC1",
@@ -269003,7 +269005,7 @@ window.ALL_QUESTIONS = [
           "reason": "자궁내막암의 병기 표기이거나 10mm 초과 림프절 전이(IIIA1(ii))와 혼동된 오답 선지입니다."
         }
       ],
-      "differential_general": "22Y-19: 62/F. 난소암 Debulking surgery 하고 결과. 병기는? Bilateral ovary and salpinx. Salpingooophorec -> 정답: IIIB\n21Y-25: 56 세 여성 난소암 종양감축술 받은 뒤 병리 검사결과가 다음과 같다. 병기설정은? Serous adenocarcinoma, moderately diff -> 정답: IIIA1(i)\n20Y-41: 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사 결과가 다음과 같다. Stage는? -> 정답: IIIA1(i)\n19Y-82: (야마) 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사결과가 다음과 같다. Stage는? Serous adenoc -> 정답: IIIA1(i)"
+      "differential_general": "22Y-19: 62/F. 난소암 Debulking surgery 하고 결과. 병기는? Bilateral ovary and salpinx. Salpingooophorec -> 정답: IIIB\n21Y-25: 56 세 여성 난소암 종양감축술 받은 뒤 병리 검사결과가 다음과 같다. 병기설정은? Serous adenocarcinoma, moderately diff -> 정답: IIIA1(i)\n20Y-41: 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사 결과가 다음과 같다. Stage는? • Serous adenocar -> 정답: IIIA1(i)\n19Y-82: (야마) 다음 난소암의 병기를 설정하시오. 56세 여성 난소암 종양 감축술 받은 뒤 병리 검사결과가 다음과 같다. Stage는? Serous adenoc -> 정답: IIIA1(i)"
     },
     "option_explanations": [
       {
@@ -272583,7 +272585,7 @@ window.ALL_QUESTIONS = [
         }
       ],
       "differential": "• ① 리토드린 ✗ [오답]: 리토드린은 베타2 아드레날린 수용체 작용제로 자궁을 이완시키나 폐부종·빈맥이 주 부작용이며 칼슘길항제나 신경보호제가 아닙니다.\n• ② 황산마그네슘 ✓ [정답]: 황산마그네슘은 칼슘길항 작용을 하며 과량 투여 시 호흡억제를 일으키고 조산아 뇌 신경보호 효과를 가지므로 정답입니다.",
-      "differential_general": "23Y-24: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n22Y-44: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n21Y-48: 진통 억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n20Y-70: 진통억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n19Y-13: (야마) 진통억제제 중 다음과 같은 특성을 가지는 것은? -> 정답: 황산마그네슘"
+      "differential_general": "23Y-24: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n22Y-44: 진통 억제제 중 다음과 같은 특성을 가지는 것은? • 칼슘 길항작용 • 과량 작용 시 호흡부전 유발 가능 • 신장으로 배설 • 태아 neuroprotec -> 정답: 황산마그네슘\n21Y-48: 진통 억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n20Y-70: 진통억제제 중 다음과 같은 특성을 가지는 것은? 칼슘길항작용 과량 시 호흡부전 태아 neuroprotective -> 정답: 황산마그네슘\n19Y-13: (야마) 진통억제제 중 다음과 같은 특성을 가지는 것은? - 칼슘길항작용 - 과량 시 호흡부전 - 태아 neuroprotective -> 정답: 황산마그네슘"
     },
     "option_explanations": [
       {
@@ -273252,7 +273254,7 @@ window.ALL_QUESTIONS = [
     "category": "기출",
     "theme_title": "테마 78. 분만 이상 ② 활성기 정지(Arrest Disorder) - 저긴장성 수축(<200 MVU 옥시토신) vs 충분한 수축(>200 MVU 제왕절개)",
     "subspecialty": "산과학",
-    "stem": "임신 38주 32세 다분만부가 분만 진통으로 내원하였다. 전자태아심박동, 자궁수축검사에서 자궁수축이 3분 간격으로 규칙적으로 관찰되었다. 자궁 크기는 정상이었다. 시간 경과에 따른 골반검사 결과가 아래와 같을 때, 처치는?\nNST는 다음과 같다. (Montevideo Unit 다 합쳤을때 200이하였습니다. FHR acceleration있었습니다.) 처치는?",
+    "stem": "임신 38주 32세 다분만부가 분만 진통으로 내원하였다. 전자태아심박동, 자궁수축검사에서 자궁수축이 3분 간격으로 규칙적으로 관찰되었다. 자궁 크기는 정상이었다. 시간 경과에 따른 골반검사 결과가 아래와 같을 때, 처치는?\nNST는 다음과 같다. (Montevideo Unit 다 합쳤을때 200이하였습니다. FHR acceleration있었습니다.) 처치는?\n| 시각 | 자궁경부개대 | 하강도 |\n| 오전 1시 | 3cm | -3 |\n| 오전 2시 | 4cm | -2 |\n| 오전 3시 | 5cm | -1 |\n| 오전 4시 | 6cm | 0 |\n| 오전 5시 | 6cm | 0 |\n| 오전 6시 | 6cm | 0 |",
     "images": [
       "images/산부인과/20Y_산과_Q30_fig1.png"
     ],
