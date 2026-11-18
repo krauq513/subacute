@@ -254593,12 +254593,12 @@ window.ALL_QUESTIONS = [
       "3",
       "4"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "1",
+    "correct_option_index": 2,
+    "correct_answer": "3",
     "explanation": {
       "title": "테마 135. 골반장기탈출증(POP-Q) 병기 설정 (TVL과 처녀막 하단 거리 기준)",
-      "findings": "POP-Q 체계에서 자궁탈출증(pelvic organ prolapse)의 병기는 가장 심하게 내려온 부위(leading edge)와 처녀막(hymen, 0점 기준) 사이의 거리로 결정합니다. 지문의 '처녀막부터 거리는 3 cm'가 처녀막 안쪽 3 cm(-3 cm, 즉 -1 cm보다 위)을 뜻한다면 POP-Q Stage 1(1, 정답 표기 A)이 됩니다. 반대로 만약 처녀막 바깥으로 3 cm 돌출(+3 cm)을 의미한다면 +1 cm 초과 및 +(TVL-2)=+4 cm 미만이므로 Stage 3(C)에 해당하므로 표현 방향(+/-) 확인이 핵심입니다.",
-      "differential": "• ① 1 ✓ [정답]: 정답(기출 표기)입니다. 최하강점이 처녀막 상방 3 cm(-3 cm, 즉 -1 cm보다 위쪽)에 위치하는 경우로 해석하면 POP-Q Stage 1에 정확히 부합합니다.\n• ② 2 ✗ [오답]: POP-Q Stage 2는 가장 많이 탈출된 부위가 처녀막 기준 -1 cm에서 +1 cm 사이에 위치할 때 부여하는 병기입니다.\n• ③ 3 ✗ [오답]: 만약 '처녀막부터 3 cm'가 질 바깥쪽으로의 돌출(+3 cm)을 의미한다면, +1 cm 초과이면서 TVL(6 cm)-2 = +4 cm 미만이므로 의학적으로는 Stage 3에 해당합니다.\n• ④ 4 ✗ [오답]: POP-Q Stage 4는 완전 질외번 상태로 최하강점이 +(TVL-2) cm 이상(본 증례에서는 +4 cm 이상) 돌출된 경우에 해당합니다.",
+      "findings": "POP-Q(Pelvic Organ Prolapse Quantification) 병기 체계에서 자궁탈출증의 총 질 길이(TVL)가 6cm이고 가장 많이 탈출된 선단부(leading point)가 처녀막(hymen, 0점 기준) 바깥으로 +3cm 돌출되어 있습니다. 이는 +1cm 초과이면서 +(TVL - 2)cm = +4cm 미만(+1cm < +3cm < +4cm)에 해당하므로 POP-Q Stage 3(③번 '3')입니다.",
+      "differential": "• ① 1 ✗ [오답]: POP-Q Stage 1은 가장 많이 탈출된 선단부가 처녀막 기준 -1cm보다 위쪽(< -1cm)에 위치한 경우입니다.\n• ② 2 ✗ [오답]: POP-Q Stage 2는 가장 많이 탈출된 선단부가 처녀막 기준 -1cm 이상 ~ +1cm 이하에 위치한 경우입니다.\n• ③ 3 ✓ [정답]: 정답입니다. 가장 많이 탈출된 선단부가 처녀막 기준 +1cm를 초과하고 +(TVL - 2)cm 미만(TVL 6cm이므로 +4cm 미만인 +3cm)에 위치하므로 POP-Q Stage 3입니다.\n• ④ 4 ✗ [오답]: POP-Q Stage 4는 완전 탈출 상태로 선단부가 +(TVL - 2)cm 이상(본 증례에서는 +4cm 이상) 돌출된 경우입니다.",
       "trap": "'처녀막부터 거리 3 cm'라는 축약 복원 문구가 질 내부(-3 cm)인지 외부 돌출(+3 cm)인지에 따라 Stage 1과 Stage 3가 갈리는 전형적인 복원 함정입니다.",
       "trigger": "POP-Q 기준: 최하강점 < -1 cm → Stage 1 / -1~+1 cm → Stage 2 / > +1 cm & < +(TVL-2) → Stage 3",
       "kmle_link": "KMLE 산부인과 기출 및 표준 교과서 가이드라인 연계",
@@ -254607,9 +254607,9 @@ window.ALL_QUESTIONS = [
           "opt_idx": 0,
           "opt_num": "①",
           "text": "1",
-          "is_correct": true,
-          "tag": "정답",
-          "reason": "정답(기출 표기)입니다. 최하강점이 처녀막 상방 3 cm(-3 cm, 즉 -1 cm보다 위쪽)에 위치하는 경우로 해석하면 POP-Q Stage 1에 정확히 부합합니다."
+          "is_correct": false,
+          "tag": "오답 감별",
+          "reason": "POP-Q Stage 1은 가장 많이 탈출된 선단부가 처녀막 기준 -1cm보다 위쪽(< -1cm)에 위치한 경우입니다."
         },
         {
           "opt_idx": 1,
@@ -254617,15 +254617,15 @@ window.ALL_QUESTIONS = [
           "text": "2",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "POP-Q Stage 2는 가장 많이 탈출된 부위가 처녀막 기준 -1 cm에서 +1 cm 사이에 위치할 때 부여하는 병기입니다."
+          "reason": "POP-Q Stage 2는 가장 많이 탈출된 선단부가 처녀막 기준 -1cm 이상 ~ +1cm 이하에 위치한 경우입니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
           "text": "3",
-          "is_correct": false,
-          "tag": "오답 감별",
-          "reason": "만약 '처녀막부터 3 cm'가 질 바깥쪽으로의 돌출(+3 cm)을 의미한다면, +1 cm 초과이면서 TVL(6 cm)-2 = +4 cm 미만이므로 의학적으로는 Stage 3에 해당합니다."
+          "is_correct": true,
+          "tag": "정답",
+          "reason": "정답입니다. 가장 많이 탈출된 선단부가 처녀막 기준 +1cm를 초과하고 +(TVL - 2)cm 미만(TVL 6cm이므로 +4cm 미만인 +3cm)에 위치하므로 POP-Q Stage 3입니다."
         },
         {
           "opt_idx": 3,
@@ -254633,7 +254633,7 @@ window.ALL_QUESTIONS = [
           "text": "4",
           "is_correct": false,
           "tag": "오답 감별",
-          "reason": "POP-Q Stage 4는 완전 질외번 상태로 최하강점이 +(TVL-2) cm 이상(본 증례에서는 +4 cm 이상) 돌출된 경우에 해당합니다."
+          "reason": "POP-Q Stage 4는 완전 탈출 상태로 선단부가 +(TVL - 2)cm 이상(본 증례에서는 +4cm 이상) 돌출된 경우입니다."
         }
       ],
       "differential_general": "• [진단 및 치료 알고리즘 / 핵심 기전]:\n  1. POP-Q(Pelvic Organ Prolapse Quantification) 병기 분류:\n     - Stage 0: 탈출 없음.\n     - Stage 1: 가장 돌출된 점이 처녀막 상방 > 1cm 미만 (Leading point < -1cm).\n     - Stage 2: 처녀막 상하 1cm 이내 (-1cm ~ +1cm 사이).\n     - Stage 3: 처녀막 하방 > +1cm 초과이나, 총 질 길이(TVL) - 2cm 미만 돌출.\n       • 환자: TVL = 6cm -> (TVL - 2cm) = +4cm.\n       • 환자의 탈출점 = +3cm -> +1cm 초과하면서 +4cm 미만이므로 정확히 'Stage 3'에 해당함!\n     - Stage 4: 완전 탈출 (전체 질 탈출, Procidentia, ≥ TVL - 2cm).\n\n【KMLE 비뇨부인과】 POP-Q 병기: Stage 2(-1~+1cm), Stage 3(+1cm 초과 ~ TVL-2cm 미만), Stage 4(완전 탈출, Procidentia)."
@@ -254641,7 +254641,7 @@ window.ALL_QUESTIONS = [
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 2,
     "rate": 17,
@@ -254687,7 +254687,7 @@ window.ALL_QUESTIONS = [
         "reason": "POP-Q Stage 4는 완전 질외번 상태로 최하강점이 +(TVL-2) cm 이상(본 증례에서는 +4 cm 이상) 돌출된 경우에 해당합니다."
       }
     ],
-    "answer": "1",
+    "answer": "3",
     "image": null,
     "index": 2047
   },
