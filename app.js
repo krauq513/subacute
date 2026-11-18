@@ -1763,24 +1763,30 @@
       return { prefix, label };
     }
 
-    // 3. Digit with explicit punctuation delimiter: 1. , 1) , 1: , 1-
-    const mDigitDelim = raw.match(/^\d+\s*[\.\)\:\-]\s*/);
-    if (mDigitDelim) {
-      const prefix = mDigitDelim[0].trim();
+    // 3. Digit with explicit punctuation delimiter: 1. , 1) (must match optIdx + 1, never '-' or ':' or decimals)
+    const mDigitDelim = raw.match(/^(?:[1-9]|10)(?:\)\s*|\.\s+)/);
+    if (mDigitDelim && parseInt(mDigitDelim[0], 10) === optIdx + 1) {
+      const CIRCLE_MAP = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩'];
+      const prefix = CIRCLE_MAP[optIdx] || mDigitDelim[0].trim();
       const label = raw.slice(mDigitDelim[0].length).trim();
       return { prefix, label };
     }
 
-    // 4. Letter with explicit punctuation delimiter: A. , A) , a.
-    const mLetterDelim = raw.match(/^[A-Za-z]\s*[\.\)\:\-]\s*/);
-    if (mLetterDelim) {
-      const prefix = mLetterDelim[0].trim();
+    // 4. Letter with explicit punctuation delimiter: A. , A) (must match optIdx letter A..H, never '-' or ':' or species like E. coli)
+    const mLetterDelim = raw.match(/^[A-Ha-h](?:\)\s*|\.\s+)/);
+    if (
+      mLetterDelim &&
+      mLetterDelim[0][0].toUpperCase() === String.fromCharCode(65 + optIdx) &&
+      !/^[A-Za-z]\.\s+(?:coli|aureus|pylori|difficile|albicans|trachomatis|gonorrhoeae|influenzae|pneumoniae|fragilis|aeruginosa)\b/i.test(raw)
+    ) {
+      const CIRCLE_MAP = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧'];
+      const prefix = CIRCLE_MAP[optIdx] || mLetterDelim[0].trim();
       const label = raw.slice(mLetterDelim[0].length).trim();
       return { prefix, label };
     }
 
-    // 5. Bullets: ⚫, ●, •, -, *
-    const mBullet = raw.match(/^[\⚫\●\•\-\*\◦\▪]\s*/);
+    // 5. Bullets: ⚫, ●, •, *, or '- ' with mandatory trailing whitespace (never negative numbers like -2, -1)
+    const mBullet = raw.match(/^(?:[\⚫\●\•\*\◦\▪]\s*|\-\s+)/);
     if (mBullet) {
       const CIRCLE_MAP = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧'];
       const prefix = CIRCLE_MAP[optIdx] || `${optIdx + 1}.`;
