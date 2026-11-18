@@ -1847,8 +1847,11 @@
     const yearGroups = new Map();
     const curYear = q.year || '26Y';
 
-    rawList.forEach(rawItem => {
-      if (!rawItem) return;
+    rawList.forEach(item => {
+      if (!item) return;
+      const rawItem = (typeof item === 'string')
+        ? item
+        : (item.year && item.q_num !== undefined ? `${item.year}-${String(item.q_num).padStart(2, '0')}` : String(item));
       const ym = rawItem.match(/(\d+Y)/i);
       const yr = ym ? ym[1].toUpperCase() : curYear;
       if (!yearGroups.has(yr)) {
