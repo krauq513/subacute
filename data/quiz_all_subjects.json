@@ -39274,24 +39274,24 @@
       "정상",
       "당뇨병"
     ],
-    "correct_option_index": 0,
-    "correct_answer": "Impaired glucose tolerance",
+    "correct_option_index": 2,
+    "correct_answer": "Impaired glucose tolerance + Impaired fasting glucose",
     "explanation": {
-      "title": "75g 경구당부하검사(OGTT) 판독: 내당능장애(IGT) 및 전단계 기준 비교",
-      "findings": "• **[증례 핵심 단서 및 검사 판독]**: 20대 남성의 75 g 경구당부하검사(OGTT)에서 0분(공복) 혈당 110 mg/dL, 120분(2시간) 혈당 154 mg/dL, 당화혈색소(HbA1c) 6.0%가 확인되었습니다.\n• **[병태생리 및 감별 해석]**: 모든 수치가 당뇨병 확진 기준(공복 ≥ 126, 2시간 ≥ 200, HbA1c ≥ 6.5%)에는 미치지 않는 당뇨병 전단계입니다. 75 g OGTT 2시간 혈당 154 mg/dL는 내당능장애(IGT) 범위인 **140~199 mg/dL**에 정확히 들어갑니다. 참고로 공복 혈당 110 mg/dL는 현행 ADA/대한당뇨병학회(KDA) 기준(100~125 mg/dL)으로는 공복혈당장애(IFG)에도 해당하나, WHO 기준(IFG 110~125 mg/dL, 과거 > 110 해석) 및 본 기출 문제에서는 OGTT 2시간 판독 핵심인 내당능장애(IGT)를 정답으로 채택하였습니다.\n• **[정답 도출 과정]**: OGTT 120분 혈당 154 mg/dL에 따른 핵심 진단명인 '① Impaired glucose tolerance'가 기출 정답입니다(단, 현행 ADA/KDA 기준 적용 시 ③번과 경계 해석 차이가 있음을 함께 인지해야 합니다).",
-      "differential": "• ① Impaired glucose tolerance ✓ [정답]: 75 g 경구당부하 2시간 혈당 154 mg/dL이 IGT 기준(140~199 mg/dL)에 해당하여 OGTT의 핵심 이상 소견인 내당능장애를 도출한 본 기출의 채택 정답입니다.\n• ② Impaired fasting glucose ✗ [오답]: IFG 단독은 2시간 혈당이 140 mg/dL 미만으로 정상이어야 하나, 본 증례는 120분 혈당이 154 mg/dL로 상승해 있습니다.\n• ③ Impaired glucose tolerance + Impaired fasting glucose ✗ [오답]: 현행 ADA/KDA 기준(IFG 100~125 mg/dL)을 엄격 적용하면 공복 110 mg/dL + 2시간 154 mg/dL로 복합 장애에 해당하나, 본 기출 정답 기준은 WHO 경계 및 OGTT 2시간 이상에 초점을 두어 ①을 정답으로 채택하였습니다.\n• ④ 정상 ✗ [오답]: 정상 기준은 공복 < 100 mg/dL, 2시간 < 140 mg/dL, HbA1c < 5.7%이므로 전 항목이 정상 범위를 벗어났습니다.\n• ⑤ 당뇨병 ✗ [오답]: 공복 ≥ 126 mg/dL, 2시간 ≥ 200 mg/dL, HbA1c ≥ 6.5% 중 어느 기준도 충족하지 않아 당뇨병은 아닙니다.",
-      "differential_general": "• [핵심 병태생리 및 진단 기준]: 당뇨병 전단계(Prediabetes)는 공복 고혈당(간 포도당 생성 억제 장애 중심: IFG)과 식후 당부하 고혈당(말초 근육 인슐린 저항성 및 초기 인슐린 분비 저하 중심: IGT)으로 구분되며, 심혈관질환 및 향후 현성 제2형 당뇨병 진행 위험이 높습니다.\n• [임상 의사결정 / 치료 알고리즘]:\n  1. **정상 기준**: 공복혈당(FPG) < 100 mg/dL AND 75 g OGTT 2시간 혈당 < 140 mg/dL AND HbA1c < 5.7%.\n  2. **당뇨병 전단계 기준 (ADA / KDA 표준)**:\n     - **공복혈당장애(IFG)**: FPG **100~125 mg/dL** (참고: WHO 기준은 110~125 mg/dL)\n     - **내당능장애(IGT)**: 75 g OGTT 2시간 혈당 **140~199 mg/dL**\n     - **HbA1c 전단계**: **5.7~6.4%**\n  3. **당뇨병 확진 기준**: FPG ≥ 126 mg/dL, OGTT 2시간 ≥ 200 mg/dL, HbA1c ≥ 6.5%, 또는 전형적 고혈당 증상 + 무작위 혈당 ≥ 200 mg/dL.\n• [실전 감별 & 함정 정리]: 표준 ADA/KDA 국시(KMLE) 기준에서는 FPG **100~125 mg/dL**를 IFG로 보므로 공복 110 + 2시간 154라면 복합 장애(IFG + IGT)가 의학적 원칙입니다. 단, 본 학교 기출 복원에서는 ①번이 정답으로 채택된 만큼, 실제 기준 수치(100~125 vs WHO 110~125, IGT 140~199)를 정확히 구분해 두는 것이 안전합니다.",
-      "trap": "현행 ADA/KDA 기준(IFG 100~125 mg/dL)을 적용하면 공복 110 mg/dL 때문에 복합 장애(③)로 보기 쉬우나, 본 기출 정답은 OGTT 2시간 154 mg/dL 기준의 ① IGT로 채택되었습니다. 두 학회(ADA vs WHO)의 공복 기준 차이를 함께 기억하세요.",
-      "trigger": "75g OGTT 0분 110 / 120분 154 / HbA1c 6.0% → Impaired glucose tolerance (기출 기준; ADA 기준은 IFG+IGT 경계)",
-      "kmle_link": "【KMLE 핵심 주제】 당뇨병·당뇨병 전단계(IFG·IGT·HbA1c) 진단 절단값 및 ADA vs WHO 공복혈당 기준 비교",
+      "title": "75g 경구당부하검사(OGTT) 판독: 공복혈당장애(IFG) + 내당능장애(IGT) 복합 당뇨병 전단계",
+      "findings": "• **[증례 핵심 단서 및 검사 판독]**: 20대 남성의 75 g 경구당부하검사(OGTT)에서 0분(공복) 혈당 **110 mg/dL**, 120분(2시간) 혈당 **154 mg/dL**, 당화혈색소(HbA1c) **6.0%**가 확인되었습니다.\n• **[병태생리 및 감별 해석]**: 모든 수치가 당뇨병 확진 기준(공복 ≥ 126 mg/dL, 2시간 ≥ 200 mg/dL, HbA1c ≥ 6.5%)에는 미치지 않는 당뇨병 전단계(Prediabetes) 범위입니다. 현행 ADA 및 대한당뇨병학회(KDA) 기준을 순서대로 적용하면 ① 0분(공복) 혈당 **110 mg/dL**은 공복혈당장애(IFG) 범위인 **100~125 mg/dL**에 해당하고(과거 WHO 기준 110~125 mg/dL 적용 시에도 역시 IFG 충족), ② 120분(2시간) 혈당 **154 mg/dL**은 내당능장애(IGT) 범위인 **140~199 mg/dL**에 해당합니다. 또한 HbA1c **6.0%** 역시 당뇨병 전단계 범위(5.7~6.4%)에 부합합니다.\n• **[정답 도출 과정]**: 공복혈당장애(IFG)와 내당능장애(IGT) 기준을 동시에 모두 충족하므로 '③ Impaired glucose tolerance + Impaired fasting glucose'가 정답입니다.",
+      "differential": "• ① Impaired glucose tolerance ✗ [오답]: 2시간 혈당 154 mg/dL(140~199 mg/dL)이 내당능장애(IGT)에 해당하나, 공복 혈당 110 mg/dL 역시 IFG 기준(100~125 mg/dL)을 함께 충족하므로 단독 IGT는 불완전한 진단입니다.\n• ② Impaired fasting glucose ✗ [오답]: 공복 혈당 110 mg/dL(100~125 mg/dL)이 IFG에 해당하나, 2시간 혈당 154 mg/dL 역시 상승되어 있어(< 140 mg/dL 조건 위배) 단독 IFG가 아닙니다.\n• ③ Impaired glucose tolerance + Impaired fasting glucose ✓ [정답]: 공복 혈당 110 mg/dL(IFG: 100~125 mg/dL)과 75 g OGTT 2시간 혈당 154 mg/dL(IGT: 140~199 mg/dL)이 모두 이상 기준을 충족하며 당뇨병 기준(공복 ≥ 126, 2시간 ≥ 200, HbA1c ≥ 6.5%) 미만인 복합 당뇨병 전단계입니다.\n• ④ 정상 ✗ [오답]: 정상 기준은 공복 < 100 mg/dL, 2시간 < 140 mg/dL, HbA1c < 5.7%이므로 전 항목이 정상 범위를 벗어났습니다.\n• ⑤ 당뇨병 ✗ [오답]: 공복 ≥ 126 mg/dL, 2시간 ≥ 200 mg/dL, HbA1c ≥ 6.5% 중 어느 당뇨병 확진 기준도 충족하지 않습니다.",
+      "differential_general": "• [핵심 병태생리 및 진단 기준]: 당뇨병 전단계(Prediabetes)는 공복 고혈당(간 포도당 생성 억제 장애 중심: IFG)과 식후 당부하 고혈당(말초 근육 인슐린 저항성 및 초기 인슐린 분비 저하 중심: IGT)으로 구분되며, 두 장애가 동반(IFG + IGT)된 경우 향후 현성 제2형 당뇨병 진행 및 심혈관질환 위험이 단독 장애보다 훨씬 높습니다.\n• [임상 의사결정 / 치료 알고리즘]:\n  1. **정상 기준**: 공복혈당(FPG) < 100 mg/dL AND 75 g OGTT 2시간 혈당 < 140 mg/dL AND HbA1c < 5.7%.\n  2. **당뇨병 전단계 기준 (ADA / KDA 표준)**:\n     - **공복혈당장애(IFG)**: FPG **100~125 mg/dL** (WHO 기준은 110~125 mg/dL — 본 증례의 110 mg/dL은 두 기준 모두에서 IFG 충족)\n     - **내당능장애(IGT)**: 75 g OGTT 2시간 혈당 **140~199 mg/dL**\n     - **HbA1c 전단계**: **5.7~6.4%**\n  3. **당뇨병 확진 기준**: FPG ≥ 126 mg/dL, OGTT 2시간 ≥ 200 mg/dL, HbA1c ≥ 6.5%, 또는 전형적 고혈당 증상 + 무작위 혈당 ≥ 200 mg/dL.\n• [실전 감별 & 함정 정리]: 75 g OGTT 판독 문항(23Y-52, 20Y-39, 19Y-38)에서는 반드시 0분(공복)과 120분(2시간) 혈당을 모두 확인하여 단독 장애인지 복합 장애(IFG + IGT)인지 가려내야 합니다.",
+      "trap": "75 g OGTT에서 2시간 혈당(154 mg/dL)만 보고 ① IGT 단독으로 고르거나 공복 혈당(110 mg/dL)만 보고 ② IFG 단독으로 고르기 쉽습니다. 공복(100~125)과 2시간(140~199) 두 수치를 모두 대조해 복합 장애(③ IFG + IGT)를 빠뜨리지 말아야 합니다.",
+      "trigger": "75g OGTT 0분 110(IFG: 100~125) + 120분 154(IGT: 140~199) + HbA1c 6.0% → Impaired glucose tolerance + Impaired fasting glucose",
+      "kmle_link": "【KMLE 핵심 주제】 당뇨병·당뇨병 전단계(IFG·IGT·HbA1c) 진단 절단값 및 75g OGTT 판독",
       "option_explanations": [
         {
           "opt_idx": 0,
           "opt_num": "①",
           "text": "Impaired glucose tolerance",
-          "is_correct": true,
-          "tag": "✓ 정답",
-          "reason": "75 g OGTT 2시간 혈당이 154 mg/dL(140~199 mg/dL)로 내당능장애 기준을 충족하며, 본 기출 문항의 채택 정답입니다."
+          "is_correct": false,
+          "tag": "✗ 오답",
+          "reason": "2시간 혈당 154 mg/dL은 IGT(140~199 mg/dL)에 해당하지만 공복 혈당 110 mg/dL 역시 IFG(100~125 mg/dL)를 충족하므로 IGT 단독 진단은 불완전합니다."
         },
         {
           "opt_idx": 1,
@@ -39299,15 +39299,15 @@
           "text": "Impaired fasting glucose",
           "is_correct": false,
           "tag": "✗ 오답",
-          "reason": "2시간 혈당이 140 mg/dL 미만일 때 내리는 단독 IFG와 달리 154 mg/dL로 상승되어 있습니다."
+          "reason": "공복 혈당 110 mg/dL은 IFG에 해당하지만 2시간 혈당도 154 mg/dL(< 140 mg/dL 초과)로 상승해 있어 단독 IFG가 아닙니다."
         },
         {
           "opt_idx": 2,
           "opt_num": "③",
           "text": "Impaired glucose tolerance + Impaired fasting glucose",
-          "is_correct": false,
-          "tag": "✗ 오답",
-          "reason": "현행 ADA/KDA 공복 기준(100~125 mg/dL)상으로는 공복 110 역시 IFG에 해당하나, 본 기출 채점에서는 WHO 해석 또는 2시간 OGTT 중심으로 ①번을 정답 처리하였습니다."
+          "is_correct": true,
+          "tag": "✓ 정답",
+          "reason": "공복 혈당 110 mg/dL(IFG: 100~125 mg/dL)과 75 g OGTT 2시간 혈당 154 mg/dL(IGT: 140~199 mg/dL) 기준을 모두 동시에 충족합니다."
         },
         {
           "opt_idx": 3,
@@ -39330,7 +39330,7 @@
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      0
+      2
     ],
     "freq_count": 3,
     "rate": 50,
@@ -39349,9 +39349,9 @@
         "opt_idx": 0,
         "opt_num": "①",
         "text": "Impaired glucose tolerance",
-        "is_correct": true,
-        "tag": "✓ 정답",
-        "reason": "75 g OGTT 2시간 혈당이 154 mg/dL(140~199 mg/dL)로 내당능장애 기준을 충족하며, 본 기출 문항의 채택 정답입니다."
+        "is_correct": false,
+        "tag": "✗ 오답",
+        "reason": "2시간 혈당 154 mg/dL은 IGT(140~199 mg/dL)에 해당하지만 공복 혈당 110 mg/dL 역시 IFG(100~125 mg/dL)를 충족하므로 IGT 단독 진단은 불완전합니다."
       },
       {
         "opt_idx": 1,
@@ -39359,15 +39359,15 @@
         "text": "Impaired fasting glucose",
         "is_correct": false,
         "tag": "✗ 오답",
-        "reason": "2시간 혈당이 140 mg/dL 미만일 때 내리는 단독 IFG와 달리 154 mg/dL로 상승되어 있습니다."
+        "reason": "공복 혈당 110 mg/dL은 IFG에 해당하지만 2시간 혈당도 154 mg/dL(< 140 mg/dL 초과)로 상승해 있어 단독 IFG가 아닙니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
         "text": "Impaired glucose tolerance + Impaired fasting glucose",
-        "is_correct": false,
-        "tag": "✗ 오답",
-        "reason": "현행 ADA/KDA 공복 기준(100~125 mg/dL)상으로는 공복 110 역시 IFG에 해당하나, 본 기출 채점에서는 WHO 해석 또는 2시간 OGTT 중심으로 ①번을 정답 처리하였습니다."
+        "is_correct": true,
+        "tag": "✓ 정답",
+        "reason": "공복 혈당 110 mg/dL(IFG: 100~125 mg/dL)과 75 g OGTT 2시간 혈당 154 mg/dL(IGT: 140~199 mg/dL) 기준을 모두 동시에 충족합니다."
       },
       {
         "opt_idx": 3,
@@ -39386,7 +39386,7 @@
         "reason": "공복 ≥ 126, 2시간 ≥ 200, HbA1c ≥ 6.5% 중 어느 당뇨병 확진 기준에도 미달합니다."
       }
     ],
-    "answer": "Impaired glucose tolerance"
+    "answer": "Impaired glucose tolerance + Impaired fasting glucose"
   },
   {
     "id": "내과_23Y_Q53",
