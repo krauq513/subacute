@@ -489,7 +489,7 @@
               const prevBookmarkCount = state.bookmarks ? state.bookmarks.size : 0;
               const prevResetAt = Number((currentActiveProfile && currentActiveProfile.resetAt) || 0);
 
-              state.profiles = data.profiles;
+              state.profiles = data.profiles.map(p => createProfileObject(p));
               let updatedActive = state.profiles.find(p => p.id === currentActiveId);
               if (!updatedActive && currentActiveId === 'profile_default' && currentActiveName) {
                 const norm = currentActiveName.trim().toLowerCase();
@@ -742,7 +742,7 @@
     return state.profiles.find(p => p.id === state.activeProfileId) || state.profiles[0];
   }
 
-  function createProfileObject({ id, name, avatar, userAnswers, deletedAnswers, bookmarks, bookmarksResetAt, lastQuestionId, lastSubjectMap, filters, shuffleOptions, resetAt, createdAt, updatedAt }) {
+  function createProfileObject({ id, name, avatar, nameUpdatedAt, userAnswers, deletedAnswers, bookmarks, bookmarksResetAt, lastQuestionId, lastSubjectMap, filters, shuffleOptions, resetAt, createdAt, updatedAt }) {
     const now = Date.now();
     return {
       id: id || `profile_${now}_${Math.random().toString(36).slice(2, 7)}`,
@@ -750,6 +750,7 @@
       avatar: avatar || '🩺',
       createdAt: createdAt || now,
       updatedAt: updatedAt || now,
+      nameUpdatedAt: Number(nameUpdatedAt || 0),
       resetAt: Number(resetAt || 0),
       bookmarksResetAt: Number(bookmarksResetAt || 0),
       userAnswers: userAnswers && typeof userAnswers === 'object' ? { ...userAnswers } : {},
@@ -6383,6 +6384,7 @@
     const newProfile = createProfileObject({
       name,
       avatar: state.selectedNewAvatar || '🩺',
+      nameUpdatedAt: Date.now(),
       userAnswers: {},
       deletedAnswers: {},
       bookmarks: copyBookmarks && active ? [...active.bookmarks] : [],
@@ -6416,11 +6418,20 @@
       showToast('⚠️ 프로필 이름을 비워둘 수 없습니다.');
       return;
     }
+    const now = Date.now();
     prof.name = trimmed.slice(0, 24);
-    prof.updatedAt = Date.now();
-    saveStorage();
-    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
-      CloudSyncManager.sync({ silent: true, force: true });
+    prof.nameUpdatedAt = now;
+    prof.updatedAt = now;
+    state.profileMutationSeq = (state.profileMutationSeq || 0) + 1;
+    saveStorage({ skipTimestamp: true });
+    if (typeof CloudSyncManager !== 'undefined') {
+      if (CloudSyncManager.syncTimer) {
+        clearTimeout(CloudSyncManager.syncTimer);
+        CloudSyncManager.syncTimer = null;
+      }
+      if (CloudSyncManager.sync) {
+        CloudSyncManager.sync({ silent: true, force: true });
+      }
     }
     renderProfileModal();
     updateHeaderProfileUI();

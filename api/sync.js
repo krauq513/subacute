@@ -611,6 +611,12 @@ function mergeData(serverData, clientData) {
       const effectiveBookmarksResetAt = Math.max(Number(sp.bookmarksResetAt || 0), Number(cp.bookmarksResetAt || 0));
       const spTime = Number(sp.updatedAt || 0);
       const cpTime = Number(cp.updatedAt || 0);
+      const spNameTime = Number(sp.nameUpdatedAt || 0);
+      const cpNameTime = Number(cp.nameUpdatedAt || 0);
+      const useCpForName = (spNameTime > 0 || cpNameTime > 0)
+        ? (cpNameTime >= spNameTime)
+        : useCpForPosition;
+      const effectiveNameUpdatedAt = Math.max(spNameTime, cpNameTime);
       const spBookmarksValid = effectiveBookmarksResetAt === 0 || spTime >= effectiveBookmarksResetAt;
       const cpBookmarksValid = effectiveBookmarksResetAt === 0 || cpTime >= effectiveBookmarksResetAt;
 
@@ -638,8 +644,9 @@ function mergeData(serverData, clientData) {
 
       profileMap.set(key, {
         id: sp.id || cp.id,
-        name: cp.name || sp.name,
-        avatar: cp.avatar || sp.avatar || '🩺',
+        name: useCpForName ? (cp.name || sp.name) : (sp.name || cp.name),
+        avatar: useCpForName ? (cp.avatar || sp.avatar || '🩺') : (sp.avatar || cp.avatar || '🩺'),
+        nameUpdatedAt: effectiveNameUpdatedAt,
         userAnswers: mergedAnswers,
         deletedAnswers: mergedDeletedAnswers,
         bookmarks: mergedBookmarks,
