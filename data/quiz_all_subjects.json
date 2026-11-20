@@ -47826,16 +47826,16 @@
       "RCA",
       "Left main"
     ],
-    "correct_option_index": 3,
-    "correct_answer": "Left main",
+    "correct_option_index": 1,
+    "correct_answer": "LAD",
     "explanation": {
-      "title": "관상동맥조영술(CAG)상 좌주간 관상동맥(Left main) 협착 판독 및 화살표 논란 정리",
-      "findings": "• **[증례 핵심 단서 및 검사 판독]**: 두 개의 관상동맥조영술 영상(fig1 RAO/PA 계열 투시, fig2 LAO caudal Spider view)이 제시되었습니다. fig1 좌측에는 대동맥 기시부에서 나와 LAD와 LCx로 나뉘기 직전인 **좌주간 관상동맥(Left main coronary artery, LMCA)** 말단부에 실처럼 좁아진 극심한 협착 병변이 뚜렷이 보이고, fig2에서도 'LMCA'로 표기된 좌주간지 말단 분지부 및 인접 분절 협착과 카테터 조영제 역류(Dye reflux, 근위부 고도 협착 시 특징적 소견)가 관찰됩니다. 한편 두 영상에서 파란색 화살표 자체는 분지 직후의 근위부 LAD 위쪽을 가리키고 있어 기출 당시 혈관 지목 vs 막힌 병변 질문 간 논란이 있었습니다.\n• **[병태생리 및 감별 해석]**: 좌주간 관상동맥(LMCA) 협착은 좌심실 심근의 70~80% 이상(전벽 LAD 영역 + 측·후벽 LCx 영역)에 혈류를 공급하는 관상동맥의 최상류 줄기가 막히는 가장 치명적인 병변입니다. CAG 시 LMCA 근위·원위부 고도 협착이 있으면 조영제가 병변을 잘 통과하지 못해 대동맥으로 역류(dye reflux)하는 소견이 나타납니다.\n• **[정답 도출 과정]**: 문항 질문이 '막힌 혈관의 이름은?'으로 복원되었고(실제 병변은 LMCA 말단부 고도 협착), 정답 역시 'Left main'으로 확정되었으므로 핵심 협착 병변인 'Left main'을 선택합니다(단, 이미지 내 파란색 화살표의 위치는 분지 직후 근위부 LAD를 향하고 있음도 정확히 구분해 기억해야 합니다).",
-      "differential": "• ① LCX ✗ [오답]: LCx는 좌주간지 분지 후 아래·후방으로 주행하며 둔각변연지(OM)를 내는 혈관으로, 본 문항에서 질문하는 주된 근위부 고도 협착 부위(Left main)와는 다릅니다.\n• ② LAD ✗ [오답]: 화살표 위치상 근위부 LAD를 가리킨다는 해석 논란이 있었으나, 영상에서 실제로 실처럼 극심하게 좁아져 막힌 병변은 분지 직전의 좌주간 관상동맥(LMCA) 말단부이므로 복원 정답에 해당하지 않습니다.\n• ③ RCA ✗ [오답]: RCA(우관상동맥)는 좌측 관상동맥 조영술인 제시 영상에는 나타나지 않는 별도의 혈관입니다.\n• ④ Left main ✓ [정답]: 영상에서 LAD와 LCx로 나뉘기 직전 좌주간 관상동맥 말단부에 극심한 협착(pinhole stenosis)과 조영제 역류(dye reflux)가 관찰되며, 복원된 문항의 정답으로 확정된 막힌 혈관입니다.",
-      "differential_general": "• [핵심 병태생리 및 진단 기준]: 좌주간 관상동맥(LMCA) 질환은 직경 협착 ≥ 50%일 때 유의한 병변으로 정의하며, 치료하지 않을 경우 1~3년 사망률이 매우 높아 관상동맥질환 중 최고위험군입니다.\n• [임상 의사결정 / 치료 알고리즘]:\n  1. CAG 판독 팁: Spider view(LAO caudal)는 LMCA 원위부(distal bifurcation) 협착과 LAD·LCx 개구부(ostium)를 가장 잘 분리해 보여줍니다. 카테터 선단에서 조영제가 뒤로 뿜어져 나오는 'Dye reflux'나 혈압 파형의 'ventricularization/damping'은 LMCA 개구부·간부 고도 협착을 시사하는 중요 위험 신호입니다.\n  2. 치료: 전통적으로 CABG가 표준이며, 해부학적으로 복잡도(SYNTAX score)가 낮거나 중등도인 경우(또는 급성 STEMI/심인성 쇼크 응급 상황) 경험 많은 센터에서 LMCA PCI도 시행됩니다.\n• [실전 감별 & 함정 정리]: 이 이미지는 두 가지 방식으로 출제되었습니다. '화살표가 가리키는 정상/지정 혈관 자체'를 묻는 문항에서는 파란 화살표가 놓인 LAD가 답이었으나, '막힌 혈관(핵심 협착 병변)'을 묻는 본 문항에서는 실제로 실처럼 막혀 있는 분지 직전 **Left main**이 정답으로 복원되었습니다.",
-      "trap": "동일한 CAG 이미지를 두고 '파란 화살표가 놓인 분지(LAD)'를 묻는 경우와 '실제로 좁아져 막힌 병변 부위(Left main 말단부)'를 묻는 경우가 혼재되어 출제되었으므로, 문항이 '막힌 혈관'을 묻는지 화살표 해부학 명칭을 묻는지 문맥과 복원 정답(Left main)을 정확히 확인해야 합니다.",
-      "trigger": "CAG Spider view + 좌주간지 말단 분지 직전의 심한 협착 및 Dye reflux + '막힌 혈관' 질문 → Left main",
-      "kmle_link": "【KMLE 핵심 주제】 관상동맥조영술(CAG)상 좌주간 관상동맥(LMCA) 말단부 협착 소견과 LAD 분지부 판독",
+      "title": "관상동맥조영술(CAG) 해부학적 분지 판독: 좌전하행지(LAD)",
+      "findings": "• **[증례 핵심 단서 및 검사 판독]**: 두 개의 좌관상동맥 조영술 영상(`fig1` RAO/PA 투시, `fig2` LAO caudal Spider view)이 제시되었습니다. `fig1`에서 좌주간지(LMCA) 말단에서 두 갈래로 분지된 혈관 중 **위쪽으로 주행하며 중격가지(septal perforators)와 대각가지(diagonal branches)를 내는 좌전하행지(LAD)** 위쪽 분절에 큰 파란색 화살표가 놓여 있습니다. `fig2` Spider view에서도 'LMCA' 분지부 이후 아래쪽의 'Early OM'·'LCX lesion'과 대조적으로 **상방/우측으로 뻗어나가는 LAD 근위부**를 파란색 화살표가 직접 가리키고 있습니다.\n• **[병태생리 및 감별 해석]**: 한편 영상 자체에서는 대동맥 기시부에서 나와 분지되기 직전의 좌주간 관상동맥(LMCA) 말단부 협착 및 카테터 조영제 역류(Dye reflux)도 함께 관찰되지만, 21Y-03·22Y-07·23Y-04 기출 전반에서 문항 속 파란색 화살표가 직접 지목하는 혈관의 해부학적 명칭은 **② LAD(Left anterior descending artery)**로 일관되게 출제되었습니다.\n• **[정답 도출 과정]**: 두 영상에서 파란색 화살표가 명확히 지목하고 있는 관상동맥 분지는 좌심실 전벽과 심실중격 앞쪽 2/3에 혈류를 공급하는 '② LAD'입니다.",
+      "differential": "• ① LCX ✗ [오답]: LCx(좌회선지)는 좌주간지 분지 후 아래·후방으로 주행하며 둔각변연지(Early OM)를 내는 혈관(fig1 하단 분지, fig2 하방 'LCX lesion' 표기 혈관)으로, 파란색 화살표가 가리키는 상방 분지가 아닙니다.\n• ② LAD ✓ [정답]: 두 CAG 영상(RAO/PA view 및 LAO caudal Spider view) 모두에서 파란색 화살표가 직접 지목하는 혈관으로, 좌주간지 분지 후 상방·심첨부 방향으로 주행하며 중격가지와 대각가지를 내는 좌전하행지(Left anterior descending artery)입니다.\n• ③ RCA ✗ [오답]: RCA(우관상동맥)는 우측 관상동맥동에서 기시하므로 좌관상동맥 조영술인 제시 영상에는 나타나지 않습니다.\n• ④ Left main ✗ [오답]: Left main(LMCA, 좌주간 관상동맥)은 분지 직전 줄기 부분으로 영상 내 원위부 협착(pinhole stenosis)과 조영제 역류(Dye reflux) 소견이 보이지만, 파란색 화살표 자체가 직접 가리키는 분지는 분지 이후의 ② LAD입니다.",
+      "differential_general": "• [핵심 병태생리 및 진단 기준]: 관상동맥조영술(CAG)에서 좌관상동맥(LMCA) 분지부 판독은 투시 각도(View)에 따라 주행 방향이 달라 보이므로 해부학적 특징으로 구분합니다.\n• [임상 의사결정 / 치료 알고리즘]:\n  1. **LAD vs LCx 구별법**:\n     - **RAO cranial / PA view (`fig1`)**: 위쪽으로 주행하며 아래로 수직에 가깝게 뻗는 짧은 **중격가지(Septal perforator)**와 **대각가지(Diagonal branch)**를 내는 혈관이 **LAD**, 아래·뒤로 주행하며 **둔각변연지(OM)**를 내는 혈관이 **LCx**입니다.\n     - **Spider view (`fig2`, LAO caudal)**: 꼬리쪽(caudal)에서 올려다보아 LMCA, 근위부 LAD, 근위부 LCx 분지부(distal bifurcation)를 가장 넓게 펼쳐 보이는 투시로, 위쪽/우측으로 뻗는 혈관이 LAD, 아래쪽으로 꺾여 내려가며 Early OM을 내는 혈관이 LCx입니다.\n  2. **동반 병변 감별**: 같은 이미지에서 LMCA 말단부 고도 협착 + 조영제 역류(Dye reflux)와 LCx 병변이 함께 보이더라도, 화살표가 지목한 혈관을 묻는 경우와 막힌 병변(LMCA)을 묻는 출제 의도를 구분해야 합니다.\n• [실전 감별 & 함정 정리]: 동일 계열 CAG 사진(`23Y-04`, `22Y-07`, `21Y-03`)에서는 모두 파란색 큰 화살표가 놓인 **LAD**를 정답으로 묻고 있으므로 화살표 위치 기준 **LAD**로 확실히 정리해 두어야 합니다.",
+      "trap": "영상에서 LMCA 말단부에 좁아진 병변과 'Dye reflux' 표시가 보여 ④ Left main으로 혼동하기 쉬우나, 두 그림의 파란색 큰 화살표는 모두 분지 직후 근위부 LAD 위를 가리키고 있으며 동일 이미지 기출(22Y-07·23Y-04)과 일치하게 정답은 ② LAD입니다.",
+      "trigger": "CAG RAO/PA + LAO caudal(Spider view) + 파란 화살표가 가리키는 상방 분지 혈관(중격가지/대각가지 분지) → LAD",
+      "kmle_link": "【KMLE 핵심 주제】 관상동맥조영술(CAG) 투시 각도별(RAO·Spider view) LMCA/LAD/LCx 해부학적 분지 판독",
       "option_explanations": [
         {
           "opt_idx": 0,
@@ -47843,15 +47843,15 @@
           "text": "LCX",
           "is_correct": false,
           "tag": "✗ 오답",
-          "reason": "LCx는 좌주간지 분지 후 아래·후방으로 주행하며 둔각변연지(OM)를 내는 혈관으로, 본 문항에서 질문하는 주된 근위부 고도 협착 부위(Left main)와는 다릅니다."
+          "reason": "LCx는 LMCA 분지 후 아래·후방으로 내려가며 Early OM을 내는 아래쪽 분지(fig2의 'LCX lesion' 부위)이므로 화살표가 가리키는 혈관이 아닙니다."
         },
         {
           "opt_idx": 1,
           "opt_num": "②",
           "text": "LAD",
-          "is_correct": false,
-          "tag": "✗ 오답",
-          "reason": "화살표 위치상 근위부 LAD를 가리킨다는 해석 논란이 있었으나, 영상에서 실제로 실처럼 극심하게 좁아져 막힌 병변은 분지 직전의 좌주간 관상동맥(LMCA) 말단부이므로 복원 정답에 해당하지 않습니다."
+          "is_correct": true,
+          "tag": "✓ 정답",
+          "reason": "두 CAG 영상 모두에서 파란색 화살표가 직접 지목하고 있는 분지 혈관으로, LMCA 분지 후 상방·전방으로 주행하며 중격가지와 대각가지를 내는 좌전하행지(LAD)입니다."
         },
         {
           "opt_idx": 2,
@@ -47859,22 +47859,22 @@
           "text": "RCA",
           "is_correct": false,
           "tag": "✗ 오답",
-          "reason": "RCA(우관상동맥)는 좌측 관상동맥 조영술인 제시 영상에는 나타나지 않는 별도의 혈관입니다."
+          "reason": "RCA(우관상동맥)는 우측 관상동맥동에서 별도로 기시하므로 제시된 좌관상동맥 조영술 화면에는 보이지 않습니다."
         },
         {
           "opt_idx": 3,
           "opt_num": "④",
           "text": "Left main",
-          "is_correct": true,
-          "tag": "✓ 정답",
-          "reason": "영상에서 LAD와 LCx로 나뉘기 직전 좌주간 관상동맥 말단부에 극심한 협착(pinhole stenosis)과 조영제 역류(dye reflux)가 관찰되며, 복원된 문항의 정답으로 확정된 막힌 혈관입니다."
+          "is_correct": false,
+          "tag": "✗ 오답",
+          "reason": "LMCA 말단부 자체에 협착 및 Dye reflux 소견이 관찰되기는 하나, 파란색 화살표가 직접 가리키는 대상 혈관은 분지 직후의 ② LAD입니다."
         }
       ]
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      3
+      1
     ],
     "freq_count": 4,
     "rate": 67,
@@ -47897,15 +47897,15 @@
         "text": "LCX",
         "is_correct": false,
         "tag": "✗ 오답",
-        "reason": "LCx는 좌주간지 분지 후 아래·후방으로 주행하며 둔각변연지(OM)를 내는 혈관으로, 본 문항에서 질문하는 주된 근위부 고도 협착 부위(Left main)와는 다릅니다."
+        "reason": "LCx는 LMCA 분지 후 아래·후방으로 내려가며 Early OM을 내는 아래쪽 분지(fig2의 'LCX lesion' 부위)이므로 화살표가 가리키는 혈관이 아닙니다."
       },
       {
         "opt_idx": 1,
         "opt_num": "②",
         "text": "LAD",
-        "is_correct": false,
-        "tag": "✗ 오답",
-        "reason": "화살표 위치상 근위부 LAD를 가리킨다는 해석 논란이 있었으나, 영상에서 실제로 실처럼 극심하게 좁아져 막힌 병변은 분지 직전의 좌주간 관상동맥(LMCA) 말단부이므로 복원 정답에 해당하지 않습니다."
+        "is_correct": true,
+        "tag": "✓ 정답",
+        "reason": "두 CAG 영상 모두에서 파란색 화살표가 직접 지목하고 있는 분지 혈관으로, LMCA 분지 후 상방·전방으로 주행하며 중격가지와 대각가지를 내는 좌전하행지(LAD)입니다."
       },
       {
         "opt_idx": 2,
@@ -47913,18 +47913,18 @@
         "text": "RCA",
         "is_correct": false,
         "tag": "✗ 오답",
-        "reason": "RCA(우관상동맥)는 좌측 관상동맥 조영술인 제시 영상에는 나타나지 않는 별도의 혈관입니다."
+        "reason": "RCA(우관상동맥)는 우측 관상동맥동에서 별도로 기시하므로 제시된 좌관상동맥 조영술 화면에는 보이지 않습니다."
       },
       {
         "opt_idx": 3,
         "opt_num": "④",
         "text": "Left main",
-        "is_correct": true,
-        "tag": "✓ 정답",
-        "reason": "영상에서 LAD와 LCx로 나뉘기 직전 좌주간 관상동맥 말단부에 극심한 협착(pinhole stenosis)과 조영제 역류(dye reflux)가 관찰되며, 복원된 문항의 정답으로 확정된 막힌 혈관입니다."
+        "is_correct": false,
+        "tag": "✗ 오답",
+        "reason": "LMCA 말단부 자체에 협착 및 Dye reflux 소견이 관찰되기는 하나, 파란색 화살표가 직접 가리키는 대상 혈관은 분지 직후의 ② LAD입니다."
       }
     ],
-    "answer": "Left main"
+    "answer": "LAD"
   },
   {
     "id": "내과_21Y_Q04",
