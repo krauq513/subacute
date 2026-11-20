@@ -37,6 +37,7 @@
     pendingDeletedCommentIds: [],
     pendingDeletedProfileIds: [],
     activeProfileId: null,
+    openProfileDrawerIds: new Set(),
     profileMutationSeq: 0,
     isInitializing: true,
     selectedNewAvatar: '🩺',
@@ -5953,8 +5954,14 @@
     if (!dom.profileModal.open) {
       dom.profileModal.showModal();
     }
-    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync && !CloudSyncManager.isSyncing) {
-      CloudSyncManager.sync({ silent: true, force: true });
+    if (typeof CloudSyncManager !== 'undefined') {
+      if (CloudSyncManager.syncTimer) {
+        clearTimeout(CloudSyncManager.syncTimer);
+        CloudSyncManager.syncTimer = null;
+      }
+      if (CloudSyncManager.sync && !CloudSyncManager.isSyncing) {
+        CloudSyncManager.sync({ silent: true, force: true });
+      }
     }
   }
 
@@ -6140,6 +6147,7 @@
     }
 
     if (dom.profileList) {
+      const prevScrollTop = dom.profileList.scrollTop;
       dom.profileList.innerHTML = '';
       state.profiles.forEach(prof => {
         const isCurrent = prof.id === state.activeProfileId;
@@ -6189,26 +6197,36 @@
         const actions = document.createElement('div');
         actions.className = 'profile-item-actions';
 
+        const isDrawerInitiallyOpen = state.openProfileDrawerIds instanceof Set && state.openProfileDrawerIds.has(prof.id);
         const drawer = document.createElement('div');
         drawer.className = 'profile-subject-drawer';
-        drawer.style.display = 'none';
+        drawer.style.display = isDrawerInitiallyOpen ? 'block' : 'none';
         drawer.addEventListener('click', (e) => e.stopPropagation());
 
         const btnProgress = document.createElement('button');
         btnProgress.type = 'button';
-        btnProgress.className = 'btn-profile-progress';
-        btnProgress.setAttribute('aria-expanded', 'false');
-        btnProgress.textContent = '📊 진도';
+        btnProgress.className = `btn-profile-progress${isDrawerInitiallyOpen ? ' is-open' : ''}`;
+        btnProgress.setAttribute('aria-expanded', isDrawerInitiallyOpen ? 'true' : 'false');
+        btnProgress.textContent = isDrawerInitiallyOpen ? '📊 닫기' : '📊 진도';
         btnProgress.title = `'${prof.name}' 프로필로 들어가지 않고 과목별 진도 펼치기`;
+        if (isDrawerInitiallyOpen) {
+          renderProfileSubjectDrawer(drawer, prof, isCurrent);
+        }
         btnProgress.addEventListener('click', (e) => {
           e.stopPropagation();
           const isOpen = drawer.style.display !== 'none';
           if (isOpen) {
+            if (state.openProfileDrawerIds instanceof Set) {
+              state.openProfileDrawerIds.delete(prof.id);
+            }
             drawer.style.display = 'none';
             btnProgress.classList.remove('is-open');
             btnProgress.setAttribute('aria-expanded', 'false');
             btnProgress.textContent = '📊 진도';
           } else {
+            if (state.openProfileDrawerIds instanceof Set) {
+              state.openProfileDrawerIds.add(prof.id);
+            }
             renderProfileSubjectDrawer(drawer, prof, isCurrent);
             drawer.style.display = 'block';
             btnProgress.classList.add('is-open');
@@ -6278,6 +6296,7 @@
         card.appendChild(drawer);
         dom.profileList.appendChild(card);
       });
+      dom.profileList.scrollTop = prevScrollTop;
     }
 
     // 4. Update Error Reports Badge in Profile Modal
