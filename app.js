@@ -52,7 +52,7 @@
     shuffledOrders: {}, // qId -> number[] (displayIdx -> originalIdx)
     isSectionFilterExpanded: false, // Collapsed by default
     filters: {
-      subject: localStorage.getItem(STORAGE_KEY_SUBJECT) || '내과',
+      subject: localStorage.getItem(STORAGE_KEY_SUBJECT) || '소아청소년과',
       year: 'ALL',
       section: 'ALL',
       type: 'ALL',
@@ -3528,8 +3528,8 @@
    */
 
   const SUBJECT_ORDER = [
-    '내과', '소아청소년과', '정신건강의학과', '진단검사의학과', '정형외과',
-    '외과', '영상의학과', '신경과', '산부인과'
+    '소아청소년과', '정신건강의학과', '진단검사의학과', '정형외과',
+    '외과', '영상의학과', '신경과', '산부인과', '내과'
   ];
 
   /**
