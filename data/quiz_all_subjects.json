@@ -88091,22 +88091,22 @@
       "a lot of brown fat",
       "thick subcutaneous fat layer"
     ],
-    "correct_option_index": 1,
-    "correct_answer": "large head-to-body ratio",
+    "correct_option_index": 2,
+    "correct_answer": "High surface area-to-weight ratio",
     "explanation": {
-      "title": "신생아 열손실(Heat Loss) 취약 요인: 체간 대비 큰 두부 비율",
+      "title": "신생아 열손실(Heat Loss) 취약 요인: 체중 대비 넓은 체표면적 (High surface area-to-weight ratio)",
       "theme_title": "신생아·미숙아의 열손실 및 체온 조절 취약 기전 (큰 두부·체표면적 비율과 피하지방 부족)",
-      "findings": "• **[증례 핵심 단서 및 검사 판독]**: 신생아가 성인이나 큰 아이에 비해 외부로 체온을 쉽게 빼앗기는(저체온증에 취약한) 해부·생리적 요인을 고르는 문항입니다.\n• **[병태생리 및 감별 해석]**: 신생아는 ① 머리 크기가 신체 비율상 매우 커서 전체 체표면적의 약 20% 이상을 차지하고(`large head-to-body ratio`) 뇌 혈류량이 많아 머리를 통한 복사·대류 열손실이 극심하며, ② 체중 대비 체표면적 비율도 성인의 약 3배로 높고(`high surface area-to-weight ratio`), ③ 피하지방층이 얇아 단열 능력이 부족하며, ④ 떨림(shivering)에 의한 열생산을 못 하고 갈색지방(brown fat)의 비오한성 열생산에 의존합니다. 반면 신생아가 팔다리를 몸통 쪽으로 오므리는 **굴곡 자세(flexion posture)**는 노출 면적을 줄여 열을 보존하는 방어 기전입니다.\n• **[정답 도출 과정]**: 실제 교과서상 ② `large head-to-body ratio`와 ③ `High surface area-to-weight ratio` 모두 신생아 열손실의 중요 원인이나, 본 기출 복기 채점에서는 신생아 특유의 해부학적 신체 비율(머리가 커서 모자 착용이 필수인 근거)을 강조한 ② **`large head-to-body ratio`**가 정답으로 채택되었습니다.",
-      "differential": "• ① flexion posture ✗ [오답]: 만삭 신생아가 취하는 굴곡 자세(flexion posture)는 외부 공기에 노출되는 체표면적을 줄여 체온과 열을 보존하는 방어 자세입니다(반대로 미숙아는 근긴장도 저하로 사지가 펴진 신전 자세여서 열손실이 커집니다).\n• ② large head-to-body ratio ✓ [정답]: 신생아는 성인에 비해 머리가 유독 커서 전체 체표면적의 약 20% 이상을 차지하고(large head-to-body ratio) 두피 피하지방이 얇아 머리를 통한 복사·대류 열손실이 매우 크게 일어나며, 본 문항의 채점 정답으로 선정되었습니다.\n• ③ High surface area-to-weight ratio ✗ [오답]: 체중에 비해 체표면적이 넓은 것(성인의 약 3배) 역시 실제 신생아 열손실의 중요한 생리적 원인이나, 본 기출 문항의 답안 구성에서는 신생아 두부 비율을 강조한 ②번이 정답으로 채택되었습니다.\n• ④ a lot of brown fat ✗ [오답]: 견갑골 사이, 목, 신장 주위 등에 분포한 풍부한 갈색지방(brown fat)은 교감신경(노르에피네프린) 자극 시 비오한성 열생산(non-shivering thermogenesis)으로 열을 '만들어 내는' 보호 기전이지 열손실 요인이 아닙니다.\n• ⑤ thick subcutaneous fat layer ✗ [오답]: 신생아(특히 미숙아)는 피하지방층이 두껍지 않고 매우 얇아서 단열 효과가 떨어지므로 열손실이 잘 일어납니다.",
-      "differential_general": "• [핵심 병태생리 및 진단 기준]: 신생아 체온 조절 취약성 및 4대 열손실 기전:\n  - **신생아 열손실 해부 요인**: 큰 머리-몸통 비율(**Large head-to-body ratio**, 두부가 표면적의 ~20%), 큰 체중 대비 체표면적(성인의 약 3배), 얇은 피하지방층(특히 미숙아), 미성숙 피부 각질층(불감성 수분·열손실).\n  - **열손실 4대 기전과 예방법**:\n    1. **증발(Evaporation)**: 젖은 양수 증발 → 출생 즉시 따뜻한 마른 수건으로 닦고 젖은 포 교체.\n    2. **복사(Radiation)**: 차가운 창문·인큐베이터 벽으로 열 방출 → 이중벽 인큐베이터, 방사 보온기.\n    3. **전도(Conduction)**: 차가운 저울·X선 판·청진기 접촉 → 미리 데운 패드/포 깔기.\n    4. **대류(Convection)**: 찬 공기 흐름·외풍 → 보육기 문 닫기, **모자 씌우기(큰 머리 열손실 차단)**.\n• [임상 의사결정 / 치료 알고리즘]: 신생아 저체온(중심체온 < 36.5℃) 발생 시 갈색지방 대사와 산소 소모량이 폭증해 저산소증, 저혈당, 대사성 산증, 무호흡, 폐고혈압이 연쇄적으로 유발되므로 분만실(25~28℃) 출생 직후 건조·보온·모자 착용이 필수입니다.\n• [실전 감별 & 함정 정리]: ① flexion posture(열 보존), ④ a lot of brown fat(열 생산), ⑤ thick subcutaneous fat(거짓 — 실제로는 얇음)은 명백히 틀렸고, ②와 ③은 모두 생리적으로 맞는 설명이지만 본 문항의 공식 정답 키는 **② `large head-to-body ratio`**임을 명확히 숙지하시기 바랍니다(미숙아는 굴곡 자세를 취하지 못하고 신전 자세로 누워 있어 열손실이 더 큼).",
-      "trap": "② large head-to-body ratio와 ③ High surface area-to-weight ratio가 모두 교과서상 맞는 말이라 헷갈릴 수 있습니다. ②와 ③ 중 시험 답안은 머리가 체표면적의 큰 비중을 차지하는 특이적 비율(모자 착용의 근거)인 ②로 채택되었음을 기억하고, ⑤(피하지방 두꺼움)나 ④(갈색지방 풍부)를 열손실 원인으로 착각하지 않도록 주의해야 합니다.",
-      "trigger": "신생아 열손실 요인 + 모자 씌우는 근거 → large head-to-body ratio (flexion=보존, brown fat=생산, 피하지방=얇음)",
+      "findings": "• **[증례 핵심 단서 및 검사 판독]**: 신생아가 성인이나 큰 소아에 비해 외부 환경으로 체온을 쉽게 빼앗기는(저체온증에 취약한) 대표적 생리·해부학적 요인을 고르는 문항입니다.\n• **[병태생리 및 감별 해석]**: 신생아는 ① 체중 대비 체표면적 비율이 성인의 약 3배로 매우 높아(`High surface area-to-weight ratio`) 복사·대류·전도·증발을 통한 열손실이 급격히 일어나며, ② 체간 대비 머리 비율도 상대적으로 크고(`large head-to-body ratio`), ③ 피하지방층이 얇아 단열 능력이 부족하며, ④ 떨림(shivering)에 의한 열생산을 못 하고 갈색지방(brown fat)의 비오한성 열생산에 의존합니다. 반면 만삭아의 굴곡 자세(`flexion posture`)는 노출 면적을 줄여 열을 보존하는 방어 기전입니다.\n• **[정답 도출 과정]**: 교과서(홍창의 소아과학) 및 기출 `23Y-12`에서도 신생아 체온 손실의 가장 대표적인 1순위 생리 기전으로 체중 대비 체표면적(성인의 약 3배)을 강조하므로 정답은 ③ **`High surface area-to-weight ratio`**입니다(② `large head-to-body ratio`는 일부 복기 족보의 볼드 처리와 달리 보조적 해부 기여 요인입니다).",
+      "differential": "• ① flexion posture ✗ [오답]: 만삭 신생아가 취하는 굴곡 자세(flexion posture)는 외부 공기에 노출되는 체표면적을 줄여 체온과 열을 보존하는 방어 자세입니다(반대로 미숙아는 근긴장도 저하로 사지가 펴진 신전 자세여서 열손실이 커집니다).\n• ② large head-to-body ratio ✗ [오답]: 신생아는 성인보다 상대적으로 머리가 커서(약 20%) 두부 열손실에도 기여하지만, 교과서상 신생아 열손실의 1순위 핵심 생리 기전으로 평가하는 정답은 체중 대비 체표면적 비율(성인의 약 3배)인 ③입니다.\n• ③ High surface area-to-weight ratio ✓ [정답]: 신생아는 성인에 비해 체중 대비 체표면적 비율이 약 3배 높아(High surface area-to-weight ratio) 복사·대류·전도·증발을 통한 체열 손실이 급격히 일어납니다.\n• ④ a lot of brown fat ✗ [오답]: 견갑골 사이, 목, 신장 주위 등에 분포한 풍부한 갈색지방(brown fat)은 교감신경(노르에피네프린) 자극 시 비오한성 열생산(non-shivering thermogenesis)으로 열을 '만들어 내는' 보호 기전이지 열손실 요인이 아닙니다.\n• ⑤ thick subcutaneous fat layer ✗ [오답]: 신생아(특히 미숙아)는 피하지방층이 두껍지 않고 매우 얇아서 단열 효과가 떨어지므로 열손실이 잘 일어납니다.",
+      "differential_general": "• [핵심 병태생리 및 진단 기준]: 신생아 체온 조절 취약성 및 4대 열손실 기전:\n  - **신생아 열손실 1순위 생리 요인**: **체중 대비 높은 체표면적 비율(High surface area-to-weight ratio, 성인의 약 3배)**, 큰 두부 비율(체표면적의 ~20%), 얇은 피하지방층(특히 미숙아), 미성숙 피부 각질층(불감성 수분·열손실).\n  - **열손실 4대 기전과 예방법**:\n    1. **증발(Evaporation)**: 젖은 양수 증발 → 출생 즉시 따뜻한 마른 수건으로 닦고 젖은 포 교체.\n    2. **복사(Radiation)**: 차가운 창문·인큐베이터 벽으로 열 방출 → 이중벽 인큐베이터, 방사 보온기.\n    3. **전도(Conduction)**: 차가운 저울·X선 판·청진기 접촉 → 미리 데운 패드/포 깔기.\n    4. **대류(Convection)**: 찬 공기 흐름·외풍 → 보육기 문 닫기, 모자 씌우기.\n• [임상 의사결정 / 치료 알고리즘]: 신생아 저체온(중심체온 < 36.5℃) 발생 시 갈색지방 대사와 산소 소모량이 폭증해 저산소증, 저혈당, 대사성 산증, 무호흡, 폐고혈압이 연쇄적으로 유발되므로 분만실(25~28℃) 출생 직후 건조·보온·모자 착용이 필수입니다.\n• [실전 감별 & 함정 정리]: ① flexion posture(열 보존), ④ a lot of brown fat(열 생산), ⑤ thick subcutaneous fat(거짓, 실제로는 얇음)은 명백히 틀렸고, ② `large head-to-body ratio`보다 전반적 체열 방출의 핵심 1순위 기전인 **③ `High surface area-to-weight ratio`**가 정답입니다.",
+      "trap": "신생아는 머리가 커서 ② large head-to-body ratio도 열손실에 기여하지만, 교과서(홍창의 소아과학) 및 23Y-12에서 핵심 1순위 생리 기전으로 강조하는 정답은 체중 대비 체표면적 비율이 성인의 약 3배인 ③ High surface area-to-weight ratio입니다.",
+      "trigger": "신생아 열손실의 대표적 생리 요인(성인의 약 3배) → High surface area-to-weight ratio",
       "kmle_link": "【KMLE 핵심 주제】 신생아 체온 조절 생리, 4대 열손실 기전(증발·복사·전도·대류) 및 해부학적 취약 요인"
     },
     "is_multiple_choice": false,
     "required_count": 1,
     "correct_option_indices": [
-      1
+      2
     ],
     "freq_count": 2,
     "rate": 17,
@@ -88131,17 +88131,17 @@
         "opt_idx": 1,
         "opt_num": "②",
         "text": "large head-to-body ratio",
-        "is_correct": true,
-        "tag": "✓ 정답",
-        "reason": "신생아는 성인에 비해 머리가 유독 커서 전체 체표면적의 약 20% 이상을 차지하고(large head-to-body ratio) 두피 피하지방이 얇아 머리를 통한 복사·대류 열손실이 매우 크게 일어나며, 본 문항의 채점 정답으로 선정되었습니다."
+        "is_correct": false,
+        "tag": "✗ 오답",
+        "reason": "신생아는 성인보다 상대적으로 머리가 커서(약 20%) 두부 열손실에도 기여하지만, 교과서상 신생아 열손실의 1순위 핵심 생리 기전으로 평가하는 정답은 체중 대비 체표면적 비율(성인의 약 3배)인 ③입니다."
       },
       {
         "opt_idx": 2,
         "opt_num": "③",
         "text": "High surface area-to-weight ratio",
-        "is_correct": false,
-        "tag": "✗ 오답",
-        "reason": "체중에 비해 체표면적이 넓은 것(성인의 약 3배) 역시 실제 신생아 열손실의 중요한 생리적 원인이나, 본 기출 문항의 답안 구성에서는 신생아 두부 비율을 강조한 ②번이 정답으로 채택되었습니다."
+        "is_correct": true,
+        "tag": "✓ 정답",
+        "reason": "신생아는 성인에 비해 체중 대비 체표면적 비율이 약 3배 높아(High surface area-to-weight ratio) 복사·대류·전도·증발을 통한 체열 손실이 급격히 일어납니다."
       },
       {
         "opt_idx": 3,
@@ -88160,7 +88160,7 @@
         "reason": "신생아(특히 미숙아)는 피하지방층이 두껍지 않고 매우 얇아서 단열 효과가 떨어지므로 열손실이 잘 일어납니다."
       }
     ],
-    "answer": "large head-to-body ratio"
+    "answer": "High surface area-to-weight ratio"
   },
   {
     "id": "소아청소년과_26Y_Q39",
