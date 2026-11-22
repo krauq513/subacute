@@ -369,7 +369,7 @@
     pendingResyncSilent: true,
     lastSyncTime: null,
     lastSyncedMutationSeq: 0,
-    AUTO_SYNC_INTERVAL_MS: 180000, // 3 minutes
+    AUTO_SYNC_INTERVAL_MS: 300000, // 5 minutes (paused when tab is hidden)
 
     async sync({ silent = false, isInitial = false, force = false } = {}) {
       if (this.isSyncing) {
@@ -517,6 +517,9 @@
                   prevBookmarkCount !== state.bookmarks.size;
 
                 if (stateChanged) {
+                  if (!isSubjectLoaded(state.filters.subject)) {
+                    await ensureSubjectLoaded(state.filters.subject);
+                  }
                   const prevInit = state.isInitializing;
                   state.isInitializing = true;
                   try {
@@ -619,12 +622,13 @@
         });
       }
 
-      // 2. Periodic sync every 3 minutes (180,000ms)
+      // 2. Periodic sync every 5 minutes (skip while background tab is hidden)
       setInterval(() => {
+        if (document.visibilityState === 'hidden') return;
         this.sync({ silent: true });
       }, this.AUTO_SYNC_INTERVAL_MS);
 
-      // 3. Tab visibility sync (flush unsynced mutations on hide; refresh on visible after 15s)
+      // 3. Tab visibility sync (flush unsynced mutations on hide; refresh on visible after 60s)
       document.addEventListener('visibilitychange', () => {
         if (document.visibilityState === 'hidden') {
           if ((state.profileMutationSeq || 0) !== this.lastSyncedMutationSeq) {
@@ -635,17 +639,20 @@
             this.sync({ silent: true, force: true });
           }
         } else if (document.visibilityState === 'visible') {
+          const hasUnsynced = (state.profileMutationSeq || 0) !== this.lastSyncedMutationSeq;
           const elapsed = Date.now() - (this.lastSyncTime || 0);
-          if (elapsed >= 15000) {
+          if (hasUnsynced || elapsed >= 60000) {
             this.sync({ silent: true });
           }
         }
       });
 
-      // 4. Window focus sync (throttled to 15 seconds)
+      // 4. Window focus sync (throttled to 60 seconds unless unsynced changes exist)
       window.addEventListener('focus', () => {
+        if (document.visibilityState === 'hidden') return;
+        const hasUnsynced = (state.profileMutationSeq || 0) !== this.lastSyncedMutationSeq;
         const elapsed = Date.now() - (this.lastSyncTime || 0);
-        if (elapsed >= 15000) {
+        if (hasUnsynced || elapsed >= 60000) {
           this.sync({ silent: true });
         }
       });
@@ -680,7 +687,10 @@
 
   async function init() {
     loadStorage();
-    await loadQuestions();
+    const preSyncProfile = getActiveProfile();
+    const preSyncLastId = preSyncProfile ? (preSyncProfile.lastQuestionId || null) : null;
+    const initialSub = (preSyncLastId && getSubjectFromQuestionId(preSyncLastId)) || state.filters.subject || '소아청소년과';
+    await loadQuestions(initialSub);
     setupEventListeners();
     syncFilterButtonsUI();
     updateSubjectUI();
@@ -697,6 +707,12 @@
     // Restore last viewed question for active profile on reconnect / startup
     const activeProfile = getActiveProfile();
     const lastId = activeProfile ? (activeProfile.lastQuestionId || null) : null;
+    const neededSub = (lastId && getSubjectFromQuestionId(lastId)) || state.filters.subject || initialSub;
+    if (!isSubjectLoaded(neededSub)) {
+      await ensureSubjectLoaded(neededSub);
+    }
+
+    let restoredById = false;
     if (lastId) {
       const targetQ = state.allQuestions.find(q => q.id === lastId);
       if (targetQ) {
@@ -718,8 +734,10 @@
         if (idx !== -1) {
           state.currentIndex = idx;
         }
+        restoredById = true;
       }
-    } else {
+    }
+    if (!restoredById) {
       state.currentIndex = 0;
       applyFilters();
       updateSubjectUI();
@@ -882,12 +900,10 @@
     state.lastSubjectMap = profile.lastSubjectMap && typeof profile.lastSubjectMap === 'object'
       ? { ...profile.lastSubjectMap }
       : {};
-    if (state.allQuestions && state.allQuestions.length > 0) {
-      for (const [sub, qId] of Object.entries(state.lastSubjectMap)) {
-        const qObj = state.allQuestions.find(item => item.id === qId);
-        if (qObj && qObj.subject && sub !== 'ALL' && qObj.subject !== sub) {
-          delete state.lastSubjectMap[sub];
-        }
+    for (const [sub, qId] of Object.entries(state.lastSubjectMap)) {
+      const actualSub = getSubjectFromQuestionId(qId);
+      if (actualSub && sub !== 'ALL' && actualSub !== sub) {
+        delete state.lastSubjectMap[sub];
       }
     }
     state.shuffleOptions = !!profile.shuffleOptions;
@@ -993,11 +1009,151 @@
   }
 
   /**
-   * Load Question Data
+   * SubjectLoader: Per-subject manifest index & on-demand bundle loader
    */
-  async function loadQuestions() {
-    // Prefer window.QUIZ_DATA or window.ALL_QUESTIONS loaded from versioned data/quiz_data.js?v=...
-    // to avoid a redundant ~19MB download of data/quiz_all_subjects.json on every page load.
+  const loadedSubjects = new Set();
+  const loadingSubjectPromises = new Map();
+  const idToSubjectMap = new Map();
+  let subjectSwitchSeq = 0;
+
+  function initManifestIndex() {
+    const manifest = window.SUBJECTS_MANIFEST;
+    if (!manifest || !manifest.subjects || idToSubjectMap.size > 0) return;
+    Object.entries(manifest.subjects).forEach(([sub, meta]) => {
+      if (meta && Array.isArray(meta.ids)) {
+        meta.ids.forEach(id => idToSubjectMap.set(id, sub));
+      }
+    });
+  }
+  initManifestIndex();
+
+  function getSubjectFromQuestionId(qId) {
+    if (!qId) return null;
+    initManifestIndex();
+    if (idToSubjectMap.has(qId)) return idToSubjectMap.get(qId);
+    const qLoaded = Array.isArray(state.allQuestions)
+      ? state.allQuestions.find(item => item && item.id === qId)
+      : null;
+    if (qLoaded && qLoaded.subject) return qLoaded.subject;
+    const prefix = String(qId).split('_')[0];
+    if (prefix && SUBJECT_META && SUBJECT_META[prefix] && prefix !== 'ALL') {
+      return prefix;
+    }
+    return null;
+  }
+
+  function getManifestSubjectIds(sub) {
+    const manifest = window.SUBJECTS_MANIFEST;
+    if (manifest && manifest.subjects) {
+      if (sub === 'ALL') {
+        const allIds = [];
+        Object.keys(manifest.subjects).forEach(s => {
+          const meta = manifest.subjects[s];
+          if (meta && Array.isArray(meta.ids)) {
+            allIds.push(...meta.ids);
+          }
+        });
+        return allIds;
+      }
+      const meta = manifest.subjects[sub];
+      return meta && Array.isArray(meta.ids) ? meta.ids : [];
+    }
+    const allQ = state.allQuestions || [];
+    return (sub === 'ALL' ? allQ : allQ.filter(q => q.subject === sub)).map(q => q.id);
+  }
+
+  function getManifestTotalCount() {
+    const manifest = window.SUBJECTS_MANIFEST;
+    if (manifest && typeof manifest.totalCount === 'number') {
+      return manifest.totalCount;
+    }
+    return (state.allQuestions || []).length;
+  }
+
+  function isSubjectLoaded(sub) {
+    const manifest = window.SUBJECTS_MANIFEST;
+    if (!manifest || !manifest.subjects) {
+      return Array.isArray(state.allQuestions) && state.allQuestions.length > 0;
+    }
+    if (sub === 'ALL') {
+      return Object.keys(manifest.subjects).every(s => loadedSubjects.has(s));
+    }
+    return loadedSubjects.has(sub);
+  }
+
+  function mergeLoadedQuestions(questions) {
+    if (!Array.isArray(questions) || questions.length === 0) return;
+    const existingIds = new Set((state.allQuestions || []).map(q => q.id));
+    const merged = Array.isArray(state.allQuestions) ? state.allQuestions : [];
+    let added = false;
+    questions.forEach(q => {
+      if (q && q.id && !existingIds.has(q.id)) {
+        existingIds.add(q.id);
+        merged.push(q);
+        added = true;
+      }
+    });
+    if (added) {
+      merged.sort((a, b) => (a.index ?? 0) - (b.index ?? 0));
+    }
+    state.allQuestions = merged;
+    window.QUIZ_DATA = merged;
+    window.ALL_QUESTIONS = merged;
+    applyCustomEdits();
+  }
+
+  async function ensureSubjectLoaded(sub) {
+    const manifest = window.SUBJECTS_MANIFEST;
+    if (!manifest || !manifest.subjects) {
+      return await loadQuestionsLegacy();
+    }
+    initManifestIndex();
+
+    if (sub === 'ALL') {
+      const pending = Object.keys(manifest.subjects).map(s => ensureSubjectLoaded(s));
+      const results = await Promise.all(pending);
+      return results.every(Boolean);
+    }
+
+    let targetSub = sub;
+    if (!manifest.subjects[targetSub]) {
+      targetSub = manifest.subjects['소아청소년과']
+        ? '소아청소년과'
+        : Object.keys(manifest.subjects)[0];
+    }
+    if (!targetSub) return false;
+    if (loadedSubjects.has(targetSub)) return true;
+    if (loadingSubjectPromises.has(targetSub)) {
+      return await loadingSubjectPromises.get(targetSub);
+    }
+
+    const entry = manifest.subjects[targetSub];
+    const url = entry.hash ? `${entry.file}?v=${entry.hash}` : entry.file;
+    const promise = (async () => {
+      try {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(`HTTP ${res.status} (${url})`);
+        const subQuestions = await res.json();
+        mergeLoadedQuestions(subQuestions);
+        loadedSubjects.add(targetSub);
+        return true;
+      } catch (err) {
+        console.warn(`Subject load failed (${targetSub}):`, err);
+        if (typeof showToast === 'function') {
+          showToast(`⚠️ [${targetSub}] 문제 데이터를 불러오지 못했습니다. 네트워크를 확인해주세요.`);
+        }
+        return false;
+      } finally {
+        loadingSubjectPromises.delete(targetSub);
+      }
+    })();
+
+    loadingSubjectPromises.set(targetSub, promise);
+    return await promise;
+  }
+
+  async function loadQuestionsLegacy() {
+    // Fallback for legacy single-bundle quiz_data.js or quiz_all_subjects.json
     const preloaded = (window.QUIZ_DATA && Array.isArray(window.QUIZ_DATA) && window.QUIZ_DATA.length > 0)
       ? window.QUIZ_DATA
       : (window.ALL_QUESTIONS && Array.isArray(window.ALL_QUESTIONS) && window.ALL_QUESTIONS.length > 0 ? window.ALL_QUESTIONS : null);
@@ -1006,7 +1162,7 @@
       window.ALL_QUESTIONS = preloaded;
       state.allQuestions = preloaded;
       applyCustomEdits();
-      return;
+      return true;
     }
 
     try {
@@ -1014,10 +1170,24 @@
       if (!res.ok) throw new Error('Network response not ok');
       state.allQuestions = await res.json();
       window.QUIZ_DATA = state.allQuestions;
+      window.ALL_QUESTIONS = state.allQuestions;
       applyCustomEdits();
+      return true;
     } catch (err) {
       console.warn('Quiz JSON fallback failed:', err);
+      return false;
     }
+  }
+
+  /**
+   * Load Initial Question Data (single active subject when manifest is present)
+   */
+  async function loadQuestions(initialSubject = null) {
+    if (window.SUBJECTS_MANIFEST && window.SUBJECTS_MANIFEST.subjects) {
+      const targetSub = initialSubject || (state.filters && state.filters.subject) || '소아청소년과';
+      return await ensureSubjectLoaded(targetSub);
+    }
+    return await loadQuestionsLegacy();
   }
 
   const SUBJECT_META = {
@@ -1078,12 +1248,27 @@
 
   function updateSubjectTabCounts() {
     applyExamScheduleClasses();
-    if (!dom.subjectTabs || !Array.isArray(state.allQuestions) || state.allQuestions.length === 0) return;
-    const subCounts = {};
-    state.allQuestions.forEach(q => {
-      if (q && q.subject) subCounts[q.subject] = (subCounts[q.subject] || 0) + 1;
-    });
-    const totalCount = state.allQuestions.length;
+    if (!dom.subjectTabs) return;
+    const manifest = window.SUBJECTS_MANIFEST;
+    let subCounts = {};
+    let totalCount = 0;
+
+    if (manifest && manifest.subjects) {
+      Object.entries(manifest.subjects).forEach(([sub, meta]) => {
+        subCounts[sub] = (meta && typeof meta.count === 'number') ? meta.count : (meta && Array.isArray(meta.ids) ? meta.ids.length : 0);
+      });
+      totalCount = typeof manifest.totalCount === 'number'
+        ? manifest.totalCount
+        : Object.values(subCounts).reduce((a, b) => a + b, 0);
+    } else if (Array.isArray(state.allQuestions) && state.allQuestions.length > 0) {
+      state.allQuestions.forEach(q => {
+        if (q && q.subject) subCounts[q.subject] = (subCounts[q.subject] || 0) + 1;
+      });
+      totalCount = state.allQuestions.length;
+    } else {
+      return;
+    }
+
     dom.subjectTabs.querySelectorAll('.subject-pill').forEach(btn => {
       const sub = btn.dataset.subject;
       const count = (sub === 'ALL') ? totalCount : (subCounts[sub] || 0);
@@ -3536,8 +3721,17 @@
   /**
    * Switch active subject filter and restore last question position
    */
-  function switchToSubject(newSub) {
-    if (!newSub) return;
+  async function switchToSubject(newSub) {
+    if (!newSub) return false;
+    const mySeq = ++subjectSwitchSeq;
+    if (!isSubjectLoaded(newSub)) {
+      const subLabel = newSub === 'ALL' ? '전과목 통합' : newSub;
+      showToast(`⏳ [${subLabel}] 문제 불러오는 중...`);
+      const ok = await ensureSubjectLoaded(newSub);
+      if (!ok || mySeq !== subjectSwitchSeq) return false;
+    }
+    if (mySeq !== subjectSwitchSeq) return false;
+
     state.filters.subject = newSub;
     state.filters.year = 'ALL';
     state.filters.section = 'ALL';
@@ -3563,6 +3757,7 @@
     saveStorage();
     updateStats();
     scrollToQuestionIntel();
+    return true;
   }
 
   /**
@@ -3573,12 +3768,11 @@
     const bookmarkSet = bookmarksCollection instanceof Set
       ? bookmarksCollection
       : new Set(Array.isArray(bookmarksCollection) ? bookmarksCollection : []);
-    const allQuestions = state.allQuestions || [];
     const results = [];
 
     SUBJECT_ORDER.forEach(sub => {
-      const subQuestions = allQuestions.filter(q => q.subject === sub);
-      const subTotal = subQuestions.length;
+      const subIds = getManifestSubjectIds(sub);
+      const subTotal = subIds.length;
       if (subTotal === 0) return;
 
       let subAnswered = 0;
@@ -3586,14 +3780,14 @@
       let subWrong = 0;
       let subBookmarks = 0;
 
-      subQuestions.forEach(q => {
-        const rec = answers[q.id];
+      subIds.forEach(qId => {
+        const rec = answers[qId];
         if (rec) {
           subAnswered++;
           if (rec.isCorrect) subCorrect++;
           else subWrong++;
         }
-        if (bookmarkSet.has(q.id)) {
+        if (bookmarkSet.has(qId)) {
           subBookmarks++;
         }
       });
@@ -3620,23 +3814,18 @@
       dom.progressOverallChip.textContent = `${pAvatar} ${pName} · 전체 종합 진도`;
     }
 
-    const allQuestions = state.allQuestions || [];
-    const totalQCount = allQuestions.length;
+    const subjectStats = getSubjectStatsForAnswers(state.userAnswers, state.bookmarks);
+    const totalQCount = getManifestTotalCount();
     let totalAnswered = 0;
     let totalCorrect = 0;
     let totalWrong = 0;
     let totalBookmarks = 0;
 
-    allQuestions.forEach(q => {
-      const rec = state.userAnswers[q.id];
-      if (rec) {
-        totalAnswered++;
-        if (rec.isCorrect) totalCorrect++;
-        else totalWrong++;
-      }
-      if (state.bookmarks && state.bookmarks.has(q.id)) {
-        totalBookmarks++;
-      }
+    subjectStats.forEach(s => {
+      totalAnswered += s.subAnswered;
+      totalCorrect += s.subCorrect;
+      totalWrong += s.subWrong;
+      totalBookmarks += s.subBookmarks;
     });
 
     const overallRatePct = totalQCount > 0 ? ((totalAnswered / totalQCount) * 100).toFixed(1) : '0.0';
@@ -3653,7 +3842,7 @@
     // Render individual subject cards
     dom.progressSubjectGrid.innerHTML = '';
 
-    getSubjectStatsForAnswers(state.userAnswers, state.bookmarks).forEach(stat => {
+    subjectStats.forEach(stat => {
       const { sub, meta, subTotal, subAnswered, subCorrect, subWrong, subBookmarks, subRatePct, subAccPct } = stat;
       const isCurrent = (state.filters.subject === sub);
 
@@ -3705,14 +3894,17 @@
     });
   }
 
-  function selectSubjectAndClose(sub) {
+  async function selectSubjectAndClose(sub) {
     closeProgressModal();
     if (state.filters.subject === sub) {
       showToast(`📌 현재 [${sub}] 과목을 학습하고 있습니다.`);
       return;
     }
-    switchToSubject(sub);
-    showToast(`⚡ [${sub}] 과목으로 전환되었습니다.`);
+    const switched = await switchToSubject(sub);
+    if (switched !== false) {
+      const subLabel = sub === 'ALL' ? '전과목 통합' : sub;
+      showToast(`⚡ [${subLabel}] 과목으로 전환되었습니다.`);
+    }
   }
 
   function openProgressModal() {
@@ -4532,8 +4724,12 @@
       const qLink = document.createElement('div');
       qLink.className = 'edit-history-qlink';
       qLink.textContent = `📌 [${log.subject} ${log.year}] ${log.qId} 문제로 바로가기`;
-      qLink.addEventListener('click', () => {
+      qLink.addEventListener('click', async () => {
         closeProfileModal();
+        const targetSub = log.subject || getSubjectFromQuestionId(log.qId);
+        if (targetSub && !isSubjectLoaded(targetSub)) {
+          await ensureSubjectLoaded(targetSub);
+        }
         const target = state.allQuestions.find(cand => cand.id === log.qId);
         if (target) jumpToQuestionObject(target);
       });
@@ -5999,18 +6195,34 @@
       return { text: `${sub} 1번 문항 (처음부터 시작)`, q: null, subIndex: 1, subTotal: 0 };
     }
     const q = state.allQuestions.find(item => item.id === lastId);
-    if (!q) {
-      return { text: `문항 ID: ${lastId}`, q: null, subIndex: 1, subTotal: 0 };
+    if (q) {
+      const subQuestions = state.allQuestions.filter(item => item.subject === q.subject);
+      const subIdx = subQuestions.findIndex(item => item.id === q.id);
+      const posNum = subIdx !== -1 ? subIdx + 1 : 1;
+      return {
+        text: `${q.subject} ${posNum}번 / ${subQuestions.length}문항 (${q.year} Q${String(q.q_num).padStart(2, '0')})`,
+        q,
+        subIndex: posNum,
+        subTotal: subQuestions.length
+      };
     }
-    const subQuestions = state.allQuestions.filter(item => item.subject === q.subject);
-    const subIdx = subQuestions.findIndex(item => item.id === q.id);
-    const posNum = subIdx !== -1 ? subIdx + 1 : 1;
-    return {
-      text: `${q.subject} ${posNum}번 / ${subQuestions.length}문항 (${q.year} Q${String(q.q_num).padStart(2, '0')})`,
-      q,
-      subIndex: posNum,
-      subTotal: subQuestions.length
-    };
+    const sub = getSubjectFromQuestionId(lastId);
+    if (sub) {
+      const ids = getManifestSubjectIds(sub);
+      const subIdx = ids.indexOf(lastId);
+      if (subIdx !== -1) {
+        const posNum = subIdx + 1;
+        const ym = String(lastId).match(/_(\d+Y)_(?:Q)?(\d+)/i);
+        const suffix = ym ? ` (${ym[1]} Q${String(parseInt(ym[2], 10)).padStart(2, '0')})` : '';
+        return {
+          text: `${sub} ${posNum}번 / ${ids.length}문항${suffix}`,
+          q: null,
+          subIndex: posNum,
+          subTotal: ids.length
+        };
+      }
+    }
+    return { text: `문항 ID: ${lastId}`, q: null, subIndex: 1, subTotal: 0 };
   }
 
   function getProfileStatsSummary(profile) {
@@ -6021,7 +6233,7 @@
     answerKeys.forEach(k => {
       if (answers[k] && answers[k].isCorrect) correctCount++;
     });
-    const total = state.allQuestions.length || 2552;
+    const total = getManifestTotalCount() || 2555;
     const pct = total > 0 ? Math.round((answeredCount / total) * 100) : 0;
     const acc = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
     const bCount = Array.isArray(profile && profile.bookmarks) ? profile.bookmarks.length : 0;
@@ -6059,18 +6271,18 @@
       let chipCount = 0;
 
       subjects.forEach(sub => {
-        const subQs = state.allQuestions.filter(q => q.subject === sub);
-        if (subQs.length === 0) return;
+        const subIds = getManifestSubjectIds(sub);
+        if (subIds.length === 0) return;
         let subSolved = 0;
-        subQs.forEach(q => {
-          if (active.userAnswers && active.userAnswers[q.id]) subSolved++;
+        subIds.forEach(qId => {
+          if (active.userAnswers && active.userAnswers[qId]) subSolved++;
         });
         const savedId = active.lastSubjectMap && active.lastSubjectMap[sub];
         if (subSolved === 0 && !savedId) return;
 
         let savedPos = 1;
         if (savedId) {
-          const idx = subQs.findIndex(q => q.id === savedId);
+          const idx = subIds.indexOf(savedId);
           if (idx !== -1) savedPos = idx + 1;
         }
         chipCount++;
@@ -6078,9 +6290,9 @@
         chip.type = 'button';
         chip.className = 'subject-resume-chip';
         const icon = SUBJECT_META[sub] ? SUBJECT_META[sub].icon : '📘';
-        const subPct = subQs.length > 0 ? Math.round((subSolved / subQs.length) * 100) : 0;
-        chip.innerHTML = `<span class="chip-sub-label">${icon} ${sub}</span> <span class="chip-sub-badge">#${savedPos}번</span> <span class="chip-sub-stats">(${subSolved}/${subQs.length} · ${subPct}%)</span>`;
-        chip.title = `${sub} ${savedPos}번 문제에서 바로 이어하기 (${subSolved}/${subQs.length}문항 풀이)`;
+        const subPct = subIds.length > 0 ? Math.round((subSolved / subIds.length) * 100) : 0;
+        chip.innerHTML = `<span class="chip-sub-label">${icon} ${sub}</span> <span class="chip-sub-badge">#${savedPos}번</span> <span class="chip-sub-stats">(${subSolved}/${subIds.length} · ${subPct}%)</span>`;
+        chip.title = `${sub} ${savedPos}번 문제에서 바로 이어하기 (${subSolved}/${subIds.length}문항 풀이)`;
         chip.addEventListener('click', (e) => {
           e.stopPropagation();
           switchAndResumeProfile(active.id, sub);
@@ -6307,7 +6519,7 @@
     updateProfileReportsBadge();
   }
 
-  function switchAndResumeProfile(profileId, targetSubjectOverride = null) {
+  async function switchAndResumeProfile(profileId, targetSubjectOverride = null) {
     const targetProfile = state.profiles.find(p => p.id === profileId);
     if (!targetProfile) return;
 
@@ -6319,6 +6531,16 @@
     state.activeProfileId = targetProfile.id;
     state.profileMutationSeq = (state.profileMutationSeq || 0) + 1;
     loadProfileIntoMemory(targetProfile);
+
+    let preTargetQId = targetSubjectOverride
+      ? ((targetProfile.lastSubjectMap && targetProfile.lastSubjectMap[targetSubjectOverride]) || null)
+      : targetProfile.lastQuestionId;
+    const neededSub = targetSubjectOverride || (preTargetQId && getSubjectFromQuestionId(preTargetQId)) || state.filters.subject || '소아청소년과';
+    if (!isSubjectLoaded(neededSub)) {
+      const subLabel = neededSub === 'ALL' ? '전과목 통합' : neededSub;
+      showToast(`⏳ [${subLabel}] 문제 불러오는 중...`);
+      await ensureSubjectLoaded(neededSub);
+    }
 
     const prevInit = state.isInitializing;
     state.isInitializing = true;
@@ -6395,7 +6617,7 @@
     showToast(`✅ '${targetProfile.name}' 프로필 [${locLabel}]에서 이어합니다.`);
   }
 
-  function createNewProfile() {
+  async function createNewProfile() {
     const rawName = dom.inputProfileName ? dom.inputProfileName.value.trim() : '';
     const name = rawName || `프로필 ${state.profiles.length + 1}`;
     const copyBookmarks = !!(dom.chkCopyBookmarks && dom.chkCopyBookmarks.checked);
@@ -6427,7 +6649,7 @@
     if (dom.inputProfileName) dom.inputProfileName.value = '';
     if (dom.chkCopyBookmarks) dom.chkCopyBookmarks.checked = false;
 
-    switchAndResumeProfile(newProfile.id);
+    await switchAndResumeProfile(newProfile.id);
     showToast(`🎉 새 프로필 '${newProfile.name}'이(가) 생성되었습니다!`);
   }
 
@@ -6515,7 +6737,7 @@
     showToast(`🔄 '${prof.name}' 프로필의 풀이 기록이 초기화되었습니다.`);
   }
 
-  function deleteProfile(profileId) {
+  async function deleteProfile(profileId) {
     if (state.profiles.length <= 1) {
       showToast('⚠️ 최소 1개의 프로필은 유지되어야 합니다.');
       return;
@@ -6532,6 +6754,9 @@
       const nextActive = state.profiles[0];
       state.activeProfileId = nextActive.id;
       loadProfileIntoMemory(nextActive);
+      if (!isSubjectLoaded(state.filters.subject)) {
+        await ensureSubjectLoaded(state.filters.subject);
+      }
       syncFilterButtonsUI();
       updateSubjectUI();
       applyFilters();
@@ -6573,7 +6798,7 @@
     const file = e.target.files && e.target.files[0];
     if (!file) return;
     const reader = new FileReader();
-    reader.onload = () => {
+    reader.onload = async () => {
       try {
         const parsed = JSON.parse(String(reader.result || '{}'));
         const importedList = Array.isArray(parsed) ? parsed : parsed.profiles;
@@ -6585,7 +6810,7 @@
         const nextActiveId = parsed.activeProfileId && normalized.some(p => p.id === parsed.activeProfileId)
           ? parsed.activeProfileId
           : normalized[0].id;
-        switchAndResumeProfile(nextActiveId);
+        await switchAndResumeProfile(nextActiveId);
         showToast(`📂 ${normalized.length}개의 프로필 데이터를 성공적으로 불러왔습니다!`);
       } catch (err) {
         showToast('⚠️ 백업 파일 형식이 올바르지 않습니다.');
@@ -6918,9 +7143,9 @@
 
       const qLink = item.querySelector('.report-history-qlink');
       if (qLink) {
-        qLink.addEventListener('click', () => {
-          jumpToQuestionById(rep.questionId);
+        qLink.addEventListener('click', async () => {
           closeProfileModal();
+          await jumpToQuestionById(rep.questionId);
         });
       }
 
@@ -6928,7 +7153,7 @@
     });
   }
 
-  function jumpToQuestionById(questionId) {
+  async function jumpToQuestionById(questionId) {
     if (!questionId) return;
 
     // Check if question exists in filtered list
@@ -6938,6 +7163,12 @@
       renderCurrentQuestion();
       showToast('🎯 제보한 문항으로 이동했습니다.');
       return;
+    }
+
+    // Ensure target subject is loaded before searching state.allQuestions
+    const inferredSub = getSubjectFromQuestionId(questionId);
+    if (inferredSub && !isSubjectLoaded(inferredSub)) {
+      await ensureSubjectLoaded(inferredSub);
     }
 
     // If not in current filter, reset filters to locate it
