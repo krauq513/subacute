@@ -21,6 +21,9 @@
   const STORAGE_KEY_CUSTOM_EDITS = 'KMLE_USER_CUSTOM_EDITS_V1';
   const STORAGE_KEY_EDIT_LOGS = 'KMLE_QUESTION_EDIT_LOGS_V1';
   const STORAGE_KEY_COMMENTS = 'KMLE_QUESTION_COMMENTS_V1';
+  const STORAGE_KEY_SYNC_ETAG = 'KMLE_SYNC_ETAG_V1';
+  const STORAGE_KEY_SYNC_HASH = 'KMLE_SYNC_HASH_V1';
+  const STORAGE_KEY_SYNC_DIRTY = 'KMLE_SYNC_DIRTY_V1';
   const SESSION_KEY_WELCOME_SHOWN = 'KMLE_PROFILE_WELCOME_SHOWN_V1';
   const CIRCLE_NUMS = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩'];
 
@@ -370,8 +373,43 @@
     lastSyncTime: null,
     lastSyncedMutationSeq: 0,
     AUTO_SYNC_INTERVAL_MS: 300000, // 5 minutes (paused when tab is hidden)
+    lastSyncEtag: (() => { try { return localStorage.getItem(STORAGE_KEY_SYNC_ETAG) || ''; } catch (e) { return ''; } })(),
+    lastSyncHash: (() => { try { return localStorage.getItem(STORAGE_KEY_SYNC_HASH) || ''; } catch (e) { return ''; } })(),
+    hasFullWritePending: (() => { try { return localStorage.getItem(STORAGE_KEY_SYNC_DIRTY) === 'full'; } catch (e) { return false; } })(),
+    hasProfileWritePending: (() => {
+      try {
+        const d = localStorage.getItem(STORAGE_KEY_SYNC_DIRTY);
+        return d === 'profile' || d === 'full';
+      } catch (e) {
+        return false;
+      }
+    })(),
 
-    async sync({ silent = false, isInitial = false, force = false } = {}) {
+    markDirty(scope = 'profile') {
+      if (scope === 'full') {
+        this.hasFullWritePending = true;
+        this.hasProfileWritePending = true;
+        try { localStorage.setItem(STORAGE_KEY_SYNC_DIRTY, 'full'); } catch (e) {}
+      } else {
+        this.hasProfileWritePending = true;
+        if (!this.hasFullWritePending) {
+          try { localStorage.setItem(STORAGE_KEY_SYNC_DIRTY, 'profile'); } catch (e) {}
+        }
+      }
+    },
+
+    persistSyncTokens(etag, hash) {
+      if (etag !== undefined && etag !== null) {
+        this.lastSyncEtag = String(etag);
+        try { localStorage.setItem(STORAGE_KEY_SYNC_ETAG, this.lastSyncEtag); } catch (e) {}
+      }
+      if (hash) {
+        this.lastSyncHash = String(hash);
+        try { localStorage.setItem(STORAGE_KEY_SYNC_HASH, this.lastSyncHash); } catch (e) {}
+      }
+    },
+
+    async sync({ silent = false, isInitial = false, force = false, keepalive = false } = {}) {
       if (this.isSyncing) {
         if (force) {
           this.pendingResync = true;
@@ -415,23 +453,67 @@
           }
         }
 
-        // 1. Harvest all local client data
-        const payload = {
-          clientReports: Array.isArray(state.reports) ? state.reports : [],
-          clientComments: state.comments && typeof state.comments === 'object' ? state.comments : {},
-          clientEdits: state.customEdits && typeof state.customEdits === 'object' ? state.customEdits : {},
-          clientEditLogs: Array.isArray(state.editLogs) ? state.editLogs : [],
-          clientProfiles: Array.isArray(state.profiles) ? state.profiles : [],
-          activeProfileId: state.activeProfileId,
-          deletedCommentIds: Array.isArray(state.pendingDeletedCommentIds) ? state.pendingDeletedCommentIds : [],
-          deletedProfileIds: Array.isArray(state.pendingDeletedProfileIds) ? state.pendingDeletedProfileIds : []
-        };
+        const hasPendingDeleted =
+          (Array.isArray(state.pendingDeletedCommentIds) && state.pendingDeletedCommentIds.length > 0) ||
+          (Array.isArray(state.pendingDeletedProfileIds) && state.pendingDeletedProfileIds.length > 0);
+        const hasProfileMut = this.hasProfileWritePending || syncStartSeq !== this.lastSyncedMutationSeq;
+        const needsFullUpload = this.hasFullWritePending || hasPendingDeleted;
+        const hasAnyLocalProfileProgress = Array.isArray(state.profiles) && state.profiles.some(p =>
+          p && (
+            Object.keys(p.userAnswers || {}).length > 0 ||
+            Object.keys(p.deletedAnswers || {}).length > 0 ||
+            (Array.isArray(p.bookmarks) && p.bookmarks.length > 0) ||
+            p.id !== 'profile_default'
+          )
+        );
+        const hasLocalUnsyncedDataOnFirstBoot = isInitial && !this.lastSyncHash && (
+          hasAnyLocalProfileProgress ||
+          (state.comments && Object.keys(state.comments).length > 0) ||
+          (Array.isArray(state.reports) && state.reports.length > 0) ||
+          (state.customEdits && Object.keys(state.customEdits).length > 0)
+        );
 
-        const resp = await fetch('/api/sync', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
-        });
+        const shouldPost = needsFullUpload || hasProfileMut || hasLocalUnsyncedDataOnFirstBoot;
+        const sentFullUpload = needsFullUpload || hasLocalUnsyncedDataOnFirstBoot;
+
+        let resp;
+        if (!shouldPost) {
+          // Lightweight read-only conditional check (ETag / hash)
+          const qs = new URLSearchParams();
+          if (this.lastSyncEtag) qs.set('etag', this.lastSyncEtag);
+          if (this.lastSyncHash) qs.set('hash', this.lastSyncHash);
+          const qStr = qs.toString();
+          resp = await fetch(qStr ? `/api/sync?${qStr}` : '/api/sync', { method: 'GET' });
+        } else {
+          // Compact write: active profile only for normal answer/bookmark sync; full payload only for global mutations
+          const payload = sentFullUpload
+            ? {
+                activeOnly: false,
+                lastSyncHash: this.lastSyncHash || '',
+                clientReports: Array.isArray(state.reports) ? state.reports : [],
+                clientComments: state.comments && typeof state.comments === 'object' ? state.comments : {},
+                clientEdits: state.customEdits && typeof state.customEdits === 'object' ? state.customEdits : {},
+                clientEditLogs: Array.isArray(state.editLogs) ? state.editLogs : [],
+                clientProfiles: Array.isArray(state.profiles) ? state.profiles : [],
+                activeProfileId: state.activeProfileId,
+                deletedCommentIds: Array.isArray(state.pendingDeletedCommentIds) ? state.pendingDeletedCommentIds : [],
+                deletedProfileIds: Array.isArray(state.pendingDeletedProfileIds) ? state.pendingDeletedProfileIds : []
+              }
+            : {
+                activeOnly: true,
+                lastSyncHash: this.lastSyncHash || '',
+                activeProfileId: state.activeProfileId,
+                clientProfiles: active ? [active] : []
+              };
+
+          const bodyJson = JSON.stringify(payload);
+          resp = await fetch('/api/sync', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: bodyJson,
+            keepalive: !!(keepalive && bodyJson.length < 60000)
+          });
+        }
 
         if (!resp.ok) {
           throw new Error(`Sync API responded with status ${resp.status}`);
@@ -439,8 +521,39 @@
 
         const data = await resp.json();
         if (data && data.success) {
-          state.pendingDeletedCommentIds = [];
+          this.persistSyncTokens(data.etag, data.hash);
 
+          if (shouldPost && sentFullUpload) {
+            state.pendingDeletedCommentIds = [];
+          }
+
+          if (state.profileMutationSeq !== syncStartSeq) {
+            shouldResyncAfter = true;
+          } else if (shouldPost) {
+            if (sentFullUpload) {
+              state.pendingDeletedProfileIds = [];
+              this.hasFullWritePending = false;
+            }
+            this.hasProfileWritePending = false;
+            if (!this.hasFullWritePending) {
+              try { localStorage.removeItem(STORAGE_KEY_SYNC_DIRTY); } catch (e) {}
+            } else {
+              try { localStorage.setItem(STORAGE_KEY_SYNC_DIRTY, 'full'); } catch (e) {}
+            }
+          }
+
+          // Fast path: server confirmed nothing changed (GET 304/hash match) or acknowledged our delta write (ackOnly)
+          if (data.unchanged || data.ackOnly) {
+            this.lastSyncedMutationSeq = syncStartSeq;
+            this.lastSyncTime = Date.now();
+            this.updateIndicator('online');
+            if (!silent && !isInitial) {
+              showToast('✅ 클라우드 실시간 동기화 완료');
+            }
+            return;
+          }
+
+          // Full merge response from server
           // 2. Merge server reports
           if (Array.isArray(data.reports)) {
             state.reports = data.reports;
@@ -596,9 +709,9 @@
       }
     },
 
-    scheduleDebouncedSync(delayMs = 3000) {
+    scheduleDebouncedSync(delayMs = 5000) {
       const elapsed = Date.now() - (this.lastSyncTime || 0);
-      const waitMs = elapsed < 10000 ? Math.max(delayMs, 10000 - elapsed) : delayMs;
+      const waitMs = elapsed < 20000 ? Math.max(delayMs, 20000 - elapsed) : delayMs;
       if (this.syncTimer) clearTimeout(this.syncTimer);
       this.syncTimer = setTimeout(() => {
         this.sync({ silent: true });
@@ -628,18 +741,22 @@
         this.sync({ silent: true });
       }, this.AUTO_SYNC_INTERVAL_MS);
 
+      const flushPendingOnLeave = () => {
+        const hasPending = this.hasProfileWritePending || this.hasFullWritePending || ((state.profileMutationSeq || 0) !== this.lastSyncedMutationSeq);
+        if (!hasPending) return;
+        if (this.syncTimer) {
+          clearTimeout(this.syncTimer);
+          this.syncTimer = null;
+        }
+        this.sync({ silent: true, force: true, keepalive: true });
+      };
+
       // 3. Tab visibility sync (flush unsynced mutations on hide; refresh on visible after 60s)
       document.addEventListener('visibilitychange', () => {
         if (document.visibilityState === 'hidden') {
-          if ((state.profileMutationSeq || 0) !== this.lastSyncedMutationSeq) {
-            if (this.syncTimer) {
-              clearTimeout(this.syncTimer);
-              this.syncTimer = null;
-            }
-            this.sync({ silent: true, force: true });
-          }
+          flushPendingOnLeave();
         } else if (document.visibilityState === 'visible') {
-          const hasUnsynced = (state.profileMutationSeq || 0) !== this.lastSyncedMutationSeq;
+          const hasUnsynced = this.hasProfileWritePending || this.hasFullWritePending || ((state.profileMutationSeq || 0) !== this.lastSyncedMutationSeq);
           const elapsed = Date.now() - (this.lastSyncTime || 0);
           if (hasUnsynced || elapsed >= 60000) {
             this.sync({ silent: true });
@@ -647,10 +764,12 @@
         }
       });
 
+      window.addEventListener('pagehide', flushPendingOnLeave);
+
       // 4. Window focus sync (throttled to 60 seconds unless unsynced changes exist)
       window.addEventListener('focus', () => {
         if (document.visibilityState === 'hidden') return;
-        const hasUnsynced = (state.profileMutationSeq || 0) !== this.lastSyncedMutationSeq;
+        const hasUnsynced = this.hasProfileWritePending || this.hasFullWritePending || ((state.profileMutationSeq || 0) !== this.lastSyncedMutationSeq);
         const elapsed = Date.now() - (this.lastSyncTime || 0);
         if (hasUnsynced || elapsed >= 60000) {
           this.sync({ silent: true });
@@ -662,7 +781,7 @@
         this.sync({ silent: true });
       });
 
-      // 1. Initial sync immediately to harvest existing local data and pull latest cloud data
+      // 1. Initial sync immediately (GET ETag/hash check if no local mutations; POST if offline mutations pending)
       return await this.sync({ isInitial: true, silent: true });
     },
 
@@ -1000,8 +1119,13 @@
       }
 
       updateHeaderProfileUI();
-      if (!state.isInitializing && typeof CloudSyncManager !== 'undefined' && CloudSyncManager.scheduleDebouncedSync) {
-        CloudSyncManager.scheduleDebouncedSync(3000);
+      if (!skipTimestamp && !state.isInitializing && typeof CloudSyncManager !== 'undefined') {
+        if (CloudSyncManager.markDirty) {
+          CloudSyncManager.markDirty('profile');
+        }
+        if (CloudSyncManager.scheduleDebouncedSync) {
+          CloudSyncManager.scheduleDebouncedSync(5000);
+        }
       }
     } catch (e) {
       console.error('Failed to save to local storage:', e);
@@ -4460,7 +4584,8 @@
     updateProfileCounters();
     showToast(`💾 [${q.id}] 문제 수정사항이 저장되었습니다.`);
     if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
-      CloudSyncManager.sync({ silent: true });
+      if (CloudSyncManager.markDirty) CloudSyncManager.markDirty('full');
+      CloudSyncManager.sync({ silent: true, force: true });
     }
   }
 
@@ -4485,7 +4610,8 @@
     updateProfileCounters();
     showToast(`🔄 [${q.id}] 문제가 원래 상태로 복원되었습니다.`);
     if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
-      CloudSyncManager.sync({ silent: true });
+      if (CloudSyncManager.markDirty) CloudSyncManager.markDirty('full');
+      CloudSyncManager.sync({ silent: true, force: true });
     }
   }
 
@@ -4652,7 +4778,8 @@
     }
     showToast('💬 댓글이 등록되었습니다.');
     if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
-      CloudSyncManager.sync({ silent: true });
+      if (CloudSyncManager.markDirty) CloudSyncManager.markDirty('full');
+      CloudSyncManager.sync({ silent: true, force: true });
     }
   }
 
@@ -4678,7 +4805,8 @@
     state.pendingDeletedCommentIds.push(commId);
     showToast('🗑️ 댓글이 삭제되었습니다.');
     if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
-      CloudSyncManager.sync({ silent: true });
+      if (CloudSyncManager.markDirty) CloudSyncManager.markDirty('full');
+      CloudSyncManager.sync({ silent: true, force: true });
     }
   }
 
@@ -4858,6 +4986,34 @@
     viewerMode: localStorage.getItem(STORAGE_KEY_PDF_MODE) || (isTabletOrMobileDevice() ? 'canvas' : 'iframe')
   };
 
+  let pdfJsLoadPromise = null;
+  function ensurePdfJsLoaded() {
+    if (window.pdfjsLib) {
+      window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'vendor/pdfjs/pdf.worker.min.js';
+      return Promise.resolve(true);
+    }
+    if (pdfJsLoadPromise) return pdfJsLoadPromise;
+    pdfJsLoadPromise = new Promise((resolve) => {
+      const script = document.createElement('script');
+      script.src = 'vendor/pdfjs/pdf.min.js';
+      script.async = true;
+      script.onload = () => {
+        if (window.pdfjsLib) {
+          window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'vendor/pdfjs/pdf.worker.min.js';
+          resolve(true);
+        } else {
+          resolve(false);
+        }
+      };
+      script.onerror = () => {
+        pdfJsLoadPromise = null;
+        resolve(false);
+      };
+      document.head.appendChild(script);
+    });
+    return pdfJsLoadPromise;
+  }
+
   if (window.pdfjsLib) {
     window.pdfjsLib.GlobalWorkerOptions.workerSrc = 'vendor/pdfjs/pdf.worker.min.js';
   }
@@ -5017,8 +5173,11 @@
   }
 
   async function loadPdfWithPdfJs(fileUrl) {
+    if (dom.pdfCanvasLoading) dom.pdfCanvasLoading.style.display = 'flex';
+    await ensurePdfJsLoaded();
     if (!window.pdfjsLib) {
       console.warn('PDF.js library not loaded, falling back to iframe');
+      if (dom.pdfCanvasLoading) dom.pdfCanvasLoading.style.display = 'none';
       if (dom.pdfFrame) {
         dom.pdfFrame.style.display = 'block';
         dom.pdfFrame.src = fileUrl;
@@ -6160,7 +6319,7 @@
         CloudSyncManager.syncTimer = null;
       }
       if (CloudSyncManager.sync && !CloudSyncManager.isSyncing) {
-        CloudSyncManager.sync({ silent: true, force: true });
+        CloudSyncManager.sync({ silent: true });
       }
     }
   }
@@ -6646,6 +6805,9 @@
 
     state.profiles.push(newProfile);
     state.profileMutationSeq = (state.profileMutationSeq || 0) + 1;
+    if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.markDirty) {
+      CloudSyncManager.markDirty('full');
+    }
     if (dom.inputProfileName) dom.inputProfileName.value = '';
     if (dom.chkCopyBookmarks) dom.chkCopyBookmarks.checked = false;
 
@@ -6670,6 +6832,9 @@
     state.profileMutationSeq = (state.profileMutationSeq || 0) + 1;
     saveStorage({ skipTimestamp: true });
     if (typeof CloudSyncManager !== 'undefined') {
+      if (CloudSyncManager.markDirty) {
+        CloudSyncManager.markDirty('full');
+      }
       if (CloudSyncManager.syncTimer) {
         clearTimeout(CloudSyncManager.syncTimer);
         CloudSyncManager.syncTimer = null;
@@ -6731,6 +6896,7 @@
     }
     saveStorage();
     if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+      if (CloudSyncManager.markDirty) CloudSyncManager.markDirty('full');
       CloudSyncManager.sync({ silent: true, force: true });
     }
     renderProfileModal();
@@ -6769,6 +6935,7 @@
     renderProfileModal();
     showToast(`🗑️ '${prof.name}' 프로필이 삭제되었습니다.`);
     if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+      if (CloudSyncManager.markDirty) CloudSyncManager.markDirty('full');
       CloudSyncManager.sync({ silent: true, force: true });
     }
   }
@@ -6807,6 +6974,9 @@
         }
         const normalized = importedList.map(p => createProfileObject(p));
         state.profiles = normalized;
+        if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.markDirty) {
+          CloudSyncManager.markDirty('full');
+        }
         const nextActiveId = parsed.activeProfileId && normalized.some(p => p.id === parsed.activeProfileId)
           ? parsed.activeProfileId
           : normalized[0].id;
@@ -7008,7 +7178,8 @@
 
     showToast(`🚨 [${category}] 오류 제보가 접수되었습니다. 감사합니다!`);
     if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
-      CloudSyncManager.sync({ silent: true });
+      if (CloudSyncManager.markDirty) CloudSyncManager.markDirty('full');
+      CloudSyncManager.sync({ silent: true, force: true });
     }
   }
 
@@ -7730,6 +7901,13 @@
       if (e.touches.length === 0) {
         zoomState.isDragging = false;
       }
+    });
+  }
+
+  // Register lightweight immutable-asset Service Worker on HTTPS/localhost
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1')) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js').catch(() => {});
     });
   }
 

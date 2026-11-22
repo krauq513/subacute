@@ -1,7 +1,19 @@
 // Vercel Serverless Function: api/sync.js
 // Handles real-time cross-client synchronization for profiles, error reports, comments, and edits
 
-import { fetchGistData, saveGistData } from '../lib/gist.js';
+import crypto from 'node:crypto';
+import { fetchGistDataWithMeta, saveGistDataWithMeta } from '../lib/gist.js';
+
+function computeSyncHash(data) {
+  const canonical = JSON.stringify({
+    reports: data && Array.isArray(data.reports) ? data.reports : [],
+    comments: data && data.comments ? data.comments : {},
+    customEdits: data && data.customEdits ? data.customEdits : {},
+    editLogs: data && Array.isArray(data.editLogs) ? data.editLogs : [],
+    profiles: data && Array.isArray(data.profiles) ? data.profiles : []
+  });
+  return crypto.createHash('sha256').update(canonical).digest('hex').slice(0, 16);
+}
 
 function mergeData(serverData, clientData) {
   // 1. Reports merge
@@ -760,7 +772,8 @@ function mergeData(serverData, clientData) {
 export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, If-None-Match');
+  res.setHeader('Cache-Control', 'no-store');
 
   if (req.method === 'OPTIONS') {
     return res.status(200).end();
@@ -768,19 +781,80 @@ export default async function handler(req, res) {
 
   try {
     if (req.method === 'GET') {
-      const current = await fetchGistData({ throwOnError: true });
-      return res.status(200).json({ success: true, ...current });
+      const clientEtag = String((req.query && req.query.etag) || req.headers['if-none-match'] || '').trim();
+      const clientHash = String((req.query && req.query.hash) || '').trim();
+      const { data: current, etag, notModified } = await fetchGistDataWithMeta({
+        throwOnError: true,
+        ifNoneMatch: clientEtag
+      });
+
+      if (notModified) {
+        return res.status(200).json({
+          success: true,
+          unchanged: true,
+          etag: clientEtag,
+          hash: clientHash
+        });
+      }
+
+      const serverHash = computeSyncHash(current);
+      if (clientHash && clientHash === serverHash) {
+        return res.status(200).json({
+          success: true,
+          unchanged: true,
+          etag,
+          hash: serverHash
+        });
+      }
+
+      return res.status(200).json({
+        success: true,
+        etag,
+        hash: serverHash,
+        ...current
+      });
     }
 
     if (req.method === 'POST') {
       const body = typeof req.body === 'string' ? JSON.parse(req.body) : (req.body || {});
-      const current = await fetchGistData({ throwOnError: true });
+      const { data: current, etag: currentEtag } = await fetchGistDataWithMeta({ throwOnError: true });
+      const beforeHash = computeSyncHash(current);
       const merged = mergeData(current, body);
+      const afterHash = computeSyncHash(merged);
 
-      // Save merged state to GitHub Gist (zero Vercel Blob usage)
-      await saveGistData(merged);
+      const gistChanged = beforeHash !== afterHash;
+      let finalEtag = currentEtag;
+      if (gistChanged) {
+        // Save merged state to GitHub Gist only when content actually changed (zero Vercel Blob usage)
+        const saved = await saveGistDataWithMeta(merged);
+        finalEtag = saved.etag || '';
+      }
 
-      return res.status(200).json({ success: true, ...merged });
+      const clientWasSynced = !!(body.lastSyncHash && body.lastSyncHash === beforeHash);
+      if (!gistChanged && clientWasSynced) {
+        return res.status(200).json({
+          success: true,
+          unchanged: true,
+          ackOnly: true,
+          etag: finalEtag,
+          hash: beforeHash
+        });
+      }
+      if (gistChanged && clientWasSynced && body.activeOnly === true) {
+        return res.status(200).json({
+          success: true,
+          ackOnly: true,
+          etag: finalEtag,
+          hash: afterHash
+        });
+      }
+
+      return res.status(200).json({
+        success: true,
+        etag: finalEtag,
+        hash: afterHash,
+        ...merged
+      });
     }
 
     return res.status(405).json({ error: 'Method not allowed' });
