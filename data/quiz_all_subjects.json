@@ -91111,7 +91111,7 @@
       "title": "주산기 거대세포바이러스 간염(Perinatal CMV Hepatitis)과 선천성 CMV 감염 감별",
       "theme_title": "주산기 거대세포바이러스(Perinatal CMV) 감염과 간염의 진단",
       "findings": "• **[증례 핵심 단서 및 검사 판독]**: 부당경소아(SGA, 출생체중 < 3백분위수)로 신생아중환자실에서 시행한 TORCH 검사(검사1)에서 Toxoplasma·Rubella·HSV는 음성이었고, CMV IgG만 양성인 반면 **소변 CMV RQ-PCR과 소변 CMV 배양검사는 모두 음성**이었습니다. 이후 생후 3개월에 RSV 세기관지염으로 입원 치료 후 AST/ALT 245/324 IU/L, GGT 164 IU/L로 지속적 간수치 상승(T.bil 1.0 / D.bil 0.2 mg/dL, PT 정상)과 혈청 CMV RQ-PCR 1,250,000 copies/mL의 고역가 양성이 확인되었으나, 생후 5개월 외래 진찰상 전신 상태가 양호하고 혼합분유를 잘 먹으며 체중이 순조롭게 늘고 있습니다.\n• **[병태생리 및 감별 해석]**: 출생 초기(생후 2~3주 이내) 시행한 소변 CMV PCR 및 배양검사가 음성이었으므로 자궁 내 **선천성 CMV 감염(congenital CMV)**은 명확히 배제됩니다(검사1의 CMV IgG 양성은 모체로부터 태반을 통해 넘어온 수동 항체). 이후 분만 시 산도 분비물이나 출생 후 모유 수유 등을 통해 후천적으로 바이러스에 노출되어 감염이 성립되는 것을 **주산기 CMV 감염(perinatal CMV infection)**이라 합니다. 만삭에 가까운 건강한 영아는 주산기 감염 시 대부분 무증상이거나 본 증례처럼 경미한 무황달성 간염(간효소 상승, 혈청 바이러스 검출)만 보이고 정상 성장하며 자연 호전됩니다.\n• **[정답 도출 과정]**: 신생아기 소변 CMV PCR/배양 음성으로 선천성 감염이 배제되었고, 생후 수개월경 고역가 CMV 혈증과 함께 임상적으로 양호한 경과의 간염을 보이고 있으므로 정답은 'Perinatal CMV hepatitis'입니다.",
-      "differential": "• ① Neonatal hepatitis ✗ [오답]: 신생아기(생후 2~3주 이내) 소변 CMV PCR 및 배양이 모두 음성이어 선천성 감염이 배제되었고, 이후 출생 전후(산도·모유 등) 노출로 생후 3~5개월경 고역가 CMV 혈증과 양호한 성장 속도를 동반한 간염이 확인되었으므로 주산기 CMV 간염(Perinatal CMV hepatitis)입니다.\n• ② RSV hepatitis ✗ [오답]: 신생아 간염(Neonatal hepatitis)은 생후 1~3개월 이내 지속적 직접 고빌리루빈혈증(담즙정체 황달)을 주증상으로 하는 특발성·대사성 신생아 간질환을 일컫며, 본 환아는 직접 빌리루빈 0.2 mg/dL로 정상이면서 생후 5개월에 CMV PCR이 강양성인 점과 맞지 않습니다.\n• ③ Perinatal CMV hepatitis ✓ [정답]: RSV는 주로 하기도(세기관지염·폐렴)를 침범하는 호흡기 바이러스로, 생후 3~5개월까지 지속되는 AST/ALT 상승과 혈청 CMV RQ-PCR 125만 카피 검출의 원인이 아닙니다.\n• ④ Congenital CMV infection ✗ [오답]: 선천성 CMV 감염(Congenital CMV infection)으로 진단하려면 생후 2~3주 이내 채취한 소변 또는 타액에서 CMV PCR 또는 배양 양성이 증명되어야 하나, 이 환아는 검사1에서 모두 음성(당시 CMV IgG 양성은 모체 전달 항체)이므로 배제됩니다.\n• ⑤ Transient hepatitis ✗ [오답]: 일과성 간염(Transient hepatitis)이라는 구체적 원인 배제 진단 대신 혈청 내 CMV RQ-PCR(1,250,000 copies/mL)이라는 명확한 병인이 입증되었으므로 주산기 CMV 간염이 정확한 진단명입니다.",
+      "differential": "• ① Neonatal hepatitis ✗ [오답]: 신생아 간염(Neonatal hepatitis)은 생후 1~3개월 이내 지속적 직접 고빌리루빈혈증(담즙정체 황달)을 주증상으로 하는 특발성·대사성 신생아 간질환을 일컫며, 본 환아는 직접 빌리루빈 0.2 mg/dL로 정상이면서 생후 5개월에 CMV PCR이 강양성인 점과 맞지 않습니다.\n• ② RSV hepatitis ✗ [오답]: RSV는 주로 하기도(세기관지염·폐렴)를 침범하는 호흡기 바이러스로, 생후 3~5개월까지 지속되는 AST/ALT 상승과 혈청 CMV RQ-PCR 125만 카피 검출의 원인이 아닙니다.\n• ③ Perinatal CMV hepatitis ✓ [정답]: 신생아기(생후 2~3주 이내) 소변 CMV PCR 및 배양이 모두 음성이어 선천성 감염이 배제되었고, 이후 출생 전후(산도·모유 등) 노출로 생후 3~5개월경 고역가 CMV 혈증과 양호한 성장 속도를 동반한 간염이 확인되었으므로 주산기 CMV 간염(Perinatal CMV hepatitis)입니다.\n• ④ Congenital CMV infection ✗ [오답]: 선천성 CMV 감염(Congenital CMV infection)으로 진단하려면 생후 2~3주 이내 채취한 소변 또는 타액에서 CMV PCR 또는 배양 양성이 증명되어야 하나, 이 환아는 검사1에서 모두 음성(당시 CMV IgG 양성은 모체 전달 항체)이므로 배제됩니다.\n• ⑤ Transient hepatitis ✗ [오답]: 일과성 간염(Transient hepatitis)이라는 구체적 원인 배제 진단 대신 혈청 내 CMV RQ-PCR(1,250,000 copies/mL)이라는 명확한 병인이 입증되었으므로 주산기 CMV 간염이 정확한 진단명입니다.",
       "differential_general": "• [핵심 병태생리 및 진단 기준]:\n  - 선천성 CMV 감염: 태반을 통한 자궁 내 감염. 출생 후 **생후 21일(3주) 이내** 소변·타액 CMV 배양 또는 PCR 양성으로 확진(생후 3주 이후 첫 검출은 주산기 감염과 감별 불가). 저체중, 소두증, 뇌실주위 석회화, 맥락망막염, 감각신경성 난청(SNHL) 등 영구 후유증 위험이 큼.\n  - 주산기(후천성) CMV 감염: 분만 시 산도 접촉, 모유 수유, 수혈로 전파(잠복기 4~12주). 생후 3주 이내 소변 CMV 검사 음성이었던 영아에서 생후 1~6개월경 CMV 검출 및 경증 간염·경미한 폐렴·림프구증가증이 나타남.\n• [임상 의사결정 / 치료 알고리즘]:\n  1. 증상성 선천성 CMV 감염(특히 중추신경계 침범·난청): 경구 Valganciclovir 6개월 투여로 청력 및 신경발달 예후 개선.\n  2. 만삭·면역정상 영아의 주산기 CMV 간염: 중추신경계 기형이나 청력 소실 위험이 거의 없고 대부분 자연 회복되므로 **항바이러스제 치료 없이 추적관찰**합니다(단, 초미숙아나 면역저하자에서 중증 패혈증양 증후군·폐렴 유발 시 치료 고려).\n• [실전 감별 & 함정 정리]: '체중 < 3 percentile(SGA)'과 'CMV IgG(+)'만 보고 성급히 Congenital CMV infection(선천성 CMV)을 고르는 것이 최대 함정입니다! 신생아 IgG는 태반을 통과한 모체 항체이므로 선천성 감염의 증거가 아니며, 반드시 함께 제시된 '신생아기 소변 CMV RQ-PCR 음성 & 배양 음성' 데이터를 읽어 선천성 감염을 배제해야 합니다.",
       "trap": "출생 시 SGA와 CMV IgG 양성만 보고 'Congenital CMV infection'을 고르기 쉽습니다. 신생아 CMV IgG 양성은 모체 항체일 수 있으며, 선천성 CMV는 생후 3주 이내 소변 PCR/배양이 양성이어야 확진되므로 검사1의 소변 CMV 음성이 주산기 감염 감별의 열쇠입니다.",
       "trigger": "신생아기 소변 CMV PCR·배양 음성(CMV IgG+는 모체 항체) + 생후 3~5개월 간효소 상승·혈청 CMV PCR 강양성·체중 증가 양호 → Perinatal CMV hepatitis",
@@ -91137,7 +91137,7 @@
         "text": "Neonatal hepatitis",
         "is_correct": false,
         "tag": "✗ 오답",
-        "reason": "신생아기(생후 2~3주 이내) 소변 CMV PCR 및 배양이 모두 음성이어 선천성 감염이 배제되었고, 이후 출생 전후(산도·모유 등) 노출로 생후 3~5개월경 고역가 CMV 혈증과 양호한 성장 속도를 동반한 간염이 확인되었으므로 주산기 CMV 간염(Perinatal CMV hepatitis)입니다."
+        "reason": "신생아 간염(Neonatal hepatitis)은 생후 1~3개월 이내 지속적 직접 고빌리루빈혈증(담즙정체 황달)을 주증상으로 하는 특발성·대사성 신생아 간질환을 일컫며, 본 환아는 직접 빌리루빈 0.2 mg/dL로 정상이면서 생후 5개월에 CMV PCR이 강양성인 점과 맞지 않습니다."
       },
       {
         "opt_idx": 1,
@@ -91145,7 +91145,7 @@
         "text": "RSV hepatitis",
         "is_correct": false,
         "tag": "✗ 오답",
-        "reason": "신생아 간염(Neonatal hepatitis)은 생후 1~3개월 이내 지속적 직접 고빌리루빈혈증(담즙정체 황달)을 주증상으로 하는 특발성·대사성 신생아 간질환을 일컫며, 본 환아는 직접 빌리루빈 0.2 mg/dL로 정상이면서 생후 5개월에 CMV PCR이 강양성인 점과 맞지 않습니다."
+        "reason": "RSV는 주로 하기도(세기관지염·폐렴)를 침범하는 호흡기 바이러스로, 생후 3~5개월까지 지속되는 AST/ALT 상승과 혈청 CMV RQ-PCR 125만 카피 검출의 원인이 아닙니다."
       },
       {
         "opt_idx": 2,
@@ -91153,7 +91153,7 @@
         "text": "Perinatal CMV hepatitis",
         "is_correct": true,
         "tag": "✓ 정답",
-        "reason": "RSV는 주로 하기도(세기관지염·폐렴)를 침범하는 호흡기 바이러스로, 생후 3~5개월까지 지속되는 AST/ALT 상승과 혈청 CMV RQ-PCR 125만 카피 검출의 원인이 아닙니다."
+        "reason": "신생아기(생후 2~3주 이내) 소변 CMV PCR 및 배양이 모두 음성이어 선천성 감염이 배제되었고, 이후 출생 전후(산도·모유 등) 노출로 생후 3~5개월경 고역가 CMV 혈증과 양호한 성장 속도를 동반한 간염이 확인되었으므로 주산기 CMV 간염(Perinatal CMV hepatitis)입니다."
       },
       {
         "opt_idx": 3,
