@@ -2667,7 +2667,7 @@
       if (isAnswered) {
         dom.btnRevealAnswer.textContent = '🔄 다시 풀기';
         dom.btnRevealAnswer.className = 'btn-reveal-answer is-retry';
-        dom.btnRevealAnswer.title = '이 문제 다시 풀기 (단축키 0 또는 R)';
+        dom.btnRevealAnswer.title = '이 문제 다시 풀기 (단축키 0 또는 Backspace)';
       } else {
         dom.btnRevealAnswer.textContent = '💡 정답 보기';
         dom.btnRevealAnswer.className = 'btn-reveal-answer';
@@ -2675,7 +2675,7 @@
       }
     }
     if (dom.optionsKbdTip) {
-      dom.optionsKbdTip.textContent = isAnswered ? '단축키: 0 다시풀기 · N 다음' : '단축키: 1 ~ 5 · 0 정답보기';
+      dom.optionsKbdTip.textContent = isAnswered ? '단축키: 0 다시풀기 · Space 다음 · R 안푼랜덤' : '단축키: 1 ~ 5 · 0 정답보기 · R 안푼랜덤';
     }
 
     // Header Badge & Tips
@@ -2700,9 +2700,9 @@
 
     if (dom.optionsKbdTip) {
       if (config.isMulti) {
-        dom.optionsKbdTip.textContent = '단축키: 1 ~ 5 (토글), Enter (정답 확인), S (섞기)';
+        dom.optionsKbdTip.textContent = '단축키: 1 ~ 5 (토글), Enter (확인), S (섞기), R (안 푼 랜덤)';
       } else {
-        dom.optionsKbdTip.textContent = '단축키: 숫자키 1 ~ 5, S (선지 섞기)';
+        dom.optionsKbdTip.textContent = '단축키: 1 ~ 5, S (섞기), Space (다음), R (안 푼 랜덤)';
       }
     }
 
@@ -5706,7 +5706,7 @@
       return;
     }
     // If typing in input or when modal dialogs are open, ignore global quiz shortcuts
-    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') {
+    if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.isContentEditable) {
       return;
     }
     if (dom.progressModal && dom.progressModal.open) {
@@ -5793,7 +5793,10 @@
       } else {
         revealCurrentAnswerDirectly();
       }
-    } else if (e.key === 'r' || e.key === 'R' || e.key === 'Backspace') {
+    } else if (e.key === 'r' || e.key === 'R' || e.code === 'KeyR') {
+      e.preventDefault();
+      navigateRandomUnsolved();
+    } else if (e.key === 'Backspace') {
       e.preventDefault();
       resetCurrentQuestion();
     } else if (e.key === 's' || e.key === 'S') {
@@ -7167,6 +7170,36 @@
     while (nextIdx === state.currentIndex) {
       nextIdx = Math.floor(Math.random() * state.filteredQuestions.length);
     }
+    state.currentIndex = nextIdx;
+    renderCurrentQuestion();
+    scrollToQuestionIntel();
+  }
+
+  /**
+   * Navigate to a Random Unsolved Other Question (Shortcut: R)
+   */
+  function navigateRandomUnsolved() {
+    const total = state.filteredQuestions.length;
+    if (total === 0) return;
+    const answers = state.userAnswers || {};
+    const candidates = [];
+    for (let i = 0; i < total; i++) {
+      if (i === state.currentIndex) continue;
+      const q = state.filteredQuestions[i];
+      if (q && !answers[q.id]) {
+        candidates.push(i);
+      }
+    }
+    if (candidates.length === 0) {
+      const curQ = state.filteredQuestions[state.currentIndex];
+      if (curQ && !answers[curQ.id]) {
+        showToast('현재 문제가 유일한 미해결 문제입니다.');
+      } else {
+        showToast('🎉 현재 목록의 모든 문제를 이미 풀었습니다!');
+      }
+      return;
+    }
+    const nextIdx = candidates[Math.floor(Math.random() * candidates.length)];
     state.currentIndex = nextIdx;
     renderCurrentQuestion();
     scrollToQuestionIntel();
