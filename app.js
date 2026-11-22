@@ -2674,9 +2674,6 @@
         dom.btnRevealAnswer.title = '즉시 정답 및 상세 해설 보기 (단축키 0)';
       }
     }
-    if (dom.optionsKbdTip) {
-      dom.optionsKbdTip.textContent = isAnswered ? '단축키: 0 다시풀기 · Space 다음 · R 안푼랜덤' : '단축키: 1 ~ 5 · 0 정답보기 · R 안푼랜덤';
-    }
 
     // Header Badge & Tips
     if (dom.cardMultiBadge) {
@@ -2699,10 +2696,12 @@
     }
 
     if (dom.optionsKbdTip) {
-      if (config.isMulti) {
-        dom.optionsKbdTip.textContent = '단축키: 1 ~ 5 (토글), Enter (확인), S (섞기), R (안 푼 랜덤)';
+      if (isAnswered) {
+        dom.optionsKbdTip.textContent = '단축키: 0 다시풀기 · ←/→·Space 이동 · S 섞기 · R 안푼랜덤';
+      } else if (config.isMulti) {
+        dom.optionsKbdTip.textContent = '단축키: 1 ~ 5 토글 · Enter 확인 · 0 정답보기 · ←/→·Space 이동 · S 섞기 · R 안푼랜덤';
       } else {
-        dom.optionsKbdTip.textContent = '단축키: 1 ~ 5, S (섞기), Space (다음), R (안 푼 랜덤)';
+        dom.optionsKbdTip.textContent = '단축키: 1 ~ 5 · 0 정답보기 · ←/→·Space 이동 · S 섞기 · R 안푼랜덤';
       }
     }
 
@@ -2712,7 +2711,9 @@
         dom.optionsLabel.textContent = '주관식 / 서술형 / 단답형 복기 문항입니다.';
       }
       if (dom.optionsKbdTip) {
-        dom.optionsKbdTip.textContent = '단축키: Space 또는 Enter (정답 및 상세 해설 열기)';
+        dom.optionsKbdTip.textContent = isAnswered
+          ? '단축키: 0 다시풀기 · ←/→·Space 이동 · R 안푼랜덤'
+          : '단축키: 0·Enter 정답보기 · ←/→·Space 이동 · R 안푼랜덤';
       }
       if (dom.cardMultiBadge) {
         dom.cardMultiBadge.style.display = 'inline-flex';
