@@ -24,6 +24,7 @@
   const STORAGE_KEY_SYNC_ETAG = 'KMLE_SYNC_ETAG_V1';
   const STORAGE_KEY_SYNC_HASH = 'KMLE_SYNC_HASH_V1';
   const STORAGE_KEY_SYNC_DIRTY = 'KMLE_SYNC_DIRTY_V1';
+  const STORAGE_KEY_SYNC_SERVER_PROFILES = 'KMLE_SYNC_SERVER_PROFILES_V1';
   const SESSION_KEY_WELCOME_SHOWN = 'KMLE_PROFILE_WELCOME_SHOWN_V1';
   const CIRCLE_NUMS = ['①', '②', '③', '④', '⑤', '⑥', '⑦', '⑧', '⑨', '⑩'];
 
@@ -372,6 +373,18 @@
     pendingResyncSilent: true,
     lastSyncTime: null,
     lastSyncedMutationSeq: 0,
+    firstPendingAt: null,
+    forceFullActiveProfile: false,
+    lastUploadedAnswers: {},
+    knownServerProfileIds: (() => {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY_SYNC_SERVER_PROFILES);
+        const arr = raw ? JSON.parse(raw) : [];
+        return new Set(Array.isArray(arr) ? arr : []);
+      } catch (e) {
+        return new Set();
+      }
+    })(),
     AUTO_SYNC_INTERVAL_MS: 300000, // 5 minutes (paused when tab is hidden)
     lastSyncEtag: (() => { try { return localStorage.getItem(STORAGE_KEY_SYNC_ETAG) || ''; } catch (e) { return ''; } })(),
     lastSyncHash: (() => { try { return localStorage.getItem(STORAGE_KEY_SYNC_HASH) || ''; } catch (e) { return ''; } })(),
@@ -386,6 +399,9 @@
     })(),
 
     markDirty(scope = 'profile') {
+      if (!this.firstPendingAt) {
+        this.firstPendingAt = Date.now();
+      }
       if (scope === 'full') {
         this.hasFullWritePending = true;
         this.hasProfileWritePending = true;
@@ -409,6 +425,96 @@
       }
     },
 
+    persistKnownServerProfiles(profiles) {
+      if (Array.isArray(profiles)) {
+        profiles.forEach(p => {
+          if (p && p.id) this.knownServerProfileIds.add(p.id);
+        });
+      }
+      try {
+        localStorage.setItem(STORAGE_KEY_SYNC_SERVER_PROFILES, JSON.stringify(Array.from(this.knownServerProfileIds)));
+      } catch (e) {}
+    },
+
+    syncActiveStateToProfile(active) {
+      if (!active) return;
+      active.userAnswers = { ...state.userAnswers };
+      active.deletedAnswers = { ...(state.deletedAnswers || {}) };
+      active.bookmarks = [...state.bookmarks];
+      active.shuffleOptions = !!state.shuffleOptions;
+      active.filters = {
+        subject: state.filters.subject,
+        year: state.filters.year,
+        section: state.filters.section || 'ALL',
+        type: state.filters.type,
+        onlyFrequent: !!state.filters.onlyFrequent,
+        onlyImages: !!state.filters.onlyImages,
+        onlyIncorrect: !!state.filters.onlyIncorrect,
+        onlyBookmarked: !!state.filters.onlyBookmarked,
+        onlyCommented: !!state.filters.onlyCommented
+      };
+      const currentQ = getCurrentQuestion();
+      if (currentQ) {
+        active.lastQuestionId = currentQ.id;
+        if (currentQ.subject) {
+          if (!active.lastSubjectMap) active.lastSubjectMap = {};
+          active.lastSubjectMap[currentQ.subject] = currentQ.id;
+        }
+      }
+    },
+
+    buildActiveProfilePayload(active, sentFullUpload) {
+      if (sentFullUpload || !active) {
+        const safeProfiles = (Array.isArray(state.profiles) ? state.profiles : [])
+          .filter(p => p && !p._answersSlimmed);
+        return {
+          activeOnly: false,
+          lastSyncHash: this.lastSyncHash || '',
+          clientReports: Array.isArray(state.reports) ? state.reports : [],
+          clientComments: state.comments && typeof state.comments === 'object' ? state.comments : {},
+          clientEdits: state.customEdits && typeof state.customEdits === 'object' ? state.customEdits : {},
+          clientEditLogs: Array.isArray(state.editLogs) ? state.editLogs : [],
+          clientProfiles: safeProfiles,
+          activeProfileId: state.activeProfileId,
+          deletedCommentIds: Array.isArray(state.pendingDeletedCommentIds) ? state.pendingDeletedCommentIds : [],
+          deletedProfileIds: Array.isArray(state.pendingDeletedProfileIds) ? state.pendingDeletedProfileIds : []
+        };
+      }
+
+      const prevMap = this.lastUploadedAnswers[active.id];
+      const canUseDelta = !!(
+        this.lastSyncHash &&
+        this.knownServerProfileIds.has(active.id) &&
+        !this.forceFullActiveProfile &&
+        prevMap
+      );
+
+      if (canUseDelta) {
+        const deltaAnswers = {};
+        const curAnswers = active.userAnswers && typeof active.userAnswers === 'object' ? active.userAnswers : {};
+        for (const [qId, ans] of Object.entries(curAnswers)) {
+          if (prevMap[qId] !== ans) {
+            deltaAnswers[qId] = ans;
+          }
+        }
+        return {
+          activeOnly: true,
+          deltaAnswers: true,
+          lastSyncHash: this.lastSyncHash || '',
+          activeProfileId: state.activeProfileId,
+          clientProfiles: [{ ...active, userAnswers: deltaAnswers }]
+        };
+      }
+
+      return {
+        activeOnly: true,
+        deltaAnswers: false,
+        lastSyncHash: this.lastSyncHash || '',
+        activeProfileId: state.activeProfileId,
+        clientProfiles: [active]
+      };
+    },
+
     async sync({ silent = false, isInitial = false, force = false, keepalive = false } = {}) {
       if (this.isSyncing) {
         if (force) {
@@ -425,32 +531,10 @@
       }
 
       try {
-        // Ensure active profile state is up to date before syncing
+        // Ensure active profile state is up to date before syncing (never clobber position during init)
         const active = getActiveProfile();
-        if (active) {
-          active.userAnswers = { ...state.userAnswers };
-          active.deletedAnswers = { ...(state.deletedAnswers || {}) };
-          active.bookmarks = [...state.bookmarks];
-          active.shuffleOptions = !!state.shuffleOptions;
-          active.filters = {
-            subject: state.filters.subject,
-            year: state.filters.year,
-            section: state.filters.section || 'ALL',
-            type: state.filters.type,
-            onlyFrequent: !!state.filters.onlyFrequent,
-            onlyImages: !!state.filters.onlyImages,
-            onlyIncorrect: !!state.filters.onlyIncorrect,
-            onlyBookmarked: !!state.filters.onlyBookmarked,
-            onlyCommented: !!state.filters.onlyCommented
-          };
-          const currentQ = getCurrentQuestion();
-          if (currentQ) {
-            active.lastQuestionId = currentQ.id;
-            if (currentQ.subject) {
-              if (!active.lastSubjectMap) active.lastSubjectMap = {};
-              active.lastSubjectMap[currentQ.subject] = currentQ.id;
-            }
-          }
+        if (active && !isInitial && !state.isInitializing) {
+          this.syncActiveStateToProfile(active);
         }
 
         const hasPendingDeleted =
@@ -475,6 +559,8 @@
 
         const shouldPost = needsFullUpload || hasProfileMut || hasLocalUnsyncedDataOnFirstBoot;
         const sentFullUpload = needsFullUpload || hasLocalUnsyncedDataOnFirstBoot;
+        const activeIdAtStart = active ? active.id : null;
+        const sentAnswersSnapshot = active ? { ...(active.userAnswers || {}) } : null;
 
         let resp;
         if (!shouldPost) {
@@ -485,27 +571,8 @@
           const qStr = qs.toString();
           resp = await fetch(qStr ? `/api/sync?${qStr}` : '/api/sync', { method: 'GET' });
         } else {
-          // Compact write: active profile only for normal answer/bookmark sync; full payload only for global mutations
-          const payload = sentFullUpload
-            ? {
-                activeOnly: false,
-                lastSyncHash: this.lastSyncHash || '',
-                clientReports: Array.isArray(state.reports) ? state.reports : [],
-                clientComments: state.comments && typeof state.comments === 'object' ? state.comments : {},
-                clientEdits: state.customEdits && typeof state.customEdits === 'object' ? state.customEdits : {},
-                clientEditLogs: Array.isArray(state.editLogs) ? state.editLogs : [],
-                clientProfiles: Array.isArray(state.profiles) ? state.profiles : [],
-                activeProfileId: state.activeProfileId,
-                deletedCommentIds: Array.isArray(state.pendingDeletedCommentIds) ? state.pendingDeletedCommentIds : [],
-                deletedProfileIds: Array.isArray(state.pendingDeletedProfileIds) ? state.pendingDeletedProfileIds : []
-              }
-            : {
-                activeOnly: true,
-                lastSyncHash: this.lastSyncHash || '',
-                activeProfileId: state.activeProfileId,
-                clientProfiles: active ? [active] : []
-              };
-
+          // Compact write: delta activeOnly for normal answer/bookmark sync; full payload only for global mutations
+          const payload = this.buildActiveProfilePayload(active, sentFullUpload);
           const bodyJson = JSON.stringify(payload);
           resp = await fetch('/api/sync', {
             method: 'POST',
@@ -520,6 +587,16 @@
         }
 
         const data = await resp.json();
+        if (data && data.requireFullSync) {
+          if (activeIdAtStart) {
+            this.knownServerProfileIds.delete(activeIdAtStart);
+            delete this.lastUploadedAnswers[activeIdAtStart];
+          }
+          this.forceFullActiveProfile = true;
+          shouldResyncAfter = true;
+          return;
+        }
+
         if (data && data.success) {
           this.persistSyncTokens(data.etag, data.hash);
 
@@ -535,6 +612,7 @@
               this.hasFullWritePending = false;
             }
             this.hasProfileWritePending = false;
+            this.firstPendingAt = null;
             if (!this.hasFullWritePending) {
               try { localStorage.removeItem(STORAGE_KEY_SYNC_DIRTY); } catch (e) {}
             } else {
@@ -542,8 +620,18 @@
             }
           }
 
+          if (shouldPost && activeIdAtStart && sentAnswersSnapshot) {
+            this.lastUploadedAnswers[activeIdAtStart] = sentAnswersSnapshot;
+            this.forceFullActiveProfile = false;
+            this.persistKnownServerProfiles([active || { id: activeIdAtStart }]);
+          }
+
           // Fast path: server confirmed nothing changed (GET 304/hash match) or acknowledged our delta write (ackOnly)
           if (data.unchanged || data.ackOnly) {
+            if (!shouldPost && active && !this.hasProfileWritePending && !this.lastUploadedAnswers[active.id]) {
+              this.lastUploadedAnswers[active.id] = { ...(active.userAnswers || {}) };
+              this.persistKnownServerProfiles([active]);
+            }
             this.lastSyncedMutationSeq = syncStartSeq;
             this.lastSyncTime = Date.now();
             this.updateIndicator('online');
@@ -587,6 +675,9 @@
           }
 
           // 5. Apply server profiles ONLY if no local profile/answer mutations occurred while fetch was in flight
+          if (Array.isArray(data.profiles) && data.profiles.length > 0) {
+            this.persistKnownServerProfiles(data.profiles);
+          }
           if (state.profileMutationSeq !== syncStartSeq) {
             shouldResyncAfter = true;
           } else {
@@ -613,6 +704,7 @@
                 updatedActive = state.profiles[0];
               }
               state.activeProfileId = updatedActive.id;
+              this.lastUploadedAnswers[updatedActive.id] = { ...(updatedActive.userAnswers || {}) };
               loadProfileIntoMemory(updatedActive);
               try {
                 localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(state.profiles));
@@ -709,9 +801,15 @@
       }
     },
 
-    scheduleDebouncedSync(delayMs = 5000) {
-      const elapsed = Date.now() - (this.lastSyncTime || 0);
-      const waitMs = elapsed < 20000 ? Math.max(delayMs, 20000 - elapsed) : delayMs;
+    scheduleDebouncedSync(delayMs = 2500) {
+      if (!this.firstPendingAt) {
+        this.firstPendingAt = Date.now();
+      }
+      const elapsedSinceSync = Date.now() - (this.lastSyncTime || 0);
+      const elapsedSinceDirty = Date.now() - this.firstPendingAt;
+      let waitMs = elapsedSinceSync < 8000 ? Math.max(delayMs, 8000 - elapsedSinceSync) : delayMs;
+      const remainingMax = Math.max(0, 12000 - elapsedSinceDirty);
+      waitMs = Math.min(waitMs, remainingMax);
       if (this.syncTimer) clearTimeout(this.syncTimer);
       this.syncTimer = setTimeout(() => {
         this.sync({ silent: true });
@@ -747,6 +845,33 @@
         if (this.syncTimer) {
           clearTimeout(this.syncTimer);
           this.syncTimer = null;
+        }
+        if (this.isSyncing) {
+          const active = getActiveProfile();
+          if (active && !state.isInitializing) {
+            this.syncActiveStateToProfile(active);
+          }
+          const sendFull = this.hasFullWritePending;
+          const bodyJson = JSON.stringify(this.buildActiveProfilePayload(active, sendFull));
+          if (bodyJson.length < 60000) {
+            fetch('/api/sync', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: bodyJson,
+              keepalive: true
+            }).catch(() => {});
+          } else if (sendFull && active) {
+            const compactJson = JSON.stringify(this.buildActiveProfilePayload(active, false));
+            if (compactJson.length < 60000) {
+              fetch('/api/sync', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: compactJson,
+                keepalive: true
+              }).catch(() => {});
+            }
+          }
+          return;
         }
         this.sync({ silent: true, force: true, keepalive: true });
       };
@@ -1071,8 +1196,14 @@
    * Save state to local storage strictly scoped to the active profile
    */
   function saveStorage(options = {}) {
+    const forceLocalSave = !!(options && options.forceLocalSave);
+    if (state.isInitializing && !forceLocalSave) {
+      updateHeaderProfileUI();
+      return;
+    }
+
+    const skipTimestamp = !!(options && options.skipTimestamp) || !!state.isInitializing;
     try {
-      const skipTimestamp = !!(options && options.skipTimestamp) || !!state.isInitializing;
       const currentQ = getCurrentQuestion();
       const active = getActiveProfile();
       if (active) {
@@ -1108,27 +1239,40 @@
           onlyImages: !!state.filters.onlyImages,
           onlyIncorrect: !!state.filters.onlyIncorrect,
           onlyBookmarked: !!state.filters.onlyBookmarked,
-      onlyCommented: !!state.filters.onlyCommented
+          onlyCommented: !!state.filters.onlyCommented
         };
         if (!skipTimestamp) {
           active.updatedAt = Date.now();
           state.profileMutationSeq = (state.profileMutationSeq || 0) + 1;
         }
-        localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(state.profiles));
-        localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, active.id);
-      }
-
-      updateHeaderProfileUI();
-      if (!skipTimestamp && !state.isInitializing && typeof CloudSyncManager !== 'undefined') {
-        if (CloudSyncManager.markDirty) {
-          CloudSyncManager.markDirty('profile');
-        }
-        if (CloudSyncManager.scheduleDebouncedSync) {
-          CloudSyncManager.scheduleDebouncedSync(5000);
+        try {
+          localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(state.profiles));
+          localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, active.id);
+        } catch (storageErr) {
+          console.warn('localStorage quota exceeded, saving slimmed fallback:', storageErr);
+          try {
+            const slimmed = state.profiles.map(p =>
+              p && p.id === active.id ? p : { ...p, userAnswers: {}, _answersSlimmed: true }
+            );
+            localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(slimmed));
+            localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, active.id);
+          } catch (fallbackErr) {
+            console.warn('Slimmed localStorage fallback also failed:', fallbackErr);
+          }
         }
       }
     } catch (e) {
-      console.error('Failed to save to local storage:', e);
+      console.error('Failed to save state:', e);
+    }
+
+    updateHeaderProfileUI();
+    if (!skipTimestamp && !state.isInitializing && typeof CloudSyncManager !== 'undefined') {
+      if (CloudSyncManager.markDirty) {
+        CloudSyncManager.markDirty('profile');
+      }
+      if (CloudSyncManager.scheduleDebouncedSync) {
+        CloudSyncManager.scheduleDebouncedSync(2500);
+      }
     }
   }
 
@@ -3082,7 +3226,11 @@
         const passBtn = subjectiveWrapper.querySelector('.btn-grade-pass');
         const failBtn = subjectiveWrapper.querySelector('.btn-grade-fail');
         passBtn.addEventListener('click', () => {
-          state.userAnswers[q.id].isCorrect = true;
+          state.userAnswers[q.id] = {
+            ...state.userAnswers[q.id],
+            isCorrect: true,
+            timestamp: Date.now()
+          };
           revealAnswerAndExplanation(q, state.userAnswers[q.id], false);
           renderOptions(q);
           renderGrid();
@@ -3090,7 +3238,11 @@
           saveStorage();
         });
         failBtn.addEventListener('click', () => {
-          state.userAnswers[q.id].isCorrect = false;
+          state.userAnswers[q.id] = {
+            ...state.userAnswers[q.id],
+            isCorrect: false,
+            timestamp: Date.now()
+          };
           revealAnswerAndExplanation(q, state.userAnswers[q.id], false);
           renderOptions(q);
           renderGrid();
@@ -3856,27 +4008,34 @@
     }
     if (mySeq !== subjectSwitchSeq) return false;
 
-    state.filters.subject = newSub;
-    state.filters.year = 'ALL';
-    state.filters.section = 'ALL';
-    state.isSectionFilterExpanded = false; // Always collapsed by default
-    state.filters.type = 'ALL';
-    state.filters.onlyFrequent = false;
-    state.filters.onlyImages = false;
-    if (dom.filterFrequent) dom.filterFrequent.classList.remove('active');
-    if (dom.filterImages) dom.filterImages.classList.remove('active');
-    state.currentIndex = 0;
-    updateSubjectUI();
-
-    // Restore last saved question in this subject for the active profile
+    // Capture saved last question for target subject BEFORE updateSubjectUI resets/renders index 0
     const savedSubQId = state.lastSubjectMap && state.lastSubjectMap[newSub];
-    if (savedSubQId) {
-      const savedIdx = state.filteredQuestions.findIndex(q => q.id === savedSubQId);
-      if (savedIdx !== -1 && savedIdx !== state.currentIndex) {
-        state.currentIndex = savedIdx;
-        renderCurrentQuestion();
-        renderGrid();
+    const prevInit = state.isInitializing;
+    state.isInitializing = true;
+    try {
+      state.filters.subject = newSub;
+      state.filters.year = 'ALL';
+      state.filters.section = 'ALL';
+      state.isSectionFilterExpanded = false; // Always collapsed by default
+      state.filters.type = 'ALL';
+      state.filters.onlyFrequent = false;
+      state.filters.onlyImages = false;
+      if (dom.filterFrequent) dom.filterFrequent.classList.remove('active');
+      if (dom.filterImages) dom.filterImages.classList.remove('active');
+      state.currentIndex = 0;
+      updateSubjectUI();
+
+      // Restore last saved question in this subject for the active profile
+      if (savedSubQId) {
+        const savedIdx = state.filteredQuestions.findIndex(q => q.id === savedSubQId);
+        if (savedIdx !== -1 && savedIdx !== state.currentIndex) {
+          state.currentIndex = savedIdx;
+          renderCurrentQuestion();
+          renderGrid();
+        }
       }
+    } finally {
+      state.isInitializing = prevInit;
     }
     saveStorage();
     updateStats();
@@ -5818,6 +5977,10 @@
         }
         saveStorage();
         if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+          if (active && CloudSyncManager.lastUploadedAnswers) {
+            delete CloudSyncManager.lastUploadedAnswers[active.id];
+          }
+          CloudSyncManager.forceFullActiveProfile = true;
           CloudSyncManager.sync({ silent: true, force: true });
         }
         updateStats();
@@ -6679,12 +6842,22 @@
   }
 
   async function switchAndResumeProfile(profileId, targetSubjectOverride = null) {
-    const targetProfile = state.profiles.find(p => p.id === profileId);
+    let targetProfile = state.profiles.find(p => p.id === profileId);
     if (!targetProfile) return;
 
     // First save current active profile before switching without bumping its timestamp
     if (state.activeProfileId && state.activeProfileId !== profileId) {
-      saveStorage({ skipTimestamp: true });
+      saveStorage({ skipTimestamp: true, forceLocalSave: true });
+      if (typeof CloudSyncManager !== 'undefined' &&
+          (CloudSyncManager.hasProfileWritePending || (state.profileMutationSeq || 0) !== CloudSyncManager.lastSyncedMutationSeq) &&
+          CloudSyncManager.markDirty) {
+        CloudSyncManager.markDirty('full');
+      }
+    }
+
+    if (targetProfile._answersSlimmed && typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+      await CloudSyncManager.sync({ silent: true, force: true });
+      targetProfile = state.profiles.find(p => p.id === profileId) || targetProfile;
     }
 
     state.activeProfileId = targetProfile.id;
@@ -6756,7 +6929,7 @@
         }
       }
 
-      saveStorage({ skipTimestamp: true });
+      saveStorage({ skipTimestamp: true, forceLocalSave: true });
     } finally {
       state.isInitializing = prevInit;
     }
@@ -6896,6 +7069,10 @@
     }
     saveStorage();
     if (typeof CloudSyncManager !== 'undefined' && CloudSyncManager.sync) {
+      if (CloudSyncManager.lastUploadedAnswers) {
+        delete CloudSyncManager.lastUploadedAnswers[prof.id];
+      }
+      CloudSyncManager.forceFullActiveProfile = true;
       if (CloudSyncManager.markDirty) CloudSyncManager.markDirty('full');
       CloudSyncManager.sync({ silent: true, force: true });
     }

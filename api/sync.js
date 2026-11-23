@@ -15,6 +15,33 @@ function computeSyncHash(data) {
   return crypto.createHash('sha256').update(canonical).digest('hex').slice(0, 16);
 }
 
+function buildProfileMap(profiles) {
+  const map = new Map();
+  (profiles || []).forEach(p => {
+    if (p && p.id) {
+      map.set(p.id, p);
+    } else if (p && p.name) {
+      map.set(p.name, p);
+    }
+  });
+  return map;
+}
+
+// Match profiles strictly by ID (name fallback only for legacy entries without an ID)
+function findExistingProfile(map, cp) {
+  if (!cp) return null;
+  if (cp.id && map.has(cp.id)) return { key: cp.id, profile: map.get(cp.id) };
+  if (!cp.id && cp.name) {
+    const norm = cp.name.trim().toLowerCase();
+    for (const [k, p] of map.entries()) {
+      if (p && p.name && p.name.trim().toLowerCase() === norm) {
+        return { key: k, profile: p };
+      }
+    }
+  }
+  return null;
+}
+
 function mergeData(serverData, clientData) {
   // 1. Reports merge
   const reportMap = new Map();
@@ -623,14 +650,7 @@ function mergeData(serverData, clientData) {
     .slice(0, 30);
 
   // 4. Profiles merge
-  const profileMap = new Map();
-  (serverData.profiles || []).forEach(p => {
-    if (p && p.id) {
-      profileMap.set(p.id, p);
-    } else if (p && p.name) {
-      profileMap.set(p.name, p);
-    }
-  });
+  const profileMap = buildProfileMap(serverData.profiles);
 
   // Handle explicitly deleted profiles from client
   const deletedProfileSet = new Set(clientData.deletedProfileIds || []);
@@ -640,20 +660,6 @@ function mergeData(serverData, clientData) {
         profileMap.delete(k);
       }
     }
-  }
-
-  // Match profiles strictly by ID (name fallback only for legacy entries without an ID)
-  function findExistingProfile(map, cp) {
-    if (cp.id && map.has(cp.id)) return { key: cp.id, profile: map.get(cp.id) };
-    if (!cp.id && cp.name) {
-      const norm = cp.name.trim().toLowerCase();
-      for (const [k, p] of map.entries()) {
-        if (p && p.name && p.name.trim().toLowerCase() === norm) {
-          return { key: k, profile: p };
-        }
-      }
-    }
-    return null;
   }
 
   (clientData.clientProfiles || []).forEach(cp => {
@@ -819,6 +825,21 @@ export default async function handler(req, res) {
       const body = typeof req.body === 'string' ? JSON.parse(req.body) : (req.body || {});
       const { data: current, etag: currentEtag } = await fetchGistDataWithMeta({ throwOnError: true });
       const beforeHash = computeSyncHash(current);
+
+      if (body.deltaAnswers === true) {
+        const currentProfileMap = buildProfileMap(current.profiles);
+        const incomingProfiles = Array.isArray(body.clientProfiles) ? body.clientProfiles : [];
+        const allExist = incomingProfiles.length > 0 && incomingProfiles.every(cp => !!findExistingProfile(currentProfileMap, cp));
+        if (!allExist) {
+          return res.status(200).json({
+            success: true,
+            requireFullSync: true,
+            etag: currentEtag,
+            hash: beforeHash
+          });
+        }
+      }
+
       const merged = mergeData(current, body);
       const afterHash = computeSyncHash(merged);
 
@@ -827,6 +848,12 @@ export default async function handler(req, res) {
       if (gistChanged) {
         // Save merged state to GitHub Gist only when content actually changed (zero Vercel Blob usage)
         const saved = await saveGistDataWithMeta(merged);
+        if (!saved.ok) {
+          return res.status(502).json({
+            success: false,
+            error: 'Failed to persist sync data to GitHub Gist'
+          });
+        }
         finalEtag = saved.etag || '';
       }
 
