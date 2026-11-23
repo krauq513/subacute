@@ -823,7 +823,7 @@ export default async function handler(req, res) {
 
     if (req.method === 'POST') {
       const body = typeof req.body === 'string' ? JSON.parse(req.body) : (req.body || {});
-      const { data: current, etag: currentEtag } = await fetchGistDataWithMeta({ throwOnError: true });
+      const { data: current, etag: currentEtag, version: baseVersion } = await fetchGistDataWithMeta({ throwOnError: true });
       const beforeHash = computeSyncHash(current);
 
       if (body.deltaAnswers === true) {
@@ -840,25 +840,66 @@ export default async function handler(req, res) {
         }
       }
 
-      const merged = mergeData(current, body);
-      const afterHash = computeSyncHash(merged);
+      let merged = mergeData(current, body);
+      let afterHash = computeSyncHash(merged);
 
       const gistChanged = beforeHash !== afterHash;
+      let hadConflict = false;
       let finalEtag = currentEtag;
       if (gistChanged) {
         // Save merged state to GitHub Gist only when content actually changed (zero Vercel Blob usage)
-        const saved = await saveGistDataWithMeta(merged);
+        let saved = await saveGistDataWithMeta(merged);
         if (!saved.ok) {
           return res.status(502).json({
             success: false,
             error: 'Failed to persist sync data to GitHub Gist'
           });
         }
+
+        // Recover any intervening concurrent commits that landed between our GET and PATCH
+        let expectedParent = baseVersion;
+        for (let round = 0; round < 2; round++) {
+          if (!expectedParent || !saved.parentVersion || saved.parentVersion === expectedParent) {
+            break;
+          }
+          hadConflict = true;
+          const intervening = [];
+          for (let i = 1; i < (saved.history || []).length && intervening.length < 3; i++) {
+            const v = saved.history[i];
+            if (!v || v === expectedParent) break;
+            intervening.push(v);
+          }
+          let healed = merged;
+          for (const iv of intervening) {
+            const prevSnap = await fetchGistDataWithMeta({ throwOnError: false, version: iv });
+            if (prevSnap && prevSnap.data) {
+              healed = mergeData(prevSnap.data, {
+                clientReports: healed.reports,
+                clientComments: healed.comments,
+                clientEdits: healed.customEdits,
+                clientEditLogs: healed.editLogs,
+                clientProfiles: healed.profiles,
+                deletedCommentIds: body.deletedCommentIds,
+                deletedProfileIds: body.deletedProfileIds
+              });
+            }
+          }
+          merged = healed;
+          afterHash = computeSyncHash(merged);
+          expectedParent = saved.version;
+          saved = await saveGistDataWithMeta(merged);
+          if (!saved.ok) {
+            return res.status(502).json({
+              success: false,
+              error: 'Failed to persist conflict-merged sync data to GitHub Gist'
+            });
+          }
+        }
         finalEtag = saved.etag || '';
       }
 
       const clientWasSynced = !!(body.lastSyncHash && body.lastSyncHash === beforeHash);
-      if (!gistChanged && clientWasSynced) {
+      if (!hadConflict && !gistChanged && clientWasSynced) {
         return res.status(200).json({
           success: true,
           unchanged: true,
@@ -867,7 +908,7 @@ export default async function handler(req, res) {
           hash: beforeHash
         });
       }
-      if (gistChanged && clientWasSynced && body.activeOnly === true) {
+      if (!hadConflict && gistChanged && clientWasSynced && body.activeOnly === true) {
         return res.status(200).json({
           success: true,
           ackOnly: true,

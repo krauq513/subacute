@@ -375,6 +375,9 @@
     lastSyncedMutationSeq: 0,
     firstPendingAt: null,
     forceFullActiveProfile: false,
+    selfHealRetryCount: 0,
+    networkRetryCount: 0,
+    networkRetryTimer: null,
     lastUploadedAnswers: {},
     knownServerProfileIds: (() => {
       try {
@@ -399,6 +402,8 @@
     })(),
 
     markDirty(scope = 'profile') {
+      this.selfHealRetryCount = 0;
+      this.networkRetryCount = 0;
       if (!this.firstPendingAt) {
         this.firstPendingAt = Date.now();
       }
@@ -537,6 +542,11 @@
           this.syncActiveStateToProfile(active);
         }
 
+        if (isInitial && Array.isArray(state.profiles) && state.profiles.some(p => p && p._answersSlimmed)) {
+          this.lastSyncEtag = '';
+          this.lastSyncHash = '';
+        }
+
         const hasPendingDeleted =
           (Array.isArray(state.pendingDeletedCommentIds) && state.pendingDeletedCommentIds.length > 0) ||
           (Array.isArray(state.pendingDeletedProfileIds) && state.pendingDeletedProfileIds.length > 0);
@@ -598,6 +608,11 @@
         }
 
         if (data && data.success) {
+          this.networkRetryCount = 0;
+          if (this.networkRetryTimer) {
+            clearTimeout(this.networkRetryTimer);
+            this.networkRetryTimer = null;
+          }
           this.persistSyncTokens(data.etag, data.hash);
 
           if (shouldPost && sentFullUpload) {
@@ -686,6 +701,19 @@
               const currentActiveId = state.activeProfileId;
               const currentActiveProfile = state.profiles.find(p => p.id === currentActiveId);
               const currentActiveName = currentActiveProfile ? currentActiveProfile.name : null;
+              const localActiveSnapshot = currentActiveProfile
+                ? createProfileObject({
+                    ...currentActiveProfile,
+                    ...(!isInitial && !state.isInitializing ? {
+                      userAnswers: { ...state.userAnswers },
+                      deletedAnswers: { ...(state.deletedAnswers || {}) },
+                      bookmarks: [...state.bookmarks],
+                      lastSubjectMap: { ...(state.lastSubjectMap || {}) },
+                      filters: { ...state.filters },
+                      shuffleOptions: !!state.shuffleOptions
+                    } : {})
+                  })
+                : null;
               const prevQ = getCurrentQuestion();
               const prevQId = prevQ ? prevQ.id : null;
               const prevSubject = state.filters.subject;
@@ -695,21 +723,47 @@
               const prevResetAt = Number((currentActiveProfile && currentActiveProfile.resetAt) || 0);
 
               state.profiles = data.profiles.map(p => createProfileObject(p));
-              let updatedActive = state.profiles.find(p => p.id === currentActiveId);
-              if (!updatedActive && currentActiveId === 'profile_default' && currentActiveName) {
+              let updatedActiveIdx = state.profiles.findIndex(p => p.id === currentActiveId);
+              if (updatedActiveIdx === -1 && currentActiveId === 'profile_default' && currentActiveName) {
                 const norm = currentActiveName.trim().toLowerCase();
-                updatedActive = state.profiles.find(p => p && p.name && p.name.trim().toLowerCase() === norm);
+                updatedActiveIdx = state.profiles.findIndex(p => p && p.name && p.name.trim().toLowerCase() === norm);
               }
-              if (!updatedActive) {
-                updatedActive = state.profiles[0];
+              if (updatedActiveIdx === -1) {
+                updatedActiveIdx = 0;
               }
+              let updatedActive = state.profiles[updatedActiveIdx];
+              const confirmedServerAnswers = { ...(updatedActive.userAnswers || {}) };
+              this.lastUploadedAnswers[updatedActive.id] = confirmedServerAnswers;
+
+              const isSameActiveProfile = !!(
+                localActiveSnapshot &&
+                (updatedActive.id === localActiveSnapshot.id || (currentActiveId === 'profile_default' && localActiveSnapshot.name === updatedActive.name))
+              );
+              if (isSameActiveProfile) {
+                const { mergedProfile, serverMissingLocalData } = mergeActiveProfileNonDestructive(localActiveSnapshot, updatedActive);
+                updatedActive = mergedProfile;
+                state.profiles[updatedActiveIdx] = updatedActive;
+                if (serverMissingLocalData) {
+                  // Preserve selfHealRetryCount while marking profile dirty for re-upload
+                  if (!this.firstPendingAt) this.firstPendingAt = Date.now();
+                  this.hasProfileWritePending = true;
+                  if (!this.hasFullWritePending) {
+                    try { localStorage.setItem(STORAGE_KEY_SYNC_DIRTY, 'profile'); } catch (e) {}
+                  }
+                  if (this.selfHealRetryCount < 3) {
+                    this.selfHealRetryCount++;
+                    shouldResyncAfter = true;
+                  }
+                } else {
+                  this.selfHealRetryCount = 0;
+                }
+              } else {
+                this.selfHealRetryCount = 0;
+              }
+
               state.activeProfileId = updatedActive.id;
-              this.lastUploadedAnswers[updatedActive.id] = { ...(updatedActive.userAnswers || {}) };
               loadProfileIntoMemory(updatedActive);
-              try {
-                localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(state.profiles));
-                localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, state.activeProfileId);
-              } catch (e) {}
+              persistProfilesToLocalStorage(state.profiles, state.activeProfileId);
 
               if (!isInitial && !state.isInitializing) {
                 const activeSwitched = updatedActive.id !== currentActiveId;
@@ -790,6 +844,18 @@
       } catch (err) {
         console.warn('Cloud sync error (fallback to local):', err);
         this.updateIndicator('offline');
+        if (
+          (this.hasProfileWritePending || this.hasFullWritePending) &&
+          this.networkRetryCount < 3 &&
+          (typeof navigator === 'undefined' || navigator.onLine !== false)
+        ) {
+          this.networkRetryCount++;
+          if (this.networkRetryTimer) clearTimeout(this.networkRetryTimer);
+          this.networkRetryTimer = setTimeout(() => {
+            this.networkRetryTimer = null;
+            this.sync({ silent: true, force: true });
+          }, 8000);
+        }
       } finally {
         this.isSyncing = false;
         if (shouldResyncAfter || this.pendingResync) {
@@ -812,7 +878,7 @@
       waitMs = Math.min(waitMs, remainingMax);
       if (this.syncTimer) clearTimeout(this.syncTimer);
       this.syncTimer = setTimeout(() => {
-        this.sync({ silent: true });
+        this.sync({ silent: true, force: true });
       }, waitMs);
     },
 
@@ -1192,6 +1258,150 @@
     if (dom.headerProfileName) dom.headerProfileName.textContent = active.name || '기본 프로필';
   }
 
+  function persistProfilesToLocalStorage(profiles, activeId) {
+    const list = Array.isArray(profiles) ? profiles : [];
+    try {
+      localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(list));
+      if (activeId) {
+        localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, activeId);
+      }
+      return true;
+    } catch (storageErr) {
+      console.warn('localStorage quota exceeded, saving slimmed fallback:', storageErr);
+      try {
+        const slimmed = list.map(p =>
+          p && p.id === activeId ? p : { ...p, userAnswers: {}, _answersSlimmed: true }
+        );
+        localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(slimmed));
+        if (activeId) {
+          localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, activeId);
+        }
+        return true;
+      } catch (fallbackErr) {
+        console.warn('Slimmed localStorage fallback also failed:', fallbackErr);
+        return false;
+      }
+    }
+  }
+
+  function mergeActiveProfileNonDestructive(localActive, serverActive) {
+    if (!localActive) {
+      return { mergedProfile: serverActive, serverMissingLocalData: false };
+    }
+    if (!serverActive) {
+      return { mergedProfile: localActive, serverMissingLocalData: true };
+    }
+
+    const effectiveResetAt = Math.max(Number(localActive.resetAt || 0), Number(serverActive.resetAt || 0));
+
+    // 1. Merge deletedAnswers (keep max deletion timestamp >= effectiveResetAt)
+    const serverDeleted = serverActive.deletedAnswers && typeof serverActive.deletedAnswers === 'object' ? serverActive.deletedAnswers : {};
+    const localDeleted = localActive.deletedAnswers && typeof localActive.deletedAnswers === 'object' ? localActive.deletedAnswers : {};
+    const mergedDeleted = {};
+    for (const src of [serverDeleted, localDeleted]) {
+      for (const [qId, delTs] of Object.entries(src)) {
+        const tsNum = Number(delTs || 0);
+        if (tsNum >= effectiveResetAt && tsNum > (mergedDeleted[qId] || 0)) {
+          mergedDeleted[qId] = tsNum;
+        }
+      }
+    }
+
+    // 2. Union userAnswers by latest timestamp, respecting effectiveResetAt and mergedDeleted
+    const serverAnswers = serverActive.userAnswers && typeof serverActive.userAnswers === 'object' ? serverActive.userAnswers : {};
+    const localAnswers = localActive.userAnswers && typeof localActive.userAnswers === 'object' ? localActive.userAnswers : {};
+    const mergedAnswers = {};
+    for (const src of [serverAnswers, localAnswers]) {
+      for (const [qId, ans] of Object.entries(src)) {
+        if (!ans) continue;
+        const ansTime = Number(ans.timestamp || 0);
+        if (effectiveResetAt > 0 && ansTime < effectiveResetAt) continue;
+        if ((mergedDeleted[qId] || 0) > ansTime) continue;
+        const existing = mergedAnswers[qId];
+        if (!existing || ansTime >= Number(existing.timestamp || 0)) {
+          mergedAnswers[qId] = ans;
+        }
+      }
+    }
+
+    // 3. Merge bookmarks respecting bookmarksResetAt
+    const effectiveBookmarksResetAt = Math.max(Number(localActive.bookmarksResetAt || 0), Number(serverActive.bookmarksResetAt || 0));
+    const localUpdated = Number(localActive.updatedAt || 0);
+    const serverUpdated = Number(serverActive.updatedAt || 0);
+    const localBookmarksValid = effectiveBookmarksResetAt === 0 || localUpdated >= effectiveBookmarksResetAt;
+    const serverBookmarksValid = effectiveBookmarksResetAt === 0 || serverUpdated >= effectiveBookmarksResetAt;
+    const mergedBookmarks = Array.from(new Set([
+      ...(serverBookmarksValid && Array.isArray(serverActive.bookmarks) ? serverActive.bookmarks : []),
+      ...(localBookmarksValid && Array.isArray(localActive.bookmarks) ? localActive.bookmarks : [])
+    ]));
+
+    // 4. Merge subject positions non-destructively
+    const localWinsPosition = localUpdated >= serverUpdated;
+    const localPosValid = effectiveResetAt === 0 || localUpdated >= effectiveResetAt;
+    const serverPosValid = effectiveResetAt === 0 || serverUpdated >= effectiveResetAt;
+    const mergedSubjectMap = serverPosValid ? { ...(serverActive.lastSubjectMap || {}) } : {};
+    if (localPosValid && localActive.lastSubjectMap && typeof localActive.lastSubjectMap === 'object') {
+      for (const [sub, cVal] of Object.entries(localActive.lastSubjectMap)) {
+        if (!mergedSubjectMap[sub] || localWinsPosition) {
+          mergedSubjectMap[sub] = cVal;
+        }
+      }
+    }
+    const sLastQ = serverPosValid ? serverActive.lastQuestionId : null;
+    const lLastQ = localPosValid ? localActive.lastQuestionId : null;
+    const mergedLastQ = localWinsPosition
+      ? (lLastQ !== undefined ? lLastQ : sLastQ)
+      : (sLastQ !== undefined ? sLastQ : lLastQ);
+
+    const serverNameTime = Number(serverActive.nameUpdatedAt || 0);
+    const localNameTime = Number(localActive.nameUpdatedAt || 0);
+    const localWinsName = (serverNameTime > 0 || localNameTime > 0)
+      ? (localNameTime >= serverNameTime)
+      : localWinsPosition;
+
+    const mergedProfile = {
+      ...serverActive,
+      id: serverActive.id || localActive.id,
+      name: localWinsName ? (localActive.name || serverActive.name) : (serverActive.name || localActive.name),
+      avatar: localWinsName ? (localActive.avatar || serverActive.avatar || '🩺') : (serverActive.avatar || localActive.avatar || '🩺'),
+      nameUpdatedAt: Math.max(serverNameTime, localNameTime),
+      userAnswers: mergedAnswers,
+      deletedAnswers: mergedDeleted,
+      bookmarks: mergedBookmarks,
+      bookmarksResetAt: effectiveBookmarksResetAt,
+      lastQuestionId: mergedLastQ,
+      lastSubjectMap: mergedSubjectMap,
+      filters: localWinsPosition ? (localActive.filters || serverActive.filters) : (serverActive.filters || localActive.filters),
+      shuffleOptions: localWinsPosition
+        ? (localActive.shuffleOptions !== undefined ? localActive.shuffleOptions : serverActive.shuffleOptions)
+        : (serverActive.shuffleOptions !== undefined ? serverActive.shuffleOptions : localActive.shuffleOptions),
+      resetAt: effectiveResetAt,
+      createdAt: serverActive.createdAt || localActive.createdAt || Date.now(),
+      updatedAt: Math.max(serverUpdated, localUpdated) || Date.now()
+    };
+
+    // Detect if server is missing local answers, newer timestamps, or newer single-question deletions
+    let serverMissingLocalData = false;
+    for (const [qId, ans] of Object.entries(mergedAnswers)) {
+      const sAns = serverAnswers[qId];
+      if (!sAns || Number(ans.timestamp || 0) > Number(sAns.timestamp || 0)) {
+        serverMissingLocalData = true;
+        break;
+      }
+    }
+    if (!serverMissingLocalData) {
+      for (const [qId, delTs] of Object.entries(mergedDeleted)) {
+        const sAns = serverAnswers[qId];
+        if (sAns && Number(sAns.timestamp || 0) < delTs && delTs > Number(serverDeleted[qId] || 0)) {
+          serverMissingLocalData = true;
+          break;
+        }
+      }
+    }
+
+    return { mergedProfile, serverMissingLocalData };
+  }
+
   /**
    * Save state to local storage strictly scoped to the active profile
    */
@@ -1245,21 +1455,7 @@
           active.updatedAt = Date.now();
           state.profileMutationSeq = (state.profileMutationSeq || 0) + 1;
         }
-        try {
-          localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(state.profiles));
-          localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, active.id);
-        } catch (storageErr) {
-          console.warn('localStorage quota exceeded, saving slimmed fallback:', storageErr);
-          try {
-            const slimmed = state.profiles.map(p =>
-              p && p.id === active.id ? p : { ...p, userAnswers: {}, _answersSlimmed: true }
-            );
-            localStorage.setItem(STORAGE_KEY_PROFILES, JSON.stringify(slimmed));
-            localStorage.setItem(STORAGE_KEY_ACTIVE_PROFILE_ID, active.id);
-          } catch (fallbackErr) {
-            console.warn('Slimmed localStorage fallback also failed:', fallbackErr);
-          }
-        }
+        persistProfilesToLocalStorage(state.profiles, active.id);
       }
     } catch (e) {
       console.error('Failed to save state:', e);
