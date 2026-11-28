@@ -1,16 +1,21 @@
 {
   "name": "subacute",
   "version": "2.0.0",
-  "description": "subacute - 임상의학 기출 퀴즈 마스터 (9개 분과 2,267문항 CBT)",
+  "type": "module",
+  "description": "subacute - 임상의학 기출 퀴즈 마스터 (9개 분과 2,555문항 CBT)",
   "main": "index.html",
   "scripts": {
     "start": "npx serve .",
-    "dev": "npx serve ."
+    "dev": "npx serve .",
+    "build:cf": "node scripts/build-cf.mjs",
+    "cf:dev": "node scripts/build-cf.mjs && npx wrangler pages dev dist",
+    "cf:deploy": "node scripts/build-cf.mjs && npx wrangler pages deploy dist --project-name=subacute"
   },
   "keywords": [
     "kmle",
     "laboratory-medicine",
     "quiz",
+    "cloudflare",
     "vercel"
   ],
   "author": "",

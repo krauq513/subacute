@@ -1,0 +1,29 @@
+/data/*
+  Cache-Control: public, max-age=86400, s-maxage=31536000, stale-while-revalidate=86400
+
+/data/subjects/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/images_webp/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/original_pdf/*
+  Cache-Control: public, max-age=604800, s-maxage=31536000, stale-while-revalidate=86400
+
+/vendor/*
+  Cache-Control: public, max-age=604800, s-maxage=31536000, stale-while-revalidate=604800
+
+/style.css
+  Cache-Control: public, max-age=31536000, immutable
+
+/app.js
+  Cache-Control: public, max-age=31536000, immutable
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
