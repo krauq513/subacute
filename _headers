@@ -1,4 +1,7 @@
-/data/*
+/data/subjects_manifest.js
+  Cache-Control: public, max-age=86400, s-maxage=31536000, stale-while-revalidate=86400
+
+/data/pdf_manifest.js
   Cache-Control: public, max-age=86400, s-maxage=31536000, stale-while-revalidate=86400
 
 /data/subjects/*
